@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "cannon",
+    "cnname": "Redmi Note 9 5G",
+    "enname": "Redmi Note 9 5G",
     "attentions":[
         {
             "cn":"",
@@ -10,36 +10,490 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.10.24.DEV_2011074ce7_12.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.10.17.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.10.17.DEV_4374ef90f0_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.10.11.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.10.11.DEV_0f4b87da23_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.28.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.9.28.DEV_68c8aea46d_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.19.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.9.19.DEV_d055bd05e5_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.12.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.9.12.DEV_8084a23d71_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.5.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.9.5.DEV_855d53cb89_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.8.29.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.8.29.DEV_97ee60c43b_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.8.22.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.8.22.DEV_7a7fce8d27_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.8.16.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.1.22.8.16.DEV_d692fccc8c_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.59.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.59.DEV_eb8af32aa4_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.56.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.56.DEV_d2ca4c58d8_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.55.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.55.DEV_92e9b41a71_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.50.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.50.DEV_fe322b5750_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.46.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.46.DEV_fdd1f1ca88_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.45.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.45.DEV_db9b99dfaa_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.43.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.43.DEV_7762540e66_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.40.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.40.DEV_e6e05e78f0_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.39.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.39.DEV_d735d5506f_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.2.1.37.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.1.37.DEV_7cca3a97d6_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.1.1.35.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.1.1.35.DEV_0ec35500be_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.0.1.32.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.0.1.32.DEV_f91f9d35d5_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.0.1.29.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.0.1.29.DEV_15711a8667_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.0.1.28.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.0.1.28.DEV_39e88d8db2_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.3.2",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_22.3.2_beaed4374b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.2.23",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_22.2.23_dad511376d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.2.17",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_22.2.17_14387ded78_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.2.9",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_22.2.9_0f7d0333f0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.19",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_22.1.19_35c6f9ab9e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.13",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_22.1.13_8a9d85a0b0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.5",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_22.1.5_f176dcd474_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.29",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.12.29_92d06a801e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.8",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.12.8_b680fdb531_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.2",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.12.2_25fa15b4c7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.24",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.11.24_cd923f905e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.17",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.11.17_c5880d7416_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.10",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.11.10_0d43264c96_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.3",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.11.3_66d26ca39f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.28",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.10.28_4f8fde358e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.20",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.10.20_2336529246_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.13",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.10.13_c649771a34_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.28",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.9.28_e6217bd1ad_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.22",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.9.22_53b83554f8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.15",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.9.15_607d7451e8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.8",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.9.8_fe87372813_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.2",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.9.2_894fbd10db_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.25",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.8.25_7347a22ec0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.18",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.8.18_1942f3103b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.12",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.8.12_cf542c8ece_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.4",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.8.4_ba90d821f4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.28",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.7.28_843730c767_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.21",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.7.21_0cd1544659_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.14",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.7.14_aca59ef9ea_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.7",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.7.7_48a3a73b57_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.30",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.6.30_b0c48a1fdb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.23",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.6.23_61932abb97_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.16",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.6.16_66dc24a14c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.9",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.6.9_3ab2edbf3e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.2",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.6.2_b2fe7cfdf7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.27",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.5.27_f3bcaf58cb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.20",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.5.20_64d8bcacf9_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.12",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.5.12_dc8d700761_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.28",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.4.28_8eab744493_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.21",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.4.21_4957a0f45d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.14",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.4.14_9181173f10_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.7",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.4.7_3bb77891c2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.31",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.3.31_a9a83826d1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.24",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.3.24_3a122d784d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.18",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.3.18_25e4b660db_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.10",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.3.10_e800b4ab8b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.3",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.3.3_18502cae3a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.24",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.2.24_c9d6adf0c2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.4",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.2.4_4d8d21ebff_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.28",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.1.28_9174f340b3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.20",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.1.20_85641b47ba_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.13",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.1.13_a8bb701aa7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.6",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_21.1.6_1f1cfd1f6b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.28",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_20.12.28_a75e525e82_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.25",
+                    "android": "11.0",
+                    "recovery": "",
+                    "fastboot": "cannon_images_20.12.25_20201225.0000.00_11.0_cn_a31111d4d8.tgz"
                 }
             ]
         },
         {
             "branch": "cnmo",
-            "show": "1",
+            "show": "0",
             "cnname": "中国大陆正式版",
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
@@ -58,136 +512,100 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.3.0.SJECNXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.3.0.SJECNXM_e0fdc7880b_12.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V13.0.2.0.SJECNXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.2.0.SJECNXM_9f45a3cc45_12.0.zip",
+                    "fastboot": "cannon_images_V13.0.2.0.SJECNXM_20220602.0000.00_12.0_cn_0644e27312.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.1.0.SJECNXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNON_V13.0.1.0.SJECNXM_9a9a01d76e_12.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V12.5.9.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.9.0.RJECNXM_6c53fed2d8_11.0.zip",
+                    "fastboot": "cannon_images_V12.5.9.0.RJECNXM_20211227.0000.00_11.0_cn_e53147cd7d.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V12.5.8.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.8.0.RJECNXM_1201c1e8c1_11.0.zip",
+                    "fastboot": "cannon_images_V12.5.8.0.RJECNXM_20211024.0000.00_11.0_cn_e733e4ea3f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.5.7.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.7.0.RJECNXM_683a6cb9f1_11.0.zip",
+                    "fastboot": "cannon_images_V12.5.7.0.RJECNXM_20210916.0000.00_11.0_cn_8d4ac60a5c.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.5.6.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.6.0.RJECNXM_03e11a1f94_11.0.zip",
+                    "fastboot": "cannon_images_V12.5.6.0.RJECNXM_20210804.0000.00_11.0_cn_6cac6ae196.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V12.5.4.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.4.0.RJECNXM_f248e88994_11.0.zip",
+                    "fastboot": "cannon_images_V12.5.4.0.RJECNXM_20210630.0000.00_11.0_cn_8c099a8440.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V12.5.3.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.3.0.RJECNXM_9a6ee651c7_11.0.zip",
+                    "fastboot": "cannon_images_V12.5.3.0.RJECNXM_20210608.0000.00_11.0_cn_a027e34452.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.2.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.2.0.RJECNXM_577e820250_11.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V12.5.1.0.RJECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNON_V12.5.1.0.RJECNXM_6873b51dd8_11.0.zip",
+                    "fastboot": "cannon_images_V12.5.1.0.RJECNXM_20210420.0000.00_11.0_cn_2db1b3b7f9.tgz"
+                },
+                {
+                    "miui": "V12.0.9.0.QJECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNON_V12.0.9.0.QJECNXM_873e9cfff9_10.0.zip",
+                    "fastboot": "cannon_images_V12.0.9.0.QJECNXM_20210309.0000.00_10.0_cn_7668ea0ebd.tgz"
+                },
+                {
+                    "miui": "V12.0.8.0.QJECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNON_V12.0.8.0.QJECNXM_2710ca256e_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V12.0.6.0.QJECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNON_V12.0.6.0.QJECNXM_1e4df76006_10.0.zip",
+                    "fastboot": "cannon_images_V12.0.6.0.QJECNXM_20210107.0000.00_10.0_cn_7bd3f18751.tgz"
+                },
+                {
+                    "miui": "V12.0.5.0.QJECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNON_V12.0.5.0.QJECNXM_f7f281427e_10.0.zip",
+                    "fastboot": "cannon_images_V12.0.5.0.QJECNXM_20201224.0000.00_10.0_cn_3d000d6afd.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QJECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNON_V12.0.3.0.QJECNXM_1fd3c53c91_10.0.zip",
+                    "fastboot": "cannon_images_V12.0.3.0.QJECNXM_20201118.0000.00_10.0_cn_264059999e.tgz"
                 }
             ]
         },
@@ -198,80 +616,34 @@
             "enname": "China Taiwan Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                    "miui": "V13.0.1.0.SJETWXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGTWGlobal_V13.0.1.0.SJETWXM_3e86753946_12.0.zip",
+                    "fastboot": "cannong_tw_global_images_V13.0.1.0.SJETWXM_20220728.0000.00_12.0_global_5c5c11cfa3.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V12.5.3.0.RJETWXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGTWGlobal_V12.5.3.0.RJETWXM_825d551c9a_11.0.zip",
+                    "fastboot": "cannong_tw_global_images_V12.5.3.0.RJETWXM_20220307.0000.00_11.0_global_4bdc7ef2a8.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                    "miui": "V12.5.2.0.RJETWXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGTWGlobal_V12.5.2.0.RJETWXM_01a63d0f8a_11.0.zip",
+                    "fastboot": "cannong_tw_global_images_V12.5.2.0.RJETWXM_20211119.0000.00_11.0_global_647d586570.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                    "miui": "V12.5.1.0.RJETWXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGTWGlobal_V12.5.1.0.RJETWXM_c9ee827162_11.0.zip",
+                    "fastboot": "cannong_tw_global_images_V12.5.1.0.RJETWXM_20210709.0000.00_11.0_global_ca852a4c82.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V12.0.4.0.QJETWXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGTWGlobal_V12.0.4.0.QJETWXM_18cd238a8e_10.0.zip",
+                    "fastboot": "cannong_tw_global_images_V12.0.4.0.QJETWXM_20210125.0000.00_10.0_global_778f7c7899.tgz"
                 }
             ]
         },
@@ -282,10 +654,76 @@
             "enname": "Global Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V13.0.3.0.SJEMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGGlobal_V13.0.3.0.SJEMIXM_3e0f210a9e_12.0.zip",
+                    "fastboot": "cannong_global_images_V13.0.3.0.SJEMIXM_20220829.0000.00_12.0_global_206ca32877.tgz"
+                },
+                {
+                    "miui": "V13.0.2.0.SJEMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGGlobal_V13.0.2.0.SJEMIXM_fc32b78fc5_12.0.zip",
+                    "fastboot": "cannong_global_images_V13.0.2.0.SJEMIXM_20220715.0000.00_12.0_global_96efa46360.tgz"
+                },
+                {
+                    "miui": "V13.0.1.0.SJEMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGGlobal_V13.0.1.0.SJEMIXM_710e0a124e_12.0.zip",
+                    "fastboot": "cannong_global_images_V13.0.1.0.SJEMIXM_20220620.0000.00_12.0_global_e2c77bef3b.tgz"
+                },
+                {
+                    "miui": "V12.5.8.0.RJEMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGGlobal_V12.5.8.0.RJEMIXM_a2ab059c5d_11.0.zip",
+                    "fastboot": "cannong_global_images_V12.5.8.0.RJEMIXM_20220323.0000.00_11.0_global_2682be38ac.tgz"
+                },
+                {
+                    "miui": "V12.5.7.0.RJEMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGGlobal_V12.5.7.0.RJEMIXM_50f370c72f_11.0.zip",
+                    "fastboot": "cannong_global_images_V12.5.7.0.RJEMIXM_20211227.0000.00_11.0_global_185d6fcbd3.tgz"
+                },
+                {
+                    "miui": "V12.5.6.0.RJEMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGGlobal_V12.5.6.0.RJEMIXM_90b6f4fa8b_11.0.zip",
+                    "fastboot": "cannong_global_images_V12.5.6.0.RJEMIXM_20211104.0000.00_11.0_global_dd4fa7830e.tgz"
+                },
+                {
+                    "miui": "V12.5.5.0.RJEMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGGlobal_V12.5.5.0.RJEMIXM_c11796fc8b_11.0.zip",
+                    "fastboot": "cannong_global_images_V12.5.5.0.RJEMIXM_20210928.0000.00_11.0_global_46b862d8db.tgz"
+                },
+                {
+                    "miui": "V12.5.4.0.RJEMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGGlobal_V12.5.4.0.RJEMIXM_002c155fcb_11.0.zip",
+                    "fastboot": "cannong_global_images_V12.5.4.0.RJEMIXM_20210729.0000.00_11.0_global_7b48ac48b0.tgz"
+                },
+                {
+                    "miui": "V12.5.2.0.RJEMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGGlobal_V12.5.2.0.RJEMIXM_06c158b83a_11.0.zip",
+                    "fastboot": "cannong_global_images_V12.5.2.0.RJEMIXM_20210602.0000.00_11.0_global_a7b9fd89b7.tgz"
+                },
+                {
+                    "miui": "V12.0.8.0.QJEMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGGlobal_V12.0.8.0.QJEMIXM_0a018bd4bc_10.0.zip",
+                    "fastboot": "cannong_global_images_V12.0.8.0.QJEMIXM_20210315.0000.00_10.0_global_03f74aa390.tgz"
+                },
+                {
+                    "miui": "V12.0.6.0.QJEMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGGlobal_V12.0.6.0.QJEMIXM_a74bf46974_10.0.zip",
+                    "fastboot": "cannong_global_images_V12.0.6.0.QJEMIXM_20210125.0000.00_10.0_global_5907c18a12.tgz"
+                },
+                {
+                    "miui": "V12.0.5.0.QJEMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGGlobal_V12.0.5.0.QJEMIXM_785a8651e3_10.0.zip",
+                    "fastboot": "cannong_global_images_V12.0.5.0.QJEMIXM_20201230.0000.00_10.0_global_57eb5a953e.tgz"
                 }
             ]
         },
@@ -296,10 +734,64 @@
                 "enname": "Europe EEA Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V13.0.3.0.SJEEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V13.0.3.0.SJEEUXM_e5aa1189ff_12.0.zip",
+                    "fastboot": "cannong_eea_global_images_V13.0.3.0.SJEEUXM_20220901.0000.00_12.0_eea_b61c70e008.tgz"
+                },
+                {
+                    "miui": "V13.0.2.0.SJEEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V13.0.2.0.SJEEUXM_237d7d0061_12.0.zip",
+                    "fastboot": "cannong_eea_global_images_V13.0.2.0.SJEEUXM_20220715.0000.00_12.0_eea_49ff8a96bf.tgz"
+                },
+                {
+                    "miui": "V12.5.8.0.RJEEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.5.8.0.RJEEUXM_81a455a4b7_11.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.5.8.0.RJEEUXM_20220323.0000.00_11.0_eea_15b0f76093.tgz"
+                },
+                {
+                    "miui": "V12.5.7.0.RJEEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.5.7.0.RJEEUXM_5d6ce9a3e8_11.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.5.7.0.RJEEUXM_20211230.0000.00_11.0_eea_4488ba52bc.tgz"
+                },
+                {
+                    "miui": "V12.5.6.0.RJEEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.5.6.0.RJEEUXM_86e31f0ee5_11.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.5.6.0.RJEEUXM_20211103.0000.00_11.0_eea_3838f20fcb.tgz"
+                },
+                {
+                    "miui": "V12.5.5.0.RJEEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.5.5.0.RJEEUXM_d0feeebd4f_11.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.5.5.0.RJEEUXM_20211018.0000.00_11.0_eea_b4bf2fe37d.tgz"
+                },
+                {
+                    "miui": "V12.5.4.0.RJEEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.5.4.0.RJEEUXM_61ab3342b3_11.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.5.4.0.RJEEUXM_20210803.0000.00_11.0_eea_04f37911ae.tgz"
+                },
+                {
+                    "miui": "V12.5.2.0.RJEEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.5.2.0.RJEEUXM_1224968be4_11.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.5.2.0.RJEEUXM_20210602.0000.00_11.0_eea_afbbfa11c5.tgz"
+                },
+                {
+                    "miui": "V12.0.7.0.QJEEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.0.7.0.QJEEUXM_139263f88c_10.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.0.7.0.QJEEUXM_20210218.0000.00_10.0_eea_cea3dbbc15.tgz"
+                },
+                {
+                    "miui": "V12.0.4.0.QJEEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGEEAGlobal_V12.0.4.0.QJEEUXM_ab1f9a2fe5_10.0.zip",
+                    "fastboot": "cannong_eea_global_images_V12.0.4.0.QJEEUXM_20210108.0000.00_10.0_eea_143ab8bbcd.tgz"
                 }
             ]
         },
@@ -310,38 +802,40 @@
                 "enname": "Russia Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
+                    "miui": "V13.0.1.0.SJERUXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGRUGlobal_V13.0.1.0.SJERUXM_37d2072254_12.0.zip",
+                    "fastboot": "cannong_ru_global_images_V13.0.1.0.SJERUXM_20220822.0000.00_12.0_global_422b9b3bcf.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
+                    "miui": "V12.5.3.0.RJERUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGRUGlobal_V12.5.3.0.RJERUXM_067ee834f7_11.0.zip",
+                    "fastboot": "cannong_ru_global_images_V12.5.3.0.RJERUXM_20220223.0000.00_11.0_global_88b355e59a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V12.5.2.0.RJERUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGRUGlobal_V12.5.2.0.RJERUXM_e2ede22f7e_11.0.zip",
+                    "fastboot": "cannong_ru_global_images_V12.5.2.0.RJERUXM_20211123.0000.00_11.0_global_aa8abcbae1.tgz"
+                },
+                {
+                    "miui": "V12.5.1.0.RJERUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGRUGlobal_V12.5.1.0.RJERUXM_7ee4472fab_11.0.zip",
+                    "fastboot": "cannong_ru_global_images_V12.5.1.0.RJERUXM_20210707.0000.00_11.0_global_6ad09a39b8.tgz"
+                },
+                {
+                    "miui": "V12.0.2.0.QJERUXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGRUGlobal_V12.0.2.0.QJERUXM_bca933c8b3_10.0.zip",
+                    "fastboot": "cannong_ru_global_images_V12.0.2.0.QJERUXM_20210311.0000.00_10.0_global_e3f41cbd50.tgz"
+                },
+                {
+                    "miui": "V12.0.1.0.QJERUXM",
+                    "android": "10.0",
+                    "recovery": "miui_CANNONGRUGlobal_V12.0.1.0.QJERUXM_c9f497ab25_10.0.zip",
+                    "fastboot": "cannong_ru_global_images_V12.0.1.0.QJERUXM_20201230.0000.00_10.0_global_0567890ae6.tgz"
                 }
             ]
         },
@@ -352,24 +846,28 @@
                 "enname": "Turkey Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.1.0.SJETRXM",
+                    "android": "12.0",
+                    "recovery": "miui_CANNONGTRGlobal_V13.0.1.0.SJETRXM_db2b7337d2_12.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V12.5.3.0.RJETRXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGTRGlobal_V12.5.3.0.RJETRXM_d2def4ef71_11.0.zip",
+                    "fastboot": "cannong_tr_global_images_V12.5.3.0.RJETRXM_20220307.0000.00_11.0_global_44cbd1630a.tgz"
+                },
+                {
+                    "miui": "V12.5.2.0.RJETRXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGTRGlobal_V12.5.2.0.RJETRXM_05afa99d15_11.0.zip",
+                    "fastboot": "cannong_tr_global_images_V12.5.2.0.RJETRXM_20211123.0000.00_11.0_global_fe39e98621.tgz"
+                },
+                {
+                    "miui": "V12.5.1.0.RJETRXM",
+                    "android": "11.0",
+                    "recovery": "miui_CANNONGTRGlobal_V12.5.1.0.RJETRXM_b2c38321f2_11.0.zip",
+                    "fastboot": "cannong_tr_global_images_V12.5.1.0.RJETRXM_20210707.0000.00_11.0_global_3eae4e57bb.tgz"
                 }
             ]
         }

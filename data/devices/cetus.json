@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "cetus",
+    "cnname": "小米 MIX FOLD",
+    "enname": "Mi MIX FOLD",
     "attentions":[
         {
             "cn":"",
@@ -10,36 +10,214 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
+                    "miui": "V13.0.0.1.46.DEV",
+                    "android": "12.0",
                     "recovery": "",
+                    "fastboot": "cetus_images_V13.0.0.1.46.DEV_20220712.0000.00_12.0_cn_a2ea57181a.tgz"
+                },
+                {
+                    "miui": "22.3.23",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_22.3.23_8c164c10b1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.3.9",
+                    "android": "11.0",
+                    "recovery": "",
+                    "fastboot": "cetus_images_22.3.9_20220309.0000.00_11.0_cn_5d2984d33a.tgz"
+                },
+                {
+                    "miui": "22.2.17",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_22.2.17_5d6a1ecb5a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.2.9",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_22.2.9_368d845a8a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.19",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_22.1.19_447e1f29f7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.5",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_22.1.5_c145df92da_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.29",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.12.29_3836feff5a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.8",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.12.8_fbcfb886c1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.1",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.12.1_ccd1449d97_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.24",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.11.24_09ff8a060c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.17",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.11.17_3473c9b2ca_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.10",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.11.10_b5a8aeeb36_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.3",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.11.3_9cee4e6929_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.27",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.10.27_ea7a1ca754_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.20",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.10.20_319430a151_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.13",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.10.13_336895a80a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.28",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.9.28_61122b4164_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.22",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.9.22_2eb0c043fe_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.15",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.9.15_86e979243d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.8",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.9.8_c1d63fd499_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.11",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.8.11_fbc3387f7b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.4",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.8.4_408c76d39c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.28",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.7.28_fe389485f1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.21",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.7.21_e48e96d008_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.14",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.7.14_d70abf8b99_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.7",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.7.7_ccf21d731f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.30",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.6.30_fefcad293c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.23",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.6.23_ddba230c14_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.16",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.6.16_251bcbc646_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.9",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.6.9_1c5eb2301e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.2",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.6.2_45877911b4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.20",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_21.5.20_e912406d4f_11.0.zip",
                     "fastboot": ""
                 }
             ]
         },
         {
             "branch": "cnmo",
-            "show": "1",
+            "show": "0",
             "cnname": "中国大陆正式版",
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
@@ -58,318 +236,70 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V13.1.1.0.SJTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_CETUS_V13.1.1.0.SJTCNXM_e3f8809c79_12.0.zip",
+                    "fastboot": "cetus_images_V13.1.1.0.SJTCNXM_20220816.0000.00_12.0_cn_c805e5db85.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V13.0.3.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V13.0.3.0.RJTCNXM_aeb9723e83_11.0.zip",
+                    "fastboot": "cetus_images_V13.0.3.0.RJTCNXM_20220427.0000.00_11.0_cn_c6832801f1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.2.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V13.0.2.0.RJTCNXM_0dcc796a2c_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V12.5.4.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.5.4.0.RJTCNXM_c09aa6b771_11.0.zip",
+                    "fastboot": "cetus_images_V12.5.4.0.RJTCNXM_20211209.0000.00_11.0_cn_39dd7f161f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V12.5.1.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.5.1.0.RJTCNXM_4f9964d8f8_11.0.zip",
+                    "fastboot": "cetus_images_V12.5.1.0.RJTCNXM_20211021.0000.00_11.0_cn_8315d9e673.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.0.5.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.0.5.0.RJTCNXM_ec6b2659db_11.0.zip",
+                    "fastboot": "cetus_images_V12.0.5.0.RJTCNXM_20210327.0000.00_11.0_cn_68ba78b3e7.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.0.21.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.0.21.0.RJTCNXM_88269eae6e_11.0.zip",
+                    "fastboot": "cetus_images_V12.0.21.0.RJTCNXM_20210805.0000.00_11.0_cn_460a1455f2.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V12.0.19.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.0.19.0.RJTCNXM_21022a4a29_11.0.zip",
+                    "fastboot": "cetus_images_V12.0.19.0.RJTCNXM_20210712.0000.00_11.0_cn_5ae781e4f8.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V12.0.16.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.0.16.0.RJTCNXM_53750bc6e6_11.0.zip",
+                    "fastboot": "cetus_images_V12.0.16.0.RJTCNXM_20210625.0000.00_11.0_cn_cfeb903b70.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V12.0.11.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.0.11.0.RJTCNXM_c7df5e83d2_11.0.zip",
+                    "fastboot": "cetus_images_V12.0.11.0.RJTCNXM_20210508.0000.00_11.0_cn_9e69aa3ec3.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V12.0.10.0.RJTCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CETUS_V12.0.10.0.RJTCNXM_631bf2b214_11.0.zip",
+                    "fastboot": "cetus_images_V12.0.10.0.RJTCNXM_20210501.0000.00_11.0_cn_ea50bbf2e2.tgz"
                 }
             ]
         }
