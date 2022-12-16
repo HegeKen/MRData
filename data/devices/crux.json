@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "crux",
+    "cnname": "小米 9 Pro 5G",
+    "enname": "Mi 9 Pro 5G",
     "attentions":[
         {
             "cn":"",
@@ -10,43 +10,561 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "21.11.24",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.11.24_6657d046c8_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "21.11.17",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.11.17_fbaa901931_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.10",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.11.10_998f701798_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.3",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.11.3_35ca559956_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.28",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.10.28_351313c2b1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.20",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.10.20_6669d0b702_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.13",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.10.13_c155fd1018_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.28",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.9.28_18d8eee9c2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.22",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.9.22_51330df4aa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.15",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.9.15_763efce878_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.8",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.9.8_7d96bae274_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.1",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.9.1_f6720ecd18_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.25",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.8.25_17a3572ed0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.18",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.8.18_10421ce7b0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.11",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.8.11_4bfdebad27_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.4",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.8.4_54c848990c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.28",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.7.28_e8eed9deec_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.21",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.7.21_35c0125f9b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.14",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.7.14_289a2e7310_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.7",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.7.7_e55a5301d6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.30",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.6.30_a47ba8399c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.23",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.6.23_485d42cb2a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.17",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.6.17_083dd8daf8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.16",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.6.16_e494d63957_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.9",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.6.9_120339f20c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.2",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.6.2_5b893b6366_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.26",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.5.26_26f2858dc1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.20",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.5.20_4d6e402c56_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.12",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.5.12_f56ee6e06a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.28",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.4.28_b79ca0fde4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.22",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.4.22_f3cd3bcbfc_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.14",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.4.14_4ab7b94274_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.7",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.4.7_294829da2d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.24",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.3.24_ca9211d293_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.18",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.3.18_e20fc13c65_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.10",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.3.10_1d51d671d3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.3",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.3.3_dcc58ec912_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.24",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.2.24_6c9eb27918_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.3",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.2.3_ede071d572_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.28",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.1.28_caef0c3825_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.20",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.1.20_fbb1ef06e6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.14",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.1.14_c795ea8a32_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.7",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_21.1.7_6cd4f370df_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.9",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.12.9_2aad67c98f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.2",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.12.2_1bbcf63de4_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.25",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.11.25_6e47c9a303_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.18",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.11.18_ffbe2772cb_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.11",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.11.11_0224ecf446_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.5",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.11.5_b689f7ee72_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.30",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.10.30_e24bc3c5af_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.29",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.10.29_67efdfe779_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.22",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.10.22_dfcf66babd_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.15",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.10.15_a256f223bb_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.24",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.9.24_cb062080c2_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.17",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.9.17_6a917ec27d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.10",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.9.10_706e29a5c8_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.3",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.9.3_ab8904f508_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.27",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.8.27_9b6b2004f0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.20",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.8.20_ab56621141_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.13",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.8.13_1a50d48350_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.6",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.8.6_984babef4f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.30",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.7.30_155b52d40a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.23",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.7.23_43d4e49095_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.16",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.7.16_5214fcefb1_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.9",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.7.9_d66b52404d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.2",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.7.2_9f7ed4007f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.18",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.6.18_409440b6a7_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.17",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.6.17_22a990816f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.11",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.6.11_f8ce1f577f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.4",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.6.4_ef61367521_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.28",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.5.28_74e2d1d3e9_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.21",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.5.21_3bdb6c7730_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.14",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.5.14_f5900c1bc0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.7",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.5.7_1012636e0a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.30",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.4.30_c971341013_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.27",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.4.27_301d2c2aef_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.26",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.3.26_c0c51edef1_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.19",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.3.19_c903eb34bf_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.12",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.3.12_c8815e5bda_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.5",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.3.5_ad6f1c4d26_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.27",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.2.27_f60023d3cf_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.21",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.1.21_2f6da1fd94_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.16",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.1.16_e18e82ea01_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.9",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_20.1.9_6e0b727269_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.19",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.12.19_369cb91c4a_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.12",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.12.12_7e059f22dc_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.7",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.11.7_97f049135f_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.31",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.10.31_d722ee79c4_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.24",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.10.24_490631895c_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.16",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.10.16_e1041581a8_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.10",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.10.10_dcf2a24721_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.26",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_9.9.26_e1c3b481c6_9.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -58,318 +576,100 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V13.0.1.0.RFXCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_V13.0.1.0.RFXCNXM_69193b67c0_11.0.zip",
+                    "fastboot": "crux_images_V13.0.1.0.RFXCNXM_20220402.0000.00_11.0_cn_fdcbae7b88.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V12.5.3.0.RFXCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_V12.5.3.0.RFXCNXM_190e6aea41_11.0.zip",
+                    "fastboot": "crux_images_V12.5.3.0.RFXCNXM_20211025.0000.00_11.0_cn_af994c3d47.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                    "miui": "V12.5.1.0.RFXCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_CRUX_V12.5.1.0.RFXCNXM_9d05ab098d_11.0.zip",
+                    "fastboot": "crux_images_V12.5.1.0.RFXCNXM_20210612.0000.00_11.0_cn_3ae22141fd.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V12.0.5.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V12.0.5.0.QFXCNXM_63357f4009_10.0.zip",
+                    "fastboot": "crux_images_V12.0.5.0.QFXCNXM_20201124.0000.00_10.0_cn_7bf0d6a63e.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V12.0.4.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V12.0.4.0.QFXCNXM_7592e70687_10.0.zip",
+                    "fastboot": "crux_images_V12.0.4.0.QFXCNXM_20200921.0000.00_10.0_cn_280a2e8a44.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.0.3.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V12.0.3.0.QFXCNXM_5ece229616_10.0.zip",
+                    "fastboot": "crux_images_V12.0.3.0.QFXCNXM_20200710.0000.00_10.0_cn_3f1b5c6099.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.0.2.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V12.0.2.0.QFXCNXM_1d03981a42_10.0.zip",
+                    "fastboot": "crux_images_V12.0.2.0.QFXCNXM_20200617.0000.00_10.0_cn_c96cca0203.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.0.1.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V12.0.1.0.QFXCNXM_5b10297d1e_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V11.0.6.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V11.0.6.0.QFXCNXM_f99732787f_10.0.zip",
+                    "fastboot": "crux_images_V11.0.6.0.QFXCNXM_20200507.0000.00_10.0_cn_892c4ec676.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.0.4.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V11.0.4.0.QFXCNXM_d32e8b594f_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.0.3.0.QFXCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_CRUX_V11.0.3.0.QFXCNXM_58615cc89f_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V11.0.3.0.PFXCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_V11.0.3.0.PFXCNXM_8f15c954be_9.0.zip",
+                    "fastboot": "crux_images_V11.0.3.0.PFXCNXM_20191029.0000.00_9.0_cn_01cb757204.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                    "miui": "V11.0.2.0.PFXCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_V11.0.2.0.PFXCNXM_8a9ff49a94_9.0.zip",
+                    "fastboot": "crux_images_V11.0.2.0.PFXCNXM_20191022.0000.00_9.0_cn_f7b706d7b7.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.0.1.0.QFXCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_V11.0.1.0.QFXCNXM_1c1c6586c9_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.0.1.0.PFXCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_V11.0.1.0.PFXCNXM_23a19240c9_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V10.4.6.0.PFXCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_CRUX_V10.4.6.0.PFXCNXM_c396dc02bb_9.0.zip",
+                    "fastboot": "crux_images_V10.4.6.0.PFXCNXM_20190919.0000.00_9.0_cn_4d61ec19e2.tgz"
                 }
             ]
         }
