@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "nuwa",
+    "cnname": "小米 13 Pro",
+    "enname": "Xiaomi 13 Pro",
     "attentions":[
         {
             "cn":"",
@@ -10,22 +10,8 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
-            "show": "1",
+            "show": "0",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
@@ -44,16 +30,28 @@
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V14.0.8.0.TMBCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_NUWA_V14.0.8.0.TMBCNXM_08bc7fba33_13.0.zip",
+                    "fastboot": "nuwa_images_V14.0.8.0.TMBCNXM_20221216.0000.00_13.0_cn_1c42af38b6.tgz"
+                },
+                {
+                    "miui": "V14.0.7.0.TMBCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_NUWA_V14.0.7.0.TMBCNXM_bd620edff7_13.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.4.0.TMBCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_NUWA_V14.0.4.0.TMBCNXM_c5625d2228_13.0.zip",
+                    "fastboot": "nuwa_images_V14.0.4.0.TMBCNXM_20221116.0000.00_13.0_cn_88ccfd8d0f.tgz"
                 }
             ]
         },
         {
             "branch": "cnms",
-            "show": "1",
+            "show": "0",
             "cnname": "中国大陆稳定版",
             "enname": "China Mainland Stable",
             "links": [
@@ -67,7 +65,7 @@
         },
         {
             "branch": "cnmt",
-            "show": "1",
+            "show": "0",
             "cnname": "中国大陆推荐版",
             "enname": "China Mainland Suggested Edition",
             "links": [
@@ -81,7 +79,7 @@
         },
         {
             "branch": "cncm",
-            "show": "1",
+            "show": "0",
             "cnname": "中国移动推荐版",
             "enname": "China Mobile Suggested Edition",
             "links": [
@@ -95,7 +93,7 @@
         },
         {
             "branch": "cncu",
-            "show": "1",
+            "show": "0",
             "cnname": "中国联通推荐版",
             "enname": "China Unicom Suggested Edition",
             "links": [
@@ -109,7 +107,7 @@
         },
         {
             "branch": "cnct",
-            "show": "1",
+            "show": "0",
             "cnname": "中国电信推荐版",
             "enname": "China Telecom Suggested Edition",
             "links": [
@@ -123,7 +121,7 @@
         },
         {
             "branch": "ccms",
-            "show": "1",
+            "show": "0",
             "cnname": "中国移动定制版",
             "enname": "China Mobile Stable",
             "links": [
@@ -137,7 +135,7 @@
         },
         {
             "branch": "ccus",
-            "show": "1",
+            "show": "0",
             "cnname": "中国联通定制版",
             "enname": "China Unicom Stable",
             "links": [
@@ -151,7 +149,7 @@
         },
         {
             "branch": "ccus",
-            "show": "1",
+            "show": "0",
             "cnname": "中国联通定制版",
             "enname": "China Unicom Stable",
             "links": [
@@ -165,7 +163,7 @@
         },
         {
             "branch": "ccts",
-            "show": "1",
+            "show": "0",
             "cnname": "中国电信定制版",
             "enname": "China Telecom Stable",
             "links": [
@@ -179,7 +177,7 @@
         },
         {
             "branch": "cnhk",
-            "show": "1",
+            "show": "0",
             "cnname": "香港地区稳定版",
             "enname": "China Hong Kong Stable",
             "links": [
@@ -193,7 +191,7 @@
         },
         {
             "branch": "cntw",
-            "show": "1",
+            "show": "0",
             "cnname": "台湾地区稳定版",
             "enname": "China Taiwan Stable",
             "links": [
@@ -207,7 +205,7 @@
         },
         {
             "branch": "msap",
-            "show": "1",
+            "show": "0",
             "cnname": "原生安卓",
             "enname": "Stock Android",
             "links": [
@@ -221,7 +219,7 @@
         },
         {
             "branch": "mygs",
-            "show": "1",
+            "show": "0",
             "cnname": "马来西亚稳定版",
             "enname": "Malaysia Stable",
             "links": [
@@ -235,7 +233,7 @@
         },
         {
             "branch": "sggb",
-            "show": "1",
+            "show": "0",
             "cnname": "新加坡开发版",
             "enname": "Singapore Beta",
             "links": [
@@ -249,7 +247,7 @@
         },
         {
             "branch": "sggs",
-            "show": "1",
+            "show": "0",
             "cnname": "新加坡稳定版",
             "enname": "Singapore Stable",
             "links": [
@@ -263,7 +261,7 @@
         },
         {
             "branch": "mgbb",
-            "show": "1",
+            "show": "0",
             "cnname": "国际开发版",
             "enname": "Global Beta",
             "links": [
@@ -277,7 +275,7 @@
         },
         {
             "branch": "mgbs",
-            "show": "1",
+            "show": "0",
             "cnname": "国际稳定版",
             "enname": "Global Stable",
             "links": [
@@ -291,7 +289,7 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
+                "show": "0",
                 "cnname": "欧洲EEA稳定版",
                 "enname": "Europe EEA Stable",
             "links": [
@@ -305,7 +303,7 @@
         },
         {
             "branch": "russ",
-                "show": "1",
+                "show": "0",
                 "cnname": "俄罗斯稳定版",
                 "enname": "Russia Stable",
             "links": [
@@ -319,7 +317,7 @@
         },
         {
             "branch": "inds",
-                "show": "1",
+                "show": "0",
                 "cnname": "印度稳定版",
                 "enname": "India Stable",
             "links": [
@@ -333,7 +331,7 @@
         },
         {
             "branch": "inns",
-                "show": "1",
+                "show": "0",
                 "cnname": "印度尼西亚稳定版",
                 "enname": "Indonesia Stable",
             "links": [
@@ -347,7 +345,7 @@
         },
         {
             "branch": "trks",
-                "show": "1",
+                "show": "0",
                 "cnname": "土耳其稳定版",
                 "enname": "Turkey Stable",
             "links": [
@@ -361,7 +359,7 @@
         },
         {
             "branch": "japs",
-                "show": "1",
+                "show": "0",
                 "cnname": "日本稳定版",
                 "enname": "Japan Stable",
             "links": [

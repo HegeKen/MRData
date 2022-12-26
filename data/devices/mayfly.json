@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "mayfly",
+    "cnname": "小米 12S",
+    "enname": "Xiaomi 12S",
     "attentions":[
         {
             "cn":"",
@@ -10,36 +10,58 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V14.0.22.12.5.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_MAYFLY_V14.0.22.12.5.DEV_1ac01f9c78_13.0.zip",
+                    "fastboot": "mayfly_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_085cddb1a5.tgz"
+                },
+                {
+                    "miui": "V13.1.22.9.19.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.1.22.9.19.DEV_331ec58131_12.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.12.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.1.22.9.12.DEV_5cdcab8db5_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.5.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.1.22.9.5.DEV_aa40e9eaca_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.8.29.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.1.22.8.29.DEV_4a6c02db38_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.8.16.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.1.22.8.16.DEV_20f99d0b8c_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.0.1.51.DEV",
+                    "android": "12.0",
+                    "recovery": "",
+                    "fastboot": "mayfly_images_V13.0.0.1.51.DEV_20220719.0000.00_12.0_cn_ef69015bc7.tgz"
                 }
             ]
         },
         {
             "branch": "cnmo",
-            "show": "1",
+            "show": "0",
             "cnname": "中国大陆正式版",
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
@@ -58,317 +80,63 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V13.0.10.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.10.0.SLTCNXM_23590222e8_12.0.zip",
+                    "fastboot": "mayfly_images_V13.0.10.0.SLTCNXM_20220704.0000.00_12.0_cn_84cc835a28.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V13.0.12.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.12.0.SLTCNXM_31879da7f9_12.0.zip",
+                    "fastboot": "mayfly_images_V13.0.12.0.SLTCNXM_20220708.0000.00_12.0_cn_b2bebce142.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                    "miui": "V13.0.14.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.14.0.SLTCNXM_ab8b71c9e5_12.0.zip",
+                    "fastboot": "mayfly_images_V13.0.14.0.SLTCNXM_20220721.0000.00_12.0_cn_0768913a3a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.16.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.16.0.SLTCNXM_c042c635f3_12.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.17.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.17.0.SLTCNXM_b1f05ac44b_12.0.zip",
+                    "fastboot": "mayfly_images_V13.0.17.0.SLTCNXM_20220805.0000.00_12.0_cn_87fe74e508.tgz"
+                },
+                {
+                    "miui": "V13.0.18.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.18.0.SLTCNXM_c58e371576_12.0.zip",
+                    "fastboot": "mayfly_images_V13.0.18.0.SLTCNXM_20220816.0000.00_12.0_cn_4d906b7d25.tgz"
+                },
+                {
+                    "miui": "V13.0.20.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.20.0.SLTCNXM_9d035657a1_12.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.6.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.6.0.SLTCNXM_28abc4932e_12.0.zip",
+                    "fastboot": "mayfly_images_V13.0.6.0.SLTCNXM_20220624.0000.00_12.0_cn_fea2fd8d27.tgz"
+                },
+                {
+                    "miui": "V13.0.7.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.7.0.SLTCNXM_58e8f672e2_12.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.8.0.SLTCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_MAYFLY_V13.0.8.0.SLTCNXM_71719fe7f6_12.0.zip",
                     "fastboot": ""
                 }
             ]

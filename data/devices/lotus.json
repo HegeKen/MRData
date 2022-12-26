@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "lotus",
+    "cnname": "小米 Play",
+    "enname": "Mi Play",
     "attentions":[
         {
             "cn":"",
@@ -10,44 +10,256 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                    "miui": "20.1.2",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_20.1.2_11d38ecb83_8.1.zip",
+                    "fastboot": "lotus_images_20.1.2_20200102.0000.00_8.1_cn_9ee499219f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "9.12.26",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.12.26_6f3c6c6543_8.1.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "9.12.19",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.12.19_266eb7e9d9_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.12",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.12.12_94a7ceb510_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.5",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.12.5_51289e5172_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.7",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.11.7_de2abaa4c8_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.31",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.10.31_a3883daf75_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.24",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.10.24_d5422acd6b_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.10",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.10.10_fc5ef35626_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.26",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.9.26_08e21f652e_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.2",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.9.2_06af52cf3d_8.1.zip",
+                    "fastboot": "lotus_images_9.9.2_20190902.0000.00_8.1_cn_330c21797c.tgz"
+                },
+                {
+                    "miui": "9.8.22",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.8.22_ce4acecbcd_8.1.zip",
+                    "fastboot": "lotus_images_9.8.22_20190822.0000.00_8.1_cn_1273695bed.tgz"
+                },
+                {
+                    "miui": "9.8.15",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.8.15_fa4594a448_8.1.zip",
+                    "fastboot": "lotus_images_9.8.15_20190815.0000.00_8.1_cn_0618d640c6.tgz"
+                },
+                {
+                    "miui": "9.8.8",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.8.8_942dbff0f8_8.1.zip",
+                    "fastboot": "lotus_images_9.8.8_20190808.0000.00_8.1_cn_51b7916887.tgz"
+                },
+                {
+                    "miui": "9.8.1",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.8.1_55960bb071_8.1.zip",
+                    "fastboot": "lotus_images_9.8.1_20190801.0000.00_8.1_cn_a90dbc1660.tgz"
+                },
+                {
+                    "miui": "9.7.25",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.7.25_7ad03c60f9_8.1.zip",
+                    "fastboot": "lotus_images_9.7.25_20190725.0000.00_8.1_cn_bea7fafba0.tgz"
+                },
+                {
+                    "miui": "9.7.18",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.7.18_5edcf143fb_8.1.zip",
+                    "fastboot": "lotus_images_9.7.18_20190718.0000.00_8.1_cn_5cfa070726.tgz"
+                },
+                {
+                    "miui": "9.7.11",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.7.11_80a17d3f0c_8.1.zip",
+                    "fastboot": "lotus_images_9.7.11_20190711.0000.00_8.1_cn_e513d50bde.tgz"
+                },
+                {
+                    "miui": "9.7.4",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.7.4_4df8680c6f_8.1.zip",
+                    "fastboot": "lotus_images_9.7.4_20190704.0000.00_8.1_cn_5cd2551f16.tgz"
+                },
+                {
+                    "miui": "9.6.27",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.6.27_fbbe37437f_8.1.zip",
+                    "fastboot": "lotus_images_9.6.27_20190627.0000.00_8.1_cn_5729be456a.tgz"
+                },
+                {
+                    "miui": "9.6.20",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.6.20_fac034e120_8.1.zip",
+                    "fastboot": "lotus_images_9.6.20_20190620.0000.00_8.1_cn_be341d559b.tgz"
+                },
+                {
+                    "miui": "9.6.13",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.6.13_9f20eadbd3_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.30",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.5.30_8431805e48_8.1.zip",
+                    "fastboot": "lotus_images_9.5.30_20190530.0000.00_8.1_cn_50e869d904.tgz"
+                },
+                {
+                    "miui": "9.5.23",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.5.23_8acfde4fe8_8.1.zip",
+                    "fastboot": "lotus_images_9.5.23_20190523.0000.00_8.1_cn_a220d02bb7.tgz"
+                },
+                {
+                    "miui": "9.5.16",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.5.16_fcb6e5bce1_8.1.zip",
+                    "fastboot": "lotus_images_9.5.16_20190516.0000.00_8.1_cn_37e9eb483c.tgz"
+                },
+                {
+                    "miui": "9.5.9",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.5.9_9885d45019_8.1.zip",
+                    "fastboot": "lotus_images_9.5.9_20190509.0000.00_8.1_cn_37689bc476.tgz"
+                },
+                {
+                    "miui": "9.4.25",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.4.25_2b5b9c0787_8.1.zip",
+                    "fastboot": "lotus_images_9.4.25_20190425.0000.00_8.1_cn_064520bb4f.tgz"
+                },
+                {
+                    "miui": "9.4.18",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.4.18_de6a7d8cef_8.1.zip",
+                    "fastboot": "lotus_images_9.4.18_20190418.0000.00_8.1_cn_fd87315b90.tgz"
+                },
+                {
+                    "miui": "9.4.11",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.4.11_e9b460499d_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.28",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.3.28_75d51a644f_8.1.zip",
+                    "fastboot": "lotus_images_9.3.28_20190328.0000.00_8.1_cn_7a2a6e1251.tgz"
+                },
+                {
+                    "miui": "9.3.21",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.3.21_6660f91c0b_8.1.zip",
+                    "fastboot": "lotus_images_9.3.21_20190321.0000.00_8.1_cn_17dbdaa34b.tgz"
+                },
+                {
+                    "miui": "9.3.14",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.3.14_155efc685d_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.7",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.3.7_68e852f1bf_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.1",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.3.1_febd2325dc_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.2.21",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.2.21_4dd370e2a2_8.1.zip",
+                    "fastboot": "lotus_images_9.2.21_20190221.0000.00_8.1_cn_59aa2d9fd3.tgz"
+                },
+                {
+                    "miui": "9.2.15",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.2.15_900e7e6527_8.1.zip",
+                    "fastboot": "lotus_images_9.2.15_20190215.0000.00_8.1_cn_c068076b57.tgz"
+                },
+                {
+                    "miui": "9.2.14",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.2.14_10cffef344_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.1.24",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.1.24_760b14825e_8.1.zip",
+                    "fastboot": "lotus_images_9.1.24_20190124.0000.00_8.1_cn_e6c33184fe.tgz"
+                },
+                {
+                    "miui": "9.1.17",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.1.17_be6a72775e_8.1.zip",
+                    "fastboot": "lotus_images_9.1.17_20190117.0000.00_8.1_cn_3b60c96b03.tgz"
+                },
+                {
+                    "miui": "9.1.10",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.1.10_b0da861441_8.1.zip",
+                    "fastboot": "lotus_images_9.1.10_20190110.0000.00_8.1_cn_143c66152c.tgz"
+                },
+                {
+                    "miui": "9.1.2",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_9.1.2_fdb58c6beb_8.1.zip",
+                    "fastboot": "lotus_images_9.1.2_20190102.0000.00_8.1_cn_f7ccbdb5b8.tgz"
                 }
             ]
         },
@@ -58,220 +270,76 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V11.0.8.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V11.0.8.0.OFICNXM_d82ce7bb30_8.1.zip",
+                    "fastboot": "lotus_images_V11.0.8.0.OFICNXM_20201120.0000.00_8.1_cn_800a08faa8.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V11.0.7.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V11.0.7.0.OFICNXM_a4528e6b16_8.1.zip",
+                    "fastboot": "lotus_images_V11.0.7.0.OFICNXM_20200803.0000.00_8.1_cn_797cad826b.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                    "miui": "V11.0.6.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V11.0.6.0.OFICNXM_cc8e5d1cf1_8.1.zip",
+                    "fastboot": "lotus_images_V11.0.6.0.OFICNXM_20200403.0000.00_8.1_cn_c01872b1ac.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V11.0.5.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V11.0.5.0.OFICNXM_1460636b15_8.1.zip",
+                    "fastboot": "lotus_images_V11.0.5.0.OFICNXM_20200303.0000.00_8.1_cn_07b8b74885.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V11.0.3.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V11.0.3.0.OFICNXM_8bbf9b0c3c_8.1.zip",
+                    "fastboot": "lotus_images_V11.0.3.0.OFICNXM_20191119.0000.00_8.1_cn_470e7ad079.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V11.0.2.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V11.0.2.0.OFICNXM_65549c8604_8.1.zip",
+                    "fastboot": "lotus_images_V11.0.2.0.OFICNXM_20191024.0000.00_8.1_cn_7a9fabc5f1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V10.3.4.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V10.3.4.0.OFICNXM_b24f7caf65_8.1.zip",
+                    "fastboot": "lotus_images_V10.3.4.0.OFICNXM_20190809.0000.00_8.1_cn_fb28a9f34f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V10.3.3.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V10.3.3.0.OFICNXM_a3753aeffc_8.1.zip",
+                    "fastboot": "lotus_images_V10.3.3.0.OFICNXM_20190610.0000.00_8.1_cn_2dbc27b889.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V10.3.2.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V10.3.2.0.OFICNXM_e79d688509_8.1.zip",
+                    "fastboot": "lotus_images_V10.3.2.0.OFICNXM_20190404.0000.00_8.1_cn_7e5c453af9.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V10.2.2.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V10.2.2.0.OFICNXM_872cbc67b0_8.1.zip",
+                    "fastboot": "lotus_images_V10.2.2.0.OFICNXM_20190123.0000.00_8.1_cn_d2e152ddb1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                    "miui": "V10.1.4.0.OFICNXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAY_V10.1.4.0.OFICNXM_b871b371c8_8.1.zip",
+                    "fastboot": "lotus_images_V10.1.4.0.OFICNXM_20181227.0000.00_8.1_cn_e23c9711a2.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V10.1.3.0.OFICNFI",
+                    "android": "8.1",
+                    "recovery": "miui_LOTUS_V10.1.3.0.OFICNFI_7bca7aff00_8.1.zip",
+                    "fastboot": "lotus_images_V10.1.3.0.OFICNFI_20181218.0000.00_8.1_cn_a4701eb1eb.tgz"
                 }
             ]
         },
@@ -282,24 +350,64 @@
             "enname": "Global Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
+                    "miui": "V11.0.10.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V11.0.10.0.OFIMIXM_1600406463_8.1.zip",
+                    "fastboot": "lotus_global_images_V11.0.10.0.OFIMIXM_20210108.0000.00_8.1_global_4abc0cf1e1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V11.0.9.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V11.0.9.0.OFIMIXM_ddbe04ab54_8.1.zip",
+                    "fastboot": "lotus_global_images_V11.0.9.0.OFIMIXM_20201017.0000.00_8.1_global_f2d7079975.tgz"
+                },
+                {
+                    "miui": "V11.0.8.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V11.0.8.0.OFIMIXM_e7513e7fa7_8.1.zip",
+                    "fastboot": "lotus_global_images_V11.0.8.0.OFIMIXM_20200818.0000.00_8.1_global_8b92b5e30d.tgz"
+                },
+                {
+                    "miui": "V11.0.6.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V11.0.6.0.OFIMIXM_d861cb661b_8.1.zip",
+                    "fastboot": "lotus_global_images_V11.0.6.0.OFIMIXM_20200610.0000.00_8.1_global_a7011abc00.tgz"
+                },
+                {
+                    "miui": "V11.0.3.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V11.0.3.0.OFIMIXM_8213c08e29_8.1.zip",
+                    "fastboot": "lotus_global_images_V11.0.3.0.OFIMIXM_20200302.0000.00_8.1_global_4bfc5a1977.tgz"
+                },
+                {
+                    "miui": "V11.0.2.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V11.0.2.0.OFIMIXM_f6af3d5b6b_8.1.zip",
+                    "fastboot": "lotus_global_images_V11.0.2.0.OFIMIXM_20191220.0000.00_8.1_global_dedfe9895e.tgz"
+                },
+                {
+                    "miui": "V11.0.1.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V11.0.1.0.OFIMIXM_7ca29041b1_8.1.zip",
+                    "fastboot": "lotus_global_images_V11.0.1.0.OFIMIXM_20191024.0000.00_8.1_global_069f5abcbe.tgz"
+                },
+                {
+                    "miui": "V10.3.3.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V10.3.3.0.OFIMIXM_ef5407f28a_8.1.zip",
+                    "fastboot": "lotus_global_images_V10.3.3.0.OFIMIXM_20190823.0000.00_8.1_global_72034384a1.tgz"
+                },
+                {
+                    "miui": "V10.2.5.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V10.2.5.0.OFIMIXM_fcc94aedaa_8.1.zip",
+                    "fastboot": "lotus_global_images_V10.2.5.0.OFIMIXM_20190612.0000.00_8.1_global_6f69ea161d.tgz"
+                },
+                {
+                    "miui": "V10.2.3.0.OFIMIXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYGlobal_V10.2.3.0.OFIMIXM_b2f005e30b_8.1.zip",
+                    "fastboot": "lotus_global_images_V10.2.3.0.OFIMIXM_20190401.0000.00_8.1_global_83bd539103.tgz"
                 }
             ]
         },
@@ -310,66 +418,58 @@
                 "enname": "Russia Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
+                    "miui": "V11.0.11.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V11.0.11.0.OFIRUXM_1d18a4a977_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V11.0.11.0.OFIRUXM_20210114.0000.00_8.1_global_30df7cb1d2.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
+                    "miui": "V11.0.10.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V11.0.10.0.OFIRUXM_577e01247e_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V11.0.10.0.OFIRUXM_20201017.0000.00_8.1_global_efa2207e2e.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
+                    "miui": "V11.0.9.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V11.0.9.0.OFIRUXM_5338616571_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V11.0.9.0.OFIRUXM_20200818.0000.00_8.1_global_cee761de12.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
+                    "miui": "V11.0.6.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V11.0.6.0.OFIRUXM_323275a0ef_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V11.0.6.0.OFIRUXM_20200611.0000.00_8.1_global_9f58ba46c1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V11.0.3.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V11.0.3.0.OFIRUXM_c92bf44786_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V11.0.3.0.OFIRUXM_20200303.0000.00_8.1_global_bfd3e236ca.tgz"
+                },
+                {
+                    "miui": "V11.0.2.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V11.0.2.0.OFIRUXM_a6b35ae1b8_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V11.0.2.0.OFIRUXM_20191221.0000.00_8.1_global_2b92bbecad.tgz"
+                },
+                {
+                    "miui": "V11.0.1.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V11.0.1.0.OFIRUXM_7006766733_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V11.0.1.0.OFIRUXM_20191024.0000.00_8.1_global_9c07c5171f.tgz"
+                },
+                {
+                    "miui": "V10.2.4.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V10.2.4.0.OFIRUXM_8d75f47f0e_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V10.2.4.0.OFIRUXM_20190618.0000.00_8.1_global_f7e0523c14.tgz"
+                },
+                {
+                    "miui": "V10.2.3.0.OFIRUXM",
+                    "android": "8.1",
+                    "recovery": "miui_MIPLAYRUGlobal_V10.2.3.0.OFIRUXM_971d963f6b_8.1.zip",
+                    "fastboot": "lotus_ru_global_images_V10.2.3.0.OFIRUXM_20190401.0000.00_8.1_global_fdcc492ac7.tgz"
                 }
             ]
         }

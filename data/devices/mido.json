@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "mido",
+    "cnname": "红米 Note 4X 高通版",
+    "enname": "Redmi Note 4",
     "attentions":[
         {
             "cn":"",
@@ -10,43 +10,651 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "9.10.10",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.10.10_ef7e99560a_7.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
+                    "miui": "9.9.26",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.9.26_41249b6d4d_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.8.29_362b2b9edd_7.0.zip",
+                    "fastboot": "mido_images_9.8.29_20190829.0000.00_7.0_cn_e2f8d57fc3.tgz"
+                },
+                {
+                    "miui": "9.7.18",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.7.18_cd7e37cc5d_7.0.zip",
+                    "fastboot": "mido_images_9.7.18_20190718.0000.00_7.0_cn_5e1ed72bec.tgz"
+                },
+                {
+                    "miui": "9.7.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.7.11_f670500b47_7.0.zip",
+                    "fastboot": "mido_images_9.7.11_20190711.0000.00_7.0_cn_637089dbc4.tgz"
+                },
+                {
+                    "miui": "9.7.4",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.7.4_a4ef094eab_7.0.zip",
+                    "fastboot": "mido_images_9.7.4_20190704.0000.00_7.0_cn_bd9cc380fa.tgz"
+                },
+                {
+                    "miui": "9.6.27",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.6.27_f994b585c9_7.0.zip",
+                    "fastboot": "mido_images_9.6.27_20190627.0000.00_7.0_cn_368aac6269.tgz"
+                },
+                {
+                    "miui": "9.6.20",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.6.20_51845a24b1_7.0.zip",
+                    "fastboot": "mido_images_9.6.20_20190620.0000.00_7.0_cn_7ae627534c.tgz"
+                },
+                {
+                    "miui": "9.6.17",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.6.17_751e55b3a5_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.6.13_defe7721c8_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.5",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.6.5_2210fc59c9_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.4",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.6.4_acad94e821_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.3",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.6.3_6d8b357398_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.30",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.5.30_37d9eb7b76_7.0.zip",
+                    "fastboot": "mido_images_9.5.30_20190530.0000.00_7.0_cn_6417ae15ef.tgz"
+                },
+                {
+                    "miui": "9.5.23",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.5.23_ba92ac8550_7.0.zip",
+                    "fastboot": "mido_images_9.5.23_20190523.0000.00_7.0_cn_9e8f0ad1e8.tgz"
+                },
+                {
+                    "miui": "9.5.16",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.5.16_d799100b8d_7.0.zip",
+                    "fastboot": "mido_images_9.5.16_20190516.0000.00_7.0_cn_4015b9c2e8.tgz"
+                },
+                {
+                    "miui": "9.5.14",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.5.14_27c37f862d_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.9",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.5.9_6ed39591c4_7.0.zip",
+                    "fastboot": "mido_images_9.5.9_20190509.0000.00_7.0_cn_2161a9d4ae.tgz"
+                },
+                {
+                    "miui": "9.4.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.4.25_a404edfa9d_7.0.zip",
+                    "fastboot": "mido_images_9.4.25_20190425.0000.00_7.0_cn_55ee246464.tgz"
+                },
+                {
+                    "miui": "9.4.22",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.4.22_c2d48e5725_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.18",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.4.18_4b4659534f_7.0.zip",
+                    "fastboot": "mido_images_9.4.18_20190418.0000.00_7.0_cn_f7824b1c5f.tgz"
+                },
+                {
+                    "miui": "9.4.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.4.11_f36db3c76d_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.28",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.3.28_67152558dd_7.0.zip",
+                    "fastboot": "mido_images_9.3.28_20190328.0000.00_7.0_cn_71d87ed4c6.tgz"
+                },
+                {
+                    "miui": "9.3.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.3.25_49a6f203f4_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.7",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.3.7_5222e8e1fe_7.0.zip",
+                    "fastboot": "mido_images_9.3.7_20190307.0000.00_7.0_cn_028c32c405.tgz"
+                },
+                {
+                    "miui": "9.2.28",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.2.28_0dfa9124a8_7.0.zip",
+                    "fastboot": "mido_images_9.2.28_20190228.0000.00_7.0_cn_5b503a3b71.tgz"
+                },
+                {
+                    "miui": "9.2.21",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.2.21_d7ec201909_7.0.zip",
+                    "fastboot": "mido_images_9.2.21_20190221.0000.00_7.0_cn_5e97238917.tgz"
+                },
+                {
+                    "miui": "9.2.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.2.15_1f24079e7b_7.0.zip",
+                    "fastboot": "mido_images_9.2.15_20190215.0000.00_7.0_cn_6e5b435093.tgz"
+                },
+                {
+                    "miui": "9.1.24",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.1.24_9b7d3ec72c_7.0.zip",
+                    "fastboot": "mido_images_9.1.24_20190124.0000.00_7.0_cn_33a4dd0bd7.tgz"
+                },
+                {
+                    "miui": "9.1.17",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.1.17_6d57ac44f0_7.0.zip",
+                    "fastboot": "mido_images_9.1.17_20190117.0000.00_7.0_cn_8346f06867.tgz"
+                },
+                {
+                    "miui": "9.1.10",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_9.1.10_ae402928b8_7.0.zip",
+                    "fastboot": "mido_images_9.1.10_20190110.0000.00_7.0_cn_f0eab64c11.tgz"
+                },
+                {
+                    "miui": "8.12.27",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.12.27_c75eb3160f_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.12.20",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.12.20_c9f1a1f798_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.12.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.12.13_2af69bfdbf_7.0.zip",
+                    "fastboot": "mido_images_8.12.13_20181213.0000.00_7.0_cn_5cb23a29a6.tgz"
+                },
+                {
+                    "miui": "8.12.6",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.12.6_42df893a81_7.0.zip",
+                    "fastboot": "mido_images_8.12.6_20181206.0000.00_7.0_cn_be44bbd38c.tgz"
+                },
+                {
+                    "miui": "8.11.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.11.29_135606aeef_7.0.zip",
+                    "fastboot": "mido_images_8.11.29_20181129.0000.00_7.0_cn_8668590cc0.tgz"
+                },
+                {
+                    "miui": "8.11.22",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.11.22_aeb1c6539a_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.11.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.11.15_f528fe909a_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.11.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.11.8_7aef6a881d_7.0.zip",
+                    "fastboot": "mido_images_8.11.8_20181108.0000.00_7.0_cn_5273065e89.tgz"
+                },
+                {
+                    "miui": "8.11.2",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.11.2_5381b4d3e1_7.0.zip",
+                    "fastboot": "mido_images_8.11.2_20181102.0000.00_7.0_cn_33527f5127.tgz"
+                },
+                {
+                    "miui": "8.10.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.10.25_5abc29d4cf_7.0.zip",
+                    "fastboot": "mido_images_8.10.25_20181025.0000.00_7.0_cn_c72549f259.tgz"
+                },
+                {
+                    "miui": "8.10.18",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.10.18_4a88ecc826_7.0.zip",
+                    "fastboot": "mido_images_8.10.18_20181018.0000.00_7.0_cn_af830f91cd.tgz"
+                },
+                {
+                    "miui": "8.10.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.10.11_64d467d25e_7.0.zip",
+                    "fastboot": "mido_images_8.10.11_20181011.0000.00_7.0_cn_7db5f63129.tgz"
+                },
+                {
+                    "miui": "8.9.20",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.9.20_208c69e2fb_7.0.zip",
+                    "fastboot": "mido_images_8.9.20_20180920.0000.00_7.0_cn_e6b05b0a82.tgz"
+                },
+                {
+                    "miui": "8.9.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.9.13_6267ce0c7f_7.0.zip",
+                    "fastboot": "mido_images_8.9.13_20180913.0000.00_7.0_cn_0ef9de295b.tgz"
+                },
+                {
+                    "miui": "8.9.6",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.9.6_0b48413aea_7.0.zip",
+                    "fastboot": "mido_images_8.9.6_20180906.0000.00_7.0_cn_a22b51d6c4.tgz"
+                },
+                {
+                    "miui": "8.8.30",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.8.30_6fe6344fe4_7.0.zip",
+                    "fastboot": "mido_images_8.8.30_20180830.0000.00_7.0_cn_5f39654580.tgz"
+                },
+                {
+                    "miui": "8.8.23",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.8.23_740db8aea8_7.0.zip",
+                    "fastboot": "mido_images_8.8.23_20180823.0000.00_7.0_cn_3916d56b46.tgz"
+                },
+                {
+                    "miui": "8.8.16",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.8.16_3603387e2a_7.0.zip",
+                    "fastboot": "mido_images_8.8.16_20180816.0000.00_7.0_cn_132ebdbe53.tgz"
+                },
+                {
+                    "miui": "8.8.9",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.8.9_c84e30c26f_7.0.zip",
+                    "fastboot": "mido_images_8.8.9_20180809.0000.00_7.0_cn_08645208a3.tgz"
+                },
+                {
+                    "miui": "8.8.3",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.8.3_074a006c46_7.0.zip",
+                    "fastboot": "mido_images_8.8.3_20180802.0000.00_7.0_cn_00f1964eee.tgz"
+                },
+                {
+                    "miui": "8.7.26",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.7.26_b35ccd38bc_7.0.zip",
+                    "fastboot": "mido_images_8.7.26_20180726.0000.00_7.0_cn_c3d60e9439.tgz"
+                },
+                {
+                    "miui": "8.7.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.7.19_f3c742a671_7.0.zip",
+                    "fastboot": "mido_images_8.7.19_20180719.0000.00_7.0_cn_4f4e0484b6.tgz"
+                },
+                {
+                    "miui": "8.7.12",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.7.12_1bb41da1f6_7.0.zip",
+                    "fastboot": "mido_images_8.7.12_20180712.0000.00_7.0_cn_41f471ae92.tgz"
+                },
+                {
+                    "miui": "8.7.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.7.11_e6101c526c_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.7.2",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.7.2_5c7d5cbc42_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.4.28",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.4.28_65febcda29_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.4.26",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.4.26_36edc219e6_7.0.zip",
+                    "fastboot": "mido_images_8.4.26_20180426.0000.00_7.0_cn_7c15201673.tgz"
+                },
+                {
+                    "miui": "8.4.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.4.19_fca0532d8a_7.0.zip",
+                    "fastboot": "mido_images_8.4.19_20180419.0000.00_7.0_cn_87f11e437f.tgz"
+                },
+                {
+                    "miui": "8.4.12",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.4.12_eb0e431021_7.0.zip",
+                    "fastboot": "mido_images_8.4.12_20180412.0000.00_7.0_cn_05627b2043.tgz"
+                },
+                {
+                    "miui": "8.3.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.3.29_ef1cf19c70_7.0.zip",
+                    "fastboot": "mido_images_8.3.29_20180329.0000.00_7.0_cn_9201154e30.tgz"
+                },
+                {
+                    "miui": "8.3.22",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.3.22_5f71745ee2_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.3.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.3.15_084a1f6d5f_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.3.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.3.8_53d24b6159_7.0.zip",
+                    "fastboot": "mido_images_8.3.8_20180308.0000.00_7.0_cn_f22d5b9385.tgz"
+                },
+                {
+                    "miui": "8.3.1",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.3.1_60445e0a50_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.2.1",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.2.1_6b65484312_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.1.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.1.25_44a8f3c43b_7.0.zip",
+                    "fastboot": "mido_images_8.1.25_20180125.0000.00_7.0_cn_0eea93242b.tgz"
+                },
+                {
+                    "miui": "8.1.18",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.1.18_2c0d062266_7.0.zip",
+                    "fastboot": "mido_images_8.1.18_20180118.0000.00_7.0_cn_166fbc47e6.tgz"
+                },
+                {
+                    "miui": "8.1.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.1.11_b6df779501_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.1.4",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_8.1.4_3720f8ef0f_7.0.zip",
+                    "fastboot": "mido_images_8.1.4_20180104.0000.00_7.0_cn_43bd37be54.tgz"
+                },
+                {
+                    "miui": "7.12.28",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.12.28_1a861046ef_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.12.21",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.12.21_24474a3681_7.0.zip",
+                    "fastboot": "mido_images_7.12.21_20171221.0000.00_7.0_cn_bcb8ff260e.tgz"
+                },
+                {
+                    "miui": "7.12.14",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.12.14_f31670ade3_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.12.7",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.12.7_eae588a68c_7.0.zip",
+                    "fastboot": "mido_images_7.12.7_20171207.0000.00_7.0_cn_8102d02318.tgz"
+                },
+                {
+                    "miui": "7.11.30",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.11.30_71556f3912_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.11.23",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.11.23_c49e57d6af_7.0.zip",
+                    "fastboot": "mido_images_7.11.23_20171123.0000.00_7.0_cn_4cab556260.tgz"
+                },
+                {
+                    "miui": "7.11.16",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.11.16_bc9bfc6bbd_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.11.9",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.11.9_71db0b04ec_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.11.2",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.11.2_d12f230278_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.10.26",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.10.26_62c3d20c24_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.10.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.10.19_025f8fc557_7.0.zip",
+                    "fastboot": "mido_images_7.10.19_20171019.0000.00_7.0_cn_0dca5b11ab.tgz"
+                },
+                {
+                    "miui": "7.10.14",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.10.14_2644308c37_7.0.zip",
+                    "fastboot": "mido_images_7.10.14_20171013.0000.00_7.0_cn_957e68a2a6.tgz"
+                },
+                {
+                    "miui": "7.9.28",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.9.28_e9d62a869e_7.0.zip",
+                    "fastboot": "mido_images_7.9.28_20170928.0000.00_7.0_cn_0a13057c8a.tgz"
+                },
+                {
+                    "miui": "7.9.14",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.9.14_90be12cefe_7.0.zip",
+                    "fastboot": "mido_images_7.9.14_20170914.0000.00_7.0_cn_6cac1f592a.tgz"
+                },
+                {
+                    "miui": "7.9.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.9.8_d25bd2aca3_7.0.zip",
+                    "fastboot": "mido_images_7.9.8_20170907.0000.00_7.0_cn_4009f7a12c.tgz"
+                },
+                {
+                    "miui": "7.8.31",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.8.31_1abfa639b1_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.8.24",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.8.24_a962b3167c_7.0.zip",
+                    "fastboot": "mido_images_7.8.24_20170824.0000.00_7.0_cn_3f31e3d9cc.tgz"
+                },
+                {
+                    "miui": "7.8.17",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.8.17_a2d24579ee_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.8.10",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.8.10_98faeede86_7.0.zip",
+                    "fastboot": "mido_images_7.8.10_20170810.0000.00_7.0_cn_d0f3e752f8.tgz"
+                },
+                {
+                    "miui": "7.7.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.7.13_2cb40f0c66_7.0.zip",
+                    "fastboot": "mido_images_7.7.13_20170713.0000.00_7.0_cn_7438a1cfea.tgz"
+                },
+                {
+                    "miui": "7.7.6",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.7.6_9d1559b83a_7.0.zip",
+                    "fastboot": "mido_images_7.7.6_20170706.0000.00_7.0_cn_db0d6ea62e.tgz"
+                },
+                {
+                    "miui": "7.6.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.6.29_3cf0ca6274_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.6.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.6.25_e3f5d89d54_7.0.zip",
+                    "fastboot": "mido_images_7.6.25_20170625.0000.00_7.0_cn_09c988b479.tgz"
+                },
+                {
+                    "miui": "7.6.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.6.15_a4429941c8_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.6.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.6.8_342b325949_7.0.zip",
+                    "fastboot": "mido_images_7.6.8_20170608.0000.00_7.0_cn_5bbc8af5ef.tgz"
+                },
+                {
+                    "miui": "7.5.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.5.25_0e0c3fe1ba_7.0.zip",
+                    "fastboot": "mido_images_7.5.25_20170525.0000.00_7.0_cn_344bb8aa2f.tgz"
+                },
+                {
+                    "miui": "7.5.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.5.19_403a1cb642_7.0.zip",
+                    "fastboot": "mido_images_7.5.19_20170519.0000.00_7.0_cn_5851a58828.tgz"
+                },
+                {
+                    "miui": "7.5.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.5.11_9c1df8ccac_7.0.zip",
+                    "fastboot": "mido_images_7.5.11_20170511.0000.00_7.0_cn_f254b8e940.tgz"
+                },
+                {
+                    "miui": "7.5.4",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_7.5.4_1145c05280_7.0.zip",
+                    "fastboot": "mido_images_7.5.4_20170504.0000.00_7.0_cn_41ce989034.tgz"
+                },
+                {
+                    "miui": "7.4.27",
+                    "android": "7.0",
                     "recovery": "",
+                    "fastboot": "mido_images_7.4.27_20170426.0000.00_7.0_cn_ea58205b84.tgz"
+                },
+                {
+                    "miui": "7.4.6",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_7.4.6_6bc8602621_6.0.zip",
+                    "fastboot": "mido_images_7.4.6_20170406.0000.00_6.0_cn_12bb123e16.tgz"
+                },
+                {
+                    "miui": "7.3.30",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_7.3.30_70589cb6cc_6.0.zip",
+                    "fastboot": "mido_images_7.3.30_20170330.0000.00_6.0_cn_8b71b63750.tgz"
+                },
+                {
+                    "miui": "7.3.24",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_7.3.24_7a52910262_6.0.zip",
+                    "fastboot": "mido_images_7.3.24_20170324.0000.00_6.0_cn_d3079ae0a2.tgz"
+                },
+                {
+                    "miui": "7.3.16",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_7.3.16_8671e3f0fc_6.0.zip",
+                    "fastboot": "mido_images_7.3.16_20170316.0000.00_6.0_cn_d7e6b612f5.tgz"
+                },
+                {
+                    "miui": "7.3.9",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_7.3.9_3b1fb73e7d_6.0.zip",
+                    "fastboot": "mido_images_7.3.9_20170309.0000.00_6.0_cn_f4ee405e79.tgz"
+                },
+                {
+                    "miui": "7.3.2",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_7.3.2_88cd6a63ed_6.0.zip",
+                    "fastboot": "mido_images_7.3.2_20170302.0000.00_6.0_cn_8e85c9bb9b.tgz"
+                },
+                {
+                    "miui": "7.2.16",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_7.2.16_54cc57715e_6.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -58,206 +666,142 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V11.0.2.0.NCFCNXM",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V11.0.2.0.NCFCNXM_8e61b3fb88_7.0.zip",
+                    "fastboot": "mido_images_V11.0.2.0.NCFCNXM_20191107.0000.00_7.0_cn_07679911aa.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V10.3.2.0.NCFCNXM",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V10.3.2.0.NCFCNXM_7feed0b40b_7.0.zip",
+                    "fastboot": "mido_images_V10.3.2.0.NCFCNXM_20190423.0000.00_7.0_cn_fbcc1385b1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                    "miui": "V10.2.2.0.NCFCNXM",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V10.2.2.0.NCFCNXM_19a9ebdf61_7.0.zip",
+                    "fastboot": "mido_images_V10.2.2.0.NCFCNXM_20190107.0000.00_7.0_cn_6e93edb527.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V10.1.1.0.NCFCNFI",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V10.1.1.0.NCFCNFI_f9c6b43a90_7.0.zip",
+                    "fastboot": "mido_images_V10.1.1.0.NCFCNFI_20181023.0000.00_7.0_cn_3874308c16.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V9.6.2.0.NCFCNFD",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V9.6.2.0.NCFCNFD_3c8cd014c7_7.0.zip",
+                    "fastboot": "mido_images_V9.6.2.0.NCFCNFD_20180727.0000.00_7.0_cn_6251f93772.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V9.6.1.0.NCFCNFD",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V9.6.1.0.NCFCNFD_0438f3f60e_7.0.zip",
+                    "fastboot": "mido_images_V9.6.1.0.NCFCNFD_20180612.0000.00_7.0_cn_bc5adb2e7a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V9.5.2.0.NCFCNFA",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V9.5.2.0.NCFCNFA_c1d460c89e_7.0.zip",
+                    "fastboot": "mido_images_V9.5.2.0.NCFCNFA_20180406.0000.00_7.0_cn_56e7b5614f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V9.5.1.0.NCFCNFA",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V9.5.1.0.NCFCNFA_91dbdb142e_7.0.zip",
+                    "fastboot": "mido_images_V9.5.1.0.NCFCNFA_20180224.0000.00_7.0_cn_46051bf62c.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V9.2.1.0.NCFCNEK",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V9.2.1.0.NCFCNEK_518502bd7f_7.0.zip",
+                    "fastboot": "mido_images_V9.2.1.0.NCFCNEK_20180124.0000.00_7.0_cn_a8404722d7.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V9.0.5.0.NCFCNEI",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V9.0.5.0.NCFCNEI_5598ea6cef_7.0.zip",
+                    "fastboot": "mido_images_V9.0.5.0.NCFCNEI_20171207.0000.00_7.0_cn_7f0ca3a13a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                    "miui": "V9.0.4.0.NCFCNEI",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4X_V9.0.4.0.NCFCNEI_e355215ed4_7.0.zip",
+                    "fastboot": "mido_images_V9.0.4.0.NCFCNEI_20171107.0000.00_7.0_cn_54688b9c15.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V8.5.7.0.MCFCNED",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.5.7.0.MCFCNED_59d20a5e82_6.0.zip",
+                    "fastboot": "mido_images_V8.5.7.0.MCFCNED_20170925.0000.00_6.0_cn_c9351ab81f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                    "miui": "V8.5.6.0.MCFCNED",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.5.6.0.MCFCNED_13e146f407_6.0.zip",
+                    "fastboot": "mido_images_V8.5.6.0.MCFCNED_20170828.0000.00_6.0_cn_8705777baf.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                    "miui": "V8.5.4.0.MCFCNED",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.5.4.0.MCFCNED_6da090249c_6.0.zip",
+                    "fastboot": "mido_images_V8.5.4.0.MCFCNED_20170719.0000.00_6.0_cn_a8199c9d59.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V8.5.3.0.MCFCNED",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.5.3.0.MCFCNED_a7eb89697a_6.0.zip",
+                    "fastboot": "mido_images_V8.5.3.0.MCFCNED_20170627.0000.00_6.0_cn_1d59575244.tgz"
+                },
+                {
+                    "miui": "V8.5.1.0.MCFCNED",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.5.1.0.MCFCNED_9780e84e48_6.0.zip",
+                    "fastboot": "mido_images_V8.5.1.0.MCFCNED_20170531.0000.00_6.0_cn_d55c616e01.tgz"
+                },
+                {
+                    "miui": "V8.2.22.0.MCFCNDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.2.22.0.MCFCNDL_c08e5df878_6.0.zip",
+                    "fastboot": "mido_images_V8.2.22.0.MCFCNDL_20170524.0000.00_6.0_cn_08afe230d0.tgz"
+                },
+                {
+                    "miui": "V8.2.20.0.MCFCNDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.2.20.0.MCFCNDL_0e80fecf47_6.0.zip",
+                    "fastboot": "mido_images_V8.2.20.0.MCFCNDL_20170428.0000.00_6.0_cn_a6db91f329.tgz"
+                },
+                {
+                    "miui": "V8.2.18.0.MCFCNDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.2.18.0.MCFCNDL_fc4de62254_6.0.zip",
+                    "fastboot": "mido_images_V8.2.18.0.MCFCNDL_20170419.0000.00_6.0_cn_ffb9c8ce46.tgz"
+                },
+                {
+                    "miui": "V8.2.5.0.MCFCNDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.2.5.0.MCFCNDL_f386d87e4e_6.0.zip",
+                    "fastboot": "mido_images_V8.2.5.0.MCFCNDL_20170406.0000.00_6.0_cn_56c896b912.tgz"
+                },
+                {
+                    "miui": "V8.2.3.0.MCFCNDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.2.3.0.MCFCNDL_1f50f1f91b_6.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V8.1.12.0.MCFCNDI",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.1.12.0.MCFCNDI_0e50ef597c_6.0.zip",
+                    "fastboot": "mido_images_V8.1.12.0.MCFCNDI_20170216.0000.00_6.0_cn_bf6536b925.tgz"
+                },
+                {
+                    "miui": "V8.1.11.0.MCFCNDI",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4X_V8.1.11.0.MCFCNDI_94bcfffe3a_6.0.zip",
+                    "fastboot": "mido_images_V8.1.11.0.MCFCNDI_20170210.0000.00_6.0_cn_22f780f049.tgz"
                 }
             ]
         },
@@ -268,9 +812,471 @@
             "enname": "Global Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "8.12.20",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.12.20_43a9a2079c_7.0.zip",
+                    "fastboot": "mido_global_images_8.12.20_20181220.0000.00_7.0_global_3947ba5143.tgz"
+                },
+                {
+                    "miui": "8.12.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.12.13_d4917532aa_7.0.zip",
+                    "fastboot": "mido_global_images_8.12.13_20181213.0000.00_7.0_global_063aa58d61.tgz"
+                },
+                {
+                    "miui": "8.12.6",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.12.6_e05d63a6de_7.0.zip",
+                    "fastboot": "mido_global_images_8.12.6_20181206.0000.00_7.0_global_91c718445f.tgz"
+                },
+                {
+                    "miui": "8.11.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.11.29_bb61523ec4_7.0.zip",
+                    "fastboot": "mido_global_images_8.11.29_20181129.0000.00_7.0_global_1faa4e30ba.tgz"
+                },
+                {
+                    "miui": "8.11.22",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.11.22_ea2ab97b4c_7.0.zip",
+                    "fastboot": "mido_global_images_8.11.22_20181122.0000.00_7.0_global_fc01efa93f.tgz"
+                },
+                {
+                    "miui": "8.11.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.11.15_57a8ca5789_7.0.zip",
+                    "fastboot": "mido_global_images_8.11.15_20181115.0000.00_7.0_global_51be67dc9c.tgz"
+                },
+                {
+                    "miui": "8.11.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.11.8_524273d20f_7.0.zip",
+                    "fastboot": "mido_global_images_8.11.8_20181108.0000.00_7.0_global_9df9a66705.tgz"
+                },
+                {
+                    "miui": "8.11.1",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.11.1_36f1dfb34a_7.0.zip",
+                    "fastboot": "mido_global_images_8.11.1_20181101.0000.00_7.0_global_d9654bb640.tgz"
+                },
+                {
+                    "miui": "8.10.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.10.25_2d2f9f3b2d_7.0.zip",
+                    "fastboot": "mido_global_images_8.10.25_20181025.0000.00_7.0_global_5247a49d90.tgz"
+                },
+                {
+                    "miui": "8.10.18",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.10.18_b026590e45_7.0.zip",
+                    "fastboot": "mido_global_images_8.10.18_20181018.0000.00_7.0_global_1f583a5e10.tgz"
+                },
+                {
+                    "miui": "8.10.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.10.11_dc479885ac_7.0.zip",
+                    "fastboot": "mido_global_images_8.10.11_20181011.0000.00_7.0_global_6b89e3402a.tgz"
+                },
+                {
+                    "miui": "8.9.20",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.9.20_42393f3033_7.0.zip",
+                    "fastboot": "mido_global_images_8.9.20_20180920.0000.00_7.0_global_7588b18bf6.tgz"
+                },
+                {
+                    "miui": "8.9.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.9.13_9e60510590_7.0.zip",
+                    "fastboot": "mido_global_images_8.9.13_20180913.0000.00_7.0_global_8d557b31f0.tgz"
+                },
+                {
+                    "miui": "8.9.6",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.9.6_0e17502d71_7.0.zip",
+                    "fastboot": "mido_global_images_8.9.6_20180906.0000.00_7.0_global_4df47861d2.tgz"
+                },
+                {
+                    "miui": "8.8.30",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.8.30_0dc2937e91_7.0.zip",
+                    "fastboot": "mido_global_images_8.8.30_20180830.0000.00_7.0_global_daeb50e23f.tgz"
+                },
+                {
+                    "miui": "8.8.23",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.8.23_53f9f174ea_7.0.zip",
+                    "fastboot": "mido_global_images_8.8.23_20180823.0000.00_7.0_global_92ff6d1f65.tgz"
+                },
+                {
+                    "miui": "8.8.16",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.8.16_dcec6a611d_7.0.zip",
+                    "fastboot": "mido_global_images_8.8.16_20180816.0000.00_7.0_global_40e3175b84.tgz"
+                },
+                {
+                    "miui": "8.8.9",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.8.9_80bd654daa_7.0.zip",
+                    "fastboot": "mido_global_images_8.8.9_20180809.0000.00_7.0_global_49240cab3f.tgz"
+                },
+                {
+                    "miui": "8.8.2",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.8.2_fb499bc041_7.0.zip",
+                    "fastboot": "mido_global_images_8.8.2_20180802.0000.00_7.0_global_31b109d298.tgz"
+                },
+                {
+                    "miui": "8.7.26",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.7.26_8e3b2d11b1_7.0.zip",
+                    "fastboot": "mido_global_images_8.7.26_20180726.0000.00_7.0_global_9529295baa.tgz"
+                },
+                {
+                    "miui": "8.7.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.7.19_8439d7a385_7.0.zip",
+                    "fastboot": "mido_global_images_8.7.19_20180719.0000.00_7.0_global_4e1ea31c2a.tgz"
+                },
+                {
+                    "miui": "8.7.12",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.7.12_44631b1f8c_7.0.zip",
+                    "fastboot": "mido_global_images_8.7.12_20180712.0000.00_7.0_global_f81d8793d6.tgz"
+                },
+                {
+                    "miui": "8.5.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.5.29_dff7701f62_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.5.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.5.25_6ab0736184_7.0.zip",
+                    "fastboot": "mido_global_images_8.5.25_20180525.0000.00_7.0_global_5218716695.tgz"
+                },
+                {
+                    "miui": "8.5.17",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.5.17_183c27b547_7.0.zip",
+                    "fastboot": "mido_global_images_8.5.17_20180516.0000.00_7.0_global_0716a6125a.tgz"
+                },
+                {
+                    "miui": "8.5.10",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.5.10_a3989abb27_7.0.zip",
+                    "fastboot": "mido_global_images_8.5.10_20180510.0000.00_7.0_global_9cbfae2770.tgz"
+                },
+                {
+                    "miui": "8.5.3",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.5.3_52f8422bdc_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.4.26",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.4.26_420e9bfb51_7.0.zip",
+                    "fastboot": "mido_global_images_8.4.26_20180426.0000.00_7.0_global_558642b4a1.tgz"
+                },
+                {
+                    "miui": "8.4.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.4.19_3f839ab7d7_7.0.zip",
+                    "fastboot": "mido_global_images_8.4.19_20180419.0000.00_7.0_global_8d89f24dd9.tgz"
+                },
+                {
+                    "miui": "8.4.12",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.4.12_fd6e04f984_7.0.zip",
+                    "fastboot": "mido_global_images_8.4.12_20180412.0000.00_7.0_global_9d6bed8d78.tgz"
+                },
+                {
+                    "miui": "8.3.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.3.29_ebb366e812_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.3.22",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.3.22_3bbc569bc5_7.0.zip",
+                    "fastboot": "mido_global_images_8.3.22_20180322.0000.00_7.0_global_f4e476fc5f.tgz"
+                },
+                {
+                    "miui": "8.3.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.3.15_9f33f79552_7.0.zip",
+                    "fastboot": "mido_global_images_8.3.15_20180315.0000.00_7.0_global_3a7cf1b686.tgz"
+                },
+                {
+                    "miui": "8.3.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.3.8_f4098be0b7_7.0.zip",
+                    "fastboot": "mido_global_images_8.3.8_20180308.0000.00_7.0_global_6a279ca37c.tgz"
+                },
+                {
+                    "miui": "8.3.1",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.3.1_662efc5fa8_7.0.zip",
+                    "fastboot": "mido_global_images_8.3.1_20180301.0000.00_7.0_global_29a96b7e74.tgz"
+                },
+                {
+                    "miui": "8.2.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.2.8_3ff3a578bf_7.0.zip",
+                    "fastboot": "mido_global_images_8.2.8_20180208.0000.00_7.0_global_3bb73da2ab.tgz"
+                },
+                {
+                    "miui": "8.2.1",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.2.1_7fda810f8d_7.0.zip",
+                    "fastboot": "mido_global_images_8.2.1_20180201.0000.00_7.0_global_ac73f46885.tgz"
+                },
+                {
+                    "miui": "8.1.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.1.25_3675caf1a7_7.0.zip",
+                    "fastboot": "mido_global_images_8.1.25_20180125.0000.00_7.0_global_c0b8fc4d48.tgz"
+                },
+                {
+                    "miui": "8.1.18",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.1.18_c201992cea_7.0.zip",
+                    "fastboot": "mido_global_images_8.1.18_20180118.0000.00_7.0_global_c557dab2eb.tgz"
+                },
+                {
+                    "miui": "8.1.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.1.11_e8dae68dc4_7.0.zip",
+                    "fastboot": "mido_global_images_8.1.11_20180111.0000.00_7.0_global_7684569fbf.tgz"
+                },
+                {
+                    "miui": "8.1.4",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_8.1.4_c7171c9c78_7.0.zip",
+                    "fastboot": "mido_global_images_8.1.4_20180104.0000.00_7.0_global_13b482e157.tgz"
+                },
+                {
+                    "miui": "7.12.28",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.12.28_5149c0e6ec_7.0.zip",
+                    "fastboot": "mido_global_images_7.12.28_20171228.0000.00_7.0_global_5b48efd03c.tgz"
+                },
+                {
+                    "miui": "7.12.21",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.12.21_9a89725dfc_7.0.zip",
+                    "fastboot": "mido_global_images_7.12.21_20171221.0000.00_7.0_global_502992194a.tgz"
+                },
+                {
+                    "miui": "7.12.14",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.12.14_695b22beb9_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.12.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.12.8_780e8a192e_7.0.zip",
+                    "fastboot": "mido_global_images_7.12.8_20171208.0000.00_7.0_global_c854b6fd8a.tgz"
+                },
+                {
+                    "miui": "7.12.1",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.12.1_78154ef541_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.11.16",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.11.16_bdf623f1cb_7.0.zip",
+                    "fastboot": "mido_global_images_7.11.16_20171116.0000.00_7.0_global_957229da3b.tgz"
+                },
+                {
+                    "miui": "7.11.10",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.11.10_128f0ddba7_7.0.zip",
+                    "fastboot": "mido_global_images_7.11.10_20171110.0000.00_7.0_global_572ede0b8b.tgz"
+                },
+                {
+                    "miui": "7.11.6",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.11.6_289c7e0a31_7.0.zip",
+                    "fastboot": "mido_global_images_7.11.6_20171106.0000.00_7.0_global_21be98f424.tgz"
+                },
+                {
+                    "miui": "7.11.2",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.11.2_297db022c8_7.0.zip",
+                    "fastboot": "mido_global_images_7.11.2_20171102.0000.00_7.0_global_67312f00ef.tgz"
+                },
+                {
+                    "miui": "7.10.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.10.19_b54289d965_7.0.zip",
+                    "fastboot": "mido_global_images_7.10.19_20171019.0000.00_7.0_global_d7fe739cac.tgz"
+                },
+                {
+                    "miui": "7.9.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.9.15_7f0813e769_7.0.zip",
+                    "fastboot": "mido_global_images_7.9.15_20170915.0000.00_7.0_global_3ae05ce954.tgz"
+                },
+                {
+                    "miui": "7.9.7",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.9.7_18728ac55a_7.0.zip",
+                    "fastboot": "mido_global_images_7.9.7_20170907.0000.00_7.0_global_9d2bf765d6.tgz"
+                },
+                {
+                    "miui": "7.8.31",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.8.31_6fec3eb239_7.0.zip",
+                    "fastboot": "mido_global_images_7.8.31_20170831.0000.00_7.0_global_b1b9150da1.tgz"
+                },
+                {
+                    "miui": "7.8.24",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.8.24_bfc90d6465_7.0.zip",
+                    "fastboot": "mido_global_images_7.8.24_20170824.0000.00_7.0_global_445e6cc51a.tgz"
+                },
+                {
+                    "miui": "7.8.18",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.8.18_c83eb0effd_7.0.zip",
+                    "fastboot": "mido_global_images_7.8.18_20170818.0000.00_7.0_global_900ad272d6.tgz"
+                },
+                {
+                    "miui": "7.8.10",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.8.10_e9be2ff85a_7.0.zip",
+                    "fastboot": "mido_global_images_7.8.10_20170810.0000.00_7.0_global_239182c21e.tgz"
+                },
+                {
+                    "miui": "7.7.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.7.13_08853cf61f_7.0.zip",
+                    "fastboot": "mido_global_images_7.7.13_20170713.0000.00_7.0_global_fd5e6fed99.tgz"
+                },
+                {
+                    "miui": "7.7.6",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.7.6_2b6cd03654_7.0.zip",
+                    "fastboot": "mido_global_images_7.7.6_20170706.0000.00_7.0_global_225e7e03b2.tgz"
+                },
+                {
+                    "miui": "7.6.29",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.6.29_3cdd4a464e_7.0.zip",
+                    "fastboot": "mido_global_images_7.6.29_20170629.0000.00_7.0_global_e8e4a0afae.tgz"
+                },
+                {
+                    "miui": "7.6.15",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.6.15_7dbbcc0d77_7.0.zip",
+                    "fastboot": "mido_global_images_7.6.15_20170615.0000.00_7.0_global_e005a6a7b4.tgz"
+                },
+                {
+                    "miui": "7.6.8",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.6.8_b596d79b05_7.0.zip",
+                    "fastboot": "mido_global_images_7.6.8_20170608.0000.00_7.0_global_c57b5b46d6.tgz"
+                },
+                {
+                    "miui": "7.5.25",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.5.25_aeb77a5549_7.0.zip",
+                    "fastboot": "mido_global_images_7.5.25_20170525.0000.00_7.0_global_bf9177a11b.tgz"
+                },
+                {
+                    "miui": "7.5.19",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.5.19_9efdcded81_7.0.zip",
+                    "fastboot": "mido_global_images_7.5.19_20170519.0000.00_7.0_global_112ae67df3.tgz"
+                },
+                {
+                    "miui": "7.5.11",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.5.11_3ac801c6be_7.0.zip",
+                    "fastboot": "mido_global_images_7.5.11_20170511.0000.00_7.0_global_49df9f1d0b.tgz"
+                },
+                {
+                    "miui": "7.5.4",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.5.4_8e47dd7dd9_7.0.zip",
+                    "fastboot": "mido_global_images_7.5.4_20170504.0000.00_7.0_global_76b1fadf23.tgz"
+                },
+                {
+                    "miui": "7.4.27",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.4.27_fbd181cb77_7.0.zip",
+                    "fastboot": "mido_global_images_7.4.27_20170426.0000.00_7.0_global_b71866d208.tgz"
+                },
+                {
+                    "miui": "7.4.20",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.4.20_eee7ba921d_7.0.zip",
+                    "fastboot": "mido_global_images_7.4.20_20170420.0000.00_7.0_global_efae7197c7.tgz"
+                },
+                {
+                    "miui": "7.4.13",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.4.13_121af88043_7.0.zip",
+                    "fastboot": "mido_global_images_7.4.13_20170413.0000.00_7.0_global_3849d2b57d.tgz"
+                },
+                {
+                    "miui": "7.3.23",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.3.23_f2665291ea_7.0.zip",
+                    "fastboot": "mido_global_images_7.3.23_20170323.0000.00_7.0_global_efd9cabe92.tgz"
+                },
+                {
+                    "miui": "7.3.16",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.3.16_405ce4cd42_7.0.zip",
+                    "fastboot": "mido_global_images_7.3.16_20170316.0000.00_7.0_global_92055ba987.tgz"
+                },
+                {
+                    "miui": "7.3.9",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.3.9_42dc329635_7.0.zip",
+                    "fastboot": "mido_global_images_7.3.9_20170309.0000.00_7.0_global_03b748a0aa.tgz"
+                },
+                {
+                    "miui": "7.2.24",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_7.2.24_3a348895b3_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.2.16",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4XGlobal_7.2.16_e6eed016d8_6.0.zip",
+                    "fastboot": "mido_global_images_7.2.16_20170216.0000.00_6.0_global_4257f2d389.tgz"
+                },
+                {
+                    "miui": "7.2.9",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4XGlobal_7.2.9_a83d692f9f_6.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.1.19",
+                    "android": "6.0",
+                    "recovery": "miui_MIDOGlobal_7.1.19_9419fe8d1a_6.0.zip",
+                    "fastboot": "mido_global_images_7.1.19_20170119.0000.00_7.0_global_bbb1bd402f.tgz"
+                },
+                {
+                    "miui": "7.1.13",
+                    "android": "7.0",
+                    "recovery": "miui_MIDOGlobal_7.1.13_113d678a2b_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.1.13",
+                    "android": "6.0",
+                    "recovery": "miui_MIDOGlobal_7.1.13_431434f07b_6.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -282,94 +1288,154 @@
             "enname": "Global Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
+                    "miui": "V11.0.2.0.NCFMIXM",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V11.0.2.0.NCFMIXM_83170d3e3a_7.0.zip",
+                    "fastboot": "mido_global_images_V11.0.2.0.NCFMIXM_20191107.0000.00_7.0_global_91ed4d2a3f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
-            "links": [
+                    "miui": "V10.2.3.0.NCFMIXM",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V10.2.3.0.NCFMIXM_e1a82195b6_7.0.zip",
+                    "fastboot": "mido_global_images_V10.2.3.0.NCFMIXM_20190128.0000.00_7.0_global_ded3edb1b6.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
+                    "miui": "V10.1.1.0.NCFMIFI",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V10.1.1.0.NCFMIFI_707a693088_7.0.zip",
+                    "fastboot": "mido_global_images_V10.1.1.0.NCFMIFI_20181029.0000.00_7.0_global_ecb441093a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
+                    "miui": "V9.6.3.0.NCFMIFD",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.6.3.0.NCFMIFD_875cb07751_7.0.zip",
+                    "fastboot": "mido_global_images_V9.6.3.0.NCFMIFD_20180918.0000.00_7.0_global_0594ad140f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
+                    "miui": "V9.6.2.0.NCFMIFD",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.6.2.0.NCFMIFD_88bb9b1f76_7.0.zip",
+                    "fastboot": "mido_global_images_V9.6.2.0.NCFMIFD_20180716.0000.00_7.0_global_228dc638d1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
+                    "miui": "V9.6.1.0.NCFMIFD",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.6.1.0.NCFMIFD_2ffa61cdd6_7.0.zip",
+                    "fastboot": "mido_global_images_V9.6.1.0.NCFMIFD_20180614.0000.00_7.0_global_259fbc8802.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V9.5.11.0.NCFMIFA",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.5.11.0.NCFMIFA_4c9fde8cd6_7.0.zip",
+                    "fastboot": "mido_global_images_V9.5.11.0.NCFMIFA_20180531.0000.00_7.0_global_90514f5469.tgz"
+                },
+                {
+                    "miui": "V9.5.10.0.NCFMIFA",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.5.10.0.NCFMIFA_2300218819_7.0.zip",
+                    "fastboot": "mido_global_images_V9.5.10.0.NCFMIFA_20180524.0000.00_7.0_global_2bf65e67fb.tgz"
+                },
+                {
+                    "miui": "V9.5.9.0.NCFMIFA",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.5.9.0.NCFMIFA_b57067babe_7.0.zip",
+                    "fastboot": "mido_global_images_V9.5.9.0.NCFMIFA_20180428.0000.00_7.0_global_f3011bf605.tgz"
+                },
+                {
+                    "miui": "V9.5.8.0.NCFMIFA",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.5.8.0.NCFMIFA_30495e599d_7.0.zip",
+                    "fastboot": "mido_global_images_V9.5.8.0.NCFMIFA_20180405.0000.00_7.0_global_5555109951.tgz"
+                },
+                {
+                    "miui": "V9.5.4.0.NCFMIFA",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.5.4.0.NCFMIFA_aaade14a88_7.0.zip",
+                    "fastboot": "mido_global_images_V9.5.4.0.NCFMIFA_20180309.0000.00_7.0_global_cb9dc75888.tgz"
+                },
+                {
+                    "miui": "V9.2.2.0.NCFMIEK",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.2.2.0.NCFMIEK_28d3a64b9a_7.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V9.2.1.0.NCFMIEK",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.2.1.0.NCFMIEK_095a79e80a_7.0.zip",
+                    "fastboot": "mido_global_images_V9.2.1.0.NCFMIEK_20180113.0000.00_7.0_global_88ecfa543f.tgz"
+                },
+                {
+                    "miui": "V9.0.7.0.NCFMIEI",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.0.7.0.NCFMIEI_b454a1276d_7.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V9.0.5.0.NCFMIEI",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.0.5.0.NCFMIEI_d6176de291_7.0.zip",
+                    "fastboot": "mido_global_images_V9.0.5.0.NCFMIEI_20171113.0000.00_7.0_global_b13588b4d7.tgz"
+                },
+                {
+                    "miui": "V9.0.3.0.NCFMIEI",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V9.0.3.0.NCFMIEI_37d94c8e22_7.0.zip",
+                    "fastboot": "mido_global_images_V9.0.3.0.NCFMIEI_20171028.0000.00_7.0_global_0e9582bee8.tgz"
+                },
+                {
+                    "miui": "V8.5.8.0.NCFMIED",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V8.5.8.0.NCFMIED_9bbf8ced00_7.0.zip",
+                    "fastboot": "mido_global_images_V8.5.8.0.NCFMIED_20170916.0000.00_7.0_global_4e70bd1572.tgz"
+                },
+                {
+                    "miui": "V8.5.4.0.NCFMIED",
+                    "android": "7.0",
+                    "recovery": "miui_HMNote4XGlobal_V8.5.4.0.NCFMIED_c0c5733b02_7.0.zip",
+                    "fastboot": "mido_global_images_V8.5.4.0.NCFMIED_20170803.0000.00_7.0_global_2e7abda7f6.tgz"
+                },
+                {
+                    "miui": "V8.2.10.0.MCFMIDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4XGlobal_V8.2.10.0.MCFMIDL_ee189ea231_6.0.zip",
+                    "fastboot": "mido_global_images_V8.2.10.0.MCFMIDL_20170602.0000.00_6.0_global_dfea5718af.tgz"
+                },
+                {
+                    "miui": "V8.2.5.0.MCFMIDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4XGlobal_V8.2.5.0.MCFMIDL_5a12ae39c1_6.0.zip",
+                    "fastboot": "mido_global_images_V8.2.5.0.MCFMIDL_20170428.0000.00_6.0_global_09c18bf462.tgz"
+                },
+                {
+                    "miui": "V8.2.4.0.MCFMIDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4XGlobal_V8.2.4.0.MCFMIDL_b340f1c79f_6.0.zip",
+                    "fastboot": "mido_global_images_V8.2.4.0.MCFMIDL_20170407.0000.00_6.0_global_08ba89f464.tgz"
+                },
+                {
+                    "miui": "V8.2.2.0.MCFMIDL",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4XGlobal_V8.2.2.0.MCFMIDL_e0c1273a57_6.0.zip",
+                    "fastboot": "mido_global_images_V8.2.2.0.MCFMIDL_20170303.0000.00_6.0_global_3369dda765.tgz"
+                },
+                {
+                    "miui": "V8.1.15.0.MCFMIDI",
+                    "android": "6.0",
+                    "recovery": "miui_HMNote4XGlobal_V8.1.15.0.MCFMIDI_d8a7047f07_6.0.zip",
+                    "fastboot": "mido_global_images_V8.1.15.0.MCFMIDI_20170216.0000.00_6.0_global_2ba4e9a900.tgz"
+                },
+                {
+                    "miui": "V8.1.11.0.MCFMIDI",
+                    "android": "6.0",
+                    "recovery": "miui_MIDOGlobal_V8.1.11.0.MCFMIDI_936f37c86f_6.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V8.1.10.0.MCFMIDI",
+                    "android": "6.0",
+                    "recovery": "miui_MIDOGlobal_V8.1.10.0.MCFMIDI_a9244533ed_6.0.zip",
+                    "fastboot": "mido_global_images_V8.1.10.0.MCFMIDI_20161228.0000.00_6.0_global_7557bfe334.tgz"
                 }
             ]
         }
