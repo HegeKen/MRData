@@ -5,7 +5,10 @@
     "attentions":[
         {
             "cn":"已升级 Android P 的小米6用户，不建议回刷版本，因底层版本不同，可能出现功能异常等问题；从 Android P 回刷至 Android O, 若出现查找手机、指纹支付等异常问题，需先刷入过渡的线刷包，再刷 Android O 版本即可正常使用。",
-            "en":"We don't recommend MI6 users to downgrade their device from Android Pie. IF you really want to do it, you may will have 'Find My Phone' Or Fingerprint Malfunction Problem, please first try to flash the 9.5.7.1 Version From China Beta section, then flash prefered Android Oreo ROM."
+            "en":"We don't recommend MI6 users to downgrade their device from Android Pie. IF you really want to do it, you may will have 'Find My Phone' Or Fingerprint malfunction issue, please try to flash the 9.5.7.1 Version From China Beta section, and then flash your prefered Android Oreo ROM."
+        },{
+            "cn":"请在刷入旧版本前确认此版本是否低于手机出厂版本，有几率出现无法识别基带或者指纹传感器的情况，请刷更新的版本以规避该问题",
+            "en":"IF your phone cannot detect Modem of Fingerprint sensor after flashing rom, please try for a newer build."
         }
     ],
     "branches": [
