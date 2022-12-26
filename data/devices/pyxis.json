@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "pyxis",
+    "cnname": "小米 CC 9/小米 9 Lite",
+    "enname": "Mi CC9/Mi 9 Lite",
     "attentions":[
         {
             "cn":"",
@@ -10,43 +10,621 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "21.11.24",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.11.24_6de4b7c8f1_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "21.11.17",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.11.17_e1c4c545ec_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.10",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.11.10_407da6f9c6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.3",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.11.3_72ce689f46_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.27",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.10.27_32a723e96a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.20",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.10.20_2c39135f87_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.13",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.10.13_b33f856d30_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.28",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.9.28_74fd233501_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.22",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.9.22_a8dde8f6b8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.15",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.9.15_25f13fdd5c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.8",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.9.8_e5cf641369_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.1",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.9.1_53be519043_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.25",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.8.25_01069460e2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.18",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.8.18_43e4f73e5e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.11",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.8.11_9e16e702ae_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.4",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.8.4_4492b856b9_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.28",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.7.28_a4aa600204_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.21",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.7.21_492086bbb8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.14",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.7.14_d911a27aac_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.7",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.7.7_fd348bf452_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.30",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.6.30_017a27d908_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.23",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.6.23_55ebb185c3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.16",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.6.16_fb04ad56a3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.9",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.6.9_564d50cc4f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.2",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.6.2_ebdff6a298_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.27",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.5.27_c4fa555562_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.20",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.5.20_0ccb763322_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.12",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.5.12_cf9da7c2b3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.28",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.4.28_18d559fe27_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.21",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.4.21_7dae482da2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.14",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.4.14_2236e5a6a8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.7",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.4.7_21170309bf_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.31",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.3.31_fc74575f5d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.24",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.3.24_179731758e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.17",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.3.17_291d15f548_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.10",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.3.10_abf4b59d41_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.5",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.3.5_abcf9c5058_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.24",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.2.24_825572dfcf_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.3",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.2.3_d7747670b5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.28",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.1.28_5eb90c0056_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.20",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.1.20_92e9ba4231_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.13",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.1.13_e1743a4ec0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.6",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_21.1.6_65d8743410_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.9",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.12.9_1ac3c93766_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.2",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.12.2_06fbb9608c_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.25",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.11.25_4e36e3c5e3_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.18",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.11.18_9010a548e7_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.11",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.11.11_e5fa9bc289_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.5",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.11.5_921acf53d4_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.30",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.10.30_8ca34e09be_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.29",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.10.29_767f6d0352_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.22",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.10.22_4c987e6032_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.15",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.10.15_25aa41c798_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.24",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.9.24_e87ac7c74a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.10",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.9.10_caeacff944_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.3",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.9.3_80ad38c0d6_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.27",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.8.27_8f22f9ac7d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.20",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.8.20_880b3b35af_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.13",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.8.13_e67ee8c48b_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.6",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.8.6_bb98a0e09e_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.30",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.7.30_8c598cb42a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.23",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.7.23_5191280d5d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.16",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.7.16_73e89a7643_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.9",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.7.9_6fd502677a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.2",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.7.2_c79cdeaa45_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.18",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.6.18_81388265ff_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.17",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.6.17_fec52d55c0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.11",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.6.11_795f1a576c_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.4",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.6.4_f50b41e042_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.28",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.5.28_5653d0e1fb_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.21",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.5.21_2a14147544_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.14",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.5.14_1c2be8f66f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.7",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.5.7_3324c10e52_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.30",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.4.30_5e81299b72_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.27",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.4.27_a8055982b0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.26",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.3.26_857cc8af87_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.19",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.3.19_6ec6e95f41_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.12",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.3.12_282b270e73_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.5",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.3.5_b58b304d01_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.27",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.2.27_a902b4bb87_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.21",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.1.21_c911a13d7b_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.16",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.1.16_a3f7c80c2d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.9",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.1.9_211c7e7e97_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.2",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_20.1.2_0f1d993080_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.26",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_9.12.26_cab38c2ed4_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.19",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_9.12.19_e168685c1f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.5",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_9.12.5_768e5012a1_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.28",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_9.11.28_afc8da5577_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.21",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_9.11.21_9a7e3686f1_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.31",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.10.31_b977113a67_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.24",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.10.24_00a6d36500_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.17",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.10.17_b91ea52a15_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.16",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.10.16_45edab6d67_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.10",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.10.10_3aa7ffcc24_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.27",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.9.27_ca2bbe94a4_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.26",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.9.26_0522149954_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.3",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.9.3_9bbb332677_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.22",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.8.22_967183ce2d_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.15",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.8.15_7abdab6da2_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.9",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.8.9_435dede107_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.1",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.8.1_0ad6cd37f0_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.7.25",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_9.7.25_f4c853eef1_9.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -58,220 +636,112 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V12.5.5.0.RFCCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_V12.5.5.0.RFCCNXM_c3b5b178ff_11.0.zip",
+                    "fastboot": "pyxis_images_V12.5.5.0.RFCCNXM_20211024.0000.00_11.0_cn_571cf27a51.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V12.5.3.0.RFCCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_V12.5.3.0.RFCCNXM_123bbbed28_11.0.zip",
+                    "fastboot": "pyxis_images_V12.5.3.0.RFCCNXM_20210624.0000.00_11.0_cn_03df66d909.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.2.0.RFCCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_V12.5.1.0.RFCCNXM_35145e1d67_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.1.0.RFCCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXIS_V12.5.1.0.RFCCNXM_35145e1d67_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V12.0.2.0.QFCCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_V12.0.2.0.QFCCNXM_b122bf39b6_10.0.zip",
+                    "fastboot": "pyxis_images_V12.0.2.0.QFCCNXM_20200816.0000.00_10.0_cn_ef00b4b6c7.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V11.0.4.0.QFCCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_V11.0.4.0.QFCCNXM_b4952cbb3c_10.0.zip",
+                    "fastboot": "pyxis_images_V11.0.4.0.QFCCNXM_20200517.0000.00_10.0_cn_98fb3b251e.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V11.0.3.0.QFCCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_V11.0.3.0.QFCCNXM_d85476eb34_10.0.zip",
+                    "fastboot": "pyxis_images_V11.0.3.0.QFCCNXM_20200418.0000.00_10.0_cn_ce9e174259.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V11.0.1.0.QFCCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXIS_V11.0.1.0.QFCCNXM_ed59cac77c_10.0.zip",
+                    "fastboot": "pyxis_images_V11.0.1.0.QFCCNXM_20200224.0000.00_10.0_cn_de63d46c6b.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.3.4.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V11.3.4.0.PFCCNXM_697726d4e2_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V11.3.3.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V11.3.3.0.PFCCNXM_c02239b14d_9.0.zip",
+                    "fastboot": "pyxis_images_V11.3.3.0.PFCCNXM_20191122.0000.00_9.0_cn_c083d9ff76.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.3.2.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V11.3.2.0.PFCCNXM_fafea063c1_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V11.3.1.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V11.3.1.0.PFCCNXM_afa99e1de4_9.0.zip",
+                    "fastboot": "pyxis_images_V11.3.1.0.PFCCNXM_20191015.0000.00_9.0_cn_ba72eb8c1f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V10.3.9.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V10.3.9.0.PFCCNXM_698aaeaca6_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                    "miui": "V10.3.5.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V10.3.5.0.PFCCNXM_224960eda9_9.0.zip",
+                    "fastboot": "pyxis_images_V10.3.5.0.PFCCNXM_20190621.0000.00_9.0_cn_10916df63d.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V10.3.3.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V10.3.3.0.PFCCNXM_916f963b9b_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V10.3.13.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V10.3.13.0.PFCCNXM_99576fd3ca_9.0.zip",
+                    "fastboot": "pyxis_images_V10.3.13.0.PFCCNXM_20190923.0000.00_9.0_cn_ed64223b45.tgz"
+                },
+                {
+                    "miui": "V10.3.12.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V10.3.12.0.PFCCNXM_2797ecc4cb_9.0.zip",
+                    "fastboot": "pyxis_images_V10.3.12.0.PFCCNXM_20190821.0000.00_9.0_cn_88c98b63d9.tgz"
+                },
+                {
+                    "miui": "V10.3.11.0.PFCCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXIS_V10.3.11.0.PFCCNXM_aee08eb6b6_9.0.zip",
+                    "fastboot": "pyxis_images_V10.3.11.0.PFCCNXM_20190801.0000.00_9.0_cn_259712e2b7.tgz"
                 }
             ]
         },
@@ -282,10 +752,82 @@
             "enname": "Global Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.2.0.RFCMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXISGlobal_V12.5.2.0.RFCMIXM_ceaf059ed1_11.0.zip",
+                    "fastboot": "pyxis_global_images_V12.5.2.0.RFCMIXM_20210713.0000.00_11.0_global_4a76dc08d2.tgz"
+                },
+                {
+                    "miui": "V12.0.7.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V12.0.7.0.QFCMIXM_0bd2771e0b_10.0.zip",
+                    "fastboot": "pyxis_global_images_V12.0.7.0.QFCMIXM_20210508.0000.00_10.0_global_99e1642a01.tgz"
+                },
+                {
+                    "miui": "V12.0.6.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V12.0.6.0.QFCMIXM_753bf0468c_10.0.zip",
+                    "fastboot": "pyxis_global_images_V12.0.6.0.QFCMIXM_20210315.0000.00_10.0_global_94e36143d0.tgz"
+                },
+                {
+                    "miui": "V12.0.5.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V12.0.5.0.QFCMIXM_73995f47b7_10.0.zip",
+                    "fastboot": "pyxis_global_images_V12.0.5.0.QFCMIXM_20201209.0000.00_10.0_global_0871f1f3b5.tgz"
+                },
+                {
+                    "miui": "V12.0.4.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V12.0.4.0.QFCMIXM_84588d8a42_10.0.zip",
+                    "fastboot": "pyxis_global_images_V12.0.4.0.QFCMIXM_20200910.0000.00_10.0_global_82bdf10390.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V12.0.3.0.QFCMIXM_fde3fd51d2_10.0.zip",
+                    "fastboot": "pyxis_global_images_V12.0.3.0.QFCMIXM_20200819.0000.00_10.0_global_e268775799.tgz"
+                },
+                {
+                    "miui": "V11.0.3.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V11.0.3.0.QFCMIXM_7423b46ef1_10.0.zip",
+                    "fastboot": "pyxis_global_images_V11.0.3.0.QFCMIXM_20200610.0000.00_10.0_global_47285858c4.tgz"
+                },
+                {
+                    "miui": "V11.0.2.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V11.0.2.0.QFCMIXM_9d8bcf2a03_10.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.1.0.QFCMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISGlobal_V11.0.1.0.QFCMIXM_212c62202d_10.0.zip",
+                    "fastboot": "pyxis_global_images_V11.0.1.0.QFCMIXM_20200309.0000.00_10.0_global_40cdbc7698.tgz"
+                },
+                {
+                    "miui": "V11.3.4.0.PFCMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISGlobal_V11.3.4.0.PFCMIXM_78bb922dcd_9.0.zip",
+                    "fastboot": "pyxis_global_images_V11.3.4.0.PFCMIXM_20191122.0000.00_9.0_global_de83ecb6f3.tgz"
+                },
+                {
+                    "miui": "V11.3.3.0.PFCMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISGlobal_V11.3.3.0.PFCMIXM_6a3205a4b8_9.0.zip",
+                    "fastboot": "pyxis_global_images_V11.3.3.0.PFCMIXM_20191101.0000.00_9.0_global_e688c52fee.tgz"
+                },
+                {
+                    "miui": "V11.3.2.0.PFCMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISGlobal_V11.3.2.0.PFCMIXM_330297fc95_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V10.3.1.0.PFCMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISGlobal_V10.3.1.0.PFCMIXM_498ea52b22_9.0.zip",
+                    "fastboot": "pyxis_global_images_V10.3.1.0.PFCMIXM_20190911.0000.00_9.0_global_fab5fdff8f.tgz"
                 }
             ]
         },
@@ -296,9 +838,111 @@
                 "enname": "Europe EEA Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.3.0.RFCEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXISEEAGlobal_V12.5.3.0.RFCEUXM_031fb02bfb_11.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V12.5.3.0.RFCEUXM_20220727.0000.00_11.0_eea_861e3ec2ae.tgz"
+                },
+                {
+                    "miui": "V12.0.10.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V12.0.10.0.QFCEUXM_a6f315ca02_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V12.0.10.0.QFCEUXM_20210802.0000.00_10.0_eea_604282bbf4.tgz"
+                },
+                {
+                    "miui": "V12.0.7.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V12.0.7.0.QFCEUXM_ebd02970c4_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V12.0.7.0.QFCEUXM_20210506.0000.00_10.0_eea_4bc95e46ac.tgz"
+                },
+                {
+                    "miui": "V12.0.6.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V12.0.6.0.QFCEUXM_9069881e56_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V12.0.6.0.QFCEUXM_20210303.0000.00_10.0_eea_dd15631ac7.tgz"
+                },
+                {
+                    "miui": "V12.0.5.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V12.0.5.0.QFCEUXM_fa4dc4e894_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V12.0.5.0.QFCEUXM_20201209.0000.00_10.0_eea_334550fbf3.tgz"
+                },
+                {
+                    "miui": "V12.0.4.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V12.0.4.0.QFCEUXM_52678cf089_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V12.0.4.0.QFCEUXM_20200910.0000.00_10.0_eea_be09dd02cd.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V12.0.3.0.QFCEUXM_77eb12bf7d_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V12.0.3.0.QFCEUXM_20200819.0000.00_10.0_eea_f39a9abf75.tgz"
+                },
+                {
+                    "miui": "V11.0.3.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.0.3.0.QFCEUXM_d5ccaacaf9_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V11.0.3.0.QFCEUXM_20200610.0000.00_10.0_eea_17f5009cba.tgz"
+                },
+                {
+                    "miui": "V11.0.2.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.0.2.0.QFCEUXM_6779692a34_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.1.0.QFCEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.0.1.0.QFCEUXM_ff6e40b4b4_10.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V11.0.1.0.QFCEUXM_20200309.0000.00_10.0_eea_e6931645dd.tgz"
+                },
+                {
+                    "miui": "V11.3.9.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.3.9.0.PFCEUXM_43fc5033d6_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V11.3.5.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.3.5.0.PFCEUXM_7809748c0a_9.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V11.3.5.0.PFCEUXM_20191207.0000.00_9.0_eea_9fd7d8bacb.tgz"
+                },
+                {
+                    "miui": "V11.3.4.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.3.4.0.PFCEUXM_bd857626ef_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V11.3.3.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.3.3.0.PFCEUXM_7c18ddc18e_9.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V11.3.3.0.PFCEUXM_20191101.0000.00_9.0_eea_47cee59052.tgz"
+                },
+                {
+                    "miui": "V11.3.2.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V11.3.2.0.PFCEUXM_47e74213eb_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V10.3.6.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V10.3.6.0.PFCEUXM_3fe48940d7_9.0.zip",
+                    "fastboot": "pyxis_eea_global_images_V10.3.6.0.PFCEUXM_20190925.0000.00_9.0_eea_eb9e9275e6.tgz"
+                },
+                {
+                    "miui": "V10.3.5.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V10.3.5.0.PFCEUXM_5ddcb72414_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V10.3.4.0.PFCEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISEEAGlobal_V10.3.4.0.PFCEUXM_5c7dfe5df8_9.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -310,10 +954,82 @@
                 "enname": "Russia Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.6.0.RFCRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXISRUGlobal_V12.5.6.0.RFCRUXM_9e72d8dffc_11.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V12.5.6.0.RFCRUXM_20220620.0000.00_11.0_global_ab8f7f5f4f.tgz"
+                },
+                {
+                    "miui": "V12.5.1.0.RFCRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_PYXISRUGlobal_V12.5.1.0.RFCRUXM_302834bea9_11.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V12.5.1.0.RFCRUXM_20210723.0000.00_11.0_global_68fbdc8dc1.tgz"
+                },
+                {
+                    "miui": "V12.0.6.0.QFCRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISRUGlobal_V12.0.6.0.QFCRUXM_9d4b5c2c24_10.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V12.0.6.0.QFCRUXM_20210508.0000.00_10.0_global_bced4b643c.tgz"
+                },
+                {
+                    "miui": "V12.0.5.0.QFCRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISRUGlobal_V12.0.5.0.QFCRUXM_24ec247ceb_10.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V12.0.5.0.QFCRUXM_20210315.0000.00_10.0_global_723e1c784e.tgz"
+                },
+                {
+                    "miui": "V12.0.4.0.QFCRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISRUGlobal_V12.0.4.0.QFCRUXM_2a408b7b13_10.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V12.0.4.0.QFCRUXM_20201209.0000.00_10.0_global_0c0fca0116.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QFCRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISRUGlobal_V12.0.3.0.QFCRUXM_3d07421783_10.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V12.0.3.0.QFCRUXM_20200819.0000.00_10.0_global_6d70a0912a.tgz"
+                },
+                {
+                    "miui": "V11.0.3.0.QFCRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISRUGlobal_V11.0.3.0.QFCRUXM_c18fb43082_10.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V11.0.3.0.QFCRUXM_20200610.0000.00_10.0_global_a78630ddd5.tgz"
+                },
+                {
+                    "miui": "V11.0.2.0.QFCRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISRUGlobal_V11.0.2.0.QFCRUXM_736774dab3_10.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.1.0.QFCRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_PYXISRUGlobal_V11.0.1.0.QFCRUXM_a8e12d669d_10.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V11.0.1.0.QFCRUXM_20200306.0000.00_10.0_global_f7b6c3a1b7.tgz"
+                },
+                {
+                    "miui": "V11.3.5.0.PFCRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISRUGlobal_V11.3.5.0.PFCRUXM_debc6b1086_9.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V11.3.5.0.PFCRUXM_20200212.0000.00_9.0_global_44ed47c8c4.tgz"
+                },
+                {
+                    "miui": "V11.3.3.0.PFCRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISRUGlobal_V11.3.3.0.PFCRUXM_35d47b9f8b_9.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V11.3.3.0.PFCRUXM_20191122.0000.00_9.0_global_ed35a8638a.tgz"
+                },
+                {
+                    "miui": "V11.3.2.0.PFCRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISRUGlobal_V11.3.2.0.PFCRUXM_78a0c9079e_9.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V11.3.2.0.PFCRUXM_20191017.0000.00_9.0_global_d6a9cd57df.tgz"
+                },
+                {
+                    "miui": "V10.3.1.0.PFCRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_PYXISRUGlobal_V10.3.1.0.PFCRUXM_6cfd432584_9.0.zip",
+                    "fastboot": "pyxis_ru_global_images_V10.3.1.0.PFCRUXM_20190911.0000.00_9.0_global_09b21c8b37.tgz"
                 }
             ]
         },

@@ -1,11 +1,11 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "sagit",
+    "cnname": "小米 6",
+    "enname": "Mi 6",
     "attentions":[
         {
-            "cn":"",
-            "en":""
+            "cn":"已升级 Android P 的小米6用户，不建议回刷版本，因底层版本不同，可能出现功能异常等问题；从 Android P 回刷至 Android O, 若出现查找手机、指纹支付等异常问题，需先刷入过渡的线刷包，再刷 Android O 版本即可正常使用。",
+            "en":"We don't recommend MI6 users to downgrade their device from Android Pie. IF you really want to do it, you may will have \"Find My Phone\" Or Fingerprint Malfunction Problem, please first try to flash the 9.5.7.1 Version From China Beta section, then flash prefered Android Oreo ROM."
         }
     ],
     "branches": [
@@ -16,9 +16,15 @@
             "enname": "China Alpha",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "8.8.16",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Alpha_8.8.16_7de1e9f459_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.8.8",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Alpha_8.8.8_77e123eec3_8.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -30,24 +36,844 @@
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "20.6.18",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.6.18_3f5b90d469_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "20.6.17",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.6.17_9306dc6d3c_9.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "20.6.11",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.6.11_71c9e56a90_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.4",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.6.4_bdfc013b8f_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.28",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.5.28_98efb12884_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.21",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.5.21_b739b0fa8e_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.14",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.5.14_92d9ad84e7_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.7",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.5.7_0d7b49288d_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.30",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.4.30_1f77f6d5fe_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.27",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.4.27_12ed897867_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.26",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.3.26_c8081cf18a_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.19",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.3.19_1e35b4735c_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.12",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.3.12_f5c13f92e7_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.5",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.3.5_c75f657b0e_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.27",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.2.27_581048ade9_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.20",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.2.20_0bbc2517ef_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.16",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.1.16_e08de085ec_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.9",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.1.9_478bfa515a_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.2",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_20.1.2_fdfe429126_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.26",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.12.26_7838349441_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.19",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.12.19_e43232293e_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.12",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.12.12_1132355052_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.5",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.12.5_3f6308c64f_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.28",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.11.28_608547ac74_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.21",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.11.21_88031666cd_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.14",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.11.14_bc688b7a4b_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.7",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.11.7_2654c16735_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.31",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.10.31_79148d7787_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.24",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.10.24_f04fb7e426_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.17",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.10.17_ef23ceba92_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.16",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.10.16_eb8062868b_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.10",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.10.10_cadc00a854_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.26",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.9.26_f4d59ad7b2_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.3",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.9.3_c36a83d27e_9.0.zip",
+                    "fastboot": "sagit_images_9.9.3_20190904.0000.00_9.0_cn_b51d5ce3d8.tgz"
+                },
+                {
+                    "miui": "9.8.29",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.8.29_442fd7bc9e_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.22",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.8.22_84d2050352_9.0.zip",
+                    "fastboot": "sagit_images_9.8.22_20190822.0000.00_9.0_cn_79d70c908f.tgz"
+                },
+                {
+                    "miui": "9.8.15",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.8.15_2d3f58c883_9.0.zip",
+                    "fastboot": "sagit_images_9.8.15_20190815.0000.00_9.0_cn_0534549e47.tgz"
+                },
+                {
+                    "miui": "9.8.9",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.8.9_189184ac45_9.0.zip",
+                    "fastboot": "sagit_images_9.8.9_20190809.0000.00_9.0_cn_e1f8e80974.tgz"
+                },
+                {
+                    "miui": "9.8.8",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.8.8_33126fd489_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.1",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.8.1_e97c21e683_9.0.zip",
+                    "fastboot": "sagit_images_9.8.1_20190801.0000.00_9.0_cn_445e8cf6b8.tgz"
+                },
+                {
+                    "miui": "9.7.25",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.7.25_6febda42db_9.0.zip",
+                    "fastboot": "sagit_images_9.7.25_20190725.0000.00_9.0_cn_58c1b242f4.tgz"
+                },
+                {
+                    "miui": "9.7.22",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.7.22_e951acd177_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.7.18",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.7.18_46bc405cdd_9.0.zip",
+                    "fastboot": "sagit_images_9.7.18_20190718.0000.00_9.0_cn_4bcf99641f.tgz"
+                },
+                {
+                    "miui": "9.7.11",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.7.11_5d499d5b91_9.0.zip",
+                    "fastboot": "sagit_images_9.7.11_20190711.0000.00_9.0_cn_c08131cae4.tgz"
+                },
+                {
+                    "miui": "9.7.4",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.7.4_96e2cffc47_9.0.zip",
+                    "fastboot": "sagit_images_9.7.4_20190704.0000.00_9.0_cn_7e56ce7c84.tgz"
+                },
+                {
+                    "miui": "9.6.27",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.6.27_c7b489b2eb_9.0.zip",
+                    "fastboot": "sagit_images_9.6.27_20190627.0000.00_9.0_cn_762a9166e5.tgz"
+                },
+                {
+                    "miui": "9.6.20",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.6.20_cf7c859744_9.0.zip",
+                    "fastboot": "sagit_images_9.6.20_20190620.0000.00_9.0_cn_b9084b6ed4.tgz"
+                },
+                {
+                    "miui": "9.6.17",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.6.17_05f836121b_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.13",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.6.13_83becddc54_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.5",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.6.5_d15ffcf5eb_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.4",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.6.4_89ef08ee5f_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.3",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.6.3_1ab733a9f2_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.30",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.5.30_445a3d92b1_9.0.zip",
+                    "fastboot": "sagit_images_9.5.30_20190530.0000.00_9.0_cn_6a89f6bd07.tgz"
+                },
+                {
+                    "miui": "9.5.23",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.5.23_170ad6a413_9.0.zip",
+                    "fastboot": "sagit_images_9.5.23_20190523.0000.00_9.0_cn_307d20c5ca.tgz"
+                },
+                {
+                    "miui": "9.5.16",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.5.16_683d50274b_9.0.zip",
+                    "fastboot": "sagit_images_9.5.16_20190516.0000.00_9.0_cn_fd42af160c.tgz"
+                },
+                {
+                    "miui": "9.5.14",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.5.14_367667016e_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.9",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.5.9_0c696066a4_9.0.zip",
+                    "fastboot": "sagit_images_9.5.9_20190509.0000.00_9.0_cn_921b2f8378.tgz"
+                },
+                {
+                    "miui": "9.4.25",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.4.25_aa38a7f25b_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.22",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_9.4.22_733d66f6b5_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.11",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.4.11_692ddc81ce_8.0.zip",
+                    "fastboot": "sagit_images_9.4.11_20190411.0000.00_8.0_cn_db17ad4119.tgz"
+                },
+                {
+                    "miui": "9.5.7.1",
+                    "android": "8.0",
+                    "recovery": "",
+                    "fastboot": "sagit_images_9.5.7.1_20190507.0000.00_8.0_cn_92b2c231b5.tgz"
+                },
+                {
+                    "miui": "9.4.2",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.4.2_afe52f380b_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.4.1_411c46791b_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.28",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.3.28_a1ab403957_8.0.zip",
+                    "fastboot": "sagit_images_9.3.28_20190328.0000.00_8.0_cn_73333ce13f.tgz"
+                },
+                {
+                    "miui": "9.3.21",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.3.21_329de8981b_8.0.zip",
+                    "fastboot": "sagit_images_9.3.21_20190321.0000.00_8.0_cn_10b5fca431.tgz"
+                },
+                {
+                    "miui": "9.3.14",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.3.14_450f6ffc19_8.0.zip",
+                    "fastboot": "sagit_images_9.3.14_20190314.0000.00_8.0_cn_5787ba83ea.tgz"
+                },
+                {
+                    "miui": "9.3.7",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.3.7_79556aa425_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.2.28",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.2.28_db464cb087_8.0.zip",
+                    "fastboot": "sagit_images_9.2.28_20190228.0000.00_8.0_cn_fae2a84cd4.tgz"
+                },
+                {
+                    "miui": "9.2.21",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.2.21_cbc3c68139_8.0.zip",
+                    "fastboot": "sagit_images_9.2.21_20190221.0000.00_8.0_cn_35850477a6.tgz"
+                },
+                {
+                    "miui": "9.2.15",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.2.15_eae31a4314_8.0.zip",
+                    "fastboot": "sagit_images_9.2.15_20190215.0000.00_8.0_cn_1396fedfb0.tgz"
+                },
+                {
+                    "miui": "9.1.24",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.1.24_9ec59ae5d2_8.0.zip",
+                    "fastboot": "sagit_images_9.1.24_20190124.0000.00_8.0_cn_54a161850a.tgz"
+                },
+                {
+                    "miui": "9.1.17",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.1.17_2f92ef5bb3_8.0.zip",
+                    "fastboot": "sagit_images_9.1.17_20190117.0000.00_8.0_cn_7d839cca6a.tgz"
+                },
+                {
+                    "miui": "9.1.10",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_9.1.10_2cb1937324_8.0.zip",
+                    "fastboot": "sagit_images_9.1.10_20190110.0000.00_8.0_cn_b995fd6fe9.tgz"
+                },
+                {
+                    "miui": "8.12.27",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.12.27_5700fa5bd1_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.12.20",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.12.20_7fb9d5aa9c_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.12.13",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.12.13_cda51bb6da_8.0.zip",
+                    "fastboot": "sagit_images_8.12.13_20181213.0000.00_8.0_cn_e6393d948b.tgz"
+                },
+                {
+                    "miui": "8.12.6",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.12.6_04cdf2d9dc_8.0.zip",
+                    "fastboot": "sagit_images_8.12.6_20181206.0000.00_8.0_cn_c3899d07a4.tgz"
+                },
+                {
+                    "miui": "8.11.29",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.11.29_b41eecc4eb_8.0.zip",
+                    "fastboot": "sagit_images_8.11.29_20181129.0000.00_8.0_cn_61c6ad0cb7.tgz"
+                },
+                {
+                    "miui": "8.11.22",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.11.22_488193502d_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.11.15",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.11.15_ddd214fbd9_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.11.8",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.11.8_524fe8fb26_8.0.zip",
+                    "fastboot": "sagit_images_8.11.8_20181108.0000.00_8.0_cn_28ab500a01.tgz"
+                },
+                {
+                    "miui": "8.11.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.11.1_723c1e4a21_8.0.zip",
+                    "fastboot": "sagit_images_8.11.1_20181101.0000.00_8.0_cn_8d1576b6be.tgz"
+                },
+                {
+                    "miui": "8.10.25",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.10.25_d86503fb72_8.0.zip",
+                    "fastboot": "sagit_images_8.10.25_20181025.0000.00_8.0_cn_e099f30110.tgz"
+                },
+                {
+                    "miui": "8.10.18",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.10.18_047b881683_8.0.zip",
+                    "fastboot": "sagit_images_8.10.18_20181018.0000.00_8.0_cn_44e2c41ee7.tgz"
+                },
+                {
+                    "miui": "8.10.11",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.10.11_ea9fedf3e1_8.0.zip",
+                    "fastboot": "sagit_images_8.10.11_20181011.0000.00_8.0_cn_c8d1fc4567.tgz"
+                },
+                {
+                    "miui": "8.9.20",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.9.20_f30c5de58b_8.0.zip",
+                    "fastboot": "sagit_images_8.9.20_20180920.0000.00_8.0_cn_548656e99f.tgz"
+                },
+                {
+                    "miui": "8.9.13",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.9.13_8fed5b6e95_8.0.zip",
+                    "fastboot": "sagit_images_8.9.13_20180913.0000.00_8.0_cn_8d6f3b2182.tgz"
+                },
+                {
+                    "miui": "8.9.6",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.9.6_e1fb054a69_8.0.zip",
+                    "fastboot": "sagit_images_8.9.6_20180906.0000.00_8.0_cn_ffae3728a2.tgz"
+                },
+                {
+                    "miui": "8.8.30",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.8.30_0bf88672e3_8.0.zip",
+                    "fastboot": "sagit_images_8.8.30_20180830.0000.00_8.0_cn_6243a1199c.tgz"
+                },
+                {
+                    "miui": "8.8.23",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.8.23_ac5f9997b0_8.0.zip",
+                    "fastboot": "sagit_images_8.8.23_20180823.0000.00_8.0_cn_df7b712029.tgz"
+                },
+                {
+                    "miui": "8.8.16",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.8.16_bd320f58ae_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.8.9",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.8.9_90988291c1_8.0.zip",
+                    "fastboot": "sagit_images_8.8.9_20180809.0000.00_8.0_cn_8948778ed5.tgz"
+                },
+                {
+                    "miui": "8.8.2",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.8.2_5b44a92e16_8.0.zip",
+                    "fastboot": "sagit_images_8.8.2_20180802.0000.00_8.0_cn_c1498384b0.tgz"
+                },
+                {
+                    "miui": "8.7.26",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.7.26_9c83cc832d_8.0.zip",
+                    "fastboot": "sagit_images_8.7.26_20180726.0000.00_8.0_cn_caa9599b4c.tgz"
+                },
+                {
+                    "miui": "8.7.19",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.7.19_a51ca31109_8.0.zip",
+                    "fastboot": "sagit_images_8.7.19_20180719.0000.00_8.0_cn_5854e62ae5.tgz"
+                },
+                {
+                    "miui": "8.7.12",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.7.12_7fd01aa4f8_8.0.zip",
+                    "fastboot": "sagit_images_8.7.12_20180712.0000.00_8.0_cn_a967ff4bf3.tgz"
+                },
+                {
+                    "miui": "8.7.5",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.7.5_0576bf75dd_8.0.zip",
+                    "fastboot": "sagit_images_8.7.5_20180705.0000.00_8.0_cn_e81af2b2cd.tgz"
+                },
+                {
+                    "miui": "8.6.28",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.6.28_6534fe8ec3_8.0.zip",
+                    "fastboot": "sagit_images_8.6.28_20180628.0000.00_8.0_cn_f4f18b6085.tgz"
+                },
+                {
+                    "miui": "8.6.21",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.6.21_3fe79e37b5_8.0.zip",
+                    "fastboot": "sagit_images_8.6.21_20180621.0000.00_8.0_cn_5adc6667af.tgz"
+                },
+                {
+                    "miui": "8.6.14",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.6.14_a43d986471_8.0.zip",
+                    "fastboot": "sagit_images_8.6.14_20180614.0000.00_8.0_cn_24d3321cd4.tgz"
+                },
+                {
+                    "miui": "8.5.8",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.5.8_b3b27ee9c8_8.0.zip",
+                    "fastboot": "sagit_images_8.5.8_20180508.0000.00_8.0_cn_7b3c9204ad.tgz"
+                },
+                {
+                    "miui": "8.4.26",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.4.26_5357868bf1_8.0.zip",
+                    "fastboot": "sagit_images_8.4.26_20180426.0000.00_8.0_cn_f6135f45be.tgz"
+                },
+                {
+                    "miui": "8.4.19",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.4.19_418406941a_8.0.zip",
+                    "fastboot": "sagit_images_8.4.19_20180419.0000.00_8.0_cn_6c6d655937.tgz"
+                },
+                {
+                    "miui": "8.4.12",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.4.12_445ec5e24b_8.0.zip",
+                    "fastboot": "sagit_images_8.4.12_20180412.0000.00_8.0_cn_228045dffb.tgz"
+                },
+                {
+                    "miui": "8.4.9",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.4.9_6e2b5e809b_8.0.zip",
+                    "fastboot": "sagit_images_8.4.9_20180409.0000.00_8.0_cn_43ab3fc518.tgz"
+                },
+                {
+                    "miui": "8.3.29",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.3.29_696fc053af_8.0.zip",
+                    "fastboot": "sagit_images_8.3.29_20180329.0000.00_8.0_cn_7b616e584b.tgz"
+                },
+                {
+                    "miui": "8.3.22",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.3.22_1636f1f01d_8.0.zip",
+                    "fastboot": "sagit_images_8.3.22_20180322.0000.00_8.0_cn_3943a0ee7d.tgz"
+                },
+                {
+                    "miui": "8.3.15",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.3.15_202c9070d8_8.0.zip",
+                    "fastboot": "sagit_images_8.3.15_20180315.0000.00_8.0_cn_c69c8c5f03.tgz"
+                },
+                {
+                    "miui": "8.3.8",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.3.8_a9eef2d5a4_8.0.zip",
+                    "fastboot": "sagit_images_8.3.8_20180308.0000.00_8.0_cn_c10466c44a.tgz"
+                },
+                {
+                    "miui": "8.3.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.3.1_eba219739d_8.0.zip",
+                    "fastboot": "sagit_images_8.3.1_20180301.0000.00_8.0_cn_7e443c973e.tgz"
+                },
+                {
+                    "miui": "8.2.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.2.1_18957a2b22_8.0.zip",
+                    "fastboot": "sagit_images_8.2.1_20180201.0000.00_8.0_cn_2360321d25.tgz"
+                },
+                {
+                    "miui": "8.1.25",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.1.25_0110827d3f_8.0.zip",
+                    "fastboot": "sagit_images_8.1.25_20180125.0000.00_8.0_cn_02d047c3f5.tgz"
+                },
+                {
+                    "miui": "8.1.18",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_8.1.18_2b10cee390_8.0.zip",
+                    "fastboot": "sagit_images_8.1.18_20180118.0000.00_8.0_cn_ad48ec0cb1.tgz"
+                },
+                {
+                    "miui": "7.12.7",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.12.7_c8bdc02340_7.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.11.30",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.11.30_177b18ed39_7.1.zip",
+                    "fastboot": "sagit_images_7.11.30_20171130.0000.00_7.1_cn_d00dd5626e.tgz"
+                },
+                {
+                    "miui": "7.11.23",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.11.23_6409ea6272_7.1.zip",
+                    "fastboot": "sagit_images_7.11.23_20171123.0000.00_7.1_cn_08dd2b8f76.tgz"
+                },
+                {
+                    "miui": "7.11.16",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.11.16_8d636465eb_7.1.zip",
+                    "fastboot": "sagit_images_7.11.16_20171116.0000.00_7.1_cn_7b80914df0.tgz"
+                },
+                {
+                    "miui": "7.11.13",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.11.13_20229195f4_7.1.zip",
+                    "fastboot": "sagit_images_7.11.13_20171112.0000.00_7.1_cn_ef392a70f0.tgz"
+                },
+                {
+                    "miui": "7.11.2",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.11.2_15395a4acc_7.1.zip",
+                    "fastboot": "sagit_images_7.11.2_20171102.0000.00_7.1_cn_ba593bef4a.tgz"
+                },
+                {
+                    "miui": "7.10.26",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.10.26_1e81a3b961_7.1.zip",
+                    "fastboot": "sagit_images_7.10.26_20171026.0000.00_7.1_cn_c3f701226c.tgz"
+                },
+                {
+                    "miui": "7.10.19",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.10.19_d063c1181c_7.1.zip",
+                    "fastboot": "sagit_images_7.10.19_20171019.0000.00_7.1_cn_3b73d76b15.tgz"
+                },
+                {
+                    "miui": "7.10.12",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.10.12_bc3bf74b9e_7.1.zip",
+                    "fastboot": "sagit_images_7.10.12_20171012.0000.00_7.1_cn_cf13e57b72.tgz"
+                },
+                {
+                    "miui": "7.9.14",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.9.14_85ba3f66c6_7.1.zip",
+                    "fastboot": "sagit_images_7.9.14_20170914.0000.00_7.1_cn_c0b2056a61.tgz"
+                },
+                {
+                    "miui": "7.9.8",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.9.8_37dd626680_7.1.zip",
+                    "fastboot": "sagit_images_7.9.8_20170907.0000.00_7.1_cn_3da21d41fe.tgz"
+                },
+                {
+                    "miui": "7.8.31",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.8.31_e9e15ed3f3_7.1.zip",
+                    "fastboot": "sagit_images_7.8.31_20170831.0000.00_7.1_cn_fe032eee8a.tgz"
+                },
+                {
+                    "miui": "7.8.24",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.8.24_51fe50e0e5_7.1.zip",
+                    "fastboot": "sagit_images_7.8.24_20170824.0000.00_7.1_cn_26f672b724.tgz"
+                },
+                {
+                    "miui": "7.8.17",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.8.17_e6cd3b61d1_7.1.zip",
+                    "fastboot": "sagit_images_7.8.17_20170817.0000.00_7.1_cn_77a8d4eeb7.tgz"
+                },
+                {
+                    "miui": "7.8.15",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.8.15_5c848dec6a_7.1.zip",
+                    "fastboot": "sagit_images_7.8.15_20170815.0000.00_7.1_cn_81ca00a961.tgz"
+                },
+                {
+                    "miui": "7.8.10",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.8.10_5658d15671_7.1.zip",
+                    "fastboot": "sagit_images_7.8.10_20170810.0000.00_7.1_cn_47c0782e4b.tgz"
+                },
+                {
+                    "miui": "7.7.20",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.7.20_0a66859537_7.1.zip",
+                    "fastboot": "sagit_images_7.7.20_20170720.0000.00_7.1_cn_772bd095d7.tgz"
+                },
+                {
+                    "miui": "7.7.7",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.7.7_a2a54e0732_7.1.zip",
+                    "fastboot": "sagit_images_7.7.7_20170707.0000.00_7.1_cn_af439429b0.tgz"
+                },
+                {
+                    "miui": "7.6.29",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.6.29_57a91ad85d_7.1.zip",
+                    "fastboot": "sagit_images_7.6.29_20170629.0000.00_7.1_cn_8ba0978261.tgz"
+                },
+                {
+                    "miui": "7.6.24",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.6.24_adfdfd04a3_7.1.zip",
+                    "fastboot": "sagit_images_7.6.24_20170624.0000.00_7.1_cn_220e50e809.tgz"
+                },
+                {
+                    "miui": "7.6.8",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.6.8_d57ce4ade8_7.1.zip",
+                    "fastboot": "sagit_images_7.6.8_20170608.0000.00_7.1_cn_e9c5fc9533.tgz"
+                },
+                {
+                    "miui": "7.5.25",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.5.25_cce17d16e1_7.1.zip",
+                    "fastboot": "sagit_images_7.5.25_20170525.0000.00_7.1_cn_b2a47aff8b.tgz"
+                },
+                {
+                    "miui": "7.5.18",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.5.18_3facbbe131_7.1.zip",
+                    "fastboot": "sagit_images_7.5.18_20170518.0000.00_7.1_cn_6b3bbcbb0e.tgz"
+                },
+                {
+                    "miui": "7.5.11",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.5.11_6b8724a355_7.1.zip",
+                    "fastboot": "sagit_images_7.5.11_20170511.0000.00_7.1_cn_baf6205d9e.tgz"
+                },
+                {
+                    "miui": "7.5.5",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.5.5_432c0f8178_7.1.zip",
+                    "fastboot": "sagit_images_7.5.5_20170505.0000.00_7.1_cn_da4bcba334.tgz"
+                },
+                {
+                    "miui": "7.5.4",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.5.4_221dc37163_7.1.zip",
+                    "fastboot": "sagit_images_7.5.4_20170504.0000.00_7.1_cn_6c1fde1381.tgz"
+                },
+                {
+                    "miui": "7.4.27",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_7.4.27_6870883c53_7.1.zip",
+                    "fastboot": "sagit_images_7.4.27_20170426.0000.00_7.1_cn_0dafb2fb44.tgz"
                 }
             ]
         },
@@ -58,206 +884,196 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V11.0.5.0.PCACNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_V11.0.5.0.PCACNXM_996ffd2660_9.0.zip",
+                    "fastboot": "sagit_images_V11.0.5.0.PCACNXM_20200305.0000.00_9.0_cn_f1f49274f9.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V11.0.2.0.PCACNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_V11.0.2.0.PCACNXM_86da9ed9e4_9.0.zip",
+                    "fastboot": "sagit_images_V11.0.2.0.PCACNXM_20191019.0000.00_9.0_cn_9696da2279.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.0.1.0.PCACNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_V11.0.1.0.PCACNXM_89ae308519_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V10.4.3.0.PCACNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_V10.4.3.0.PCACNXM_0a6e803d0c_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V10.4.2.0.PCACNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6_V10.4.2.0.PCACNXM_75a8bf4171_9.0.zip",
+                    "fastboot": "sagit_images_V10.4.2.0.PCACNXM_20190707.0000.00_9.0_cn_bccfa13eca.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V10.3.1.0.OCACNXM",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V10.3.1.0.OCACNXM_daadd2e637_8.0.zip",
+                    "fastboot": "sagit_images_V10.3.1.0.OCACNXM_20190328.0000.00_8.0_cn_38e230279a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V10.2.1.0.OCACNFK",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V10.2.1.0.OCACNFK_92fc570616_8.0.zip",
+                    "fastboot": "sagit_images_V10.2.1.0.OCACNFK_20181210.0000.00_8.0_cn_7a8f9cf2a9.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V10.0.2.0.OCACNFH",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V10.0.2.0.OCACNFH_278bcc8c58_8.0.zip",
+                    "fastboot": "sagit_images_V10.0.2.0.OCACNFH_20180926.0000.00_8.0_cn_06683733c4.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V10.0.1.0.OCACNFH",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V10.0.1.0.OCACNFH_36fb7a3e44_8.0.zip",
+                    "fastboot": "sagit_images_V10.0.1.0.OCACNFH_20180821.0000.00_8.0_cn_5ea2b7ee95.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V9.6.3.0.OCACNFD",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V9.6.3.0.OCACNFD_72b5cc63d6_8.0.zip",
+                    "fastboot": "sagit_images_V9.6.3.0.OCACNFD_20180725.0000.00_8.0_cn_767bc51471.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                    "miui": "V9.6.2.0.OCACNFD",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V9.6.2.0.OCACNFD_ee6e074cee_8.0.zip",
+                    "fastboot": "sagit_images_V9.6.2.0.OCACNFD_20180528.0000.00_8.0_cn_1643fa941d.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V9.5.8.0.OCACNFA",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V9.5.8.0.OCACNFA_6996c0d8b1_8.0.zip",
+                    "fastboot": "sagit_images_V9.5.8.0.OCACNFA_20180509.0000.00_8.0_cn_d1d6f86f71.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                    "miui": "V9.5.7.0.OCACNFA",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V9.5.7.0.OCACNFA_f1ebbce258_8.0.zip",
+                    "fastboot": "sagit_images_V9.5.7.0.OCACNFA_20180410.0000.00_8.0_cn_8be106223e.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                    "miui": "V9.5.3.0.OCACNFA",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V9.5.3.0.OCACNFA_a1956b9cd1_8.0.zip",
+                    "fastboot": "sagit_images_V9.5.3.0.OCACNFA_20180307.0000.00_8.0_cn_4c8a751d6e.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V9.2.3.0.OCACNEK",
+                    "android": "8.0",
+                    "recovery": "miui_MI6_V9.2.3.0.OCACNEK_1188ea5384_8.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V9.2.4.0.NCACNEK",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V9.2.4.0.NCACNEK_4210c4c354_7.1.zip",
+                    "fastboot": "sagit_images_V9.2.4.0.NCACNEK_20180117.0000.00_7.1_cn_c50df2ce6a.tgz"
+                },
+                {
+                    "miui": "V9.2.3.0.NCACNEK",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V9.2.3.0.NCACNEK_0cd236e3b2_7.1.zip",
+                    "fastboot": "sagit_images_V9.2.3.0.NCACNEK_20171227.0000.00_7.1_cn_f0a12b404e.tgz"
+                },
+                {
+                    "miui": "V9.2.1.0.NCACNEK",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V9.2.1.0.NCACNEK_cb2e4488b7_7.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V9.0.6.0.NCACNEI",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V9.0.6.0.NCACNEI_7ff4a6a0f8_7.1.zip",
+                    "fastboot": "sagit_images_V9.0.6.0.NCACNEI_20171122.0000.00_7.1_cn_ad3d0bd7de.tgz"
+                },
+                {
+                    "miui": "V9.0.5.0.NCACNEI",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V9.0.5.0.NCACNEI_06a12c5a3e_7.1.zip",
+                    "fastboot": "sagit_images_V9.0.5.0.NCACNEI_20171107.0000.00_7.1_cn_f16ce1441b.tgz"
+                },
+                {
+                    "miui": "V9.0.3.0.NCACNEI",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V9.0.3.0.NCACNEI_01def7a80c_7.1.zip",
+                    "fastboot": "sagit_images_V9.0.3.0.NCACNEI_20171019.0000.00_7.1_cn_85e1eee90d.tgz"
+                },
+                {
+                    "miui": "V8.5.5.0.NCACNEG",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.5.5.0.NCACNEG_c8c6a3ffa2_7.1.zip",
+                    "fastboot": "sagit_images_V8.5.5.0.NCACNEG_20170907.0000.00_7.1_cn_d2d788e7ce.tgz"
+                },
+                {
+                    "miui": "V8.5.3.0.NCACNEG",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.5.3.0.NCACNEG_c9344b4b3b_7.1.zip",
+                    "fastboot": "sagit_images_V8.5.3.0.NCACNEG_20170817.0000.00_7.1_cn_186e232ecc.tgz"
+                },
+                {
+                    "miui": "V8.5.2.0.NCACNEG",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.5.2.0.NCACNEG_966c73e2bf_7.1.zip",
+                    "fastboot": "sagit_images_V8.5.2.0.NCACNEG_20170809.0000.00_7.1_cn_c4a7203446.tgz"
+                },
+                {
+                    "miui": "V8.2.28.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.28.0.NCACNEC_3a9b960151_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.28.0.NCACNEC_20170719.0000.00_7.1_cn_c3a250e0d5.tgz"
+                },
+                {
+                    "miui": "V8.2.27.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.27.0.NCACNEC_e725f9829f_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.27.0.NCACNEC_20170627.0000.00_7.1_cn_5d55cb8f2a.tgz"
+                },
+                {
+                    "miui": "V8.2.26.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.26.0.NCACNEC_1d8aaf2c2a_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.26.0.NCACNEC_20170613.0000.00_7.1_cn_d4376288c7.tgz"
+                },
+                {
+                    "miui": "V8.2.25.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.25.0.NCACNEC_f3313105d8_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.25.0.NCACNEC_20170602.0000.00_7.1_cn_04911b56a7.tgz"
+                },
+                {
+                    "miui": "V8.2.23.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.23.0.NCACNEC_47caec98af_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.23.0.NCACNEC_20170518.0000.00_7.1_cn_77d9d6351f.tgz"
+                },
+                {
+                    "miui": "V8.2.22.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.22.0.NCACNEC_aeef27288f_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.22.0.NCACNEC_20170516.0000.00_7.1_cn_965d4a46d0.tgz"
+                },
+                {
+                    "miui": "V8.2.17.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.17.0.NCACNEC_f77e7a2d23_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.17.0.NCACNEC_20170505.0000.00_7.1_cn_29a1e6d015.tgz"
+                },
+                {
+                    "miui": "V8.2.13.0.NCACNEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6_V8.2.13.0.NCACNEC_613dc312ea_7.1.zip",
+                    "fastboot": "sagit_images_V8.2.13.0.NCACNEC_20170418.0000.00_7.1_cn_bbc4469f1f.tgz"
                 }
             ]
         },
@@ -268,10 +1084,460 @@
             "enname": "Global Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "9.6.27",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.6.27_26a3c95506_9.0.zip",
+                    "fastboot": "sagit_global_images_9.6.27_20190627.0000.00_9.0_global_f75f4ab575.tgz"
+                },
+                {
+                    "miui": "9.6.20",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.6.20_c87ce6fe5f_9.0.zip",
+                    "fastboot": "sagit_global_images_9.6.20_20190620.0000.00_9.0_global_754e9984b1.tgz"
+                },
+                {
+                    "miui": "9.6.17",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.6.17_7aff755b43_9.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "9.6.13",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.6.13_c3d8b73143_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.3",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.6.3_da81fc6752_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.30",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.5.30_71a2288db2_9.0.zip",
+                    "fastboot": "sagit_global_images_9.5.30_20190530.0000.00_9.0_global_1eae1410ea.tgz"
+                },
+                {
+                    "miui": "9.5.23",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.5.23_ee06d55571_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.16",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.5.16_d24ff98424_9.0.zip",
+                    "fastboot": "sagit_global_images_9.5.16_20190516.0000.00_9.0_global_47cda1ff0f.tgz"
+                },
+                {
+                    "miui": "9.5.9",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.5.9_c9688b3155_9.0.zip",
+                    "fastboot": "sagit_global_images_9.5.9_20190509.0000.00_9.0_global_22e91015d6.tgz"
+                },
+                {
+                    "miui": "9.4.25",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.4.25_db80f97b6b_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.22",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_9.4.22_28059b3cb9_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.11",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.4.11_21a407e272_8.0.zip",
+                    "fastboot": "sagit_global_images_9.4.11_20190411.0000.00_8.0_global_7d45313bd1.tgz"
+                },
+                {
+                    "miui": "9.4.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.4.1_326bc1804e_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.28",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.3.28_1d5824f41b_8.0.zip",
+                    "fastboot": "sagit_global_images_9.3.28_20190328.0000.00_8.0_global_9d99c0c4bb.tgz"
+                },
+                {
+                    "miui": "9.3.21",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.3.21_90188c48de_8.0.zip",
+                    "fastboot": "sagit_global_images_9.3.21_20190321.0000.00_8.0_global_5ec6ac7dbe.tgz"
+                },
+                {
+                    "miui": "9.3.14",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.3.14_0a3949b26e_8.0.zip",
+                    "fastboot": "sagit_global_images_9.3.14_20190314.0000.00_8.0_global_ecda8c6f31.tgz"
+                },
+                {
+                    "miui": "9.3.7",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.3.7_9a7ba1b882_8.0.zip",
+                    "fastboot": "sagit_global_images_9.3.7_20190307.0000.00_8.0_global_a7a45a78bf.tgz"
+                },
+                {
+                    "miui": "9.2.28",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.2.28_5a2cdb0b91_8.0.zip",
+                    "fastboot": "sagit_global_images_9.2.28_20190228.0000.00_8.0_global_80249a36e8.tgz"
+                },
+                {
+                    "miui": "9.2.21",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.2.21_b1cc7d1e10_8.0.zip",
+                    "fastboot": "sagit_global_images_9.2.21_20190221.0000.00_8.0_global_e375bceb25.tgz"
+                },
+                {
+                    "miui": "9.2.15",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.2.15_ea36f6c6d8_8.0.zip",
+                    "fastboot": "sagit_global_images_9.2.15_20190215.0000.00_8.0_global_405a347999.tgz"
+                },
+                {
+                    "miui": "9.1.24",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.1.24_80a41f8d36_8.0.zip",
+                    "fastboot": "sagit_global_images_9.1.24_20190124.0000.00_8.0_global_d4b4f71057.tgz"
+                },
+                {
+                    "miui": "9.1.17",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.1.17_998e62f758_8.0.zip",
+                    "fastboot": "sagit_global_images_9.1.17_20190117.0000.00_8.0_global_9f51f5406e.tgz"
+                },
+                {
+                    "miui": "9.1.10",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_9.1.10_0763871458_8.0.zip",
+                    "fastboot": "sagit_global_images_9.1.10_20190110.0000.00_8.0_global_e1f029fbbd.tgz"
+                },
+                {
+                    "miui": "8.12.27",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.12.27_926d6ac9bb_8.0.zip",
+                    "fastboot": "sagit_global_images_8.12.27_20181227.0000.00_8.0_global_70e6ae7286.tgz"
+                },
+                {
+                    "miui": "8.12.20",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.12.20_287974ff0d_8.0.zip",
+                    "fastboot": "sagit_global_images_8.12.20_20181220.0000.00_8.0_global_ccf15b07f0.tgz"
+                },
+                {
+                    "miui": "8.12.13",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.12.13_633b0019dc_8.0.zip",
+                    "fastboot": "sagit_global_images_8.12.13_20181213.0000.00_8.0_global_c1e1724958.tgz"
+                },
+                {
+                    "miui": "8.12.6",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.12.6_3b8790e6ab_8.0.zip",
+                    "fastboot": "sagit_global_images_8.12.6_20181206.0000.00_8.0_global_6e1285b738.tgz"
+                },
+                {
+                    "miui": "8.11.29",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.11.29_b3c7cb34aa_8.0.zip",
+                    "fastboot": "sagit_global_images_8.11.29_20181129.0000.00_8.0_global_48a157a001.tgz"
+                },
+                {
+                    "miui": "8.11.22",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.11.22_d58205b965_8.0.zip",
+                    "fastboot": "sagit_global_images_8.11.22_20181122.0000.00_8.0_global_de83b76a5e.tgz"
+                },
+                {
+                    "miui": "8.11.15",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.11.15_351ab3f2b0_8.0.zip",
+                    "fastboot": "sagit_global_images_8.11.15_20181115.0000.00_8.0_global_6fe463855f.tgz"
+                },
+                {
+                    "miui": "8.11.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.11.1_353c05aa69_8.0.zip",
+                    "fastboot": "sagit_global_images_8.11.1_20181101.0000.00_8.0_global_da76b9feff.tgz"
+                },
+                {
+                    "miui": "8.10.25",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.10.25_f1aefcfd6d_8.0.zip",
+                    "fastboot": "sagit_global_images_8.10.25_20181025.0000.00_8.0_global_0a17d7ec8f.tgz"
+                },
+                {
+                    "miui": "8.10.11",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.10.11_8fea2e6347_8.0.zip",
+                    "fastboot": "sagit_global_images_8.10.11_20181011.0000.00_8.0_global_b8ceae6a93.tgz"
+                },
+                {
+                    "miui": "8.9.20",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.9.20_3fdd068bb1_8.0.zip",
+                    "fastboot": "sagit_global_images_8.9.20_20180920.0000.00_8.0_global_a82eaed21f.tgz"
+                },
+                {
+                    "miui": "8.9.13",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.9.13_9d7aa37e5a_8.0.zip",
+                    "fastboot": "sagit_global_images_8.9.13_20180913.0000.00_8.0_global_f604258491.tgz"
+                },
+                {
+                    "miui": "8.9.6",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.9.6_79d0d1418a_8.0.zip",
+                    "fastboot": "sagit_global_images_8.9.6_20180906.0000.00_8.0_global_dbcf23e3b0.tgz"
+                },
+                {
+                    "miui": "8.8.30",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.8.30_a468343ae7_8.0.zip",
+                    "fastboot": "sagit_global_images_8.8.30_20180830.0000.00_8.0_global_288dfa63fe.tgz"
+                },
+                {
+                    "miui": "8.8.23",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.8.23_373c069849_8.0.zip",
+                    "fastboot": "sagit_global_images_8.8.23_20180823.0000.00_8.0_global_1891e080de.tgz"
+                },
+                {
+                    "miui": "8.8.16",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.8.16_ceaf796ba4_8.0.zip",
+                    "fastboot": "sagit_global_images_8.8.16_20180816.0000.00_8.0_global_ca5a9dc5c1.tgz"
+                },
+                {
+                    "miui": "8.8.9",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.8.9_b4ac60980a_8.0.zip",
+                    "fastboot": "sagit_global_images_8.8.9_20180809.0000.00_8.0_global_8ff10c6f8d.tgz"
+                },
+                {
+                    "miui": "8.8.2",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.8.2_b0f748375d_8.0.zip",
+                    "fastboot": "sagit_global_images_8.8.2_20180802.0000.00_8.0_global_25da1e5762.tgz"
+                },
+                {
+                    "miui": "8.7.26",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.7.26_58dc7cdfaf_8.0.zip",
+                    "fastboot": "sagit_global_images_8.7.26_20180726.0000.00_8.0_global_5de23004f7.tgz"
+                },
+                {
+                    "miui": "8.7.19",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.7.19_9650f0feb2_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.7.12",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.7.12_764ec192e1_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.7.5",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.7.5_56c881e336_8.0.zip",
+                    "fastboot": "sagit_global_images_8.7.5_20180705.0000.00_8.0_global_901d4a1f3d.tgz"
+                },
+                {
+                    "miui": "8.6.28",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.6.28_d716aa1854_8.0.zip",
+                    "fastboot": "sagit_global_images_8.6.28_20180628.0000.00_8.0_global_4844fe9c20.tgz"
+                },
+                {
+                    "miui": "8.6.14",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.6.14_6777ad214d_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.4.19",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.4.19_49003fef39_8.0.zip",
+                    "fastboot": "sagit_global_images_8.4.19_20180419.0000.00_8.0_global_60813d4139.tgz"
+                },
+                {
+                    "miui": "8.4.12",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.4.12_064a88b469_8.0.zip",
+                    "fastboot": "sagit_global_images_8.4.12_20180412.0000.00_8.0_global_5b3fedb534.tgz"
+                },
+                {
+                    "miui": "8.3.29",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.3.29_0c7d075218_8.0.zip",
+                    "fastboot": "sagit_global_images_8.3.29_20180329.0000.00_8.0_global_45824ef63d.tgz"
+                },
+                {
+                    "miui": "8.3.22",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.3.22_5fa6167f00_8.0.zip",
+                    "fastboot": "sagit_global_images_8.3.22_20180322.0000.00_8.0_global_251c8dc286.tgz"
+                },
+                {
+                    "miui": "8.3.15",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.3.15_7563cce34f_8.0.zip",
+                    "fastboot": "sagit_global_images_8.3.15_20180315.0000.00_8.0_global_bddeab60be.tgz"
+                },
+                {
+                    "miui": "8.3.8",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.3.8_108959a9dc_8.0.zip",
+                    "fastboot": "sagit_global_images_8.3.8_20180308.0000.00_8.0_global_d25ceca6dd.tgz"
+                },
+                {
+                    "miui": "8.3.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.3.1_cbe305b83c_8.0.zip",
+                    "fastboot": "sagit_global_images_8.3.1_20180301.0000.00_8.0_global_69b55567cc.tgz"
+                },
+                {
+                    "miui": "8.2.24",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.2.24_fb39e4bb0a_8.0.zip",
+                    "fastboot": "sagit_global_images_8.2.24_20180224.0000.00_8.0_global_8647942d9d.tgz"
+                },
+                {
+                    "miui": "8.2.8",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.2.8_753081ab5b_8.0.zip",
+                    "fastboot": "sagit_global_images_8.2.8_20180208.0000.00_8.0_global_d2c39a7f5c.tgz"
+                },
+                {
+                    "miui": "8.2.1",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.2.1_31fa3e6068_8.0.zip",
+                    "fastboot": "sagit_global_images_8.2.1_20180201.0000.00_8.0_global_5708e98e5b.tgz"
+                },
+                {
+                    "miui": "8.1.25",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.1.25_07c2a1dc47_8.0.zip",
+                    "fastboot": "sagit_global_images_8.1.25_20180125.0000.00_8.0_global_c3e0b5e73b.tgz"
+                },
+                {
+                    "miui": "8.1.18",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.1.18_df6202c4e0_8.0.zip",
+                    "fastboot": "sagit_global_images_8.1.18_20180118.0000.00_8.0_global_85c90b8b4a.tgz"
+                },
+                {
+                    "miui": "8.1.11",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_8.1.11_d1e51552f1_8.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "7.12.21",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.12.21_0f0a4e9536_7.1.zip",
+                    "fastboot": "sagit_global_images_7.12.21_20171221.0000.00_7.1_global_e21a6b48fe.tgz"
+                },
+                {
+                    "miui": "7.12.14",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.12.14_94bf868f69_7.1.zip",
+                    "fastboot": "sagit_global_images_7.12.14_20171214.0000.00_7.1_global_f7ec16d0bb.tgz"
+                },
+                {
+                    "miui": "7.12.8",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.12.8_35fccb57dc_7.1.zip",
+                    "fastboot": "sagit_global_images_7.12.8_20171208.0000.00_7.1_global_279f335af9.tgz"
+                },
+                {
+                    "miui": "7.12.1",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.12.1_fa35cee04f_7.1.zip",
+                    "fastboot": "sagit_global_images_7.12.1_20171201.0000.00_7.1_global_8fcb4a9f7c.tgz"
+                },
+                {
+                    "miui": "7.11.16",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.11.16_161f069dc5_7.1.zip",
+                    "fastboot": "sagit_global_images_7.11.16_20171116.0000.00_7.1_global_85bfb2737a.tgz"
+                },
+                {
+                    "miui": "7.11.10",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.11.10_16205196a8_7.1.zip",
+                    "fastboot": "sagit_global_images_7.11.10_20171110.0000.00_7.1_global_4ec8c9e08a.tgz"
+                },
+                {
+                    "miui": "7.11.6",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.11.6_128b4a4706_7.1.zip",
+                    "fastboot": "sagit_global_images_7.11.6_20171106.0000.00_7.1_global_628db6dd70.tgz"
+                },
+                {
+                    "miui": "7.11.2",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.11.2_cbe3fadbf0_7.1.zip",
+                    "fastboot": "sagit_global_images_7.11.2_20171102.0000.00_7.1_global_a2c6dc2559.tgz"
+                },
+                {
+                    "miui": "7.10.19",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.10.19_9767976a70_7.1.zip",
+                    "fastboot": "sagit_global_images_7.10.19_20171019.0000.00_7.1_global_ce20c5b39b.tgz"
+                },
+                {
+                    "miui": "7.10.12",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.10.12_d73ca1d4cb_7.1.zip",
+                    "fastboot": "sagit_global_images_7.10.12_20171012.0000.00_7.1_global_3deea3d50a.tgz"
+                },
+                {
+                    "miui": "7.9.22",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.9.22_431a70c634_7.1.zip",
+                    "fastboot": "sagit_global_images_7.9.22_20170922.0000.00_7.1_global_d6797afa79.tgz"
+                },
+                {
+                    "miui": "7.9.7",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.9.7_1aefcd07ec_7.1.zip",
+                    "fastboot": "sagit_global_images_7.9.7_20170907.0000.00_7.1_global_abaf20db53.tgz"
+                },
+                {
+                    "miui": "7.8.31",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.8.31_8de7f993ed_7.1.zip",
+                    "fastboot": "sagit_global_images_7.8.31_20170831.0000.00_7.1_global_42ab413aa6.tgz"
+                },
+                {
+                    "miui": "7.8.24",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.8.24_52ee82c864_7.1.zip",
+                    "fastboot": "sagit_global_images_7.8.24_20170824.0000.00_7.1_global_61614096e9.tgz"
+                },
+                {
+                    "miui": "7.8.18",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.8.18_11939d27fc_7.1.zip",
+                    "fastboot": "sagit_global_images_7.8.18_20170818.0000.00_7.1_global_96d0adf16e.tgz"
+                },
+                {
+                    "miui": "7.8.10",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_7.8.10_024aaf1afd_7.1.zip",
+                    "fastboot": "sagit_global_images_7.8.10_20170810.0000.00_7.1_global_8039c40e70.tgz"
                 }
             ]
         },
@@ -282,94 +1548,100 @@
             "enname": "Global Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
+                    "miui": "V11.0.6.0.PCAMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_V11.0.6.0.PCAMIXM_47fd8ee4ef_9.0.zip",
+                    "fastboot": "sagit_global_images_V11.0.6.0.PCAMIXM_20200308.0000.00_9.0_global_4e37806e9f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
-            "links": [
+                    "miui": "V11.0.3.0.PCAMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_V11.0.3.0.PCAMIXM_bb4e6209e3_9.0.zip",
+                    "fastboot": "sagit_global_images_V11.0.3.0.PCAMIXM_20191022.0000.00_9.0_global_cc04f3808c.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V10.4.2.0.PCAMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_V10.4.2.0.PCAMIXM_8870a6a0c4_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
+                    "miui": "V10.4.1.0.PCAMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI6Global_V10.4.1.0.PCAMIXM_38edd1584c_9.0.zip",
+                    "fastboot": "sagit_global_images_V10.4.1.0.PCAMIXM_20190714.0000.00_9.0_global_dbd26e5a5e.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
+                    "miui": "V10.3.4.0.OCAMIXM",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_V10.3.4.0.OCAMIXM_e1a4c9671c_8.0.zip",
+                    "fastboot": "sagit_global_images_V10.3.4.0.OCAMIXM_20190527.0000.00_8.0_global_cc4f15601b.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V10.3.1.0.OCAMIXM",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_V10.3.1.0.OCAMIXM_5edeed2977_8.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V10.2.1.0.OCAMIXM",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_V10.2.1.0.OCAMIXM_5a866eee19_8.0.zip",
+                    "fastboot": "sagit_global_images_V10.2.1.0.OCAMIXM_20181225.0000.00_8.0_global_d1281eb086.tgz"
+                },
+                {
+                    "miui": "V10.0.1.0.OCAMIFH",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_V10.0.1.0.OCAMIFH_1f4296c44e_8.0.zip",
+                    "fastboot": "sagit_global_images_V10.0.1.0.OCAMIFH_20180905.0000.00_8.0_global_7ce4be65b4.tgz"
+                },
+                {
+                    "miui": "V9.5.8.0.OCAMIFA",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_V9.5.8.0.OCAMIFA_cd713db550_8.0.zip",
+                    "fastboot": "sagit_global_images_V9.5.8.0.OCAMIFA_20180606.0000.00_8.0_global_4be58ab2ed.tgz"
+                },
+                {
+                    "miui": "V9.5.6.0.OCAMIFA",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_V9.5.6.0.OCAMIFA_58d018e649_8.0.zip",
+                    "fastboot": "sagit_global_images_V9.5.6.0.OCAMIFA_20180410.0000.00_8.0_global_2a2234e1c5.tgz"
+                },
+                {
+                    "miui": "V9.2.3.0.OCAMIEK",
+                    "android": "8.0",
+                    "recovery": "miui_MI6Global_V9.2.3.0.OCAMIEK_650ad43775_8.0.zip",
+                    "fastboot": "sagit_global_images_V9.2.3.0.OCAMIEK_20180206.0000.00_8.0_global_c8e0021f9b.tgz"
+                },
+                {
+                    "miui": "V9.2.2.0.NCAMIEK",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_V9.2.2.0.NCAMIEK_4a989856c4_7.1.zip",
+                    "fastboot": "sagit_global_images_V9.2.2.0.NCAMIEK_20171227.0000.00_7.1_global_545745a239.tgz"
+                },
+                {
+                    "miui": "V9.0.2.0.NCAMIEI",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_V9.0.2.0.NCAMIEI_8e643002bc_7.1.zip",
+                    "fastboot": "sagit_global_images_V9.0.2.0.NCAMIEI_20171114.0000.00_7.1_global_7e4b2d78c9.tgz"
+                },
+                {
+                    "miui": "V9.0.1.0.NCAMIEI",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_V9.0.1.0.NCAMIEI_6f040fa634_7.1.zip",
+                    "fastboot": "sagit_global_images_V9.0.1.0.NCAMIEI_20171024.0000.00_7.1_global_c671ecc530.tgz"
+                },
+                {
+                    "miui": "V8.5.1.0.NCAMIEG",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_V8.5.1.0.NCAMIEG_7648f20aab_7.1.zip",
+                    "fastboot": "sagit_global_images_V8.5.1.0.NCAMIEG_20170815.0000.00_7.1_global_15dce8c933.tgz"
+                },
+                {
+                    "miui": "V8.2.2.0.NCAMIEC",
+                    "android": "7.1",
+                    "recovery": "miui_MI6Global_V8.2.2.0.NCAMIEC_7f3f8ad7c8_7.1.zip",
+                    "fastboot": "sagit_global_images_V8.2.2.0.NCAMIEC_20170609.0000.00_7.1_global_798f55f46f.tgz"
                 }
             ]
         }
