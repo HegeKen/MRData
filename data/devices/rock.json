@@ -16,6 +16,12 @@
             "enname": "China Taiwan Stable",
             "links": [
                 {
+                    "miui": "V13.0.3.0.SLUTWXM",
+                    "android": "12.0",
+                    "recovery": "miui_ROCKTWGlobal_V13.0.3.0.SLUTWXM_b3eed7287a_12.0.zip",
+                    "fastboot": "rock_tw_global_images_V13.0.3.0.SLUTWXM_20221128.0000.00_12.0_global_285f51a10a.tgz"
+                },
+                {
                     "miui": "V13.0.2.0.SLUTWXM",
                     "android": "12.0",
                     "recovery": "miui_ROCKTWGlobal_V13.0.2.0.SLUTWXM_a59d55fcce_12.0.zip",
@@ -35,6 +41,12 @@
             "cnname": "国际稳定版",
             "enname": "Global Stable",
             "links": [
+                {
+                    "miui": "V13.0.8.0.SLUMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_ROCKGlobal_V13.0.8.0.SLUMIXM_7cd25c4c7f_12.0.zip",
+                    "fastboot": "rock_global_images_V13.0.8.0.SLUMIXM_20221117.0000.00_12.0_global_8f98646275.tgz"
+                },
                 {
                     "miui": "V13.0.5.0.SLUMIXM",
                     "android": "12.0",
@@ -59,7 +71,7 @@
                     "miui": "V13.0.8.0.SLUEUXM",
                     "android": "12.0",
                     "recovery": "miui_ROCKEEAGlobal_V13.0.8.0.SLUEUXM_0ae9392c62_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "rock_eea_global_images_V13.0.8.0.SLUEUXM_20221104.0000.00_12.0_eea_641e330247.tgz"
                 },
                 {
                     "miui": "V13.0.5.0.SLUEUXM",
@@ -88,10 +100,16 @@
                 "enname": "Russia Stable",
             "links": [
                 {
+                    "miui": "V13.0.7.0.SLURUXM",
+                    "android": "12.0",
+                    "recovery": "miui_ROCKRUGlobal_V13.0.7.0.SLURUXM_b6c84f082b_12.0.zip",
+                    "fastboot": "rock_ru_global_images_V13.0.7.0.SLURUXM_20221122.0000.00_12.0_global_9af18a9ac6.tgz"
+                },
+                {
                     "miui": "V13.0.3.0.SLURUXM",
                     "android": "12.0",
                     "recovery": "miui_ROCKRUGlobal_V13.0.3.0.SLURUXM_00559d2221_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "rock_ru_global_images_V13.0.3.0.SLURUXM_20220926.0000.00_12.0_global_56241e40c7.tgz"
                 },
                 {
                     "miui": "V13.0.2.0.SLURUXM",
@@ -108,10 +126,16 @@
                 "enname": "India Stable",
             "links": [
                 {
+                    "miui": "V13.0.9.0.SLUINXM",
+                    "android": "12.0",
+                    "recovery": "miui_ROCKINGlobal_V13.0.9.0.SLUINXM_56808f4ece_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V13.0.8.0.SLUINXM",
                     "android": "12.0",
                     "recovery": "miui_ROCKINGlobal_V13.0.8.0.SLUINXM_b42bff6f7e_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "rock_in_global_images_V13.0.8.0.SLUINXM_20220920.0000.00_12.0_in_4358b32484.tgz"
                 },
                 {
                     "miui": "V13.0.6.0.SLUINXM",
@@ -135,15 +159,15 @@
         },
         {
             "branch": "inns",
-                "show": "0",
+                "show": "1",
                 "cnname": "印度尼西亚稳定版",
                 "enname": "Indonesia Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V13.0.4.0.SLUIDXM",
+                    "android": "12.0",
+                    "recovery": "miui_ROCKIDGlobal_V13.0.4.0.SLUIDXM_c2ddc0c36a_12.0.zip",
+                    "fastboot": "rock_id_global_images_V13.0.4.0.SLUIDXM_20221128.0000.00_12.0_global_d2b351a5eb.tgz"
                 }
             ]
         },
@@ -157,7 +181,7 @@
                     "miui": "V13.0.3.0.SLUTRXM",
                     "android": "12.0",
                     "recovery": "miui_ROCKTRGlobal_V13.0.3.0.SLUTRXM_b4153d5a0d_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "rock_tr_global_images_V13.0.3.0.SLUTRXM_20220926.0000.00_12.0_global_b591ac8cac.tgz"
                 },
                 {
                     "miui": "V13.0.2.0.SLUTRXM",

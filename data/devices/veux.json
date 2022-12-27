@@ -47,7 +47,7 @@
                     "miui": "V13.0.3.0.SKCCNXM",
                     "android": "12.0",
                     "recovery": "miui_VEUX_V13.0.3.0.SKCCNXM_db43704ec4_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "veux_images_V13.0.3.0.SKCCNXM_20221031.0000.00_12.0_cn_f8d330db95.tgz"
                 },
                 {
                     "miui": "V13.0.1.0.SKCCNXM",
@@ -93,6 +93,12 @@
             "cnname": "台湾地区稳定版",
             "enname": "China Taiwan Stable",
             "links": [
+                {
+                    "miui": "V13.0.3.0.SKCTWXM",
+                    "android": "12.0",
+                    "recovery": "miui_VEUXTWGlobal_V13.0.3.0.SKCTWXM_b877ea2167_12.0.zip",
+                    "fastboot": "veux_tw_global_images_V13.0.3.0.SKCTWXM_20221106.0000.00_12.0_global_d20d3cf361.tgz"
+                },
                 {
                     "miui": "V13.0.5.0.RKCTWXM",
                     "android": "11.0",
@@ -194,10 +200,22 @@
                 "enname": "Europe EEA Stable",
             "links": [
                 {
+                    "miui": "V13.0.3.0.SKCEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_VEUXEEAGlobal_V13.0.3.0.SKCEUXM_86cf35a887_12.0.zip",
+                    "fastboot": "veux_eea_global_images_V13.0.3.0.SKCEUXM_20221116.0000.00_12.0_eea_14d138044a.tgz"
+                },
+                {
                     "miui": "V13.0.2.0.SKCEUXM",
                     "android": "12.0",
                     "recovery": "miui_VEUXEEAGlobal_V13.0.2.0.SKCEUXM_053304d97b_12.0.zip",
                     "fastboot": "veux_eea_global_images_V13.0.2.0.SKCEUXM_20220913.0000.00_12.0_eea_63bf154514.tgz"
+                },
+                {
+                    "miui": "V13.0.10.0.RKCEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_VEUXEEAGlobal_V13.0.10.0.RKCEUXM_19d51fe833_11.0.zip",
+                    "fastboot": "veux_eea_global_images_V13.0.10.0.RKCEUXM_20221103.0000.00_11.0_eea_5aef746281.tgz"
                 },
                 {
                     "miui": "V13.0.9.0.RKCEUXM",
@@ -256,6 +274,12 @@
                 "enname": "Russia Stable",
             "links": [
                 {
+                    "miui": "V13.0.3.0.SKCRUXM",
+                    "android": "12.0",
+                    "recovery": "miui_VEUXRUGlobal_V13.0.3.0.SKCRUXM_bf4dad0d1f_12.0.zip",
+                    "fastboot": "veux_ru_global_images_V13.0.3.0.SKCRUXM_20221109.0000.00_12.0_global_64aab0781a.tgz"
+                },
+                {
                     "miui": "V13.0.3.0.RKCRUXM",
                     "android": "11.0",
                     "recovery": "miui_VEUXRUGlobal_V13.0.3.0.RKCRUXM_cebf9fd6b6_11.0.zip",
@@ -281,6 +305,12 @@
                 "cnname": "印度稳定版",
                 "enname": "India Stable",
             "links": [
+                {
+                    "miui": "V13.0.3.0.SKCINXM",
+                    "android": "12.0",
+                    "recovery": "miui_VEUXINGlobal_V13.0.3.0.SKCINXM_1e362f4eb7_12.0.zip",
+                    "fastboot": "veux_in_global_images_V13.0.3.0.SKCINXM_20221101.0000.00_12.0_in_db7123c364.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SKCINXM",
                     "android": "12.0",
@@ -314,6 +344,12 @@
                 "enname": "Indonesia Stable",
             "links": [
                 {
+                    "miui": "V13.0.4.0.SKCIDXM",
+                    "android": "12.0",
+                    "recovery": "miui_VEUXIDGlobal_V13.0.4.0.SKCIDXM_58b350452b_12.0.zip",
+                    "fastboot": "veux_id_global_images_V13.0.4.0.SKCIDXM_20221109.0000.00_12.0_global_cf4bcae925.tgz"
+                },
+                {
                     "miui": "V13.0.3.0.SKCIDXM",
                     "android": "12.0",
                     "recovery": "miui_VEUXIDGlobal_V13.0.3.0.SKCIDXM_74a799c906_12.0.zip",
@@ -339,6 +375,12 @@
                 "cnname": "土耳其稳定版",
                 "enname": "Turkey Stable",
             "links": [
+                {
+                    "miui": "V13.0.1.0.SKCTRXM",
+                    "android": "12.0",
+                    "recovery": "miui_VEUXTRGlobal_V13.0.1.0.SKCTRXM_aaa2c0096e_12.0.zip",
+                    "fastboot": "veux_tr_global_images_V13.0.1.0.SKCTRXM_20221113.0000.00_12.0_global_6991862c2d.tgz"
+                },
                 {
                     "miui": "V13.0.4.0.RKCTRXM",
                     "android": "11.0",
@@ -366,10 +408,16 @@
                 "enname": "Japan Stable",
             "links": [
                 {
+                    "miui": "V13.0.1.0.SKCJPXM",
+                    "android": "12.0",
+                    "recovery": "miui_VEUXJPGlobal_V13.0.1.0.SKCJPXM_51d471ed37_12.0.zip",
+                    "fastboot": "veux_jp_global_images_V13.0.1.0.SKCJPXM_20221113.0000.00_12.0_global_4e8fcc8a3d.tgz"
+                },
+                {
                     "miui": "V13.0.3.0.RKCJPXM",
                     "android": "11.0",
                     "recovery": "miui_VEUXJPGlobal_V13.0.3.0.RKCJPXM_817fed9fb8_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "veux_jp_global_images_V13.0.3.0.RKCJPXM_20220713.0000.00_11.0_global_777878df25.tgz"
                 },
                 {
                     "miui": "V13.0.2.0.RKCJPXM",

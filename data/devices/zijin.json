@@ -25,14 +25,14 @@
         },
         {
             "branch": "cnmo",
-            "show": "0",
+            "show": "1",
             "cnname": "中国大陆正式版",
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V14.0.1.0.TLPCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_ZIJIN_V14.0.1.0.TLPCNXM_3f5e5f7398_13.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -44,10 +44,22 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
+                    "miui": "V13.2.6.0.TLPCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_ZIJIN_V13.2.6.0.TLPCNXM_0a64a3030a_13.0.zip",
+                    "fastboot": "zijin_images_V13.2.6.0.TLPCNXM_20221124.0000.00_13.0_cn_55b33fe4d5.tgz"
+                },
+                {
+                    "miui": "V13.2.5.0.TLPCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_ZIJIN_V13.2.5.0.TLPCNXM_d013fc1f33_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V13.0.12.0.SLPCNXM",
                     "android": "12.0",
                     "recovery": "miui_ZIJIN_V13.0.12.0.SLPCNXM_bfc4f322e3_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "zijin_images_V13.0.12.0.SLPCNXM_20220816.0000.00_12.0_cn_11b6cab4f4.tgz"
                 },
                 {
                     "miui": "V13.0.11.0.SLPCNXM",

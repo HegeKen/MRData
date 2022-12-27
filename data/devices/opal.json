@@ -74,10 +74,16 @@
                 "enname": "Europe EEA Stable",
             "links": [
                 {
+                    "miui": "V13.0.4.0.SGLEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_OPALEEAGlobal_V13.0.4.0.SGLEUXM_126c41b5a9_12.0.zip",
+                    "fastboot": "opal_eea_global_images_V13.0.4.0.SGLEUXM_20221124.0000.00_12.0_eea_b64b7aa493.tgz"
+                },
+                {
                     "miui": "V13.0.3.0.SGLEUXM",
                     "android": "12.0",
                     "recovery": "miui_OPALEEAGlobal_V13.0.3.0.SGLEUXM_3854c2d614_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "opal_eea_global_images_V13.0.3.0.SGLEUXM_20221102.0000.00_12.0_eea_b2ec72a72d.tgz"
                 },
                 {
                     "miui": "V13.0.2.0.SGLEUXM",
@@ -102,6 +108,20 @@
                     "android": "11.0",
                     "recovery": "miui_OPALEEAGlobal_V13.0.4.0.RGLEUXM_d549712a99_11.0.zip",
                     "fastboot": "opal_eea_global_images_V13.0.4.0.RGLEUXM_20220329.0000.00_11.0_eea_9128d875ba.tgz"
+                },
+                {
+                    "branch": "russ",
+                        "show": "1",
+                        "cnname": "俄罗斯稳定版",
+                        "enname": "Russia Stable",
+                    "links": [
+                        {
+                            "miui": "V13.0.1.0.RGLRUXM",
+                            "android": "11.0",
+                            "recovery": "miui_OPALRUGlobal_V13.0.1.0.RGLRUXM_1a6321b69e_11.0.zip",
+                            "fastboot": "opal_ru_global_images_V13.0.1.0.RGLRUXM_20220817.0000.00_11.0_global_6adcfd2542.tgz"
+                        }
+                    ]
                 }
             ]
         }
