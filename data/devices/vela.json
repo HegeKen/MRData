@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "vela",
+    "cnname": "小米 CC 9 美图定制版",
+    "enname": "Mi CC 9 Meitu Edition",
     "attentions":[
         {
             "cn":"",
@@ -10,43 +10,549 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "21.11.24",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.11.24_c13aff0227_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "21.11.17",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.11.17_5e96ce8165_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.10",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.11.10_c673787dd5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.3",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.11.3_1ecaa5b5cb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.27",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.10.27_9fd810c931_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.20",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.10.20_a262a6b92d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.13",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.10.13_7963fcb1d5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.28",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.9.28_3d7fdfb235_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.22",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.9.22_9502eff34d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.15",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.9.15_a823fd8953_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.8",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.9.8_7752b09976_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.1",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.9.1_6b749c4f0b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.25",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.8.25_f27923052d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.18",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.8.18_d814ff78ee_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.11",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.8.11_092a5d8b00_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.4",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.8.4_cd838c26b5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.28",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.7.28_471d6d9e8c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.21",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.7.21_0fcd35f7ed_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.14",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.7.14_ad8882fbf3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.7",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.7.7_d7589ed389_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.30",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.6.30_523225ee24_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.23",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.6.23_fb1907539d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.16",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.6.16_240a3c5e5d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.9",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.6.9_0b653008a7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.2",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.6.2_05629c389e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.27",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.5.27_539ac202f6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.12",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.5.12_ab993bf9cd_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.28",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.4.28_b4d9fc7293_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.21",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.4.21_93e6d4af7f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.14",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.4.14_81e7dddfb6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.8",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.4.8_e9b28ee351_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.1",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.4.1_9df0982fdc_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.24",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.3.24_0a1835abd1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.17",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.3.17_5dc4a7b456_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.10",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.3.10_fbc263b0a5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.5",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.3.5_05ad864819_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.24",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.2.24_d640dd983f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.3",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.2.3_d763fb1c5c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.28",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.1.28_fd09c0168e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.20",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.1.20_039686ce42_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.13",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.1.13_876df1e938_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.6",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_21.1.6_b2b1c3ab83_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.9",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.12.9_452b874d61_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.2",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.12.2_29cbd88315_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.25",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.11.25_ed0268a445_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.18",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.11.18_d3a04cd89a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.11",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.11.11_3b45380420_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.5",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.11.5_1c0d3eefab_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.30",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.10.30_b6d46f5f72_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.29",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.10.29_7b085eeebd_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.22",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.10.22_67c19e2d19_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.15",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.10.15_92f33bec2c_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.24",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.9.24_996811fcae_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.10",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.9.10_87c2eedb68_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.3",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.9.3_671584918f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.27",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.8.27_01efd22ab6_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.20",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.8.20_f30c0933bd_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.13",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.8.13_d8ed64694a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.6",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.8.6_b4ed3bfc49_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.30",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.7.30_e6aa8dcbc0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.23",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.7.23_cafac20348_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.16",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.7.16_06fb29c8b5_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.9",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.7.9_70eaaa2307_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.2",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.7.2_a2b2c29045_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.18",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.6.18_3d33ef0e18_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.17",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.6.17_7aea8f61df_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.11",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.6.11_4c24cf9e58_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.4",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.6.4_529a2fb94a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.28",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.5.28_0bf93f3ab5_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.21",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.5.21_3dc82e5e8e_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.14",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.5.14_a4b3040803_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.7",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.5.7_7536d272a4_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.30",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.4.30_c33bd9792f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.27",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.4.27_7b26c47545_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.26",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.3.26_3812d14502_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.19",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.3.19_96ce1d7752_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.12",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.3.12_98be463f78_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.5",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.3.5_390d27314a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.27",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.2.27_2f31abc56c_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.21",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_20.1.21_b5b6a454fc_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.26",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_9.12.26_1f9694a0d5_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.19",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_9.12.19_09cd038f5d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.5",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_9.12.5_62702c886a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.31",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_9.10.31_86a81c1fe4_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.24",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_9.10.24_105ccb9a96_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.17",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_9.10.17_565c5d6b7a_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.22",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_9.8.22_0dd555c63d_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.15",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_9.8.15_f4c2654d63_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.1",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_9.8.1_2856160bea_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.7.25",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_9.7.25_482be0faee_9.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -58,318 +564,100 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                    "miui": "V12.5.5.0.RFECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_V12.5.5.0.RFECNXM_494c77d7cf_11.0.zip",
+                    "fastboot": "vela_images_V12.5.5.0.RFECNXM_20211025.0000.00_11.0_cn_53c3aee7e4.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V12.5.3.0.RFECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_V12.5.3.0.RFECNXM_c327a7c047_11.0.zip",
+                    "fastboot": "vela_images_V12.5.3.0.RFECNXM_20210623.0000.00_11.0_cn_49716fb442.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.1.0.RFECNXM",
+                    "android": "11.0",
+                    "recovery": "miui_VELA_V12.5.1.0.RFECNXM_d1c4075c3f_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V12.0.3.0.QFECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_V12.0.3.0.QFECNXM_c0824e79ad_10.0.zip",
+                    "fastboot": "vela_images_V12.0.3.0.QFECNXM_20201222.0000.00_10.0_cn_8937a2b51d.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V12.0.2.0.QFECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_V12.0.2.0.QFECNXM_2c09c180cc_10.0.zip",
+                    "fastboot": "vela_images_V12.0.2.0.QFECNXM_20200816.0000.00_10.0_cn_711a617ada.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V11.0.4.0.QFECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_V11.0.4.0.QFECNXM_bc7112db88_10.0.zip",
+                    "fastboot": "vela_images_V11.0.4.0.QFECNXM_20200517.0000.00_10.0_cn_5d2dfaef88.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V11.0.3.0.QFECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_V11.0.3.0.QFECNXM_c32f9a0b0b_10.0.zip",
+                    "fastboot": "vela_images_V11.0.3.0.QFECNXM_20200417.0000.00_10.0_cn_157152c410.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V11.0.1.0.QFECNXM",
+                    "android": "10.0",
+                    "recovery": "miui_VELA_V11.0.1.0.QFECNXM_d543acf17d_10.0.zip",
+                    "fastboot": "vela_images_V11.0.1.0.QFECNXM_20200224.0000.00_10.0_cn_89f49d8635.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.3.3.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V11.3.3.0.PFECNXM_562be16b81_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V11.3.2.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V11.3.2.0.PFECNXM_da8cff8fc2_9.0.zip",
+                    "fastboot": "vela_images_V11.3.2.0.PFECNXM_20191122.0000.00_9.0_cn_6a397aefb7.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                    "miui": "V11.3.1.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V11.3.1.0.PFECNXM_51cd61f80d_9.0.zip",
+                    "fastboot": "vela_images_V11.3.1.0.PFECNXM_20191016.0000.00_9.0_cn_78bee00b17.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V10.3.8.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V10.3.8.0.PFECNXM_08f1d10b63_9.0.zip",
+                    "fastboot": "vela_images_V10.3.8.0.PFECNXM_20190904.0000.00_9.0_cn_39e2e3634c.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                    "miui": "V10.3.6.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V10.3.6.0.PFECNXM_065667f1ba_9.0.zip",
+                    "fastboot": "vela_images_V10.3.6.0.PFECNXM_20190814.0000.00_9.0_cn_0c3650d6dd.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V10.3.3.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V10.3.3.0.PFECNXM_daaf34ed56_9.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
+                    "miui": "V10.3.2.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V10.3.2.0.PFECNXM_73aa5a0a7e_9.0.zip",
+                    "fastboot": "vela_images_V10.3.2.0.PFECNXM_20190702.0000.00_9.0_cn_383b406067.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V10.3.1.0.PFECNXM",
+                    "android": "9.0",
+                    "recovery": "miui_VELA_V10.3.1.0.PFECNXM_215f256089_9.0.zip",
+                    "fastboot": "vela_images_V10.3.1.0.PFECNXM_20190621.0000.00_9.0_cn_2079d19acf.tgz"
                 }
             ]
         }

@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "sirius",
+    "cnname": "小米 8 SE",
+    "enname": "Mi 8 SE",
     "attentions":[
         {
             "cn":"",
@@ -10,44 +10,646 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "20.9.4",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.9.4_8b18fec4c4_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "20.9.3",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.9.3_12b4a58214_10.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "20.8.27",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.8.27_7a0de0dfe4_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.20",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.8.20_784351f621_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.13",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.8.13_2fe2dc7bcd_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.6",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.8.6_ed26676f9c_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.30",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.7.30_546ff86058_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.23",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.7.23_77814f9618_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.16",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.7.16_3bab3c4ca3_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.9",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.7.9_2531121c22_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.2",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.7.2_95549ee952_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.18",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.6.18_65648b698a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.17",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.6.17_207c45b188_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.11",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.6.11_18a6efc57b_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.4",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.6.4_584225a342_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.28",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.5.28_d4aaf40f76_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.21",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.5.21_275736f090_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.14",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.5.14_eef987a8df_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.7",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.5.7_56fb1aa820_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.30",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.4.30_6cacb5882d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.27",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.4.27_6e60fb3b66_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.26",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.3.26_335c159428_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.19",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.3.19_73d8cc98c5_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.12",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.3.12_68801a8645_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.5",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.3.5_c819c23f8f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.27",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.2.27_4be3529921_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.21",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.1.21_09cce369bf_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.16",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.1.16_1f09c9e99b_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.9",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.1.9_87dde6f09d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.2",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_20.1.2_8df188ec0c_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.26",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.12.26_2184cf4a5e_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.19",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.12.19_322e5eadb0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.12",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.12.12_a2e9f71599_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.5",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.12.5_6a597d28d0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.21",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.11.21_f33d769c44_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.14",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.11.14_9afc5412d6_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.7",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.11.7_515dcc6e7f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.31",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.10.31_97be08a1c7_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.24",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_9.10.24_7a4aed1a73_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.10.10",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.10.10_83cd74bcfa_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.27",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.9.27_56a10490af_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.26",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.9.26_249e7cd055_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.9.3",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.9.3_a9d719f08b_9.0.zip",
+                    "fastboot": "sirius_images_9.9.3_20190904.0000.00_9.0_cn_9f1d8a6849.tgz"
+                },
+                {
+                    "miui": "9.8.29",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.8.29_71d583c575_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.22",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.8.22_c525a5cc89_9.0.zip",
+                    "fastboot": "sirius_images_9.8.22_20190822.0000.00_9.0_cn_911da88274.tgz"
+                },
+                {
+                    "miui": "9.8.15",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.8.15_09d2c15b1b_9.0.zip",
+                    "fastboot": "sirius_images_9.8.15_20190815.0000.00_9.0_cn_a3236f0497.tgz"
+                },
+                {
+                    "miui": "9.8.9",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.8.9_4023678f3a_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.8",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.8.8_f8a0edeb00_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.8.1",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.8.1_ace4b18390_9.0.zip",
+                    "fastboot": "sirius_images_9.8.1_20190801.0000.00_9.0_cn_8c6e7c2433.tgz"
+                },
+                {
+                    "miui": "9.7.25",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.7.25_92a3fadbc8_9.0.zip",
+                    "fastboot": "sirius_images_9.7.25_20190725.0000.00_9.0_cn_d97627e6c1.tgz"
+                },
+                {
+                    "miui": "9.7.22",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.7.22_b7a1ad9e98_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.7.18",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.7.18_0e9fc7e264_9.0.zip",
+                    "fastboot": "sirius_images_9.7.18_20190718.0000.00_9.0_cn_93f7c23497.tgz"
+                },
+                {
+                    "miui": "9.7.11",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.7.11_b26eecf5fc_9.0.zip",
+                    "fastboot": "sirius_images_9.7.11_20190711.0000.00_9.0_cn_951ee982a4.tgz"
+                },
+                {
+                    "miui": "9.7.4",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.7.4_3423b80e1d_9.0.zip",
+                    "fastboot": "sirius_images_9.7.4_20190704.0000.00_9.0_cn_6e2f86dc11.tgz"
+                },
+                {
+                    "miui": "9.6.27",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.6.27_8649d0115f_9.0.zip",
+                    "fastboot": "sirius_images_9.6.27_20190627.0000.00_9.0_cn_66a6c8909c.tgz"
+                },
+                {
+                    "miui": "9.6.20",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.6.20_8583335d32_9.0.zip",
+                    "fastboot": "sirius_images_9.6.20_20190620.0000.00_9.0_cn_f00f77949b.tgz"
+                },
+                {
+                    "miui": "9.6.17",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.6.17_5f7110df59_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.13",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.6.13_2849c128af_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.5",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.6.5_04e7f5a573_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.4",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.6.4_20cb92c3e0_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.6.3",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.6.3_19b4810d69_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.30",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.5.30_885b7ad76c_9.0.zip",
+                    "fastboot": "sirius_images_9.5.30_20190530.0000.00_9.0_cn_b0469785a2.tgz"
+                },
+                {
+                    "miui": "9.5.23",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.5.23_4373786372_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.16",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.5.16_8a3f088578_9.0.zip",
+                    "fastboot": "sirius_images_9.5.16_20190516.0000.00_9.0_cn_af261833a2.tgz"
+                },
+                {
+                    "miui": "9.5.14",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.5.14_5ce537587e_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.5.9",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.5.9_09aa77511c_9.0.zip",
+                    "fastboot": "sirius_images_9.5.9_20190509.0000.00_9.0_cn_324f125378.tgz"
+                },
+                {
+                    "miui": "9.4.25",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.25_ccbd80f295_9.0.zip",
+                    "fastboot": "sirius_images_9.4.25_20190425.0000.00_9.0_cn_fa246927e0.tgz"
+                },
+                {
+                    "miui": "9.4.22",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.22_e168b032db_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.19",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.19_de643cac3a_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.18",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.18_450caee9f9_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.12",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.12_b6b53474a6_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.11",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.11_706128c049_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.2",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.2_b5a2504aa6_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.4.1",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.4.1_c0e1b2e186_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.28",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.3.28_0ac3932974_9.0.zip",
+                    "fastboot": "sirius_images_9.3.28_20190328.0000.00_9.0_cn_e794cb45f9.tgz"
+                },
+                {
+                    "miui": "9.3.25",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.3.25_557fc7bd18_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.21",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.3.21_1e6a2cbb4b_9.0.zip",
+                    "fastboot": "sirius_images_9.3.21_20190321.0000.00_9.0_cn_bef0a8a070.tgz"
+                },
+                {
+                    "miui": "9.3.14",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.3.14_0db8b193cf_9.0.zip",
+                    "fastboot": "sirius_images_9.3.14_20190314.0000.00_9.0_cn_5aec6d5ab6.tgz"
+                },
+                {
+                    "miui": "9.3.7",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.3.7_073e449e31_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.3.1",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.3.1_1c1ddb7afa_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.2.15",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.2.15_5acb027cb1_9.0.zip",
+                    "fastboot": "sirius_images_9.2.15_20190215.0000.00_9.0_cn_17aade9cb9.tgz"
+                },
+                {
+                    "miui": "9.1.24",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.1.24_5b8ecb2326_9.0.zip",
+                    "fastboot": "sirius_images_9.1.24_20190124.0000.00_9.0_cn_4c32833923.tgz"
+                },
+                {
+                    "miui": "9.1.17",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_9.1.17_7ac48429d6_9.0.zip",
+                    "fastboot": "sirius_images_9.1.17_20190117.0000.00_9.0_cn_e79492018a.tgz"
+                },
+                {
+                    "miui": "8.12.20",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_8.12.20_b85fd149da_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.12.13",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_8.12.13_27593d2489_9.0.zip",
+                    "fastboot": "sirius_images_8.12.13_20181213.0000.00_9.0_cn_167b778e2c.tgz"
+                },
+                {
+                    "miui": "8.11.15",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_8.11.15_3f7130889b_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.11.1",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_8.11.1_d8e2f085da_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.10.25",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.10.25_9f263a15f0_8.1.zip",
+                    "fastboot": "sirius_images_8.10.25_20181025.0000.00_8.1_cn_66131b8f8a.tgz"
+                },
+                {
+                    "miui": "8.10.18",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.10.18_26dec25d83_8.1.zip",
+                    "fastboot": "sirius_images_8.10.18_20181018.0000.00_8.1_cn_7d97473432.tgz"
+                },
+                {
+                    "miui": "8.10.11",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.10.11_4d3f5b36c3_8.1.zip",
+                    "fastboot": "sirius_images_8.10.11_20181011.0000.00_8.1_cn_8796603950.tgz"
+                },
+                {
+                    "miui": "8.9.20",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.9.20_7621da635f_8.1.zip",
+                    "fastboot": "sirius_images_8.9.20_20180920.0000.00_8.1_cn_b649d92d9f.tgz"
+                },
+                {
+                    "miui": "8.9.13",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.9.13_3cc957c61b_8.1.zip",
+                    "fastboot": "sirius_images_8.9.13_20180913.0000.00_8.1_cn_125921940b.tgz"
+                },
+                {
+                    "miui": "8.9.8",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.9.8_3c2050fede_8.1.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "8.9.6",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.9.6_1f966fa310_8.1.zip",
+                    "fastboot": "sirius_images_8.9.6_20180906.0000.00_8.1_cn_cc63ddb73a.tgz"
+                },
+                {
+                    "miui": "8.8.31",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.8.31_d119bb99b1_8.1.zip",
+                    "fastboot": "sirius_images_8.8.31_20180831.0000.00_8.1_cn_6d41201425.tgz"
+                },
+                {
+                    "miui": "8.8.23",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.8.23_7fb1391e41_8.1.zip",
+                    "fastboot": "sirius_images_8.8.23_20180823.0000.00_8.1_cn_5e9423180c.tgz"
+                },
+                {
+                    "miui": "8.8.16",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.8.16_af42b6ed4b_8.1.zip",
+                    "fastboot": "sirius_images_8.8.16_20180816.0000.00_8.1_cn_47b7217f88.tgz"
+                },
+                {
+                    "miui": "8.8.9",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.8.9_bad2867329_8.1.zip",
+                    "fastboot": "sirius_images_8.8.9_20180809.0000.00_8.1_cn_71c3d14a2b.tgz"
+                },
+                {
+                    "miui": "8.8.3",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.8.3_cccbf96db5_8.1.zip",
+                    "fastboot": "sirius_images_8.8.3_20180802.0000.00_8.1_cn_f4ec51663f.tgz"
+                },
+                {
+                    "miui": "8.7.26",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.7.26_48fe03ff7e_8.1.zip",
+                    "fastboot": "sirius_images_8.7.26_20180726.0000.00_8.1_cn_06de6bbffe.tgz"
+                },
+                {
+                    "miui": "8.7.19",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.7.19_0a0081ddbd_8.1.zip",
+                    "fastboot": "sirius_images_8.7.19_20180719.0000.00_8.1_cn_fb56474e0b.tgz"
+                },
+                {
+                    "miui": "8.7.12",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.7.12_73579c7525_8.1.zip",
+                    "fastboot": "sirius_images_8.7.12_20180712.0000.00_8.1_cn_76e99f2776.tgz"
+                },
+                {
+                    "miui": "8.7.5",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.7.5_d03b7e10cc_8.1.zip",
+                    "fastboot": "sirius_images_8.7.5_20180705.0000.00_8.1_cn_e1a568d278.tgz"
+                },
+                {
+                    "miui": "8.6.28",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.6.28_8cca7510c9_8.1.zip",
+                    "fastboot": "sirius_images_8.6.28_20180628.0000.00_8.1_cn_69e9f7cc51.tgz"
+                },
+                {
+                    "miui": "8.6.21",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.6.21_84f1e09c6c_8.1.zip",
+                    "fastboot": "sirius_images_8.6.21_20180621.0000.00_8.1_cn_a1e012b25f.tgz"
+                },
+                {
+                    "miui": "8.6.18",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_8.6.18_8c13c2d0b4_8.1.zip",
+                    "fastboot": "sirius_images_8.6.18_20180618.0000.00_8.1_cn_010ab611eb.tgz"
                 }
             ]
         },
@@ -58,317 +660,117 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.5.1.0.QEBCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_V12.5.1.0.QEBCNXM_d9815dfb66_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V12.0.2.0.QEBCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_V12.0.2.0.QEBCNXM_09d4db05cb_10.0.zip",
+                    "fastboot": "sirius_images_V12.0.2.0.QEBCNXM_20200908.0000.00_10.0_cn_d02fa1473e.tgz"
+                },
+                {
+                    "miui": "V12.0.1.0.QEBCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_V12.0.1.0.QEBCNXM_3c8b50b89c_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.0.3.0.QEBCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_V11.0.3.0.QEBCNXM_fd6c55042a_10.0.zip",
+                    "fastboot": "sirius_images_V11.0.3.0.QEBCNXM_20200512.0000.00_10.0_cn_102a13ab59.tgz"
+                },
+                {
+                    "miui": "V11.0.2.0.QEBCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_V11.0.2.0.QEBCNXM_3363abf171_10.0.zip",
+                    "fastboot": "sirius_images_V11.0.2.0.QEBCNXM_20200219.0000.00_10.0_cn_c376c4ed53.tgz"
+                },
+                {
+                    "miui": "V11.0.1.0.QEBCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_MI8SE_V11.0.1.0.QEBCNXM_d519421d9f_10.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V11.0.3.0.PEBCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_V11.0.3.0.PEBCNXM_095039e56a_9.0.zip",
+                    "fastboot": "sirius_images_V11.0.3.0.PEBCNXM_20190926.0000.00_9.0_cn_bc09b23ef4.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V10.3.2.0.PEBCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_V10.3.2.0.PEBCNXM_7a3acfc714_9.0.zip",
+                    "fastboot": "sirius_images_V10.3.2.0.PEBCNXM_20190817.0000.00_9.0_cn_068670cd37.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V10.3.1.0.PEBCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_V10.3.1.0.PEBCNXM_cf5b992dd3_9.0.zip",
+                    "fastboot": "sirius_images_V10.3.1.0.PEBCNXM_20190418.0000.00_9.0_cn_77c3bfb3d6.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V10.2.3.0.PEBCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_V10.2.3.0.PEBCNXM_6a1cdcbc0e_9.0.zip",
+                    "fastboot": "sirius_images_V10.2.3.0.PEBCNXM_20190219.0000.00_9.0_cn_0acd9c8d54.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V10.2.2.0.PEBCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_MI8SE_V10.2.2.0.PEBCNXM_711395aa40_9.0.zip",
+                    "fastboot": "sirius_images_V10.2.2.0.PEBCNXM_20190115.0000.00_9.0_cn_9c3f0dee1c.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V10.2.1.0.OEBCNFK",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_V10.2.1.0.OEBCNFK_3f8bb46915_8.1.zip",
+                    "fastboot": "sirius_images_V10.2.1.0.OEBCNFK_20181211.0000.00_8.1_cn_684d3c9d64.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V10.0.1.0.OEBCNFH",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_V10.0.1.0.OEBCNFH_2834ba9952_8.1.zip",
+                    "fastboot": "sirius_images_V10.0.1.0.OEBCNFH_20180824.0000.00_8.1_cn_8433266209.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                    "miui": "V9.5.11.0.OEBCNFA",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_V9.5.11.0.OEBCNFA_df22735d33_8.1.zip",
+                    "fastboot": "sirius_images_V9.5.11.0.OEBCNFA_20180727.0000.00_8.1_cn_11c5fa0e67.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V9.5.10.0.OEBCNFA",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_V9.5.10.0.OEBCNFA_db4a3e2df3_8.1.zip",
+                    "fastboot": "sirius_images_V9.5.10.0.OEBCNFA_20180712.0000.00_8.1_cn_fd2a00fd4f.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                    "miui": "V9.5.9.0.OEBCNFA",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_V9.5.9.0.OEBCNFA_a3ab56c999_8.1.zip",
+                    "fastboot": "sirius_images_V9.5.9.0.OEBCNFA_20180628.0000.00_8.1_cn_bf1e3854ca.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                    "miui": "V9.5.8.0.OEBCNFA",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_V9.5.8.0.OEBCNFA_c3f25edabc_8.1.zip",
+                    "fastboot": "sirius_images_V9.5.8.0.OEBCNFA_20180620.0000.00_8.1_cn_46cdad87ee.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
+                    "miui": "V9.5.6.0.OEBCNFA",
+                    "android": "8.1",
+                    "recovery": "miui_MI8SE_V9.5.6.0.OEBCNFA_c544fe6087_8.1.zip",
+                    "fastboot": "sirius_images_V9.5.6.0.OEBCNFA_20180605.0000.00_8.1_cn_067db4724a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V9.5.3.0.OEBCNFA",
+                    "android": "8.1",
+                    "recovery": "miui_SIRIUS_V9.5.3.0.OEBCNFA_64d27836fc_8.1.zip",
                     "fastboot": ""
                 }
             ]

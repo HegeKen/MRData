@@ -1,7 +1,7 @@
 {
-   "codename": "",
-    "cnname": "",
-    "enname": "",
+   "codename": "tucana",
+    "cnname": "小米 CC9 Pro/小米 Note 10/Pro",
+    "enname": "Mi CC 9 Pro/Mi Note 10/Pro",
     "attentions":[
         {
             "cn":"",
@@ -10,43 +10,597 @@
     ],
     "branches": [
         {
-            "branch": "cnma",
-            "show": "1",
-            "cnname": "体验版",
-            "enname": "China Alpha",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
             "branch": "cnmp",
             "show": "1",
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "22.3.2",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_22.3.2_e735556b82_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "1",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "22.2.23",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_22.2.23_08b6233438_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.2.17",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_22.2.17_04f4b14a06_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.2.9",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_22.2.9_4959ce9155_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.19",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_22.1.19_6c17643b7a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.13",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_22.1.13_bcbbb28c27_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "22.1.5",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_22.1.5_075fa87377_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.29",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.12.29_b12b30218c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.8",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.12.8_62472aaaec_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.1",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.12.1_58e094e8f7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.24",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.11.24_fd9f0ab287_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.17",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.11.17_83e412f5d4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.10",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.11.10_9d7138b8f2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.3",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.11.3_9f01c3e370_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.28",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.10.28_30139186c3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.20",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.10.20_9752bf6bd5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.13",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.10.13_11b6c60135_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.28",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.9.28_8ec906dc80_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.22",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.9.22_464306459b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.15",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.9.15_600a60269d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.8",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.9.8_4e8f61714c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.1",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.9.1_57209e8669_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.25",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.8.25_9c9b0a7f78_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.18",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.8.18_87a4a63112_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.11",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.8.11_9ab8f07761_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.4",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.8.4_29d81b4539_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.28",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.7.28_31afe63d0b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.21",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.7.21_f796863c48_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.14",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.7.14_1aece28f3c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.7",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.7.7_1077db6dfd_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.30",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.6.30_38e9158b1e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.23",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.6.23_4b13214c68_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.16",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.6.16_8c8b32fc26_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.9",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.6.9_46cff5aa87_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.2",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.6.2_32f6839946_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.27",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.5.27_2b571a744b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.20",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.5.20_1fa7667422_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.12",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.5.12_495377fc3d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.28",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.4.28_2648fb06d6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.21",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.4.21_6f58146ba0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.14",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.4.14_f9b8f8a0c1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.7",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.4.7_36605b32ca_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.1",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.4.1_1782c3d3e3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.24",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.3.24_495a60b513_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.18",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.3.18_89735c7d4d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.10",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.3.10_9b20cae120_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.3",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.3.3_2177899b1c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.24",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.2.24_93ae935df2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.3",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.2.3_0e5214e74a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.28",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.1.28_50a925ab1c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.20",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.1.20_d992dba375_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.14",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.1.14_38faca4f68_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.6",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_21.1.6_87002802c3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.28",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.12.28_e14d7c3fff_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.9",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.12.9_be8a00e44c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.2",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.12.2_05eac67851_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.25",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.11.25_7b1710dcef_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.18",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.11.18_f43f6b7822_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.12",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.11.12_11e1c8a560_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.30",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.10.30_9815a63413_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.29",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.10.29_3676f6044c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.22",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.10.22_65a3f2adfa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.10.15",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.10.15_4809b8ca95_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.10",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.9.10_f3fcc4e9d9_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.26",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_20.8.26_ef3368d91d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.9.3",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.9.3_de8f2797b7_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.27",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.8.27_6540fa47cf_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.20",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.8.20_ac8d221646_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.13",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.8.13_4c532f2e5e_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.8.6",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.8.6_c200e0df8a_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.30",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.7.30_88bd643cc0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.23",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.7.23_9ef8ecdadb_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.16",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.7.16_986c6402bf_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.9",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.7.9_9e4ddba5e6_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.7.2",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.7.2_b8ed8ba668_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.18",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.6.18_04d210326b_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.17",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.6.17_7df276b754_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.11",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.6.11_5953571c3f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.6.4",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.6.4_199d05fae0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.28",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.5.28_001e2dab4d_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.21",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.5.21_e375001703_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.14",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.5.14_6c4cbf7bd0_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.5.7",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.5.7_1f3284af14_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.30",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.4.30_6f1bd36404_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.4.27",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.4.27_abeb5b26f5_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.26",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.3.26_e2623b7ebb_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.19",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.3.19_e0461fd9d9_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.12",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.3.12_a0a2cbfb89_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.3.5",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.3.5_e1206d6621_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.27",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.2.27_a366102598_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.2.20",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_20.2.20_04b5734e87_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.9",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_20.1.9_3240a7f35f_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.1.2",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_20.1.2_4215e10bd9_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.26",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_9.12.26_ad368678c9_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.19",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_9.12.19_c6bf901cf0_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.12",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_9.12.12_28f0aeefca_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.12.5",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_9.12.5_2b70682ce5_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "9.11.28",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_9.11.28_457de5a45f_9.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -58,220 +612,112 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.4.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V13.0.4.0.RFDCNXM_9253c83a9f_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmt",
-            "show": "1",
-            "cnname": "中国大陆推荐版",
-            "enname": "China Mainland Suggested Edition",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncm",
-            "show": "1",
-            "cnname": "中国移动推荐版",
-            "enname": "China Mobile Suggested Edition",
-            "links": [
+                    "miui": "V13.0.1.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V13.0.1.0.RFDCNXM_572656a73d_11.0.zip",
+                    "fastboot": "tucana_images_V13.0.1.0.RFDCNXM_20220328.0000.00_11.0_cn_4a3f01b674.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cncu",
-            "show": "1",
-            "cnname": "中国联通推荐版",
-            "enname": "China Unicom Suggested Edition",
-            "links": [
+                    "miui": "V12.5.9.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V12.5.9.0.RFDCNXM_34a090cd3a_11.0.zip",
+                    "fastboot": "tucana_images_V12.5.9.0.RFDCNXM_20220104.0000.00_11.0_cn_c5d143e4fe.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnct",
-            "show": "1",
-            "cnname": "中国电信推荐版",
-            "enname": "China Telecom Suggested Edition",
-            "links": [
+                    "miui": "V12.5.7.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V12.5.7.0.RFDCNXM_5239ec8395_11.0.zip",
+                    "fastboot": "tucana_images_V12.5.7.0.RFDCNXM_20211025.0000.00_11.0_cn_d3da3e7c31.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccms",
-            "show": "1",
-            "cnname": "中国移动定制版",
-            "enname": "China Mobile Stable",
-            "links": [
+                    "miui": "V12.5.5.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V12.5.5.0.RFDCNXM_1e4cc10739_11.0.zip",
+                    "fastboot": "tucana_images_V12.5.5.0.RFDCNXM_20210921.0000.00_11.0_cn_7ec9d2943a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.5.4.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V12.5.4.0.RFDCNXM_7c05d34c85_11.0.zip",
+                    "fastboot": "tucana_images_V12.5.4.0.RFDCNXM_20210718.0000.00_11.0_cn_4e8f0715ef.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccus",
-            "show": "1",
-            "cnname": "中国联通定制版",
-            "enname": "China Unicom Stable",
-            "links": [
+                    "miui": "V12.5.2.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V12.5.2.0.RFDCNXM_9b1f885f20_11.0.zip",
+                    "fastboot": "tucana_images_V12.5.2.0.RFDCNXM_20210512.0000.00_11.0_cn_7bca34204a.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "ccts",
-            "show": "1",
-            "cnname": "中国电信定制版",
-            "enname": "China Telecom Stable",
-            "links": [
+                    "miui": "V12.1.5.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V12.1.5.0.RFDCNXM_20dc1d4f76_11.0.zip",
+                    "fastboot": "tucana_images_V12.1.5.0.RFDCNXM_20210208.0000.00_11.0_cn_572a9f8b5d.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnhk",
-            "show": "1",
-            "cnname": "香港地区稳定版",
-            "enname": "China Hong Kong Stable",
-            "links": [
+                    "miui": "V12.1.3.0.RFDCNXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANA_V12.1.3.0.RFDCNXM_2a2aeb8727_11.0.zip",
+                    "fastboot": "tucana_images_V12.1.3.0.RFDCNXM_20201230.0000.00_11.0_cn_8f9eb6d202.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
+                    "miui": "V12.0.2.0.QFDCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_V12.0.2.0.QFDCNXM_88649617b1_10.0.zip",
+                    "fastboot": "tucana_images_V12.0.2.0.QFDCNXM_20201018.0000.00_10.0_cn_42e47a2e57.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "msap",
-            "show": "1",
-            "cnname": "原生安卓",
-            "enname": "Stock Android",
-            "links": [
+                    "miui": "V12.0.1.0.QFDCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_V12.0.1.0.QFDCNXM_c1b21a5bf5_10.0.zip",
+                    "fastboot": "tucana_images_V12.0.1.0.QFDCNXM_20200715.0000.00_10.0_cn_7045ac4594.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mygs",
-            "show": "1",
-            "cnname": "马来西亚稳定版",
-            "enname": "Malaysia Stable",
-            "links": [
+                    "miui": "V11.1.2.0.QFDCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_V11.1.2.0.QFDCNXM_08747eac1e_10.0.zip",
+                    "fastboot": "tucana_images_V11.1.2.0.QFDCNXM_20200504.0000.00_10.0_cn_9d8b49d8f2.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggb",
-            "show": "1",
-            "cnname": "新加坡开发版",
-            "enname": "Singapore Beta",
-            "links": [
+                    "miui": "V11.1.1.0.QFDCNXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANA_V11.1.1.0.QFDCNXM_ac86b5aab3_10.0.zip",
+                    "fastboot": "tucana_images_V11.1.1.0.QFDCNXM_20200420.0000.00_10.0_cn_a8288ad4a1.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "sggs",
-            "show": "1",
-            "cnname": "新加坡稳定版",
-            "enname": "Singapore Stable",
-            "links": [
+                    "miui": "V11.0.9.0.PFDCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_V11.0.9.0.PFDCNXM_c6fcdf2960_9.0.zip",
+                    "fastboot": "tucana_images_V11.0.9.0.PFDCNXM_20200414.0000.00_9.0_cn_08821065b8.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
+                    "miui": "V11.0.7.0.PFDCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_V11.0.7.0.PFDCNXM_eb85103afb_9.0.zip",
+                    "fastboot": "tucana_images_V11.0.7.0.PFDCNXM_20191228.0000.00_9.0_cn_2063e9b1ec.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V11.0.5.0.PFDCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_V11.0.5.0.PFDCNXM_1b94e796a6_9.0.zip",
+                    "fastboot": "tucana_images_V11.0.5.0.PFDCNXM_20191126.0000.00_9.0_cn_f52d1bdcfd.tgz"
+                },
+                {
+                    "miui": "V11.0.4.0.PFDCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_V11.0.4.0.PFDCNXM_97be964d93_9.0.zip",
                     "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.3.0.PFDCNXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANA_V11.0.3.0.PFDCNXM_c3a4beb98d_9.0.zip",
+                    "fastboot": "tucana_images_V11.0.3.0.PFDCNXM_20191029.0000.00_9.0_cn_d2f38f6cb6.tgz"
                 }
             ]
         },
@@ -282,9 +728,123 @@
             "enname": "Global Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.2.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V13.0.2.0.RFDMIXM_30046080e8_11.0.zip",
+                    "fastboot": "tucana_global_images_V13.0.2.0.RFDMIXM_20220908.0000.00_11.0_global_feef0e8faf.tgz"
+                },
+                {
+                    "miui": "V13.0.1.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V13.0.1.0.RFDMIXM_86a1be8c61_11.0.zip",
+                    "fastboot": "tucana_global_images_V13.0.1.0.RFDMIXM_20220412.0000.00_11.0_global_0d7a636e93.tgz"
+                },
+                {
+                    "miui": "V12.5.6.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V12.5.6.0.RFDMIXM_a598dd9cc8_11.0.zip",
+                    "fastboot": "tucana_global_images_V12.5.6.0.RFDMIXM_20220121.0000.00_11.0_global_32b199b1be.tgz"
+                },
+                {
+                    "miui": "V12.5.5.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V12.5.5.0.RFDMIXM_d34d306287_11.0.zip",
+                    "fastboot": "tucana_global_images_V12.5.5.0.RFDMIXM_20211110.0000.00_11.0_global_43dd6f6c1d.tgz"
+                },
+                {
+                    "miui": "V12.5.4.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V12.5.4.0.RFDMIXM_bf9a02a940_11.0.zip",
+                    "fastboot": "tucana_global_images_V12.5.4.0.RFDMIXM_20210829.0000.00_11.0_global_fa382316d8.tgz"
+                },
+                {
+                    "miui": "V12.5.3.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V12.5.3.0.RFDMIXM_085cce8a13_11.0.zip",
+                    "fastboot": "tucana_global_images_V12.5.3.0.RFDMIXM_20210629.0000.00_11.0_global_bb7be88a22.tgz"
+                },
+                {
+                    "miui": "V12.1.3.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V12.1.3.0.RFDMIXM_7044a70c96_11.0.zip",
+                    "fastboot": "tucana_global_images_V12.1.3.0.RFDMIXM_20210512.0000.00_11.0_global_0460a170c1.tgz"
+                },
+                {
+                    "miui": "V12.1.2.0.RFDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAGlobal_V12.1.2.0.RFDMIXM_23bef84d2d_11.0.zip",
+                    "fastboot": "tucana_global_images_V12.1.2.0.RFDMIXM_20210226.0000.00_11.0_global_fdc8e44fec.tgz"
+                },
+                {
+                    "miui": "V12.0.4.0.QFDMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAGlobal_V12.0.4.0.QFDMIXM_be49be8fa0_10.0.zip",
+                    "fastboot": "tucana_global_images_V12.0.4.0.QFDMIXM_20210117.0000.00_10.0_global_5d1b5df49b.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QFDMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAGlobal_V12.0.3.0.QFDMIXM_919439d60e_10.0.zip",
+                    "fastboot": "tucana_global_images_V12.0.3.0.QFDMIXM_20201026.0000.00_10.0_global_8f1fa67095.tgz"
+                },
+                {
+                    "miui": "V12.0.2.0.QFDMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAGlobal_V12.0.2.0.QFDMIXM_039bbe8a99_10.0.zip",
+                    "fastboot": "tucana_global_images_V12.0.2.0.QFDMIXM_20200818.0000.00_10.0_global_085215716a.tgz"
+                },
+                {
+                    "miui": "V12.0.1.0.QFDMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAGlobal_V12.0.1.0.QFDMIXM_1dec6077cd_10.0.zip",
+                    "fastboot": "tucana_global_images_V12.0.1.0.QFDMIXM_20200802.0000.00_10.0_global_aea95d7655.tgz"
+                },
+                {
+                    "miui": "V11.1.3.0.QFDMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAGlobal_V11.1.3.0.QFDMIXM_92fc5246c5_10.0.zip",
+                    "fastboot": "tucana_global_images_V11.1.3.0.QFDMIXM_20200628.0000.00_10.0_global_e100ca7d5f.tgz"
+                },
+                {
+                    "miui": "V11.1.2.0.QFDMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAGlobal_V11.1.2.0.QFDMIXM_3e27048d54_10.0.zip",
+                    "fastboot": "tucana_global_images_V11.1.2.0.QFDMIXM_20200510.0000.00_10.0_global_77ea55f412.tgz"
+                },
+                {
+                    "miui": "V11.1.1.0.QFDMIXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAGlobal_V11.1.1.0.QFDMIXM_895807152b_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.9.0.PFDMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAGlobal_V11.0.9.0.PFDMIXM_f4aa3e3edc_9.0.zip",
+                    "fastboot": "tucana_global_images_V11.0.9.0.PFDMIXM_20200409.0000.00_9.0_global_1074364dc8.tgz"
+                },
+                {
+                    "miui": "V11.0.8.0.PFDMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAGlobal_V11.0.8.0.PFDMIXM_85ed799ef6_9.0.zip",
+                    "fastboot": "tucana_global_images_V11.0.8.0.PFDMIXM_20200304.0000.00_9.0_global_375f9b48aa.tgz"
+                },
+                {
+                    "miui": "V11.0.7.0.PFDMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAGlobal_V11.0.7.0.PFDMIXM_21ef976ac1_9.0.zip",
+                    "fastboot": "tucana_global_images_V11.0.7.0.PFDMIXM_20200108.0000.00_9.0_global_3d4450882b.tgz"
+                },
+                {
+                    "miui": "V11.0.5.0.PFDMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAGlobal_V11.0.5.0.PFDMIXM_40dcdd8711_9.0.zip",
+                    "fastboot": "tucana_global_images_V11.0.5.0.PFDMIXM_20191126.0000.00_9.0_global_2fb93115f1.tgz"
+                },
+                {
+                    "miui": "V11.0.3.0.PFDMIXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAGlobal_V11.0.3.0.PFDMIXM_3a07de6538_9.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -296,9 +856,141 @@
                 "enname": "Europe EEA Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.2.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V13.0.2.0.RFDEUXM_4c2cbbe0bf_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V13.0.2.0.RFDEUXM_20220903.0000.00_11.0_eea_74d3f99bd8.tgz"
+                },
+                {
+                    "miui": "V13.0.1.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V13.0.1.0.RFDEUXM_5b459eddd7_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V13.0.1.0.RFDEUXM_20220412.0000.00_11.0_eea_075960c981.tgz"
+                },
+                {
+                    "miui": "V12.5.5.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.5.5.0.RFDEUXM_867bc939b1_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.5.5.0.RFDEUXM_20211125.0000.00_11.0_eea_189679001f.tgz"
+                },
+                {
+                    "miui": "V12.5.4.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.5.4.0.RFDEUXM_200e8c7330_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.5.4.0.RFDEUXM_20210921.0000.00_11.0_eea_64164e7e28.tgz"
+                },
+                {
+                    "miui": "V12.5.3.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.5.3.0.RFDEUXM_6bb545127e_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.5.3.0.RFDEUXM_20210808.0000.00_11.0_eea_42b7452aeb.tgz"
+                },
+                {
+                    "miui": "V12.5.2.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.5.2.0.RFDEUXM_cc4dffee68_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.5.2.0.RFDEUXM_20210726.0000.00_11.0_eea_e03d6143b6.tgz"
+                },
+                {
+                    "miui": "V12.5.1.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.5.1.0.RFDEUXM_75f8f5f7c7_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.5.1.0.RFDEUXM_20210612.0000.00_11.0_eea_388f80910a.tgz"
+                },
+                {
+                    "miui": "V12.1.4.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.1.4.0.RFDEUXM_e8e5eb8af6_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.1.4.0.RFDEUXM_20210428.0000.00_11.0_eea_5820ca91ee.tgz"
+                },
+                {
+                    "miui": "V12.1.3.0.RFDEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.1.3.0.RFDEUXM_d4648d0d96_11.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.1.3.0.RFDEUXM_20210217.0000.00_11.0_eea_d27dc0ad7f.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QFDEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.0.3.0.QFDEUXM_030d9f737b_10.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.0.3.0.QFDEUXM_20201113.0000.00_10.0_eea_89272d54c7.tgz"
+                },
+                {
+                    "miui": "V12.0.2.0.QFDEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.0.2.0.QFDEUXM_a960539f29_10.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.0.2.0.QFDEUXM_20201010.0000.00_10.0_eea_1054ffd422.tgz"
+                },
+                {
+                    "miui": "V12.0.1.0.QFDEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V12.0.1.0.QFDEUXM_5985ff5318_10.0.zip",
+                    "fastboot": "tucana_eea_global_images_V12.0.1.0.QFDEUXM_20200819.0000.00_10.0_eea_4ceffbea99.tgz"
+                },
+                {
+                    "miui": "V11.1.2.0.QFDEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.1.2.0.QFDEUXM_782cb61971_10.0.zip",
+                    "fastboot": "tucana_eea_global_images_V11.1.2.0.QFDEUXM_20200628.0000.00_10.0_eea_1e2df42457.tgz"
+                },
+                {
+                    "miui": "V11.1.1.0.QFDEUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.1.1.0.QFDEUXM_ff57fb41a1_10.0.zip",
+                    "fastboot": "tucana_eea_global_images_V11.1.1.0.QFDEUXM_20200511.0000.00_10.0_eea_6a689db5b8.tgz"
+                },
+                {
+                    "miui": "V11.0.17.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.17.0.PFDEUXM_01ce4d3a55_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.16.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.16.0.PFDEUXM_9ac25e9dc7_9.0.zip",
+                    "fastboot": "tucana_eea_global_images_V11.0.16.0.PFDEUXM_20200304.0000.00_9.0_eea_9a65f20bc2.tgz"
+                },
+                {
+                    "miui": "V11.0.14.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.14.0.PFDEUXM_2d67efc5e3_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.13.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.13.0.PFDEUXM_61518caa02_9.0.zip",
+                    "fastboot": "tucana_eea_global_images_V11.0.13.0.PFDEUXM_20200114.0000.00_9.0_eea_290ece7a7b.tgz"
+                },
+                {
+                    "miui": "V11.0.12.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.12.0.PFDEUXM_666261a8b0_9.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V11.0.11.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.11.0.PFDEUXM_9fa3ae20ce_9.0.zip",
+                    "fastboot": "tucana_eea_global_images_V11.0.11.0.PFDEUXM_20191205.0000.00_9.0_eea_9c16cd6a91.tgz"
+                },
+                {
+                    "miui": "V11.0.10.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.10.0.PFDEUXM_b7a8e9a640_9.0.zip",
+                    "fastboot": "tucana_eea_global_images_V11.0.10.0.PFDEUXM_20191125.0000.00_9.0_eea_2f14cc5807.tgz"
+                },
+                {
+                    "miui": "V11.0.9.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.9.0.PFDEUXM_63b5cb970d_9.0.zip",
+                    "fastboot": "tucana_eea_global_images_V11.0.9.0.PFDEUXM_20191118.0000.00_9.0_eea_b11e577702.tgz"
+                },
+                {
+                    "miui": "V11.0.5.0.PFDEUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANAEEAGlobal_V11.0.5.0.PFDEUXM_08e1a88222_9.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -310,24 +1002,88 @@
                 "enname": "Russia Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
-            "links": [
+                    "miui": "V13.0.3.0.RFDRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANARUGlobal_V13.0.3.0.RFDRUXM_9813613bb0_11.0.zip",
+                    "fastboot": "tucana_ru_global_images_V13.0.3.0.RFDRUXM_20220915.0000.00_11.0_global_becf63a4a6.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V13.0.2.0.RFDRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANARUGlobal_V13.0.2.0.RFDRUXM_a21ca18ae0_11.0.zip",
+                    "fastboot": "tucana_ru_global_images_V13.0.2.0.RFDRUXM_20220428.0000.00_11.0_global_1de7ca8b1c.tgz"
+                },
+                {
+                    "miui": "V12.5.4.0.RFDRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANARUGlobal_V12.5.4.0.RFDRUXM_cc4d52fc09_11.0.zip",
+                    "fastboot": "tucana_ru_global_images_V12.5.4.0.RFDRUXM_20211210.0000.00_11.0_global_14433c04b8.tgz"
+                },
+                {
+                    "miui": "V12.5.3.0.RFDRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANARUGlobal_V12.5.3.0.RFDRUXM_f64356be27_11.0.zip",
+                    "fastboot": "tucana_ru_global_images_V12.5.3.0.RFDRUXM_20211010.0000.00_11.0_global_a73fad301e.tgz"
+                },
+                {
+                    "miui": "V12.5.2.0.RFDRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANARUGlobal_V12.5.2.0.RFDRUXM_3d32d4904f_11.0.zip",
+                    "fastboot": "tucana_ru_global_images_V12.5.2.0.RFDRUXM_20210715.0000.00_11.0_global_486ba47229.tgz"
+                },
+                {
+                    "miui": "V12.1.1.0.RFDRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANARUGlobal_V12.1.1.0.RFDRUXM_a09cabac91_11.0.zip",
+                    "fastboot": "tucana_ru_global_images_V12.1.1.0.RFDRUXM_20210317.0000.00_11.0_global_64cc4a413d.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QFDRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANARUGlobal_V12.0.3.0.QFDRUXM_803e39eb32_10.0.zip",
+                    "fastboot": "tucana_ru_global_images_V12.0.3.0.QFDRUXM_20201112.0000.00_10.0_global_355fb7d12e.tgz"
+                },
+                {
+                    "miui": "V12.0.2.0.QFDRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANARUGlobal_V12.0.2.0.QFDRUXM_f5500b36c2_10.0.zip",
+                    "fastboot": "tucana_ru_global_images_V12.0.2.0.QFDRUXM_20200904.0000.00_10.0_global_e4bc1b3dbc.tgz"
+                },
+                {
+                    "miui": "V11.1.2.0.QFDRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANARUGlobal_V11.1.2.0.QFDRUXM_c853e418ee_10.0.zip",
+                    "fastboot": "tucana_ru_global_images_V11.1.2.0.QFDRUXM_20200628.0000.00_10.0_global_8916ac3b68.tgz"
+                },
+                {
+                    "miui": "V11.1.1.0.QFDRUXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANARUGlobal_V11.1.1.0.QFDRUXM_28759082b1_10.0.zip",
+                    "fastboot": "tucana_ru_global_images_V11.1.1.0.QFDRUXM_20200511.0000.00_10.0_global_75f1672564.tgz"
+                },
+                {
+                    "miui": "V11.0.8.0.PFDRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANARUGlobal_V11.0.8.0.PFDRUXM_f56a283f6e_9.0.zip",
+                    "fastboot": "tucana_ru_global_images_V11.0.8.0.PFDRUXM_20200424.0000.00_9.0_global_e21043d36c.tgz"
+                },
+                {
+                    "miui": "V11.0.7.0.PFDRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANARUGlobal_V11.0.7.0.PFDRUXM_444a131f5c_9.0.zip",
+                    "fastboot": "tucana_ru_global_images_V11.0.7.0.PFDRUXM_20200309.0000.00_9.0_global_7f93563324.tgz"
+                },
+                {
+                    "miui": "V11.0.6.0.PFDRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANARUGlobal_V11.0.6.0.PFDRUXM_f5b4a667c1_9.0.zip",
+                    "fastboot": "tucana_ru_global_images_V11.0.6.0.PFDRUXM_20200111.0000.00_9.0_global_84f34be7cd.tgz"
+                },
+                {
+                    "miui": "V11.0.3.0.PFDRUXM",
+                    "android": "9.0",
+                    "recovery": "miui_TUCANARUGlobal_V11.0.3.0.PFDRUXM_cd59013df3_9.0.zip",
+                    "fastboot": "tucana_ru_global_images_V11.0.3.0.PFDRUXM_20191118.0000.00_9.0_global_f2a1136e2b.tgz"
                 }
             ]
         },
@@ -338,38 +1094,64 @@
                 "enname": "Indonesia Stable",
             "links": [
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
+                    "miui": "V13.0.3.0.RFDIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAIDGlobal_V13.0.3.0.RFDIDXM_66641e2af4_11.0.zip",
                     "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
-            "links": [
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
-            "links": [
+                    "miui": "V13.0.2.0.RFDIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAIDGlobal_V13.0.2.0.RFDIDXM_594b605884_11.0.zip",
+                    "fastboot": "tucana_id_global_images_V13.0.2.0.RFDIDXM_20220428.0000.00_11.0_global_e05f68b615.tgz"
+                },
                 {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
+                    "miui": "V12.5.4.0.RFDIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAIDGlobal_V12.5.4.0.RFDIDXM_d2ca0511fe_11.0.zip",
+                    "fastboot": "tucana_id_global_images_V12.5.4.0.RFDIDXM_20211130.0000.00_11.0_global_fa0bfea125.tgz"
+                },
+                {
+                    "miui": "V12.5.3.0.RFDIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAIDGlobal_V12.5.3.0.RFDIDXM_840ac690d8_11.0.zip",
+                    "fastboot": "tucana_id_global_images_V12.5.3.0.RFDIDXM_20210927.0000.00_11.0_global_519b061f2a.tgz"
+                },
+                {
+                    "miui": "V12.5.2.0.RFDIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAIDGlobal_V12.5.2.0.RFDIDXM_6df8f89a4d_11.0.zip",
+                    "fastboot": "tucana_id_global_images_V12.5.2.0.RFDIDXM_20210813.0000.00_11.0_global_b6f08d6560.tgz"
+                },
+                {
+                    "miui": "V12.5.1.0.RFDIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAIDGlobal_V12.5.1.0.RFDIDXM_3097136ba6_11.0.zip",
+                    "fastboot": "tucana_id_global_images_V12.5.1.0.RFDIDXM_20210603.0000.00_11.0_global_036df4b7b1.tgz"
+                },
+                {
+                    "miui": "V12.1.1.0.RFDIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_TUCANAIDGlobal_V12.1.1.0.RFDIDXM_b5f0c7f6b8_11.0.zip",
+                    "fastboot": "tucana_id_global_images_V12.1.1.0.RFDIDXM_20210316.0000.00_11.0_global_112c76910e.tgz"
+                },
+                {
+                    "miui": "V12.0.3.0.QFDIDXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAIDGlobal_V12.0.3.0.QFDIDXM_303bc163c1_10.0.zip",
+                    "fastboot": "tucana_id_global_images_V12.0.3.0.QFDIDXM_20201113.0000.00_10.0_global_a746a77756.tgz"
+                },
+                {
+                    "miui": "V12.0.2.0.QFDIDXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAIDGlobal_V12.0.2.0.QFDIDXM_3f5daf06f7_10.0.zip",
+                    "fastboot": "tucana_id_global_images_V12.0.2.0.QFDIDXM_20200905.0000.00_10.0_global_28f241bbe9.tgz"
+                },
+                {
+                    "miui": "V11.1.1.0.QFDIDXM",
+                    "android": "10.0",
+                    "recovery": "miui_TUCANAIDGlobal_V11.1.1.0.QFDIDXM_36928656c1_10.0.zip",
+                    "fastboot": "tucana_id_global_images_V11.1.1.0.QFDIDXM_20200511.0000.00_10.0_global_63b22e5688.tgz"
                 }
             ]
         }
