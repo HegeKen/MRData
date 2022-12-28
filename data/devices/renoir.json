@@ -1,11 +1,11 @@
 {
-   "codename": "renoir",
+    "codename": "renoir",
     "cnname": "小米 11 青春版",
     "enname": "Mi 11 Lite 5G",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,28 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_RENOIR_V14.0.22.12.19.DEV_a076067951_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_RENOIR_V14.0.22.12.8.DEV_e4d03675b6_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_RENOIR_V14.0.22.12.5.DEV_bee83f0023_13.0.zip",
                     "fastboot": "renoir_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_6b23bd3811.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_RENOIR_V13.1.22.10.24.DEV_266d1673be_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",
@@ -645,9 +663,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.8.0.SKIEUXM",
@@ -719,9 +737,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.4.0.SKIRUXM",
@@ -781,9 +799,9 @@
         },
         {
             "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
+            "show": "1",
+            "cnname": "日本稳定版",
+            "enname": "Japan Stable",
             "links": [
                 {
                     "miui": "V13.0.6.0.SKIJPXM",

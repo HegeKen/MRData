@@ -1,25 +1,31 @@
 {
-   "codename": "excalibur",
+    "codename": "excalibur",
     "cnname": "Redmi Note 9 Pro Max",
     "enname": "Redmi Note 9 Pro Max",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SJXINXM",
+                    "android": "12.0",
+                    "recovery": "miui_EXCALIBURINGlobal_V13.0.2.0.SJXINXM_5647f6f4a8_12.0.zip",
+                    "fastboot": "excalibur_in_global_images_V13.0.2.0.SJXINXM_20221109.0000.00_12.0_in_2455ff95e7.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SJXINXM",
                     "android": "12.0",
                     "recovery": "miui_EXCALIBURINGlobal_V13.0.1.0.SJXINXM_633ac15edc_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "excalibur_in_global_images_V13.0.1.0.SJXINXM_20220829.0000.00_12.0_in_c9580d0201.tgz"
                 },
                 {
                     "miui": "V12.5.6.0.RJXINXM",

@@ -1,11 +1,11 @@
 {
-   "codename": "thor",
+    "codename": "thor",
     "cnname": "小米 12S Ultra",
     "enname": "Xiaomi 12S Ultra",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,34 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_THOR_V14.0.22.12.19.DEV_f62e6567dd_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.16.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_THOR_V14.0.22.12.16.DEV_baf8c2fbe5_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_THOR_V14.0.22.12.8.DEV_e04fdf94b8_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_THOR_V14.0.22.12.5.DEV_22c8a9149e_13.0.zip",
                     "fastboot": "thor_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_0457ff82b1.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_THOR_V13.1.22.10.24.DEV_6b4e1850e4_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",
@@ -89,6 +113,12 @@
             "cnname": "中国大陆正式版",
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
+                {
+                    "miui": "V14.0.3.0.TLACNXM",
+                    "android": "12.0",
+                    "recovery": "miui_THOR_V14.0.3.0.TLACNXM_d806153dd8_13.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V14.0.2.0.TLACNXM",
                     "android": "13.0",

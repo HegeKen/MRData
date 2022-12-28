@@ -1,11 +1,11 @@
 {
-   "codename": "frost",
+    "codename": "frost",
     "cnname": "POCO C40",
     "enname": "POCO C40",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -36,6 +36,12 @@
             "enname": "Global Stable",
             "links": [
                 {
+                    "miui": "V13.0.16.0.RGFMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_FROSTGlobal_V13.0.16.0.RGFMIXM_d98197237a_11.0.zip",
+                    "fastboot": "frost_global_images_V13.0.16.0.RGFMIXM_20221130.0000.00_11.0_global_e1a23b3a69.tgz"
+                },
+                {
                     "miui": "V13.0.12.0.RGFMIXM",
                     "android": "11.0",
                     "recovery": "miui_FROSTGlobal_V13.0.12.0.RGFMIXM_ff5edd32a9_11.0.zip",
@@ -57,10 +63,22 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
+                {
+                    "miui": "V13.0.8.0.RGFRUXM",
+                    "android": "11.0",
+                    "recovery": "miui_FROSTRUGlobal_V13.0.8.0.RGFRUXM_e74994a1b4_11.0.zip",
+                    "fastboot": "frost_ru_global_images_V13.0.8.0.RGFRUXM_20221102.0000.00_11.0_global_f518962bb8.tgz"
+                },
+                {
+                    "miui": "V13.0.7.0.RGFEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_FROSTEEAGlobal_V13.0.7.0.RGFEUXM_c88a57ca80_11.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V13.0.6.0.RGFEUXM",
                     "android": "11.0",
@@ -71,9 +89,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.5.0.RGFRUXM",
@@ -86,6 +104,20 @@
                     "android": "11.0",
                     "recovery": "miui_FROSTRUGlobal_V13.0.8.0.RGFRUXM_e74994a1b4_11.0.zip",
                     "fastboot": ""
+                }
+            ]
+        },
+        {
+            "branch": "inns",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
+            "links": [
+                {
+                    "miui": "V13.0.8.0.RGFIDXM",
+                    "android": "11.0",
+                    "recovery": "miui_FROSTIDGlobal_V13.0.8.0.RGFIDXM_6e5a7dfa4c_11.0.zip",
+                    "fastboot": "frost_id_global_images_V13.0.8.0.RGFIDXM_20220818.0000.00_11.0_global_f9ba7da2e4.tgz"
                 }
             ]
         }

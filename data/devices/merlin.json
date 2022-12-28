@@ -1,11 +1,11 @@
 {
-   "codename": "merlin",
+    "codename": "merlin",
     "cnname": "Redmi 10X 4G/Redmi Note 9",
     "enname": "Redmi 10X 4G/Redmi Note 9",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -143,7 +143,7 @@
                     "miui": "V12.5.7.0.RJOTWXM",
                     "android": "11.0",
                     "recovery": "miui_MERLINTWGlobal_V12.5.7.0.RJOTWXM_a5573da020_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "merlin_tw_global_images_V12.5.7.0.RJOTWXM_20220617.0000.00_11.0_global_683159bbb7.tgz"
                 },
                 {
                     "miui": "V12.5.4.0.RJOTWXM",
@@ -289,10 +289,16 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
+                {
+                    "miui": "V13.0.3.0.SJOEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_MERLINEEAGlobal_V13.0.3.0.SJOEUXM_9efc219c03_12.0.zip",
+                    "fastboot": "merlin_eea_global_images_V13.0.3.0.SJOEUXM_20221130.0000.00_12.0_eea_1e5707820a.tgz"
+                },
                 {
                     "miui": "V12.5.6.0.RJOEUXM",
                     "android": "11.0",
@@ -399,9 +405,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V12.5.5.0.RJORUXM",
@@ -479,9 +485,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V12.5.6.0.RJOINXM",
@@ -577,10 +583,16 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
+                {
+                    "miui": "V13.0.3.0.SJOIDXM",
+                    "android": "12.0",
+                    "recovery": "miui_MERLINIDGlobal_V13.0.3.0.SJOIDXM_be1e3911f9_12.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V12.5.5.0.RJOIDXM",
                     "android": "11.0",
@@ -657,15 +669,15 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V12.5.5.0.RJOTRXM",
                     "android": "11.0",
                     "recovery": "miui_MERLINTRGlobal_V12.5.5.0.RJOTRXM_2d07b0d8b1_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "merlin_tr_global_images_V12.5.5.0.RJOTRXM_20220719.0000.00_11.0_global_2fd8a93fed.tgz"
                 },
                 {
                     "miui": "V12.5.4.0.RJOTRXM",

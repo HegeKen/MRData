@@ -1,11 +1,11 @@
 {
-   "codename": "apollo",
+    "codename": "apollo",
     "cnname": "Redmi K30S 至尊纪念版/小米 10T/Pro",
     "enname": "Redmi K30S Ultra/Mi 10T/Pro",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,9 +16,21 @@
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "V13.1.22.9.5.DEV",
+                    "miui": "V13.1.22.10.24.DEV",
                     "android": "12.0",
-                    "recovery": "miui_APOLLO_V13.1.22.9.5.DEV_3333d8f514_12.0.zip",
+                    "recovery": "miui_APOLLO_V13.1.22.10.24.DEV_8a6901a393_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.10.17.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_V13.1.22.10.17.DEV_3de21ede85_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.10.11.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_V13.1.22.10.11.DEV_dbe58048a2_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -40,6 +52,12 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "V13.1.22.9.5.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_V13.1.22.9.5.DEV_3333d8f514_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V13.1.22.8.29.DEV",
                     "android": "12.0",
                     "recovery": "miui_APOLLO_V13.1.22.8.29.DEV_fea8e949e3_12.0.zip",
@@ -55,24 +73,6 @@
                     "miui": "V13.1.22.8.16.DEV",
                     "android": "12.0",
                     "recovery": "miui_APOLLO_V13.1.22.8.16.DEV_60bffed73a_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.1.22.10.24.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_APOLLO_V13.1.22.10.24.DEV_8a6901a393_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.1.22.10.17.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_APOLLO_V13.1.22.10.17.DEV_3de21ede85_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.1.22.10.11.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_APOLLO_V13.1.22.10.11.DEV_dbe58048a2_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -202,15 +202,15 @@
                     "fastboot": ""
                 },
                 {
-                    "miui": "V13.0.1.1.9.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_APOLLO_V13.0.1.1.9.DEV_705b20c8d1_12.0.zip",
-                    "fastboot": ""
-                },
-                {
                     "miui": "V13.0.1.1.11.DEV",
                     "android": "12.0",
                     "recovery": "miui_APOLLO_V13.0.1.1.11.DEV_38979201af_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.1.1.9.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_V13.0.1.1.9.DEV_705b20c8d1_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -230,12 +230,6 @@
                     "android": "12.0",
                     "recovery": "miui_APOLLO_V13.0.0.1.1.DEV_be7371fed9_12.0.zip",
                     "fastboot": "apollo_images_V13.0.0.1.1.DEV_20220112.0000.00_12.0_cn_1fbc0ca349.tgz"
-                },
-                {
-                    "miui": "22.4.7",
-                    "android": "12.0",
-                    "recovery": "",
-                    "fastboot": "apollo_pre_images_22.4.7_20220407.0000.00_12.0_cn_c4906d7c95.tgz"
                 },
                 {
                     "miui": "22.3.23",
@@ -298,6 +292,24 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.12.7",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_21.12.7_c6bc7fb7c0_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.6",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_21.12.6_d93e075e21_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.4",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_21.12.4_e049c9b5e8_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.11.30",
                     "android": "12.0",
                     "recovery": "miui_APOLLO_21.11.30_dd8d78982d_12.0.zip",
@@ -310,9 +322,27 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.11.1",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.11.1_42f4653969_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.29",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.29_c33003ab22_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.10.28",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.10.28_ba173d2ae3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.21",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.21_f2288c3c9b_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -322,9 +352,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.10.19",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.19_64a14e9ad4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.18",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.18_1f10c716aa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.15",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.15_96cbc2812a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.10.13",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.10.13_0a11e8b3bc_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.12",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.12_a0d2a92583_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.11",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.11_5cc3fa45f3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.8",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.10.8_3286dedc3c_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -334,9 +400,33 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.9.27",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.27_2d14aeefef_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.24",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.24_75938dec85_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.9.22",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.9.22_5e35d633d6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.18",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.18_ebefdd4c58_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.17",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.17_c0c01c6c20_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -346,9 +436,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.9.14",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.14_d5bda982d3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.13",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.13_5026357d8d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.12",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.12_fcb038f8bd_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.9.8",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.9.8_1d7db1c1f3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.7",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.7_c6ee287dc4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.6",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.6_dc5c835c8c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.3",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.9.3_0abe62ddc7_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -358,9 +484,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.31",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.31_e488eae166_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.30",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.30_8018ed9e1b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.27",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.27_5840e2b067_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.25",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.8.25_da1fb9e6d1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.24",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.24_3f81b6967a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.23",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.23_e13500269a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.20",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.20_d55f477aea_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -370,9 +532,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.17",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.17_2477b46649_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.16",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.16_5eecdd15c2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.13",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.13_b7b7993870_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.11",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.8.11_6907a148ab_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.10",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.10_fc5f03ac65_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.9",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.9_84e5ef317f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.6",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.6_7907ceed6f_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -382,9 +580,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.3",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.3_44b44d9ea1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.2",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.8.2_5d40d6c83b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.31",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.31_2e84f74236_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.28",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.7.28_4d219448bf_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.27",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.27_5e33f46cf0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.26",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.26_2b99da7cc6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.23",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.23_0e1f57aa7f_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -394,9 +628,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.20",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.20_e284eb6e46_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.19",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.19_c20619b926_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.16",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.16_9ee62e0d42_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.14",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.7.14_a0209c7a1e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.13",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.13_c240757868_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.12",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.12_9ec95699ef_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.9",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.9_0c9836aa18_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -406,15 +676,63 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.6",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.6_c4723219f1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.5",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.5_2bb356184b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.2",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.7.2_2d017efab0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.30",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.6.30_7fb1c96b10_11.0.zip",
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.29",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.29_9553eed261_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.28",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.28_07bedc92ae_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.25",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.25_120871bfb2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.23",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.6.23_2112ac06ce_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.21",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.21_6bee047375_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.18",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.18_08ed6fffe6_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -430,9 +748,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.15",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.15_4338b027f5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.11",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.11_561c7d9b08_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.9",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.6.9_9a60a54dc6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.8",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.8_5560d2b843_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.7",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.7_5f5b685885_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.4",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.4_7b333a04ec_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -442,9 +790,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.1",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.6.1_5699173d3c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.31",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.31_bca4f07667_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.28",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.28_65164e863d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.27",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.5.27_31a1b7b2f0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.25",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.25_d94d25f175_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.24",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.24_e860c44785_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.22",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.22_d2fb7cee85_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -454,9 +838,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.5.18",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.18_80cd09a4d1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.14",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.14_43f0a19f2d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.12",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.5.12_dd3c5d5a39_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.11",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.11_653b16659c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.10",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.10_01f9ce87ae_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.7",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.5.7_a66555b74c_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -466,15 +880,57 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.27",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.4.27_d4cd7a74c8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.26",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.4.26_caebac42c6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.23",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.4.23_900ae69507_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.21",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.4.21_11cb7403d4_11.0.zip",
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.20",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.4.20_4949a7b14d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.16",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.4.16_5498244eaa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.14",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.4.14_bbb3297b0e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.12",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.4.12_d39be461f1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.10",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.4.10_d7bba8dcf8_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -490,9 +946,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.3.30",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.30_0520c4f984_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.29",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.29_d29ea0ed70_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.25",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.25_f1c5bc96c9_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.3.24",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.3.24_5143fdccf2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.23",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.23_a75466359a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.19",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.19_7cb858bff2_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -502,9 +988,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.3.15",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.15_4c912571c3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.12",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.12_7001659c26_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.3.11",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.3.11_3ab0ead287_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.10",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.10_10cdcfb03d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.8",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.8_16c0275d05_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.5",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.3.5_d0087c453b_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -514,9 +1030,9 @@
                     "fastboot": ""
                 },
                 {
-                    "miui": "21.2.3",
+                    "miui": "21.3.2",
                     "android": "11.0",
-                    "recovery": "miui_APOLLO_21.2.3_826badda8a_11.0.zip",
+                    "recovery": "miui_APOLLO_21.3.2_5df70e05e4_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -526,9 +1042,69 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.2.23",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.2.23_74d49714b3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.22",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.2.22_3288c886d0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.19",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.2.19_d36c6479eb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.3",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.2.3_826badda8a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.2",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.2.2_0731e01067_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.1",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.2.1_e7cf19bed3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.29",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.29_0f35b25ee4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.1.28",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.1.28_82176e6cbf_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.26",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.26_3bbe1bfcb8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.25",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.25_d1e60be6e4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.22",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.22_ff5b420161_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -538,9 +1114,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.1.19",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.19_d30e81abc2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.18",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.18_77862af781_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.15",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.15_ceac39421e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.1.13",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_21.1.13_41fd6655c3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.12",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.12_3c225b949b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.11",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.11_5863ccde49_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.8",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.8_b1f29a0894_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -550,9 +1162,27 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.1.4",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_21.1.4_6e9b548626_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.30",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_20.12.30_16cad3b785_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "20.12.29",
                     "android": "11.0",
                     "recovery": "miui_APOLLO_20.12.29_fa48c89f4c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.25",
+                    "android": "11.0",
+                    "recovery": "miui_APOLLO_20.12.25_d340d929ff_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -562,9 +1192,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "20.12.8",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.12.8_f65cc78cca_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.7",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.12.7_208d730e2f_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.4",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.12.4_699153e330_10.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "20.12.2",
                     "android": "10.0",
                     "recovery": "miui_APOLLO_20.12.2_1a36404c6c_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.12.1",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.12.1_8a4fb50d40_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.30",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.30_0d327ba2c6_10.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -574,9 +1234,51 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "20.11.24",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.24_d95616ebfd_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.23",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.23_14d6a6b446_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.20",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.20_bc0a286141_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.19",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.19_7edb7cb4ff_10.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "20.11.18",
                     "android": "10.0",
                     "recovery": "miui_APOLLO_20.11.18_d8c0f3620e_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.17",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.17_0ed4204a83_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.16",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.16_bf3b537d36_10.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "20.11.13",
+                    "android": "10.0",
+                    "recovery": "miui_APOLLO_20.11.13_c8c03cd761_10.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -607,6 +1309,12 @@
             "cnname": "中国大陆稳定版",
             "enname": "China Mainland Stable",
             "links": [
+                {
+                    "miui": "V13.0.7.0.SJDCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLO_V13.0.7.0.SJDCNXM_2753b990c5_12.0.zip",
+                    "fastboot": "apollo_images_V13.0.7.0.SJDCNXM_20221107.0000.00_12.0_cn_63a3817ce3.tgz"
+                },
                 {
                     "miui": "V13.0.6.0.SJDCNXM",
                     "android": "12.0",
@@ -745,7 +1453,7 @@
                     "miui": "V13.0.3.0.SJDTWXM",
                     "android": "12.0",
                     "recovery": "miui_APOLLOTWGlobal_V13.0.3.0.SJDTWXM_573bfc5951_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "apollo_tw_global_images_V13.0.3.0.SJDTWXM_20220718.0000.00_12.0_global_38e91aa676.tgz"
                 },
                 {
                     "miui": "V13.0.1.0.SJDTWXM",
@@ -791,6 +1499,18 @@
             "cnname": "国际稳定版",
             "enname": "Global Stable",
             "links": [
+                {
+                    "miui": "V13.0.8.0.SJDMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLOGlobal_V13.0.8.0.SJDMIXM_e86655b0ec_12.0.zip",
+                    "fastboot": "apollo_global_images_V13.0.8.0.SJDMIXM_20221210.0000.00_12.0_global_7a838cca48.tgz"
+                },
+                {
+                    "miui": "V13.0.7.0.SJDMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLOGlobal_V13.0.7.0.SJDMIXM_981d06bda7_12.0.zip",
+                    "fastboot": "apollo_global_images_V13.0.7.0.SJDMIXM_20221027.0000.00_12.0_global_571727a0cd.tgz"
+                },
                 {
                     "miui": "V13.0.6.0.SJDMIXM",
                     "android": "12.0",
@@ -915,10 +1635,16 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
+                {
+                    "miui": "V13.0.11.0.SJDEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLOEEAGlobal_V13.0.11.0.SJDEUXM_111018d6fd_12.0.zip",
+                    "fastboot": "apollo_eea_global_images_V13.0.11.0.SJDEUXM_20221027.0000.00_12.0_eea_a7483d07e2.tgz"
+                },
                 {
                     "miui": "V13.0.10.0.SJDEUXM",
                     "android": "12.0",
@@ -1103,9 +1829,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.3.0.SJDRUXM",
@@ -1165,9 +1891,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.6.0.SJDINXM",
@@ -1239,15 +1965,21 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
+                {
+                    "miui": "V13.0.6.0.SJDIDXM",
+                    "android": "12.0",
+                    "recovery": "miui_APOLLOIDGlobal_V13.0.6.0.SJDIDXM_844921fcc2_12.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V13.0.5.0.SJDIDXM",
                     "android": "12.0",
                     "recovery": "miui_APOLLOIDGlobal_V13.0.5.0.SJDIDXM_f535cf86b6_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "apollo_id_global_images_V13.0.5.0.SJDIDXM_20220704.0000.00_12.0_global_f1e1874cfb.tgz"
                 },
                 {
                     "miui": "V13.0.3.0.SJDIDXM",
@@ -1301,15 +2033,15 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.0.3.0.SJDTRXM",
                     "android": "12.0",
                     "recovery": "miui_APOLLOTRGlobal_V13.0.3.0.SJDTRXM_a932ce70d6_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "apollo_tr_global_images_V13.0.3.0.SJDTRXM_20220727.0000.00_12.0_global_9eb198a408.tgz"
                 },
                 {
                     "miui": "V13.0.1.0.SJDTRXM",

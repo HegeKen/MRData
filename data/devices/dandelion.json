@@ -1,11 +1,11 @@
 {
-   "codename": "dandelion",
+    "codename": "dandelion",
     "cnname": "",
     "enname": "",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -33,7 +33,7 @@
                     "miui": "V12.5.18.0.RCDCNXM",
                     "android": "11.0",
                     "recovery": "miui_DANDELION_V12.5.18.0.RCDCNXM_8ac0be4127_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "dandelion_images_V12.5.18.0.RCDCNXM_20220901.0000.00_11.0_cn_c02a4d9ee2.tgz"
                 },
                 {
                     "miui": "V12.5.16.0.RCDCNXM",
@@ -170,6 +170,12 @@
             "enname": "Global Stable",
             "links": [
                 {
+                    "miui": "V12.5.7.0.RCDMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_DANDELIONGlobal_V12.5.7.0.RCDMIXM_64ab7911a4_11.0.zip",
+                    "fastboot": "dandelion_global_images_V12.5.7.0.RCDMIXM_20221107.0000.00_11.0_global_3319fae180.tgz"
+                },
+                {
                     "miui": "V12.5.6.0.RCDMIXM",
                     "android": "11.0",
                     "recovery": "miui_DANDELIONGlobal_V12.5.6.0.RCDMIXM_0fe699466f_11.0.zip",
@@ -299,15 +305,15 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V12.5.7.0.RCDEUXM",
                     "android": "11.0",
                     "recovery": "miui_DANDELIONEEAGlobal_V12.5.7.0.RCDEUXM_f92a8db3b9_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "dandelion_eea_global_images_V12.5.7.0.RCDEUXM_20221031.0000.00_11.0_eea_60eddd4a2f.tgz"
                 },
                 {
                     "miui": "V12.5.6.0.RCDEUXM",
@@ -421,9 +427,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V12.5.7.0.RCDRUXM",
@@ -537,9 +543,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V12.5.9.0.RCDINXM",
@@ -665,9 +671,9 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V12.0.14.0.QCDIDXM",
@@ -757,9 +763,9 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V12.0.7.0.QCDTRXM",

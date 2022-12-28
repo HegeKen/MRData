@@ -1,11 +1,11 @@
 {
-   "codename": "curtana",
+    "codename": "curtana",
     "cnname": "Redmi Note 9S/9 Pro",
     "enname": "Redmi Note 9S/9 Pro",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -157,15 +157,15 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.2.0.SJWEUXM",
                     "android": "12.0",
                     "recovery": "miui_CURTANAEEAGlobal_V13.0.2.0.SJWEUXM_7f096d8a04_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "curtana_eea_global_images_V13.0.2.0.SJWEUXM_20221014.0000.00_12.0_eea_9c4afa8387.tgz"
                 },
                 {
                     "miui": "V13.0.1.0.SJWEUXM",
@@ -204,6 +204,12 @@
                     "fastboot": "curtana_eea_global_images_V12.5.1.0.RJWEUXM_20210805.0000.00_11.0_eea_395395157f.tgz"
                 },
                 {
+                    "miui": "V12.0.2.0.RJWEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CURTANAEEAGlobal_V12.0.2.0.RJWEUXM_3c6c129fe8_11.0.zip",
+                    "fastboot": "curtana_eea_global_images_V12.0.2.0.RJWEUXM_20210528.0000.00_11.0_eea_ce612e6ef8.tgz"
+                },
+                {
                     "miui": "V12.0.4.0.QJWEUXM",
                     "android": "10.0",
                     "recovery": "miui_CURTANAEEAGlobal_V12.0.4.0.QJWEUXM_e8b15f2f8b_10.0.zip",
@@ -214,12 +220,6 @@
                     "android": "10.0",
                     "recovery": "miui_CURTANAEEAGlobal_V12.0.3.0.QJWEUXM_d6593b05b9_10.0.zip",
                     "fastboot": ""
-                },
-                {
-                    "miui": "V12.0.2.0.RJWEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_CURTANAEEAGlobal_V12.0.2.0.RJWEUXM_3c6c129fe8_11.0.zip",
-                    "fastboot": "curtana_eea_global_images_V12.0.2.0.RJWEUXM_20210528.0000.00_11.0_eea_ce612e6ef8.tgz"
                 },
                 {
                     "miui": "V12.0.2.0.QJWEUXM",
@@ -261,10 +261,16 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SJWRUXM",
+                    "android": "12.0",
+                    "recovery": "miui_CURTANARUGlobal_V13.0.2.0.SJWRUXM_4ed40055bf_12.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V12.5.4.0.RJWRUXM",
                     "android": "11.0",
@@ -341,10 +347,16 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SJWINXM",
+                    "android": "12.0",
+                    "recovery": "miui_CURTANAINGlobal_V13.0.2.0.SJWINXM_0e31f1908f_12.0.zip",
+                    "fastboot": "curtana_in_global_images_V13.0.2.0.SJWINXM_20221109.0000.00_12.0_in_c728070cfd.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SJWINXM",
                     "android": "12.0",
@@ -451,10 +463,16 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SJWTRXM",
+                    "android": "12.0",
+                    "recovery": "miui_CURTANATRGlobal_V13.0.2.0.SJWTRXM_16ccd01d3b_12.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V12.5.5.0.RJWTRXM",
                     "android": "11.0",

@@ -1,11 +1,11 @@
 {
-   "codename": "pissarro",
+    "codename": "pissarro",
     "cnname": "Redmi Note 11 Pro/Pro+/Pro+ 5G/小米 11i 印度快充版",
     "enname": "Redmi Note 11 Pro/Pro+/Pro+ 5G/Xiaomi 11i/Hypercharge India",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,58 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_PISSARRO_V14.0.22.12.19.DEV_7d47462cd9_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_PISSARRO_V14.0.22.12.8.DEV_5a25ff7445_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_PISSARRO_V14.0.22.12.5.DEV_de88708958_13.0.zip",
                     "fastboot": "pissarro_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_7db022d061.tgz"
+                },
+                {
+                    "miui": "22.10.26",
+                    "android": "12.0",
+                    "recovery": "miui_PISSARROPRE_22.10.26_2a0cbd39d3_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_PISSARRO_V13.1.22.10.24.DEV_32e57eeeae_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.28.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_PISSARRO_V13.1.22.9.28.DEV_bf18d6ef95_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.19.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_PISSARRO_V13.1.22.9.19.DEV_5d0d59b44b_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.14.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_PISSARRO_V13.1.22.9.14.DEV_e552c0812f_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.5.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_PISSARRO_V13.1.22.9.5.DEV_d725eaf1f1_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.0.0.1.18.DEV",
@@ -273,9 +321,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.5.0.SKTEUXM",
@@ -317,9 +365,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.2.0.SKTRUXM",
@@ -343,9 +391,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.5.0.SKTINXM",
@@ -393,9 +441,9 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.0.1.0.SKTTRXM",

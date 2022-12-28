@@ -1,11 +1,11 @@
 {
-   "codename": "star",
+    "codename": "star",
     "cnname": "小米 11 Pro/Ultra",
     "enname": "Mi 11 Pro/Ultra",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,15 +16,33 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.21.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_STAR_V14.0.22.12.21.DEV_8aa652f89a_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_STAR_V14.0.22.12.19.DEV_02dd48b391_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_STAR_V14.0.22.12.8.DEV_f0435c9e45_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_STAR_V14.0.22.12.5.DEV_7c031b702e_13.0.zip",
                     "fastboot": "star_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_da1d023b45.tgz"
                 },
                 {
-                    "miui": "V13.1.22.9.5.DEV",
+                    "miui": "V13.1.22.10.24.DEV",
                     "android": "12.0",
-                    "recovery": "miui_STAR_V13.1.22.9.5.DEV_a63a76bd03_12.0.zip",
+                    "recovery": "miui_STAR_V13.1.22.10.24.DEV_611f3eab0c_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -43,6 +61,12 @@
                     "miui": "V13.1.22.9.12.DEV",
                     "android": "12.0",
                     "recovery": "miui_STAR_V13.1.22.9.12.DEV_cb57c66429_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.5.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_V13.1.22.9.5.DEV_a63a76bd03_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -160,15 +184,15 @@
                     "fastboot": "star_images_V13.0.10.1.15.DEV_20220308.0000.00_12.0_cn_a89200424e.tgz"
                 },
                 {
-                    "miui": "V13.0.9.1.13.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_STAR_V13.0.9.1.13.DEV_908df69784_12.0.zip",
-                    "fastboot": ""
-                },
-                {
                     "miui": "V13.0.9.1.11.DEV",
                     "android": "12.0",
                     "recovery": "miui_STAR_V13.0.9.1.11.DEV_a2d6d052a0_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.9.1.9.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_V13.0.9.1.9.DEV_47eaadaf47_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -181,6 +205,12 @@
                     "miui": "V13.0.9.1.5.DEV",
                     "android": "12.0",
                     "recovery": "miui_STAR_V13.0.9.1.5.DEV_6c4f54771d_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.9.1.13.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_V13.0.9.1.13.DEV_908df69784_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -244,9 +274,33 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.12.7",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.12.7_6e4ebdddd0_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.6",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.12.6_4330207550_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.4",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.12.4_ad6ce1cf07_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.12.1",
                     "android": "12.0",
                     "recovery": "miui_STAR_21.12.1_5b7aac6246_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.29",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.29_2b9e29c3f1_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -256,9 +310,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.11.24",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.24_9f82bc2118_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.22",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.22_77d5cc6681_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.19",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.19_79d13a099e_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.11.17",
                     "android": "12.0",
                     "recovery": "miui_STAR_21.11.17_0b40e71378_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.16",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.16_655ab9b772_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.15",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.15_0c3067c966_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.12",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.12_511d5ea3ae_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -268,9 +358,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.11.10",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.10_effc44d183_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.9",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.9_c62992de69_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.8",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.8_70fce013c5_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.5",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.5_c7f75ef0be_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.11.3",
                     "android": "12.0",
                     "recovery": "miui_STAR_21.11.3_54fad73041_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.1",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.11.1_4f2048f229_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.29",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.10.29_33a5a4b1b4_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -286,9 +412,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.10.19",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.10.19_9864b9ae4e_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.18",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.10.18_fd30cf834d_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.15",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.10.15_cc6626fc20_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.10.13",
                     "android": "12.0",
                     "recovery": "miui_STAR_21.10.13_33ac1ba430_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.7",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.10.7_80a4da317e_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.4",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.10.4_5d621cd228_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -298,9 +454,57 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.9.27",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.9.27_82c3327be6_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.25",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.9.25_f11b85edc2_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.24",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.9.24_e912ad0a79_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.18",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.9.18_4d7b059d13_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.17",
+                    "android": "12.0",
+                    "recovery": "miui_STAR_21.9.17_ff4f62d6bf_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.9.1",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.9.1_fa273755ce_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.31",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.31_9f518bfb4b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.30",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.30_1127c02147_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.27",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.27_f295644968_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -316,9 +520,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.24",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.24_df5557fd0d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.23",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.23_eb97fc7dbb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.20",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.20_e94616b8e1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.18",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.8.18_c74cda046d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.17",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.17_daa4925c8d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.16",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.16_58f77219de_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.13",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.13_f6e17ededf_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -328,9 +568,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.10",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.10_72a1762ede_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.9",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.9_b21e76081d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.6",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.6_46076ca779_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.4",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.8.4_0a5276d572_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.3",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.3_9e5a1004ec_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.2",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.8.2_a7e46cc630_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.30",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.30_71d31c6715_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -340,9 +616,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.27",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.27_f224541488_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.26",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.26_d22172e474_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.23",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.23_5f07090697_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.21",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.7.21_351b846cd1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.20",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.20_86030e9357_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.19",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.19_971b6d43ae_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.16",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.16_3931e55fea_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -352,9 +664,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.13",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.13_c80705ea20_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.12",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.12_f50c9df35d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.9",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.9_9f57b2e6fa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.7",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.7.7_c370bfda9c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.6",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.6_73ad9d50c1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.5",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.5_52cd083320_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.2",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.7.2_8c6542fd4b_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -364,9 +712,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.29",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.29_46a188866f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.28",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.28_a11759bb39_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.25",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.25_73c9d9f686_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.24",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.24_00674dee2c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.23",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.6.23_dd164a2b8e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.21",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.21_140ed48378_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.18",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.18_313ea1bb8c_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -382,9 +766,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.15",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.15_3a78c8deae_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.11",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.11_0beb1bb5f8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.9",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.6.9_1fae8095b9_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.8",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.8_f060358a43_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.7",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.7_9536cdca93_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.4",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.4_619bee93a2_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -394,9 +808,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.1",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.6.1_f4a2a08c04_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.31",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.31_b701382705_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.28",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.28_5ef962aed5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.26",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.5.26_ad74fd55cb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.25",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.25_d352ea4636_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.24",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.24_55702eeb49_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -406,9 +850,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.5.19",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.19_e3572f6003_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.18",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.18_269870d154_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.14",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.14_f69b1e5e58_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.13",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.5.13_15813077af_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.12",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.12_71c6d94c7f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.10",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.10_d83a7b7836_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.7",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.5.7_e6ee038e81_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -418,15 +898,57 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.27",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.4.27_f9e5b90519_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.23",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.4.23_32ae969a59_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.21",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.4.21_a04f6ef519_11.0.zip",
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.20",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.4.20_b1236fb7ea_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.19",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.4.19_588272f533_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.16",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.4.16_621eaf58f2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.15",
                     "android": "11.0",
                     "recovery": "miui_STAR_21.4.15_8d0e8ed07d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.14",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.4.14_c6f332052d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.13",
+                    "android": "11.0",
+                    "recovery": "miui_STAR_21.4.13_7a2f4043e5_11.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -643,9 +1165,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.9.0.SKAEUXM",
@@ -723,9 +1245,9 @@
         },
         {
             "branch": "russ",
-                "show": "0",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "0",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "",
@@ -737,9 +1259,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.5.0.SKAINXM",
@@ -787,9 +1309,9 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V13.0.5.0.SKAIDXM",
@@ -843,9 +1365,9 @@
         },
         {
             "branch": "trks",
-                "show": "0",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "0",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "",
@@ -857,9 +1379,9 @@
         },
         {
             "branch": "japs",
-                "show": "0",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
+            "show": "0",
+            "cnname": "日本稳定版",
+            "enname": "Japan Stable",
             "links": [
                 {
                     "miui": "",

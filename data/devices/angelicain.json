@@ -1,20 +1,26 @@
 {
-   "codename": "angelicain",
+    "codename": "angelicain",
     "cnname": "POCO C31",
     "enname": "POCO C31",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
+                {
+                    "miui": "V12.5.3.0.RCRINRF",
+                    "android": "11.0",
+                    "recovery": "miui_ANGELICAININRFGlobal_V12.5.3.0.RCRINRF_09571cbded_11.0.zip",
+                    "fastboot": "angelicain_in_rf_global_images_V12.5.3.0.RCRINRF_20221010.0000.00_11.0_in_8f41982676.tgz"
+                },
                 {
                     "miui": "V12.5.2.0.RCRINRF",
                     "android": "11.0",

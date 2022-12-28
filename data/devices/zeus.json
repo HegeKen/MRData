@@ -1,11 +1,11 @@
 {
-   "codename": "zeus",
+    "codename": "zeus",
     "cnname": "小米 12 Pro",
     "enname": "Xiaomi 12 Pro",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,28 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_ZEUS_V14.0.22.12.19.DEV_b18b4380d7_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_ZEUS_V14.0.22.12.8.DEV_1f0a233d27_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_ZEUS_V14.0.22.12.5.DEV_0307382815_13.0.zip",
                     "fastboot": "zeus_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_9e94bd9f24.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_ZEUS_V13.1.22.10.19.DEV_bbfa676a56_13.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.19.DEV",
@@ -32,6 +50,24 @@
                     "android": "13.0",
                     "recovery": "miui_ZEUS_V13.1.22.9.13.DEV_d701413485_13.0.zip",
                     "fastboot": "zeus_images_V13.1.22.9.13.DEV_20220914.0000.00_13.0_cn_24ab9f2944.tgz"
+                },
+                {
+                    "miui": "V13.1.22.8.18.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_ZEUS_V13.1.22.8.18.DEV_aecd45699e_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.8.3.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_ZEUS_V13.1.22.8.3.DEV_324bcdd487_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.7.28.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_ZEUS_V13.1.22.7.28.DEV_441735746a_13.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.8.22.DEV",
@@ -300,6 +336,12 @@
             "enname": "Global Stable",
             "links": [
                 {
+                    "miui": "V13.2.1.0.TLBMIXM",
+                    "android": "13.0",
+                    "recovery": "miui_ZEUSGlobal_V13.2.1.0.TLBMIXM_603442db0b_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V13.0.4.0.TLBMIXM",
                     "android": "13.0",
                     "recovery": "miui_ZEUSGlobal_V13.0.4.0.TLBMIXM_bf23673ad2_13.0.zip",
@@ -339,9 +381,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.2.4.0.TLBEUXM",
@@ -431,9 +473,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.2.0.SLBRUXM",
@@ -451,9 +493,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.9.0.SLBINXM",
@@ -483,9 +525,9 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V13.0.4.0.SLBIDXM",
@@ -515,9 +557,9 @@
         },
         {
             "branch": "trks",
-                "show": "0",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "0",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "",
@@ -529,9 +571,9 @@
         },
         {
             "branch": "japs",
-                "show": "0",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
+            "show": "0",
+            "cnname": "日本稳定版",
+            "enname": "Japan Stable",
             "links": [
                 {
                     "miui": "",

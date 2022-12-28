@@ -1,11 +1,11 @@
 {
-   "codename": "veux",
+    "codename": "veux",
     "cnname": "Redmi Note 11E Pro/Redmi Note 11 Pro 5G/POCO X4 Pro 5G",
     "enname": "Redmi Note 11E Pro/Redmi Note 11 Pro 5G/POCO X4 Pro 5G",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -15,6 +15,12 @@
             "cnname": "开发版",
             "enname": "China Beta",
             "links": [
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_VEUX_V13.1.22.10.24.DEV_32a4c507a5_12.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V13.0.1.1.37.DEV",
                     "android": "12.0",
@@ -195,9 +201,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.3.0.SKCEUXM",
@@ -269,9 +275,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.3.0.SKCRUXM",
@@ -301,9 +307,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.3.0.SKCINXM",
@@ -339,9 +345,9 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V13.0.4.0.SKCIDXM",
@@ -371,9 +377,9 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.0.1.0.SKCTRXM",
@@ -403,9 +409,9 @@
         },
         {
             "branch": "japs",
-                "show": "1",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
+            "show": "1",
+            "cnname": "日本稳定版",
+            "enname": "Japan Stable",
             "links": [
                 {
                     "miui": "V13.0.1.0.SKCJPXM",

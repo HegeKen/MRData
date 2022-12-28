@@ -1,11 +1,11 @@
 {
-   "codename": "rubens",
+    "codename": "rubens",
     "cnname": "Redmi K50",
     "enname": "Redmi K50",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,28 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_RUBENS_V14.0.22.12.19.DEV_39e4325fce_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_RUBENS_V14.0.22.12.8.DEV_8f8f0764af_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_RUBENS_V14.0.22.12.5.DEV_7538561334_13.0.zip",
                     "fastboot": "rubens_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_e122c81c89.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_RUBENS_V13.1.22.10.24.DEV_c50cfaa6e4_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",

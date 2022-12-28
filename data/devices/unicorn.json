@@ -1,11 +1,11 @@
 {
-   "codename": "unicorn",
+    "codename": "unicorn",
     "cnname": "小米 12S Pro",
     "enname": "Xiaomi 12S Pro",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,28 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_UNICORN_V14.0.22.12.19.DEV_7bc940cfe5_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_UNICORN_V14.0.22.12.8.DEV_71c5fa0268_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_UNICORN_V14.0.22.12.5.DEV_a29b4feeba_13.0.zip",
                     "fastboot": "thor_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_0457ff82b1.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_UNICORN_V13.1.22.10.24.DEV_964d8f8bc8_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",
@@ -77,6 +95,12 @@
             "cnname": "中国大陆正式版",
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
+                {
+                    "miui": "V14.0.3.0.TLECNXM",
+                    "android": "13.0",
+                    "recovery": "miui_UNICORN_V14.0.3.0.TLECNXM_9bcaa9726e_13.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V14.0.2.0.TLECNXM",
                     "android": "13.0",

@@ -1,11 +1,11 @@
 {
-   "codename": "ice",
+    "codename": "ice",
     "cnname": "Redmi A1/A1+/POCO C50",
     "enname": "Redmi A1/A1+/POCO C50",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -30,6 +30,12 @@
             "enname": "Global Stable",
             "links": [
                 {
+                    "miui": "V13.0.14.0.SGMMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_ICEGlobal_V13.0.14.0.SGMMIXM_0d73910fab_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V13.0.13.0.SGMMIXM",
                     "android": "12.0",
                     "recovery": "miui_ICEGlobal_V13.0.13.0.SGMMIXM_5a58c98674_12.0.zip",
@@ -51,10 +57,22 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
+                {
+                    "miui": "V13.0.7.0.SGMEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_ICEEEAGlobal_V13.0.7.0.SGMEUXM_e088ae3a1e_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.6.0.SGMEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_ICEEEAGlobal_V13.0.6.0.SGMEUXM_9d8e4df1a0_12.0.zip",
+                    "fastboot": "ice_eea_global_images_V13.0.6.0.SGMEUXM_20221109.0000.00_12.0_c1518571a5.tgz"
+                },
                 {
                     "miui": "V13.0.5.0.SGMEUXM",
                     "android": "12.0",
@@ -71,14 +89,14 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.5.0.SGMRUXM",
                     "android": "12.0",
-                    "recovery": "",
+                    "recovery": "miui_ICERUGlobal_V13.0.5.0.SGMRUXM_346fee2bb4_12.0.zip",
                     "fastboot": "ice_ru_global_images_V13.0.5.0.SGMRUXM_20221110.0000.00_12.0_53a4afd9f8.tgz"
                 },
                 {
@@ -91,10 +109,22 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
+                {
+                    "miui": "V13.0.6.0.SGMINXM",
+                    "android": "12.0",
+                    "recovery": "miui_ICEINGlobal_V13.0.6.0.SGMINXM_0dcf5a6bfe_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.0.5.0.SGMINXM",
+                    "android": "12.0",
+                    "recovery": "miui_ICEINGlobal_V13.0.5.0.SGMINXM_ee9b1c505f_12.0.zip",
+                    "fastboot": "ice_in_global_images_V13.0.5.0.SGMINXM_20221114.0000.00_12.0_a1eef93695.tgz"
+                },
                 {
                     "miui": "V13.0.4.0.SGMINXM",
                     "android": "12.0",
@@ -105,14 +135,14 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V13.0.4.0.SGMIDXM",
                     "android": "12.0",
-                    "recovery": "",
+                    "recovery": "miui_ICEIDGlobal_V13.0.4.0.SGMIDXM_1b61fb29ba_12.0.zip",
                     "fastboot": "ice_id_global_images_V13.0.4.0.SGMIDXM_20221110.0000.00_12.0_6862f71e66.tgz"
                 },
                 {
@@ -125,9 +155,9 @@
         },
         {
             "branch": "trks",
-                "show": "0",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "0",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "",
@@ -139,9 +169,9 @@
         },
         {
             "branch": "japs",
-                "show": "0",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
+            "show": "0",
+            "cnname": "日本稳定版",
+            "enname": "Japan Stable",
             "links": [
                 {
                     "miui": "",

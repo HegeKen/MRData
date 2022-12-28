@@ -1,11 +1,11 @@
 {
-   "codename": "citrus",
+    "codename": "citrus",
     "cnname": "POCO M3",
     "enname": "POCO M3",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -19,7 +19,7 @@
                     "miui": "V12.5.4.0.RJFTWXM",
                     "android": "11.0",
                     "recovery": "miui_CITRUSTWGlobal_V12.5.4.0.RJFTWXM_d35896f46f_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "citrus_tw_global_images_V12.5.4.0.RJFTWXM_20220513.0000.00_11.0_global_ff0e728761.tgz"
                 },
                 {
                     "miui": "V12.5.2.0.RJFTWXM",
@@ -65,6 +65,12 @@
             "cnname": "国际稳定版",
             "enname": "Global Stable",
             "links": [
+                {
+                    "miui": "V12.5.10.0.RJFMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_CITRUSGlobal_V12.5.10.0.RJFMIXM_8b9fc663c3_11.0.zip",
+                    "fastboot": "citrus_global_images_V12.5.10.0.RJFMIXM_20221117.0000.00_11.0_global_899c98e756.tgz"
+                },
                 {
                     "miui": "V12.5.9.0.RJFMIXM",
                     "android": "11.0",
@@ -147,10 +153,16 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
+                {
+                    "miui": "V12.5.8.0.RJFEUXM",
+                    "android": "11.0",
+                    "recovery": "miui_CITRUSEEAGlobal_V12.5.8.0.RJFEUXM_49744d066b_11.0.zip",
+                    "fastboot": "citrus_eea_global_images_V12.5.8.0.RJFEUXM_20221111.0000.00_11.0_eea_c285ebc81e.tgz"
+                },
                 {
                     "miui": "V12.5.7.0.RJFEUXM",
                     "android": "11.0",
@@ -251,9 +263,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V12.5.8.0.RJFRUXM",
@@ -337,10 +349,16 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
+                {
+                    "miui": "V12.5.6.0.RJFINXM",
+                    "android": "11.0",
+                    "recovery": "miui_CITRUSINGlobal_V12.5.6.0.RJFINXM_9f960c82b5_11.0.zip",
+                    "fastboot": "citrus_in_global_images_V12.5.6.0.RJFINXM_20221107.0000.00_11.0_in_6fb66232e2.tgz"
+                },
                 {
                     "miui": "V12.5.5.0.RJFINXM",
                     "android": "11.0",
@@ -417,15 +435,15 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V12.5.9.0.RJFIDXM",
                     "android": "11.0",
                     "recovery": "miui_CITRUSIDGlobal_V12.5.9.0.RJFIDXM_a591351b18_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "citrus_id_global_images_V12.5.9.0.RJFIDXM_20221025.0000.00_11.0_global_1a18d08a48.tgz"
                 },
                 {
                     "miui": "V12.5.8.0.RJFIDXM",
@@ -503,15 +521,15 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V12.5.7.0.RJFTRXM",
                     "android": "11.0",
                     "recovery": "miui_CITRUSTRGlobal_V12.5.7.0.RJFTRXM_566edcd7a0_11.0.zip",
-                    "fastboot": ""
+                    "fastboot": "citrus_tr_global_images_V12.5.7.0.RJFTRXM_20220513.0000.00_11.0_global_67569a62fa.tgz"
                 },
                 {
                     "miui": "V12.5.6.0.RJFTRXM",

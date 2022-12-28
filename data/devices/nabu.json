@@ -1,11 +1,11 @@
 {
-   "codename": "nabu",
+    "codename": "nabu",
     "cnname": "小米平板 5",
     "enname": "Xiaomi Pad 5",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -20,6 +20,12 @@
                     "android": "13.0",
                     "recovery": "miui_NABU_V14.0.22.12.21.DEV_adcdd32061_13.0.zip",
                     "fastboot": "nabu_images_V14.0.22.12.21.DEV_20221221.0000.00_13.0_cn_140cca658d.tgz"
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_NABU_V14.0.22.12.8.DEV_7a558f31d7_13.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",
@@ -327,9 +333,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.1.3.0.SKXEUXM",
@@ -389,9 +395,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.1.4.0.SKXRUXM",
@@ -433,9 +439,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.1.3.0.SKXINXM",
@@ -471,9 +477,9 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.1.2.0.SKXTRXM",

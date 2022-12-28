@@ -1,11 +1,11 @@
 {
-   "codename": "ingres",
+    "codename": "ingres",
     "cnname": "Redmi K50 电竞版/POCO F4 GT",
     "enname": "Redmi K50G/POCO F4 GT",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,28 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_INGRES_V14.0.22.12.19.DEV_96e253d503_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_INGRES_V14.0.22.12.8.DEV_9d6de1c130_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_INGRES_V14.0.22.12.5.DEV_723e571a2a_13.0.zip",
                     "fastboot": "ingres_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_5c455fcc27.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.19.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_INGRES_V13.1.22.10.19.DEV_43dc8a8e47_13.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.29.DEV",
@@ -185,7 +203,7 @@
                     "miui": "V13.0.11.0.SLJCNXM",
                     "android": "12.0",
                     "recovery": "miui_INGRES_V13.0.11.0.SLJCNXM_275aaf7641_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "ingres_images_V13.0.11.0.SLJCNXM_20220811.0000.00_12.0_cn_d8c102a5df.tgz"
                 },
                 {
                     "miui": "V13.0.10.0.SLJCNXM",
@@ -297,10 +315,16 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
+                {
+                    "miui": "V13.0.12.0.SLJEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_INGRESEEAGlobal_V13.0.12.0.SLJEUXM_764da433f5_12.0.zip",
+                    "fastboot": "ingres_eea_global_images_V13.0.12.0.SLJEUXM_20221115.0000.00_12.0_eea_811e2528fa.tgz"
+                },
                 {
                     "miui": "V13.0.8.0.SLJEUXM",
                     "android": "12.0",
@@ -323,9 +347,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.6.0.SLJRUXM",
@@ -349,9 +373,9 @@
         },
         {
             "branch": "inds",
-                "show": "0",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "0",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "",
@@ -363,15 +387,15 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V13.0.7.0.SLJIDXM",
                     "android": "12.0",
                     "recovery": "miui_INGRESIDGlobal_V13.0.7.0.SLJIDXM_e4c2324334_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "ingres_id_global_images_V13.0.7.0.SLJIDXM_20220811.0000.00_12.0_global_5f597df426.tgz"
                 },
                 {
                     "miui": "V13.0.6.0.SLJIDXM",
@@ -395,15 +419,15 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.0.4.0.SLJTRXM",
                     "android": "12.0",
                     "recovery": "miui_INGRESTRGlobal_V13.0.4.0.SLJTRXM_a91d095780_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "ingres_tr_global_images_V13.0.4.0.SLJTRXM_20220707.0000.00_12.0_global_fc45842aae.tgz"
                 },
                 {
                     "miui": "V13.0.1.0.SLJTRXM",

@@ -1,11 +1,11 @@
 {
-   "codename": "xaga",
+    "codename": "xaga",
     "cnname": "Redmi Note 11T Pro/Pro+/Redmi K50i/POCO X4 GT",
     "enname": "Redmi Note 11T Pro/Pro+/Redmi K50i/POCO X4 GT",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,6 +16,18 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_XAGA_V14.0.22.12.19.DEV_5c8ffa2855_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_XAGA_V14.0.22.12.8.DEV_7a3170e760_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_XAGA_V14.0.22.12.5.DEV_745241ea26_13.0.zip",
@@ -23,9 +35,21 @@
                 },
                 {
                     "miui": "V13.1.22.10.19.DEV",
-                    "android": "12.0",
+                    "android": "13.0",
                     "recovery": "",
                     "fastboot": "xaga_images_V13.1.22.10.19.DEV_20221019.0000.00_13.0_cn_chinatelecom_a939da58a5.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.11.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_XAGA_V13.1.22.10.11.DEV_65a32558ee_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V13.1.22.9.19.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_XAGA_V13.1.22.9.19.DEV_12e69a235c_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.5.DEV",
@@ -174,6 +198,12 @@
             "enname": "Global Stable",
             "links": [
                 {
+                    "miui": "V13.2.5.0.TLOMIXM",
+                    "android": "13.0",
+                    "recovery": "miui_XAGAGlobal_V13.2.5.0.TLOMIXM_a6236b8bca_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V13.0.5.0.SLOMIXM",
                     "android": "12.0",
                     "recovery": "miui_XAGAGlobal_V13.0.5.0.SLOMIXM_add9754910_12.0.zip",
@@ -201,9 +231,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.9.0.SLOEUXM",
@@ -245,9 +275,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.6.0.SLORUXM",
@@ -271,9 +301,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.8.0.SLOINXM",
@@ -303,9 +333,9 @@
         },
         {
             "branch": "inns",
-                "show": "0",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "0",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "",
@@ -317,9 +347,9 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.0.5.0.SLOTRXM",
@@ -337,9 +367,9 @@
         },
         {
             "branch": "japs",
-                "show": "0",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
+            "show": "0",
+            "cnname": "日本稳定版",
+            "enname": "Japan Stable",
             "links": [
                 {
                     "miui": "",

@@ -1,11 +1,11 @@
 {
-   "codename": "yunluo",
+    "codename": "yunluo",
     "cnname": "Redmi平板",
     "enname": "Redmi Pad",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -43,6 +43,12 @@
             "cnname": "中国大陆稳定版",
             "enname": "China Mainland Stable",
             "links": [
+                {
+                    "miui": "V13.1.7.0.SLYCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_YUNLUO_V13.1.7.0.SLYCNXM_4a39016604_12.0.zip",
+                    "fastboot": ""
+                },
                 {
                     "miui": "V13.1.6.0.SLYCNXM",
                     "android": "12.0",
@@ -99,9 +105,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.1.3.0.SLYEUXM",
@@ -119,9 +125,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.1.5.0.SLYRUXM",
@@ -145,9 +151,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.1.3.0.SLYINXM",
@@ -165,9 +171,9 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V13.1.3.0.SLYIDXM",
@@ -179,9 +185,9 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.1.2.0.SLYTRXM",
@@ -193,9 +199,9 @@
         },
         {
             "branch": "japs",
-                "show": "0",
-                "cnname": "日本稳定版",
-                "enname": "Japan Stable",
+            "show": "0",
+            "cnname": "日本稳定版",
+            "enname": "Japan Stable",
             "links": [
                 {
                     "miui": "",

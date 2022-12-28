@@ -1,11 +1,11 @@
 {
-   "codename": "venus",
+    "codename": "venus",
     "cnname": "小米 11",
     "enname": "Mi 11",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,28 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_VENUS_V14.0.22.12.19.DEV_955737e0b9_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_VENUS_V14.0.22.12.8.DEV_fdf0577b74_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_VENUS_V14.0.22.12.5.DEV_b4b4b2f6a2_13.0.zip",
                     "fastboot": "venus_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_7149be27b5.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_V13.1.22.10.24.DEV_b76543d5a3_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",
@@ -166,6 +184,12 @@
                     "fastboot": "venus_images_V13.0.6.1.15.DEV_20220308.0000.00_12.0_cn_cb6b0c891f.tgz"
                 },
                 {
+                    "miui": "V13.0.5.1.13.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_V13.0.5.1.13.DEV_9e164eeb78_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V13.0.5.1.7.DEV",
                     "android": "12.0",
                     "recovery": "miui_VENUS_V13.0.5.1.7.DEV_ba14eb8f3d_12.0.zip",
@@ -175,12 +199,6 @@
                     "miui": "V13.0.5.1.5.DEV",
                     "android": "12.0",
                     "recovery": "miui_VENUS_V13.0.5.1.5.DEV_3b4ae0a3b3_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.0.5.1.13.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_VENUS_V13.0.5.1.13.DEV_9e164eeb78_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -256,9 +274,33 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.12.7",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.12.7_fda879d615_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.6",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.12.6_75ee909c5c_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.4",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.12.4_784e6b117f_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.12.1",
                     "android": "12.0",
                     "recovery": "miui_VENUS_21.12.1_b0bd5fbdba_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.29",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.29_0d81bd4734_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -268,9 +310,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.11.24",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.24_b9df5ac93f_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.22",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.22_ccbcd325e8_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.19",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.19_ec4c5035f0_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.11.17",
                     "android": "12.0",
                     "recovery": "miui_VENUS_21.11.17_6dc7af7927_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.16",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.16_c40f28e229_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.15",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.15_cc6fcaffb3_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.12",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.12_37ee60eef6_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -280,9 +358,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.11.10",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.10_258ffe99e5_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.9",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.9_cd5fd436f5_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.8",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.8_b5a0d7f14c_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.5",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.5_3d237c5c1e_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.11.3",
                     "android": "12.0",
                     "recovery": "miui_VENUS_21.11.3_464fbc599a_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.1",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.11.1_d458189cb7_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.29",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.10.29_6ba12276af_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -298,9 +412,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.10.19",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.10.19_c8643f69fa_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.18",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.10.18_00313c7e37_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.15",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.10.15_5eff6e62fa_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.10.13",
                     "android": "12.0",
                     "recovery": "miui_VENUS_21.10.13_66ce7bc273_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.7",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.10.7_d2a679a27f_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.4",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.10.4_ee87c370a9_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -310,9 +454,33 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.9.25",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.9.25_bad88b3519_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.24",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.9.24_edc49e66d3_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.9.22",
                     "android": "12.0",
                     "recovery": "miui_VENUS_21.9.22_b1d1287b5a_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.18",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.9.18_1ed6174a8e_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.17",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.9.17_a2af73bb81_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -322,9 +490,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.31",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.31_b8f914fadb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.30",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.30_5cc4d6e32c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.27",
+                    "android": "12.0",
+                    "recovery": "miui_VENUS_21.8.27_4c4e6f2923_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.25",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.8.25_16aa66e476_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.24",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.24_ee520013d0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.23",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.23_e572f77d25_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.20",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.20_63fa14efaf_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -334,9 +538,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.17",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.17_bfdaba0afa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.16",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.16_13f187919e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.13",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.13_97c540704d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.11",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.8.11_e186243426_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.10",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.10_e08ef9441e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.9",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.9_2be5f64212_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.6",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.6_b5c0e273ec_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -346,9 +586,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.3",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.3_7643253ce4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.2",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.8.2_c753bc481b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.30",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.30_df1037f3d6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.28",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.7.28_05a96f09f3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.27",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.27_4dd9be889d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.26",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.26_e23e108c3c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.23",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.23_bb47bb272b_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -358,9 +634,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.20",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.20_333b97a6bb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.19",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.19_45fa216d78_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.18",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.18_55eebd9073_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.14",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.7.14_0e118ebec3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.13",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.13_fbf645fe1e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.12",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.12_e5530c35ba_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.9",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.9_81991b36f7_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -370,15 +682,63 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.6",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.6_c0be7be7ca_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.5",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.5_f0718f3bc8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.2",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.7.2_d5180731c1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.30",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.6.30_be5d20f537_11.0.zip",
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.28",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.28_55e0608659_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.25",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.25_d5aa7a6fbf_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.23",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.6.23_0c9e37a92d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.22",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.22_eff22d5d7e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.21",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.21_9b60d358a8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.18",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.18_aaa0823ad2_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -394,9 +754,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.15",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.15_93b1fbec63_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.11",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.11_621b5057e8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.9",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.6.9_39593ef7ec_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.8",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.8_01e16b99e1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.7",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.7_b2b62a2f43_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.4",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.4_66751a379a_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -406,9 +796,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.1",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.6.1_50d1bb0361_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.31",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.31_2d56011f06_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.28",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.28_75a79ecc21_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.26",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.5.26_e0bb1143cc_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.25",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.25_22430322bc_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.24",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.24_946f81c184_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.22",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.22_0c168a9ebd_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -418,9 +844,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.5.19",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.19_e57f51de31_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.18",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.18_e5cd80db56_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.14",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.14_ae1ca2c5bd_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.12",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.5.12_aa6159286b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.11",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.11_b35cabe2d9_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.10",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.10_77a116e157_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.7",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.5.7_f29cdb4569_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -430,9 +892,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.27",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.27_5b2a23d210_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.26",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.26_29ac83b7f0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.23",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.23_d1d5c61755_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.21",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.4.21_08233c0e55_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.20",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.20_c34fea3d28_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.19",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.19_94e9a8077f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.16",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.16_58c14eba22_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -442,9 +940,33 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.13",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.13_072ae58332_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.12",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.12_e74c00f08e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.7",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.4.7_367747983f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.6",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.6_3e4cb9d979_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.2",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.4.2_85f52a02ce_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -454,9 +976,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.3.30",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.30_bbbb77e961_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.29",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.29_4e9c72b934_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.25",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.25_6df6b878d1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.3.24",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.3.24_013eac98f4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.23",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.23_bbf3ee9695_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.21",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.21_b87ea21d3e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.19",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.19_1908c6f391_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -466,9 +1024,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.3.16",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.16_7fed550f58_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.15",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.15_268abab704_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.14",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.14_0e37310eeb_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.3.11",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.3.11_cead21ef37_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.10",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.10_06cf1e7457_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.9",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.9_19af6a7062_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -478,9 +1066,51 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.3.2",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.2_206b5c85c6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.1",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.3.1_07bcedac16_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.26",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.2.26_e0a47c3a38_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.25",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.2.25_73b46f84d5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.2.24",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.2.24_760d848814_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.23",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.2.23_5b18ac520a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.22",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.2.22_543f1f80f3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.19",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.2.19_565e63b1c9_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -490,9 +1120,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.2.2",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.2.2_32779623d8_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.2.1",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.2.1_e4af1bc790_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.29",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.29_7dad5d1fd3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.1.28",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.1.28_077bd1be2b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.27",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.27_85f8c7b632_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.22",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.22_c0a9571706_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -502,15 +1162,69 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.1.19",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.19_511c0dbef0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.18",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.18_989a40e4f7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.15",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.15_77fe2f9ea4_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.1.13",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.1.13_48b2581030_11.0.zip",
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.1.12",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.12_0c47c99359_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.11",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.11_06174cc55a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.8",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.8_e178adb09a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.1.7",
                     "android": "11.0",
                     "recovery": "miui_VENUS_21.1.7_7652c92da6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.6",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.6_becf859377_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.5",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.5_3fcd3ef856_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.1.4",
+                    "android": "11.0",
+                    "recovery": "miui_VENUS_21.1.4_3874ca153d_11.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -843,9 +1557,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.8.0.SKBEUXM",
@@ -953,9 +1667,9 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
                 {
                     "miui": "V13.0.2.0.SKBRUXM",
@@ -991,9 +1705,9 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
                 {
                     "miui": "V13.0.4.0.SKBIDXM",
@@ -1035,9 +1749,9 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
                 {
                     "miui": "V13.0.2.0.SKBTRXM",

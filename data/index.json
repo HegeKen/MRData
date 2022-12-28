@@ -1,147 +1,291 @@
 {
-  "date": "2022.11.25",
-  "ver": "V0.9.31-SNAPSHOT",
-  "newDeviceCn": "Redmi Note 10T;",
-  "newDeviceEn": "Redmi Note 10T;",
-  "update": "2022.12.10",
-  "stable": [
+  "date": "2022.12.29",
+  "ver": "V1.0.0",
+  "newDeviceCn": "小米手机1/1S;小米 2/2S;小米 2A;小米3 移动版;小米手机3 联通/电信/小米手机4 移动/联通/电信3G;小米手机4 电信4G;小米 4i;小米 4C;小米 4S;小米 Note 双网通版;小米 Note 全网通版;小米 Note 顶配版;小米 MAX 标准版;小米 MAX 高配版;小米平板 1;小米平板 2;小米平板 3;红米 1 移动TD版;红米1 联通版;红米 1S 联通版/电信版;红米 1S 移动4G版;红米 2 移动3G版;红米 2 联通/电信3G版;红米 2 移动增强版;红米 2 联通/电信增强版;红米 2A 标准版;红米 3/Pro;红米 3S/X;红米 4 标准版;红米 4A;红米 Note 移动3G版;红米 Note 联通3G版;红米 Note 4G 双卡版;红米 Pro;Redmi Note 12 Pro 极速版;Redmi K60;Redmi K60 Pro;Redmi K60 E",
+  "newDeviceEn": "MI 1/1S;MI 2/2S;Mi 2A;Mi 3 TD;MI3 WCDMA/Mi 4;Mi 4 LTE CT;MI 4i;Mi 4C;MI 4S;Mi Note;Mi Note LTE CT;Mi Note Pro;Mi Max;Mi Max Prime;MiPad 1;MiPad 2;Mi Pad 3;Redmi 1 TD;Redmi 1 WCDMA;Redmi 1S TD;Redmi 1S LTE;Redmi 2 TD;Redmi 2 WCDMA;Redmi 2 LTE;Redmi 2W Pro;Redmi 2A;Redmi 3/Pro;Redmi 3S/X;Redmi 4;Redmi 4A;Redmi Note 1 TD;Redmi Note 3G;Redmi Note 1S 4G;Redmi Pro;Redmi Note 12 Pro Speed Edition;Redmi K60;Redmi K60 Pro;Redmi K60 E",
+  "log": [
     {
-      "codename": "pissarroin",
-      "NameCn": "小米 11i 印度版",
-      "NameEn": "Xiaomi 11i 5G",
-      "rom": "V12.5.3.0.RKTINFK；V12.5.4.0.RKTINFK；V12.5.6.0.RKTINFK；V12.5.7.0.RKTINFK；V13.0.1.0.SKTINFK"
+      "cn": "终于将老机型补充完了",
+      "en": "Finally, all Xiaomi/Redmi/POCO devices have been collected."
     },
     {
-      "codename": "vili",
-      "NameCn": "小米 11T Pro",
-      "NameEn": "Xiaomi 11T Pro",
-      "rom": "V13.0.6.0.SKDJPXM"
+      "cn": "版面使用Nuxt.js和MDUI重新设计，焕然一新",
+      "en": "Website has been re-designed With Nuxt.js & MDUI."
+    },
+    {
+      "cn": "新增站点语言切换功能，更加友好",
+      "en": "Adding language Setting to website, Our website has never been such user friendly ever."
+    },
+    {
+      "cn": "针对手机页面针对性优化，更易用",
+      "en": "Website has a new mobile version in use."
+    }
+  ],
+  "update": "2022.12.29",
+  "stable": [
+    {
+      "codename": "umi",
+      "NameCn": "小米 10",
+      "NameEn": "Mi 10",
+      "rom": "V13.0.8.0.SJBCNXM"
+    },
+    {
+      "codename": "cmi",
+      "NameCn": "小米 10 Pro",
+      "NameEn": "Mi 10 Pro",
+      "rom": "V13.0.6.0.SJACNXM"
+    },
+    {
+      "codename": "cas",
+      "NameCn": "小米 10 至尊纪念版",
+      "NameEn": "Mi 10 Ultra",
+      "rom": "V13.0.6.0.SJJCNXM"
+    },
+    {
+      "codename": "thyme",
+      "NameCn": "小米 10S",
+      "NameEn": "Mi 10S",
+      "rom": "V13.0.10.0.SGACNXM"
+    },
+    {
+      "codename": "renoir",
+      "NameCn": "小米 11 青春版",
+      "NameEn": "Mi 11 Lite 5G",
+      "rom": "V13.0.14.0.SKICNXM;V14.0.2.0.TKICNXM;V13.0.9.0.SKIMIXM"
+    },
+    {
+      "codename": "pissarroin",
+      "NameCn": "小米 11i 5G 印度版",
+      "NameEn": "Xiaomi 11i 5G India",
+      "rom": "V13.0.2.0.SKTINFK"
     },
     {
       "codename": "cupid",
       "NameCn": "小米 12",
-      "NameEn": "Mi 12",
-      "rom": "V13.0.41.0.SLCCNXM；V13.0.27.0.SLCEUXM"
+      "NameEn": "Xiaomi 12",
+      "rom": "V14.0.2.0.TLCCNXM"
     },
     {
       "codename": "zeus",
       "NameCn": "小米 12 Pro",
-      "NameEn": "Mi 12 Pro",
-      "rom": "V13.0.26.0.SLBEUXM"
+      "NameEn": "Xiaomi 12 Pro",
+      "rom": "V14.0.4.0.TLBCNXM;V13.2.1.0.TLBMIXM"
     },
     {
-      "codename": "toco",
-      "NameCn": "小米 Note 10 Lite",
-      "NameEn": "Mi Note 10 Lite",
-      "rom": "V13.0.4.0.SFNRUXM"
+      "codename": "mayfly",
+      "NameCn": "小米 12S",
+      "NameEn": "Xiaomi 12S",
+      "rom": "V14.0.3.0.TLTCNXM;V14.0.4.0.TLTCNXM"
     },
     {
-      "codename": "fog",
-      "NameCn": "Redmi 10C",
-      "NameEn": "Redmi 10C",
-      "rom": "V13.0.2.0.SGETWXM；V13.0.13.0.RGEMIXM；V13.0.1.0.SGETRXM"
+      "codename": "unicorn",
+      "NameCn": "小米 12S Pro",
+      "NameEn": "Xiaomi 12S Pro",
+      "rom": "V14.0.3.0.TLECNXM"
+    },
+    {
+      "codename": "thor",
+      "NameCn": "小米 12S Ultra",
+      "NameEn": "Xiaomi 12S Ultra",
+      "rom": "V14.0.3.0.TLACNXM"
+    },
+    {
+      "codename": "taoyao",
+      "NameCn": "小米 12 Lite",
+      "NameEn": "Xiaomi 12 Lite",
+      "rom": "V13.2.1.0.TLIMIXM;V13.2.2.0.TLIEUXM"
+    },
+    {
+      "codename": "nabu",
+      "NameCn": "小米平板 5",
+      "NameEn": "Xiaomi Pad 5",
+      "rom": "V13.1.5.0.SKXCNXM;V13.1.2.0.SKXTWXM;V13.1.2.0.SKXTRXM;V13.1.4.0.SKXRUXM"
+    },
+    {
+      "codename": "zijin",
+      "NameCn": "小米 Civi 1S",
+      "NameEn": "Xiaomi Civi 1S",
+      "rom": "V14.0.1.0.TLPCNXM"
+    },
+    {
+      "codename": "lancelot",
+      "NameCn": "Redmi 9/Prime",
+      "NameEn": "Redmi 9/Prime",
+      "rom": "V13.0.3.0.SJCINXM;V13.0.1.0.SJCIDXM"
+    },
+    {
+      "codename": "dandelion",
+      "NameCn": "Redmi 9A/9AT/9i/9A Sport",
+      "NameEn": "Redmi 9A/9AT/9i/9A Sport",
+      "rom": "V12.5.7.0.RCDMIXM"
+    },
+    {
+      "codename": "dandelion_c3l2",
+      "NameCn": "Redmi 10A/10A Sport",
+      "NameEn": "Redmi 10A/10A Sport",
+      "rom": "V12.5.7.0.RCZEUXM;V12.5.9.0.RCZINXM;V12.5.7.0.RCZIDXM"
+    },
+    {
+      "codename": "merlin",
+      "NameCn": "Redmi Note 9",
+      "NameEn": "Redmi Note 9",
+      "rom": "V13.0.3.0.SJOEUXM;V13.0.3.0.SJOIDXM"
     },
     {
       "codename": "lime",
-      "NameCn": "Redmi 9T/Redmi 9 Power/Redmi Note 9 4G",
-      "NameEn": "Redmi 9T/Redmi 9 Power/Redmi Note 9 4G",
-      "rom": "V12.5.11.0.RJQINXM"
+      "NameCn": "Redmi Note 9 4G",
+      "NameEn": "Redmi Note 9 4G",
+      "rom": "V13.0.1.0.SJQMIXM;V13.0.2.0.SJQMIXM;V13.0.1.0.SJQEUXM"
     },
     {
-      "codename": "camellia",
-      "NameCn": "Redmi Note 10 5G/10T 5G",
-      "NameEn": "Redmi Note 10 5G/10T 5G",
-      "rom": "V13.0.5.0.SKSEUXM;V13.0.3.0.SKSRUXM；V13.0.4.0.SKSIDXM"
+      "codename": "gauguin",
+      "NameCn": "Redmi Note 9 Pro 5G",
+      "NameEn": "Redmi Note 9 Pro 5G",
+      "rom": "V13.0.15.0.SJSCNXM"
     },
     {
-      "codename": "chopin",
-      "NameCn": "Redmi Note 10 Pro 5G/POCO X3 GT",
-      "NameEn": "Redmi Note 10 Pro 5G/POCO X3 GT",
-      "rom": "V13.0.3.0.SKPIDXM"
+      "codename": "curtana",
+      "NameCn": "Redmi Note 9S/9 Pro",
+      "NameEn": "Redmi Note 9S/9 Pro",
+      "rom": "V13.0.2.0.SJWTRXM;V13.0.2.0.SJWRUXM"
     },
     {
       "codename": "mojito",
       "NameCn": "Redmi Note 10",
       "NameEn": "Redmi Note 10",
-      "rom": "V13.0.7.0.SKGEUXM"
+      "rom": "V13.0.11.0.SKGMIXM;V13.0.4.0.SKGINXM;V13.0.5.0.SKGIDXM;V13.0.4.0.SKGTRXM"
     },
     {
       "codename": "sweet",
       "NameCn": "Redmi Note 10 Pro/Pro Max",
       "NameEn": "Redmi Note 10 Pro/Pro Max",
-      "rom": "V13.0.15.0.SKFMIXM"
+      "rom": "V13.0.8.0.SKFTWXM"
     },
     {
-      "codename": "evergo",
-      "NameCn": "Redmi Note 11 5G",
-      "NameEn": "Redmi Note 11 5G",
-      "rom": "V13.0.7.0.SGBCNXM"
+      "codename": "chopin",
+      "NameCn": "Redmi Note 10 Pro 5G",
+      "NameEn": "Redmi Note 10 Pro 5G",
+      "rom": "V13.0.4.0.SKPIDXM;V13.0.4.0.SKPTRXM"
     },
     {
-      "codename": "viva",
-      "NameCn": "Redmi Note 11E Pro",
-      "NameEn": "Redmi Note 11E Pro",
-      "rom": "V13.0.5.0.SGDMIXM"
+      "codename": "rosemary",
+      "NameCn": "Redmi Note 10S",
+      "NameEn": "Redmi Note 10S",
+      "rom": "V13.0.12.0.SKLMIXM;V13.0.7.0.SKLEUXM;V13.0.7.0.SKLIDXM"
     },
     {
-      "codename": "vida",
-      "NameCn": "Redmi Note 11 Pro 4G",
-      "NameEn": "Redmi Note 11 Pro 4G",
-      "rom": "V13.0.3.0.SKCTWXM；V13.0.3.0.SKCRUXM；V13.0.1.0.SKCTRXM;V13.0.1.0.SKCJPXM"
+      "codename": "selene",
+      "NameCn": "Redmi Note 11 4G",
+      "NameEn": "Redmi Note 11 4G",
+      "rom": "V13.0.10.0.SKUMIXM;V12.5.26.0.RKUEUXM"
     },
     {
       "codename": "pissarro",
-      "NameCn": "Redmi Note 11 Pro/Pro+/5G",
-      "NameEn": "Redmi Note 11 Pro/Pro+/5G",
-      "rom": "V13.0.5.0.SKTEUXM"
+      "NameCn": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
+      "NameEn": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
+      "rom": "V13.0.7.0.SKTMIXM;V13.0.2.0.SKTRUXM"
+    },
+    {
+      "codename": "spes",
+      "NameCn": "Redmi Note 11",
+      "NameEn": "Redmi Note 11",
+      "rom": "V13.0.3.0.SGCINXM"
+    },
+    {
+      "codename": "spesn",
+      "NameCn": "Redmi Note 11 NFC",
+      "NameEn": "Redmi Note 11 NFC",
+      "rom": "V13.0.2.0.SGKEUXM"
+    },
+    {
+      "codename": "fleur",
+      "NameCn": "Redmi Note 11S 4G",
+      "NameEn": "Redmi Note 11S 4G",
+      "rom": "V13.0.7.0.SKEMIXM;V13.0.4.0.SKERUXM;V13.0.3.0.SKEINXM"
+    },
+    {
+      "codename": "viva",
+      "NameCn": "Redmi Note 11 Pro 4G",
+      "NameEn": "Redmi Note 11 Pro 4G",
+      "rom": "V13.0.2.0.SGDEUXM;V13.0.6.0.RGDRUXM;V13.0.2.0.SGDTRXM"
+    },
+    {
+      "codename": "light",
+      "NameCn": "Redmi Note 11E/11R",
+      "NameEn": "Redmi Note 11E/11R",
+      "rom": "V13.0.5.0.SLSRUXM;V13.0.4.0.SLSIDXM"
+    },
+    {
+      "codename": "xaga",
+      "NameCn": "Redmi Note 11T Pro/Pro+",
+      "NameEn": "Redmi Note 11T Pro/Pro+",
+      "rom": "V13.2.5.0.TLOMIXM;V13.0.8.0.SLOINXM"
     },
     {
       "codename": "ruby",
       "NameCn": "Redmi Note 12 Pro/Pro+/探索版",
       "NameEn": "Redmi Note 12 Pro/Pro+/Discovery",
-      "rom": "V13.0.6.0.SMOCNXM"
+      "rom": "V13.0.9.0.SMOCNXM"
     },
     {
       "codename": "apollo",
-      "NameCn": "小米 10T/Pro/Redmi K30S 至尊纪念版",
-      "NameEn": "Mi 10T/Pro/Redmi K30S Ultra",
-      "rom": "V13.0.7.0.SJDCNXM"
+      "NameCn": "Redmi K30S 至尊纪念版",
+      "NameEn": "Redmi K30S Ultra",
+      "rom": "V13.0.7.0.SJDCNXM;V13.0.11.0.SJDEUXM;V13.0.6.0.SJDIDXM"
     },
     {
-      "codename": "alioth",
-      "NameCn": "小米 11X/Redmi K40/POCO F3",
-      "NameEn": "Mi 11X/Redmi K40/POCO F3",
-      "rom": "V13.0.5.0.SKHRUXM"
+      "codename": "rubens",
+      "NameCn": "Redmi K50",
+      "NameEn": "Redmi K50",
+      "rom": "V14.0.3.0.TLNCNXM"
     },
     {
-      "codename": "munch",
-      "NameCn": "Redmi K40S/POCO F4",
-      "NameEn": "Redmi K40S/POCO F4",
-      "rom": "V13.0.11.0.SLMCNXM"
+      "codename": "matisse",
+      "NameCn": "Redmi K50 Pro",
+      "NameEn": "Redmi K50 Pro",
+      "rom": "V14.0.5.0.TLKCNXM"
     },
     {
-      "codename": "ingres",
-      "NameCn": "Redmi K50 电竞版/POCO F4 GT",
-      "NameEn": "Redmi K50 Gaming/POCO F4 GT",
-      "rom": "V13.0.12.0.SLJEUXM"
+      "codename": "diting",
+      "NameCn": "Redmi K50 至尊版",
+      "NameEn": "Redmi K50 Ultra",
+      "rom": "V14.0.2.0.TLFCNXM;V13.0.2.0.SLFJPXM"
+    },
+    {
+      "codename": "yunluo",
+      "NameCn": "Redmi平板",
+      "NameEn": "Redmi Pad",
+      "rom": "V13.1.6.0.SLYCNXM;V13.1.7.0.SLYCNXM;V13.1.3.0.SLYEUXM"
     },
     {
       "codename": "ice",
-      "NameCn": "Redmi A1/A1+/POCO C50",
-      "NameEn": "Redmi A1/A1+/POCO C50",
-      "rom": "V13.0.5.0.SGMINXM"
+      "NameCn": "Redmi A1/A1+",
+      "NameEn": "Redmi A1/A1+",
+      "rom": "V13.0.14.0.SGMMIXM;V13.0.7.0.SGMEUXM;V13.0.6.0.SGMINXM"
     },
     {
-      "codename": "citrus",
-      "NameCn": "POCO M3",
-      "NameEn": "POCO M3",
-      "rom": "V12.5.8.0.RJFEUXM;V12.5.6.0.RJFINXM"
+      "codename": "frost",
+      "NameCn": "POCO C40",
+      "NameEn": "POCO C40",
+      "rom": "V13.0.7.0.RGFEUXM"
+    },
+    {
+      "codename": "evergreen",
+      "NameCn": "POCO M4 Pro 5G",
+      "NameEn": "POCO M4 Pro 5G",
+      "rom": "V13.0.4.0.SGBRUXM"
     },
     {
       "codename": "rock",
-      "NameCn": "Redmi 11 Prime 4G/POCO M5",
-      "NameEn": "Redmi 11 Prime 4G/POCO M5",
-      "rom": "V13.0.8.0.SLUMIXM;V13.0.3.0.SLURUXM"
+      "NameCn": "POCO M5",
+      "NameEn": "POCO M5",
+      "rom": "V13.0.9.0.SLUINXM"
+    },
+    {
+      "codename": "surya",
+      "NameCn": "POCO X3 NFC",
+      "NameEn": "POCO X3 NFC",
+      "rom": "V13.0.4.0.SJGEUXM"
     }
   ]
 }

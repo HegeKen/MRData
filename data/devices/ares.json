@@ -1,11 +1,11 @@
 {
-   "codename": "ares",
+    "codename": "ares",
     "cnname": "Redmi K40 游戏增强版/POCO F3 GT",
     "enname": "Redmi K40 Gaming/POCO F3 GT",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,10 @@
             "enname": "China Beta",
             "links": [
                 {
-                    "miui": "version",
-                    "android": "",
-                    "recovery": "recpack",
-                    "fastboot": "fbpack"
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_ARES_V14.0.22.12.19.DEV_cc35cc8b25_13.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V14.0.22.12.8.DEV",
@@ -32,6 +32,12 @@
                     "android": "13.0",
                     "recovery": "miui_ARES_V14.0.22.12.5.DEV_9ce65836f3_13.0.zip",
                     "fastboot": "ares_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_eeef419b6c.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_ARES_V13.1.22.10.24.DEV_5bf8f81d64_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",
@@ -175,7 +181,7 @@
                     "miui": "V13.0.3.1.15.DEV",
                     "android": "12.0",
                     "recovery": "miui_ARES_V13.0.3.1.15.DEV_da9922d345_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "ares_images_V13.0.3.1.15.DEV_20220308.0000.00_12.0_cn_303d437722.tgz"
                 },
                 {
                     "miui": "V13.0.3.1.13.DEV",
@@ -205,7 +211,7 @@
                     "miui": "V13.0.1.1.5.DEV",
                     "android": "12.0",
                     "recovery": "miui_ARES_V13.0.1.1.5.DEV_54cd89c250_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "ares_images_V13.0.1.1.5.DEV_20220122.0000.00_12.0_cn_d829bf35e9.tgz"
                 },
                 {
                     "miui": "V13.0.0.1.5.DEV",
@@ -449,7 +455,7 @@
                     "miui": "V13.0.9.0.SKJCNXM",
                     "android": "12.0",
                     "recovery": "miui_ARES_V13.0.9.0.SKJCNXM_4eb03893db_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "ares_images_V13.0.9.0.SKJCNXM_20221017.0000.00_12.0_cn_f46ed417a2.tgz"
                 },
                 {
                     "miui": "V13.0.8.0.SKJCNXM",
@@ -515,15 +521,21 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
+                {
+                    "miui": "V13.0.5.0.SKJINXM",
+                    "android": "12.0",
+                    "recovery": "miui_ARESINGlobal_V13.0.5.0.SKJINXM_6d348beef2_12.0.zip",
+                    "fastboot": "ares_in_global_images_V13.0.5.0.SKJINXM_20221111.0000.00_12.0_in_e8238202cc.tgz"
+                },
                 {
                     "miui": "V13.0.4.0.SKJINXM",
                     "android": "12.0",
                     "recovery": "miui_ARESINGlobal_V13.0.4.0.SKJINXM_cda5f54377_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "ares_in_global_images_V13.0.4.0.SKJINXM_20220811.0000.00_12.0_in_86d6e7f0da.tgz"
                 },
                 {
                     "miui": "V13.0.3.0.SKJINXM",
@@ -554,24 +566,6 @@
                     "android": "11.0",
                     "recovery": "miui_ARESINGlobal_V12.5.4.0.RKJINXM_4423d96961_11.0.zip",
                     "fastboot": "ares_in_global_images_V12.5.4.0.RKJINXM_20210721.0000.00_11.0_in_f38f58a6cb.tgz"
-                },
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
                 }
             ]
         }

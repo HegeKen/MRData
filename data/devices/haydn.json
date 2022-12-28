@@ -1,11 +1,11 @@
 {
-   "codename": "haydn",
+    "codename": "haydn",
     "cnname": "Redmi K40 Pro/Pro+/小米 11i/小米 11X Pro",
     "enname": "Redmi K40 Pro/Pro+//Mi 11iMi 11X Pro",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -16,10 +16,28 @@
             "enname": "China Beta",
             "links": [
                 {
+                    "miui": "V14.0.22.12.19.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_HAYDN_V14.0.22.12.19.DEV_5532d8323b_13.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "V14.0.22.12.8.DEV",
+                    "android": "13.0",
+                    "recovery": "miui_HAYDN_V14.0.22.12.8.DEV_24f46e5ac5_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.22.12.5.DEV",
                     "android": "13.0",
                     "recovery": "miui_HAYDN_V14.0.22.12.5.DEV_1717a326c3_13.0.zip",
                     "fastboot": "haydn_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_7a9a966203.tgz"
+                },
+                {
+                    "miui": "V13.1.22.10.24.DEV",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_V13.1.22.10.24.DEV_03fa8aa57a_12.0.zip",
+                    "fastboot": ""
                 },
                 {
                     "miui": "V13.1.22.9.28.DEV",
@@ -244,9 +262,27 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.12.7",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.12.7_e4d47e539e_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.12.4",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.12.4_053c79f63f_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.12.1",
                     "android": "12.0",
                     "recovery": "miui_HAYDN_21.12.1_5724e93c18_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.29",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.29_cb97942e0c_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -256,9 +292,33 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.11.22",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.22_b0ef388ec7_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.19",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.19_9b9fd40e84_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.11.17",
                     "android": "12.0",
                     "recovery": "miui_HAYDN_21.11.17_49a362e505_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.16",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.16_3bdf67a870_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.15",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.15_b89edc0d09_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -268,9 +328,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.11.10",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.10_735e6f5d5d_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.9",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.9_63e0f07006_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.8",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.8_3188683243_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.5",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.5_28b7536420_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.11.3",
                     "android": "12.0",
                     "recovery": "miui_HAYDN_21.11.3_a97c857635_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.11.1",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.11.1_5519709af1_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.29",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.10.29_5a5a0f0b61_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -283,6 +379,18 @@
                     "miui": "21.10.20",
                     "android": "12.0",
                     "recovery": "miui_HAYDN_21.10.20_6e51a7b720_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.19",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.10.19_692c15ae30_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.10.18",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.10.18_6e67d757ea_12.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -304,9 +412,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.9.18",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.9.18_50f69d27c0_12.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.9.13",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_21.9.13_decb889caf_12.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.9.1",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.9.1_f4f5ec514c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.31",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.31_c6b9b55529_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.30",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.30_7e364db54d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.27",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.27_857ad727a9_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -316,9 +454,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.24",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.24_818732899c_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.23",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.23_e8be163c85_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.20",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.20_a8892a2737_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.18",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.8.18_d28b1a4717_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.17",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.17_7311edaaf5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.16",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.16_8528aa429b_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.13",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.13_b3e2d0f52e_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -328,9 +502,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.8.10",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.10_a1f0a57758_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.9",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.9_7321383b7f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.6",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.6_ce4afdc870_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.8.4",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.8.4_134f4447a7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.3",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.3_4c14865eee_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.8.2",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.8.2_3be4b022be_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.30",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.30_12af6b97f9_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -340,15 +550,69 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.27",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.27_3ec7a96f51_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.26",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.26_26666951fa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.23",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.23_9894467766_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.21",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.7.21_2fa05c05e2_11.0.zip",
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.7.20",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.20_a176d3679d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.19",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.19_36570ae604_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.16",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.16_e461e68ef2_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.7.14",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.7.14_8b165f469a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.13",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.13_62aa10b062_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.12",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.12_fbf331c876_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.7.9",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.7.9_6eb7e4bace_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -364,9 +628,27 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.25",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.25_be1440a8bc_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.23",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.6.23_ef0a849108_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.21",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.21_e38678cb5d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.18",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.18_a953a0ba1e_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -382,9 +664,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.15",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.15_dd2c3fc145_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.11",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.11_e9dc4665c1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.6.9",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.6.9_450bd31b11_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.8",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.8_16e899fb00_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.7",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.7_74839fb4c1_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.6.4",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.4_6d6348101f_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -394,9 +706,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.6.1",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.6.1_5d4f353fa9_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.31",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.31_6d36c8043d_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.28",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.28_d73df8cea0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.26",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.5.26_5ab5857826_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.25",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.25_05e8facd82_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.24",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.24_cdaaf8bdfa_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.22",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.22_f53393d650_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -406,9 +754,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.5.19",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.19_ea0b402f0a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.18",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.18_c1265ca441_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.14",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.14_e27d483031_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.5.12",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.5.12_b5b1c4d52e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.11",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.11_526aa61d23_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.10",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.10_f905490af6_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.5.7",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.5.7_aad4fc9eed_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -418,9 +802,45 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.27",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.27_37207679af_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.23",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.23_8e054184cc_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.22",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.4.22_b45e4df1c3_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.21",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.21_f246cb5664_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.20",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.20_5b88b272e5_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.19",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.19_ae5559de45_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.16",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.16_8ead691a5f_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -430,9 +850,39 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.4.13",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.13_68395db50a_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.12",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.12_28b02ceff7_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.10",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.10_8a75d0c0cf_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.4.8",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.4.8_bdb8c023b0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.6",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.6_0ee3c80036_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.4.2",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.4.2_ae6ba77c95_11.0.zip",
                     "fastboot": ""
                 },
                 {
@@ -442,15 +892,57 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.3.31",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.3.31_26962bab9e_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.25",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.3.25_cad2cf338f_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.3.24",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.3.24_3ed2fa051a_11.0.zip",
                     "fastboot": ""
                 },
                 {
+                    "miui": "21.3.23",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.3.23_75f8762a21_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.22",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.3.22_4ac6072de0_11.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "21.3.17",
                     "android": "11.0",
                     "recovery": "miui_HAYDN_21.3.17_fac5292610_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.16",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.3.16_8abf8c13cd_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.15",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.3.15_e13fa2b301_11.0.zip",
+                    "fastboot": ""
+                },
+                {
+                    "miui": "21.3.12",
+                    "android": "11.0",
+                    "recovery": "miui_HAYDN_21.3.12_ca67f1fca8_11.0.zip",
                     "fastboot": ""
                 }
             ]
@@ -476,10 +968,16 @@
             "enname": "China Mainland Stable",
             "links": [
                 {
+                    "miui": "V13.0.13.0.SKKCNXM",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDN_V13.0.13.0.SKKCNXM_299bf5fa53_12.0.zip",
+                    "fastboot": "haydn_images_V13.0.13.0.SKKCNXM_20221109.0000.00_12.0_cn_f08eedc0db.tgz"
+                },
+                {
                     "miui": "V13.0.10.0.SKKCNXM",
                     "android": "12.0",
                     "recovery": "miui_HAYDN_V13.0.10.0.SKKCNXM_2f660809e4_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "haydn_images_V13.0.10.0.SKKCNXM_20220728.0000.00_12.0_cn_2d3aff9bd7.tgz"
                 },
                 {
                     "miui": "V13.0.8.0.SKKCNXM",
@@ -568,6 +1066,12 @@
             "enname": "Global Stable",
             "links": [
                 {
+                    "miui": "V13.0.4.0.SKKMIXM",
+                    "android": "12.0",
+                    "recovery": "miui_HAYDNGlobal_V13.0.4.0.SKKMIXM_22f6104546_12.0.zip",
+                    "fastboot": "haydn_global_images_V13.0.4.0.SKKMIXM_20221115.0000.00_12.0_global_5ef8cfca17.tgz"
+                },
+                {
                     "miui": "V13.0.3.0.SKKMIXM",
                     "android": "12.0",
                     "recovery": "miui_HAYDNGlobal_V13.0.3.0.SKKMIXM_5733263929_12.0.zip",
@@ -631,9 +1135,9 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
                 {
                     "miui": "V13.0.8.0.SKKEUXM",
@@ -693,9 +1197,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.4.0.SKKINXM",

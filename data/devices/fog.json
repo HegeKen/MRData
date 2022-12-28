@@ -1,11 +1,11 @@
 {
-   "codename": "fog",
+    "codename": "fog",
     "cnname": "Redmi 10C",
     "enname": "Redmi 10C",
-    "attentions":[
+    "attentions": [
         {
-            "cn":"",
-            "en":""
+            "cn": "",
+            "en": ""
         }
     ],
     "branches": [
@@ -15,6 +15,12 @@
             "cnname": "台湾地区稳定版",
             "enname": "China Taiwan Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SGETWXM",
+                    "android": "12.0",
+                    "recovery": "miui_FOGTWGlobal_V13.0.2.0.SGETWXM_2c0e11ce22_12.0.zip",
+                    "fastboot": "fog_tw_global_images_V13.0.2.0.SGETWXM_20221116.0000.00_12.0_global_3facad277f.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SGETWXM",
                     "android": "12.0",
@@ -58,6 +64,12 @@
                     "android": "12.0",
                     "recovery": "miui_FOGGlobal_V13.0.2.0.SGEMIXM_c5e52078c0_12.0.zip",
                     "fastboot": "fog_global_images_V13.0.2.0.SGEMIXM_20220704.0000.00_12.0_global_a07ce025c9.tgz"
+                },
+                {
+                    "miui": "V13.0.13.0.RGEMIXM",
+                    "android": "11.0",
+                    "recovery": "miui_FOGGlobal_V13.0.13.0.RGEMIXM_2fb38d54c9_11.0.zip",
+                    "fastboot": "fog_global_images_V13.0.13.0.RGEMIXM_20221117.0000.00_11.0_global_c5fbd2b02b.tgz"
                 },
                 {
                     "miui": "V13.0.12.0.RGEMIXM",
@@ -105,10 +117,16 @@
         },
         {
             "branch": "eeas",
-                "show": "1",
-                "cnname": "欧洲EEA稳定版",
-                "enname": "Europe EEA Stable",
+            "show": "1",
+            "cnname": "欧洲EEA稳定版",
+            "enname": "Europe EEA Stable",
             "links": [
+                {
+                    "miui": "V13.0.3.0.SGEEUXM",
+                    "android": "12.0",
+                    "recovery": "miui_FOGEEAGlobal_V13.0.3.0.SGEEUXM_5a9b6e6261_12.0.zip",
+                    "fastboot": "fog_eea_global_images_V13.0.3.0.SGEEUXM_20221123.0000.00_12.0_eea_1311d70bf3.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SGEEUXM",
                     "android": "12.0",
@@ -143,10 +161,16 @@
         },
         {
             "branch": "russ",
-                "show": "1",
-                "cnname": "俄罗斯稳定版",
-                "enname": "Russia Stable",
+            "show": "1",
+            "cnname": "俄罗斯稳定版",
+            "enname": "Russia Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SGERUXM",
+                    "android": "12.0",
+                    "recovery": "miui_FOGRUGlobal_V13.0.2.0.SGERUXM_dd021d319d_12.0.zip",
+                    "fastboot": "fog_ru_global_images_V13.0.2.0.SGERUXM_20221108.0000.00_12.0_global_3c26f0d6ed.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SGERUXM",
                     "android": "12.0",
@@ -175,9 +199,9 @@
         },
         {
             "branch": "inds",
-                "show": "1",
-                "cnname": "印度稳定版",
-                "enname": "India Stable",
+            "show": "1",
+            "cnname": "印度稳定版",
+            "enname": "India Stable",
             "links": [
                 {
                     "miui": "V13.0.8.0.RGEINXM",
@@ -219,15 +243,21 @@
         },
         {
             "branch": "inns",
-                "show": "1",
-                "cnname": "印度尼西亚稳定版",
-                "enname": "Indonesia Stable",
+            "show": "1",
+            "cnname": "印度尼西亚稳定版",
+            "enname": "Indonesia Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SGEIDXM",
+                    "android": "12.0",
+                    "recovery": "miui_FOGIDGlobal_V13.0.2.0.SGEIDXM_24ddc31af8_12.0.zip",
+                    "fastboot": "fog_id_global_images_V13.0.2.0.SGEIDXM_20221107.0000.00_12.0_global_d30e58a626.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SGEIDXM",
                     "android": "12.0",
                     "recovery": "miui_FOGIDGlobal_V13.0.1.0.SGEIDXM_529d7635c1_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "fog_id_global_images_V13.0.1.0.SGEIDXM_20220816.0000.00_12.0_global_5abe42e296.tgz"
                 },
                 {
                     "miui": "V13.0.4.0.RGEIDXM",
@@ -251,15 +281,21 @@
         },
         {
             "branch": "trks",
-                "show": "1",
-                "cnname": "土耳其稳定版",
-                "enname": "Turkey Stable",
+            "show": "1",
+            "cnname": "土耳其稳定版",
+            "enname": "Turkey Stable",
             "links": [
+                {
+                    "miui": "V13.0.2.0.SGETRXM",
+                    "android": "12.0",
+                    "recovery": "miui_FOGTRGlobal_V13.0.2.0.SGETRXM_d639670b03_12.0.zip",
+                    "fastboot": "fog_tr_global_images_V13.0.2.0.SGETRXM_20221116.0000.00_12.0_global_d2439ca979.tgz"
+                },
                 {
                     "miui": "V13.0.1.0.SGETRXM",
                     "android": "12.0",
                     "recovery": "miui_FOGTRGlobal_V13.0.1.0.SGETRXM_c7bab6df75_12.0.zip",
-                    "fastboot": ""
+                    "fastboot": "fog_tr_global_images_V13.0.1.0.SGETRXM_20220823.0000.00_12.0_global_b65d848135.tgz"
                 },
                 {
                     "miui": "V13.0.1.0.RGETRXM",
