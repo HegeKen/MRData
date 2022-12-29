@@ -4,8 +4,20 @@
     "enname": "MI 1/1S",
     "attentions": [
         {
-            "cn": "",
-            "en": ""
+            "cn": "推荐版适用于普通版,1S不可刷",
+            "en": "All Suggested Edition is not compatible with 1S model."
+        },
+        {
+            "cn": "开发版：普通版通用，电信版可刷2.3.16及后续，青春版可刷2.5.18及后续，1S可刷2.8.24及后续，1S青春版可刷2.10.26及后续",
+            "en": "China Beta: for China Telecom Devices please use 2.3.16 and further versions; Mi 1 Lite Devices please use 2.5.18 and further versions; Mi 1S Devices please use 2.8.24 and further version; Mi 1S Lite device please use 2.10.26 and further versions."
+        },
+        {
+            "cn": "稳定版：适用于大部分小米1系列,青春版可刷ICS3.0及后续，1S可刷ICS13.0及后续，1S青春版可刷ICS19.0及后续",
+            "en": "Stable ROMS：Mi 1 Lite devices user ICS3.0 and further versions; Mi 1S Devices please use ICS13.0 abd further versions; Mi 1S Lite devices please use ICS19.0 and further versions."
+        },
+        {
+            "cn": "原生安卓：适用于大部分小米1系列,青春版可刷QDR65及后续，1S可刷QDR66及后续",
+            "en": "Stock Android：Mi 1 Lite devices please use QDR65 and further; Mi 1S Devices please use QDR66 and further."
         }
     ],
     "branches": [
@@ -1118,22 +1130,10 @@
                     "fastboot": "miui_MiOne_Plus_2.3.5y_fastboot1.exe"
                 },
                 {
-                    "miui": "2.3.5y",
-                    "android": "2.3.5",
-                    "recovery": "miui_Mione_2.3.5y_k53b3zi30r_2.3.zip",
-                    "fastboot": "miui_MiOne_2.3.5y_fastboot1.exe"
-                },
-                {
                     "miui": "2.3.5v",
                     "android": "2.3.5",
                     "recovery": "miui_Mioneplus_2.3.5v_0ll8r61ofv_2.3.zip",
                     "fastboot": "miui_MiOne_Plus_2.3.5v_fastboot.exe"
-                },
-                {
-                    "miui": "2.3.5v",
-                    "android": "2.3.5",
-                    "recovery": "miui_Mione_2.3.5v_oew1qmg28m_2.3.zip",
-                    "fastboot": "miui_MiOne_2.3.5v_fastboot.exe"
                 },
                 {
                     "miui": "2.3.5s",
@@ -1160,22 +1160,10 @@
                     "fastboot": "miui_Mioneplus_2.3.5n_fastboot.zip"
                 },
                 {
-                    "miui": "2.3.6f",
-                    "android": "2.3.6",
-                    "recovery": "miui_MioneplusCDMA_2.3.6f_buf4714wvv_2.3.zip",
-                    "fastboot": "miui_MiOne_C1_CDMA_2.3.6f_fastboot_28fkvs8vqg.exe"
-                },
-                {
                     "miui": "2.3.5k",
                     "android": "2.3.5",
                     "recovery": "miui_Mioneplus_2.3.5k_za1y3fyre1_2.3.zip",
                     "fastboot": "miui_Mioneplus_2.3.5k_fastboot.zip"
-                },
-                {
-                    "miui": "2.3.5y",
-                    "android": "2.3.5",
-                    "recovery": "",
-                    "fastboot": "miui_MiOne_C1_CDMA_CT_2.3.5y_fastboot1.exe"
                 },
                 {
                     "miui": "2.3.5j",
@@ -1184,22 +1172,10 @@
                     "fastboot": ""
                 },
                 {
-                    "miui": "2.3.5y",
-                    "android": "2.3.5",
-                    "recovery": "miui_MioneplusCDMA_2.3.5y_b0wb0jca95_2.3.zip",
-                    "fastboot": "miui_MiOne_C1_CDMA_2.3.5y_fastboot1.exe"
-                },
-                {
                     "miui": "2.3.5i",
                     "android": "2.3.5",
                     "recovery": "miui_Mioneplus_2.3.5i_ixqeanmzil_2.3.zip",
                     "fastboot": ""
-                },
-                {
-                    "miui": "2.3.5v",
-                    "android": "2.3.5",
-                    "recovery": "miui_MioneplusCDMA_2.3.5v_12wqgq42mg_2.3.zip",
-                    "fastboot": "miui_MiOne_C1_CDMA_2.3.5v_fastboot_1.exe"
                 },
                 {
                     "miui": "2.3.5h",
@@ -1208,34 +1184,10 @@
                     "fastboot": ""
                 },
                 {
-                    "miui": "2.3.5s",
-                    "android": "2.3.5",
-                    "recovery": "miui_MioneplusCDMA_2.3.5s_bzv2w9l1ft_2.3.zip",
-                    "fastboot": "miui_MioneplusCDMA_2.3.5s_fastboot.exe"
-                },
-                {
-                    "miui": "2.3.5y",
-                    "android": "2.3.5",
-                    "recovery": "",
-                    "fastboot": "miui_MiOne_Plus_CU_2.3.5y_fastboot1.exe"
-                },
-                {
                     "miui": "2.3.5g",
                     "android": "2.3.5",
                     "recovery": "miui_Mioneplus_2.3.5g_xv7rwjqdkt_2.3.zip",
                     "fastboot": ""
-                },
-                {
-                    "miui": "2.3.5r",
-                    "android": "2.3.5",
-                    "recovery": "miui_MioneplusCDMA_2.3.5r_c0l8mwf38z_2.3.zip",
-                    "fastboot": "miui_MioneplusCDMA_2.3.5r_fastboot.exe"
-                },
-                {
-                    "miui": "2.3.5v",
-                    "android": "2.3.5",
-                    "recovery": "",
-                    "fastboot": "miui_MiOne_Plus_CU_2.3.5v_fastboot.exe"
                 },
                 {
                     "miui": "2.3.5f",
@@ -1244,34 +1196,10 @@
                     "fastboot": ""
                 },
                 {
-                    "miui": "2.3.5q",
-                    "android": "2.3.5",
-                    "recovery": "miui_MioneplusCDMA_2.3.5q_4fahjtiidr_2.3.zip",
-                    "fastboot": "miui_MioneplusCDMA_2.3.5q_fastboot.exe"
-                },
-                {
-                    "miui": "2.3.5s",
-                    "android": "2.3.5",
-                    "recovery": "",
-                    "fastboot": "miui_MioneplusCU_2.3.5s_fastboot.exe"
-                },
-                {
                     "miui": "2.3.5e",
                     "android": "2.3.5",
                     "recovery": "miui_Mioneplus_2.3.5e_kua0s51cc2_2.3.zip",
                     "fastboot": ""
-                },
-                {
-                    "miui": "2.3.5p",
-                    "android": "2.3.5",
-                    "recovery": "miui_MioneplusCDMA_2.3.5p_9jkcyxvzsw_2.3.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "2.3.5r",
-                    "android": "2.3.5",
-                    "recovery": "",
-                    "fastboot": "miui_MioneplusCU_2.3.5r_fastboot.exe"
                 },
                 {
                     "miui": "2.3.5d",
@@ -1280,22 +1208,124 @@
                     "fastboot": ""
                 },
                 {
+                    "miui": "2.3.5c",
+                    "android": "2.3.5",
+                    "recovery": "miui_Mioneplus_2.3.5c_kb0hfqq0vc_2.3.zip",
+                    "fastboot": ""
+                }
+            ]
+        },
+        {
+            "branch": "ctse",
+            "show": "1",
+            "cnname": "中国电信推荐版",
+            "enname": "China Telecom Suggested Edition",
+            "links": [
+                {
+                    "miui": "2.3.6f",
+                    "android": "2.3.6",
+                    "recovery": "miui_MioneplusCDMA_2.3.6f_buf4714wvv_2.3.zip",
+                    "fastboot": "miui_MiOne_C1_CDMA_2.3.6f_fastboot_28fkvs8vqg.exe"
+                },
+                {
+                    "miui": "2.3.5y",
+                    "android": "2.3.5",
+                    "recovery": "miui_MioneplusCDMA_2.3.5y_b0wb0jca95_2.3.zip",
+                    "fastboot": "miui_MiOne_C1_CDMA_2.3.5y_fastboot1.exe"
+                },
+                {
+                    "miui": "2.3.5v",
+                    "android": "2.3.5",
+                    "recovery": "miui_MioneplusCDMA_2.3.5v_12wqgq42mg_2.3.zip",
+                    "fastboot": "miui_MiOne_C1_CDMA_2.3.5v_fastboot_1.exe"
+                },
+                {
+                    "miui": "2.3.5s",
+                    "android": "2.3.5",
+                    "recovery": "miui_MioneplusCDMA_2.3.5s_bzv2w9l1ft_2.3.zip",
+                    "fastboot": "miui_MioneplusCDMA_2.3.5s_fastboot.exe"
+                },
+                {
+                    "miui": "2.3.5r",
+                    "android": "2.3.5",
+                    "recovery": "miui_MioneplusCDMA_2.3.5r_c0l8mwf38z_2.3.zip",
+                    "fastboot": "miui_MioneplusCDMA_2.3.5r_fastboot.exe"
+                },
+                {
+                    "miui": "2.3.5q",
+                    "android": "2.3.5",
+                    "recovery": "miui_MioneplusCDMA_2.3.5q_4fahjtiidr_2.3.zip",
+                    "fastboot": "miui_MioneplusCDMA_2.3.5q_fastboot.exe"
+                },
+                {
+                    "miui": "2.3.5p",
+                    "android": "2.3.5",
+                    "recovery": "miui_MioneplusCDMA_2.3.5p_9jkcyxvzsw_2.3.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "2.3.5n",
                     "android": "2.3.5",
                     "recovery": "miui_MioneplusCDMA_2.3.5n_wz230eel9c_2.3.zip",
                     "fastboot": "miui_MioneplusCDMA_2.3.5n_fastboot.zip"
+                }
+            ]
+        },
+        {
+            "branch": "cuse",
+            "show": "1",
+            "cnname": "中国联通推荐版",
+            "enname": "China Unicom Suggested Edition",
+            "links": [
+                {
+                    "miui": "2.3.5y",
+                    "android": "2.3.5",
+                    "recovery": "",
+                    "fastboot": "miui_MiOne_Plus_CU_2.3.5y_fastboot1.exe"
+                },
+                {
+                    "miui": "2.3.5v",
+                    "android": "2.3.5",
+                    "recovery": "",
+                    "fastboot": "miui_MiOne_Plus_CU_2.3.5v_fastboot.exe"
+                },
+                {
+                    "miui": "2.3.5s",
+                    "android": "2.3.5",
+                    "recovery": "",
+                    "fastboot": "miui_MioneplusCU_2.3.5s_fastboot.exe"
+                },
+                {
+                    "miui": "2.3.5r",
+                    "android": "2.3.5",
+                    "recovery": "",
+                    "fastboot": "miui_MioneplusCU_2.3.5r_fastboot.exe"
                 },
                 {
                     "miui": "2.3.5q",
                     "android": "2.3.5",
                     "recovery": "",
                     "fastboot": "miui_MioneplusCU_2.3.5q_fastboot.exe"
+                }
+            ]
+        },
+        {
+            "branch": "litese",
+            "show": "1",
+            "cnname": "标准青春版推荐版",
+            "enname": "Suggested Edition for Mi 1 Lite",
+            "links": [
+                {
+                    "miui": "2.3.5y",
+                    "android": "2.3.5",
+                    "recovery": "miui_Mione_2.3.5y_k53b3zi30r_2.3.zip",
+                    "fastboot": "miui_MiOne_2.3.5y_fastboot1.exe"
                 },
                 {
-                    "miui": "2.3.5c",
+                    "miui": "2.3.5v",
                     "android": "2.3.5",
-                    "recovery": "miui_Mioneplus_2.3.5c_kb0hfqq0vc_2.3.zip",
-                    "fastboot": ""
+                    "recovery": "miui_Mione_2.3.5v_oew1qmg28m_2.3.zip",
+                    "fastboot": "miui_MiOne_2.3.5v_fastboot.exe"
                 }
             ]
         },
