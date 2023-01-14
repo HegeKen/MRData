@@ -8,132 +8,312 @@
     "redate": "2022.01.13",
     "update": "2022.01.14",
     "versions": "V14.0.23.1.9.DEV,V14.0.23.1.10.DEV",
-    "showdevices":"1",
+    "showdevices":"0",
     "devices": [
         {
             "code": "thyme",
             "NameCn": "小米 10S",
             "NameEn": "Mi 10S",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_THYME_V14.0.23.1.9.DEV_f30410e7a4_13.0.zip",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "venus",
             "NameCn": "小米 11",
             "NameEn": "Mi 11",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_VENUS_V14.0.23.1.9.DEV_71594bdf04_13.0.zip",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "star",
             "NameCn": "小米 11 Pro/Ultra",
             "NameEn": "Mi 11 Pro/Ultra",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_STAR_V14.0.23.1.9.DEV_5a90e23a6f_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "renoir",
+            "NameCn": "小米 11 青春版",
+            "NameEn": "Mi 11 Lite 5G",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "cupid",
+            "NameCn": "小米 12",
+            "NameEn": "Xiaomi 12",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "zeus",
             "NameCn": "小米 12 Pro",
             "NameEn": "Xiaomi 12 Pro",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_ZEUS_V14.0.23.1.9.DEV_f681dc25a4_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "psyche",
+            "NameCn": "小米 12X",
+            "NameEn": "Xiaomi 12X",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "daumier",
+            "NameCn": "小米 12 Pro 天玑版",
+            "NameEn": "Xiaomi 12 Pro Dimensity",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "mayfly",
             "NameCn": "小米 12S",
             "NameEn": "Xiaomi 12S",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_MAYFLY_V14.0.23.1.9.DEV_e63cefcd3e_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "unicorn",
+            "NameCn": "小米 12S Pro",
+            "NameEn": "Xiaomi 12S Pro",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "thor",
+            "NameCn": "小米 12S Ultra",
+            "NameEn": "Xiaomi 12S Ultra",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "fuxi",
             "NameCn": "小米 13",
             "NameEn": "Xiaomi 13",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_FUXI_V14.0.23.1.9.DEV_07724d51d9_13.0.zip",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "nuwa",
             "NameCn": "小米 13 Pro",
             "NameEn": "Xiaomi 13 Pro",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_NUWA_V14.0.23.1.9.DEV_d4b1bd913f_13.0.zip",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "odin",
             "NameCn": "小米 MIX 4",
             "NameEn": "MIX 4",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_ODIN_V14.0.23.1.9.DEV_b4dc022062_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "zizhan",
+            "NameCn": "小米 MIX FOLD 2",
+            "NameEn": "Xiaomi MIX Fold 2",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "nabu",
+            "NameCn": "小米平板 5",
+            "NameEn": "Xiaomi Pad 5",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "elish",
             "NameCn": "小米平板 5 Pro Wi-Fi",
             "NameEn": "Xiaomi Pad 5 Pro Wi-Fi",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_ELISH_V14.0.23.1.9.DEV_ebe735d5c1_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "enuma",
+            "NameCn": "小米平板 5 Pro 5G",
+            "NameEn": "Xiaomi Pad 5 Pro 5G",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "dagu",
+            "NameCn": "小米平板 5 Pro 12.4",
+            "NameEn": "Xiaomi Pad 5 Pro 12.4",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "mona",
+            "NameCn": "小米 Civi",
+            "NameEn": "Xiaomi Civi",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "zijin",
+            "NameCn": "小米 Civi 1S",
+            "NameEn": "Xiaomi Civi 1S",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "chopin",
+            "NameCn": "Redmi Note 10 Pro 5G",
+            "NameEn": "Redmi Note 10 Pro 5G",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "pissarro",
+            "NameCn": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
+            "NameEn": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "xaga",
+            "NameCn": "Redmi Note 11T Pro/Pro+",
+            "NameEn": "Redmi Note 11T Pro/Pro+",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "alioth",
             "NameCn": "Redmi K40",
             "NameEn": "Redmi K40",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_ALIOTH_V14.0.23.1.9.DEV_4fddc30295_13.0.zip",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "haydn",
             "NameCn": "Redmi K40 Pro/Pro+",
             "NameEn": "Redmi K40 Pro/Pro+",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_HAYDN_V14.0.23.1.9.DEV_e9e83b0d8d_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "ares",
+            "NameCn": "Redmi K40 游戏增强版",
+            "NameEn": "Redmi K40 Gaming",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "munch",
             "NameCn": "Redmi K40S",
             "NameEn": "Redmi K40S",
-            "miui": "V14.0.23.1.10.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_MUNCH_V14.0.23.1.10.DEV_ef54da34fb_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "rubens",
+            "NameCn": "Redmi K50",
+            "NameEn": "Redmi K50",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "matisse",
             "NameCn": "Redmi K50 Pro",
             "NameEn": "Redmi K50 Pro",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_MATISSE_V14.0.23.1.9.DEV_baa856e169_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "ingres",
+            "NameCn": "Redmi K50 电竞版",
+            "NameEn": "Redmi K50G",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         },
         {
             "code": "diting",
             "NameCn": "Redmi K50 至尊版",
             "NameEn": "Redmi K50 Ultra",
-            "miui": "V14.0.23.1.9.DEV",
+            "miui": "",
             "android": "13.0",
-            "recovery": "miui_DITING_V14.0.23.1.9.DEV_6f11b5fa94_13.0.zip",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "mondrian",
+            "NameCn": "Redmi K60",
+            "NameEn": "Redmi K60",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
+            "fastboot": ""
+        },
+        {
+            "code": "socrates",
+            "NameCn": "Redmi K60 Pro",
+            "NameEn": "Redmi K60 Pro",
+            "miui": "",
+            "android": "13.0",
+            "recovery": "",
             "fastboot": ""
         }
     ],
