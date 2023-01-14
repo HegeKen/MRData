@@ -10,11 +10,10 @@
         "1900001",
         "1900528"
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "cnms",
-          "branch_tag": "Mi 1/1S China",
-          "pattern": "JMACNBL"
+          "flag": "JMACNBL"
         }
       ]
     },
@@ -23,16 +22,17 @@
       "NameCn": "小米 2/2S",
       "NameEn": "MI 2/2S",
       "gid": [
-        "",
-        "",
-        "",
-        ""
+        "1700002",
+        "1900527"
       ],
-      "crawler": [
+      "flags": [
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "branch": "cnms",
+          "flag": "LXACNEK"
+        },
+        {
+          "branch": "mgbs",
+          "flag": "LXAMIEK"
         }
       ]
     },
@@ -41,16 +41,15 @@
       "NameCn": "小米 2A",
       "NameEn": "Mi 2A",
       "gid": [
-        "",
-        "",
-        "",
-        ""
+        "1700037",
+        "1800037",
+        "1900037",
+        "1900526"
       ],
-      "crawler": [
+      "flags": [
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "branch": "cnms",
+          "flag": "JLB"
         }
       ]
     },
@@ -59,16 +58,12 @@
       "NameCn": "小米3 移动版",
       "NameEn": "Mi 3 TD",
       "gid": [
-        "",
-        "",
-        "",
-        ""
+        "1700101"
       ],
-      "crawler": [
+      "flags": [
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "branch": "cnms",
+          "flag": "XCCN"
         }
       ]
     },
@@ -77,88 +72,20 @@
       "NameCn": "小米手机3 联通/电信/小米手机4 移动/联通/电信3G",
       "NameEn": "MI3 WCDMA/Mi 4",
       "gid": [
-        "",
-        "",
-        "",
-        ""
+        "1700240",
+        "1800101",
+        "1800240",
+        "1900101",
+        "1900240"
       ],
-      "crawler": [
+      "flags": [
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
-        }
-      ]
-    },
-    {
-      "code": "cancro_lte_ct",
-      "NameCn": "小米手机4 电信4G",
-      "NameEn": "Mi 4 LTE CT",
-      "gid": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "crawler": [
+          "branch": "cnms",
+          "flag": "XDCN"
+        },
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
-        }
-      ]
-    },
-    {
-      "code": "ferrari",
-      "NameCn": "小米 4i",
-      "NameEn": "MI 4i",
-      "gid": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "crawler": [
-        {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
-        }
-      ]
-    },
-    {
-      "code": "libra",
-      "NameCn": "小米 4C",
-      "NameEn": "Mi 4C",
-      "gid": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "crawler": [
-        {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
-        }
-      ]
-    },
-    {
-      "code": "aqua",
-      "NameCn": "小米 4S",
-      "NameEn": "MI 4S",
-      "gid": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "crawler": [
-        {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "branch": "mgbs",
+          "flag": "XDMI"
         }
       ]
     },
@@ -167,16 +94,14 @@
       "NameCn": "小米 5",
       "NameEn": "MI 5",
       "gid": [
-        "",
-        "",
-        "",
-        ""
+        "1700299",
+        "1800299",
+        "1900299"
       ],
-      "crawler": [
+      "flags": [
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "branch": "mgbs",
+          "flag": "AAMIXM"
         }
       ]
     },
@@ -185,16 +110,14 @@
       "NameCn": "小米 5s",
       "NameEn": "Mi 5s",
       "gid": [
-        "",
-        "",
-        "",
-        ""
+        "1700314",
+        "1800314",
+        "1900314"
       ],
-      "crawler": [
+      "flags": [
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "branch": "mgbs",
+          "flag": "AGMIXM"
         }
       ]
     },
@@ -203,52 +126,14 @@
       "NameCn": "小米 5s Plus",
       "NameEn": "Mi 5s Plus",
       "gid": [
-        "",
-        "",
-        "",
-        ""
+        "1700315",
+        "1800315",
+        "1900315"
       ],
-      "crawler": [
+      "flags": [
         {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
-        }
-      ]
-    },
-    {
-      "code": "meri",
-      "NameCn": "小米 5C",
-      "NameEn": "Mi 5C",
-      "gid": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "crawler": [
-        {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
-        }
-      ]
-    },
-    {
-      "code": "tiffany",
-      "NameCn": "小米 5X",
-      "NameEn": "Mi 5X",
-      "gid": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "crawler": [
-        {
-          "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "branch": "mgbs",
+          "flag": "BGMIXM"
         }
       ]
     },
@@ -257,16 +142,23 @@
       "NameCn": "小米 6",
       "NameEn": "Mi 6",
       "gid": [
-        "",
+        "1700326",
         "",
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -280,11 +172,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -298,11 +197,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -316,11 +222,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -334,11 +247,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -352,11 +272,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -370,11 +297,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -388,11 +322,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -406,11 +347,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -424,11 +372,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -442,11 +397,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -460,11 +422,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -478,11 +447,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -496,11 +472,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -514,11 +497,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -532,11 +522,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -550,11 +547,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -568,11 +572,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -586,11 +597,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -604,11 +622,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -622,11 +647,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -640,11 +672,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -658,11 +697,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -676,11 +722,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -694,11 +747,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -712,11 +772,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -730,11 +797,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -748,11 +822,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -766,11 +847,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -784,11 +872,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -802,11 +897,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -820,11 +922,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -838,11 +947,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -856,11 +972,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -874,11 +997,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -892,11 +1022,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -910,11 +1047,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -928,11 +1072,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -946,11 +1097,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -964,11 +1122,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -982,11 +1147,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1000,11 +1172,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1018,11 +1197,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1036,11 +1222,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1054,11 +1247,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1072,11 +1272,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1090,11 +1297,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1108,11 +1322,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1126,11 +1347,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1144,11 +1372,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1162,11 +1397,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1180,11 +1422,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1198,11 +1447,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1216,11 +1472,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1234,11 +1497,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1252,11 +1522,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1270,11 +1547,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1288,11 +1572,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1306,11 +1597,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1324,11 +1622,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1342,11 +1647,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1357,21 +1669,18 @@
       "gid": [
         "1900403"
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "cntw",
-          "branch_tag": "Xiaoimi pad 5 TW",
-          "pattern": "KXTWXM"
+          "flag": "KXTWXM"
         },
         {
           "branch": "mgbs",
-          "branch_tag": "Xiaoimi pad 5 Global",
-          "pattern": "KXMIXM"
+          "flag": "KXMIXM"
         },
         {
           "branch": "eeas",
-          "branch_tag": "Xiaoimi pad 5 EEA",
-          "pattern": "KXEUXM"
+          "flag": "KXEUXM"
         }
       ]
     },
@@ -1385,11 +1694,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1403,11 +1719,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1421,11 +1744,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1439,11 +1769,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1457,11 +1794,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1475,11 +1819,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1493,11 +1844,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1511,11 +1869,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1528,11 +1893,10 @@
         "1800354",
         "1900354"
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "mgbs",
-          "branch_tag": "Mi A2 Lite",
-          "pattern": "DLMIXM"
+          "flag": "DLMIXM"
         }
       ]
     },
@@ -1544,16 +1908,14 @@
         "1900371",
         "1900372"
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "mgbs",
-          "branch_tag": "Mi A3 Global ",
-          "pattern": "FQMIXM"
+          "flag": "FQMIXM"
         },
         {
           "branch": "eeas",
-          "branch_tag": "Mi A3 EEA",
-          "pattern": "FQEUXM"
+          "flag": "FQEUXM"
         }
       ]
     },
@@ -1567,11 +1929,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1585,11 +1954,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1603,11 +1979,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1621,11 +2004,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1639,11 +2029,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1657,11 +2054,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1675,11 +2079,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1693,11 +2104,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1711,11 +2129,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1729,11 +2154,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1747,11 +2179,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1765,11 +2204,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1783,11 +2229,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1801,11 +2254,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1819,11 +2279,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1837,11 +2304,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1855,11 +2329,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1873,11 +2354,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1891,11 +2379,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1909,11 +2404,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1927,11 +2429,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1945,11 +2454,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1963,11 +2479,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1981,11 +2504,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -1999,11 +2529,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2017,11 +2554,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2035,11 +2579,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2053,11 +2604,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2071,11 +2629,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2089,11 +2654,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2107,11 +2679,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2125,11 +2704,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2143,11 +2729,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2161,11 +2754,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2179,11 +2779,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2197,11 +2804,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2215,11 +2829,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2233,11 +2854,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2251,11 +2879,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2269,11 +2904,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2287,11 +2929,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2305,11 +2954,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2323,11 +2979,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2341,11 +3004,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2359,11 +3029,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2377,11 +3054,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2395,11 +3079,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2413,11 +3104,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2431,11 +3129,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2449,11 +3154,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2467,11 +3179,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2485,11 +3204,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2503,11 +3229,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2521,11 +3254,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2539,11 +3279,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2557,11 +3304,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2575,11 +3329,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2593,11 +3354,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2611,11 +3379,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2629,11 +3404,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2647,11 +3429,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2665,11 +3454,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2683,11 +3479,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2701,11 +3504,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2719,11 +3529,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2737,11 +3554,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2755,11 +3579,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2773,11 +3604,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2791,11 +3629,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2809,11 +3654,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2827,11 +3679,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2845,11 +3704,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2863,11 +3729,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2881,11 +3754,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2899,11 +3779,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2917,11 +3804,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2935,11 +3829,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2953,11 +3854,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2971,11 +3879,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -2989,11 +3904,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3007,11 +3929,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3025,11 +3954,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3043,11 +3979,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3061,11 +4004,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3079,11 +4029,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3097,11 +4054,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3115,11 +4079,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3133,11 +4104,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3151,11 +4129,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3169,11 +4154,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3187,11 +4179,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3205,11 +4204,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3223,11 +4229,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3241,11 +4254,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3259,11 +4279,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3277,11 +4304,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3295,11 +4329,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3313,11 +4354,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3331,11 +4379,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3349,11 +4404,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3367,11 +4429,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3385,11 +4454,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3403,11 +4479,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3421,11 +4504,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3439,11 +4529,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3457,11 +4554,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3475,11 +4579,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3493,11 +4604,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3511,11 +4629,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3529,11 +4654,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3547,11 +4679,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3565,11 +4704,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3583,11 +4729,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3601,11 +4754,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3619,11 +4779,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3637,11 +4804,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3655,11 +4829,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3673,11 +4854,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3691,11 +4879,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3709,11 +4904,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3727,11 +4929,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3745,11 +4954,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3763,11 +4979,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3781,11 +5004,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3799,11 +5029,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3817,11 +5054,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3835,11 +5079,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     },
@@ -3853,11 +5104,18 @@
         "",
         ""
       ],
-      "crawler": [
+      "flags": [
         {
           "branch": "",
-          "branch_tag": "",
-          "pattern": ""
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
+        },
+        {
+          "branch": "",
+          "flag": ""
         }
       ]
     }
