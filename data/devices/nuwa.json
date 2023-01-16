@@ -42,6 +42,12 @@
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
                 {
+                    "miui": "V14.0.12.0.TMBCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_NUWA_V14.0.12.0.TMBCNXM_f06c81d818_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.10.0.TMBCNXM",
                     "android": "13.0",
                     "recovery": "miui_NUWA_V14.0.10.0.TMBCNXM_a92bd7643e_13.0.zip",
@@ -64,20 +70,6 @@
                     "android": "13.0",
                     "recovery": "miui_NUWA_V14.0.4.0.TMBCNXM_c5625d2228_13.0.zip",
                     "fastboot": "nuwa_images_V14.0.4.0.TMBCNXM_20221116.0000.00_13.0_cn_88ccfd8d0f.tgz"
-                }
-            ]
-        },
-        {
-            "branch": "cnms",
-            "show": "0",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
                 }
             ]
         },
