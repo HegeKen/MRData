@@ -30,10 +30,16 @@
             "enname": "China Mainland Stable(MIUI14)",
             "links": [
                 {
+                    "miui": "V14.0.17.0.TMKCNXM",
+                    "android": "13.0",
+                    "recovery": "miui_SOCRATES_V14.0.17.0.TMKCNXM_fe33cdf694_13.0.zip",
+                    "fastboot": ""
+                },
+                {
                     "miui": "V14.0.15.0.TMKCNXM",
                     "android": "13.0",
                     "recovery": "miui_SOCRATES_V14.0.15.0.TMKCNXM_a548d054e6_13.0.zip",
-                    "fastboot": ""
+                    "fastboot": "socrates_images_V14.0.15.0.TMKCNXM_20230110.0000.00_13.0_cn_2b61de6aff.tgz"
                 },
                 {
                     "miui": "V14.0.13.0.TMKCNXM",
@@ -58,20 +64,6 @@
                     "android": "13.0",
                     "recovery": "miui_SOCRATES_V14.0.4.0.TMKCNXM_5f4307fb62_13.0.zip",
                     "fastboot": "socrates_images_V14.0.4.0.TMKCNXM_20221213.0000.00_13.0_cn_0b17ad4b61.tgz"
-                }
-            ]
-        },
-        {
-            "branch": "cnms",
-            "show": "0",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
                 }
             ]
         },
