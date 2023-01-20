@@ -22,6 +22,18 @@ span a{
 a:visited{
   color:blue;
 }
+.mdui-tab-active {
+  color: white !important;
+}
+.mdui-tab-active a{
+  color: black !important;
+}
+.mdui-tab-active a:visited{
+  color: black !important;
+}
+.tools .mdui-tab-active {
+  color: black !important;
+}
 span{
   margin:2px;
 }
@@ -38,18 +50,10 @@ a span{
 .mdui-bottom-nav-active {
   color: black !important;
 }
-.mdui-tab-active {
-  color: white !important;
-}
 div .switcher .mdui-tab-active {
   color: black !important;
 }
-.mdui-tab-active a{
-  color: black !important;
-}
-.mdui-tab-active a:visited{
-  color: black !important;
-}
+
 .mdui-bottom-nav a:visited{
   color: black !important;
 }
