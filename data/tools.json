@@ -159,20 +159,20 @@
             "showlogs":"true",
             "attentions": [
                 {
-                    "Cn": "目前内测的版本暂不设备文件管理功能，后续更新后会支持，敬请期待我们的更新。",
-                    "En": ""
-                },
-                {
                     "Cn": "备份连接过程中手机会对手机中的数据进行计算，计算时间因手机数据多少而异，一般为数十秒到若干分钟不等（手机中微信、QQ数据文件过多也会使计算时间变长），此时请您耐心等待，您也可以通过下拉手机通知栏查看计算数据进度。",
-                    "En": ""
+                    "En": "Data calculation and compression will take place while backing up your data, the more data you have, the long it will take, so please be patient while waiting, and check notification center for any progress."
                 },
                 {
-                    "Cn": "小米助手3.0的恢复功能暂不支持小米助手2.0的备份文件哦~",
-                    "En": ""
+                    "Cn": "备份还原不支持微信记录的数据备份和还原，请使用微信内置的聊天记录迁移功能。",
+                    "En": "'Mi Back up' DON'T support WeChat history and files, please use WeChat's built in back up utility instead."
+                },
+                {
+                    "Cn": "小米助手3.0二期的恢复功能暂不支持小米助手2.0的备份文件哦~",
+                    "En": "Mi PC Suite 3.0 DOSE NOT support backing up from 2.0 Backup files."
                 },
                 {
                     "Cn": "极速刷机需要清除用户数据，请您刷机前备份好数据！！！",
-                    "En": ""
+                    "En": "FastFlash Feature will wipe all user data, please make sure you have backed up your data."
                 }
             ],
             "logs": [
