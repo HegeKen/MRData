@@ -1,295 +1,379 @@
 {
-    "codename": "mona",
-    "cnname": "小米 Civi",
-    "enname": "Xiaomi Civi",
-    "attentions": [
+  "codename": "mona",
+  "cnname": "小米 Civi",
+  "enname": "Xiaomi Civi",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "cn": "",
-            "en": ""
-        }
-    ],
-    "branches": [
-        {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "V14.0.23.1.3.DEV",
-                    "android": "13.0",
-                    "recovery": "miui_MONA_V14.0.23.1.3.DEV_16b858da34_13.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V14.0.22.12.28.DEV",
-                    "android": "13.0",
-                    "recovery": "miui_MONA_V14.0.22.12.28.DEV_779947b8a9_13.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V14.0.22.12.27.DEV",
-                    "android": "13.0",
-                    "recovery": "miui_MONA_V14.0.22.12.27.DEV_05fbd52dd6_13.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V14.0.22.12.26.DEV",
-                    "android": "13.0",
-                    "recovery": "miui_MONA_V14.0.22.12.26.DEV_e9095d7849_13.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V14.0.22.12.19.DEV",
-                    "android": "13.0",
-                    "recovery": "miui_MONA_V14.0.22.12.19.DEV_4e8460c9c2_13.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V14.0.22.12.8.DEV",
-                    "android": "13.0",
-                    "recovery": "miui_MONA_V14.0.22.12.8.DEV_702c04b800_13.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V14.0.22.12.5.DEV",
-                    "android": "13.0",
-                    "recovery": "miui_MONA_V14.0.22.12.5.DEV_30f4bb5284_13.0.zip",
-                    "fastboot": "mona_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_8db92cfca9.tgz"
-                },
-                {
-                    "miui": "V13.1.22.10.24.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.1.22.10.24.DEV_a758d89a41_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.1.22.9.28.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.1.22.9.28.DEV_ca981fe528_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.1.22.9.19.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.1.22.9.19.DEV_725502fe67_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.1.22.9.5.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.1.22.9.5.DEV_bb76e68e2a_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.0.4.1.35.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.4.1.35.DEV_d78ccf2161_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.0.4.1.32.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.4.1.32.DEV_7cd004af9a_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.0.3.1.18.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.3.1.18.DEV_73dc89ac33_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.0.3.1.16.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.3.1.16.DEV_8d29c65e41_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.0.3.1.15.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.3.1.15.DEV_a2b2ca21cf_12.0.zip",
-                    "fastboot": "mona_images_V13.0.3.1.15.DEV_20220308.0000.00_12.0_cn_04a4fb062d.tgz"
-                },
-                {
-                    "miui": "V13.0.2.1.11.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.2.1.11.DEV_e8fd3c8f88_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V13.0.0.1.5.DEV",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.0.1.5.DEV_4c582c7cbd_12.0.zip",
-                    "fastboot": "mona_images_V13.0.0.1.5.DEV_20220118.0000.00_12.0_cn_2f658388f2.tgz"
-                },
-                {
-                    "miui": "22.3.23",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.3.23_2db23136ed_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "22.3.3",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.3.3_4320e11b63_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "22.2.23",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.2.23_f2f7b5a6ef_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "22.2.17",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.2.17_452de71163_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "22.2.9",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.2.9_63a0d3ad5b_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "22.1.19",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.1.19_79f25aee0c_12.0.zip",
-                    "fastboot": "mona_pre_images_22.1.19_20220119.0000.00_12.0_cn_cb01e5a8b1.tgz"
-                },
-                {
-                    "miui": "22.1.13",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.1.13_172bf41114_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "22.1.5",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_22.1.5_45f253d9f4_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.12.29",
-                    "android": "12.0",
-                    "recovery": "miui_MONAPRE_21.12.29_27638ad03c_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.12.8",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_21.12.8_ecf164e27f_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.12.1",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_21.12.1_eb60db5048_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.11.25",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_21.11.25_a4871f9efb_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.11.17",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_21.11.17_a8590745ce_12.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.10.27",
-                    "android": "11.0",
-                    "recovery": "miui_MONA_21.10.27_329f9b328d_11.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V14.0.23.1.3.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.23.1.3.DEV_16b858da34_13.0.zip",
+          "fastboot": ""
         },
         {
-            "branch": "cnmo",
-            "show": "0",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V14.0.22.12.28.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.22.12.28.DEV_779947b8a9_13.0.zip",
+          "fastboot": ""
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V13.0.6.0.SKVCNXM",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.6.0.SKVCNXM_a07bd21017_12.0.zip",
-                    "fastboot": "mona_images_V13.0.6.0.SKVCNXM_20220817.0000.00_12.0_cn_69e644a3ac.tgz"
-                },
-                {
-                    "miui": "V13.0.5.0.SKVCNXM",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.5.0.SKVCNXM_6f3078996e_12.0.zip",
-                    "fastboot": "mona_images_V13.0.5.0.SKVCNXM_20220606.0000.00_12.0_cn_a5e72127d9.tgz"
-                },
-                {
-                    "miui": "V13.0.3.0.SKVCNXM",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.3.0.SKVCNXM_f52499d7bf_12.0.zip",
-                    "fastboot": "mona_images_V13.0.3.0.SKVCNXM_20220216.0000.00_12.0_cn_553560226f.tgz"
-                },
-                {
-                    "miui": "V13.0.2.0.SKVCNXM",
-                    "android": "12.0",
-                    "recovery": "miui_MONA_V13.0.2.0.SKVCNXM_94db24489f_12.0.zip",
-                    "fastboot": "mona_images_V13.0.2.0.SKVCNXM_20220123.0000.00_12.0_cn_1e0d81790e.tgz"
-                },
-                {
-                    "miui": "V12.5.9.0.RKVCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_MONA_V12.5.9.0.RKVCNXM_fff41dc658_11.0.zip",
-                    "fastboot": "mona_images_V12.5.9.0.RKVCNXM_20211211.0000.00_11.0_cn_ba22c8a082.tgz"
-                },
-                {
-                    "miui": "V12.5.8.0.RKVCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_MONA_V12.5.8.0.RKVCNXM_2720db21d3_11.0.zip",
-                    "fastboot": "mona_images_V12.5.8.0.RKVCNXM_20211110.0000.00_11.0_cn_30608eb6f6.tgz"
-                },
-                {
-                    "miui": "V12.5.7.0.RKVCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_MONA_V12.5.7.0.RKVCNXM_ddbe5bce60_11.0.zip",
-                    "fastboot": "mona_images_V12.5.7.0.RKVCNXM_20211023.0000.00_11.0_cn_f1d990d23a.tgz"
-                },
-                {
-                    "miui": "V12.5.5.0.RKVCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_MONA_V12.5.5.0.RKVCNXM_2513b05d67_11.0.zip",
-                    "fastboot": "mona_images_V12.5.5.0.RKVCNXM_20210930.0000.00_11.0_cn_32150508e6.tgz"
-                },
-                {
-                    "miui": "V12.5.3.0.RKVCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_MONA_V12.5.3.0.RKVCNXM_92fd6a9cd4_11.0.zip",
-                    "fastboot": "mona_images_V12.5.3.0.RKVCNXM_20210923.0000.00_11.0_cn_a3075068f4.tgz"
-                },
-                {
-                    "miui": "V12.5.1.0.RKVCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_MONA_V12.5.1.0.RKVCNXM_820f90d0d7_11.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V14.0.22.12.27.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.22.12.27.DEV_05fbd52dd6_13.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.22.12.26.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.22.12.26.DEV_e9095d7849_13.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.22.12.19.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.22.12.19.DEV_4e8460c9c2_13.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.22.12.8.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.22.12.8.DEV_702c04b800_13.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.22.12.5.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.22.12.5.DEV_30f4bb5284_13.0.zip",
+          "fastboot": "mona_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_8db92cfca9.tgz"
+        },
+        {
+          "miui": "22.10.26",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.26_beb0a29c4d_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.25",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.25_a2b7fca2f1_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.1.22.10.24.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.1.22.10.24.DEV_a758d89a41_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.24",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.24_db809e3859_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.21",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.21_68765daf26_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.19",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.19_0018b3ff49_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.18",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.18_dd0bd379be_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.17",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.17_90b7bd75c5_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.14",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.14_092379d6d7_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.12",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.12_da5190df46_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.11",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.11_ebcf8b8359_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.10",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.10_62df509266_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.10.8",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.10.8_7e0bfcac40_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.9.29",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.9.29_1856f1e10c_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.1.22.9.28.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.1.22.9.28.DEV_ca981fe528_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.9.28",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.9.28_c4e15ea7de_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.1.22.9.19.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.1.22.9.19.DEV_725502fe67_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.1.22.9.5.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.1.22.9.5.DEV_bb76e68e2a_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.4.1.35.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.4.1.35.DEV_d78ccf2161_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.4.1.32.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.4.1.32.DEV_7cd004af9a_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.3.1.18.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.3.1.18.DEV_73dc89ac33_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.3.1.16.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.3.1.16.DEV_8d29c65e41_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.3.1.15.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.3.1.15.DEV_a2b2ca21cf_12.0.zip",
+          "fastboot": "mona_images_V13.0.3.1.15.DEV_20220308.0000.00_12.0_cn_04a4fb062d.tgz"
+        },
+        {
+          "miui": "V13.0.2.1.11.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.2.1.11.DEV_e8fd3c8f88_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.0.1.5.DEV",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.0.1.5.DEV_4c582c7cbd_12.0.zip",
+          "fastboot": "mona_images_V13.0.0.1.5.DEV_20220118.0000.00_12.0_cn_2f658388f2.tgz"
+        },
+        {
+          "miui": "22.3.23",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.3.23_2db23136ed_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.3.3",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.3.3_4320e11b63_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.2.23",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.2.23_f2f7b5a6ef_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.2.17",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.2.17_452de71163_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.2.9",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.2.9_63a0d3ad5b_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.1.19",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.1.19_79f25aee0c_12.0.zip",
+          "fastboot": "mona_pre_images_22.1.19_20220119.0000.00_12.0_cn_cb01e5a8b1.tgz"
+        },
+        {
+          "miui": "22.1.13",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.1.13_172bf41114_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "22.1.5",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_22.1.5_45f253d9f4_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.12.29",
+          "android": "12.0",
+          "recovery": "miui_MONAPRE_21.12.29_27638ad03c_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.12.8",
+          "android": "12.0",
+          "recovery": "miui_MONA_21.12.8_ecf164e27f_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.12.1",
+          "android": "12.0",
+          "recovery": "miui_MONA_21.12.1_eb60db5048_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.25",
+          "android": "12.0",
+          "recovery": "miui_MONA_21.11.25_a4871f9efb_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.17",
+          "android": "12.0",
+          "recovery": "miui_MONA_21.11.17_a8590745ce_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.27",
+          "android": "11.0",
+          "recovery": "miui_MONA_21.10.27_329f9b328d_11.0.zip",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cnmo",
+      "show": "0",
+      "cnname": "中国大陆正式版",
+      "enname": "China Mainland Stable(MIUI14)",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V13.0.6.0.SKVCNXM",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.6.0.SKVCNXM_a07bd21017_12.0.zip",
+          "fastboot": "mona_images_V13.0.6.0.SKVCNXM_20220817.0000.00_12.0_cn_69e644a3ac.tgz"
+        },
+        {
+          "miui": "V13.0.5.0.SKVCNXM",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.5.0.SKVCNXM_6f3078996e_12.0.zip",
+          "fastboot": "mona_images_V13.0.5.0.SKVCNXM_20220606.0000.00_12.0_cn_a5e72127d9.tgz"
+        },
+        {
+          "miui": "V13.0.3.0.SKVCNXM",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.3.0.SKVCNXM_f52499d7bf_12.0.zip",
+          "fastboot": "mona_images_V13.0.3.0.SKVCNXM_20220216.0000.00_12.0_cn_553560226f.tgz"
+        },
+        {
+          "miui": "V13.0.2.0.SKVCNXM",
+          "android": "12.0",
+          "recovery": "miui_MONA_V13.0.2.0.SKVCNXM_94db24489f_12.0.zip",
+          "fastboot": "mona_images_V13.0.2.0.SKVCNXM_20220123.0000.00_12.0_cn_1e0d81790e.tgz"
+        },
+        {
+          "miui": "V12.5.9.0.RKVCNXM",
+          "android": "11.0",
+          "recovery": "miui_MONA_V12.5.9.0.RKVCNXM_fff41dc658_11.0.zip",
+          "fastboot": "mona_images_V12.5.9.0.RKVCNXM_20211211.0000.00_11.0_cn_ba22c8a082.tgz"
+        },
+        {
+          "miui": "V12.5.8.0.RKVCNXM",
+          "android": "11.0",
+          "recovery": "miui_MONA_V12.5.8.0.RKVCNXM_2720db21d3_11.0.zip",
+          "fastboot": "mona_images_V12.5.8.0.RKVCNXM_20211110.0000.00_11.0_cn_30608eb6f6.tgz"
+        },
+        {
+          "miui": "V12.5.7.0.RKVCNXM",
+          "android": "11.0",
+          "recovery": "miui_MONA_V12.5.7.0.RKVCNXM_ddbe5bce60_11.0.zip",
+          "fastboot": "mona_images_V12.5.7.0.RKVCNXM_20211023.0000.00_11.0_cn_f1d990d23a.tgz"
+        },
+        {
+          "miui": "V12.5.5.0.RKVCNXM",
+          "android": "11.0",
+          "recovery": "miui_MONA_V12.5.5.0.RKVCNXM_2513b05d67_11.0.zip",
+          "fastboot": "mona_images_V12.5.5.0.RKVCNXM_20210930.0000.00_11.0_cn_32150508e6.tgz"
+        },
+        {
+          "miui": "V12.5.3.0.RKVCNXM",
+          "android": "11.0",
+          "recovery": "miui_MONA_V12.5.3.0.RKVCNXM_92fd6a9cd4_11.0.zip",
+          "fastboot": "mona_images_V12.5.3.0.RKVCNXM_20210923.0000.00_11.0_cn_a3075068f4.tgz"
+        },
+        {
+          "miui": "V12.5.1.0.RKVCNXM",
+          "android": "11.0",
+          "recovery": "miui_MONA_V12.5.1.0.RKVCNXM_820f90d0d7_11.0.zip",
+          "fastboot": ""
+        }
+      ]
+    }
+  ]
 }

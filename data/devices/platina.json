@@ -1,1037 +1,1121 @@
 {
-    "codename": "platina",
-    "cnname": "小米 8 青春版",
-    "enname": "Mi 8 Lite",
-    "attentions": [
+  "codename": "platina",
+  "cnname": "小米 8 青春版",
+  "enname": "Mi 8 Lite",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "miui": "20.9.4",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.9.4_8b364d6684_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.3",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.9.3_58614b0cce_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.2",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.9.2_d24d5fca22_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.1",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.9.1_bbb28db3bd_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.27",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.27_3dff80278e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.26",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.26_8fcbff517d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.25",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.25_a09f3f22ec_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.24",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.24_37ad61d1ae_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.20",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.20_9e8167e427_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.19",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.19_625382d711_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.18",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.18_c4343a591c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.17",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.17_862e65fe2c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.13",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.13_0094b26770_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.12",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.12_2bd872f878_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.11",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.11_0b541a01b3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.10",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.10_3759ea9da6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.7",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.7_f30ad590a8_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.6",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.6_4171215108_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.5",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.5_c0d5bb231e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.4",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.8.4_cb780e04e4_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.30",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.7.30_2c5439a595_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.23",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.7.23_a1270fe1ab_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.16",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.7.16_78fdd58c3f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.9",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.7.9_f70a741406_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.2",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.7.2_53da5e21cf_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.18",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.6.18_e7a82afa4f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.17",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.6.17_ea57afe771_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.11",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.6.11_bd26d176ce_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.4",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.6.4_1357415f09_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.28",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.5.28_1c4e513313_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.21",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.5.21_4c776d4d43_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.14",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.5.14_681ded80d3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.7",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.5.7_083c3ae766_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.4.30",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.4.30_a1ea02e3a0_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.4.27",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.4.27_612f890248_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.26",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.3.26_053dcfdb5d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.19",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.3.19_5fc8cd89e1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.12",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.3.12_70ec4ae34a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.5",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.3.5_e9b0a649f2_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.27",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.2.27_26001ef0c1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.21",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.1.21_0c5d8593c9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.16",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.1.16_e08f975a74_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.9",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.1.9_6305b2ae20_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.2",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_20.1.2_5495256d04_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.26",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_9.12.26_dbdd3c50ca_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.19",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_9.12.19_1c1fdc6013_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.12",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_9.12.12_6ad0b4b08e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.5",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_9.12.5_06dc5aca02_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.14",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.11.14_00a1ef5c5e_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.7",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.11.7_82623632b6_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.31",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.10.31_405595c7e2_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.24",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.10.24_5c92ad5699_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.17",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.10.17_e18ec42046_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.16",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.10.16_161c3f7a83_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.10",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.10.10_60212a785c_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.26",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.9.26_d82a83e0a7_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.3",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.9.3_cec06e7e18_9.0.zip",
+          "fastboot": "platina_images_9.9.3_20190904.0000.00_9.0_cn_99468158f9.tgz"
+        },
+        {
+          "miui": "9.8.29",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.8.29_21e6313d19_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.22",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.8.22_825c9521c8_9.0.zip",
+          "fastboot": "platina_images_9.8.22_20190822.0000.00_9.0_cn_0f5ff9542a.tgz"
+        },
+        {
+          "miui": "9.8.15",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.8.15_30e9e41473_9.0.zip",
+          "fastboot": "platina_images_9.8.15_20190815.0000.00_9.0_cn_120e3f4ced.tgz"
+        },
+        {
+          "miui": "9.8.9",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.8.9_0c7cb18bdf_9.0.zip",
+          "fastboot": "platina_images_9.8.9_20190809.0000.00_9.0_cn_1eec798855.tgz"
+        },
+        {
+          "miui": "9.8.8",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.8.8_49df975103_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.1",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.8.1_a3a1a0bb09_9.0.zip",
+          "fastboot": "platina_images_9.8.1_20190801.0000.00_9.0_cn_64fa3b9b46.tgz"
+        },
+        {
+          "miui": "9.7.25",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.7.25_0df7570709_9.0.zip",
+          "fastboot": "platina_images_9.7.25_20190725.0000.00_9.0_cn_20543774dc.tgz"
+        },
+        {
+          "miui": "9.7.18",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.7.18_414e4f2b5b_9.0.zip",
+          "fastboot": "platina_images_9.7.18_20190718.0000.00_9.0_cn_e77f2de515.tgz"
+        },
+        {
+          "miui": "9.7.11",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.7.11_3fb34fcd26_9.0.zip",
+          "fastboot": "platina_images_9.7.11_20190711.0000.00_9.0_cn_4f6d3c2ead.tgz"
+        },
+        {
+          "miui": "9.7.4",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.7.4_8620253857_9.0.zip",
+          "fastboot": "platina_images_9.7.4_20190704.0000.00_9.0_cn_00030edbaa.tgz"
+        },
+        {
+          "miui": "9.6.27",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.6.27_70468247d8_9.0.zip",
+          "fastboot": "platina_images_9.6.27_20190627.0000.00_9.0_cn_f8cd3c13ec.tgz"
+        },
+        {
+          "miui": "9.6.20",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.6.20_003770a0cf_9.0.zip",
+          "fastboot": "platina_images_9.6.20_20190620.0000.00_9.0_cn_982a331e32.tgz"
+        },
+        {
+          "miui": "9.6.17",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.6.17_b602209bd1_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.6.13",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.6.13_c5a34446eb_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.6.5",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.6.5_89ddcc6762_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.5.30",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.5.30_8de4f20d7a_9.0.zip",
+          "fastboot": "platina_images_9.5.30_20190530.0000.00_9.0_cn_e448d6d409.tgz"
+        },
+        {
+          "miui": "9.5.23",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.5.23_46c9016bec_9.0.zip",
+          "fastboot": "platina_images_9.5.23_20190523.0000.00_9.0_cn_251e4bec4b.tgz"
+        },
+        {
+          "miui": "9.5.16",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.5.16_a059124056_9.0.zip",
+          "fastboot": "platina_images_9.5.16_20190516.0000.00_9.0_cn_2cc09353ed.tgz"
+        },
+        {
+          "miui": "9.5.14",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.5.14_84a6afe5ae_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.5.9",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.5.9_f025d6aa44_9.0.zip",
+          "fastboot": "platina_images_9.5.9_20190509.0000.00_9.0_cn_9aba984984.tgz"
+        },
+        {
+          "miui": "9.4.25",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.4.25_e36171875c_9.0.zip",
+          "fastboot": "platina_images_9.4.25_20190425.0000.00_9.0_cn_c31b5cfb28.tgz"
+        },
+        {
+          "miui": "9.4.18",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.4.18_2f199f08b4_9.0.zip",
+          "fastboot": "platina_images_9.4.18_20190418.0000.00_9.0_cn_42d07838a7.tgz"
+        },
+        {
+          "miui": "9.4.12",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.4.12_3a1fcc936b_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.28",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.3.28_77b31b3bee_9.0.zip",
+          "fastboot": "platina_images_9.3.28_20190328.0000.00_9.0_cn_3120e5adda.tgz"
+        },
+        {
+          "miui": "9.3.21",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.3.21_b188482b8c_9.0.zip",
+          "fastboot": "platina_images_9.3.21_20190321.0000.00_9.0_cn_91c1aff512.tgz"
+        },
+        {
+          "miui": "9.3.14",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.3.14_81059b8200_9.0.zip",
+          "fastboot": "platina_images_9.3.14_20190314.0000.00_9.0_cn_9c5aa5cf42.tgz"
+        },
+        {
+          "miui": "9.3.7",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.3.7_5639427797_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.1",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.3.1_3591f65c32_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.2.21",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.2.21_74bf08dd0a_9.0.zip",
+          "fastboot": "platina_images_9.2.21_20190221.0000.00_9.0_cn_fabd86ec09.tgz"
+        },
+        {
+          "miui": "9.2.15",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.2.15_f77d830d8c_9.0.zip",
+          "fastboot": "platina_images_9.2.15_20190215.0000.00_9.0_cn_2ea560a0a8.tgz"
+        },
+        {
+          "miui": "9.2.14",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.2.14_cef6a6c035_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.1.24",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.1.24_473cdbfec0_9.0.zip",
+          "fastboot": "platina_images_9.1.24_20190124.0000.00_9.0_cn_3f4a8f17ed.tgz"
+        },
+        {
+          "miui": "9.1.17",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.1.17_b013e0358e_9.0.zip",
+          "fastboot": "platina_images_9.1.17_20190117.0000.00_9.0_cn_61fdd13414.tgz"
+        },
+        {
+          "miui": "9.1.10",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.1.10_d4be3221e0_9.0.zip",
+          "fastboot": "platina_images_9.1.10_20190110.0000.00_9.0_cn_7bca569b10.tgz"
+        },
+        {
+          "miui": "9.1.2",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_9.1.2_e661a94945_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.27",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_8.12.27_068c795fd7_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.20",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_8.12.20_6830931fc3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.13",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_8.12.13_45238af9c1_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.6",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.12.6_e345f76a33_8.1.zip",
+          "fastboot": "platina_images_8.12.6_20181206.0000.00_8.1_cn_d1abd3932e.tgz"
+        },
+        {
+          "miui": "8.11.29",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.11.29_bdd68ce497_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.23",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.11.23_f9437bd51c_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.15",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.11.15_bf896b5c1b_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.8",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.11.8_ebae57f4b4_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.6",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.11.6_b61b416e46_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.1",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.11.1_92e3dbc453_8.1.zip",
+          "fastboot": "platina_images_8.11.1_20181101.0000.00_8.1_cn_4b9e96c260.tgz"
+        },
+        {
+          "miui": "8.10.25",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.10.25_0aaabc0801_8.1.zip",
+          "fastboot": "platina_images_8.10.25_20181025.0000.00_8.1_cn_6393a4b269.tgz"
+        },
+        {
+          "miui": "8.10.18",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.10.18_0e4d1a3cd7_8.1.zip",
+          "fastboot": "platina_images_8.10.18_20181018.0000.00_8.1_cn_7c4adc3bd3.tgz"
+        },
+        {
+          "miui": "8.10.11",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.10.11_6093207156_8.1.zip",
+          "fastboot": "platina_images_8.10.11_20181011.0000.00_8.1_cn_7fbf1a8d1f.tgz"
+        },
+        {
+          "miui": "8.10.10",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_8.10.10_1bcc0a18a3_8.1.zip",
+          "fastboot": ""
         }
-    ],
-    "branches": [
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "20.9.4",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.9.4_8b364d6684_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.3",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.9.3_58614b0cce_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.27",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.8.27_3dff80278e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.20",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.8.20_9e8167e427_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.13",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.8.13_0094b26770_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.6",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.8.6_4171215108_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.30",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.7.30_2c5439a595_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.23",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.7.23_a1270fe1ab_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.16",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.7.16_78fdd58c3f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.9",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.7.9_f70a741406_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.2",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.7.2_53da5e21cf_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.18",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.6.18_e7a82afa4f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.17",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.6.17_ea57afe771_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.11",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.6.11_bd26d176ce_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.4",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.6.4_1357415f09_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.28",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.5.28_1c4e513313_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.21",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.5.21_4c776d4d43_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.14",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.5.14_681ded80d3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.7",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.5.7_083c3ae766_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.4.30",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.4.30_a1ea02e3a0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.4.27",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.4.27_612f890248_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.26",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.3.26_053dcfdb5d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.19",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.3.19_5fc8cd89e1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.12",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.3.12_70ec4ae34a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.5",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.3.5_e9b0a649f2_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.27",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.2.27_26001ef0c1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.21",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.1.21_0c5d8593c9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.16",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.1.16_e08f975a74_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.9",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.1.9_6305b2ae20_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.2",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_20.1.2_5495256d04_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.26",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_9.12.26_dbdd3c50ca_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.19",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_9.12.19_1c1fdc6013_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.12",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_9.12.12_6ad0b4b08e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.5",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_9.12.5_06dc5aca02_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.14",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.11.14_00a1ef5c5e_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.7",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.11.7_82623632b6_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.31",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.10.31_405595c7e2_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.24",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.10.24_5c92ad5699_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.17",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.10.17_e18ec42046_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.16",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.10.16_161c3f7a83_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.10",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.10.10_60212a785c_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.26",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.9.26_d82a83e0a7_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.3",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.9.3_cec06e7e18_9.0.zip",
-                    "fastboot": "platina_images_9.9.3_20190904.0000.00_9.0_cn_99468158f9.tgz"
-                },
-                {
-                    "miui": "9.8.29",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.8.29_21e6313d19_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.22",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.8.22_825c9521c8_9.0.zip",
-                    "fastboot": "platina_images_9.8.22_20190822.0000.00_9.0_cn_0f5ff9542a.tgz"
-                },
-                {
-                    "miui": "9.8.15",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.8.15_30e9e41473_9.0.zip",
-                    "fastboot": "platina_images_9.8.15_20190815.0000.00_9.0_cn_120e3f4ced.tgz"
-                },
-                {
-                    "miui": "9.8.9",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.8.9_0c7cb18bdf_9.0.zip",
-                    "fastboot": "platina_images_9.8.9_20190809.0000.00_9.0_cn_1eec798855.tgz"
-                },
-                {
-                    "miui": "9.8.8",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.8.8_49df975103_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.1",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.8.1_a3a1a0bb09_9.0.zip",
-                    "fastboot": "platina_images_9.8.1_20190801.0000.00_9.0_cn_64fa3b9b46.tgz"
-                },
-                {
-                    "miui": "9.7.25",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.7.25_0df7570709_9.0.zip",
-                    "fastboot": "platina_images_9.7.25_20190725.0000.00_9.0_cn_20543774dc.tgz"
-                },
-                {
-                    "miui": "9.7.18",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.7.18_414e4f2b5b_9.0.zip",
-                    "fastboot": "platina_images_9.7.18_20190718.0000.00_9.0_cn_e77f2de515.tgz"
-                },
-                {
-                    "miui": "9.7.11",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.7.11_3fb34fcd26_9.0.zip",
-                    "fastboot": "platina_images_9.7.11_20190711.0000.00_9.0_cn_4f6d3c2ead.tgz"
-                },
-                {
-                    "miui": "9.7.4",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.7.4_8620253857_9.0.zip",
-                    "fastboot": "platina_images_9.7.4_20190704.0000.00_9.0_cn_00030edbaa.tgz"
-                },
-                {
-                    "miui": "9.6.27",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.6.27_70468247d8_9.0.zip",
-                    "fastboot": "platina_images_9.6.27_20190627.0000.00_9.0_cn_f8cd3c13ec.tgz"
-                },
-                {
-                    "miui": "9.6.20",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.6.20_003770a0cf_9.0.zip",
-                    "fastboot": "platina_images_9.6.20_20190620.0000.00_9.0_cn_982a331e32.tgz"
-                },
-                {
-                    "miui": "9.6.17",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.6.17_b602209bd1_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.6.13",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.6.13_c5a34446eb_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.6.5",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.6.5_89ddcc6762_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.5.30",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.5.30_8de4f20d7a_9.0.zip",
-                    "fastboot": "platina_images_9.5.30_20190530.0000.00_9.0_cn_e448d6d409.tgz"
-                },
-                {
-                    "miui": "9.5.23",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.5.23_46c9016bec_9.0.zip",
-                    "fastboot": "platina_images_9.5.23_20190523.0000.00_9.0_cn_251e4bec4b.tgz"
-                },
-                {
-                    "miui": "9.5.16",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.5.16_a059124056_9.0.zip",
-                    "fastboot": "platina_images_9.5.16_20190516.0000.00_9.0_cn_2cc09353ed.tgz"
-                },
-                {
-                    "miui": "9.5.14",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.5.14_84a6afe5ae_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.5.9",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.5.9_f025d6aa44_9.0.zip",
-                    "fastboot": "platina_images_9.5.9_20190509.0000.00_9.0_cn_9aba984984.tgz"
-                },
-                {
-                    "miui": "9.4.25",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.4.25_e36171875c_9.0.zip",
-                    "fastboot": "platina_images_9.4.25_20190425.0000.00_9.0_cn_c31b5cfb28.tgz"
-                },
-                {
-                    "miui": "9.4.18",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.4.18_2f199f08b4_9.0.zip",
-                    "fastboot": "platina_images_9.4.18_20190418.0000.00_9.0_cn_42d07838a7.tgz"
-                },
-                {
-                    "miui": "9.4.12",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.4.12_3a1fcc936b_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.28",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.3.28_77b31b3bee_9.0.zip",
-                    "fastboot": "platina_images_9.3.28_20190328.0000.00_9.0_cn_3120e5adda.tgz"
-                },
-                {
-                    "miui": "9.3.21",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.3.21_b188482b8c_9.0.zip",
-                    "fastboot": "platina_images_9.3.21_20190321.0000.00_9.0_cn_91c1aff512.tgz"
-                },
-                {
-                    "miui": "9.3.14",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.3.14_81059b8200_9.0.zip",
-                    "fastboot": "platina_images_9.3.14_20190314.0000.00_9.0_cn_9c5aa5cf42.tgz"
-                },
-                {
-                    "miui": "9.3.7",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.3.7_5639427797_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.1",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.3.1_3591f65c32_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.2.21",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.2.21_74bf08dd0a_9.0.zip",
-                    "fastboot": "platina_images_9.2.21_20190221.0000.00_9.0_cn_fabd86ec09.tgz"
-                },
-                {
-                    "miui": "9.2.15",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.2.15_f77d830d8c_9.0.zip",
-                    "fastboot": "platina_images_9.2.15_20190215.0000.00_9.0_cn_2ea560a0a8.tgz"
-                },
-                {
-                    "miui": "9.2.14",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.2.14_cef6a6c035_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.1.24",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.1.24_473cdbfec0_9.0.zip",
-                    "fastboot": "platina_images_9.1.24_20190124.0000.00_9.0_cn_3f4a8f17ed.tgz"
-                },
-                {
-                    "miui": "9.1.17",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.1.17_b013e0358e_9.0.zip",
-                    "fastboot": "platina_images_9.1.17_20190117.0000.00_9.0_cn_61fdd13414.tgz"
-                },
-                {
-                    "miui": "9.1.10",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.1.10_d4be3221e0_9.0.zip",
-                    "fastboot": "platina_images_9.1.10_20190110.0000.00_9.0_cn_7bca569b10.tgz"
-                },
-                {
-                    "miui": "9.1.2",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_9.1.2_e661a94945_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.27",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_8.12.27_068c795fd7_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.20",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_8.12.20_6830931fc3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.13",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_8.12.13_45238af9c1_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.6",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.12.6_e345f76a33_8.1.zip",
-                    "fastboot": "platina_images_8.12.6_20181206.0000.00_8.1_cn_d1abd3932e.tgz"
-                },
-                {
-                    "miui": "8.11.29",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.11.29_bdd68ce497_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.23",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.11.23_f9437bd51c_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.15",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.11.15_bf896b5c1b_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.8",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.11.8_ebae57f4b4_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.6",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.11.6_b61b416e46_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.1",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.11.1_92e3dbc453_8.1.zip",
-                    "fastboot": "platina_images_8.11.1_20181101.0000.00_8.1_cn_4b9e96c260.tgz"
-                },
-                {
-                    "miui": "8.10.25",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.10.25_0aaabc0801_8.1.zip",
-                    "fastboot": "platina_images_8.10.25_20181025.0000.00_8.1_cn_6393a4b269.tgz"
-                },
-                {
-                    "miui": "8.10.18",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.10.18_0e4d1a3cd7_8.1.zip",
-                    "fastboot": "platina_images_8.10.18_20181018.0000.00_8.1_cn_7c4adc3bd3.tgz"
-                },
-                {
-                    "miui": "8.10.11",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.10.11_6093207156_8.1.zip",
-                    "fastboot": "platina_images_8.10.11_20181011.0000.00_8.1_cn_7fbf1a8d1f.tgz"
-                },
-                {
-                    "miui": "8.10.10",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_8.10.10_1bcc0a18a3_8.1.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.5.1.0.QDTCNXM",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_V12.5.1.0.QDTCNXM_c02c6bcfb0_10.0.zip",
+          "fastboot": ""
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V12.5.1.0.QDTCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_V12.5.1.0.QDTCNXM_c02c6bcfb0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V12.0.2.0.QDTCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_V12.0.2.0.QDTCNXM_2f3fece0c8_10.0.zip",
-                    "fastboot": "platina_images_V12.0.2.0.QDTCNXM_20210312.0000.00_10.0_cn_e7d0866f6a.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QDTCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_V12.0.1.0.QDTCNXM_48ff034b1e_10.0.zip",
-                    "fastboot": "platina_images_V12.0.1.0.QDTCNXM_20200723.0000.00_10.0_cn_1081de4f98.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.QDTCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_V11.0.2.0.QDTCNXM_4a11ed64fc_10.0.zip",
-                    "fastboot": "platina_images_V11.0.2.0.QDTCNXM_20200421.0000.00_10.0_cn_cc939f392e.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QDTCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8Lite_V11.0.1.0.QDTCNXM_58d94853ad_10.0.zip",
-                    "fastboot": "platina_images_V11.0.1.0.QDTCNXM_20200217.0000.00_10.0_cn_753d632137.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V11.0.4.0.PDTCNXM_5595027d43_9.0.zip",
-                    "fastboot": "platina_images_V11.0.4.0.PDTCNXM_20191213.0000.00_9.0_cn_8f75ca7dd6.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V11.0.2.0.PDTCNXM_3106234dfc_9.0.zip",
-                    "fastboot": "platina_images_V11.0.2.0.PDTCNXM_20190920.0000.00_9.0_cn_2b52509d96.tgz"
-                },
-                {
-                    "miui": "V10.3.7.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V10.3.7.0.PDTCNXM_334c92b05b_9.0.zip",
-                    "fastboot": "platina_images_V10.3.7.0.PDTCNXM_20190820.0000.00_9.0_cn_5a5ecd5205.tgz"
-                },
-                {
-                    "miui": "V10.3.5.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V10.3.5.0.PDTCNXM_ff791b14a5_9.0.zip",
-                    "fastboot": "platina_images_V10.3.5.0.PDTCNXM_20190723.0000.00_9.0_cn_d84164f7fd.tgz"
-                },
-                {
-                    "miui": "V10.3.3.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V10.3.3.0.PDTCNXM_8b8d68a8e1_9.0.zip",
-                    "fastboot": "platina_images_V10.3.3.0.PDTCNXM_20190610.0000.00_9.0_cn_7dd1861db7.tgz"
-                },
-                {
-                    "miui": "V10.3.2.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V10.3.2.0.PDTCNXM_c523906634_9.0.zip",
-                    "fastboot": "platina_images_V10.3.2.0.PDTCNXM_20190411.0000.00_9.0_cn_b500935607.tgz"
-                },
-                {
-                    "miui": "V10.2.3.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V10.2.3.0.PDTCNXM_d6a7ddabb7_9.0.zip",
-                    "fastboot": "platina_images_V10.2.3.0.PDTCNXM_20190321.0000.00_9.0_cn_e56c24b444.tgz"
-                },
-                {
-                    "miui": "V10.2.1.0.PDTCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8Lite_V10.2.1.0.PDTCNXM_e9c2a8c8db_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.3.0.ODTCNXM",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_V10.2.3.0.ODTCNXM_7200bb8aa9_8.1.zip",
-                    "fastboot": "platina_images_V10.2.3.0.ODTCNXM_20190114.0000.00_8.1_cn_8dfdaca360.tgz"
-                },
-                {
-                    "miui": "V10.2.2.0.ODTCNXM",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_V10.2.2.0.ODTCNXM_83921cb497_8.1.zip",
-                    "fastboot": "platina_images_V10.2.2.0.ODTCNXM_20181225.0000.00_8.1_cn_c4203dde35.tgz"
-                },
-                {
-                    "miui": "V10.0.8.0.ODTCNFH",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_V10.0.8.0.ODTCNFH_83cb6219bc_8.1.zip",
-                    "fastboot": "platina_images_V10.0.8.0.ODTCNFH_20181204.0000.00_8.1_cn_d04223e3cb.tgz"
-                },
-                {
-                    "miui": "V10.0.7.0.ODTCNFH",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_V10.0.7.0.ODTCNFH_7b6ce6d894_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.0.2.0.ODTCNFH",
-                    "android": "8.1",
-                    "recovery": "miui_MI8Lite_V10.0.2.0.ODTCNFH_a0a887fe3e_8.1.zip",
-                    "fastboot": "platina_images_V10.0.2.0.ODTCNFH_20181008.0000.00_8.1_cn_1b3f876e70.tgz"
-                },
-                {
-                    "miui": "V9.6.6.0.ODTCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_PLATINA_V9.6.6.0.ODTCNFD_8d82573b27_8.1.zip",
-                    "fastboot": "platina_images_V9.6.6.0.ODTCNFD_20180911.0000.00_8.1_cn_5e77a75bc8.tgz"
-                },
-                {
-                    "miui": "V9.6.4.0.ODTCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_PLATINA_V9.6.4.0.ODTCNFD_bf6e02cd4c_8.1.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.0.2.0.QDTCNXM",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_V12.0.2.0.QDTCNXM_2f3fece0c8_10.0.zip",
+          "fastboot": "platina_images_V12.0.2.0.QDTCNXM_20210312.0000.00_10.0_cn_e7d0866f6a.tgz"
         },
         {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
-                {
-                    "miui": "9.6.27",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.6.27_bcb88d046c_9.0.zip",
-                    "fastboot": "platina_global_images_9.6.27_20190627.0000.00_9.0_global_ceb4046e05.tgz"
-                },
-                {
-                    "miui": "9.6.20",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.6.20_a58b499e00_9.0.zip",
-                    "fastboot": "platina_global_images_9.6.20_20190620.0000.00_9.0_global_3b514a7942.tgz"
-                },
-                {
-                    "miui": "9.6.13",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.6.13_664e47a48d_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.5.30",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.5.30_49188030eb_9.0.zip",
-                    "fastboot": "platina_global_images_9.5.30_20190530.0000.00_9.0_global_6f8eb66bd0.tgz"
-                },
-                {
-                    "miui": "9.5.23",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.5.23_e2caab965c_9.0.zip",
-                    "fastboot": "platina_global_images_9.5.23_20190523.0000.00_9.0_global_78ad5947be.tgz"
-                },
-                {
-                    "miui": "9.5.16",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.5.16_baf24ede48_9.0.zip",
-                    "fastboot": "platina_global_images_9.5.16_20190516.0000.00_9.0_global_771ed7dd88.tgz"
-                },
-                {
-                    "miui": "9.5.9",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.5.9_35a53ee1da_9.0.zip",
-                    "fastboot": "platina_global_images_9.5.9_20190509.0000.00_9.0_global_19ecb653ef.tgz"
-                },
-                {
-                    "miui": "9.4.25",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.4.25_4c3cf2655b_9.0.zip",
-                    "fastboot": "platina_global_images_9.4.25_20190425.0000.00_9.0_global_231b16949b.tgz"
-                },
-                {
-                    "miui": "9.4.18",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.4.18_ceefa95ced_9.0.zip",
-                    "fastboot": "platina_global_images_9.4.18_20190418.0000.00_9.0_global_0435f8de47.tgz"
-                },
-                {
-                    "miui": "9.4.12",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.4.12_477e479a01_9.0.zip",
-                    "fastboot": "platina_global_images_9.4.12_20190412.0000.00_9.0_global_f08d98b9ad.tgz"
-                },
-                {
-                    "miui": "9.4.11",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.4.11_0aa745a717_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.4.1",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.4.1_ad2b92bb8d_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.28",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.3.28_dc2ad9e61e_9.0.zip",
-                    "fastboot": "platina_global_images_9.3.28_20190328.0000.00_9.0_global_82d46efb4d.tgz"
-                },
-                {
-                    "miui": "9.3.21",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.3.21_8706bf79da_9.0.zip",
-                    "fastboot": "platina_global_images_9.3.21_20190321.0000.00_9.0_global_148bbfaa9a.tgz"
-                },
-                {
-                    "miui": "9.3.14",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.3.14_8d3c1e1102_9.0.zip",
-                    "fastboot": "platina_global_images_9.3.14_20190314.0000.00_9.0_global_d9678d5be4.tgz"
-                },
-                {
-                    "miui": "9.3.7",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.3.7_11cd7e900f_9.0.zip",
-                    "fastboot": "platina_global_images_9.3.7_20190307.0000.00_9.0_global_50c1965934.tgz"
-                },
-                {
-                    "miui": "9.3.1",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.3.1_dd9933de57_9.0.zip",
-                    "fastboot": "platina_global_images_9.3.1_20190301.0000.00_9.0_global_815446e5f5.tgz"
-                },
-                {
-                    "miui": "9.2.21",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.2.21_c0d5cf2bfb_9.0.zip",
-                    "fastboot": "platina_global_images_9.2.21_20190221.0000.00_9.0_global_889823fcef.tgz"
-                },
-                {
-                    "miui": "9.2.15",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.2.15_35fd209ab5_9.0.zip",
-                    "fastboot": "platina_global_images_9.2.15_20190215.0000.00_9.0_global_777dba7b2d.tgz"
-                },
-                {
-                    "miui": "9.2.14",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_9.2.14_ee7b506b61_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.1.24",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_9.1.24_3f5b92bc3f_8.1.zip",
-                    "fastboot": "platina_global_images_9.1.24_20190124.0000.00_8.1_global_cc7f5af36d.tgz"
-                },
-                {
-                    "miui": "9.1.17",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_9.1.17_f382e0f4fd_8.1.zip",
-                    "fastboot": "platina_global_images_9.1.17_20190117.0000.00_8.1_global_dc46d15a32.tgz"
-                },
-                {
-                    "miui": "9.1.10",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_9.1.10_621ee9569d_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.27",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_8.12.27_f6045e3f61_8.1.zip",
-                    "fastboot": "platina_global_images_8.12.27_20181227.0000.00_8.1_global_85e8dc1a2a.tgz"
-                },
-                {
-                    "miui": "8.12.20",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_8.12.20_9877c0d9ea_8.1.zip",
-                    "fastboot": "platina_global_images_8.12.20_20181220.0000.00_8.1_global_aac00e6d0b.tgz"
-                },
-                {
-                    "miui": "8.12.13",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_8.12.13_d5c48ec6b0_8.1.zip",
-                    "fastboot": "platina_global_images_8.12.13_20181213.0000.00_8.1_global_3f708b9867.tgz"
-                }
-            ]
+          "miui": "V12.0.1.0.QDTCNXM",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_V12.0.1.0.QDTCNXM_48ff034b1e_10.0.zip",
+          "fastboot": "platina_images_V12.0.1.0.QDTCNXM_20200723.0000.00_10.0_cn_1081de4f98.tgz"
         },
         {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "V12.0.3.0.QDTMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8LiteGlobal_V12.0.3.0.QDTMIXM_ac83b9d20c_10.0.zip",
-                    "fastboot": "platina_global_images_V12.0.3.0.QDTMIXM_20200914.0000.00_10.0_global_5f4bd74ec8.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.QDTMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8LiteGlobal_V11.0.3.0.QDTMIXM_7353dba0ab_10.0.zip",
-                    "fastboot": "platina_global_images_V11.0.3.0.QDTMIXM_20200707.0000.00_10.0_global_4e5515e6e6.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.QDTMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8LiteGlobal_V11.0.2.0.QDTMIXM_5574e03233_10.0.zip",
-                    "fastboot": "platina_global_images_V11.0.2.0.QDTMIXM_20200508.0000.00_10.0_global_6849aa4cea.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QDTMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_MI8LiteGlobal_V11.0.1.0.QDTMIXM_2fb79ba67d_10.0.zip",
-                    "fastboot": "platina_global_images_V11.0.1.0.QDTMIXM_20200310.0000.00_10.0_global_a7ea0cce0f.tgz"
-                },
-                {
-                    "miui": "V11.0.8.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V11.0.8.0.PDTMIXM_bb4de77c17_9.0.zip",
-                    "fastboot": "platina_global_images_V11.0.8.0.PDTMIXM_20200106.0000.00_9.0_global_491b895f13.tgz"
-                },
-                {
-                    "miui": "V11.0.7.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V11.0.7.0.PDTMIXM_69cdf0fb10_9.0.zip",
-                    "fastboot": "platina_global_images_V11.0.7.0.PDTMIXM_20191213.0000.00_9.0_global_2e651e016f.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V11.0.5.0.PDTMIXM_7464e6f6d2_9.0.zip",
-                    "fastboot": "platina_global_images_V11.0.5.0.PDTMIXM_20191022.0000.00_9.0_global_53b25e5f9c.tgz"
-                },
-                {
-                    "miui": "V10.3.5.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V10.3.5.0.PDTMIXM_afba6c987e_9.0.zip",
-                    "fastboot": "platina_global_images_V10.3.5.0.PDTMIXM_20190820.0000.00_9.0_global_d63472d18d.tgz"
-                },
-                {
-                    "miui": "V10.3.3.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V10.3.3.0.PDTMIXM_7682e9daab_9.0.zip",
-                    "fastboot": "platina_global_images_V10.3.3.0.PDTMIXM_20190716.0000.00_9.0_global_1247def28e.tgz"
-                },
-                {
-                    "miui": "V10.3.2.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V10.3.2.0.PDTMIXM_617c09d4b9_9.0.zip",
-                    "fastboot": "platina_global_images_V10.3.2.0.PDTMIXM_20190517.0000.00_9.0_global_fde5b700b6.tgz"
-                },
-                {
-                    "miui": "V10.3.1.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V10.3.1.0.PDTMIXM_8f2efd3fd2_9.0.zip",
-                    "fastboot": "platina_global_images_V10.3.1.0.PDTMIXM_20190327.0000.00_9.0_global_2ae5899c06.tgz"
-                },
-                {
-                    "miui": "V10.2.2.0.PDTMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_MI8LiteGlobal_V10.2.2.0.PDTMIXM_34311698c3_9.0.zip",
-                    "fastboot": "platina_global_images_V10.2.2.0.PDTMIXM_20190305.0000.00_9.0_global_385cecd3ab.tgz"
-                },
-                {
-                    "miui": "V10.2.2.0.ODTMIXM",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_V10.2.2.0.ODTMIXM_59b670ff20_8.1.zip",
-                    "fastboot": "platina_global_images_V10.2.2.0.ODTMIXM_20190115.0000.00_8.1_global_f94c5f49c2.tgz"
-                },
-                {
-                    "miui": "V10.0.5.0.ODTMIFH",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_V10.0.5.0.ODTMIFH_f780b61d3f_8.1.zip",
-                    "fastboot": "platina_global_images_V10.0.5.0.ODTMIFH_20181204.0000.00_8.1_global_fce7099ef5.tgz"
-                },
-                {
-                    "miui": "V10.0.3.0.ODTMIFH",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_V10.0.3.0.ODTMIFH_7f75106e81_8.1.zip",
-                    "fastboot": "platina_global_images_V10.0.3.0.ODTMIFH_20181108.0000.00_8.1_global_69fcc88bee.tgz"
-                },
-                {
-                    "miui": "V9.6.5.0.ODTMIFD",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_V9.6.5.0.ODTMIFD_08f05adb8a_8.1.zip",
-                    "fastboot": "platina_global_images_V9.6.5.0.ODTMIFD_20181016.0000.00_8.1_global_2a6e60e716.tgz"
-                },
-                {
-                    "miui": "V9.6.4.0.ODTMIFD",
-                    "android": "8.1",
-                    "recovery": "miui_MI8LiteGlobal_V9.6.4.0.ODTMIFD_9d7486b1e4_8.1.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V11.0.2.0.QDTCNXM",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_V11.0.2.0.QDTCNXM_4a11ed64fc_10.0.zip",
+          "fastboot": "platina_images_V11.0.2.0.QDTCNXM_20200421.0000.00_10.0_cn_cc939f392e.tgz"
         },
         {
-            "branch": "russ",
-            "show": "1",
-            "cnname": "俄罗斯稳定版",
-            "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "V12.0.1.0.QDTRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_PLATINARUGlobal_V12.0.1.0.QDTRUXM_d7fbafa86e_10.0.zip",
-                    "fastboot": "platina_ru_global_images_V12.0.1.0.QDTRUXM_20200904.0000.00_10.0_global_f145b74fea.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.QDTRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_PLATINARUGlobal_V11.0.2.0.QDTRUXM_e0ca8e1010_10.0.zip",
-                    "fastboot": "platina_ru_global_images_V11.0.2.0.QDTRUXM_20200521.0000.00_10.0_global_afc571d928.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QDTRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_PLATINARUGlobal_V11.0.1.0.QDTRUXM_11ad3a942e_10.0.zip",
-                    "fastboot": "platina_ru_global_images_V11.0.1.0.QDTRUXM_20200317.0000.00_10.0_global_82e978dc5b.tgz"
-                },
-                {
-                    "miui": "V11.0.7.0.PDTRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_PLATINARUGlobal_V11.0.7.0.PDTRUXM_10c8bdaeca_9.0.zip",
-                    "fastboot": "platina_ru_global_images_V11.0.7.0.PDTRUXM_20200107.0000.00_9.0_global_a008adb87d.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.PDTRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_PLATINARUGlobal_V11.0.6.0.PDTRUXM_211fbe544d_9.0.zip",
-                    "fastboot": "platina_ru_global_images_V11.0.6.0.PDTRUXM_20191213.0000.00_9.0_global_4c94ccd0bc.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.PDTRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_PLATINARUGlobal_V11.0.5.0.PDTRUXM_7cf5452571_9.0.zip",
-                    "fastboot": "platina_ru_global_images_V11.0.5.0.PDTRUXM_20191022.0000.00_9.0_global_e04171f81f.tgz"
-                },
-                {
-                    "miui": "V10.2.1.0.ODTRUXM",
-                    "android": "8.1",
-                    "recovery": "miui_PLATINARUGlobal_V10.2.1.0.ODTRUXM_d8a71a6ef4_8.1.zip",
-                    "fastboot": "platina_ru_global_images_V10.2.1.0.ODTRUXM_20190115.0000.00_8.1_global_8be481215f.tgz"
-                },
-                {
-                    "miui": "V10.0.6.0.ODTRUFH",
-                    "android": "8.1",
-                    "recovery": "miui_PLATINARUGlobal_V10.0.6.0.ODTRUFH_d8aef1610e_8.1.zip",
-                    "fastboot": "platina_ru_global_images_V10.0.6.0.ODTRUFH_20181211.0000.00_8.1_global_8587a84dbe.tgz"
-                },
-                {
-                    "miui": "V9.6.6.0.ODTRUFD",
-                    "android": "8.1",
-                    "recovery": "miui_PLATINARUGlobal_V9.6.6.0.ODTRUFD_96fa919702_8.1.zip",
-                    "fastboot": "platina_ru_global_images_V9.6.6.0.ODTRUFD_20181024.0000.00_8.1_global_9709a13db0.tgz"
-                }
-            ]
+          "miui": "V11.0.1.0.QDTCNXM",
+          "android": "10.0",
+          "recovery": "miui_MI8Lite_V11.0.1.0.QDTCNXM_58d94853ad_10.0.zip",
+          "fastboot": "platina_images_V11.0.1.0.QDTCNXM_20200217.0000.00_10.0_cn_753d632137.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V11.0.4.0.PDTCNXM_5595027d43_9.0.zip",
+          "fastboot": "platina_images_V11.0.4.0.PDTCNXM_20191213.0000.00_9.0_cn_8f75ca7dd6.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V11.0.2.0.PDTCNXM_3106234dfc_9.0.zip",
+          "fastboot": "platina_images_V11.0.2.0.PDTCNXM_20190920.0000.00_9.0_cn_2b52509d96.tgz"
+        },
+        {
+          "miui": "V10.3.7.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V10.3.7.0.PDTCNXM_334c92b05b_9.0.zip",
+          "fastboot": "platina_images_V10.3.7.0.PDTCNXM_20190820.0000.00_9.0_cn_5a5ecd5205.tgz"
+        },
+        {
+          "miui": "V10.3.5.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V10.3.5.0.PDTCNXM_ff791b14a5_9.0.zip",
+          "fastboot": "platina_images_V10.3.5.0.PDTCNXM_20190723.0000.00_9.0_cn_d84164f7fd.tgz"
+        },
+        {
+          "miui": "V10.3.3.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V10.3.3.0.PDTCNXM_8b8d68a8e1_9.0.zip",
+          "fastboot": "platina_images_V10.3.3.0.PDTCNXM_20190610.0000.00_9.0_cn_7dd1861db7.tgz"
+        },
+        {
+          "miui": "V10.3.2.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V10.3.2.0.PDTCNXM_c523906634_9.0.zip",
+          "fastboot": "platina_images_V10.3.2.0.PDTCNXM_20190411.0000.00_9.0_cn_b500935607.tgz"
+        },
+        {
+          "miui": "V10.2.3.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V10.2.3.0.PDTCNXM_d6a7ddabb7_9.0.zip",
+          "fastboot": "platina_images_V10.2.3.0.PDTCNXM_20190321.0000.00_9.0_cn_e56c24b444.tgz"
+        },
+        {
+          "miui": "V10.2.1.0.PDTCNXM",
+          "android": "9.0",
+          "recovery": "miui_MI8Lite_V10.2.1.0.PDTCNXM_e9c2a8c8db_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.3.0.ODTCNXM",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_V10.2.3.0.ODTCNXM_7200bb8aa9_8.1.zip",
+          "fastboot": "platina_images_V10.2.3.0.ODTCNXM_20190114.0000.00_8.1_cn_8dfdaca360.tgz"
+        },
+        {
+          "miui": "V10.2.2.0.ODTCNXM",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_V10.2.2.0.ODTCNXM_83921cb497_8.1.zip",
+          "fastboot": "platina_images_V10.2.2.0.ODTCNXM_20181225.0000.00_8.1_cn_c4203dde35.tgz"
+        },
+        {
+          "miui": "V10.0.8.0.ODTCNFH",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_V10.0.8.0.ODTCNFH_83cb6219bc_8.1.zip",
+          "fastboot": "platina_images_V10.0.8.0.ODTCNFH_20181204.0000.00_8.1_cn_d04223e3cb.tgz"
+        },
+        {
+          "miui": "V10.0.7.0.ODTCNFH",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_V10.0.7.0.ODTCNFH_7b6ce6d894_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.0.2.0.ODTCNFH",
+          "android": "8.1",
+          "recovery": "miui_MI8Lite_V10.0.2.0.ODTCNFH_a0a887fe3e_8.1.zip",
+          "fastboot": "platina_images_V10.0.2.0.ODTCNFH_20181008.0000.00_8.1_cn_1b3f876e70.tgz"
+        },
+        {
+          "miui": "V9.6.6.0.ODTCNFD",
+          "android": "8.1",
+          "recovery": "miui_PLATINA_V9.6.6.0.ODTCNFD_8d82573b27_8.1.zip",
+          "fastboot": "platina_images_V9.6.6.0.ODTCNFD_20180911.0000.00_8.1_cn_5e77a75bc8.tgz"
+        },
+        {
+          "miui": "V9.6.4.0.ODTCNFD",
+          "android": "8.1",
+          "recovery": "miui_PLATINA_V9.6.4.0.ODTCNFD_bf6e02cd4c_8.1.zip",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "mgbb",
+      "show": "1",
+      "cnname": "国际开发版",
+      "enname": "Global Beta",
+      "links": [
+        {
+          "miui": "9.6.27",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.6.27_bcb88d046c_9.0.zip",
+          "fastboot": "platina_global_images_9.6.27_20190627.0000.00_9.0_global_ceb4046e05.tgz"
+        },
+        {
+          "miui": "9.6.20",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.6.20_a58b499e00_9.0.zip",
+          "fastboot": "platina_global_images_9.6.20_20190620.0000.00_9.0_global_3b514a7942.tgz"
+        },
+        {
+          "miui": "9.6.13",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.6.13_664e47a48d_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.5.30",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.5.30_49188030eb_9.0.zip",
+          "fastboot": "platina_global_images_9.5.30_20190530.0000.00_9.0_global_6f8eb66bd0.tgz"
+        },
+        {
+          "miui": "9.5.23",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.5.23_e2caab965c_9.0.zip",
+          "fastboot": "platina_global_images_9.5.23_20190523.0000.00_9.0_global_78ad5947be.tgz"
+        },
+        {
+          "miui": "9.5.16",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.5.16_baf24ede48_9.0.zip",
+          "fastboot": "platina_global_images_9.5.16_20190516.0000.00_9.0_global_771ed7dd88.tgz"
+        },
+        {
+          "miui": "9.5.9",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.5.9_35a53ee1da_9.0.zip",
+          "fastboot": "platina_global_images_9.5.9_20190509.0000.00_9.0_global_19ecb653ef.tgz"
+        },
+        {
+          "miui": "9.4.25",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.4.25_4c3cf2655b_9.0.zip",
+          "fastboot": "platina_global_images_9.4.25_20190425.0000.00_9.0_global_231b16949b.tgz"
+        },
+        {
+          "miui": "9.4.18",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.4.18_ceefa95ced_9.0.zip",
+          "fastboot": "platina_global_images_9.4.18_20190418.0000.00_9.0_global_0435f8de47.tgz"
+        },
+        {
+          "miui": "9.4.12",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.4.12_477e479a01_9.0.zip",
+          "fastboot": "platina_global_images_9.4.12_20190412.0000.00_9.0_global_f08d98b9ad.tgz"
+        },
+        {
+          "miui": "9.4.11",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.4.11_0aa745a717_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.4.1",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.4.1_ad2b92bb8d_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.28",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.3.28_dc2ad9e61e_9.0.zip",
+          "fastboot": "platina_global_images_9.3.28_20190328.0000.00_9.0_global_82d46efb4d.tgz"
+        },
+        {
+          "miui": "9.3.21",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.3.21_8706bf79da_9.0.zip",
+          "fastboot": "platina_global_images_9.3.21_20190321.0000.00_9.0_global_148bbfaa9a.tgz"
+        },
+        {
+          "miui": "9.3.14",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.3.14_8d3c1e1102_9.0.zip",
+          "fastboot": "platina_global_images_9.3.14_20190314.0000.00_9.0_global_d9678d5be4.tgz"
+        },
+        {
+          "miui": "9.3.7",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.3.7_11cd7e900f_9.0.zip",
+          "fastboot": "platina_global_images_9.3.7_20190307.0000.00_9.0_global_50c1965934.tgz"
+        },
+        {
+          "miui": "9.3.1",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.3.1_dd9933de57_9.0.zip",
+          "fastboot": "platina_global_images_9.3.1_20190301.0000.00_9.0_global_815446e5f5.tgz"
+        },
+        {
+          "miui": "9.2.21",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.2.21_c0d5cf2bfb_9.0.zip",
+          "fastboot": "platina_global_images_9.2.21_20190221.0000.00_9.0_global_889823fcef.tgz"
+        },
+        {
+          "miui": "9.2.15",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.2.15_35fd209ab5_9.0.zip",
+          "fastboot": "platina_global_images_9.2.15_20190215.0000.00_9.0_global_777dba7b2d.tgz"
+        },
+        {
+          "miui": "9.2.14",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_9.2.14_ee7b506b61_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.1.24",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_9.1.24_3f5b92bc3f_8.1.zip",
+          "fastboot": "platina_global_images_9.1.24_20190124.0000.00_8.1_global_cc7f5af36d.tgz"
+        },
+        {
+          "miui": "9.1.17",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_9.1.17_f382e0f4fd_8.1.zip",
+          "fastboot": "platina_global_images_9.1.17_20190117.0000.00_8.1_global_dc46d15a32.tgz"
+        },
+        {
+          "miui": "9.1.10",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_9.1.10_621ee9569d_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.27",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_8.12.27_f6045e3f61_8.1.zip",
+          "fastboot": "platina_global_images_8.12.27_20181227.0000.00_8.1_global_85e8dc1a2a.tgz"
+        },
+        {
+          "miui": "8.12.20",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_8.12.20_9877c0d9ea_8.1.zip",
+          "fastboot": "platina_global_images_8.12.20_20181220.0000.00_8.1_global_aac00e6d0b.tgz"
+        },
+        {
+          "miui": "8.12.13",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_8.12.13_d5c48ec6b0_8.1.zip",
+          "fastboot": "platina_global_images_8.12.13_20181213.0000.00_8.1_global_3f708b9867.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V12.0.3.0.QDTMIXM",
+          "android": "10.0",
+          "recovery": "miui_MI8LiteGlobal_V12.0.3.0.QDTMIXM_ac83b9d20c_10.0.zip",
+          "fastboot": "platina_global_images_V12.0.3.0.QDTMIXM_20200914.0000.00_10.0_global_5f4bd74ec8.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.QDTMIXM",
+          "android": "10.0",
+          "recovery": "miui_MI8LiteGlobal_V11.0.3.0.QDTMIXM_7353dba0ab_10.0.zip",
+          "fastboot": "platina_global_images_V11.0.3.0.QDTMIXM_20200707.0000.00_10.0_global_4e5515e6e6.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.QDTMIXM",
+          "android": "10.0",
+          "recovery": "miui_MI8LiteGlobal_V11.0.2.0.QDTMIXM_5574e03233_10.0.zip",
+          "fastboot": "platina_global_images_V11.0.2.0.QDTMIXM_20200508.0000.00_10.0_global_6849aa4cea.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QDTMIXM",
+          "android": "10.0",
+          "recovery": "miui_MI8LiteGlobal_V11.0.1.0.QDTMIXM_2fb79ba67d_10.0.zip",
+          "fastboot": "platina_global_images_V11.0.1.0.QDTMIXM_20200310.0000.00_10.0_global_a7ea0cce0f.tgz"
+        },
+        {
+          "miui": "V11.0.8.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V11.0.8.0.PDTMIXM_bb4de77c17_9.0.zip",
+          "fastboot": "platina_global_images_V11.0.8.0.PDTMIXM_20200106.0000.00_9.0_global_491b895f13.tgz"
+        },
+        {
+          "miui": "V11.0.7.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V11.0.7.0.PDTMIXM_69cdf0fb10_9.0.zip",
+          "fastboot": "platina_global_images_V11.0.7.0.PDTMIXM_20191213.0000.00_9.0_global_2e651e016f.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V11.0.5.0.PDTMIXM_7464e6f6d2_9.0.zip",
+          "fastboot": "platina_global_images_V11.0.5.0.PDTMIXM_20191022.0000.00_9.0_global_53b25e5f9c.tgz"
+        },
+        {
+          "miui": "V10.3.5.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V10.3.5.0.PDTMIXM_afba6c987e_9.0.zip",
+          "fastboot": "platina_global_images_V10.3.5.0.PDTMIXM_20190820.0000.00_9.0_global_d63472d18d.tgz"
+        },
+        {
+          "miui": "V10.3.3.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V10.3.3.0.PDTMIXM_7682e9daab_9.0.zip",
+          "fastboot": "platina_global_images_V10.3.3.0.PDTMIXM_20190716.0000.00_9.0_global_1247def28e.tgz"
+        },
+        {
+          "miui": "V10.3.2.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V10.3.2.0.PDTMIXM_617c09d4b9_9.0.zip",
+          "fastboot": "platina_global_images_V10.3.2.0.PDTMIXM_20190517.0000.00_9.0_global_fde5b700b6.tgz"
+        },
+        {
+          "miui": "V10.3.1.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V10.3.1.0.PDTMIXM_8f2efd3fd2_9.0.zip",
+          "fastboot": "platina_global_images_V10.3.1.0.PDTMIXM_20190327.0000.00_9.0_global_2ae5899c06.tgz"
+        },
+        {
+          "miui": "V10.2.2.0.PDTMIXM",
+          "android": "9.0",
+          "recovery": "miui_MI8LiteGlobal_V10.2.2.0.PDTMIXM_34311698c3_9.0.zip",
+          "fastboot": "platina_global_images_V10.2.2.0.PDTMIXM_20190305.0000.00_9.0_global_385cecd3ab.tgz"
+        },
+        {
+          "miui": "V10.2.2.0.ODTMIXM",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_V10.2.2.0.ODTMIXM_59b670ff20_8.1.zip",
+          "fastboot": "platina_global_images_V10.2.2.0.ODTMIXM_20190115.0000.00_8.1_global_f94c5f49c2.tgz"
+        },
+        {
+          "miui": "V10.0.5.0.ODTMIFH",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_V10.0.5.0.ODTMIFH_f780b61d3f_8.1.zip",
+          "fastboot": "platina_global_images_V10.0.5.0.ODTMIFH_20181204.0000.00_8.1_global_fce7099ef5.tgz"
+        },
+        {
+          "miui": "V10.0.3.0.ODTMIFH",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_V10.0.3.0.ODTMIFH_7f75106e81_8.1.zip",
+          "fastboot": "platina_global_images_V10.0.3.0.ODTMIFH_20181108.0000.00_8.1_global_69fcc88bee.tgz"
+        },
+        {
+          "miui": "V9.6.5.0.ODTMIFD",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_V9.6.5.0.ODTMIFD_08f05adb8a_8.1.zip",
+          "fastboot": "platina_global_images_V9.6.5.0.ODTMIFD_20181016.0000.00_8.1_global_2a6e60e716.tgz"
+        },
+        {
+          "miui": "V9.6.4.0.ODTMIFD",
+          "android": "8.1",
+          "recovery": "miui_MI8LiteGlobal_V9.6.4.0.ODTMIFD_9d7486b1e4_8.1.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V12.0.1.0.QDTRUXM",
+          "android": "10.0",
+          "recovery": "miui_PLATINARUGlobal_V12.0.1.0.QDTRUXM_d7fbafa86e_10.0.zip",
+          "fastboot": "platina_ru_global_images_V12.0.1.0.QDTRUXM_20200904.0000.00_10.0_global_f145b74fea.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.QDTRUXM",
+          "android": "10.0",
+          "recovery": "miui_PLATINARUGlobal_V11.0.2.0.QDTRUXM_e0ca8e1010_10.0.zip",
+          "fastboot": "platina_ru_global_images_V11.0.2.0.QDTRUXM_20200521.0000.00_10.0_global_afc571d928.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QDTRUXM",
+          "android": "10.0",
+          "recovery": "miui_PLATINARUGlobal_V11.0.1.0.QDTRUXM_11ad3a942e_10.0.zip",
+          "fastboot": "platina_ru_global_images_V11.0.1.0.QDTRUXM_20200317.0000.00_10.0_global_82e978dc5b.tgz"
+        },
+        {
+          "miui": "V11.0.7.0.PDTRUXM",
+          "android": "9.0",
+          "recovery": "miui_PLATINARUGlobal_V11.0.7.0.PDTRUXM_10c8bdaeca_9.0.zip",
+          "fastboot": "platina_ru_global_images_V11.0.7.0.PDTRUXM_20200107.0000.00_9.0_global_a008adb87d.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.PDTRUXM",
+          "android": "9.0",
+          "recovery": "miui_PLATINARUGlobal_V11.0.6.0.PDTRUXM_211fbe544d_9.0.zip",
+          "fastboot": "platina_ru_global_images_V11.0.6.0.PDTRUXM_20191213.0000.00_9.0_global_4c94ccd0bc.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.PDTRUXM",
+          "android": "9.0",
+          "recovery": "miui_PLATINARUGlobal_V11.0.5.0.PDTRUXM_7cf5452571_9.0.zip",
+          "fastboot": "platina_ru_global_images_V11.0.5.0.PDTRUXM_20191022.0000.00_9.0_global_e04171f81f.tgz"
+        },
+        {
+          "miui": "V10.2.1.0.ODTRUXM",
+          "android": "8.1",
+          "recovery": "miui_PLATINARUGlobal_V10.2.1.0.ODTRUXM_d8a71a6ef4_8.1.zip",
+          "fastboot": "platina_ru_global_images_V10.2.1.0.ODTRUXM_20190115.0000.00_8.1_global_8be481215f.tgz"
+        },
+        {
+          "miui": "V10.0.6.0.ODTRUFH",
+          "android": "8.1",
+          "recovery": "miui_PLATINARUGlobal_V10.0.6.0.ODTRUFH_d8aef1610e_8.1.zip",
+          "fastboot": "platina_ru_global_images_V10.0.6.0.ODTRUFH_20181211.0000.00_8.1_global_8587a84dbe.tgz"
+        },
+        {
+          "miui": "V9.6.6.0.ODTRUFD",
+          "android": "8.1",
+          "recovery": "miui_PLATINARUGlobal_V9.6.6.0.ODTRUFD_96fa919702_8.1.zip",
+          "fastboot": "platina_ru_global_images_V9.6.6.0.ODTRUFD_20181024.0000.00_8.1_global_9709a13db0.tgz"
+        }
+      ]
+    }
+  ]
 }

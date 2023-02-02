@@ -1,2317 +1,2407 @@
 {
-    "codename": "davinci",
-    "cnname": "Redmi K20/小米 9T",
-    "enname": "Redmi K20/Mi 9T",
-    "attentions": [
+  "codename": "davinci",
+  "cnname": "Redmi K20/小米 9T",
+  "enname": "Redmi K20/Mi 9T",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "miui": "21.11.24",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.24_d256b12764_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.23",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.23_fa9cffb420_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.22",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.22_2e7e0e04b6_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.19",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.19_0b30f4610d_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.17",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.17_90f8a1decf_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.16",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.16_0ae0b24894_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.15",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.15_8eb022c4a5_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.12",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.12_597925f14c_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.10",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.10_d386135999_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.9",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.9_008180b700_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.8",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.8_1a1ac8d0fd_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.5",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.5_0f0dbbde04_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.3",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.3_9a75d00dc3_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.2_8cddf75454_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.11.1",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.11.1_ef42652ae4_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.29",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.10.29_8c09267f29_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.27",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.10.27_ebeeb159b7_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.26",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.10.26_9274f46be3_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.25",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.10.25_987428926e_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.22",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.10.22_1ef8bee089_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.20",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.10.20_4d456b3bec_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.10.13",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.10.13_0fa40289a1_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.9.28",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.9.28_48aa8cdf69_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.9.22",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.9.22_7c5469d964_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.9.15",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.9.15_5a22fd8753_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.9.8",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.9.8_d083215de4_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.9.1",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.9.1_079993ab98_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.25",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.25_6cd41b2685_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.18",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.18_892a01b689_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.11",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.11_398702db56_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.10",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.10_b998124bf9_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.9",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.9_176ef3a57a_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.6",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.6_ad22a8bc35_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.4",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.4_4a9043bad4_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.3",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.3_534524f595_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.8.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.8.2_fd0f5a61a8_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.30",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.30_3ed63ddc5f_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.28",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.28_8d0f09d3db_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.27",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.27_31117cab86_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.26",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.26_386a58ff47_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.23",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.23_e0d422f603_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.21",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.21_043fa505ba_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.20",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.20_da15421b9c_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.19",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.19_ccc1d0a8c2_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.16",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.16_0d2b99bd14_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.14",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.14_fc615efc1e_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.13",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.13_6141c5aaf6_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.12",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.12_124af04833_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.9",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.9_53c74ceb30_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.7",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.7_f921f28612_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.6",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.6_e4553356bb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.5",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.5_bc1b224d16_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.7.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.7.2_cf82049506_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.30",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.30_0a28723b15_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.28",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.28_7694b2acb7_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.25",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.25_1983d20bd1_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.23",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.23_8d21144660_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.16",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.16_2f4d153219_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.15",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.15_3142b913fb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.11",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.11_2a42e2ecf8_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.9",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.9_8fd596bbd9_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.8",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.8_2b2cff40b8_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.7",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.7_92cb17d979_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.4",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.4_addb38b8ef_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.2_5f2ef99b97_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.6.1",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.6.1_091a1a1bcb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.31",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.31_6cd6d0f43a_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.28",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.28_2caf8f1316_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.27",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.27_7902f17f54_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.20",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.20_cea751df90_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.19",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.19_e730c8ca28_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.18",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.18_e7b30d384b_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.14",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.14_722a5e56fd_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.12",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.12_39ae42bce0_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.11",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.11_83e167df8e_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.10",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.10_fa9bb617af_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.5.7",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.5.7_4c695e96cb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.28",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.28_983b7b70a5_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.27",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.27_1157842559_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.26",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.26_ee95acb87b_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.23",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.23_ef4100ddeb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.21",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.21_5df6de041b_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.20",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.20_bd493b8eb4_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.19",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.19_cf88f171e1_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.16",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.16_57bf9e7069_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.14",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.14_51573a960e_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.13",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.13_2de1c42227_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.12",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.12_d7f24fcb64_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.10",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.10_7dd26d2c0f_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.7",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.7_8bfecd2bec_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.6",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.6_ad0aaf334c_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.2_0cf097faf3_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.1",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.4.1_6973628343_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.30",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.30_d79a9647d0_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.29",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.29_9ff28f00fb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.24",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.24_8d968d2324_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.23",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.23_bac27a02dc_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.21",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.21_2786458e15_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.19",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.19_eb74471824_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.18",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.18_28fdb86ebc_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.17",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.17_dcac375db5_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.16",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.16_196c476bdc_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.12",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.12_839d9603b2_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.10",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.10_f263778a21_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.9",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.9_ab10367f61_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.8",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.8_847f9f597c_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.5",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.5_094be2d8b0_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.3",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.3_e32787bfb0_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.2_608e71b7ff_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.1",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.3.1_a99c91a707_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.26",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.26_4925357d3b_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.24",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.24_b3b1c1ad33_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.23",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.23_db18eaafec_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.22",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.22_11362c0b71_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.19",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.19_2ff6cb95d8_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.3",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.3_6d5111b469_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.2_40f7407566_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.1",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.2.1_ec4232fb7f_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.29",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.29_af7447c3bf_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.28",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.28_7398e161b2_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.26",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.26_eed375dc1b_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.25",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.25_f967b5334c_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.22",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.22_07c94da360_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.20",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.20_d7bc6f21dc_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.19",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.19_98b434ed42_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.18",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.18_6fe5e179bb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.15",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.15_cd3f9a31cb_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.13",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.13_68068ad72e_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.12",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.12_8b09b971b1_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.11",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.11_5456aa2820_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.8",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.8_45d103a53a_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.6",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.6_594cd21df3_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.5",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.5_ab14125894_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.4",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_21.1.4_8318d47b8b_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.30",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.30_3fc560e03d_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.28",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.28_e3f16c4598_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.26",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.26_e8b0d030c1_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.10",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.10_1508273563_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.9",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.9_b0e5dcaaa7_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.8",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.8_42c24c9177_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.7",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.7_187b57802c_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.3",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.3_22c322c13a_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.2",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.12.2_4d74a7c4a1_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.30",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.30_afdcc6488a_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.26",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.26_0bc2c23a41_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.25",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.25_924e578325_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.18",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.18_cac6431179_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.17",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.17_30b518c64f_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.16",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.16_a3be9b1296_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.13",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.13_aa48777a60_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.12",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.12_b6bd41e7a5_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.11",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.11_815f2c92ac_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.10",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.11.10_46ae0d23d3_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.30",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.10.30_98087cc27c_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.27",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.10.27_93cde1a304_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.22",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.10.22_137d7387ae_11.0.zip",
+          "fastboot": "davinci_images_20.10.22_20201022.0000.00_11.0_cn_e4450bfd89.tgz"
+        },
+        {
+          "miui": "20.10.20",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_20.10.20_b436860943_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.17",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.17_e4423c6436_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.16",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.16_6bad8567e6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.15",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.15_c8b5ed6af0_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.10",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.10_e0f90b82d1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.9",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.9_396a5576e3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.8",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.8_e33f857cb7_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.7",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.7_afdc25e969_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.3",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.3_c853173909_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.1",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.9.1_10b285cec5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.27",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.27_c0f931721c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.25",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.25_2b9915ce44_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.24",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.24_a495ba7eff_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.20",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.20_760c1dd279_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.19",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.19_440ee9f475_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.18",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.18_f2dd6376e2_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.17",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.17_7d4229c807_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.13",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.13_354c44af2f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.12",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.12_1956462e60_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.11",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.11_fbac2ba440_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.10",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.10_7e5153177e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.7",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.7_76ca4da6a1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.6",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.6_283e5ffbf1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.5",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.5_8ab68e02b9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.4",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.4_6b50bd87e8_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.3",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.8.3_07fcb95bf7_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.30",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.30_dc8db4d9d6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.28",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.28_52bb4ff2f3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.27",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.27_95fa065754_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.23",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.23_b4acde320d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.22",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.22_97a930daeb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.21",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.21_ace30eab94_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.20",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.20_f43be0e568_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.16",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.16_049df7021d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.15",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.15_9798aacc0b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.14",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.14_1cd19a1210_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.13",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.13_9e11a787ca_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.9",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.9_02fb8ba240_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.8",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.8_13c4f3c970_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.7",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.7_1114972808_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.6",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.6_9b9351e95a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.2",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.2_a9fcefb387_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.1",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.7.1_b504f2227d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.30",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.30_adad840c8e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.23",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.23_a2055841eb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.18",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.18_5e0d860388_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.17",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.17_23fa0a62e1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.16",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.16_f42d9db026_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.15",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.15_d3d206a53b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.11",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.11_c566cddc0d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.10",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.10_72aab90652_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.8",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.8_889e2f71a6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.4",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.4_c13e693cd1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.3",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.3_3b30960b73_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.2",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.2_f0a75330ac_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.1",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.6.1_6ae8373402_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.29",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.29_1d831def8c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.28",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.28_98164b3466_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.27",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.27_4d25fced20_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.26",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.26_1e08adef80_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.25",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.25_233f6860da_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.21",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.21_a140ce2db1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.20",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.20_c6fb9b3646_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.19",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.19_af1206984b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.18",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.18_20e8088bff_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.14",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.14_dbb7d25c61_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.13",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.13_db7849e09f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.12",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.12_e9c47b0411_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.11",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.11_ec34d48b30_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.7",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.7_faa284ef59_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.6",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.5.6_028480154d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.4.30",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.4.30_3e4538d35b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.4.28",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.4.28_4c77332914_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.4.27",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.4.27_ad457695ab_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.26",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.26_a8c36fd72a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.25",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.25_67c2fdb723_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.24",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.24_8eb927e28c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.23",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.23_6c3ac95357_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.19",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.19_5c17da20f5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.18",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.18_4fa76238e3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.17",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.17_a5313cefa5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.16",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.16_10c27d2f78_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.12",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.12_5761e651e9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.11",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.11_00dade8eb8_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.9",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.9_cab13151eb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.5",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.5_ffb0b0656d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.3",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.3.3_af922541f5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.27",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.2.27_3033f66a20_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.26",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.2.26_c9689f1ed1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.25",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.2.25_9ff2e2b6f2_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.10",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.2.10_92df89aa69_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.21",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.21_0059de114f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.16",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.16_d66bc45879_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.15",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.15_16dfaa3f35_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.13",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.13_ce73329d19_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.9",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.9_c0df195b92_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.8",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.8_fa2d2d9967_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.7",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.7_ddbd870c5c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.2",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_20.1.2_3a759ead1a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.31",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.31_e47bb5f2a1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.30",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.30_18a3b44be5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.26",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.26_24ebeb6c72_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.25",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.25_bbca272a55_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.24",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.24_8786d44c9a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.23",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.23_66e6811bfa_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.19",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.19_8bb8c104b5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.18",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.18_0c6fcf5970_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.17",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.17_7c3e3946b1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.16",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.16_d6f21e7b46_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.12",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.12_5fe3f51442_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.10",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.10_bc70e4e27a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.9",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.9_e1d133dc2c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.5",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.5_839ccf94cd_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.4",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.4_543092a6f1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.2",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.12.2_e575116ee2_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.28",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.28_175fca25d3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.26",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.26_b4ca7f0c0c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.25",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.25_0e72f9dc03_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.22",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.22_d6ccc27466_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.21",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.21_69ade31aa6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.19",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.19_087d56baba_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.14",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.14_dea263afb9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.12",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.12_1f5c16b97c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.11",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.11_a1d035e82b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.7",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.7_bc068e44fd_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.5",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.5_257544ef4e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.1",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.11.1_a96a3258cf_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.30",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.10.30_ba2c45963b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.24",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.10.24_b9a3c0ff16_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.21",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.10.21_938ec5324a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.17",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.10.17_22e64b63fe_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.16",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.10.16_30974d8a85_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.10",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.10.10_f668eb8797_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.9",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.10.9_cb8125f98f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.27",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.9.27_a6ed12541d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.26",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.9.26_a762411128_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.25",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.9.25_030918b882_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.1",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_9.9.1_c4c9a42537_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.23",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.8.23_68267619f5_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.15",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.8.15_e050e89ac7_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.8",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.8.8_5c9a0bc5a3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.7",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.8.7_0352f526c3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.5",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.8.5_cb7c70bb3d_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.1",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.8.1_2b45a919d8_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.31",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.7.31_ec3ba71f65_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.30",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.7.30_7dbaabc09d_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.29",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.7.29_ae97ad6435_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.25",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.7.25_dbfa5dcf76_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.24",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.7.24_c20ed93458_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.18",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.7.18_3214be76e0_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.6.20",
+          "android": "9.0",
+          "recovery": "miui_DAVINCI_9.6.20_5550222ae2_9.0.zip",
+          "fastboot": "davinci_images_9.6.20_20190620.0000.00_9.0_cn_eaf0551cb0.tgz"
         }
-    ],
-    "branches": [
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "21.11.24",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.11.24_d256b12764_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.11.17",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.11.17_90f8a1decf_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.11.10",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.11.10_d386135999_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.11.3",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.11.3_9a75d00dc3_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.10.27",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.10.27_ebeeb159b7_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.10.20",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.10.20_4d456b3bec_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.10.13",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.10.13_0fa40289a1_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.9.28",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.9.28_48aa8cdf69_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.9.22",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.9.22_7c5469d964_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.9.15",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.9.15_5a22fd8753_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.9.8",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.9.8_d083215de4_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.9.1",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.9.1_079993ab98_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.25",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.25_6cd41b2685_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.18",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.18_892a01b689_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.11",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.11_398702db56_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.10",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.10_b998124bf9_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.9",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.9_176ef3a57a_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.6",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.6_ad22a8bc35_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.4",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.4_4a9043bad4_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.3",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.3_534524f595_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.8.2",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.8.2_fd0f5a61a8_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.30",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.30_3ed63ddc5f_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.28",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.28_8d0f09d3db_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.27",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.27_31117cab86_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.26",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.26_386a58ff47_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.23",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.23_e0d422f603_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.21",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.21_043fa505ba_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.20",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.20_da15421b9c_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.19",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.19_ccc1d0a8c2_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.16",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.16_0d2b99bd14_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.14",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.14_fc615efc1e_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.13",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.13_6141c5aaf6_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.12",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.12_124af04833_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.9",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.9_53c74ceb30_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.7",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.7_f921f28612_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.6",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.6_e4553356bb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.5",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.5_bc1b224d16_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.7.2",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.7.2_cf82049506_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.30",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.30_0a28723b15_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.28",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.28_7694b2acb7_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.25",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.25_1983d20bd1_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.23",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.23_8d21144660_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.16",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.16_2f4d153219_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.15",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.15_3142b913fb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.11",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.11_2a42e2ecf8_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.9",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.9_8fd596bbd9_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.8",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.8_2b2cff40b8_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.7",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.7_92cb17d979_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.4",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.4_addb38b8ef_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.2",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.2_5f2ef99b97_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.6.1",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.6.1_091a1a1bcb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.31",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.31_6cd6d0f43a_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.28",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.28_2caf8f1316_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.27",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.27_7902f17f54_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.20",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.20_cea751df90_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.19",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.19_e730c8ca28_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.18",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.18_e7b30d384b_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.14",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.14_722a5e56fd_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.12",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.12_39ae42bce0_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.11",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.11_83e167df8e_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.10",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.10_fa9bb617af_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.5.7",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.5.7_4c695e96cb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.28",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.28_983b7b70a5_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.27",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.27_1157842559_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.26",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.26_ee95acb87b_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.23",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.23_ef4100ddeb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.21",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.21_5df6de041b_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.20",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.20_bd493b8eb4_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.19",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.19_cf88f171e1_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.16",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.16_57bf9e7069_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.14",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.14_51573a960e_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.13",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.13_2de1c42227_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.12",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.12_d7f24fcb64_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.10",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.10_7dd26d2c0f_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.7",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.7_8bfecd2bec_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.6",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.6_ad0aaf334c_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.2",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.2_0cf097faf3_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.1",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.4.1_6973628343_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.30",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.30_d79a9647d0_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.29",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.29_9ff28f00fb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.24",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.24_8d968d2324_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.23",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.23_bac27a02dc_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.21",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.21_2786458e15_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.19",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.19_eb74471824_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.18",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.18_28fdb86ebc_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.17",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.17_dcac375db5_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.16",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.16_196c476bdc_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.12",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.12_839d9603b2_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.10",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.10_f263778a21_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.9",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.9_ab10367f61_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.8",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.8_847f9f597c_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.5",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.5_094be2d8b0_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.3",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.3_e32787bfb0_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.2",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.2_608e71b7ff_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.1",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.3.1_a99c91a707_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.26",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.26_4925357d3b_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.24",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.24_b3b1c1ad33_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.23",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.23_db18eaafec_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.22",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.22_11362c0b71_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.19",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.19_2ff6cb95d8_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.3",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.3_6d5111b469_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.2",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.2_40f7407566_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.1",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.2.1_ec4232fb7f_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.29",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.29_af7447c3bf_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.28",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.28_7398e161b2_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.26",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.26_eed375dc1b_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.25",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.25_f967b5334c_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.22",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.22_07c94da360_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.20",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.20_d7bc6f21dc_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.19",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.19_98b434ed42_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.18",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.18_6fe5e179bb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.15",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.15_cd3f9a31cb_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.13",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.13_68068ad72e_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.12",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.12_8b09b971b1_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.11",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.11_5456aa2820_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.8",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.8_45d103a53a_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.6",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.6_594cd21df3_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.5",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.5_ab14125894_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.4",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_21.1.4_8318d47b8b_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.30",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.30_3fc560e03d_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.28",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.28_e3f16c4598_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.26",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.26_e8b0d030c1_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.10",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.10_1508273563_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.9",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.9_b0e5dcaaa7_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.8",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.8_42c24c9177_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.7",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.7_187b57802c_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.3",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.3_22c322c13a_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.2",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.12.2_4d74a7c4a1_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.30",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.30_afdcc6488a_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.26",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.26_0bc2c23a41_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.25",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.25_924e578325_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.18",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.18_cac6431179_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.17",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.17_30b518c64f_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.16",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.16_a3be9b1296_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.13",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.13_aa48777a60_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.12",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.12_b6bd41e7a5_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.11",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.11_815f2c92ac_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.10",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.11.10_46ae0d23d3_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.30",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.10.30_98087cc27c_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.27",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.10.27_93cde1a304_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.22",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.10.22_137d7387ae_11.0.zip",
-                    "fastboot": "davinci_images_20.10.22_20201022.0000.00_11.0_cn_e4450bfd89.tgz"
-                },
-                {
-                    "miui": "20.10.20",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_20.10.20_b436860943_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.17",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.17_e4423c6436_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.16",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.16_6bad8567e6_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.15",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.15_c8b5ed6af0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.10",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.10_e0f90b82d1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.9",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.9_396a5576e3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.8",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.8_e33f857cb7_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.7",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.7_afdc25e969_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.3",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.3_c853173909_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.1",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.9.1_10b285cec5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.27",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.27_c0f931721c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.25",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.25_2b9915ce44_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.24",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.24_a495ba7eff_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.20",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.20_760c1dd279_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.19",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.19_440ee9f475_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.18",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.18_f2dd6376e2_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.17",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.17_7d4229c807_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.13",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.13_354c44af2f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.12",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.12_1956462e60_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.11",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.11_fbac2ba440_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.10",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.10_7e5153177e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.7",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.7_76ca4da6a1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.6",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.6_283e5ffbf1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.5",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.5_8ab68e02b9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.4",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.4_6b50bd87e8_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.3",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.8.3_07fcb95bf7_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.30",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.30_dc8db4d9d6_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.28",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.28_52bb4ff2f3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.27",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.27_95fa065754_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.23",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.23_b4acde320d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.22",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.22_97a930daeb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.21",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.21_ace30eab94_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.20",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.20_f43be0e568_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.16",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.16_049df7021d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.15",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.15_9798aacc0b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.14",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.14_1cd19a1210_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.13",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.13_9e11a787ca_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.9",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.9_02fb8ba240_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.8",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.8_13c4f3c970_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.7",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.7_1114972808_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.6",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.6_9b9351e95a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.2",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.2_a9fcefb387_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.1",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.7.1_b504f2227d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.30",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.30_adad840c8e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.23",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.23_a2055841eb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.18",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.18_5e0d860388_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.17",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.17_23fa0a62e1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.16",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.16_f42d9db026_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.15",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.15_d3d206a53b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.11",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.11_c566cddc0d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.10",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.10_72aab90652_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.8",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.8_889e2f71a6_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.4",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.4_c13e693cd1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.3",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.3_3b30960b73_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.2",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.2_f0a75330ac_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.1",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.6.1_6ae8373402_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.29",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.29_1d831def8c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.28",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.28_98164b3466_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.27",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.27_4d25fced20_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.26",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.26_1e08adef80_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.25",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.25_233f6860da_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.21",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.21_a140ce2db1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.20",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.20_c6fb9b3646_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.19",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.19_af1206984b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.18",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.18_20e8088bff_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.14",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.14_dbb7d25c61_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.13",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.13_db7849e09f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.12",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.12_e9c47b0411_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.11",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.11_ec34d48b30_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.7",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.7_faa284ef59_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.6",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.5.6_028480154d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.4.30",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.4.30_3e4538d35b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.4.28",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.4.28_4c77332914_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.4.27",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.4.27_ad457695ab_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.26",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.26_a8c36fd72a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.25",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.25_67c2fdb723_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.24",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.24_8eb927e28c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.23",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.23_6c3ac95357_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.19",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.19_5c17da20f5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.18",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.18_4fa76238e3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.17",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.17_a5313cefa5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.16",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.16_10c27d2f78_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.12",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.12_5761e651e9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.11",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.11_00dade8eb8_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.9",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.9_cab13151eb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.5",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.5_ffb0b0656d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.3",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.3.3_af922541f5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.27",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.2.27_3033f66a20_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.26",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.2.26_c9689f1ed1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.25",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.2.25_9ff2e2b6f2_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.10",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.2.10_92df89aa69_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.21",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.21_0059de114f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.16",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.16_d66bc45879_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.15",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.15_16dfaa3f35_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.13",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.13_ce73329d19_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.9",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.9_c0df195b92_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.8",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.8_fa2d2d9967_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.7",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.7_ddbd870c5c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.2",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_20.1.2_3a759ead1a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.31",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.31_e47bb5f2a1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.30",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.30_18a3b44be5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.26",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.26_24ebeb6c72_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.25",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.25_bbca272a55_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.24",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.24_8786d44c9a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.23",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.23_66e6811bfa_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.19",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.19_8bb8c104b5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.18",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.18_0c6fcf5970_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.17",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.17_7c3e3946b1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.16",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.16_d6f21e7b46_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.12",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.12_5fe3f51442_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.10",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.10_bc70e4e27a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.9",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.9_e1d133dc2c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.5",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.5_839ccf94cd_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.4",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.4_543092a6f1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.2",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.12.2_e575116ee2_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.28",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.28_175fca25d3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.26",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.26_b4ca7f0c0c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.25",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.25_0e72f9dc03_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.22",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.22_d6ccc27466_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.21",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.21_69ade31aa6_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.19",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.19_087d56baba_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.14",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.14_dea263afb9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.12",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.12_1f5c16b97c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.11",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.11_a1d035e82b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.7",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.7_bc068e44fd_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.5",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.5_257544ef4e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.1",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.11.1_a96a3258cf_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.30",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.10.30_ba2c45963b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.24",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.10.24_b9a3c0ff16_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.21",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.10.21_938ec5324a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.17",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.10.17_22e64b63fe_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.16",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.10.16_30974d8a85_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.10",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.10.10_f668eb8797_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.9",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.10.9_cb8125f98f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.27",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.9.27_a6ed12541d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.26",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.9.26_a762411128_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.25",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.9.25_030918b882_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.1",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_9.9.1_c4c9a42537_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.23",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.8.23_68267619f5_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.15",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.8.15_e050e89ac7_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.8",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.8.8_5c9a0bc5a3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.7",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.8.7_0352f526c3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.5",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.8.5_cb7c70bb3d_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.1",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.8.1_2b45a919d8_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.31",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.7.31_ec3ba71f65_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.30",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.7.30_7dbaabc09d_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.29",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.7.29_ae97ad6435_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.25",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.7.25_dbfa5dcf76_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.24",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.7.24_c20ed93458_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.18",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.7.18_3214be76e0_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.6.20",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCI_9.6.20_5550222ae2_9.0.zip",
-                    "fastboot": "davinci_images_9.6.20_20190620.0000.00_9.0_cn_eaf0551cb0.tgz"
-                }
-            ]
+          "miui": "V12.5.2.0.RFJCNXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_V12.5.2.0.RFJCNXM_8e20b56805_11.0.zip",
+          "fastboot": "davinci_images_V12.5.2.0.RFJCNXM_20211103.0000.00_11.0_cn_24856b6f4f.tgz"
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V12.5.2.0.RFJCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_V12.5.2.0.RFJCNXM_8e20b56805_11.0.zip",
-                    "fastboot": "davinci_images_V12.5.2.0.RFJCNXM_20211103.0000.00_11.0_cn_24856b6f4f.tgz"
-                },
-                {
-                    "miui": "V12.5.1.0.RFJCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_V12.5.1.0.RFJCNXM_d03c1be4ec_11.0.zip",
-                    "fastboot": "davinci_images_V12.5.1.0.RFJCNXM_20210813.0000.00_11.0_cn_480f6de681.tgz"
-                },
-                {
-                    "miui": "V12.1.2.0.RFJCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_V12.1.2.0.RFJCNXM_cbafd0e088_11.0.zip",
-                    "fastboot": "davinci_images_V12.1.2.0.RFJCNXM_20210317.0000.00_11.0_cn_5dd5598e2a.tgz"
-                },
-                {
-                    "miui": "V12.1.1.0.RFJCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCI_V12.1.1.0.RFJCNXM_471ae2cf60_11.0.zip",
-                    "fastboot": "davinci_images_V12.1.1.0.RFJCNXM_20210221.0000.00_11.0_cn_c268db27f4.tgz"
-                },
-                {
-                    "miui": "V12.0.6.0.QFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V12.0.6.0.QFJCNXM_5ca52304f9_10.0.zip",
-                    "fastboot": "davinci_images_V12.0.6.0.QFJCNXM_20201103.0000.00_10.0_cn_bedf01fa3f.tgz"
-                },
-                {
-                    "miui": "V12.0.4.0.QFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V12.0.4.0.QFJCNXM_e5cf683f93_10.0.zip",
-                    "fastboot": "davinci_images_V12.0.4.0.QFJCNXM_20200727.0000.00_10.0_cn_f4e5eea685.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V12.0.3.0.QFJCNXM_518c08987f_10.0.zip",
-                    "fastboot": "davinci_images_V12.0.3.0.QFJCNXM_20200617.0000.00_10.0_cn_f8b2c33bdc.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V12.0.2.0.QFJCNXM_f108cfd789_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.6.0.QFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V11.0.6.0.QFJCNXM_1950959fdb_10.0.zip",
-                    "fastboot": "davinci_images_V11.0.6.0.QFJCNXM_20200331.0000.00_10.0_cn_a982a5d056.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.QFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V11.0.4.0.QFJCNXM_1bc454c300_10.0.zip",
-                    "fastboot": "davinci_images_V11.0.4.0.QFJCNXM_20200214.0000.00_10.0_cn_13fe307d52.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V11.0.3.0.PFJCNXM_104ec46429_9.0.zip",
-                    "fastboot": "davinci_images_V11.0.3.0.PFJCNXM_20190926.0000.00_9.0_cn_fd671ffccf.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.QFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V11.0.2.0.QFJCNXM_f6f375d6c4_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.15.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V10.3.15.0.PFJCNXM_d8545c3ae5_9.0.zip",
-                    "fastboot": "davinci_images_V10.3.15.0.PFJCNXM_20190827.0000.00_9.0_cn_62327c4a51.tgz"
-                },
-                {
-                    "miui": "V10.3.14.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V10.3.14.0.PFJCNXM_f944c0a4bf_9.0.zip",
-                    "fastboot": "davinci_images_V10.3.14.0.PFJCNXM_20190802.0000.00_9.0_cn_087bc8862c.tgz"
-                },
-                {
-                    "miui": "V10.3.12.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V10.3.12.0.PFJCNXM_54a3ff575a_9.0.zip",
-                    "fastboot": "davinci_images_V10.3.12.0.PFJCNXM_20190712.0000.00_9.0_cn_5d53ab8f55.tgz"
-                },
-                {
-                    "miui": "V10.3.9.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V10.3.9.0.PFJCNXM_64c2182367_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.8.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V10.3.8.0.PFJCNXM_968e5a975a_9.0.zip",
-                    "fastboot": "davinci_images_V10.3.8.0.PFJCNXM_20190616.0000.00_9.0_cn_c4b6816e36.tgz"
-                },
-                {
-                    "miui": "V10.3.7.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V10.3.7.0.PFJCNXM_ec12ed28ae_9.0.zip",
-                    "fastboot": "davinci_images_V10.3.7.0.PFJCNXM_20190603.0000.00_9.0_cn_ef655a5611.tgz"
-                },
-                {
-                    "miui": "V10.3.6.0.PFJCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCI_V10.3.6.0.PFJCNXM_f4750444d0_9.0.zip",
-                    "fastboot": "davinci_images_V10.3.6.0.PFJCNXM_20190522.0000.00_9.0_cn_84dc48df10.tgz"
-                }
-            ]
+          "miui": "V12.5.1.0.RFJCNXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_V12.5.1.0.RFJCNXM_d03c1be4ec_11.0.zip",
+          "fastboot": "davinci_images_V12.5.1.0.RFJCNXM_20210813.0000.00_11.0_cn_480f6de681.tgz"
         },
         {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "V12.1.4.0.RFJMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.1.4.0.RFJMIXM_e0ac13ed89_11.0.zip",
-                    "fastboot": "davinci_global_images_V12.1.4.0.RFJMIXM_20210727.0000.00_11.0_global_9ce20c36aa.tgz"
-                },
-                {
-                    "miui": "V12.1.2.0.RFJMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.1.2.0.RFJMIXM_5307aa9377_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V12.0.0.11.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.0.11.QFJMIXM_08c5c4366b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V12.0.9.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.9.0.QFJMIXM_666a06db4a_10.0.zip",
-                    "fastboot": "davinci_global_images_V12.0.9.0.QFJMIXM_20210612.0000.00_10.0_global_df2b000f1f.tgz"
-                },
-                {
-                    "miui": "V12.0.8.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.8.0.QFJMIXM_1e3665659e_10.0.zip",
-                    "fastboot": "davinci_global_images_V12.0.8.0.QFJMIXM_20210413.0000.00_10.0_global_acd2d8e321.tgz"
-                },
-                {
-                    "miui": "V12.0.7.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.7.0.QFJMIXM_9866f56704_10.0.zip",
-                    "fastboot": "davinci_global_images_V12.0.7.0.QFJMIXM_20210114.0000.00_10.0_global_d026741251.tgz"
-                },
-                {
-                    "miui": "V12.0.5.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.5.0.QFJMIXM_68eafed495_10.0.zip",
-                    "fastboot": "davinci_global_images_V12.0.5.0.QFJMIXM_20201010.0000.00_10.0_global_baf3c8c333.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.3.0.QFJMIXM_ed720ed0a6_10.0.zip",
-                    "fastboot": "davinci_global_images_V12.0.3.0.QFJMIXM_20200722.0000.00_10.0_global_8350bad8ef.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.2.0.QFJMIXM_eca715bb58_10.0.zip",
-                    "fastboot": "davinci_global_images_V12.0.2.0.QFJMIXM_20200712.0000.00_10.0_global_b1b1a79316.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V12.0.1.0.QFJMIXM_f09a4569f4_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.6.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V11.0.6.0.QFJMIXM_1bfefed6db_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.5.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V11.0.5.0.QFJMIXM_aaab5b40c7_10.0.zip",
-                    "fastboot": "davinci_global_images_V11.0.5.0.QFJMIXM_20200412.0000.00_10.0_global_196105ebe3.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V11.0.4.0.QFJMIXM_f1cc1d4a69_10.0.zip",
-                    "fastboot": "davinci_global_images_V11.0.4.0.QFJMIXM_20200117.0000.00_10.0_global_4c094d085a.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QFJMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIGlobal_V11.0.1.0.QFJMIXM_8717ecdcf3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.1.0.PFJMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIGlobal_V11.0.1.0.PFJMIXM_de37c81233_9.0.zip",
-                    "fastboot": "davinci_global_images_V11.0.1.0.PFJMIXM_20191028.0000.00_9.0_global_156b6de73d.tgz"
-                },
-                {
-                    "miui": "V10.3.11.0.PFJMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIGlobal_V10.3.11.0.PFJMIXM_a63c8d3d93_9.0.zip",
-                    "fastboot": "davinci_global_images_V10.3.11.0.PFJMIXM_20190802.0000.00_9.0_global_ea6683ef55.tgz"
-                },
-                {
-                    "miui": "V10.3.9.0.PFJMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIGlobal_V10.3.9.0.PFJMIXM_1b6f5bc7ca_9.0.zip",
-                    "fastboot": "davinci_global_images_V10.3.9.0.PFJMIXM_20190712.0000.00_9.0_global_78c1ba9dbe.tgz"
-                },
-                {
-                    "miui": "V10.3.7.0.PFJMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIGlobal_V10.3.7.0.PFJMIXM_a0622a6370_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.6.0.PFJMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIGlobal_V10.3.6.0.PFJMIXM_4879216355_9.0.zip",
-                    "fastboot": "davinci_global_images_V10.3.6.0.PFJMIXM_20190603.0000.00_9.0_global_a0c4a98edb.tgz"
-                },
-                {
-                    "miui": "V10.3.5.0.PFJMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIGlobal_V10.3.5.0.PFJMIXM_7d69a41fb1_9.0.zip",
-                    "fastboot": "davinci_global_images_V10.3.5.0.PFJMIXM_20190528.0000.00_9.0_global_4222a49ff1.tgz"
-                }
-            ]
+          "miui": "V12.1.2.0.RFJCNXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_V12.1.2.0.RFJCNXM_cbafd0e088_11.0.zip",
+          "fastboot": "davinci_images_V12.1.2.0.RFJCNXM_20210317.0000.00_11.0_cn_5dd5598e2a.tgz"
         },
         {
-            "branch": "eeas",
-            "show": "1",
-            "cnname": "欧洲EEA稳定版",
-            "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "V12.1.1.0.RFJEUXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V12.1.1.0.RFJEUXM_2acd940e23_11.0.zip",
-                    "fastboot": "davinci_eea_global_images_V12.1.1.0.RFJEUXM_20210903.0000.00_11.0_eea_3c22137238.tgz"
-                },
-                {
-                    "miui": "V12.0.5.0.QFJEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V12.0.5.0.QFJEUXM_31469c14e7_10.0.zip",
-                    "fastboot": "davinci_eea_global_images_V12.0.5.0.QFJEUXM_20210416.0000.00_10.0_eea_22e4fe6dff.tgz"
-                },
-                {
-                    "miui": "V12.0.4.0.QFJEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V12.0.4.0.QFJEUXM_843c40c155_10.0.zip",
-                    "fastboot": "davinci_eea_global_images_V12.0.4.0.QFJEUXM_20210117.0000.00_10.0_eea_5bdb7a0e12.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QFJEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V12.0.3.0.QFJEUXM_12b99693bc_10.0.zip",
-                    "fastboot": "davinci_eea_global_images_V12.0.3.0.QFJEUXM_20201018.0000.00_10.0_eea_dc7a68a3e2.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFJEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V12.0.2.0.QFJEUXM_0bb88ea943_10.0.zip",
-                    "fastboot": "davinci_eea_global_images_V12.0.2.0.QFJEUXM_20200712.0000.00_10.0_eea_43a52d44c1.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.QFJEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V11.0.6.0.QFJEUXM_79a4386920_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.5.0.QFJEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V11.0.5.0.QFJEUXM_8944bb7369_10.0.zip",
-                    "fastboot": "davinci_eea_global_images_V11.0.5.0.QFJEUXM_20200412.0000.00_10.0_eea_c7aa3d66e7.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.QFJEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V11.0.4.0.QFJEUXM_5001481fbb_10.0.zip",
-                    "fastboot": "davinci_eea_global_images_V11.0.4.0.QFJEUXM_20200117.0000.00_10.0_eea_a4dd716b8e.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V11.0.3.0.PFJEUXM_222331be17_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.2.0.PFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V11.0.2.0.PFJEUXM_e32b086df3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.1.0.QFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V11.0.1.0.QFJEUXM_fd5b674cfd_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.15.0.PFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V10.3.15.0.PFJEUXM_b6738621e2_9.0.zip",
-                    "fastboot": "davinci_eea_global_images_V10.3.15.0.PFJEUXM_20190921.0000.00_9.0_eea_69ac20afc7.tgz"
-                },
-                {
-                    "miui": "V10.3.12.0.PFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V10.3.12.0.PFJEUXM_946a02f6df_9.0.zip",
-                    "fastboot": "davinci_eea_global_images_V10.3.12.0.PFJEUXM_20190801.0000.00_9.0_eea_1d38ae0ec5.tgz"
-                },
-                {
-                    "miui": "V10.3.10.0.PFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V10.3.10.0.PFJEUXM_01dbcd66d8_9.0.zip",
-                    "fastboot": "davinci_eea_global_images_V10.3.10.0.PFJEUXM_20190715.0000.00_9.0_eea_963b7f3bca.tgz"
-                },
-                {
-                    "miui": "V10.3.8.0.PFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V10.3.8.0.PFJEUXM_5820b982aa_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.7.0.PFJEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIEEAGlobal_V10.3.7.0.PFJEUXM_3a2dfaaa18_9.0.zip",
-                    "fastboot": "davinci_eea_global_images_V10.3.7.0.PFJEUXM_20190602.0000.00_9.0_eea_eab1d1cc52.tgz"
-                }
-            ]
+          "miui": "V12.1.1.0.RFJCNXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCI_V12.1.1.0.RFJCNXM_471ae2cf60_11.0.zip",
+          "fastboot": "davinci_images_V12.1.1.0.RFJCNXM_20210221.0000.00_11.0_cn_c268db27f4.tgz"
         },
         {
-            "branch": "russ",
-            "show": "1",
-            "cnname": "俄罗斯稳定版",
-            "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "V12.1.2.0.RFJRUXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V12.1.2.0.RFJRUXM_a69a4cd4e6_11.0.zip",
-                    "fastboot": "davinci_ru_global_images_V12.1.2.0.RFJRUXM_20210826.0000.00_11.0_global_5ade4f8932.tgz"
-                },
-                {
-                    "miui": "V12.0.5.0.QFJRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V12.0.5.0.QFJRUXM_3616e655bc_10.0.zip",
-                    "fastboot": "davinci_ru_global_images_V12.0.5.0.QFJRUXM_20210625.0000.00_10.0_global_2a5504e989.tgz"
-                },
-                {
-                    "miui": "V12.0.4.0.QFJRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V12.0.4.0.QFJRUXM_35406e8c2c_10.0.zip",
-                    "fastboot": "davinci_ru_global_images_V12.0.4.0.QFJRUXM_20210416.0000.00_10.0_global_3e0516d480.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QFJRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V12.0.3.0.QFJRUXM_e7eda28380_10.0.zip",
-                    "fastboot": "davinci_ru_global_images_V12.0.3.0.QFJRUXM_20210117.0000.00_10.0_global_2bd83a2186.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFJRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V12.0.2.0.QFJRUXM_0613a54fe9_10.0.zip",
-                    "fastboot": "davinci_ru_global_images_V12.0.2.0.QFJRUXM_20201018.0000.00_10.0_global_baf607a312.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QFJRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V12.0.1.0.QFJRUXM_5707976485_10.0.zip",
-                    "fastboot": "davinci_ru_global_images_V12.0.1.0.QFJRUXM_20200712.0000.00_10.0_global_0d6fed0c53.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.QFJRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V11.0.5.0.QFJRUXM_6de5eff5c7_10.0.zip",
-                    "fastboot": "davinci_ru_global_images_V11.0.5.0.QFJRUXM_20200513.0000.00_10.0_global_29a14f18d4.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.QFJRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V11.0.3.0.QFJRUXM_01634861e7_10.0.zip",
-                    "fastboot": "davinci_ru_global_images_V11.0.3.0.QFJRUXM_20200310.0000.00_10.0_global_41478132d3.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PFJRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V11.0.3.0.PFJRUXM_8ea807f09a_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.10.0.PFJRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V10.3.10.0.PFJRUXM_0d0ae5a119_9.0.zip",
-                    "fastboot": "davinci_ru_global_images_V10.3.10.0.PFJRUXM_20190801.0000.00_9.0_global_6fbab43f85.tgz"
-                },
-                {
-                    "miui": "V10.3.8.0.PFJRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V10.3.8.0.PFJRUXM_415b2e0500_9.0.zip",
-                    "fastboot": "davinci_ru_global_images_V10.3.8.0.PFJRUXM_20190712.0000.00_9.0_global_381b8a6720.tgz"
-                },
-                {
-                    "miui": "V10.3.6.0.PFJRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V10.3.6.0.PFJRUXM_33821877a0_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.5.0.PFJRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIRUGlobal_V10.3.5.0.PFJRUXM_85dc409eac_9.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.0.6.0.QFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V12.0.6.0.QFJCNXM_5ca52304f9_10.0.zip",
+          "fastboot": "davinci_images_V12.0.6.0.QFJCNXM_20201103.0000.00_10.0_cn_bedf01fa3f.tgz"
         },
         {
-            "branch": "inds",
-            "show": "1",
-            "cnname": "印度稳定版",
-            "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "V12.1.4.0.RFJINXM",
-                    "android": "11.0",
-                    "recovery": "miui_DAVINCIININGlobal_V12.1.4.0.RFJINXM_5db1a0c666_11.0.zip",
-                    "fastboot": "davinciin_in_global_images_V12.1.4.0.RFJINXM_20210713.0000.00_11.0_in_d75547fd02.tgz"
-                },
-                {
-                    "miui": "V12.0.8.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V12.0.8.0.QFJINXM_3a5e59883f_10.0.zip",
-                    "fastboot": "davinciin_in_global_images_V12.0.8.0.QFJINXM_20210416.0000.00_10.0_in_1aff0e01e4.tgz"
-                },
-                {
-                    "miui": "V12.0.7.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V12.0.7.0.QFJINXM_5932fd5876_10.0.zip",
-                    "fastboot": "davinciin_in_global_images_V12.0.7.0.QFJINXM_20210118.0000.00_10.0_in_79201c87f9.tgz"
-                },
-                {
-                    "miui": "V12.0.5.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V12.0.5.0.QFJINXM_59fbbdc486_10.0.zip",
-                    "fastboot": "davinciin_in_global_images_V12.0.5.0.QFJINXM_20201010.0000.00_10.0_in_466b019935.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V12.0.3.0.QFJINXM_76c6f07c7f_10.0.zip",
-                    "fastboot": "davinciin_in_global_images_V12.0.3.0.QFJINXM_20200722.0000.00_10.0_in_ddd4cfcd6b.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V12.0.2.0.QFJINXM_160038cad3_10.0.zip",
-                    "fastboot": "davinciin_in_global_images_V12.0.2.0.QFJINXM_20200701.0000.00_10.0_in_1b69fcfc8f.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V12.0.1.0.QFJINXM_b305175c05_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.4.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V11.0.4.0.QFJINXM_d9782639d5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.3.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V11.0.3.0.QFJINXM_8fbd476b70_10.0.zip",
-                    "fastboot": "davinciin_in_global_images_V11.0.3.0.QFJINXM_20200406.0000.00_10.0_in_76ec845f33.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V11.0.2.0.QFJINXM_a6d5ee94e7_10.0.zip",
-                    "fastboot": "davinciin_in_global_images_V11.0.2.0.QFJINXM_20200213.0000.00_10.0_in_0523f7a778.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QFJINXM",
-                    "android": "10.0",
-                    "recovery": "miui_DAVINCIININGlobal_V11.0.1.0.QFJINXM_496d514f17_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.3.0.PFJINXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIININGlobal_V11.0.3.0.PFJINXM_ef8c64eb0f_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.2.0.PFJINXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIININGlobal_V11.0.2.0.PFJINXM_45b2a8ac93_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.8.0.PFJINXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIININGlobal_V10.3.8.0.PFJINXM_207eaee662_9.0.zip",
-                    "fastboot": "davinciin_in_global_images_V10.3.8.0.PFJINXM_20190816.0000.00_9.0_in_f68dcf8608.tgz"
-                },
-                {
-                    "miui": "V10.3.6.0.PFJINXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIININGlobal_V10.3.6.0.PFJINXM_c4a069be9e_9.0.zip",
-                    "fastboot": "davinciin_in_global_images_V10.3.6.0.PFJINXM_20190712.0000.00_9.0_in_ebf44c2420.tgz"
-                },
-                {
-                    "miui": "V10.3.3.0.PFJINXM",
-                    "android": "9.0",
-                    "recovery": "miui_DAVINCIININGlobal_V10.3.3.0.PFJINXM_599f996c8b_9.0.zip",
-                    "fastboot": "davinciin_in_global_images_V10.3.3.0.PFJINXM_20190621.0000.00_9.0_in_95bf3310b3.tgz"
-                }
-            ]
+          "miui": "V12.0.4.0.QFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V12.0.4.0.QFJCNXM_e5cf683f93_10.0.zip",
+          "fastboot": "davinci_images_V12.0.4.0.QFJCNXM_20200727.0000.00_10.0_cn_f4e5eea685.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V12.0.3.0.QFJCNXM_518c08987f_10.0.zip",
+          "fastboot": "davinci_images_V12.0.3.0.QFJCNXM_20200617.0000.00_10.0_cn_f8b2c33bdc.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V12.0.2.0.QFJCNXM_f108cfd789_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.6.0.QFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V11.0.6.0.QFJCNXM_1950959fdb_10.0.zip",
+          "fastboot": "davinci_images_V11.0.6.0.QFJCNXM_20200331.0000.00_10.0_cn_a982a5d056.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.QFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V11.0.4.0.QFJCNXM_1bc454c300_10.0.zip",
+          "fastboot": "davinci_images_V11.0.4.0.QFJCNXM_20200214.0000.00_10.0_cn_13fe307d52.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V11.0.3.0.PFJCNXM_104ec46429_9.0.zip",
+          "fastboot": "davinci_images_V11.0.3.0.PFJCNXM_20190926.0000.00_9.0_cn_fd671ffccf.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.QFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V11.0.2.0.QFJCNXM_f6f375d6c4_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.15.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V10.3.15.0.PFJCNXM_d8545c3ae5_9.0.zip",
+          "fastboot": "davinci_images_V10.3.15.0.PFJCNXM_20190827.0000.00_9.0_cn_62327c4a51.tgz"
+        },
+        {
+          "miui": "V10.3.14.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V10.3.14.0.PFJCNXM_f944c0a4bf_9.0.zip",
+          "fastboot": "davinci_images_V10.3.14.0.PFJCNXM_20190802.0000.00_9.0_cn_087bc8862c.tgz"
+        },
+        {
+          "miui": "V10.3.12.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V10.3.12.0.PFJCNXM_54a3ff575a_9.0.zip",
+          "fastboot": "davinci_images_V10.3.12.0.PFJCNXM_20190712.0000.00_9.0_cn_5d53ab8f55.tgz"
+        },
+        {
+          "miui": "V10.3.9.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V10.3.9.0.PFJCNXM_64c2182367_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.8.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V10.3.8.0.PFJCNXM_968e5a975a_9.0.zip",
+          "fastboot": "davinci_images_V10.3.8.0.PFJCNXM_20190616.0000.00_9.0_cn_c4b6816e36.tgz"
+        },
+        {
+          "miui": "V10.3.7.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V10.3.7.0.PFJCNXM_ec12ed28ae_9.0.zip",
+          "fastboot": "davinci_images_V10.3.7.0.PFJCNXM_20190603.0000.00_9.0_cn_ef655a5611.tgz"
+        },
+        {
+          "miui": "V10.3.6.0.PFJCNXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCI_V10.3.6.0.PFJCNXM_f4750444d0_9.0.zip",
+          "fastboot": "davinci_images_V10.3.6.0.PFJCNXM_20190522.0000.00_9.0_cn_84dc48df10.tgz"
         }
-    ]
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V12.1.4.0.RFJMIXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCIGlobal_V12.1.4.0.RFJMIXM_e0ac13ed89_11.0.zip",
+          "fastboot": "davinci_global_images_V12.1.4.0.RFJMIXM_20210727.0000.00_11.0_global_9ce20c36aa.tgz"
+        },
+        {
+          "miui": "V12.1.2.0.RFJMIXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCIGlobal_V12.1.2.0.RFJMIXM_5307aa9377_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V12.0.0.11.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.0.11.QFJMIXM_08c5c4366b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V12.0.9.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.9.0.QFJMIXM_666a06db4a_10.0.zip",
+          "fastboot": "davinci_global_images_V12.0.9.0.QFJMIXM_20210612.0000.00_10.0_global_df2b000f1f.tgz"
+        },
+        {
+          "miui": "V12.0.8.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.8.0.QFJMIXM_1e3665659e_10.0.zip",
+          "fastboot": "davinci_global_images_V12.0.8.0.QFJMIXM_20210413.0000.00_10.0_global_acd2d8e321.tgz"
+        },
+        {
+          "miui": "V12.0.7.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.7.0.QFJMIXM_9866f56704_10.0.zip",
+          "fastboot": "davinci_global_images_V12.0.7.0.QFJMIXM_20210114.0000.00_10.0_global_d026741251.tgz"
+        },
+        {
+          "miui": "V12.0.5.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.5.0.QFJMIXM_68eafed495_10.0.zip",
+          "fastboot": "davinci_global_images_V12.0.5.0.QFJMIXM_20201010.0000.00_10.0_global_baf3c8c333.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.3.0.QFJMIXM_ed720ed0a6_10.0.zip",
+          "fastboot": "davinci_global_images_V12.0.3.0.QFJMIXM_20200722.0000.00_10.0_global_8350bad8ef.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.2.0.QFJMIXM_eca715bb58_10.0.zip",
+          "fastboot": "davinci_global_images_V12.0.2.0.QFJMIXM_20200712.0000.00_10.0_global_b1b1a79316.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V12.0.1.0.QFJMIXM_f09a4569f4_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.6.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V11.0.6.0.QFJMIXM_1bfefed6db_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.5.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V11.0.5.0.QFJMIXM_aaab5b40c7_10.0.zip",
+          "fastboot": "davinci_global_images_V11.0.5.0.QFJMIXM_20200412.0000.00_10.0_global_196105ebe3.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V11.0.4.0.QFJMIXM_f1cc1d4a69_10.0.zip",
+          "fastboot": "davinci_global_images_V11.0.4.0.QFJMIXM_20200117.0000.00_10.0_global_4c094d085a.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QFJMIXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIGlobal_V11.0.1.0.QFJMIXM_8717ecdcf3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.1.0.PFJMIXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIGlobal_V11.0.1.0.PFJMIXM_de37c81233_9.0.zip",
+          "fastboot": "davinci_global_images_V11.0.1.0.PFJMIXM_20191028.0000.00_9.0_global_156b6de73d.tgz"
+        },
+        {
+          "miui": "V10.3.11.0.PFJMIXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIGlobal_V10.3.11.0.PFJMIXM_a63c8d3d93_9.0.zip",
+          "fastboot": "davinci_global_images_V10.3.11.0.PFJMIXM_20190802.0000.00_9.0_global_ea6683ef55.tgz"
+        },
+        {
+          "miui": "V10.3.9.0.PFJMIXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIGlobal_V10.3.9.0.PFJMIXM_1b6f5bc7ca_9.0.zip",
+          "fastboot": "davinci_global_images_V10.3.9.0.PFJMIXM_20190712.0000.00_9.0_global_78c1ba9dbe.tgz"
+        },
+        {
+          "miui": "V10.3.7.0.PFJMIXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIGlobal_V10.3.7.0.PFJMIXM_a0622a6370_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.6.0.PFJMIXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIGlobal_V10.3.6.0.PFJMIXM_4879216355_9.0.zip",
+          "fastboot": "davinci_global_images_V10.3.6.0.PFJMIXM_20190603.0000.00_9.0_global_a0c4a98edb.tgz"
+        },
+        {
+          "miui": "V10.3.5.0.PFJMIXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIGlobal_V10.3.5.0.PFJMIXM_7d69a41fb1_9.0.zip",
+          "fastboot": "davinci_global_images_V10.3.5.0.PFJMIXM_20190528.0000.00_9.0_global_4222a49ff1.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V12.1.1.0.RFJEUXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V12.1.1.0.RFJEUXM_2acd940e23_11.0.zip",
+          "fastboot": "davinci_eea_global_images_V12.1.1.0.RFJEUXM_20210903.0000.00_11.0_eea_3c22137238.tgz"
+        },
+        {
+          "miui": "V12.0.5.0.QFJEUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V12.0.5.0.QFJEUXM_31469c14e7_10.0.zip",
+          "fastboot": "davinci_eea_global_images_V12.0.5.0.QFJEUXM_20210416.0000.00_10.0_eea_22e4fe6dff.tgz"
+        },
+        {
+          "miui": "V12.0.4.0.QFJEUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V12.0.4.0.QFJEUXM_843c40c155_10.0.zip",
+          "fastboot": "davinci_eea_global_images_V12.0.4.0.QFJEUXM_20210117.0000.00_10.0_eea_5bdb7a0e12.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QFJEUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V12.0.3.0.QFJEUXM_12b99693bc_10.0.zip",
+          "fastboot": "davinci_eea_global_images_V12.0.3.0.QFJEUXM_20201018.0000.00_10.0_eea_dc7a68a3e2.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFJEUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V12.0.2.0.QFJEUXM_0bb88ea943_10.0.zip",
+          "fastboot": "davinci_eea_global_images_V12.0.2.0.QFJEUXM_20200712.0000.00_10.0_eea_43a52d44c1.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.QFJEUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V11.0.6.0.QFJEUXM_79a4386920_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.5.0.QFJEUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V11.0.5.0.QFJEUXM_8944bb7369_10.0.zip",
+          "fastboot": "davinci_eea_global_images_V11.0.5.0.QFJEUXM_20200412.0000.00_10.0_eea_c7aa3d66e7.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.QFJEUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V11.0.4.0.QFJEUXM_5001481fbb_10.0.zip",
+          "fastboot": "davinci_eea_global_images_V11.0.4.0.QFJEUXM_20200117.0000.00_10.0_eea_a4dd716b8e.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V11.0.3.0.PFJEUXM_222331be17_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.2.0.PFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V11.0.2.0.PFJEUXM_e32b086df3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.1.0.QFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V11.0.1.0.QFJEUXM_fd5b674cfd_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.15.0.PFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V10.3.15.0.PFJEUXM_b6738621e2_9.0.zip",
+          "fastboot": "davinci_eea_global_images_V10.3.15.0.PFJEUXM_20190921.0000.00_9.0_eea_69ac20afc7.tgz"
+        },
+        {
+          "miui": "V10.3.12.0.PFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V10.3.12.0.PFJEUXM_946a02f6df_9.0.zip",
+          "fastboot": "davinci_eea_global_images_V10.3.12.0.PFJEUXM_20190801.0000.00_9.0_eea_1d38ae0ec5.tgz"
+        },
+        {
+          "miui": "V10.3.10.0.PFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V10.3.10.0.PFJEUXM_01dbcd66d8_9.0.zip",
+          "fastboot": "davinci_eea_global_images_V10.3.10.0.PFJEUXM_20190715.0000.00_9.0_eea_963b7f3bca.tgz"
+        },
+        {
+          "miui": "V10.3.8.0.PFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V10.3.8.0.PFJEUXM_5820b982aa_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.7.0.PFJEUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIEEAGlobal_V10.3.7.0.PFJEUXM_3a2dfaaa18_9.0.zip",
+          "fastboot": "davinci_eea_global_images_V10.3.7.0.PFJEUXM_20190602.0000.00_9.0_eea_eab1d1cc52.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V12.1.2.0.RFJRUXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCIRUGlobal_V12.1.2.0.RFJRUXM_a69a4cd4e6_11.0.zip",
+          "fastboot": "davinci_ru_global_images_V12.1.2.0.RFJRUXM_20210826.0000.00_11.0_global_5ade4f8932.tgz"
+        },
+        {
+          "miui": "V12.0.5.0.QFJRUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIRUGlobal_V12.0.5.0.QFJRUXM_3616e655bc_10.0.zip",
+          "fastboot": "davinci_ru_global_images_V12.0.5.0.QFJRUXM_20210625.0000.00_10.0_global_2a5504e989.tgz"
+        },
+        {
+          "miui": "V12.0.4.0.QFJRUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIRUGlobal_V12.0.4.0.QFJRUXM_35406e8c2c_10.0.zip",
+          "fastboot": "davinci_ru_global_images_V12.0.4.0.QFJRUXM_20210416.0000.00_10.0_global_3e0516d480.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QFJRUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIRUGlobal_V12.0.3.0.QFJRUXM_e7eda28380_10.0.zip",
+          "fastboot": "davinci_ru_global_images_V12.0.3.0.QFJRUXM_20210117.0000.00_10.0_global_2bd83a2186.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFJRUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIRUGlobal_V12.0.2.0.QFJRUXM_0613a54fe9_10.0.zip",
+          "fastboot": "davinci_ru_global_images_V12.0.2.0.QFJRUXM_20201018.0000.00_10.0_global_baf607a312.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QFJRUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIRUGlobal_V12.0.1.0.QFJRUXM_5707976485_10.0.zip",
+          "fastboot": "davinci_ru_global_images_V12.0.1.0.QFJRUXM_20200712.0000.00_10.0_global_0d6fed0c53.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.QFJRUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIRUGlobal_V11.0.5.0.QFJRUXM_6de5eff5c7_10.0.zip",
+          "fastboot": "davinci_ru_global_images_V11.0.5.0.QFJRUXM_20200513.0000.00_10.0_global_29a14f18d4.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.QFJRUXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIRUGlobal_V11.0.3.0.QFJRUXM_01634861e7_10.0.zip",
+          "fastboot": "davinci_ru_global_images_V11.0.3.0.QFJRUXM_20200310.0000.00_10.0_global_41478132d3.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PFJRUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIRUGlobal_V11.0.3.0.PFJRUXM_8ea807f09a_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.10.0.PFJRUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIRUGlobal_V10.3.10.0.PFJRUXM_0d0ae5a119_9.0.zip",
+          "fastboot": "davinci_ru_global_images_V10.3.10.0.PFJRUXM_20190801.0000.00_9.0_global_6fbab43f85.tgz"
+        },
+        {
+          "miui": "V10.3.8.0.PFJRUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIRUGlobal_V10.3.8.0.PFJRUXM_415b2e0500_9.0.zip",
+          "fastboot": "davinci_ru_global_images_V10.3.8.0.PFJRUXM_20190712.0000.00_9.0_global_381b8a6720.tgz"
+        },
+        {
+          "miui": "V10.3.6.0.PFJRUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIRUGlobal_V10.3.6.0.PFJRUXM_33821877a0_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.5.0.PFJRUXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIRUGlobal_V10.3.5.0.PFJRUXM_85dc409eac_9.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "inds",
+      "show": "1",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "V12.1.4.0.RFJINXM",
+          "android": "11.0",
+          "recovery": "miui_DAVINCIININGlobal_V12.1.4.0.RFJINXM_5db1a0c666_11.0.zip",
+          "fastboot": "davinciin_in_global_images_V12.1.4.0.RFJINXM_20210713.0000.00_11.0_in_d75547fd02.tgz"
+        },
+        {
+          "miui": "V12.0.8.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V12.0.8.0.QFJINXM_3a5e59883f_10.0.zip",
+          "fastboot": "davinciin_in_global_images_V12.0.8.0.QFJINXM_20210416.0000.00_10.0_in_1aff0e01e4.tgz"
+        },
+        {
+          "miui": "V12.0.7.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V12.0.7.0.QFJINXM_5932fd5876_10.0.zip",
+          "fastboot": "davinciin_in_global_images_V12.0.7.0.QFJINXM_20210118.0000.00_10.0_in_79201c87f9.tgz"
+        },
+        {
+          "miui": "V12.0.5.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V12.0.5.0.QFJINXM_59fbbdc486_10.0.zip",
+          "fastboot": "davinciin_in_global_images_V12.0.5.0.QFJINXM_20201010.0000.00_10.0_in_466b019935.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V12.0.3.0.QFJINXM_76c6f07c7f_10.0.zip",
+          "fastboot": "davinciin_in_global_images_V12.0.3.0.QFJINXM_20200722.0000.00_10.0_in_ddd4cfcd6b.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V12.0.2.0.QFJINXM_160038cad3_10.0.zip",
+          "fastboot": "davinciin_in_global_images_V12.0.2.0.QFJINXM_20200701.0000.00_10.0_in_1b69fcfc8f.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V12.0.1.0.QFJINXM_b305175c05_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.4.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V11.0.4.0.QFJINXM_d9782639d5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.3.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V11.0.3.0.QFJINXM_8fbd476b70_10.0.zip",
+          "fastboot": "davinciin_in_global_images_V11.0.3.0.QFJINXM_20200406.0000.00_10.0_in_76ec845f33.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V11.0.2.0.QFJINXM_a6d5ee94e7_10.0.zip",
+          "fastboot": "davinciin_in_global_images_V11.0.2.0.QFJINXM_20200213.0000.00_10.0_in_0523f7a778.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QFJINXM",
+          "android": "10.0",
+          "recovery": "miui_DAVINCIININGlobal_V11.0.1.0.QFJINXM_496d514f17_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.3.0.PFJINXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIININGlobal_V11.0.3.0.PFJINXM_ef8c64eb0f_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.2.0.PFJINXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIININGlobal_V11.0.2.0.PFJINXM_45b2a8ac93_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.8.0.PFJINXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIININGlobal_V10.3.8.0.PFJINXM_207eaee662_9.0.zip",
+          "fastboot": "davinciin_in_global_images_V10.3.8.0.PFJINXM_20190816.0000.00_9.0_in_f68dcf8608.tgz"
+        },
+        {
+          "miui": "V10.3.6.0.PFJINXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIININGlobal_V10.3.6.0.PFJINXM_c4a069be9e_9.0.zip",
+          "fastboot": "davinciin_in_global_images_V10.3.6.0.PFJINXM_20190712.0000.00_9.0_in_ebf44c2420.tgz"
+        },
+        {
+          "miui": "V10.3.3.0.PFJINXM",
+          "android": "9.0",
+          "recovery": "miui_DAVINCIININGlobal_V10.3.3.0.PFJINXM_599f996c8b_9.0.zip",
+          "fastboot": "davinciin_in_global_images_V10.3.3.0.PFJINXM_20190621.0000.00_9.0_in_95bf3310b3.tgz"
+        }
+      ]
+    }
+  ]
 }
