@@ -1,12 +1,23 @@
 {
   "latest": "585",
-  "sudate": "2023.01.08",
-  "ver": "V1.0.2",
-  "newDeviceCn": "Redmi 12C",
-  "newDeviceEn": "Redmi 12C",
-  "log": [],
-  "stdate": "2023W5(2023.02.03)",
+  "sudate": "2023.02.04",
+  "ver": "V1.0.5",
+  "newDeviceCn": "",
+  "newDeviceEn": "",
+  "log": [
+    {
+      "Cn": "部分机型新增 墨西哥稳定版;哥伦比亚稳定版;哥斯达黎加稳定版;南非稳定版",
+      "En": "Adding Mexico, Colombia, Costa Rica, South Africa stable rom for some devices."
+    }
+  ],
+  "stdate": "2023W5(2023.02.04)",
   "stable": [
+    {
+      "code": "cepheus",
+      "NameCn": "小米 9",
+      "NameEn": "Mi 9",
+      "rom": "V11.0.9.0.QFALMCR"
+    },
     {
       "code": "umi",
       "NameCn": "小米 10",
@@ -29,7 +40,7 @@
       "code": "courbet",
       "NameCn": "小米 11 Lite 4G",
       "NameEn": "Mi 11 Lite 4G",
-      "rom": "V13.0.11.0.SKQMIXM"
+      "rom": "V13.0.11.0.SKQMIXM;V13.0.3.0.SKQLMCR"
     },
     {
       "code": "lisa",
@@ -68,6 +79,12 @@
       "rom": "V13.0.7.0.SLQMIXM;V13.0.12.0.SLQEUXM;V13.0.8.0.SLQRUXM"
     },
     {
+      "code": "tucana",
+      "NameCn": "小米 CC9 Pro",
+      "NameEn": "Mi CC 9 Pro",
+      "rom": "V12.0.9.0.QFDMXTC"
+    },
+    {
       "code": "nabu",
       "NameCn": "小米平板 5",
       "NameEn": "Xiaomi Pad 5",
@@ -83,13 +100,25 @@
       "code": "lancelot",
       "NameCn": "Redmi 9/Prime",
       "NameEn": "Redmi 9/Prime",
-      "rom": "V13.0.3.0.SJCEUXM"
+      "rom": "V13.0.4.0.SJCMIXM;V13.0.3.0.SJCEUXM;V11.0.9.0.QJCLMCR;V11.0.10.0.QJCLMCR"
+    },
+    {
+      "code": "dandelion",
+      "NameCn": "Redmi 9A",
+      "NameEn": "Redmi 9A",
+      "rom": "V12.0.7.0.QCDLMCR;V12.0.16.0.QCDLMCR"
     },
     {
       "code": "fog",
       "NameCn": "Redmi 10C",
       "NameEn": "Redmi 10C",
       "rom": "V13.0.5.0.SGEMIXM"
+    },
+    {
+      "code": "begonia",
+      "NameCn": "Redmi Note 8 Pro",
+      "NameEn": "Redmi Note 8 Pro",
+      "rom": "V11.0.7.0.QGGMXTC"
     },
     {
       "code": "merlin",
@@ -110,6 +139,18 @@
       "rom": "V13.0.2.0.SJZTWXM;V13.0.16.0.SKFMIXM;V13.0.9.0.SKFRUXM"
     },
     {
+      "code": "sweet",
+      "NameCn": "Redmi Note 10 Pro/Pro Max",
+      "NameEn": "Redmi Note 10 Pro/Pro Max",
+      "rom": "V13.0.3.0.SKFCLEN;V13.0.1.0.SKFMXTC;V13.0.4.0.SKFMXAT;V13.0.4.0.SKFMXTC;V13.0.5.0.SKFMXAT;V12.0.4.0.RKFLMCR;V12.0.8.0.RKFLMCR;V13.0.4.0.SKFZAVC"
+    },
+    {
+      "code": "selene",
+      "NameCn": "Redmi Note 11 4G",
+      "NameEn": "Redmi Note 11 4G",
+      "rom": "V12.5.1.0.RKULMCR;V12.5.10.0.RKULMCR"
+    },
+    {
       "code": "fleur",
       "NameCn": "Redmi Note 11S 4G",
       "NameEn": "Redmi Note 11S 4G",
@@ -120,6 +161,12 @@
       "NameCn": "Redmi Note 11E Pro/Redmi Note 11 Pro 5G",
       "NameEn": "Redmi Note 11E Pro/Redmi Note 11 Pro 5G",
       "rom": "V13.0.4.0.SKCEUXM"
+    },
+    {
+      "code": "apollo",
+      "NameCn": "Redmi K30S 至尊纪念版",
+      "NameEn": "Redmi K30S Ultra",
+      "rom": "V12.5.3.0.RJDCLEN"
     },
     {
       "code": "alioth",

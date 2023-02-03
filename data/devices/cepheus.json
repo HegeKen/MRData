@@ -19,7 +19,7 @@
           "miui": "21.11.24",
           "android": "11.0",
           "recovery": "miui_CEPHEUS_21.11.24_d1e07cc091_11.0.zip",
-          "fastboot": ""
+          "fastboot": "cepheus_images_21.11.24_20211124.0000.00_11.0_cn_13caf2bd0f.tgz"
         },
         {
           "miui": "21.11.23",
@@ -2622,6 +2622,12 @@
           "fastboot": "cepheus_images_V12.5.6.0.RFACNXM_20211125.0000.00_11.0_cn_8d261e6804.tgz"
         },
         {
+          "miui": "V12.5.6.0.RFACNXM",
+          "android": "11.0",
+          "recovery": "miui_CEPHEUS_V12.5.6.0.RFACNXM_5d1239a6d1_11.0.zip",
+          "fastboot": "cepheus_images_V12.5.6.0.RFACNXM_20211125.0000.00_11.0_cn_chinatelecom_e64cf22636.tgz"
+        },
+        {
           "miui": "V12.5.5.0.RFACNXM",
           "android": "11.0",
           "recovery": "miui_CEPHEUS_V12.5.5.0.RFACNXM_8ff260d251_11.0.zip",
@@ -3240,6 +3246,20 @@
           "android": "9.0",
           "recovery": "miui_CEPHEUSRUGlobal_V10.2.3.0.PFARUXM_b86ad2fec3_9.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V11.0.9.0.QFALMCR",
+          "android": "10.0",
+          "recovery": "miui_CEPHEUSLMCRGlobal_V11.0.9.0.QFALMCR_7c437e16a6_10.0.zip",
+          "fastboot": "cepheus_lm_cr_global_images_V11.0.9.0.QFALMCR_20210818.0000.00_10.0_global_363813ff0e.tgz"
         }
       ]
     }

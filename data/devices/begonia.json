@@ -1710,6 +1710,12 @@
           "fastboot": "begonia_images_V12.5.6.0.RGGCNXM_20220602.0000.00_11.0_cn_fbed701a77.tgz"
         },
         {
+          "miui": "V12.5.6.0.RGGCNXM",
+          "android": "11.0",
+          "recovery": "miui_BEGONIA_V12.5.6.0.RGGCNXM_ef89538caa_11.0.zip",
+          "fastboot": "begonia_images_V12.5.6.0.RGGCNXM_20220602.0000.00_11.0_cn_chinatelecom_286c3ff6f1.tgz"
+        },
+        {
           "miui": "V12.5.4.0.RGGCNXM",
           "android": "11.0",
           "recovery": "miui_BEGONIA_V12.5.4.0.RGGCNXM_4cdcacc9ae_11.0.zip",
@@ -2396,6 +2402,20 @@
           "android": "9.0",
           "recovery": "miui_BEGONIAIDGlobal_V10.4.2.0.PGGIDXM_b43dd4977b_9.0.zip",
           "fastboot": "begonia_id_global_images_V10.4.2.0.PGGIDXM_20190926.0000.00_9.0_global_ba6f47112f.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥稳定版",
+      "enname": "Mexico Stable",
+      "links": [
+        {
+          "miui": "V11.0.7.0.QGGMXTC",
+          "android": "10.0",
+          "recovery": "miui_BEGONIAMXTCGlobal_V11.0.7.0.QGGMXTC_c831ab5612_10.0.zip",
+          "fastboot": "begonia_mx_tc_global_images_V11.0.7.0.QGGMXTC_20211018.0000.00_10.0_global_dc9b6ae4ae.tgz"
         }
       ]
     }

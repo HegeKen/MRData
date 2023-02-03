@@ -1,2239 +1,2245 @@
 {
-    "codename": "lavender",
-    "cnname": "Redmi Note 7/7S",
-    "enname": "Redmi Note 7/7S",
-    "attentions": [
+  "codename": "lavender",
+  "cnname": "Redmi Note 7/7S",
+  "enname": "Redmi Note 7/7S",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "miui": "21.4.22",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.22_6bbb89d224_10.0.zip",
+          "fastboot": "lavender_images_21.4.22_20210422.0000.00_10.0_cn_678c201928.tgz"
+        },
+        {
+          "miui": "21.4.21",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.21_4a7184ecfa_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.20",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.20_aa652c6ace_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.16",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.16_c0573679be_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.14",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.14_8903b7a4d2_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.13_1ba8d45742_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.12",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.12_b0546f1a02_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.9_585dc9a980_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.7",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.7_4b247e868d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.6",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.6_98bc90627e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.2_d2cc49efb9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.4.1",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.4.1_4a559cbd29_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.31",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.31_d14dcf2106_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.26",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.26_0e0b6d48a9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.25_869ea26d20_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.24",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.24_b331db364e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.22",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.22_5c66ad1ffc_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.19",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.19_9dcb0438e8_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.17",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.17_734a167be0_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.16",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.16_cc4148f624_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.15",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.15_1f61071d57_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.12",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.12_073d1a1d3c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.10",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.10_9ddd1f16db_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.9_a47c5aac7d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.8",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.8_83fafc654c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.5",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.5_bdf9e3c5b1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.3",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.3_731a1d3a8c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.2_764d8b73ed_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.3.1",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.3.1_b6f2cf6065_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.26",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.26_449d03b75b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.24",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.24_c74efb2d77_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.23",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.23_d116767323_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.22",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.22_51723673f7_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.19",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.19_da65178498_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.3",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.3_2ad1f35faa_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.2_4c760cf54c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.2.1",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.2.1_7ecc4aa8fa_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.29",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.29_28983af013_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.27",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.27_9df41aa843_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.26",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.26_83cad42823_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.25_cb84f29566_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.22",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.22_d7fe3ea8f3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.20",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.20_4f20e84722_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.19",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.19_cadcddc0d1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.18",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.18_9b2e3e3a5a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.15",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.15_99650f7974_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.13_bc1a7e1cf5_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.12",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.12_d430e7822e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.11",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.11_d2d4c2d772_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.8",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.8_35b5217eed_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.6",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.6_8ede0c913c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.5",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.5_639e4bb607_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "21.1.4",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_21.1.4_97babf5f4f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.30",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.30_56174c52af_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.28",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.28_0e6fdce103_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.25_af0250256e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.9_e9cdcdb88d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.8",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.8_05356c3eb6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.7",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.7_21bc820345_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.4",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.4_bf5ceb7c19_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.2_6b365f88f0_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.12.1",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.12.1_7299a573a9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.30",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.30_34228e7cad_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.27",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.27_75935d62dc_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.25_cee3e0fc4b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.24",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.24_3b9a2eb548_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.23",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.23_79add81a98_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.20",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.20_f89d1852b3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.19",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.19_35b6e5c2ca_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.18",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.18_7fe8add633_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.17",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.17_2ac5fa34e8_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.16",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.16_b477586aac_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.13_7426d01abb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.11",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.11_8b4f220bb2_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.10",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.10_fa7bd95100_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.9_de18d67dcc_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.6",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.6_f3b52b5d7b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.5",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.5_f1385b6459_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.3",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.3_171d79166b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.11.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.11.2_c40555406e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.30",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.30_82efc9b856_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.29",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.29_c66fd0950f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.28",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.28_38d9446a25_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.27",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.27_b7a28eb89b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.26",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.26_3df9fbf2da_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.22",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.22_70dd144a5e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.21",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.21_b0995dc63f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.20",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.20_63ea94dd2e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.19",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.19_0953288237_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.15",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.15_1fa315ed9e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.14",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.14_654c4f76ef_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.13_6e04701caa_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.10.12",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.10.12_674312fc34_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.24",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.24_594eaecdd3_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.23",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.23_c89211a54d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.22",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.22_79f9b1abbe_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.21",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.21_de2854e5c0_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.17",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.17_c0567a17a1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.16",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.16_c584360165_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.15",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.15_82de7bd8be_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.10",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.10_cb14f60edf_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.9_f017c6be1c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.8",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.8_045f09423c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.7",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.7_4197702470_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.3",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.3_c55b414260_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.2_e6e8cbf52e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.9.1",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.9.1_e105c49767_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.28",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.28_6662ce7e42_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.25_3357945302_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.24",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.24_984845df64_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.20",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.20_2caa79398b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.19",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.19_99ac603ecc_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.18",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.18_08fa663966_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.17",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.17_ecdb98c229_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.13_ffd98fa8a1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.12",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.12_e95a4c816b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.10",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.10_7d4b5cb3be_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.7",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.7_f467547f3a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.6",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.6_863d9624cb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.5",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.5_03fcb5d4ac_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.4",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.4_ea0dfa6dc1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.8.3",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.8.3_3c3d809754_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.30",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.30_bd3e9cefb8_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.29",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.29_c03ed90c21_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.28",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.28_98957011ff_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.27",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.27_0438d15c03_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.23",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.23_1fd155b9c4_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.22",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.22_e9381d6c37_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.21",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.21_1d6641d1bb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.20",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.20_a54a0702ae_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.15",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.15_f84355849b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.14",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.14_4fff106188_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.13_413954a32d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.9_a0a9be02dc_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.8",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.8_a4e9198e20_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.7",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.7_a488635357_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.6",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.6_2bc202863d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.2_8a1288cd2e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.7.1",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.7.1_0a28af5564_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.30",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.30_6fa99fbd3c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.23",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.23_0f9770f71b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.18",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.18_f3ff853823_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.16",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.16_3ba40a6953_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.15",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.15_8c9a12e9e0_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.11",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.11_96a7afae7b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.10",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.10_85ce6f42a9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.9_a16c224f76_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.8",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.8_14d917ac71_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.4",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.4_1646ea7cdb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.3",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.3_5f35f5a3c1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.2",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.2_2acebbdac9_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.6.1",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.6.1_593e060149_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.29",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.5.29_948ff2b863_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.28",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.5.28_6293665759_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.26",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.5.26_5370b6f422_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.5.25_330604a762_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.21",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.5.21_ee1e48ebad_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.20",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.5.20_16666ff34f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.5.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.5.13_6ef2b92e2c_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.4.28",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.4.28_6e63968b9d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.4.27",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.4.27_d292fbcada_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.26",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.26_eae10f6555_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.25_719c8f186a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.24",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.24_9838435bd7_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.23",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.23_8274dc9713_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.19",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.19_f2d66b95ae_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.18",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.18_54f09b523f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.17",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.17_0114900608_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.16",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.16_1b6e0c458f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.12",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.12_41d3259a62_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.11",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.11_00dd2f75f0_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.9_246b29941f_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.5",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.5_fdf30a6d9b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.3.4",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.3.4_aab802d56e_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.27",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.2.27_5bfdd2fe34_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.26",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.2.26_0509c436d1_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.2.25",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.2.25_c830c1cb3b_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.21",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.1.21_8d0fa7adbc_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.16",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.1.16_d8ee8441c7_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.15",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.1.15_c42bb5bba6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.13",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.1.13_3b38f5cb7a_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.9",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.1.9_c2586b57f6_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.8",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.1.8_5e51fcbd0d_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "20.1.7",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_20.1.7_c3fd677fbb_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.12",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.12_b8ef32291f_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.11",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.11_9d7690b7a2_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.10",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.10_e75ec5de2e_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.9",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.9_7665d6b1d5_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.5",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.5_6f8844c679_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.4",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.4_264e9813e5_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.3",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.3_493a5530bf_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.12.2",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.12.2_98cb70ec5b_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.28",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.28_9e54e652a3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.27",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.27_7766dfb1ef_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.26",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.26_3b45df6951_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.25",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.25_b4bbc4077d_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.21",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.21_e56666b4df_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.20",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.20_5b3d934f29_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.19",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.19_05207ed030_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.18",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.18_4e7bb669bb_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.14",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.14_f1df2b02dc_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.13",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.13_5d9f231e55_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.12",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.12_fd1c3d93e1_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.11",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.11_13864afe75_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.7",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.7_115aa77e80_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.6",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.6_0e8b710188_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.11.4",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.11.4_d158f6e8ba_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.31",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.31_cdbffba13e_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.30",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.30_2b61bf19a9_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.29",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.29_af2b1499ae_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.28",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.28_631f30c3a2_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.24",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.24_233cde0d2e_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.23",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.23_8e718b753c_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.22",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.22_a854b25ca2_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.21",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.21_a09e6c9fc3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.17",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.17_112a099525_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.16",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.16_8b009340dc_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.15",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.15_d4caf70eea_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.10",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.10_606c1b00b0_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.9",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.9_1042b6eb00_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.10.8",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.10.8_218638a521_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.26",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.9.26_d6152462ab_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.25",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.9.25_5b5bc95777_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.24",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.9.24_073da01cc7_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.9.3",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.9.3_5ca18e6120_9.0.zip",
+          "fastboot": "lavender_images_9.9.3_20190904.0000.00_9.0_cn_9d67710967.tgz"
+        },
+        {
+          "miui": "9.8.29",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.29_7109fb542d_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.28",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.28_866392ec81_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.27",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.27_3b92c8b290_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.26",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.26_e764e3ec4a_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.22",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.22_a31b0fcb7a_9.0.zip",
+          "fastboot": "lavender_images_9.8.22_20190822.0000.00_9.0_cn_7c4134f0df.tgz"
+        },
+        {
+          "miui": "9.8.21",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.21_742d8e92b9_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.20",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.20_5a9bc267ed_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.15",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.15_ac7be32674_9.0.zip",
+          "fastboot": "lavender_images_9.8.15_20190815.0000.00_9.0_cn_0051300ed5.tgz"
+        },
+        {
+          "miui": "9.8.14",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.14_f642ac0e02_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.13",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.13_73a0594ff0_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.12",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.12_596a0e43cd_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.9",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.9_6a80f43484_9.0.zip",
+          "fastboot": "lavender_images_9.8.9_20190809.0000.00_9.0_cn_34723f8f04.tgz"
+        },
+        {
+          "miui": "9.8.8",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.8_7dbfa84935_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.7",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.7_e831563f1d_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.6",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.6_a1ad3a2c96_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.8.1",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.8.1_b66c58ac91_9.0.zip",
+          "fastboot": "lavender_images_9.8.1_20190801.0000.00_9.0_cn_098f03c310.tgz"
+        },
+        {
+          "miui": "9.7.31",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.7.31_4f80dd3709_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.30",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.7.30_1a92e623be_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.29",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.7.29_69ac85f851_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.7.25",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.7.25_a70f3c63fa_9.0.zip",
+          "fastboot": "lavender_images_9.7.25_20190725.0000.00_9.0_cn_17144c5193.tgz"
+        },
+        {
+          "miui": "9.7.18",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.7.18_21da190f0d_9.0.zip",
+          "fastboot": "lavender_images_9.7.18_20190718.0000.00_9.0_cn_a5609d0a36.tgz"
+        },
+        {
+          "miui": "9.7.11",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.7.11_c9963a318b_9.0.zip",
+          "fastboot": "lavender_images_9.7.11_20190711.0000.00_9.0_cn_fff180fcf8.tgz"
+        },
+        {
+          "miui": "9.7.4",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.7.4_685147d37c_9.0.zip",
+          "fastboot": "lavender_images_9.7.4_20190704.0000.00_9.0_cn_028913d5ae.tgz"
+        },
+        {
+          "miui": "9.6.27",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.6.27_19f26c3bda_9.0.zip",
+          "fastboot": "lavender_images_9.6.27_20190627.0000.00_9.0_cn_9d39c753a1.tgz"
+        },
+        {
+          "miui": "9.6.20",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.6.20_a46d3fb014_9.0.zip",
+          "fastboot": "lavender_images_9.6.20_20190620.0000.00_9.0_cn_77d7497eb6.tgz"
+        },
+        {
+          "miui": "9.6.17",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.6.17_7fe5ba0796_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.6.13",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.6.13_0483d16524_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.6.5",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.6.5_9cf69c51c5_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.6.4",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.6.4_458aefa0a1_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.6.3",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.6.3_2e89155a00_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.5.30",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.5.30_1cc18b679b_9.0.zip",
+          "fastboot": "lavender_images_9.5.30_20190530.0000.00_9.0_cn_9e530f2c28.tgz"
+        },
+        {
+          "miui": "9.5.23",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.5.23_c42e37f611_9.0.zip",
+          "fastboot": "lavender_images_9.5.23_20190523.0000.00_9.0_cn_7cca8e9de1.tgz"
+        },
+        {
+          "miui": "9.5.16",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.5.16_3be4e2ca2b_9.0.zip",
+          "fastboot": "lavender_images_9.5.16_20190516.0000.00_9.0_cn_2ca2cc5904.tgz"
+        },
+        {
+          "miui": "9.5.14",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.5.14_131f25185f_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.5.9",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.5.9_2a34bc3d99_9.0.zip",
+          "fastboot": "lavender_images_9.5.9_20190509.0000.00_9.0_cn_fe373b7e13.tgz"
+        },
+        {
+          "miui": "9.4.25",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.4.25_13bb193f3f_9.0.zip",
+          "fastboot": "lavender_images_9.4.25_20190425.0000.00_9.0_cn_4e94c14a14.tgz"
+        },
+        {
+          "miui": "9.4.22",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.4.22_e1dcc293fa_9.0.zip",
+          "fastboot": "lavender_images_9.4.22_20190422.0000.00_9.0_cn_1c06d556a0.tgz"
+        },
+        {
+          "miui": "9.4.18",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.4.18_5fd5e7dcda_9.0.zip",
+          "fastboot": "lavender_images_9.4.18_20190418.0000.00_9.0_cn_9b69680e2c.tgz"
+        },
+        {
+          "miui": "9.4.12",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.4.12_15edfad118_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.4.11",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.4.11_ea80e4e220_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.4.2",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.4.2_d2c5edfd9f_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.28",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.3.28_82798d9bee_9.0.zip",
+          "fastboot": "lavender_images_9.3.28_20190328.0000.00_9.0_cn_6966b79698.tgz"
+        },
+        {
+          "miui": "9.3.25",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.3.25_3c281a7cc3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.21",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.3.21_651bc70319_9.0.zip",
+          "fastboot": "lavender_images_9.3.21_20190321.0000.00_9.0_cn_691b10fc64.tgz"
+        },
+        {
+          "miui": "9.3.14",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.3.14_e5d366174d_9.0.zip",
+          "fastboot": "lavender_images_9.3.14_20190314.0000.00_9.0_cn_580ab74f5f.tgz"
+        },
+        {
+          "miui": "9.3.11",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.3.11_5c3c0dc620_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.7",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.3.7_db20130373_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.1",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.3.1_13fa1e4821_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.2.22",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.2.22_dfa84aff81_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.2.14",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.2.14_7b61a04580_9.0.zip",
+          "fastboot": "lavender_images_9.2.14_20190214.0000.00_9.0_cn_94afdb4afd.tgz"
+        },
+        {
+          "miui": "9.1.24",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_9.1.24_0be679b374_9.0.zip",
+          "fastboot": ""
         }
-    ],
-    "branches": [
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "21.4.22",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.22_6bbb89d224_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.21",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.21_4a7184ecfa_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.20",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.20_aa652c6ace_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.16",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.16_c0573679be_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.14",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.14_8903b7a4d2_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.13_1ba8d45742_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.12",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.12_b0546f1a02_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.9_585dc9a980_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.7",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.7_4b247e868d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.6",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.6_98bc90627e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.2_d2cc49efb9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.4.1",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.4.1_4a559cbd29_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.31",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.31_d14dcf2106_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.26",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.26_0e0b6d48a9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.25_869ea26d20_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.24",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.24_b331db364e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.22",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.22_5c66ad1ffc_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.19",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.19_9dcb0438e8_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.17",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.17_734a167be0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.16",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.16_cc4148f624_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.15",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.15_1f61071d57_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.12",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.12_073d1a1d3c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.10",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.10_9ddd1f16db_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.9_a47c5aac7d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.8",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.8_83fafc654c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.5",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.5_bdf9e3c5b1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.3",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.3_731a1d3a8c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.2_764d8b73ed_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.3.1",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.3.1_b6f2cf6065_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.26",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.26_449d03b75b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.24",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.24_c74efb2d77_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.23",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.23_d116767323_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.22",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.22_51723673f7_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.19",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.19_da65178498_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.3",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.3_2ad1f35faa_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.2_4c760cf54c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.2.1",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.2.1_7ecc4aa8fa_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.29",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.29_28983af013_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.27",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.27_9df41aa843_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.26",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.26_83cad42823_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.25_cb84f29566_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.22",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.22_d7fe3ea8f3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.20",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.20_4f20e84722_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.19",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.19_cadcddc0d1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.18",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.18_9b2e3e3a5a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.15",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.15_99650f7974_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.13_bc1a7e1cf5_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.12",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.12_d430e7822e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.11",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.11_d2d4c2d772_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.8",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.8_35b5217eed_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.6",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.6_8ede0c913c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.5",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.5_639e4bb607_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "21.1.4",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_21.1.4_97babf5f4f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.30",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.30_56174c52af_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.28",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.28_0e6fdce103_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.25_af0250256e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.9_e9cdcdb88d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.8",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.8_05356c3eb6_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.7",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.7_21bc820345_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.4",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.4_bf5ceb7c19_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.2_6b365f88f0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.12.1",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.12.1_7299a573a9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.30",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.30_34228e7cad_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.27",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.27_75935d62dc_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.25_cee3e0fc4b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.24",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.24_3b9a2eb548_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.23",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.23_79add81a98_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.20",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.20_f89d1852b3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.19",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.19_35b6e5c2ca_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.18",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.18_7fe8add633_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.17",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.17_2ac5fa34e8_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.16",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.16_b477586aac_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.13_7426d01abb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.11",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.11_8b4f220bb2_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.10",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.10_fa7bd95100_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.9_de18d67dcc_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.6",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.6_f3b52b5d7b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.5",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.5_f1385b6459_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.3",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.3_171d79166b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.11.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.11.2_c40555406e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.30",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.30_82efc9b856_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.29",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.29_c66fd0950f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.28",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.28_38d9446a25_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.27",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.27_b7a28eb89b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.26",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.26_3df9fbf2da_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.22",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.22_70dd144a5e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.21",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.21_b0995dc63f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.20",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.20_63ea94dd2e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.19",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.19_0953288237_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.15",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.15_1fa315ed9e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.14",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.14_654c4f76ef_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.13_6e04701caa_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.10.12",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.10.12_674312fc34_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.24",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.24_594eaecdd3_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.23",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.23_c89211a54d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.22",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.22_79f9b1abbe_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.21",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.21_de2854e5c0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.17",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.17_c0567a17a1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.16",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.16_c584360165_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.15",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.15_82de7bd8be_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.10",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.10_cb14f60edf_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.9_f017c6be1c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.8",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.8_045f09423c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.7",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.7_4197702470_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.3",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.3_c55b414260_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.2_e6e8cbf52e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.9.1",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.9.1_e105c49767_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.28",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.28_6662ce7e42_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.25_3357945302_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.24",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.24_984845df64_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.20",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.20_2caa79398b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.19",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.19_99ac603ecc_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.18",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.18_08fa663966_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.17",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.17_ecdb98c229_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.13_ffd98fa8a1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.12",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.12_e95a4c816b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.10",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.10_7d4b5cb3be_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.7",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.7_f467547f3a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.6",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.6_863d9624cb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.5",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.5_03fcb5d4ac_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.4",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.4_ea0dfa6dc1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.8.3",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.8.3_3c3d809754_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.30",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.30_bd3e9cefb8_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.29",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.29_c03ed90c21_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.28",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.28_98957011ff_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.27",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.27_0438d15c03_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.23",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.23_1fd155b9c4_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.22",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.22_e9381d6c37_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.21",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.21_1d6641d1bb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.20",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.20_a54a0702ae_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.15",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.15_f84355849b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.14",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.14_4fff106188_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.13_413954a32d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.9_a0a9be02dc_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.8",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.8_a4e9198e20_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.7",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.7_a488635357_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.6",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.6_2bc202863d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.2_8a1288cd2e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.7.1",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.7.1_0a28af5564_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.30",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.30_6fa99fbd3c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.23",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.23_0f9770f71b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.18",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.18_f3ff853823_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.16",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.16_3ba40a6953_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.15",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.15_8c9a12e9e0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.11",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.11_96a7afae7b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.10",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.10_85ce6f42a9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.9_a16c224f76_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.8",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.8_14d917ac71_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.4",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.4_1646ea7cdb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.3",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.3_5f35f5a3c1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.2",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.2_2acebbdac9_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.6.1",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.6.1_593e060149_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.29",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.5.29_948ff2b863_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.28",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.5.28_6293665759_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.26",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.5.26_5370b6f422_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.5.25_330604a762_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.21",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.5.21_ee1e48ebad_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.20",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.5.20_16666ff34f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.5.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.5.13_6ef2b92e2c_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.4.28",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.4.28_6e63968b9d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.4.27",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.4.27_d292fbcada_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.26",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.26_eae10f6555_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.25_719c8f186a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.24",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.24_9838435bd7_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.23",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.23_8274dc9713_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.19",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.19_f2d66b95ae_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.18",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.18_54f09b523f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.17",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.17_0114900608_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.16",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.16_1b6e0c458f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.12",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.12_41d3259a62_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.11",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.11_00dd2f75f0_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.9_246b29941f_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.5",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.5_fdf30a6d9b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.3.4",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.3.4_aab802d56e_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.27",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.2.27_5bfdd2fe34_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.26",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.2.26_0509c436d1_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.2.25",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.2.25_c830c1cb3b_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.21",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.1.21_8d0fa7adbc_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.16",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.1.16_d8ee8441c7_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.15",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.1.15_c42bb5bba6_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.13",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.1.13_3b38f5cb7a_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.9",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.1.9_c2586b57f6_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.8",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.1.8_5e51fcbd0d_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "20.1.7",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_20.1.7_c3fd677fbb_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.12",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.12_b8ef32291f_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.11",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.11_9d7690b7a2_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.10",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.10_e75ec5de2e_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.9",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.9_7665d6b1d5_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.5",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.5_6f8844c679_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.4",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.4_264e9813e5_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.3",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.3_493a5530bf_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.12.2",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.12.2_98cb70ec5b_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.28",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.28_9e54e652a3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.27",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.27_7766dfb1ef_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.26",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.26_3b45df6951_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.25",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.25_b4bbc4077d_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.21",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.21_e56666b4df_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.20",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.20_5b3d934f29_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.19",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.19_05207ed030_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.18",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.18_4e7bb669bb_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.14",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.14_f1df2b02dc_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.13",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.13_5d9f231e55_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.12",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.12_fd1c3d93e1_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.11",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.11_13864afe75_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.7",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.7_115aa77e80_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.6",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.6_0e8b710188_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.11.4",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.11.4_d158f6e8ba_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.31",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.31_cdbffba13e_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.30",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.30_2b61bf19a9_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.29",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.29_af2b1499ae_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.28",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.28_631f30c3a2_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.24",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.24_233cde0d2e_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.23",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.23_8e718b753c_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.22",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.22_a854b25ca2_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.21",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.21_a09e6c9fc3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.17",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.17_112a099525_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.16",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.16_8b009340dc_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.15",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.15_d4caf70eea_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.10",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.10_606c1b00b0_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.9",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.9_1042b6eb00_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.10.8",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.10.8_218638a521_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.26",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.9.26_d6152462ab_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.25",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.9.25_5b5bc95777_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.24",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.9.24_073da01cc7_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.9.3",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.9.3_5ca18e6120_9.0.zip",
-                    "fastboot": "lavender_images_9.9.3_20190904.0000.00_9.0_cn_9d67710967.tgz"
-                },
-                {
-                    "miui": "9.8.29",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.29_7109fb542d_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.28",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.28_866392ec81_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.27",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.27_3b92c8b290_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.26",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.26_e764e3ec4a_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.22",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.22_a31b0fcb7a_9.0.zip",
-                    "fastboot": "lavender_images_9.8.22_20190822.0000.00_9.0_cn_7c4134f0df.tgz"
-                },
-                {
-                    "miui": "9.8.21",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.21_742d8e92b9_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.20",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.20_5a9bc267ed_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.15",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.15_ac7be32674_9.0.zip",
-                    "fastboot": "lavender_images_9.8.15_20190815.0000.00_9.0_cn_0051300ed5.tgz"
-                },
-                {
-                    "miui": "9.8.14",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.14_f642ac0e02_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.13",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.13_73a0594ff0_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.12",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.12_596a0e43cd_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.9",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.9_6a80f43484_9.0.zip",
-                    "fastboot": "lavender_images_9.8.9_20190809.0000.00_9.0_cn_34723f8f04.tgz"
-                },
-                {
-                    "miui": "9.8.8",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.8_7dbfa84935_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.7",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.7_e831563f1d_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.6",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.6_a1ad3a2c96_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.8.1",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.8.1_b66c58ac91_9.0.zip",
-                    "fastboot": "lavender_images_9.8.1_20190801.0000.00_9.0_cn_098f03c310.tgz"
-                },
-                {
-                    "miui": "9.7.31",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.7.31_4f80dd3709_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.30",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.7.30_1a92e623be_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.29",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.7.29_69ac85f851_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.7.25",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.7.25_a70f3c63fa_9.0.zip",
-                    "fastboot": "lavender_images_9.7.25_20190725.0000.00_9.0_cn_17144c5193.tgz"
-                },
-                {
-                    "miui": "9.7.18",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.7.18_21da190f0d_9.0.zip",
-                    "fastboot": "lavender_images_9.7.18_20190718.0000.00_9.0_cn_a5609d0a36.tgz"
-                },
-                {
-                    "miui": "9.7.11",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.7.11_c9963a318b_9.0.zip",
-                    "fastboot": "lavender_images_9.7.11_20190711.0000.00_9.0_cn_fff180fcf8.tgz"
-                },
-                {
-                    "miui": "9.7.4",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.7.4_685147d37c_9.0.zip",
-                    "fastboot": "lavender_images_9.7.4_20190704.0000.00_9.0_cn_028913d5ae.tgz"
-                },
-                {
-                    "miui": "9.6.27",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.6.27_19f26c3bda_9.0.zip",
-                    "fastboot": "lavender_images_9.6.27_20190627.0000.00_9.0_cn_9d39c753a1.tgz"
-                },
-                {
-                    "miui": "9.6.20",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.6.20_a46d3fb014_9.0.zip",
-                    "fastboot": "lavender_images_9.6.20_20190620.0000.00_9.0_cn_77d7497eb6.tgz"
-                },
-                {
-                    "miui": "9.6.17",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.6.17_7fe5ba0796_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.6.13",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.6.13_0483d16524_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.6.5",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.6.5_9cf69c51c5_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.6.4",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.6.4_458aefa0a1_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.6.3",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.6.3_2e89155a00_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.5.30",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.5.30_1cc18b679b_9.0.zip",
-                    "fastboot": "lavender_images_9.5.30_20190530.0000.00_9.0_cn_9e530f2c28.tgz"
-                },
-                {
-                    "miui": "9.5.23",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.5.23_c42e37f611_9.0.zip",
-                    "fastboot": "lavender_images_9.5.23_20190523.0000.00_9.0_cn_7cca8e9de1.tgz"
-                },
-                {
-                    "miui": "9.5.16",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.5.16_3be4e2ca2b_9.0.zip",
-                    "fastboot": "lavender_images_9.5.16_20190516.0000.00_9.0_cn_2ca2cc5904.tgz"
-                },
-                {
-                    "miui": "9.5.14",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.5.14_131f25185f_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.5.9",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.5.9_2a34bc3d99_9.0.zip",
-                    "fastboot": "lavender_images_9.5.9_20190509.0000.00_9.0_cn_fe373b7e13.tgz"
-                },
-                {
-                    "miui": "9.4.25",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.4.25_13bb193f3f_9.0.zip",
-                    "fastboot": "lavender_images_9.4.25_20190425.0000.00_9.0_cn_4e94c14a14.tgz"
-                },
-                {
-                    "miui": "9.4.22",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.4.22_e1dcc293fa_9.0.zip",
-                    "fastboot": "lavender_images_9.4.22_20190422.0000.00_9.0_cn_1c06d556a0.tgz"
-                },
-                {
-                    "miui": "9.4.18",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.4.18_5fd5e7dcda_9.0.zip",
-                    "fastboot": "lavender_images_9.4.18_20190418.0000.00_9.0_cn_9b69680e2c.tgz"
-                },
-                {
-                    "miui": "9.4.12",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.4.12_15edfad118_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.4.11",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.4.11_ea80e4e220_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.4.2",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.4.2_d2c5edfd9f_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.28",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.3.28_82798d9bee_9.0.zip",
-                    "fastboot": "lavender_images_9.3.28_20190328.0000.00_9.0_cn_6966b79698.tgz"
-                },
-                {
-                    "miui": "9.3.25",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.3.25_3c281a7cc3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.21",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.3.21_651bc70319_9.0.zip",
-                    "fastboot": "lavender_images_9.3.21_20190321.0000.00_9.0_cn_691b10fc64.tgz"
-                },
-                {
-                    "miui": "9.3.14",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.3.14_e5d366174d_9.0.zip",
-                    "fastboot": "lavender_images_9.3.14_20190314.0000.00_9.0_cn_580ab74f5f.tgz"
-                },
-                {
-                    "miui": "9.3.11",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.3.11_5c3c0dc620_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.7",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.3.7_db20130373_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.1",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.3.1_13fa1e4821_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.2.22",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.2.22_dfa84aff81_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.2.14",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.2.14_7b61a04580_9.0.zip",
-                    "fastboot": "lavender_images_9.2.14_20190214.0000.00_9.0_cn_94afdb4afd.tgz"
-                },
-                {
-                    "miui": "9.1.24",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_9.1.24_0be679b374_9.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.5.7.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V12.5.7.0.QFGCNXM_10b2f7da11_10.0.zip",
+          "fastboot": "lavender_images_V12.5.7.0.QFGCNXM_20211109.0000.00_10.0_cn_8b85782ef6.tgz"
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V12.5.7.0.QFGCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_V12.5.7.0.QFGCNXM_10b2f7da11_10.0.zip",
-                    "fastboot": "lavender_images_V12.5.7.0.QFGCNXM_20211109.0000.00_10.0_cn_8b85782ef6.tgz"
-                },
-                {
-                    "miui": "V12.5.3.0.QFGCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_V12.5.3.0.QFGCNXM_964faa8ebc_10.0.zip",
-                    "fastboot": "lavender_images_V12.5.3.0.QFGCNXM_20210702.0000.00_10.0_cn_4410ce2c07.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QFGCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_V12.0.3.0.QFGCNXM_fe51c5198b_10.0.zip",
-                    "fastboot": "lavender_images_V12.0.3.0.QFGCNXM_20210114.0000.00_10.0_cn_33ab3735b8.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFGCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_V12.0.2.0.QFGCNXM_722667568f_10.0.zip",
-                    "fastboot": "lavender_images_V12.0.2.0.QFGCNXM_20201020.0000.00_10.0_cn_eb3b9eb1d0.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QFGCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_V12.0.1.0.QFGCNXM_b44f121fca_10.0.zip",
-                    "fastboot": "lavender_images_V12.0.1.0.QFGCNXM_20200714.0000.00_10.0_cn_62b46feb8f.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.QFGCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_V11.0.2.0.QFGCNXM_f1ece786cf_10.0.zip",
-                    "fastboot": "lavender_images_V11.0.2.0.QFGCNXM_20200611.0000.00_10.0_cn_691b1b8376.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QFGCNXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDER_V11.0.1.0.QFGCNXM_0248df5ccd_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.7.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V11.0.7.0.PFGCNXM_c3fa9257fe_9.0.zip",
-                    "fastboot": "lavender_images_V11.0.7.0.PFGCNXM_20200315.0000.00_9.0_cn_dd40125adc.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V11.0.6.0.PFGCNXM_c557b4eb01_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.4.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V11.0.4.0.PFGCNXM_80ef43dc45_9.0.zip",
-                    "fastboot": "lavender_images_V11.0.4.0.PFGCNXM_20191110.0000.00_9.0_cn_739be34758.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V11.0.3.0.PFGCNXM_ab65268313_9.0.zip",
-                    "fastboot": "lavender_images_V11.0.3.0.PFGCNXM_20191017.0000.00_9.0_cn_d01c4f8c3e.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V11.0.2.0.PFGCNXM_a379ae321e_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.4.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.3.4.0.PFGCNXM_93db02ebf6_9.0.zip",
-                    "fastboot": "lavender_images_V10.3.4.0.PFGCNXM_20190816.0000.00_9.0_cn_a0e835960c.tgz"
-                },
-                {
-                    "miui": "V10.3.3.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.3.3.0.PFGCNXM_cc98d908ca_9.0.zip",
-                    "fastboot": "lavender_images_V10.3.3.0.PFGCNXM_20190716.0000.00_9.0_cn_090bc6b0ad.tgz"
-                },
-                {
-                    "miui": "V10.3.2.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.3.2.0.PFGCNXM_7b8f383ce7_9.0.zip",
-                    "fastboot": "lavender_images_V10.3.2.0.PFGCNXM_20190522.0000.00_9.0_cn_a840062ba5.tgz"
-                },
-                {
-                    "miui": "V10.3.1.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.3.1.0.PFGCNXM_bf965f4564_9.0.zip",
-                    "fastboot": "lavender_images_V10.3.1.0.PFGCNXM_20190403.0000.00_9.0_cn_a2cbd6207b.tgz"
-                },
-                {
-                    "miui": "V10.2.13.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.2.13.0.PFGCNXM_85f3f1b262_9.0.zip",
-                    "fastboot": "lavender_images_V10.2.13.0.PFGCNXM_20190318.0000.00_9.0_cn_1612831f64.tgz"
-                },
-                {
-                    "miui": "V10.2.10.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.2.10.0.PFGCNXM_6dbabed819_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.9.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.2.9.0.PFGCNXM_c634d2dbad_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.8.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.2.8.0.PFGCNXM_b5a787b17c_9.0.zip",
-                    "fastboot": "lavender_images_V10.2.8.0.PFGCNXM_20190123.0000.00_9.0_cn_f0404ebfdc.tgz"
-                },
-                {
-                    "miui": "V10.2.5.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.2.5.0.PFGCNXM_ee368a734c_9.0.zip",
-                    "fastboot": "lavender_images_V10.2.5.0.PFGCNXM_20190112.0000.00_9.0_cn_b1e3d57957.tgz"
-                },
-                {
-                    "miui": "V10.2.3.0.PFGCNXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDER_V10.2.3.0.PFGCNXM_2ed0f498ec_9.0.zip",
-                    "fastboot": "lavender_images_V10.2.3.0.PFGCNXM_20181228.0000.00_9.0_cn_9f8f427fb4.tgz"
-                }
-            ]
+          "miui": "V12.5.7.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V12.5.7.0.QFGCNXM_10b2f7da11_10.0.zip",
+          "fastboot": "lavender_images_V12.5.7.0.QFGCNXM_20211109.0000.00_10.0_cn_chinatelecom_a16f4e1348.tgz"
         },
         {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "V12.5.3.0.QFGMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERGlobal_V12.5.3.0.QFGMIXM_0baf420181_10.0.zip",
-                    "fastboot": "lavender_global_images_V12.5.3.0.QFGMIXM_20211210.0000.00_10.0_global_8dd551a637.tgz"
-                },
-                {
-                    "miui": "V12.5.1.0.QFGMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERGlobal_V12.5.1.0.QFGMIXM_6b7c4f76f0_10.0.zip",
-                    "fastboot": "lavender_global_images_V12.5.1.0.QFGMIXM_20210711.0000.00_10.0_global_c3f12ecc3a.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QFGMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERGlobal_V12.0.1.0.QFGMIXM_c3fa7eb012_10.0.zip",
-                    "fastboot": "lavender_global_images_V12.0.1.0.QFGMIXM_20201023.0000.00_10.0_global_cb25bd0d3f.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QFGMIXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERGlobal_V11.0.1.0.QFGMIXM_62e6d87225_10.0.zip",
-                    "fastboot": "lavender_global_images_V11.0.1.0.QFGMIXM_20200714.0000.00_10.0_global_f57619f9d5.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V11.0.6.0.PFGMIXM_48d41b4dee_9.0.zip",
-                    "fastboot": "lavender_global_images_V11.0.6.0.PFGMIXM_20200514.0000.00_9.0_global_861a3f2950.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V11.0.5.0.PFGMIXM_dbe0179bf8_9.0.zip",
-                    "fastboot": "lavender_global_images_V11.0.5.0.PFGMIXM_20200115.0000.00_9.0_global_c45ed905f1.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V11.0.4.0.PFGMIXM_ab70af5e76_9.0.zip",
-                    "fastboot": "lavender_global_images_V11.0.4.0.PFGMIXM_20191110.0000.00_9.0_global_774a3e8c73.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V11.0.3.0.PFGMIXM_45e3e548c2_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.9.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.3.9.0.PFGMIXM_4c00d1cd45_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.6.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.3.6.0.PFGMIXM_8c74282d30_9.0.zip",
-                    "fastboot": "lavender_global_images_V10.3.6.0.PFGMIXM_20190618.0000.00_9.0_global_bae84f7d0d.tgz"
-                },
-                {
-                    "miui": "V10.3.5.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.3.5.0.PFGMIXM_a5cabeca22_9.0.zip",
-                    "fastboot": "lavender_global_images_V10.3.5.0.PFGMIXM_20190424.0000.00_9.0_global_634f185f7e.tgz"
-                },
-                {
-                    "miui": "V10.3.12.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.3.12.0.PFGMIXM_1805db1eb3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.10.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.3.10.0.PFGMIXM_730eb0aa6e_9.0.zip",
-                    "fastboot": "lavender_global_images_V10.3.10.0.PFGMIXM_20190816.0000.00_9.0_global_8cf943bb70.tgz"
-                },
-                {
-                    "miui": "V10.2.8.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.2.8.0.PFGMIXM_1302dff043_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.7.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.2.7.0.PFGMIXM_b4667cdac6_9.0.zip",
-                    "fastboot": "lavender_global_images_V10.2.7.0.PFGMIXM_20190408.0000.00_9.0_global_082cfb72fb.tgz"
-                },
-                {
-                    "miui": "V10.2.6.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.2.6.0.PFGMIXM_24f31450ff_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.1.0.PFGMIXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERGlobal_V10.2.1.0.PFGMIXM_2a22b3f541_9.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.5.3.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V12.5.3.0.QFGCNXM_964faa8ebc_10.0.zip",
+          "fastboot": "lavender_images_V12.5.3.0.QFGCNXM_20210702.0000.00_10.0_cn_4410ce2c07.tgz"
         },
         {
-            "branch": "eeas",
-            "show": "1",
-            "cnname": "欧洲EEA稳定版",
-            "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "V12.5.1.0.QFGEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V12.5.1.0.QFGEUXM_39f6c7990f_10.0.zip",
-                    "fastboot": "lavender_eea_global_images_V12.5.1.0.QFGEUXM_20210903.0000.00_10.0_eea_149fcdfb43.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QFGEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V12.0.3.0.QFGEUXM_2064030854_10.0.zip",
-                    "fastboot": "lavender_eea_global_images_V12.0.3.0.QFGEUXM_20210119.0000.00_10.0_eea_555734a7d3.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFGEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V12.0.2.0.QFGEUXM_d20d8676c8_10.0.zip",
-                    "fastboot": "lavender_eea_global_images_V12.0.2.0.QFGEUXM_20201016.0000.00_10.0_eea_b8cf46b402.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QFGEUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V11.0.1.0.QFGEUXM_fc2ac50c80_10.0.zip",
-                    "fastboot": "lavender_eea_global_images_V11.0.1.0.QFGEUXM_20200722.0000.00_10.0_eea_38c2175082.tgz"
-                },
-                {
-                    "miui": "V11.0.8.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V11.0.8.0.PFGEUXM_83816dbc07_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V11.0.8.0.PFGEUXM_20200515.0000.00_9.0_eea_8ebcc505b8.tgz"
-                },
-                {
-                    "miui": "V11.0.7.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V11.0.7.0.PFGEUXM_3b1ae2ea0f_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V11.0.7.0.PFGEUXM_20200318.0000.00_9.0_eea_6593b26838.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V11.0.6.0.PFGEUXM_a5ed521520_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.4.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V11.0.4.0.PFGEUXM_09de63aa49_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V11.0.4.0.PFGEUXM_20191110.0000.00_9.0_eea_c540f21927.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V11.0.3.0.PFGEUXM_6ef58da8bd_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.6.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.3.6.0.PFGEUXM_22704fdf84_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V10.3.6.0.PFGEUXM_20190817.0000.00_9.0_eea_99646ab225.tgz"
-                },
-                {
-                    "miui": "V10.3.5.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.3.5.0.PFGEUXM_934d66eec9_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V10.3.5.0.PFGEUXM_20190716.0000.00_9.0_eea_5213a13935.tgz"
-                },
-                {
-                    "miui": "V10.3.4.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.3.4.0.PFGEUXM_c39033bf0f_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V10.3.4.0.PFGEUXM_20190528.0000.00_9.0_eea_44d0272286.tgz"
-                },
-                {
-                    "miui": "V10.3.3.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.3.3.0.PFGEUXM_c263df88f3_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.2.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.3.2.0.PFGEUXM_92977a674a_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V10.3.2.0.PFGEUXM_20190425.0000.00_9.0_eea_866e1a3069.tgz"
-                },
-                {
-                    "miui": "V10.2.7.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.2.7.0.PFGEUXM_896bf2fcfe_9.0.zip",
-                    "fastboot": "lavender_eea_global_images_V10.2.7.0.PFGEUXM_20190408.0000.00_9.0_eea_13a47a16bb.tgz"
-                },
-                {
-                    "miui": "V10.2.6.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.2.6.0.PFGEUXM_6fddc055c0_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.3.0.PFGEUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDEREEAGlobal_V10.2.3.0.PFGEUXM_0d9a655bbf_9.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.0.3.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V12.0.3.0.QFGCNXM_fe51c5198b_10.0.zip",
+          "fastboot": "lavender_images_V12.0.3.0.QFGCNXM_20210114.0000.00_10.0_cn_33ab3735b8.tgz"
         },
         {
-            "branch": "russ",
-            "show": "1",
-            "cnname": "俄罗斯稳定版",
-            "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "V12.5.1.0.QFGRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V12.5.1.0.QFGRUXM_32f42d84aa_10.0.zip",
-                    "fastboot": "lavender_ru_global_images_V12.5.1.0.QFGRUXM_20210903.0000.00_10.0_global_fd387e0a1f.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFGRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V12.0.2.0.QFGRUXM_9128652346_10.0.zip",
-                    "fastboot": "lavender_ru_global_images_V12.0.2.0.QFGRUXM_20210118.0000.00_10.0_global_9d96bd8bc1.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QFGRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V12.0.1.0.QFGRUXM_36e72e6d1f_10.0.zip",
-                    "fastboot": "lavender_ru_global_images_V12.0.1.0.QFGRUXM_20201024.0000.00_10.0_global_481b8c9de6.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QFGRUXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V11.0.1.0.QFGRUXM_45b53b46b6_10.0.zip",
-                    "fastboot": "lavender_ru_global_images_V11.0.1.0.QFGRUXM_20200804.0000.00_10.0_global_0e4de43932.tgz"
-                },
-                {
-                    "miui": "V11.0.9.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V11.0.9.0.PFGRUXM_0267cd573c_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V11.0.9.0.PFGRUXM_20200514.0000.00_9.0_global_f774b49fc2.tgz"
-                },
-                {
-                    "miui": "V11.0.7.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V11.0.7.0.PFGRUXM_47369a8be4_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V11.0.7.0.PFGRUXM_20200318.0000.00_9.0_global_890988da21.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V11.0.6.0.PFGRUXM_3e5f7be885_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.4.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V11.0.4.0.PFGRUXM_1cd225882c_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V11.0.4.0.PFGRUXM_20191110.0000.00_9.0_global_78c51274fa.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V11.0.3.0.PFGRUXM_b78a171739_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.5.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V10.3.5.0.PFGRUXM_a3def11a76_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V10.3.5.0.PFGRUXM_20190817.0000.00_9.0_global_e1aa3f8be4.tgz"
-                },
-                {
-                    "miui": "V10.3.4.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V10.3.4.0.PFGRUXM_1d7d672940_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V10.3.4.0.PFGRUXM_20190710.0000.00_9.0_global_e5bad03658.tgz"
-                },
-                {
-                    "miui": "V10.3.3.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V10.3.3.0.PFGRUXM_2283419803_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V10.3.3.0.PFGRUXM_20190516.0000.00_9.0_global_66fcb88ca1.tgz"
-                },
-                {
-                    "miui": "V10.3.2.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V10.3.2.0.PFGRUXM_c60b9cfb65_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V10.3.2.0.PFGRUXM_20190425.0000.00_9.0_global_9b2b29f027.tgz"
-                },
-                {
-                    "miui": "V10.2.4.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V10.2.4.0.PFGRUXM_911b341d0a_9.0.zip",
-                    "fastboot": "lavender_ru_global_images_V10.2.4.0.PFGRUXM_20190408.0000.00_9.0_global_69a8e5f804.tgz"
-                },
-                {
-                    "miui": "V10.2.3.0.PFGRUXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERRUGlobal_V10.2.3.0.PFGRUXM_79c39dc157_9.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.0.2.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V12.0.2.0.QFGCNXM_722667568f_10.0.zip",
+          "fastboot": "lavender_images_V12.0.2.0.QFGCNXM_20201020.0000.00_10.0_cn_eb3b9eb1d0.tgz"
         },
         {
-            "branch": "inds",
-            "show": "1",
-            "cnname": "印度稳定版",
-            "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "V12.5.1.0.QFGINXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERINGlobal_V12.5.1.0.QFGINXM_1c1cf84924_10.0.zip",
-                    "fastboot": "lavender_in_global_images_V12.5.1.0.QFGINXM_20210923.0000.00_10.0_in_b4c288b06a.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QFGINXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERINGlobal_V12.0.2.0.QFGINXM_ef84abc890_10.0.zip",
-                    "fastboot": "lavender_in_global_images_V12.0.2.0.QFGINXM_20201211.0000.00_10.0_in_e2d4b1b068.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QFGINXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERINGlobal_V12.0.1.0.QFGINXM_47a316efa3_10.0.zip",
-                    "fastboot": "lavender_in_global_images_V12.0.1.0.QFGINXM_20201024.0000.00_10.0_in_31dd98399e.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.QFGINXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERINGlobal_V11.0.5.0.QFGINXM_e9ee33810b_10.0.zip",
-                    "fastboot": "lavender_in_global_images_V11.0.5.0.QFGINXM_20200927.0000.00_10.0_in_bbdcbd8cef.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.QFGINXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERINGlobal_V11.0.4.0.QFGINXM_550be4f366_10.0.zip",
-                    "fastboot": "lavender_in_global_images_V11.0.4.0.QFGINXM_20200902.0000.00_10.0_in_98b0926805.tgz"
-                },
-                {
-                    "miui": "V11.0.2.0.QFGINXM",
-                    "android": "10.0",
-                    "recovery": "miui_LAVENDERINGlobal_V11.0.2.0.QFGINXM_7ab6c828c7_10.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V11.0.9.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V11.0.9.0.PFGINXM_6d31ea97dc_9.0.zip",
-                    "fastboot": "lavender_in_global_images_V11.0.9.0.PFGINXM_20200310.0000.00_9.0_in_8118245a1b.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V11.0.6.0.PFGINXM_66ab0238a7_9.0.zip",
-                    "fastboot": "lavender_in_global_images_V11.0.6.0.PFGINXM_20191110.0000.00_9.0_in_6285bc9f27.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V11.0.5.0.PFGINXM_dcfffb7a50_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.3.7.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V10.3.7.0.PFGINXM_11bd4d8286_9.0.zip",
-                    "fastboot": "lavender_in_global_images_V10.3.7.0.PFGINXM_20190809.0000.00_9.0_in_1f7ab46d15.tgz"
-                },
-                {
-                    "miui": "V10.3.6.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V10.3.6.0.PFGINXM_7a59ebf942_9.0.zip",
-                    "fastboot": "lavender_in_global_images_V10.3.6.0.PFGINXM_20190716.0000.00_9.0_in_30084bcbb7.tgz"
-                },
-                {
-                    "miui": "V10.3.5.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V10.3.5.0.PFGINXM_da89ac968b_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.7.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V10.2.7.0.PFGINXM_1b0374cd32_9.0.zip",
-                    "fastboot": "lavender_in_global_images_V10.2.7.0.PFGINXM_20190307.0000.00_9.0_in_476d85c791.tgz"
-                },
-                {
-                    "miui": "V10.2.6.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V10.2.6.0.PFGINXM_123bf6debe_9.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V10.2.11.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V10.2.11.0.PFGINXM_902c58efd1_9.0.zip",
-                    "fastboot": "lavender_in_global_images_V10.2.11.0.PFGINXM_20190408.0000.00_9.0_in_91dd6449d7.tgz"
-                },
-                {
-                    "miui": "V10.2.10.0.PFGINXM",
-                    "android": "9.0",
-                    "recovery": "miui_LAVENDERINGlobal_V10.2.10.0.PFGINXM_ced65b4198_9.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.0.1.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V12.0.1.0.QFGCNXM_b44f121fca_10.0.zip",
+          "fastboot": "lavender_images_V12.0.1.0.QFGCNXM_20200714.0000.00_10.0_cn_62b46feb8f.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V11.0.2.0.QFGCNXM_f1ece786cf_10.0.zip",
+          "fastboot": "lavender_images_V11.0.2.0.QFGCNXM_20200611.0000.00_10.0_cn_691b1b8376.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QFGCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDER_V11.0.1.0.QFGCNXM_0248df5ccd_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.7.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V11.0.7.0.PFGCNXM_c3fa9257fe_9.0.zip",
+          "fastboot": "lavender_images_V11.0.7.0.PFGCNXM_20200315.0000.00_9.0_cn_dd40125adc.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V11.0.6.0.PFGCNXM_c557b4eb01_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.4.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V11.0.4.0.PFGCNXM_80ef43dc45_9.0.zip",
+          "fastboot": "lavender_images_V11.0.4.0.PFGCNXM_20191110.0000.00_9.0_cn_739be34758.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V11.0.3.0.PFGCNXM_ab65268313_9.0.zip",
+          "fastboot": "lavender_images_V11.0.3.0.PFGCNXM_20191017.0000.00_9.0_cn_d01c4f8c3e.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V11.0.2.0.PFGCNXM_a379ae321e_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.4.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.3.4.0.PFGCNXM_93db02ebf6_9.0.zip",
+          "fastboot": "lavender_images_V10.3.4.0.PFGCNXM_20190816.0000.00_9.0_cn_a0e835960c.tgz"
+        },
+        {
+          "miui": "V10.3.3.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.3.3.0.PFGCNXM_cc98d908ca_9.0.zip",
+          "fastboot": "lavender_images_V10.3.3.0.PFGCNXM_20190716.0000.00_9.0_cn_090bc6b0ad.tgz"
+        },
+        {
+          "miui": "V10.3.2.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.3.2.0.PFGCNXM_7b8f383ce7_9.0.zip",
+          "fastboot": "lavender_images_V10.3.2.0.PFGCNXM_20190522.0000.00_9.0_cn_a840062ba5.tgz"
+        },
+        {
+          "miui": "V10.3.1.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.3.1.0.PFGCNXM_bf965f4564_9.0.zip",
+          "fastboot": "lavender_images_V10.3.1.0.PFGCNXM_20190403.0000.00_9.0_cn_a2cbd6207b.tgz"
+        },
+        {
+          "miui": "V10.2.13.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.2.13.0.PFGCNXM_85f3f1b262_9.0.zip",
+          "fastboot": "lavender_images_V10.2.13.0.PFGCNXM_20190318.0000.00_9.0_cn_1612831f64.tgz"
+        },
+        {
+          "miui": "V10.2.10.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.2.10.0.PFGCNXM_6dbabed819_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.9.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.2.9.0.PFGCNXM_c634d2dbad_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.8.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.2.8.0.PFGCNXM_b5a787b17c_9.0.zip",
+          "fastboot": "lavender_images_V10.2.8.0.PFGCNXM_20190123.0000.00_9.0_cn_f0404ebfdc.tgz"
+        },
+        {
+          "miui": "V10.2.5.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.2.5.0.PFGCNXM_ee368a734c_9.0.zip",
+          "fastboot": "lavender_images_V10.2.5.0.PFGCNXM_20190112.0000.00_9.0_cn_b1e3d57957.tgz"
+        },
+        {
+          "miui": "V10.2.3.0.PFGCNXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDER_V10.2.3.0.PFGCNXM_2ed0f498ec_9.0.zip",
+          "fastboot": "lavender_images_V10.2.3.0.PFGCNXM_20181228.0000.00_9.0_cn_9f8f427fb4.tgz"
         }
-    ]
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V12.5.3.0.QFGMIXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERGlobal_V12.5.3.0.QFGMIXM_0baf420181_10.0.zip",
+          "fastboot": "lavender_global_images_V12.5.3.0.QFGMIXM_20211210.0000.00_10.0_global_8dd551a637.tgz"
+        },
+        {
+          "miui": "V12.5.1.0.QFGMIXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERGlobal_V12.5.1.0.QFGMIXM_6b7c4f76f0_10.0.zip",
+          "fastboot": "lavender_global_images_V12.5.1.0.QFGMIXM_20210711.0000.00_10.0_global_c3f12ecc3a.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QFGMIXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERGlobal_V12.0.1.0.QFGMIXM_c3fa7eb012_10.0.zip",
+          "fastboot": "lavender_global_images_V12.0.1.0.QFGMIXM_20201023.0000.00_10.0_global_cb25bd0d3f.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QFGMIXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERGlobal_V11.0.1.0.QFGMIXM_62e6d87225_10.0.zip",
+          "fastboot": "lavender_global_images_V11.0.1.0.QFGMIXM_20200714.0000.00_10.0_global_f57619f9d5.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V11.0.6.0.PFGMIXM_48d41b4dee_9.0.zip",
+          "fastboot": "lavender_global_images_V11.0.6.0.PFGMIXM_20200514.0000.00_9.0_global_861a3f2950.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V11.0.5.0.PFGMIXM_dbe0179bf8_9.0.zip",
+          "fastboot": "lavender_global_images_V11.0.5.0.PFGMIXM_20200115.0000.00_9.0_global_c45ed905f1.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V11.0.4.0.PFGMIXM_ab70af5e76_9.0.zip",
+          "fastboot": "lavender_global_images_V11.0.4.0.PFGMIXM_20191110.0000.00_9.0_global_774a3e8c73.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V11.0.3.0.PFGMIXM_45e3e548c2_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.9.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.3.9.0.PFGMIXM_4c00d1cd45_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.6.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.3.6.0.PFGMIXM_8c74282d30_9.0.zip",
+          "fastboot": "lavender_global_images_V10.3.6.0.PFGMIXM_20190618.0000.00_9.0_global_bae84f7d0d.tgz"
+        },
+        {
+          "miui": "V10.3.5.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.3.5.0.PFGMIXM_a5cabeca22_9.0.zip",
+          "fastboot": "lavender_global_images_V10.3.5.0.PFGMIXM_20190424.0000.00_9.0_global_634f185f7e.tgz"
+        },
+        {
+          "miui": "V10.3.12.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.3.12.0.PFGMIXM_1805db1eb3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.10.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.3.10.0.PFGMIXM_730eb0aa6e_9.0.zip",
+          "fastboot": "lavender_global_images_V10.3.10.0.PFGMIXM_20190816.0000.00_9.0_global_8cf943bb70.tgz"
+        },
+        {
+          "miui": "V10.2.8.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.2.8.0.PFGMIXM_1302dff043_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.7.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.2.7.0.PFGMIXM_b4667cdac6_9.0.zip",
+          "fastboot": "lavender_global_images_V10.2.7.0.PFGMIXM_20190408.0000.00_9.0_global_082cfb72fb.tgz"
+        },
+        {
+          "miui": "V10.2.6.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.2.6.0.PFGMIXM_24f31450ff_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.1.0.PFGMIXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERGlobal_V10.2.1.0.PFGMIXM_2a22b3f541_9.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V12.5.1.0.QFGEUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V12.5.1.0.QFGEUXM_39f6c7990f_10.0.zip",
+          "fastboot": "lavender_eea_global_images_V12.5.1.0.QFGEUXM_20210903.0000.00_10.0_eea_149fcdfb43.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QFGEUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V12.0.3.0.QFGEUXM_2064030854_10.0.zip",
+          "fastboot": "lavender_eea_global_images_V12.0.3.0.QFGEUXM_20210119.0000.00_10.0_eea_555734a7d3.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFGEUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V12.0.2.0.QFGEUXM_d20d8676c8_10.0.zip",
+          "fastboot": "lavender_eea_global_images_V12.0.2.0.QFGEUXM_20201016.0000.00_10.0_eea_b8cf46b402.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QFGEUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V11.0.1.0.QFGEUXM_fc2ac50c80_10.0.zip",
+          "fastboot": "lavender_eea_global_images_V11.0.1.0.QFGEUXM_20200722.0000.00_10.0_eea_38c2175082.tgz"
+        },
+        {
+          "miui": "V11.0.8.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V11.0.8.0.PFGEUXM_83816dbc07_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V11.0.8.0.PFGEUXM_20200515.0000.00_9.0_eea_8ebcc505b8.tgz"
+        },
+        {
+          "miui": "V11.0.7.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V11.0.7.0.PFGEUXM_3b1ae2ea0f_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V11.0.7.0.PFGEUXM_20200318.0000.00_9.0_eea_6593b26838.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V11.0.6.0.PFGEUXM_a5ed521520_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.4.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V11.0.4.0.PFGEUXM_09de63aa49_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V11.0.4.0.PFGEUXM_20191110.0000.00_9.0_eea_c540f21927.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V11.0.3.0.PFGEUXM_6ef58da8bd_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.6.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.3.6.0.PFGEUXM_22704fdf84_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V10.3.6.0.PFGEUXM_20190817.0000.00_9.0_eea_99646ab225.tgz"
+        },
+        {
+          "miui": "V10.3.5.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.3.5.0.PFGEUXM_934d66eec9_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V10.3.5.0.PFGEUXM_20190716.0000.00_9.0_eea_5213a13935.tgz"
+        },
+        {
+          "miui": "V10.3.4.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.3.4.0.PFGEUXM_c39033bf0f_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V10.3.4.0.PFGEUXM_20190528.0000.00_9.0_eea_44d0272286.tgz"
+        },
+        {
+          "miui": "V10.3.3.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.3.3.0.PFGEUXM_c263df88f3_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.2.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.3.2.0.PFGEUXM_92977a674a_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V10.3.2.0.PFGEUXM_20190425.0000.00_9.0_eea_866e1a3069.tgz"
+        },
+        {
+          "miui": "V10.2.7.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.2.7.0.PFGEUXM_896bf2fcfe_9.0.zip",
+          "fastboot": "lavender_eea_global_images_V10.2.7.0.PFGEUXM_20190408.0000.00_9.0_eea_13a47a16bb.tgz"
+        },
+        {
+          "miui": "V10.2.6.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.2.6.0.PFGEUXM_6fddc055c0_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.3.0.PFGEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDEREEAGlobal_V10.2.3.0.PFGEUXM_0d9a655bbf_9.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V12.5.1.0.QFGRUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERRUGlobal_V12.5.1.0.QFGRUXM_32f42d84aa_10.0.zip",
+          "fastboot": "lavender_ru_global_images_V12.5.1.0.QFGRUXM_20210903.0000.00_10.0_global_fd387e0a1f.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFGRUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERRUGlobal_V12.0.2.0.QFGRUXM_9128652346_10.0.zip",
+          "fastboot": "lavender_ru_global_images_V12.0.2.0.QFGRUXM_20210118.0000.00_10.0_global_9d96bd8bc1.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QFGRUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERRUGlobal_V12.0.1.0.QFGRUXM_36e72e6d1f_10.0.zip",
+          "fastboot": "lavender_ru_global_images_V12.0.1.0.QFGRUXM_20201024.0000.00_10.0_global_481b8c9de6.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QFGRUXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERRUGlobal_V11.0.1.0.QFGRUXM_45b53b46b6_10.0.zip",
+          "fastboot": "lavender_ru_global_images_V11.0.1.0.QFGRUXM_20200804.0000.00_10.0_global_0e4de43932.tgz"
+        },
+        {
+          "miui": "V11.0.9.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V11.0.9.0.PFGRUXM_0267cd573c_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V11.0.9.0.PFGRUXM_20200514.0000.00_9.0_global_f774b49fc2.tgz"
+        },
+        {
+          "miui": "V11.0.7.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V11.0.7.0.PFGRUXM_47369a8be4_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V11.0.7.0.PFGRUXM_20200318.0000.00_9.0_global_890988da21.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V11.0.6.0.PFGRUXM_3e5f7be885_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.4.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V11.0.4.0.PFGRUXM_1cd225882c_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V11.0.4.0.PFGRUXM_20191110.0000.00_9.0_global_78c51274fa.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V11.0.3.0.PFGRUXM_b78a171739_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.5.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V10.3.5.0.PFGRUXM_a3def11a76_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V10.3.5.0.PFGRUXM_20190817.0000.00_9.0_global_e1aa3f8be4.tgz"
+        },
+        {
+          "miui": "V10.3.4.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V10.3.4.0.PFGRUXM_1d7d672940_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V10.3.4.0.PFGRUXM_20190710.0000.00_9.0_global_e5bad03658.tgz"
+        },
+        {
+          "miui": "V10.3.3.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V10.3.3.0.PFGRUXM_2283419803_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V10.3.3.0.PFGRUXM_20190516.0000.00_9.0_global_66fcb88ca1.tgz"
+        },
+        {
+          "miui": "V10.3.2.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V10.3.2.0.PFGRUXM_c60b9cfb65_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V10.3.2.0.PFGRUXM_20190425.0000.00_9.0_global_9b2b29f027.tgz"
+        },
+        {
+          "miui": "V10.2.4.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V10.2.4.0.PFGRUXM_911b341d0a_9.0.zip",
+          "fastboot": "lavender_ru_global_images_V10.2.4.0.PFGRUXM_20190408.0000.00_9.0_global_69a8e5f804.tgz"
+        },
+        {
+          "miui": "V10.2.3.0.PFGRUXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERRUGlobal_V10.2.3.0.PFGRUXM_79c39dc157_9.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "inds",
+      "show": "1",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "V12.5.1.0.QFGINXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERINGlobal_V12.5.1.0.QFGINXM_1c1cf84924_10.0.zip",
+          "fastboot": "lavender_in_global_images_V12.5.1.0.QFGINXM_20210923.0000.00_10.0_in_b4c288b06a.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QFGINXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERINGlobal_V12.0.2.0.QFGINXM_ef84abc890_10.0.zip",
+          "fastboot": "lavender_in_global_images_V12.0.2.0.QFGINXM_20201211.0000.00_10.0_in_e2d4b1b068.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QFGINXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERINGlobal_V12.0.1.0.QFGINXM_47a316efa3_10.0.zip",
+          "fastboot": "lavender_in_global_images_V12.0.1.0.QFGINXM_20201024.0000.00_10.0_in_31dd98399e.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.QFGINXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERINGlobal_V11.0.5.0.QFGINXM_e9ee33810b_10.0.zip",
+          "fastboot": "lavender_in_global_images_V11.0.5.0.QFGINXM_20200927.0000.00_10.0_in_bbdcbd8cef.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.QFGINXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERINGlobal_V11.0.4.0.QFGINXM_550be4f366_10.0.zip",
+          "fastboot": "lavender_in_global_images_V11.0.4.0.QFGINXM_20200902.0000.00_10.0_in_98b0926805.tgz"
+        },
+        {
+          "miui": "V11.0.2.0.QFGINXM",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERINGlobal_V11.0.2.0.QFGINXM_7ab6c828c7_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.9.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V11.0.9.0.PFGINXM_6d31ea97dc_9.0.zip",
+          "fastboot": "lavender_in_global_images_V11.0.9.0.PFGINXM_20200310.0000.00_9.0_in_8118245a1b.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V11.0.6.0.PFGINXM_66ab0238a7_9.0.zip",
+          "fastboot": "lavender_in_global_images_V11.0.6.0.PFGINXM_20191110.0000.00_9.0_in_6285bc9f27.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V11.0.5.0.PFGINXM_dcfffb7a50_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.3.7.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V10.3.7.0.PFGINXM_11bd4d8286_9.0.zip",
+          "fastboot": "lavender_in_global_images_V10.3.7.0.PFGINXM_20190809.0000.00_9.0_in_1f7ab46d15.tgz"
+        },
+        {
+          "miui": "V10.3.6.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V10.3.6.0.PFGINXM_7a59ebf942_9.0.zip",
+          "fastboot": "lavender_in_global_images_V10.3.6.0.PFGINXM_20190716.0000.00_9.0_in_30084bcbb7.tgz"
+        },
+        {
+          "miui": "V10.3.5.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V10.3.5.0.PFGINXM_da89ac968b_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.7.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V10.2.7.0.PFGINXM_1b0374cd32_9.0.zip",
+          "fastboot": "lavender_in_global_images_V10.2.7.0.PFGINXM_20190307.0000.00_9.0_in_476d85c791.tgz"
+        },
+        {
+          "miui": "V10.2.6.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V10.2.6.0.PFGINXM_123bf6debe_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.11.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V10.2.11.0.PFGINXM_902c58efd1_9.0.zip",
+          "fastboot": "lavender_in_global_images_V10.2.11.0.PFGINXM_20190408.0000.00_9.0_in_91dd6449d7.tgz"
+        },
+        {
+          "miui": "V10.2.10.0.PFGINXM",
+          "android": "9.0",
+          "recovery": "miui_LAVENDERINGlobal_V10.2.10.0.PFGINXM_ced65b4198_9.0.zip",
+          "fastboot": ""
+        }
+      ]
+    }
+  ]
 }

@@ -1,413 +1,419 @@
 {
-    "codename": "clover",
-    "cnname": "小米平板 4/Plus",
-    "enname": "Mi Pad 4 (Plus)",
-    "attentions": [
+  "codename": "clover",
+  "cnname": "小米平板 4/Plus",
+  "enname": "Mi Pad 4 (Plus)",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "cn": "",
-            "en": ""
-        }
-    ],
-    "branches": [
-        {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "9.8.29",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.8.29_6647b25a58_8.1.zip",
-                    "fastboot": "clover_images_9.8.29_20190829.0000.00_8.1_cn_927549c5be.tgz"
-                },
-                {
-                    "miui": "9.8.22",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.8.22_5eca72382b_8.1.zip",
-                    "fastboot": "clover_images_9.8.22_20190822.0000.00_8.1_cn_2a8faecc19.tgz"
-                },
-                {
-                    "miui": "9.8.15",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.8.15_587c23d5e4_8.1.zip",
-                    "fastboot": "clover_images_9.8.15_20190815.0000.00_8.1_cn_ea1adc5894.tgz"
-                },
-                {
-                    "miui": "9.8.8",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.8.8_c181b61fb0_8.1.zip",
-                    "fastboot": "clover_images_9.8.8_20190808.0000.00_8.1_cn_a1a6cdf417.tgz"
-                },
-                {
-                    "miui": "9.8.1",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.8.1_c6ff5d62c7_8.1.zip",
-                    "fastboot": "clover_images_9.8.1_20190801.0000.00_8.1_cn_99edb932ef.tgz"
-                },
-                {
-                    "miui": "9.7.25",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.7.25_1a9ec5f55e_8.1.zip",
-                    "fastboot": "clover_images_9.7.25_20190725.0000.00_8.1_cn_2d7e82b315.tgz"
-                },
-                {
-                    "miui": "9.7.18",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.7.18_f6e6b8485c_8.1.zip",
-                    "fastboot": "clover_images_9.7.18_20190718.0000.00_8.1_cn_cb0a64fb44.tgz"
-                },
-                {
-                    "miui": "9.7.11",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.7.11_0f80c3a2ff_8.1.zip",
-                    "fastboot": "clover_images_9.7.11_20190711.0000.00_8.1_cn_5c580163ce.tgz"
-                },
-                {
-                    "miui": "9.7.4",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.7.4_01b9e49de0_8.1.zip",
-                    "fastboot": "clover_images_9.7.4_20190704.0000.00_8.1_cn_b29d233c23.tgz"
-                },
-                {
-                    "miui": "9.6.27",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.6.27_b9069da523_8.1.zip",
-                    "fastboot": "clover_images_9.6.27_20190627.0000.00_8.1_cn_fc0c795489.tgz"
-                },
-                {
-                    "miui": "9.6.20",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.6.20_1b7b5dc178_8.1.zip",
-                    "fastboot": "clover_images_9.6.20_20190620.0000.00_8.1_cn_3208d79db2.tgz"
-                },
-                {
-                    "miui": "9.6.13",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.6.13_338dcc6722_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.5.30",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.5.30_4d4a04e318_8.1.zip",
-                    "fastboot": "clover_images_9.5.30_20190530.0000.00_8.1_cn_3b561029a9.tgz"
-                },
-                {
-                    "miui": "9.5.23",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.5.23_57aa2c03bd_8.1.zip",
-                    "fastboot": "clover_images_9.5.23_20190523.0000.00_8.1_cn_403e3591e8.tgz"
-                },
-                {
-                    "miui": "9.5.16",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.5.16_76cfaec40b_8.1.zip",
-                    "fastboot": "clover_images_9.5.16_20190516.0000.00_8.1_cn_a35599c708.tgz"
-                },
-                {
-                    "miui": "9.5.9",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.5.9_72a10d56ca_8.1.zip",
-                    "fastboot": "clover_images_9.5.9_20190509.0000.00_8.1_cn_8c22ac5150.tgz"
-                },
-                {
-                    "miui": "9.4.25",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.4.25_13cff3b179_8.1.zip",
-                    "fastboot": "clover_images_9.4.25_20190425.0000.00_8.1_cn_0cef1106ff.tgz"
-                },
-                {
-                    "miui": "9.4.18",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.4.18_6552fb603d_8.1.zip",
-                    "fastboot": "clover_images_9.4.18_20190418.0000.00_8.1_cn_197e38db05.tgz"
-                },
-                {
-                    "miui": "9.4.11",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.4.11_1149b0e2cb_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.3.28",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.3.28_89fbcb8388_8.1.zip",
-                    "fastboot": "clover_images_9.3.28_20190328.0000.00_8.1_cn_121fb6d3b8.tgz"
-                },
-                {
-                    "miui": "9.3.21",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.3.21_c04c602d80_8.1.zip",
-                    "fastboot": "clover_images_9.3.21_20190321.0000.00_8.1_cn_5485d6effb.tgz"
-                },
-                {
-                    "miui": "9.3.14",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.3.14_223ea9d2fb_8.1.zip",
-                    "fastboot": "clover_images_9.3.14_20190314.0000.00_8.1_cn_b8366998da.tgz"
-                },
-                {
-                    "miui": "9.3.7",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.3.7_62a14c06a2_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "9.2.28",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.2.28_c5b121cee9_8.1.zip",
-                    "fastboot": "clover_images_9.2.28_20190228.0000.00_8.1_cn_99bc91123c.tgz"
-                },
-                {
-                    "miui": "9.2.21",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.2.21_2fccf373e0_8.1.zip",
-                    "fastboot": "clover_images_9.2.21_20190221.0000.00_8.1_cn_6f2a06ae70.tgz"
-                },
-                {
-                    "miui": "9.2.15",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.2.15_117b5be5fe_8.1.zip",
-                    "fastboot": "clover_images_9.2.15_20190215.0000.00_8.1_cn_7d2c3210b4.tgz"
-                },
-                {
-                    "miui": "9.1.24",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.1.24_be94b0dc6e_8.1.zip",
-                    "fastboot": "clover_images_9.1.24_20190124.0000.00_8.1_cn_ab7d3f1490.tgz"
-                },
-                {
-                    "miui": "9.1.17",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.1.17_f62cddfb57_8.1.zip",
-                    "fastboot": "clover_images_9.1.17_20190117.0000.00_8.1_cn_65a78e1a12.tgz"
-                },
-                {
-                    "miui": "9.1.10",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.1.10_0302972c41_8.1.zip",
-                    "fastboot": "clover_images_9.1.10_20190110.0000.00_8.1_cn_9637f04925.tgz"
-                },
-                {
-                    "miui": "9.1.1",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_9.1.1_3404106b7a_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.27",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.12.27_9d373c8e5b_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.20",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.12.20_37caedaed0_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.13",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.12.13_22d1cc8c12_8.1.zip",
-                    "fastboot": "clover_images_8.12.13_20181213.0000.00_8.1_cn_b4d6d5182e.tgz"
-                },
-                {
-                    "miui": "8.12.6",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.12.6_41c5d0c5f4_8.1.zip",
-                    "fastboot": "clover_images_8.12.6_20181206.0000.00_8.1_cn_117d289d4c.tgz"
-                },
-                {
-                    "miui": "8.11.29",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.11.29_f0ad3e9f8c_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.23",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.11.23_6909d50b28_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.15",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.11.15_1ad1091223_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.8",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.11.8_7fa1f424e3_8.1.zip",
-                    "fastboot": "clover_images_8.11.8_20181108.0000.00_8.1_cn_478df373ef.tgz"
-                },
-                {
-                    "miui": "8.11.1",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.11.1_f9b66a8e4d_8.1.zip",
-                    "fastboot": "clover_images_8.11.1_20181101.0000.00_8.1_cn_cb460b401b.tgz"
-                },
-                {
-                    "miui": "8.10.25",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.10.25_c87cfe25f8_8.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.10.18",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.10.18_6d30242a84_8.1.zip",
-                    "fastboot": "clover_images_8.10.18_20181018.0000.00_8.1_cn_3f3299c065.tgz"
-                },
-                {
-                    "miui": "8.10.11",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.10.11_3c8faad629_8.1.zip",
-                    "fastboot": "clover_images_8.10.11_20181011.0000.00_8.1_cn_ed5f06cecd.tgz"
-                },
-                {
-                    "miui": "8.9.20",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.9.20_ac9af560e8_8.1.zip",
-                    "fastboot": "clover_images_8.9.20_20180920.0000.00_8.1_cn_09fb635b23.tgz"
-                },
-                {
-                    "miui": "8.9.13",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.9.13_fa8027953b_8.1.zip",
-                    "fastboot": "clover_images_8.9.13_20180913.0000.00_8.1_cn_3126c3f387.tgz"
-                },
-                {
-                    "miui": "8.8.23",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.8.23_976af2876a_8.1.zip",
-                    "fastboot": "clover_images_8.8.23_20180823.0000.00_8.1_cn_d809c50d21.tgz"
-                },
-                {
-                    "miui": "8.8.16",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.8.16_839a32b118_8.1.zip",
-                    "fastboot": "clover_images_8.8.16_20180816.0000.00_8.1_cn_7433420cf3.tgz"
-                },
-                {
-                    "miui": "8.8.8",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.8.8_f77ec69c0e_8.1.zip",
-                    "fastboot": "clover_images_8.8.8_20180808.0000.00_8.1_cn_1f43aeacec.tgz"
-                },
-                {
-                    "miui": "8.8.2",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.8.2_8780093b56_8.1.zip",
-                    "fastboot": "clover_images_8.8.2_20180802.0000.00_8.1_cn_c0dbdbeab4.tgz"
-                },
-                {
-                    "miui": "8.7.26",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.7.26_c94ee921dd_8.1.zip",
-                    "fastboot": "clover_images_8.7.26_20180726.0000.00_8.1_cn_9c7c9623e8.tgz"
-                },
-                {
-                    "miui": "8.7.19",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.7.19_d7eb135185_8.1.zip",
-                    "fastboot": "clover_images_8.7.19_20180719.0000.00_8.1_cn_329698f337.tgz"
-                },
-                {
-                    "miui": "8.7.12",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.7.12_57b3e445de_8.1.zip",
-                    "fastboot": "clover_images_8.7.12_20180712.0000.00_8.1_cn_e06c83694e.tgz"
-                },
-                {
-                    "miui": "8.7.5",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.7.5_ca50169e40_8.1.zip",
-                    "fastboot": "clover_images_8.7.5_20180705.0000.00_8.1_cn_0dd871d74c.tgz"
-                },
-                {
-                    "miui": "8.7.2",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_8.7.2_4cddf7666b_8.1.zip",
-                    "fastboot": "clover_images_8.7.2_20180702.0000.00_8.1_cn_16e0454ca3.tgz"
-                }
-            ]
+          "miui": "9.8.29",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.8.29_6647b25a58_8.1.zip",
+          "fastboot": "clover_images_9.8.29_20190829.0000.00_8.1_cn_927549c5be.tgz"
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V10.3.2.0.ODJCNXM",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V10.3.2.0.ODJCNXM_371ac63e9e_8.1.zip",
-                    "fastboot": "clover_images_V10.3.2.0.ODJCNXM_20190515.0000.00_8.1_cn_4388d99e5e.tgz"
-                },
-                {
-                    "miui": "V10.3.1.0.ODJCNXM",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V10.3.1.0.ODJCNXM_199c654be7_8.1.zip",
-                    "fastboot": "clover_images_V10.3.1.0.ODJCNXM_20190401.0000.00_8.1_cn_2bce510757.tgz"
-                },
-                {
-                    "miui": "V10.2.1.0.ODJCNXM",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V10.2.1.0.ODJCNXM_304a7f24e3_8.1.zip",
-                    "fastboot": "clover_images_V10.2.1.0.ODJCNXM_20181225.0000.00_8.1_cn_4b3e34155b.tgz"
-                },
-                {
-                    "miui": "V10.1.1.0.ODJCNFI",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V10.1.1.0.ODJCNFI_326170d0d2_8.1.zip",
-                    "fastboot": "clover_images_V10.1.1.0.ODJCNFI_20181101.0000.00_8.1_cn_9ff5f9dcea.tgz"
-                },
-                {
-                    "miui": "V9.6.27.0.ODJCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V9.6.27.0.ODJCNFD_dc3928f92d_8.1.zip",
-                    "fastboot": "clover_images_V9.6.27.0.ODJCNFD_20180907.0000.00_8.1_cn_174c740a1b.tgz"
-                },
-                {
-                    "miui": "V9.6.26.0.ODJCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V9.6.26.0.ODJCNFD_ccb12222cb_8.1.zip",
-                    "fastboot": "clover_images_V9.6.26.0.ODJCNFD_20180817.0000.00_8.1_cn_329dd272c6.tgz"
-                },
-                {
-                    "miui": "V9.6.23.0.ODJCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V9.6.23.0.ODJCNFD_4387d783a5_8.1.zip",
-                    "fastboot": "clover_images_V9.6.23.0.ODJCNFD_20180802.0000.00_8.1_cn_041a06af04.tgz"
-                },
-                {
-                    "miui": "V9.6.8.0.ODJCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V9.6.8.0.ODJCNFD_966147d92c_8.1.zip",
-                    "fastboot": "clover_images_V9.6.8.0.ODJCNFD_20180720.0000.00_8.1_cn_be8df8b858.tgz"
-                },
-                {
-                    "miui": "V9.6.7.0.ODJCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V9.6.7.0.ODJCNFD_3b92e55baf_8.1.zip",
-                    "fastboot": "clover_images_V9.6.7.0.ODJCNFD_20180707.0000.00_8.1_cn_1bcfebb786.tgz"
-                },
-                {
-                    "miui": "V9.6.6.0.ODJCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_MIPAD4_V9.6.6.0.ODJCNFD_6a6c31a8a5_8.1.zip",
-                    "fastboot": "clover_images_V9.6.6.0.ODJCNFD_20180630.0000.00_8.1_cn_221a20ded2.tgz"
-                },
-                {
-                    "miui": "V9.6.4.0.ODJCNFD",
-                    "android": "8.1",
-                    "recovery": "miui_CLOVER_V9.6.4.0.ODJCNFD_564ab2cc76_8.1.zip",
-                    "fastboot": "clover_images_V9.6.4.0.ODJCNFD_20180615.0000.00_8.1_cn_d9e551a41f.tgz"
-                }
-            ]
+          "miui": "9.8.22",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.8.22_5eca72382b_8.1.zip",
+          "fastboot": "clover_images_9.8.22_20190822.0000.00_8.1_cn_2a8faecc19.tgz"
+        },
+        {
+          "miui": "9.8.15",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.8.15_587c23d5e4_8.1.zip",
+          "fastboot": "clover_images_9.8.15_20190815.0000.00_8.1_cn_ea1adc5894.tgz"
+        },
+        {
+          "miui": "9.8.8",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.8.8_c181b61fb0_8.1.zip",
+          "fastboot": "clover_images_9.8.8_20190808.0000.00_8.1_cn_a1a6cdf417.tgz"
+        },
+        {
+          "miui": "9.8.1",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.8.1_c6ff5d62c7_8.1.zip",
+          "fastboot": "clover_images_9.8.1_20190801.0000.00_8.1_cn_99edb932ef.tgz"
+        },
+        {
+          "miui": "9.7.25",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.7.25_1a9ec5f55e_8.1.zip",
+          "fastboot": "clover_images_9.7.25_20190725.0000.00_8.1_cn_2d7e82b315.tgz"
+        },
+        {
+          "miui": "9.7.18",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.7.18_f6e6b8485c_8.1.zip",
+          "fastboot": "clover_images_9.7.18_20190718.0000.00_8.1_cn_cb0a64fb44.tgz"
+        },
+        {
+          "miui": "9.7.11",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.7.11_0f80c3a2ff_8.1.zip",
+          "fastboot": "clover_images_9.7.11_20190711.0000.00_8.1_cn_5c580163ce.tgz"
+        },
+        {
+          "miui": "9.7.4",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.7.4_01b9e49de0_8.1.zip",
+          "fastboot": "clover_images_9.7.4_20190704.0000.00_8.1_cn_b29d233c23.tgz"
+        },
+        {
+          "miui": "9.6.27",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.6.27_b9069da523_8.1.zip",
+          "fastboot": "clover_images_9.6.27_20190627.0000.00_8.1_cn_fc0c795489.tgz"
+        },
+        {
+          "miui": "9.6.20",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.6.20_1b7b5dc178_8.1.zip",
+          "fastboot": "clover_images_9.6.20_20190620.0000.00_8.1_cn_3208d79db2.tgz"
+        },
+        {
+          "miui": "9.6.13",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.6.13_338dcc6722_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.5.30",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.5.30_4d4a04e318_8.1.zip",
+          "fastboot": "clover_images_9.5.30_20190530.0000.00_8.1_cn_3b561029a9.tgz"
+        },
+        {
+          "miui": "9.5.23",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.5.23_57aa2c03bd_8.1.zip",
+          "fastboot": "clover_images_9.5.23_20190523.0000.00_8.1_cn_403e3591e8.tgz"
+        },
+        {
+          "miui": "9.5.16",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.5.16_76cfaec40b_8.1.zip",
+          "fastboot": "clover_images_9.5.16_20190516.0000.00_8.1_cn_a35599c708.tgz"
+        },
+        {
+          "miui": "9.5.9",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.5.9_72a10d56ca_8.1.zip",
+          "fastboot": "clover_images_9.5.9_20190509.0000.00_8.1_cn_8c22ac5150.tgz"
+        },
+        {
+          "miui": "9.4.25",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.4.25_13cff3b179_8.1.zip",
+          "fastboot": "clover_images_9.4.25_20190425.0000.00_8.1_cn_0cef1106ff.tgz"
+        },
+        {
+          "miui": "9.4.18",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.4.18_6552fb603d_8.1.zip",
+          "fastboot": "clover_images_9.4.18_20190418.0000.00_8.1_cn_197e38db05.tgz"
+        },
+        {
+          "miui": "9.4.11",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.4.11_1149b0e2cb_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.3.28",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.3.28_89fbcb8388_8.1.zip",
+          "fastboot": "clover_images_9.3.28_20190328.0000.00_8.1_cn_121fb6d3b8.tgz"
+        },
+        {
+          "miui": "9.3.21",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.3.21_c04c602d80_8.1.zip",
+          "fastboot": "clover_images_9.3.21_20190321.0000.00_8.1_cn_5485d6effb.tgz"
+        },
+        {
+          "miui": "9.3.14",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.3.14_223ea9d2fb_8.1.zip",
+          "fastboot": "clover_images_9.3.14_20190314.0000.00_8.1_cn_b8366998da.tgz"
+        },
+        {
+          "miui": "9.3.7",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.3.7_62a14c06a2_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "9.2.28",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.2.28_c5b121cee9_8.1.zip",
+          "fastboot": "clover_images_9.2.28_20190228.0000.00_8.1_cn_99bc91123c.tgz"
+        },
+        {
+          "miui": "9.2.21",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.2.21_2fccf373e0_8.1.zip",
+          "fastboot": "clover_images_9.2.21_20190221.0000.00_8.1_cn_6f2a06ae70.tgz"
+        },
+        {
+          "miui": "9.2.15",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.2.15_117b5be5fe_8.1.zip",
+          "fastboot": "clover_images_9.2.15_20190215.0000.00_8.1_cn_7d2c3210b4.tgz"
+        },
+        {
+          "miui": "9.1.24",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.1.24_be94b0dc6e_8.1.zip",
+          "fastboot": "clover_images_9.1.24_20190124.0000.00_8.1_cn_ab7d3f1490.tgz"
+        },
+        {
+          "miui": "9.1.17",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.1.17_f62cddfb57_8.1.zip",
+          "fastboot": "clover_images_9.1.17_20190117.0000.00_8.1_cn_65a78e1a12.tgz"
+        },
+        {
+          "miui": "9.1.10",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.1.10_0302972c41_8.1.zip",
+          "fastboot": "clover_images_9.1.10_20190110.0000.00_8.1_cn_9637f04925.tgz"
+        },
+        {
+          "miui": "9.1.1",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_9.1.1_3404106b7a_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.27",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.12.27_9d373c8e5b_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.20",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.12.20_37caedaed0_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.13",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.12.13_22d1cc8c12_8.1.zip",
+          "fastboot": "clover_images_8.12.13_20181213.0000.00_8.1_cn_b4d6d5182e.tgz"
+        },
+        {
+          "miui": "8.12.6",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.12.6_41c5d0c5f4_8.1.zip",
+          "fastboot": "clover_images_8.12.6_20181206.0000.00_8.1_cn_117d289d4c.tgz"
+        },
+        {
+          "miui": "8.11.29",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.11.29_f0ad3e9f8c_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.23",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.11.23_6909d50b28_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.15",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.11.15_1ad1091223_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.8",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.11.8_7fa1f424e3_8.1.zip",
+          "fastboot": "clover_images_8.11.8_20181108.0000.00_8.1_cn_478df373ef.tgz"
+        },
+        {
+          "miui": "8.11.1",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.11.1_f9b66a8e4d_8.1.zip",
+          "fastboot": "clover_images_8.11.1_20181101.0000.00_8.1_cn_cb460b401b.tgz"
+        },
+        {
+          "miui": "8.10.25",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.10.25_c87cfe25f8_8.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.10.18",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.10.18_6d30242a84_8.1.zip",
+          "fastboot": "clover_images_8.10.18_20181018.0000.00_8.1_cn_3f3299c065.tgz"
+        },
+        {
+          "miui": "8.10.11",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.10.11_3c8faad629_8.1.zip",
+          "fastboot": "clover_images_8.10.11_20181011.0000.00_8.1_cn_ed5f06cecd.tgz"
+        },
+        {
+          "miui": "8.9.20",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.9.20_ac9af560e8_8.1.zip",
+          "fastboot": "clover_images_8.9.20_20180920.0000.00_8.1_cn_09fb635b23.tgz"
+        },
+        {
+          "miui": "8.9.13",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.9.13_fa8027953b_8.1.zip",
+          "fastboot": "clover_images_8.9.13_20180913.0000.00_8.1_cn_3126c3f387.tgz"
+        },
+        {
+          "miui": "8.8.23",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.8.23_976af2876a_8.1.zip",
+          "fastboot": "clover_images_8.8.23_20180823.0000.00_8.1_cn_d809c50d21.tgz"
+        },
+        {
+          "miui": "8.8.16",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.8.16_839a32b118_8.1.zip",
+          "fastboot": "clover_images_8.8.16_20180816.0000.00_8.1_cn_7433420cf3.tgz"
+        },
+        {
+          "miui": "8.8.8",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.8.8_f77ec69c0e_8.1.zip",
+          "fastboot": "clover_images_8.8.8_20180808.0000.00_8.1_cn_1f43aeacec.tgz"
+        },
+        {
+          "miui": "8.8.2",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.8.2_8780093b56_8.1.zip",
+          "fastboot": "clover_images_8.8.2_20180802.0000.00_8.1_cn_c0dbdbeab4.tgz"
+        },
+        {
+          "miui": "8.7.26",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.7.26_c94ee921dd_8.1.zip",
+          "fastboot": "clover_images_8.7.26_20180726.0000.00_8.1_cn_9c7c9623e8.tgz"
+        },
+        {
+          "miui": "8.7.19",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.7.19_d7eb135185_8.1.zip",
+          "fastboot": "clover_images_8.7.19_20180719.0000.00_8.1_cn_329698f337.tgz"
+        },
+        {
+          "miui": "8.7.12",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.7.12_57b3e445de_8.1.zip",
+          "fastboot": "clover_images_8.7.12_20180712.0000.00_8.1_cn_e06c83694e.tgz"
+        },
+        {
+          "miui": "8.7.5",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.7.5_ca50169e40_8.1.zip",
+          "fastboot": "clover_images_8.7.5_20180705.0000.00_8.1_cn_0dd871d74c.tgz"
+        },
+        {
+          "miui": "8.7.2",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_8.7.2_4cddf7666b_8.1.zip",
+          "fastboot": "clover_images_8.7.2_20180702.0000.00_8.1_cn_16e0454ca3.tgz"
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V10.3.2.0.ODJCNXM",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V10.3.2.0.ODJCNXM_371ac63e9e_8.1.zip",
+          "fastboot": "clover_images_V10.3.2.0.ODJCNXM_20190515.0000.00_8.1_cn_4388d99e5e.tgz"
+        },
+        {
+          "miui": "V10.3.1.0.ODJCNXM",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V10.3.1.0.ODJCNXM_199c654be7_8.1.zip",
+          "fastboot": "clover_images_V10.3.1.0.ODJCNXM_20190401.0000.00_8.1_cn_2bce510757.tgz"
+        },
+        {
+          "miui": "V10.2.1.0.ODJCNXM",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V10.2.1.0.ODJCNXM_304a7f24e3_8.1.zip",
+          "fastboot": "clover_images_V10.2.1.0.ODJCNXM_20181225.0000.00_8.1_cn_4b3e34155b.tgz"
+        },
+        {
+          "miui": "V10.1.1.0.ODJCNFI",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V10.1.1.0.ODJCNFI_326170d0d2_8.1.zip",
+          "fastboot": "clover_images_V10.1.1.0.ODJCNFI_20181101.0000.00_8.1_cn_9ff5f9dcea.tgz"
+        },
+        {
+          "miui": "V9.6.27.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V9.6.27.0.ODJCNFD_dc3928f92d_8.1.zip",
+          "fastboot": "clover_images_V9.6.27.0.ODJCNFD_20180907.0000.00_8.1_cn_174c740a1b.tgz"
+        },
+        {
+          "miui": "V9.6.26.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V9.6.26.0.ODJCNFD_ccb12222cb_8.1.zip",
+          "fastboot": "clover_images_V9.6.26.0.ODJCNFD_20180817.0000.00_8.1_cn_329dd272c6.tgz"
+        },
+        {
+          "miui": "V9.6.23.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V9.6.23.0.ODJCNFD_4387d783a5_8.1.zip",
+          "fastboot": "clover_images_V9.6.23.0.ODJCNFD_20180802.0000.00_8.1_cn_041a06af04.tgz"
+        },
+        {
+          "miui": "V9.6.8.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V9.6.8.0.ODJCNFD_966147d92c_8.1.zip",
+          "fastboot": "clover_images_V9.6.8.0.ODJCNFD_20180720.0000.00_8.1_cn_be8df8b858.tgz"
+        },
+        {
+          "miui": "V9.6.7.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V9.6.7.0.ODJCNFD_3b92e55baf_8.1.zip",
+          "fastboot": "clover_images_V9.6.7.0.ODJCNFD_20180707.0000.00_8.1_cn_1bcfebb786.tgz"
+        },
+        {
+          "miui": "V9.6.7.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V9.6.7.0.ODJCNFD_3b92e55baf_8.1.zip",
+          "fastboot": "clover_images_V9.6.7.0.ODJCNFD_20180707.0000.00_8.1_cn_chinatelecom_6f049b0afa.tgz"
+        },
+        {
+          "miui": "V9.6.6.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_MIPAD4_V9.6.6.0.ODJCNFD_6a6c31a8a5_8.1.zip",
+          "fastboot": "clover_images_V9.6.6.0.ODJCNFD_20180630.0000.00_8.1_cn_221a20ded2.tgz"
+        },
+        {
+          "miui": "V9.6.4.0.ODJCNFD",
+          "android": "8.1",
+          "recovery": "miui_CLOVER_V9.6.4.0.ODJCNFD_564ab2cc76_8.1.zip",
+          "fastboot": "clover_images_V9.6.4.0.ODJCNFD_20180615.0000.00_8.1_cn_d9e551a41f.tgz"
+        }
+      ]
+    }
+  ]
 }

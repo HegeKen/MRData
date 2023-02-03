@@ -1,167 +1,251 @@
 {
-    "codename": "",
-    "cnname": "",
-    "enname": "",
-    "attentions": [
+  "codename": "",
+  "cnname": "",
+  "enname": "",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "0",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
         }
-    ],
-    "branches": [
+      ]
+    },
+    {
+      "branch": "cnmo",
+      "show": "0",
+      "cnname": "中国大陆正式版",
+      "enname": "China Mainland Stable(MIUI14)",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "0",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnmo",
-            "show": "0",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnms",
-            "show": "0",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "0",
-            "cnname": "中国台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "mgbs",
-            "show": "0",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-            "show": "0",
-            "cnname": "欧洲EEA稳定版",
-            "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-            "show": "0",
-            "cnname": "俄罗斯稳定版",
-            "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-            "show": "0",
-            "cnname": "印度稳定版",
-            "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-            "show": "0",
-            "cnname": "印度尼西亚稳定版",
-            "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "trks",
-            "show": "0",
-            "cnname": "土耳其稳定版",
-            "enname": "Turkey Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "japs",
-            "show": "0",
-            "cnname": "日本稳定版",
-            "enname": "Japan Stable",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "中国大陆YUNKE",
+      "enname": "China Mainland YUNKE",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "0",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "cntw",
+      "show": "0",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "0",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "eeas",
+      "show": "0",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "0",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "inds",
+      "show": "0",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "inns",
+      "show": "0",
+      "cnname": "印度尼西亚稳定版",
+      "enname": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "trks",
+      "show": "0",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "clen",
+      "show": "0",
+      "cnname": "哥伦比亚稳定版",
+      "enname": "Colombia Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "0",
+      "cnname": "墨西哥稳定版",
+      "enname": "Mexico Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "0",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "zavc",
+      "show": "0",
+      "cnname": "南非稳定版",
+      "enname": "South Africa",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "japs",
+      "show": "0",
+      "cnname": "日本稳定版",
+      "enname": "Japan Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    }
+  ]
 }
