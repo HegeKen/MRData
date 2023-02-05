@@ -1,269 +1,305 @@
 {
-    "codename": "dandelion_c3l2",
-    "cnname": "Redmi 10A/10A Sport",
-    "enname": "Redmi 10A/10A Sport",
-    "attentions": [
+  "codename": "dandelion_c3l2",
+  "cnname": "Redmi 10A/10A Sport",
+  "enname": "Redmi 10A/10A Sport",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "crawler": [
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "Spider",
+      "enname": "Spider",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "p1": "miui_CATTAILINGlobal_V12.0.18.0.QCTINXM_9eefea9735_10.0.zip",
+          "p2": "miui_DANDELIONEEAGlobal_V12.5.7.0.RCDEUXM_f92a8db3b9_11.0.zip",
+          "p3": "miui_DANDELIONGlobal_V12.5.7.0.RCDMIXM_64ab7911a4_11.0.zip",
+          "p4": "miui_DANDELIONIDGlobal_V12.0.14.0.QCDIDXM_318f5b0eb8_10.0.zip",
+          "p5": "miui_DANDELIONINGlobal_V12.5.9.0.RCDINXM_edd537581d_11.0.zip",
+          "p6": "miui_DANDELIONRUGlobal_V12.5.7.0.RCDRUXM_b22f2a44c1_11.0.zip",
+          "p7": "miui_DANDELIONTRGlobal_V12.0.7.0.QCDTRXM_ad8a53cefe_10.0.zip",
+          "p8": "miui_ANGELICAEEAGlobal_V12.0.14.0.QCREUXM_801922339f_10.0.zip",
+          "p9": "miui_ANGELICAGlobal_V12.5.4.0.RCRMIXM_e206a639c8_11.0.zip",
+          "p10": "miui_ANGELICAIDGlobal_V12.0.14.0.QCRIDXM_1773924100_10.0.zip",
+          "p11": "miui_ANGELICANEEAGlobal_V12.0.14.0.QCSEUXM_b8dd81fed5_10.0.zip",
+          "p12": "miui_ANGELICANGlobal_V12.0.16.0.QCSMIXM_aa62ece321_10.0.zip",
+          "p13": "miui_ANGELICANRUGlobal_V12.5.3.0.RCSRUXM_57e0de1031_11.0.zip",
+          "p14": "miui_ANGELICATRGlobal_V12.0.15.0.QCRTRXM_14ddc7a102_10.0.zip",
+          "p15": "miui_LIMEEEAGlobal_V13.0.1.0.SJQEUXM_789f44b99a_12.0.zip",
+          "p16": "miui_LIMERUGlobal_V13.0.1.0.SJQRUXM_065a3e92bc_12.0.zip",
+          "p17": "miui_LIMETRGlobal_V13.0.1.0.SJQTRXM_dbabd85b6d_12.0.zip",
+          "p18": "miui_LIMETWGlobal_V13.0.1.0.SJQTWXM_17db1a7c9d_12.0.zip",
+          "p19": "miui_LANCELOTEEAGlobal_V13.0.3.0.SJCEUXM_f7755ce0ba_12.0.zip",
+          "p20": "miui_LANCELOTGlobal_V13.0.4.0.SJCMIXM_cf8fa9fcdb_12.0.zip",
+          "p21": "miui_LANCELOTIDGlobal_V13.0.1.0.SJCIDXM_8beab516dd_12.0.zip",
+          "p22": "miui_LANCELOTINGlobal_V13.0.3.0.SJCINXM_c4711ab008_12.0.zip",
+          "p23": "miui_LANCELOTRUGlobal_V12.5.5.0.RJCRUXM_7cc10daa65_11.0.zip",
+          "p24": "miui_LANCELOTTRGlobal_V12.5.6.0.RJCTRXM_3256284410_11.0.zip"
         }
-    ],
-    "branches": [
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmo",
+      "show": "0",
+      "cnname": "中国大陆正式版",
+      "enname": "China Mainland Stable(MIUI14)",
+      "links": [
         {
-            "branch": "cnmo",
-            "show": "0",
-            "cnname": "中国大陆正式版",
-            "enname": "China Mainland Stable(MIUI14)",
-            "links": [
-                {
-                    "miui": "",
-                    "android": "",
-                    "recovery": "",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V12.5.12.0.RCZCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2_V12.5.12.0.RCZCNXM_f38631646e_11.0.zip",
-                    "fastboot": "dandelion_c3l2_images_V12.5.12.0.RCZCNXM_20221216.0000.00_11.0_cn_7441806803.tgz"
-                },
-                {
-                  "miui": "V12.5.12.0.RCZCNXM",
-                  "android": "11.0",
-                  "recovery": "miui_DANDELIONC3L2_V12.5.12.0.RCZCNXM_f38631646e_11.0.zip",
-                  "fastboot": "dandelion_c3l2_images_V12.5.12.0.RCZCNXM_20221216.0000.00_11.0_cn_chinatelecom_0efea92b90.tgz"
-              },
-                {
-                    "miui": "V12.5.11.0.RCZCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2_V12.5.11.0.RCZCNXM_f4e190b275_11.0.zip",
-                    "fastboot": "dandelion_c3l2_images_V12.5.11.0.RCZCNXM_20220906.0000.00_11.0_cn_18feb35535.tgz"
-                },
-                {
-                    "miui": "V12.5.10.0.RCZCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2_V12.5.10.0.RCZCNXM_54f67e53e2_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V12.5.8.0.RCZCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2_V12.5.8.0.RCZCNXM_d25bc92373_11.0.zip",
-                    "fastboot": "dandelion_c3l2_images_V12.5.8.0.RCZCNXM_20220521.0000.00_11.0_cn_13ee795ae7.tgz"
-                },
-                {
-                    "miui": "V12.5.7.0.RCZCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2_V12.5.7.0.RCZCNXM_804a77a15d_11.0.zip",
-                    "fastboot": "dandelion_c3l2_images_V12.5.7.0.RCZCNXM_20220505.0000.00_11.0_cn_a76b7a0aa4.tgz"
-                },
-                {
-                    "miui": "V12.5.4.0.RCZCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2_V12.5.4.0.RCZCNXM_6dff2b6215_11.0.zip",
-                    "fastboot": "dandelion_c3l2_images_V12.5.4.0.RCZCNXM_20220315.0000.00_11.0_cn_3ee67c180c.tgz"
-                },
-                {
-                    "miui": "V12.5.3.0.RCZCNXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2_V12.5.3.0.RCZCNXM_108e456757_11.0.zip",
-                    "fastboot": ""
-                }
-            ]
-        },
-        {
-            "branch": "cntw",
-            "show": "1",
-            "cnname": "中国台湾地区稳定版",
-            "enname": "China Taiwan Stable",
-            "links": [
-                {
-                    "miui": "V12.5.3.0.RCZTWXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2TWGlobal_V12.5.3.0.RCZTWXM_32271569b1_11.0.zip",
-                    "fastboot": "dandelion_c3l2_tw_global_images_V12.5.3.0.RCZTWXM_20221008.0000.00_11.0_global_4a92ceba59.tgz"
-                },
-                {
-                    "miui": "V12.5.2.0.RCZTWXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2TWGlobal_V12.5.2.0.RCZTWXM_860bc34d42_11.0.zip",
-                    "fastboot": "dandelion_c3l2_tw_global_images_V12.5.2.0.RCZTWXM_20220516.0000.00_11.0_global_8506fd1816.tgz"
-                },
-                {
-                    "miui": "V12.5.1.0.RCZTWXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2TWGlobal_V12.5.1.0.RCZTWXM_ffbef68ff3_11.0.zip",
-                    "fastboot": "dandelion_c3l2_tw_global_images_V12.5.1.0.RCZTWXM_20220406.0000.00_11.0_global_b22c913b49.tgz"
-                }
-            ]
-        },
-        {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "V12.5.9.0.RCZMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2Global_V12.5.9.0.RCZMIXM_2cd5f3621e_11.0.zip",
-                    "fastboot": "dandelion_c3l2_global_images_V12.5.9.0.RCZMIXM_20221213.0000.00_11.0_global_21f187b04c.tgz"
-                },
-                {
-                    "miui": "V12.5.8.0.RCZMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2Global_V12.5.8.0.RCZMIXM_02a01e2450_11.0.zip",
-                    "fastboot": "dandelion_c3l2_global_images_V12.5.8.0.RCZMIXM_20220914.0000.00_11.0_global_b9dd3ec852.tgz"
-                },
-                {
-                    "miui": "V12.5.7.0.RCZMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2Global_V12.5.7.0.RCZMIXM_d6edf0f10f_11.0.zip",
-                    "fastboot": "dandelion_c3l2_global_images_V12.5.7.0.RCZMIXM_20220708.0000.00_11.0_global_900b19e6f0.tgz"
-                },
-                {
-                    "miui": "V12.5.5.0.RCZMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2Global_V12.5.5.0.RCZMIXM_2fe794c645_11.0.zip",
-                    "fastboot": "dandelion_c3l2_global_images_V12.5.5.0.RCZMIXM_20220426.0000.00_11.0_global_91564f97fe.tgz"
-                },
-                {
-                    "miui": "V12.5.3.0.RCZMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2Global_V12.5.3.0.RCZMIXM_4d47cc1461_11.0.zip",
-                    "fastboot": "dandelion_c3l2_global_images_V12.5.3.0.RCZMIXM_20220320.0000.00_11.0_global_412bb7c84a.tgz"
-                },
-                {
-                    "miui": "V12.5.2.0.RCZMIXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2Global_V12.5.2.0.RCZMIXM_0d64d42c2a_11.0.zip",
-                    "fastboot": "dandelion_c3l2_global_images_V12.5.2.0.RCZMIXM_20220310.0000.00_11.0_global_2e54f76922.tgz"
-                }
-            ]
-        },
-        {
-            "branch": "eeas",
-            "show": "1",
-            "cnname": "欧洲EEA稳定版",
-            "enname": "Europe EEA Stable",
-            "links": [
-                {
-                    "miui": "V12.5.7.0.RCZEUXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2EEAGlobal_V12.5.7.0.RCZEUXM_493221ea6e_11.0.zip",
-                    "fastboot": "dandelion_c3l2_eea_global_images_V12.5.7.0.RCZEUXM_20221208.0000.00_11.0_eea_6f6882547a.tgz"
-                },
-                {
-                    "miui": "V12.5.5.0.RCZEUXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2EEAGlobal_V12.5.5.0.RCZEUXM_7ff7d20d43_11.0.zip",
-                    "fastboot": "dandelion_c3l2_eea_global_images_V12.5.5.0.RCZEUXM_20220921.0000.00_11.0_eea_08a4630143.tgz"
-                },
-                {
-                    "miui": "V12.5.2.0.RCZEUXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2EEAGlobal_V12.5.2.0.RCZEUXM_1f72ba56ca_11.0.zip",
-                    "fastboot": "dandelion_c3l2_eea_global_images_V12.5.2.0.RCZEUXM_20220510.0000.00_11.0_eea_8cfdc6bb3e.tgz"
-                }
-            ]
-        },
-        {
-            "branch": "russ",
-            "show": "1",
-            "cnname": "俄罗斯稳定版",
-            "enname": "Russia Stable",
-            "links": [
-                {
-                    "miui": "V12.5.4.0.RCZRUXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2RUGlobal_V12.5.4.0.RCZRUXM_0f11c2f28f_11.0.zip",
-                    "fastboot": "dandelion_c3l2_ru_global_images_V12.5.4.0.RCZRUXM_20221214.0000.00_11.0_global_3c91eb9576.tgz"
-                },
-                {
-                    "miui": "V12.5.2.0.RCZRUXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2RUGlobal_V12.5.2.0.RCZRUXM_4b25a23ed7_11.0.zip",
-                    "fastboot": "dandelion_c3l2_ru_global_images_V12.5.2.0.RCZRUXM_20220926.0000.00_11.0_global_a2fb22570f.tgz"
-                }
-            ]
-        },
-        {
-            "branch": "inds",
-            "show": "1",
-            "cnname": "印度稳定版",
-            "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "V12.5.9.0.RCZINXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.9.0.RCZINXM_ff28826216_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V12.5.8.0.RCZINXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.8.0.RCZINXM_f2ed02f730_11.0.zip",
-                    "fastboot": "dandelion_c3l2_in_global_images_V12.5.8.0.RCZINXM_20220920.0000.00_11.0_in_0dae082de0.tgz"
-                },
-                {
-                    "miui": "V12.5.7.0.RCZINXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.7.0.RCZINXM_e3a26d0f72_11.0.zip",
-                    "fastboot": "dandelion_c3l2_in_global_images_V12.5.7.0.RCZINXM_20220620.0000.00_11.0_in_406c64dd2d.tgz"
-                },
-                {
-                    "miui": "V12.5.5.0.RCZINXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.5.0.RCZINXM_abe2c9de55_11.0.zip",
-                    "fastboot": "dandelion_c3l2_in_global_images_V12.5.5.0.RCZINXM_20220426.0000.00_11.0_in_971e58f3a9.tgz"
-                },
-                {
-                    "miui": "V12.5.3.0.RCZINXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.3.0.RCZINXM_a876d20a00_11.0.zip",
-                    "fastboot": "dandelion_c3l2_in_global_images_V12.5.3.0.RCZINXM_20220328.0000.00_11.0_in_86302159c1.tgz"
-                }
-            ]
-        },
-        {
-            "branch": "inns",
-            "show": "1",
-            "cnname": "印度尼西亚稳定版",
-            "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "V12.5.7.0.RCZIDXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.7.0.RCZIDXM_a806d61294_11.0.zip",
-                    "fastboot": "dandelion_c3l2_id_global_images_V12.5.7.0.RCZIDXM_20221213.0000.00_11.0_global_406d536217.tgz"
-                },
-                {
-                    "miui": "V12.5.6.0.RCZIDXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.6.0.RCZIDXM_a5a689e754_11.0.zip",
-                    "fastboot": "dandelion_c3l2_id_global_images_V12.5.6.0.RCZIDXM_20220926.0000.00_11.0_global_0e1d86d86f.tgz"
-                },
-                {
-                    "miui": "V12.5.5.0.RCZIDXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.5.0.RCZIDXM_37b5aec32f_11.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V12.5.2.0.RCZIDXM",
-                    "android": "11.0",
-                    "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.2.0.RCZIDXM_520e4658f9_11.0.zip",
-                    "fastboot": "dandelion_c3l2_id_global_images_V12.5.2.0.RCZIDXM_20220325.0000.00_11.0_global_ae4cc7bda5.tgz"
-                }
-            ]
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V12.5.12.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.12.0.RCZCNXM_f38631646e_11.0.zip",
+          "fastboot": "dandelion_c3l2_images_V12.5.12.0.RCZCNXM_20221216.0000.00_11.0_cn_7441806803.tgz"
+        },
+        {
+          "miui": "V12.5.12.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.12.0.RCZCNXM_f38631646e_11.0.zip",
+          "fastboot": "dandelion_c3l2_images_V12.5.12.0.RCZCNXM_20221216.0000.00_11.0_cn_chinatelecom_0efea92b90.tgz"
+        },
+        {
+          "miui": "V12.5.11.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.11.0.RCZCNXM_f4e190b275_11.0.zip",
+          "fastboot": "dandelion_c3l2_images_V12.5.11.0.RCZCNXM_20220906.0000.00_11.0_cn_18feb35535.tgz"
+        },
+        {
+          "miui": "V12.5.10.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.10.0.RCZCNXM_54f67e53e2_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V12.5.8.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.8.0.RCZCNXM_d25bc92373_11.0.zip",
+          "fastboot": "dandelion_c3l2_images_V12.5.8.0.RCZCNXM_20220521.0000.00_11.0_cn_13ee795ae7.tgz"
+        },
+        {
+          "miui": "V12.5.7.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.7.0.RCZCNXM_804a77a15d_11.0.zip",
+          "fastboot": "dandelion_c3l2_images_V12.5.7.0.RCZCNXM_20220505.0000.00_11.0_cn_a76b7a0aa4.tgz"
+        },
+        {
+          "miui": "V12.5.4.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.4.0.RCZCNXM_6dff2b6215_11.0.zip",
+          "fastboot": "dandelion_c3l2_images_V12.5.4.0.RCZCNXM_20220315.0000.00_11.0_cn_3ee67c180c.tgz"
+        },
+        {
+          "miui": "V12.5.3.0.RCZCNXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2_V12.5.3.0.RCZCNXM_108e456757_11.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V12.5.3.0.RCZTWXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2TWGlobal_V12.5.3.0.RCZTWXM_32271569b1_11.0.zip",
+          "fastboot": "dandelion_c3l2_tw_global_images_V12.5.3.0.RCZTWXM_20221008.0000.00_11.0_global_4a92ceba59.tgz"
+        },
+        {
+          "miui": "V12.5.2.0.RCZTWXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2TWGlobal_V12.5.2.0.RCZTWXM_860bc34d42_11.0.zip",
+          "fastboot": "dandelion_c3l2_tw_global_images_V12.5.2.0.RCZTWXM_20220516.0000.00_11.0_global_8506fd1816.tgz"
+        },
+        {
+          "miui": "V12.5.1.0.RCZTWXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2TWGlobal_V12.5.1.0.RCZTWXM_ffbef68ff3_11.0.zip",
+          "fastboot": "dandelion_c3l2_tw_global_images_V12.5.1.0.RCZTWXM_20220406.0000.00_11.0_global_b22c913b49.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V12.5.9.0.RCZMIXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2Global_V12.5.9.0.RCZMIXM_2cd5f3621e_11.0.zip",
+          "fastboot": "dandelion_c3l2_global_images_V12.5.9.0.RCZMIXM_20221213.0000.00_11.0_global_21f187b04c.tgz"
+        },
+        {
+          "miui": "V12.5.8.0.RCZMIXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2Global_V12.5.8.0.RCZMIXM_02a01e2450_11.0.zip",
+          "fastboot": "dandelion_c3l2_global_images_V12.5.8.0.RCZMIXM_20220914.0000.00_11.0_global_b9dd3ec852.tgz"
+        },
+        {
+          "miui": "V12.5.7.0.RCZMIXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2Global_V12.5.7.0.RCZMIXM_d6edf0f10f_11.0.zip",
+          "fastboot": "dandelion_c3l2_global_images_V12.5.7.0.RCZMIXM_20220708.0000.00_11.0_global_900b19e6f0.tgz"
+        },
+        {
+          "miui": "V12.5.5.0.RCZMIXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2Global_V12.5.5.0.RCZMIXM_2fe794c645_11.0.zip",
+          "fastboot": "dandelion_c3l2_global_images_V12.5.5.0.RCZMIXM_20220426.0000.00_11.0_global_91564f97fe.tgz"
+        },
+        {
+          "miui": "V12.5.3.0.RCZMIXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2Global_V12.5.3.0.RCZMIXM_4d47cc1461_11.0.zip",
+          "fastboot": "dandelion_c3l2_global_images_V12.5.3.0.RCZMIXM_20220320.0000.00_11.0_global_412bb7c84a.tgz"
+        },
+        {
+          "miui": "V12.5.2.0.RCZMIXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2Global_V12.5.2.0.RCZMIXM_0d64d42c2a_11.0.zip",
+          "fastboot": "dandelion_c3l2_global_images_V12.5.2.0.RCZMIXM_20220310.0000.00_11.0_global_2e54f76922.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V12.5.7.0.RCZEUXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2EEAGlobal_V12.5.7.0.RCZEUXM_493221ea6e_11.0.zip",
+          "fastboot": "dandelion_c3l2_eea_global_images_V12.5.7.0.RCZEUXM_20221208.0000.00_11.0_eea_6f6882547a.tgz"
+        },
+        {
+          "miui": "V12.5.5.0.RCZEUXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2EEAGlobal_V12.5.5.0.RCZEUXM_7ff7d20d43_11.0.zip",
+          "fastboot": "dandelion_c3l2_eea_global_images_V12.5.5.0.RCZEUXM_20220921.0000.00_11.0_eea_08a4630143.tgz"
+        },
+        {
+          "miui": "V12.5.2.0.RCZEUXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2EEAGlobal_V12.5.2.0.RCZEUXM_1f72ba56ca_11.0.zip",
+          "fastboot": "dandelion_c3l2_eea_global_images_V12.5.2.0.RCZEUXM_20220510.0000.00_11.0_eea_8cfdc6bb3e.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V12.5.4.0.RCZRUXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2RUGlobal_V12.5.4.0.RCZRUXM_0f11c2f28f_11.0.zip",
+          "fastboot": "dandelion_c3l2_ru_global_images_V12.5.4.0.RCZRUXM_20221214.0000.00_11.0_global_3c91eb9576.tgz"
+        },
+        {
+          "miui": "V12.5.2.0.RCZRUXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2RUGlobal_V12.5.2.0.RCZRUXM_4b25a23ed7_11.0.zip",
+          "fastboot": "dandelion_c3l2_ru_global_images_V12.5.2.0.RCZRUXM_20220926.0000.00_11.0_global_a2fb22570f.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "inds",
+      "show": "1",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "V12.5.9.0.RCZINXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.9.0.RCZINXM_ff28826216_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V12.5.8.0.RCZINXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.8.0.RCZINXM_f2ed02f730_11.0.zip",
+          "fastboot": "dandelion_c3l2_in_global_images_V12.5.8.0.RCZINXM_20220920.0000.00_11.0_in_0dae082de0.tgz"
+        },
+        {
+          "miui": "V12.5.7.0.RCZINXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.7.0.RCZINXM_e3a26d0f72_11.0.zip",
+          "fastboot": "dandelion_c3l2_in_global_images_V12.5.7.0.RCZINXM_20220620.0000.00_11.0_in_406c64dd2d.tgz"
+        },
+        {
+          "miui": "V12.5.5.0.RCZINXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.5.0.RCZINXM_abe2c9de55_11.0.zip",
+          "fastboot": "dandelion_c3l2_in_global_images_V12.5.5.0.RCZINXM_20220426.0000.00_11.0_in_971e58f3a9.tgz"
+        },
+        {
+          "miui": "V12.5.3.0.RCZINXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2INGlobal_V12.5.3.0.RCZINXM_a876d20a00_11.0.zip",
+          "fastboot": "dandelion_c3l2_in_global_images_V12.5.3.0.RCZINXM_20220328.0000.00_11.0_in_86302159c1.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "inns",
+      "show": "1",
+      "cnname": "印度尼西亚稳定版",
+      "enname": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V12.5.7.0.RCZIDXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.7.0.RCZIDXM_a806d61294_11.0.zip",
+          "fastboot": "dandelion_c3l2_id_global_images_V12.5.7.0.RCZIDXM_20221213.0000.00_11.0_global_406d536217.tgz"
+        },
+        {
+          "miui": "V12.5.6.0.RCZIDXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.6.0.RCZIDXM_a5a689e754_11.0.zip",
+          "fastboot": "dandelion_c3l2_id_global_images_V12.5.6.0.RCZIDXM_20220926.0000.00_11.0_global_0e1d86d86f.tgz"
+        },
+        {
+          "miui": "V12.5.5.0.RCZIDXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.5.0.RCZIDXM_37b5aec32f_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V12.5.2.0.RCZIDXM",
+          "android": "11.0",
+          "recovery": "miui_DANDELIONC3L2IDGlobal_V12.5.2.0.RCZIDXM_520e4658f9_11.0.zip",
+          "fastboot": "dandelion_c3l2_id_global_images_V12.5.2.0.RCZIDXM_20220325.0000.00_11.0_global_ae4cc7bda5.tgz"
+        }
+      ]
+    }
+  ]
 }

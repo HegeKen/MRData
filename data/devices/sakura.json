@@ -16,6 +16,23 @@
       "en": "China Mainland Stable:①Users with same or higher than V9.6.16 cannot roll back to builds older builds than V9.6.16(Both recovery and fastboot are not supported);② Users can flash builds same or higher that V9.6.16, but can't roll back to older builds(Both recovery and fastboot are not supported);③Users can flash builds older than V9.6.16 freely."
     }
   ],
+  "crawler": [
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "Spider",
+      "enname": "Spider",
+      "links": [
+        {
+          "p1": "miui_HM6ProINGlobal_V12.0.4.0.PDMMIXM_ad48898cf1_9.0.zip",
+          "p2": "miui_HM6AGlobal_V11.0.8.0.PCBMIXM_2ced58d25e_9.0.zip",
+          "p3": "miui_HM6ARUGlobal_V11.0.4.0.PCBRUXM_00e71ddc2b_9.0.zip",
+          "p4": "miui_HM6Global_V11.0.4.0.PCGMIXM_68887320d7_9.0.zip",
+          "p5": "miui_HM6RUGlobal_V11.0.5.0.PCGRUXM_9be9598f94_9.0.zip"
+        }
+      ]
+    }
+  ],
   "branches": [
     {
       "branch": "cnmp",

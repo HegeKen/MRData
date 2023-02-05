@@ -1,755 +1,771 @@
 {
-    "codename": "hennessy",
-    "cnname": "红米 Note 3 双网通版",
-    "enname": "Redmi Note 3 (MTK)",
-    "attentions": [
+  "codename": "hennessy",
+  "cnname": "红米 Note 3 双网通版",
+  "enname": "Redmi Note 3 (MTK)",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "crawler": [
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "Spider",
+      "enname": "Spider",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "p1": "miui_HMNote3Pro_V10.2.1.0.MHOCNXM_57ca0aa257_6.0.zip",
+          "p2": "miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip",
+          "p3": "miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip",
+          "p4": "miui_HMNote3_V9.6.1.0.LHNCNFD_c1e5a895a8_5.0.zip"
         }
-    ],
-    "branches": [
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "8.4.26",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.4.26_2b005d8c6d_5.0.zip",
-                    "fastboot": "hennessy_images_8.4.26_20180426.0000.00_5.0_cn_d92c40a921.tgz"
-                },
-                {
-                    "miui": "8.4.19",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.4.19_6d90e36809_5.0.zip",
-                    "fastboot": "hennessy_images_8.4.19_20180419.0000.00_5.0_cn_7d76184658.tgz"
-                },
-                {
-                    "miui": "8.4.12",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.4.12_64079e7863_5.0.zip",
-                    "fastboot": "hennessy_images_8.4.12_20180412.0000.00_5.0_cn_791fdf6caa.tgz"
-                },
-                {
-                    "miui": "8.3.29",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.3.29_bc34b49ed1_5.0.zip",
-                    "fastboot": "hennessy_images_8.3.29_20180329.0000.00_5.0_cn_b9d12c7df5.tgz"
-                },
-                {
-                    "miui": "8.3.22",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.3.22_65b97b43d1_5.0.zip",
-                    "fastboot": "hennessy_images_8.3.22_20180322.0000.00_5.0_cn_5508a4bc75.tgz"
-                },
-                {
-                    "miui": "8.3.15",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.3.15_03dc926e83_5.0.zip",
-                    "fastboot": "hennessy_images_8.3.15_20180315.0000.00_5.0_cn_0f6ba114d2.tgz"
-                },
-                {
-                    "miui": "8.3.8",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.3.8_7ba5c75d57_5.0.zip",
-                    "fastboot": "hennessy_images_8.3.8_20180308.0000.00_5.0_cn_806302a01d.tgz"
-                },
-                {
-                    "miui": "8.3.1",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.3.1_5ad9762132_5.0.zip",
-                    "fastboot": "hennessy_images_8.3.1_20180301.0000.00_5.0_cn_1930ddf749.tgz"
-                },
-                {
-                    "miui": "8.2.1",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.2.1_9b03e44045_5.0.zip",
-                    "fastboot": "hennessy_images_8.2.1_20180201.0000.00_5.0_cn_f47acfd276.tgz"
-                },
-                {
-                    "miui": "8.1.25",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.1.25_109f9d18fb_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.1.18",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.1.18_c9e77f3cd0_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.1.11",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.1.11_66c6e8474a_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.1.4",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_8.1.4_41a5ce487f_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.12.28",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.12.28_64050e9c20_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.12.21",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.12.21_f1ca651421_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.12.14",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.12.14_85eb84c2d5_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.12.8",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.12.8_974154b837_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.11.30",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.11.30_5f1660cef8_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.11.23",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.11.23_d1c814eacd_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.11.16",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.11.16_312f62a498_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.11.9",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.11.9_d83fb2859d_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.11.2",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.11.2_8fb2c46204_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.10.26",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.10.26_49d3f30108_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.10.19",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.10.19_8538114b78_5.0.zip",
-                    "fastboot": "hennessy_images_7.10.19_20171019.0000.00_5.0_cn_f762678944.tgz"
-                },
-                {
-                    "miui": "7.10.12",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.10.12_574465ff35_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.21",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.9.21_030ce3935e_5.0.zip",
-                    "fastboot": "hennessy_images_7.9.21_20170921.0000.00_5.0_cn_37ca21f6fc.tgz"
-                },
-                {
-                    "miui": "7.9.14",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.9.14_67a943e22a_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.7",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.9.7_534bdb0f30_5.0.zip",
-                    "fastboot": "hennessy_images_7.9.7_20170907.0000.00_5.0_cn_671c8f5022.tgz"
-                },
-                {
-                    "miui": "7.5.25",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.5.25_4924745a8b_5.0.zip",
-                    "fastboot": "hennessy_images_7.5.25_20170525.0000.00_5.0_cn_88ab2a834d.tgz"
-                },
-                {
-                    "miui": "7.5.19",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.5.19_c2173786bf_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.11",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.5.11_b0fd5aec8c_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.4",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.5.4_44084cfe71_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.29",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.4.29_f5f7e0349b_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.20",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.4.20_abc84eaa9c_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.13",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.4.13_7f31509d20_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.6",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.4.6_315b49ef64_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.30",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.3.30_b70af5347f_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.16",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.3.16_3dc2e6bb41_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.9",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.3.9_1d73d758fe_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.6",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.3.6_1b096f3710_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.2.24",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.2.24_2aaa5be613_5.0.zip",
-                    "fastboot": "hennessy_images_7.2.24_20170224.0000.00_5.0_cn_362c5cf9ff.tgz"
-                },
-                {
-                    "miui": "7.2.16",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.2.16_d4fa30a9f2_5.0.zip",
-                    "fastboot": "hennessy_images_7.2.16_20170216.0000.00_5.0_cn_056a5557d0.tgz"
-                },
-                {
-                    "miui": "7.2.9",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.2.9_dbfaa7a36c_5.0.zip",
-                    "fastboot": "hennessy_images_7.2.9_20170209.0000.00_5.0_cn_65a320101c.tgz"
-                },
-                {
-                    "miui": "7.1.12",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.1.12_ef4a091f28_5.0.zip",
-                    "fastboot": "hennessy_images_7.1.12_20170111.0000.00_5.0_cn_461c8a4751.tgz"
-                },
-                {
-                    "miui": "7.1.5",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_7.1.5_d4dc4ccac2_5.0.zip",
-                    "fastboot": "hennessy_images_7.1.5_20170105.0000.00_5.0_cn_60ea3e26b2.tgz"
-                },
-                {
-                    "miui": "6.12.29",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.12.29_6c190f3183_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.12.22",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.12.22_c8c17b00f3_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.12.15",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.12.15_429bbf7b6d_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.12.8",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.12.8_5a5d8c7f88_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.12.1",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.12.1_74c028f87c_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.24",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.11.24_650eda30a0_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.17",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.11.17_700f710583_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.10",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.11.10_98bb8e83df_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.3",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.11.3_4a0097a5e3_5.0.zip",
-                    "fastboot": "hennessy_images_6.11.3_20161103.0000.00_5.0_cn_bd1378dfaf.tgz"
-                },
-                {
-                    "miui": "6.10.27",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.10.27_ec55d1a232_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.10.20",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.10.20_e636abd98c_5.0.zip",
-                    "fastboot": "hennessy_images_6.10.20_20160805.0000.29_5.0_cn_e40f310962.tgz"
-                },
-                {
-                    "miui": "6.9.29",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.9.29_1dbf35c044_5.0.zip",
-                    "fastboot": "hennessy_images_6.9.29_20160805.0000.29_5.0_cn_8e8ec0a458.tgz"
-                },
-                {
-                    "miui": "6.9.22",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.9.22_a08f96c751_5.0.zip",
-                    "fastboot": "hennessy_images_6.9.22_20160805.0000.29_5.0_cn_d9a36c0dd5.tgz"
-                },
-                {
-                    "miui": "6.9.15",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.9.15_1d12d2aff9_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.8",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.9.8_1a3c919bad_5.0.zip",
-                    "fastboot": "hennessy_images_6.9.8_20160805.0000.29_5.0_cn_1ac3c11c10.tgz"
-                },
-                {
-                    "miui": "6.9.1",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.9.1_07a91d07d9_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.25",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.8.25_34e5eb637a_5.0.zip",
-                    "fastboot": "hennessy_images_6.8.25_20160805.0000.29_5.0_cn_7f8ffa941e.tgz"
-                },
-                {
-                    "miui": "6.8.18",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.8.18_e2abb9847d_5.0.zip",
-                    "fastboot": "hennessy_images_6.8.18_20160805.0000.29_5.0_cn_3780bd0a6f.tgz"
-                },
-                {
-                    "miui": "6.8.11",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.8.11_8e06fb06d1_5.0.zip",
-                    "fastboot": "hennessy_images_6.8.11_20160805.0000.29_5.0_cn_32bcc71cda.tgz"
-                },
-                {
-                    "miui": "6.8.4",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.8.4_f340f705dd_5.0.zip",
-                    "fastboot": "hennessy_images_6.8.4_20160725.0000.28_5.0_cn_f668774896.tgz"
-                },
-                {
-                    "miui": "6.7.29",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.7.29_e5002f86d7_5.0.zip",
-                    "fastboot": "hennessy_images_6.7.29_20160712.0000.26_5.0_cn_2db5110894.tgz"
-                },
-                {
-                    "miui": "6.7.21",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.7.21_aab93565e0_5.0.zip",
-                    "fastboot": "hennessy_images_6.7.21_20160712.0000.26_5.0_cn_e4f4accdb6.tgz"
-                },
-                {
-                    "miui": "6.7.14",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.7.14_51318505bd_5.0.zip",
-                    "fastboot": "hennessy_images_6.7.14_20160629.0000.25_5.0_cn_e53c7684dc.tgz"
-                },
-                {
-                    "miui": "6.7.7",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.7.7_a176e9c191_5.0.zip",
-                    "fastboot": "hennessy_images_6.7.7_20160629.0000.25_5.0_cn_5928ada06c.tgz"
-                },
-                {
-                    "miui": "6.6.30",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.6.30_cf22369003_5.0.zip",
-                    "fastboot": "hennessy_images_6.6.30_20160523.0000.23_5.0_cn_66bda94fef.tgz"
-                },
-                {
-                    "miui": "6.6.23",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.6.23_58415a26c1_5.0.zip",
-                    "fastboot": "hennessy_images_6.6.23_20160523.0000.23_5.0_cn_8370804790.tgz"
-                },
-                {
-                    "miui": "6.6.17",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.6.17_a1cf65dd3a_5.0.zip",
-                    "fastboot": "hennessy_images_6.6.17_20160523.0000.23_5.0_cn_f1f61b75ae.tgz"
-                },
-                {
-                    "miui": "6.5.26",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.5.26_69a4c38468_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.19",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.5.19_699012df2b_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.12",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.5.12_80c8c417f3_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.5",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.5.5_c7c9720b33_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.28",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.4.28_ea5bff87ef_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.21",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.4.21_0571e529c6_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.14",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.4.14_0bb2d41695_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.7",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.4.7_89e7330002_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.31",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.3.31_a23830de49_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.24",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.3.24_41002e2ea6_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.19",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.3.19_8dc9c799c7_5.0.zip",
-                    "fastboot": "hennessy_images_6.3.19_20160129.0000.14_5.0_cn_c3509c211d.tgz"
-                },
-                {
-                    "miui": "6.3.17",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.3.17_29ddd0da27_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.11",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.3.11_01e7bd6ece_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.3",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.3.3_6d7de335c3_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.2.25",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.2.25_b2f027298e_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.2.18",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.2.18_8ac09dfa7f_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.29",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.1.29_8f322554d8_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.23",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.1.23_64e2416148_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.21",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.1.21_4fcd373be8_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.14",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.1.14_7ef6f0a760_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.11",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.1.11_3e81b527d0_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.7",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_6.1.7_2690e6381d_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.31",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_5.12.31_834c1b25fc_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.24",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_5.12.24_e3bfa83050_5.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "8.4.26",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.4.26_2b005d8c6d_5.0.zip",
+          "fastboot": "hennessy_images_8.4.26_20180426.0000.00_5.0_cn_d92c40a921.tgz"
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V9.6.1.0.LHNCNFD",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V9.6.1.0.LHNCNFD_c1e5a895a8_5.0.zip",
-                    "fastboot": "hennessy_images_V9.6.1.0.LHNCNFD_20180620.0000.00_5.0_cn_bd34f81de6.tgz"
-                },
-                {
-                    "miui": "V9.5.2.0.LHNCNFA",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V9.5.2.0.LHNCNFA_0dcb2a614c_5.0.zip",
-                    "fastboot": "hennessy_images_V9.5.2.0.LHNCNFA_20180405.0000.00_5.0_cn_b6a7bb1a19.tgz"
-                },
-                {
-                    "miui": "V9.5.1.0.LHNCNFA",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V9.5.1.0.LHNCNFA_2329f3532d_5.0.zip",
-                    "fastboot": "hennessy_images_V9.5.1.0.LHNCNFA_20180306.0000.00_5.0_cn_3386e3fb06.tgz"
-                },
-                {
-                    "miui": "V9.2.3.0.LHNCNEK",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V9.2.3.0.LHNCNEK_d74df6d640_5.0.zip",
-                    "fastboot": "hennessy_images_V9.2.3.0.LHNCNEK_20180121.0000.00_5.0_cn_7a4b2ff065.tgz"
-                },
-                {
-                    "miui": "V9.2.2.0.LHNCNEK",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V9.2.2.0.LHNCNEK_4e7cef05ba_5.0.zip",
-                    "fastboot": "hennessy_images_V9.2.2.0.LHNCNEK_20171212.0000.00_5.0_cn_5114b10ff5.tgz"
-                },
-                {
-                    "miui": "V8.5.2.0.LHNCNED",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V8.5.2.0.LHNCNED_29e2402d7c_5.0.zip",
-                    "fastboot": "hennessy_images_V8.5.2.0.LHNCNED_20170706.0000.00_5.0_cn_ffa733b282.tgz"
-                },
-                {
-                    "miui": "V8.2.1.0.LHNCNDL",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V8.2.1.0.LHNCNDL_cbcc7badba_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.1.3.0.LHNCNDI",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V8.1.3.0.LHNCNDI_dde4608901_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.0.2.0.LHNCNDG",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V8.0.2.0.LHNCNDG_fecd00a958_5.0.zip",
-                    "fastboot": "hennessy_images_V8.0.2.0.LHNCNDG_20160805.0000.29_5.0_cn_2e69fb5728.tgz"
-                },
-                {
-                    "miui": "V8.0.1.0.LHNCNDG",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V8.0.1.0.LHNCNDG_bbc7d4e6a1_5.0.zip",
-                    "fastboot": "hennessy_images_V8.0.1.0.LHNCNDG_20160805.0000.29_5.0_cn_8eb0e50556.tgz"
-                },
-                {
-                    "miui": "V7.5.1.0.LHNCNDE",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.5.1.0.LHNCNDE_962be569f6_5.0.zip",
-                    "fastboot": "hennessy_images_V7.5.1.0.LHNCNDE_20160629.0000.25_5.0_cn_f9520b5a10.tgz"
-                },
-                {
-                    "miui": "V7.3.3.0.LHNCNDD",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.3.3.0.LHNCNDD_1b35def95d_5.0.zip",
-                    "fastboot": "hennessy_images_V7.3.3.0.LHNCNDD_20160523.0000.23_5.0_cn_ad6cdd777b.tgz"
-                },
-                {
-                    "miui": "V7.2.5.0.LHNCNDA",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.2.5.0.LHNCNDA_ac160a83ed_5.0.zip",
-                    "fastboot": "hennessy_images_V7.2.5.0.LHNCNDA_20160129.0000.14_5.0_cn_f89770e651.tgz"
-                },
-                {
-                    "miui": "V7.2.3.0.LHNCNDA",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.2.3.0.LHNCNDA_14531c51c2_5.0.zip",
-                    "fastboot": "hennessy_images_V7.2.3.0.LHNCNDA_20160129.0000.14_5.0_cn_d55a2c6992.tgz"
-                },
-                {
-                    "miui": "V7.1.8.0.LHNCNCK",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.1.8.0.LHNCNCK_dd2f072560_5.0.zip",
-                    "fastboot": "hennessy_images_V7.1.8.0.LHNCNCK_20160125.0000.13_5.0_cn_7c8d936cb7.tgz"
-                },
-                {
-                    "miui": "V7.1.7.0.LHNCNCK",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.1.7.0.LHNCNCK_995d4d0749_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.1.6.0.LHNCNCK",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.1.6.0.LHNCNCK_fdbfd526d4_5.0.zip",
-                    "fastboot": "hennessy_images_V7.1.6.0.LHNCNCK_20160107.0000.12_5.0_cn_434e06a8a9.tgz"
-                },
-                {
-                    "miui": "V7.0.7.0.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.7.0.LHNCNCJ_37794a6b31_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.3.0.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.3.0.LHNCNCJ_63e17a028e_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.22.0.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.22.0.LHNCNCJ_dd2a431795_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.19.0.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.19.0.LHNCNCJ_1b1d1631ad_5.0.zip",
-                    "fastboot": "hennessy_images_V7.0.19.0.LHNCNCJ_20151209.0000.6_5.0_cn_124e7a6b1c.tgz"
-                },
-                {
-                    "miui": "V7.0.16.0.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.16.0.LHNCNCJ_5b33f0a630_5.0.zip",
-                    "fastboot": "hennessy_images_V7.0.16.0.LHNCNCJ_20151104.0000.4_5.0_cn_c8b64bdb15.tgz"
-                },
-                {
-                    "miui": "V7.0.11.0.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.11.0.LHNCNCJ_a44aa4fc1a_5.0.zip",
-                    "fastboot": "hennessy_images_V7.0.11.0.LHNCNCJ_20151104.0000.4_5.0_cn_765c9a0811.tgz"
-                },
-                {
-                    "miui": "V7.0.0.3.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.0.3.LHNCNCJ_7b88501ccb_5.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.0.2.LHNCNCJ",
-                    "android": "5.0",
-                    "recovery": "miui_HMNote3_V7.0.0.2.LHNCNCJ_d839124288_5.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "8.4.19",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.4.19_6d90e36809_5.0.zip",
+          "fastboot": "hennessy_images_8.4.19_20180419.0000.00_5.0_cn_7d76184658.tgz"
+        },
+        {
+          "miui": "8.4.12",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.4.12_64079e7863_5.0.zip",
+          "fastboot": "hennessy_images_8.4.12_20180412.0000.00_5.0_cn_791fdf6caa.tgz"
+        },
+        {
+          "miui": "8.3.29",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.3.29_bc34b49ed1_5.0.zip",
+          "fastboot": "hennessy_images_8.3.29_20180329.0000.00_5.0_cn_b9d12c7df5.tgz"
+        },
+        {
+          "miui": "8.3.22",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.3.22_65b97b43d1_5.0.zip",
+          "fastboot": "hennessy_images_8.3.22_20180322.0000.00_5.0_cn_5508a4bc75.tgz"
+        },
+        {
+          "miui": "8.3.15",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.3.15_03dc926e83_5.0.zip",
+          "fastboot": "hennessy_images_8.3.15_20180315.0000.00_5.0_cn_0f6ba114d2.tgz"
+        },
+        {
+          "miui": "8.3.8",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.3.8_7ba5c75d57_5.0.zip",
+          "fastboot": "hennessy_images_8.3.8_20180308.0000.00_5.0_cn_806302a01d.tgz"
+        },
+        {
+          "miui": "8.3.1",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.3.1_5ad9762132_5.0.zip",
+          "fastboot": "hennessy_images_8.3.1_20180301.0000.00_5.0_cn_1930ddf749.tgz"
+        },
+        {
+          "miui": "8.2.1",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.2.1_9b03e44045_5.0.zip",
+          "fastboot": "hennessy_images_8.2.1_20180201.0000.00_5.0_cn_f47acfd276.tgz"
+        },
+        {
+          "miui": "8.1.25",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.1.25_109f9d18fb_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.1.18",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.1.18_c9e77f3cd0_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.1.11",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.1.11_66c6e8474a_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.1.4",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_8.1.4_41a5ce487f_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.12.28",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.12.28_64050e9c20_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.12.21",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.12.21_f1ca651421_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.12.14",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.12.14_85eb84c2d5_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.12.8",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.12.8_974154b837_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.11.30",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.11.30_5f1660cef8_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.11.23",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.11.23_d1c814eacd_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.11.16",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.11.16_312f62a498_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.11.9",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.11.9_d83fb2859d_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.11.2",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.11.2_8fb2c46204_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.10.26",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.10.26_49d3f30108_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.10.19",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.10.19_8538114b78_5.0.zip",
+          "fastboot": "hennessy_images_7.10.19_20171019.0000.00_5.0_cn_f762678944.tgz"
+        },
+        {
+          "miui": "7.10.12",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.10.12_574465ff35_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.21",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.9.21_030ce3935e_5.0.zip",
+          "fastboot": "hennessy_images_7.9.21_20170921.0000.00_5.0_cn_37ca21f6fc.tgz"
+        },
+        {
+          "miui": "7.9.14",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.9.14_67a943e22a_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.7",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.9.7_534bdb0f30_5.0.zip",
+          "fastboot": "hennessy_images_7.9.7_20170907.0000.00_5.0_cn_671c8f5022.tgz"
+        },
+        {
+          "miui": "7.5.25",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.5.25_4924745a8b_5.0.zip",
+          "fastboot": "hennessy_images_7.5.25_20170525.0000.00_5.0_cn_88ab2a834d.tgz"
+        },
+        {
+          "miui": "7.5.19",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.5.19_c2173786bf_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.11",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.5.11_b0fd5aec8c_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.4",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.5.4_44084cfe71_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.29",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.4.29_f5f7e0349b_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.20",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.4.20_abc84eaa9c_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.13",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.4.13_7f31509d20_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.6",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.4.6_315b49ef64_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.30",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.3.30_b70af5347f_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.16",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.3.16_3dc2e6bb41_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.9",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.3.9_1d73d758fe_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.6",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.3.6_1b096f3710_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.2.24",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.2.24_2aaa5be613_5.0.zip",
+          "fastboot": "hennessy_images_7.2.24_20170224.0000.00_5.0_cn_362c5cf9ff.tgz"
+        },
+        {
+          "miui": "7.2.16",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.2.16_d4fa30a9f2_5.0.zip",
+          "fastboot": "hennessy_images_7.2.16_20170216.0000.00_5.0_cn_056a5557d0.tgz"
+        },
+        {
+          "miui": "7.2.9",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.2.9_dbfaa7a36c_5.0.zip",
+          "fastboot": "hennessy_images_7.2.9_20170209.0000.00_5.0_cn_65a320101c.tgz"
+        },
+        {
+          "miui": "7.1.12",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.1.12_ef4a091f28_5.0.zip",
+          "fastboot": "hennessy_images_7.1.12_20170111.0000.00_5.0_cn_461c8a4751.tgz"
+        },
+        {
+          "miui": "7.1.5",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_7.1.5_d4dc4ccac2_5.0.zip",
+          "fastboot": "hennessy_images_7.1.5_20170105.0000.00_5.0_cn_60ea3e26b2.tgz"
+        },
+        {
+          "miui": "6.12.29",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.12.29_6c190f3183_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.12.22",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.12.22_c8c17b00f3_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.12.15",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.12.15_429bbf7b6d_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.12.8",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.12.8_5a5d8c7f88_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.12.1",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.12.1_74c028f87c_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.24",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.11.24_650eda30a0_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.17",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.11.17_700f710583_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.10",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.11.10_98bb8e83df_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.3",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.11.3_4a0097a5e3_5.0.zip",
+          "fastboot": "hennessy_images_6.11.3_20161103.0000.00_5.0_cn_bd1378dfaf.tgz"
+        },
+        {
+          "miui": "6.10.27",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.10.27_ec55d1a232_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.10.20",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.10.20_e636abd98c_5.0.zip",
+          "fastboot": "hennessy_images_6.10.20_20160805.0000.29_5.0_cn_e40f310962.tgz"
+        },
+        {
+          "miui": "6.9.29",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.9.29_1dbf35c044_5.0.zip",
+          "fastboot": "hennessy_images_6.9.29_20160805.0000.29_5.0_cn_8e8ec0a458.tgz"
+        },
+        {
+          "miui": "6.9.22",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.9.22_a08f96c751_5.0.zip",
+          "fastboot": "hennessy_images_6.9.22_20160805.0000.29_5.0_cn_d9a36c0dd5.tgz"
+        },
+        {
+          "miui": "6.9.15",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.9.15_1d12d2aff9_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.8",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.9.8_1a3c919bad_5.0.zip",
+          "fastboot": "hennessy_images_6.9.8_20160805.0000.29_5.0_cn_1ac3c11c10.tgz"
+        },
+        {
+          "miui": "6.9.1",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.9.1_07a91d07d9_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.25",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.8.25_34e5eb637a_5.0.zip",
+          "fastboot": "hennessy_images_6.8.25_20160805.0000.29_5.0_cn_7f8ffa941e.tgz"
+        },
+        {
+          "miui": "6.8.18",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.8.18_e2abb9847d_5.0.zip",
+          "fastboot": "hennessy_images_6.8.18_20160805.0000.29_5.0_cn_3780bd0a6f.tgz"
+        },
+        {
+          "miui": "6.8.11",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.8.11_8e06fb06d1_5.0.zip",
+          "fastboot": "hennessy_images_6.8.11_20160805.0000.29_5.0_cn_32bcc71cda.tgz"
+        },
+        {
+          "miui": "6.8.4",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.8.4_f340f705dd_5.0.zip",
+          "fastboot": "hennessy_images_6.8.4_20160725.0000.28_5.0_cn_f668774896.tgz"
+        },
+        {
+          "miui": "6.7.29",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.7.29_e5002f86d7_5.0.zip",
+          "fastboot": "hennessy_images_6.7.29_20160712.0000.26_5.0_cn_2db5110894.tgz"
+        },
+        {
+          "miui": "6.7.21",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.7.21_aab93565e0_5.0.zip",
+          "fastboot": "hennessy_images_6.7.21_20160712.0000.26_5.0_cn_e4f4accdb6.tgz"
+        },
+        {
+          "miui": "6.7.14",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.7.14_51318505bd_5.0.zip",
+          "fastboot": "hennessy_images_6.7.14_20160629.0000.25_5.0_cn_e53c7684dc.tgz"
+        },
+        {
+          "miui": "6.7.7",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.7.7_a176e9c191_5.0.zip",
+          "fastboot": "hennessy_images_6.7.7_20160629.0000.25_5.0_cn_5928ada06c.tgz"
+        },
+        {
+          "miui": "6.6.30",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.6.30_cf22369003_5.0.zip",
+          "fastboot": "hennessy_images_6.6.30_20160523.0000.23_5.0_cn_66bda94fef.tgz"
+        },
+        {
+          "miui": "6.6.23",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.6.23_58415a26c1_5.0.zip",
+          "fastboot": "hennessy_images_6.6.23_20160523.0000.23_5.0_cn_8370804790.tgz"
+        },
+        {
+          "miui": "6.6.17",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.6.17_a1cf65dd3a_5.0.zip",
+          "fastboot": "hennessy_images_6.6.17_20160523.0000.23_5.0_cn_f1f61b75ae.tgz"
+        },
+        {
+          "miui": "6.5.26",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.5.26_69a4c38468_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.19",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.5.19_699012df2b_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.12",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.5.12_80c8c417f3_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.5",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.5.5_c7c9720b33_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.28",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.4.28_ea5bff87ef_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.21",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.4.21_0571e529c6_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.14",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.4.14_0bb2d41695_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.7",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.4.7_89e7330002_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.31",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.3.31_a23830de49_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.24",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.3.24_41002e2ea6_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.19",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.3.19_8dc9c799c7_5.0.zip",
+          "fastboot": "hennessy_images_6.3.19_20160129.0000.14_5.0_cn_c3509c211d.tgz"
+        },
+        {
+          "miui": "6.3.17",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.3.17_29ddd0da27_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.11",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.3.11_01e7bd6ece_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.3",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.3.3_6d7de335c3_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.2.25",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.2.25_b2f027298e_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.2.18",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.2.18_8ac09dfa7f_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.29",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.1.29_8f322554d8_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.23",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.1.23_64e2416148_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.21",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.1.21_4fcd373be8_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.14",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.1.14_7ef6f0a760_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.11",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.1.11_3e81b527d0_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.7",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_6.1.7_2690e6381d_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.31",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_5.12.31_834c1b25fc_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.24",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_5.12.24_e3bfa83050_5.0.zip",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V9.6.1.0.LHNCNFD",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V9.6.1.0.LHNCNFD_c1e5a895a8_5.0.zip",
+          "fastboot": "hennessy_images_V9.6.1.0.LHNCNFD_20180620.0000.00_5.0_cn_bd34f81de6.tgz"
+        },
+        {
+          "miui": "V9.5.2.0.LHNCNFA",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V9.5.2.0.LHNCNFA_0dcb2a614c_5.0.zip",
+          "fastboot": "hennessy_images_V9.5.2.0.LHNCNFA_20180405.0000.00_5.0_cn_b6a7bb1a19.tgz"
+        },
+        {
+          "miui": "V9.5.1.0.LHNCNFA",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V9.5.1.0.LHNCNFA_2329f3532d_5.0.zip",
+          "fastboot": "hennessy_images_V9.5.1.0.LHNCNFA_20180306.0000.00_5.0_cn_3386e3fb06.tgz"
+        },
+        {
+          "miui": "V9.2.3.0.LHNCNEK",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V9.2.3.0.LHNCNEK_d74df6d640_5.0.zip",
+          "fastboot": "hennessy_images_V9.2.3.0.LHNCNEK_20180121.0000.00_5.0_cn_7a4b2ff065.tgz"
+        },
+        {
+          "miui": "V9.2.2.0.LHNCNEK",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V9.2.2.0.LHNCNEK_4e7cef05ba_5.0.zip",
+          "fastboot": "hennessy_images_V9.2.2.0.LHNCNEK_20171212.0000.00_5.0_cn_5114b10ff5.tgz"
+        },
+        {
+          "miui": "V8.5.2.0.LHNCNED",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V8.5.2.0.LHNCNED_29e2402d7c_5.0.zip",
+          "fastboot": "hennessy_images_V8.5.2.0.LHNCNED_20170706.0000.00_5.0_cn_ffa733b282.tgz"
+        },
+        {
+          "miui": "V8.2.1.0.LHNCNDL",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V8.2.1.0.LHNCNDL_cbcc7badba_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.1.3.0.LHNCNDI",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V8.1.3.0.LHNCNDI_dde4608901_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.0.2.0.LHNCNDG",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V8.0.2.0.LHNCNDG_fecd00a958_5.0.zip",
+          "fastboot": "hennessy_images_V8.0.2.0.LHNCNDG_20160805.0000.29_5.0_cn_2e69fb5728.tgz"
+        },
+        {
+          "miui": "V8.0.1.0.LHNCNDG",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V8.0.1.0.LHNCNDG_bbc7d4e6a1_5.0.zip",
+          "fastboot": "hennessy_images_V8.0.1.0.LHNCNDG_20160805.0000.29_5.0_cn_8eb0e50556.tgz"
+        },
+        {
+          "miui": "V7.5.1.0.LHNCNDE",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.5.1.0.LHNCNDE_962be569f6_5.0.zip",
+          "fastboot": "hennessy_images_V7.5.1.0.LHNCNDE_20160629.0000.25_5.0_cn_f9520b5a10.tgz"
+        },
+        {
+          "miui": "V7.3.3.0.LHNCNDD",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.3.3.0.LHNCNDD_1b35def95d_5.0.zip",
+          "fastboot": "hennessy_images_V7.3.3.0.LHNCNDD_20160523.0000.23_5.0_cn_ad6cdd777b.tgz"
+        },
+        {
+          "miui": "V7.2.5.0.LHNCNDA",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.2.5.0.LHNCNDA_ac160a83ed_5.0.zip",
+          "fastboot": "hennessy_images_V7.2.5.0.LHNCNDA_20160129.0000.14_5.0_cn_f89770e651.tgz"
+        },
+        {
+          "miui": "V7.2.3.0.LHNCNDA",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.2.3.0.LHNCNDA_14531c51c2_5.0.zip",
+          "fastboot": "hennessy_images_V7.2.3.0.LHNCNDA_20160129.0000.14_5.0_cn_d55a2c6992.tgz"
+        },
+        {
+          "miui": "V7.1.8.0.LHNCNCK",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.1.8.0.LHNCNCK_dd2f072560_5.0.zip",
+          "fastboot": "hennessy_images_V7.1.8.0.LHNCNCK_20160125.0000.13_5.0_cn_7c8d936cb7.tgz"
+        },
+        {
+          "miui": "V7.1.7.0.LHNCNCK",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.1.7.0.LHNCNCK_995d4d0749_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.1.6.0.LHNCNCK",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.1.6.0.LHNCNCK_fdbfd526d4_5.0.zip",
+          "fastboot": "hennessy_images_V7.1.6.0.LHNCNCK_20160107.0000.12_5.0_cn_434e06a8a9.tgz"
+        },
+        {
+          "miui": "V7.0.7.0.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.7.0.LHNCNCJ_37794a6b31_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.3.0.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.3.0.LHNCNCJ_63e17a028e_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.22.0.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.22.0.LHNCNCJ_dd2a431795_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.19.0.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.19.0.LHNCNCJ_1b1d1631ad_5.0.zip",
+          "fastboot": "hennessy_images_V7.0.19.0.LHNCNCJ_20151209.0000.6_5.0_cn_124e7a6b1c.tgz"
+        },
+        {
+          "miui": "V7.0.16.0.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.16.0.LHNCNCJ_5b33f0a630_5.0.zip",
+          "fastboot": "hennessy_images_V7.0.16.0.LHNCNCJ_20151104.0000.4_5.0_cn_c8b64bdb15.tgz"
+        },
+        {
+          "miui": "V7.0.11.0.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.11.0.LHNCNCJ_a44aa4fc1a_5.0.zip",
+          "fastboot": "hennessy_images_V7.0.11.0.LHNCNCJ_20151104.0000.4_5.0_cn_765c9a0811.tgz"
+        },
+        {
+          "miui": "V7.0.0.3.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.0.3.LHNCNCJ_7b88501ccb_5.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.0.2.LHNCNCJ",
+          "android": "5.0",
+          "recovery": "miui_HMNote3_V7.0.0.2.LHNCNCJ_d839124288_5.0.zip",
+          "fastboot": ""
+        }
+      ]
+    }
+  ]
 }

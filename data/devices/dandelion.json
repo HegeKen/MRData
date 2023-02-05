@@ -8,6 +8,41 @@
       "en": ""
     }
   ],
+  "crawler": [
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "Spider",
+      "enname": "Spider",
+      "links": [
+        {
+          "p1": "miui_CATTAILINGlobal_V12.0.18.0.QCTINXM_9eefea9735_10.0.zip",
+          "p8": "miui_ANGELICAEEAGlobal_V12.0.14.0.QCREUXM_801922339f_10.0.zip",
+          "p9": "miui_ANGELICAGlobal_V12.5.4.0.RCRMIXM_e206a639c8_11.0.zip",
+          "p10": "miui_ANGELICAIDGlobal_V12.0.14.0.QCRIDXM_1773924100_10.0.zip",
+          "p11": "miui_ANGELICANEEAGlobal_V12.0.14.0.QCSEUXM_b8dd81fed5_10.0.zip",
+          "p12": "miui_ANGELICANGlobal_V12.0.16.0.QCSMIXM_aa62ece321_10.0.zip",
+          "p13": "miui_ANGELICANRUGlobal_V12.5.3.0.RCSRUXM_57e0de1031_11.0.zip",
+          "p14": "miui_ANGELICATRGlobal_V12.0.15.0.QCRTRXM_14ddc7a102_10.0.zip",
+          "p15": "miui_LIMEEEAGlobal_V13.0.1.0.SJQEUXM_789f44b99a_12.0.zip",
+          "p16": "miui_LIMERUGlobal_V13.0.1.0.SJQRUXM_065a3e92bc_12.0.zip",
+          "p17": "miui_LIMETRGlobal_V13.0.1.0.SJQTRXM_dbabd85b6d_12.0.zip",
+          "p18": "miui_LIMETWGlobal_V13.0.1.0.SJQTWXM_17db1a7c9d_12.0.zip",
+          "p19": "miui_LANCELOTEEAGlobal_V13.0.3.0.SJCEUXM_f7755ce0ba_12.0.zip",
+          "p20": "miui_LANCELOTGlobal_V13.0.4.0.SJCMIXM_cf8fa9fcdb_12.0.zip",
+          "p21": "miui_LANCELOTIDGlobal_V13.0.1.0.SJCIDXM_8beab516dd_12.0.zip",
+          "p22": "miui_LANCELOTINGlobal_V13.0.3.0.SJCINXM_c4711ab008_12.0.zip",
+          "p23": "miui_LANCELOTRUGlobal_V12.5.5.0.RJCRUXM_7cc10daa65_11.0.zip",
+          "p24": "miui_LANCELOTTRGlobal_V12.5.6.0.RJCTRXM_3256284410_11.0.zip",
+          "p25": "miui_DANDELIONC3L2EEAGlobal_V12.5.7.0.RCZEUXM_493221ea6e_11.0.zip",
+          "p26": "miui_DANDELIONC3L2Global_V12.5.9.0.RCZMIXM_2cd5f3621e_11.0.zip",
+          "p27": "miui_DANDELIONC3L2TWGlobal_V12.5.3.0.RCZTWXM_32271569b1_11.0.zip",
+          "p28":"miui_DANDELIONC3L2_V12.5.12.0.RCZCNXM_f38631646e_11.0.zip",
+          "p29":"dandelion_c3l2_images_V12.5.12.0.RCZCNXM_20221216.0000.00_11.0_cn_chinatelecom_0efea92b90.tgz"
+        }
+      ]
+    }
+  ],
   "branches": [
     {
       "branch": "cnmo",
@@ -826,7 +861,7 @@
         {
           "miui": "V12.0.7.0.QCDLMCR",
           "android": "10.0",
-          "recovery": "",
+          "recovery": "miui_DANDELIONLMCRGlobal_V12.0.7.0.QCDLMCR_530f229d67_10.0.zip",
           "fastboot": "dandelion_lm_cr_global_images_V12.0.7.0.QCDLMCR_20210603.0000.00_10.0_global_53dcbb3b14.tgz"
         }
       ]

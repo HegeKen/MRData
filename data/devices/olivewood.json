@@ -1,161 +1,183 @@
 {
-    "codename": "olivewood",
-    "cnname": "Redmi 8A Pro/Dual",
-    "enname": "Redmi 8A Pro/Dual",
-    "attentions": [
+  "codename": "olivewood",
+  "cnname": "Redmi 8A Pro/Dual",
+  "enname": "Redmi 8A Pro/Dual",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "crawler": [
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "Spider",
+      "enname": "Spider",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "p1": "miui_OLIVELITEEEAGlobal_V12.5.3.0.QCPEUXM_ae6927c3ae_10.0.zip",
+          "p2": "miui_OLIVELITEGlobal_V12.5.2.0.QCPMIXM_1c495cd112_10.0.zip",
+          "p3": "miui_OLIVELITEIDGlobal_V12.5.3.0.QCPIDXM_616e6858e9_10.0.zip",
+          "p4": "miui_OLIVELITEINGlobal_V12.5.2.0.QCPINXM_d2322fb180_10.0.zip",
+          "p6": "miui_OLIVELITERUGlobal_V12.5.2.0.QCPRUXM_bdc333e626_10.0.zip",
+          "p7": "miui_OLIVEEEAGlobal_V12.5.2.0.QCNEUXM_1ce5a4685b_10.0.zip",
+          "p8": "miui_OLIVEGlobal_V12.5.3.0.QCNMIXM_f5509dd40b_10.0.zip",
+          "p9": "miui_OLIVEIDGlobal_V12.5.3.0.QCNIDXM_d74ad80e66_10.0.zip",
+          "p10": "miui_OLIVEINGlobal_V12.5.2.0.QCNINXM_5307c76f6c_10.0.zip",
+          "p11": "miui_OLIVERUGlobal_V12.5.3.0.QCNRUXM_89c5bcc38e_10.0.zip"
         }
-    ],
-    "branches": [
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "branch": "inds",
+      "show": "1",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
         {
-            "branch": "inds",
-            "show": "1",
-            "cnname": "印度稳定版",
-            "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "V12.5.6.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V12.5.6.0.QCQINXM_5fbcf8de00_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V12.5.6.0.QCQINXM_20211228.0000.00_10.0_in_b895f6bfc1.tgz"
-                },
-                {
-                    "miui": "V12.5.5.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V12.5.5.0.QCQINXM_9659a2ffc1_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V12.5.5.0.QCQINXM_20211110.0000.00_10.0_in_e88c491f92.tgz"
-                },
-                {
-                    "miui": "V12.5.1.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V12.5.1.0.QCQINXM_8d728a9be4_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V12.5.1.0.QCQINXM_20210723.0000.00_10.0_in_d366e7732f.tgz"
-                },
-                {
-                    "miui": "V12.0.4.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V12.0.4.0.QCQINXM_69ffd9244f_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V12.0.4.0.QCQINXM_20210524.0000.00_10.0_in_4007115886.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V12.0.3.0.QCQINXM_090eb35491_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V12.0.3.0.QCQINXM_20210411.0000.00_10.0_in_cd953697d4.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V12.0.1.0.QCQINXM_c58dac7f81_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V12.0.1.0.QCQINXM_20210126.0000.00_10.0_in_19393bb949.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V11.0.3.0.QCQINXM_ae2ec6a050_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V11.0.3.0.QCQINXM_20201124.0000.00_10.0_in_77eb123a5d.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QCQINXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V11.0.1.0.QCQINXM_4dbc00b40a_10.0.zip",
-                    "fastboot": "olivewood_in_global_images_V11.0.1.0.QCQINXM_20200826.0000.00_10.0_in_bb2716c97e.tgz"
-                },
-                {
-                    "miui": "V11.0.8.0.PCQINXM",
-                    "android": "9.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V11.0.8.0.PCQINXM_e279ce1ff8_9.0.zip",
-                    "fastboot": "olivewood_in_global_images_V11.0.8.0.PCQINXM_20200703.0000.00_9.0_in_e4af55c72d.tgz"
-                },
-                {
-                    "miui": "V11.0.7.0.PCQINXM",
-                    "android": "9.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V11.0.7.0.PCQINXM_facc7a4121_9.0.zip",
-                    "fastboot": "olivewood_in_global_images_V11.0.7.0.PCQINXM_20200515.0000.00_9.0_in_677d49828d.tgz"
-                },
-                {
-                    "miui": "V11.0.6.0.PCQINXM",
-                    "android": "9.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V11.0.6.0.PCQINXM_5c063425f3_9.0.zip",
-                    "fastboot": "olivewood_in_global_images_V11.0.6.0.PCQINXM_20200330.0000.00_9.0_in_ca256195b2.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.PCQINXM",
-                    "android": "9.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V11.0.5.0.PCQINXM_75fa1626b1_9.0.zip",
-                    "fastboot": "olivewood_in_global_images_V11.0.5.0.PCQINXM_20200226.0000.00_9.0_in_748e1f2de9.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.PCQINXM",
-                    "android": "9.0",
-                    "recovery": "miui_OLIVEWOODINGlobal_V11.0.4.0.PCQINXM_c777008b85_9.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "V12.5.6.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V12.5.6.0.QCQINXM_5fbcf8de00_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V12.5.6.0.QCQINXM_20211228.0000.00_10.0_in_b895f6bfc1.tgz"
         },
         {
-            "branch": "inns",
-            "show": "1",
-            "cnname": "印度尼西亚稳定版",
-            "enname": "Indonesia Stable",
-            "links": [
-                {
-                    "miui": "V12.5.4.0.QCQIDXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V12.5.4.0.QCQIDXM_db06e642cb_10.0.zip",
-                    "fastboot": "olivewood_id_global_images_V12.5.4.0.QCQIDXM_20220830.0000.00_10.0_global_fc8723cbcb.tgz"
-                },
-                {
-                    "miui": "V12.5.2.0.QCQIDXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V12.5.2.0.QCQIDXM_7e443e7dc3_10.0.zip",
-                    "fastboot": "olivewood_id_global_images_V12.5.2.0.QCQIDXM_20220516.0000.00_10.0_global_3000b1e4ce.tgz"
-                },
-                {
-                    "miui": "V12.5.1.0.QCQIDXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V12.5.1.0.QCQIDXM_15ca771127_10.0.zip",
-                    "fastboot": "olivewood_id_global_images_V12.5.1.0.QCQIDXM_20211226.0000.00_10.0_global_7b334dc776.tgz"
-                },
-                {
-                    "miui": "V12.0.5.0.QCQIDXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V12.0.5.0.QCQIDXM_573754a900_10.0.zip",
-                    "fastboot": "olivewood_id_global_images_V12.0.5.0.QCQIDXM_20210611.0000.00_10.0_global_0b20f6c177.tgz"
-                },
-                {
-                    "miui": "V12.0.4.0.QCQIDXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V12.0.4.0.QCQIDXM_d9f40f06e2_10.0.zip",
-                    "fastboot": "olivewood_id_global_images_V12.0.4.0.QCQIDXM_20210412.0000.00_10.0_global_c86a4445ab.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QCQIDXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V12.0.1.0.QCQIDXM_aaf0df16d5_10.0.zip",
-                    "fastboot": "olivewood_id_global_images_V12.0.1.0.QCQIDXM_20210127.0000.00_10.0_global_7a72b93bdd.tgz"
-                },
-                {
-                    "miui": "V11.0.1.0.QCQIDXM",
-                    "android": "10.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V11.0.1.0.QCQIDXM_9b31f9736f_10.0.zip",
-                    "fastboot": "olivewood_id_global_images_V11.0.1.0.QCQIDXM_20200901.0000.00_10.0_global_30dbfc17a5.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.PCQIDXM",
-                    "android": "9.0",
-                    "recovery": "miui_OLIVEWOODIDGlobal_V11.0.4.0.PCQIDXM_45b4527e41_9.0.zip",
-                    "fastboot": "olivewood_id_global_images_V11.0.4.0.PCQIDXM_20200611.0000.00_9.0_global_fe2832ecd6.tgz"
-                },
-                {
-                    "miui": "V11.0.3.0.PCQIDXM",
-                    "android": "9.0",
-                    "recovery": "",
-                    "fastboot": "olivewood_id_global_images_V11.0.3.0.PCQIDXM_20200402.0000.00_9.0_global_de282d485a.tgz"
-                }
-            ]
+          "miui": "V12.5.5.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V12.5.5.0.QCQINXM_9659a2ffc1_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V12.5.5.0.QCQINXM_20211110.0000.00_10.0_in_e88c491f92.tgz"
+        },
+        {
+          "miui": "V12.5.1.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V12.5.1.0.QCQINXM_8d728a9be4_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V12.5.1.0.QCQINXM_20210723.0000.00_10.0_in_d366e7732f.tgz"
+        },
+        {
+          "miui": "V12.0.4.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V12.0.4.0.QCQINXM_69ffd9244f_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V12.0.4.0.QCQINXM_20210524.0000.00_10.0_in_4007115886.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V12.0.3.0.QCQINXM_090eb35491_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V12.0.3.0.QCQINXM_20210411.0000.00_10.0_in_cd953697d4.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V12.0.1.0.QCQINXM_c58dac7f81_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V12.0.1.0.QCQINXM_20210126.0000.00_10.0_in_19393bb949.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V11.0.3.0.QCQINXM_ae2ec6a050_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V11.0.3.0.QCQINXM_20201124.0000.00_10.0_in_77eb123a5d.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QCQINXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V11.0.1.0.QCQINXM_4dbc00b40a_10.0.zip",
+          "fastboot": "olivewood_in_global_images_V11.0.1.0.QCQINXM_20200826.0000.00_10.0_in_bb2716c97e.tgz"
+        },
+        {
+          "miui": "V11.0.8.0.PCQINXM",
+          "android": "9.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V11.0.8.0.PCQINXM_e279ce1ff8_9.0.zip",
+          "fastboot": "olivewood_in_global_images_V11.0.8.0.PCQINXM_20200703.0000.00_9.0_in_e4af55c72d.tgz"
+        },
+        {
+          "miui": "V11.0.7.0.PCQINXM",
+          "android": "9.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V11.0.7.0.PCQINXM_facc7a4121_9.0.zip",
+          "fastboot": "olivewood_in_global_images_V11.0.7.0.PCQINXM_20200515.0000.00_9.0_in_677d49828d.tgz"
+        },
+        {
+          "miui": "V11.0.6.0.PCQINXM",
+          "android": "9.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V11.0.6.0.PCQINXM_5c063425f3_9.0.zip",
+          "fastboot": "olivewood_in_global_images_V11.0.6.0.PCQINXM_20200330.0000.00_9.0_in_ca256195b2.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.PCQINXM",
+          "android": "9.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V11.0.5.0.PCQINXM_75fa1626b1_9.0.zip",
+          "fastboot": "olivewood_in_global_images_V11.0.5.0.PCQINXM_20200226.0000.00_9.0_in_748e1f2de9.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.PCQINXM",
+          "android": "9.0",
+          "recovery": "miui_OLIVEWOODINGlobal_V11.0.4.0.PCQINXM_c777008b85_9.0.zip",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "inns",
+      "show": "1",
+      "cnname": "印度尼西亚稳定版",
+      "enname": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V12.5.4.0.QCQIDXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V12.5.4.0.QCQIDXM_db06e642cb_10.0.zip",
+          "fastboot": "olivewood_id_global_images_V12.5.4.0.QCQIDXM_20220830.0000.00_10.0_global_fc8723cbcb.tgz"
+        },
+        {
+          "miui": "V12.5.2.0.QCQIDXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V12.5.2.0.QCQIDXM_7e443e7dc3_10.0.zip",
+          "fastboot": "olivewood_id_global_images_V12.5.2.0.QCQIDXM_20220516.0000.00_10.0_global_3000b1e4ce.tgz"
+        },
+        {
+          "miui": "V12.5.1.0.QCQIDXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V12.5.1.0.QCQIDXM_15ca771127_10.0.zip",
+          "fastboot": "olivewood_id_global_images_V12.5.1.0.QCQIDXM_20211226.0000.00_10.0_global_7b334dc776.tgz"
+        },
+        {
+          "miui": "V12.0.5.0.QCQIDXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V12.0.5.0.QCQIDXM_573754a900_10.0.zip",
+          "fastboot": "olivewood_id_global_images_V12.0.5.0.QCQIDXM_20210611.0000.00_10.0_global_0b20f6c177.tgz"
+        },
+        {
+          "miui": "V12.0.4.0.QCQIDXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V12.0.4.0.QCQIDXM_d9f40f06e2_10.0.zip",
+          "fastboot": "olivewood_id_global_images_V12.0.4.0.QCQIDXM_20210412.0000.00_10.0_global_c86a4445ab.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QCQIDXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V12.0.1.0.QCQIDXM_aaf0df16d5_10.0.zip",
+          "fastboot": "olivewood_id_global_images_V12.0.1.0.QCQIDXM_20210127.0000.00_10.0_global_7a72b93bdd.tgz"
+        },
+        {
+          "miui": "V11.0.1.0.QCQIDXM",
+          "android": "10.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V11.0.1.0.QCQIDXM_9b31f9736f_10.0.zip",
+          "fastboot": "olivewood_id_global_images_V11.0.1.0.QCQIDXM_20200901.0000.00_10.0_global_30dbfc17a5.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.PCQIDXM",
+          "android": "9.0",
+          "recovery": "miui_OLIVEWOODIDGlobal_V11.0.4.0.PCQIDXM_45b4527e41_9.0.zip",
+          "fastboot": "olivewood_id_global_images_V11.0.4.0.PCQIDXM_20200611.0000.00_9.0_global_fe2832ecd6.tgz"
+        },
+        {
+          "miui": "V11.0.3.0.PCQIDXM",
+          "android": "9.0",
+          "recovery": "",
+          "fastboot": "olivewood_id_global_images_V11.0.3.0.PCQIDXM_20200402.0000.00_9.0_global_de282d485a.tgz"
+        }
+      ]
+    }
+  ]
 }

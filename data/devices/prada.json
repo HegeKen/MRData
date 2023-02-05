@@ -1,627 +1,641 @@
 {
-    "codename": "prada",
-    "cnname": "红米 4 标准版",
-    "enname": "Redmi 4",
-    "attentions": [
+  "codename": "prada",
+  "cnname": "红米 4 标准版",
+  "enname": "Redmi 4",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "crawler": [
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "Spider",
+      "enname": "Spider",
+      "links": [
         {
-            "cn": "",
-            "en": ""
+          "p1": "miui_HM4XGlobal_V11.0.2.0.NAMMIXM_eae1390b46_7.1.zip",
+          "p2": "miui_HM4Global_V10.2.2.0.MCEMIXM_0a6d0684b5_6.0.zip"
         }
-    ],
-    "branches": [
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "9.3.28",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.3.28_9952a83160_6.0.zip",
-                    "fastboot": "prada_images_9.3.28_20190328.0000.00_6.0_cn_6d1348dc59.tgz"
-                },
-                {
-                    "miui": "9.3.21",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.3.21_78bac3539d_6.0.zip",
-                    "fastboot": "prada_images_9.3.21_20190321.0000.00_6.0_cn_a86b702ba2.tgz"
-                },
-                {
-                    "miui": "9.3.14",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.3.14_3efe6a988a_6.0.zip",
-                    "fastboot": "prada_images_9.3.14_20190314.0000.00_6.0_cn_f86e66d07a.tgz"
-                },
-                {
-                    "miui": "9.3.7",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.3.7_1bd3db973d_6.0.zip",
-                    "fastboot": "prada_images_9.3.7_20190307.0000.00_6.0_cn_86d41a9b0f.tgz"
-                },
-                {
-                    "miui": "9.2.28",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.2.28_9549871134_6.0.zip",
-                    "fastboot": "prada_images_9.2.28_20190228.0000.00_6.0_cn_ed061d3df3.tgz"
-                },
-                {
-                    "miui": "9.2.21",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.2.21_1c4c42f256_6.0.zip",
-                    "fastboot": "prada_images_9.2.21_20190221.0000.00_6.0_cn_eed884b485.tgz"
-                },
-                {
-                    "miui": "9.2.15",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.2.15_16ac4a73d6_6.0.zip",
-                    "fastboot": "prada_images_9.2.15_20190215.0000.00_6.0_cn_e136144333.tgz"
-                },
-                {
-                    "miui": "9.1.24",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.1.24_ff4cd2c817_6.0.zip",
-                    "fastboot": "prada_images_9.1.24_20190124.0000.00_6.0_cn_9f6e0b0e37.tgz"
-                },
-                {
-                    "miui": "9.1.17",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.1.17_85b6dac074_6.0.zip",
-                    "fastboot": "prada_images_9.1.17_20190117.0000.00_6.0_cn_e22795e8de.tgz"
-                },
-                {
-                    "miui": "9.1.10",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_9.1.10_733e2e781f_6.0.zip",
-                    "fastboot": "prada_images_9.1.10_20190110.0000.00_6.0_cn_bfa66387ac.tgz"
-                },
-                {
-                    "miui": "8.12.27",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.12.27_31960847c3_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.20",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.12.20_44d22858f1_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.12.13",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.12.13_eb7f92102a_6.0.zip",
-                    "fastboot": "prada_images_8.12.13_20181213.0000.00_6.0_cn_d76d4c09ae.tgz"
-                },
-                {
-                    "miui": "8.12.6",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.12.6_30f279d281_6.0.zip",
-                    "fastboot": "prada_images_8.12.6_20181206.0000.00_6.0_cn_0a90a4736d.tgz"
-                },
-                {
-                    "miui": "8.11.29",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.11.29_6a4f94e41c_6.0.zip",
-                    "fastboot": "prada_images_8.11.29_20181129.0000.00_6.0_cn_8d1b30ac54.tgz"
-                },
-                {
-                    "miui": "8.11.22",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.11.22_cd97b387f3_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.15",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.11.15_086fccc9ff_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.11.8",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.11.8_9e1e5ec2bc_6.0.zip",
-                    "fastboot": "prada_images_8.11.8_20181108.0000.00_6.0_cn_38d4e8bac1.tgz"
-                },
-                {
-                    "miui": "8.11.1",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.11.1_678365d381_6.0.zip",
-                    "fastboot": "prada_images_8.11.1_20181101.0000.00_6.0_cn_8b39853d9e.tgz"
-                },
-                {
-                    "miui": "8.10.25",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.10.25_c8416fed77_6.0.zip",
-                    "fastboot": "prada_images_8.10.25_20181025.0000.00_6.0_cn_90fd58cd77.tgz"
-                },
-                {
-                    "miui": "8.10.18",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.10.18_3928747840_6.0.zip",
-                    "fastboot": "prada_images_8.10.18_20181018.0000.00_6.0_cn_ddf911c77b.tgz"
-                },
-                {
-                    "miui": "8.10.11",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.10.11_1975fd48a5_6.0.zip",
-                    "fastboot": "prada_images_8.10.11_20181011.0000.00_6.0_cn_4fd4fae964.tgz"
-                },
-                {
-                    "miui": "8.9.20",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.9.20_54519aed46_6.0.zip",
-                    "fastboot": "prada_images_8.9.20_20180920.0000.00_6.0_cn_db591a427f.tgz"
-                },
-                {
-                    "miui": "8.9.13",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.9.13_01e4da50cb_6.0.zip",
-                    "fastboot": "prada_images_8.9.13_20180913.0000.00_6.0_cn_b95b2d8468.tgz"
-                },
-                {
-                    "miui": "8.9.6",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.9.6_359c5fb1fc_6.0.zip",
-                    "fastboot": "prada_images_8.9.6_20180906.0000.00_6.0_cn_000ff61c9a.tgz"
-                },
-                {
-                    "miui": "8.8.31",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.8.31_7619e3c04a_6.0.zip",
-                    "fastboot": "prada_images_8.8.31_20180831.0000.00_6.0_cn_15f2503124.tgz"
-                },
-                {
-                    "miui": "8.8.23",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.8.23_3a57e61929_6.0.zip",
-                    "fastboot": "prada_images_8.8.23_20180823.0000.00_6.0_cn_7702eacce0.tgz"
-                },
-                {
-                    "miui": "8.8.16",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.8.16_3ad402a56a_6.0.zip",
-                    "fastboot": "prada_images_8.8.16_20180816.0000.00_6.0_cn_192418df47.tgz"
-                },
-                {
-                    "miui": "8.8.9",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.8.9_cb9d897801_6.0.zip",
-                    "fastboot": "prada_images_8.8.9_20180809.0000.00_6.0_cn_dbd401fce0.tgz"
-                },
-                {
-                    "miui": "8.8.3",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.8.3_874503f842_6.0.zip",
-                    "fastboot": "prada_images_8.8.3_20180802.0000.00_6.0_cn_c28065e3bd.tgz"
-                },
-                {
-                    "miui": "8.4.28",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.4.28_444ebd5960_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.4.26",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.4.26_cab750b963_6.0.zip",
-                    "fastboot": "prada_images_8.4.26_20180426.0000.00_6.0_cn_5ede51b624.tgz"
-                },
-                {
-                    "miui": "8.4.19",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.4.19_1a31d351d8_6.0.zip",
-                    "fastboot": "prada_images_8.4.19_20180419.0000.00_6.0_cn_d1b21ade80.tgz"
-                },
-                {
-                    "miui": "8.4.12",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.4.12_2ff3e45a5f_6.0.zip",
-                    "fastboot": "prada_images_8.4.12_20180412.0000.00_6.0_cn_98429b97af.tgz"
-                },
-                {
-                    "miui": "8.3.29",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.3.29_96fc66e2b1_6.0.zip",
-                    "fastboot": "prada_images_8.3.29_20180329.0000.00_6.0_cn_e1880532b8.tgz"
-                },
-                {
-                    "miui": "8.3.22",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.3.22_447c0a0d3e_6.0.zip",
-                    "fastboot": "prada_images_8.3.22_20180322.0000.00_6.0_cn_672499612b.tgz"
-                },
-                {
-                    "miui": "8.3.15",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.3.15_ff59f4d2a9_6.0.zip",
-                    "fastboot": "prada_images_8.3.15_20180315.0000.00_6.0_cn_a7cf16efec.tgz"
-                },
-                {
-                    "miui": "8.3.8",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.3.8_37462a1b6e_6.0.zip",
-                    "fastboot": "prada_images_8.3.8_20180308.0000.00_6.0_cn_bd823ee659.tgz"
-                },
-                {
-                    "miui": "8.3.1",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.3.1_2fbb0e2cdf_6.0.zip",
-                    "fastboot": "prada_images_8.3.1_20180301.0000.00_6.0_cn_288c12a8a2.tgz"
-                },
-                {
-                    "miui": "8.2.1",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.2.1_724f3472a1_6.0.zip",
-                    "fastboot": "prada_images_8.2.1_20180201.0000.00_6.0_cn_7eb5e64ac6.tgz"
-                },
-                {
-                    "miui": "8.1.25",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.1.25_34826e8f37_6.0.zip",
-                    "fastboot": "prada_images_8.1.25_20180125.0000.00_6.0_cn_21a19dac28.tgz"
-                },
-                {
-                    "miui": "8.1.18",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.1.18_1183edc439_6.0.zip",
-                    "fastboot": "prada_images_8.1.18_20180118.0000.00_6.0_cn_04e669e6a2.tgz"
-                },
-                {
-                    "miui": "8.1.11",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.1.11_abe91aded8_6.0.zip",
-                    "fastboot": "prada_images_8.1.11_20180111.0000.00_6.0_cn_1af7203166.tgz"
-                },
-                {
-                    "miui": "8.1.4",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_8.1.4_9e33423705_6.0.zip",
-                    "fastboot": "prada_images_8.1.4_20180104.0000.00_6.0_cn_5348a19c3e.tgz"
-                },
-                {
-                    "miui": "7.12.28",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.12.28_053d64271e_6.0.zip",
-                    "fastboot": "prada_images_7.12.28_20171228.0000.00_6.0_cn_1dc212b0a4.tgz"
-                },
-                {
-                    "miui": "7.12.21",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.12.21_847b5e84f7_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.12.14",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.12.14_7ca7ccd941_6.0.zip",
-                    "fastboot": "prada_images_7.12.14_20171214.0000.00_6.0_cn_d074d5bb81.tgz"
-                },
-                {
-                    "miui": "7.12.7",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.12.7_bdc1e9dd23_6.0.zip",
-                    "fastboot": "prada_images_7.12.7_20171207.0000.00_6.0_cn_68ef550896.tgz"
-                },
-                {
-                    "miui": "7.11.30",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.11.30_f2f5b8ffe2_6.0.zip",
-                    "fastboot": "prada_images_7.11.30_20171130.0000.00_6.0_cn_67c70e9acf.tgz"
-                },
-                {
-                    "miui": "7.11.23",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.11.23_ab3612d643_6.0.zip",
-                    "fastboot": "prada_images_7.11.23_20171123.0000.00_6.0_cn_afb9e92572.tgz"
-                },
-                {
-                    "miui": "7.11.16",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.11.16_5a62df7cb0_6.0.zip",
-                    "fastboot": "prada_images_7.11.16_20171116.0000.00_6.0_cn_976ed9be8e.tgz"
-                },
-                {
-                    "miui": "7.11.9",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.11.9_073131be73_6.0.zip",
-                    "fastboot": "prada_images_7.11.9_20171109.0000.00_6.0_cn_9f2ecee5e9.tgz"
-                },
-                {
-                    "miui": "7.11.2",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.11.2_ca277542be_6.0.zip",
-                    "fastboot": "prada_images_7.11.2_20171102.0000.00_6.0_cn_10b6497358.tgz"
-                },
-                {
-                    "miui": "7.10.26",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.10.26_87e559dbda_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.10.19",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.10.19_7928b32f1a_6.0.zip",
-                    "fastboot": "prada_images_7.10.19_20171019.0000.00_6.0_cn_7a255c1baa.tgz"
-                },
-                {
-                    "miui": "7.10.13",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.10.13_b684fbf096_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.21",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.9.21_b082ae74fe_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.14",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.9.14_944cf53c22_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.7",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.9.7_98b0fdb72b_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.25",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.5.25_74f6c1ca53_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.19",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.5.19_534637ed91_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.11",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.5.11_557b535409_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.4",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.5.4_2400069ff5_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.27",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.4.27_5f76677042_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.20",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.4.20_b3e16557e3_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.13",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.4.13_46f9553ce7_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.6",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.4.6_a3326073b6_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.30",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.3.30_e12ebe7f1d_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.23",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.3.23_d8edccdbed_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.16",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.3.16_52438ce253_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.9",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.3.9_7a420c51bd_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.3.2",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.3.2_5180b32cc7_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.2.24",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_7.2.24_7ccd35e3fb_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.12.1",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_6.12.1_c2b57f6160_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.24",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_6.11.24_4d377d7a4f_6.0.zip",
-                    "fastboot": "prada_images_6.11.24_20161124.0000.00_6.0_cn_50cbae29d1.tgz"
-                },
-                {
-                    "miui": "6.11.17",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_6.11.17_be82e6676e_6.0.zip",
-                    "fastboot": "prada_images_6.11.17_20161117.0000.00_6.0_cn_aa21a162a2.tgz"
-                },
-                {
-                    "miui": "6.11.10",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_6.11.10_cd3d28590d_6.0.zip",
-                    "fastboot": "prada_images_6.11.10_20161110.0000.00_6.0_cn_aa3a81654d.tgz"
-                }
-            ]
+          "miui": "9.3.28",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.3.28_9952a83160_6.0.zip",
+          "fastboot": "prada_images_9.3.28_20190328.0000.00_6.0_cn_6d1348dc59.tgz"
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V10.2.2.0.MCECNXM",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V10.2.2.0.MCECNXM_d4251f8a27_6.0.zip",
-                    "fastboot": "prada_images_V10.2.2.0.MCECNXM_20190507.0000.00_6.0_cn_0f8b1cf46a.tgz"
-                },
-                {
-                    "miui": "V10.2.1.0.MCECNXM",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V10.2.1.0.MCECNXM_89e047802c_6.0.zip",
-                    "fastboot": "prada_images_V10.2.1.0.MCECNXM_20181224.0000.00_6.0_cn_b22fd9e723.tgz"
-                },
-                {
-                    "miui": "V10.1.1.0.MCECNFI",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V10.1.1.0.MCECNFI_76a267cfbe_6.0.zip",
-                    "fastboot": "prada_images_V10.1.1.0.MCECNFI_20181121.0000.00_6.0_cn_73f27b9415.tgz"
-                },
-                {
-                    "miui": "V9.6.3.0.MCECNFD",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V9.6.3.0.MCECNFD_aee1fe42bc_6.0.zip",
-                    "fastboot": "prada_images_V9.6.3.0.MCECNFD_20180720.0000.00_6.0_cn_98d5a3a20d.tgz"
-                },
-                {
-                    "miui": "V9.6.2.0.MCECNFD",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V9.6.2.0.MCECNFD_1369bc24ca_6.0.zip",
-                    "fastboot": "prada_images_V9.6.2.0.MCECNFD_20180611.0000.00_6.0_cn_68009b0569.tgz"
-                },
-                {
-                    "miui": "V9.5.2.0.MCECNFA",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V9.5.2.0.MCECNFA_f3dc92f7cd_6.0.zip",
-                    "fastboot": "prada_images_V9.5.2.0.MCECNFA_20180406.0000.00_6.0_cn_f477f17beb.tgz"
-                },
-                {
-                    "miui": "V9.2.4.0.MCECNEK",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V9.2.4.0.MCECNEK_358475bcb6_6.0.zip",
-                    "fastboot": "prada_images_V9.2.4.0.MCECNEK_20180116.0000.00_6.0_cn_83f1764354.tgz"
-                },
-                {
-                    "miui": "V8.5.2.0.MCECNED",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V8.5.2.0.MCECNED_b07b36646b_6.0.zip",
-                    "fastboot": "prada_images_V8.5.2.0.MCECNED_20170615.0000.00_6.0_cn_ff0fdb41f7.tgz"
-                },
-                {
-                    "miui": "V8.1.5.0.MCECNDI",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V8.1.5.0.MCECNDI_7379d10c7b_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.1.4.0.MCECNDI",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V8.1.4.0.MCECNDI_20663b57db_6.0.zip",
-                    "fastboot": "prada_images_V8.1.4.0.MCECNDI_20161226.0000.00_6.0_cn_c7398e9d33.tgz"
-                },
-                {
-                    "miui": "V8.1.2.0.MCECNDI",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V8.1.2.0.MCECNDI_e7a2d6cb08_6.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.1.1.0.MCECNDI",
-                    "android": "6.0",
-                    "recovery": "miui_HM4_V8.1.1.0.MCECNDI_5a7c2fcf20_6.0.zip",
-                    "fastboot": "prada_images_V8.1.1.0.MCECNDI_20161118.0000.00_6.0_cn_15a9de5b39.tgz"
-                },
-                {
-                    "miui": "V8.0.3.0.MCECNDG",
-                    "android": "6.0",
-                    "recovery": "miui_PRADA_V8.0.3.0.MCECNDG_9e14c612df_6.0.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "9.3.21",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.3.21_78bac3539d_6.0.zip",
+          "fastboot": "prada_images_9.3.21_20190321.0000.00_6.0_cn_a86b702ba2.tgz"
         },
         {
-            "branch": "mgbb",
-            "show": "1",
-            "cnname": "国际开发版",
-            "enname": "Global Beta",
-            "links": [
-                {
-                    "miui": "7.9.15",
-                    "android": "6.0",
-                    "recovery": "miui_HM4Global_7.9.15_6ac7c43255_6.0.zip",
-                    "fastboot": "prada_global_images_7.9.15_20170915.0000.00_6.0_global_a7eb64c7b7.tgz"
-                }
-            ]
+          "miui": "9.3.14",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.3.14_3efe6a988a_6.0.zip",
+          "fastboot": "prada_images_9.3.14_20190314.0000.00_6.0_cn_f86e66d07a.tgz"
         },
         {
-            "branch": "mgbs",
-            "show": "1",
-            "cnname": "国际稳定版",
-            "enname": "Global Stable",
-            "links": [
-                {
-                    "miui": "V10.2.2.0.MCEMIXM",
-                    "android": "6.0",
-                    "recovery": "miui_HM4Global_V10.2.2.0.MCEMIXM_0a6d0684b5_6.0.zip",
-                    "fastboot": "prada_global_images_V10.2.2.0.MCEMIXM_20190508.0000.00_6.0_global_299e7070e4.tgz"
-                },
-                {
-                    "miui": "V10.2.1.0.MCEMIXM",
-                    "android": "6.0",
-                    "recovery": "miui_HM4Global_V10.2.1.0.MCEMIXM_84dceb9f66_6.0.zip",
-                    "fastboot": "prada_global_images_V10.2.1.0.MCEMIXM_20190115.0000.00_6.0_global_c43260bc6a.tgz"
-                },
-                {
-                    "miui": "V10.1.1.0.MCEMIFI",
-                    "android": "6.0",
-                    "recovery": "miui_HM4Global_V10.1.1.0.MCEMIFI_8038dc4c33_6.0.zip",
-                    "fastboot": "prada_global_images_V10.1.1.0.MCEMIFI_20181122.0000.00_6.0_global_494991bd30.tgz"
-                },
-                {
-                    "miui": "V9.6.1.0.MCEMIFD",
-                    "android": "6.0",
-                    "recovery": "miui_HM4Global_V9.6.1.0.MCEMIFD_ca93a89e27_6.0.zip",
-                    "fastboot": "prada_global_images_V9.6.1.0.MCEMIFD_20180619.0000.00_6.0_global_dc718121a8.tgz"
-                },
-                {
-                    "miui": "V9.5.5.0.MCEMIFD",
-                    "android": "6.0",
-                    "recovery": "miui_HM4Global_V9.5.5.0.MCEMIFD_9b51f951fd_6.0.zip",
-                    "fastboot": "prada_global_images_V9.5.5.0.MCEMIFD_20180613.0000.00_6.0_global_fcd6f0f3f7.tgz"
-                },
-                {
-                    "miui": "V9.5.3.0.MCEMIFA",
-                    "android": "6.0",
-                    "recovery": "miui_HM4Global_V9.5.3.0.MCEMIFA_ebe74a81e6_6.0.zip",
-                    "fastboot": "prada_global_images_V9.5.3.0.MCEMIFA_20180420.0000.00_6.0_global_dab53a79ee.tgz"
-                }
-            ]
+          "miui": "9.3.7",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.3.7_1bd3db973d_6.0.zip",
+          "fastboot": "prada_images_9.3.7_20190307.0000.00_6.0_cn_86d41a9b0f.tgz"
+        },
+        {
+          "miui": "9.2.28",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.2.28_9549871134_6.0.zip",
+          "fastboot": "prada_images_9.2.28_20190228.0000.00_6.0_cn_ed061d3df3.tgz"
+        },
+        {
+          "miui": "9.2.21",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.2.21_1c4c42f256_6.0.zip",
+          "fastboot": "prada_images_9.2.21_20190221.0000.00_6.0_cn_eed884b485.tgz"
+        },
+        {
+          "miui": "9.2.15",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.2.15_16ac4a73d6_6.0.zip",
+          "fastboot": "prada_images_9.2.15_20190215.0000.00_6.0_cn_e136144333.tgz"
+        },
+        {
+          "miui": "9.1.24",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.1.24_ff4cd2c817_6.0.zip",
+          "fastboot": "prada_images_9.1.24_20190124.0000.00_6.0_cn_9f6e0b0e37.tgz"
+        },
+        {
+          "miui": "9.1.17",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.1.17_85b6dac074_6.0.zip",
+          "fastboot": "prada_images_9.1.17_20190117.0000.00_6.0_cn_e22795e8de.tgz"
+        },
+        {
+          "miui": "9.1.10",
+          "android": "6.0",
+          "recovery": "miui_HM4_9.1.10_733e2e781f_6.0.zip",
+          "fastboot": "prada_images_9.1.10_20190110.0000.00_6.0_cn_bfa66387ac.tgz"
+        },
+        {
+          "miui": "8.12.27",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.12.27_31960847c3_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.20",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.12.20_44d22858f1_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.12.13",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.12.13_eb7f92102a_6.0.zip",
+          "fastboot": "prada_images_8.12.13_20181213.0000.00_6.0_cn_d76d4c09ae.tgz"
+        },
+        {
+          "miui": "8.12.6",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.12.6_30f279d281_6.0.zip",
+          "fastboot": "prada_images_8.12.6_20181206.0000.00_6.0_cn_0a90a4736d.tgz"
+        },
+        {
+          "miui": "8.11.29",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.11.29_6a4f94e41c_6.0.zip",
+          "fastboot": "prada_images_8.11.29_20181129.0000.00_6.0_cn_8d1b30ac54.tgz"
+        },
+        {
+          "miui": "8.11.22",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.11.22_cd97b387f3_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.15",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.11.15_086fccc9ff_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.11.8",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.11.8_9e1e5ec2bc_6.0.zip",
+          "fastboot": "prada_images_8.11.8_20181108.0000.00_6.0_cn_38d4e8bac1.tgz"
+        },
+        {
+          "miui": "8.11.1",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.11.1_678365d381_6.0.zip",
+          "fastboot": "prada_images_8.11.1_20181101.0000.00_6.0_cn_8b39853d9e.tgz"
+        },
+        {
+          "miui": "8.10.25",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.10.25_c8416fed77_6.0.zip",
+          "fastboot": "prada_images_8.10.25_20181025.0000.00_6.0_cn_90fd58cd77.tgz"
+        },
+        {
+          "miui": "8.10.18",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.10.18_3928747840_6.0.zip",
+          "fastboot": "prada_images_8.10.18_20181018.0000.00_6.0_cn_ddf911c77b.tgz"
+        },
+        {
+          "miui": "8.10.11",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.10.11_1975fd48a5_6.0.zip",
+          "fastboot": "prada_images_8.10.11_20181011.0000.00_6.0_cn_4fd4fae964.tgz"
+        },
+        {
+          "miui": "8.9.20",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.9.20_54519aed46_6.0.zip",
+          "fastboot": "prada_images_8.9.20_20180920.0000.00_6.0_cn_db591a427f.tgz"
+        },
+        {
+          "miui": "8.9.13",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.9.13_01e4da50cb_6.0.zip",
+          "fastboot": "prada_images_8.9.13_20180913.0000.00_6.0_cn_b95b2d8468.tgz"
+        },
+        {
+          "miui": "8.9.6",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.9.6_359c5fb1fc_6.0.zip",
+          "fastboot": "prada_images_8.9.6_20180906.0000.00_6.0_cn_000ff61c9a.tgz"
+        },
+        {
+          "miui": "8.8.31",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.8.31_7619e3c04a_6.0.zip",
+          "fastboot": "prada_images_8.8.31_20180831.0000.00_6.0_cn_15f2503124.tgz"
+        },
+        {
+          "miui": "8.8.23",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.8.23_3a57e61929_6.0.zip",
+          "fastboot": "prada_images_8.8.23_20180823.0000.00_6.0_cn_7702eacce0.tgz"
+        },
+        {
+          "miui": "8.8.16",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.8.16_3ad402a56a_6.0.zip",
+          "fastboot": "prada_images_8.8.16_20180816.0000.00_6.0_cn_192418df47.tgz"
+        },
+        {
+          "miui": "8.8.9",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.8.9_cb9d897801_6.0.zip",
+          "fastboot": "prada_images_8.8.9_20180809.0000.00_6.0_cn_dbd401fce0.tgz"
+        },
+        {
+          "miui": "8.8.3",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.8.3_874503f842_6.0.zip",
+          "fastboot": "prada_images_8.8.3_20180802.0000.00_6.0_cn_c28065e3bd.tgz"
+        },
+        {
+          "miui": "8.4.28",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.4.28_444ebd5960_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.4.26",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.4.26_cab750b963_6.0.zip",
+          "fastboot": "prada_images_8.4.26_20180426.0000.00_6.0_cn_5ede51b624.tgz"
+        },
+        {
+          "miui": "8.4.19",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.4.19_1a31d351d8_6.0.zip",
+          "fastboot": "prada_images_8.4.19_20180419.0000.00_6.0_cn_d1b21ade80.tgz"
+        },
+        {
+          "miui": "8.4.12",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.4.12_2ff3e45a5f_6.0.zip",
+          "fastboot": "prada_images_8.4.12_20180412.0000.00_6.0_cn_98429b97af.tgz"
+        },
+        {
+          "miui": "8.3.29",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.3.29_96fc66e2b1_6.0.zip",
+          "fastboot": "prada_images_8.3.29_20180329.0000.00_6.0_cn_e1880532b8.tgz"
+        },
+        {
+          "miui": "8.3.22",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.3.22_447c0a0d3e_6.0.zip",
+          "fastboot": "prada_images_8.3.22_20180322.0000.00_6.0_cn_672499612b.tgz"
+        },
+        {
+          "miui": "8.3.15",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.3.15_ff59f4d2a9_6.0.zip",
+          "fastboot": "prada_images_8.3.15_20180315.0000.00_6.0_cn_a7cf16efec.tgz"
+        },
+        {
+          "miui": "8.3.8",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.3.8_37462a1b6e_6.0.zip",
+          "fastboot": "prada_images_8.3.8_20180308.0000.00_6.0_cn_bd823ee659.tgz"
+        },
+        {
+          "miui": "8.3.1",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.3.1_2fbb0e2cdf_6.0.zip",
+          "fastboot": "prada_images_8.3.1_20180301.0000.00_6.0_cn_288c12a8a2.tgz"
+        },
+        {
+          "miui": "8.2.1",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.2.1_724f3472a1_6.0.zip",
+          "fastboot": "prada_images_8.2.1_20180201.0000.00_6.0_cn_7eb5e64ac6.tgz"
+        },
+        {
+          "miui": "8.1.25",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.1.25_34826e8f37_6.0.zip",
+          "fastboot": "prada_images_8.1.25_20180125.0000.00_6.0_cn_21a19dac28.tgz"
+        },
+        {
+          "miui": "8.1.18",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.1.18_1183edc439_6.0.zip",
+          "fastboot": "prada_images_8.1.18_20180118.0000.00_6.0_cn_04e669e6a2.tgz"
+        },
+        {
+          "miui": "8.1.11",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.1.11_abe91aded8_6.0.zip",
+          "fastboot": "prada_images_8.1.11_20180111.0000.00_6.0_cn_1af7203166.tgz"
+        },
+        {
+          "miui": "8.1.4",
+          "android": "6.0",
+          "recovery": "miui_HM4_8.1.4_9e33423705_6.0.zip",
+          "fastboot": "prada_images_8.1.4_20180104.0000.00_6.0_cn_5348a19c3e.tgz"
+        },
+        {
+          "miui": "7.12.28",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.12.28_053d64271e_6.0.zip",
+          "fastboot": "prada_images_7.12.28_20171228.0000.00_6.0_cn_1dc212b0a4.tgz"
+        },
+        {
+          "miui": "7.12.21",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.12.21_847b5e84f7_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.12.14",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.12.14_7ca7ccd941_6.0.zip",
+          "fastboot": "prada_images_7.12.14_20171214.0000.00_6.0_cn_d074d5bb81.tgz"
+        },
+        {
+          "miui": "7.12.7",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.12.7_bdc1e9dd23_6.0.zip",
+          "fastboot": "prada_images_7.12.7_20171207.0000.00_6.0_cn_68ef550896.tgz"
+        },
+        {
+          "miui": "7.11.30",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.11.30_f2f5b8ffe2_6.0.zip",
+          "fastboot": "prada_images_7.11.30_20171130.0000.00_6.0_cn_67c70e9acf.tgz"
+        },
+        {
+          "miui": "7.11.23",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.11.23_ab3612d643_6.0.zip",
+          "fastboot": "prada_images_7.11.23_20171123.0000.00_6.0_cn_afb9e92572.tgz"
+        },
+        {
+          "miui": "7.11.16",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.11.16_5a62df7cb0_6.0.zip",
+          "fastboot": "prada_images_7.11.16_20171116.0000.00_6.0_cn_976ed9be8e.tgz"
+        },
+        {
+          "miui": "7.11.9",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.11.9_073131be73_6.0.zip",
+          "fastboot": "prada_images_7.11.9_20171109.0000.00_6.0_cn_9f2ecee5e9.tgz"
+        },
+        {
+          "miui": "7.11.2",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.11.2_ca277542be_6.0.zip",
+          "fastboot": "prada_images_7.11.2_20171102.0000.00_6.0_cn_10b6497358.tgz"
+        },
+        {
+          "miui": "7.10.26",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.10.26_87e559dbda_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.10.19",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.10.19_7928b32f1a_6.0.zip",
+          "fastboot": "prada_images_7.10.19_20171019.0000.00_6.0_cn_7a255c1baa.tgz"
+        },
+        {
+          "miui": "7.10.13",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.10.13_b684fbf096_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.21",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.9.21_b082ae74fe_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.14",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.9.14_944cf53c22_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.7",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.9.7_98b0fdb72b_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.25",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.5.25_74f6c1ca53_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.19",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.5.19_534637ed91_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.11",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.5.11_557b535409_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.4",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.5.4_2400069ff5_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.27",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.4.27_5f76677042_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.20",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.4.20_b3e16557e3_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.13",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.4.13_46f9553ce7_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.6",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.4.6_a3326073b6_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.30",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.3.30_e12ebe7f1d_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.23",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.3.23_d8edccdbed_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.16",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.3.16_52438ce253_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.9",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.3.9_7a420c51bd_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.3.2",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.3.2_5180b32cc7_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.2.24",
+          "android": "6.0",
+          "recovery": "miui_HM4_7.2.24_7ccd35e3fb_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.12.1",
+          "android": "6.0",
+          "recovery": "miui_HM4_6.12.1_c2b57f6160_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.24",
+          "android": "6.0",
+          "recovery": "miui_HM4_6.11.24_4d377d7a4f_6.0.zip",
+          "fastboot": "prada_images_6.11.24_20161124.0000.00_6.0_cn_50cbae29d1.tgz"
+        },
+        {
+          "miui": "6.11.17",
+          "android": "6.0",
+          "recovery": "miui_HM4_6.11.17_be82e6676e_6.0.zip",
+          "fastboot": "prada_images_6.11.17_20161117.0000.00_6.0_cn_aa21a162a2.tgz"
+        },
+        {
+          "miui": "6.11.10",
+          "android": "6.0",
+          "recovery": "miui_HM4_6.11.10_cd3d28590d_6.0.zip",
+          "fastboot": "prada_images_6.11.10_20161110.0000.00_6.0_cn_aa3a81654d.tgz"
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V10.2.2.0.MCECNXM",
+          "android": "6.0",
+          "recovery": "miui_HM4_V10.2.2.0.MCECNXM_d4251f8a27_6.0.zip",
+          "fastboot": "prada_images_V10.2.2.0.MCECNXM_20190507.0000.00_6.0_cn_0f8b1cf46a.tgz"
+        },
+        {
+          "miui": "V10.2.1.0.MCECNXM",
+          "android": "6.0",
+          "recovery": "miui_HM4_V10.2.1.0.MCECNXM_89e047802c_6.0.zip",
+          "fastboot": "prada_images_V10.2.1.0.MCECNXM_20181224.0000.00_6.0_cn_b22fd9e723.tgz"
+        },
+        {
+          "miui": "V10.1.1.0.MCECNFI",
+          "android": "6.0",
+          "recovery": "miui_HM4_V10.1.1.0.MCECNFI_76a267cfbe_6.0.zip",
+          "fastboot": "prada_images_V10.1.1.0.MCECNFI_20181121.0000.00_6.0_cn_73f27b9415.tgz"
+        },
+        {
+          "miui": "V9.6.3.0.MCECNFD",
+          "android": "6.0",
+          "recovery": "miui_HM4_V9.6.3.0.MCECNFD_aee1fe42bc_6.0.zip",
+          "fastboot": "prada_images_V9.6.3.0.MCECNFD_20180720.0000.00_6.0_cn_98d5a3a20d.tgz"
+        },
+        {
+          "miui": "V9.6.2.0.MCECNFD",
+          "android": "6.0",
+          "recovery": "miui_HM4_V9.6.2.0.MCECNFD_1369bc24ca_6.0.zip",
+          "fastboot": "prada_images_V9.6.2.0.MCECNFD_20180611.0000.00_6.0_cn_68009b0569.tgz"
+        },
+        {
+          "miui": "V9.5.2.0.MCECNFA",
+          "android": "6.0",
+          "recovery": "miui_HM4_V9.5.2.0.MCECNFA_f3dc92f7cd_6.0.zip",
+          "fastboot": "prada_images_V9.5.2.0.MCECNFA_20180406.0000.00_6.0_cn_f477f17beb.tgz"
+        },
+        {
+          "miui": "V9.2.4.0.MCECNEK",
+          "android": "6.0",
+          "recovery": "miui_HM4_V9.2.4.0.MCECNEK_358475bcb6_6.0.zip",
+          "fastboot": "prada_images_V9.2.4.0.MCECNEK_20180116.0000.00_6.0_cn_83f1764354.tgz"
+        },
+        {
+          "miui": "V8.5.2.0.MCECNED",
+          "android": "6.0",
+          "recovery": "miui_HM4_V8.5.2.0.MCECNED_b07b36646b_6.0.zip",
+          "fastboot": "prada_images_V8.5.2.0.MCECNED_20170615.0000.00_6.0_cn_ff0fdb41f7.tgz"
+        },
+        {
+          "miui": "V8.1.5.0.MCECNDI",
+          "android": "6.0",
+          "recovery": "miui_HM4_V8.1.5.0.MCECNDI_7379d10c7b_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.1.4.0.MCECNDI",
+          "android": "6.0",
+          "recovery": "miui_HM4_V8.1.4.0.MCECNDI_20663b57db_6.0.zip",
+          "fastboot": "prada_images_V8.1.4.0.MCECNDI_20161226.0000.00_6.0_cn_c7398e9d33.tgz"
+        },
+        {
+          "miui": "V8.1.2.0.MCECNDI",
+          "android": "6.0",
+          "recovery": "miui_HM4_V8.1.2.0.MCECNDI_e7a2d6cb08_6.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.1.1.0.MCECNDI",
+          "android": "6.0",
+          "recovery": "miui_HM4_V8.1.1.0.MCECNDI_5a7c2fcf20_6.0.zip",
+          "fastboot": "prada_images_V8.1.1.0.MCECNDI_20161118.0000.00_6.0_cn_15a9de5b39.tgz"
+        },
+        {
+          "miui": "V8.0.3.0.MCECNDG",
+          "android": "6.0",
+          "recovery": "miui_PRADA_V8.0.3.0.MCECNDG_9e14c612df_6.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "mgbb",
+      "show": "1",
+      "cnname": "国际开发版",
+      "enname": "Global Beta",
+      "links": [
+        {
+          "miui": "7.9.15",
+          "android": "6.0",
+          "recovery": "miui_HM4Global_7.9.15_6ac7c43255_6.0.zip",
+          "fastboot": "prada_global_images_7.9.15_20170915.0000.00_6.0_global_a7eb64c7b7.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V10.2.2.0.MCEMIXM",
+          "android": "6.0",
+          "recovery": "miui_HM4Global_V10.2.2.0.MCEMIXM_0a6d0684b5_6.0.zip",
+          "fastboot": "prada_global_images_V10.2.2.0.MCEMIXM_20190508.0000.00_6.0_global_299e7070e4.tgz"
+        },
+        {
+          "miui": "V10.2.1.0.MCEMIXM",
+          "android": "6.0",
+          "recovery": "miui_HM4Global_V10.2.1.0.MCEMIXM_84dceb9f66_6.0.zip",
+          "fastboot": "prada_global_images_V10.2.1.0.MCEMIXM_20190115.0000.00_6.0_global_c43260bc6a.tgz"
+        },
+        {
+          "miui": "V10.1.1.0.MCEMIFI",
+          "android": "6.0",
+          "recovery": "miui_HM4Global_V10.1.1.0.MCEMIFI_8038dc4c33_6.0.zip",
+          "fastboot": "prada_global_images_V10.1.1.0.MCEMIFI_20181122.0000.00_6.0_global_494991bd30.tgz"
+        },
+        {
+          "miui": "V9.6.1.0.MCEMIFD",
+          "android": "6.0",
+          "recovery": "miui_HM4Global_V9.6.1.0.MCEMIFD_ca93a89e27_6.0.zip",
+          "fastboot": "prada_global_images_V9.6.1.0.MCEMIFD_20180619.0000.00_6.0_global_dc718121a8.tgz"
+        },
+        {
+          "miui": "V9.5.5.0.MCEMIFD",
+          "android": "6.0",
+          "recovery": "miui_HM4Global_V9.5.5.0.MCEMIFD_9b51f951fd_6.0.zip",
+          "fastboot": "prada_global_images_V9.5.5.0.MCEMIFD_20180613.0000.00_6.0_global_fcd6f0f3f7.tgz"
+        },
+        {
+          "miui": "V9.5.3.0.MCEMIFA",
+          "android": "6.0",
+          "recovery": "miui_HM4Global_V9.5.3.0.MCEMIFA_ebe74a81e6_6.0.zip",
+          "fastboot": "prada_global_images_V9.5.3.0.MCEMIFA_20180420.0000.00_6.0_global_dab53a79ee.tgz"
+        }
+      ]
+    }
+  ]
 }

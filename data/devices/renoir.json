@@ -8,6 +8,21 @@
       "en": ""
     }
   ],
+  "crawler": [
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "Spider",
+      "enname": "Spider",
+      "links": [
+        {
+          "p6": "miui_COURBETEEAGlobal_V13.0.8.0.SKQEUXM_2c217004e8_12.0.zip",
+          "p7": "miui_COURBETGlobal_V13.0.10.0.SKQMIXM_166d4b44c3_12.0.zip",
+          "p8": "miui_COURBETRUGlobal_V13.0.7.0.SKQRUXM_0ff841b273_12.0.zip"
+        }
+      ]
+    }
+  ],
   "branches": [
     {
       "branch": "cnmp",
@@ -15,6 +30,12 @@
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
+        {
+          "miui": "V14.0.23.1.30.DEV",
+          "android": "13.0",
+          "recovery": "miui_RENOIR_V14.0.23.1.30.DEV_23186672bc_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.23.1.9.DEV",
           "android": "13.0",
