@@ -29,8 +29,8 @@ for region in regions:
           file = open(filename, "a", encoding='utf-8')
           file.write("机型ID:"+str(id)+"\t地区代码:"+region+"\t机型名称:"+device_name+"\n")
           file.close()
-          t = time.strftime("%Y-%m-%d %H:%M:%S",time.gmtime())
+          t = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
           print(str(t)+"\t机型ID:"+str(id)+"\t地区代码:"+region+"\t机型名称:"+device_name+"\t将该条数据存入文件")
       else:
-          t = time.strftime("%Y-%m-%d %H:%M:%S",time.gmtime())
+          t = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
           print(str(t)+"\t机型ID:"+str(id)+"\t地区代码:"+region+"\t不存在机型数据")

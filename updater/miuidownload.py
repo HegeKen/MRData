@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 from bs4 import BeautifulSoup
 
 regions = ["cn","tw","global","eea","ru","in","id","tr","jp"]
@@ -12,6 +13,8 @@ for all in all_devices:
     headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
     response = requests.get(url, headers=headers)
     content = response.content.decode("utf8")
+    t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    print(t+"\t"+url)
     soup = BeautifulSoup(content,'lxml')
     lists = soup.find_all("a", attrs={"class" :"downloadbutton"})
     if len(lists) == 0 :

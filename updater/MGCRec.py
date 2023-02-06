@@ -2,7 +2,6 @@ import requests
 import json
 import re
 import random
-import os
 import time
 
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
@@ -19,7 +18,7 @@ with open('static/data/updater/global.json', 'r', encoding='utf8')as devices:
     devdata = json.loads(devicedata.read())
     devicename = devdata["cnname"]
     devicecode = devdata["codename"]
-    t = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+    t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print('\r'+t+"\t"+devicename+"("+devicecode+")")
     ids = device["gid"]
     for region in regions:

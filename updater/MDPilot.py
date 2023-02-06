@@ -3,8 +3,8 @@ import json
 from bs4 import BeautifulSoup
 
 branches = ["beta","pilot"]
-devlist = open("static/data/updater/devices.json", 'r', encoding='utf-8')
-all_devices = json.loads(devlist.read())["devices"]
+devlist = open("static/data/updater/global.json", 'r', encoding='utf-8')
+all_devices = json.loads(devlist.read())["full"]
 for all in all_devices:
   codename = all["code"]
   for branch in branches:

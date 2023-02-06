@@ -2,7 +2,7 @@ import requests
 import json
 import re
 # import random
-# import time
+import time
 # from bs4 import BeautifulSoup
 
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
@@ -15,6 +15,8 @@ for region in regions:
     url = "https://sgp-api.buy.mi.com/bbs/api/"+region+"/phone/getlinepackagelist"
   response = requests.get(url, headers=headers)
   content = response.content.decode("utf8")
+  t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+  print(t+"\t"+url)
   if (response.status_code != 404):
     regex = r'bigota.d.miui.com/V.*?._images_.*?.tgz'
     matches = re.finditer(regex, content, re.MULTILINE)
