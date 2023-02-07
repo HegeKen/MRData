@@ -19,14 +19,14 @@ with open('static/data/updater/global.json', 'r', encoding='utf8')as devices:
     devicename = devdata["cnname"]
     devicecode = devdata["codename"]
     t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    print('\r'+t+"\t"+devicename+"("+devicecode+")")
     ids = device["gid"]
-    for region in regions:
-      for id in ids:
+    for id in ids:
+      for region in regions:
         if (region == "rs"):
           url = "https://ams-api.buy.mi.com/bbs/api/rs/phone/getdevicelist?phone_id=" + str(id)
         else:
           url = base_api + region + ahome + str(id)
+        print('\r'+t+"\t"+devicename+"("+devicecode+")\t"+url)
         response = requests.get(url, headers=headers)
         if (response.status_code != 404):
           content = response.content.decode("utf8")
@@ -38,11 +38,10 @@ with open('static/data/updater/global.json', 'r', encoding='utf8')as devices:
             ver = rom_url.split('/')[3]
             pr = random.randint(1,2)
             if recovery in devdata.__str__():
-              slist = ["─", "│"]
-              print('\r'+slist[pr%2], end="")
+              i = 0
             else:
               filename = "static/data/updater/MGCRec.txt"
               file = open(filename, "a", encoding='utf-8')
-              file.writelines(id+"("+devicename+")\t"+rom_url+"\n")
+              file.writelines(id+"("+devicename+")\t"+recovery+"\n")
               print("\n在"+id+"("+devicename+")处发现疑似一条更新内容,机型名称"+devicename+"\t版本："+ver)
         response.close()

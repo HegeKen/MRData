@@ -9,8 +9,8 @@ regions = ["global", "bd", "id", "my", "pk", "ph", "tr", "vn", "th", "de", "es",
            "it", "pl", "rs", "uk", "ru", "ua", "mie", "br", "co", "mx", "pe", "cl", "ng", "eg"]
 latest = 1900557
 idrange = ["1700","1800","1900"]
-start = "557"
-end = "600"
+start = "571"
+end = "1000"
 for region in regions:
   for ids in idrange:
     start_piont = int(ids + start)
@@ -25,7 +25,7 @@ for region in regions:
       did = json.loads(content)
       device_name = did["data"]["device_data"]["phone_name"]
       if (device_name != ""):
-          filename = "./updater/"+ids+"device.txt"
+          filename = "static/data/updater/"+ids+"device.txt"
           file = open(filename, "a", encoding='utf-8')
           file.write("机型ID:"+str(id)+"\t地区代码:"+region+"\t机型名称:"+device_name+"\n")
           file.close()
