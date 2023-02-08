@@ -25,10 +25,13 @@ def findCBeta(vers):
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': rom["android"], 'recovery':rom["recovery"],'fastboot':rom["fastboot"]}
               person_json = json.dumps(datas,ensure_ascii=False)
               fwrite.write(person_json+",")
+              fwrite.close()
             else:
               i = i+1
       else:
         i = i+1
+    fread.close()
+  devlist.close()
 
 def findGBeta(vers):
   i = 0
@@ -51,10 +54,13 @@ def findGBeta(vers):
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': rom["android"], 'recovery':rom["recovery"],'fastboot':rom["fastboot"]}
               person_json = json.dumps(datas,ensure_ascii=False)
               fwrite.write(person_json+",")
+              fwrite.close()
             else:
               i = i+1
       else:
         i = i+1
+    fread.close()
+  devlist.close()
 
 
 vers = ["V13.1.22.9.28.DEV","V13.1.22.9.29.DEV","V13.1.22.9.30.DEV"]

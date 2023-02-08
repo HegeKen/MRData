@@ -7,30 +7,30 @@ base_api = "https://sgp-api.buy.mi.com/bbs/api/"
 ahome = "/phone/getdevicelist?phone_id="
 regions = ["global", "bd", "id", "my", "pk", "ph", "tr", "vn", "th", "de", "es", "fr",
            "it", "pl", "rs", "uk", "ru", "ua", "mie", "br", "co", "mx", "pe", "cl", "ng", "eg"]
-latest = 1900557
+latest = 1900571
 idrange = ["1700","1800","1900"]
 start = "571"
 end = "1000"
-for region in regions:
+for id in range(int(start),int(end)):
   for ids in idrange:
-    start_piont = int(ids + start)
-    end_point = int(ids + end)
-    for id in range(start_piont,end_point):
+    devid = int(ids)*1000 + id
+    for region in regions:
       if (region == "rs"):
-        url = "https://ams-api.buy.mi.com/bbs/api/rs/phone/getdevicelist?phone_id=" + str(id)
+        url = "https://ams-api.buy.mi.com/bbs/api/rs/phone/getdevicelist?phone_id=" + str(devid)
       else:
-        url = base_api + region + ahome + str(id)
+        url = base_api + region + ahome + str(devid)
       response = requests.get(url, headers=headers)
       content = response.content.decode("utf8")
       did = json.loads(content)
       device_name = did["data"]["device_data"]["phone_name"]
       if (device_name != ""):
-          filename = "static/data/updater/"+ids+"device.txt"
+          filename = "static/data/updater/deviceIDs.txt"
           file = open(filename, "a", encoding='utf-8')
-          file.write("机型ID:"+str(id)+"\t地区代码:"+region+"\t机型名称:"+device_name+"\n")
+          file.write("机型ID:"+str(devid)+"\t机型名称:"+device_name+"\n")
           file.close()
           t = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
-          print(str(t)+"\t机型ID:"+str(id)+"\t地区代码:"+region+"\t机型名称:"+device_name+"\t将该条数据存入文件")
+          print(str(t)+"\t机型ID:"+str(devid)+"\t地区代码:"+region+"\t机型名称:"+device_name+"\t将该条数据存入文件")
       else:
           t = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
-          print(str(t)+"\t机型ID:"+str(id)+"\t地区代码:"+region+"\t不存在机型数据")
+          print(str(t)+"\t机型ID:"+str(devid)+"\t地区代码:"+region+"\t不存在机型数据")
+      response.close()

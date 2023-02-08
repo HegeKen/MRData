@@ -38,3 +38,4 @@ for all in all_devices:
               file.write(packname+"\n")
               file.close()
     response.close()
+devlist.close()

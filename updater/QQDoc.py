@@ -23,7 +23,9 @@ def getFb(soup):
       else:
         file = open("static/data/updater/QQDoc.txt", "a", encoding='utf-8')
         file.write(fastboot+"\n")
+        file.close()
         print("发现"+codename+"线刷包有新版本，版本号：->"+ver)
+      devicedata.close()
 
 def getRec(soup):
   regex = r'miui_.*?.zip'
@@ -39,7 +41,9 @@ def getRec(soup):
     else:
       file = open("static/data/updater/QQDoc.txt", "a", encoding='utf-8')
       file.write(recovery+"\n")
+      file.close()
       print("发现"+codename+"卡刷包有新版本，版本号：->"+ver)
+    devicedata.close()
 
 
 

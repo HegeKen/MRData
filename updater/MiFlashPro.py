@@ -27,5 +27,7 @@ for all in all_devices:
         filename = "static/data/updater/MiFlashPro.txt"
         file = open(filename, "a", encoding='utf-8')
         file.writelines(row[3]+"\n")
+        file.close()
         print(row[0]+"发现疑似一条更新内容")
-
+      fread.close()
+devlist.close()

@@ -45,8 +45,11 @@ def getRom(codename):
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': android, 'recovery':recovery,'fastboot':""}
               person_json = json.dumps(datas,ensure_ascii=False)
               file.write(person_json+",")
+              file.close()
+            devicedata.close()
           else:
             i = 0
+  devlist.close()
 
 
 

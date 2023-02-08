@@ -42,6 +42,8 @@ for region in regions:
         filename = "static/data/updater/MGCFab.txt"
         file = open(filename, "a", encoding='utf-8')
         file.writelines(fastboot+"\n")
+        file.close()
         print(codename+"处发现疑似一条更新内容,包名："+fastboot)
+      devicedata.close()
   else:
     i = 0
