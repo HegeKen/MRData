@@ -21,7 +21,7 @@ def findCBeta(vers):
         for rom in branch["links"]:
           for ver in vers:
             if rom["miui"]==ver:
-              fwrite = open("static/data/updater/latest.json", 'a', encoding='utf-8')
+              fwrite = open("static/data/updater/getWeekly.json", 'a', encoding='utf-8')
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': rom["android"], 'recovery':rom["recovery"],'fastboot':rom["fastboot"]}
               person_json = json.dumps(datas,ensure_ascii=False)
               fwrite.write(person_json+",")
@@ -50,7 +50,7 @@ def findGBeta(vers):
           for ver in vers:
             if rom["miui"]==ver:
               print(rom["recovery"])
-              fwrite = open("static/data/updater/latest.json", 'a', encoding='utf-8')
+              fwrite = open("static/data/updater/getWeekly.json", 'a', encoding='utf-8')
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': rom["android"], 'recovery':rom["recovery"],'fastboot':rom["fastboot"]}
               person_json = json.dumps(datas,ensure_ascii=False)
               fwrite.write(person_json+",")
@@ -63,5 +63,5 @@ def findGBeta(vers):
   devlist.close()
 
 
-vers = ["V13.1.22.9.28.DEV","V13.1.22.9.29.DEV","V13.1.22.9.30.DEV"]
+vers = ["V13.1.22.9.5.DEV","V13.1.22.9.7.DEV","V13.1.22.9.9.DEV"]
 findCBeta(vers)
