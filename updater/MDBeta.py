@@ -50,6 +50,7 @@ def getRom(codename):
           else:
             i = 0
   devlist.close()
+  response.close()
 
 
 
