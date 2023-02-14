@@ -16,7 +16,7 @@ for region in regions:
   response = requests.get(url, headers=headers)
   content = response.content.decode("utf8")
   t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-  print(t+"\t"+url)
+  print("\r"+t+"\t"+url+"     ",end="")
   if (response.status_code != 404):
     regex = r'bigota.d.miui.com/V.*?._images_.*?.tgz'
     matches = re.finditer(regex, content, re.MULTILINE)

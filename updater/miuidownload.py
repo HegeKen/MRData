@@ -14,7 +14,7 @@ for all in all_devices:
     response = requests.get(url, headers=headers)
     content = response.content.decode("utf8")
     t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    print(t+"\t"+url)
+    print("\r"+t+"\t"+url+"    ",end="")
     soup = BeautifulSoup(content,'lxml')
     lists = soup.find_all("a", attrs={"class" :"downloadbutton"})
     if len(lists) == 0 :
@@ -41,4 +41,5 @@ for all in all_devices:
               file.write(packname+"\n")
               file.close()
     response.close()
+  print("")
 devlist.close()

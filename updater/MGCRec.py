@@ -26,7 +26,7 @@ with open('static/data/updater/global.json', 'r', encoding='utf8')as devices:
         else:
           url = base_api + region + ahome + str(id)
         t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        print('\r'+t+"\t"+devicename+"("+devicecode+")\t"+url)
+        print('\r'+t+"\t"+"("+devicecode+")\t"+url+"     ",end="")
         response = requests.get(url, headers=headers)
         if (response.status_code != 404):
           content = response.content.decode("utf8")
@@ -46,5 +46,6 @@ with open('static/data/updater/global.json', 'r', encoding='utf8')as devices:
               print("\n在"+id+"("+devicename+")处发现疑似一条更新内容,机型名称"+devicename+"\t版本："+ver)
               file.close()
         response.close()
+    print("")
     devicedata.close()
 devices.close()
