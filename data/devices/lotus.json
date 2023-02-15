@@ -330,12 +330,6 @@
           "fastboot": "lotus_images_V10.2.2.0.OFICNXM_20190123.0000.00_8.1_cn_d2e152ddb1.tgz"
         },
         {
-          "miui": "V10.2.2.0.OFICNXM",
-          "android": "8.1",
-          "recovery": "miui_MIPLAY_V10.2.2.0.OFICNXM_872cbc67b0_8.1.zip",
-          "fastboot": "lotus_images_V10.2.2.0.OFICNXM_20190123.0000.00_8.1_cn_chinatelecom_582bb096ab.tgz"
-        },
-        {
           "miui": "V10.1.4.0.OFICNXM",
           "android": "8.1",
           "recovery": "miui_MIPLAY_V10.1.4.0.OFICNXM_b871b371c8_8.1.zip",
@@ -346,6 +340,20 @@
           "android": "8.1",
           "recovery": "miui_LOTUS_V10.1.3.0.OFICNFI_7bca7aff00_8.1.zip",
           "fastboot": "lotus_images_V10.1.3.0.OFICNFI_20181218.0000.00_8.1_cn_a4701eb1eb.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制稳定版",
+      "enname": "China Telecom Carrier Edition",
+      "links":[
+        {
+          "miui": "V10.2.2.0.OFICNXM",
+          "android": "8.1",
+          "recovery": "miui_MIPLAY_V10.2.2.0.OFICNXM_872cbc67b0_8.1.zip",
+          "fastboot": "lotus_images_V10.2.2.0.OFICNXM_20190123.0000.00_8.1_cn_chinatelecom_582bb096ab.tgz"
         }
       ]
     },

@@ -2645,12 +2645,6 @@
           "fastboot": "cepheus_images_V12.5.6.0.RFACNXM_20211125.0000.00_11.0_cn_8d261e6804.tgz"
         },
         {
-          "miui": "V12.5.6.0.RFACNXM",
-          "android": "11.0",
-          "recovery": "miui_CEPHEUS_V12.5.6.0.RFACNXM_5d1239a6d1_11.0.zip",
-          "fastboot": "cepheus_images_V12.5.6.0.RFACNXM_20211125.0000.00_11.0_cn_chinatelecom_e64cf22636.tgz"
-        },
-        {
           "miui": "V12.5.5.0.RFACNXM",
           "android": "11.0",
           "recovery": "miui_CEPHEUS_V12.5.5.0.RFACNXM_8ff260d251_11.0.zip",
@@ -2817,6 +2811,20 @@
           "android": "9.0",
           "recovery": "miui_CEPHEUS_V10.2.5.0.PFACNXM_64a26fe7ce_9.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制稳定版",
+      "enname": "China Telecom Carrier Edition",
+      "links":[
+        {
+          "miui": "V12.5.6.0.RFACNXM",
+          "android": "11.0",
+          "recovery": "miui_CEPHEUS_V12.5.6.0.RFACNXM_5d1239a6d1_11.0.zip",
+          "fastboot": "cepheus_images_V12.5.6.0.RFACNXM_20211125.0000.00_11.0_cn_chinatelecom_e64cf22636.tgz"
         }
       ]
     },

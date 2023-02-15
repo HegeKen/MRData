@@ -234,12 +234,6 @@
           "fastboot": "ingres_images_V14.0.7.0.TLJCNXM_20230109.0000.00_13.0_cn_dff7a11e60.tgz"
         },
         {
-          "miui": "V14.0.7.0.TLJCNXM",
-          "android": "13.0",
-          "recovery": "miui_INGRES_V14.0.7.0.TLJCNXM_ce83b806c9_13.0.zip",
-          "fastboot": "ingres_images_V14.0.7.0.TLJCNXM_20230109.0000.00_13.0_cn_chinatelecom_7b50de21e1.tgz"
-        },
-        {
           "miui": "V14.0.6.0.TLJCNXM",
           "android": "13.0",
           "recovery": "miui_INGRES_V14.0.6.0.TLJCNXM_de5b64e3e5_13.0.zip",
@@ -306,6 +300,20 @@
           "android": "12.0",
           "recovery": "miui_INGRES_V13.0.2.0.SLJCNXM_caf7a6d2e7_12.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制稳定版",
+      "enname": "China Telecom Carrier Edition",
+      "links":[
+        {
+          "miui": "V14.0.7.0.TLJCNXM",
+          "android": "13.0",
+          "recovery": "miui_INGRES_V14.0.7.0.TLJCNXM_ce83b806c9_13.0.zip",
+          "fastboot": "ingres_images_V14.0.7.0.TLJCNXM_20230109.0000.00_13.0_cn_chinatelecom_7b50de21e1.tgz"
         }
       ]
     },

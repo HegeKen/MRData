@@ -707,12 +707,6 @@
           "fastboot": "ursa_images_V12.5.3.0.QEHCNXM_20211028.0000.00_10.0_cn_9359431ffb.tgz"
         },
         {
-          "miui": "V12.5.3.0.QEHCNXM",
-          "android": "10.0",
-          "recovery": "miui_MI8Explorer_V12.5.3.0.QEHCNXM_f74f11c229_10.0.zip",
-          "fastboot": "ursa_images_V12.5.3.0.QEHCNXM_20211028.0000.00_10.0_cn_chinatelecom_4a31d29295.tgz"
-        },
-        {
           "miui": "V12.5.1.0.QEHCNXM",
           "android": "10.0",
           "recovery": "miui_MI8Explorer_V12.5.1.0.QEHCNXM_beebe10a4e_10.0.zip",
@@ -837,6 +831,20 @@
           "android": "8.1",
           "recovery": "miui_MI8Explorer_V9.6.5.0.OEHCNFD_3b412d7a4d_8.1.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制稳定版",
+      "enname": "China Telecom Carrier Edition",
+      "links":[
+        {
+          "miui": "V12.5.3.0.QEHCNXM",
+          "android": "10.0",
+          "recovery": "miui_MI8Explorer_V12.5.3.0.QEHCNXM_f74f11c229_10.0.zip",
+          "fastboot": "ursa_images_V12.5.3.0.QEHCNXM_20211028.0000.00_10.0_cn_chinatelecom_4a31d29295.tgz"
         }
       ]
     }

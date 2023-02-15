@@ -45,7 +45,7 @@
           "miui": "V14.0.18.0.TMNCNXM",
           "android": "13.0",
           "recovery": "miui_MONDRIAN_V14.0.18.0.TMNCNXM_083f307903_13.0.zip",
-          "fastboot": "mondrian_images_V14.0.18.0.TMNCNXM_20230111.0000.00_13.0_cn_chinatelecom_c08e1a0c22.tgz"
+          "fastboot": "mondrian_images_V14.0.18.0.TMNCNXM_20230111.0000.00_13.0_cn_def6aa6245.tgz"
         },
         {
           "miui": "V14.0.11.0.TMNCNXM",
@@ -56,16 +56,16 @@
       ]
     },
     {
-      "branch": "cnms",
-      "show": "0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制稳定版",
+      "enname": "China Telecom Carrier Edition",
+      "links":[
         {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
+          "miui": "V14.0.18.0.TMNCNXM",
+          "android": "13.0",
+          "recovery": "miui_MONDRIAN_V14.0.18.0.TMNCNXM_083f307903_13.0.zip",
+          "fastboot": "mondrian_images_V14.0.18.0.TMNCNXM_20230111.0000.00_13.0_cn_chinatelecom_c08e1a0c22.tgz"
         }
       ]
     },

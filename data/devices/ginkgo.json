@@ -1565,12 +1565,6 @@
           "fastboot": "ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn_5c9c74ecd8.tgz"
         },
         {
-          "miui": "V12.5.5.0.RCOCNXM",
-          "android": "11.0",
-          "recovery": "miui_GINKGO_V12.5.5.0.RCOCNXM_e8efe0e9bf_11.0.zip",
-          "fastboot": "ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn_chinatelecom_3ca4db2b12.tgz"
-        },
-        {
           "miui": "V12.5.4.0.RCOCNXM",
           "android": "11.0",
           "recovery": "miui_GINKGO_V12.5.4.0.RCOCNXM_7b06ce4b4d_11.0.zip",
@@ -1683,6 +1677,20 @@
           "android": "9.0",
           "recovery": "miui_GINKGO_V10.3.2.0.PCOCNXM_47241996dd_9.0.zip",
           "fastboot": "ginkgo_images_V10.3.2.0.PCOCNXM_20190902.0000.00_9.0_cn_081d389897.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制稳定版",
+      "enname": "China Telecom Carrier Edition",
+      "links":[
+        {
+          "miui": "V12.5.5.0.RCOCNXM",
+          "android": "11.0",
+          "recovery": "miui_GINKGO_V12.5.5.0.RCOCNXM_e8efe0e9bf_11.0.zip",
+          "fastboot": "ginkgo_images_V12.5.5.0.RCOCNXM_20220801.0000.00_11.0_cn_chinatelecom_3ca4db2b12.tgz"
         }
       ]
     },
