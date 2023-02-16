@@ -1,6 +1,7 @@
 import requests
 import json
 from bs4 import BeautifulSoup
+import time
 
 branches = ["beta","pilot"]
 devlist = open("static/data/updater/global.json", 'r', encoding='utf-8')
@@ -9,6 +10,8 @@ for all in all_devices:
   codename = all["code"]
   for branch in branches:
     url = "https://miuidownload.com/miui/"+codename+"/"+branch+"/"
+    t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    print("\r"+t+"\t"+url+"     ",end="")
     headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
     response = requests.get(url, headers=headers)
     content = response.content.decode("utf8")
@@ -20,7 +23,8 @@ for all in all_devices:
       for list in lists:
         rom_url = list.attrs['href']
         if(rom_url == ''):
-          print("未查询到刷机包数据\t机型代号："+codename+"\t链接："+url)
+          t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+          print("\r"+t+"\t"+url+"     分支未查询到刷机包数据",end="")
         else:
           if "blockota" in rom_url:
             i = 0
@@ -32,7 +36,8 @@ for all in all_devices:
             if packname in devdata.__str__():
               i = 0
             else:
-              print("尚未收录该本版")
+              t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+              print("\n"+t+"\t"+url+"     发现尚未收录本版",end="")
               filename = "static/data/updater/MDPilot.txt"
               file = open(filename, "a", encoding='utf-8')
               file.write(packname+"\n")

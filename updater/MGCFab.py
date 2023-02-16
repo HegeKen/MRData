@@ -26,6 +26,8 @@ for region in regions:
       checker = fastboot.split('_')[1]
       if codename == 'cannong':
         codename = 'cannon'
+      elif codename == 'camellian':
+        codename = 'camellia'
       else:
         i = 0
       if checker == 'c3l2':
