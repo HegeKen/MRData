@@ -64,3 +64,4 @@ current = ["thyme", "venus", "star", "renoir", "cupid", "zeus", "psyche", "daumi
 
 for device in current:
   getRom(device)
+  # print("\""+device.upper()+"\",",end="")

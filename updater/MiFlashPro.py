@@ -19,7 +19,6 @@ for all in all_devices:
       codename == "picasso_48m"
     else:
       i = 0
-    print(codename)
     if len(row[0].split('_')) >=2:
       checker = row[0].split('_')[1]
       if checker == '48m':

@@ -82,6 +82,12 @@
       "enname": "Global Stable",
       "links": [
         {
+          "miui": "V14.0.1.0.TKDMIXM",
+          "android": "13.0",
+          "recovery": "miui_VILIGlobal_V14.0.1.0.TKDMIXM_81b331177e_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V13.0.8.0.SKDMIXM",
           "android": "12.0",
           "recovery": "miui_VILIGlobal_V13.0.8.0.SKDMIXM_1418b16ec6_12.0.zip",
@@ -530,6 +536,34 @@
           "android": "11.0",
           "recovery": "miui_VILIJPGlobal_V12.5.1.0.RKDJPXM_9e5fd72522_11.0.zip",
           "fastboot": "vili_jp_global_images_V12.5.1.0.RKDJPXM_20211001.0000.00_11.0_global_fa1d1f0bc5.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "clen",
+      "show": "1",
+      "cnname": "哥伦比亚稳定版",
+      "enname": "Colombia Stable",
+      "links": [
+        {
+          "miui": "V12.5.4.0.RKDCLEN",
+          "android": "11.0",
+          "recovery": "miui_VILICLENGlobal_V12.5.4.0.RKDCLEN_b954d40269_11.0.zip",
+          "fastboot": "vili_cl_en_global_images_V12.5.4.0.RKDCLEN_20220106.0000.00_11.0_global_c1b0b96cf7.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥稳定版",
+      "enname": "Mexico Stable",
+      "links": [
+        {
+          "miui": "V12.5.3.0.RKDMXAT",
+          "android": "11.0",
+          "recovery": "miui_VILIMXATGlobal_V12.5.4.0.RKDMXAT_5c689ebb19_11.0.zip",
+          "fastboot": "vili_mx_at_global_images_V12.5.3.0.RKDMXAT_20220324.0000.00_11.0_global_6a851a0c5b.tgz"
         }
       ]
     }

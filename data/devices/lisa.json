@@ -1264,6 +1264,40 @@
           "fastboot": "lisa_tr_global_images_V12.5.1.0.RKOTRXM_20210911.0000.00_11.0_global_3e917dcb49.tgz"
         }
       ]
+    },
+    {
+      "branch": "clen",
+      "show": "1",
+      "cnname": "哥伦比亚稳定版",
+      "enname": "Colombia Stable",
+      "links": [
+        {
+          "miui": "V12.5.4.0.RKOCLEN",
+          "android": "11.0",
+          "recovery": "miui_LISACLENGlobal_V12.5.4.0.RKOCLEN_64a15df077_11.0.zip",
+          "fastboot": "lisa_cl_en_global_images_V12.5.4.0.RKOCLEN_20220401.0000.00_11.0_global_0891278232.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥稳定版",
+      "enname": "Mexico Stable",
+      "links": [
+        {
+          "miui": "V12.5.7.0.RKOMXTC",
+          "android": "11.0",
+          "recovery": "miui_LISAMXTCGlobal_V12.5.7.0.RKOMXTC_cea8940056_11.0.zip",
+          "fastboot": "lisa_mx_tc_global_images_V12.5.7.0.RKOMXTC_20220426.0000.00_11.0_global_524212103b.tgz"
+        },
+        {
+          "miui": "V12.5.4.0.RKOMXAT",
+          "android": "11.0",
+          "recovery": "miui_LISAMXATGlobal_V12.5.4.0.RKOMXAT_8ca531c022_11.0.zip",
+          "fastboot": "lisa_mx_at_global_images_V12.5.4.0.RKOMXAT_20220304.0000.00_11.0_global_7c85922cbf.tgz"
+        }
+      ]
     }
   ]
 }

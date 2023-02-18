@@ -312,6 +312,12 @@
       "enname": "Indonesia Stable",
       "links": [
         {
+          "miui": "V14.0.1.0.TKWIDXM",
+          "android": "13.0",
+          "recovery": "miui_AGATEIDGlobal_V14.0.1.0.TKWIDXM_6402839a82_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V13.0.4.0.SKWIDXM",
           "android": "12.0",
           "recovery": "miui_AGATEIDGlobal_V13.0.4.0.SKWIDXM_aa80f26d89_12.0.zip",
@@ -384,6 +390,34 @@
           "android": "11.0",
           "recovery": "miui_AGATETRGlobal_V12.5.1.0.RKWTRXM_fa2c6db972_11.0.zip",
           "fastboot": "agate_tr_global_images_V12.5.1.0.RKWTRXM_20210922.0000.00_11.0_global_9d43a46c1e.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "clen",
+      "show": "1",
+      "cnname": "哥伦比亚稳定版",
+      "enname": "Colombia Stable",
+      "links": [
+        {
+          "miui": "V12.5.2.0.RKWCLEN",
+          "android": "11.0",
+          "recovery": "miui_AGATECLENGlobal_V12.5.2.0.RKWCLEN_074559bdd8_11.0.zip",
+          "fastboot": "agate_cl_en_global_images_V12.5.2.0.RKWCLEN_20220329.0000.00_11.0_global_a3088726b7.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥稳定版",
+      "enname": "Mexico Stable",
+      "links": [
+        {
+          "miui": "V12.5.3.0.RKWMXAT",
+          "android": "11.0",
+          "recovery": "miui_AGATEMXATGlobal_V12.5.3.0.RKWMXAT_c87966c0da_11.0.zip",
+          "fastboot": "agate_mx_at_global_images_V12.5.3.0.RKWMXAT_20220317.0000.00_11.0_global_e92ea74dde.tgz"
         }
       ]
     }

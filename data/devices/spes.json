@@ -246,6 +246,40 @@
       ]
     },
     {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥稳定版",
+      "enname": "Mexico Stable",
+      "links": [
+        {
+          "miui": "V13.0.5.0.RGCLMCR",
+          "android": "11.0",
+          "recovery": "miui_SPESLMCRGlobal_V13.0.5.0.RGCLMCR_a3eff381be_11.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.1.0.RGCLMCR",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "spes_lm_cr_global_images_V13.0.1.0.RGCLMCR_20220216.0000.00_11.0_global_00f659e888.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V13.0.5.0.RGCMXAT",
+          "android": "11.0",
+          "recovery": "miui_SPESMXATGlobal_V13.0.5.0.RGCMXAT_158f2aa8db_11.0.zip",
+          "fastboot": "spes_mx_at_global_images_V13.0.5.0.RGCMXAT_20220816.0000.00_11.0_global_482b4839ad.tgz"
+        }
+      ]
+    },
+    {
       "branch": "japs",
       "show": "0",
       "cnname": "日本稳定版",

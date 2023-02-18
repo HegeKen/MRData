@@ -22,11 +22,12 @@ full = ["ANGELICAIN", "FROST", "ICE", "BERYLLIUM", "SHIVA", "GRAM", "CITRUS", "E
         "VIOLET", "GINKGO", "BILOBA", "BEGONIA", "BEGONIAIN", "WILLOW", "LIME", "CANNON", "GAUGUIN", "EXCALIBUR", "CURTANA", "CANNONG",
         "SPES", "SELENES", "EVERGO", "SPESN", "VIVA", "PISSARRO", "LIGHT", "VEUX", "FLEUR", "XAGA", "SUNSTONE", "RUBY", "REDWOOD", "JOYEUSE",
         "OMEGA", "YSL", "ONC", "YUNLUO", "ARMANI", "WT88047", "WT86047"]
-current = ["HM2013023","HM2014011","HM2014501"]
+current = ["THYME","VENUS","STAR","RENOIR","CUPID","ZEUS","PSYCHE","DAUMIER","MAYFLY","UNICORN","THOR","FUXI","NUWA","CETUS","ODIN","ZIZHAN","NABU","ELISH","ENUMA",
+           "DAGU","MONA","ZIJIN","CHOPIN","PISSARRO","XAGA","ALIOTH","HAYDN","ARES","MUNCH","RUBENS","MATISSE","INGRES","DITING","MONDRIAN","SOCRATES"]
 branches = ["0", "1", "1b"]
 
 st = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-for device in full:
+for device in current:
     for branch in branches:
         payload = (('dh', device), ('lx', branch))
         t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
