@@ -27,7 +27,7 @@ current = ["THYME","VENUS","STAR","RENOIR","CUPID","ZEUS","PSYCHE","DAUMIER","MA
 branches = ["0", "1", "1b"]
 
 st = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-for device in current:
+for device in full:
     for branch in branches:
         payload = (('dh', device), ('lx', branch))
         t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
