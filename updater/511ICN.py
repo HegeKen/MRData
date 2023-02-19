@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 import re
 import time
 
-headers = {"user-agent": "Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36 Edg/110.0.0.0"}
+headers = {
+    "user-agent": "Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36 Edg/110.0.0.0"}
 url = "http://miui.511i.cn/?index=rom_list"
 full = ["ANGELICAIN", "FROST", "ICE", "BERYLLIUM", "SHIVA", "GRAM", "CITRUS", "EVERGREEN", "ROCK", "ROSEMARYP", "PHOENIXIN", "SURYA", "VAYU",
         "MOONSTONE", "UMI", "MONET", "CMI", "CAS", "VANGOGH", "THYME", "VENUS", "COURBET", "STAR", "RENOIR", "AGATE", "VILI", "LISA",
@@ -22,16 +23,21 @@ full = ["ANGELICAIN", "FROST", "ICE", "BERYLLIUM", "SHIVA", "GRAM", "CITRUS", "E
         "VIOLET", "GINKGO", "BILOBA", "BEGONIA", "BEGONIAIN", "WILLOW", "LIME", "CANNON", "GAUGUIN", "EXCALIBUR", "CURTANA", "CANNONG",
         "SPES", "SELENES", "EVERGO", "SPESN", "VIVA", "PISSARRO", "LIGHT", "VEUX", "FLEUR", "XAGA", "SUNSTONE", "RUBY", "REDWOOD", "JOYEUSE",
         "OMEGA", "YSL", "ONC", "YUNLUO", "ARMANI", "WT88047", "WT86047"]
-current = ["THYME","VENUS","STAR","RENOIR","CUPID","ZEUS","PSYCHE","DAUMIER","MAYFLY","UNICORN","THOR","FUXI","NUWA","CETUS","ODIN","ZIZHAN","NABU","ELISH","ENUMA",
-           "DAGU","MONA","ZIJIN","CHOPIN","PISSARRO","XAGA","ALIOTH","HAYDN","ARES","MUNCH","RUBENS","MATISSE","INGRES","DITING","MONDRIAN","SOCRATES"]
+current = ["MONET", "CMI", "CAS", "VANGOGH", "THYME", "VENUS", "STAR", "RENOIR", "COURBET", "AGATE", "VILI", "LISA", "CUPID", "ZEUS", "PSYCHE", "DAUMIER",
+           "MAYFLY", "UNICORN", "THOR", "FUXI", "NUWA", "CETUS", "ODIN", "ZIZHAN", "NABU", "ELISH", "ENUMA","DAGU", "MONA", "ZIJIN", "ZIYI", "SELENE", "DANDELION",
+           "FOG", "MERLIN", "ATOM", "BOMB", "EARTH", "ANGELICA", "ANGELICAN", "MOJITO", "CAMELLIA", "CAMELLIAN", "SWEET", "CHOPIN", "ROSEMARY","LILAC", "BILOBA",
+           "WILLOW", "LIME", "CANNON", "GAUGUIN", "EXCALIBUR", "CURTANA", "CANNONG", "SPES", "SELENES", "EVERGO", "SPESN", "VIVA", "VEUX", "FLEUR", "CHOPIN",
+           "PISSARRO", "XAGA", "SUNSTONE", "RUBY", "REDWOOD", "JOYEUSE", "PHOENIX", "PICASSO", "LMI", "CEZANNE", "PICASSO48M", "APOLLO", "ALIOTH", "HAYDN", "ARES",
+           "MUNCH", "RUBENS", "MATISSE", "INGRES", "DITING", "MONDRIAN", "SOCRATES", "REMBRANDT", "FROST", "ICE", "SHIVA", "GRAM", "CITRUS", "EVERGREEN", "ROCK",
+           "ROSEMARYP", "SURYA", "VAYU","MOONSTONE"]
 branches = ["0", "1", "1b"]
 
 st = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-for device in full:
+for device in current:
     for branch in branches:
         payload = (('dh', device), ('lx', branch))
         t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        print(t+"机型："+device+"分支："+branch)
+        print(t+"\t机型："+device+"\t分支："+branch)
         response = requests.post(url, data=payload, headers=headers)
         content = response.content.decode("utf8")
         soup = BeautifulSoup(content, 'lxml')
@@ -42,50 +48,53 @@ for device in full:
             matches = re.finditer(regex, rom_url, re.MULTILINE)
             for match in matches:
                 if device == "ROSEMARYP":
-                  device = "ROSEMARY_P"
+                    device = "ROSEMARY_P"
                 elif device == "PHOENIXIN":
-                  device = "PHOENIX"
+                    device = "PHOENIX"
                 elif device == "MIONE":
-                  device = "MIONE_PLUS"
+                    device = "MIONE_PLUS"
                 elif device == "IDO":
-                  device = "IDO_XHDPI"
+                    device = "IDO_XHDPI"
                 elif device == "ANGELICAN":
-                  device = "ANGELICA"
+                    device = "ANGELICA"
                 elif device == "DAVINCIIN":
-                  device = "DAVINCI"
+                    device = "DAVINCI"
                 elif device == "RAPHAELIN":
-                  device = "RAPHAEL"
+                    device = "RAPHAEL"
                 elif device == "PICASSO48M":
-                  device = "PICASSO_48M"
+                    device = "PICASSO_48M"
                 elif device == "LCSH92":
-                  device = "LCSH92_WET_JB9"
+                    device = "LCSH92_WET_JB9"
                 elif device == "CAMELLIAN":
-                  device = "CAMELLIA"
+                    device = "CAMELLIA"
                 elif device == "BEGONIAIN":
-                  device = "BEGONIA"
+                    device = "BEGONIA"
                 elif device == "CANNONG":
-                  device = "CANNON"
+                    device = "CANNON"
                 elif device == "SELENES":
-                  device = "SELENE"
+                    device = "SELENE"
                 else:
-                  i = 0
+                    i = 0
                 codename = device.lower()
                 recovery = match.group()
                 android = recovery.split('_')[4].strip(".zip")
                 ver = recovery.split('_')[2]
-                devicedata = open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8')
+                devicedata = open("static/data/data/devices/" +
+                                  codename+".json", 'r', encoding='utf-8')
                 devdata = json.loads(devicedata.read())
                 if recovery in devdata.__str__():
-                  i = 0
+                    i = 0
                 else:
-                  datas = {'code':codename,'miui': ver, 'android': android, 'recovery':recovery,'fastboot':""}
-                  file = open("static/data/updater/511CN.json", "a", encoding='utf-8')
-                  person_json = json.dumps(datas,ensure_ascii=False)
-                  file.write(person_json+",")
-                  file.close()
-                  print("\r"+recovery+"                              ")
+                    datas = {'code': codename, 'miui': ver,
+                             'android': android, 'recovery': recovery, 'fastboot': ""}
+                    file = open("static/data/updater/511CN.json",
+                                "a", encoding='utf-8')
+                    person_json = json.dumps(datas, ensure_ascii=False)
+                    file.write(person_json+",")
+                    file.close()
+                    print("\r"+recovery+"                              ")
                 devicedata.close()
         response.close
-        time.sleep(5)
+        # time.sleep(5)
 et = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 print(st + "\t" + et)

@@ -15,14 +15,16 @@ for all in all_devices:
     codename = row[0].split('_')[0]
     if codename == "camellian":
       codename == "camellia"
-    elif codename == "picasso_48m_pre":
-      codename == "picasso_48m"
     else:
       i = 0
     if len(row[0].split('_')) >=2:
       checker = row[0].split('_')[1]
       if checker == '48m':
         codename = "picasso_48m"
+      elif checker == 'c3l2':
+        codename = "dandelion_c3l2"
+      elif checker == 'pro':
+        codename = row[0].split('_')[0]+"_pro"
       else:
         i = 0
       fread = open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8')
