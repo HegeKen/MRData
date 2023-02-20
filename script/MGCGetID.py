@@ -24,7 +24,7 @@ for id in range(int(start),int(end)):
       did = json.loads(content)
       device_name = did["data"]["device_data"]["phone_name"]
       if (device_name != ""):
-          filename = "static/data/updater/deviceIDs.txt"
+          filename = "static/data/script/MGCGetID.txt"
           file = open(filename, "a", encoding='utf-8')
           file.write("机型ID:"+str(devid)+"\t机型名称:"+device_name+"\n")
           file.close()

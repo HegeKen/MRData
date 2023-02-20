@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import time
 
 def getRom(codename):
-  devlist = open("static/data/updater/devices.json", 'r', encoding='utf-8')
-  all_devices = json.loads(devlist.read())["devices"]
+  devlist = open("static/data/script/MD.json", 'r', encoding='utf-8')
+  all_devices = json.loads(devlist.read())["beta"]
   for all in all_devices:
     code = all["code"]
     if code==codename:
@@ -42,7 +42,7 @@ def getRom(codename):
               i = 0
             else:
               print("尚未收录该本版,版本为："+v+"\t机型："+cname+"("+codename+")")
-              filename = "static/data/updater/MDBeta.json"
+              filename = "static/data/script/MDBeta.json"
               file = open(filename, "a", encoding='utf-8')
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': android, 'recovery':recovery,'fastboot':""}
               person_json = json.dumps(datas,ensure_ascii=False)

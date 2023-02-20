@@ -21,7 +21,7 @@ def getFb(soup):
       if fastboot in devdata.__str__():
         i=0
       else:
-        file = open("static/data/updater/QQDoc.txt", "a", encoding='utf-8')
+        file = open("static/data/script/QQDoc.txt", "a", encoding='utf-8')
         file.write(fastboot+"\n")
         file.close()
         print("发现"+codename+"线刷包有新版本，版本号：->"+ver)
@@ -39,7 +39,7 @@ def getRec(soup):
     if recovery in devdata.__str__():
       i=0
     else:
-      file = open("static/data/updater/QQDoc.txt", "a", encoding='utf-8')
+      file = open("static/data/script/QQDoc.txt", "a", encoding='utf-8')
       file.write(recovery+"\n")
       file.close()
       print("发现"+codename+"卡刷包有新版本，版本号：->"+ver)
