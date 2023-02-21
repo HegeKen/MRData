@@ -1,10 +1,11 @@
 import requests
 import json
+import time
 
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
 domains = ["https://sgp-api.buy.mi.com/bbs/api/","https://ams-api.buy.mi.com/bbs/api/"]
 params = "/phone/getlinepackagelist"
-regions = ["global","bd","id","my","pk","ph","tr","vn","th","de","es","fr","it","pl","rs","uk","ru","ua","mie","br","co","mx","pe","cl","ng","eg"]
+regions = ["bd","id","my","pk","ph","tr","vn","th","de","es","fr","it","pl","rs","uk","ru","ua","mie","br","co","mx","pe","cl","ng","eg"]
 
 
 
@@ -41,7 +42,10 @@ def getFastboot(region):
 
 
 
+
+
+getFastboot("global")
+# time.sleep(60)
+
 for region in regions:
   getFastboot(region)
-
-# getFastboot("global")

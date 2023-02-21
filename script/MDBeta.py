@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import time
 
 def getRom(codename):
-  devlist = open("static/data/script/MD.json", 'r', encoding='utf-8')
-  all_devices = json.loads(devlist.read())["beta"]
+  devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+  all_devices = json.loads(devlist.read())["MDbeta"]
   for all in all_devices:
     code = all["code"]
     if code==codename:
