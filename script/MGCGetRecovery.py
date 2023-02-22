@@ -46,7 +46,7 @@ def getRec(region):
       else:
         i = 0
 
-getRec("global")
+# getRec("global")
 
 for region in regions:
   getRec(region)

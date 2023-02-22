@@ -36,12 +36,10 @@ st = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 for device in current:
     for branch in branches:
       payload = (('dh', device), ('lx', branch))
-      print(payload)
-      response = requests.post(url, data=payload, headers=headers, timeout=5)
+      response = requests.post(url, data=payload, headers=headers, timeout=10)
       content = response.content.decode("utf8")
       soup = BeautifulSoup(content, 'lxml')
       lists = soup.find_all("a")
-      print(response)
       t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
       print(t+"\t机型："+device+"\t分支："+branch)
       for list in lists:

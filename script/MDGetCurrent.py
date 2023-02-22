@@ -21,7 +21,7 @@ for all in all_devices:
     for list in lists:
       rom_url = list.attrs['href']
       if(rom_url == ''):
-        print("\n未查询到刷机包数据\t机型代号："+codename+"\t链接："+url)
+        i = 0
       else:
         if "blockota" in rom_url:
           i = 0
