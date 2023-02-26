@@ -5,8 +5,8 @@
   "newDeviceCn": "POCO X5 5G",
   "newDeviceEn": "POCO X5 5G",
   "log": [],
-  "period": "2023W08(2023.02.20-2023.02.26)",
-  "stdate": "2023W08(2023.02.25)",
+  "period": "2023W08(2023.02.27-2023.03.05)",
+  "stdate": "2023W08(2023.02.20-2023.02.26)",
   "stable": [
     {
       "code": "renoir",
@@ -18,19 +18,25 @@
       "code": "lisa",
       "NameCn": "小米 11 青春活力版",
       "NameEn": "Mi 11 LE/Xiaomi 11 Lite 5G NE",
-      "rom": "V14.0.6.0.TKOCNXM;V14.0.2.0.TKOTWXM"
+      "rom": "V14.0.6.0.TKOCNXM;V14.0.2.0.TKOTWXM;V14.0.2.0.TKOTRXM"
+    },
+    {
+      "code": "cupid",
+      "NameCn": "小米 12",
+      "NameEn": "Xiaomi 12",
+      "rom": "V14.0.6.0.TLCCNXM"
     },
     {
       "code": "zeus",
       "NameCn": "小米 12 Pro",
       "NameEn": "Xiaomi 12 Pro",
-      "rom": "V14.0.1.0.TLBTWXM"
+      "rom": "V14.0.12.0.TLBCNXM;V14.0.1.0.TLBTWXM;V14.0.1.0.TLBIDXM"
     },
     {
       "code": "psyche",
       "NameCn": "小米 12X",
       "NameEn": "Xiaomi 12X",
-      "rom": "V14.0.7.0.TLDCNXM"
+      "rom": "V14.0.7.0.TLDCNXM;V14.0.8.0.TLDCNXM"
     },
     {
       "code": "mayfly",
@@ -60,7 +66,13 @@
       "code": "plato",
       "NameCn": "小米 12T",
       "NameEn": "Xiaomi 12T",
-      "rom": "V14.0.1.0.TLQIDXM"
+      "rom": "V13.0.7.0.SLQIDXM;V14.0.1.0.TLQIDXM"
+    },
+    {
+      "code": "nabu",
+      "NameCn": "小米平板 5",
+      "NameEn": "Xiaomi Pad 5",
+      "rom": "V13.1.6.0.SKXRUXM"
     },
     {
       "code": "mona",
@@ -91,6 +103,12 @@
       "NameCn": "Redmi 12C",
       "NameEn": "Redmi 12C",
       "rom": "V13.0.5.0.SCVCNXM"
+    },
+    {
+      "code": "lime",
+      "NameCn": "Redmi Note 9 4G",
+      "NameEn": "Redmi Note 9 4G",
+      "rom": "V14.0.1.0.SJQCNXM"
     },
     {
       "code": "gauguin",
@@ -153,10 +171,16 @@
       "rom": "V13.0.3.0.SGKEUXM"
     },
     {
+      "code": "light",
+      "NameCn": "Redmi Note 11E/11R",
+      "NameEn": "Redmi Note 11E/11R",
+      "rom": "V13.0.18.0.SLSCNXM"
+    },
+    {
       "code": "sunstone",
       "NameCn": "Redmi Note 12",
       "NameEn": "Redmi Note 12",
-      "rom": "V13.0.18.0.SLSCNXM;V13.0.7.0.SMQINXM"
+      "rom": "V13.0.7.0.SMQINXM"
     },
     {
       "code": "redwood",
