@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_HM6ProINGlobal_V12.0.4.0.PDMMIXM_ad48898cf1_9.0.zip",
@@ -937,6 +934,20 @@
           "android": "8.1",
           "recovery": "miui_HM6Global_V9.6.4.0.OCGMIFD_fb107cc63b_8.1.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "eusf",
+      "show": "0",
+      "cnname": "欧洲斯洛伐克（？）稳定版",
+      "enname": "Europe Slovakia(??) Stable",
+      "links": [
+        {
+          "miui": "V10.2.5.0.OCGEUSF",
+          "android": "8.1",
+          "recovery": "",
+          "fastboot": "cereus_eea_sf_global_images_V10.2.5.0.OCGEUSF_20190409.0000.00_8.1_global_a941bb9bee.tgz"
         }
       ]
     },

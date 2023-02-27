@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_CATTAILINGlobal_V12.0.18.0.QCTINXM_9eefea9735_10.0.zip",
@@ -2314,11 +2311,31 @@
       ]
     },
     {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.5.10.0.RJQMXTC",
+          "android": "11.0",
+          "recovery": "miui_LIMEMXTCGlobal_V12.5.10.0.RJQMXTC_db62514822_11.0.zip",
+          "fastboot": "lime_mx_tc_global_images_V12.5.10.0.RJQMXTC_20230203.0000.00_11.0_global_b69a6230a0.tgz"
+        }
+      ]
+    },
+    {
       "branch": "lmcr",
-      "show": "0",
+      "show": "1",
       "cnname": "哥斯达黎加稳定版",
       "enname": "Costa Rica Stable",
       "links": [
+        {
+          "miui": "V12.5.10.0.RJQLMCR",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "lime_lm_cr_global_images_V12.5.10.0.RJQLMCR_20230131.0000.00_11.0_global_f3b540bf2b.tgz"
+        },
         {
           "miui": "V12.0.4.0.QJQLMCR",
           "android": "10.0",

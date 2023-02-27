@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_CITRUSEEAGlobal_V13.0.1.0.SJFEUXM_b5d2eeb772_12.0.zip",
@@ -1101,6 +1098,20 @@
       ]
     },
     {
+      "branch": "stde",
+      "show": "0",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V13.0.23.2.17.EP.STDEE.K19",
+          "android": "",
+          "recovery": "miui_CAMELLIAEPSTDEE_V13.0.23.2.17.EP.STDEE.K19_31e78c192d_12.0.zip",
+          "fastboot": "camellia_ep_stdee_images_V13.0.23.2.17.EP.STDEE.K19_20230217.0000.00_12.0_cn_a77a67e749.tgz"
+        }
+      ]
+    },
+    {
       "branch": "cntw",
       "show": "1",
       "cnname": "中国台湾地区稳定版",
@@ -1607,11 +1618,45 @@
       ]
     },
     {
+      "branch": "thas",
+      "show": "1",
+      "cnname": "泰国AIS稳定版",
+      "enname": "Thailand Stable AIS Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SKSTHAS",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIANTHASGlobal_V13.0.2.0.SKSTHAS_d74b5b86e0_12.0.zip",
+          "fastboot": "camellian_th_as_global_images_V13.0.2.0.SKSTHAS_20221122.0000.00_12.0_global_c982b01ad9.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "clen",
+      "show": "1",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.0.2.0.RKSCLEN",
+          "android": "11.0",
+          "recovery": "miui_CAMELLIANCLENGlobal_V12.0.2.0.RKSCLEN_bbc1c6a806_11.0.zip",
+          "fastboot": "camellian_cl_en_global_images_V12.0.2.0.RKSCLEN_20210726.0000.00_11.0_global_adfa65c612.tgz"
+        }
+      ]
+    },
+    {
       "branch": "lmcr",
       "show": "1",
       "cnname": "哥斯达黎加稳定版",
       "enname": "Costa Rica Stable",
       "links": [
+        {
+          "miui": "V13.0.2.0.SKSLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_lm_cr_global_images_V13.0.2.0.SKSLMCR_20230130.0000.00_12.0_global_8322352658.tgz"
+        },
         {
           "miui": "V12.0.10.0.RKSLMCR",
           "android": "11.0",
@@ -1623,6 +1668,20 @@
           "android": "11.0",
           "recovery": "",
           "fastboot": "camellian_lm_cr_global_images_V12.0.1.0.RKSLMCR_20210521.0000.00_11.0_global_4aa77a03c5.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.5.10.0.RKSMXAT",
+          "android": "11.0",
+          "recovery": "miui_CAMELLIANMXATGlobal_V12.5.10.0.RKSMXAT_b505fe18e3_11.0.zip",
+          "fastboot": "camellian_mx_at_global_images_V12.5.10.0.RKSMXAT_20221206.0000.00_11.0_global_70b4427da7.tgz"
         }
       ]
     }

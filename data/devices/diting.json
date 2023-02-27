@@ -322,16 +322,50 @@
       ]
     },
     {
+      "branch": "clen",
+      "show": "1",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.1.0.SLFCLEN",
+          "android": "12.0",
+          "recovery": "miui_DITINGCLENGlobal_V13.0.1.0.SLFCLEN_a1f5bff4ac_12.0.zip",
+          "fastboot": "diting_cl_en_global_images_V13.0.1.0.SLFCLEN_20220819.0000.00_12.0_global_2366bdaaa8.tgz"
+        }
+      ]
+    },
+    {
       "branch": "lmcr",
       "show": "1",
       "cnname": "哥斯达黎加稳定版",
       "enname": "Costa Rica Stable",
       "links": [
         {
+          "miui": "V13.0.6.0.SLFLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "diting_lm_cr_global_images_V13.0.6.0.SLFLMCR_20230208.0000.00_12.0_global_4491b8c89a.tgz"
+        },
+        {
           "miui": "V13.0.4.0.SLFLMCR",
           "android": "12.0",
           "recovery": "miui_DITINGLMCRGlobal_V13.0.4.0.SLFLMCR_89af77ef25_12.0.zip",
           "fastboot": "diting_lm_cr_global_images_V13.0.4.0.SLFLMCR_20221130.0000.00_12.0_global_28b1f562bd.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.3.0.SLFMXAT",
+          "android": "12.0",
+          "recovery": "miui_DITINGMXATGlobal_V13.0.3.0.SLFMXAT_969aa23ec4_12.0.zip",
+          "fastboot": "diting_mx_at_global_images_V13.0.3.0.SLFMXAT_20221107.0000.00_12.0_global_c8bfb9e698.tgz"
         }
       ]
     },

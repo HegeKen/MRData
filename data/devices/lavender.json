@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_VIOLETINGlobal_V12.5.1.0.QFHINXM_125bf9d2a7_10.0.zip"
@@ -2265,6 +2262,20 @@
           "android": "9.0",
           "recovery": "miui_LAVENDERINGlobal_V10.2.10.0.PFGINXM_ced65b4198_9.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.0.2.0.QFGMXTC",
+          "android": "10.0",
+          "recovery": "miui_LAVENDERMXTCGlobal_V12.0.2.0.QFGMXTC_4a7ef61a76_10.0.zip",
+          "fastboot": "lavender_mx_tc_global_images_V12.0.2.0.QFGMXTC_20210831.0000.00_10.0_global_68e9038946.tgz"
         }
       ]
     }

@@ -188,19 +188,33 @@
     {
       "branch": "clen",
       "show": "1",
-      "cnname": "哥伦比亚稳定版",
-      "enname": "Colombia Stable",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SLQCLEN",
+          "android": "12.0",
+          "recovery": "miui_PLATOCLENGlobal_V13.0.2.0.SLQCLEN_b4d432ccb9_12.0.zip",
+          "fastboot": "plato_cl_en_global_images_V13.0.2.0.SLQCLEN_20220826.0000.00_12.0_global_141517ccd4.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "0",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
       "links": [
         {
           "miui": "V13.0.5.0.SLQLMCR",
           "android": "12.0",
           "recovery": "miui_PLATOLMCRGlobal_V13.0.5.0.SLQLMCR_dc78857587_12.0.zip",
-          "fastboot": ""
+          "fastboot": "plato_lm_cr_global_images_V13.0.5.0.SLQLMCR_20230111.0000.00_12.0_global_3dc930bbd3.tgz"
         },
         {
           "miui": "V13.0.3.0.SLQLMCR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_PLATOLMCRGlobal_V13.0.3.0.SLQLMCR_1e89b6f519_12.0.zip",
           "fastboot": "plato_lm_cr_global_images_V13.0.3.0.SLQLMCR_20221111.0000.00_12.0_global_e15942b500.tgz"
         }
       ]

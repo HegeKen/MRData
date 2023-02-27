@@ -698,8 +698,8 @@
     {
       "branch": "clen",
       "show": "1",
-      "cnname": "哥伦比亚稳定版",
-      "enname": "Colombia Stable",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.3.0.SKFCLEN",
@@ -712,32 +712,14 @@
     {
       "branch": "mxtc",
       "show": "1",
-      "cnname": "墨西哥稳定版",
-      "enname": "Mexico Stable",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
-        {
-          "miui": "V13.0.6.0.SKFMXAT",
-          "android": "12.0",
-          "recovery": "miui_SWEETMXATGlobal_V13.0.6.0.SKFMXAT_5dfb9a188b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.0.SKFMXAT",
-          "android": "12.0",
-          "recovery": "miui_SWEETMXATGlobal_V13.0.5.0.SKFMXAT_ce5b87106f_12.0.zip",
-          "fastboot": ""
-        },
         {
           "miui": "V13.0.4.0.SKFMXTC",
           "android": "12.0",
           "recovery": "miui_SWEETMXTCGlobal_V13.0.4.0.SKFMXTC_4cc294c160_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.0.SKFMXAT",
-          "android": "12.0",
-          "recovery": "miui_SWEETMXATGlobal_V13.0.4.0.SKFMXAT_982d7d7405_12.0.zip",
-          "fastboot": "sweet_mx_at_global_images_V13.0.4.0.SKFMXAT_20220904.0000.00_12.0_global_dc7b726646.tgz"
+          "fastboot": "sweet_mx_tc_global_images_V13.0.4.0.SKFMXTC_20221223.0000.00_12.0_global_baa4315b9d.tgz"
         },
         {
           "miui": "V13.0.1.0.SKFMXTC",
@@ -748,11 +730,43 @@
       ]
     },
     {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.6.0.SKFMXAT",
+          "android": "12.0",
+          "recovery": "miui_SWEETMXATGlobal_V13.0.6.0.SKFMXAT_5dfb9a188b_12.0.zip",
+          "fastboot": "sweet_mx_at_global_images_V13.0.6.0.SKFMXAT_20230113.0000.00_12.0_global_d7f39348ca.tgz"
+        },
+        {
+          "miui": "V13.0.5.0.SKFMXAT",
+          "android": "12.0",
+          "recovery": "miui_SWEETMXATGlobal_V13.0.5.0.SKFMXAT_ce5b87106f_12.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V13.0.4.0.SKFMXAT",
+          "android": "12.0",
+          "recovery": "miui_SWEETMXATGlobal_V13.0.4.0.SKFMXAT_982d7d7405_12.0.zip",
+          "fastboot": "sweet_mx_at_global_images_V13.0.4.0.SKFMXAT_20220904.0000.00_12.0_global_dc7b726646.tgz"
+        }
+      ]
+    },
+    {
       "branch": "lmcr",
       "show": "1",
       "cnname": "哥斯达黎加稳定版",
       "enname": "Costa Rica Stable",
       "links": [
+        {
+          "miui": "V13.0.6.0.SKFLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "sweet_lm_cr_global_images_V13.0.6.0.SKFLMCR_20230131.0000.00_12.0_global_f724738042.tgz"
+        },
         {
           "miui": "V12.0.8.0.RKFLMCR",
           "android": "11.0",

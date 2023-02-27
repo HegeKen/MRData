@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_SPESNEEAGlobal_V13.0.2.0.SGKEUXM_2631bbbf43_12.0.zip",
@@ -39,7 +36,7 @@
           "miui": "V13.0.7.0.SGCMIXM",
           "android": "12.0",
           "recovery": "miui_SPESGlobal_V13.0.7.0.SGCMIXM_ea2b9951b7_12.0.zip",
-          "fastboot": ""
+          "fastboot": "spes_global_images_V13.0.7.0.SGCMIXM_20230206.0000.00_12.0_global_4049070477.tgz"
         },
         {
           "miui": "V13.0.6.0.SGCMIXM",
@@ -246,10 +243,24 @@
       ]
     },
     {
+      "branch": "clen",
+      "show": "1",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.1.0.SGCCLEN",
+          "android": "12.0",
+          "recovery": "miui_SPESCLENGlobal_V13.0.1.0.SGCCLEN_d4a95612a6_12.0.zip",
+          "fastboot": "spes_cl_en_global_images_V13.0.1.0.SGCCLEN_20221019.0000.00_12.0_global_a4e61efc42.tgz"
+        }
+      ]
+    },
+    {
       "branch": "mxtc",
       "show": "1",
-      "cnname": "墨西哥稳定版",
-      "enname": "Mexico Stable",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.5.0.RGCLMCR",
@@ -266,16 +277,50 @@
       ]
     },
     {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SGCMXAT",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "spes_mx_at_global_images_V13.0.2.0.SGCMXAT_20221225.0000.00_12.0_global_919d70db36.tgz"
+        },
+        {
+          "miui": "V13.0.5.0.RGCMXAT",
+          "android": "11.0",
+          "recovery": "miui_SPESMXATGlobal_V13.0.5.0.RGCMXAT_158f2aa8db_11.0.zip",
+          "fastboot": "spes_mx_at_global_images_V13.0.5.0.RGCMXAT_20220816.0000.00_11.0_global_482b4839ad.tgz"
+        }
+      ]
+    },
+    {
       "branch": "lmcr",
       "show": "1",
       "cnname": "哥斯达黎加稳定版",
       "enname": "Costa Rica Stable",
       "links": [
         {
-          "miui": "V13.0.5.0.RGCMXAT",
+          "miui": "V13.0.1.0.SGCLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "spes_lm_cr_global_images_V13.0.1.0.SGCLMCR_20230103.0000.00_12.0_global_c338457dac.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmms",
+      "show": "0",
+      "cnname": "蒙特塞拉特(??)稳定版",
+      "enname": "Montserrat(??) Stable",
+      "links": [
+        {
+          "miui": "V13.0.5.0.RGCLMMS",
           "android": "11.0",
-          "recovery": "miui_SPESMXATGlobal_V13.0.5.0.RGCMXAT_158f2aa8db_11.0.zip",
-          "fastboot": "spes_mx_at_global_images_V13.0.5.0.RGCMXAT_20220816.0000.00_11.0_global_482b4839ad.tgz"
+          "recovery": "miui_SPESLMMSGlobal_V13.0.5.0.RGCLMMS_d62dfe66de_11.0.zip",
+          "fastboot": "spes_lm_ms_global_images_V13.0.5.0.RGCLMMS_20221115.0000.00_11.0_global_cf5dc617b5.tgz"
         }
       ]
     },

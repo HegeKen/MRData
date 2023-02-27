@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_CATTAILINGlobal_V12.0.18.0.QCTINXM_9eefea9735_10.0.zip",
@@ -862,6 +859,34 @@
       ]
     },
     {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.0.12.0.QCDMXTC",
+          "android": "10.0",
+          "recovery": "miui_DANDELIONMXTCGlobal_V12.0.12.0.QCDMXTC_cc2b488dae_10.0.zip",
+          "fastboot": "dandelion_mx_tc_global_images_V12.0.12.0.QCDMXTC_20220824.0000.00_10.0_global_66185fd3f3.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.0.14.0.QCDMXAT",
+          "android": "10.0",
+          "recovery": "miui_DANDELIONMXATGlobal_V12.0.14.0.QCDMXAT_3a4a53c346_10.0.zip",
+          "fastboot": "dandelion_mx_at_global_images_V12.0.14.0.QCDMXAT_20221014.0000.00_10.0_global_e1fd64d8a0.tgz"
+        }
+      ]
+    },
+    {
       "branch": "lmcr",
       "show": "1",
       "cnname": "哥斯达黎加稳定版",
@@ -871,13 +896,27 @@
           "miui": "V12.0.16.0.QCDLMCR",
           "android": "10.0",
           "recovery": "miui_DANDELIONLMCRGlobal_V12.0.16.0.QCDLMCR_163d155512_10.0.zip",
-          "fastboot": ""
+          "fastboot": "dandelion_lm_cr_global_images_V12.0.16.0.QCDLMCR_20220913.0000.00_10.0_global_82548930b2.tgz"
         },
         {
           "miui": "V12.0.7.0.QCDLMCR",
           "android": "10.0",
           "recovery": "miui_DANDELIONLMCRGlobal_V12.0.7.0.QCDLMCR_530f229d67_10.0.zip",
           "fastboot": "dandelion_lm_cr_global_images_V12.0.7.0.QCDLMCR_20210603.0000.00_10.0_global_53dcbb3b14.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "zamt",
+      "show": "1",
+      "cnname": "南非MTN稳定版",
+      "enname": "South Africa MTN Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.0.5.0.QCDZAMT",
+          "android": "10.0",
+          "recovery": "miui_DANDELIONZAMTGlobal_V12.0.5.0.QCDZAMT_a977edae1e_10.0.zip",
+          "fastboot": "dandelion_za_mt_global_images_V12.0.5.0.QCDZAMT_20220803.0000.00_10.0_global_2d99490850.tgz"
         }
       ]
     }

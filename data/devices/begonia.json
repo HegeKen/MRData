@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_BILOBAEEAGlobal_V13.0.7.0.SCUEUXM_4984da8bba_12.0.zip",
@@ -2439,14 +2436,28 @@
     {
       "branch": "mxtc",
       "show": "1",
-      "cnname": "墨西哥稳定版",
-      "enname": "Mexico Stable",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
         {
           "miui": "V11.0.7.0.QGGMXTC",
           "android": "10.0",
           "recovery": "miui_BEGONIAMXTCGlobal_V11.0.7.0.QGGMXTC_c831ab5612_10.0.zip",
           "fastboot": "begonia_mx_tc_global_images_V11.0.7.0.QGGMXTC_20211018.0000.00_10.0_global_dc9b6ae4ae.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V11.0.8.0.QGGLMCR",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "begonia_lm_cr_global_images_V11.0.8.0.QGGLMCR_20211129.0000.00_10.0_global_fc9aed2b08.tgz"
         }
       ]
     }

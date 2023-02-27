@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p5": "miui_OLIVEWOODIDGlobal_V12.5.4.0.QCQIDXM_db06e642cb_10.0.zip",
@@ -608,6 +605,34 @@
           "android": "9.0",
           "recovery": "miui_OLIVELITEIDGlobal_V11.0.1.0.PCPIDXM_12a42e9ef4_9.0.zip",
           "fastboot": "olivelite_id_global_images_V11.0.1.0.PCPIDXM_20191113.0000.00_9.0_global_33ba77cb5b.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V11.0.8.0.QCPMXTC",
+          "android": "10.0",
+          "recovery": "miui_OLIVELITEMXTCGlobal_V11.0.8.0.QCPMXTC_f860dd0aec_10.0.zip",
+          "fastboot": "olivelite_mx_tc_global_images_V11.0.8.0.QCPMXTC_20220627.0000.00_10.0_global_4b4f8eefbd.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V11.0.4.0.QCPLMCR",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "olivelite_lm_cr_global_images_V11.0.4.0.QCPLMCR_20220526.0000.00_10.0_global_60a7292668.tgz"
         }
       ]
     }

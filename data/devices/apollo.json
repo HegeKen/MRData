@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p7": "miui_GAUGUINTWGlobal_V13.0.4.0.SJSTWXM_2adaf9e7a7_12.0.zip"
@@ -2975,14 +2972,48 @@
     {
       "branch": "clen",
       "show": "1",
-      "cnname": "哥伦比亚稳定版",
-      "enname": "Colombia Stable",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
+        {
+          "miui": "V13.0.1.0.SJDCLEN",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "apollo_cl_en_global_images_V13.0.1.0.SJDCLEN_20220628.0000.00_12.0_global_c9f9efcd51.tgz"
+        },
         {
           "miui": "V12.5.3.0.RJDCLEN",
           "android": "11.0",
           "recovery": "miui_APOLLOCLENGlobal_V12.5.3.0.RJDCLEN_c4873d5b99_11.0.zip",
           "fastboot": "apollo_cl_en_global_images_V12.5.3.0.RJDCLEN_20220414.0000.00_11.0_global_7fdf3fdbaa.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.6.0.SJDMXTC",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "apollo_mx_tc_global_images_V13.0.6.0.SJDMXTC_20230110.0000.00_12.0_global_38ad2ea37a.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SJDLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "apollo_lm_cr_global_images_V13.0.4.0.SJDLMCR_20221122.0000.00_12.0_global_be145cb2e8.tgz"
         }
       ]
     }

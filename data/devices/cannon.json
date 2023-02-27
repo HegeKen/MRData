@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_JOYEUSEEEAGlobal_V13.0.5.0.SJZEUXM_0ab554001e_12.0.zip",
@@ -1993,6 +1990,20 @@
           "android": "11.0",
           "recovery": "miui_CANNONGTRGlobal_V12.5.1.0.RJETRXM_b2c38321f2_11.0.zip",
           "fastboot": "cannong_tr_global_images_V12.5.1.0.RJETRXM_20210707.0000.00_11.0_global_3eae4e57bb.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SJELMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "cannong_lm_cr_global_images_V13.0.2.0.SJELMCR_20230131.0000.00_12.0_global_da028e6c9b.tgz"
         }
       ]
     }

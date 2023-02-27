@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_CITRUSEEAGlobal_V13.0.1.0.SJFEUXM_b5d2eeb772_12.0.zip",
@@ -1366,6 +1363,20 @@
           "android": "12.0",
           "recovery": "miui_CHOPIN_V13.0.13.0.SKPCNXM_f78390d0a5_12.0.zip",
           "fastboot": "chopin_images_V13.0.13.0.SKPCNXM_20221103.0000.00_12.0_cn_chinatelecom_cedfedefec.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "kywl",
+      "show": "0",
+      "cnname": "中国大陆KYWL",
+      "enname": "China Mainland KYWL",
+      "links": [
+        {
+          "miui": "V12.5.22.7.29.EP.KYWL.K10A",
+          "android": "11.0",
+          "recovery": "miui_CHOPINEPKYWL_V12.5.22.7.29.EP.KYWL.K10A_6e3f554382_11.0.zip",
+          "fastboot": "chopin_ep_kywl_images_V12.5.22.7.29.EP.KYWL.K10A_20220729.0000.00_11.0_cn_dda28ad8bb.tgz"
         }
       ]
     },

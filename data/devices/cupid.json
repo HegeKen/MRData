@@ -426,6 +426,20 @@
       ]
     },
     {
+      "branch": "epxy",
+      "show": "0",
+      "cnname": "中国大陆EPXY",
+      "enname": "China Mainland EPXY",
+      "links": [
+        {
+          "miui": "V13.0.22.6.23.2.EP.XY.L3",
+          "android": "12.0",
+          "recovery": "miui_CUPIDEPXY_V13.0.22.6.23.2.EP.XY.L3_edd85c39db_12.0.zip",
+          "fastboot": "cupid_ep_xy_images_V13.0.22.6.23.2.EP.XY.L3_20220623.0000.00_12.0_cn_3cac09fdf4.tgz"
+        }
+      ]
+    },
+    {
       "branch": "cntw",
       "show": "1",
       "cnname": "中国台湾地区稳定版",
@@ -674,39 +688,39 @@
     {
       "branch": "clen",
       "show": "1",
-      "cnname": "哥伦比亚稳定版",
-      "enname": "Colombia Stable",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.8.0.SLCLMCR",
           "android": "12.0",
           "recovery": "miui_CUPIDLMCRGlobal_V13.0.8.0.SLCLMCR_fe0f0335ce_12.0.zip",
-          "fastboot": ""
+          "fastboot": "cupid_lm_cr_global_images_V13.0.8.0.SLCLMCR_20230112.0000.00_12.0_global_eab7149e1b.tgz"
         },
         {
           "miui": "V13.0.2.0.SLCLMCR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CUPIDLMCRGlobal_V13.0.2.0.SLCLMCR_c9a72721b8_12.0.zip",
           "fastboot": "cupid_lm_cr_global_images_V13.0.2.0.SLCLMCR_20220506.0000.00_12.0_global_b487f597ad.tgz"
         }
       ]
     },
     {
-      "branch": "mxtc",
+      "branch": "mxat",
       "show": "1",
-      "cnname": "墨西哥稳定版",
-      "enname": "Mexico Stable",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.11.0.SLCMXAT",
           "android": "12.0",
           "recovery": "miui_CUPIDMXATGlobal_V13.0.11.0.SLCMXAT_be7f2a19fd_12.0.zip",
-          "fastboot": ""
+          "fastboot": "cupid_mx_at_global_images_V13.0.11.0.SLCMXAT_20221101.0000.00_12.0_global_f766ab7f62.tgz"
         },
         {
           "miui": "V13.0.9.0.SLCMXAT",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CUPIDMXATGlobal_V13.0.9.0.SLCMXAT_95176efc7c_12.0.zip",
           "fastboot": "cupid_mx_at_global_images_V13.0.9.0.SLCMXAT_20220805.0000.00_12.0_global_e459dfd3a7.tgz"
         }
       ]

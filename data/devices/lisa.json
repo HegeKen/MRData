@@ -1286,9 +1286,15 @@
     {
       "branch": "clen",
       "show": "1",
-      "cnname": "哥伦比亚稳定版",
-      "enname": "Colombia Stable",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
+        {
+          "miui": "V13.0.1.0.SKOCLEN",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "lisa_cl_en_global_images_V13.0.1.0.SKOCLEN_20220531.0000.00_12.0_global_a88e4fe861.tgz"
+        },
         {
           "miui": "V12.5.4.0.RKOCLEN",
           "android": "11.0",
@@ -1300,20 +1306,53 @@
     {
       "branch": "mxtc",
       "show": "1",
-      "cnname": "墨西哥稳定版",
-      "enname": "Mexico Stable",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
+        {
+          "miui": "V13.0.4.0.SKOMXTC",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "lisa_mx_tc_global_images_V13.0.4.0.SKOMXTC_20221215.0000.00_12.0_global_05edd65dcc.tgz"
+        },
         {
           "miui": "V12.5.7.0.RKOMXTC",
           "android": "11.0",
           "recovery": "miui_LISAMXTCGlobal_V12.5.7.0.RKOMXTC_cea8940056_11.0.zip",
           "fastboot": "lisa_mx_tc_global_images_V12.5.7.0.RKOMXTC_20220426.0000.00_11.0_global_524212103b.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.7.0.SKOMXAT",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "lisa_mx_at_global_images_V13.0.7.0.SKOMXAT_20230129.0000.00_12.0_global_f300fb3aad.tgz"
         },
         {
           "miui": "V12.5.4.0.RKOMXAT",
           "android": "11.0",
           "recovery": "miui_LISAMXATGlobal_V12.5.4.0.RKOMXAT_8ca531c022_11.0.zip",
           "fastboot": "lisa_mx_at_global_images_V12.5.4.0.RKOMXAT_20220304.0000.00_11.0_global_7c85922cbf.tgz"
+        }
+      ]
+    },    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SKOLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "lisa_lm_cr_global_images_V13.0.4.0.SKOLMCR_20221226.0000.00_12.0_global_51856814c0.tgz"
         }
       ]
     }

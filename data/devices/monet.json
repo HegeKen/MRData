@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p4": "miui_CMIEEAGlobal_V13.0.6.0.SJAEUXM_cd48ee1b15_12.0.zip",
@@ -302,6 +299,62 @@
           "android": "10.0",
           "recovery": "miui_MONETEEAGlobal_V11.0.10.0.QJIEUXM_bdadc92ecc_10.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "jpkd",
+      "show": "1",
+      "cnname": "日本KDDI电信稳定版",
+      "enname": "Japan Stable KDDI Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SJIJPKD",
+          "android": "12.0",
+          "recovery": "miui_MONETJPKDGlobal_V13.0.5.0.SJIJPKD_7bb96c82b5_12.0.zip",
+          "fastboot": "monet_jp_kd_global_images_V13.0.5.0.SJIJPKD_20220831.0000.00_12.0_global_f52610f9ab.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "krgu",
+      "show": "1",
+      "cnname": "韩国LG U+稳定版",
+      "enname": "South Korea Stable LG U+ Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.1.1.0.RJIKRGU",
+          "android": "11.0",
+          "recovery": "miui_MONETKRGUGlobal_V12.1.1.0.RJIKRGU_adb2885614_11.0.zip",
+          "fastboot": "monet_kr_gu_global_images_V12.1.1.0.RJIKRGU_20210706.0000.00_11.0_global_d6a58d622e.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "krkt",
+      "show": "1",
+      "cnname": "韩KTF稳定版",
+      "enname": "South Korea Stable KTF Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.1.4.0.RJIKRKT",
+          "android": "11.0",
+          "recovery": "miui_MONETKRKTGlobal_V12.1.4.0.RJIKRKT_316cbe3d81_11.0.zip",
+          "fastboot": "monet_kr_kt_global_images_V12.1.4.0.RJIKRKT_20211020.0000.00_11.0_global_da8bf2d1d9.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "krsk",
+      "show": "1",
+      "cnname": "韩国SK电讯稳定版",
+      "enname": "South Korea Stable SK Telecom Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.1.2.0.RJIKRSK",
+          "android": "11.0",
+          "recovery": "miui_MONETKRSKGlobal_V12.1.2.0.RJIKRSK_739e960aac_11.0.zip",
+          "fastboot": "monet_kr_sk_global_images_V12.1.2.0.RJIKRSK_20210924.0000.00_11.0_global_046807c145.tgz"
         }
       ]
     }

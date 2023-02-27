@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p6": "miui_COURBETEEAGlobal_V13.0.8.0.SKQEUXM_2c217004e8_12.0.zip",
@@ -1915,6 +1912,19 @@
           "fastboot": "renoir_images_V14.0.6.0.TKICNXM_20230119.0000.00_13.0_cn_chinatelecom_c74d127033.tgz"
         }
       ]
+    },    {
+      "branch": "epyy",
+      "show": "0",
+      "cnname": "中国大陆EPYY",
+      "enname": "China Mainland EPYY",
+      "links": [
+        {
+          "miui": "V12.0.22.8.31.EP.YY.K9",
+          "android": "11.0",
+          "recovery": "miui_RENOIREPYY_V12.0.22.8.31.EP.YY.K9_3e97519805_11.0.zip",
+          "fastboot": "renoir_ep_yy_images_V12.0.22.8.31.EP.YY.K9_20220831.0000.00_11.0_cn_d66e3f2a93.tgz"
+        }
+      ]
     },
     {
       "branch": "cntw",
@@ -2239,8 +2249,42 @@
         {
           "miui": "V13.0.3.0.SKILMCR",
           "android": "12.0",
+          "recovery": "miui_RENOIRLMCRGlobal_V13.0.3.0.SKILMCR_7ac65a327d_12.0.zip",
+          "fastboot": "renoir_lm_cr_global_images_V13.0.6.0.SKILMCR_20230111.0000.00_12.0_global_37f5381017.tgz"
+        },
+        {
+          "miui": "V13.0.3.0.SKILMCR",
+          "android": "12.0",
           "recovery": "miui_RENOIRLMCRGlobal_V13.0.6.0.SKILMCR_2ed8cd4986_12.0.zip",
           "fastboot": "renoir_lm_cr_global_images_V13.0.3.0.SKILMCR_20221028.0000.00_12.0_global_4ff6b67298.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.6.0.SKIMXTC",
+          "android": "12.0",
+          "recovery": "miui_RENOIRMXTCGlobal_V13.0.6.0.SKIMXTC_903d552508_12.0.zip",
+          "fastboot": "renoir_mx_tc_global_images_V13.0.6.0.SKIMXTC_20230111.0000.00_12.0_global_674ab47b1c.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SKICLEN",
+          "android": "12.0",
+          "recovery": "miui_RENOIRCLENGlobal_V13.0.4.0.SKICLEN_4ecce12cbb_12.0.zip",
+          "fastboot": "renoir_cl_en_global_images_V13.0.4.0.SKICLEN_20220923.0000.00_12.0_global_f22d8a9aab.tgz"
         }
       ]
     },

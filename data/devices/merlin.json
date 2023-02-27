@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_JOYEUSEEEAGlobal_V13.0.5.0.SJZEUXM_0ab554001e_12.0.zip",
@@ -820,11 +817,59 @@
       ]
     },
     {
+      "branch": "clen",
+      "show": "1",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.5.4.0.RJOCLEN",
+          "android": "11.0",
+          "recovery": "miui_MERLINCLENGlobal_V12.5.4.0.RJOCLEN_a65df41946_11.0.zip",
+          "fastboot": "merlin_cl_en_global_images_V12.5.4.0.RJOCLEN_20220615.0000.00_11.0_global_ee4378b36d.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.0.6.0.RJOMXTC",
+          "android": "11.0",
+          "recovery": "miui_MERLINMXTCGlobal_V12.0.6.0.RJOMXTC_423e5d9f8e_11.0.zip",
+          "fastboot": "merlin_mx_tc_global_images_V12.0.6.0.RJOMXTC_20220627.0000.00_11.0_global_cb7fc0fee6.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.5.13.0.RJOMXAT",
+          "android": "11.0",
+          "recovery": "miui_MERLINMXATGlobal_V12.5.13.0.RJOMXAT_d5985b9605_11.0.zip",
+          "fastboot": "merlin_mx_at_global_images_V12.5.13.0.RJOMXAT_20221219.0000.00_11.0_global_913c0204b9.tgz"
+        }
+      ]
+    },
+    {
       "branch": "lmcr",
       "show": "1",
       "cnname": "哥斯达黎加稳定版",
       "enname": "Costa Rica Stable",
       "links": [
+        {
+          "miui": "V12.0.6.0.RJOLMCR",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "merlin_lm_cr_global_images_V12.0.6.0.RJOLMCR_20220720.0000.00_11.0_global_c4d94541cd.tgz"
+        },
         {
           "miui": "V11.0.12.0.QJOLMCR",
           "android": "10.0",

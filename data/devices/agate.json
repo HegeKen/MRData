@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_VILIEEAGlobal_V13.0.21.0.SKDEUXM_764acc4bff_12.0.zip",
@@ -402,9 +399,15 @@
     {
       "branch": "clen",
       "show": "1",
-      "cnname": "哥伦比亚稳定版",
-      "enname": "Colombia Stable",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
+        {
+          "miui": "V13.0.2.0.SKWCLEN",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "agate_cl_en_global_images_V13.0.2.0.SKWCLEN_20220822.0000.00_12.0_global_40bcfaded5.tgz"
+        },
         {
           "miui": "V12.5.2.0.RKWCLEN",
           "android": "11.0",
@@ -414,11 +417,31 @@
       ]
     },
     {
-      "branch": "mxtc",
+      "branch": "lmcr",
       "show": "1",
-      "cnname": "墨西哥稳定版",
-      "enname": "Mexico Stable",
+      "cnname": "哥斯达黎加稳定版",
+      "enname": "Costa Rica Stable",
       "links": [
+        {
+          "miui": "V13.0.4.0.SKWLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "agate_lm_cr_global_images_V13.0.4.0.SKWLMCR_20221226.0000.00_12.0_global_b35eb9818d.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SKWMXAT",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "agate_mx_at_global_images_V13.0.5.0.SKWMXAT_20221209.0000.00_12.0_global_6ebc18f38a.tgz"
+        },
         {
           "miui": "V12.5.3.0.RKWMXAT",
           "android": "11.0",

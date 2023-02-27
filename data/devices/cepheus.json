@@ -11,9 +11,6 @@
   "crawler": [
     {
       "branch": "cndm",
-      "show": "0",
-      "cnname": "Spider",
-      "enname": "Spider",
       "links": [
         {
           "p1": "miui_GRUSEEAGlobal_V12.5.1.0.RFBEUXM_0c905c26ed_11.0.zip",
@@ -3297,6 +3294,40 @@
           "android": "10.0",
           "recovery": "miui_CEPHEUSLMCRGlobal_V11.0.9.0.QFALMCR_7c437e16a6_10.0.zip",
           "fastboot": "cepheus_lm_cr_global_images_V11.0.9.0.QFALMCR_20210818.0000.00_10.0_global_363813ff0e.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "euhg",
+      "show": "1",
+      "cnname": "欧洲匈牙利稳定版",
+      "enname": "Europe Hungary Stable",
+      "links": [
+        {
+          "miui": "V10.2.4.0.PFAEUHG",
+          "android": "9.0",
+          "recovery": "",
+          "fastboot": "cepheus_eea_hg_global_images_V10.2.4.0.PFAEUHG_20190329.0000.00_9.0_global_26f05eb5e3.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V10.2.11.0.PFAMXTC",
+          "android": "9.0",
+          "recovery": "miui_CEPHEUSMXTCGlobal_V10.2.11.0.PFAMXTC_3b2681e2da_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.10.0.PFAMXTC",
+          "android": "9.0",
+          "recovery": "",
+          "fastboot": "cepheus_mx_tc_global_images_V10.2.10.0.PFAMXTC_20191231.0000.00_9.0_global_a262c3349a.tgz"
         }
       ]
     }
