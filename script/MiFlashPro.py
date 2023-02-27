@@ -7,14 +7,16 @@ devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
 all_devices = json.loads(devlist.read())["MDdevices"]
 for all in all_devices:
   device = all["code"]
-  conn = sqlite3.connect('static/data/script/cn.db3')
+  conn = sqlite3.connect('static/data/script/gb.db3')
   c = conn.cursor()
   query = """SELECT model,url,ver_name,dl_rom_name,android_ver from download_storage WHERE model LIKE '""" + device+"%'"
   cursor = c.execute(query)
   for row in cursor:
     codename = row[0].split('_')[0]
     if codename == "camellian":
-      codename == "camellia"
+      codename = "camellia"
+    elif codename == "cannong":
+      codename = "cannon"
     else:
       i = 0
     if len(row[0].split('_')) >=2:
@@ -23,6 +25,8 @@ for all in all_devices:
         codename = "picasso_48m"
       elif checker == 'c3l2':
         codename = "dandelion_c3l2"
+      elif checker == 'p':
+        codename = "rosemary_p"
       elif checker == 'pro':
         codename = row[0].split('_')[0]+"_pro"
       else:

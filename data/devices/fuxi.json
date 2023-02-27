@@ -96,6 +96,62 @@
           "fastboot": "fuxi_images_V14.0.4.0.TMCCNXM_20221116.0000.00_13.0_cn_9907ee3ec1.tgz"
         }
       ]
+    },
+    {
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TMCTWXM",
+          "android": "13.0",
+          "recovery": "miui_FUXITWGlobal_V14.0.4.0.TMCTWXM_53fa921698_13.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TMCMIXM",
+          "android": "13.0",
+          "recovery": "miui_FUXIGlobal_V14.0.4.0.TMCMIXM_200d8eb3a1_13.0.zip",
+          "fastboot": "fuxi_global_images_V14.0.4.0.TMCMIXM_20230215.0000.00_13.0_global_5bc4b166d5.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.6.0.TMCEUXM",
+          "android": "13.0",
+          "recovery": "miui_FUXIEEAGlobal_V14.0.6.0.TMCEUXM_1af1430ee4_13.0.zip",
+          "fastboot": "fuxi_eea_global_images_V14.0.6.0.TMCEUXM_20221224.0000.00_13.0_eea_2361c60192.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.5.0.TMCRUXM",
+          "android": "13.0",
+          "recovery": "miui_FUXIRUGlobal_V14.0.5.0.TMCRUXM_48d8f2649c_13.0.zip",
+          "fastboot": ""
+        }
+      ]
     }
   ]
 }
