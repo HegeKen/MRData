@@ -18,16 +18,16 @@ def getDetail(url):
         rom_url = list.attrs['href']
         if rom_url.split('/')[2] in domains:
           packname = rom_url.split('/')[4].strip('||Download')
+          checker = packname.split('_')[1]
           flag = rom_url.split('/')[3][-6:]
-          flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
-          if "DEV" in packname:
-            i = 0
-          elif "blockota" in packname:
+          FBflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+          REflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
+          if "blockota" in packname:
             i = 0
           else:
             if ".zip" in rom_url:
-              if flag in flags:
-                devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+              if checker in REflags:
+                devdata = json.loads(open("static/data/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
                 if packname in devdata:
                   i = 0
                 else:
@@ -38,11 +38,11 @@ def getDetail(url):
               else:
                 print("发现未收录机型以及版本")
                 file = open("static/data/script/MFW/MFWFlags.txt", "a", encoding='utf-8')
-                file.write(flag +"\t"+ packname+"\n")
+                file.write(checker +"\t"+ packname+"\n")
                 file.close()
             elif ".tgz" in rom_url:
-              if flag in flags:
-                devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+              if flag in FBflags:
+                devdata = json.loads(open("static/data/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
                 if packname in devdata:
                   i = 0
                 else:

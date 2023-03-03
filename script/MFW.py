@@ -30,7 +30,7 @@ for list in lists:
       i = 0
     else:
       print("发现未收录版本")
-      file = open("static/data/script/MGC/MFW.txt", "a", encoding='utf-8')
+      file = open("static/data/script/MFW/MFW.txt", "a", encoding='utf-8')
       file.write(pack_name+"\n")
       file.close()
   elif ".tgz" in link:
@@ -43,12 +43,12 @@ for list in lists:
         i = 0
       else:
         print("发现未收录版本")
-        file = open("static/data/script/MGC/MFW.txt", "a", encoding='utf-8')
+        file = open("static/data/script/MFW/MFW.txt", "a", encoding='utf-8')
         file.write(pack_name+"\n")
         file.close()
     else:
       print("发现未收录机型以及版本")
-      file = open("static/data/script/MGC/MGCFlags.txt", "a", encoding='utf-8')
+      file = open("static/data/script/MFW/MGCFlags.txt", "a", encoding='utf-8')
       file.write(flag +"\t"+ pack_name+"\n")
       file.close()
     print(pack_name)
