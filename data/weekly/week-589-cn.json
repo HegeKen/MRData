@@ -7,7 +7,7 @@
   "update": "2023.03.03",
   "versions": "V14.0.23.2.27.DEV,V14.0.23.2.28.DEV",
   "showdevices": "1",
-  "no":"daumier,cetus,mona,diting,mondrian,socrates",
+  "no":"cetus",
   "devices": [
     {
       "code": "thyme",
@@ -61,6 +61,15 @@
       "miui": "V14.0.23.2.27.DEV",
       "android": "13.0",
       "recovery": "miui_ZEUS_V14.0.23.2.27.DEV_165541ff46_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "daumier",
+      "NameCn": "小米 12 Pro 天玑版",
+      "NameEn": "Xiaomi 12 Pro Dimensity",
+      "miui": "V14.0.23.2.27.DEV",
+      "android": "13.0",
+      "recovery": "miui_DAUMIER_V14.0.23.2.27.DEV_fcfe8ce440_13.0.zip",
       "fastboot": ""
     },
     {
@@ -172,6 +181,15 @@
       "fastboot": ""
     },
     {
+      "code": "mona",
+      "NameCn": "小米 Civi",
+      "NameEn": "Xiaomi Civi",
+      "miui": "V14.0.23.2.27.DEV",
+      "android": "13.0",
+      "recovery": "miui_MONA_V14.0.23.2.27.DEV_cc3d59c4ef_13.0.zip",
+      "fastboot": ""
+    },
+    {
       "code": "zijin",
       "NameCn": "小米 Civi 1S",
       "NameEn": "Xiaomi Civi 1S",
@@ -260,6 +278,33 @@
       "android": "13.0",
       "recovery": "miui_INGRES_V14.0.23.2.27.DEV_e6882465fe_13.0.zip",
       "fastboot": ""
+    },
+    {
+      "code": "diting",
+      "NameCn": "Redmi K50 至尊版",
+      "NameEn": "Redmi K50 Ultra",
+      "miui": "V14.0.23.2.27.DEV",
+      "android": "13.0",
+      "recovery": "miui_DITING_V14.0.23.2.27.DEV_61b288c73b_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "mondrian",
+      "NameCn": "Redmi K60",
+      "NameEn": "Redmi K60",
+      "miui": "V14.0.23.2.27.DEV",
+      "android": "13.0",
+      "recovery": "miui_MONDRIAN_V14.0.23.2.27.DEV_12c106f657_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "socrates",
+      "NameCn": "Redmi K60 Pro",
+      "NameEn": "Redmi K60 Pro",
+      "miui": "V14.0.23.2.27.DEV",
+      "android": "13.0",
+      "recovery": "miui_SOCRATES_V14.0.23.2.27.DEV_65cc3dca59_13.0.zip",
+      "fastboot": ""
     }
   ],
   "addons": [
@@ -292,6 +337,14 @@
         {
           "Cn": "2023年04月21日起，以下机型将停止开发版内测公测：Redmi K40 Pro、Redmi K40 Pro+、Redmi K40、小米10S、小米11 青春版、Redmi K40 游戏增强版、Redmi Note 10 Pro",
           "En": "Starting from April 21, 2023, Redmi K40 Pro、Redmi K40 Pro+、Redmi K40、Mi 10S、Mi 11 Lite、Redmi K40 Gaming、Redmi Note 10 Pro will stop rolling MIUI China Beta updates."
+        },
+        {
+          "Cn":"为给米粉朋友们相对更好的使用体验，小米13 Pro、小米13正在排查卡顿的问题已暂停发布，感谢大家的理解",
+          "En":"We're suspending this update for Xiaomi 13 & Xiaomi 13 Pro because of system lags, thanks for your understandings."
+        },
+        {
+          "Cn":"小米平板5 Pro、小米平板5 Pro 5G已发布修复版本，修复部分场景死机重启的问题，感谢米粉朋友们的支持",
+          "En":"We've released new update for Mi Pad 5 Pro 5G & Mi Pad 5 Pro Wi-Fi Pro fixing the bug causing device to reboot, please check for updates, thanks for your understandings."
         }
       ]
     }
@@ -317,7 +370,7 @@
           "changes": [
             {
               "changesCn": "新增拍照、录像、文档模式后置2X快捷变焦（小米12S Ultra）",
-              "changesEn": "Adding 2X Zoom rof rear camera in photoshot and recording(Update for Xiaomi 12S Ultra)"
+              "changesEn": "Adding 2X Zoom for rear camera in photoshot and recording mode(Update for Xiaomi 12S Ultra)"
             }
           ]
         }
