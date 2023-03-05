@@ -1,12 +1,12 @@
 {
-  "titleCn": "MIUI第582周发布公告及更新日志",
-  "titleEn": "The 582th MIUI Weekly Update Changelogs",
+  "titleCn": "MIUI第560周发布公告及更新日志",
+  "titleEn": "The 560th MIUI Weekly Update Changelogs",
   "CnBBSID": "",
-  "CnComID": "39254318",
+  "CnComID": "36774460",
   "GbBBSID": "",
-  "update": "2022.11.11",
+  "update": "2022.08.12",
   "versions": "",
-  "showdevices": "1",
+  "showdevices": "0",
   "vid": "",
   "devices": [],
   "addons": [
@@ -89,42 +89,52 @@
   ],
   "logs": [
     {
-      "titleCn": "MIUI第582周发布公告及更新日志",
-      "titleEn": "The 582th MIUI Weekly Update Changelogs",
+      "titleCn": "MIUI第560周发布公告及更新日志",
+      "titleEn": "The 560th MIUI Weekly Update Changelogs",
       "log": [
         {
           "componentCn": "系统",
           "componentEn": "System",
           "changes": [
             {
-              "changesCn": "修复 部分场景耗电高于预期的问题",
-              "changesEn": "Fixing High battery consumptions in some scenarios"
-            },
-            {
-              "changesCn": "修复 部分场景卡顿的问题",
-              "changesEn": "Fixing lags in some scenarios"
-            },
-            {
-              "changesCn": "优化部分影响使用体验的问题",
-              "changesEn": "Optiminzing some factors affecting user experience."
-            },
-            {
-              "changesCn": "修复 部分场景导航键振动异常的问题",
-              "changesEn": "Fixing home menu vibration in some scenarios"
+              "changesCn": "修复部分场景下无法关闭纯净模式，无法验证密码的问题",
+              "changesEn": "Fixing the bug unabling to exit foxus mode and ubbaling password certification in some scenarios"
             }
           ]
         },
         {
-          "componentCn": "壁纸",
-          "componentEn": "Wallpaper",
+          "componentCn": "小米浏览器",
+          "componentEn": "Mi Browser",
           "changes": [
             {
-              "changesCn": "修复 部分场景MIUI14专属壁纸丢失的问题",
-              "changesEn": "Fixing MIUI14 only wallpapers missing in some scenarios"
+              "changesCn": "优化相关视频推荐体验",
+              "changesEn": "Optimizing 'Relevant Videos' suggestion experionces."
+            }
+          ]
+        },
+        {
+          "componentCn": "小米妙享",
+          "componentEn": "Mi Smart Hub",
+          "changes": [
+            {
+              "changesCn": "新增音箱播控，在系统级入口快捷操控音箱",
+              "changesEn": "New Smart Speaker controller integrated into the system"
             },
             {
-              "changesCn": "修复 部分场景桌面壁纸显示不全的问题(适配机型：小米平板5 Pro 12.4、小米平板5 Pro 5G、小米平板5 Pro、小米平板5)",
-              "changesEn": "Fixing wallpapers on home screen cannot fully displaed in some scenarios(Fix For Mi Pad 5 Series)"
+              "changesCn": "新增协同升级，在手机上一键升级电视",
+              "changesEn": "New Update syncs, you can update your TV via your phone now."
+            },
+            {
+              "changesCn": "新增手机获取平板应用，手机最近任务点击流转提示，在手机继续使用平板应用",
+              "changesEn": "Now you can get App captured and streamed to your phone and continously use the same app on both devices."
+            },
+            {
+              "changesCn": "新增剪贴板流转智能预测，平板、电脑复制电话、网址，手机端智能提示",
+              "changesEn": "New Clipboard share prediction mechanisim, you'll get a notification on your phone when coying on tablets."
+            },
+            {
+              "changesCn": "注：涉及平板端功能，小米平板5 Pro 12.4 出厂即支持，小米平板5系列需升级至8月11日的最新开发版或更高版本，稳定版请关注后续更新",
+              "changesEn": "Attention:Mi Pad 5 Pro 12.4 has those Tablet functionalities mentioned above bulit in, other Mi Pad 5 Series will need to upgrade to beta verion released on August 11, Stbale roms to follow."
             }
           ]
         }
