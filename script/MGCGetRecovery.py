@@ -13,6 +13,7 @@ def getRec(region):
   for id in ids:
     for domain in domains:
       url = domain+region+params+id
+      print("\r"+url+"      ",end="")
       response = requests.get(url, headers=headers)
       content = response.content.decode("utf8")
       if (response.status_code != 404):
@@ -29,7 +30,7 @@ def getRec(region):
             if flag in flags:
               devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
               if packname in devdata:
-                print("\r"+url+"      ",end="")
+                i = 0
               else:
                 print("发现未收录版本")
                 file = open("static/data/script/MGC/MGCGetRec.txt", "a", encoding='utf-8')

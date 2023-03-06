@@ -24,6 +24,8 @@ def getDetail(url):
           REflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
           if "blockota" in packname:
             i = 0
+          elif "DEV" in packname:
+            i = 0
           else:
             if ".zip" in rom_url:
               if checker in REflags:
