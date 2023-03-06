@@ -110,11 +110,31 @@
       ]
     },
     {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links":[
+        {
+          "miui": "V14.0.17.0.TMCCNXM",
+          "android": "13.0",
+          "recovery": "miui_FUXI_V14.0.17.0.TMCCNXM_6d5bf8c2d6_13.0.zip",
+          "fastboot": "fuxi_images_V14.0.17.0.TMCCNXM_20230202.0000.00_13.0_cn_chinatelecom_bc68a59155.tgz"
+        }
+      ]
+    },
+    {
       "branch": "stde",
       "show": "0",
       "cnname": "中国大陆STDEE",
       "enname": "China Mainland STDEE",
       "links": [
+        {
+          "miui": "V14.0.23.2.16.EP.STDEE.M3",
+          "android": "13.0",
+          "recovery": "miui_FUXIEPSTDEE_V14.0.23.2.16.EP.STDEE.M3_240bfe9985_13.0.zip",
+          "fastboot": "fuxi_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M3_20230216.0000.00_13.0_cn_cb5894c87b.tgz"
+        },
         {
           "miui": "V14.0.23.2.16.EP.STDEE.M3",
           "android": "13.0",
