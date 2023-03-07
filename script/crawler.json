@@ -132,7 +132,8 @@
     "POCOF1Global": "beryllium",
     "CATTAILINGlobal": "cattail",
     "EXCALIBURINGlobal": "excalibur",
-    "VIOLETINGlobal": "violet"
+    "VIOLETINGlobal": "violet",
+    "EARTHINGlobal":"earth"
   },
   "MDdevices": [
     {
@@ -2701,7 +2702,7 @@
     "JGMIXM": "surya","JGEUXM": "surya","JGRUXM": "surya","JGINXM": "surya","JGIDXM": "surya","JGTRXM": "surya",
     "JUTWXM": "vayu","JUMIXM": "vayu","JUEUXM": "vayu","JURUXM": "vayu","JUINXM": "vayu","JUIDXM": "vayu","JUTRXM": "vayu",
     "MPTWXM": "moonstone","MPMIXM": "moonstone","MPEUXM": "moonstone","MPRUXM": "moonstone",
-    "CVCNXM":"earth","CVCLEN":"earth","CVLMCR":"earth",
+    "CVCNXM":"earth","CVCLEN":"earth","CVLMCR":"earth","CVINXM":"earth",
     "GBTWXM": "evergreen","GBMIXM": "evergreen","GBEUXM": "evergreen","GBRUXM": "evergreen","GBTRXM":"evergreen",
     "JOTWXM": "merlin",
     "KLRUXM": "rosemary","KLTWXM": "rosemary","KLEUXM": "rosemary","KLTRXM": "rosemary","KLMIXM": "rosemary","KLIDXM": "rosemary","KLINXM": "rosemary",
@@ -2913,7 +2914,7 @@
     "SURYAGlobal": "surya","SURYAEEAGlobal": "surya","SURYARUGlobal": "surya","SURYAINGlobal": "surya","SURYAIDGlobal": "surya","SURYATRGlobal": "surya",
     "VAYUTWGlobal": "vayu","VAYUGlobal": "vayu","VAYUEEAGlobal": "vayu","VAYURUGlobal": "vayu","VAYUINGlobal": "vayu","VAYUIDGlobal": "vayu","VAYUTRGlobal": "vayu",
     "MOONSTONETWGlobal": "moonstone","MOONSTONEGlobal": "moonstone","MOONSTONEEEAGlobal": "moonstone","MOONSTONERUGlobal": "moonstone",
-    "EARTH":"earth"
+    "EARTH":"earth","EARTHINGlobal":"earth"
   },
   "MiFlashProCurrent":[
     {
@@ -3435,6 +3436,8 @@
       "codename": "earth",
       "checkers": [
         "earth",
+        "earthin_global",
+        "earth_in_global",
         "earth_cl_en_global",
         "earth_lm_cr_global"
       ]
@@ -3969,25 +3972,6 @@
         "frost_eea_global",
         "frost_ru_global",
         "frost_id_global"
-      ]
-    },
-    {
-      "codename": "beryllium",
-      "checkers": [
-        "beryllium_global",
-        "beryllium_ru_global"
-      ]
-    },
-    {
-      "codename": "shiva",
-      "checkers": [
-        "shiva_in_global"
-      ]
-    },
-    {
-      "codename": "gram",
-      "checkers": [
-        "gram_in_global"
       ]
     },
     {

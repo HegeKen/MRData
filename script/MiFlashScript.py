@@ -14,7 +14,8 @@ base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
 # regions = ["cn","tw","global","rs","bd","id","my","pk","ph","tr","vn","th","de","es","fr","it","pl","uk","ru","ua","mie","br","co","mx","pe","cl","ng","eg"]
 regions = ["cn","tw","global","eea","ru","in","id","jp","tr"]
 carriers = ["","chinatelecom"]
-branches = ["F","X"]
+# branches = ["F","X"]
+branches = ["F"]
 headers = {"user-agent": "XiaomiPCSuite"}
 devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
 
