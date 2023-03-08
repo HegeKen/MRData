@@ -2,9 +2,9 @@ import requests
 import json
 from bs4 import BeautifulSoup
 headers = {"user-agent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36 Edg/110.0.0.0"}
-IDs = ["300","308","313","319","320","321","323","324","325","326","327","328","331","335","336","337","338","340","343","345","346","348","349","351","353","355","356","360","361","363","364","367","369"]
-for id in IDs:
-# for id in range(600,1000):
+IDs = ["300","308","313","319","320","321","323","324","325","326","327","328","331","335","336","337","338","340","343","345","346","348","349","351","353","355","356","360","361","363","364","367","369","370","371"]
+# for id in IDs:
+for id in range(372,1000):
   id = str(id)
   url = "https://www.miui.com/getrom.php?r="+id+"&m=yes&app=true"
   print("\r"+id+"    "+url,end="")
@@ -14,9 +14,9 @@ for id in IDs:
     soup = BeautifulSoup(content,'lxml')
     lists = soup.find_all("a", attrs={"class" :"link_down"})
     if len(lists) > 1:
-      IDFile = open("static/data/script/MIUIIDFile.txt", "a", encoding='utf-8')
-      IDFile.write("\""+id+"\",")
-      IDFile.close()
+      # IDFile = open("static/data/script/MIUIIDFile.txt", "a", encoding='utf-8')
+      # IDFile.write("\""+id+"\",")
+      # IDFile.close()
       devname = soup.find("h3").text
       print(id+"\t机型名称："+devname)
       for list in lists:
