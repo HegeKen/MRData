@@ -8,6 +8,7 @@ devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
 all_devices = json.loads(devlist.read())["MDcurrent"]
 for all in all_devices:
   codename = all["code"]
+  print("\r"+codename)
   for branch in branches:
     url = "https://miuidownload.com/miui/"+codename+"/"+branch+"/"
     t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())

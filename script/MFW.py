@@ -7,8 +7,8 @@ import time
 
 options = EdgeOptions()
 options.use_chromium = True
-options.binary_location = r"C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.57\msedge.exe"
-driver = Edge(options=options, executable_path=r"C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.57\msedgedriver.exe")
+options.binary_location = r"C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.63\msedge.exe"
+driver = Edge(options=options, executable_path=r"C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.63\msedgedriver.exe")
 driver.get("https://mifirmware.com/xiaomi-miui-14/")
 soup = BeautifulSoup(driver.page_source, "lxml")
 lists = soup.find_all("a", attrs={"data-content" :"Download"})
