@@ -23,9 +23,9 @@ for device in devices:
   checkers = device["checkers"]
   for checker in checkers:
     for region in regions:
-      for carrier in carriers:
-        for branch in branches:
-          url = base_url+checker+"&b="+branch+"&r="+region+"&n="+carrier
+      if region == "cn":
+        for carrier in carriers:
+          url = base_url+checker+"&b=F&r="+region+"&n="+carrier
           print("\r"+url+"                 ",end="")
           response = requests.post(url, headers=headers)
           if (response.status_code == 200):
@@ -49,3 +49,28 @@ for device in devices:
           else:
             i = 0
           response.close()
+      else:
+        url = base_url+checker+"&b=F&r="+region+"&n="
+        print("\r"+url+"                 ",end="")
+        response = requests.post(url, headers=headers)
+        if (response.status_code == 200):
+          content = response.content.decode("utf8")
+          if content == "":
+            i = 0
+          else:
+            data = json.loads(content)["LatestFullRom"]
+            if len(data)>0:
+              devdata = json.loads(open("static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
+              if data["filename"] in devdata:
+                i= 0
+              else:
+                print("发现一条新数据")
+                filename = "static/data/script/MiFlashPro.txt"
+                file = open(filename, "a", encoding='utf-8')
+                file.write(data["filename"]+"\n")
+                file.close()
+            else:
+              i = 0
+        else:
+          i = 0
+        response.close()

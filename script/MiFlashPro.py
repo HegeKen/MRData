@@ -1,76 +1,77 @@
-import requests
 import json
+import sqlite3
 
-# headers = {"user-agent": "XiaomiPCSuite"}
-# url = "http://update.miui.com/updates/miota-fullrom.php?d=agate_cl_en_global&b=F&r=global&n="
-# url = "http://update.miui.com/updates/miota-fullrom.php?d=alioth&b=F&r=cn"
-# response = requests.post(url, headers=headers)
-# content = response.content.decode("utf8")
-# print(response.text)
-# filename = json.loads(content)["LatestFullRom"]["filename"]
-# print(filename)
-
-base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
-# regions = ["cn","tw","global","rs","bd","id","my","pk","ph","tr","vn","th","de","es","fr","it","pl","uk","ru","ua","mie","br","co","mx","pe","cl","ng","eg"]
-regions = ["cn","tw","global","eea","ru","in","id","jp","tr"]
-carriers = ["","chinatelecom"]
-# branches = ["F","X"]
-branches = ["F"]
-headers = {"user-agent": "XiaomiPCSuite"}
-devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
-
-for device in devices:
-  checkers = device["checkers"]
-  for checker in checkers:
-    for region in regions:
-      if region == "cn":
-        for carrier in carriers:
-          url = base_url+checker+"&b=F&r="+region+"&n="+carrier
-          print("\r"+url+"                 ",end="")
-          response = requests.post(url, headers=headers)
-          if (response.status_code == 200):
-            content = response.content.decode("utf8")
-            if content == "":
-              i = 0
-            else:
-              data = json.loads(content)["LatestFullRom"]
-              if len(data)>0:
-                devdata = json.loads(open("static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
-                if data["filename"] in devdata:
-                  i= 0
-                else:
-                  print("发现一条新数据")
-                  filename = "static/data/script/MiFlashPro.txt"
-                  file = open(filename, "a", encoding='utf-8')
-                  file.write(data["filename"]+"\n")
-                  file.close()
-              else:
-                i = 0
-          else:
-            i = 0
-          response.close()
+rerions = ["China","Taiwan"]
+devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+all_devices = json.loads(devlist.read())["MDdevices"]
+for all in all_devices:
+  device = all["code"]
+  conn = sqlite3.connect('static/data/script/MiFlashPro/Taiwan/download.db3')
+  c = conn.cursor()
+  query = """SELECT dl_rom_name, ver_name from download_storage WHERE model LIKE '""" + device+"%'"
+  cursor = c.execute(query)
+  for row in cursor:
+    if ".zip" in row[0]:
+      checker = row[0].split('_')[1]
+      devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
+      if checker in devices.__str__():
+        codename = devices[checker]
       else:
-        url = base_url+checker+"&b=F&r="+region+"&n="
-        print("\r"+url+"                 ",end="")
-        response = requests.post(url, headers=headers)
-        if (response.status_code == 200):
-          content = response.content.decode("utf8")
-          if content == "":
-            i = 0
-          else:
-            data = json.loads(content)["LatestFullRom"]
-            if len(data)>0:
-              devdata = json.loads(open("static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
-              if data["filename"] in devdata:
-                i= 0
-              else:
-                print("发现一条新数据")
-                filename = "static/data/script/MiFlashPro.txt"
-                file = open(filename, "a", encoding='utf-8')
-                file.write(data["filename"]+"\n")
-                file.close()
-            else:
-              i = 0
+        # print("发现一条新数据")
+        filename = "static/data/script/MiFlashPro/MiFlashProFlag.txt"
+        file = open(filename, "a", encoding='utf-8')
+        file.write(checker+"\n")
+        file.close()
+      # print(checker)
+      devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
+      if row[0] in devdata:
+        i = 0
+      else:
+        print("发现一条新数据")
+        filename = "static/data/script/MiFlashPro/MiFlashPro.txt"
+        file = open(filename, "a", encoding='utf-8')
+        file.write(row[0]+"\n")
+        file.close()
+    elif ".tgz" in row[0]:
+      checker = row[1]
+      if "DEV" in checker:
+        if row[0].split('_')[1] == "48m":
+          codename = row[0].split('_')[0]+"_48m"
         else:
+          codename = row[0].split('_')[0]
+      else:
+        if checker[0] == "V":
           i = 0
-        response.close()
+          checker = checker[-6:]
+          devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+          if checker in devices.__str__():
+            codename = devices[checker]
+          else:
+            print(checker + "\t"+row[0])
+            filename = "static/data/script/MiFlashPro/MiFlashProFlag.txt"
+            file = open(filename, "a", encoding='utf-8')
+            file.write(checker + "\t"+row[0]+"\n")
+            file.close()
+        else:
+          if row[0].split('_')[1] == "48m":
+            codename = row[0].split('_')[0]+"_48m"
+          elif row[0].split('_')[1] == "plus":
+            codename = row[0].split('_')[0]+"_plus"
+          elif row[0].split('_')[1] == "xhdpi":
+            codename = row[0].split('_')[0]+"_xhdpi"
+          elif row[0].split('_')[1] == "pro":
+            codename = row[0].split('_')[0]+"_pro"
+          else:
+            codename = row[0].split('_')[0]
+        devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
+        if row[0] in devdata:
+          i = 0
+        else:
+          print("发现一条新数据")
+          filename = "static/data/script/MiFlashPro/MiFlashPro.txt"
+          file = open(filename, "a", encoding='utf-8')
+          file.write(row[0]+"\n")
+    else:
+      print(row[0])
+
+devlist.close()
