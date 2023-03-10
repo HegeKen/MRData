@@ -32,7 +32,7 @@ def getRom(codename):
         ver = rom_url.split('/')[3]
         recovery = rom_url.split('/')[4]
         android = recovery.split('_')[4].strip(".zip")
-        vers = ["V14.0.23.2.27.DEV","V14.0.23.2.28.DEV"]
+        vers = ["V14.0.23.3.7.DEV"]
         for v in vers:
           if v == ver:
             fine = "static/data/data/devices/"+codename+".json"
