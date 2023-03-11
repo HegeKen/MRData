@@ -11,8 +11,8 @@ latest = 1900575
 # idrange = ["1700","1800","1900"]
 start = "1900575"
 end = "1901000"
-for id in range(int(start),int(end)):
-  for region in regions:
+for region in regions:
+  for id in range(int(start),int(end)):
     if (region == "rs"):
       url = "https://ams-api.buy.mi.com/bbs/api/rs/phone/getdevicelist?phone_id=" + str(id)
     else:
