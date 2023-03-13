@@ -8,6 +8,11 @@
       "en": ""
     }
   ],
+  "cdid":"",
+  "csid":"",
+  "cbid":"",
+  "gdid":"",
+  "pbid":"",
   "branches": [
     {
       "branch": "cnmp",
@@ -249,7 +254,7 @@
           "miui": "V14.0.5.0.TLMCNXM",
           "android": "13.0",
           "recovery": "miui_MUNCH_V14.0.5.0.TLMCNXM_80e98ce64f_13.0.zip",
-          "fastboot": ""
+          "fastboot": "munch_images_V14.0.5.0.TLMCNXM_20230227.0000.00_13.0_cn_168e8b1b4b.tgz"
         },
         {
           "miui": "V14.0.3.0.TLMCNXM",
@@ -321,6 +326,12 @@
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links":[
+        {
+          "miui": "V14.0.5.0.TLMCNXM",
+          "android": "13.0",
+          "recovery": "miui_MUNCH_V14.0.5.0.TLMCNXM_80e98ce64f_13.0.zip",
+          "fastboot": "munch_images_V14.0.5.0.TLMCNXM_20230227.0000.00_13.0_cn_chinatelecom_c0e9a0bd56.tgz"
+        },
         {
           "miui": "V14.0.3.0.TLMCNXM",
           "android": "13.0",
@@ -521,6 +532,12 @@
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
+        {
+          "miui": "V14.0.2.0.TLMTRXM",
+          "android": "13.0",
+          "recovery": "miui_MUNCHTRGlobal_V14.0.2.0.TLMTRXM_8dd0b997de_13.0.zip",
+          "fastboot": "munch_tr_global_images_V14.0.2.0.TLMTRXM_20230302.0000.00_13.0_tr_7ebffc9cf4.tgz"
+        },
         {
           "miui": "V13.0.3.0.SLMTRXM",
           "android": "12.0",
