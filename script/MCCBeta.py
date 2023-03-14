@@ -1,10 +1,10 @@
 import requests
 import json
 
-# 往上走 https://api.vip.miui.com/api/alpha/detail?planId=420
-# 往下走 https://api.vip.miui.com/api/alpha/detail?planId=245
-# https://api.vip.miui.com/api/alpha/detail?&planId=322
-# https://web.vip.miui.com/page/info/mio/mio/testDetails?id=420
+# 往上走 https://api.vip.miui.com/api/alpha/detail?planId=479
+# https://web.vip.miui.com/page/info/mio/mio/testDetails?id=479
+# 往下走 https://api.vip.miui.com/api/alpha/detail?planId=228
+# https://web.vip.miui.com/page/info/mio/mio/testDetails?id=228
 # https://www.xiaomi.cn/board/12180376
 # https://new.c.mi.com/global/forum-sub/11888
 # https://api-alpha.vip.miui.com/api/alpha/user
