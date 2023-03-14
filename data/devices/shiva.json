@@ -1,94 +1,94 @@
 {
-    "codename": "shiva",
-    "cnname": "POCO M2",
-    "enname": "POCO M2",
-    "attentions": [
-        {
-            "cn": "",
-            "en": ""
-        }
-    ],
-  "cdid":"",
-  "ccshow":"0",
-  "cbshow":"",
-  "csid":[],
-  "cbid":[],
-  "gdid":"",
-  "pcid":"",
+  "codename": "shiva",
+  "cnname": "POCO M2",
+  "enname": "POCO M2",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "cdid": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
   "branches": [
+    {
+      "branch": "inds",
+      "show": "1",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
         {
-            "branch": "inds",
-            "show": "1",
-            "cnname": "印度稳定版",
-            "enname": "India Stable",
-            "links": [
-                {
-                    "miui": "V12.5.7.0.RJRINXM",
-                    "android": "11.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.5.7.0.RJRINXM_aec8165073_11.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.5.7.0.RJRINXM_20220727.0000.00_11.0_in_ea3f195178.tgz"
-                },
-                {
-                    "miui": "V12.5.6.0.RJRINXM",
-                    "android": "11.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.5.6.0.RJRINXM_3022ddd9eb_11.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.5.6.0.RJRINXM_20220406.0000.00_11.0_in_aedc5f8899.tgz"
-                },
-                {
-                    "miui": "V12.5.5.0.RJRINXM",
-                    "android": "11.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.5.5.0.RJRINXM_adbf257a04_11.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.5.5.0.RJRINXM_20220223.0000.00_11.0_in_2e17cc3d3c.tgz"
-                },
-                {
-                    "miui": "V12.5.3.0.RJRINXM",
-                    "android": "11.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.5.3.0.RJRINXM_c2c9faab4c_11.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.5.3.0.RJRINXM_20211125.0000.00_11.0_in_d834b069e8.tgz"
-                },
-                {
-                    "miui": "V12.5.1.0.RJRINXM",
-                    "android": "11.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.5.1.0.RJRINXM_e61ffd6364_11.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.5.1.0.RJRINXM_20210808.0000.00_11.0_in_3b815d89a6.tgz"
-                },
-                {
-                    "miui": "V12.0.4.0.QJRINXM",
-                    "android": "10.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.0.4.0.QJRINXM_7974829545_10.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.0.4.0.QJRINXM_20210622.0000.00_10.0_in_6526676782.tgz"
-                },
-                {
-                    "miui": "V12.0.3.0.QJRINXM",
-                    "android": "10.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.0.3.0.QJRINXM_04b03a59ec_10.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.0.3.0.QJRINXM_20210324.0000.00_10.0_in_be80ce4405.tgz"
-                },
-                {
-                    "miui": "V12.0.2.0.QJRINXM",
-                    "android": "10.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.0.2.0.QJRINXM_35ea0713e1_10.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.0.2.0.QJRINXM_20210322.0000.00_10.0_in_543fe8d5a4.tgz"
-                },
-                {
-                    "miui": "V12.0.1.0.QJRINXM",
-                    "android": "10.0",
-                    "recovery": "miui_SHIVAINGlobal_V12.0.1.0.QJRINXM_324c4a3b9c_10.0.zip",
-                    "fastboot": "shiva_in_global_images_V12.0.1.0.QJRINXM_20201224.0000.00_10.0_in_3b6a5b3c4c.tgz"
-                },
-                {
-                    "miui": "V11.0.5.0.QJRINXM",
-                    "android": "10.0",
-                    "recovery": "miui_SHIVAINGlobal_V11.0.5.0.QJRINXM_1d82d950c2_10.0.zip",
-                    "fastboot": "shiva_in_global_images_V11.0.5.0.QJRINXM_20201109.0000.00_10.0_in_7493a6cd9f.tgz"
-                },
-                {
-                    "miui": "V11.0.4.0.QJRINXM",
-                    "android": "10.0",
-                    "recovery": "miui_SHIVAINGlobal_V11.0.4.0.QJRINXM_e691be106a_10.0.zip",
-                    "fastboot": "shiva_in_global_images_V11.0.4.0.QJRINXM_20200910.0000.00_10.0_in_20239d6ece.tgz"
-                }
-            ]
+          "miui": "V12.5.7.0.RJRINXM",
+          "android": "11.0",
+          "recovery": "miui_SHIVAINGlobal_V12.5.7.0.RJRINXM_aec8165073_11.0.zip",
+          "fastboot": "shiva_in_global_images_V12.5.7.0.RJRINXM_20220727.0000.00_11.0_in_ea3f195178.tgz"
+        },
+        {
+          "miui": "V12.5.6.0.RJRINXM",
+          "android": "11.0",
+          "recovery": "miui_SHIVAINGlobal_V12.5.6.0.RJRINXM_3022ddd9eb_11.0.zip",
+          "fastboot": "shiva_in_global_images_V12.5.6.0.RJRINXM_20220406.0000.00_11.0_in_aedc5f8899.tgz"
+        },
+        {
+          "miui": "V12.5.5.0.RJRINXM",
+          "android": "11.0",
+          "recovery": "miui_SHIVAINGlobal_V12.5.5.0.RJRINXM_adbf257a04_11.0.zip",
+          "fastboot": "shiva_in_global_images_V12.5.5.0.RJRINXM_20220223.0000.00_11.0_in_2e17cc3d3c.tgz"
+        },
+        {
+          "miui": "V12.5.3.0.RJRINXM",
+          "android": "11.0",
+          "recovery": "miui_SHIVAINGlobal_V12.5.3.0.RJRINXM_c2c9faab4c_11.0.zip",
+          "fastboot": "shiva_in_global_images_V12.5.3.0.RJRINXM_20211125.0000.00_11.0_in_d834b069e8.tgz"
+        },
+        {
+          "miui": "V12.5.1.0.RJRINXM",
+          "android": "11.0",
+          "recovery": "miui_SHIVAINGlobal_V12.5.1.0.RJRINXM_e61ffd6364_11.0.zip",
+          "fastboot": "shiva_in_global_images_V12.5.1.0.RJRINXM_20210808.0000.00_11.0_in_3b815d89a6.tgz"
+        },
+        {
+          "miui": "V12.0.4.0.QJRINXM",
+          "android": "10.0",
+          "recovery": "miui_SHIVAINGlobal_V12.0.4.0.QJRINXM_7974829545_10.0.zip",
+          "fastboot": "shiva_in_global_images_V12.0.4.0.QJRINXM_20210622.0000.00_10.0_in_6526676782.tgz"
+        },
+        {
+          "miui": "V12.0.3.0.QJRINXM",
+          "android": "10.0",
+          "recovery": "miui_SHIVAINGlobal_V12.0.3.0.QJRINXM_04b03a59ec_10.0.zip",
+          "fastboot": "shiva_in_global_images_V12.0.3.0.QJRINXM_20210324.0000.00_10.0_in_be80ce4405.tgz"
+        },
+        {
+          "miui": "V12.0.2.0.QJRINXM",
+          "android": "10.0",
+          "recovery": "miui_SHIVAINGlobal_V12.0.2.0.QJRINXM_35ea0713e1_10.0.zip",
+          "fastboot": "shiva_in_global_images_V12.0.2.0.QJRINXM_20210322.0000.00_10.0_in_543fe8d5a4.tgz"
+        },
+        {
+          "miui": "V12.0.1.0.QJRINXM",
+          "android": "10.0",
+          "recovery": "miui_SHIVAINGlobal_V12.0.1.0.QJRINXM_324c4a3b9c_10.0.zip",
+          "fastboot": "shiva_in_global_images_V12.0.1.0.QJRINXM_20201224.0000.00_10.0_in_3b6a5b3c4c.tgz"
+        },
+        {
+          "miui": "V11.0.5.0.QJRINXM",
+          "android": "10.0",
+          "recovery": "miui_SHIVAINGlobal_V11.0.5.0.QJRINXM_1d82d950c2_10.0.zip",
+          "fastboot": "shiva_in_global_images_V11.0.5.0.QJRINXM_20201109.0000.00_10.0_in_7493a6cd9f.tgz"
+        },
+        {
+          "miui": "V11.0.4.0.QJRINXM",
+          "android": "10.0",
+          "recovery": "miui_SHIVAINGlobal_V11.0.4.0.QJRINXM_e691be106a_10.0.zip",
+          "fastboot": "shiva_in_global_images_V11.0.4.0.QJRINXM_20200910.0000.00_10.0_in_20239d6ece.tgz"
         }
-    ]
+      ]
+    }
+  ]
 }

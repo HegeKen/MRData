@@ -1,792 +1,792 @@
 {
-    "codename": "lte26007",
-    "cnname": "红米 2A 标准版",
-    "enname": "Redmi 2A",
-    "attentions": [
-        {
-            "cn": "",
-            "en": ""
-        }
-    ],
-  "cdid":"12807456",
-  "ccshow":"1",
-  "cbshow":"",
-  "csid":[],
-  "cbid":[],
-  "gdid":"",
-  "pcid":"",
+  "codename": "lte26007",
+  "cnname": "红米 2A 标准版",
+  "enname": "Redmi 2A",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "cdid": "12807456",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
   "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "7.11.16",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.11.16_08481a71d0_4.4.zip",
-                    "fastboot": "lte26007_images_7.11.16_20171116.0000.00_4.4_cn_4700e0d96d.tgz"
-                },
-                {
-                    "miui": "7.11.9",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.11.9_6d46750fba_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.11.2",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.11.2_57eab04e0a_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.10.26",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.10.26_4a936a1c7e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.10.20",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.10.20_e19b882dc1_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.10.12",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.10.12_6fc6daffec_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.21",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.9.21_70b8fbd1ff_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.14",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.9.14_3941323c7e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.7",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.9.7_e56049b92e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.6.8",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.6.8_a478f306ad_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.25",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.5.25_dd2c46bb94_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.19",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.5.19_01b4f806c9_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.11",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.5.11_e3bcd9b4b8_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.4",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.5.4_04a4c1f4e9_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.27",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.4.27_d2fca932ed_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.20",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_7.4.20_767dbef841_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.24",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.11.24_6a9793ce18_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.17",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.11.17_5710cdd0ea_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.10",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.11.10_1e091a3532_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.3",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.11.3_9a7bce8708_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.10.27",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.10.27_342b96b2e4_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.10.20",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.10.20_b265c175d2_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.10.13",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.10.13_e376498b81_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.29",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.9.29_93451b8a3e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.22",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.9.22_294ad93a15_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.15",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.9.15_b0fb434f2c_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.8",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.9.8_1067623b07_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.1",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.9.1_962f420ad4_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.18",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.8.18_2cdc850818_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.11",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.8.11_5d95e88e44_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.4",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.8.4_513091d841_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.28",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.7.28_9b0aee471e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.21",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.7.21_012b066f2f_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.14",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.7.14_0c7ac86702_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.7",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.7.7_9da975b549_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.6.30",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.6.30_756e2f0d73_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.6.23",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.6.23_566f33ea50_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.6.17",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.6.17_c1c20110f7_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.26",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.5.26_6a5fe69b32_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.19",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.5.19_20736d87e2_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.12",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.5.12_56e997e6d3_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.5",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.5.5_f32ae5dc21_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.28",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.4.28_c7f0fe01f3_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.21",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.4.21_3d760298f3_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.14",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.4.14_2dccef9dfc_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.7",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.4.7_5b89c0a513_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.31",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.3.31_74e1faac60_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.24",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.3.24_c3c7f33fd4_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.17",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.3.17_12e88b8be3_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.10",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.3.10_c0ce1b831f_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.3",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.3.3_bdd4d40434_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.2.25",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.2.25_e398a6e5ec_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.2.18",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.2.18_74833bba7e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.28",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.1.28_42acfa8278_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.21",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.1.21_c4396d4603_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.14",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.1.14_67356207b8_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.7",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_6.1.7_7c1f7f26be_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.31",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.12.31_490b21e80d_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.24",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.12.24_72c72b8ebc_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.17",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.12.17_8262ec5291_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.10",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.12.10_51b96becda_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.4",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.12.4_277f12eb8d_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.26",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.11.26_5df4b7f1f2_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.19",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.11.19_e2a3a4e7fb_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.12",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.11.12_477a7326d1_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.5",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.11.5_c746f86f4e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.1",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.11.1_9863ae651c_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.10.22",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.10.22_28c1f49580_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.10.15",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.10.15_5293972aaa_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.10.8",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.10.8_d38345f927_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.9.24",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.9.24_519e50a931_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.9.17",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.9.17_aeeda1cf71_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.9.10",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.9.10_d62e3fe739_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.9.1",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.9.1_e0763eaa07_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.8.27",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.8.27_b3e693071e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.8.20",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.8.20_bac444e976_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.8.13",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.8.13_c135bc3949_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.8.6",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.8.6_7f57bc8e6c_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.7.31",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.7.31_aa95bb606e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.7.26",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.7.26_18f7ffaf10_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.7.16",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.7.16_f2dfe1409b_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.7.9",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.7.9_c9050b495a_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.7.2",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.7.2_12989a1da6_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.6.25",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.6.25_ccc2cbefbb_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.6.18",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.6.18_c06ceb79f3_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.6.11",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.6.11_64203713c0_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.6.4",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.6.4_3c0f276e5d_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.5.29",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.5.29_e2f43b5df0_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.5.22",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.5.22_88823398ac_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.5.15",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.5.15_f0e6c304ac_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.5.8",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.5.8_b44805f084_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.5.1",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.5.1_650fca0c50_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.4.24",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.4.24_f3094ab98f_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.4.17",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.4.17_ca1287b405_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.4.10",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_5.4.10_abfc08b713_4.4.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "7.11.16",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.11.16_08481a71d0_4.4.zip",
+          "fastboot": "lte26007_images_7.11.16_20171116.0000.00_4.4_cn_4700e0d96d.tgz"
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V9.2.3.0.KHLCNEK",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V9.2.3.0.KHLCNEK_26c08b155f_4.4.zip",
-                    "fastboot": "lte26007_images_V9.2.3.0.KHLCNEK_20171229.0000.00_4.4_cn_accb212e3a.tgz"
-                },
-                {
-                    "miui": "V9.2.1.0.KHLCNEK",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V9.2.1.0.KHLCNEK_dd050163c4_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.5.1.0.KHLCNED",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V8.5.1.0.KHLCNED_271cdabec4_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.2.1.0.KHLCNDL",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V8.2.1.0.KHLCNDL_180fa278eb_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.1.2.0.KHLCNDI",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V8.1.2.0.KHLCNDI_c29690d073_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.0.1.0.KHLCNDG",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V8.0.1.0.KHLCNDG_0995ce927d_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.5.1.0.KHLCNDE",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.5.1.0.KHLCNDE_76f9324c86_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.3.1.0.KHLCNDD",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.3.1.0.KHLCNDD_ac97f2a1e8_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.2.1.0.KHLCNDB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.2.1.0.KHLCNDB_88f1d951ba_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.1.2.0.KHLCNCK",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.1.2.0.KHLCNCK_10d5ac947b_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.1.1.0.KHLCNCK",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.1.1.0.KHLCNCK_d6be532771_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.9.0.KHLCNCI",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.0.9.0.KHLCNCI_dbb30fdbff_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.8.0.KHLCNCI",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.0.8.0.KHLCNCI_0ae18354bd_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.7.0.KHLCNCI",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V7.0.7.0.KHLCNCI_54a8065c76_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.7.2.0.KHLCNCH",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.7.2.0.KHLCNCH_12e07d3a41_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.6.7.0.KHLCNCF",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.6.7.0.KHLCNCF_22bd7a9601_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.6.5.0.KHLCNCF",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.6.5.0.KHLCNCF_b2cbe886ab_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.6.4.0.KHLCNCF",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.6.4.0.KHLCNCF_ad52723ade_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.6.2.0.KHLCNCF",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.6.2.0.KHLCNCF_88a39d8bfd_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.5.4.0.KHLCNCD",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.5.4.0.KHLCNCD_c915ca01a5_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.5.3.0.KHLCNCD",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.5.3.0.KHLCNCD_77cd7c7229_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.5.2.0.KHLCNCD",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.5.2.0.KHLCNCD_6111a3db4a_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.5.1.0.KHLCNCD",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.5.1.0.KHLCNCD_935b5b47c2_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.7.0.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.4.7.0.KHLCNCB_8dd4daa64f_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.6.0.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.4.6.0.KHLCNCB_e923bba2aa_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.5.0.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.4.5.0.KHLCNCB_338369a0f3_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.4.0.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2A_V6.4.4.0.KHLCNCB_005300e1eb_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.3.0.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2XLCLTE_V6.4.3.0.KHLCNCB_72221c3d5e_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.2.0.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2XLCLTE_V6.4.2.0.KHLCNCB_7fb4f33260_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.1.0.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2XLCLTE_V6.4.1.0.KHLCNCB_f25988cb72_4.4.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.4.0.3.KHLCNCB",
-                    "android": "4.4",
-                    "recovery": "miui_HM2XLCLTE_V6.4.0.3.KHLCNCB_cc984af65c_4.4.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "7.11.9",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.11.9_6d46750fba_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.11.2",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.11.2_57eab04e0a_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.10.26",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.10.26_4a936a1c7e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.10.20",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.10.20_e19b882dc1_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.10.12",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.10.12_6fc6daffec_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.21",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.9.21_70b8fbd1ff_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.14",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.9.14_3941323c7e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.7",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.9.7_e56049b92e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.6.8",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.6.8_a478f306ad_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.25",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.5.25_dd2c46bb94_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.19",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.5.19_01b4f806c9_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.11",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.5.11_e3bcd9b4b8_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.4",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.5.4_04a4c1f4e9_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.27",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.4.27_d2fca932ed_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.20",
+          "android": "4.4",
+          "recovery": "miui_HM2A_7.4.20_767dbef841_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.24",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.11.24_6a9793ce18_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.17",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.11.17_5710cdd0ea_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.10",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.11.10_1e091a3532_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.3",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.11.3_9a7bce8708_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.10.27",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.10.27_342b96b2e4_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.10.20",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.10.20_b265c175d2_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.10.13",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.10.13_e376498b81_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.29",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.9.29_93451b8a3e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.22",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.9.22_294ad93a15_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.15",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.9.15_b0fb434f2c_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.8",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.9.8_1067623b07_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.1",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.9.1_962f420ad4_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.18",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.8.18_2cdc850818_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.11",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.8.11_5d95e88e44_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.4",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.8.4_513091d841_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.28",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.7.28_9b0aee471e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.21",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.7.21_012b066f2f_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.14",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.7.14_0c7ac86702_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.7",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.7.7_9da975b549_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.6.30",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.6.30_756e2f0d73_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.6.23",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.6.23_566f33ea50_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.6.17",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.6.17_c1c20110f7_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.26",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.5.26_6a5fe69b32_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.19",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.5.19_20736d87e2_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.12",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.5.12_56e997e6d3_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.5",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.5.5_f32ae5dc21_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.28",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.4.28_c7f0fe01f3_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.21",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.4.21_3d760298f3_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.14",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.4.14_2dccef9dfc_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.7",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.4.7_5b89c0a513_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.31",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.3.31_74e1faac60_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.24",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.3.24_c3c7f33fd4_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.17",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.3.17_12e88b8be3_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.10",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.3.10_c0ce1b831f_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.3",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.3.3_bdd4d40434_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.2.25",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.2.25_e398a6e5ec_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.2.18",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.2.18_74833bba7e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.28",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.1.28_42acfa8278_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.21",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.1.21_c4396d4603_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.14",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.1.14_67356207b8_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.7",
+          "android": "4.4",
+          "recovery": "miui_HM2A_6.1.7_7c1f7f26be_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.31",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.12.31_490b21e80d_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.24",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.12.24_72c72b8ebc_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.17",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.12.17_8262ec5291_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.10",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.12.10_51b96becda_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.4",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.12.4_277f12eb8d_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.26",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.11.26_5df4b7f1f2_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.19",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.11.19_e2a3a4e7fb_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.12",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.11.12_477a7326d1_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.5",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.11.5_c746f86f4e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.1",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.11.1_9863ae651c_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.10.22",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.10.22_28c1f49580_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.10.15",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.10.15_5293972aaa_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.10.8",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.10.8_d38345f927_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.9.24",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.9.24_519e50a931_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.9.17",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.9.17_aeeda1cf71_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.9.10",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.9.10_d62e3fe739_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.9.1",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.9.1_e0763eaa07_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.8.27",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.8.27_b3e693071e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.8.20",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.8.20_bac444e976_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.8.13",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.8.13_c135bc3949_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.8.6",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.8.6_7f57bc8e6c_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.7.31",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.7.31_aa95bb606e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.7.26",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.7.26_18f7ffaf10_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.7.16",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.7.16_f2dfe1409b_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.7.9",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.7.9_c9050b495a_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.7.2",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.7.2_12989a1da6_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.6.25",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.6.25_ccc2cbefbb_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.6.18",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.6.18_c06ceb79f3_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.6.11",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.6.11_64203713c0_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.6.4",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.6.4_3c0f276e5d_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.5.29",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.5.29_e2f43b5df0_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.5.22",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.5.22_88823398ac_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.5.15",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.5.15_f0e6c304ac_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.5.8",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.5.8_b44805f084_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.5.1",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.5.1_650fca0c50_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.4.24",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.4.24_f3094ab98f_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.4.17",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.4.17_ca1287b405_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.4.10",
+          "android": "4.4",
+          "recovery": "miui_HM2A_5.4.10_abfc08b713_4.4.zip",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V9.2.3.0.KHLCNEK",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V9.2.3.0.KHLCNEK_26c08b155f_4.4.zip",
+          "fastboot": "lte26007_images_V9.2.3.0.KHLCNEK_20171229.0000.00_4.4_cn_accb212e3a.tgz"
+        },
+        {
+          "miui": "V9.2.1.0.KHLCNEK",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V9.2.1.0.KHLCNEK_dd050163c4_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.5.1.0.KHLCNED",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V8.5.1.0.KHLCNED_271cdabec4_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.2.1.0.KHLCNDL",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V8.2.1.0.KHLCNDL_180fa278eb_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.1.2.0.KHLCNDI",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V8.1.2.0.KHLCNDI_c29690d073_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.0.1.0.KHLCNDG",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V8.0.1.0.KHLCNDG_0995ce927d_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.5.1.0.KHLCNDE",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.5.1.0.KHLCNDE_76f9324c86_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.3.1.0.KHLCNDD",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.3.1.0.KHLCNDD_ac97f2a1e8_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.2.1.0.KHLCNDB",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.2.1.0.KHLCNDB_88f1d951ba_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.1.2.0.KHLCNCK",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.1.2.0.KHLCNCK_10d5ac947b_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.1.1.0.KHLCNCK",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.1.1.0.KHLCNCK_d6be532771_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.9.0.KHLCNCI",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.0.9.0.KHLCNCI_dbb30fdbff_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.8.0.KHLCNCI",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.0.8.0.KHLCNCI_0ae18354bd_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.7.0.KHLCNCI",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V7.0.7.0.KHLCNCI_54a8065c76_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.7.2.0.KHLCNCH",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.7.2.0.KHLCNCH_12e07d3a41_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.6.7.0.KHLCNCF",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.6.7.0.KHLCNCF_22bd7a9601_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.6.5.0.KHLCNCF",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.6.5.0.KHLCNCF_b2cbe886ab_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.6.4.0.KHLCNCF",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.6.4.0.KHLCNCF_ad52723ade_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.6.2.0.KHLCNCF",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.6.2.0.KHLCNCF_88a39d8bfd_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.5.4.0.KHLCNCD",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.5.4.0.KHLCNCD_c915ca01a5_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.5.3.0.KHLCNCD",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.5.3.0.KHLCNCD_77cd7c7229_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.5.2.0.KHLCNCD",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.5.2.0.KHLCNCD_6111a3db4a_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.5.1.0.KHLCNCD",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.5.1.0.KHLCNCD_935b5b47c2_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.7.0.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.4.7.0.KHLCNCB_8dd4daa64f_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.6.0.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.4.6.0.KHLCNCB_e923bba2aa_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.5.0.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.4.5.0.KHLCNCB_338369a0f3_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.4.0.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2A_V6.4.4.0.KHLCNCB_005300e1eb_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.3.0.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2XLCLTE_V6.4.3.0.KHLCNCB_72221c3d5e_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.2.0.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2XLCLTE_V6.4.2.0.KHLCNCB_7fb4f33260_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.1.0.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2XLCLTE_V6.4.1.0.KHLCNCB_f25988cb72_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.4.0.3.KHLCNCB",
+          "android": "4.4",
+          "recovery": "miui_HM2XLCLTE_V6.4.0.3.KHLCNCB_cc984af65c_4.4.zip",
+          "fastboot": ""
+        }
+      ]
+    }
+  ]
 }

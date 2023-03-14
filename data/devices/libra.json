@@ -1,990 +1,990 @@
 {
-    "codename": "libra",
-    "cnname": "小米 4C",
-    "enname": "Mi 4C",
-    "attentions": [
-        {
-            "cn": "",
-            "en": ""
-        }
-    ],
-  "cdid":"8814010",
-  "ccshow":"1",
-  "cbshow":"",
-  "csid":[],
-  "cbid":[],
-  "gdid":"",
-  "pcid":"",
+  "codename": "libra",
+  "cnname": "小米 4C",
+  "enname": "Mi 4C",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "cdid": "8814010",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
   "branches": [
+    {
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
         {
-            "branch": "cnmp",
-            "show": "1",
-            "cnname": "开发版",
-            "enname": "China Beta",
-            "links": [
-                {
-                    "miui": "8.9.13",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.9.13_6a39e99f8c_7.0.zip",
-                    "fastboot": "libra_images_8.9.13_20180913.0000.00_7.0_cn_5675248dd4.tgz"
-                },
-                {
-                    "miui": "8.9.6",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.9.6_1497823a57_7.0.zip",
-                    "fastboot": "libra_images_8.9.6_20180906.0000.00_7.0_cn_ec73ea150b.tgz"
-                },
-                {
-                    "miui": "8.8.30",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.8.30_0c7f613d90_7.0.zip",
-                    "fastboot": "libra_images_8.8.30_20180830.0000.00_7.0_cn_e03e639fed.tgz"
-                },
-                {
-                    "miui": "8.8.23",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.8.23_e93764a162_7.0.zip",
-                    "fastboot": "libra_images_8.8.23_20180823.0000.00_7.0_cn_d95fff426c.tgz"
-                },
-                {
-                    "miui": "8.8.9",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.8.9_8292995cbf_7.0.zip",
-                    "fastboot": "libra_images_8.8.9_20180809.0000.00_7.0_cn_e694fca101.tgz"
-                },
-                {
-                    "miui": "8.8.3",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.8.3_3a7c203873_7.0.zip",
-                    "fastboot": "libra_images_8.8.3_20180802.0000.00_7.0_cn_16d0a9ec68.tgz"
-                },
-                {
-                    "miui": "8.7.26",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.7.26_f01ba1e182_7.0.zip",
-                    "fastboot": "libra_images_8.7.26_20180726.0000.00_7.0_cn_403da44af0.tgz"
-                },
-                {
-                    "miui": "8.7.19",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.7.19_3ce0f0b51d_7.0.zip",
-                    "fastboot": "libra_images_8.7.19_20180719.0000.00_7.0_cn_a1c5edc772.tgz"
-                },
-                {
-                    "miui": "8.7.12",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.7.12_1b98bcaf41_7.0.zip",
-                    "fastboot": "libra_images_8.7.12_20180712.0000.00_7.0_cn_c050a33dff.tgz"
-                },
-                {
-                    "miui": "8.4.28",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.4.28_cca810afe0_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "8.4.26",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.4.26_7d53f1583c_7.0.zip",
-                    "fastboot": "libra_images_8.4.26_20180426.0000.00_7.0_cn_7ae170f20a.tgz"
-                },
-                {
-                    "miui": "8.4.19",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.4.19_7840af0fe3_7.0.zip",
-                    "fastboot": "libra_images_8.4.19_20180419.0000.00_7.0_cn_742873b8e3.tgz"
-                },
-                {
-                    "miui": "8.4.12",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.4.12_531895fc2a_7.0.zip",
-                    "fastboot": "libra_images_8.4.12_20180412.0000.00_7.0_cn_b24cba56fa.tgz"
-                },
-                {
-                    "miui": "8.3.29",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.3.29_a664d02e3d_7.0.zip",
-                    "fastboot": "libra_images_8.3.29_20180329.0000.00_7.0_cn_4e85b6de1d.tgz"
-                },
-                {
-                    "miui": "8.3.22",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.3.22_bbfb4073ce_7.0.zip",
-                    "fastboot": "libra_images_8.3.22_20180322.0000.00_7.0_cn_3156e1f3c9.tgz"
-                },
-                {
-                    "miui": "8.3.15",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.3.15_0181b380b2_7.0.zip",
-                    "fastboot": "libra_images_8.3.15_20180315.0000.00_7.0_cn_dc250a1345.tgz"
-                },
-                {
-                    "miui": "8.3.8",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.3.8_faf285a144_7.0.zip",
-                    "fastboot": "libra_images_8.3.8_20180308.0000.00_7.0_cn_bce9073b81.tgz"
-                },
-                {
-                    "miui": "8.3.1",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.3.1_e98afb278e_7.0.zip",
-                    "fastboot": "libra_images_8.3.1_20180301.0000.00_7.0_cn_4139562d21.tgz"
-                },
-                {
-                    "miui": "8.2.1",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.2.1_2e3ab081fd_7.0.zip",
-                    "fastboot": "libra_images_8.2.1_20180201.0000.00_7.0_cn_bc77b806c3.tgz"
-                },
-                {
-                    "miui": "8.1.25",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.1.25_d4c3fbd066_7.0.zip",
-                    "fastboot": "libra_images_8.1.25_20180125.0000.00_7.0_cn_72cfc39447.tgz"
-                },
-                {
-                    "miui": "8.1.18",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.1.18_1302a601b9_7.0.zip",
-                    "fastboot": "libra_images_8.1.18_20180118.0000.00_7.0_cn_8ffd721072.tgz"
-                },
-                {
-                    "miui": "8.1.11",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.1.11_535db13478_7.0.zip",
-                    "fastboot": "libra_images_8.1.11_20180111.0000.00_7.0_cn_c0dd03d97f.tgz"
-                },
-                {
-                    "miui": "8.1.4",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_8.1.4_e067842fc0_7.0.zip",
-                    "fastboot": "libra_images_8.1.4_20180104.0000.00_7.0_cn_7909ddf53e.tgz"
-                },
-                {
-                    "miui": "7.12.28",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.12.28_afb38f78c0_7.0.zip",
-                    "fastboot": "libra_images_7.12.28_20171228.0000.00_7.0_cn_b7b40a1fef.tgz"
-                },
-                {
-                    "miui": "7.12.21",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.12.21_0023c48c27_7.0.zip",
-                    "fastboot": "libra_images_7.12.21_20171221.0000.00_7.0_cn_673aa5f77f.tgz"
-                },
-                {
-                    "miui": "7.12.14",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.12.14_1c76e41804_7.0.zip",
-                    "fastboot": "libra_images_7.12.14_20171214.0000.00_7.0_cn_71ea88f01f.tgz"
-                },
-                {
-                    "miui": "7.12.8",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.12.8_eb45c48dde_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.11.30",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.11.30_dfbabe6d5b_7.0.zip",
-                    "fastboot": "libra_images_7.11.30_20171130.0000.00_7.0_cn_093c66c400.tgz"
-                },
-                {
-                    "miui": "7.11.23",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.11.23_05d3819d53_7.0.zip",
-                    "fastboot": "libra_images_7.11.23_20171123.0000.00_7.0_cn_56320e556c.tgz"
-                },
-                {
-                    "miui": "7.11.16",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.11.16_cd2ca72d1d_7.0.zip",
-                    "fastboot": "libra_images_7.11.16_20171116.0000.00_7.0_cn_3e72019ed2.tgz"
-                },
-                {
-                    "miui": "7.11.9",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.11.9_279710032a_7.0.zip",
-                    "fastboot": "libra_images_7.11.9_20171109.0000.00_7.0_cn_26ff086712.tgz"
-                },
-                {
-                    "miui": "7.11.2",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.11.2_aa47841865_7.0.zip",
-                    "fastboot": "libra_images_7.11.2_20171102.0000.00_7.0_cn_8330cfe76f.tgz"
-                },
-                {
-                    "miui": "7.10.26",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.10.26_775883f2ec_7.0.zip",
-                    "fastboot": "libra_images_7.10.26_20171026.0000.00_7.0_cn_41a1168d06.tgz"
-                },
-                {
-                    "miui": "7.10.19",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.10.19_0bbd06a719_7.0.zip",
-                    "fastboot": "libra_images_7.10.19_20171019.0000.00_7.0_cn_d2b3f60ab7.tgz"
-                },
-                {
-                    "miui": "7.10.12",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.10.12_9f9580028c_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.28",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.9.28_c1b936a5a6_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.21",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.9.21_64695b8806_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.14",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.9.14_abd7308ce0_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.9.7",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.9.7_4bc3b81013_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.8.31",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.8.31_7f20a115f5_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.8.24",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.8.24_87531df78f_7.0.zip",
-                    "fastboot": "libra_images_7.8.24_20170824.0000.00_7.0_cn_d3c4308f9f.tgz"
-                },
-                {
-                    "miui": "7.8.22",
-                    "android": "7.0",
-                    "recovery": "",
-                    "fastboot": "libra_images_7.8.22_20170822.0000.00_7.0_cn_36c8385c32.tgz"
-                },
-                {
-                    "miui": "7.7.20",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.7.20_3e0a3cfb63_7.0.zip",
-                    "fastboot": "libra_images_7.7.20_20170720.0000.00_7.0_cn_64d50c65e1.tgz"
-                },
-                {
-                    "miui": "7.7.13",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.7.13_00216307cb_7.0.zip",
-                    "fastboot": "libra_images_7.7.13_20170713.0000.00_7.0_cn_aa7da5f8f9.tgz"
-                },
-                {
-                    "miui": "7.7.6",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.7.6_9e00d6c3d7_7.0.zip",
-                    "fastboot": "libra_images_7.7.6_20170706.0000.00_7.0_cn_b5b29deb53.tgz"
-                },
-                {
-                    "miui": "7.6.29",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.6.29_4a61741232_7.0.zip",
-                    "fastboot": "libra_images_7.6.29_20170629.0000.00_7.0_cn_d36ad5a227.tgz"
-                },
-                {
-                    "miui": "7.6.25",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.6.25_6fddc15d7f_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.6.22",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.6.22_193e3f7818_7.0.zip",
-                    "fastboot": "libra_images_7.6.22_20170622.0000.00_7.0_cn_e4648c8298.tgz"
-                },
-                {
-                    "miui": "7.6.15",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.6.15_2c76f85683_7.0.zip",
-                    "fastboot": "libra_images_7.6.15_20170615.0000.00_7.0_cn_220a92ae4d.tgz"
-                },
-                {
-                    "miui": "7.5.25",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.5.25_6b08dae588_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.19",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.5.19_8c5775f981_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.5.11",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.5.11_33855ff7ee_7.0.zip",
-                    "fastboot": "libra_images_7.5.11_20170511.0000.00_7.0_cn_80450e2ffd.tgz"
-                },
-                {
-                    "miui": "7.5.4",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.5.4_5f90159e61_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.4.27",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.4.27_22f1156afd_7.0.zip",
-                    "fastboot": "libra_images_7.4.27_20170426.0000.00_7.0_cn_c09248e789.tgz"
-                },
-                {
-                    "miui": "7.4.20",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.4.20_9f7c854d10_7.0.zip",
-                    "fastboot": "libra_images_7.4.20_20170420.0000.00_7.0_cn_4793340a7e.tgz"
-                },
-                {
-                    "miui": "7.3.30",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.3.30_d72a9cdf80_7.0.zip",
-                    "fastboot": "libra_images_7.3.30_20170330.0000.00_7.0_cn_51cf4186b2.tgz"
-                },
-                {
-                    "miui": "7.3.23",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.3.23_f9dd6e5214_7.0.zip",
-                    "fastboot": "libra_images_7.3.23_20170323.0000.00_7.0_cn_2ded872f70.tgz"
-                },
-                {
-                    "miui": "7.3.16",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.3.16_3186c65f35_7.0.zip",
-                    "fastboot": "libra_images_7.3.16_20170316.0000.00_7.0_cn_954df72d33.tgz"
-                },
-                {
-                    "miui": "7.3.9",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.3.9_dacdc3ef7f_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "7.2.23",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.2.23_976c30f4e7_7.0.zip",
-                    "fastboot": "libra_images_7.2.23_20170223.0000.00_7.0_cn_31857e1473.tgz"
-                },
-                {
-                    "miui": "7.2.16",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_7.2.16_7d8de556d2_7.0.zip",
-                    "fastboot": "libra_images_7.2.16_20170216.0000.00_7.0_cn_2f67025e3f.tgz"
-                },
-                {
-                    "miui": "6.12.22",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.12.22_479c5ea612_5.1.zip",
-                    "fastboot": "libra_images_6.12.22_20161222.0000.00_5.1_cn_fa709eaa17.tgz"
-                },
-                {
-                    "miui": "6.12.15",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.12.15_491ddc262b_5.1.zip",
-                    "fastboot": "libra_images_6.12.15_20161215.0000.00_5.1_cn_098615871f.tgz"
-                },
-                {
-                    "miui": "6.12.8",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.12.8_b769c621ac_5.1.zip",
-                    "fastboot": "libra_images_6.12.8_20161208.0000.00_5.1_cn_555dcea8b1.tgz"
-                },
-                {
-                    "miui": "6.12.1",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.12.1_85d4469cd8_5.1.zip",
-                    "fastboot": "libra_images_6.12.1_20161201.0000.00_5.1_cn_e8d8c486eb.tgz"
-                },
-                {
-                    "miui": "6.11.24",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.11.24_e3841b3923_5.1.zip",
-                    "fastboot": "libra_images_6.11.24_20161124.0000.00_5.1_cn_5e7f64a88c.tgz"
-                },
-                {
-                    "miui": "6.11.17",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.11.17_05e2856abe_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.10",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.11.10_43be8589bd_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.11.3",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.11.3_11669b494b_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.10.27",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.10.27_c94779f048_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.10.20",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.10.20_58b754f7e5_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.10.13",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.10.13_b8a9fe0613_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.29",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.9.29_ba2928dfd2_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.22",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.9.22_2dfe706406_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.15",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.9.15_233da8089d_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.8",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.9.8_709932707b_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.9.1",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.9.1_aa924cdbb4_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.25",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.8.25_0d908ba522_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.18",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.8.18_0e96601c07_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.11",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.8.11_b017b4c02c_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.8.4",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.8.4_b393edf260_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.28",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.7.28_57b822d7e1_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.21",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.7.21_a0cba746d2_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.14",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.7.14_8b5eb789f5_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.7.7",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.7.7_d3516d2af7_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.6.30",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.6.30_5900d411cb_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.6.23",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.6.23_25bcdf2c08_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.6.17",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.6.17_7a987ae879_5.1.zip",
-                    "fastboot": "libra_images_6.6.17_20160523.0000.23_5.1_cn_ce2e281aa7.tgz"
-                },
-                {
-                    "miui": "6.5.26",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.5.26_614f1816e5_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.24",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.5.24_5832053481_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.12",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.5.12_5cd8f4078a_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.5.5",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.5.5_6e3aa63f4d_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.28",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.4.28_70606f43d1_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.21",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.4.21_b2e3b39472_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.14",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.4.14_27245a3c9a_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.4.7",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.4.7_368ebb0a81_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.31",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.3.31_ad6e8a4ce5_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.24",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.3.24_213bcf7139_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.17",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.3.17_b0813226ff_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.10",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.3.10_7e83683e8b_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.3.3",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.3.3_2147a654b3_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.2.25",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.2.25_0d1e12d705_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.2.18",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.2.18_8f8b23ef64_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.28",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.1.28_b570776521_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.21",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.1.21_d1d054460d_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.14",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.1.14_86b1aa1ce9_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "6.1.7",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_6.1.7_d339924c93_5.1.zip",
-                    "fastboot": "libra_images_6.1.7_20151221.0000.11_5.1_cn_b09dac70a0.tgz"
-                },
-                {
-                    "miui": "5.12.31",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.12.31_5d6537a0b8_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.24",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.12.24_7684826053_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.17",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.12.17_aaddadfe4a_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.10",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.12.10_75e57588bc_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.12.4",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.12.4_b6d89f351d_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.26",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.11.26_6e1e1bc311_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.19",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.11.19_c6f7a34455_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.12",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.11.12_a2beb1d809_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.5",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.11.5_0c3462848e_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.11.1",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.11.1_00fa09a073_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.10.29",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.10.29_deb681dbdc_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.10.22",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.10.22_d7f906b451_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.10.16",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.10.16_3be1109680_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.10.8",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.10.8_5b7ec5aad6_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "5.9.24",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_5.9.24_dda6d1c121_5.1.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "8.9.13",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.9.13_6a39e99f8c_7.0.zip",
+          "fastboot": "libra_images_8.9.13_20180913.0000.00_7.0_cn_5675248dd4.tgz"
         },
         {
-            "branch": "cnms",
-            "show": "1",
-            "cnname": "中国大陆稳定版",
-            "enname": "China Mainland Stable",
-            "links": [
-                {
-                    "miui": "V10.1.1.0.NXKCNFI",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V10.1.1.0.NXKCNFI_13b9b312d0_7.0.zip",
-                    "fastboot": "libra_images_V10.1.1.0.NXKCNFI_20181009.0000.00_7.0_cn_24e34e7e33.tgz"
-                },
-                {
-                    "miui": "V9.6.3.0.NXKCNFD",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.6.3.0.NXKCNFD_441bb74404_7.0.zip",
-                    "fastboot": "libra_images_V9.6.3.0.NXKCNFD_20180716.0000.00_7.0_cn_350d0ee58c.tgz"
-                },
-                {
-                    "miui": "V9.6.2.0.NXKCNFD",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.6.2.0.NXKCNFD_d6ad938e10_7.0.zip",
-                    "fastboot": "libra_images_V9.6.2.0.NXKCNFD_20180608.0000.00_7.0_cn_caefff2d03.tgz"
-                },
-                {
-                    "miui": "V9.5.2.0.NXKCNFA",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.5.2.0.NXKCNFA_81f363e363_7.0.zip",
-                    "fastboot": "libra_images_V9.5.2.0.NXKCNFA_20180405.0000.00_7.0_cn_3dce54155d.tgz"
-                },
-                {
-                    "miui": "V9.5.1.0.NXKCNFA",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.5.1.0.NXKCNFA_e805b31b81_7.0.zip",
-                    "fastboot": "libra_images_V9.5.1.0.NXKCNFA_20180306.0000.00_7.0_cn_abe990531b.tgz"
-                },
-                {
-                    "miui": "V9.2.2.0.NXKCNEK",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.2.2.0.NXKCNEK_79b31c35b8_7.0.zip",
-                    "fastboot": "libra_images_V9.2.2.0.NXKCNEK_20180123.0000.00_7.0_cn_75e9d336d5.tgz"
-                },
-                {
-                    "miui": "V9.2.1.0.NXKCNEK",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.2.1.0.NXKCNEK_50b6be64cd_7.0.zip",
-                    "fastboot": "libra_images_V9.2.1.0.NXKCNEK_20171219.0000.00_7.0_cn_e17bf9197d.tgz"
-                },
-                {
-                    "miui": "V9.1.3.0.NXKCNEI",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.1.3.0.NXKCNEI_8a588efdc1_7.0.zip",
-                    "fastboot": "libra_images_V9.1.3.0.NXKCNEI_20171124.0000.00_7.0_cn_513aacfe65.tgz"
-                },
-                {
-                    "miui": "V9.1.2.0.NXKCNEI",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V9.1.2.0.NXKCNEI_6e67916bec_7.0.zip",
-                    "fastboot": "libra_images_V9.1.2.0.NXKCNEI_20171102.0000.00_7.0_cn_846224ba9d.tgz"
-                },
-                {
-                    "miui": "V8.5.1.0.NXKCNED",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V8.5.1.0.NXKCNED_2851a16b0d_7.0.zip",
-                    "fastboot": "libra_images_V8.5.1.0.NXKCNED_20170619.0000.00_7.0_cn_2b6ded3649.tgz"
-                },
-                {
-                    "miui": "V8.2.3.0.NXKCNEC",
-                    "android": "7.0",
-                    "recovery": "miui_MI4c_V8.2.3.0.NXKCNEC_a80a794f89_7.0.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.2.1.0.LXKCNDL",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V8.2.1.0.LXKCNDL_2bd621faaa_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.1.3.0.LXKCNDI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V8.1.3.0.LXKCNDI_abbe5c3b35_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V8.1.2.0.LXKCNDI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V8.1.2.0.LXKCNDI_be73c95be2_5.1.zip",
-                    "fastboot": "libra_images_V8.1.2.0.LXKCNDI_20161120.0000.00_5.1_cn_89c8591fd1.tgz"
-                },
-                {
-                    "miui": "V8.1.1.0.LXKCNDI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V8.1.1.0.LXKCNDI_6da61ea65f_5.1.zip",
-                    "fastboot": "libra_images_V8.1.1.0.LXKCNDI_20161107.0000.00_5.1_cn_103869def5.tgz"
-                },
-                {
-                    "miui": "V8.0.5.0.LXKCNDG",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V8.0.5.0.LXKCNDG_7b2521c16f_5.1.zip",
-                    "fastboot": "libra_images_V8.0.5.0.LXKCNDG_20160805.0000.29_5.1_cn_bdb150bc30.tgz"
-                },
-                {
-                    "miui": "V8.0.4.0.LXKCNDG",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V8.0.4.0.LXKCNDG_230b599a5e_5.1.zip",
-                    "fastboot": "libra_images_V8.0.4.0.LXKCNDG_20160805.0000.29_5.1_cn_95f7161b1a.tgz"
-                },
-                {
-                    "miui": "V7.5.4.0.LXKCNDE",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.5.4.0.LXKCNDE_50d85a02c6_5.1.zip",
-                    "fastboot": "libra_images_V7.5.4.0.LXKCNDE_20160629.0000.25_5.1_cn_33a18f6950.tgz"
-                },
-                {
-                    "miui": "V7.5.3.0.LXKCNDE",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.5.3.0.LXKCNDE_2b6aa7521f_5.1.zip",
-                    "fastboot": "libra_images_V7.5.3.0.LXKCNDE_20160523.0000.23_5.1_cn_e14d5f3136.tgz"
-                },
-                {
-                    "miui": "V7.5.2.0.LXKCNDE",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.5.2.0.LXKCNDE_a82cce2bfd_5.1.zip",
-                    "fastboot": "libra_images_V7.5.2.0.LXKCNDE_20160523.0000.23_5.1_cn_31094fbac4.tgz"
-                },
-                {
-                    "miui": "V7.3.2.0.LXKCNDD",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.3.2.0.LXKCNDD_b0ef210f04_5.1.zip",
-                    "fastboot": "libra_images_V7.3.2.0.LXKCNDD_20160419.0000.19_5.1_cn_5d584d541e.tgz"
-                },
-                {
-                    "miui": "V7.3.1.0.LXKCNDD",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.3.1.0.LXKCNDD_d9a3a2e57b_5.1.zip",
-                    "fastboot": "libra_images_V7.3.1.0.LXKCNDD_20160322.0000.17_5.1_cn_65a30bdb6e.tgz"
-                },
-                {
-                    "miui": "V7.2.4.0.LXKCNDA",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.2.4.0.LXKCNDA_a7eba53b47_5.1.zip",
-                    "fastboot": "libra_images_V7.2.4.0.LXKCNDA_20160129.0000.14_5.1_cn_23e18a2cb0.tgz"
-                },
-                {
-                    "miui": "V7.2.3.0.LXKCNDA",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.2.3.0.LXKCNDA_da1ff68dd2_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.2.1.0.LXKCNDA",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.2.1.0.LXKCNDA_ba3f70e455_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.1.6.0.LXKCNCK",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.1.6.0.LXKCNCK_1debc127a9_5.1.zip",
-                    "fastboot": "libra_images_V7.1.6.0.LXKCNCK_20151209.0000.6_5.1_cn_9d4af16e6c.tgz"
-                },
-                {
-                    "miui": "V7.1.4.0.LXKCNCK",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.1.4.0.LXKCNCK_757c13e489_5.1.zip",
-                    "fastboot": "libra_images_V7.1.4.0.LXKCNCK_20151209.0000.6_5.1_cn_a2d1be3cb8.tgz"
-                },
-                {
-                    "miui": "V7.0.16.0.LXKCNCI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.0.16.0.LXKCNCI_cba5b6c4a8_5.1.zip",
-                    "fastboot": "libra_images_V7.0.16.0.LXKCNCI_20151104.0000.4_5.1_cn_e1b2908d1b.tgz"
-                },
-                {
-                    "miui": "V7.0.15.0.LXKCNCI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.0.15.0.LXKCNCI_9e267cd621_5.1.zip",
-                    "fastboot": "libra_images_V7.0.15.0.LXKCNCI_20151104.0000.4_5.1_cn_f6e955ee14.tgz"
-                },
-                {
-                    "miui": "V7.0.11.0.LXKCNCI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.0.11.0.LXKCNCI_35d159b1a9_5.1.zip",
-                    "fastboot": "libra_images_V7.0.11.0.LXKCNCI_20151016.0000.3_5.1_cn_f9f214de10.tgz"
-                },
-                {
-                    "miui": "V7.0.10.0.LXKCNCI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.0.10.0.LXKCNCI_d834422a39_5.1.zip",
-                    "fastboot": "libra_images_V7.0.10.0.LXKCNCI_20151016.0000.3_5.1_cn_77749dde93.tgz"
-                },
-                {
-                    "miui": "V7.0.7.0.LXKCNCI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.0.7.0.LXKCNCI_c7d7fcd94a_5.1.zip",
-                    "fastboot": "libra_images_V7.0.7.0.LXKCNCI_20150917.0000.1_5.1_cn_1d6daf51ea.tgz"
-                },
-                {
-                    "miui": "V7.0.6.0.LXKCNCI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.0.6.0.LXKCNCI_325cee8a44_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V7.0.4.0.LXKCNCI",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V7.0.4.0.LXKCNCI_b6140fe8a1_5.1.zip",
-                    "fastboot": "libra_images_V7.0.4.0.LXKCNCI_20150826.0000.7_5.1_cn_a7b0a12cef.tgz"
-                },
-                {
-                    "miui": "V6.6.6.0.LXKCNCF",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V6.6.6.0.LXKCNCF_3f70af6802_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.6.5.0.LXKCNCF",
-                    "android": "5.1",
-                    "recovery": "miui_MI4c_V6.6.5.0.LXKCNCF_febba7fe65_5.1.zip",
-                    "fastboot": ""
-                },
-                {
-                    "miui": "V6.6.4.0.LXKCNCF",
-                    "android": "5.1",
-                    "recovery": "miui_LIBRA_V6.6.4.0.LXKCNCF_fca4c609d4_5.1.zip",
-                    "fastboot": ""
-                }
-            ]
+          "miui": "8.9.6",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.9.6_1497823a57_7.0.zip",
+          "fastboot": "libra_images_8.9.6_20180906.0000.00_7.0_cn_ec73ea150b.tgz"
+        },
+        {
+          "miui": "8.8.30",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.8.30_0c7f613d90_7.0.zip",
+          "fastboot": "libra_images_8.8.30_20180830.0000.00_7.0_cn_e03e639fed.tgz"
+        },
+        {
+          "miui": "8.8.23",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.8.23_e93764a162_7.0.zip",
+          "fastboot": "libra_images_8.8.23_20180823.0000.00_7.0_cn_d95fff426c.tgz"
+        },
+        {
+          "miui": "8.8.9",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.8.9_8292995cbf_7.0.zip",
+          "fastboot": "libra_images_8.8.9_20180809.0000.00_7.0_cn_e694fca101.tgz"
+        },
+        {
+          "miui": "8.8.3",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.8.3_3a7c203873_7.0.zip",
+          "fastboot": "libra_images_8.8.3_20180802.0000.00_7.0_cn_16d0a9ec68.tgz"
+        },
+        {
+          "miui": "8.7.26",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.7.26_f01ba1e182_7.0.zip",
+          "fastboot": "libra_images_8.7.26_20180726.0000.00_7.0_cn_403da44af0.tgz"
+        },
+        {
+          "miui": "8.7.19",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.7.19_3ce0f0b51d_7.0.zip",
+          "fastboot": "libra_images_8.7.19_20180719.0000.00_7.0_cn_a1c5edc772.tgz"
+        },
+        {
+          "miui": "8.7.12",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.7.12_1b98bcaf41_7.0.zip",
+          "fastboot": "libra_images_8.7.12_20180712.0000.00_7.0_cn_c050a33dff.tgz"
+        },
+        {
+          "miui": "8.4.28",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.4.28_cca810afe0_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "8.4.26",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.4.26_7d53f1583c_7.0.zip",
+          "fastboot": "libra_images_8.4.26_20180426.0000.00_7.0_cn_7ae170f20a.tgz"
+        },
+        {
+          "miui": "8.4.19",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.4.19_7840af0fe3_7.0.zip",
+          "fastboot": "libra_images_8.4.19_20180419.0000.00_7.0_cn_742873b8e3.tgz"
+        },
+        {
+          "miui": "8.4.12",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.4.12_531895fc2a_7.0.zip",
+          "fastboot": "libra_images_8.4.12_20180412.0000.00_7.0_cn_b24cba56fa.tgz"
+        },
+        {
+          "miui": "8.3.29",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.3.29_a664d02e3d_7.0.zip",
+          "fastboot": "libra_images_8.3.29_20180329.0000.00_7.0_cn_4e85b6de1d.tgz"
+        },
+        {
+          "miui": "8.3.22",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.3.22_bbfb4073ce_7.0.zip",
+          "fastboot": "libra_images_8.3.22_20180322.0000.00_7.0_cn_3156e1f3c9.tgz"
+        },
+        {
+          "miui": "8.3.15",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.3.15_0181b380b2_7.0.zip",
+          "fastboot": "libra_images_8.3.15_20180315.0000.00_7.0_cn_dc250a1345.tgz"
+        },
+        {
+          "miui": "8.3.8",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.3.8_faf285a144_7.0.zip",
+          "fastboot": "libra_images_8.3.8_20180308.0000.00_7.0_cn_bce9073b81.tgz"
+        },
+        {
+          "miui": "8.3.1",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.3.1_e98afb278e_7.0.zip",
+          "fastboot": "libra_images_8.3.1_20180301.0000.00_7.0_cn_4139562d21.tgz"
+        },
+        {
+          "miui": "8.2.1",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.2.1_2e3ab081fd_7.0.zip",
+          "fastboot": "libra_images_8.2.1_20180201.0000.00_7.0_cn_bc77b806c3.tgz"
+        },
+        {
+          "miui": "8.1.25",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.1.25_d4c3fbd066_7.0.zip",
+          "fastboot": "libra_images_8.1.25_20180125.0000.00_7.0_cn_72cfc39447.tgz"
+        },
+        {
+          "miui": "8.1.18",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.1.18_1302a601b9_7.0.zip",
+          "fastboot": "libra_images_8.1.18_20180118.0000.00_7.0_cn_8ffd721072.tgz"
+        },
+        {
+          "miui": "8.1.11",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.1.11_535db13478_7.0.zip",
+          "fastboot": "libra_images_8.1.11_20180111.0000.00_7.0_cn_c0dd03d97f.tgz"
+        },
+        {
+          "miui": "8.1.4",
+          "android": "7.0",
+          "recovery": "miui_MI4c_8.1.4_e067842fc0_7.0.zip",
+          "fastboot": "libra_images_8.1.4_20180104.0000.00_7.0_cn_7909ddf53e.tgz"
+        },
+        {
+          "miui": "7.12.28",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.12.28_afb38f78c0_7.0.zip",
+          "fastboot": "libra_images_7.12.28_20171228.0000.00_7.0_cn_b7b40a1fef.tgz"
+        },
+        {
+          "miui": "7.12.21",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.12.21_0023c48c27_7.0.zip",
+          "fastboot": "libra_images_7.12.21_20171221.0000.00_7.0_cn_673aa5f77f.tgz"
+        },
+        {
+          "miui": "7.12.14",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.12.14_1c76e41804_7.0.zip",
+          "fastboot": "libra_images_7.12.14_20171214.0000.00_7.0_cn_71ea88f01f.tgz"
+        },
+        {
+          "miui": "7.12.8",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.12.8_eb45c48dde_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.11.30",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.11.30_dfbabe6d5b_7.0.zip",
+          "fastboot": "libra_images_7.11.30_20171130.0000.00_7.0_cn_093c66c400.tgz"
+        },
+        {
+          "miui": "7.11.23",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.11.23_05d3819d53_7.0.zip",
+          "fastboot": "libra_images_7.11.23_20171123.0000.00_7.0_cn_56320e556c.tgz"
+        },
+        {
+          "miui": "7.11.16",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.11.16_cd2ca72d1d_7.0.zip",
+          "fastboot": "libra_images_7.11.16_20171116.0000.00_7.0_cn_3e72019ed2.tgz"
+        },
+        {
+          "miui": "7.11.9",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.11.9_279710032a_7.0.zip",
+          "fastboot": "libra_images_7.11.9_20171109.0000.00_7.0_cn_26ff086712.tgz"
+        },
+        {
+          "miui": "7.11.2",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.11.2_aa47841865_7.0.zip",
+          "fastboot": "libra_images_7.11.2_20171102.0000.00_7.0_cn_8330cfe76f.tgz"
+        },
+        {
+          "miui": "7.10.26",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.10.26_775883f2ec_7.0.zip",
+          "fastboot": "libra_images_7.10.26_20171026.0000.00_7.0_cn_41a1168d06.tgz"
+        },
+        {
+          "miui": "7.10.19",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.10.19_0bbd06a719_7.0.zip",
+          "fastboot": "libra_images_7.10.19_20171019.0000.00_7.0_cn_d2b3f60ab7.tgz"
+        },
+        {
+          "miui": "7.10.12",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.10.12_9f9580028c_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.28",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.9.28_c1b936a5a6_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.21",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.9.21_64695b8806_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.14",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.9.14_abd7308ce0_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.9.7",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.9.7_4bc3b81013_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.8.31",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.8.31_7f20a115f5_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.8.24",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.8.24_87531df78f_7.0.zip",
+          "fastboot": "libra_images_7.8.24_20170824.0000.00_7.0_cn_d3c4308f9f.tgz"
+        },
+        {
+          "miui": "7.8.22",
+          "android": "7.0",
+          "recovery": "",
+          "fastboot": "libra_images_7.8.22_20170822.0000.00_7.0_cn_36c8385c32.tgz"
+        },
+        {
+          "miui": "7.7.20",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.7.20_3e0a3cfb63_7.0.zip",
+          "fastboot": "libra_images_7.7.20_20170720.0000.00_7.0_cn_64d50c65e1.tgz"
+        },
+        {
+          "miui": "7.7.13",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.7.13_00216307cb_7.0.zip",
+          "fastboot": "libra_images_7.7.13_20170713.0000.00_7.0_cn_aa7da5f8f9.tgz"
+        },
+        {
+          "miui": "7.7.6",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.7.6_9e00d6c3d7_7.0.zip",
+          "fastboot": "libra_images_7.7.6_20170706.0000.00_7.0_cn_b5b29deb53.tgz"
+        },
+        {
+          "miui": "7.6.29",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.6.29_4a61741232_7.0.zip",
+          "fastboot": "libra_images_7.6.29_20170629.0000.00_7.0_cn_d36ad5a227.tgz"
+        },
+        {
+          "miui": "7.6.25",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.6.25_6fddc15d7f_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.6.22",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.6.22_193e3f7818_7.0.zip",
+          "fastboot": "libra_images_7.6.22_20170622.0000.00_7.0_cn_e4648c8298.tgz"
+        },
+        {
+          "miui": "7.6.15",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.6.15_2c76f85683_7.0.zip",
+          "fastboot": "libra_images_7.6.15_20170615.0000.00_7.0_cn_220a92ae4d.tgz"
+        },
+        {
+          "miui": "7.5.25",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.5.25_6b08dae588_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.19",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.5.19_8c5775f981_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.5.11",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.5.11_33855ff7ee_7.0.zip",
+          "fastboot": "libra_images_7.5.11_20170511.0000.00_7.0_cn_80450e2ffd.tgz"
+        },
+        {
+          "miui": "7.5.4",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.5.4_5f90159e61_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.4.27",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.4.27_22f1156afd_7.0.zip",
+          "fastboot": "libra_images_7.4.27_20170426.0000.00_7.0_cn_c09248e789.tgz"
+        },
+        {
+          "miui": "7.4.20",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.4.20_9f7c854d10_7.0.zip",
+          "fastboot": "libra_images_7.4.20_20170420.0000.00_7.0_cn_4793340a7e.tgz"
+        },
+        {
+          "miui": "7.3.30",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.3.30_d72a9cdf80_7.0.zip",
+          "fastboot": "libra_images_7.3.30_20170330.0000.00_7.0_cn_51cf4186b2.tgz"
+        },
+        {
+          "miui": "7.3.23",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.3.23_f9dd6e5214_7.0.zip",
+          "fastboot": "libra_images_7.3.23_20170323.0000.00_7.0_cn_2ded872f70.tgz"
+        },
+        {
+          "miui": "7.3.16",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.3.16_3186c65f35_7.0.zip",
+          "fastboot": "libra_images_7.3.16_20170316.0000.00_7.0_cn_954df72d33.tgz"
+        },
+        {
+          "miui": "7.3.9",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.3.9_dacdc3ef7f_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "7.2.23",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.2.23_976c30f4e7_7.0.zip",
+          "fastboot": "libra_images_7.2.23_20170223.0000.00_7.0_cn_31857e1473.tgz"
+        },
+        {
+          "miui": "7.2.16",
+          "android": "7.0",
+          "recovery": "miui_MI4c_7.2.16_7d8de556d2_7.0.zip",
+          "fastboot": "libra_images_7.2.16_20170216.0000.00_7.0_cn_2f67025e3f.tgz"
+        },
+        {
+          "miui": "6.12.22",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.12.22_479c5ea612_5.1.zip",
+          "fastboot": "libra_images_6.12.22_20161222.0000.00_5.1_cn_fa709eaa17.tgz"
+        },
+        {
+          "miui": "6.12.15",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.12.15_491ddc262b_5.1.zip",
+          "fastboot": "libra_images_6.12.15_20161215.0000.00_5.1_cn_098615871f.tgz"
+        },
+        {
+          "miui": "6.12.8",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.12.8_b769c621ac_5.1.zip",
+          "fastboot": "libra_images_6.12.8_20161208.0000.00_5.1_cn_555dcea8b1.tgz"
+        },
+        {
+          "miui": "6.12.1",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.12.1_85d4469cd8_5.1.zip",
+          "fastboot": "libra_images_6.12.1_20161201.0000.00_5.1_cn_e8d8c486eb.tgz"
+        },
+        {
+          "miui": "6.11.24",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.11.24_e3841b3923_5.1.zip",
+          "fastboot": "libra_images_6.11.24_20161124.0000.00_5.1_cn_5e7f64a88c.tgz"
+        },
+        {
+          "miui": "6.11.17",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.11.17_05e2856abe_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.10",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.11.10_43be8589bd_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.11.3",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.11.3_11669b494b_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.10.27",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.10.27_c94779f048_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.10.20",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.10.20_58b754f7e5_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.10.13",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.10.13_b8a9fe0613_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.29",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.9.29_ba2928dfd2_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.22",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.9.22_2dfe706406_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.15",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.9.15_233da8089d_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.8",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.9.8_709932707b_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.9.1",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.9.1_aa924cdbb4_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.25",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.8.25_0d908ba522_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.18",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.8.18_0e96601c07_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.11",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.8.11_b017b4c02c_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.8.4",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.8.4_b393edf260_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.28",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.7.28_57b822d7e1_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.21",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.7.21_a0cba746d2_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.14",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.7.14_8b5eb789f5_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.7.7",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.7.7_d3516d2af7_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.6.30",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.6.30_5900d411cb_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.6.23",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.6.23_25bcdf2c08_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.6.17",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.6.17_7a987ae879_5.1.zip",
+          "fastboot": "libra_images_6.6.17_20160523.0000.23_5.1_cn_ce2e281aa7.tgz"
+        },
+        {
+          "miui": "6.5.26",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.5.26_614f1816e5_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.24",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.5.24_5832053481_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.12",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.5.12_5cd8f4078a_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.5.5",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.5.5_6e3aa63f4d_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.28",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.4.28_70606f43d1_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.21",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.4.21_b2e3b39472_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.14",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.4.14_27245a3c9a_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.4.7",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.4.7_368ebb0a81_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.31",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.3.31_ad6e8a4ce5_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.24",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.3.24_213bcf7139_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.17",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.3.17_b0813226ff_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.10",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.3.10_7e83683e8b_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.3",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.3.3_2147a654b3_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.2.25",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.2.25_0d1e12d705_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.2.18",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.2.18_8f8b23ef64_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.28",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.1.28_b570776521_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.21",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.1.21_d1d054460d_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.14",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.1.14_86b1aa1ce9_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.1.7",
+          "android": "5.1",
+          "recovery": "miui_MI4c_6.1.7_d339924c93_5.1.zip",
+          "fastboot": "libra_images_6.1.7_20151221.0000.11_5.1_cn_b09dac70a0.tgz"
+        },
+        {
+          "miui": "5.12.31",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.12.31_5d6537a0b8_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.24",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.12.24_7684826053_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.17",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.12.17_aaddadfe4a_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.10",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.12.10_75e57588bc_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.12.4",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.12.4_b6d89f351d_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.26",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.11.26_6e1e1bc311_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.19",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.11.19_c6f7a34455_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.12",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.11.12_a2beb1d809_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.5",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.11.5_0c3462848e_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.11.1",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.11.1_00fa09a073_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.10.29",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.10.29_deb681dbdc_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.10.22",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.10.22_d7f906b451_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.10.16",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.10.16_3be1109680_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.10.8",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.10.8_5b7ec5aad6_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "5.9.24",
+          "android": "5.1",
+          "recovery": "miui_MI4c_5.9.24_dda6d1c121_5.1.zip",
+          "fastboot": ""
         }
-    ]
+      ]
+    },
+    {
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V10.1.1.0.NXKCNFI",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V10.1.1.0.NXKCNFI_13b9b312d0_7.0.zip",
+          "fastboot": "libra_images_V10.1.1.0.NXKCNFI_20181009.0000.00_7.0_cn_24e34e7e33.tgz"
+        },
+        {
+          "miui": "V9.6.3.0.NXKCNFD",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.6.3.0.NXKCNFD_441bb74404_7.0.zip",
+          "fastboot": "libra_images_V9.6.3.0.NXKCNFD_20180716.0000.00_7.0_cn_350d0ee58c.tgz"
+        },
+        {
+          "miui": "V9.6.2.0.NXKCNFD",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.6.2.0.NXKCNFD_d6ad938e10_7.0.zip",
+          "fastboot": "libra_images_V9.6.2.0.NXKCNFD_20180608.0000.00_7.0_cn_caefff2d03.tgz"
+        },
+        {
+          "miui": "V9.5.2.0.NXKCNFA",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.5.2.0.NXKCNFA_81f363e363_7.0.zip",
+          "fastboot": "libra_images_V9.5.2.0.NXKCNFA_20180405.0000.00_7.0_cn_3dce54155d.tgz"
+        },
+        {
+          "miui": "V9.5.1.0.NXKCNFA",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.5.1.0.NXKCNFA_e805b31b81_7.0.zip",
+          "fastboot": "libra_images_V9.5.1.0.NXKCNFA_20180306.0000.00_7.0_cn_abe990531b.tgz"
+        },
+        {
+          "miui": "V9.2.2.0.NXKCNEK",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.2.2.0.NXKCNEK_79b31c35b8_7.0.zip",
+          "fastboot": "libra_images_V9.2.2.0.NXKCNEK_20180123.0000.00_7.0_cn_75e9d336d5.tgz"
+        },
+        {
+          "miui": "V9.2.1.0.NXKCNEK",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.2.1.0.NXKCNEK_50b6be64cd_7.0.zip",
+          "fastboot": "libra_images_V9.2.1.0.NXKCNEK_20171219.0000.00_7.0_cn_e17bf9197d.tgz"
+        },
+        {
+          "miui": "V9.1.3.0.NXKCNEI",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.1.3.0.NXKCNEI_8a588efdc1_7.0.zip",
+          "fastboot": "libra_images_V9.1.3.0.NXKCNEI_20171124.0000.00_7.0_cn_513aacfe65.tgz"
+        },
+        {
+          "miui": "V9.1.2.0.NXKCNEI",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V9.1.2.0.NXKCNEI_6e67916bec_7.0.zip",
+          "fastboot": "libra_images_V9.1.2.0.NXKCNEI_20171102.0000.00_7.0_cn_846224ba9d.tgz"
+        },
+        {
+          "miui": "V8.5.1.0.NXKCNED",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V8.5.1.0.NXKCNED_2851a16b0d_7.0.zip",
+          "fastboot": "libra_images_V8.5.1.0.NXKCNED_20170619.0000.00_7.0_cn_2b6ded3649.tgz"
+        },
+        {
+          "miui": "V8.2.3.0.NXKCNEC",
+          "android": "7.0",
+          "recovery": "miui_MI4c_V8.2.3.0.NXKCNEC_a80a794f89_7.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.2.1.0.LXKCNDL",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V8.2.1.0.LXKCNDL_2bd621faaa_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.1.3.0.LXKCNDI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V8.1.3.0.LXKCNDI_abbe5c3b35_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V8.1.2.0.LXKCNDI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V8.1.2.0.LXKCNDI_be73c95be2_5.1.zip",
+          "fastboot": "libra_images_V8.1.2.0.LXKCNDI_20161120.0000.00_5.1_cn_89c8591fd1.tgz"
+        },
+        {
+          "miui": "V8.1.1.0.LXKCNDI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V8.1.1.0.LXKCNDI_6da61ea65f_5.1.zip",
+          "fastboot": "libra_images_V8.1.1.0.LXKCNDI_20161107.0000.00_5.1_cn_103869def5.tgz"
+        },
+        {
+          "miui": "V8.0.5.0.LXKCNDG",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V8.0.5.0.LXKCNDG_7b2521c16f_5.1.zip",
+          "fastboot": "libra_images_V8.0.5.0.LXKCNDG_20160805.0000.29_5.1_cn_bdb150bc30.tgz"
+        },
+        {
+          "miui": "V8.0.4.0.LXKCNDG",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V8.0.4.0.LXKCNDG_230b599a5e_5.1.zip",
+          "fastboot": "libra_images_V8.0.4.0.LXKCNDG_20160805.0000.29_5.1_cn_95f7161b1a.tgz"
+        },
+        {
+          "miui": "V7.5.4.0.LXKCNDE",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.5.4.0.LXKCNDE_50d85a02c6_5.1.zip",
+          "fastboot": "libra_images_V7.5.4.0.LXKCNDE_20160629.0000.25_5.1_cn_33a18f6950.tgz"
+        },
+        {
+          "miui": "V7.5.3.0.LXKCNDE",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.5.3.0.LXKCNDE_2b6aa7521f_5.1.zip",
+          "fastboot": "libra_images_V7.5.3.0.LXKCNDE_20160523.0000.23_5.1_cn_e14d5f3136.tgz"
+        },
+        {
+          "miui": "V7.5.2.0.LXKCNDE",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.5.2.0.LXKCNDE_a82cce2bfd_5.1.zip",
+          "fastboot": "libra_images_V7.5.2.0.LXKCNDE_20160523.0000.23_5.1_cn_31094fbac4.tgz"
+        },
+        {
+          "miui": "V7.3.2.0.LXKCNDD",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.3.2.0.LXKCNDD_b0ef210f04_5.1.zip",
+          "fastboot": "libra_images_V7.3.2.0.LXKCNDD_20160419.0000.19_5.1_cn_5d584d541e.tgz"
+        },
+        {
+          "miui": "V7.3.1.0.LXKCNDD",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.3.1.0.LXKCNDD_d9a3a2e57b_5.1.zip",
+          "fastboot": "libra_images_V7.3.1.0.LXKCNDD_20160322.0000.17_5.1_cn_65a30bdb6e.tgz"
+        },
+        {
+          "miui": "V7.2.4.0.LXKCNDA",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.2.4.0.LXKCNDA_a7eba53b47_5.1.zip",
+          "fastboot": "libra_images_V7.2.4.0.LXKCNDA_20160129.0000.14_5.1_cn_23e18a2cb0.tgz"
+        },
+        {
+          "miui": "V7.2.3.0.LXKCNDA",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.2.3.0.LXKCNDA_da1ff68dd2_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.2.1.0.LXKCNDA",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.2.1.0.LXKCNDA_ba3f70e455_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.1.6.0.LXKCNCK",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.1.6.0.LXKCNCK_1debc127a9_5.1.zip",
+          "fastboot": "libra_images_V7.1.6.0.LXKCNCK_20151209.0000.6_5.1_cn_9d4af16e6c.tgz"
+        },
+        {
+          "miui": "V7.1.4.0.LXKCNCK",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.1.4.0.LXKCNCK_757c13e489_5.1.zip",
+          "fastboot": "libra_images_V7.1.4.0.LXKCNCK_20151209.0000.6_5.1_cn_a2d1be3cb8.tgz"
+        },
+        {
+          "miui": "V7.0.16.0.LXKCNCI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.0.16.0.LXKCNCI_cba5b6c4a8_5.1.zip",
+          "fastboot": "libra_images_V7.0.16.0.LXKCNCI_20151104.0000.4_5.1_cn_e1b2908d1b.tgz"
+        },
+        {
+          "miui": "V7.0.15.0.LXKCNCI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.0.15.0.LXKCNCI_9e267cd621_5.1.zip",
+          "fastboot": "libra_images_V7.0.15.0.LXKCNCI_20151104.0000.4_5.1_cn_f6e955ee14.tgz"
+        },
+        {
+          "miui": "V7.0.11.0.LXKCNCI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.0.11.0.LXKCNCI_35d159b1a9_5.1.zip",
+          "fastboot": "libra_images_V7.0.11.0.LXKCNCI_20151016.0000.3_5.1_cn_f9f214de10.tgz"
+        },
+        {
+          "miui": "V7.0.10.0.LXKCNCI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.0.10.0.LXKCNCI_d834422a39_5.1.zip",
+          "fastboot": "libra_images_V7.0.10.0.LXKCNCI_20151016.0000.3_5.1_cn_77749dde93.tgz"
+        },
+        {
+          "miui": "V7.0.7.0.LXKCNCI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.0.7.0.LXKCNCI_c7d7fcd94a_5.1.zip",
+          "fastboot": "libra_images_V7.0.7.0.LXKCNCI_20150917.0000.1_5.1_cn_1d6daf51ea.tgz"
+        },
+        {
+          "miui": "V7.0.6.0.LXKCNCI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.0.6.0.LXKCNCI_325cee8a44_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V7.0.4.0.LXKCNCI",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V7.0.4.0.LXKCNCI_b6140fe8a1_5.1.zip",
+          "fastboot": "libra_images_V7.0.4.0.LXKCNCI_20150826.0000.7_5.1_cn_a7b0a12cef.tgz"
+        },
+        {
+          "miui": "V6.6.6.0.LXKCNCF",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V6.6.6.0.LXKCNCF_3f70af6802_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.6.5.0.LXKCNCF",
+          "android": "5.1",
+          "recovery": "miui_MI4c_V6.6.5.0.LXKCNCF_febba7fe65_5.1.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V6.6.4.0.LXKCNCF",
+          "android": "5.1",
+          "recovery": "miui_LIBRA_V6.6.4.0.LXKCNCF_fca4c609d4_5.1.zip",
+          "fastboot": ""
+        }
+      ]
+    }
+  ]
 }
