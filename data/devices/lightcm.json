@@ -9,16 +9,37 @@
     }
   ],
   "cdid":"",
-  "csid":"",
-  "cbid":"",
+  "ccshow":"0",
+  "csid":[""],
+  "cbid":[""],
   "gdid":"",
   "pbid":"",
   "branches": [
     {
-      "branch": "cnms",
+      "branch": "cnmo",
       "show": "1",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
+      "cnname": "中国大陆正式版",
+      "enname": "China Mainland Stable(MIUI14)",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "lightcm_images_V14.0.2.0.TLSCNXM_20230209.0000.00_13.0_cn_6f6aa1f9ef.tgz"
+        },
+        {
+          "miui": "V13.0.14.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.14.0.SLSCNXM_a25295436d_12.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
       "links": [
         {
           "miui": "V14.0.2.0.TLSCNXM",

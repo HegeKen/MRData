@@ -1,8 +1,13 @@
 import requests
 import json
 
-
+# 往上走 https://api.vip.miui.com/api/alpha/detail?planId=420
+# 往下走 https://api.vip.miui.com/api/alpha/detail?planId=245
 # https://api.vip.miui.com/api/alpha/detail?&planId=322
+# https://web.vip.miui.com/page/info/mio/mio/testDetails?id=420
+# https://www.xiaomi.cn/board/12180376
+# https://new.c.mi.com/global/forum-sub/11888
+# https://api-alpha.vip.miui.com/api/alpha/user
 headers = {"user-agent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36 Edg/110.0.0.0"}
 headers['Referer'] = "https://api.vip.miui.com/"
 headers['Cookie'] = ""

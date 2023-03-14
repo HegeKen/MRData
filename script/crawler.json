@@ -2172,6 +2172,7 @@
     "poco-x3-pro"
   ],
   "MFWCurrent": [
+    "redmi-k60-ultra-firmware",
     "xiaomi-13s-firmware",
     "xiaomi-13t-firmware",
     "redmi-10-prime-plus-5g-firmware",
@@ -2568,7 +2569,7 @@
     "FFTWXM": "rosemary_p","FFMIXM": "rosemary_p","FFEUXM": "rosemary_p","FFRUXM": "rosemary_p","FFIDXM": "rosemary_p","FFTRXM": "rosemary_p",
     "JGMIXM": "surya","JGEUXM": "surya","JGRUXM": "surya","JGINXM": "surya","JGIDXM": "surya","JGTRXM": "surya",
     "JUTWXM": "vayu","JUMIXM": "vayu","JUEUXM": "vayu","JURUXM": "vayu","JUINXM": "vayu","JUIDXM": "vayu","JUTRXM": "vayu",
-    "MPTWXM": "moonstone","MPMIXM": "moonstone","MPEUXM": "moonstone","MPRUXM": "moonstone",
+    "MPTWXM": "moonstone","MPMIXM": "moonstone","MPEUXM": "moonstone","MPRUXM": "moonstone","MPINXM":"moonstone",
     "CVCNXM":"earth","CVCLEN":"earth","CVLMCR":"earth","CVINXM":"earth","CVEUXM":"earth",
     "GBTWXM": "evergreen","GBMIXM": "evergreen","GBEUXM": "evergreen","GBRUXM": "evergreen","GBTRXM":"evergreen",
     "JOTWXM": "merlin",
@@ -2781,7 +2782,7 @@
     "ROSEMARYPTWGlobal": "rosemary_p","ROSEMARYPGlobal": "rosemary_p","ROSEMARYPEEAGlobal": "rosemary_p","ROSEMARYPRUGlobal": "rosemary_p","ROSEMARYPIDGlobal": "rosemary_p","ROSEMARYPTRGlobal": "rosemary_p",
     "SURYAGlobal": "surya","SURYAEEAGlobal": "surya","SURYARUGlobal": "surya","SURYAINGlobal": "surya","SURYAIDGlobal": "surya","SURYATRGlobal": "surya",
     "VAYUTWGlobal": "vayu","VAYUGlobal": "vayu","VAYUEEAGlobal": "vayu","VAYURUGlobal": "vayu","VAYUINGlobal": "vayu","VAYUIDGlobal": "vayu","VAYUTRGlobal": "vayu",
-    "MOONSTONETWGlobal": "moonstone","MOONSTONEGlobal": "moonstone","MOONSTONEEEAGlobal": "moonstone","MOONSTONERUGlobal": "moonstone",
+    "MOONSTONETWGlobal": "moonstone","MOONSTONEGlobal": "moonstone","MOONSTONEEEAGlobal": "moonstone","MOONSTONERUGlobal": "moonstone","MOONSTONEINGlobal":"moonstone",
     "EARTH":"earth","EARTHINGlobal":"earth",
     "ROSEMARYGlobal":"rosemary","ROSEMARYLMCRGlobal":"rosemary"
   },
@@ -3615,6 +3616,12 @@
       ]
     },
     {
+      "codename": "lightcm",
+      "checkers": [
+        "lightcm"
+      ]
+    },
+    {
       "codename": "opal",
       "checkers": [
         "opal_tw_global",
@@ -3904,6 +3911,7 @@
       "checkers": [
         "moonstone_tw_global",
         "moonstone_global",
+        "moonstone_in_global",
         "moonstone_eea_global",
         "moonstone_ru_global"
       ]
@@ -4685,7 +4693,19 @@
       ]
     },
     {
+      "codename": "HM2014011",
+      "checkers": [
+        "wt93807"
+      ]
+    },
+    {
       "codename": "wt96007",
+      "checkers": [
+        "wt96007"
+      ]
+    },
+    {
+      "codename":"HM2014501",
       "checkers": [
         "wt96007"
       ]
@@ -5025,6 +5045,12 @@
     },
     {
       "codename": "lcsh92_wet_xm_td",
+      "checkers": [
+        "lcsh92_wet_xm_td"
+      ]
+    },
+    {
+      "codename": "lcsh92_wet_tdd",
       "checkers": [
         "lcsh92_wet_xm_td"
       ]
@@ -5486,6 +5512,12 @@
         "light_th_as_global",
         "light_cl_en_global",
         "light_lm_cr_global"
+      ]
+    },
+    {
+      "codename": "lightcm",
+      "checkers": [
+        "lightcm"
       ]
     },
     {
