@@ -1723,6 +1723,16 @@
       "NameEn": "Redmi Note 12 Pro Speed"
     },
     {
+      "code": "tapas",
+      "NameCn": "Redmi Note 12 4G",
+      "NameEn": "Redmi Note 12 4G"
+    },
+    {
+      "code": "topaz",
+      "NameCn": "Redmi Note 12 4G NFC",
+      "NameEn": "Redmi Note 12 4G NFC"
+    },
+    {
       "code": "phoenix",
       "NameCn": "Redmi K30 4G",
       "NameEn": "Redmi K30 4G"
@@ -1816,6 +1826,11 @@
       "code": "ice",
       "NameCn": "Redmi A1/A1+",
       "NameEn": "Redmi A1/A1+"
+    },
+    {
+      "code": "water",
+      "NameCn": "Redmi A2",
+      "NameEn": "Redmi A2"
     },
     {
       "code": "angelicain",
@@ -2784,9 +2799,38 @@
     "VAYUTWGlobal": "vayu","VAYUGlobal": "vayu","VAYUEEAGlobal": "vayu","VAYURUGlobal": "vayu","VAYUINGlobal": "vayu","VAYUIDGlobal": "vayu","VAYUTRGlobal": "vayu",
     "MOONSTONETWGlobal": "moonstone","MOONSTONEGlobal": "moonstone","MOONSTONEEEAGlobal": "moonstone","MOONSTONERUGlobal": "moonstone","MOONSTONEINGlobal":"moonstone",
     "EARTH":"earth","EARTHINGlobal":"earth",
-    "ROSEMARYGlobal":"rosemary","ROSEMARYLMCRGlobal":"rosemary"
+    "ROSEMARYGlobal":"rosemary","ROSEMARYLMCRGlobal":"rosemary",
+    "TAPASGlobal":"tapas","TAPASINGlobal":"tapas","TAPASTRGlobal":"tapas",
+    "TOPAZEEAGlobal":"topaz","TOPAZGlobal":"topaz","TOPAZIDGlobal":"topaz","TOPAZTRGlobal":"topaz",
+    "WATEREEAGlobal":"water","WATERGlobal":"water","WATERIDGlobal":"water","WATERINGlobal":"water"
   },
   "MiFlashProCurrent":[
+    {
+      "codename":"water",
+      "checkers":[
+        "water_global",
+        "water_eea_global",
+        "water_in_global",
+        "water_id_global"
+      ]
+    },
+    {
+      "codename":"tapas",
+      "checkers":[
+        "tapas_global",
+        "tapas_in_global",
+        "tapas_tr_global"
+      ]
+    },
+    {
+      "codename":"topaz",
+      "checkers":[
+        "topaz_global",
+        "topaz_eea_global",
+        "topaz_ru_global",
+        "topaz_id_global"
+      ]
+    },
     {
       "codename": "umi",
       "checkers": [
