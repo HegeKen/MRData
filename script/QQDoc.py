@@ -1,8 +1,6 @@
 import requests
 import json
-import time
 import re
-import os
 from bs4 import BeautifulSoup
 
 def getFb(soup):

@@ -61,6 +61,8 @@ for all in all_devices:
             codename = row[0].split('_')[0]+"_xhdpi"
           elif row[0].split('_')[1] == "pro":
             codename = row[0].split('_')[0]+"_pro"
+          elif row[0].split('_')[1] == "lte":
+            codename = row[0].split('_')[0]+"_lte_ct"
           else:
             codename = row[0].split('_')[0]
         devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
