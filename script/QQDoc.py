@@ -48,7 +48,7 @@ def getRec(soup):
 
 url = "https://docs.qq.com/dop-api/opendoc?tab=BB08J2&_t=1673761065925&u=60faf5199d0e4c2a9dd346105a9729e6&noEscape=1&enableSmartsheetSplit=1&id=DRVh5eXVwY0RqVWJB&normal=1&outformat=1&startrow=0&endrow=60&wb=1&nowb=0&callback=clientVarsCallback&xsrf=58fba4d43fd69617&t=1675574100619"
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
-headers['Referer']= "https://docs.qq.com/sheet/DRVh5eXVwY0RqVWJB?tab=BB08J2&_t=1673761065925&u=60faf5199d0e4c2a9dd346105a9729e6"
+headers = {"Referer": "https://docs.qq.com/sheet/DRVh5eXVwY0RqVWJB?tab=BB08J2&_t=1673761065925&u=60faf5199d0e4c2a9dd346105a9729e6"}
 headers = {"Connection": "close"}
 response = requests.get(url, headers=headers)
 if (response.status_code != 404):
