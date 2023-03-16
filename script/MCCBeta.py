@@ -10,6 +10,7 @@ import json
 # https://api-alpha.vip.miui.com/api/alpha/user
 headers = {"user-agent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36 Edg/110.0.0.0"}
 headers['Referer'] = "https://api.vip.miui.com/"
+headers = {"Connection": "close"}
 headers['Cookie'] = ""
 list = []
 for id in range(0,200):

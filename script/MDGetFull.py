@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 
 # miuimenubutton
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
+headers = {"Connection": "close"}
 devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
 all_devices = json.loads(devlist.read())["MDcurrent"]
 for all in all_devices:
