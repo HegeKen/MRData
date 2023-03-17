@@ -2846,19 +2846,32 @@
     "TAPASGlobal":"tapas","TAPASINGlobal":"tapas","TAPASTRGlobal":"tapas",
     "TOPAZEEAGlobal":"topaz","TOPAZGlobal":"topaz","TOPAZIDGlobal":"topaz","TOPAZTRGlobal":"topaz",
     "WATEREEAGlobal":"water","WATERGlobal":"water","WATERIDGlobal":"water","WATERINGlobal":"water",
-    "ISHTAR":"ishtar","PIPA":"pipa","LIUQIN":"liuqin","MARBLE":"marble"
+    "ISHTAR":"ishtar","ISHTARGlobal":"ishtar","ISHTARRUGlobal":"ishtar","ISHTARTWGlobal":"ishtar",
+    "PIPA":"pipa","PIPAEEAGlobal":"pipa","PIPAGlobal":"pipa","PIPAIDGlobal":"pipa","PIPAINGlobal":"pipa","PIPARUGlobal":"pipa","PIPATRGlobal":"pipa","PIPATWGlobal":"pipa",
+    "LIUQIN":"liuqin",
+    "MARBLE":"marble","MARBLEEEAGlobal":"marble","MARBLEGlobal":"marble","MARBLEINGlobal":"marble","MARBLEIDGlobal":"marble","MARBLERUGlobal":"marble","MARBLETRGlobal":"marble","MARBLETWGlobal":"marble"
   },
   "MiFlashProCurrent":[
     {
       "codename":"ishtar",
       "checkers":[
-        "ishtar"
+        "ishtar",
+        "ishtar_global",
+        "ishtar_ru_global",
+        "ishtar_tw_global"
       ]
     },
     {
       "codename":"pipa",
       "checkers":[
-        "pipa"
+        "pipa",
+        "pipa_eea_global",
+        "pipa_global",
+        "pipa_id_global",
+        "pipa_in_global",
+        "pipa_ru_global",
+        "pipa_tr_global",
+        "pipa_tw_global"
       ]
     },
     {
@@ -2870,7 +2883,14 @@
     {
       "codename":"marble",
       "checkers":[
-        "marble"
+        "marble",
+        "marble_eea_global",
+        "marble_global",
+        "marble_id_global",
+        "marble_in_global",
+        "marble_ru_global",
+        "marble_tr_global",
+        "marble_tw_global"
       ]
     },
     {
