@@ -1156,6 +1156,11 @@
       "NameEn": "Xiaomi 13 Pro"
     },
     {
+      "code": "ishtar",
+      "NameCn": "小米 13 Ultra",
+      "NameEn": "Xiaomi 13 Ultra"
+    },
+    {
       "code": "cetus",
       "NameCn": "小米 MIX FOLD",
       "NameEn": "Mi MIX FOLD"
@@ -1189,6 +1194,16 @@
       "code": "dagu",
       "NameCn": "小米平板 5 Pro 12.4",
       "NameEn": "Xiaomi Pad 5 Pro 12.4"
+    },
+    {
+      "code": "pipa",
+      "NameCn": "小米平板 6",
+      "NameEn": "Xiaomi Pad 6"
+    },
+    {
+      "code": "liuqin",
+      "NameCn": "小米平板 6 Pro",
+      "NameEn": "Xiaomi Pad 6 Pro"
     },
     {
       "code": "mona",
@@ -1249,6 +1264,11 @@
       "code": "redwood",
       "NameCn": "Redmi Note 12 Pro 极速版",
       "NameEn": "Redmi Note 12 Pro Speed"
+    },
+    {
+      "code": "marble",
+      "NameCn": "Redmi Note 12 Turbo",
+      "NameEn": "Redmi Note 12 Turbo"
     },
     {
       "code": "alioth",
@@ -1443,6 +1463,11 @@
       "NameEn": "Xiaomi 13 Pro"
     },
     {
+      "code": "ishtar",
+      "NameCn": "小米 13 Ultra",
+      "NameEn": "Xiaomi 13 Ultra"
+    },
+    {
       "code": "tucana",
       "NameCn": "小米 CC9 Pro",
       "NameEn": "Mi CC 9 Pro"
@@ -1486,6 +1511,16 @@
       "code": "dagu",
       "NameCn": "小米平板 5 Pro 12.4",
       "NameEn": "Xiaomi Pad 5 Pro 12.4"
+    },
+    {
+      "code": "pipa",
+      "NameCn": "小米平板 6",
+      "NameEn": "Xiaomi Pad 6"
+    },
+    {
+      "code": "liuqin",
+      "NameCn": "小米平板 6 Pro",
+      "NameEn": "Xiaomi Pad 6 Pro"
     },
     {
       "code": "mona",
@@ -1723,6 +1758,11 @@
       "NameEn": "Redmi Note 12 Pro Speed"
     },
     {
+      "code": "marble",
+      "NameCn": "Redmi Note 12 Turbo",
+      "NameEn": "Redmi Note 12 Turbo"
+    },
+    {
       "code": "tapas",
       "NameCn": "Redmi Note 12 4G",
       "NameEn": "Redmi Note 12 4G"
@@ -1874,6 +1914,7 @@
     }
   ],
   "MFWList": [
+    "redmi-k60-ultra-firmware",
     "xiaomi-13s-firmware",
     "xiaomi-13t-firmware",
     "redmi-10-prime-plus-5g-firmware",
@@ -2584,11 +2625,11 @@
     "FFTWXM": "rosemary_p","FFMIXM": "rosemary_p","FFEUXM": "rosemary_p","FFRUXM": "rosemary_p","FFIDXM": "rosemary_p","FFTRXM": "rosemary_p",
     "JGMIXM": "surya","JGEUXM": "surya","JGRUXM": "surya","JGINXM": "surya","JGIDXM": "surya","JGTRXM": "surya",
     "JUTWXM": "vayu","JUMIXM": "vayu","JUEUXM": "vayu","JURUXM": "vayu","JUINXM": "vayu","JUIDXM": "vayu","JUTRXM": "vayu",
-    "MPTWXM": "moonstone","MPMIXM": "moonstone","MPEUXM": "moonstone","MPRUXM": "moonstone","MPINXM":"moonstone",
+    "MPTWXM": "moonstone","MPMIXM": "moonstone","MPEUXM": "moonstone","MPRUXM": "moonstone","MPINXM":"moonstone","MPIDXM":"moonstone",
     "CVCNXM":"earth","CVCLEN":"earth","CVLMCR":"earth","CVINXM":"earth","CVEUXM":"earth","CVIDXM":"earth","CVTRXM":"earth","CVMIXM":"earth",
     "GBTWXM": "evergreen","GBMIXM": "evergreen","GBEUXM": "evergreen","GBRUXM": "evergreen","GBTRXM":"evergreen",
     "JOTWXM": "merlin",
-    "KLRUXM": "rosemary","KLTWXM": "rosemary","KLEUXM": "rosemary","KLTRXM": "rosemary","KLMIXM": "rosemary","KLIDXM": "rosemary","KLINXM": "rosemary","KLLMCR": "rosemary",
+    "KLRUXM": "rosemary","KLTWXM": "rosemary","KLEUXM": "rosemary","KLTRXM": "rosemary","KLMIXM": "rosemary","KLIDXM": "rosemary","KLINXM": "rosemary","KLLMCR": "rosemary","KLCLEN":"rosemary","KLMXAT":"rosemary","KLMXTC":"rosemary","KLZAMT":"rosemary","KLZAVC":"rosemary",
     "JLB54.0": "taurus",
     "BL31.0": "wt98007"
   },
@@ -2760,7 +2801,7 @@
     "LIGHTCM":"lightcm",
     "OPALTWGlobal": "opal","OPALGlobal": "opal","OPALEEAGlobal": "opal","OPALRUGlobal": "opal","OPALCLENGlobal": "opal","OPALMXATGlobal": "opal","OPALLMCRGlobal": "opal",
     "XAGA": "xaga","XAGATWGlobal": "xaga","XAGAGlobal": "xaga","XAGAEEAGlobal": "xaga","XAGARUGlobal": "xaga","XAGAINGlobal": "xaga","XAGATRGlobal": "xaga",
-    "SUNSTONE": "sunstone","SUNSTONEEPSTDEE": "sunstone","SUNSTONEINGlobal": "sunstone",
+    "SUNSTONE": "sunstone","SUNSTONEEPSTDEE": "sunstone","SUNSTONEINGlobal": "sunstone","SUNSTONEGlobal":"sunstone",
     "RUBY": "ruby","RUBYEPSTDEE": "ruby","RUBYINGlobal": "ruby",
     "REDWOOD": "redwood","REDWOODTWGlobal": "redwood","REDWOODGlobal": "redwood","REDWOODEEAGlobal": "redwood","REDWOODRUGlobal": "redwood","REDWOODINGlobal": "redwood","REDWOODTRGlobal": "redwood",
     "DAVINCI": "davinci","DAVINCIGlobal": "davinci","DAVINCIEEAGlobal": "davinci","DAVINCIRUGlobal": "davinci","DAVINCIININGlobal": "davinci",
@@ -2798,14 +2839,40 @@
     "ROSEMARYPTWGlobal": "rosemary_p","ROSEMARYPGlobal": "rosemary_p","ROSEMARYPEEAGlobal": "rosemary_p","ROSEMARYPRUGlobal": "rosemary_p","ROSEMARYPIDGlobal": "rosemary_p","ROSEMARYPTRGlobal": "rosemary_p",
     "SURYAGlobal": "surya","SURYAEEAGlobal": "surya","SURYARUGlobal": "surya","SURYAINGlobal": "surya","SURYAIDGlobal": "surya","SURYATRGlobal": "surya",
     "VAYUTWGlobal": "vayu","VAYUGlobal": "vayu","VAYUEEAGlobal": "vayu","VAYURUGlobal": "vayu","VAYUINGlobal": "vayu","VAYUIDGlobal": "vayu","VAYUTRGlobal": "vayu",
-    "MOONSTONETWGlobal": "moonstone","MOONSTONEGlobal": "moonstone","MOONSTONEEEAGlobal": "moonstone","MOONSTONERUGlobal": "moonstone","MOONSTONEINGlobal":"moonstone",
-    "EARTH":"earth","EARTHINGlobal":"earth",
-    "ROSEMARYGlobal":"rosemary","ROSEMARYLMCRGlobal":"rosemary",
+    "MOONSTONETWGlobal": "moonstone","MOONSTONEGlobal": "moonstone","MOONSTONEEEAGlobal": "moonstone","MOONSTONERUGlobal": "moonstone","MOONSTONEINGlobal":"moonstone","MOONSTONEIDGlobal":"moonstone",
+    "EARTH":"earth","EARTHINGlobal":"earth","EARTHCLENGlobal":"earth","EARTHGlobal":"earth","EARTHIDGlobal":"earth","EARTHLMCRGlobal":"earth","EARTHTRGlobal":"earth",
+    "ROSEMARYGlobal":"rosemary","ROSEMARYLMCRGlobal":"rosemary","ROSEMARYCLENGlobal":"rosemary","ROSEMARYIDGlobal":"rosemary","ROSEMARYMXATGlobal":"rosemary","ROSEMARYMXTCGlobal":"rosemary","ROSEMARYRUGlobal":"rosemary","ROSEMARYTRGlobal":"rosemary","ROSEMARYTWGlobal":"rosemary","ROSEMARYZAMTGlobal":"rosemary","ROSEMARYZAVCGlobal":"rosemary",
+    "EVERGREENGlobal":"evergreen","EVERGREENRUGlobal":"evergreen","EVERGREENTRGlobal":"evergreen","EVERGREENTWGlobal":"evergreen",
     "TAPASGlobal":"tapas","TAPASINGlobal":"tapas","TAPASTRGlobal":"tapas",
     "TOPAZEEAGlobal":"topaz","TOPAZGlobal":"topaz","TOPAZIDGlobal":"topaz","TOPAZTRGlobal":"topaz",
-    "WATEREEAGlobal":"water","WATERGlobal":"water","WATERIDGlobal":"water","WATERINGlobal":"water"
+    "WATEREEAGlobal":"water","WATERGlobal":"water","WATERIDGlobal":"water","WATERINGlobal":"water",
+    "ISHTAR":"ishtar","PIPA":"pipa","LIUQIN":"liuqin","MARBLE":"marble"
   },
   "MiFlashProCurrent":[
+    {
+      "codename":"ishtar",
+      "checkers":[
+        "ishtar"
+      ]
+    },
+    {
+      "codename":"pipa",
+      "checkers":[
+        "pipa"
+      ]
+    },
+    {
+      "codename":"liuqin",
+      "checkers":[
+        "liuqin"
+      ]
+    },
+    {
+      "codename":"marble",
+      "checkers":[
+        "marble"
+      ]
+    },
     {
       "codename":"water",
       "checkers":[
@@ -2893,7 +2960,6 @@
         "venus_ru_global",
         "venus_id_global",
         "venus_tr_global",
-        "venus_mx_tc_global",
         "venus_mx_tc_global"
       ]
     },
@@ -3965,6 +4031,56 @@
     }
   ],
   "MiFlashPro":[
+    {
+      "codename":"ishtar",
+      "checkers":[
+        "ishtar"
+      ]
+    },
+    {
+      "codename":"pipa",
+      "checkers":[
+        "pipa"
+      ]
+    },
+    {
+      "codename":"liuqin",
+      "checkers":[
+        "liuqin"
+      ]
+    },
+    {
+      "codename":"marble",
+      "checkers":[
+        "marble"
+      ]
+    },
+    {
+      "codename":"water",
+      "checkers":[
+        "water_global",
+        "water_eea_global",
+        "water_in_global",
+        "water_id_global"
+      ]
+    },
+    {
+      "codename":"tapas",
+      "checkers":[
+        "tapas_global",
+        "tapas_in_global",
+        "tapas_tr_global"
+      ]
+    },
+    {
+      "codename":"topaz",
+      "checkers":[
+        "topaz_global",
+        "topaz_eea_global",
+        "topaz_ru_global",
+        "topaz_id_global"
+      ]
+    },
     {
       "codename": "mione_plus",
       "checkers": [

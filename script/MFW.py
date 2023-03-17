@@ -14,7 +14,7 @@ driver = Edge(options=options, executable_path=r"C:\Program Files (x86)\Microsof
 # https://mifirmware.com/xiaomi-software-update/
 # https://mifirmware.com/xiaomi-miui-14/
 # https://mifirmware.com/xiaomi-firmware/
-driver.get("https://mifirmware.com/xiaomi-firmware/")
+driver.get("https://mifirmware.com/xiaomi-software-update/")
 soup = BeautifulSoup(driver.page_source, "lxml")
 lists = soup.find_all("a", attrs={"data-content" :"Download"})
 for list in lists:
