@@ -10,7 +10,7 @@ regions = ["global", "bd", "id", "my", "pk", "ph", "tr", "vn", "th", "de", "es",
            "it", "pl", "rs", "uk", "ru", "ua", "mie", "br", "co", "mx", "pe", "cl", "ng", "eg"]
 latest = 1900575
 # idrange = ["1700","1800","1900"]
-start = "1900575"
+start = "1900577"
 end = "1901000"
 for region in regions:
   for id in range(int(start),int(end)):
