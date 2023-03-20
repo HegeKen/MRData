@@ -5,8 +5,6 @@ $(document).ready(function () {
   var lang = navigator.language.substr(0, 2);
   if (pathName == "" || pathName == "/") {
     if (height < "550") {
-      $("#pc").addClass("mdui-hidden");
-      $("#mobile").removeClass("mdui-hidden");
       if (lang === "zh") {
         window.location = "/mobile/zh-CN/";
       } else {
