@@ -1,10 +1,12 @@
 $(document).ready(function () {
   $("body").addClass("mdui-bottom-nav-fixed");
   var pathName = window.document.location.pathname;
-  var height = $(document).width();
+  let height = $(document).width();
   var lang = navigator.language.substr(0, 2);
   if (pathName == "" || pathName == "/") {
     if (height < "550") {
+      $("#pc").addClass("mdui-hidden");
+      $("#mobile").removeClass("mdui-hidden");
       if (lang === "zh") {
         window.location = "/mobile/zh-CN/";
       } else {
