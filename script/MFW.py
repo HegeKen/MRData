@@ -1,6 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from msedge.selenium_tools import Edge, EdgeOptions
+from selenium.webdriver.common.by import By
 import json
 import time
 
