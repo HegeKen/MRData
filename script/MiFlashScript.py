@@ -33,7 +33,7 @@ for device in devices:
                     i= 0
                   else:
                     print("发现一条新数据")
-                    filename = "static/data/script/MiFlashPro/MiFlashPro.txt"
+                    filename = "static/data/script/2023NewROMs.txt"
                     file = open(filename, "a", encoding='utf-8')
                     file.write(data["filename"]+"\n")
                     file.close()
@@ -58,7 +58,7 @@ for device in devices:
                 i= 0
               else:
                 print("发现一条新数据")
-                filename = "static/data/script/MiFlashPro/MiFlashPro.txt"
+                filename = "static/data/script/2023NewROMs.txt"
                 file = open(filename, "a", encoding='utf-8')
                 file.write(data["filename"]+"\n")
                 file.close()

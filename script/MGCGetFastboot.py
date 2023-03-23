@@ -30,12 +30,12 @@ def getFastboot(region):
               print("\r"+url+"      ",end="")
             else:
               print("发现未收录版本")
-              file = open("static/data/script/MGC/MGCGetFastboot.txt", "a", encoding='utf-8')
+              file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
               file.write(fastboot+"\n")
               file.close()
           else:
             print("发现未收录机型以及版本")
-            file = open("static/data/script/MGC/MGCFlags.txt", "a", encoding='utf-8')
+            file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
             file.write(flag +"\t"+ fastboot+"\n")
             file.close()
     else:

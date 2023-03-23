@@ -36,12 +36,12 @@ def getDetail(url):
                   i = 0
                 else:
                   print("发现未收录版本")
-                  file = open("static/data/script/MFW/MFWGetRec.txt", "a", encoding='utf-8')
+                  file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
                   file.write(packname+"\n")
                   file.close()
               else:
                 print("发现未收录机型以及版本")
-                file = open("static/data/script/MFW/MFWFlags.txt", "a", encoding='utf-8')
+                file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 file.write(checker +"\t"+ packname+"\n")
                 file.close()
             elif ".tgz" in rom_url:
@@ -51,12 +51,12 @@ def getDetail(url):
                   i = 0
                 else:
                   print("发现未收录版本")
-                  file = open("static/data/script/MFW/MFWGetFab.txt", "a", encoding='utf-8')
+                  file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
                   file.write(packname+"\n")
                   file.close()
               else:
                 print("发现未收录机型以及版本")
-                file = open("static/data/script/MFW/MFWFlags.txt", "a", encoding='utf-8')
+                file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 file.write(flag +"\t"+ packname+"\n")
                 file.close()
             else:

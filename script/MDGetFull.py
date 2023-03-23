@@ -43,7 +43,7 @@ for all in all_devices:
               i = 0
             else:
               print("尚未收录该本版\t"+codename+"\t"+packname)
-              filename = "static/data/script/MDGetFull.txt"
+              filename = "static/data/script/2023NewROMs.txt"
               file = open(filename, "a", encoding='utf-8')
               file.write(packname+"\n")
               file.close()

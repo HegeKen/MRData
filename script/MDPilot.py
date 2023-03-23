@@ -37,7 +37,7 @@ for all in all_devices:
             else:
               t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
               print("\n"+t+"\t"+url+"     发现尚未收录本版",end="")
-              filename = "static/data/script/MDPilot.txt"
+              filename = "static/data/script/2023NewROMs.txt"
               file = open(filename, "a", encoding='utf-8')
               file.write(packname+"\n")
               file.close()

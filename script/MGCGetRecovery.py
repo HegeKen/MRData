@@ -34,7 +34,7 @@ def getRec(region):
                 i = 0
               else:
                 print("发现未收录版本")
-                file = open("static/data/script/MGC/MGCGetRec.txt", "a", encoding='utf-8')
+                file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
                 file.write(packname+"\n")
                 file.close()
             elif flag in states:
@@ -42,7 +42,7 @@ def getRec(region):
               print(url)
             else:
               print("发现未收录机型以及版本")
-              file = open("static/data/script/MGC/MGCFlags.txt", "a", encoding='utf-8')
+              file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
               file.write(id +"\t"+ flag +"\t"+ packname+"\n")
               file.close()
       else:

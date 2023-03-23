@@ -1764,12 +1764,12 @@
     },
     {
       "code": "tapas",
-      "NameCn": "Redmi Note 12 4G",
+      "NameCn": "Redmi Note 12 4G(国际)",
       "NameEn": "Redmi Note 12 4G"
     },
     {
       "code": "topaz",
-      "NameCn": "Redmi Note 12 4G NFC",
+      "NameCn": "Redmi Note 12 4G NFC(国际)",
       "NameEn": "Redmi Note 12 4G NFC"
     },
     {
@@ -2588,8 +2588,8 @@
     "CE.L19":"light","E.L19X":"light","JA.L19":"light","XY.L19":"light","LSCNXM": "light","LSTWXM": "light","LSMIXM": "light","LSEUXM": "light","LSRUXM": "light","LSINXM": "light","LSIDXM": "light","LSTRXM": "light","LSTHAS": "light","LSCLEN": "light","LSLMCR": "light",
     "GLTWXM": "opal","GLMIXM": "opal","GLEUXM": "opal","GLRUXM": "opal","GLCLEN": "opal","GLMXAT": "opal","GLLMCR": "opal",
     "LOCNXM": "xaga","LOTWXM": "xaga","LOMIXM": "xaga","LOEUXM": "xaga","LORUXM": "xaga","LOINXM": "xaga","LOTRXM": "xaga",
-    "EE.M17":"sunstone","MQCNXM": "sunstone","MQINXM": "sunstone","MQEUXM":"sunstone","MQMIXM":"sunstone",
-    "EE.M16":"ruby","MOCNXM": "ruby","MOINXM": "ruby",
+    "EE.M17":"sunstone","MQCNXM": "sunstone","MQINXM": "sunstone","MQEUXM":"sunstone","MQMIXM":"sunstone","MQTWXM":"sunstone",
+    "EE.M16":"ruby","MOCNXM": "ruby","MOINXM": "ruby","MOMIXM": "ruby","MORUXM": "ruby","MOIDXM": "ruby","MOTWXM": "ruby","MOEUXM": "ruby",
     "MSCNXM": "redwood","MSTWXM": "redwood","MSMIXM": "redwood","MSEUXM": "redwood","MSRUXM": "redwood","MSINXM": "redwood","MSTRXM": "redwood",
     "FJCNXM": "davinci","FJMIXM": "davinci","FJEUXM": "davinci","FJRUXM": "davinci","FJINXM": "davinci",
     "FKCNXM": "raphael","FKMIXM": "raphael","FKEUXM": "raphael","FKRUXM": "raphael","FKINXM": "raphael",
@@ -3783,7 +3783,8 @@
       "checkers": [
         "sunstone",
         "sunstone_ep_stdee",
-        "sunstone_in_global"
+        "sunstone_in_global",
+        "sunstone_tw_global"
       ]
     },
     {
@@ -3791,7 +3792,12 @@
       "checkers": [
         "ruby",
         "ruby_ep_stdee",
-        "ruby_in_global"
+        "ruby_in_global",
+        "ruby_tw_global",
+        "ruby_global_images",
+        "ruby_eea_global",
+        "ruby_ru_global",
+        "ruby_id_global"
       ]
     },
     {
