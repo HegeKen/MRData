@@ -8,10 +8,10 @@ base_api = "https://sgp-api.buy.mi.com/bbs/api/"
 ahome = "/phone/getdevicelist?phone_id="
 regions = ["global", "bd", "id", "my", "pk", "ph", "tr", "vn", "th", "de", "es", "fr",
            "it", "pl", "rs", "uk", "ru", "ua", "mie", "br", "co", "mx", "pe", "cl", "ng", "eg"]
-latest = 1900575
+latest = 1900578
 # idrange = ["1700","1800","1900"]
-start = "1900577"
-end = "1901000"
+start = "1900578"
+end = "1900590"
 for region in regions:
   for id in range(int(start),int(end)):
     if (region == "rs"):
