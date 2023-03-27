@@ -8,8 +8,8 @@ import time
 
 options = EdgeOptions()
 options.use_chromium = True
-options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\111.0.1661.51\msedge.exe"
-driver = Edge(options=options, executable_path=r"C:\Program Files (x86)\Microsoft\Edge\Application\111.0.1661.51\msedgedriver.exe")
+options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\111.0.1661.54\msedge.exe"
+driver = Edge(options=options, executable_path=r"C:\Program Files (x86)\Microsoft\Edge\Application\111.0.1661.54\msedgedriver.exe")
 
 # https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 # https://mifirmware.com/xiaomi-software-update/
