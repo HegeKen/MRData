@@ -1,0 +1,62 @@
+{
+  "codename": "marble",
+  "cnname": "Redmi Note 12 Turbo",
+  "enname": "Redmi Note 12 Turbo",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "cdid": "40377371",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "branches": [
+    {
+      "branch": "cnmp",
+      "show": "0",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "branch": "cnmo",
+      "show": "1",
+      "cnname": "中国大陆正式版",
+      "enname": "China Mainland Stable(MIUI14)",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMRCNXM",
+          "android": "13.0",
+          "recovery": "miui_MARBLE_V14.0.1.0.TMRCNXM_ebfaece465_13.0.zip",
+          "fastboot": "marble_images_V14.0.1.0.TMRCNXM_20230210.0000.00_13.0_cn_5ae6ea7d44.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMRCNXM",
+          "android": "13.0",
+          "recovery": "miui_MARBLE_V14.0.1.0.TMRCNXM_ebfaece465_13.0.zip",
+          "fastboot": "marble_images_V14.0.1.0.TMRCNXM_20230210.0000.00_13.0_cn_chinatelecom_e6b26d8cdb.tgz"
+        }
+      ]
+    }
+  ]
+}
