@@ -1250,6 +1250,18 @@
           "miui": "V12.5.4.0.RKPCNDM",
           "android": "11.0",
           "recovery": "miui_CHOPINDEMO_V12.5.6.0.RKPCNDM_684654b085_11.0.zip",
+          "fastboot": "chopin_demo_images_V12.5.4.0.RKPCNDM_20210601.0000.00_11.0_cn_chinamobile_37f208ce03.tgz"
+        },
+        {
+          "miui": "V12.5.4.0.RKPCNDM",
+          "android": "11.0",
+          "recovery": "miui_CHOPINDEMO_V12.5.6.0.RKPCNDM_684654b085_11.0.zip",
+          "fastboot": "chopin_demo_images_V12.5.4.0.RKPCNDM_20210601.0000.00_11.0_cn_chinaunicom_547a084569.tgz"
+        },
+        {
+          "miui": "V12.5.4.0.RKPCNDM",
+          "android": "11.0",
+          "recovery": "miui_CHOPINDEMO_V12.5.6.0.RKPCNDM_684654b085_11.0.zip",
           "fastboot": "chopin_demo_images_V12.5.4.0.RKPCNDM_20210601.0000.00_11.0_cn_chinatelecom_53750e2761.tgz"
         }
       ]
@@ -1393,6 +1405,34 @@
       ]
     },
     {
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.13.0.SKPCNXM",
+          "android": "12.0",
+          "recovery": "miui_CHOPIN_V13.0.13.0.SKPCNXM_f78390d0a5_12.0.zip",
+          "fastboot": "chopin_images_V13.0.13.0.SKPCNXM_20221103.0000.00_12.0_cn_chinamobile_04f550ef0b.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "ctcu",
+      "show": "1",
+      "cnname": "中国联通定制版",
+      "enname": "China Unicom Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.3.0.RKPCNXM",
+          "android": "11.0",
+          "recovery": "miui_CHOPIN_V12.5.3.0.RKPCNXM_d3e4a5d93f_11.0.zip",
+          "fastboot": "chopin_images_V12.5.3.0.RKPCNXM_20210527.0000.00_11.0_cn_chinaunicom_0066936810.tgz"
+        }
+      ]
+    },
+    {
       "branch": "kywl",
       "show": "0",
       "cnname": "中国大陆KYWL",
@@ -1412,6 +1452,12 @@
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
+        {
+          "miui": "V14.0.2.0.TKPMIXM",
+          "android": "13.0",
+          "recovery": "miui_CHOPINGlobal_V14.0.2.0.TKPMIXM_1eeb492a04_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.1.0.TKPMIXM",
           "android": "13.0",

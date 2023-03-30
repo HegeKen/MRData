@@ -58,6 +58,5 @@ for list in lists:
       file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
       file.write(flag +"\t"+ pack_name+"\n")
       file.close()
-    print(pack_name)
   else:
     i = 0

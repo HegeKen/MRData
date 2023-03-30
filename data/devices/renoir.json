@@ -1817,6 +1817,12 @@
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
+          "miui": "V14.0.8.0.TKICNXM",
+          "android": "13.0",
+          "recovery": "miui_RENOIR_V14.0.8.0.TKICNXM_01097c7589_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V14.0.6.0.TKICNXM",
           "android": "13.0",
           "recovery": "miui_RENOIR_V14.0.6.0.TKICNXM_b63e6973f7_13.0.zip",
@@ -1933,6 +1939,20 @@
           "android": "13.0",
           "recovery": "miui_RENOIR_V14.0.6.0.TKICNXM_b63e6973f7_13.0.zip",
           "fastboot": "renoir_images_V14.0.6.0.TKICNXM_20230119.0000.00_13.0_cn_chinatelecom_c74d127033.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.6.0.TKICNXM",
+          "android": "13.0",
+          "recovery": "miui_RENOIR_V14.0.6.0.TKICNXM_b63e6973f7_13.0.zip",
+          "fastboot": "renoir_images_V14.0.6.0.TKICNXM_20230119.0000.00_13.0_cn_chinamobile_3292100e9a.tgz"
         }
       ]
     },

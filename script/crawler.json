@@ -2676,7 +2676,7 @@
     "AGATETWGlobal": "agate","AGATEGlobal": "agate","AGATEEEAGlobal": "agate","AGATERUGlobal": "agate","AGATEIDGlobal": "agate","AGATETRGlobal": "agate","AGATECLENGlobal": "agate","AGATEMXATGlobal": "agate",
     "VILITWGlobal": "vili","VILIGlobal": "vili","VILIEEAGlobal": "vili","VILIRUGlobal": "vili","VILIINGlobal": "vili","VILIIDGlobal": "vili","VILITRGlobal": "vili","VILIJPGlobal": "vili","VILICLENGlobal": "vili","VILIMXATGlobal": "vili",
     "LISA":"lisa","LISAPRE": "lisa","MONAPRE": "lisa","LISATWGlobal": "lisa","LISAGlobal": "lisa","LISAEEAGlobal": "lisa","LISARUGlobal": "lisa","LISAINGlobal": "lisa","LISATRGlobal": "lisa","LISACLENGlobal": "lisa","LISAMXTCGlobal": "lisa","LISAMXATGlobal": "lisa",
-    "PISSARROINGlobal": "pissarroin","PISSARROINFKGlobal": "pissarroin",
+    "PISSARROINGlobal": "pissarro","PISSARROINFKGlobal": "pissarroin",
     "CUPID": "cupid","CUPIDEPXY": "cupid","CUPIDTWGlobal": "cupid","CUPIDGlobal": "cupid","CUPIDEEAGlobal": "cupid","CUPIDRUGlobal": "cupid","CUPIDIDGlobal": "cupid","CUPIDTRGlobal": "cupid","CUPIDLMCRGlobal": "cupid","CUPIDMXATGlobal": "cupid",
     "ZEUS": "zeus","ZEUSEPXY": "zeus","ZEUSEPSTDEE": "zeus","ZEUSTWGlobal": "zeus","ZEUSGlobal": "zeus","ZEUSEEAGlobal": "zeus","ZEUSRUGlobal": "zeus","ZEUSINGlobal": "zeus","ZEUSIDGlobal": "zeus","ZEUSTRGlobal": "zeus",
     "PSYCHE": "psyche","PSYCHEPRE": "psyche","PSYCHETWGlobal": "psyche","PSYCHEGlobal": "psyche","PSYCHEEEAGlobal": "psyche","PSYCHERUGlobal": "psyche",
@@ -2861,6 +2861,7 @@
       "codename":"ishtar",
       "checkers":[
         "ishtar",
+        "ishtar_demo",
         "ishtar_global",
         "ishtar_ru_global",
         "ishtar_tw_global"
@@ -2870,6 +2871,7 @@
       "codename":"pipa",
       "checkers":[
         "pipa",
+        "pipa_demo",
         "pipa_eea_global",
         "pipa_global",
         "pipa_id_global",
@@ -2882,13 +2884,15 @@
     {
       "codename":"liuqin",
       "checkers":[
-        "liuqin"
+        "liuqin",
+        "liuqin_demo"
       ]
     },
     {
       "codename":"marble",
       "checkers":[
         "marble",
+        "marble_demo",
         "marble_eea_global",
         "marble_global",
         "marble_id_global",
@@ -2928,6 +2932,7 @@
       "codename": "umi",
       "checkers": [
         "umi",
+        "umi_demo",
         "umi_global",
         "umi_eea_global",
         "umi_ru_global",
@@ -2940,6 +2945,7 @@
       "codename": "cmi",
       "checkers": [
         "cmi",
+        "cmi_demo",
         "cmi_global",
         "cmi_eea_global"
       ]
@@ -2959,13 +2965,15 @@
     {
       "codename": "vangogh",
       "checkers": [
-        "vangogh"
+        "vangogh",
+        "vangogh_demo"
       ]
     },
     {
       "codename": "cas",
       "checkers": [
-        "cas"
+        "cas",
+        "cas_demo"
       ]
     },
     {
@@ -2979,6 +2987,7 @@
       "codename": "venus",
       "checkers": [
         "venus",
+        "venus_demo",
         "venus_tw_global",
         "venus_global",
         "venus_eea_global",
@@ -3005,6 +3014,7 @@
       "codename": "star",
       "checkers": [
         "star",
+        "star_demo",
         "star_ep_xy",
         "star_global",
         "star_eea_global",
@@ -3016,6 +3026,7 @@
       "codename": "renoir",
       "checkers": [
         "renoir",
+        "renoir_demo",
         "renoir_ep_yy",
         "renoir_tw_global",
         "renoir_global",
@@ -3061,6 +3072,7 @@
       "codename": "lisa",
       "checkers": [
         "lisa",
+        "lisa_demo",
         "lisa_tw_global",
         "lisa_global",
         "lisa_eea_global",
@@ -3077,6 +3089,7 @@
       "codename": "pissarro",
       "checkers": [
         "pissarro",
+        "pissarro_demo",
         "pissarro_tw_global",
         "pissarro_global",
         "pissarro_eea_global",
@@ -3095,6 +3108,7 @@
       "codename": "cupid",
       "checkers": [
         "cupid",
+        "cupid_demo",
         "cupid_ep_xy",
         "cupid_tw_global",
         "cupid_global",
@@ -3110,6 +3124,7 @@
       "codename": "zeus",
       "checkers": [
         "zeus",
+        "zeus_demo",
         "zeus_ep_xy",
         "zeus_ep_stdee",
         "zeus_tw_global",
@@ -3125,6 +3140,7 @@
       "codename": "psyche",
       "checkers": [
         "psyche",
+        "psyche_demo",
         "psyche_tw_global",
         "psyche_global",
         "psyche_eea_global",
@@ -3134,7 +3150,8 @@
     {
       "codename": "daumier",
       "checkers": [
-        "daumier"
+        "daumier",
+        "daumier_demo"
       ]
     },
     {
@@ -3147,13 +3164,15 @@
     {
       "codename": "unicorn",
       "checkers": [
-        "unicorn"
+        "unicorn",
+        "unicorn_demo"
       ]
     },
     {
       "codename": "thor",
       "checkers": [
-        "thor"
+        "thor",
+        "thor_demo"
       ]
     },
     {
@@ -3185,6 +3204,7 @@
       "codename": "fuxi",
       "checkers": [
         "fuxi",
+        "fuxi_demo",
         "fuxi_ep_stdee",
         "fuxi_tw_global",
         "fuxi_global",
@@ -3197,6 +3217,7 @@
       "codename": "nuwa",
       "checkers": [
         "nuwa",
+        "nuwa_demo",
         "nuwa_ep_stdee",
         "nuwa_tw_global",
         "nuwa_global",
@@ -3218,25 +3239,29 @@
     {
       "codename": "cetus",
       "checkers": [
-        "cetus"
+        "cetus",
+        "cetus_demo"
       ]
     },
     {
       "codename": "odin",
       "checkers": [
-        "odin"
+        "odin",
+        "odin_demo"
       ]
     },
     {
       "codename": "zizhan",
       "checkers": [
-        "zizhan"
+        "zizhan",
+        "zizhan_demo"
       ]
     },
     {
       "codename": "nabu",
       "checkers": [
         "nabu",
+        "nabu_demo",
         "nabu_ep_litee",
         "nabu_tw_global",
         "nabu_global",
@@ -3250,6 +3275,7 @@
       "codename": "elish",
       "checkers": [
         "elish",
+        "elish_demo",
         "elish_ep_stdee"
       ]
     },
@@ -3257,31 +3283,36 @@
       "codename": "enuma",
       "checkers": [
         "enuma",
+        "enuma_demo",
         "enuma_ep_tbkj"
       ]
     },
     {
       "codename": "dagu",
       "checkers": [
-        "dagu"
+        "dagu",
+        "dagu_demo"
       ]
     },
     {
       "codename": "mona",
       "checkers": [
-        "mona"
+        "mona",
+        "mona_demo"
       ]
     },
     {
       "codename": "zijin",
       "checkers": [
-        "zijin"
+        "zijin",
+        "zijin_demo"
       ]
     },
     {
       "codename": "ziyi",
       "checkers": [
         "ziyi",
+        "ziyi_demo",
         "ziyi_tw_global",
         "ziyi_global",
         "ziyi_eea_global",
@@ -3293,6 +3324,7 @@
       "codename": "merlin",
       "checkers": [
         "merlin",
+        "merlin_demo",
         "merlin_tw_global",
         "merlin_global",
         "merlin_eea_global",
@@ -3310,6 +3342,7 @@
       "codename": "lancelot",
       "checkers": [
         "lancelot",
+        "lancelot_demo",
         "lancelot_global",
         "lancelot_eea_global",
         "lancelot_ru_global",
@@ -3326,6 +3359,7 @@
       "codename": "dandelion",
       "checkers": [
         "dandelion",
+        "dandelion_demo",
         "dandelion_global",
         "dandelion_eea_global",
         "dandelion_ru_global",
@@ -3369,7 +3403,9 @@
       "codename": "selene",
       "checkers": [
         "selene",
+        "selene_demo",
         "selenes",
+        "selenes_demo",
         "selene_ep_tly",
         "selene_tw_global",
         "selene_global",
@@ -3386,6 +3422,7 @@
       "codename": "dandelion_c3l2",
       "checkers": [
         "dandelion_c3l2",
+        "dandelion_c3l2_demo",
         "dandelion_c3l2_tw_global",
         "dandelion_c3l2_global",
         "dandelion_c3l2_eea_global",
@@ -3417,13 +3454,15 @@
     {
       "codename": "atom",
       "checkers": [
-        "atom"
+        "atom",
+        "atom_demo"
       ]
     },
     {
       "codename": "bomb",
       "checkers": [
-        "bomb"
+        "bomb",
+        "bomb_demo"
       ]
     },
     {
@@ -3442,6 +3481,7 @@
       "codename": "earth",
       "checkers": [
         "earth",
+        "earth_demo",
         "earth_ep_stdee",
         "earth_tw_global",
         "earth_global",
@@ -3465,6 +3505,7 @@
       "codename": "merlin",
       "checkers": [
         "merlin",
+        "merlin_demo",
         "merlin_tw_global",
         "merlin_global",
         "merlin_eea_global",
@@ -3482,6 +3523,7 @@
       "codename": "lime",
       "checkers": [
         "lime",
+        "lime_demo",
         "lime_tw_global",
         "lime_global",
         "lime_eea_global",
@@ -3497,6 +3539,7 @@
       "codename": "cannon",
       "checkers": [
         "cannon",
+        "cannon_demo",
         "cannon_yunke",
         "cannong_tw_global",
         "cannong_global",
@@ -3510,6 +3553,7 @@
       "codename": "gauguin",
       "checkers": [
         "gauguin",
+        "gauguin_demo",
         "gauguin_tw_global",
         "gauguin_global",
         "gauguin_eea_global",
@@ -3585,6 +3629,7 @@
       "codename": "camellia",
       "checkers": [
         "camellia",
+        "camellia_demo",
         "camellia_ep_stdee",
         "camellia_ep_stdee",
         "camellian_tw_global",
@@ -3639,6 +3684,7 @@
       "codename": "evergo",
       "checkers": [
         "evergo",
+        "evergo_demo",
         "evergo_ep_cqrcb",
         "evergo_ep_ec",
         "evergo_ep_stdee",
@@ -3652,6 +3698,7 @@
       "codename": "pissarro",
       "checkers": [
         "pissarro",
+        "pissarro_demo",
         "pissarro_tw_global",
         "pissarro_global",
         "pissarro_eea_global",
@@ -3686,6 +3733,7 @@
       "codename": "veux",
       "checkers": [
         "veux",
+        "veux_demo",
         "veux_ep_stdee",
         "veux_tw_global",
         "veux_global",
@@ -3740,6 +3788,7 @@
       "codename": "light",
       "checkers": [
         "light",
+        "light_demo",
         "light_ep_stdce",
         "light_ep_xy",
         "light_ep_xdja",
@@ -3759,7 +3808,8 @@
     {
       "codename": "lightcm",
       "checkers": [
-        "lightcm"
+        "lightcm",
+        "lightcm_demo"
       ]
     },
     {
@@ -3778,6 +3828,7 @@
       "codename": "xaga",
       "checkers": [
         "xaga",
+        "xaga_demo",
         "xaga_tw_global",
         "xaga_global",
         "xaga_eea_global",
@@ -3790,6 +3841,7 @@
       "codename": "sunstone",
       "checkers": [
         "sunstone",
+        "sunstone_demo",
         "sunstone_ep_stdee",
         "sunstone_in_global",
         "sunstone_tw_global",
@@ -3800,6 +3852,7 @@
       "codename": "ruby",
       "checkers": [
         "ruby",
+        "ruby_demo",
         "ruby_ep_stdee",
         "ruby_in_global",
         "ruby_tw_global",
@@ -3814,6 +3867,7 @@
       "codename": "redwood",
       "checkers": [
         "redwood",
+        "redwood_demo",
         "redwood_tw_global",
         "redwood_global",
         "redwood_eea_global",
@@ -3826,6 +3880,7 @@
       "codename": "lmi",
       "checkers": [
         "lmi",
+        "lmi_demo",
         "lmi_global",
         "lmi_eea_global",
         "lmi_ru_global",
@@ -3836,13 +3891,15 @@
     {
       "codename": "cezanne",
       "checkers": [
-        "cezanne"
+        "cezanne",
+        "cezanne_demo"
       ]
     },
     {
       "codename": "apollo",
       "checkers": [
         "apollo",
+        "apollo_demo",
         "apollo_tw_global",
         "apollo_global",
         "apollo_eea_global",
@@ -3874,6 +3931,7 @@
       "codename": "haydn",
       "checkers": [
         "haydn",
+        "haydn_demo",
         "haydn_global",
         "haydn_eea_global",
         "haydn_in_global"
@@ -3891,6 +3949,7 @@
       "codename": "munch",
       "checkers": [
         "munch",
+        "munch_demo",
         "munch_tw_global",
         "munch_global",
         "munch_eea_global",
@@ -3904,6 +3963,7 @@
       "codename": "ingres",
       "checkers": [
         "ingres",
+        "ingres_demo",
         "ingres_tw_global",
         "ingres_global",
         "ingres_eea_global",
@@ -3916,6 +3976,7 @@
       "codename": "rubens",
       "checkers": [
         "rubens",
+        "rubens_demo",
         "rubens_ep_stdee"
       ]
     },
@@ -3923,6 +3984,7 @@
       "codename": "matisse",
       "checkers": [
         "matisse",
+        "matisse_demo",
         "matisse_ep_stdee"
       ]
     },
@@ -3930,6 +3992,7 @@
       "codename": "diting",
       "checkers": [
         "diting",
+        "diting_demo",
         "diting_tw_global",
         "diting_global",
         "diting_eea_global",
@@ -3944,25 +4007,29 @@
     {
       "codename": "mondrian",
       "checkers": [
-        "mondrian"
+        "mondrian",
+        "mondrian_demo"
       ]
     },
     {
       "codename": "socrates",
       "checkers": [
-        "socrates"
+        "socrates",
+        "socrates_demo"
       ]
     },
     {
       "codename": "rembrandt",
       "checkers": [
-        "rembrandt"
+        "rembrandt",
+        "rembrandt_demo"
       ]
     },
     {
       "codename": "yunluo",
       "checkers": [
         "yunluo",
+        "yunluo_demo",
         "yunluo_tw_global",
         "yunluo_global",
         "yunluo_eea_global",
