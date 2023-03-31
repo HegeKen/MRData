@@ -37,6 +37,12 @@
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
+          "miui": "",
+          "android": "13.0",
+          "recovery": "miui_MARBLE_V14.0.10.0.TMRCNXM_ccd8dc167f_13.0.zip",
+          "fastboot": "marble_images_V14.0.10.0.TMRCNXM_20230327.0000.00_13.0_cn_41b8ae632f.tgz"
+        },
+        {
           "miui": "V14.0.9.0.TMRCNXM",
           "android": "13.0",
           "recovery": "miui_MARBLE_V14.0.9.0.TMRCNXM_ce49c06cfa_13.0.zip",
@@ -81,6 +87,12 @@
       "enname": "China Telecom Carrier Edition",
       "links": [
         {
+          "miui": "",
+          "android": "13.0",
+          "recovery": "miui_MARBLE_V14.0.10.0.TMRCNXM_ccd8dc167f_13.0.zip",
+          "fastboot": "marble_images_V14.0.10.0.TMRCNXM_20230327.0000.00_13.0_cn_chinatelecom_4b13c00c91.tgz"
+        },
+        {
           "miui": "V14.0.5.0.TMRCNXM",
           "android": "13.0",
           "recovery": "miui_MARBLE_V14.0.5.0.TMRCNXM_3b3a24f2d5_13.0.zip",
@@ -91,6 +103,26 @@
           "android": "13.0",
           "recovery": "miui_MARBLE_V14.0.1.0.TMRCNXM_ebfaece465_13.0.zip",
           "fastboot": "marble_images_V14.0.1.0.TMRCNXM_20230210.0000.00_13.0_cn_chinatelecom_e6b26d8cdb.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMRCNDM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_demo_images_V14.0.3.0.TMRCNDM_20230329.0000.00_13.0_cn_5555a1464d.tgz"
+        },
+        {
+          "miui": "V14.0.3.0.TMRCNDM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_demo_images_V14.0.3.0.TMRCNDM_20230329.0000.00_13.0_cn_chinatelecom_45fa5628a6.tgz"
         }
       ]
     }
