@@ -63,5 +63,5 @@ def findGBeta(vers):
   devlist.close()
 
 
-vers = ["V13.1.22.8.16.DEV","V13.1.22.8.17.DEV","V13.1.22.8.18.DEV"]
+vers = ["V14.0.23.3.27.DEV","V14.0.23.3.28.DEV"]
 findCBeta(vers)
