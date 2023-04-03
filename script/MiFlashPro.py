@@ -6,7 +6,7 @@ devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
 all_devices = json.loads(devlist.read())["MDdevices"]
 for all in all_devices:
   device = all["code"]
-  conn = sqlite3.connect('static/data/script/MiFlashPro/Taiwan/download.db3')
+  conn = sqlite3.connect('static/data/script/MiFlashPro/China/download.db3')
   c = conn.cursor()
   query = """SELECT dl_rom_name, ver_name from download_storage WHERE model LIKE '""" + device+"%'"
   cursor = c.execute(query)
