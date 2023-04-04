@@ -1,18 +1,18 @@
 {
   "latest": "593",
-  "sudate": "2023.03.29",
+  "sudate": "2023.04.04",
   "ver": "V1.1.0",
   "newDeviceCn": "Redmi Note 12 Turbo",
   "newDeviceEn": "Redmi Note 12 Turbo",
   "log": [
     {
-      "Cn":"补遗部分机型运营商定制版，感谢酷安@Odyssey_",
-      "En":"Adding Chinese carrier editions for some devices, thanks to Odyssey_@CoolApk"
+      "Cn":"补遗部分机型运营商定制版，感谢酷安@Odyssey_ 以及Github@kacskrz",
+      "En":"Adding carrier editions for some devices, thanks to Odyssey_@CoolApk and kacskrzGithub@"
     }
   ],
   "year":"2023",
   "week":"14",
-  "date":"2023.04.03",
+  "date":"2023.04.04",
   "period": "2023.04.03-2023.04.09",
   "nextperiod": "2023.04.10-2023.04.16",
   "stable": [
@@ -20,7 +20,7 @@
       "code": "venus",
       "NameCn": "小米 11",
       "NameEn": "Mi 11",
-      "rom": "V14.0.1.0.TKBIDXM"
+      "rom": "V14.0.1.0.TKBRUXM;V14.0.1.0.TKBIDXM"
     },
     {
       "code": "courbet",
@@ -47,10 +47,16 @@
       "rom": "V14.0.4.0.TKMCNXM"
     },
     {
+      "code": "fog",
+      "NameCn": "Redmi 10C",
+      "NameEn": "Redmi 10C",
+      "rom": "V13.0.3.0.SGEMXAT"
+    },
+    {
       "code": "earth",
       "NameCn": "Redmi 12C",
       "NameEn": "Redmi 12C",
-      "rom": "V13.0.2.0.SCVCLEN"
+      "rom": "V13.0.2.0.SCVCLEN;V13.0.2.0.SCVLMCR"
     },
     {
       "code": "joyeuse",
@@ -65,16 +71,52 @@
       "rom": "V13.0.3.0.SKSLMCR"
     },
     {
+      "code": "rosemary",
+      "NameCn": "Redmi Note 10S",
+      "NameEn": "Redmi Note 10S",
+      "rom": "V14.0.2.0.TKLEUXM"
+    },
+    {
       "code": "veux",
       "NameCn": "Redmi Note 11E Pro",
       "NameEn": "Redmi Note 11E Pro",
       "rom": "V13.0.7.0.SKCMIXM"
     },
     {
+      "code": "evergo",
+      "NameCn": "Redmi Note 11 5G/11T 5G",
+      "NameEn": "Redmi Note 11 5G/11T 5G",
+      "rom": ""
+    },
+    {
+      "code": "redwood",
+      "NameCn": "Redmi Note 12 Pro 极速版",
+      "NameEn": "Redmi Note 12 Pro Speed Edition",
+      "rom": "V14.0.1.0.TMSCNXM"
+    },
+    {
+      "code": "tapas",
+      "NameCn": "Redmi Note 12 4G(国际)",
+      "NameEn": "Redmi Note 12 4G",
+      "rom": "V14.0.2.0.TMTINXM"
+    },
+    {
+      "code": "topaz",
+      "NameCn": "Redmi Note 12 4G NFC(国际)",
+      "NameEn": "Redmi Note 12 4G NFC",
+      "rom": "V14.0.1.0.TMGMIXM"
+    },
+    {
+      "code": "apollo",
+      "NameCn": "Redmi K30S 至尊纪念版",
+      "NameEn": "Redmi K30S Ultra",
+      "rom": "V14.0.1.0.SJDMIXM"
+    },
+    {
       "code": "alioth",
       "NameCn": "Redmi K40",
       "NameEn": "Redmi K40",
-      "rom": "V14.0.1.0.TKHRUXM"
+      "rom": "V14.0.1.0.TKHTWXM;V14.0.1.0.TKHRUXM"
     },
     {
       "code": "ingres",
@@ -93,6 +135,12 @@
       "NameCn": "Redmi平板",
       "NameEn": "Redmi Pad",
       "rom": "V14.0.2.0.TLYEUXM"
+    },
+    {
+      "code": "rock",
+      "NameCn": "POCO M5",
+      "NameEn": "POCO M5",
+      "rom": "V14.0.1.0.TLURUXM"
     },
     {
       "code": "rosemary_p",

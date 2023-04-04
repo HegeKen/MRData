@@ -381,14 +381,20 @@
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
         {
+          "miui": "V13.0.3.0.SGEMXAT",
+          "android": "12.0",
+          "recovery": "miui_FOGMXATGlobal_V13.0.3.0.SGEMXAT_36831f1a85_12.0.zip",
+          "fastboot": "fog_mx_at_global_images_V13.0.3.0.SGEMXAT_20230320.0000.00_12.0_global_7f6db4df64.tgz"
+        },
+        {
           "miui": "V13.0.2.0.SGEMXAT",
-          "android": "11.0",
+          "android": "12.0",
           "recovery": "miui_FOGMXATGlobal_V13.0.2.0.SGEMXAT_ebb4f2458d_12.0.zip",
           "fastboot": "fog_mx_at_global_images_V13.0.2.0.SGEMXAT_20230111.0000.00_12.0_global_8540cb7714.tgz"
         },
         {
           "miui": "V13.0.1.0.SGEMXAT",
-          "android": "11.0",
+          "android": "12.0",
           "recovery": "miui_FOGMXATGlobal_V13.0.1.0.SGEMXAT_521d20945d_12.0.zip",
           "fastboot": "fog_mx_at_global_images_V13.0.1.0.SGEMXAT_20221025.0000.00_12.0_global_3159e462a5.tgz"
         }
@@ -397,8 +403,8 @@
     {
       "branch": "lmcr",
       "show": "1",
-      "cnname": "哥斯达黎加稳定版",
-      "enname": "Costa Rica Stable",
+      "cnname": "拉丁美洲Claro定制版",
+      "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V13.0.2.0.SGELMCR",
