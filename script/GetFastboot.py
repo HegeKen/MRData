@@ -25,7 +25,7 @@ def getFastboot(codename,url):
           i= 0
         else:
           print("发现一条新数据")
-          filename = "static/data/script/2023NewROMs.txt"
+          filename = "static/data/script/2024NewROMs.txt"
           file = open(filename, "a", encoding='utf-8')
           file.write(data["filename"]+"\n")
           file.close()

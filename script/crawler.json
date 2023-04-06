@@ -2636,7 +2636,8 @@
     "BL31.0": "wt98007",
     "MTMIXM":"tapas","MTINXM":"tapas",
     "MGEUXM":"topaz",
-    "MRCNXM":"marble"
+    "MRCNXM":"marble",
+    "GOMIXM":"water"
   },
   "RecoveryFlags": {
     "Mioneplus": "mione_plus","MioneplusCDMA": "mione_plus","NativeMioneplus": "mione_plus","plus-ota-QDR68": "mione_plus","plus-ota-QDR66": "mione_plus","plus-ota-QDR65.zip": "mione_plus","plus-ota-QDQ61.zip": "mione_plus","plus-ota-QDO53.zip": "mione_plus",
@@ -4135,106 +4136,6 @@
     }
   ],
   "MiFlashProCurrents":[
-    {
-      "codename": "fog",
-      "checkers": [
-        "fog_tw_global",
-        "fog_global",
-        "fog_eea_global",
-        "fog_ru_global",
-        "fog_in_global",
-        "fog_id_global",
-        "fog_tr_global",
-        "fog_cl_en_global",
-        "fog_mx_at_global",
-        "fog_lm_cr_global",
-        "fog_za_mt_global"
-      ]
-    },
-    {
-      "codename": "atom",
-      "checkers": [
-        "atom",
-        "atom_demo"
-      ]
-    },
-    {
-      "codename": "bomb",
-      "checkers": [
-        "bomb",
-        "bomb_demo"
-      ]
-    },
-    {
-      "codename": "rock",
-      "checkers": [
-        "rock_tw_global",
-        "rock_global",
-        "rock_eea_global",
-        "rock_ru_global",
-        "rock_in_global",
-        "rock_id_global",
-        "rock_tr_global"
-      ]
-    },
-    {
-      "codename": "earth",
-      "checkers": [
-        "earth",
-        "earth_demo",
-        "earth_ep_stdee",
-        "earth_tw_global",
-        "earth_global",
-        "earth_eea_global",
-        "earth_in_global",
-        "earth_id_global",
-        "earth_tr_global",
-        "earth_cl_en_global",
-        "earth_lm_cr_global"
-      ]
-    },
-    {
-      "codename": "biloba",
-      "checkers": [
-        "biloba_global",
-        "biloba_eea_global",
-        "biloba_ru_global"
-      ]
-    },
-    {
-      "codename": "merlin",
-      "checkers": [
-        "merlin",
-        "merlin_demo",
-        "merlin_tw_global",
-        "merlin_global",
-        "merlin_eea_global",
-        "merlin_ru_global",
-        "merlin_in_global",
-        "merlin_id_global",
-        "merlin_tr_global",
-        "merlin_cl_en_global",
-        "merlin_mx_tc_global",
-        "merlin_mx_at_global",
-        "merlin_lm_cr_global"
-      ]
-    },
-    {
-      "codename": "lime",
-      "checkers": [
-        "lime",
-        "lime_demo",
-        "lime_tw_global",
-        "lime_global",
-        "lime_eea_global",
-        "lime_ru_global",
-        "lime_in_global",
-        "lime_id_global",
-        "lime_tr_global",
-        "lime_mx_tc_global",
-        "lime_lm_cr_global"
-      ]
-    },
     {
       "codename": "cannon",
       "checkers": [
