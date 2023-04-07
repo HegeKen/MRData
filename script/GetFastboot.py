@@ -36,7 +36,7 @@ def getFastboot(codename,url):
   response.close()
 
 
-devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrents"]
+devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
 for device in devices:
   codename = device["codename"]
   for region in regions:
