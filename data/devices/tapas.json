@@ -23,6 +23,12 @@
       "enname": "Global Stable",
       "links": [
         {
+          "miui": "V14.0.5.0.TMTMIXM",
+          "android": "13.0",
+          "recovery": "miui_TAPASGlobal_V14.0.5.0.TMTMIXM_b0c0a042da_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V14.0.4.0.TMTMIXM",
           "android": "13.0",
           "recovery": "miui_TAPASGlobal_V14.0.4.0.TMTMIXM_d7fa750cad_13.0.zip",
@@ -47,6 +53,20 @@
           "android": "13.0",
           "recovery": "miui_TAPASINGlobal_V14.0.2.0.TMTINXM_e1be94e1a0_13.0.zip",
           "fastboot": "tapas_in_global_images_V14.0.2.0.TMTINXM_20230307.0000.00_13.0_in_e7eb660d7d.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "trks",
+      "show": "1",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMTTRXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "tapas_tr_global_images_V14.0.1.0.TMTTRXM_20230227.0000.00_13.0_tr_a2d0f0c8e6.tgz"
         }
       ]
     }

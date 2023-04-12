@@ -6,7 +6,7 @@ regions = ["cn","tw","global","eea","ru","in","id","jp","tr"]
 carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 eps = ["","_demo","_ep_yunke","_ep_stdee","_ep_xy","_ep_kywl","_ep_cqrcb","_ep_ec","_ep_sxht","_ep_yfan","_ep_","_ep_yx","_ep_stdce","_ep_xdja","_ep_litee","_ep_yy","_ep_tly"]
 branches = ["F","X"]
-gbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in_global","_in_global","in_in_global","_tr_global","_jp_global","_jp_kd_global","_kr_gu_global","_kr_kt_global","_kr_sk_global","_kr_global","_mx_tc_global","_mx_at_global","_lm_cr_global","_mx_global","_lm_global","_cl_en_global","_h3g_global","_eea_hg_global","_th_as_global","_th_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_pe_global","_za_global","_za_mt_global","_eea_or_global","_eea_tf_global","_eea_by_global","_eea_vf_global","_eea_sf_global","_eea_ti_global"]
+gbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in_global","_in_global","_in_fk_global","in_in_global","_tr_global","_jp_global","_jp_kd_global","_kr_gu_global","_kr_kt_global","_kr_sk_global","_kr_global","_mx_tc_global","_mx_at_global","_lm_cr_global","_mx_global","_lm_global","_cl_en_global","_h3g_global","_eea_hg_global","_th_as_global","_th_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_pe_global","_za_global","_za_mt_global","_eea_or_global","_eea_tf_global","_eea_by_global","_eea_vf_global","_eea_sf_global","_eea_ti_global"]
 
 
 def getFastboot(codename,url):

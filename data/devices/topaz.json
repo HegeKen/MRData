@@ -23,6 +23,12 @@
       "enname": "Global Stable",
       "links": [
         {
+          "miui": "V14.0.2.0.TMGMIXM",
+          "android": "13.0",
+          "recovery": "miui_TOPAZGlobal_V14.0.2.0.TMGMIXM_69d8c8488e_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V14.0.1.0.TMGMIXM",
           "android": "13.0",
           "recovery": "miui_TOPAZGlobal_V14.0.1.0.TMGMIXM_8000f29ef0_13.0.zip",
@@ -37,6 +43,12 @@
       "enname": "Europe EEA Stable",
       "links": [
         {
+          "miui": "V14.0.4.0.TMGEUXM",
+          "android": "13.0",
+          "recovery": "miui_TOPAZEEAGlobal_V14.0.4.0.TMGEUXM_f568bed179_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V14.0.2.0.TMGEUXM",
           "android": "13.0",
           "recovery": "miui_TOPAZEEAGlobal_V14.0.2.0.TMGEUXM_e1fc034b56_13.0.zip",
@@ -47,6 +59,34 @@
           "android": "13.0",
           "recovery": "miui_TOPAZEEAGlobal_V14.0.1.0.TMGEUXM_aa5e91ec83_13.0.zip",
           "fastboot": "topaz_eea_global_images_V14.0.1.0.TMGEUXM_20230214.0000.00_13.0_eea_5fc5e65a2d.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMGRUXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "topaz_ru_global_images_V14.0.1.0.TMGRUXM_20230208.0000.00_13.0_ru_89c974692d.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "inns",
+      "show": "1",
+      "cnname": "印度尼西亚稳定版",
+      "enname": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMGIDXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "topaz_id_global_images_V14.0.1.0.TMGIDXM_20230228.0000.00_13.0_id_e23b883c67.tgz"
         }
       ]
     }
