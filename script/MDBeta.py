@@ -33,7 +33,7 @@ def getRom(codename):
         ver = rom_url.split('/')[3]
         recovery = rom_url.split('/')[4]
         android = recovery.split('_')[4].strip(".zip")
-        vers = ["V14.0.23.4.2.DEV"]
+        vers = ["V14.0.23.4.10.DEV"]
         for v in vers:
           if v == ver:
             fine = "static/data/data/devices/"+codename+".json"
@@ -57,7 +57,7 @@ def getRom(codename):
 
 
 
-current = ["thyme", "venus", "star", "renoir", "cupid", "zeus", "psyche", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", "cetus",
+current = ["thyme", "venus", "star", "renoir", "cupid", "zeus", "psyche", "mayfly", "daumier", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "cetus",
            "odin", "zizhan", "nabu", "elish", "enuma", "dagu", "mona", "zijin", "chopin", "pissarro", "xaga", "alioth", "haydn", "ares", "munch",
            "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
 
