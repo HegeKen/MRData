@@ -1,32 +1,33 @@
 {
   "latest": "595",
-  "sudate": "2023.04.04",
-  "ver": "V1.1.0",
-  "newDeviceCn": "Redmi Note 12 Turbo",
-  "newDeviceEn": "Redmi Note 12 Turbo",
-  "log": [
-    {
-      "Cn":"补遗部分机型运营商定制版，感谢酷安@Odyssey_ 以及Github@kacskrz",
-      "En":"Adding carrier editions for some devices, thanks to Odyssey_@CoolApk and kacskrzGithub@"
-    }
-  ],
+  "sudate": "2023.04.18",
+  "ver": "V1.1.2",
+  "newDeviceCn": "小米 13 Ultra;小米平板 6;小米平板 6 Pro",
+  "newDeviceEn": "Xiaomi 13 Ultra;Xiaomi Pad 6;Xiaomi Pad 6 Pro",
+  "log": [],
   "year":"2023",
-  "week":"15",
-  "date":"2023.04.14-17",
+  "week":"16",
+  "date":"2023.04.14-18",
   "period": "2023.04.10-2023.04.16",
   "nextperiod": "2023.04.17-2023.04.23",
   "stable": [
     {
+      "code": "cmi",
+      "NameCn": "小米 10 Pro",
+      "NameEn": "Mi 10 Pro",
+      "rom": "V14.0.1.0.TJAEUXM"
+    },
+    {
       "code": "venus",
       "NameCn": "小米 11",
       "NameEn": "Mi 11",
-      "rom": "V14.0.9.0.TKBCNXM"
+      "rom": "V14.0.9.0.TKBCNXM;V14.0.2.0.TKBTWXM"
     },
     {
       "code": "renoir",
       "NameCn": "小米 11 青春版",
       "NameEn": "Mi 11 Lite 5G",
-      "rom": "V14.0.4.0.TKIMIXM;V13.0.5.0.SKICLEN"
+      "rom": "V14.0.4.0.TKIMIXM;V14.0.6.0.TKIEUXM;V13.0.5.0.SKICLEN;V14.0.2.0.TKIJPXM"
     },
     {
       "code": "lisa",
@@ -41,16 +42,22 @@
       "rom": "V14.0.1.0.TKQRUXM;V14.0.1.0.TKQTRXM;V13.0.4.0.SKQLMCR"
     },
     {
-      "code": "zeus",
-      "NameCn": "小米 12 Pro",
-      "NameEn": "Xiaomi 12 Pro",
-      "rom": ""
+      "code": "cupid",
+      "NameCn": "小米 12",
+      "NameEn": "Xiaomi 12",
+      "rom": "V14.0.7.0.TLCEUXM"
     },
     {
       "code": "taoyao",
       "NameCn": "小米 12 Lite",
       "NameEn": "Xiaomi 12 Lite",
-      "rom": "V14.0.9.0.TLIEUXM;V14.0.4.0.TLIRUXM"
+      "rom": "V14.0.9.0.TLIEUXM;V14.0.10.0.TLIEUXM;V14.0.4.0.TLIRUXM"
+    },
+    {
+      "code": "mayfly",
+      "NameCn": "小米 12S",
+      "NameEn": "Xiaomi 12S",
+      "rom": "V14.0.8.0.TLTCNXM"
     },
     {
       "code": "plato",
@@ -59,16 +66,46 @@
       "rom": "V14.0.4.0.TLQMIXM"
     },
     {
+      "code": "ishtar",
+      "NameCn": "小米 13 Ultra",
+      "NameEn": "Xiaomi 13 Ultra",
+      "rom": "V14.0.7.0.TMACNXM"
+    },
+    {
+      "code": "nabu",
+      "NameCn": "小米平板 5",
+      "NameEn": "Xiaomi Pad 5",
+      "rom": "V13.1.8.0.SKXRUXM"
+    },
+    {
       "code": "dagu",
       "NameCn": "小米平板 5 Pro 12.4",
       "NameEn": "Xiaomi Pad 5 Pro 12.4",
       "rom": "V14.0.8.0.TLZCNXM"
     },
     {
+      "code": "pipa",
+      "NameCn": "小米平板 6",
+      "NameEn": "Xiaomi Pad 6",
+      "rom": "V14.0.3.0.TMZCNXM"
+    },
+    {
+      "code": "liuqin",
+      "NameCn": "小米平板 6 Pro",
+      "NameEn": "Xiaomi Pad 6 Pro",
+      "rom": "V14.0.2.0.TMYCNXM"
+    },
+    {
+      "code": "zijin",
+      "NameCn": "小米 Civi 1S",
+      "NameEn": "Xiaomi Civi 1S",
+      "rom": "V14.0.4.0.TLPCNXM"
+    },
+    {
       "code": "ziyi",
       "NameCn": "小米 Civi 2",
       "NameEn": "Xiaomi Civi 2",
-      "rom": "V14.0.3.0.SLLTWXM;V14.0.4.0.SLLMIXM"
+      "rom": "V14.0.3.0.SLLTWXM;V14.0.4.0.SLLMIXM;V14.0.10.0.SLLEUXM;V14.0.3.0.SLLRUXM;V14.0.3.0.SLLTRXM"
     },
     {
       "code": "angelica",
@@ -80,7 +117,13 @@
       "code": "fog",
       "NameCn": "Redmi 10C",
       "NameEn": "Redmi 10C",
-      "rom": "V13.0.6.0.SGEMIXM;V13.0.4.0.SGEIDXM"
+      "rom": "V13.0.6.0.SGEMIXM;V13.0.5.0.SGEEUXM;V13.0.4.0.SGEINXM;V13.0.4.0.SGEIDXM"
+    },
+    {
+      "code": "earth",
+      "NameCn": "Redmi 12C",
+      "NameEn": "Redmi 12C",
+      "rom": "V13.0.1.0.SCVTWXM;V13.0.3.0.SCVRUXM;V13.0.1.0.SCVIDXM;V13.0.1.0.SCVTRXM;V13.0.2.0.SCVTRXM"
     },
     {
       "code": "biloba",
@@ -92,7 +135,7 @@
       "code": "cannon",
       "NameCn": "Redmi Note 9 5G",
       "NameEn": "Redmi Note 9 5G",
-      "rom": "V14.0.3.0.SJEEUXM;V13.0.3.0.SJELMCR"
+      "rom": "V14.0.3.0.SJEMIXM;V14.0.3.0.SJEEUXM;V13.0.3.0.SJELMCR"
     },
     {
       "code": "camellia",
@@ -113,6 +156,12 @@
       "rom": "V14.0.1.0.TKFRUXM;V14.0.1.0.TKFINXM;V14.0.1.0.TKFTRXM"
     },
     {
+      "code": "spes",
+      "NameCn": "Redmi Note 11",
+      "NameEn": "Redmi Note 11",
+      "rom": "V13.0.5.0.SGCINXM"
+    },
+    {
       "code": "spesn",
       "NameCn": "Redmi Note 11 NFC",
       "NameEn": "Redmi Note 11 NFC",
@@ -125,10 +174,28 @@
       "rom": "V13.0.7.0.SGDINXM"
     },
     {
+      "code": "evergo",
+      "NameCn": "Redmi Note 11 5G/11T 5G",
+      "NameEn": "Redmi Note 11 5G/11T 5G",
+      "rom": "V14.0.0.12.TGBCNXM"
+    },
+    {
+      "code": "pissarro",
+      "NameCn": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
+      "NameEn": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
+      "rom": "V14.0.2.0.TKTINXM"
+    },
+    {
+      "code": "veux",
+      "NameCn": "Redmi Note 11E Pro",
+      "NameEn": "Redmi Note 11E Pro",
+      "rom": "V13.0.6.0.SKCINXM"
+    },
+    {
       "code": "sunstone",
       "NameCn": "Redmi Note 12",
       "NameEn": "Redmi Note 12",
-      "rom": "V13.0.11.0.SMQINXM"
+      "rom": "V13.0.15.0.SMQCNXM;V13.0.11.0.SMQINXM"
     },
     {
       "code": "ruby",
@@ -137,10 +204,10 @@
       "rom": "V14.0.2.0.SMOINXM"
     },
     {
-      "code": "redwood",
-      "NameCn": "Redmi Note 12 Pro 极速版",
-      "NameEn": "Redmi Note 12 Pro Speed Edition",
-      "rom": ""
+      "code": "marble",
+      "NameCn": "Redmi Note 12 Turbo",
+      "NameEn": "Redmi Note 12 Turbo",
+      "rom": "V14.0.14.0.TMRCNXM;V14.0.16.0.TMRCNXM"
     },
     {
       "code": "tapas",
@@ -164,7 +231,13 @@
       "code": "apollo",
       "NameCn": "Redmi K30S 至尊纪念版",
       "NameEn": "Redmi K30S Ultra",
-      "rom": "V14.0.1.0.SJDRUXM;V14.0.1.0.SJDTRXM"
+      "rom": "V14.0.1.0.SJDRUXM;V14.0.1.0.SJDIDXM;V14.0.1.0.SJDTRXM"
+    },
+    {
+      "code": "alioth",
+      "NameCn": "Redmi K40",
+      "NameEn": "Redmi K40",
+      "rom": "V14.0.3.0.TKHINXM"
     },
     {
       "code": "munch",
@@ -173,22 +246,46 @@
       "rom": "V14.0.3.0.TLMEUXM"
     },
     {
+      "code": "rubens",
+      "NameCn": "Redmi K50",
+      "NameEn": "Redmi K50",
+      "rom": "V14.0.6.0.TLNCNXM"
+    },
+    {
       "code": "diting",
       "NameCn": "Redmi K50 至尊版",
       "NameEn": "Redmi K50 Ultra",
-      "rom": "V13.0.6.0.SLFMXAT"
+      "rom": "V14.0.2.0.TLFMIXM;V14.0.9.0.TLFEUXM;V13.0.6.0.SLFMXAT"
+    },
+    {
+      "code": "water",
+      "NameCn": "Redmi A2",
+      "NameEn": "Redmi A2",
+      "rom": "V14.0.10.0.TGOMIXM"
+    },
+    {
+      "code": "frost",
+      "NameCn": "POCO C40",
+      "NameEn": "POCO C40",
+      "rom": "V13.0.20.0.RGFMIXM"
+    },
+    {
+      "code": "rock",
+      "NameCn": "POCO M5",
+      "NameEn": "POCO M5",
+      "rom": "V14.0.1.0.TLUTWXM;V14.0.1.0.TLUINXM"
     },
     {
       "code": "rosemary_p",
       "NameCn": "POCO M5S",
       "NameEn": "POCO M5S",
-      "rom": "V13.0.6.0.SFFTWXM;V13.0.5.0.SFFEUXM;V13.0.7.0.SFFRUXM"
+      "rom": "V13.0.6.0.SFFTWXM;V13.0.10.0.SFFMIXM;V13.0.5.0.SFFEUXM;V13.0.7.0.SFFRUXM"
     },
     {
       "code": "moonstone",
       "NameCn": "POCO X5 5G",
       "NameEn": "POCO X5 5G",
-      "rom": "V13.0.4.0.SMPRUXM;V13.0.3.0.SMPINXM;V13.0.4.0.SMPIDXM"
+      "rom": "V13.0.5.0.SMPTWXM;V13.0.7.0.SMPMIXM;V13.0.4.0.SMPRUXM;V13.0.3.0.SMPINXM;V13.0.4.0.SMPIDXM"
     }
   ]
 }

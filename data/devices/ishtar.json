@@ -1,7 +1,7 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
+  "codename": "ishtar",
+  "cnname": "小米 13 Ultra",
+  "enname": "Xiaomi 13 Ultra",
   "attentions": [
     {
       "cn": "",
@@ -32,15 +32,29 @@
     },
     {
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
+          "miui": "V14.0.7.0.TMACNXM",
+          "android": "13.0",
           "recovery": "",
-          "fastboot": ""
+          "fastboot": "ishtar_images_V14.0.7.0.TMACNXM_20230415.0000.00_13.0_cn_cd5ced4948.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.7.0.TMACNXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "ishtar_images_V14.0.7.0.TMACNXM_20230415.0000.00_13.0_cn_chinatelecom_97fbaa58f3.tgz"
         }
       ]
     }
