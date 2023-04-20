@@ -1733,6 +1733,11 @@
       "NameEn": "Redmi Note 11E/11R"
     },
     {
+      "code": "lightcm",
+      "NameCn": "Redmi Note 11R",
+      "NameEn": "Redmi Note 11R"
+    },
+    {
       "code": "opal",
       "NameCn": "Redmi Note 11S 5G",
       "NameEn": "Redmi Note 11S 5G"
@@ -2858,7 +2863,58 @@
     "ISHTAR":"ishtar","ISHTARGlobal":"ishtar","ISHTARRUGlobal":"ishtar","ISHTARTWGlobal":"ishtar",
     "PIPA":"pipa","PIPAEEAGlobal":"pipa","PIPAGlobal":"pipa","PIPAIDGlobal":"pipa","PIPAINGlobal":"pipa","PIPARUGlobal":"pipa","PIPATRGlobal":"pipa","PIPATWGlobal":"pipa",
     "LIUQIN":"liuqin",
-    "MARBLE":"marble","MARBLEEEAGlobal":"marble","MARBLEGlobal":"marble","MARBLEINGlobal":"marble","MARBLEIDGlobal":"marble","MARBLERUGlobal":"marble","MARBLETRGlobal":"marble","MARBLETWGlobal":"marble"
+    "MARBLE":"marble","MARBLEEEAGlobal":"marble","MARBLEGlobal":"marble","MARBLEINGlobal":"marble","MARBLEIDGlobal":"marble","MARBLERUGlobal":"marble","MARBLETRGlobal":"marble","MARBLETWGlobal":"marble",
+    "MONETEEAHGGlobal":"monet",
+"MONETEEAORGlobal":"monet",
+"MONETEEATFGlobal":"monet",
+"MONETEEAVFGlobal":"monet",
+"MONETEEASFGlobal":"monet",
+"MONETEEATIGlobal":"monet",
+"RENOIREEAHGGlobal":"renoir",
+"RENOIREEAORGlobal":"renoir",
+"RENOIREEATFGlobal":"renoir",
+"RENOIREEAVFGlobal":"renoir",
+"AGATEEEAHGGlobal":"agate",
+"AGATEEEAORGlobal":"agate",
+"AGATEEEATFGlobal":"agate",
+"AGATEEEABYGlobal":"agate",
+"AGATEEEAVFGlobal":"agate",
+"AGATEEEAVFGlobal":"agate",
+"AGATEEEASFGlobal":"agate",
+"AGATEEEATIGlobal":"agate",
+"LISAEEAHGGlobal":"lisa",
+"LISAEEAHGGlobal":"lisa",
+"LISAEEAORGlobal":"lisa",
+"LISAEEATFGlobal":"lisa",
+"LISAEEABYGlobal":"lisa",
+"LISAEEABYGlobal":"lisa",
+"LISAEEAVFGlobal":"lisa",
+"LISAEEASFGlobal":"lisa",
+"LISAEEATIGlobal":"lisa",
+"LISAEEATIGlobal":"lisa",
+"MERLINEEAHGGlobal":"merlin",
+"MERLINEEAORGlobal":"merlin",
+"MERLINEEATFGlobal":"merlin",
+"MERLINEEAVFGlobal":"merlin",
+"MERLINEEASFGlobal":"merlin",
+"MERLINEEATIGlobal":"merlin",
+"LANCELOTEEAHGGlobal":"lancelot",
+"LANCELOTEEAORGlobal":"lancelot",
+"LANCELOTEEATFGlobal":"lancelot",
+"LANCELOTEEAVFGlobal":"lancelot",
+"DANDELIONEEATFGlobal":"dandelion",
+"DANDELIONEEAVFGlobal":"dandelion",
+"DANDELIONEEASFGlobal":"dandelion",
+"DANDELIONEEATIGlobal":"dandelion",
+"ANGELICANEEAORGlobal":"angelican",
+"EARTHRUGlobal":"earth",
+"ROSEMARYEEAGlobal":"rosemary",
+"ROSEMARYINGlobal":"rosemary",
+"EVERGOEPYUNKE":"evergo",
+"RUBYTRGlobal":"ruby",
+"MARBLEDEMO":"marble",
+"TOPAZRUGlobal":"topaz",
+"EVERGREENEEAGlobal":"evergreen"
   },
   "MiFlashProCurrent":[
     {
@@ -2942,13 +2998,21 @@
         "umi_ru_global",
         "umi_in_global",
         "umi_id_global",
-        "umi_tr_global"
+        "umi_tr_global",
+        "umi_pre",
+        "umi_eea_hg_global",
+        "umi_eea_or_global",
+        "umi_eea_tf_global",
+        "umi_eea_vf_global",
+        "umi_eea_sf_global",
+        "umi_eea_ti_global"
       ]
     },
     {
       "codename": "cmi",
       "checkers": [
         "cmi",
+        "cmi_pre",
         "cmi_demo",
         "cmi_global",
         "cmi_eea_global"
@@ -2960,6 +3024,12 @@
         "monet_tw_global",
         "monet_global",
         "monet_eea_global",
+        "monet_eea_hg_global",
+        "monet_eea_or_global",
+        "monet_eea_tf_global",
+        "monet_eea_vf_global",
+        "monet_eea_sf_global",
+        "monet_eea_ti_global",
         "monet_jp_kd_global",
         "monet_kr_gu_global",
         "monet_kr_kt_global",
@@ -2970,6 +3040,7 @@
       "codename": "vangogh",
       "checkers": [
         "vangogh",
+        "vangogh_pre",
         "vangogh_demo"
       ]
     },
@@ -2977,6 +3048,7 @@
       "codename": "cas",
       "checkers": [
         "cas",
+        "cas_pre",
         "cas_demo"
       ]
     },
@@ -2984,6 +3056,7 @@
       "codename": "thyme",
       "checkers": [
         "thyme",
+        "thyme_pre",
         "thyme_demo"
       ]
     },
@@ -2991,10 +3064,17 @@
       "codename": "venus",
       "checkers": [
         "venus",
+        "venus_pre",
         "venus_demo",
         "venus_tw_global",
         "venus_global",
         "venus_eea_global",
+        "venus_eea_hg_global",
+        "venus_eea_or_global",
+        "venus_eea_tf_global",
+        "venus_eea_vf_global",
+        "venus_eea_sf_global",
+        "venus_eea_ti_global",
         "venus_ru_global",
         "venus_id_global",
         "venus_tr_global",
@@ -3018,10 +3098,13 @@
       "codename": "star",
       "checkers": [
         "star",
+        "star_pre",
         "star_demo",
         "star_ep_xy",
         "star_global",
         "star_eea_global",
+        "star_eea_or_global",
+        "star_eea_vf_global",
         "star_in_global",
         "star_id_global"
       ]
@@ -3030,11 +3113,18 @@
       "codename": "renoir",
       "checkers": [
         "renoir",
+        "renoir_pre",
         "renoir_demo",
         "renoir_ep_yy",
         "renoir_tw_global",
         "renoir_global",
         "renoir_eea_global",
+        "renoir_eea_hg_global",
+        "renoir_eea_or_global",
+        "renoir_eea_tf_global",
+        "renoir_eea_vf_global",
+        "renoir_eea_sf_global",
+        "renoir_eea_ti_global",
         "renoir_ru_global",
         "renoir_lm_cr_global",
         "renoir_mx_tc_global",
@@ -3048,6 +3138,13 @@
         "agate_tw_global",
         "agate_global",
         "agate_eea_global",
+        "agate_eea_hg_global",
+        "agate_eea_or_global",
+        "agate_eea_tf_global",
+        "agate_eea_by_global",
+        "agate_eea_vf_global",
+        "agate_eea_sf_global",
+        "agate_eea_ti_global",
         "agate_ru_global",
         "agate_id_global",
         "agate_tr_global",
@@ -3062,6 +3159,10 @@
         "vili_tw_global",
         "vili_global",
         "vili_eea_global",
+        "vili_eea_or_global",
+        "vili_eea_tf_global",
+        "vili_eea_vf_global",
+        "vili_eea_sf_global",
         "vili_ru_global",
         "vili_in_global",
         "vili_id_global",
@@ -3076,10 +3177,18 @@
       "codename": "lisa",
       "checkers": [
         "lisa",
+        "lisa_pre",
         "lisa_demo",
         "lisa_tw_global",
         "lisa_global",
         "lisa_eea_global",
+        "lisa_eea_hg_global",
+        "lisa_eea_or_global",
+        "lisa_eea_tf_global",
+        "lisa_eea_by_global",
+        "lisa_eea_vf_global",
+        "lisa_eea_sf_global",
+        "lisa_eea_ti_global",
         "lisa_ru_global",
         "lisa_in_global",
         "lisa_tr_global",
@@ -3090,28 +3199,16 @@
       ]
     },
     {
-      "codename": "pissarro",
-      "checkers": [
-        "pissarro",
-        "pissarro_demo",
-        "pissarro_tw_global",
-        "pissarro_global",
-        "pissarro_eea_global",
-        "pissarro_ru_global",
-        "pissarro_in_global",
-        "pissarro_tr_global"
-      ]
-    },
-    {
       "codename": "pissarroin",
       "checkers": [
-        "pissarroin"
+        "pissarro_in_fk_global"
       ]
     },
     {
       "codename": "cupid",
       "checkers": [
         "cupid",
+        "cupid_pre",
         "cupid_demo",
         "cupid_ep_xy",
         "cupid_tw_global",
@@ -3128,7 +3225,8 @@
       "codename": "zeus",
       "checkers": [
         "zeus",
-        "zeus_demo",
+        "psyche_pre",
+        "cupid_demo",
         "zeus_ep_xy",
         "zeus_ep_stdee",
         "zeus_tw_global",
@@ -3144,6 +3242,7 @@
       "codename": "psyche",
       "checkers": [
         "psyche",
+        "psyche_pre",
         "psyche_demo",
         "psyche_tw_global",
         "psyche_global",
@@ -3198,6 +3297,7 @@
         "plato_tw_global",
         "plato_global",
         "plato_eea_global",
+        "plato_id_global",
         "plato_ru_global",
         "plato_tr_global",
         "plato_cl_en_global",
@@ -3236,6 +3336,9 @@
       "checkers": [
         "toco_global",
         "toco_eea_global",
+        "toco_eea_or_global",
+        "toco_eea_tf_global",
+        "toco_eea_vf_global",
         "toco_ru_global",
         "toco_tr_global"
       ]
@@ -3244,6 +3347,7 @@
       "codename": "cetus",
       "checkers": [
         "cetus",
+        "cetus_pre",
         "cetus_demo"
       ]
     },
@@ -3251,6 +3355,7 @@
       "codename": "odin",
       "checkers": [
         "odin",
+        "odin_pre",
         "odin_demo"
       ]
     },
@@ -3265,8 +3370,10 @@
       "codename": "nabu",
       "checkers": [
         "nabu",
+        "nabu_pre",
         "nabu_demo",
         "nabu_ep_litee",
+        "nabu_ep_stdee",
         "nabu_tw_global",
         "nabu_global",
         "nabu_eea_global",
@@ -3279,6 +3386,7 @@
       "codename": "elish",
       "checkers": [
         "elish",
+        "elish_pre",
         "elish_demo",
         "elish_ep_stdee"
       ]
@@ -3287,7 +3395,9 @@
       "codename": "enuma",
       "checkers": [
         "enuma",
+        "enuma_pre",
         "enuma_demo",
+        "enuma_ep_stdee",
         "enuma_ep_tbkj"
       ]
     },
@@ -3302,6 +3412,7 @@
       "codename": "mona",
       "checkers": [
         "mona",
+        "mona_pre",
         "mona_demo"
       ]
     },
@@ -3332,6 +3443,12 @@
         "merlin_tw_global",
         "merlin_global",
         "merlin_eea_global",
+        "merlin_eea_hg_global",
+        "merlin_eea_or_global",
+        "merlin_eea_tf_global",
+        "merlin_eea_vf_global",
+        "merlin_eea_sf_global",
+        "merlin_eea_ti_global",
         "merlin_ru_global",
         "merlin_in_global",
         "merlin_id_global",
@@ -3349,6 +3466,11 @@
         "lancelot_demo",
         "lancelot_global",
         "lancelot_eea_global",
+        "lancelot_eea_hg_global",
+        "lancelot_eea_or_global",
+        "lancelot_eea_tf_global",
+        "lancelot_eea_vf_global",
+        "lancelot_eea_sf_global",
         "lancelot_ru_global",
         "lancelot_in_global",
         "lancelot_id_global",
@@ -3366,6 +3488,10 @@
         "dandelion_demo",
         "dandelion_global",
         "dandelion_eea_global",
+        "dandelion_eea_tf_global",
+        "dandelion_eea_vf_global",
+        "dandelion_eea_sf_global",
+        "dandelion_eea_ti_global",
         "dandelion_ru_global",
         "dandelion_in_global",
         "dandelion_id_global",
@@ -3394,6 +3520,7 @@
       "checkers": [
         "angelican_global",
         "angelican_eea_global",
+        "angelican_eea_or_global",
         "angelican_ru_global"
       ]
     },
@@ -3414,6 +3541,12 @@
         "selene_tw_global",
         "selene_global",
         "selene_eea_global",
+        "selene_eea_hg_global",
+        "selene_eea_or_global",
+        "selene_eea_tf_global",
+        "selene_eea_by_global",
+        "selene_eea_vf_global",
+        "selene_eea_sf_global",
         "selene_ru_global",
         "selene_in_global",
         "selene_id_global",
@@ -3459,6 +3592,7 @@
       "codename": "atom",
       "checkers": [
         "atom",
+        "atom_pre",
         "atom_demo"
       ]
     },
@@ -3466,6 +3600,7 @@
       "codename": "bomb",
       "checkers": [
         "bomb",
+        "bomb_pre",
         "bomb_demo"
       ]
     },
@@ -3490,6 +3625,7 @@
         "earth_tw_global",
         "earth_global",
         "earth_eea_global",
+        "earth_ru_global",
         "earth_in_global",
         "earth_id_global",
         "earth_tr_global",
@@ -3506,27 +3642,10 @@
       ]
     },
     {
-      "codename": "merlin",
-      "checkers": [
-        "merlin",
-        "merlin_demo",
-        "merlin_tw_global",
-        "merlin_global",
-        "merlin_eea_global",
-        "merlin_ru_global",
-        "merlin_in_global",
-        "merlin_id_global",
-        "merlin_tr_global",
-        "merlin_cl_en_global",
-        "merlin_mx_tc_global",
-        "merlin_mx_at_global",
-        "merlin_lm_cr_global"
-      ]
-    },
-    {
       "codename": "lime",
       "checkers": [
         "lime",
+        "lime_pre",
         "lime_demo",
         "lime_tw_global",
         "lime_global",
@@ -3543,6 +3662,7 @@
       "codename": "cannon",
       "checkers": [
         "cannon",
+        "cannon_pre",
         "cannon_demo",
         "cannon_yunke",
         "cannong_tw_global",
@@ -3557,6 +3677,7 @@
       "codename": "gauguin",
       "checkers": [
         "gauguin",
+        "gauguin_pre",
         "gauguin_demo",
         "gauguin_tw_global",
         "gauguin_global",
@@ -3633,6 +3754,7 @@
       "codename": "camellia",
       "checkers": [
         "camellia",
+        "camellia_pre",
         "camellia_demo",
         "camellia_ep_stdee",
         "camellia_ep_stdee",
@@ -3653,6 +3775,7 @@
       "codename": "chopin",
       "checkers": [
         "chopin",
+        "chopin_pre",
         "chopin_demo",
         "chopin_ep_kywl",
         "chopin_global",
@@ -3688,7 +3811,9 @@
       "codename": "evergo",
       "checkers": [
         "evergo",
+        "evergo_pre",
         "evergo_demo",
+        "evergo_ep_yunke",
         "evergo_ep_cqrcb",
         "evergo_ep_ec",
         "evergo_ep_stdee",
@@ -3702,6 +3827,7 @@
       "codename": "pissarro",
       "checkers": [
         "pissarro",
+        "pissarro_pre",
         "pissarro_demo",
         "pissarro_tw_global",
         "pissarro_global",
@@ -3847,6 +3973,7 @@
         "sunstone",
         "sunstone_demo",
         "sunstone_ep_stdee",
+        "sunstone_eea_global",
         "sunstone_in_global",
         "sunstone_tw_global",
         "sunstone_global"
@@ -3864,7 +3991,9 @@
         "ruby_eea_global",
         "ruby_ru_global",
         "ruby_id_global",
-        "ruby_tr_global"
+        "ruby_tr_global",
+        "ruby_cl_en_global",
+        "ruby_lm_cr_global"
       ]
     },
     {
@@ -3884,6 +4013,7 @@
       "codename": "lmi",
       "checkers": [
         "lmi",
+        "lmi_pre",
         "lmi_demo",
         "lmi_global",
         "lmi_eea_global",
@@ -3896,6 +4026,7 @@
       "codename": "cezanne",
       "checkers": [
         "cezanne",
+        "cezanne_pre",
         "cezanne_demo"
       ]
     },
@@ -3903,6 +4034,7 @@
       "codename": "apollo",
       "checkers": [
         "apollo",
+        "apollo_pre",
         "apollo_demo",
         "apollo_tw_global",
         "apollo_global",
@@ -3920,6 +4052,7 @@
       "codename": "alioth",
       "checkers": [
         "alioth",
+        "alioth_pre",
         "alioth_demo",
         "alioth_ep_yunke",
         "alioth_tw_global",
@@ -3935,6 +4068,7 @@
       "codename": "haydn",
       "checkers": [
         "haydn",
+        "haydn_pre",
         "haydn_demo",
         "haydn_global",
         "haydn_eea_global",
@@ -3945,6 +4079,7 @@
       "codename": "ares",
       "checkers": [
         "ares",
+        "ares_pre",
         "ares_demo",
         "ares_in_global"
       ]
@@ -3997,6 +4132,7 @@
       "checkers": [
         "diting",
         "diting_demo",
+        "diting_ep_stdee",
         "diting_tw_global",
         "diting_global",
         "diting_eea_global",
@@ -4034,6 +4170,7 @@
       "checkers": [
         "yunluo",
         "yunluo_demo",
+        "yunluo_ep_stdee",
         "yunluo_tw_global",
         "yunluo_global",
         "yunluo_eea_global",
@@ -4526,7 +4663,7 @@
     {
       "codename": "pissarroin",
       "checkers": [
-        "pissarroin"
+        "pissarro_in_fk_global"
       ]
     },
     {
