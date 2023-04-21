@@ -1,6 +1,5 @@
 $(document).ready(function () {
   $("body").addClass("mdui-bottom-nav-fixed mdui-appbar-with-toolbar");
-  $(".mdui-overlay").removeClass("mdui-overlay-show");
   var pathName = window.document.location.pathname;
   let height = $(document).width();
   var lang = navigator.language.substr(0, 2);
