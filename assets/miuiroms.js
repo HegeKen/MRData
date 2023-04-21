@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("body").addClass("mdui-bottom-nav-fixed");
+  $("body").addClass("mdui-bottom-nav-fixed mdui-appbar-with-toolbar");
   var pathName = window.document.location.pathname;
   let height = $(document).width();
   var lang = navigator.language.substr(0, 2);
