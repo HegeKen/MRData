@@ -251,6 +251,34 @@
       ]
     },
     {
+      "branch": "euvf",
+      "show": "1",
+      "cnname": "欧洲Vodafone运营商定制版",
+      "enname": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SCVEUVF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "earth_eea_vf_global_images_V13.0.4.0.SCVEUVF_20230315.0000.00_12.0_eea_2f649df413.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eusf",
+      "show": "1",
+      "cnname": "欧洲Altice(SFR)运营商定制版",
+      "enname": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.3.0.SCVEUSF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "earth_eea_sf_global_images_V13.0.3.0.SCVEUSF_20230324.0000.00_12.0_eea_cf493a0a6e.tgz"
+        }
+      ]
+    },
+    {
       "branch": "russ",
       "show": "1",
       "cnname": "俄罗斯稳定版",
@@ -367,6 +395,20 @@
           "android": "12.0",
           "recovery": "miui_EARTHLMCRGlobal_V13.0.1.0.SCVLMCR_01307a5baa_12.0.zip",
           "fastboot": "earth_lm_cr_global_images_V13.0.1.0.SCVLMCR_20230112.0000.00_12.0_global_044bb8212f.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SCVMXAT",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "earth_mx_at_global_images_V13.0.2.0.SCVMXAT_20230308.0000.00_12.0_global_2368b164e8.tgz"
         }
       ]
     }

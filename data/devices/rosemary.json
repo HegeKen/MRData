@@ -323,6 +323,62 @@
       ]
     },
     {
+      "branch": "euor",
+      "show": "1",
+      "cnname": "欧洲Orange运营商定制版",
+      "enname": "Europe Orange Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.6.0.SKLEUOR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "rosemary_eea_or_global_images_V13.0.6.0.SKLEUOR_20230206.0000.00_12.0_eea_a91adfb3b8.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eutf",
+      "show": "1",
+      "cnname": "欧洲Telefonica运营商定制版",
+      "enname": "Europe Telefonica Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SKLEUTF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "rosemary_eea_tf_global_images_V13.0.4.0.SKLEUTF_20230112.0000.00_12.0_eea_83cce49ff7.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "euvf",
+      "show": "1",
+      "cnname": "欧洲Vodafone运营商定制版",
+      "enname": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.7.0.SKLEUVF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "rosemary_eea_vf_global_images_V13.0.7.0.SKLEUVF_20230227.0000.00_12.0_eea_5fd02bd692.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eusf",
+      "show": "1",
+      "cnname": "欧洲Altice(SFR)运营商定制版",
+      "enname": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SKLEUSF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "rosemary_eea_sf_global_images_V13.0.5.0.SKLEUSF_20230227.0000.00_12.0_eea_9706105c2c.tgz"
+        }
+      ]
+    },
+    {
       "branch": "russ",
       "show": "1",
       "cnname": "俄罗斯稳定版",
@@ -530,6 +586,12 @@
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
+        {
+          "miui": "V14.0.2.0.TKLIDXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYIDGlobal_V14.0.2.0.TKLIDXM_4bd9e461c9_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.10.0.SKLIDXM",
           "android": "12.0",
