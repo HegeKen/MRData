@@ -57,8 +57,8 @@ def getRom(codename):
 
 
 
-current = ["thyme", "venus", "star", "renoir", "cupid", "zeus", "psyche", "mayfly", "daumier", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "cetus",
-           "odin", "zizhan", "nabu", "elish", "enuma", "dagu","pipa","liuqin", "mona", "zijin", "chopin", "pissarro", "xaga", "alioth", "haydn", "ares", "munch",
+current = ["venus", "star", "renoir", "cupid", "zeus", "psyche", "mayfly", "daumier", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "cetus",
+           "odin", "zizhan", "nabu", "elish", "enuma", "dagu","pipa","liuqin", "mona", "zijin","pissarro", "xaga", "munch",
            "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
 
 

@@ -1,0 +1,76 @@
+{
+  "codename": "sweet_k6a",
+  "cnname": "Redmi Note 12 Pro 4G",
+  "enname": "Redmi Note 12 Pro 4G",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "cdid": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "branches": [
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V13.0.2.0.RHGMIXM",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "sweet_k6a_global_images_V13.0.2.0.RHGMIXM_20230217.0000.00_11.0_global_0c1c8b8e2c.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V13.0.3.0.RHGEUXM",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "sweet_k6a_eea_global_images_V13.0.3.0.RHGEUXM_20230223.0000.00_11.0_eea_c82aea89ef.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V13.0.2.0.RHGRUXM",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "sweet_k6a_ru_global_images_V13.0.2.0.RHGRUXM_20230302.0000.00_11.0_global_0ee99c0d9e.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "trks",
+      "show": "1",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V13.0.2.0.RHGTRXM",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "sweet_k6a_tr_global_images_V13.0.2.0.RHGTRXM_20230308.0000.00_11.0_global_16a46cc751.tgz"
+        }
+      ]
+    }
+  ]
+}

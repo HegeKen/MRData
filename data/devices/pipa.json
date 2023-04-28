@@ -40,13 +40,27 @@
           "miui": "V14.0.4.0.TMZCNXM",
           "android": "13.0",
           "recovery": "miui_PIPA_V14.0.4.0.TMZCNXM_cde299f766_13.0.zip",
-          "fastboot": ""
+          "fastboot": "pipa_images_V14.0.4.0.TMZCNXM_20230422.0000.00_13.0_cn_dbc25f30be.tgz"
         },
         {
           "miui": "V14.0.3.0.TMZCNXM",
           "android": "13.0",
           "recovery": "miui_PIPA_V14.0.3.0.TMZCNXM_4ad0900374_13.0.zip",
           "fastboot": "pipa_images_V14.0.3.0.TMZCNXM_20230411.0000.00_13.0_cn_9fb23db879.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMZCNDM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "pipa_demo_images_V14.0.3.0.TMZCNDM_20230426.0000.00_13.0_cn_52281e2a50.tgz"
         }
       ]
     }
