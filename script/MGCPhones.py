@@ -13,6 +13,7 @@ AllIds = json.loads(devlist.read())["Full"]
 for region in regions:
   for domain in domains:
     url = domain+region+"/phone/getphonelist"
+    print("\r"+url+"      ",end="")
     response = requests.get(url, headers=headers)
     if (response.status_code != 404):
       content = response.content.decode("utf8")
