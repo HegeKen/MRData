@@ -1,15 +1,8 @@
 from selenium import webdriver
-from bs4 import BeautifulSoup
-from msedge.selenium_tools import Edge, EdgeOptions
 from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
 import json
-import time
 
-
-options = EdgeOptions()
-options.use_chromium = True
-options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\112.0.1722.58\msedge.exe"
-driver = Edge(options=options, executable_path=r"C:\Program Files (x86)\Microsoft\Edge\Application\112.0.1722.58\msedgedriver.exe")
 
 # https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 # https://msedgewebdriverstorage.z22.web.core.windows.net/
@@ -17,6 +10,7 @@ driver = Edge(options=options, executable_path=r"C:\Program Files (x86)\Microsof
 # https://mifirmware.com/xiaomi-miui-14/
 # https://mifirmware.com/xiaomi-firmware/
 # https://mifirmware.com/firmware/
+driver = webdriver.Edge()
 driver.get("https://mifirmware.com/xiaomi-software-update/")
 soup = BeautifulSoup(driver.page_source, "lxml")
 lists = soup.find_all("a", attrs={"data-content" :"Download"})
