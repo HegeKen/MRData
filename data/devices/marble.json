@@ -1,7 +1,7 @@
 {
   "codename": "marble",
-  "cnname": "Redmi Note 12 Turbo",
-  "enname": "Redmi Note 12 Turbo",
+  "cnname": "Redmi Note 12 Turbo/POCO F5",
+  "enname": "Redmi Note 12 Turbo/POCO F5",
   "attentions": [
     {
       "cn": "",
@@ -24,7 +24,7 @@
       "links": [
         {
           "miui": "",
-          "android": "",
+          "android": "13.0",
           "recovery": "",
           "fastboot": ""
         }
@@ -40,7 +40,7 @@
           "miui": "V14.0.19.0.TMRCNXM",
           "android": "13.0",
           "recovery": "miui_MARBLE_V14.0.19.0.TMRCNXM_cdffc8d82e_13.0.zip",
-          "fastboot": ""
+          "fastboot": "marble_images_V14.0.19.0.TMRCNXM_20230426.0000.00_13.0_cn_5fc5692104.tgz"
         },
         {
           "miui": "V14.0.18.0.TMRCNXM",
@@ -117,6 +117,12 @@
       "enname": "China Telecom Carrier Edition",
       "links": [
         {
+          "miui": "V14.0.19.0.TMRCNXM",
+          "android": "13.0",
+          "recovery": "miui_MARBLE_V14.0.19.0.TMRCNXM_cdffc8d82e_13.0.zip",
+          "fastboot": "marble_images_V14.0.19.0.TMRCNXM_20230426.0000.00_13.0_cn_chinatelecom_197432ac65.tgz"
+        },
+        {
           "miui": "V14.0.16.0.TMRCNXM",
           "android": "13.0",
           "recovery": "miui_MARBLE_V14.0.16.0.TMRCNXM_af816f3572_13.0.zip",
@@ -165,6 +171,90 @@
           "android": "13.0",
           "recovery": "miui_MARBLEDEMO_V14.0.3.0.TMRCNDM_39d66305c2_13.0.zip",
           "fastboot": "marble_demo_images_V14.0.3.0.TMRCNDM_20230329.0000.00_13.0_cn_chinatelecom_45fa5628a6.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMRMIXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_global_images_V14.0.1.0.TMRMIXM_20230320.0000.00_13.0_global_62017b58b6.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMREUXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_eea_global_images_V14.0.2.0.TMREUXM_20230320.0000.00_13.0_eea_4bd5593a1d.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMRRUXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_ru_global_images_V14.0.1.0.TMRRUXM_20230320.0000.00_13.0_ru_81dc764322.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "inds",
+      "show": "1",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMRINXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_in_global_images_V14.0.1.0.TMRINXM_20230326.0000.00_13.0_in_25b7d60aa0.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "inns",
+      "show": "1",
+      "cnname": "印度尼西亚稳定版",
+      "enname": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMRIDXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_id_global_images_V14.0.1.0.TMRIDXM_20230407.0000.00_13.0_id_eff2299e61.tgz"
+        }
+      ]
+    },
+    {
+      "branch": "trks",
+      "show": "1",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMRTRXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_tr_global_images_V14.0.1.0.TMRTRXM_20230411.0000.00_13.0_tr_9db2d6fa6f.tgz"
         }
       ]
     }
