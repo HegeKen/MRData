@@ -1,5 +1,5 @@
 {
-  "codename": "camellia",
+  "codename": "camellian",
   "cnname": "Redmi Note 10 5G/10T 5G/Redmi Note 11 SE/POCO M3 Pro 5G",
   "enname": "Redmi Note 10 5G/10T 5G/Redmi Note 11 SE/POCO M3 Pro 5G",
   "attentions": [
@@ -8,19 +8,21 @@
       "en": ""
     }
   ],
-  "cdid": "",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
+  "cdid": "26819709",
+  "ccshow": "1",
+  "cbshow": "1",
+  "csid": [
+    "346"
+  ],
   "cbid": [],
-  "gdid": "",
-  "pcid": "",
+  "gdid": "11767",
+  "pcid": "13861",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
-      "carrier":[],
+      "code":"camellia",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
@@ -977,27 +979,27 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellia",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
+          "miui": "V14.0.2.0.TKSCNXM",
+          "android": "13.0",
+          "recovery": "miui_CAMELLIA_V14.0.2.0.TKSCNXM_3b9393dc62_13.0.zip",
+          "fastboot": "camellia_images_V14.0.2.0.TKSCNXM_20230310.0000.00_13.0_cn_ee180bd1a8.tgz"
         }
       ]
     },
     {
-      "code":"",
+      "code":"camellia",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -1085,27 +1087,105 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellia",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
         {
+          "miui": "V14.0.2.0.TKSCNXM",
+          "android": "13.0",
+          "recovery": "miui_CAMELLIA_V14.0.2.0.TKSCNXM_3b9393dc62_13.0.zip",
+          "fastboot": "camellia_images_V14.0.2.0.TKSCNXM_20230310.0000.00_13.0_cn_chinatelecom_46505c804c.tgz"
+        },
+        {
           "miui": "V13.0.9.0.SKSCNXM",
           "android": "12.0",
           "recovery": "miui_CAMELLIA_V13.0.9.0.SKSCNXM_4043385982_12.0.zip",
           "fastboot": "camellia_images_V13.0.9.0.SKSCNXM_20221128.0000.00_12.0_cn_chinatelecom_1bea221d97.tgz"
+        },
+        {
+          "miui": "V13.0.8.0.SKSCNXM",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIA_V13.0.8.0.SKSCNXM_dbc963ea0c_12.0.zip",
+          "fastboot": "camellia_images_V13.0.8.0.SKSCNXM_20221120.0000.00_12.0_cn_chinatelecom_bb03c7cd7e.tgz"
+        },
+        {
+          "miui": "V13.0.5.0.SKSCNXM",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIA_V13.0.5.0.SKSCNXM_6c412c868a_12.0.zip",
+          "fastboot": "camellia_images_V13.0.5.0.SKSCNXM_20220813.0000.00_12.0_cn_chinatelecom_cc9b6c581d.tgz"
         }
       ]
     },
     {
-      "code":"",
+      "code":"camellia",
       "btag":"F",
-      "region":"",
+      "region":"cn",
+      "carrier":["chinaunicom"],
+      "branch": "ctcu",
+      "show": "1",
+      "cnname": "中国联通定制版",
+      "enname": "China Unicom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TKSCNXM",
+          "android": "13.0",
+          "recovery": "miui_CAMELLIA_V14.0.2.0.TKSCNXM_3b9393dc62_13.0.zip",
+          "fastboot": "camellia_images_V14.0.2.0.TKSCNXM_20230310.0000.00_13.0_cn_chinaunicom_08b004c8a7.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellia",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinamobile"],
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TKSCNXM",
+          "android": "13.0",
+          "recovery": "miui_CAMELLIA_V14.0.2.0.TKSCNXM_3b9393dc62_13.0.zip",
+          "fastboot": "camellia_images_V14.0.2.0.TKSCNXM_20230310.0000.00_13.0_cn_chinamobile_9645afeb31.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellia_ep_stdee",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "stde",
+      "show": "0",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V13.0.23.2.23.EP.STDEE.K19",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIAEPSTDEE_V13.0.23.2.23.EP.STDEE.K19_fb45c7efa7_12.0.zip",
+          "fastboot": "camellia_ep_stdee_images_V13.0.23.2.23.EP.STDEE.K19_20230223.0000.00_12.0_cn_dd7542c33b.tgz"
+        },
+        {
+          "miui": "V13.0.23.2.17.EP.STDEE.K19",
+          "android": "",
+          "recovery": "miui_CAMELLIAEPSTDEE_V13.0.23.2.17.EP.STDEE.K19_31e78c192d_12.0.zip",
+          "fastboot": "camellia_ep_stdee_images_V13.0.23.2.17.EP.STDEE.K19_20230217.0000.00_12.0_cn_a77a67e749.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_tw_global",
+      "btag":"F",
+      "region":"global",
       "carrier":[],
       "branch": "cntw",
       "show": "1",
@@ -1163,15 +1243,21 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellian_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "mgbs",
       "show": "1",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
+        {
+          "miui": "V13.0.6.0.SKSMIXM",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIANGlobal_V13.0.6.0.SKSMIXM_b7ebae1b71_12.0.zip",
+          "fastboot": "camellian_global_images_V13.0.6.0.SKSMIXM_20230303.0000.00_12.0_global_0a66927a9c.tgz"
+        },
         {
           "miui": "V13.0.5.0.SKSMIXM",
           "android": "12.0",
@@ -1259,15 +1345,27 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellian_eea_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eeas",
       "show": "1",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
+        {
+          "miui": "V14.0.1.0.TKSEUXM",
+          "android": "13.0",
+          "recovery": "miui_CAMELLIANEEAGlobal_V14.0.1.0.TKSEUXM_e8dea0d89e_13.0.zip",
+          "fastboot": "camellian_eea_global_images_V14.0.1.0.TKSEUXM_20230329.0000.00_13.0_eea_a42ab4a9ee.tgz"
+        },
+        {
+          "miui": "V13.0.8.0.SKSEUXM",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIANEEAGlobal_V13.0.8.0.SKSEUXM_838939065c_12.0.zip",
+          "fastboot": "camellian_eea_global_images_V13.0.8.0.SKSEUXM_20230227.0000.00_12.0_eea_3b91feda5b.tgz"
+        },
         {
           "miui": "V13.0.7.0.SKSEUXM",
           "android": "12.0",
@@ -1355,15 +1453,21 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellian_ru_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "russ",
       "show": "1",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
+        {
+          "miui": "V13.0.5.0.SKSRUXM",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIANRUGlobal_V13.0.5.0.SKSRUXM_148c07fb83_12.0.zip",
+          "fastboot": "camellian_ru_global_images_V13.0.5.0.SKSRUXM_20230306.0000.00_12.0_global_77a3ecebb1.tgz"
+        },
         {
           "miui": "V13.0.4.0.SKSRUXM",
           "android": "12.0",
@@ -1421,9 +1525,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellia_in_global",
       "btag":"F",
-      "region":"",
+      "region":"in",
       "carrier":[],
       "branch": "inds",
       "show": "1",
@@ -1431,10 +1535,16 @@
       "enname": "India Stable",
       "links": [
         {
+          "miui": "V13.0.7.0.SKSINXM",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIAINGlobal_V13.0.7.0.SKSINXM_73f48c089e_12.0.zip",
+          "fastboot": "camellia_in_global_images_V13.0.7.0.SKSINXM_20230302.0000.00_12.0_in_6805d7f426.tgz"
+        },
+        {
           "miui": "V13.0.6.0.SKSINXM",
           "android": "12.0",
           "recovery": "miui_CAMELLIAINGlobal_V13.0.6.0.SKSINXM_4e324965da_12.0.zip",
-          "fastboot": ""
+          "fastboot": "camellia_in_global_images_V13.0.6.0.SKSINXM_20230112.0000.00_12.0_in_e0262f9a88.tgz"
         },
         {
           "miui": "V13.0.4.0.SKSINXM",
@@ -1493,15 +1603,27 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellian_id_global",
       "btag":"F",
-      "region":"",
+      "region":"id",
       "carrier":[],
       "branch": "inns",
       "show": "1",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
+        {
+          "miui": "V14.0.3.0.TKSIDXM",
+          "android": "13.0",
+          "recovery": "miui_CAMELLIANIDGlobal_V14.0.3.0.TKSIDXM_89a94fa8f7_13.0.zip",
+          "fastboot": "camellian_id_global_images_V14.0.3.0.TKSIDXM_20230417.0000.00_13.0_id_1b76cbbf43.tgz"
+        },
+        {
+          "miui": "V13.0.6.0.SKSIDXM",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIANIDGlobal_V13.0.6.0.SKSIDXM_6dede58d8d_12.0.zip",
+          "fastboot": "camellian_id_global_images_V13.0.6.0.SKSIDXM_20230306.0000.00_12.0_global_44c779f72d.tgz"
+        },
         {
           "miui": "V13.0.5.0.SKSIDXM",
           "android": "12.0",
@@ -1565,9 +1687,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellian_tr_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "trks",
       "show": "1",
@@ -1578,7 +1700,7 @@
           "miui": "V13.0.4.0.SKSTRXM",
           "android": "12.0",
           "recovery": "miui_CAMELLIANTRGlobal_V13.0.4.0.SKSTRXM_59e25a3d1c_12.0.zip",
-          "fastboot": ""
+          "fastboot": "camellian_tr_global_images_V13.0.4.0.SKSTRXM_20230103.0000.00_12.0_global_35ddda11b8.tgz"
         },
         {
           "miui": "V13.0.3.0.SKSTRXM",
@@ -1637,15 +1759,63 @@
       ]
     },
     {
-      "code":"",
+      "code":"camellian_th_as_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
+      "carrier":[],
+      "branch": "thas",
+      "show": "1",
+      "cnname": "泰国AIS稳定版",
+      "enname": "Thailand Stable AIS Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SKSTHAS",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIANTHASGlobal_V13.0.2.0.SKSTHAS_d74b5b86e0_12.0.zip",
+          "fastboot": "camellian_th_as_global_images_V13.0.2.0.SKSTHAS_20221122.0000.00_12.0_global_c982b01ad9.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_cl_en_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "clen",
+      "show": "1",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.0.2.0.RKSCLEN",
+          "android": "11.0",
+          "recovery": "miui_CAMELLIANCLENGlobal_V12.0.2.0.RKSCLEN_bbc1c6a806_11.0.zip",
+          "fastboot": "camellian_cl_en_global_images_V12.0.2.0.RKSCLEN_20210726.0000.00_11.0_global_adfa65c612.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_lm_cr_global",
+      "btag":"F",
+      "region":"global",
       "carrier":[],
       "branch": "lmcr",
       "show": "1",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
+        {
+          "miui": "V13.0.3.0.SKSLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_lm_cr_global_images_V13.0.3.0.SKSLMCR_20230321.0000.00_12.0_global_6415cbff8c.tgz"
+        },
+        {
+          "miui": "V13.0.2.0.SKSLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_lm_cr_global_images_V13.0.2.0.SKSLMCR_20230130.0000.00_12.0_global_8322352658.tgz"
+        },
         {
           "miui": "V12.0.10.0.RKSLMCR",
           "android": "11.0",
@@ -1655,8 +1825,26 @@
         {
           "miui": "V12.0.1.0.RKSLMCR",
           "android": "11.0",
-          "recovery": "",
+          "recovery": "miui_CAMELLIANLMCRGlobal_V12.0.1.0.RKSLMCR_f0082fd41a_11.0.zip",
           "fastboot": "camellian_lm_cr_global_images_V12.0.1.0.RKSLMCR_20210521.0000.00_11.0_global_4aa77a03c5.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_mx_at_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T稳定版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.5.10.0.RKSMXAT",
+          "android": "11.0",
+          "recovery": "miui_CAMELLIANMXATGlobal_V12.5.10.0.RKSMXAT_b505fe18e3_11.0.zip",
+          "fastboot": "camellian_mx_at_global_images_V12.5.10.0.RKSMXAT_20221206.0000.00_11.0_global_70b4427da7.tgz"
         }
       ]
     }

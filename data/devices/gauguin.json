@@ -19,10 +19,10 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
-      "carrier":[],
+      "code":"gauguin",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
@@ -1801,9 +1801,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
       "show": "1",
@@ -1819,9 +1819,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -1957,10 +1957,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -1981,10 +1981,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -2005,9 +2005,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_tw_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "cntw",
       "show": "1",
@@ -2083,9 +2083,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "mgbs",
       "show": "1",
@@ -2227,9 +2227,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_eea_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eeas",
       "show": "1",
@@ -2395,9 +2395,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_eea_hg_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euhg",
       "show": "1",
@@ -2413,9 +2413,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_eea_or_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euor",
       "show": "1",
@@ -2431,9 +2431,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_eea_tf_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eutf",
       "show": "1",
@@ -2449,9 +2449,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_eea_vf_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euvf",
       "show": "1",
@@ -2467,9 +2467,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_eea_sf_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eusf",
       "show": "1",
@@ -2485,9 +2485,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_eea_ti_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euti",
       "show": "1",
@@ -2503,15 +2503,21 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_in_global",
       "btag":"F",
-      "region":"",
+      "region":"in",
       "carrier":[],
       "branch": "inds",
       "show": "1",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
+        {
+          "miui": "V14.0.2.0.SJSINXM",
+          "android": "12.0",
+          "recovery": "miui_GAUGUININGlobal_V14.0.2.0.SJSINXM_1db4f5a726_12.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.7.0.SJSINXM",
           "android": "12.0",
@@ -2599,9 +2605,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"gauguin_tr_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "trks",
       "show": "1",

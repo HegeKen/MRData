@@ -17,6 +17,10 @@
   "pcid": "",
   "branches": [
     {
+      "code":"",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "0",
       "cnname": "开发版",
@@ -31,6 +35,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":[],
       "branch": "cnmo",
       "show": "0",
       "cnname": "中国大陆正式版",
@@ -45,6 +53,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -59,7 +71,11 @@
       ]
     },
     {
-      "branch": "cndy",
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "epyk",
       "show": "0",
       "cnname": "中国大陆YUNKE",
       "enname": "China Mainland YUNKE",
@@ -73,6 +89,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "epxy",
       "show": "0",
       "cnname": "中国大陆EPXY",
@@ -87,6 +107,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
       "show": "0",
       "cnname": "中国大陆STDEE",
@@ -101,6 +125,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":[],
       "branch": "cnms",
       "show": "0",
       "cnname": "中国大陆稳定版",
@@ -115,6 +143,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "0",
       "cnname": "中国电信定制版",
@@ -122,6 +154,10 @@
       "links": []
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":["chinaunicom"],
       "branch": "ctcu",
       "show": "0",
       "cnname": "中国联通定制版",
@@ -129,6 +165,10 @@
       "links": []
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "0",
       "cnname": "中国移动定制版",
@@ -136,6 +176,10 @@
       "links": []
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "cntw",
       "show": "0",
       "cnname": "中国台湾地区稳定版",
@@ -150,6 +194,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "mgbs",
       "show": "0",
       "cnname": "国际稳定版",
@@ -164,6 +212,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "mghg",
       "show": "0",
       "cnname": "国际ThreeHK运营商定制版",
@@ -178,6 +230,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "eeas",
       "show": "0",
       "cnname": "欧洲EEA稳定版",
@@ -192,6 +248,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "euhg",
       "show": "1",
       "cnname": "欧洲ThreeHK运营商定制版",
@@ -206,6 +266,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "euor",
       "show": "1",
       "cnname": "欧洲Orange运营商定制版",
@@ -220,6 +284,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "eutf",
       "show": "1",
       "cnname": "欧洲Telefonica运营商定制版",
@@ -234,6 +302,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "euby",
       "show": "1",
       "cnname": "欧洲Bouygues Telecom运营商定制版",
@@ -248,6 +320,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "euvf",
       "show": "1",
       "cnname": "欧洲Vodafone运营商定制版",
@@ -262,6 +338,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "eusf",
       "show": "1",
       "cnname": "欧洲Altice(SFR)运营商定制版",
@@ -276,6 +356,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "euti",
       "show": "1",
       "cnname": "欧洲TIM运营商定制版",
@@ -290,6 +374,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "russ",
       "show": "0",
       "cnname": "俄罗斯稳定版",
@@ -304,6 +392,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "inds",
       "show": "0",
       "cnname": "印度稳定版",
@@ -318,6 +410,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "inns",
       "show": "0",
       "cnname": "印度尼西亚稳定版",
@@ -332,6 +428,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "trks",
       "show": "0",
       "cnname": "土耳其稳定版",
@@ -346,6 +446,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "thas",
       "show": "0",
       "cnname": "泰国AIS稳定版",
@@ -360,6 +464,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "clen",
       "show": "0",
       "cnname": "智利Entel稳定版",
@@ -374,6 +482,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "mxtc",
       "show": "0",
       "cnname": "墨西哥Telcel稳定版",
@@ -388,6 +500,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "mxat",
       "show": "0",
       "cnname": "墨西哥AT&T稳定版",
@@ -402,6 +518,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "lmcr",
       "show": "0",
       "cnname": "拉丁美洲Claro运营商定制版",
@@ -416,6 +536,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "lmms",
       "show": "0",
       "cnname": "拉丁美洲Moviestar运营商定制版",
@@ -430,6 +554,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "zavc",
       "show": "0",
       "cnname": "南非Vodacom稳定版",
@@ -444,6 +572,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "zamt",
       "show": "0",
       "cnname": "南非MTN稳定版",
@@ -458,6 +590,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "japs",
       "show": "0",
       "cnname": "日本稳定版",
@@ -472,6 +608,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "jpkd",
       "show": "0",
       "cnname": "日本KDDI电信稳定版",
@@ -486,6 +626,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "krgu",
       "show": "0",
       "cnname": "韩国LG U+稳定版",
@@ -500,6 +644,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "krkt",
       "show": "0",
       "cnname": "韩KTF稳定版",
@@ -514,6 +662,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "krsk",
       "show": "0",
       "cnname": "韩国SK电讯稳定版",

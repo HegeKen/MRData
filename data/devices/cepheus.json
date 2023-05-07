@@ -17,10 +17,10 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
-      "carrier":[],
+      "code":"cepheus",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
@@ -2627,9 +2627,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -2813,10 +2813,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -2831,9 +2831,9 @@
       ]
     },
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
+      "code":"cepheus_global",
+      "btag":"X",
+      "region":"global",
       "carrier":[],
       "branch": "mgbb",
       "show": "1",
@@ -2945,9 +2945,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "mgbs",
       "show": "1",
@@ -3077,9 +3077,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus_eea_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eeas",
       "show": "1",
@@ -3221,9 +3221,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus_ru_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "russ",
       "show": "1",
@@ -3299,9 +3299,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus_lm_cr_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "lmcr",
       "show": "1",
@@ -3317,9 +3317,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus_eea_hg_global",
       "btag":"F",
-      "region":"",
+      "region":"hg",
       "carrier":[],
       "branch": "euhg",
       "show": "1",
@@ -3335,9 +3335,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"cepheus_mx_tc_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "mxtc",
       "show": "1",
