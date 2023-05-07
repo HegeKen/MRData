@@ -17,6 +17,10 @@
   "pcid": "",
   "branches": [
     {
+      "code":"ishtar",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "0",
       "cnname": "开发版",
@@ -31,6 +35,10 @@
       ]
     },
     {
+      "code":"ishtar",
+      "btag":"F",
+      "region":"cn",
+      "carrier":[],
       "branch": "cnmo",
       "show": "1",
       "cnname": "中国大陆正式版",
@@ -63,6 +71,10 @@
       ]
     },
     {
+      "code":"ishtar",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -95,6 +107,10 @@
       ]
     },
     {
+      "code":"ishtar_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -115,6 +131,10 @@
       ]
     },
     {
+      "code":"ishtar_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
       "branch": "eeas",
       "show": "1",
       "cnname": "欧洲EEA稳定版",
@@ -123,7 +143,7 @@
         {
           "miui": "V14.0.1.0.TMAEUXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_ISHTAREEAGlobal_V14.0.1.0.TMAEUXM_d95c367fbc_13.0.zip",
           "fastboot": "ishtar_eea_global_images_V14.0.1.0.TMAEUXM_20230428.0000.00_13.0_eea_f23013cc7f.tgz"
         }
       ]

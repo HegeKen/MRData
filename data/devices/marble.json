@@ -17,6 +17,10 @@
   "pcid": "",
   "branches": [
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "cnmp",
       "show": "0",
       "cnname": "开发版",
@@ -31,6 +35,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "cnmo",
       "show": "1",
       "cnname": "中国大陆正式版",
@@ -111,6 +119,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -155,6 +167,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -175,6 +191,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "mgbs",
       "show": "1",
       "cnname": "国际稳定版",
@@ -183,12 +203,16 @@
         {
           "miui": "V14.0.1.0.TMRMIXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_MARBLEGlobal_V14.0.1.0.TMRMIXM_2805f4cc27_13.0.zip",
           "fastboot": "marble_global_images_V14.0.1.0.TMRMIXM_20230320.0000.00_13.0_global_62017b58b6.tgz"
         }
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "eeas",
       "show": "1",
       "cnname": "欧洲EEA稳定版",
@@ -197,12 +221,16 @@
         {
           "miui": "V14.0.2.0.TMREUXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_MARBLEEEAGlobal_V14.0.2.0.TMREUXM_2b6bb342a9_13.0.zip",
           "fastboot": "marble_eea_global_images_V14.0.2.0.TMREUXM_20230320.0000.00_13.0_eea_4bd5593a1d.tgz"
         }
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "russ",
       "show": "1",
       "cnname": "俄罗斯稳定版",
@@ -211,12 +239,16 @@
         {
           "miui": "V14.0.1.0.TMRRUXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_MARBLERUGlobal_V14.0.1.0.TMRRUXM_4d4c6eeda5_13.0.zip",
           "fastboot": "marble_ru_global_images_V14.0.1.0.TMRRUXM_20230320.0000.00_13.0_ru_81dc764322.tgz"
         }
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "inds",
       "show": "1",
       "cnname": "印度稳定版",
@@ -225,12 +257,16 @@
         {
           "miui": "V14.0.1.0.TMRINXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_MARBLEINGlobal_V14.0.1.0.TMRINXM_67f467e04d_13.0.zip",
           "fastboot": "marble_in_global_images_V14.0.1.0.TMRINXM_20230326.0000.00_13.0_in_25b7d60aa0.tgz"
         }
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "inns",
       "show": "1",
       "cnname": "印度尼西亚稳定版",
@@ -245,6 +281,10 @@
       ]
     },
     {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
       "branch": "trks",
       "show": "1",
       "cnname": "土耳其稳定版",
@@ -253,7 +293,7 @@
         {
           "miui": "V14.0.1.0.TMRTRXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_MARBLETRGlobal_V14.0.1.0.TMRTRXM_0e062ad8d9_13.0.zip",
           "fastboot": "marble_tr_global_images_V14.0.1.0.TMRTRXM_20230411.0000.00_13.0_tr_9db2d6fa6f.tgz"
         }
       ]
