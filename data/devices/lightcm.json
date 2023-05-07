@@ -4,8 +4,8 @@
   "enname": "Redmi Note 11R",
   "attentions": [
     {
-      "cn": "自V13.0.15.0.SLSCNXM开始,Redmi Note 11R就已经开始与Redmi Note 11E合并发包了,更新内容请前往Redmi Note 11E页面",
-      "en": "Since the release of version V13.0.15.0.SLSCNXM, Redmi Note 11R has been merged with Redmi Note 11E."
+      "cn": "自V13.0.15.0.SLSCNXM开始,Redmi Note 11R就已经开始与Redmi Note 11E合并发包了,不过后续貌似又分开了",
+      "en": "Since the release of version V13.0.15.0.SLSCNXM, Redmi Note 11R has been merged with Redmi Note 11E, but then they decided to seperate them into thier own branches."
     }
   ],
   "cdid": "37338214",
@@ -17,9 +17,9 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
+      "code":"lightcm",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
       "show": "1",
@@ -35,9 +35,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"lightcm",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -77,10 +77,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"lightcm",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -113,10 +113,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"lightcm",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinaunicom"],
       "branch": "ctcu",
       "show": "1",
       "cnname": "中国联通定制版",
@@ -131,10 +131,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"lightcm",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -155,10 +155,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"lightcm_ep_stdee",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
       "show": "0",
       "cnname": "中国大陆STDEE",

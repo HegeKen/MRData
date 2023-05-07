@@ -12,7 +12,7 @@ devices = ["yuechu","babylon","sweet_k6a","ishtar","pipa","liuqin","marble","wat
            "opal","xaga","sunstone","ruby","redwood","lmi","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens",
            "matisse","diting","mondrian","socrates","rembrandt","yunluo","ice","angelicain","frost","citrus","evergreen","rosemary_p",
            "surya","vayu","moonstone"]
-devices=["ice"]
+devices = ["joyeuse"]
 base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76",
            "Connection": "close"}
@@ -39,7 +39,6 @@ for device in devices:
           data = json.loads(content)["LatestFullRom"]
           if len(data)>0:
             if data["filename"] in devdata.__str__():
-              print(data["filename"])
               i= 0
             else:
               print("发现一条新数据\t"+data["filename"])
