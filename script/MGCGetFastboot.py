@@ -6,7 +6,7 @@ headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 headers = {"Connection": "close"}
 domains = ["https://sgp-api.buy.mi.com/bbs/api/","https://ams-api.buy.mi.com/bbs/api/"]
 params = "/phone/getlinepackagelist"
-regions = ["bd","id","my","pk","ph","tr","vn","th","de","es","fr","it","pl","rs","uk","ru","ua","mie","br","co","mx","pe","cl","ng","eg"]
+regions = ["global","rs","bd","id","my","pk","ph","tr","vn","th","de","es","fr","it","pl","uk","ru","ua","mie","br","co","mx","pe","cl","ng","eg"]
 
 
 
