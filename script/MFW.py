@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import json
-
+from sys import platform
 
 # https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 # https://msedgewebdriverstorage.z22.web.core.windows.net/
@@ -22,35 +22,56 @@ for list in lists:
       recode = pack_name.split('_')[1].lower()
     else:
       flag = link.split('/')[3][-6:]
-      flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+      if platform == "win32":
+        flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+      else:
+        flags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
       if flag in flags:
         recode = flags[flag]
       else:
         print(flag)
-    devdata = json.loads(open("static/data/data/devices/"+recode+".json", 'r', encoding='utf-8').read()).__str__()
+    if platform == "win32":
+      devdata = json.loads(open("static/data/data/devices/"+recode+".json", 'r', encoding='utf-8').read()).__str__()
+    else:
+      devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+recode+".json", 'r', encoding='utf-8').read()).__str__()
     if pack_name in devdata:
       i = 0
     else:
       print("发现未收录版本")
-      file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+      if platform == "win32":
+        file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+      else:
+        file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
       file.write(pack_name+"\n")
       file.close()
   elif ".tgz" in link:
     pack_name = link.split('/')[4]
     flag = link.split('/')[3][-6:]
-    flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+    if platform == "win32":
+      flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+    else:
+      flags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
     if flag in flags:
-      devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+      if platform == "win32":
+        devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+      else:
+        devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
       if pack_name in devdata:
         i = 0
       else:
         print("发现未收录版本")
-        file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+        if platform == "win32":
+          file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+        else:
+          file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
         file.write(pack_name+"\n")
         file.close()
     else:
       print("发现未收录机型以及版本")
-      file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+      if platform == "win32":
+        file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+      else:
+        file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
       file.write(flag +"\t"+ pack_name+"\n")
       file.close()
   else:

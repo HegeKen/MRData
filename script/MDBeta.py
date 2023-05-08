@@ -2,9 +2,13 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import time
+from sys import platform
 
 def getRom(codename):
-  devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+  if platform == "win32":
+    devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+  else:
+    devlist = open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8')
   all_devices = json.loads(devlist.read())["MDbeta"]
   for all in all_devices:
     code = all["code"]
@@ -36,14 +40,20 @@ def getRom(codename):
         vers = ["V14.0.23.4.25.DEV"]
         for v in vers:
           if v == ver:
-            fine = "static/data/data/devices/"+codename+".json"
+            if platform == "win32":
+              fine = "static/data/data/devices/"+codename+".json"
+            else:
+              fine = "/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json"
             devicedata = open(fine, 'r', encoding='utf-8')
             devdata = json.loads(devicedata.read())
             if recovery in devdata.__str__():
               i = 0
             else:
               print("尚未收录该本版,版本为："+v+"\t机型："+cname+"("+codename+")")
-              filename = "static/data/script/MDBeta.json"
+              if platform == "win32":
+                filename = "static/data/script/MDBeta.json"
+              else:
+                filename = "/sdcard/Codes/NuxtMR/static/data/script/MDBeta.json"
               file = open(filename, "a", encoding='utf-8')
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': android, 'recovery':recovery,'fastboot':""}
               person_json = json.dumps(datas,ensure_ascii=False)
@@ -65,4 +75,3 @@ current = ["venus", "star", "renoir", "cupid", "zeus", "psyche", "mayfly", "daum
 
 for device in current:
   getRom(device)
-  # print("\""+device.upper()+"\",",end="")

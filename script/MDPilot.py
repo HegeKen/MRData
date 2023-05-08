@@ -2,9 +2,13 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import time
+from sys import platform
 
 branches = ["beta","pilot"]
-devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+if platform == "win32":
+  devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+else:
+  devlist = open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8')
 all_devices = json.loads(devlist.read())["MDcurrent"]
 for all in all_devices:
   codename = all["code"]
@@ -29,7 +33,10 @@ for all in all_devices:
             i = 0
           else:
             packname = rom_url.split('/')[4]
-            fine = "static/data/data/devices/"+codename+".json"
+            if platform == "win32":
+              fine = "static/data/data/devices/"+codename+".json"
+            else:
+              fine = "/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json"
             devicedata = open(fine, 'r', encoding='utf-8')
             devdata = json.loads(devicedata.read())
             if packname in devdata.__str__():
@@ -37,7 +44,10 @@ for all in all_devices:
             else:
               t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
               print("\n"+t+"\t"+url+"     发现尚未收录本版",end="")
-              filename = "static/data/script/2023NewROMs.txt"
+              if platform == "win32":
+                filename = "static/data/script/2023NewROMs.txt"
+              else:
+                filename = "/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt"
               file = open(filename, "a", encoding='utf-8')
               file.write(packname+"\n")
               file.close()

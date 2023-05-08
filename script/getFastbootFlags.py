@@ -1,5 +1,5 @@
 import json
-
+from sys import platform
 
 # devlist = json.loads(open("static/data/data/getFlags.json", 'r', encoding='utf-8').read())["full"]
 devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')

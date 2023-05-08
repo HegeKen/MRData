@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from sys import platform
 
 # https://mifirmware.com/firmware/
 def getDetail(url):
@@ -22,8 +23,12 @@ def getDetail(url):
           packname = rom_url.split('/')[4].strip('||Download')
           checker = packname.split('_')[1]
           flag = rom_url.split('/')[3][-6:]
-          FBflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
-          REflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
+          if platform == "win32":
+            FBflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+            REflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
+          else:
+            FBflags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+            REflags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
           if "blockota" in packname:
             i = 0
           elif "DEV" in packname:
@@ -31,32 +36,50 @@ def getDetail(url):
           else:
             if ".zip" in rom_url:
               if checker in REflags:
-                devdata = json.loads(open("static/data/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
+                if platform == "win32":
+                  devdata = json.loads(open("static/data/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
+                else:
+                  devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
                 if packname in devdata:
                   i = 0
                 else:
                   print("发现未收录版本")
-                  file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                  if platform == "win32":
+                    file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                  else:
+                    file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
                   file.write(packname+"\n")
                   file.close()
               else:
                 print("发现未收录机型以及版本")
-                file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                if platform == "win32":
+                  file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                else:
+                  file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 file.write(checker +"\t"+ packname+"\n")
                 file.close()
             elif ".tgz" in rom_url:
               if flag in FBflags:
-                devdata = json.loads(open("static/data/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+                if platform == "win32":
+                  devdata = json.loads(open("static/data/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+                else:
+                  devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
                 if packname in devdata:
                   i = 0
                 else:
                   print("发现未收录版本")
-                  file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                  if platform == "win32":
+                    file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                  else:
+                    file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
                   file.write(packname+"\n")
                   file.close()
               else:
                 print("发现未收录机型以及版本")
-                file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                if platform == "win32":
+                  file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                else:
+                  file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 file.write(flag +"\t"+ packname+"\n")
                 file.close()
             else:
@@ -65,8 +88,10 @@ def getDetail(url):
           i = 0
   response.close()
 
-
-links = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MFWCurrent"]
+if platform == "win32":
+  links = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MFWCurrent"]
+else:
+  links = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["MFWCurrent"]
 for link in links:
   url = "https://mifirmware.com/" + link + "/"
   getDetail(url)

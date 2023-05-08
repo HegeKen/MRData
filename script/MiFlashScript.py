@@ -1,5 +1,6 @@
 import requests
 import json
+from sys import platform
 
 base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
 # regions = ["cn","tw","global","rs","bd","id","my","pk","ph","tr","vn","th","de","es","fr","it","pl","uk","ru","ua","mie","br","co","mx","pe","cl","ng","eg"]
@@ -9,7 +10,10 @@ branches = ["F","X"]
 # branches = ["F"]
 headers = {"user-agent": "XiaomiPCSuite"}
 headers = {"Connection": "close"}
-devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
+if platform == "win32":
+  devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
+else:
+  devices = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
 
 for device in devices:
   checkers = device["checkers"]
@@ -28,12 +32,18 @@ for device in devices:
               else:
                 data = json.loads(content)["LatestFullRom"]
                 if len(data)>0:
-                  devdata = json.loads(open("static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
+                  if platform == "win32":
+                    devdata = json.loads(open("static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
+                  else:
+                    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
                   if data["filename"] in devdata:
                     i= 0
                   else:
                     print("发现一条新数据")
-                    filename = "static/data/script/2023NewROMs.txt"
+                    if platform == "win32":
+                      filename = "static/data/script/2023NewROMs.txt"
+                    else:
+                      filename = "/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt"
                     file = open(filename, "a", encoding='utf-8')
                     file.write(data["filename"]+"\n")
                     file.close()
@@ -53,12 +63,18 @@ for device in devices:
           else:
             data = json.loads(content)["LatestFullRom"]
             if len(data)>0:
-              devdata = json.loads(open("static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
+              if platform == "win32":
+                devdata = json.loads(open("static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
+              else:
+                devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device["codename"]+".json", 'r', encoding='utf-8').read()).__str__()
               if data["filename"] in devdata:
                 i= 0
               else:
                 print("发现一条新数据")
-                filename = "static/data/script/2023NewROMs.txt"
+                if platform == "win32":
+                  filename = "static/data/script/2023NewROMs.txt"
+                else:
+                  filename = "/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt"
                 file = open(filename, "a", encoding='utf-8')
                 file.write(data["filename"]+"\n")
                 file.close()

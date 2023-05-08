@@ -1,5 +1,6 @@
 import requests
 import json
+from sys import platform
 
 base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
 regions = ["cn","tw","global","eea","ru","in","id","jp","tr"]
@@ -20,12 +21,18 @@ def getFastboot(codename,url):
     else:
       data = json.loads(content)["LatestFullRom"]
       if len(data)>0:
-        devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
+        if platform == "win32":
+          devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
+        else:
+          devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
         if data["filename"] in devdata:
           i= 0
         else:
           print("发现一条新数据")
-          filename = "static/data/script/2023NewROMs.txt"
+          if platform == "win32":
+            filename = "static/data/script/2023NewROMs.txt"
+          else:
+            filename = "/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt"
           file = open(filename, "a", encoding='utf-8')
           file.write(data["filename"]+"\n")
           file.close()
@@ -35,8 +42,11 @@ def getFastboot(codename,url):
     i = 0
   response.close()
 
+if platform == "win32":
+  devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
+else:
+  devices = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
 
-devices = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MiFlashProCurrent"]
 for device in devices:
   codename = device["codename"]
   for region in regions:
