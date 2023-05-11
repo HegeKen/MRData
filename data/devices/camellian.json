@@ -1,5 +1,5 @@
 {
-  "codename": "camellian",
+  "codename": "camellia",
   "cnname": "Redmi Note 10 5G/10T 5G/Redmi Note 11 SE/POCO M3 Pro 5G",
   "enname": "Redmi Note 10 5G/10T 5G/Redmi Note 11 SE/POCO M3 Pro 5G",
   "attentions": [
@@ -1176,7 +1176,7 @@
         },
         {
           "miui": "V13.0.23.2.17.EP.STDEE.K19",
-          "android": "",
+          "android": "12.0",
           "recovery": "miui_CAMELLIAEPSTDEE_V13.0.23.2.17.EP.STDEE.K19_31e78c192d_12.0.zip",
           "fastboot": "camellia_ep_stdee_images_V13.0.23.2.17.EP.STDEE.K19_20230217.0000.00_12.0_cn_a77a67e749.tgz"
         }
@@ -1252,6 +1252,12 @@
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
+        {
+          "miui": "V14.0.3.0.TKSMIXM",
+          "android": "13.0",
+          "recovery": "miui_CAMELLIANGlobal_V14.0.3.0.TKSMIXM_4d9be1df29_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.6.0.SKSMIXM",
           "android": "12.0",
@@ -1449,6 +1455,114 @@
           "android": "11.0",
           "recovery": "miui_CAMELLIANEEAGlobal_V12.0.2.0.RKSEUXM_5927449d24_11.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"camellian_eea_hg_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euhg",
+      "show": "1",
+      "cnname": "欧洲ThreeHK运营商定制版",
+      "enname": "Europe ThreeHK Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SKSEUHG",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_eea_hg_global_images_V13.0.4.0.SKSEUHG_20230306.0000.00_12.0_eea_33e3a56df7.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_eea_or_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euor",
+      "show": "1",
+      "cnname": "欧洲Orange运营商定制版",
+      "enname": "Europe Orange Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.10.0.SKSEUOR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_eea_or_global_images_V13.0.10.0.SKSEUOR_20230302.0000.00_12.0_eea_5436d0c09e.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_eea_tf_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eutf",
+      "show": "1",
+      "cnname": "欧洲Telefonica运营商定制版",
+      "enname": "Europe Telefonica Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SKSEUTF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_eea_tf_global_images_V13.0.5.0.SKSEUTF_20230224.0000.00_12.0_eea_fc7a697866.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_eea_vf_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euvf",
+      "show": "1",
+      "cnname": "欧洲Vodafone运营商定制版",
+      "enname": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.10.0.SKSEUVF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_eea_vf_global_images_V13.0.10.0.SKSEUVF_20230315.0000.00_12.0_eea_48dba7f709.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_eea_sf_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eusf",
+      "show": "1",
+      "cnname": "欧洲Altice(SFR)运营商定制版",
+      "enname": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SKSEUSF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_eea_sf_global_images_V13.0.5.0.SKSEUSF_20230109.0000.00_12.0_eea_62760dfc02.tgz"
+        }
+      ]
+    },
+    {
+      "code":"camellian_eea_ti_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euti",
+      "show": "1",
+      "cnname": "欧洲TIM运营商定制版",
+      "enname": "Europe TIM Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.3.0.SKSEUTI",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "camellian_eea_ti_global_images_V13.0.3.0.SKSEUTI_20230222.0000.00_12.0_eea_4b45fbba65.tgz"
         }
       ]
     },
