@@ -1753,6 +1753,11 @@
       "NameEn": "Redmi Note 12 Pro 4G"
     },
     {
+      "code": "sea",
+      "NameCn": "Redmi Note 12S",
+      "NameEn": "Redmi Note 12S"
+    },
+    {
       "code": "phoenix",
       "NameCn": "Redmi K30 4G",
       "NameEn": "Redmi K30 4G"
@@ -2625,8 +2630,8 @@
     "MACNXM":"ishtar",
     "HGEUXM":"sweet_k6a","HGMIXM":"sweet_k6a","HGRUXM":"sweet_k6a",
     "MZCNXM":"pipa","LZCNDM":"dagu",
-    "MNEUXM":"mondrian",
-    "MRINXM":"marble","MRMIXM":"marble","MREUXM":"marble","MRTRXM":"marble","MRIDXM":"marble","MRRUXM":"marble",
+    "MNEUXM":"mondrian","MNMIXM":"mondrian",
+    "MRINXM":"marble","MRMIXM":"marble","MREUXM":"marble","MRTRXM":"marble","MRIDXM":"marble","MRRUXM":"marble","MRTWXM":"marble",
     "MAEUXM":"ishtar"
   },
   "RecoveryFlags": {
@@ -2902,16 +2907,32 @@
     "TOCOEEAORGlobal": "toco",
     "TOCOEEATFGlobal": "toco",
     "TOCOEEAVFGlobal": "toco",
-    "SUNSTONETWGlobal":"sunstone",
-    "RUBYRUGlobal":"ruby",
-    "ISHTAREEAGlobal":"ishtar"
+    "SUNSTONETWGlobal": "sunstone",
+    "RUBYRUGlobal": "ruby",
+    "ISHTAREEAGlobal": "ishtar",
+    "SEAGlobal": "sea",
+    "SEAEEAGlobal": "sea",
+    "SEARUGlobal": "sea",
+    "SEATRGlobal": "sea",
+    "MONDRIANTWGlobal": "mondrian",
+    "MONDRIANEEAGlobal": "mondrian",
+    "MONDRIANRUGlobal": "mondrian",
+    "MONDRIANTRGlobal": "mondrian"
   },
   "MiFlashProCurrent":[
+    {
+      "codename":"sea",
+      "checkers":[
+        "sea_eea_global",
+        "sea_global",
+        "sea_ru_global",
+        "sea_tr_global"
+      ]
+    },
     {
       "codename":"sweet_k6a",
       "checkers":[
         "sweet_k6a_eea_global",
-        "sweet_k6a_global",
         "sweet_k6a_global",
         "sweet_k6a_ru_global",
         "sweet_k6a_tr_global"
@@ -2924,6 +2945,7 @@
         "ishtar_demo",
         "ishtar_global",
         "ishtar_ru_global",
+        "ishtar_eea_global",
         "ishtar_tw_global"
       ]
     },
@@ -4238,7 +4260,9 @@
       "checkers": [
         "mondrian",
         "mondrian_demo",
-        "mondrian_ep_stdee"
+        "mondrian_ep_stdee",
+        "mondrian_global",
+        "mondrian_eea_global"
       ]
     },
     {

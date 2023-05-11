@@ -255,6 +255,42 @@
       ]
     },
     {
+      "code":"mondrian_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMNTWXM",
+          "android": "13.0",
+          "recovery": "miui_MONDRIANTWGlobal_V14.0.3.0.TMNTWXM_0e62dd52bc_13.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"mondrian_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TMNMIXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "mondrian_global_images_V14.0.4.0.TMNMIXM_20230426.0000.00_13.0_global_8cd4c66273.tgz"
+        }
+      ]
+    },
+    {
       "code":"mondrian_eea_global",
       "btag":"F",
       "region":"eea",
@@ -265,6 +301,12 @@
       "enname": "Europe EEA Stable",
       "links": [
         {
+          "miui": "V14.0.6.0.TMNEUXM",
+          "android": "13.0",
+          "recovery": "miui_MONDRIANEEAGlobal_V14.0.6.0.TMNEUXM_21046329fa_13.0.zip",
+          "fastboot": "mondrian_eea_global_images_V14.0.6.0.TMNEUXM_20230418.0000.00_13.0_eea_384f45cf3a.tgz"
+        },
+        {
           "miui": "V14.0.4.0.TMNEUXM",
           "android": "13.0",
           "recovery": "miui_MONDRIANEEAGlobal_V14.0.4.0.TMNEUXM_a88b38c468_13.0.zip",
@@ -274,6 +316,42 @@
           "miui": "V14.0.2.0.TMNEUXM",
           "android": "13.0",
           "recovery": "miui_MONDRIANEEAGlobal_V14.0.2.0.TMNEUXM_3671d061b6_13.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"mondrian_ru_global",
+      "btag":"F",
+      "region":"ru",
+      "carrier":[],
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMNRUXM",
+          "android": "13.0",
+          "recovery": "miui_MONDRIANRUGlobal_V14.0.3.0.TMNRUXM_94f2a31362_13.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"mondrian_tr_global",
+      "btag":"F",
+      "region":"tr",
+      "carrier":[],
+      "branch": "trks",
+      "show": "1",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMNTRXM",
+          "android": "13.0",
+          "recovery": "miui_MONDRIANTRGlobal_V14.0.3.0.TMNTRXM_d05f5e2472_13.0.zip",
           "fastboot": ""
         }
       ]

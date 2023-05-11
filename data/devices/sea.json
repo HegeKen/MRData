@@ -1,0 +1,98 @@
+{
+  "codename": "sea",
+  "cnname": "Redmi Note 12S",
+  "enname": "Redmi Note 12S",
+  "attentions": [
+    {
+      "cn": "",
+      "en": ""
+    }
+  ],
+  "cdid": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "branches": [
+    {
+      "code":"sea_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.THZMIXM",
+          "android": "13.0",
+          "recovery": "miui_SEAGlobal_V14.0.2.0.THZMIXM_6a0662aae6_13.0.zip",
+          "fastboot": "sea_global_images_V14.0.2.0.THZMIXM_20230407.0000.00_13.0_global_51f0273126.tgz"
+        },
+        {
+          "miui": "V14.0.1.0.THZMIXM",
+          "android": "13.0",
+          "recovery": "miui_SEAGlobal_V14.0.1.0.THZMIXM_44264fcd36_13.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"sea_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.THZEUXM",
+          "android": "13.0",
+          "recovery": "miui_SEAEEAGlobal_V14.0.1.0.THZEUXM_7186c5c857_13.0.zip",
+          "fastboot": "sea_eea_global_images_V14.0.1.0.THZEUXM_20230407.0000.00_13.0_eea_303562f71e.tgz"
+        }
+      ]
+    },
+    {
+      "code":"sea_ru_global",
+      "btag":"F",
+      "region":"ru",
+      "carrier":[],
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.THZRUXM",
+          "android": "13.0",
+          "recovery": "miui_SEARUGlobal_V14.0.1.0.THZRUXM_4e344672e1_13.0.zip",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"sea_tr_global",
+      "btag":"F",
+      "region":"tr",
+      "carrier":[],
+      "branch": "trks",
+      "show": "1",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.THZTRXM",
+          "android": "13.0",
+          "recovery": "miui_SEATRGlobal_V14.0.1.0.THZTRXM_ba3be1a986_13.0.zip",
+          "fastboot": ""
+        }
+      ]
+    }
+  ]
+}
