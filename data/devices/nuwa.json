@@ -22,6 +22,30 @@
   "branches": [
     {
       "code":"",
+      "btag":"X",
+      "region":"cn",
+      "carrier":[""],
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发者预览版",
+      "enname": "Android Developer Preview",
+      "links": [
+        {
+          "miui": "23.5.6",
+          "android": "14.0 DP1 Chinese",
+          "recovery": "",
+          "fastboot": "nuwa_pre_dpp_images_23.5.6_20230506.0000.00_14.0_cn_1e7321db36.tgz"
+        },
+        {
+          "miui": "23.5.6",
+          "android": "14.0 DP1 Global",
+          "recovery": "",
+          "fastboot": "nuwa_pre_dpp_global_images_23.5.6_20230506.0000.00_14.0_global_476952a033.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
       "btag":"F",
       "region":"",
       "carrier":[],
