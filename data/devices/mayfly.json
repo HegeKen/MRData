@@ -21,9 +21,9 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
+      "code":"mayfly",
+      "btag":"X",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmp",
       "show": "1",
@@ -213,9 +213,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"mayfly",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
       "show": "1",
@@ -255,9 +255,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"mayfly",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -327,10 +327,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"mayfly_demo",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -369,10 +369,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"mayfly",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -453,10 +453,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"mayfly",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",

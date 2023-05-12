@@ -21,9 +21,9 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
+      "code":"matisse",
+      "btag":"X",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmp",
       "show": "1",
@@ -357,9 +357,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"matisse",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
       "show": "1",
@@ -399,9 +399,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"matisse",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -483,10 +483,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"matisse",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -537,10 +537,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"matisse",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -555,10 +555,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"matisse_demo",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -585,10 +585,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"matisse_ep_stdee",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
       "show": "0",
       "cnname": "中国大陆STDEE",
