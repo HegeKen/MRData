@@ -22,14 +22,17 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
-      "show": "0",
+      "show": "1",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
         {
-          "miui": "",
-          "android": "",
-          "recovery": "",
+          "code": "ishtar",
+          "NameCn": "小米 13 Ultra",
+          "NameEn": "Xiaomi 13 Ultra",
+          "miui": "V14.0.23.5.8.DEV",
+          "android": "13.0",
+          "recovery": "miui_ISHTAR_V14.0.23.5.8.DEV_22ba2f292e_13.0.zip",
           "fastboot": ""
         }
       ]
