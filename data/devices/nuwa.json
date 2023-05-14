@@ -331,6 +331,12 @@
       "enname": "China Taiwan Stable",
       "links": [
         {
+          "miui": "V14.0.6.0.TMBTWXM",
+          "android": "13.0",
+          "recovery": "miui_NUWATWGlobal_V14.0.6.0.TMBTWXM_3a87d013db_13.0.zip",
+          "fastboot": "nuwa_tw_global_images_V14.0.6.0.TMBTWXM_20230414.0000.00_13.0_tw_b22932f2ab.tgz"
+        },
+        {
           "miui": "V14.0.4.0.TMBTWXM",
           "android": "13.0",
           "recovery": "miui_NUWATWGlobal_V14.0.4.0.TMBTWXM_a7e9a96bd8_13.0.zip",
@@ -369,9 +375,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nuwa_eea_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eeas",
       "show": "1",
@@ -405,21 +411,15 @@
       ]
     },
     {
-      "code":"",
+      "code":"nuwa_ru_global",
       "btag":"F",
-      "region":"",
+      "region":"ru",
       "carrier":[],
       "branch": "russ",
       "show": "1",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
-        {
-          "miui": "V14.0.6.0.TMBTWXM",
-          "android": "13.0",
-          "recovery": "miui_NUWATWGlobal_V14.0.6.0.TMBTWXM_3a87d013db_13.0.zip",
-          "fastboot": "nuwa_tw_global_images_V14.0.6.0.TMBTWXM_20230414.0000.00_13.0_tw_b22932f2ab.tgz"
-        },
         {
           "miui": "V14.0.5.0.TMBRUXM",
           "android": "13.0",
@@ -429,9 +429,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nuwa_in_global",
       "btag":"F",
-      "region":"",
+      "region":"in",
       "carrier":[],
       "branch": "inds",
       "show": "1",
@@ -442,7 +442,7 @@
           "miui": "V14.0.8.0.TMBINXM",
           "android": "13.0",
           "recovery": "miui_NUWAINGlobal_V14.0.8.0.TMBINXM_4087ed25f7_13.0.zip",
-          "fastboot": ""
+          "fastboot": "nuwa_in_global_images_V14.0.8.0.TMBINXM_20230502.0000.00_13.0_in_61de362880.tgz"
         },
         {
           "miui": "V14.0.6.0.TMBINXM",
@@ -459,9 +459,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nuwa_tr_global",
       "btag":"F",
-      "region":"",
+      "region":"tr",
       "carrier":[],
       "branch": "trks",
       "show": "1",

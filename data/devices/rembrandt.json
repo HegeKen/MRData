@@ -19,10 +19,10 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
-      "carrier":[],
+      "code":"rembrandt",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "0",
       "cnname": "开发版",
@@ -37,9 +37,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"rembrandt",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
       "show": "1",
@@ -55,9 +55,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"rembrandt",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -85,10 +85,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"rembrandt",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -121,10 +121,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"rembrandt",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -139,10 +139,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"rembrandt_demo",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",

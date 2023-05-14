@@ -31,10 +31,10 @@
   ],
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
-      "carrier":[],
+      "code":"picasso",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
@@ -2335,27 +2335,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"picasso",
       "btag":"F",
-      "region":"",
-      "carrier":[],
-      "branch": "cnmo",
-      "show": "0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -2539,10 +2521,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"picasso",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",

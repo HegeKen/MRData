@@ -21,10 +21,10 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
-      "carrier":[],
+      "code":"renoir",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
@@ -1839,9 +1839,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
       "show": "1",
@@ -1887,9 +1887,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -1971,10 +1971,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -1995,10 +1995,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -2019,10 +2019,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -2049,10 +2049,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_ep_yy",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "epyy",
       "show": "0",
       "cnname": "中国大陆EPYY",
@@ -2067,9 +2067,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_tw_global",
       "btag":"F",
-      "region":"",
+      "region":"tw",
       "carrier":[],
       "branch": "cntw",
       "show": "1",
@@ -2145,9 +2145,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "mgbs",
       "show": "1",
@@ -2241,9 +2241,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_eea_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eeas",
       "show": "1",
@@ -2331,9 +2331,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_eea_hg_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euhg",
       "show": "1",
@@ -2349,9 +2349,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_eea_or_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euor",
       "show": "1",
@@ -2367,9 +2367,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_eea_tf_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eutf",
       "show": "1",
@@ -2385,9 +2385,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_eea_vf_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euvf",
       "show": "1",
@@ -2409,9 +2409,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_eea_sf_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eusf",
       "show": "1",
@@ -2427,9 +2427,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_eea_ti_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "euti",
       "show": "1",
@@ -2445,9 +2445,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_ru_global",
       "btag":"F",
-      "region":"",
+      "region":"ru",
       "carrier":[],
       "branch": "russ",
       "show": "1",
@@ -2529,9 +2529,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_lm_cr_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "lmcr",
       "show": "1",
@@ -2559,9 +2559,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_mx_tc_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "mxtc",
       "show": "1",
@@ -2589,14 +2589,14 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_cl_en_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
-      "branch": "lmcr",
+      "branch": "clen",
       "show": "1",
-      "cnname": "拉丁美洲Claro运营商定制版",
-      "enname": "Latin America Claro Carrier Edition",
+      "cnname": "智利Entel稳定版",
+      "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.5.0.SKICLEN",
@@ -2613,9 +2613,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"renoir_jp_global",
       "btag":"F",
-      "region":"",
+      "region":"jp",
       "carrier":[],
       "branch": "japs",
       "show": "1",
