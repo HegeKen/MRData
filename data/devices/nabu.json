@@ -21,9 +21,9 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
-      "btag":"F",
-      "region":"",
+      "code":"nabu",
+      "btag":"X",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmp",
       "show": "1",
@@ -1215,9 +1215,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnmo",
       "show": "1",
@@ -1239,9 +1239,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":[],
       "branch": "cnms",
       "show": "1",
@@ -1317,10 +1317,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinatelecom"],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -1347,10 +1347,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -1365,10 +1365,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_demo",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -1401,10 +1401,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_ep_stdee",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
       "show": "0",
       "cnname": "中国大陆STDEE",
@@ -1437,10 +1437,10 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_ep_litee",
       "btag":"F",
-      "region":"",
-      "carrier":[],
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "eplt",
       "show": "0",
       "cnname": "中国大陆LITEE",
@@ -1455,9 +1455,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_tw_global",
       "btag":"F",
-      "region":"",
+      "region":"tw",
       "carrier":[],
       "branch": "cntw",
       "show": "1",
@@ -1515,9 +1515,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_global",
       "btag":"F",
-      "region":"",
+      "region":"global",
       "carrier":[],
       "branch": "mgbs",
       "show": "1",
@@ -1599,9 +1599,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_eea_global",
       "btag":"F",
-      "region":"",
+      "region":"eea",
       "carrier":[],
       "branch": "eeas",
       "show": "1",
@@ -1677,9 +1677,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_ru_global",
       "btag":"F",
-      "region":"",
+      "region":"ru",
       "carrier":[],
       "branch": "russ",
       "show": "1",
@@ -1743,9 +1743,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_in_global",
       "btag":"F",
-      "region":"",
+      "region":"in",
       "carrier":[],
       "branch": "inds",
       "show": "1",
@@ -1797,9 +1797,9 @@
       ]
     },
     {
-      "code":"",
+      "code":"nabu_tr_global",
       "btag":"F",
-      "region":"",
+      "region":"tr",
       "carrier":[],
       "branch": "trks",
       "show": "1",
