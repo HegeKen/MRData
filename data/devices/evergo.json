@@ -667,14 +667,20 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
-          "recovery": "",
+          "miui": "V14.0.2.0.TGBCNXM",
+          "android": "13.0",
+          "recovery": "miui_EVERGO_V14.0.2.0.TGBCNXM_4c16a77b66_13.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.0.12.TGBCNXM",
+          "android": "13.0",
+          "recovery": "miui_EVERGO_V14.0.0.12.TGBCNXM_8ff1024913_13.0.zip",
           "fastboot": ""
         }
       ]
@@ -689,12 +695,6 @@
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
-        {
-          "miui": "V14.0.0.12.TGBCNXM",
-          "android": "13.0",
-          "recovery": "miui_EVERGO_V14.0.0.12.TGBCNXM_8ff1024913_13.0.zip",
-          "fastboot": ""
-        },
         {
           "miui": "V13.0.9.0.SGBCNXM",
           "android": "12.0",
