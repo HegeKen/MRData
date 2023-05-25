@@ -1,7 +1,7 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
+  "codename": "yuechu",
+  "cnname": "小米 Civi 3",
+  "enname": "Xiaomi Civi 3",
   "attentions": [
     {
       "cn": "",
@@ -22,15 +22,33 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
+          "miui": "V14.0.4.0.TMICNXM",
+          "android": "13.0",
+          "recovery": "miui_YUECHU_V14.0.4.0.TMICNXM_957a8a2821_13.0.zip",
+          "fastboot": "yuechu_images_V14.0.4.0.TMICNXM_20230518.0000.00_13.0_cn_f6d52ecf00.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TMICNXM",
+          "android": "13.0",
+          "recovery": "miui_YUECHU_V14.0.4.0.TMICNXM_957a8a2821_13.0.zip",
+          "fastboot": "yuechu_images_V14.0.4.0.TMICNXM_20230518.0000.00_13.0_cn_chinatelecom_cc07c80734.tgz"
         }
       ]
     }
