@@ -16,7 +16,7 @@ gbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in
              "_eea_sf_global","_eea_ti_global"]
 
 
-devices = ["yudi","xun","pearl","corot","fire","heat","sky","river","aristotle","yuechu","babylon","ishtar","sweet_k6a","pipa","liuqin","marble","water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
+devices = ["yuechu","yudi","xun","pearl","corot","fire","heat","sky","river","aristotle","babylon","ishtar","sweet_k6a","pipa","liuqin","marble","water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
            "venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly",
            "unicorn","thor","taoyao","plato","fuxi","nuwa","toco","cetus","odin","zizhan","nabu","elish","enuma","dagu","mona",
            "zijin","ziyi","merlin","lancelot","dandelion","angelica","angelican","cattail","selene","dandelion_c3l2","fog","atom",
@@ -25,6 +25,7 @@ devices = ["yudi","xun","pearl","corot","fire","heat","sky","river","aristotle",
            "opal","xaga","sunstone","ruby","redwood","lmi","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens",
            "matisse","diting","mondrian","socrates","rembrandt","yunluo","ice","angelicain","frost","citrus","evergreen","rosemary_p",
            "surya","vayu","moonstone"]
+# devices=["yuechu"]
 # devices=["ishtar","gauguininpro","aliothin","haydnin","amber","pissarroinpro","galahad","lemon","pomelo","eos","thunder","rain","wind",
 #           "aether","merlinnfc","cannong","gauguinpro","secret","maltose","camellian","iris","miel","peux","pissarropro",
 #           "xagapro","ocean","rubypro","rubyplus","lmipro","xagain","snow","cloud","aresin","karna","bhima",
@@ -64,8 +65,8 @@ for device in devices:
   devdata = json.loads(requests.get("https://data.miuier.com/data/devices/"+device+".json").text)
   for region in regions:
     if region =="cn":
-      for branch in branches:
-        for ep in eps:
+      for ep in eps:
+        for branch in branches:
           for carrier in carriers:
             url = base_url+device+ep+"&b="+branch+"&r=cn&n="+carrier
 
