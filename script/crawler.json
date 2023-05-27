@@ -2637,7 +2637,8 @@
     "MZCNXM":"pipa","LZCNDM":"dagu",
     "MNEUXM":"mondrian","MNMIXM":"mondrian","MNTWXM":"mondrian","MNTRXM":"mondrian","MNRUXM":"mondrian",
     "MRINXM":"marble","MRMIXM":"marble","MREUXM":"marble","MRTRXM":"marble","MRIDXM":"marble","MRRUXM":"marble","MRTWXM":"marble",
-    "MAEUXM":"ishtar","MQCNDM":"sunstone"
+    "MAEUXM":"ishtar","MQCNDM":"sunstone",
+    "MICNXM":"yuechu","MICNDM":"yuechu"
   },
   "RecoveryFlags": {
     "Mioneplus": "mione_plus","MioneplusCDMA": "mione_plus","NativeMioneplus": "mione_plus","plus-ota-QDR68": "mione_plus","plus-ota-QDR66": "mione_plus","plus-ota-QDR65.zip": "mione_plus","plus-ota-QDQ61.zip": "mione_plus","plus-ota-QDO53.zip": "mione_plus",
@@ -2923,7 +2924,10 @@
     "MONDRIANEEAGlobal": "mondrian",
     "MONDRIANRUGlobal": "mondrian",
     "MONDRIANTRGlobal": "mondrian",
-    "SUNSTONEDEMO":"sunstone"
+    "SUNSTONEDEMO":"sunstone",
+    "ISHTARDEMO":"ishtar",
+    "MONDRIANGlobal":"mondrian",
+    "YUECHU":"yuechu"
   },
   "MiFlashProCurrent":[
     {
@@ -2967,6 +2971,7 @@
       "checkers":[
         "pipa",
         "pipa_demo",
+        "pipa_pre_dpp",
         "pipa_eea_global",
         "pipa_global",
         "pipa_id_global",
@@ -3333,6 +3338,7 @@
       "checkers": [
         "plato_tw_global",
         "plato_global",
+        "plato_pre_dpp_global",
         "plato_eea_global",
         "plato_id_global",
         "plato_ru_global",
@@ -3346,6 +3352,8 @@
       "checkers": [
         "fuxi",
         "fuxi_demo",
+        "fuxi_pre_dpp",
+        "fuxi_pre_dpp_global",
         "fuxi_ep_stdee",
         "fuxi_tw_global",
         "fuxi_global",
@@ -3359,6 +3367,8 @@
       "checkers": [
         "nuwa",
         "nuwa_demo",
+        "nuwa_pre_dpp",
+        "nuwa_pre_dpp_global",
         "nuwa_ep_stdee",
         "nuwa_tw_global",
         "nuwa_global",
@@ -3590,6 +3600,7 @@
         "selene_tr_global",
         "selene_mx_at_global",
         "selene_za_vc_global",
+        "selene_za_mt_global",
         "selene_lm_cr_global"
       ]
     },
@@ -4286,7 +4297,10 @@
         "mondrian_demo",
         "mondrian_ep_stdee",
         "mondrian_global",
-        "mondrian_eea_global"
+        "mondrian_eea_global",
+        "mondrian_tw_global",
+        "mondrian_ru_global",
+        "mondrian_tr_global"
       ]
     },
     {
