@@ -49,10 +49,10 @@ for device in devices:
         for branch in branches:
           for carrier in carriers:
             url = base_url+device+ep+"&b="+branch+"&r=cn&n="+carrier
-            print("\r"+url+"                         ")
+            print("\r"+url+"                         ",end="")
             getFastboot(url,devdata)
     else:
       for branch in gbranches:
         url = base_url+device+branch+"&b=F&r="+region+"&n="
-        print("\r"+url+"                         ")
+        print("\r"+url+"                         ",end="")
         getFastboot(url,devdata)
