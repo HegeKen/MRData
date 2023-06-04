@@ -67,7 +67,6 @@ def getFastboot(url,devdata):
 for device in devices:
   devdata = json.loads(requests.get("https://data.miuier.com/data/devices/"+device+".json").text)
   if device in onedevices:
-    print("Hello")
     for branch in gbranches:
       url = base_url+device+branch+"&b=F&r=&n="
       print("\r"+url+"                                         ",end="")
