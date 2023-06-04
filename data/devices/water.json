@@ -19,7 +19,7 @@
     {
       "code":"water_global",
       "btag":"F",
-      "region":"global",
+      "region":"",
       "carrier":[],
       "branch": "mgbs",
       "show": "1",
@@ -47,9 +47,45 @@
       ]
     },
     {
+      "code":"water_eea_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "eeas",
+      "show": "0",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.7.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "water_eea_global_images_V14.0.7.0.TGOEUXM_20230320.0000.00_13.0_d4505b2473.tgz"
+        }
+      ]
+    },
+    {
+      "code":"water_eea_sf_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "eusf",
+      "show": "1",
+      "cnname": "欧洲Altice(SFR)运营商定制版",
+      "enname": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "water_eea_sf_global_images_V14.0.1.0.TGOEUSF_20230301.0000.00_13.0_27b94f7d1f.tgz"
+        }
+      ]
+    },
+    {
       "code":"water_in_global",
       "btag":"F",
-      "region":"in",
+      "region":"",
       "carrier":[],
       "branch": "inds",
       "show": "1",
@@ -60,6 +96,78 @@
           "miui": "V14.0.4.0.TGOINXM",
           "android": "13.0",
           "recovery": "miui_WATERINGlobal_V14.0.4.0.TGOINXM_3a291217b7_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.4.0.TGOINXM_20230420.0000.00_13.0_1d36ccf367.tgz"
+        }
+      ]
+    },
+    {
+      "code":"water_cl_en_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "clen",
+      "show": "1",
+      "cnname": "智利Entel运营商定制版",
+      "enname": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "water_cl_en_global_images_V14.0.2.0.TGOCLEN_20230220.0000.00_13.0_01ada6cc34.tgz"
+        }
+      ]
+    },
+    {
+      "code":"water_mx_tc_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "water_mx_tc_global_images_V14.0.2.0.TGOMXTC_20230403.0000.00_13.0_200d78c75e.tgz"
+        }
+      ]
+    },
+    {
+      "code":"water_lm_cr_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "mxat",
+      "show": "1",
+      "cnname": "墨西哥AT&T运营商定制版",
+      "enname": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "water_lm_cr_global_images_V14.0.1.0.TGOLMCR_20230221.0000.00_13.0_142c3b0107.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "拉丁美洲Claro运营商定制版",
+      "enname": "Latin America Claro Carrier Edition",
+      "links": [
+        {
+          "miui": "",
+          "android": "13.0",
+          "recovery": "",
           "fastboot": ""
         }
       ]

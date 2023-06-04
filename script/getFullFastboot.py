@@ -3,7 +3,7 @@ import json
 from sys import platform
 
 base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
-regions = ["cn","tw","global","eea","ru","in","id","jp","tr"]
+regions = ["cn","tw","global","eea","ru","in","id","jp","tr",""]
 carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 eps = ["","_demo","_ep_yunke","_ep_stdee","_ep_xy","_ep_kywl","_ep_cqrcb","_ep_ec","_ep_sxht","_ep_yfan","_ep_yx","_ep_stdce",
        "_ep_xdja","_ep_litee","_ep_yy","_ep_tly"]
@@ -16,7 +16,8 @@ gbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in
              "_eea_sf_global","_eea_ti_global"]
 
 
-devices = ["corot","yuechu","pearl","yudi","xun","fire","heat","sky","river","aristotle","babylon","ishtar","sweet_k6a","pipa","liuqin","marble","water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
+devices = ["tissot","jasmine","laurel_sprout","tiare","ice","water","corot","yuechu","pearl","yudi","xun","fire","heat","sky","river","aristotle","babylon","ishtar","sweet_k6a","pipa",
+           "liuqin","marble","water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
            "venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly",
            "unicorn","thor","taoyao","plato","fuxi","nuwa","toco","cetus","odin","zizhan","nabu","elish","enuma","dagu","mona",
            "zijin","ziyi","merlin","lancelot","dandelion","angelica","angelican","cattail","selene","dandelion_c3l2","fog","atom",
@@ -25,6 +26,8 @@ devices = ["corot","yuechu","pearl","yudi","xun","fire","heat","sky","river","ar
            "opal","xaga","sunstone","ruby","redwood","lmi","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens",
            "matisse","diting","mondrian","socrates","rembrandt","yunluo","ice","angelicain","frost","citrus","evergreen","rosemary_p",
            "surya","vayu","moonstone"]
+
+onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
 # devices=["yuechu"]
 # devices=["ishtar","gauguininpro","aliothin","haydnin","amber","pissarroinpro","galahad","lemon","pomelo","eos","thunder","rain","wind",
 #           "aether","merlinnfc","cannong","gauguinpro","secret","maltose","camellian","iris","miel","peux","pissarropro",
@@ -63,17 +66,24 @@ def getFastboot(url,devdata):
 
 for device in devices:
   devdata = json.loads(requests.get("https://data.miuier.com/data/devices/"+device+".json").text)
-  for region in regions:
-    if region =="cn":
-      for ep in eps:
-        for branch in branches:
-          for carrier in carriers:
-            url = base_url+device+ep+"&b="+branch+"&r=cn&n="+carrier
+  if device in onedevices:
+    print("Hello")
+    for branch in gbranches:
+      url = base_url+device+branch+"&b=F&r=&n="
+      print("\r"+url+"                                         ",end="")
+      getFastboot(url,devdata)
+  else:
+    for region in regions:
+      if region =="cn":
+        for ep in eps:
+          for branch in branches:
+            for carrier in carriers:
+              url = base_url+device+ep+"&b="+branch+"&r=cn&n="+carrier
 
-            print("\r"+url+"                                      ",end="")
-            getFastboot(url,devdata)
-    else:
-      for branch in gbranches:
-        url = base_url+device+branch+"&b=F&r="+region+"&n="
-        print("\r"+url+"                                         ",end="")
-        getFastboot(url,devdata)
+              print("\r"+url+"                                      ",end="")
+              getFastboot(url,devdata)
+      else:
+        for branch in gbranches:
+          url = base_url+device+branch+"&b=F&r="+region+"&n="
+          print("\r"+url+"                                         ",end="")
+          getFastboot(url,devdata)

@@ -23,8 +23,8 @@ def getFastboot(url,devdata):
     else:
       data = json.loads(content)["LatestFullRom"]
       if len(data)>0:
+        print(url+"\t"+data["filename"])
         if data["filename"] in devdata.__str__():
-          print(data["filename"])
           i= 0
         else:
           print("发现一条新数据")
@@ -49,16 +49,16 @@ for device in devices:
     if region == "cn":
       if len(carriers)==0:
         url = base_url+code+"&b="+btag+"&r="+region+"&n="
-        print("\r"+url+"                                   ",end="")
+        # print("\r"+url+"                                   ",end="")
         getFastboot(url,devdata)
       else:
         for carrier in carriers:
           url = base_url+code+"&b="+btag+"&r="+region+"&n="+carrier
-          print("\r"+url+"                                   ",end="")
+          # print("\r"+url+"                                   ",end="")
           getFastboot(url,devdata)
     elif region == "global":
       url = base_url+code+"&b="+btag+"&r="+region+"&n="
-      print("\r"+url+"                                   ",end="")
+      # print("\r"+url+"                                   ",end="")
       getFastboot(url,devdata)
     else:
       url = base_url+code+"&b="+btag+"&r="+region+"&n="

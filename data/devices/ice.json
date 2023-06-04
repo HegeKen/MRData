@@ -19,7 +19,7 @@
     {
       "code":"ice_tw_global",
       "btag":"F",
-      "region":"tw",
+      "region":"",
       "carrier":[],
       "branch": "cntw",
       "show": "1",
@@ -43,7 +43,7 @@
     {
       "code":"ice_global",
       "btag":"F",
-      "region":"global",
+      "region":"",
       "carrier":[],
       "branch": "mgbs",
       "show": "1",
@@ -97,7 +97,7 @@
     {
       "code":"ice_eea_global",
       "btag":"F",
-      "region":"global",
+      "region":"",
       "carrier":[],
       "branch": "eeas",
       "show": "1",
@@ -157,7 +157,7 @@
     {
       "code":"ice_ru_global",
       "btag":"F",
-      "region":"ru",
+      "region":"",
       "carrier":[],
       "branch": "russ",
       "show": "1",
@@ -199,7 +199,7 @@
     {
       "code":"ice_in_global",
       "btag":"F",
-      "region":"in",
+      "region":"",
       "carrier":[],
       "branch": "inds",
       "show": "1",
@@ -247,7 +247,7 @@
     {
       "code":"ice_id_global",
       "btag":"F",
-      "region":"id",
+      "region":"",
       "carrier":[],
       "branch": "inns",
       "show": "1",
@@ -277,6 +277,60 @@
           "android": "12.0",
           "recovery": "miui_ICEIDGlobal_V13.0.3.0.SGMIDXM_43a5fc4151_12.0.zip",
           "fastboot": "ice_id_global_images_V13.0.3.0.SGMIDXM_20221021.0000.00_12.0_83dd6b7540.tgz"
+        }
+      ]
+    },
+    {
+      "code":"ice_mx_tc_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "mxtc",
+      "show": "1",
+      "cnname": "墨西哥Telcel稳定版",
+      "enname": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "ice_mx_tc_global_images_V13.0.4.0.SGMMXTC_20230201.0000.00_12.0_2a69216a0d.tgz"
+        }
+      ]
+    },
+    {
+      "code":"ice_lm_cr_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "lmcr",
+      "show": "1",
+      "cnname": "拉丁美洲Claro运营商定制版",
+      "enname": "Latin America Claro Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SGMLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "ice_lm_cr_global_images_V13.0.2.0.SGMLMCR_20221121.0000.00_12.0_83f124f743.tgz"
+        }
+      ]
+    },
+    {
+      "code":"ice_za_vc_global",
+      "btag":"F",
+      "region":"",
+      "carrier":[],
+      "branch": "zavc",
+      "show": "1",
+      "cnname": "南非Vodacom稳定版",
+      "enname": "South Africa Vodacom Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "ice_za_vc_global_images_V13.0.5.0.SGMZAVC_20230512.0000.00_12.0_52e1debfa7.tgz"
         }
       ]
     }
