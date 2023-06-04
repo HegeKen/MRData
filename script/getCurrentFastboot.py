@@ -10,7 +10,6 @@ devices = ["pearl","corot","marble","yuechu","babylon","sweet_k6a","ishtar","pip
            "opal","xaga","sunstone","ruby","redwood","lmi","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens",
            "matisse","diting","mondrian","socrates","rembrandt","yunluo","ice","angelicain","frost","citrus","evergreen","rosemary_p",
            "surya","vayu","moonstone"]
-devices = ["joyeuse"]
 base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76",
            "Connection": "close"}
@@ -28,7 +27,7 @@ def getFastboot(url,devdata):
           print(data["filename"])
           i= 0
         else:
-          print("发现一条新数据\t"+data["filename"])
+          print("发现一条新数据")
           filename = "static/data/script/2023NewROMs.txt"
           file = open(filename, "a", encoding='utf-8')
           file.write(data["filename"]+"\n")
@@ -49,15 +48,16 @@ for device in devices:
     carriers = branch["carrier"]
     if region == "cn":
       if len(carriers)==0:
-        carrier = ""
-      else:
-        i = 0
-      for carrier in carriers:
-        url = base_url+code+"&b="+btag+"&r="+region+"&n="+carrier
+        url = base_url+code+"&b="+btag+"&r="+region+"&n="
         print("\r"+url+"                                   ",end="")
         getFastboot(url,devdata)
+      else:
+        for carrier in carriers:
+          url = base_url+code+"&b="+btag+"&r="+region+"&n="+carrier
+          print("\r"+url+"                                   ",end="")
+          getFastboot(url,devdata)
     elif region == "global":
-      url = base_url+code+"&b="+btag+"&r="+region+"&n="+carrier
+      url = base_url+code+"&b="+btag+"&r="+region+"&n="
       print("\r"+url+"                                   ",end="")
       getFastboot(url,devdata)
     else:
