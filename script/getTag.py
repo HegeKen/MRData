@@ -33,6 +33,7 @@ def getFastboot(url,devdata):
     else:
       data = json.loads(content)["LatestFullRom"]
       if len(data)>0:
+        print("\n")
         print(url+"\t"+data["filename"])
       else:
         i = 0
@@ -49,7 +50,6 @@ for device in devices:
         for branch in branches:
           for carrier in carriers:
             url = base_url+device+ep+"&b="+branch+"&r=cn&n="+carrier
-            print("\n")
             print("\r"+url+"                         ",end="")
             getFastboot(url,devdata)
     else:
