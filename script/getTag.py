@@ -49,6 +49,7 @@ for device in devices:
         for branch in branches:
           for carrier in carriers:
             url = base_url+device+ep+"&b="+branch+"&r=cn&n="+carrier
+            print("\n")
             print("\r"+url+"                         ",end="")
             getFastboot(url,devdata)
     else:
