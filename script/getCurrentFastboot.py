@@ -1,5 +1,6 @@
 import requests
 import json
+from sys import platform
 
 devices = ["pearl","corot","marble","yuechu","babylon","sweet_k6a","ishtar","pipa","liuqin","marble","water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
            "venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly",
@@ -37,9 +38,10 @@ def getFastboot(url,devdata):
     i = 0
   response.close()
 for device in devices:
-  dataurl = "https://data.miuier.com/data/devices/"+device+".json"
-  mrdata = requests.get(dataurl)
-  devdata = json.loads(mrdata.text)
+  if platform == "win32":
+    devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  else:
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   for branch in devdata["branches"]:
     code = branch["code"]
     btag = branch["btag"]

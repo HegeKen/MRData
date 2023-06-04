@@ -65,7 +65,10 @@ def getFastboot(url,devdata):
 
 
 for device in devices:
-  devdata = json.loads(requests.get("https://data.miuier.com/data/devices/"+device+".json").text)
+  if platform == "win32":
+    devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  else:
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   if device in onedevices:
     for branch in gbranches:
       url = base_url+device+branch+"&b=F&r=&n="
