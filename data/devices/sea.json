@@ -17,6 +17,24 @@
   "pcid": "",
   "branches": [
     {
+      "code":"sea_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.THZTWXM",
+          "android": "13.0",
+          "recovery": "miui_SEATWGlobal_V14.0.1.0.THZTWXM_d969a94fdc_13.0.zip",
+          "fastboot": "sea_tw_global_images_V14.0.1.0.THZTWXM_20230417.0000.00_13.0_tw_45edf7f307.tgz"
+        }
+      ]
+    },
+    {
       "code":"sea_global",
       "btag":"F",
       "region":"global",
@@ -60,7 +78,7 @@
           "miui": "V14.0.2.0.THZEUXM",
           "android": "13.0",
           "recovery": "miui_SEAEEAGlobal_V14.0.2.0.THZEUXM_3208a2929a_13.0.zip",
-          "fastboot": ""
+          "fastboot": "sea_eea_global_images_V14.0.2.0.THZEUXM_20230516.0000.00_13.0_eea_5da466a533.tgz"
         },
         {
           "miui": "V14.0.1.0.THZEUXM",
@@ -84,7 +102,7 @@
           "miui": "V14.0.2.0.THZRUXM",
           "android": "13.0",
           "recovery": "miui_SEARUGlobal_V14.0.2.0.THZRUXM_d54dcd20e0_13.0.zip",
-          "fastboot": ""
+          "fastboot": "sea_ru_global_images_V14.0.2.0.THZRUXM_20230517.0000.00_13.0_ru_d674aacd79.tgz"
         },
         {
           "miui": "V14.0.1.0.THZRUXM",
