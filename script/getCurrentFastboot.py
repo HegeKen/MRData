@@ -28,7 +28,10 @@ def getFastboot(url,devdata):
           i= 0
         else:
           print("发现一条新数据")
-          filename = "static/data/script/2023NewROMs.txt"
+          if platform == "win32":
+            filename = "static/data/script/2023NewROMs.txt"
+          else:
+            filename = "/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt"
           file = open(filename, "a", encoding='utf-8')
           file.write(data["filename"]+"\n")
           file.close()
