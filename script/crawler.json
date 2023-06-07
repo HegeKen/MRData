@@ -2855,8 +2855,17 @@
     "GOINXM": "water",
     "MPTRXM": "moonstone",
     "EE.L3A":"psyche",
-    "CVEUOR":"earth",
-    "CVZAMT":"earth"
+    "CVEUOR": "earth",
+    "CVZAMT": "earth",
+    "MSIDXM": "redwood",
+    "GMMXTC": "ice",
+    "GMLMCR": "ice",
+    "GMZAVC": "ice",
+    "GOEUXM": "water",
+    "GOEUSF": "water",
+    "GOCLEN": "water",
+    "GOMXTC": "water",
+    "GOLMCR": "water"
   },
   "RecoveryFlags": {
     "Mioneplus": "mione_plus","MioneplusCDMA": "mione_plus","NativeMioneplus": "mione_plus","plus-ota-QDR68": "mione_plus","plus-ota-QDR66": "mione_plus","plus-ota-QDR65.zip": "mione_plus","plus-ota-QDQ61.zip": "mione_plus","plus-ota-QDO53.zip": "mione_plus",
@@ -3150,8 +3159,11 @@
     "PEARL":"pearl",
     "MOONSTONETRGlobal":"moonstone",
     "PSYCHEEPSTDEE":"psyche",
-    "UNICORNDEMO":"unicorn",
-    "ZIYIDEMO":"ziyi"
+    "UNICORNDEMO": "unicorn",
+    "ZIYIDEMO": "ziyi",
+    "REDWOODIDGlobal": "redwood",
+    "SWEETK6ATRGlobal": "sweet_k6a",
+    "SEATWGlobal": "sea"
   },
   "MiFlashProCurrent":[
     {
@@ -3250,6 +3262,10 @@
         "water_in_global",
         "waterin_global",
         "waterin_In_global",
+        "water_eea_sf_global",
+        "water_cl_en_global",
+        "water_mx_tc_global",
+        "water_lm_cr_global",
         "water_id_global"
       ]
     },
@@ -4382,6 +4398,7 @@
         "redwood_eea_global",
         "redwood_ru_global",
         "redwood_in_global",
+        "redwood_id_global",
         "redwood_tr_global"
       ]
     },
@@ -4583,6 +4600,9 @@
         "ice_eea_global",
         "ice_ru_global",
         "ice_in_global",
+        "ice_mx_tc_global",
+        "ice_lm_cr_global",
+        "ice_za_vc_global",
         "ice_id_global"
       ]
     },
