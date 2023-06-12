@@ -179,6 +179,30 @@
       ]
     },
     {
+      "code":"marble_ep_stdee",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "stde",
+      "show": "0",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V14.0.23.5.11.EP.STDEE.M16T",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_ep_stdee_images_V14.0.23.5.11.EP.STDEE.M16T_20230511.0000.00_13.0_cn_a5468be975.tgz"
+        },
+        {
+          "miui": "V14.0.23.5.11.EP.STDEE.M16T",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "marble_ep_stdee_images_V14.0.23.5.11.EP.STDEE.M16T_20230511.0000.00_13.0_cn_chinatelecom_fb5fc4b265.tgz"
+        }
+      ]
+    },
+    {
       "code":"marble_tw_global",
       "btag":"F",
       "region":"tw",
