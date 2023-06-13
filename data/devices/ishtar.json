@@ -191,6 +191,24 @@
       ]
     },
     {
+      "code":"ishtar_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMATWXM",
+          "android": "13.0",
+          "recovery": "miui_ISHTARTWGlobal_V14.0.3.0.TMATWXM_3880957407_13.0.zip",
+          "fastboot": "ishtar_tw_global_images_V14.0.3.0.TMATWXM_20230602.0000.00_13.0_tw_3b5e01133d.tgz"
+        }
+      ]
+    },
+    {
       "code":"ishtar_global",
       "btag":"F",
       "region":"global",
@@ -200,6 +218,12 @@
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
+        {
+          "miui": "V14.0.2.0.TMAMIXM",
+          "android": "13.0",
+          "recovery": "miui_ISHTARGlobal_V14.0.2.0.TMAMIXM_d1eb1df7a2_13.0.zip",
+          "fastboot": "ishtar_global_images_V14.0.2.0.TMAMIXM_20230602.0000.00_13.0_global_5a0933ea02.tgz"
+        },
         {
           "miui": "V14.0.1.0.TMAMIXM",
           "android": "13.0",
