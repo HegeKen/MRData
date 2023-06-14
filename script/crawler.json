@@ -1573,6 +1573,11 @@
       "NameEn": "Redmi 11 Prime 4G"
     },
     {
+      "code": "fire",
+      "NameCn": "Redmi 12",
+      "NameEn": "Redmi 12"
+    },
+    {
       "code": "earth",
       "NameCn": "Redmi 12C",
       "NameEn": "Redmi 12C"
@@ -2869,7 +2874,10 @@
     "GOLMCR": "water",
     "MATWXM":"ishtar",
     "MZINXM":"pipa",
-    "E.M16T":"marble"
+    "E.M16T":"marble",
+    "MXMIXM":"fire",
+    "MXEUXM":"fire",
+    "MXRUXM":"fire"
   },
   "RecoveryFlags": {
     "Mioneplus": "mione_plus","MioneplusCDMA": "mione_plus","NativeMioneplus": "mione_plus","plus-ota-QDR68": "mione_plus","plus-ota-QDR66": "mione_plus","plus-ota-QDR65.zip": "mione_plus","plus-ota-QDQ61.zip": "mione_plus","plus-ota-QDO53.zip": "mione_plus",
@@ -3167,9 +3175,22 @@
     "ZIYIDEMO": "ziyi",
     "REDWOODIDGlobal": "redwood",
     "SWEETK6ATRGlobal": "sweet_k6a",
-    "SEATWGlobal": "sea"
+    "SEATWGlobal": "sea",
+    "FIREGlobal":"fire",
+    "FIREEEAGlobal":"fire",
+    "FIRERUGlobal":"fire"
   },
   "MiFlashProCurrent":[
+    {
+      "codename":"fire",
+      "checkers":[
+        "fire_eea_global",
+        "fire_tw_global",
+        "fire_global",
+        "fire_ru_global",
+        "fire_tr_global"
+      ]
+    },
     {
       "codename":"corot",
       "checkers":[
