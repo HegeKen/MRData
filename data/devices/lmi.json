@@ -2118,9 +2118,22 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
-      "show": "1",
+      "show": "0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
+      "links": [
+
+      ]
+    },
+    {
+      "code":"lmi",
+      "btag":"F",
+      "region":"cn",
+      "carrier":[],
+      "branch": "cnms",
+      "show": "1",
+      "cnname": "中国大陆稳定版",
+      "enname": "China Mainland Stable",
       "links": [
         {
           "miui": "V14.0.5.0.SJKCNXM",
@@ -2151,19 +2164,7 @@
           "android": "12.0",
           "recovery": "miui_LMI_V14.0.1.0.SJKCNXM_f138ab23ac_12.0.zip",
           "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"lmi",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "show": "1",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
+        },
         {
           "miui": "V13.0.6.0.SJKCNXM",
           "android": "12.0",

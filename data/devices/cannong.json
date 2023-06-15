@@ -1572,16 +1572,11 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
-      "show": "1",
+      "show": "0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
-        {
-          "miui": "V14.0.2.0.SJECNXM",
-          "android": "12.0",
-          "recovery": "miui_CANNON_V14.0.2.0.SJECNXM_37e6139886_12.0.zip",
-          "fastboot": "cannon_images_V14.0.2.0.SJECNXM_20230302.0000.00_12.0_cn_641117f446.tgz"
-        }
+
       ]
     },
     {
@@ -1594,6 +1589,12 @@
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
+        {
+          "miui": "V14.0.2.0.SJECNXM",
+          "android": "12.0",
+          "recovery": "miui_CANNON_V14.0.2.0.SJECNXM_37e6139886_12.0.zip",
+          "fastboot": "cannon_images_V14.0.2.0.SJECNXM_20230302.0000.00_12.0_cn_641117f446.tgz"
+        },
         {
           "miui": "V13.0.5.0.SJECNXM",
           "android": "12.0",
@@ -1749,13 +1750,19 @@
     {
       "code":"cannong_tw_global",
       "btag":"F",
-      "region":"cn",
+      "region":"tw",
       "carrier":[],
       "branch": "cntw",
       "show": "1",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
+        {
+          "miui": "V14.0.2.0.SJETWXM",
+          "android": "12.0",
+          "recovery": "miui_CANNONGTWGlobal_V14.0.2.0.SJETWXM_7dd370f970_12.0.zip",
+          "fastboot": "cannong_tw_global_images_V14.0.2.0.SJETWXM_20230505.0000.00_12.0_global_89cc26f8fc.tgz"
+        },
         {
           "miui": "V13.0.1.0.SJETWXM",
           "android": "12.0",
@@ -2015,6 +2022,12 @@
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
         {
+          "miui": "V13.0.8.0.SJEEUVF",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "cannong_eea_vf_global_images_V13.0.8.0.SJEEUVF_20230421.0000.00_12.0_eea_099cb3964c.tgz"
+        },
+        {
           "miui": "V13.0.7.0.SJEEUVF",
           "android": "12.0",
           "recovery": "",
@@ -2069,6 +2082,12 @@
       "enname": "Russia Stable",
       "links": [
         {
+          "miui": "V14.0.2.0.SJERUXM",
+          "android": "12.0",
+          "recovery": "miui_CANNONGRUGlobal_V14.0.2.0.SJERUXM_38d4b9e6eb_12.0.zip",
+          "fastboot": "cannong_ru_global_images_V14.0.2.0.SJERUXM_20230505.0000.00_12.0_global_27055ec5c0.tgz"
+        },
+        {
           "miui": "V13.0.1.0.SJERUXM",
           "android": "12.0",
           "recovery": "miui_CANNONGRUGlobal_V13.0.1.0.SJERUXM_37d2072254_12.0.zip",
@@ -2117,6 +2136,12 @@
       "enname": "Turkey Stable",
       "links": [
         {
+          "miui": "V14.0.2.0.SJETRXM",
+          "android": "12.0",
+          "recovery": "miui_CANNONGTRGlobal_V14.0.2.0.SJETRXM_5a28c3b8b2_12.0.zip",
+          "fastboot": "cannong_tr_global_images_V14.0.2.0.SJETRXM_20230505.0000.00_12.0_global_b6fe959ee9.tgz"
+        },
+        {
           "miui": "V13.0.1.0.SJETRXM",
           "android": "12.0",
           "recovery": "miui_CANNONGTRGlobal_V13.0.1.0.SJETRXM_db2b7337d2_12.0.zip",
@@ -2153,8 +2178,14 @@
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
+          "miui": "V13.0.4.0.SJELMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "cannong_lm_cr_global_images_V13.0.4.0.SJELMCR_20230515.0000.00_12.0_global_4b91138e76.tgz"
+        },
+        {
           "miui": "V13.0.3.0.SJELMCR",
-          "android": "13.0",
+          "android": "12.0",
           "recovery": "",
           "fastboot": "cannong_lm_cr_global_images_V13.0.3.0.SJELMCR_20230322.0000.00_12.0_global_cd6857ccce.tgz"
         },
