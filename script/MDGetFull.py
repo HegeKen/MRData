@@ -14,7 +14,6 @@ else:
 all_devices = json.loads(devlist.read())["MDcurrent"]
 for all in all_devices:
   codename = all["code"]
-  print("正在完成"+codename+"机型")
   response = requests.get("https://miuidownload.com/miui/"+codename+"/", headers=headers)
   content = response.content.decode("utf8")
   soup = BeautifulSoup(content,'lxml')
@@ -24,7 +23,8 @@ for all in all_devices:
   else:
     for branch in branches:
       new_url = "https://miuidownload.com"+branch.attrs['href']+"/"
-      bresp = requests.get("https://miuidownload.com/miui/"+codename+"/", headers=headers)
+      print("\r"+new_url+"              ",end="")
+      bresp = requests.get(new_url, headers=headers)
       bcon = bresp.content.decode("utf8")
       bsoup = BeautifulSoup(content,'lxml')
       lists = bsoup.find_all("a", attrs={"class" :"downloadbutton"})

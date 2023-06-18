@@ -12,9 +12,9 @@ else:
 all_devices = json.loads(devlist.read())["MDcurrent"]
 for all in all_devices:
   codename = all["code"]
-  print("\r"+codename)
   for branch in branches:
     url = "https://miuidownload.com/miui/"+codename+"/"+branch+"/"
+    print("\r"+url+"              ",end="")
     t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
     response = requests.get(url, headers=headers)
