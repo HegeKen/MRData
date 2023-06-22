@@ -1201,6 +1201,24 @@
       ]
     },
     {
+      "code":"camellia_ep_yx",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "epyx",
+      "show": "0",
+      "cnname": "中国大陆EPYX",
+      "enname": "China Mainland EPYX",
+      "links": [
+        {
+          "miui": "V13.0.23.6.14.EP.YX.K19",
+          "android": "12.0",
+          "recovery": "miui_CAMELLIAEPYX_V13.0.23.6.14.EP.YX.K19_a353bef5fb_12.0.zip",
+          "fastboot": "camellia_ep_yx_images_V13.0.23.6.14.EP.YX.K19_20230613.0000.00_12.0_cn_e30fdb255b.tgz"
+        }
+      ]
+    },
+    {
       "code":"camellian_tw_global",
       "btag":"F",
       "region":"tw",
