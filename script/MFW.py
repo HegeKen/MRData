@@ -15,8 +15,8 @@ from sys import platform
 
 options = Options()
 options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\114.0.1823.51\msedge.exe"
-driver = webdriver.Edge(options = options)
-driver.get("https://mifirmware.com/xiaomi-miui-14/")
+driver = webdriver.Edge(options=options)
+driver.get("https://mifirmware.com/xiaomi-firmware/")
 soup = BeautifulSoup(driver.page_source, "lxml")
 lists = soup.find_all("a", attrs={"data-content" :"Download"})
 for list in lists:
