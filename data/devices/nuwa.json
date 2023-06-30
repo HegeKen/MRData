@@ -55,6 +55,12 @@
       "enname": "China Beta",
       "links": [
         {
+          "miui": "V14.0.23.6.26.DEV",
+          "android": "13.0",
+          "recovery": "miui_NUWA_V14.0.23.6.26.DEV_0db90483c8_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V14.0.23.6.8.DEV",
           "android": "13.0",
           "recovery": "miui_NUWA_V14.0.23.6.8.DEV_39eeb52bd7_13.0.zip",
@@ -375,6 +381,30 @@
       ]
     },
     {
+      "code":"nuwa_ep_sdlybjcg",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "epsdlybjcg",
+      "show": "0",
+      "cnname": "中国大陆EPSDLYBJCG",
+      "enname": "China Mainland EPSDLYBJCG",
+      "links": [
+        {
+          "miui": "V14.0.23.6.20.EP.SDLYBJCG.M2",
+          "android": "13.0",
+          "recovery": "miui_NUWAEPSDLYBJCG_V14.0.23.6.20.EP.SDLYBJCG.M2_312dfc0d61_13.0.zip",
+          "fastboot": "nuwa_ep_sdlybjcg_images_V14.0.23.6.20.EP.SDLYBJCG.M2_20230620.0000.00_13.0_cn_d85d6d4922.tgz"
+        },
+        {
+          "miui": "V14.0.23.6.20.EP.SDLYBJCG.M2",
+          "android": "13.0",
+          "recovery": "miui_NUWAEPSDLYBJCG_V14.0.23.6.20.EP.SDLYBJCG.M2_312dfc0d61_13.0.zip",
+          "fastboot": "nuwa_ep_sdlybjcg_images_V14.0.23.6.20.EP.SDLYBJCG.M2_20230620.0000.00_13.0_cn_chinatelecom_7cc23b5767.tgz"
+        }
+      ]
+    },
+    {
       "code":"nuwa_tw_global",
       "btag":"F",
       "region":"tw",
@@ -442,7 +472,7 @@
           "miui": "V14.0.24.0.TMBEUXM",
           "android": "13.0",
           "recovery": "miui_NUWAEEAGlobal_V14.0.24.0.TMBEUXM_1d57b3de91_13.0.zip",
-          "fastboot": ""
+          "fastboot": "nuwa_eea_global_images_V14.0.24.0.TMBEUXM_20230615.0000.00_13.0_eea_7ec29b9895.tgz"
         },
         {
           "miui": "V14.0.22.0.TMBEUXM",
