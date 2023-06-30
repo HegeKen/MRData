@@ -6,7 +6,7 @@ base_url = "http://update.miui.com/updates/miota-fullrom.php?d="
 regions = ["cn","tw","global","eea","ru","in","id","jp","tr",""]
 carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 eps = ["","_demo","_ep_yunke","_ep_stdee","_ep_xy","_ep_kywl","_ep_cqrcb","_ep_ec","_ep_sxht","_ep_yfan","_ep_yx","_ep_stdce",
-       "_ep_xdja","_ep_litee","_ep_yy","_ep_tly"]
+       "_ep_xdja","_ep_litee","_ep_yy","_ep_tly","_ep_sdlybjcg"]
 branches = ["F","X"]
 gbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in_global","_in_global","_in_fk_global",
              "in_in_global","_tr_global","_jp_global","_jp_kd_global","_kr_gu_global","_kr_kt_global","_kr_sk_global",
