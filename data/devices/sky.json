@@ -22,15 +22,33 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
+          "miui": "V14.0.2.0.TMWCNXM",
           "android": "13.0",
           "recovery": "",
-          "fastboot": ""
+          "fastboot": "sky_images_V14.0.2.0.TMWCNXM_20230625.0000.00_13.0_cn_63375b74fd.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMWCNXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "sky_images_V14.0.2.0.TMWCNXM_20230625.0000.00_13.0_cn_chinatelecom_bce12a09db.tgz"
         }
       ]
     }
