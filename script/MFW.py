@@ -7,14 +7,14 @@ from sys import platform
 
 # https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 # https://msedgewebdriverstorage.z22.web.core.windows.net/
-# https://msedgedriver.azureedge.net/114.0.1823.51/edgedriver_win64.zip
+# https://msedgedriver.azureedge.net/114.0.1823.67/edgedriver_win64.zip
 # https://mifirmware.com/xiaomi-software-update/
 # https://mifirmware.com/xiaomi-miui-14/
 # https://mifirmware.com/xiaomi-firmware/
 
 
 options = Options()
-# options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\114.0.1823.51\msedge.exe"
+# options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\114.0.1823.67\msedge.exe"
 driver = webdriver.Edge(options=options)
 driver.get("https://mifirmware.com/xiaomi-miui-14/")
 soup = BeautifulSoup(driver.page_source, "lxml")
