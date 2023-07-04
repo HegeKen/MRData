@@ -83,6 +83,24 @@
       ]
     },
     {
+      "code":"pipa_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMZMIXM",
+          "android": "13.0",
+          "recovery": "miui_PIPAGlobal_V14.0.2.0.TMZMIXM_f9f5af86c8_13.0.zip",
+          "fastboot": "pipa_global_images_V14.0.2.0.TMZMIXM_20230619.0000.00_13.0_global_ad1d092e15.tgz"
+        }
+      ]
+    },
+    {
       "code":"pipa_in_global",
       "btag":"F",
       "region":"in",
