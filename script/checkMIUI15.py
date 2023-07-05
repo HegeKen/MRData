@@ -11,6 +11,7 @@ devices = ["sky","pearl","corot","marble","yuechu","sea","fire","babylon","sweet
            "opal","xaga","sunstone","ruby","redwood","lmi","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens",
            "matisse","diting","mondrian","socrates","rembrandt","yunluo","ice","angelicain","frost","citrus","evergreen","rosemary_p",
            "surya","vayu","moonstone"]
+carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76",
            "Connection": "close"}
@@ -45,29 +46,7 @@ for device in devices:
     devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   else:
     devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
-  for branch in devdata["branches"]:
-    code = branch["code"]
-    btag = branch["btag"]
-    region = branch["region"]
-    carriers = branch["carrier"]
-    if region == "cn":
-      if len(carriers)==0:
-        url = base_url+code+"&b="+btag+"&r="+region+"&n="
-        print("\r"+url+"                                   ",end="")
-        getFastboot(url,devdata)
-      else:
-        for carrier in carriers:
-          url = base_url+code+"&b="+btag+"&r="+region+"&n="+carrier
-          print("\r"+url+"                                   ",end="")
-          getFastboot(url,devdata)
-    elif region == "global":
-      url = base_url+code+"&b="+btag+"&r="+region+"&n="
-      print("\r"+url+"                                   ",end="")
-      getFastboot(url,devdata)
-    else:
-      url = base_url+code+"&b="+btag+"&r="+region+"&n="
-      print("\r"+url+"                                   ",end="")
-      getFastboot(url,devdata)
-      print("\r"+url+"                                   ",end="")
-      url = base_url+code+"&b="+btag+"&r=global"+"&n="
-      getFastboot(url,devdata)
+  for carrier in carriers:
+    url = base_url+device+"_pre_miui15&b=F&r="+carrier+"&n="
+    getFastboot(url,devdata)
+    print("\r"+url+"                                   ",end="")
