@@ -47,6 +47,6 @@ for device in devices:
   else:
     devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   for carrier in carriers:
-    url = base_url+device+"_pre_miui15&b=F&r="+carrier+"&n="
+    url = base_url+device+"_pre_miui15&b=X&r="+carrier+"&n="
     getFastboot(url,devdata)
     print("\r"+url+"                                   ",end="")
