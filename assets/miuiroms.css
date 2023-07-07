@@ -1,4 +1,7 @@
-body{font-family:MISans}
+body{
+  font-family:MISans;
+  filter: grayscale();
+}
 .mdui-color-deep-orange-accent{background-color:#ff6900!important}
 .mdui-text-color-orange{color:#ff6900!important;font-size:25px!important}
 .mdui-ripple-orange{color:#ff6900!important}

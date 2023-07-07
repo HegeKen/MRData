@@ -47,6 +47,10 @@ for device in devices:
     devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   for branch in devdata["branches"]:
     code = branch["code"]
+    if code == "":
+      print("请修补机型： "+device+"文件中未指定的区域代码\n")
+    else:
+      i = 0
     btag = branch["btag"]
     region = branch["region"]
     carriers = branch["carrier"]
