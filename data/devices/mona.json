@@ -21,15 +21,21 @@
   "pcid": "",
   "branches": [
     {
-      "code":"mona",
-      "btag":"X",
-      "region":"cn",
-      "carrier":[],
+      "code": "mona",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
+        {
+          "miui": "V14.0.23.7.3.DEV",
+          "android": "13.0",
+          "recovery": "miui_MONA_V14.0.23.7.3.DEV_1a211e3431_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.23.6.26.DEV",
           "android": "13.0",
@@ -1017,10 +1023,10 @@
       ]
     },
     {
-      "code":"mona",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "mona",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnmo",
       "show": "1",
       "cnname": "中国大陆正式版",
@@ -1047,10 +1053,10 @@
       ]
     },
     {
-      "code":"mona",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "mona",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
       "show": "1",
       "cnname": "中国大陆稳定版",
@@ -1119,10 +1125,12 @@
       ]
     },
     {
-      "code":"mona",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
+      "code": "mona",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -1155,10 +1163,12 @@
       ]
     },
     {
-      "code":"mona",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "mona",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -1179,10 +1189,15 @@
       ]
     },
     {
-      "code":"mona_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "mona_demo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
