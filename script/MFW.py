@@ -12,7 +12,7 @@ from sys import platform
 # https://mifirmware.com/xiaomi-miui-14/
 # https://mifirmware.com/xiaomi-firmware/
 
-urls = ["https://mifirmware.com/xiaomi-software-update/","https://mifirmware.com/xiaomi-miui-14/","https://mifirmware.com/xiaomi-firmware/"]
+urls = ["https://mifirmware.com/xiaomi-software-update/","https://mifirmware.com/xiaomi-miui-14/","https://mifirmware.com/xiaomi-firmware/","https://mifirmware.com/xiaomi-software-update/","https://mifirmware.com/stable-beta/"]
 
 options = Options()
 # options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\114.0.1823.67\msedge.exe"
