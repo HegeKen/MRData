@@ -83,6 +83,24 @@
       ]
     },
     {
+      "code":"pipa_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMZTWXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "pipa_tw_global_images_V14.0.2.0.TMZTWXM_20230630.0000.00_13.0_tw_edd5310e0d.tgz"
+        }
+      ]
+    },
+    {
       "code":"pipa_global",
       "btag":"F",
       "region":"global",
@@ -92,6 +110,12 @@
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
+        {
+          "miui": "V14.0.3.0.TMZMIXM",
+          "android": "13.0",
+          "recovery": "miui_PIPAGlobal_V14.0.3.0.TMZMIXM_9bc4c73e99_13.0.zip",
+          "fastboot": "pipa_global_images_V14.0.3.0.TMZMIXM_20230630.0000.00_13.0_global_ccc940bb75.tgz"
+        },
         {
           "miui": "V14.0.2.0.TMZMIXM",
           "android": "13.0",
