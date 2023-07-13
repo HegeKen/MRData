@@ -15,7 +15,7 @@ gbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in
              "_cl_global","_eea_sf_global","_eea_ti_global""_th_as_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_za_mt_global",]
 
 
-devices = ["pipa","sky","yudi","xun","river","corot","aristotle","babylon","heat","fire","yuechu","pearl","ishtar","sweet_k6a","pipa",
+devices = ["pipa","sky","yudi","xun","river","corot","aristotle","babylon","heat","fire","yuechu","pearl","ishtar","sweet_k6a",
            "liuqin","marble","water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
            "venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly",
            "unicorn","thor","taoyao","plato","fuxi","nuwa","toco","cetus","odin","zizhan","nabu","elish","enuma","dagu","mona",
