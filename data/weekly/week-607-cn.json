@@ -1,11 +1,11 @@
 {
-  "titleCn": "MIUI第605周发布公告及更新日志",
-  "titleEn": "The 605th MIUI Weekly Update Changelogs",
+  "titleCn": "MIUI第607周发布公告及更新日志",
+  "titleEn": "The 607th MIUI Weekly Update Changelogs",
   "CnBBSID": "",
-  "CnComID": "39254318",
+  "CnComID": "40953362",
   "GbBBSID": "",
-  "update": "2023.05.26",
-  "versions": "V14.0.23.7.17.DEV",
+  "update": "2023.07.21",
+  "versions": "V14.0.23.7.17.DEV,V14.0.23.7.18.DEV",
   "showdevices": "0",
   "vid": "",
   "no": "",
@@ -326,16 +326,20 @@
   ],
   "logs": [
     {
-      "titleCn": "MIUI第605周发布公告及更新日志",
-      "titleEn": "The 605th MIUI Weekly Update Changelogs",
+      "titleCn": "MIUI第607周发布公告及更新日志",
+      "titleEn": "The 607th MIUI Weekly Update Changelogs",
       "log": [
         {
           "componentCn": "系统",
           "componentEn": "System",
           "changes": [
             {
-              "changesCn": "优化部分影响使用体验的问题",
-              "changesEn": "Optiminzing some factors affecting user experience."
+              "changesCn": "修复 部分场景下通话重复显示号码的问题",
+              "changesEn": "Fixing phone number appearing twice in call UI in some scenarios."
+            },
+            {
+              "changesCn": "修复 部分场景下图标文字显示不全的问题",
+              "changesEn": "Fixing texts of icons not fully displaying in some scenarios."
             }
           ]
         }
