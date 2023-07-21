@@ -330,16 +330,22 @@
       "titleEn": "The 607th MIUI Weekly Update Changelogs",
       "log": [
         {
-          "componentCn": "系统",
-          "componentEn": "System",
+          "componentCn": "桌面",
+          "componentEn": "Home App",
+          "changes": [
+            {
+              "changesCn": "修复 部分场景下图标文字显示不全的问题",
+              "changesEn": "Fixing texts of icons not fully displaying in some scenarios."
+            }
+          ]
+        },
+        {
+          "componentCn": "电话",
+          "componentEn": "Phone App",
           "changes": [
             {
               "changesCn": "修复 部分场景下通话重复显示号码的问题",
               "changesEn": "Fixing phone number appearing twice in call UI in some scenarios."
-            },
-            {
-              "changesCn": "修复 部分场景下图标文字显示不全的问题",
-              "changesEn": "Fixing texts of icons not fully displaying in some scenarios."
             }
           ]
         }
