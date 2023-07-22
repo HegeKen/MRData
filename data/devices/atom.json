@@ -1991,29 +1991,17 @@
       "btag":"F",
       "region":"cn",
       "carrier":[],
-      "branch": "cnmo",
-      "show": "0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"atom",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
       "branch": "cnms",
       "show": "1",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
+        {
+          "miui": "V13.0.8.0.SJHCNXM",
+          "android": "12.0",
+          "recovery": "miui_ATOM_V13.0.8.0.SJHCNXM_9fd4f22069_12.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.6.0.SJHCNXM",
           "android": "12.0",
