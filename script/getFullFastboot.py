@@ -34,7 +34,7 @@ gfbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_i
 gbbranches = ["_global","_factory","_pre_global","_pre_dpp_global","_dev_soter_global","_dc_global","_test_pre_global","_pre_miui14_global","_pre_miui15_global","_mx_global","_lm_global","_th_global","_pe_global","_za_global","_mx_tc_global","_mx_at_global","_pre_mx_tc_global","_pre_mx_at_global","_lm_cr_global",
               "_cl_en_global","_pre_cl_en_global","_cl_global","_th_as_global","_lm_ms_global","_lm_cr_global","_pre_lm_cr_global","_pe_ms_global","_za_vc_global","_za_mt_global",
               "_it_tim_global","_it_vodafone_global","_mx_telcel_global","_es_vodafone_global","_dck_global","_gpp_pre_global",
-              "_gt_tg_globsl","_gt_globsl","_gpp_global","_qc_global","_mcaas_global","_cl_wom_global","_cl_movistar_global","_ita_vodafone_global",
+              "_gt_tg_global","_gt_global","_gpp_global","_qc_global","_mcaas_global","_cl_wom_global","_cl_movistar_global","_ita_vodafone_global",
               "_tr_turkcell_global","_p70_global","_fr_orange_global","_wlnd_global"]
 
 eeabranches = ["_eea_global","_pre_eea_global","_pre_eea_miui15_global","_h3g_global","_eea_hg_global","_eea_ee_global","_pre_eea_ee_global","_eea_or_global","_eea_tf_global","_eea_by_global","_eea_vf_global","_eea_sf_global","_eea_ti_global"]
