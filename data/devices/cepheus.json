@@ -2831,6 +2831,24 @@
       ]
     },
     {
+      "code":"cepheus",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinamobile"],
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.6.0.RFACNXM",
+          "android": "11.0",
+          "recovery": "miui_CEPHEUS_V12.5.6.0.RFACNXM_5d1239a6d1_11.0.zip",
+          "fastboot": "cepheus_images_V12.5.6.0.RFACNXM_20211125.0000.00_11.0_cn_chinamobile_e4bfb61a3f.tgz"
+        }
+      ]
+    },
+    {
       "code":"cepheus_global",
       "btag":"X",
       "region":"global",
@@ -3217,6 +3235,42 @@
           "android": "9.0",
           "recovery": "miui_CEPHEUSEEAGlobal_V10.2.12.0.PFAEUXM_57ad5f1d24_9.0.zip",
           "fastboot": "cepheus_eea_global_images_V10.2.12.0.PFAEUXM_20190226.0000.00_9.0_eea_1c4053f6f6.tgz"
+        }
+      ]
+    },
+    {
+      "code":"cepheus_eea_or_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euor",
+      "show": "1",
+      "cnname": "欧洲Orange运营商定制版",
+      "enname": "Europe Orange Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.6.0.QFAEUOR",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "cepheus_eea_or_global_images_V12.0.6.0.QFAEUOR_20210828.0000.00_10.0_eea_9f7f7336c0.tgz"
+        }
+      ]
+    },
+    {
+      "code":"cepheus_eea_vf_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euvf",
+      "show": "1",
+      "cnname": "欧洲Vodafone运营商定制版",
+      "enname": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.6.0.QFAEUVF",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "cepheus_eea_vf_global_images_V12.0.6.0.QFAEUVF_20210506.0000.00_10.0_eea_1757fd6d37.tgz"
         }
       ]
     },
