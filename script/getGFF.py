@@ -17,13 +17,13 @@ gfbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_i
               "_eea_by_global","_eea_vf_global","_mx_tc_global","_mx_at_global","_lm_cr_global","_cl_en_global","_cl_global",
               "_eea_sf_global","_eea_ti_global""_th_as_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_za_mt_global",]
 gbbranches = ["_global","_mx_global","_lm_global","_th_global","_pe_global","_za_global","_mx_tc_global","_mx_at_global","_lm_cr_global",
-              "_cl_en_global","_cl_global","_th_as_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_za_mt_global",]
+              "_cl_en_global","_cl_global","_th_as_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_za_mt_global","_gt_tg_global"]
 
-eeabranches = ["_eea_global","_h3g_global","_eea_hg_global","_eea_or_global","_eea_tf_global","_eea_by_global","_eea_vf_global","_eea_sf_global","_eea_ti_global"]
+eeabranches = ["_eea_global","_h3g_global","_eea_hg_global","_eea_or_global","_eea_ee_global","_eea_tf_global","_eea_by_global","_eea_vf_global","_eea_sf_global","_eea_ti_global"]
 
 rubranches = ["_ru_global"]
 
-inbranches = ["_in_global","in_global","_in_fk_global","in_in_global"]
+inbranches = ["_in_global","in_global","_in_fk_global","_in_jo_global","in_in_global"]
 
 idbranches = ["_id_global"]
 
@@ -31,7 +31,7 @@ trbranches = ["_tr_global"]
 
 krbranches = ["_kr_global","_kr_gu_global","_kr_kt_global","_kr_sk_global"]
 
-jpbranches = ["_jp_global","_jp_kd_global"]
+jpbranches = ["_jp_global","_jp_sb_global","_jp_kd_global""_jp_rk_global"]
 
 
 def getFastboot(url,devdata):
