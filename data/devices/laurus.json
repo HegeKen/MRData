@@ -17,7 +17,7 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
+      "code":"laurus",
       "btag":"X",
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
@@ -1007,7 +1007,7 @@
       ]
     },
     {
-      "code":"",
+      "code":"laurus",
       "btag":"F",
       "region":"cn",
       "carrier":[],
@@ -1103,7 +1103,7 @@
       ]
     },
     {
-      "code":"",
+      "code":"laurus",
       "btag":"F",
       "region":"cn",
       "carrier":["chinatelecom"],
@@ -1117,6 +1117,24 @@
           "android": "10.0",
           "recovery": "miui_LAURUS_V12.5.5.0.QFMCNXM_eb006da5b1_10.0.zip",
           "fastboot": "laurus_images_V12.5.5.0.QFMCNXM_20211122.0000.00_10.0_cn_chinatelecom_df3c1ebfe1.tgz"
+        }
+      ]
+    },
+    {
+      "code":"laurus",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinamobile"],
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.5.0.QFMCNXM",
+          "android": "10.0",
+          "recovery": "miui_LAURUS_V12.5.5.0.QFMCNXM_eb006da5b1_10.0.zip",
+          "fastboot": "laurus_images_V12.5.5.0.QFMCNXM_20211122.0000.00_10.0_cn_chinamobile_a6346108a6.tgz"
         }
       ]
     }

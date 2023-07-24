@@ -22,7 +22,7 @@
       "region":"cn",
       "carrier":[""],
       "branch": "cnmp",
-      "show": "0",
+      "show": "1",
       "cnname": "开发者预览版",
       "enname": "Android Developer Preview",
       "links": [
@@ -46,7 +46,7 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
-      "show": "0",
+      "show": "1",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -64,7 +64,7 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -103,6 +103,24 @@
       "show": "0",
       "cnname": "中国大陆YUNKE",
       "enname": "China Mainland YUNKE",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "eptl",
+      "show": "0",
+      "cnname": "中国大陆TL",
+      "enname": "China Mainland TL",
       "links": [
         {
           "miui": "",
@@ -190,7 +208,7 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -208,7 +226,7 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
-      "show": "0",
+      "show": "1",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": []
@@ -216,10 +234,10 @@
     {
       "code":"",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":["chinaunicom"],
       "branch": "ctcu",
-      "show": "0",
+      "show": "1",
       "cnname": "中国联通定制版",
       "enname": "China Unicom Carrier Edition",
       "links": []
@@ -227,10 +245,10 @@
     {
       "code":"",
       "btag":"F",
-      "region":"",
+      "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
-      "show": "0",
+      "show": "1",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": []
@@ -241,7 +259,7 @@
       "region":"tw",
       "carrier":[],
       "branch": "cntw",
-      "show": "0",
+      "show": "1",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -259,7 +277,7 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
-      "show": "0",
+      "show": "1",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -277,7 +295,7 @@
       "region":"global",
       "carrier":[],
       "branch": "mghg",
-      "show": "0",
+      "show": "1",
       "cnname": "国际ThreeHK运营商定制版",
       "enname": "Global ThreeHK Carrier Edition",
       "links": [
@@ -295,7 +313,7 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
-      "show": "0",
+      "show": "1",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -439,7 +457,7 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
-      "show": "0",
+      "show": "1",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -457,7 +475,7 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
-      "show": "0",
+      "show": "1",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -475,7 +493,7 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
-      "show": "0",
+      "show": "1",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -493,7 +511,7 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
-      "show": "0",
+      "show": "1",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -511,8 +529,8 @@
       "region":"global",
       "carrier":[],
       "branch": "thas",
-      "show": "0",
-      "cnname": "泰国AIS稳定版",
+      "show": "1",
+      "cnname": "泰国AIS运营商定制版",
       "enname": "Thailand Stable AIS Carrier Edtion",
       "links": [
         {
@@ -529,7 +547,7 @@
       "region":"global",
       "carrier":[],
       "branch": "clen",
-      "show": "0",
+      "show": "1",
       "cnname": "智利Entel运营商定制版",
       "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
@@ -547,8 +565,8 @@
       "region":"global",
       "carrier":[],
       "branch": "mxtc",
-      "show": "0",
-      "cnname": "墨西哥Telcel稳定版",
+      "show": "1",
+      "cnname": "墨西哥Telcel运营商定制版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
         {
@@ -565,7 +583,7 @@
       "region":"global",
       "carrier":[],
       "branch": "mxat",
-      "show": "0",
+      "show": "1",
       "cnname": "墨西哥AT&T运营商定制版",
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
@@ -583,7 +601,7 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
-      "show": "0",
+      "show": "1",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
@@ -601,7 +619,7 @@
       "region":"global",
       "carrier":[],
       "branch": "lmms",
-      "show": "0",
+      "show": "1",
       "cnname": "拉丁美洲Moviestar运营商定制版",
       "enname": "Latin America Moviestar Carrier Edition",
       "links": [
@@ -619,7 +637,7 @@
       "region":"global",
       "carrier":[],
       "branch": "gttg",
-      "show": "0",
+      "show": "1",
       "cnname": "危地马拉Tigo运营商定制版",
       "enname": "Guatemala Tigo Carrier Edtion",
       "links": [
@@ -637,8 +655,8 @@
       "region":"global",
       "carrier":[],
       "branch": "zavc",
-      "show": "0",
-      "cnname": "南非Vodacom稳定版",
+      "show": "1",
+      "cnname": "南非Vodacom运营商定制版",
       "enname": "South Africa Vodacom Carrier Edtion",
       "links": [
         {
@@ -655,7 +673,7 @@
       "region":"global",
       "carrier":[],
       "branch": "zamt",
-      "show": "0",
+      "show": "1",
       "cnname": "南非MTN运营商定制版",
       "enname": "South Africa MTN Carrier Edtion",
       "links": [
@@ -673,7 +691,7 @@
       "region":"jp",
       "carrier":[],
       "branch": "japs",
-      "show": "0",
+      "show": "1",
       "cnname": "日本稳定版",
       "enname": "Japan Stable",
       "links": [
@@ -690,9 +708,27 @@
       "btag":"F",
       "region":"global",
       "carrier":[],
+      "branch": "jpsb",
+      "show": "1",
+      "cnname": "日本SoftBank运营商定制版",
+      "enname": "Japan Stable SoftBank Carrier Edtion",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
       "branch": "jpkd",
-      "show": "0",
-      "cnname": "日本KDDI电信稳定版",
+      "show": "1",
+      "cnname": "日本KDDI电信运营商定制版",
       "enname": "Japan Stable KDDI Carrier Edtion",
       "links": [
         {
@@ -709,7 +745,7 @@
       "region":"global",
       "carrier":[],
       "branch": "krgs",
-      "show": "0",
+      "show": "1",
       "cnname": "韩国正式版",
       "enname": "South Korea Stable",
       "links": [
@@ -727,8 +763,8 @@
       "region":"global",
       "carrier":[],
       "branch": "krgu",
-      "show": "0",
-      "cnname": "韩国LG U+稳定版",
+      "show": "1",
+      "cnname": "韩国LG U+运营商定制版",
       "enname": "South Korea Stable LG U+ Carrier Edtion",
       "links": [
         {
@@ -745,8 +781,8 @@
       "region":"global",
       "carrier":[],
       "branch": "krkt",
-      "show": "0",
-      "cnname": "韩KTF稳定版",
+      "show": "1",
+      "cnname": "韩KTF运营商定制版",
       "enname": "South Korea Stable KTF Carrier Edtion",
       "links": [
         {
@@ -763,8 +799,8 @@
       "region":"global",
       "carrier":[],
       "branch": "krsk",
-      "show": "0",
-      "cnname": "韩国SK电讯稳定版",
+      "show": "1",
+      "cnname": "韩国SK电讯运营商定制版",
       "enname": "South Korea Stable SK Telecom Carrier Edtion",
       "links": [
         {

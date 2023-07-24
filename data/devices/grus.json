@@ -2549,6 +2549,24 @@
       ]
     },
     {
+      "code":"grus",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinamobile"],
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.4.0.RFBCNXM",
+          "android": "11.0",
+          "recovery": "miui_GRUS_V12.5.4.0.RFBCNXM_4c2e342d60_11.0.zip",
+          "fastboot": "grus_images_V12.5.4.0.RFBCNXM_20211117.0000.00_11.0_cn_chinamobile_a49eccd97f.tgz"
+        }
+      ]
+    },
+    {
       "code":"grus_global",
       "btag":"X",
       "region":"global",
@@ -2815,6 +2833,24 @@
           "android": "9.0",
           "recovery": "miui_GRUSEEAGlobal_V10.2.3.0.PFBEUXM_e9501746e2_9.0.zip",
           "fastboot": "grus_eea_global_images_V10.2.3.0.PFBEUXM_20190403.0000.00_9.0_eea_60219f14d6.tgz"
+        }
+      ]
+    },
+    {
+      "code":"grus_eea_or_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euor",
+      "show": "1",
+      "cnname": "欧洲Orange运营商定制版",
+      "enname": "Europe Orange Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.6.0.QFBEUOR",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "grus_eea_or_global_images_V12.0.6.0.QFBEUOR_20210607.0000.00_10.0_eea_6861fc798e.tgz"
         }
       ]
     },
