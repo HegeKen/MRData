@@ -7,7 +7,7 @@ carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 
 
 cnbranches = ["","_demo","_ep_yunke","_ep_stdee","_ep_xy","_ep_kywl","_ep_cqrcb","_ep_ec","_ep_sxht","_ep_yfan","_ep_yx","_ep_stdce",
-              "_ep_xdja","_ep_litee","_ep_yy","_ep_tly","_ep_sdlybjcg"]
+              "_ep_xdja","_ep_litee","_ep_yy","_ep_tly","_ep_sdlybjcg","_tl","_ep_tl"]
 
 twbranches = ["_tw_global"]
 
@@ -17,7 +17,7 @@ gfbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_i
               "_eea_by_global","_eea_vf_global","_mx_tc_global","_mx_at_global","_lm_cr_global","_cl_en_global","_cl_global",
               "_eea_sf_global","_eea_ti_global""_th_as_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_za_mt_global",]
 gbbranches = ["_global","_mx_global","_lm_global","_th_global","_pe_global","_za_global","_mx_tc_global","_mx_at_global","_lm_cr_global",
-              "_cl_en_global","_cl_global","_th_as_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_za_mt_global","_gt_tg_global"]
+              "_cl_en_global","_cl_global","_th_as_global","_lm_ms_global","_pe_ms_global","_za_vc_global","_za_mt_global","_gt_tg_global","_gt_global"]
 
 eeabranches = ["_eea_global","_h3g_global","_eea_hg_global","_eea_or_global","_eea_ee_global","_eea_tf_global","_eea_by_global","_eea_vf_global","_eea_sf_global","_eea_ti_global"]
 
