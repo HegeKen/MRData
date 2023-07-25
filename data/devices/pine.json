@@ -145,6 +145,24 @@
     {
       "code":"",
       "btag":"F",
+      "region":"cn",
+      "carrier":["chinamobile"],
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.5.0.QCMCNXM",
+          "android": "10.0",
+          "recovery": "miui_PINE_V12.5.5.0.QCMCNXM_2f0b189397_10.0.zip",
+          "fastboot": "pine_images_V12.5.5.0.QCMCNXM_20211228.0000.00_10.0_cn_chinamobile_95b7dadc55.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
@@ -355,6 +373,78 @@
           "android": "9.0",
           "recovery": "miui_PINEEEAGlobal_V10.2.3.0.PCMEUXM_2f66f8d068_9.0.zip",
           "fastboot": "pine_eea_global_images_V10.2.3.0.PCMEUXM_20190701.0000.00_9.0_eea_7e1165efcd.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euor",
+      "show": "1",
+      "cnname": "欧洲Orange运营商定制版",
+      "enname": "Europe Orange Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.2.0.QCMEUOR",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "pine_eea_or_global_images_V12.0.2.0.QCMEUOR_20210625.0000.00_10.0_eea_b0b29c3db3.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eutf",
+      "show": "1",
+      "cnname": "欧洲Telefonica运营商定制版",
+      "enname": "Europe Telefonica Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.1.0.QCMEUTF",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "pine_eea_tf_global_images_V12.0.1.0.QCMEUTF_20210802.0000.00_10.0_eea_b0f03845df.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euvf",
+      "show": "1",
+      "cnname": "欧洲Vodafone运营商定制版",
+      "enname": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.7.0.QCMEUVF",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "pine_eea_vf_global_images_V12.0.7.0.QCMEUVF_20211125.0000.00_10.0_eea_cf5a5906f9.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eusf",
+      "show": "1",
+      "cnname": "欧洲Altice(SFR)运营商定制版",
+      "enname": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.5.0.QCMEUSF",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "pine_eea_sf_global_images_V12.0.5.0.QCMEUSF_20211126.0000.00_10.0_eea_3453933304.tgz"
         }
       ]
     },

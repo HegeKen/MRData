@@ -1963,6 +1963,24 @@
     {
       "code":"",
       "btag":"F",
+      "region":"cn",
+      "carrier":["chinamobile"],
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.5.0.RFCCNXM",
+          "android": "11.0",
+          "recovery": "miui_PYXIS_V12.5.5.0.RFCCNXM_c3b5b178ff_11.0.zip",
+          "fastboot": "pyxis_images_V12.5.5.0.RFCCNXM_20211024.0000.00_11.0_cn_chinatelecom_71e9fc498a.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
@@ -2179,6 +2197,60 @@
           "android": "9.0",
           "recovery": "miui_PYXISEEAGlobal_V10.3.4.0.PFCEUXM_5c7dfe5df8_9.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eutf",
+      "show": "1",
+      "cnname": "欧洲Telefonica运营商定制版",
+      "enname": "Europe Telefonica Carrier Edition",
+      "links": [
+        {
+          "miui": "V11.0.7.0.QFCEUTF",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "pyxis_eea_tf_global_images_V11.0.7.0.QFCEUTF_20210726.0000.00_10.0_eea_15d11fb8eb.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euvf",
+      "show": "1",
+      "cnname": "欧洲Vodafone运营商定制版",
+      "enname": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.7.0.RFCEUVF",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "pyxis_eea_vf_global_images_V12.5.7.0.RFCEUVF_20211118.0000.00_11.0_eea_11d84482bd.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eusf",
+      "show": "1",
+      "cnname": "欧洲Altice(SFR)运营商定制版",
+      "enname": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.3.0.RFCEUSF",
+          "android": "10.0",
+          "recovery": "",
+          "fastboot": "pyxis_eea_sf_global_images_V12.5.3.0.RFCEUSF_20210918.0000.00_11.0_eea_fe7c0c4822.tgz"
         }
       ]
     },
