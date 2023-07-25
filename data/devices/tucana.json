@@ -2312,7 +2312,7 @@
           "miui": "V13.0.4.0.RFDCNXM",
           "android": "11.0",
           "recovery": "miui_TUCANA_V13.0.4.0.RFDCNXM_9253c83a9f_11.0.zip",
-          "fastboot": ""
+          "fastboot": "tucana_images_V13.0.4.0.RFDCNXM_20220825.0000.00_11.0_cn_0e8c6416d9.tgz"
         },
         {
           "miui": "V13.0.1.0.RFDCNXM",
@@ -2433,6 +2433,24 @@
           "android": "11.0",
           "recovery": "miui_TUCANA_V13.0.4.0.RFDCNXM_9253c83a9f_11.0.zip",
           "fastboot": "tucana_images_V13.0.4.0.RFDCNXM_20220825.0000.00_11.0_cn_chinatelecom_14ca62c0b1.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinamobile"],
+      "branch": "ctcm",
+      "show": "1",
+      "cnname": "中国移动定制版",
+      "enname": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.4.0.RFDCNXM",
+          "android": "11.0",
+          "recovery": "miui_TUCANA_V13.0.4.0.RFDCNXM_9253c83a9f_11.0.zip",
+          "fastboot": "tucana_images_V13.0.4.0.RFDCNXM_20220825.0000.00_11.0_cn_chinamobile_007be7ed31.tgz"
         }
       ]
     },
@@ -2721,6 +2739,96 @@
           "android": "9.0",
           "recovery": "miui_TUCANAEEAGlobal_V11.0.5.0.PFDEUXM_08e1a88222_9.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euhg",
+      "show": "1",
+      "cnname": "欧洲ThreeHK运营商定制版",
+      "enname": "Europe ThreeHK Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.1.0.RFDEUHG",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "tucana_eea_hg_global_images_V12.5.1.0.RFDEUHG_20210913.0000.00_11.0_eea_d6364aedd9.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euor",
+      "show": "1",
+      "cnname": "欧洲Orange运营商定制版",
+      "enname": "Europe Orange Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.5.0.RFDEUOR",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "tucana_eea_or_global_images_V12.5.5.0.RFDEUOR_20220422.0000.00_11.0_eea_2c81ebdc5a.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eutf",
+      "show": "1",
+      "cnname": "欧洲Telefonica运营商定制版",
+      "enname": "Europe Telefonica Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.5.0.RFDEUTF",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "tucana_eea_tf_global_images_V12.5.5.0.RFDEUTF_20211221.0000.00_11.0_eea_89a68fb2d0.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euvf",
+      "show": "1",
+      "cnname": "欧洲Vodafone运营商定制版",
+      "enname": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.4.0.RFDEUVF",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "tucana_eea_vf_global_images_V12.5.4.0.RFDEUVF_20211213.0000.00_11.0_eea_22b7a3950c.tgz"
+        }
+      ]
+    },
+    {
+      "code":"",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "euti",
+      "show": "1",
+      "cnname": "欧洲TIM运营商定制版",
+      "enname": "Europe TIM Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.1.0.RFDEUTI",
+          "android": "11.0",
+          "recovery": "",
+          "fastboot": "tucana_eea_ti_global_images_V12.5.1.0.RFDEUTI_20210922.0000.00_11.0_eea_166c11a8dc.tgz"
         }
       ]
     },
