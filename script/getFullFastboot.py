@@ -83,27 +83,17 @@ def getFastboot(url,devdata):
 
 
 
-devices = ["aether","agate","alioth","aliothin","amber","andromeda","angelica","angelicain","angelican","apollo","aqua","ares","aresin",
-           "aries","aristotle","armani","atom","babylon","begonia","beryllium","bhima","biloba","bomb","cactus","camellia","camellian",
-           "cancro","cancro_lte_ct","cannon","cannong","cappu","capricorn","cas","cattail","cepheus","cereus","cetus","cezanne","chiron",
-           "chopin","citrus","cloud","clover","cmi","corot","courbet","crux","cupid","curtana","curtana_in_rf","dagu","daisy",
-           "dandelion","dandelion_c3l2","daumier","davinci","dior","dipper","diting","earth","elish","enuma","eos","equuleus","evergo",
-           "evergreen","excalibur","ferrari","fire","fleur","fog","frost","fuxi","galahad","garnet","gauguin","gauguininpro",
-           "gauguinpro","gemini","ginkgo","gram","grus","gucci","haydn","haydnin","heat","helium","hennessy","hermes","HM2013023",
-           "HM2014011","HM2014501","houji","hydrogen","ice","ido","ido_xhdpi","ingres","iris","ishtar","jasmine","jason","joyeuse",
-           "karna","kate","kenzo","lancelot","land","latte","laurel","laurel_sprout","laurus","lavender","lcsh92","lcsh92_wet_jb9",
-           "lcsh92_wet_tdd","lcsh92_wet_xm_td","lemon","leo","libra","light","lightcm","lilac","lime","lisa","lithium","liuqin","lmi",
-           "lmipro","lotus","lte26007","maltose","marble","markw","matisse","mayfly","meri","merlin","merlinnfc","mido","miel","mione",
-           "mione_plus","mocha","mojito","mona","mondrian","monet","moonstone","munch","nabu","natrium","nikel","nitrogen","nuwa",
-           "ocean","odin","olive","olivelite","olivewood","omega","onc","onclite","opal","oxygen","pearl","perseus","peux","phoenix",
-           "picasso","picasso_48m","pine","pipa","pisces","pissarro","pissarroin","pissarroinpro","pissarropro","platina","plato",
-           "polaris","pomelo","prada","psyche","pyxis","rain","raphael","raphaels","redwood","rembrandt","renoir","riva","river","rock",
-           "rolex","rosemary","rosemary_p","rosy","rubens","ruby","rubyplus","rubypro","sagit","sakura","santoni","scorpio","sea",
-           "secret","selene","shennong","shiva","sirius","sky","snow","socrates","spes","spesn","star","sunstone","surya","sweet",
-           "sweet_k6a","taoyao","tapas","taurus","thor","thunder","thyme","tiare","tiffany","tissot","toco","topaz","tucana","tulip",
-           "ugg","ugglite","umi","unicorn","ursa","vangogh","vayu","vela","venus","veux","vida","vili","vince","violet","virgo",
-           "virgo_lte_ct","viva","water","wayne","whyred","willow","wind","wt86047","wt86047_pro","wt88047","wt88047_pro","wt93007",
-           "wt93807","wt96007","wt98007","xaga","xagain","xagapro","xun","ysl","yudi","yuechu","yunluo","zeus","zijin","ziyi","zizhan"]
+devices = ["agate","alioth","angelica","angelicain","angelican","ares","aries","biloba","bomb","cactus","camellia",
+           "camellian","cannon","cannong","cas","cattail","cetus","chopin","citrus","clover","courbet","cupid",
+           "curtana","curtana_in_rf","dagu","dandelion","dandelion_c3l2","daumier","diting","earth","elish",
+           "enuma","evergo","evergreen","excalibur","fire","fleur","fog","frost","fuxi","gauguin","haydn",
+           "heat","ice","ingres","ishtar","joyeuse","lancelot","light","lightcm","lilac","lime","lisa","liuqin",
+           "lmi","marble","matisse","mayfly","merlin","mojito","mona","mondrian","monet","moonstone","munch","nabu",
+           "nuwa","odin","opal","pearl","pipa","pissarro","pissarroin","plato","psyche","redwood","rembrandt",
+           "renoir","riva","river","rock","rosemary","rosemary_p","rubens","ruby","sea","selene","shennong","shiva",
+           "sky","socrates","spes","spesn","star","sunstone","surya","sweet","sweet_k6a","taoyao","tapas","thor",
+           "thyme","toco","topaz","umi","unicorn","ursa","vangogh","vayu","venus","veux","vida","vili","viva","water",
+           "xaga","xun","yudi","yuechu","yunluo","zeus","zijin","ziyi","zizhan"]
 
 onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
 
