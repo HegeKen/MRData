@@ -21,7 +21,7 @@
   "pcid": "",
   "branches": [
     {
-      "code":"fuxi",
+      "code":"fuxi_pre_gpp",
       "btag":"X",
       "region":"cn",
       "carrier":[""],
@@ -31,8 +31,14 @@
       "enname": "Android Developer Preview",
       "links": [
         {
+          "miui": "23.7.28",
+          "android": "14.0 Beta3 大陆版",
+          "recovery": "",
+          "fastboot": "fuxi_pre_gpp_images_23.7.28_20230728.0000.00_14.0_cn_eb6a6ac0d3.tgz"
+        },
+        {
           "miui": "23.5.6",
-          "android": "14.0 DP1 Chinese",
+          "android": "14.0 DP1 大陆版",
           "recovery": "",
           "fastboot": "fuxi_pre_dpp_images_23.5.6_20230506.0000.00_14.0_cn_5cfc986a7c.tgz"
         },

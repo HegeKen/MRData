@@ -93,7 +93,7 @@ devices = ["agate","alioth","angelica","angelicain","angelican","ares","aries","
            "renoir","riva","river","rock","rosemary","rosemary_p","rubens","ruby","sea","selene","shennong","shiva",
            "sky","socrates","spes","spesn","star","sunstone","surya","sweet","sweet_k6a","taoyao","tapas","thor",
            "thyme","toco","topaz","umi","unicorn","ursa","vangogh","vayu","venus","veux","vida","vili","viva","water",
-           "xaga","xun","yudi","yuechu","yunluo","zeus","zijin","ziyi","zizhan"]
+           "xaga","xun","yudi","yuechu","yunluo","zeus","zijin","ziyi","zizhan","draco"]
 
 onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
 
