@@ -2277,6 +2277,7 @@
     "poco-x3-pro"
   ],
   "MFWCurrent": [
+    "redmi-pad-se-firmware",
     "xiaomi-mix-fold-3",
     "redmi-k70e",
     "redmi-k70-pro-firmware",
@@ -2742,6 +2743,7 @@
     "KIEUTF": "renoir",
     "KIEUVF": "renoir",
     "KIEUSF": "renoir",
+    "GFTRXM":"frost",
     "KIEUTI": "renoir",
     "KWEUHG": "agate",
     "KWEUOR": "agate",
@@ -3290,6 +3292,10 @@
     "SKY":"sky",
     "SKYINGlobal":"sky",
     "ENUMAEPSTDEE":"enuma",
+    "RUBYKRGlobal":"ruby",
+    "SWEETK6AIDGlobal":"sweet_k6a",
+    "WATERRUGlobal":"water",
+    "FROSTTRGlobal":"frost",
     "UNICORNEPSTDEE":"unicorn"
   },
   "MiFlashProCurrent":[
@@ -3300,6 +3306,7 @@
         "fire_tw_global",
         "fire_global",
         "fire_ru_global",
+        "fire_id_global",
         "fire_tr_global"
       ]
     },
@@ -3350,6 +3357,7 @@
         "ishtar",
         "ishtar_demo",
         "ishtar_global",
+        "ishtar_ep_stdee",
         "ishtar_ru_global",
         "ishtar_eea_global",
         "ishtar_tw_global"
@@ -3361,6 +3369,7 @@
         "pipa",
         "pipa_demo",
         "pipa_pre_dpp",
+        "pipa_pre_gpp",
         "pipa_eea_global",
         "pipa_global",
         "pipa_id_global",
@@ -3399,7 +3408,14 @@
         "water_eea_global",
         "water_in_global",
         "waterin_global",
-        "waterin_In_global",
+        "waterin_in_global",
+        "water_eea_hg_global",
+        "water_eea_by_global",
+        "water_ru_global",
+        "water_ru_global",
+        "water_mx_at_global",
+        "water_za_vc_global",
+        "water_za_mt_global",
         "water_eea_sf_global",
         "water_cl_en_global",
         "water_mx_tc_global",
@@ -3705,6 +3721,7 @@
       "codename": "unicorn",
       "checkers": [
         "unicorn",
+        "unicorn_ep_stdee",
         "unicorn_demo"
       ]
     },
@@ -3748,6 +3765,7 @@
         "fuxi",
         "fuxi_demo",
         "fuxi_pre_dpp",
+        "fuxi_pre_gpp",
         "fuxi_pre_dpp_global",
         "fuxi_ep_stdee",
         "fuxi_tw_global",
@@ -3763,8 +3781,10 @@
         "nuwa",
         "nuwa_demo",
         "nuwa_pre_dpp",
+        "nuwa_pre_gpp",
         "nuwa_pre_dpp_global",
         "nuwa_ep_stdee",
+        "nuwa_ep_sdlybjcg",
         "nuwa_tw_global",
         "nuwa_global",
         "nuwa_eea_global",
@@ -4083,6 +4103,9 @@
         "earth_eea_tf_global",
         "earth_eea_by_global",
         "earth_mx_at_global",
+        "earth_eea_ti_global",
+        "earth_gt_tg_global",
+        "earth_za_vc_global",
         "earth_ru_global",
         "earth_in_global",
         "earth_id_global",
@@ -4108,6 +4131,8 @@
         "lime",
         "lime_pre",
         "lime_demo",
+        "lime_yunke",
+        "lime_tl",
         "lime_tw_global",
         "lime_global",
         "lime_eea_global",
@@ -4245,6 +4270,7 @@
         "camellia_pre",
         "camellia_demo",
         "camellia_ep_stdee",
+        "camellia_ep_yx",
         "camellia_ep_yunke",
         "camellian_tw_global",
         "camellian_global",
@@ -4302,7 +4328,8 @@
     {
       "codename": "lilac",
       "checkers": [
-        "lilac_jp_global"
+        "lilac_jp_global",
+        "lilac_jp_sb_global"
       ]
     },
     {
@@ -4327,6 +4354,7 @@
         "pissarro",
         "pissarro_pre",
         "pissarro_demo",
+        "pissarro_ep_yunke",
         "pissarro_tw_global",
         "pissarro_global",
         "pissarro_eea_global",
@@ -4514,6 +4542,7 @@
         "ruby",
         "ruby_demo",
         "ruby_ep_stdee",
+        "ruby_kr_global",
         "ruby_in_global",
         "ruby_tw_global",
         "ruby_global",
@@ -4661,6 +4690,7 @@
       "checkers": [
         "rubens",
         "rubens_demo",
+        "rubens_ep_yx",
         "rubens_ep_stdee"
       ]
     },
@@ -4706,6 +4736,7 @@
       "codename": "socrates",
       "checkers": [
         "socrates",
+        "socrates_ep_stdee",
         "socrates_demo"
       ]
     },
@@ -4713,6 +4744,7 @@
       "codename": "rembrandt",
       "checkers": [
         "rembrandt",
+        "rembrandt_ep_stdee",
         "rembrandt_demo"
       ]
     },
@@ -4742,6 +4774,7 @@
         "ice_mx_tc_global",
         "ice_lm_cr_global",
         "ice_za_vc_global",
+        "ice_za_mt_global",
         "ice_id_global"
       ]
     },
