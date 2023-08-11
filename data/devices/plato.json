@@ -17,7 +17,7 @@
   "pcid": "",
   "branches": [
     {
-      "code":"plato_pre_dpp_global",
+      "code":"plato_pre_gpp_global",
       "btag":"X",
       "region":"global",
       "carrier":[""],
@@ -26,6 +26,12 @@
       "cnname": "开发者预览版",
       "enname": "Android Developer Preview",
       "links": [
+        {
+          "miui": "23.7.31",
+          "android": "14.0 Beta3 Global",
+          "recovery": "",
+          "fastboot": "plato_pre_gpp_global_images_23.7.31_20230731.0000.00_14.0_global_44983c9355.tgz"
+        },
         {
           "miui": "23.5.6",
           "android": "14.0 DP1 Global",
