@@ -1,7 +1,7 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
+  "codename": "yudi",
+  "cnname": "小米平板 6 Max",
+  "enname": "Xiaomi Pad 6 Max",
   "attentions": [
     {
       "cn": "",
@@ -17,7 +17,7 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
+      "code":"yudi",
       "btag":"F",
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
@@ -31,6 +31,24 @@
           "android": "",
           "recovery": "",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"yudi_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMHCNDM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "yudi_demo_images_V14.0.2.0.TMHCNDM_20230807.0000.00_13.0_cn_8b4278f53a.tgz"
         }
       ]
     }
