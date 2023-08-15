@@ -22,15 +22,27 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
+          "miui": "V14.1.2.0.TMVCNXM",
+          "android": "13.0",
+          "recovery": "miui_BABYLON_V14.1.2.0.TMVCNXM_54c247799c_13.0.zip",
+          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_183fa237f5.tgz"
+        },
+        {
+          "miui": "V14.1.2.0.TMVCNXM",
+          "android": "13.0",
+          "recovery": "miui_BABYLON_V14.1.2.0.TMVCNXM_54c247799c_13.0.zip",
+          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_chinatelecom_4b84644893.tgz"
+        },
+        {
+          "miui": "V14.1.1.0.TMVCNXM",
+          "android": "13.0",
           "recovery": "",
-          "fastboot": ""
+          "fastboot": "babylon_images_V14.1.1.0.TMVCNXM_20230711.0000.00_13.0_cn_e2c7722a8f.tgz"
         }
       ]
     }

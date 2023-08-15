@@ -33,6 +33,30 @@
           "fastboot": ""
         }
       ]
+    },
+    {
+      "code":"corot_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMLCNDM",
+          "android": "13.0",
+          "recovery": "miui_COROTDEMO_V14.0.3.0.TMLCNDM_cc19d487af_13.0.zip",
+          "fastboot": "corot_demo_images_V14.0.3.0.TMLCNDM_20230810.0000.00_13.0_cn_fd948228ea.tgz"
+        },
+        {
+          "miui": "V14.0.3.0.TMLCNDM",
+          "android": "13.0",
+          "recovery": "miui_COROTDEMO_V14.0.3.0.TMLCNDM_cc19d487af_13.0.zip",
+          "fastboot": "corot_demo_images_V14.0.3.0.TMLCNDM_20230810.0000.00_13.0_cn_chinatelecom_9f667deb6f.tgz"
+        }
+      ]
     }
   ]
 }
