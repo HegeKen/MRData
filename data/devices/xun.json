@@ -1,7 +1,7 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
+  "codename": "xun",
+  "cnname": "Redmi 平板 SE",
+  "enname": "Redmi Pad SE",
   "attentions": [
     {
       "cn": "",
@@ -17,20 +17,38 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
+      "code":"xun_global",
       "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmo",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
       "show": "0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
       "links": [
         {
           "miui": "",
           "android": "",
           "recovery": "",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"xun_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMUEUXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "xun_eea_global_images_V14.0.2.0.TMUEUXM_20230811.0000.00_13.0_eea_6a97594460.tgz"
         }
       ]
     }
