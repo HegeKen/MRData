@@ -33,6 +33,30 @@
           "fastboot": "babylon_images_V14.1.5.0.TMVCNXM_20230811.0000.00_13.0_cn_510e13eb96.tgz"
         },
         {
+          "miui": "V14.1.2.0.TMVCNXM",
+          "android": "13.0",
+          "recovery": "miui_BABYLON_V14.1.2.0.TMVCNXM_54c247799c_13.0.zip",
+          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_183fa237f5.tgz"
+        },
+        {
+          "miui": "V14.1.1.0.TMVCNXM",
+          "android": "13.0",
+          "recovery": "miui_BABYLON_V14.1.1.0.TMVCNXM_e15564a2d4_13.0.zip",
+          "fastboot": "babylon_images_V14.1.1.0.TMVCNXM_20230711.0000.00_13.0_cn_e2c7722a8f.tgz"
+        }
+      ]
+    },
+    {
+      "code":"babylon",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
           "miui": "V14.1.5.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.5.0.TMVCNXM_97f388a88a_13.0.zip",
@@ -42,19 +66,7 @@
           "miui": "V14.1.2.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.2.0.TMVCNXM_54c247799c_13.0.zip",
-          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_183fa237f5.tgz"
-        },
-        {
-          "miui": "V14.1.2.0.TMVCNXM",
-          "android": "13.0",
-          "recovery": "miui_BABYLON_V14.1.2.0.TMVCNXM_54c247799c_13.0.zip",
           "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_chinatelecom_4b84644893.tgz"
-        },
-        {
-          "miui": "V14.1.1.0.TMVCNXM",
-          "android": "13.0",
-          "recovery": "miui_BABYLON_V14.1.1.0.TMVCNXM_e15564a2d4_13.0.zip",
-          "fastboot": "babylon_images_V14.1.1.0.TMVCNXM_20230711.0000.00_13.0_cn_e2c7722a8f.tgz"
         }
       ]
     }

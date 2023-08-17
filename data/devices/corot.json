@@ -33,17 +33,11 @@
           "fastboot": "corot_images_V14.0.8.0.TMLCNXM_20230810.0000.00_13.0_cn_b17f0a30a3.tgz"
         },
         {
-          "miui": "V14.0.8.0.TMLCNXM",
-          "android": "13.0",
-          "recovery": "miui_COROT_V14.0.8.0.TMLCNXM_9d20ec48db_13.0.zip",
-          "fastboot": "corot_images_V14.0.8.0.TMLCNXM_20230810.0000.00_13.0_cn_chinatelecom_a32d1c5a10.tgz"
-        },
-        {
           "miui": "V14.0.7.0.TMLCNXM",
           "android": "13.0",
           "recovery": "V14.0.7.0.TMLCNXM/miui_COROT_V14.0.7.0.TMLCNXM_8e0c466e4c_13.0.zip",
-          "fastboot": "corot_images_V14.0.7.0.TMLCNXM_20230727.0000.00_13.0_cn_chinatelecom_089b96a7d3.tgz"
-        },
+          "fastboot": ""
+        }
         {
           "miui": "V14.0.6.0.TMLCNXM",
           "android": "13.0",
@@ -61,6 +55,30 @@
           "android": "13.0",
           "recovery": "miui_COROT_V14.0.3.0.TMLCNXM_1251b7ca9e_13.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"corot",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.8.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.8.0.TMLCNXM_9d20ec48db_13.0.zip",
+          "fastboot": "corot_images_V14.0.8.0.TMLCNXM_20230810.0000.00_13.0_cn_chinatelecom_a32d1c5a10.tgz"
+        },
+        {
+          "miui": "V14.0.7.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "V14.0.7.0.TMLCNXM/miui_COROT_V14.0.7.0.TMLCNXM_8e0c466e4c_13.0.zip",
+          "fastboot": "corot_images_V14.0.7.0.TMLCNXM_20230727.0000.00_13.0_cn_chinatelecom_089b96a7d3.tgz"
         }
       ]
     },
