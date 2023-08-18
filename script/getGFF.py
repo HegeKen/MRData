@@ -65,14 +65,14 @@ def getFastboot(url,devdata):
 
 
 
-devices = ["xun","babylon","corot","fire","sky","heat","garnet","houji","shennong","pipa","yudi","river","aristotle","yuechu","pearl","ishtar","sweet_k6a",
-           "liuqin","marble","water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
+devices = ["xun","babylon","corot","fire","sky","heat","garnet","houji","shennong","pipa","yudi","river","aristotle","yuechu","pearl",
+           "ishtar","sweet_k6a","liuqin","marble","water","tapas","topaz","monet","vangogh","thyme",
            "venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly",
            "unicorn","thor","taoyao","plato","fuxi","nuwa","toco","cetus","odin","zizhan","nabu","elish","enuma","dagu","mona",
-           "zijin","ziyi","merlin","lancelot","dandelion","angelica","angelican","cattail","selene","dandelion_c3l2","fog","atom",
-           "bomb","rock","earth","biloba","lime","cannon","gauguin","joyeuse","excalibur","curtana","mojito","curtana_in_rf","sweet",
+           "zijin","ziyi","merlin","lancelot","dandelion","angelica","angelican","cattail","selene","dandelion_c3l2","fog",
+           "rock","earth","biloba","lime","cannon","gauguin","joyeuse","excalibur","curtana","mojito","curtana_in_rf","sweet",
            "camellia","chopin","rosemary","lilac","evergo","pissarro","spes","spesn","veux","fleur","viva","vida","light","lightcm",
-           "opal","xaga","sunstone","ruby","redwood","lmi","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens",
+           "opal","xaga","sunstone","ruby","redwood","apollo","alioth","haydn","ares","munch","ingres","rubens",
            "matisse","diting","mondrian","socrates","rembrandt","yunluo","ice","angelicain","frost","citrus","evergreen","rosemary_p",
            "surya","vayu","moonstone"]
 

@@ -1,11 +1,11 @@
 {
-  "titleCn": "MIUI第610周发布公告及更新日志",
-  "titleEn": "The 610th MIUI Weekly Update Changelogs",
+  "titleCn": "MIUI第611周发布公告及更新日志",
+  "titleEn": "The 611st MIUI Weekly Update Changelogs",
   "CnBBSID": "",
-  "CnComID": "40171570",
+  "CnComID": "41205087",
   "GbBBSID": "",
-  "update": "2023.08.11",
-  "versions": "V14.0.23.8.13.DEV,V14.0.23.8.13.DEV",
+  "update": "2023.08.18",
+  "versions": "V14.0.23.8.13.DEV,V14.0.23.8.14.DEV,V14.0.23.8.15.DEV",
   "showdevices": "0",
   "vid": "",
   "no": "",
@@ -95,16 +95,16 @@
       "code": "fuxi",
       "NameCn": "小米 13",
       "NameEn": "Xiaomi 13",
-      "miui": "V14.0.23.8.13.DEV",
+      "miui": "V14.0.23.8.15.DEV",
       "android": "14.0",
-      "recovery": "",
+      "recovery": "miui_FUXI_V14.0.23.8.15.DEV_285e461a99_14.0.zip",
       "fastboot": ""
     },
     {
       "code": "fuxi",
       "NameCn": "小米 13",
       "NameEn": "Xiaomi 13",
-      "miui": "V14.0.23.8.13.DEV",
+      "miui": "V14.0.23.8.14.DEV",
       "android": "13.0",
       "recovery": "",
       "fastboot": ""
@@ -113,18 +113,18 @@
       "code": "nuwa",
       "NameCn": "小米 13 Pro",
       "NameEn": "Xiaomi 13 Pro",
-      "miui": "V14.0.23.8.13.DEV",
+      "miui": "V14.0.23.8.15.DEV",
       "android": "14.0",
-      "recovery": "",
+      "recovery": "miui_NUWA_V14.0.23.8.15.DEV_4bcc683022_14.0.zip",
       "fastboot": ""
     },
     {
       "code": "nuwa",
       "NameCn": "小米 13 Pro",
       "NameEn": "Xiaomi 13 Pro",
-      "miui": "V14.0.23.8.13.DEV",
+      "miui": "V14.0.23.8.14.DEV",
       "android": "13.0",
-      "recovery": "",
+      "recovery": "miui_NUWA_V14.0.23.8.14.DEV_9dfffcf073_13.0.zip",
       "fastboot": ""
     },
     {
@@ -246,6 +246,10 @@
           "En": "China Beta: China Beta is a test version that MIUI Dev Team prepared for Geeky Mi Fans, more focused on feature testing and bug feedback, stablity is not predictable, We(MIUI Dev Team) thank you for all your support. Version is released according to the needs of the project and the actual situation, and there is a possibility of suspension, If you encounter bugs, please send us bug report in Xiaomi Community(China), and pay attention to the subsequent upgrade."
         },
         {
+          "Cn": "已通过Xiaomi 13 Pro、Xiaomi 13 Android 14 预览版开发版报名的米粉，将在今天收到过渡版推送，请您在8月24日前务必升级到过渡版V14.0.23.8.14.DEV，如未升级过渡版将无法参与本次测试。",
+          "En": "If you've passed approval of Android 14 Developer ROM test For Xiaomi 13 & Xiaomi 13 Pro, please make sure to update to V14.0.23.8.14.DEV for later updates before August 24, or else you cann't recieve updates."
+        },
+        {
           "Cn": "为提升用户体验，MIUI系统部分APP解耦合，在应用商店可升级，是MIUI系统的一部分。开发版不断迭代中，部分修复有时可能不完全显示在当天公告日志里，感谢大家的理解",
           "En": "In order to improve the user experience, bunch of the MIUI system APPs are Deodexed and can be upgraded in the Mi GetApps/Google Play . As a part of the MIUI system, some APPs bug fixes may not be included in this changelog , thank you for your understanding."
         }
@@ -268,16 +272,16 @@
   ],
   "logs": [
     {
-      "titleCn": "MIUI第610周发布公告及更新日志",
-      "titleEn": "The 610th MIUI Weekly Update Changelogs",
+      "titleCn": "MIUI第611周发布公告及更新日志",
+      "titleEn": "The 611st MIUI Weekly Update Changelogs",
       "log": [
         {
-          "componentCn": "系统",
-          "componentEn": "System",
+          "componentCn": "手机管家",
+          "componentEn": "Security App",
           "changes": [
             {
-              "changesCn": "优化部分影响使用体验的问题",
-              "changesEn": "Optiminzing some factors affecting user experience."
+              "changesCn": "修复 部分场景垃圾清理界面手机显示为平板的问题",
+              "changesEn": "Fixing Cleaner app displaying as Tab UI in some scenarios."
             }
           ]
         }

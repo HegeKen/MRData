@@ -65,6 +65,30 @@
       ]
     },
     {
+      "code":"sky_ep_stdee",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "stde",
+      "show": "0",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V14.0.23.8.4.EP.STDEE.M19",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "sky_ep_stdee_images_V14.0.23.8.4.EP.STDEE.M19_20230804.0000.00_13.0_cn_dcb248ba64.tgz"
+        },
+        {
+          "miui": "V14.0.23.8.4.EP.STDEE.M19",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "sky_ep_stdee_images_V14.0.23.8.4.EP.STDEE.M19_20230804.0000.00_13.0_cn_chinatelecom_2950cfdd6e.tgz"
+        }
+      ]
+    },
+    {
       "code":"sky_eea_global",
       "btag":"F",
       "region":"eea",
