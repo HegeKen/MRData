@@ -15,7 +15,7 @@ from sys import platform
 urls = ["https://mifirmware.com/xiaomi-software-update/","https://mifirmware.com/xiaomi-miui-14/","https://mifirmware.com/xiaomi-firmware/","https://mifirmware.com/xiaomi-software-update/","https://mifirmware.com/stable-beta/"]
 
 options = Options()
-# options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\114.0.1823.79\msedge.exe"
+# options.binary_location = r"C:\Users\Hege\AppData\Local\Microsoft\Edge SxS\Application\118.0.2047.0\msedge.exe"
 driver = webdriver.Edge(options=options)
 for url in urls:
   driver.get(url)
