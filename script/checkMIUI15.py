@@ -50,3 +50,6 @@ for device in devices:
     url = base_url+device+"_pre_miui15&b=X&r="+carrier+"&n="
     getFastboot(url,devdata)
     print("\r"+url+"                                   ",end="")
+    url = base_url+device+"_pre_miui15&b=F&r="+carrier+"&n="
+    getFastboot(url,devdata)
+    print("\r"+url+"                                   ",end="")
