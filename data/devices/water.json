@@ -75,6 +75,12 @@
       "enname": "Europe EEA Stable",
       "links": [
         {
+          "miui": "V14.0.10.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "water_eea_global_images_V14.0.10.0.TGOEUXM_20230821.0000.00_13.0_4e2c9424bf.tgz"
+        },
+        {
           "miui": "V14.0.9.0.TGOEUXM",
           "android": "13.0",
           "recovery": "miui_WATEREEAGlobal_V14.0.9.0.TGOEUXM_4be1d25aca_13.0.zip",
@@ -115,7 +121,7 @@
     {
       "code":"water_eea_hg_global",
       "btag":"F",
-      "region":"eea",
+      "region":"",
       "carrier":[],
       "branch": "euhg",
       "show": "1",
@@ -133,7 +139,7 @@
     {
       "code":"water_eea_by_global",
       "btag":"F",
-      "region":"eea",
+      "region":"",
       "carrier":[],
       "branch": "euby",
       "show": "1",
@@ -217,13 +223,19 @@
     {
       "code":"water_id_global",
       "btag":"F",
-      "region":"id",
+      "region":"",
       "carrier":[],
       "branch": "inns",
       "show": "1",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
+        {
+          "miui": "V14.0.4.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.4.0.TGOIDXM_4275825833_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.4.0.TGOIDXM_20230821.0000.00_13.0_8cf1b54d65.tgz"
+        },
         {
           "miui": "V14.0.3.0.TGOIDXM",
           "android": "13.0",
@@ -283,7 +295,7 @@
     {
       "code":"water_mx_at_global",
       "btag":"F",
-      "region":"global",
+      "region":"",
       "carrier":[],
       "branch": "mxat",
       "show": "1",
@@ -337,7 +349,7 @@
     {
       "code":"water_za_mt_global",
       "btag":"F",
-      "region":"global",
+      "region":"",
       "carrier":[],
       "branch": "zamt",
       "show": "1",

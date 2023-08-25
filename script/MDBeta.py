@@ -37,7 +37,7 @@ def getRom(codename):
         ver = rom_url.split('/')[3]
         recovery = rom_url.split('/')[4]
         android = recovery.split('_')[4].strip(".zip")
-        vers = ["V14.0.23.8.13.DEV","V14.0.23.8.14.DEV","V14.0.23.8.15.DEV"]
+        vers = ["V14.0.23.8.21.DEV"]
         for v in vers:
           if v == ver:
             if platform == "win32":
