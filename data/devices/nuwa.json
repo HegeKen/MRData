@@ -60,16 +60,28 @@
       "code":"nuwa",
       "btag":"X",
       "region":"cn",
-      "carrier":[],
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
         {
+          "miui": "V14.0.23.8.22.DEV",
+          "android": "14.0",
+          "recovery": "miui_NUWA_V14.0.23.8.22.DEV_7af7c43a24_14.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V14.0.23.8.15.DEV",
           "android": "14.0",
           "recovery": "miui_NUWA_V14.0.23.8.15.DEV_4bcc683022_14.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.23.8.21.DEV",
+          "android": "13.0",
+          "recovery": "miui_NUWA_V14.0.23.8.21.DEV_e1592684c1_13.0.zip",
           "fastboot": ""
         },
         {

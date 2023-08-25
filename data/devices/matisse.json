@@ -24,12 +24,18 @@
       "code":"matisse",
       "btag":"X",
       "region":"cn",
-      "carrier":[],
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
       "show": "1",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
+        {
+          "miui": "V14.0.23.8.21.DEV",
+          "android": "13.0",
+          "recovery": "miui_MATISSE_V14.0.23.8.21.DEV_6621836e0b_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.23.8.14.DEV",
           "android": "13.0",

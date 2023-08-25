@@ -18,6 +18,24 @@
   "branches": [
     {
       "code":"babylon",
+      "btag":"X",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cnmp",
+      "show": "1",
+      "cnname": "开发版",
+      "enname": "China Beta",
+      "links": [
+        {
+          "miui": "",
+          "android": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"babylon",
       "btag":"F",
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
