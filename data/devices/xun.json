@@ -17,6 +17,24 @@
   "pcid": "",
   "branches": [
     {
+      "code":"xun_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMUTWXM",
+          "android": "13.0",
+          "recovery": "miui_XUNTWGlobal_V14.0.2.0.TMUTWXM_703d36cb95_13.0.zip",
+          "fastboot": "xun_tw_global_images_V14.0.2.0.TMUTWXM_20230821.0000.00_13.0_tw_1ff4b4f050.tgz"
+        }
+      ]
+    },
+    {
       "code":"xun_global",
       "btag":"F",
       "region":"global",
