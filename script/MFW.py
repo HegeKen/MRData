@@ -52,34 +52,37 @@ for url in urls:
         file.write(pack_name+"\n")
         file.close()
     elif ".tgz" in link:
-      pack_name = link.split('/')[4]
-      flag = link.split('/')[3][-6:]
-      if platform == "win32":
-        flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+      if "DEV" in link:
+        i = 0
       else:
-        flags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
-      if flag in flags:
+        pack_name = link.split('/')[4]
+        flag = link.split('/')[3][-6:]
         if platform == "win32":
-          devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+          flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
         else:
-          devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
-        if pack_name in devdata:
-          i = 0
+          flags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+        if flag in flags:
+          if platform == "win32":
+            devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+          else:
+            devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+          if pack_name in devdata:
+            i = 0
+          else:
+            print("发现未收录版本")
+            if platform == "win32":
+              file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+            else:
+              file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+            file.write(pack_name+"\n")
+            file.close()
         else:
-          print("发现未收录版本")
+          print("发现未收录机型以及版本")
           if platform == "win32":
             file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
           else:
             file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
-          file.write(pack_name+"\n")
+          file.write(flag +"\t"+ pack_name+"\n")
           file.close()
-      else:
-        print("发现未收录机型以及版本")
-        if platform == "win32":
-          file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
-        else:
-          file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
-        file.write(flag +"\t"+ pack_name+"\n")
-        file.close()
     else:
       i = 0
