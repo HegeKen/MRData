@@ -101,6 +101,24 @@
       ]
     },
     {
+      "code":"sky_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TMWTWXM",
+          "android": "13.0",
+          "recovery": "miui_SKYTWGlobal_V14.0.1.0.TMWTWXM_fdd5dac1eb_13.0.zip",
+          "fastboot": "sky_tw_global_images_V14.0.1.0.TMWTWXM_20230728.0000.00_13.0_tw_82946391f5.tgz"
+        }
+      ]
+    },
+    {
       "code":"sky_eea_global",
       "btag":"F",
       "region":"eea",
@@ -132,7 +150,7 @@
           "miui": "V14.0.4.0.TMWINXM",
           "android": "13.0",
           "recovery": "miui_SKYINGlobal_V14.0.4.0.TMWINXM_64a9e18c28_13.0.zip",
-          "fastboot": ""
+          "fastboot": "sky_in_global_images_V14.0.4.0.TMWINXM_20230818.0000.00_13.0_in_501a92aa28.tgz"
         },
         {
           "miui": "V14.0.2.0.TMWINXM",
