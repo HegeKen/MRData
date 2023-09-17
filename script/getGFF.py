@@ -7,7 +7,7 @@ carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 
 
 cnbranches = ["","_demo","_ep_yunke","_ep_stdee","_ep_xy","_ep_kywl","_ep_cqrcb","_ep_ec","_ep_sxht","_ep_yfan","_ep_yx","_ep_stdce",
-              "_ep_xdja","_ep_litee","_ep_yy","_ep_tly","_ep_sdlybjcg","_tl","_ep_tl"]
+              "_ep_xdja","_ep_litee","_ep_yy","_ep_tly","_ep_sdlybjcg","_tl","_ep_tl","_ep_tkgwdl"]
 
 twbranches = ["_tw_global"]
 
