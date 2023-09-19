@@ -1,19 +1,6 @@
 import json
 from sys import platform
 
-# devlist = json.loads(open("static/data/data/getFlags.json", 'r', encoding='utf-8').read())["full"]
-devices = ["agate","alioth","angelica","angelicain","angelican","ares","aries","biloba","bomb","cactus","camellia",
-           "camellian","cannon","cannong","cas","cattail","cetus","chopin","citrus","clover","courbet","cupid",
-           "curtana","curtana_in_rf","dagu","dandelion","dandelion_c3l2","daumier","diting","earth","elish",
-           "enuma","evergo","evergreen","excalibur","fire","fleur","fog","frost","fuxi","gauguin","haydn",
-           "heat","ice","ingres","ishtar","joyeuse","lancelot","light","lightcm","lilac","lime","lisa","liuqin",
-           "lmi","marble","matisse","mayfly","merlin","mojito","mona","mondrian","monet","moonstone","munch","nabu",
-           "nuwa","odin","opal","pearl","pipa","pissarro","pissarroin","plato","psyche","redwood","rembrandt",
-           "renoir","riva","river","rock","rosemary","rosemary_p","rubens","ruby","sea","selene","shennong","shiva",
-           "sky","socrates","spes","spesn","star","sunstone","surya","sweet","sweet_k6a","taoyao","tapas","thor",
-           "thyme","toco","topaz","umi","unicorn","ursa","vangogh","vayu","venus","veux","vida","vili","viva","water",
-           "xaga","xun","yudi","yuechu","yunluo","zeus","zijin","ziyi","zizhan","draco","tissot","jasmine","laurel","tiare","ice","water"]
-
 devices = ["aether","agate","alioth","aliothin","amber","andromeda","angelica","angelicain","angelican","apollo","aqua","ares","aresin",
            "aries","aristotle","armani","atom","babylon","begonia","beryllium","bhima","biloba","bomb","cactus","camellia","camellian",
            "cancro_lte_ct","cancro","cannon","cannong","cappu","capricorn","cas","cattail","cepheus","cereus","cetus","cezanne","chiron",
