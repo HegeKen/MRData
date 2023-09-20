@@ -30,7 +30,7 @@
           "miui": "V14.0.9.0.TMXMIXM",
           "android": "13.0",
           "recovery": "miui_FIREGlobal_V14.0.9.0.TMXMIXM_fdac58873b_13.0.zip",
-          "fastboot": ""
+          "fastboot": "fire_global_images_V14.0.9.0.TMXMIXM_20230822.0000.00_13.0_global_5adbc656ba.tgz"
         },
         {
           "miui": "V14.0.7.0.TMXMIXM",
@@ -66,7 +66,7 @@
           "miui": "V14.0.8.0.TMXEUXM",
           "android": "13.0",
           "recovery": "miui_FIREEEAGlobal_V14.0.8.0.TMXEUXM_890835db3c_13.0.zip",
-          "fastboot": ""
+          "fastboot": "fire_eea_global_images_V14.0.8.0.TMXEUXM_20230829.0000.00_13.0_eea_098c603fda.tgz"
         },
         {
           "miui": "V14.0.7.0.TMXEUXM",
@@ -169,6 +169,24 @@
           "android": "13.0",
           "recovery": "miui_FIREIDGlobal_V14.0.2.0.TMXIDXM_b57eea680f_13.0.zip",
           "fastboot": "fire_id_global_images_V14.0.2.0.TMXIDXM_20230601.0000.00_13.0_id_6fc5fcdca4.tgz"
+        }
+      ]
+    },
+    {
+      "code":"fire_tr_global",
+      "btag":"F",
+      "region":"tr",
+      "carrier":[],
+      "branch": "trks",
+      "show": "1",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMXTRXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "fire_tr_global_images_V14.0.2.0.TMXTRXM_20230626.0000.00_13.0_tr_ff933c5c3f.tgz"
         }
       ]
     }
