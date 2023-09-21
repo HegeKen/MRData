@@ -19,10 +19,10 @@
   "pcid": "",
   "branches": [
     {
-      "code":"yunluo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "yunluo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnmo",
       "show": "1",
       "cnname": "中国大陆正式版",
@@ -43,10 +43,10 @@
       ]
     },
     {
-      "code":"yunluo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "yunluo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
       "show": "1",
       "cnname": "中国大陆稳定版",
@@ -79,10 +79,12 @@
       ]
     },
     {
-      "code":"yunluo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
+      "code": "yunluo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "branch": "ctce",
       "show": "1",
       "cnname": "中国电信定制版",
@@ -109,10 +111,12 @@
       ]
     },
     {
-      "code":"yunluo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "yunluo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
       "show": "1",
       "cnname": "中国移动定制版",
@@ -127,10 +131,15 @@
       ]
     },
     {
-      "code":"yunluo_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "yunluo_ep_stdee",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "stde",
       "show": "0",
       "cnname": "中国大陆STDEE",
@@ -145,10 +154,15 @@
       ]
     },
     {
-      "code":"yunluo_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "yunluo_demo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cndm",
       "show": "0",
       "cnname": "中国大陆Demo",
@@ -175,10 +189,10 @@
       ]
     },
     {
-      "code":"yunluo_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
+      "code": "yunluo_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
       "branch": "cntw",
       "show": "1",
       "cnname": "中国台湾地区稳定版",
@@ -211,15 +225,21 @@
       ]
     },
     {
-      "code":"yunluo_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "yunluo_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mgbs",
       "show": "1",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
+        {
+          "miui": "V14.0.3.0.TLYMIXM",
+          "android": "13.0",
+          "recovery": "miui_YUNLUOGlobal_V14.0.3.0.TLYMIXM_f960c3beed_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.2.0.TLYMIXM",
           "android": "13.0",
@@ -247,15 +267,21 @@
       ]
     },
     {
-      "code":"yunluo_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "yunluo_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eeas",
       "show": "1",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
+        {
+          "miui": "V14.0.4.0.TLYEUXM",
+          "android": "13.0",
+          "recovery": "miui_YUNLUOEEAGlobal_V14.0.4.0.TLYEUXM_741fd2df83_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.3.0.TLYEUXM",
           "android": "13.0",
@@ -289,10 +315,10 @@
       ]
     },
     {
-      "code":"yunluo_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
+      "code": "yunluo_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
       "branch": "russ",
       "show": "1",
       "cnname": "俄罗斯稳定版",
@@ -337,10 +363,10 @@
       ]
     },
     {
-      "code":"yunluo_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
+      "code": "yunluo_in_global",
+      "btag": "F",
+      "region": "in",
+      "carrier": [],
       "branch": "inds",
       "show": "1",
       "cnname": "印度稳定版",
@@ -379,10 +405,10 @@
       ]
     },
     {
-      "code":"yunluo_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
+      "code": "yunluo_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
       "branch": "inns",
       "show": "1",
       "cnname": "印度尼西亚稳定版",
@@ -415,10 +441,10 @@
       ]
     },
     {
-      "code":"yunluo_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
+      "code": "yunluo_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
       "branch": "trks",
       "show": "1",
       "cnname": "土耳其稳定版",
