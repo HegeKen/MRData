@@ -22,15 +22,33 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
+          "miui": "V14.0.1.0.TNQCNXM",
+          "android": "13.0",
           "recovery": "",
-          "fastboot": ""
+          "fastboot": "gold_images_V14.0.1.0.TNQCNXM_20230901.0000.00_13.0_cn_8d2cf4f43b.tgz"
+        }
+      ]
+    },
+    {
+      "code":"gold",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNQCNXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "gold_images_V14.0.1.0.TNQCNXM_20230901.0000.00_13.0_cn_chinatelecom_f68bc3713c.tgz"
         }
       ]
     }
