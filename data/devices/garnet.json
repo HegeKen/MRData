@@ -20,19 +20,37 @@
       "code":"garnet",
       "btag":"F",
       "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "carrier":["","chinamobile","chinaunicom"],
       "branch": "cnmo",
       "show": "0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
+          "miui": "V14.0.8.0.TNRCNXM",
+          "android": "13.0",
+          "recovery": "miui_GARNET_V14.0.8.0.TNRCNXM_6853b0ab97_13.0.zip",
+          "fastboot": "garnet_images_V14.0.8.0.TNRCNXM_20230917.0000.00_13.0_cn_df933e2ed2.tgz"
         }
       ]
+    },
+    {
+      "code":"garnet",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "show": "1",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+          {
+          "miui": "V14.0.8.0.TNRCNXM",
+          "android": "13.0",
+          "recovery": "miui_GARNET_V14.0.8.0.TNRCNXM_6853b0ab97_13.0.zip",
+          "fastboot": "garnet_images_V14.0.8.0.TNRCNXM_20230917.0000.00_13.0_cn_chinatelecom_46bfb5897f.tgz"
+          }
+          ]
     }
   ]
 }
