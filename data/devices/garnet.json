@@ -22,7 +22,7 @@
       "region":"cn",
       "carrier":["","chinamobile","chinaunicom"],
       "branch": "cnmo",
-      "show": "0",
+      "show": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -31,6 +31,18 @@
           "android": "13.0",
           "recovery": "miui_GARNET_V14.0.8.0.TNRCNXM_6853b0ab97_13.0.zip",
           "fastboot": "garnet_images_V14.0.8.0.TNRCNXM_20230917.0000.00_13.0_cn_df933e2ed2.tgz"
+        },
+        {
+          "miui": "V14.0.7.0.TNRCNXM",
+          "android": "13.0",
+          "recovery": "miui_GARNET_V14.0.7.0.TNRCNXM_19ead7d071_13.0.zip",
+          "fastboot": "garnet_images_V14.0.7.0.TNRCNXM_20230917.0000.00_13.0_cn_861f6333e5.tgz"
+        },
+        {
+          "miui": "V14.0.1.0.TNRCNXM",
+          "android": "13.0",
+          "recovery": "miui_GARNET_V14.0.1.0.TNRCNXM_bbb2dfd7bd_13.0.zip",
+          "fastboot": ""
         }
       ]
     },
@@ -44,13 +56,44 @@
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
-          {
+        {
           "miui": "V14.0.8.0.TNRCNXM",
           "android": "13.0",
           "recovery": "miui_GARNET_V14.0.8.0.TNRCNXM_6853b0ab97_13.0.zip",
           "fastboot": "garnet_images_V14.0.8.0.TNRCNXM_20230917.0000.00_13.0_cn_chinatelecom_46bfb5897f.tgz"
-          }
-          ]
+        },
+        {
+          "miui": "V14.0.7.0.TNRCNXM",
+          "android": "13.0",
+          "recovery": "miui_GARNET_V14.0.7.0.TNRCNXM_19ead7d071_13.0.zip",
+          "fastboot": "garnet_images_V14.0.7.0.TNRCNXM_20230917.0000.00_13.0_cn_chinatelecom_2455aa219d.tgz"
+        }
+      ]
+    },
+    {
+      "code":"garnet_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cndm",
+      "show": "0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TNRCNDM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "garnet_demo_images_V14.0.4.0.TNRCNDM_20230920.0000.00_13.0_cn_c264c982a5.tgz"
+        },
+        {
+          "miui": "V14.0.4.0.TNRCNDM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "garnet_demo_images_V14.0.4.0.TNRCNDM_20230920.0000.00_13.0_cn_chinatelecom_00649367b4.tgz"
+        }
+      ]
     }
   ]
 }
+
