@@ -7,41 +7,32 @@ import json
 from Crypto.Util.Padding import pad
 
 dedata = {
-    "a" : "0", # Don't know what this is.
-    "c" : "7.0", # Same as 'c' above, it's the Android version.
-    "b" : "F", # Same as above, 'X' for weekly build.
-    "d" : "mido_global", # The device name, same as above, chiron for Chinese, chiron_global for global.
-    "g" : "00000000000000000000000000000000", # This seems to be the android_id of the device. Maybe encoded somehow.
-    "cts" : "0", # I don't know what this is.
-    "i" : "0000000000000000000000000000000000000000000000000000000000000000", # This seems to be the imei of the device, obviously encoded somehow.
-    "isR" : "0", # I don't know what this is.
-    "f" : "1", # I don't know what this is.
-    "l" : "en_US", # The locale.
-    "n" : "",  # I don't know what this parameter is
-    "sys" : "0", # I don't know what this is.
-    "p" : "msm8953", # The chipset
-    "unlock" : "1",  # 1 means bootloader is unlocked. 0 means locked.
-    "r" : "CN", # I don't know what this is, maybe region of device?
-    "sn" : "0x00000000", # Probably the serial number of the device, maybe encoded somehow.
-    "v" : "MIUI-V9.0.5.0.NCFMIEI", # The version of MIUI installed.
-    "bv" : "9", # I don't know what this is.
-    "id" : "", # I don't' know what this is.
+    "a":"0",
+  "b":"F",
+  "c":"11",
+  "unlock":"0",
+  "d":"raphael",
+  "lockZoneChannel":"",
+  "f":"2",
+  "g":"a3e178346e97182fa11631a197801c4d",
+  "channel":"",
+  "i":"4178f5336815cc2a4641611c1619834817ab14bd0b4c7396a55be2f172c95a56",
+  "i2":"b92243889a47bc62dc8b5fb4f50ce60c373553e4221d3ebc4b3bd9791ccaa0a7",
+  "isR":"0",
+  "l":"zh_CN",
+  "sys":"0",
+  "n":"",
+  "p":"raphael",
+  "r":"CN",
+  "bv":"140",
+  "v":"v12.5.5.0.RFKCNXM",
+  "id":"2303711789",
+  "sn":"0x77309938",
+  "sdk":"30",
+  "pn":"raphael",
+  "options":{"zone":1,"hashId":"2371ef99a72a282c","ab":"1","previewPlan":"0","sv":3,"av":"8.1.6","cv":""}
 }
 
-# dedata = {
-#     "b" : "F", # Same as above, 'X' for weekly build.
-#     "c" : "7.1.2", # Same as 'c' above, it's the Android version.
-#     "d" : "vince_global", # The device name, same as above, chiron for Chinese, chiron_global for global.
-#     "f" : "1", # I don't know what this is.
-#     "id" : "", # This seems to be the imei of the device, obviously encoded somehow.
-#     "isR" : "0", # I don't know what this is.
-#     "l" : "fr-FR", # The locale.
-#     "n" : "",  # I don't know what this parameter is
-#     "r" : "FR", # I don't know what this is, maybe region of device?
-#     "sid" : "2", # Probably the serial number of the device, maybe encoded somehow.
-#     "sn" : "0xc67d1d89", # Probably the serial number of the device, maybe encoded somehow.
-#     "v" : "V9.5.11.0.NEGMIFA", # The version of MIUI installed.
-# }
 
 
 miui_key = b'miuiotavalided11'
