@@ -877,7 +877,15 @@ def getDeviceCode(filename):
     codename = flags[flag]
     return codename
   elif ".tgz" in filename:
-    codename = filename.split('_')[0]
+    if "_c3l2_" in filename:
+      codename = "dandelion_c3l2"
+    elif "_k6a_" in filename:
+      codename = "sweet_k6a"
+    else:
+      codename = filename.split('_')[0]
+      if codename == "sweetin":
+        codename = "sweet"
+      elif codename == "an":
     return codename
 def checkExit(filename):
   if "blockota" in filename:
