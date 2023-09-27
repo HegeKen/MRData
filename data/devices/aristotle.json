@@ -1,7 +1,7 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
+  "codename": "aristotle",
+  "cnname": "小米 13T",
+  "enname": "Xiaomi 13T",
   "attentions": [
     {
       "cn": "",
@@ -19,17 +19,47 @@
     {
       "code":"",
       "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmo",
-      "show": "0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
       "links": [
         {
-          "miui": "",
-          "android": "",
-          "recovery": "",
+          "miui": "V14.0.5.0.TMFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ARISTOTLEGlobal_V14.0.5.0.TMFMIXM_21bab9eb7e_13.0.zip",
+          "fastboot": "aristotle_global_images_V14.0.5.0.TMFMIXM_20230913.0000.00_13.0_global_6fb4759ad5.tgz"
+        }
+      ]
+    },
+    {
+      "code":"aristotle_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.10.0.TMFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.10.0.TMFEUXM_eb6ba4ab46_13.0.zip",
+          "fastboot": "aristotle_eea_global_images_V14.0.10.0.TMFEUXM_20230913.0000.00_13.0_eea_3aac1d60db.tgz"
+        },
+        {
+          "miui": "V14.0.9.0.TMFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.9.0.TMFEUXM_2cd5f53ef5_13.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.7.0.TMFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.7.0.TMFEUXM_e564ede01d_13.0.zip",
           "fastboot": ""
         }
       ]

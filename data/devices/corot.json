@@ -141,6 +141,96 @@
           "fastboot": "corot_demo_images_V14.0.3.0.TMLCNDM_20230810.0000.00_13.0_cn_chinatelecom_9f667deb6f.tgz"
         }
       ]
+    },
+    {
+      "code":"corot_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.5.0.TMLTWXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTWGlobal_V14.0.5.0.TMLTWXM_38c9f01571_13.0.zip",
+          "fastboot": "corot_tw_global_images_V14.0.5.0.TMLTWXM_20230913.0000.00_13.0_tw_f3ac4df6d1.tgz"
+        }
+      ]
+    },
+    {
+      "code":"corot_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "show": "1",
+      "cnname": "国际稳定版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.6.0.TMLMIXM",
+          "android": "13.0",
+          "recovery": "miui_COROTGlobal_V14.0.6.0.TMLMIXM_a1b38beda4_13.0.zip",
+          "fastboot": "corot_global_images_V14.0.6.0.TMLMIXM_20230828.0000.00_13.0_global_0936653517.tgz"
+        }
+      ]
+    },
+    {
+      "code":"corot_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "show": "1",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.11.0.TMLEUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTEEAGlobal_V14.0.11.0.TMLEUXM_9908b54d89_13.0.zip",
+          "fastboot": "corot_eea_global_images_V14.0.11.0.TMLEUXM_20230922.0000.00_13.0_eea_d934197240.tgz"
+        }
+      ]
+    },
+    {
+      "code":"corot_ru_global",
+      "btag":"F",
+      "region":"ru",
+      "carrier":[],
+      "branch": "russ",
+      "show": "1",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMLRUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTRUGlobal_V14.0.2.0.TMLRUXM_559af50e54_13.0.zip",
+          "fastboot": "corot_ru_global_images_V14.0.2.0.TMLRUXM_20230906.0000.00_13.0_ru_c4aeaafff5.tgz"
+        }
+      ]
+    },
+    {
+      "code":"corot_tr_global",
+      "btag":"F",
+      "region":"tr",
+      "carrier":[],
+      "branch": "trks",
+      "show": "1",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMLTRXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTRGlobal_V14.0.2.0.TMLTRXM_a53cd89a9f_13.0.zip",
+          "fastboot": "corot_tr_global_images_V14.0.2.0.TMLTRXM_20230821.0000.00_13.0_tr_4090563e30.tgz"
+        }
+      ]
     }
   ]
 }
