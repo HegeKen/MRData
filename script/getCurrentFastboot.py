@@ -2,7 +2,7 @@ import requests
 import json
 from sys import platform
 
-devices = ["garnet","zircon","gold","river","xun","babylon","corot","yudi","sky","pearl","marble","yuechu","sea","fire","sweet_k6a","ishtar","pipa","liuqin",
+devices = ["aristotle","garnet","zircon","gold","river","xun","babylon","corot","yudi","sky","pearl","marble","yuechu","sea","fire","sweet_k6a","ishtar","pipa","liuqin",
            "water","tapas","topaz","umi","cmi","monet","vangogh","cas","thyme",
            "venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly",
            "unicorn","thor","taoyao","plato","fuxi","nuwa","toco","cetus","odin","zizhan","nabu","elish","enuma","dagu","mona",
