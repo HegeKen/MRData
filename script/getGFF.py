@@ -65,7 +65,7 @@ def getFastboot(url,devdata):
 
 
 
-devices = ["aristotle","corot","duchamp","garnet","zircon","gold","sapphiren","sapphire","aurora","manet","vermeer","river","xun","babylon","fire","sky","heat","houji","shennong","pipa","yudi","yuechu","pearl",
+devices = ["aristotle","river","corot","duchamp","garnet","zircon","gold","sapphiren","sapphire","aurora","manet","vermeer","xun","babylon","fire","sky","heat","houji","shennong","pipa","yudi","yuechu","pearl",
            "ishtar","sweet_k6a","liuqin","marble","water","tapas","topaz","monet","vangogh","thyme",
            "venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly",
            "unicorn","thor","taoyao","plato","fuxi","nuwa","toco","cetus","odin","zizhan","nabu","elish","enuma","dagu","mona",

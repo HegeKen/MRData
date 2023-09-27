@@ -35,9 +35,16 @@ for device in devices:
             i = 0
             # print(device + branch["cnname"] +rom["miui"] + "check passed")
           else:
-            print(device +"\t"+ branch["cnname"] +"\t"+rom["miui"] +"\t"+ "check failed")
+            print(device +"\t"+ branch["cnname"] +"\t"+rom["miui"] +"\t"+ " android version check failed")
+          if rom["miui"] in rom["fastboot"]:
+            i = 0
+            # print(device + branch["cnname"] +rom["miui"] + "check passed")
+          else:
+            print(device +"\t"+ branch["cnname"] +"\t"+rom["miui"] +"\t"+ " miui version check failed")
         elif rom["android"] in rom["recovery"]:
           i = 0
           # print(device + branch["cnname"] +rom["miui"] + "check passed")
+        elif rom["miui"] in rom["recovery"]:
+          i = 0
         else:
           print(device +"\t"+ branch["cnname"] +"\t"+rom["miui"] +"\t"+ "check failed")

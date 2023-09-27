@@ -17,6 +17,24 @@
   "pcid": "",
   "branches": [
     {
+      "code":"aristotle_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "show": "1",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMFTWXM",
+          "android": "13.0",
+          "recovery": "miui_ARISTOTLETWGlobal_V14.0.3.0.TMFTWXM_ad5a25c50c_13.0.zip",
+          "fastboot": "aristotle_tw_global_images_V14.0.3.0.TMFTWXM_20230918.0000.00_13.0_tw_ff4ddf12a2.tgz"
+        }
+      ]
+    },
+    {
       "code":"aristotle_global",
       "btag":"F",
       "region":"global",
@@ -77,7 +95,7 @@
         {
           "miui": "V14.0.3.0.TMFIDXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_ARISTOTLEIDGlobal_V14.0.3.0.TMFIDXM_6b69f9d1f6_13.0.zip",
           "fastboot": "aristotle_id_global_images_V14.0.3.0.TMFIDXM_20230919.0000.00_13.0_id_de891a7d39.tgz"
         }
       ]
@@ -95,7 +113,7 @@
         {
           "miui": "V14.0.3.0.TMFTRXM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_ARISTOTLETRGlobal_V14.0.3.0.TMFTRXM_e422fc3eae_13.0.zip",
           "fastboot": "aristotle_tr_global_images_V14.0.3.0.TMFTRXM_20230919.0000.00_13.0_tr_55d7eaa662.tgz"
         }
       ]
