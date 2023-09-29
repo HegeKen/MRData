@@ -22,6 +22,7 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
+      "pn":"cepheus",
       "show": "1",
       "cnname": "开发版",
       "enname": "China Beta",
@@ -2631,6 +2632,7 @@
       "btag":"F",
       "region":"cn",
       "carrier":[],
+      "pn":"cepheus",
       "branch": "cnms",
       "show": "1",
       "cnname": "中国大陆稳定版",
@@ -2818,6 +2820,7 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "pn":"cepheus",
       "show": "1",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
@@ -2837,6 +2840,7 @@
       "carrier":["chinamobile"],
       "branch": "ctcm",
       "show": "1",
+      "pn":"cepheus",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -2853,6 +2857,7 @@
       "btag":"X",
       "region":"global",
       "carrier":[],
+      "pn":"cepheus_global",
       "branch": "mgbb",
       "show": "1",
       "cnname": "国际开发版",
@@ -2967,6 +2972,7 @@
       "btag":"F",
       "region":"global",
       "carrier":[],
+      "pn":"cepheus_global",
       "branch": "mgbs",
       "show": "1",
       "cnname": "国际稳定版",
@@ -3099,6 +3105,7 @@
       "btag":"F",
       "region":"eea",
       "carrier":[],
+      "pn":"cepheus_eea",
       "branch": "eeas",
       "show": "1",
       "cnname": "欧洲EEA稳定版",
@@ -3243,6 +3250,7 @@
       "btag":"F",
       "region":"eea",
       "carrier":[],
+      "pn":"cepheus_eea",
       "branch": "euor",
       "show": "1",
       "cnname": "欧洲Orange运营商定制版",
@@ -3251,7 +3259,7 @@
         {
           "miui": "V12.0.6.0.QFAEUOR",
           "android": "10.0",
-          "recovery": "",
+          "recovery": "miui_CEPHEUSEEAORGlobal_V12.0.6.0.QFAEUOR_efef34dc1a_10.0.zip",
           "fastboot": "cepheus_eea_or_global_images_V12.0.6.0.QFAEUOR_20210828.0000.00_10.0_eea_9f7f7336c0.tgz"
         }
       ]
@@ -3261,6 +3269,7 @@
       "btag":"F",
       "region":"eea",
       "carrier":[],
+      "pn":"cepheus_eea",
       "branch": "euvf",
       "show": "1",
       "cnname": "欧洲Vodafone运营商定制版",
@@ -3269,8 +3278,39 @@
         {
           "miui": "V12.0.6.0.QFAEUVF",
           "android": "10.0",
-          "recovery": "",
+          "recovery": "miui_CEPHEUSEEAVFGlobal_V12.0.6.0.QFAEUVF_4a7512ad1d_10.0.zip",
           "fastboot": "cepheus_eea_vf_global_images_V12.0.6.0.QFAEUVF_20210506.0000.00_10.0_eea_1757fd6d37.tgz"
+        }
+      ]
+    },
+    {
+      "code":"cepheus_eea_hg_global",
+      "btag":"F",
+      "region":"hg",
+      "carrier":[],
+      "pn":"cepheus_eea",
+      "branch": "euhg",
+      "show": "1",
+      "cnname": "欧洲ThreeHK运营商定制版",
+      "enname": "Europe ThreeHK Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.0.2.0.QFAEUHG",
+          "android": "10.0",
+          "recovery": "miui_CEPHEUSEEAHGGlobal_V12.0.2.0.QFAEUHG_912333db22_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.19.0.PFAEUHG",
+          "android": "9.0",
+          "recovery": "miui_CEPHEUSEEAHGGlobal_V10.2.19.0.PFAEUHG_0c7c7657fb_9.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V10.2.4.0.PFAEUHG",
+          "android": "9.0",
+          "recovery": "",
+          "fastboot": "cepheus_eea_hg_global_images_V10.2.4.0.PFAEUHG_20190329.0000.00_9.0_global_26f05eb5e3.tgz"
         }
       ]
     },
@@ -3279,6 +3319,7 @@
       "btag":"F",
       "region":"ru",
       "carrier":[],
+      "pn":"cepheus_ru",
       "branch": "russ",
       "show": "1",
       "cnname": "俄罗斯稳定版",
@@ -3357,6 +3398,7 @@
       "btag":"F",
       "region":"global",
       "carrier":[],
+      "pn":"cepheus_lm_cr",
       "branch": "lmcr",
       "show": "1",
       "cnname": "拉丁美洲Claro运营商定制版",
@@ -3371,33 +3413,22 @@
       ]
     },
     {
-      "code":"cepheus_eea_hg_global",
-      "btag":"F",
-      "region":"hg",
-      "carrier":[],
-      "branch": "euhg",
-      "show": "1",
-      "cnname": "欧洲ThreeHK运营商定制版",
-      "enname": "Europe ThreeHK Carrier Edition",
-      "links": [
-        {
-          "miui": "V10.2.4.0.PFAEUHG",
-          "android": "9.0",
-          "recovery": "",
-          "fastboot": "cepheus_eea_hg_global_images_V10.2.4.0.PFAEUHG_20190329.0000.00_9.0_global_26f05eb5e3.tgz"
-        }
-      ]
-    },
-    {
       "code":"cepheus_mx_tc_global",
       "btag":"F",
       "region":"global",
       "carrier":[],
+      "pn":"cepheus_mx_tc",
       "branch": "mxtc",
       "show": "1",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
+        {
+          "miui": "V11.0.9.0.QFAMXTC",
+          "android": "10.0",
+          "recovery": "miui_CEPHEUSMXTCGlobal_V11.0.9.0.QFAMXTC_78fe127864_10.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V10.2.11.0.PFAMXTC",
           "android": "9.0",

@@ -1,8 +1,13 @@
 import json
 from sys import platform
+import urllib
+import base64
+from Crypto.Cipher import AES
+import json
+from Crypto.Util.Padding import pad
 import requests
 
-
+test = ["cepheus"]
 currentBeta = ["cupid","zeus","daumier","mayfly","unicorn","thor","fuxi","fuxi","nuwa","nuwa","ishtar","zizhan","babylon","dagu","rubens","matisse","ingres","diting","mondrian","socrates"]
 currentStable = ["aristotle","umi","cmi","monet","vangogh","cas","thyme","venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly","unicorn","thor","taoyao","plato","fuxi","nuwa","ishtar","cetus","odin","zizhan","babylon","nabu","elish","enuma","dagu","pipa","liuqin","yudi","mona","zijin","ziyi","yuechu","lancelot","dandelion","angelica","angelican","cattail","dandelion_c3l2","fog","fire","earth","biloba","merlin","lime","cannon","gauguin","joyeuse","excalibur","curtana","mojito","curtana_in_rf","sweet","camellia","chopin","rosemary","lilac","selene","evergo","pissarro","spes","spesn","veux","fleur","viva","vida","light","lightcm","opal","xaga","sunstone","sky","ruby","redwood","marble","pearl","tapas","topaz","sweet_k6a","sea","gold","garnet","zircon","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens","matisse","diting","mondrian","socrates","corot","rembrandt","yunluo","xun","ice","water","angelicain","frost","evergreen","rock","rosemary_p","surya","vayu","moonstone"]
 newDevices = ["duchamp","sapphiren","sapphire","aurora","manet","vermeer","aristotle","houji","shennong","garnet","zircon","gold",]
@@ -14,6 +19,9 @@ flags = {
     "MI2": "aries","MI2Beta": "aries","MI2HK": "aries","MI2TW": "aries","NativeMI2": "aries","MI2Global": "aries",
     "MI2A": "taurus","MI2ABeta": "taurus","NativeMI2A": "taurus",
     "MI3TD": "pisces",
+    "CEPHEUSEEAORGlobal":"cepheus",
+    "CEPHEUSEEAVFGlobal":"cepheus",
+    "CEPHEUSEEAHGGlobal":"cepheus",
     "XUN": "xun",
     "MI3W": "cancro",
     "Mione": "mione_plus",
@@ -1583,6 +1591,7 @@ flags = {
     "diting_lm_cr_global": "diting",
     "diting_mx_at_global": "diting",
     "diting_jp_global": "diting",
+    "THYMEDEMO":"thyme",
     "mondrian": "mondrian",
     "mondrian_demo": "mondrian",
     "mondrian_ep_stdee": "mondrian",
@@ -1681,24 +1690,149 @@ def writeData(filename):
   file.write(filename+"\n")
   file.close()
 
+def writeFlag(flag):
+  if platform == "win32":
+    file = open("static/data/scripts/Flags.json", "a", encoding='utf-8')
+  else:
+    file = open("/sdcard/Codes/NuxtMR/static/data/scripts/Flags.json", "a", encoding='utf-8')
+  file.write("\""+flag+"\":\"\",\n")
+  file.close()
 def getDeviceCode(filename):
   if ".zip" in filename:
     flag = filename.split('_')[1]
-    codename = flags[flag]
-    return codename
+    if flag in flags:
+      codename = flags[flag]
+      return codename
+    else:
+      writeFlag(flag)
+      return 0
   elif ".tgz" in filename:
     flag = filename.split('_images')[0]
     codename = flags[flag]
-    return codename
+    if flag in flags:
+      codename = flags[flag]
+      return codename
+    else:
+      writeFlag(flag)
+      return 0
   elif ".exe" in filename:
     flag = filename.split('_')[1]
     codename = flags[flag]
-    return codename
+    if flag in flags:
+      codename = flags[flag]
+      return codename
+    else:
+      writeFlag(flag)
+      return 0
 def checkExit(filename):
   if "blockota" in filename:
     i = 0
   else:
-    if filename in localData(getDeviceCode(filename)):
+    if getDeviceCode(filename) == 0:
+      writeData(filename)
+    elif filename in localData(getDeviceCode(filename)):
       i = 0
     else:
       writeData(filename)
+
+miui_key = b"miuiotavalided11"
+miui_iv = b"0102030405060708"
+check_url = "https://update.miui.com/updates/miotaV3.php"
+
+
+def miui_decrypt(encrypted_response):
+  decipher = AES.new(miui_key,AES.MODE_CBC,miui_iv)
+  decrypted = decipher.decrypt(base64.b64decode(encrypted_response))
+  plaintext = decrypted.decode("utf-8").strip()
+  pos = plaintext.rfind("}")
+  if pos != -1:
+    return json.loads(plaintext[:pos + 1])
+  else:
+    return json.loads(plaintext)
+
+def miui_encrypt(json_request):
+  cipher = AES.new(miui_key,AES.MODE_CBC,miui_iv)
+  cipher_text = cipher.encrypt(pad(bytes(str(json_request),encoding="ascii"),AES.block_size))
+  encrypted_request = urllib.parse.quote(base64.b64encode(cipher_text).decode("utf-8")).replace("/","%2F")
+  return encrypted_request
+
+MiOTAForm = {
+  "a":"0",
+  "b":"X",
+  "c":"14",
+  "unlock":"0",
+  "d":"fuxi",
+  "lockZoneChannel":"",
+  "f":"1",
+  "g":"a3e178346e97182fa11631a197801c4d",
+  "channel":"",
+  "i":"4178f5336815cc2a4641611c1619834817ab14bd0b4c7396a55be2f172c95a56",
+  "i2":"b92243889a47bc62dc8b5fb4f50ce60c373553e4221d3ebc4b3bd9791ccaa0a7",
+  "isR":"0",
+  "l":"zh_CN",
+  "sys":"0",
+  "n":"",
+  "p":"fuxi",
+  "r":"CN",
+  "bv":"12",
+  "v":"MIUI-V14.0.23.9.12.DEV",
+  "id":"",
+  "sn":"0x77309938",
+  "sdk":"29",
+  "pn":"fuxi",
+  "options":{"zone":1,"hashId":"2371ef99a72a282c","ab":"0","previewPlan":"0","sv":3,"av":"8.1.6","cv":"V14.0.23.9.12.DEV"}}
+MiOTAForm2 = {
+  "a":"0",
+  "b":"F",
+  "c":"10",
+  "unlock":"0",
+  "d":"cepheus_eea_or_global",
+  "f":"1",
+  "g":"a3e178346e97182fa11631a197801c4d",
+  "channel":"",
+  "isR":"0",
+  "l":"zh_CN",
+  "sys":"0",
+  "n":"",
+  "r":"GB",
+  "bv":"12",
+  "v":"MIUI-V2.0.6.0.QFAEUOR",
+  "id":"",
+  "sn":"0x77309938",
+  "sdk":"29",
+  "pn":"cepheus_eea",
+  "options":{"zone":2,"hashId":"2371ef99a72a282c","ab":"0","previewPlan":"0"}}
+
+def getFromApi(encrypted_data,device):
+  headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
+           "Connection": "Keep-Alive",
+           "Content-Type":"application/x-www-form-urlencoded",
+           "Cache-Control":"no-cache",
+           "Host":"update.miui.com",
+           "Accept-Encoding":"gzip",
+           "Content-Length":"795",
+           "Cookie":"serviceToken=;"
+           }
+  data = "q=" + encrypted_data + "&s=1&t="
+  if platform == "win32":
+    devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  else:
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  response = requests.post(check_url, headers=headers, data=data)
+  print("\r"+"正在抓取"+devdata["cnname"]+"(" + devdata["codename"]+")                  ",end="")
+  if "code" in response.text:
+    print(json.loads(response.text)["desc"])
+  else:
+    data = miui_decrypt(response.text.split("q=")[0])
+    if "LatestRom" in data:
+      package = data["LatestRom"]["filename"].split("?")[0]
+      print(package)
+      checkExit(package)
+    elif "CrossRom" in data:
+      package = data["CrossRom"]["filename"].split("?")[0]
+      checkExit(package)
+      print(package)
+      i = 0
+    else:
+      print(data)
+      i = 0

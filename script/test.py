@@ -40,7 +40,7 @@ miui_iv = b'0102030405060708'
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 def decipher(en_resp):
-  aes = AES.new(miui_key,AES.MODE_CBC,miui_iv)
+  aes = AES.new(b'bWl1aW90YXZhbGlkZWQxMQ==',AES.MODE_CBC,miui_iv)
   resp = aes.decrypt(base64.b64decode(urllib.parse.unquote(en_resp)))
   print(resp)
 
