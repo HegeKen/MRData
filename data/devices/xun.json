@@ -72,7 +72,7 @@
           "miui": "V14.0.3.0.TMUTWXM",
           "android": "13.0",
           "recovery": "miui_XUNTWGlobal_V14.0.3.0.TMUTWXM_d3283e7fa8_13.0.zip",
-          "fastboot": ""
+          "fastboot": "xun_tw_global_images_V14.0.3.0.TMUTWXM_20230911.0000.00_13.0_tw_65a2d24263.tgz"
         },
         {
           "miui": "V14.0.2.0.TMUTWXM",
@@ -124,13 +124,53 @@
           "miui": "V14.0.3.0.TMUEUXM",
           "android": "13.0",
           "recovery": "miui_XUNEEAGlobal_V14.0.3.0.TMUEUXM_f8cfc20eb5_13.0.zip",
-          "fastboot": ""
+          "fastboot": "xun_eea_global_images_V14.0.3.0.TMUEUXM_20230911.0000.00_13.0_eea_65d877a3a4.tgz"
         },
         {
           "miui": "V14.0.2.0.TMUEUXM",
           "android": "13.0",
           "recovery": "miui_XUNEEAGlobal_V14.0.2.0.TMUEUXM_554aceee21_13.0.zip",
           "fastboot": "xun_eea_global_images_V14.0.2.0.TMUEUXM_20230811.0000.00_13.0_eea_6a97594460.tgz"
+        }
+      ]
+    },
+    {
+      "code":"xun_ru_global",
+      "btag":"F",
+      "region":"ru",
+      "carrier":[],
+      "branch": "russ",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "俄罗斯稳定版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMURUXM",
+          "android": "13.0",
+          "recovery": "miui_XUNRUGlobal_V14.0.3.0.TMURUXM_227195cb8f_13.0.zip",
+          "fastboot": "xun_ru_global_images_V14.0.3.0.TMURUXM_20230912.0000.00_13.0_ru_386f6df6ae.tgz"
+        }
+      ]
+    },
+    {
+      "code":"xun_in_global",
+      "btag":"F",
+      "region":"in",
+      "carrier":[],
+      "branch": "inds",
+      "zone":"2",
+      "show": "0",
+      "ep":"0",
+      "cnname": "印度稳定版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "V14.0.0.2.TMUINXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": ""
         }
       ]
     },
@@ -150,13 +190,33 @@
           "miui": "V14.0.4.0.TMUIDXM",
           "android": "13.0",
           "recovery": "miui_XUNIDGlobal_V14.0.4.0.TMUIDXM_5198cb8c3f_13.0.zip",
-          "fastboot": ""
+          "fastboot": "xun_id_global_images_V14.0.4.0.TMUIDXM_20230911.0000.00_13.0_id_a159855309.tgz"
         },
         {
           "miui": "V14.0.1.0.TMUIDXM",
           "android": "13.0",
           "recovery": "miui_XUNIDGlobal_V14.0.1.0.TMUIDXM_84b7471545_13.0.zip",
           "fastboot": "xun_id_global_images_V14.0.1.0.TMUIDXM_20230725.0000.00_13.0_id_d3b0fcf704.tgz"
+        }
+      ]
+    },
+    {
+      "code":"xun_tr_global",
+      "btag":"F",
+      "region":"tr",
+      "carrier":[],
+      "branch": "trks",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "土耳其稳定版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMUTRXM",
+          "android": "13.0",
+          "recovery": "miui_XUNTRGlobal_V14.0.3.0.TMUTRXM_59b1f40f01_13.0.zip",
+          "fastboot": "xun_tr_global_images_V14.0.3.0.TMUTRXM_20230920.0000.00_13.0_tr_4e759002d1.tgz"
         }
       ]
     }

@@ -48,7 +48,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 #             i = 0
 #         latest = link["android"]
 
-for device in common.fullDevices:
+for device in common.currentStable:
   if platform == "win32":
     devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   else:
