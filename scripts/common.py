@@ -1813,6 +1813,8 @@ flags = {
     "vayu_ru_global": "vayu",
     "vayu_in_global": "vayu",
     "vayu_id_global": "vayu",
+    "xun_ru_global":"xun",
+    "xun_tr_global":"xun",
     "vayu_tr_global": "vayu",
     "moonstone_tw_global": "moonstone",
     "moonstone_global": "moonstone",
