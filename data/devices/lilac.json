@@ -22,7 +22,9 @@
       "region":"jp",
       "carrier":[],
       "branch": "japs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "日本稳定版",
       "enname": "Japan Stable",
       "links": [
@@ -64,10 +66,18 @@
       "region":"global",
       "carrier":[],
       "branch": "jpsb",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "日本SoftBank运营商定制版",
       "enname": "Japan Stable SoftBank Carrier Edtion",
       "links": [
+        {
+          "miui": "V14.0.6.0.TKNJPSB",
+          "android": "13.0",
+          "recovery": "miui_LILACJPSBGlobal_V14.0.6.0.TKNJPSB_2a7d0408ff_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.10.0.SKNJPSB",
           "android": "12.0",

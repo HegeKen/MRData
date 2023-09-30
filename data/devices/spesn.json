@@ -22,7 +22,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -100,7 +102,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -208,10 +212,18 @@
       "region":"eea",
       "carrier":[],
       "branch": "euhg",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲ThreeHK运营商定制版",
       "enname": "Europe ThreeHK Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.2.0.TGKEUHG",
+          "android": "13.0",
+          "recovery": "miui_SPESNEEAHGGlobal_V14.0.2.0.TGKEUHG_5a3f496b48_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.3.0.SGKEUHG",
           "android": "12.0",
@@ -226,10 +238,18 @@
       "region":"eea",
       "carrier":[],
       "branch": "euor",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.2.0.TGKEUOR",
+          "android": "13.0",
+          "recovery": "miui_SPESNEEAORGlobal_V14.0.2.0.TGKEUOR_f860087beb_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.6.0.SGKEUOR",
           "android": "12.0",
@@ -256,10 +276,18 @@
       "region":"eea",
       "carrier":[],
       "branch": "eutf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Telefonica运营商定制版",
       "enname": "Europe Telefonica Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.2.0.TGKEUTF",
+          "android": "13.0",
+          "recovery": "miui_SPESNEEATFGlobal_V14.0.2.0.TGKEUTF_c24373b324_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.3.0.SGKEUTF",
           "android": "12.0",
@@ -274,10 +302,18 @@
       "region":"eea",
       "carrier":[],
       "branch": "euby",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Bouygues Telecom运营商定制版",
       "enname": "Europe Bouygues Telecom Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.1.0.TGKEUBY",
+          "android": "13.0",
+          "recovery": "miui_SPESNEEABYGlobal_V14.0.1.0.TGKEUBY_4e30c0be13_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.3.0.SGKEUBY",
           "android": "12.0",
@@ -292,10 +328,18 @@
       "region":"eea",
       "carrier":[],
       "branch": "euvf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.2.0.TGKEUVF",
+          "android": "13.0",
+          "recovery": "miui_SPESNEEAVFGlobal_V14.0.2.0.TGKEUVF_68c913324a_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.4.0.SGKEUVF",
           "android": "12.0",
@@ -316,14 +360,22 @@
       "region":"eea",
       "carrier":[],
       "branch": "eusf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
         {
+          "miui": "V14.0.1.0.TGKEUSF",
+          "android": "13.0",
+          "recovery": "miui_SPESNEEASFGlobal_V14.0.1.0.TGKEUSF_e6fe44fa91_13.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V13.0.3.0.SGKEUSF",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_SPESNEEASFGlobal_V13.0.3.0.SGKEUSF_69916a5ef3_12.0.zip",
           "fastboot": "spesn_eea_sf_global_images_V13.0.3.0.SGKEUSF_20230314.0000.00_12.0_eea_dc5cdfd95b.tgz"
         },
         {
@@ -340,10 +392,18 @@
       "region":"eea",
       "carrier":[],
       "branch": "euti",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲TIM运营商定制版",
       "enname": "Europe TIM Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.1.0.TGKEUTI",
+          "android": "13.0",
+          "recovery": "miui_SPESNEEATIGlobal_V14.0.1.0.TGKEUTI_a6b4735bf5_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.1.0.SGKEUTI",
           "android": "12.0",
@@ -353,7 +413,7 @@
         {
           "miui": "V13.0.3.0.RGKEUTI",
           "android": "11.0",
-          "recovery": "",
+          "recovery": "miui_SPESNEEATIGlobal_V13.0.3.0.RGKEUTI_4b60b8e780_11.0.zip",
           "fastboot": "spesn_eea_ti_global_images_V13.0.3.0.RGKEUTI_20221115.0000.00_11.0_eea_9c04248413.tgz"
         }
       ]
@@ -364,7 +424,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -442,7 +504,9 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -520,10 +584,18 @@
       "region":"global",
       "carrier":[],
       "branch": "zamt",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "南非MTN运营商定制版",
       "enname": "South Africa MTN Carrier Edtion",
       "links": [
+        {
+          "miui": "V14.0.2.0.TGKZAMT",
+          "android": "13.0",
+          "recovery": "miui_SPESNZAMTGlobal_V14.0.2.0.TGKZAMT_8cebf4ac2e_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.1.0.SGKZAMT",
           "android": "12.0",

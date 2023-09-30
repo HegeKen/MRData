@@ -22,7 +22,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -2422,7 +2424,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -2536,7 +2540,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -2554,7 +2560,9 @@
       "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -2572,7 +2580,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbb",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际开发版",
       "enname": "Global Beta",
       "links": [
@@ -2608,7 +2618,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -2704,7 +2716,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -2842,14 +2856,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euor",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
         {
           "miui": "V12.0.6.0.QFBEUOR",
           "android": "10.0",
-          "recovery": "",
+          "recovery": "miui_GRUSEEAORGlobal_V12.0.6.0.QFBEUOR_18185ce299_10.0.zip",
           "fastboot": "grus_eea_or_global_images_V12.0.6.0.QFBEUOR_20210607.0000.00_10.0_eea_6861fc798e.tgz"
         }
       ]
@@ -2860,7 +2876,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [

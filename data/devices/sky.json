@@ -22,7 +22,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -52,7 +54,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -82,20 +86,22 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆STDEE",
       "enname": "China Mainland STDEE",
       "links": [
         {
           "miui": "V14.0.23.9.7.EP.STDEE.M19",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_SKYEPSTDEE_V14.0.23.9.7.EP.STDEE.M19_973dabe66f_13.0.zip",
           "fastboot": "sky_ep_stdee_images_V14.0.23.9.7.EP.STDEE.M19_20230907.0000.00_13.0_cn_faae12f794.tgz"
         },
         {
           "miui": "V14.0.23.9.7.EP.STDEE.M19",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_SKYEPSTDEE_V14.0.23.9.7.EP.STDEE.M19_973dabe66f_13.0.zip",
           "fastboot": "sky_ep_stdee_images_V14.0.23.9.7.EP.STDEE.M19_20230907.0000.00_13.0_cn_chinatelecom_f85e64cbec.tgz"
         },
         {
@@ -118,7 +124,9 @@
       "region":"tw",
       "carrier":[],
       "branch": "cntw",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -142,15 +150,17 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
         {
           "miui": "V14.0.2.0.TMWMIXM",
           "android": "13.0",
-          "recovery": "",
-          "fastboot": "miui_SKYGlobal_V14.0.2.0.TMWMIXM_1bd51887d2_13.0.zip"
+          "recovery": "miui_SKYGlobal_V14.0.2.0.TMWMIXM_1bd51887d2_13.0.zip",
+          "fastboot": ""
         },
         {
           "miui": "V14.0.1.0.TMWMIXM",
@@ -166,7 +176,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -190,7 +202,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [

@@ -22,7 +22,9 @@
       "region":"",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -250,7 +252,9 @@
       "region":"",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -411,6 +415,12 @@
           "fastboot": "laurel_sprout_eea_global_images_V11.0.1.0.QFQEUXM_20200424.0000.00_10.0_9c5f95ef79.tgz"
         },
         {
+          "miui": "V10.3.17.0.PFQEUXM",
+          "android": "9.0",
+          "recovery": "miui_LAURELSPROUTEEAGlobal_V10.3.17.0.PFQEUXM_6ba95c7078_9.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V10.3.15.0.PFQEUXM",
           "android": "9.0",
           "recovery": "miui_LAURELSPROUTEEAGlobal_V10.3.15.0.PFQEUXM_bd270736f7_9.0.zip",
@@ -424,7 +434,9 @@
       "region":"",
       "carrier":[],
       "branch": "mxtc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [

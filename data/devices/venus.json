@@ -21,12 +21,19 @@
   "pcid": "",
   "branches": [
     {
-      "code":"venus",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "venus",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cnmp",
+      "zone": "1",
       "show": "1",
+      "ep":"0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -2361,12 +2368,14 @@
       ]
     },
     {
-      "code":"venus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "venus",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnmo",
+      "zone": "1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -2391,12 +2400,14 @@
       ]
     },
     {
-      "code":"venus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "venus",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
+      "zone": "1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -2559,12 +2570,16 @@
       ]
     },
     {
-      "code":"venus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
+      "code": "venus",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "branch": "ctce",
+      "zone": "1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -2595,12 +2610,16 @@
       ]
     },
     {
-      "code":"venus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "venus",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
+      "zone": "1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -2625,12 +2644,14 @@
       ]
     },
     {
-      "code":"venus_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
+      "code": "venus_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
       "branch": "cntw",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -2691,12 +2712,14 @@
       ]
     },
     {
-      "code":"venus_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "venus_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mgbs",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -2829,12 +2852,14 @@
       ]
     },
     {
-      "code":"venus_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "venus_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eeas",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -2979,15 +3004,23 @@
       ]
     },
     {
-      "code":"venus_eea_hg_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "venus_eea_hg_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euhg",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲ThreeHK运营商定制版",
       "enname": "Europe ThreeHK Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.6.0.TKBEUHG",
+          "android": "13.0",
+          "recovery": "miui_VENUSEEAHGGlobal_V14.0.6.0.TKBEUHG_0be2bc936a_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.6.0.SKBEUHG",
           "android": "12.0",
@@ -2997,15 +3030,23 @@
       ]
     },
     {
-      "code":"venus_eea_or_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "venus_eea_or_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euor",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.3.0.TKBEUOR",
+          "android": "13.0",
+          "recovery": "miui_VENUSEEAORGlobal_V14.0.3.0.TKBEUOR_790fb9ad4f_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.11.0.SKBEUOR",
           "android": "12.0",
@@ -3015,15 +3056,23 @@
       ]
     },
     {
-      "code":"venus_eea_tf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "venus_eea_tf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eutf",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Telefonica运营商定制版",
       "enname": "Europe Telefonica Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.4.0.TKBEUTF",
+          "android": "13.0",
+          "recovery": "miui_VENUSEEATFGlobal_V14.0.4.0.TKBEUTF_f908957f87_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.6.0.SKBEUTF",
           "android": "12.0",
@@ -3033,15 +3082,23 @@
       ]
     },
     {
-      "code":"venus_eea_vf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "venus_eea_vf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euvf",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.4.0.TKBEUVF",
+          "android": "13.0",
+          "recovery": "miui_VENUSEEAVFGlobal_V14.0.4.0.TKBEUVF_a4e3cc78fc_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.8.0.SKBEUVF",
           "android": "12.0",
@@ -3051,15 +3108,23 @@
       ]
     },
     {
-      "code":"venus_eea_sf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "venus_eea_sf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eusf",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.2.0.TKBEUSF",
+          "android": "13.0",
+          "recovery": "miui_VENUSEEASFGlobal_V14.0.2.0.TKBEUSF_ea7c47b147_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.3.0.SKBEUSF",
           "android": "12.0",
@@ -3069,15 +3134,23 @@
       ]
     },
     {
-      "code":"venus_eea_ti_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "venus_eea_ti_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euti",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲TIM运营商定制版",
       "enname": "Europe TIM Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.2.0.TKBEUTI",
+          "android": "13.0",
+          "recovery": "miui_VENUSEEATIGlobal_V14.0.2.0.TKBEUTI_fccbd4ef41_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.2.0.SKBEUTI",
           "android": "12.0",
@@ -3087,12 +3160,14 @@
       ]
     },
     {
-      "code":"venus_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
+      "code": "venus_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
       "branch": "russ",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -3147,12 +3222,14 @@
       ]
     },
     {
-      "code":"venus_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
+      "code": "venus_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
       "branch": "inns",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -3213,12 +3290,14 @@
       ]
     },
     {
-      "code":"venus_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
+      "code": "venus_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
       "branch": "trks",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -3279,15 +3358,23 @@
       ]
     },
     {
-      "code":"venus_mx_tc_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "venus_mx_tc_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mxtc",
+      "zone": "2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
+        {
+          "miui": "V14.0.5.0.TKBMXTC",
+          "android": "13.0",
+          "recovery": "miui_VENUSMXTCGlobal_V14.0.5.0.TKBMXTC_672ed2658d_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.7.0.SKBMXTC",
           "android": "12.0",

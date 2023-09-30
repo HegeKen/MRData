@@ -22,7 +22,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -142,7 +144,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -160,7 +164,9 @@
       "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -178,7 +184,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -292,7 +300,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -394,14 +404,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euhg",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲ThreeHK运营商定制版",
       "enname": "Europe ThreeHK Carrier Edition",
       "links": [
         {
           "miui": "V12.5.3.0.QCNEUHG",
           "android": "10.0",
-          "recovery": "",
+          "recovery": "miui_OLIVEEEAHGGlobal_V12.5.3.0.QCNEUHG_7a995c6076_10.0.zip",
           "fastboot": "olive_eea_hg_global_images_V12.5.3.0.QCNEUHG_20211224.0000.00_10.0_eea_c62df48a02.tgz"
         }
       ]
@@ -412,7 +424,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -502,7 +516,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -628,7 +644,9 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [

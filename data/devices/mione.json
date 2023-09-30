@@ -34,7 +34,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -988,7 +990,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -1132,7 +1136,9 @@
       "region":"",
       "carrier":[],
       "branch": "cnmt",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆推荐版",
       "enname": "China Mainland Suggested Edition",
       "links": [
@@ -1240,7 +1246,9 @@
       "region":"",
       "carrier":[],
       "branch": "ctse",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信推荐版",
       "enname": "China Telecom Suggested Edition",
       "links": [
@@ -1248,7 +1256,7 @@
           "miui": "2.3.6f",
           "android": "2.3.6",
           "recovery": "miui_MioneplusCDMA_2.3.6f_buf4714wvv_2.3.zip",
-          "fastboot": "miui_MiOne_C1_CDMA_2.3.6f_fastboot_28fkvs8vqg.exe"
+          "fastboot": "miui_MiOne_C1_CDMA_2.3.6f_fastboot_28fkvs8vqg"
         },
         {
           "miui": "2.3.5y",
@@ -1301,6 +1309,8 @@
       "carrier":[],
       "branch": "cuse",
       "show": "1",
+      "zone":"1",
+      "ep":"0",
       "cnname": "中国联通推荐版",
       "enname": "China Unicom Suggested Edition",
       "links": [
@@ -1342,7 +1352,9 @@
       "region":"",
       "carrier":[],
       "branch": "litese",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "标准青春版推荐版",
       "enname": "Suggested Edition for Mi 1 Lite",
       "links": [
@@ -1366,7 +1378,9 @@
       "region":"",
       "carrier":[],
       "branch": "ccus",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国联通定制版",
       "enname": "China Unicom Stable",
       "links": [
@@ -1396,7 +1410,9 @@
       "region":"",
       "carrier":[],
       "branch": "ccts",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Stable",
       "links": [
@@ -1426,7 +1442,9 @@
       "region":"",
       "carrier":[],
       "branch": "msap",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "原生安卓",
       "enname": "Stock Android",
       "links": [

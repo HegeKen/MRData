@@ -22,7 +22,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -130,7 +132,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -177,6 +181,12 @@
           "fastboot": "spes_in_global_images_V13.0.1.0.SGCINXM_20220725.0000.00_12.0_in_4461ddfd14.tgz"
         },
         {
+          "miui": "V13.0.13.0.RGCINXM",
+          "android": "11.0",
+          "recovery": "miui_SPESINGlobal_V13.0.13.0.RGCINXM_b8d0d6cfb0_11.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V13.0.11.0.RGCINXM",
           "android": "11.0",
           "recovery": "miui_SPESINGlobal_V13.0.11.0.RGCINXM_7185771b03_11.0.zip",
@@ -202,7 +212,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -268,7 +280,9 @@
       "region":"global",
       "carrier":[],
       "branch": "clen",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "智利Entel运营商定制版",
       "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
@@ -286,14 +300,16 @@
       "region":"global",
       "carrier":[],
       "branch": "mxat",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥AT&T运营商定制版",
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.5.0.SGCMXAT",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_SPESMXATGlobal_V13.0.5.0.SGCMXAT_0e53620b69_12.0.zip",
           "fastboot": "spes_mx_at_global_images_V13.0.5.0.SGCMXAT_20230526.0000.00_12.0_global_e58d7cb89e.tgz"
         },
         {
@@ -305,7 +321,7 @@
         {
           "miui": "V13.0.2.0.SGCMXAT",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_SPESMXATGlobal_V13.0.2.0.SGCMXAT_4d949c1380_12.0.zip",
           "fastboot": "spes_mx_at_global_images_V13.0.2.0.SGCMXAT_20221225.0000.00_12.0_global_919d70db36.tgz"
         },
         {
@@ -322,14 +338,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V13.0.3.0.SGCLMCR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_SPESLMCRGlobal_V13.0.3.0.SGCLMCR_3342591b76_12.0.zip",
           "fastboot": "spes_lm_cr_global_images_V13.0.3.0.SGCLMCR_20230508.0000.00_12.0_global_4d2989013d.tgz"
         },
         {
@@ -364,14 +382,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmms",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Moviestar运营商定制版",
       "enname": "Latin America Moviestar Carrier Edition",
       "links": [
         {
           "miui": "V13.0.2.0.SGCLMMS",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_SPESLMMSGlobal_V13.0.2.0.SGCLMMS_daf9802bd6_12.0.zip",
           "fastboot": "spes_lm_ms_global_images_V13.0.2.0.SGCLMMS_20230412.0000.00_12.0_global_a6d0655789.tgz"
         },
         {

@@ -26,7 +26,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -1358,7 +1360,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -1388,7 +1392,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -1442,7 +1448,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -1484,7 +1492,9 @@
       "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -1502,7 +1512,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆Demo",
       "enname": "China Mainland Demo Stable",
       "links": [
@@ -1574,7 +1586,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆STDEE",
       "enname": "China Mainland STDEE",
       "links": [
@@ -1587,7 +1601,7 @@
         {
           "miui": "V13.0.23.3.7.EP.STDEE.K81",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_ENUMAEPSTDEE_V13.0.23.3.7.EP.STDEE.K81_7a96670098_12.0.zip",
           "fastboot": "enuma_ep_stdee_images_V13.0.23.3.7.EP.STDEE.K81_20230307.0000.00_12.0_cn_83cbd20da2.tgz"
         }
       ]
@@ -1598,7 +1612,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "tbkj",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆TBKJ",
       "enname": "China Mainland TBKJ",
       "links": [

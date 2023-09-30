@@ -24,7 +24,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -54,7 +56,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -120,7 +124,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -192,7 +198,9 @@
       "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -222,26 +230,28 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆Demo",
       "enname": "China Mainland Demo Stable",
       "links": [
         {
           "miui": "V13.0.3.0.SMOCNDM",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_RUBYDEMO_V13.0.3.0.SMOCNDM_b6b925e27f_12.0.zip",
           "fastboot": "ruby_demo_images_V13.0.3.0.SMOCNDM_20221027.0000.00_12.0_cn_a8914e825c.tgz"
         },
         {
           "miui": "V13.0.3.0.SMOCNDM",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_RUBYDEMO_V13.0.3.0.SMOCNDM_b6b925e27f_12.0.zip",
           "fastboot": "ruby_demo_images_V13.0.3.0.SMOCNDM_20221027.0000.00_12.0_cn_chinatelecom_37a8ce9e27.tgz"
         },
         {
           "miui": "V13.0.3.0.SMOCNDM",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_RUBYDEMO_V13.0.3.0.SMOCNDM_b6b925e27f_12.0.zip",
           "fastboot": "ruby_demo_images_V13.0.3.0.SMOCNDM_20221027.0000.00_12.0_cn_chinamobile_b0848ebbd1.tgz"
         }
       ]
@@ -252,7 +262,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆STDEE",
       "enname": "China Mainland STDEE",
       "links": [
@@ -307,7 +319,9 @@
       "region":"tw",
       "carrier":[],
       "branch": "cntw",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -337,7 +351,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -379,7 +395,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -445,7 +463,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -481,7 +501,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -535,7 +557,9 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -565,7 +589,9 @@
       "region":"global",
       "carrier":[],
       "branch": "krgs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "韩国稳定版",
       "enname": "South Korea Stable",
       "links": [
@@ -595,7 +621,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -619,14 +647,16 @@
       "region":"global",
       "carrier":[],
       "branch": "clen",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "智利Entel运营商定制版",
       "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
         {
           "miui": "V14.0.4.0.SMOCLEN",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_RUBYCLENGlobal_V14.0.4.0.SMOCLEN_d9febd8194_12.0.zip",
           "fastboot": "ruby_cl_en_global_images_V14.0.4.0.SMOCLEN_20230322.0000.00_12.0_global_f3bd7043f6.tgz"
         },
         {
@@ -643,14 +673,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V14.0.6.0.SMOLMCR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_RUBYLMCRGlobal_V14.0.6.0.SMOLMCR_5e2dd38ad6_12.0.zip",
           "fastboot": "ruby_lm_cr_global_images_V14.0.6.0.SMOLMCR_20230705.0000.00_12.0_global_9af2e50c75.tgz"
         },
         {
@@ -679,14 +711,16 @@
       "region":"global",
       "carrier":[],
       "branch": "mxat",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥AT&T运营商定制版",
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
         {
           "miui": "V14.0.4.0.SMOMXAT",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_RUBYMXATGlobal_V14.0.4.0.SMOMXAT_9b1cab8ac7_12.0.zip",
           "fastboot": "ruby_mx_at_global_images_V14.0.4.0.SMOMXAT_20230523.0000.00_12.0_global_3436887fab.tgz"
         },
         {
@@ -703,10 +737,18 @@
       "region":"global",
       "carrier":[],
       "branch": "lmms",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Moviestar运营商定制版",
       "enname": "Latin America Moviestar Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.2.0.SMOLMMS",
+          "android": "12.0",
+          "recovery": "miui_RUBYLMMSGlobal_V14.0.2.0.SMOLMMS_e6edcf6010_12.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.1.0.SMOLMMS",
           "android": "12.0",

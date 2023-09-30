@@ -22,7 +22,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -64,14 +66,16 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆Demo",
       "enname": "China Mainland Demo Stable",
       "links": [
         {
           "miui": "V14.0.2.0.TMYCNDM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_LIUQINDEMO_V14.0.2.0.TMYCNDM_82a4c4e08a_13.0.zip",
           "fastboot": "liuqin_demo_images_V14.0.2.0.TMYCNDM_20230426.0000.00_13.0_cn_a01b91bee3.tgz"
         }
       ]
@@ -82,14 +86,16 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆STDEE",
       "enname": "China Mainland STDEE",
       "links": [
         {
           "miui": "V14.0.23.6.26.EP.STDEE.M81",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_LIUQINEPSTDEE_V14.0.23.6.26.EP.STDEE.M81_32dbcde994_13.0.zip",
           "fastboot": "liuqin_ep_stdee_images_V14.0.23.6.26.EP.STDEE.M81_20230626.0000.00_13.0_cn_c005bf6f27.tgz"
         }
       ]

@@ -26,7 +26,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -236,7 +238,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnmo",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -302,7 +306,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -356,20 +362,22 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆Demo",
       "enname": "China Mainland Demo Stable",
       "links": [
         {
           "miui": "V14.0.5.0.TMNCNDM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_MONDRIANDEMO_V14.0.5.0.TMNCNDM_a88f5709e9_13.0.zip",
           "fastboot": "mondrian_demo_images_V14.0.5.0.TMNCNDM_20230106.0000.00_13.0_cn_4fd274323f.tgz"
         },
         {
           "miui": "V14.0.5.0.TMNCNDM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_MONDRIANDEMO_V14.0.5.0.TMNCNDM_a88f5709e9_13.0.zip",
           "fastboot": "mondrian_demo_images_V14.0.5.0.TMNCNDM_20230106.0000.00_13.0_cn_chinatelecom_45c2e751a2.tgz"
         }
       ]
@@ -380,7 +388,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "stde",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆STDEE",
       "enname": "China Mainland STDEE",
       "links": [
@@ -428,7 +438,9 @@
       "region":"tw",
       "carrier":[],
       "branch": "cntw",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -452,7 +464,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -476,7 +490,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -512,7 +528,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -536,7 +554,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [

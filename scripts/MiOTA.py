@@ -48,7 +48,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 #             i = 0
 #         latest = link["android"]
 
-for device in common.currentStable:
+for device in common.fullDevices:
   if platform == "win32":
     devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   else:
@@ -56,21 +56,33 @@ for device in common.currentStable:
   for branch in devdata["branches"]:
     latest = 0
     common.MiOTAForm2["d"] = branch["code"]
-    common.MiOTAForm2["pn"] = branch["pn"]
+    if branch["region"] == "cn":
+      common.MiOTAForm2["pn"] = branch["code"]
+    else:
+      if branch["code"] == devdata["codename"]+"_global":
+        common.MiOTAForm2["pn"] = branch["code"]
+      else:
+        common.MiOTAForm2["pn"] = branch["code"].split("_global")[0]
     common.MiOTAForm2["b"] = branch["btag"]
+    common.MiOTAForm2["options"]["zone"] = branch["zone"]
+    if branch["ep"] == 1:
+      latest = 0
+    else:
+      i = 0
     for link in branch["links"]:
       if latest == link["android"]:
         i = 0
       else:
         common.MiOTAForm2["c"] = link["android"].split(".")[0]
         common.MiOTAForm2["v"] = "MIUI-"+ link["miui"]
-        common.MiOTAForm2["options"]["zone"] = 1
-        common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device)
-        common.MiOTAForm2["options"]["zone"] = 2
-        common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device)
-        common.MiOTAForm2["options"]["zone"] = 3
-        common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device)
-        common.MiOTAForm2["options"]["zone"] = 4
-        common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device)
+        if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
+            if platform == "win32":
+              file = open("static/data/scripts/checkOTA.txt", "a", encoding='utf-8')
+            else:
+              file = open("/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt", "a", encoding='utf-8')
+            file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+branch["zone"]+"\n")
+            file.close()
+        else:
+          i = 0
         latest = link["android"]
   print(devdata["cnname"]+"已完成")

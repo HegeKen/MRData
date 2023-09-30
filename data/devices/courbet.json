@@ -22,7 +22,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -148,7 +150,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -256,7 +260,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -352,7 +358,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -436,7 +444,9 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -520,7 +530,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -610,14 +622,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V13.0.6.0.SKQLMCR",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_COURBETLMCRGlobal_V13.0.6.0.SKQLMCR_63e69c7d8a_12.0.zip",
           "fastboot": "courbet_lm_cr_global_images_V13.0.6.0.SKQLMCR_20230706.0000.00_12.0_global_acb61e3844.tgz"
         },
         {
@@ -646,14 +660,16 @@
       "region":"global",
       "carrier":[],
       "branch": "mxtc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.8.0.SKQMXTC",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_COURBETMXTCGlobal_V13.0.8.0.SKQMXTC_c459b8507e_12.0.zip",
           "fastboot": "courbet_mx_tc_global_images_V13.0.8.0.SKQMXTC_20230706.0000.00_12.0_global_be32e07076.tgz"
         },
         {

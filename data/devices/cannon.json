@@ -24,7 +24,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -1554,7 +1556,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "epyk",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆YUNKE",
       "enname": "China Mainland YUNKE",
       "links": [
@@ -1572,7 +1576,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmo",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -1585,7 +1591,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -1717,7 +1725,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -1747,7 +1757,9 @@
       "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -1771,7 +1783,9 @@
       "region":"tw",
       "carrier":[],
       "branch": "cntw",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -1819,7 +1833,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -1915,7 +1931,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -1999,14 +2017,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euor",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
         {
           "miui": "V13.0.6.0.SJEEUOR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CANNONGEEAORGlobal_V13.0.6.0.SJEEUOR_6e2ebbdb3c_12.0.zip",
           "fastboot": "cannong_eea_or_global_images_V13.0.6.0.SJEEUOR_20230523.0000.00_12.0_eea_e099ce663a.tgz"
         },
         {
@@ -2023,14 +2043,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "eutf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Telefonica运营商定制版",
       "enname": "Europe Telefonica Carrier Edition",
       "links": [
         {
           "miui": "V13.0.2.0.SJEEUTF",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CANNONGEEATFGlobal_V13.0.2.0.SJEEUTF_b4e08daba4_12.0.zip",
           "fastboot": "cannong_eea_tf_global_images_V13.0.2.0.SJEEUTF_20230112.0000.00_12.0_eea_e6fdbb042d.tgz"
         }
       ]
@@ -2041,14 +2063,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euvf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
         {
           "miui": "V13.0.8.0.SJEEUVF",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CANNONGEEAVFGlobal_V13.0.8.0.SJEEUVF_4ab541135d_12.0.zip",
           "fastboot": "cannong_eea_vf_global_images_V13.0.8.0.SJEEUVF_20230421.0000.00_12.0_eea_099cb3964c.tgz"
         },
         {
@@ -2065,14 +2089,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "eusf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
         {
           "miui": "V13.0.2.0.SJEEUSF",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CANNONGEEASFGlobal_V13.0.2.0.SJEEUSF_c10d8e3f8b_12.0.zip",
           "fastboot": "cannong_eea_sf_global_images_V13.0.2.0.SJEEUSF_20221221.0000.00_12.0_eea_2078b7717d.tgz"
         }
       ]
@@ -2083,14 +2109,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euti",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲TIM运营商定制版",
       "enname": "Europe TIM Carrier Edition",
       "links": [
         {
           "miui": "V13.0.3.0.SJEEUTI",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CANNONGEEATIGlobal_V13.0.3.0.SJEEUTI_779868ecd4_12.0.zip",
           "fastboot": "cannong_eea_ti_global_images_V13.0.3.0.SJEEUTI_20230210.0000.00_12.0_eea_821c569b92.tgz"
         }
       ]
@@ -2101,7 +2129,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -2155,7 +2185,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -2197,14 +2229,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V13.0.4.0.SJELMCR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_CANNONGLMCRGlobal_V13.0.4.0.SJELMCR_dbfbdb17cf_12.0.zip",
           "fastboot": "cannong_lm_cr_global_images_V13.0.4.0.SJELMCR_20230515.0000.00_12.0_global_4b91138e76.tgz"
         },
         {

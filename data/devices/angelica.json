@@ -23,7 +23,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -137,7 +139,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -227,7 +231,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -329,7 +335,9 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -425,7 +433,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -515,7 +525,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mxtc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
@@ -533,14 +545,16 @@
       "region":"global",
       "carrier":[],
       "branch": "mxat",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥AT&T运营商定制版",
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
         {
           "miui": "V12.0.18.0.QCRMXAT",
           "android": "10.0",
-          "recovery": "",
+          "recovery": "miui_ANGELICAMXATGlobal_V12.0.18.0.QCRMXAT_b15eea6872_10.0.zip",
           "fastboot": "angelica_mx_at_global_images_V12.0.18.0.QCRMXAT_20230327.0000.00_10.0_global_3c51080288.tgz"
         },
         {
@@ -557,14 +571,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V12.0.15.0.QCRLMCR",
           "android": "10.0",
-          "recovery": "",
+          "recovery": "miui_ANGELICALMCRGlobal_V12.0.15.0.QCRLMCR_b5423bd67a_10.0.zip",
           "fastboot": "angelica_lm_cr_global_images_V12.0.15.0.QCRLMCR_20220913.0000.00_10.0_global_0f535d4e8f.tgz"
         }
       ]

@@ -22,7 +22,9 @@
       "region":"cn",
       "carrier":["","chinamobile","chinaunicom"],
       "branch": "cnmo",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -46,7 +48,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -70,20 +74,22 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cndm",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆Demo",
       "enname": "China Mainland Demo Stable",
       "links": [
         {
           "miui": "V14.0.2.0.TNOCNDM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_ZIRCONDEMO_V14.0.2.0.TNOCNDM_d33e42da5d_13.0.zip",
           "fastboot": "zircon_demo_images_V14.0.2.0.TNOCNDM_20230918.0000.00_13.0_cn_e704c3002c.tgz"
         },
         {
           "miui": "V14.0.2.0.TNOCNDM",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_ZIRCONDEMO_V14.0.2.0.TNOCNDM_d33e42da5d_13.0.zip",
           "fastboot": "zircon_demo_images_V14.0.2.0.TNOCNDM_20230918.0000.00_13.0_cn_chinatelecom_07c5f97b9d.tgz"
         }
       ]

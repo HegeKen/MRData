@@ -24,7 +24,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmo",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -37,7 +39,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -169,7 +173,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -187,7 +193,9 @@
       "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -205,7 +213,9 @@
       "region":"cn",
       "carrier":["chinaunicom"],
       "branch": "ctcu",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国联通定制版",
       "enname": "China Unicom Carrier Edition",
       "links": [
@@ -223,7 +233,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -349,7 +361,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -463,14 +477,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euhg",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲ThreeHK运营商定制版",
       "enname": "Europe ThreeHK Carrier Edition",
       "links": [
         {
           "miui": "V13.0.2.0.SJCEUHG",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_LANCELOTEEAHGGlobal_V13.0.2.0.SJCEUHG_d1e565a996_12.0.zip",
           "fastboot": "lancelot_eea_hg_global_images_V13.0.2.0.SJCEUHG_20230517.0000.00_12.0_eea_33efd4dae5.tgz"
         },
         {
@@ -487,14 +503,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euor",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
         {
           "miui": "V13.0.5.0.SJCEUOR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_LANCELOTEEAORGlobal_V13.0.5.0.SJCEUOR_44a4d2c593_12.0.zip",
           "fastboot": "lancelot_eea_or_global_images_V13.0.5.0.SJCEUOR_20230327.0000.00_12.0_eea_9b7c485479.tgz"
         },
         {
@@ -511,14 +529,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "eutf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Telefonica运营商定制版",
       "enname": "Europe Telefonica Carrier Edition",
       "links": [
         {
           "miui": "V12.5.6.0.RJCEUTF",
           "android": "11.0",
-          "recovery": "",
+          "recovery": "miui_LANCELOTEEATFGlobal_V12.5.6.0.RJCEUTF_785b60d9fd_11.0.zip",
           "fastboot": "lancelot_eea_tf_global_images_V12.5.6.0.RJCEUTF_20230310.0000.00_11.0_eea_2e12067911.tgz"
         },
         {
@@ -535,7 +555,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "euvf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
@@ -553,14 +575,22 @@
       "region":"eea",
       "carrier":[],
       "branch": "eusf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
         {
+          "miui": "V13.0.3.0.SJCEUSF",
+          "android": "12.0",
+          "recovery": "miui_LANCELOTEEASFGlobal_V13.0.3.0.SJCEUSF_6642d0412a_12.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V12.5.3.0.RJCEUSF",
           "android": "11.0",
-          "recovery": "",
+          "recovery": "miui_LANCELOTEEASFGlobal_V12.5.3.0.RJCEUSF_a5d93af3a5_11.0.zip",
           "fastboot": "lancelot_eea_sf_global_images_V12.5.3.0.RJCEUSF_20220509.0000.00_11.0_eea_5b0b8bc65c.tgz"
         }
       ]
@@ -571,7 +601,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -655,7 +687,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -739,7 +773,9 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -811,7 +847,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -895,7 +933,9 @@
       "region":"global",
       "carrier":[],
       "branch": "clen",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "智利Entel运营商定制版",
       "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
@@ -913,7 +953,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mxtc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
@@ -931,7 +973,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mxat",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥AT&T运营商定制版",
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
@@ -949,14 +993,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V12.0.7.0.RJCLMCR",
           "android": "11.0",
-          "recovery": "",
+          "recovery": "miui_LANCELOTLMCRGlobal_V12.0.7.0.RJCLMCR_cebda393e0_11.0.zip",
           "fastboot": "lancelot_lm_cr_global_images_V12.0.7.0.RJCLMCR_20220913.0000.00_11.0_global_bfeda3c97c.tgz"
         },
         {

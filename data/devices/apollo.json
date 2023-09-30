@@ -24,7 +24,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmp",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -2136,7 +2138,9 @@
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "branch": "cnmo",
+      "zone":"1",
       "show": "0",
+      "ep":"1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -2149,7 +2153,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -2299,7 +2305,9 @@
       "region":"cn",
       "carrier":["chinatelecom"],
       "branch": "ctce",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -2323,7 +2331,9 @@
       "region":"cn",
       "carrier":["chinamobile"],
       "branch": "ctcm",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -2341,7 +2351,9 @@
       "region":"tw",
       "carrier":[],
       "branch": "cntw",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -2407,7 +2419,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -2569,7 +2583,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -2785,14 +2801,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euhg",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲ThreeHK运营商定制版",
       "enname": "Europe ThreeHK Carrier Edition",
       "links": [
         {
           "miui": "V13.0.4.0.SJDEUHG",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOEEAHGGlobal_V13.0.4.0.SJDEUHG_f7c4192ab4_12.0.zip",
           "fastboot": "apollo_eea_hg_global_images_V13.0.4.0.SJDEUHG_20221118.0000.00_12.0_eea_98391ca204.tgz"
         }
       ]
@@ -2803,14 +2821,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euor",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
         {
           "miui": "V13.0.5.0.SJDEUOR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOEEAORGlobal_V13.0.5.0.SJDEUOR_945af1368c_12.0.zip",
           "fastboot": "apollo_eea_or_global_images_V13.0.5.0.SJDEUOR_20221107.0000.00_12.0_eea_ec4aa50c8d.tgz"
         }
       ]
@@ -2821,14 +2841,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "eutf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Telefonica运营商定制版",
       "enname": "Europe Telefonica Carrier Edition",
       "links": [
         {
           "miui": "V13.0.6.0.SJDEUTF",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOEEATFGlobal_V13.0.6.0.SJDEUTF_95d660a539_12.0.zip",
           "fastboot": "apollo_eea_tf_global_images_V13.0.6.0.SJDEUTF_20230220.0000.00_12.0_eea_995cd3fc69.tgz"
         }
       ]
@@ -2839,14 +2861,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euvf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
         {
           "miui": "V13.0.8.0.SJDEUVF",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOEEAVFGlobal_V13.0.8.0.SJDEUVF_7a3f900320_12.0.zip",
           "fastboot": "apollo_eea_vf_global_images_V13.0.8.0.SJDEUVF_20230222.0000.00_12.0_eea_d16c754074.tgz"
         }
       ]
@@ -2857,14 +2881,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "eusf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
         {
           "miui": "V13.0.4.0.SJDEUSF",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOEEASFGlobal_V13.0.4.0.SJDEUSF_85cbb4685f_12.0.zip",
           "fastboot": "apollo_eea_sf_global_images_V13.0.4.0.SJDEUSF_20220926.0000.00_12.0_eea_e57b61f221.tgz"
         }
       ]
@@ -2875,14 +2901,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euti",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲TIM运营商定制版",
       "enname": "Europe TIM Carrier Edition",
       "links": [
         {
           "miui": "V13.0.2.0.SJDEUTI",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOEEATIGlobal_V13.0.2.0.SJDEUTI_3fc7ca9427_12.0.zip",
           "fastboot": "apollo_eea_ti_global_images_V13.0.2.0.SJDEUTI_20220823.0000.00_12.0_eea_e45e92c8f9.tgz"
         }
       ]
@@ -2893,7 +2921,9 @@
       "region":"ru",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -2965,7 +2995,9 @@
       "region":"in",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -3055,7 +3087,9 @@
       "region":"id",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -3139,7 +3173,9 @@
       "region":"tr",
       "carrier":[],
       "branch": "trks",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -3205,14 +3241,16 @@
       "region":"global",
       "carrier":[],
       "branch": "clen",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "智利Entel运营商定制版",
       "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.1.0.SJDCLEN",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOCLENGlobal_V13.0.1.0.SJDCLEN_d57a95e5de_12.0.zip",
           "fastboot": "apollo_cl_en_global_images_V13.0.1.0.SJDCLEN_20220628.0000.00_12.0_global_c9f9efcd51.tgz"
         },
         {
@@ -3229,14 +3267,16 @@
       "region":"global",
       "carrier":[],
       "branch": "mxtc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.11.0.SJDMXTC",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOMXTCGlobal_V13.0.11.0.SJDMXTC_d0dc831e8c_12.0.zip",
           "fastboot": "apollo_mx_tc_global_images_V13.0.11.0.SJDMXTC_20230829.0000.00_12.0_global_1dba2e8305.tgz"
         },
         {
@@ -3271,14 +3311,16 @@
       "region":"global",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V13.0.5.0.SJDLMCR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_APOLLOLMCRGlobal_V13.0.5.0.SJDLMCR_6ad2393312_12.0.zip",
           "fastboot": "apollo_lm_cr_global_images_V13.0.5.0.SJDLMCR_20230302.0000.00_12.0_global_0321a0527e.tgz"
         },
         {

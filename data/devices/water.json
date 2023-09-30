@@ -22,7 +22,9 @@
       "region":"",
       "carrier":[],
       "branch": "cntw",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -40,7 +42,9 @@
       "region":"",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -88,7 +92,9 @@
       "region":"",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -124,7 +130,9 @@
       "region":"",
       "carrier":[],
       "branch": "eusf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
@@ -148,10 +156,18 @@
       "region":"",
       "carrier":[],
       "branch": "euhg",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲ThreeHK运营商定制版",
       "enname": "Europe ThreeHK Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.4.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.4.0.TGOEUHG_5f502268e6_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.3.0.TGOEUHG",
           "android": "13.0",
@@ -166,14 +182,16 @@
       "region":"",
       "carrier":[],
       "branch": "euby",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Bouygues Telecom运营商定制版",
       "enname": "Europe Bouygues Telecom Carrier Edition",
       "links": [
         {
           "miui": "V14.0.3.0.TGOEUBY",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.3.0.TGOEUBY_d3436be6bb_13.0.zip",
           "fastboot": "water_eea_by_global_images_V14.0.3.0.TGOEUBY_20230612.0000.00_13.0_c57f3c8214.tgz"
         }
       ]
@@ -184,7 +202,9 @@
       "region":"",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -214,7 +234,9 @@
       "region":"",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -256,7 +278,9 @@
       "region":"",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -280,10 +304,18 @@
       "region":"",
       "carrier":[],
       "branch": "clen",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "智利Entel运营商定制版",
       "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
+        {
+          "miui": "V14.0.5.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "miui_WATERCLENGlobal_V14.0.5.0.TGOCLEN_41c42a7030_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.4.0.TGOCLEN",
           "android": "13.0",
@@ -304,14 +336,16 @@
       "region":"",
       "carrier":[],
       "branch": "mxtc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
         {
           "miui": "V14.0.4.0.TGOMXTC",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.4.0.TGOMXTC_5e7fc93a2e_13.0.zip",
           "fastboot": "water_mx_tc_global_images_V14.0.4.0.TGOMXTC_20230724.0000.00_13.0_7cde2c6461.tgz"
         },
         {
@@ -328,14 +362,16 @@
       "region":"",
       "carrier":[],
       "branch": "mxat",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥AT&T运营商定制版",
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
         {
           "miui": "V14.0.4.0.TGOMXAT",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_WATERMXATGlobal_V14.0.4.0.TGOMXAT_d9a85e6848_13.0.zip",
           "fastboot": "water_mx_at_global_images_V14.0.4.0.TGOMXAT_20230615.0000.00_13.0_9f78920592.tgz"
         }
       ]
@@ -346,10 +382,18 @@
       "region":"",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
+        {
+          "miui": "V14.0.4.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.4.0.TGOLMCR_7779d7658f_13.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V14.0.1.0.TGOLMCR",
           "android": "13.0",
@@ -364,14 +408,16 @@
       "region":"",
       "carrier":[],
       "branch": "zavc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "南非Vodacom稳定版",
       "enname": "South Africa Vodacom Carrier Edtion",
       "links": [
         {
           "miui": "V14.0.3.0.TGOZAVC",
           "android": "13.0",
-          "recovery": "",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.3.0.TGOZAVC_897053c322_13.0.zip",
           "fastboot": "water_za_vc_global_images_V14.0.3.0.TGOZAVC_20230612.0000.00_13.0_f5c306868d.tgz"
         }
       ]
@@ -382,7 +428,9 @@
       "region":"",
       "carrier":[],
       "branch": "zamt",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "南非MTN运营商定制版",
       "enname": "South Africa MTN Carrier Edtion",
       "links": [

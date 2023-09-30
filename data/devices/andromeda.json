@@ -22,7 +22,9 @@
       "region":"cn",
       "carrier":[],
       "branch": "cnms",
+      "zone":"1",
       "show": "1",
+      "ep":"0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -58,7 +60,9 @@
       "region":"global",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -118,7 +122,9 @@
       "region":"eea",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -214,14 +220,16 @@
       "region":"eea",
       "carrier":[],
       "branch": "euvf",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
         {
           "miui": "V12.0.6.0.PEMEUVF",
           "android": "9.0",
-          "recovery": "",
+          "recovery": "miui_ANDROMEDAEEAVFGlobal_V12.0.6.0.PEMEUVF_6dcf133313_9.0.zip",
           "fastboot": "andromeda_eea_vf_global_images_V12.0.6.0.PEMEUVF_20210601.0000.00_9.0_eea_6520ea44c3.tgz"
         }
       ]

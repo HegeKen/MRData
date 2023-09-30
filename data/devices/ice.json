@@ -22,7 +22,9 @@
       "region":"",
       "carrier":[],
       "branch": "cntw",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -46,7 +48,9 @@
       "region":"",
       "carrier":[],
       "branch": "mgbs",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -106,7 +110,9 @@
       "region":"",
       "carrier":[],
       "branch": "eeas",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -178,7 +184,9 @@
       "region":"",
       "carrier":[],
       "branch": "russ",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -232,7 +240,9 @@
       "region":"",
       "carrier":[],
       "branch": "inds",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -286,7 +296,9 @@
       "region":"",
       "carrier":[],
       "branch": "inns",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -334,10 +346,18 @@
       "region":"",
       "carrier":[],
       "branch": "mxtc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
+        {
+          "miui": "V13.0.6.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.6.0.SGMMXTC_3a74bb3bcf_12.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.4.0.SGMMXTC",
           "android": "12.0",
@@ -352,14 +372,16 @@
       "region":"",
       "carrier":[],
       "branch": "lmcr",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
         {
           "miui": "V13.0.6.0.SGMLMCR",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_ICELMCRGlobal_V13.0.6.0.SGMLMCR_b624fb8f89_12.0.zip",
           "fastboot": "ice_lm_cr_global_images_V13.0.6.0.SGMLMCR_20230625.0000.00_12.0_7af50e78f3.tgz"
         },
         {
@@ -376,14 +398,16 @@
       "region":"global",
       "carrier":[],
       "branch": "zamt",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "南非MTN运营商定制版",
       "enname": "South Africa MTN Carrier Edtion",
       "links": [
         {
           "miui": "V13.0.5.0.SGMZAMT",
           "android": "12.0",
-          "recovery": "",
+          "recovery": "miui_ICEZAMTGlobal_V13.0.5.0.SGMZAMT_eba9885a1e_12.0.zip",
           "fastboot": "ice_za_mt_global_images_V13.0.5.0.SGMZAMT_20230529.0000.00_12.0_c5b1380a70.tgz"
         }
       ]
@@ -394,10 +418,18 @@
       "region":"",
       "carrier":[],
       "branch": "zavc",
+      "zone":"2",
       "show": "1",
+      "ep":"0",
       "cnname": "南非Vodacom稳定版",
       "enname": "South Africa Vodacom Carrier Edtion",
       "links": [
+        {
+          "miui": "V13.0.6.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "miui_ICEZAVCGlobal_V13.0.6.0.SGMZAVC_8a8232e759_12.0.zip",
+          "fastboot": ""
+        },
         {
           "miui": "V13.0.5.0.SGMZAVC",
           "android": "12.0",
