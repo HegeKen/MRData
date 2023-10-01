@@ -1,7 +1,7 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
+  "codename": "houji",
+  "cnname": "小米 14",
+  "enname": "Xiaomi 14",
   "attentions": [
     {
       "cn": "",
@@ -17,7 +17,7 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
+      "code":"houji",
       "btag":"F",
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
@@ -29,8 +29,28 @@
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
+          "miui": "V15.0.0.1.UNCCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"houji_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V15.0.0.1.UNCEUXM",
+          "android": "14.0",
           "recovery": "",
           "fastboot": ""
         }

@@ -1,7 +1,7 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
+  "codename": "shennong",
+  "cnname": "小米 14 Pro",
+  "enname": "Xiaomi 14 Pro",
   "attentions": [
     {
       "cn": "",
@@ -17,7 +17,7 @@
   "pcid": "",
   "branches": [
     {
-      "code":"",
+      "code":"shennong",
       "btag":"F",
       "region":"cn",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
@@ -29,8 +29,28 @@
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "",
-          "android": "",
+          "miui": "V15.0.0.1.UNBCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"shennong_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "zone":"2",
+      "show": "0",
+      "ep":"0",
+      "cnname": "欧洲EEA稳定版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V15.0.0.1.UNBEUXM",
+          "android": "14.0",
           "recovery": "",
           "fastboot": ""
         }
