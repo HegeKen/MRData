@@ -83,7 +83,7 @@ for device in common.currentStable:
             if branch["branch"] == "cnmp":
               i = 0
             else:
-              file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+branch["zone"]+"\n")
+              file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+link["android"]+",\t"+branch["zone"]+"\n")
               file.close()
         else:
           i = 0
