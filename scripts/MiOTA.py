@@ -80,8 +80,11 @@ for device in common.currentStable:
               file = open("static/data/scripts/checkOTA.txt", "a", encoding='utf-8')
             else:
               file = open("/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt", "a", encoding='utf-8')
-            file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+branch["zone"]+"\n")
-            file.close()
+            if branch["branch"] == "cnmp":
+              i = 0
+            else:
+              file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+branch["zone"]+"\n")
+              file.close()
         else:
           i = 0
         latest = link["android"]

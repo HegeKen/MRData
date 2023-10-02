@@ -8,7 +8,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-for device in common.newDevices:
+for device in common.test:
   if platform == "win32":
     devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   else:
@@ -40,8 +40,11 @@ for device in common.newDevices:
               file = open("static/data/scripts/checkOTA.txt", "a", encoding='utf-8')
             else:
               file = open("/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt", "a", encoding='utf-8')
-            file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+branch["zone"]+"\n")
-            file.close()
+            if branch["branch"] == "cnmp":
+              i = 0
+            else:
+              file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+branch["zone"]+"\n")
+              file.close()
         else:
           i = 0
         latest = link["android"]
