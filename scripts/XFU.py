@@ -15,3 +15,4 @@ if (response.status_code == 200):
     for link in data:
       package = link['link'].split('/')[4]
       common.checkExit(package)
+response.close()

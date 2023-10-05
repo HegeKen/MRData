@@ -1827,11 +1827,11 @@ flags = {
 
 
 def localData(codename):
-      if platform == "win32":
-        devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
-      else:
-        devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
-      return devdata
+  if platform == "win32":
+    devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
+  else:
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read()).__str__()
+  return devdata
 
 def writeData(filename):
   print("发现未收录版本")
@@ -1876,6 +1876,25 @@ def getDeviceCode(filename):
     else:
       writeFlag(flag)
       return 0
+  else:
+    return 0
+def getFastboot(url):
+  headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76",
+           "Connection": "close"}
+  response = requests.post(url, headers=headers)
+  if (response.status_code == 200):
+    content = response.content.decode("utf8")
+    if content == "":
+      i = 0
+    else:
+      data = json.loads(content)["LatestFullRom"]
+      if len(data)>0:
+        checkExit(data["filename"])
+      else:
+        i = 0
+  else:
+    i = 0
+  response.close()
 def checkExit(filename):
   if "blockota" in filename:
     i = 0
@@ -1988,3 +2007,4 @@ def getFromApi(encrypted_data,device):
     else:
       print(data)
       return 0
+  response.close()
