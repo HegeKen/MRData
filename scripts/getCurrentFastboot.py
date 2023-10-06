@@ -20,22 +20,17 @@ for device in common.currentStable:
     carriers = branch["carrier"]
     if region == "cn":
       if len(carriers)==0:
-        url = base_url+code+"&b="+btag+"&r="+region+"&n="
-        print("\r"+url+"                                   ",end="")
-        common.getFastboot(url)
+        print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
+        common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
       else:
         for carrier in carriers:
-          url = base_url+code+"&b="+btag+"&r="+region+"&n="+carrier
-          print("\r"+url+"                                   ",end="")
-          common.getFastboot(url)
+          print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
+          common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n="+carrier)
     elif region == "global":
-      url = base_url+code+"&b="+btag+"&r="+region+"&n="
-      print("\r"+url+"                                   ",end="")
-      common.getFastboot(url)
+      print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
+      common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
     else:
-      url = base_url+code+"&b="+btag+"&r="+region+"&n="
-      print("\r"+url+"                                   ",end="")
-      common.getFastboot(url)
-      print("\r"+url+"                                   ",end="")
-      url = base_url+code+"&b="+btag+"&r=global"+"&n="
-      common.getFastboot(url)
+      print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
+      common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
+      print("\r"+base_url+code+"&b="+btag+"&r=global"+"&n="+"                                   ",end="")
+      common.getFastboot(base_url+code+"&b="+btag+"&r=global"+"&n=")
