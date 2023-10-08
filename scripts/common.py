@@ -8,6 +8,13 @@ from Crypto.Util.Padding import pad
 import requests
 
 test = ["xun"]
+sdk = {
+  "14":"34",
+  "13":"33",
+  "12":"31",
+  "11":"30",
+  "10":"29"
+}
 currentBeta = ["cupid","zeus","daumier","mayfly","unicorn","thor","fuxi","fuxi","nuwa","nuwa","ishtar","zizhan","babylon","dagu","rubens","matisse","ingres","diting","mondrian","socrates"]
 currentStable = ["aristotle","umi","cmi","monet","vangogh","cas","thyme","venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly","unicorn","thor","taoyao","plato","fuxi","nuwa","ishtar","cetus","odin","zizhan","babylon","nabu","elish","enuma","dagu","pipa","liuqin","yudi","mona","zijin","ziyi","yuechu","lancelot","dandelion","angelica","angelican","cattail","dandelion_c3l2","fog","fire","earth","biloba","merlin","lime","cannon","gauguin","joyeuse","excalibur","curtana","mojito","curtana_in_rf","sweet","camellia","chopin","rosemary","lilac","selene","evergo","pissarro","spes","spesn","veux","fleur","viva","vida","light","lightcm","opal","xaga","sunstone","sky","ruby","redwood","marble","pearl","tapas","topaz","sweet_k6a","sea","gold","garnet","zircon","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens","matisse","diting","mondrian","socrates","corot","rembrandt","yunluo","xun","ice","water","angelicain","frost","evergreen","rock","rosemary_p","surya","vayu","moonstone"]
 newDevices = ["duchamp","sapphiren","sapphire","aurora","manet","vermeer","aristotle","houji","shennong","garnet","zircon","gold",]
@@ -1966,12 +1973,12 @@ MiOTAForm2 = {
   "l":"zh_CN",
   "sys":"0",
   "n":"",
-  "r":"GB",
-  "bv":"12",
+  "r":"CN",
+  "bv":"14",
   "v":"MIUI-V2.0.6.0.QFAEUOR",
   "id":"",
   "sn":"0x77309938",
-  "sdk":"29",
+  "sdk":"33",
   "pn":"cepheus_eea",
   "options":{"zone":2,"hashId":"2371ef99a72a282c","ab":"0","previewPlan":"0"}}
 
@@ -2004,6 +2011,37 @@ def getFromApi(encrypted_data,device):
       package = data["CrossRom"]["filename"].split("?")[0]
       checkExit(package)
       return 1
+    else:
+      print(data)
+      return 0
+  response.close()
+def getChangelog(encrypted_data,device):
+  headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
+           "Connection": "Keep-Alive",
+           "Content-Type":"application/x-www-form-urlencoded",
+           "Cache-Control":"no-cache",
+           "Host":"update.miui.com",
+           "Accept-Encoding":"gzip",
+           "Content-Length":"795",
+           "Cookie":"serviceToken=;"
+           }
+  data = "q=" + encrypted_data + "&s=1&t="
+  if platform == "win32":
+    devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  else:
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  response = requests.post(check_url, headers=headers, data=data)
+  print("\r"+"正在抓取"+devdata["cnname"]+"(" + devdata["codename"]+")                  ",end="")
+  if "code" in response.text:
+    print(json.loads(response.text)["desc"])
+  else:
+    data = miui_decrypt(response.text.split("q=")[0])
+    if "LatestRom" in data:
+      print(data["LatestRom"]["changelog"])
+    elif "CrossRom" in data:
+      print(data)
+    elif "CurrentRom" in data:
+      print(data["CurrentRom"]["changelog"])
     else:
       print(data)
       return 0

@@ -74,6 +74,7 @@ for device in common.currentStable:
         i = 0
       else:
         common.MiOTAForm2["c"] = link["android"].split(".")[0]
+        common.MiOTAForm2["sdk"] = common.sdk[common.MiOTAForm2["c"]]
         common.MiOTAForm2["v"] = "MIUI-"+ link["miui"]
         if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
             if platform == "win32":
