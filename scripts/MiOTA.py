@@ -73,7 +73,10 @@ for device in common.currentStable:
       if latest == link["android"]:
         i = 0
       else:
-        common.MiOTAForm2["c"] = link["android"].split(".")[0]
+        if link["android"] == "":
+          common.MiOTAForm2["c"] = "13"
+        else:
+          common.MiOTAForm2["c"] = link["android"].split(".")[0]
         common.MiOTAForm2["sdk"] = common.sdk[common.MiOTAForm2["c"]]
         common.MiOTAForm2["v"] = "MIUI-"+ link["miui"]
         if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
@@ -89,4 +92,4 @@ for device in common.currentStable:
         else:
           i = 0
         latest = link["android"]
-  print(devdata["cnname"]+"已完成")
+  print("\r"+devdata["cnname"]+"已完成                            ",end="")

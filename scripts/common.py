@@ -13,7 +13,10 @@ sdk = {
   "13":"33",
   "12":"31",
   "11":"30",
-  "10":"29"
+  "10":"29",
+  "9":"28",
+  "8.1":"27",
+  "8":"26"
 }
 currentBeta = ["cupid","zeus","daumier","mayfly","unicorn","thor","fuxi","fuxi","nuwa","nuwa","ishtar","zizhan","babylon","dagu","rubens","matisse","ingres","diting","mondrian","socrates"]
 currentStable = ["aristotle","umi","cmi","monet","vangogh","cas","thyme","venus","courbet","star","renoir","agate","vili","lisa","pissarroin","cupid","zeus","psyche","daumier","mayfly","unicorn","thor","taoyao","plato","fuxi","nuwa","ishtar","cetus","odin","zizhan","babylon","nabu","elish","enuma","dagu","pipa","liuqin","yudi","mona","zijin","ziyi","yuechu","lancelot","dandelion","angelica","angelican","cattail","dandelion_c3l2","fog","fire","earth","biloba","merlin","lime","cannon","gauguin","joyeuse","excalibur","curtana","mojito","curtana_in_rf","sweet","camellia","chopin","rosemary","lilac","selene","evergo","pissarro","spes","spesn","veux","fleur","viva","vida","light","lightcm","opal","xaga","sunstone","sky","ruby","redwood","marble","pearl","tapas","topaz","sweet_k6a","sea","gold","garnet","zircon","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens","matisse","diting","mondrian","socrates","corot","rembrandt","yunluo","xun","ice","water","angelicain","frost","evergreen","rock","rosemary_p","surya","vayu","moonstone"]
@@ -2012,7 +2015,6 @@ def getFromApi(encrypted_data,device):
       checkExit(package)
       return 1
     else:
-      print(data)
       return 0
   response.close()
 def getChangelog(encrypted_data,device):
