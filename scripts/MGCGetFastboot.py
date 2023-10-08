@@ -24,6 +24,7 @@ def getFastboot(region):
         for package in packages:
           fastboot = package["package_url"].split('/')[4]
           common.checkExit(fastboot)
+    response.close()
 
 
 for region in regions:
