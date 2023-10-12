@@ -22,7 +22,7 @@ def getFastboot(region):
         i = 0
       else:
         for package in packages:
-          fastboot = package["package_url"].split('/')[4]
+          fastboot = package["package_url"].split('/')[4].split("?")[0]
           common.checkExit(fastboot)
     response.close()
 
