@@ -14,6 +14,7 @@ regions = ["global","rs","bd","id","my","pk","ph","tr","vn","th","de","es","fr",
 def getFastboot(region):
   for domain in domains:
     url = domain+region+params
+    print("\r"+url+"              ",end="")
     response = requests.get(url, headers=headers)
     content = response.content.decode("utf8")
     if (response.status_code != 404):
