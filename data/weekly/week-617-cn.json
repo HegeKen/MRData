@@ -1,0 +1,160 @@
+{
+  "titleCn": "MIUI第617周发布公告及更新日志",
+  "titleEn": "The 617th MIUI Weekly Update Changelogs",
+  "CnBBSID": "",
+  "CnComID": "42574974",
+  "GbBBSID": "",
+  "update": "2023.10.14 13:30:51",
+  "versions": " V14.0.23.10.8.DEV, V14.0.23.9.19.DEV",
+  "showdevices": "1",
+  "vid": "",
+  "no": "",
+  "devices": [
+    {
+      "code": "cupid",
+      "NameCn": "小米 12",
+      "NameEn": "Xiaomi 12",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_CUPID_V14.0.23.10.8.DEV_edad4ada36_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "zeus",
+      "NameCn": "小米 12 Pro",
+      "NameEn": "Xiaomi 12 Pro",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_ZEUS_V14.0.23.10.8.DEV_2014ffe53b_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "daumier",
+      "NameCn": "小米 12 Pro 天玑版",
+      "NameEn": "Xiaomi 12 Pro Dimensity",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_DAUMIER_V14.0.23.10.8.DEV_1da85c2bd2_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "unicorn",
+      "NameCn": "小米 12S Pro",
+      "NameEn": "Xiaomi 12S Pro",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_UNICORN_V14.0.23.10.8.DEV_a8f0844227_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "thor",
+      "NameCn": "小米 12S Ultra",
+      "NameEn": "Xiaomi 12S Ultra",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_THOR_V14.0.23.10.8.DEV_538ac8a537_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "dagu",
+      "NameCn": "小米平板 5 Pro 12.4",
+      "NameEn": "Xiaomi Pad 5 Pro 12.4",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_DAGU_V14.0.23.10.8.DEV_a2667ce603_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "rubens",
+      "NameCn": "Redmi K50",
+      "NameEn": "Redmi K50",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_RUBENS_V14.0.23.10.8.DEV_13237707d6_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "matisse",
+      "NameCn": "Redmi K50 Pro",
+      "NameEn": "Redmi K50 Pro",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_MATISSE_V14.0.23.10.8.DEV_5f6f8358d5_13.0.zip",
+      "fastboot": ""
+    },
+    {
+      "code": "ingres",
+      "NameCn": "Redmi K50 电竞版",
+      "NameEn": "Redmi K50G",
+      "miui": " V14.0.23.10.8.DEV",
+      "android": "13.0",
+      "recovery": "miui_INGRES_V14.0.23.10.8.DEV_d9f73647f7_13.0.zip",
+      "fastboot": ""
+    }
+  ],
+  "tpd": [],
+  "addons": [
+    {
+      "titleCn": "升级说明",
+      "titleEn": "Update instruction",
+      "details": [
+        {
+          "Cn": "MIUI开发版可进入“设置→我的设备→MIUI版本”在线升级，升级前务必备份重要数据",
+          "En": "You can upgrade MIUI China Beta by 'Settings→My Device→MIUI version', please make sure you've backed up important personal data before update."
+        },
+        {
+          "Cn": "部分机型可能因功能进版时间略有差异，具体功能请以手机端展示日志为准",
+          "En": "Some devices will get these same features later some time, please view specific changelog in the 'System Update' App."
+        },
+        {
+          "Cn": "开发版：是提供给少数资深极客精神米粉的测试版本，用于问题反馈和测试，稳定性不可预估，感谢勇敢冒险者试用开发版。版本根据项目需要和实际情况发布，存在停版的可能，推荐发烧友米粉尝鲜体验，遇到问题请理性反馈，关注后续版本升级。",
+          "En": "China Beta: China Beta is a test version that MIUI Dev Team prepared for Geeky Mi Fans, more focused on feature testing and bug feedback, stablity is not predictable, We(MIUI Dev Team) thank you for all your support. Version is released according to the needs of the project and the actual situation, and there is a possibility of suspension, If you encounter bugs, please send us bug report in Xiaomi Community(China), and pay attention to the subsequent upgrade."
+        },
+        {
+          "Cn": "为提升用户体验，MIUI系统部分APP解耦合，在应用商店可升级，是MIUI系统的一部分。开发版不断迭代中，部分修复有时可能不完全显示在当天公告日志里，感谢大家的理解",
+          "En": "In order to improve the user experience, bunch of the MIUI system APPs are Deodexed and can be upgraded in the Mi GetApps/Google Play . As a part of the MIUI system, some APPs bug fixes may not be included in this changelog , thank you for your understanding."
+        }
+      ]
+    },
+    {
+      "titleCn": "版本说明",
+      "titleEn": "Version Information",
+      "details": [
+        {
+          "Cn": "为了给大家相对更好的体验，小米 13 Ultra、小米 13 Pro、小米 13、Redmi K60 Pro、Redmi K60、小米 MIX Fold 2 于2023年9月23日起暂停发布基于Android 13的MIUI开发版，上述机型在适配Android14后会重新发布开发版，感谢大家的支持和理解",
+          "En": "From 23 September 2023, we're suspending MIUI updates based on Andriod 13 for Xiaomi 13 Ultra,Xiaomi 13 Pro,Xiaomi 13,Redmi K60 Pro,Redmi K60 and Xiaomi MIX Fold 2 due to Android Update, we'll continue when it's ready, thanks for your understanding."
+        },
+        {
+          "Cn": "小米 13 Pro、小米 13 基于Android 14的开发版 2023年9月23日起将结束测试，在上述多款机型适配Android14后会继续发布开发版，届时大家可系统更新到新发布版本，再次感谢发烧友们的支持。",
+          "En": "China Beta based on Anrdoid 14 tests for Xiaomi 13&13 Pro is ending 23 September 2023, we'll continue release after those mentioned devices are ready, thanks for your support."
+        },
+        {
+          "Cn": "为给大家相对更好的版本使用体验，国庆节发版计划如下，提前祝大家国庆节快乐  ①. 9月23日-10月6日：开发版暂停发布   ②. 10月13日：开发版恢复发布",
+          "En": "For better user experience during the Chinese National holiday, we have planned to suspend MIUI China Beta updates  ①. September 23 to October 6: suspending MIUI China Beta    ②. October 13: China Beta continues."
+        },
+        {
+          "Cn": "为给米粉朋友们更好的安全体验，当开发版安全补丁版本，不高于正式版安全补丁时，才能切换版本成功。请切换选项消失或切换失败的米粉朋友备份数据到电脑后，参照刷机教程线刷，感谢大家的支持和理解。",
+          "En": "You can switch between MIUI China Beta and MIUI Stable ROMs while current Android Security Patch is the same or lower than the other one, thanks for your understanding."
+        }
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "titleCn": "MIUI第617周发布公告及更新日志",
+      "titleEn": "The 617th MIUI Weekly Update Changelogs",
+      "log": [
+        {
+          "componentCn": "系统",
+          "componentEn": "System",
+          "changes": [
+            {
+              "changesCn": "优化 部分影响使用体验的问题",
+              "changesEn": "Optiminzing some factors affecting user experience."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
