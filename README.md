@@ -1,9 +1,9 @@
 # MRData
 ## 项目详情| Repository Info
 
-此项目是新版 [MIUI官方ROM仓库](https://github.com/HegeKen/MIUIROMS) ，即 [NuxtMR](https://github.com/HegeKen/NuxtMR)  所使用到的各项组件以及数据的仓库
+此项目是新版 [MIUI官方ROM仓库](https://roms.miuier.com) ，即 [NuxtMR](https://github.com/HegeKen/NuxtMR)  所使用到的各项组件以及数据的仓库
 
-This repository contains main assets and data used in [NuxtMR](https://github.com/HegeKen/NuxtMR) project， the new version of [MIUIROMS](https://github.com/HegeKen/MIUIROMS) .
+This repository contains main assets and data used in [NuxtMR](https://github.com/HegeKen/NuxtMR) project， the new version of [MIUIROMS](https://roms.miuier.com) .
 
 ### 文件夹详情 | Folder Info
 

@@ -10,6 +10,10 @@ for device in common.currentStable:
       i = 0
     else:
       for rom in branch["links"]:
+        if rom["miui"] == "":
+          print(device +"\t"+ branch["cnname"] +"\t"+rom["miui"] +"\t"+ " MIUI 版本为空")
+        if rom["android"] == "":
+          print(device +"\t"+ branch["cnname"] +"\t"+rom["miui"] +"\t"+ " Android 版本为空")
         if rom["recovery"] == "":
           if rom["android"] in rom["fastboot"]:
             i = 0

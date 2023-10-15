@@ -107,6 +107,25 @@
       ]
     },
     {
+      "code":"pipa_ep_stdee",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "stde",
+      "zone":"1",
+      "show": "0",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V14.0.23.9.7.EP.STDEE.M82",
+          "android": "13.0",
+          "recovery": "miui_PIPAEPSTDEE_V14.0.23.9.7.EP.STDEE.M82_c769dc0810_13.0.zip",
+          "fastboot": "pipa_ep_stdee_images_V14.0.23.9.7.EP.STDEE.M82_20230907.0000.00_13.0_cn_8b5beaa0a1.tgz"
+        }
+      ]
+    },
+    {
       "code":"pipa_tw_global",
       "btag":"F",
       "region":"tw",

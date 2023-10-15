@@ -1,0 +1,46 @@
+import requests
+import common
+import json
+from sys import platform
+
+miui_key = b"miuiotavalided11"
+miui_iv = b"0102030405060708"
+check_url = "https://update.miui.com/updates/miotaV3.php"
+
+
+for device in common.currentStable:
+  if platform == "win32":
+    devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  else:
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+  for branch in devdata["branches"]:
+    common.MiOTAForm2["d"] = branch["code"]
+    if branch["region"] == "cn":
+      common.MiOTAForm2["pn"] = branch["code"]
+    else:
+      if branch["code"] == devdata["codename"]+"_global":
+        common.MiOTAForm2["pn"] = branch["code"]
+      else:
+        common.MiOTAForm2["pn"] = branch["code"].split("_global")[0]
+    common.MiOTAForm2["b"] = branch["btag"]
+    common.MiOTAForm2["options"]["zone"] = branch["zone"]
+    for link in branch["links"]:
+      if link["android"] == "":
+        common.MiOTAForm2["c"] = "13"
+      else:
+        common.MiOTAForm2["c"] = link["android"].split(".")[0]
+      common.MiOTAForm2["sdk"] = common.sdk[common.MiOTAForm2["c"]]
+      common.MiOTAForm2["v"] = "MIUI-"+ link["miui"]
+      if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
+          if platform == "win32":
+            file = open("static/data/scripts/checkOTA.txt", "a", encoding='utf-8')
+          else:
+            file = open("/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt", "a", encoding='utf-8')
+          if branch["branch"] == "cnmp":
+            i = 0
+          else:
+            file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+link["android"]+",\t"+branch["zone"]+"\n")
+            file.close()
+      else:
+        i = 0
+  print("\r"+devdata["cnname"]+"已完成                            ",end="")
