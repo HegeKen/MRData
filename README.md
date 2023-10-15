@@ -21,6 +21,12 @@ This folder source data to form [NuxtMR](https://github.com/HegeKen/NuxtMR) , al
 
 ### `script`
 
-该文件夹里包含我自己尝试成功或失败的Python爬虫脚本，线刷包抓取简单点，因此基本可以稳定抓取线刷包，卡刷包，我目前无能为力。
+该文件夹为老的爬虫文件，该文件夹里包含我自己尝试成功或失败的Python爬虫脚本，9月末已实现卡刷包抓取，新爬虫脚本在`scripts`文件夹中。
 
-This folder contains Python codes I succeeded or failed, fastboot files are easy to crawl, and it is stable , and recovery files are hard to get, and I'm not able to do it on my own at the moment.
+This folder contains old Python codes I used, and I managed to crawl recovery roms late september, new scripts are in `scripts` folder.
+
+### `scripts`
+
+该文件夹里包含我目前在用的爬虫脚本，现可以抓取卡刷包、线刷包。
+
+This folder contains Python codes I'm currently using to get recovery and fastboot roms.
