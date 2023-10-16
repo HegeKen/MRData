@@ -23,7 +23,47 @@ for device in common.currentStable:
       else:
         common.MiOTAForm2["pn"] = branch["code"].split("_global")[0]
     common.MiOTAForm2["b"] = branch["btag"]
-    common.MiOTAForm2["options"]["zone"] = branch["zone"]
+    common.MiOTAForm2["options"]["zone"] = "1"
+    for link in branch["links"]:
+      if link["android"] == "":
+        common.MiOTAForm2["c"] = "13"
+      else:
+        common.MiOTAForm2["c"] = link["android"].split(".")[0]
+      common.MiOTAForm2["sdk"] = common.sdk[common.MiOTAForm2["c"]]
+      common.MiOTAForm2["v"] = "MIUI-"+ link["miui"]
+      if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
+          if platform == "win32":
+            file = open("static/data/scripts/checkOTA.txt", "a", encoding='utf-8')
+          else:
+            file = open("/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt", "a", encoding='utf-8')
+          if branch["branch"] == "cnmp":
+            i = 0
+          else:
+            file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+link["android"]+",\t"+branch["zone"]+"\n")
+            file.close()
+      else:
+        i = 0
+    common.MiOTAForm2["options"]["zone"] = "2"
+    for link in branch["links"]:
+      if link["android"] == "":
+        common.MiOTAForm2["c"] = "13"
+      else:
+        common.MiOTAForm2["c"] = link["android"].split(".")[0]
+      common.MiOTAForm2["sdk"] = common.sdk[common.MiOTAForm2["c"]]
+      common.MiOTAForm2["v"] = "MIUI-"+ link["miui"]
+      if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
+          if platform == "win32":
+            file = open("static/data/scripts/checkOTA.txt", "a", encoding='utf-8')
+          else:
+            file = open("/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt", "a", encoding='utf-8')
+          if branch["branch"] == "cnmp":
+            i = 0
+          else:
+            file.write(devdata["cnname"]+"("+device+"),\t"+branch["code"]+",\t"+branch["cnname"]+",\t"+link["android"]+",\t"+branch["zone"]+"\n")
+            file.close()
+      else:
+        i = 0
+    common.MiOTAForm2["options"]["zone"] = "3"
     for link in branch["links"]:
       if link["android"] == "":
         common.MiOTAForm2["c"] = "13"

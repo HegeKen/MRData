@@ -26,6 +26,81 @@ jpbranches = ["_jp_global","_jp_sb_global","_jp_kd_global""_jp_rk_global"]
 onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
 
 
+for device in common.newDevices:
+  if device in onedevices:
+    for branch in gfbranches:
+      common.getFastboot(base_url+device+branch+"&b=F&r=&n=")
+  else:
+    for branch in cnbranches:
+      for carrier in carriers:
+        if device+branch in common.flags:
+          i = 0
+        else:
+          print("\r"+base_url+device+branch+"&b=F&r=cn&n="+carrier+"                                      ",end="")
+          common.getFastboot(base_url+device+branch+"&b=F&r=cn&n="+carrier)
+    for branch in gbbranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+    for branch in eeabranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=eea&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=eea&n=")
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+    for branch in rubranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=ru&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=ru&n=")
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+    for branch in inbranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=in&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=in&n=")
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+    for branch in idbranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=id&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=id&n=")
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+    for branch in trbranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=tr&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=tr&n=")
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+    for branch in krbranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=kr&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=kr&n=")
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+    for branch in jpbranches:
+      if device+branch in common.flags:
+        i = 0
+      else:
+        print("\r"+base_url+device+branch+"&b=F&r=jp&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=jp&n=")
+        print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
+        common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+
 for device in common.currentStable:
   if device in onedevices:
     for branch in gfbranches:
