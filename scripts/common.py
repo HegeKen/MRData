@@ -2007,7 +2007,7 @@ def getFromApi(encrypted_data,device):
   response = requests.post(check_url, headers=headers, data=data)
   print("\r"+"正在抓取"+devdata["cnname"]+"(" + devdata["codename"]+")                  ",end="")
   if "code" in response.text:
-    print(json.loads(response.text)["desc"])
+    print(json.loads(response.text))
   else:
     data = miui_decrypt(response.text.split("q=")[0])
     if "LatestRom" in data:
