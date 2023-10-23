@@ -21,7 +21,7 @@ inbranches = ["_in_global","in_global","_in_fk_global","_in_jo_global","in_in_gl
 idbranches = ["_id_global"]
 trbranches = ["_tr_global"]
 krbranches = ["_kr_global","_kr_gu_global","_kr_kt_global","_kr_sk_global"]
-jpbranches = ["_jp_global","_jp_sb_global","_jp_kd_global""_jp_rk_global"]
+jpbranches = ["_jp_global","_jp_sb_global","_jp_kd_global","_jp_rk_global"]
 
 onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
 
