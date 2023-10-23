@@ -29,7 +29,10 @@ onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
 for device in common.newDevices:
   if device in onedevices:
     for branch in gfbranches:
-      common.getFastboot(base_url+device+branch+"&b=F&r=&n=")
+      if device+branch in common.flags:
+        i = 0
+      else:
+        common.getFastboot(base_url+device+branch+"&b=F&r=&n=")
   else:
     for branch in cnbranches:
       for carrier in carriers:
@@ -104,7 +107,10 @@ for device in common.newDevices:
 for device in common.currentStable:
   if device in onedevices:
     for branch in gfbranches:
-      common.getFastboot(base_url+device+branch+"&b=F&r=&n=")
+      if device+branch in common.flags:
+        i = 0
+      else:
+        common.getFastboot(base_url+device+branch+"&b=F&r=&n=")
   else:
     for branch in cnbranches:
       for carrier in carriers:
