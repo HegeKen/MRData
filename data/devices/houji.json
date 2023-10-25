@@ -37,6 +37,32 @@
       ]
     },
     {
+      "code":"houji_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cndm",
+      "zone":"1",
+      "show": "0",
+      "ep":"0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V816.0.2.0.UNCCNDM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_e802ade132.tgz"
+        },
+        {
+          "miui": "V816.0.2.0.UNCCNDM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_chinatelecom_36f7b6dc15.tgz"
+        }
+      ]
+    },
+    {
       "code":"houji_eea_global",
       "btag":"F",
       "region":"eea",

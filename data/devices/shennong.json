@@ -37,6 +37,32 @@
       ]
     },
     {
+      "code":"shennong_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cndm",
+      "zone":"1",
+      "show": "0",
+      "ep":"0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V816.0.2.0.UNBCNDM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "shennong_demo_images_OS1.0.2.0.UNBCNDM_20231024.0000.00_14.0_cn_7089d8bf41.tgz"
+        },
+        {
+          "miui": "V816.0.2.0.UNBCNDM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "shennong_demo_images_OS1.0.2.0.UNBCNDM_20231024.0000.00_14.0_cn_chinatelecom_0e1e19a28e.tgz"
+        }
+      ]
+    },
+    {
       "code":"shennong_eea_global",
       "btag":"F",
       "region":"eea",

@@ -32,6 +32,8 @@ flags = {
     "pipa_ep_stdee":"pipa",
     "HOUJI":"houji",
     "houji":"houji",
+    "houji_demo":"houji",
+    "shennong_demo":"shennong",
     "SHENNONG":"shennong",
     "shennong":"shennong",
     "sapphire":"sapphire",
