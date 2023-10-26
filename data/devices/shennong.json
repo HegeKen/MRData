@@ -20,19 +20,45 @@
       "code":"shennong",
       "btag":"F",
       "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "carrier":["","chinamobile","chinaunicom"],
       "branch": "cnmo",
       "zone":"1",
       "show": "0",
       "ep":"1",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
+      "cnname": "小米澎湃 OS",
+      "enname": "Xiaomi HyperOS",
       "links": [
         {
-          "miui": "V15.0.0.1.UNBCNXM",
+          "miui": "OS1.0.9.0.UNBCNXM",
           "android": "14.0",
           "recovery": "",
+          "fastboot": "shennong_images_OS1.0.9.0.UNBCNXM_20231025.0000.00_14.0_cn_7962c872df.tgz"
+        },
+        {
+          "miui": "OS1.0.6.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.6.0.UNBCNXM_071034c0d5_14.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"shennong",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "zone":"1",
+      "show": "1",
+      "ep":"0",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "OS1.0.9.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "shennong_images_OS1.0.9.0.UNBCNXM_20231025.0000.00_14.0_cn_chinatelecom_2b3e0011af.tgz"
         }
       ]
     },
@@ -49,15 +75,15 @@
       "enname": "China Mainland Demo Stable",
       "links": [
         {
-          "miui": "V816.0.2.0.UNBCNDM",
+          "miui": "OS1.0.2.0.UNBCNDM",
           "android": "14.0",
-          "recovery": "",
+          "recovery": "miui_SHENNONGDEMO_OS1.0.2.0.UNBCNDM_3667503284_14.0.zip",
           "fastboot": "shennong_demo_images_OS1.0.2.0.UNBCNDM_20231024.0000.00_14.0_cn_7089d8bf41.tgz"
         },
         {
-          "miui": "V816.0.2.0.UNBCNDM",
+          "miui": "OS1.0.2.0.UNBCNDM",
           "android": "14.0",
-          "recovery": "",
+          "recovery": "miui_SHENNONGDEMO_OS1.0.2.0.UNBCNDM_3667503284_14.0.zip",
           "fastboot": "shennong_demo_images_OS1.0.2.0.UNBCNDM_20231024.0000.00_14.0_cn_chinatelecom_0e1e19a28e.tgz"
         }
       ]
@@ -75,7 +101,7 @@
       "enname": "Europe EEA Stable",
       "links": [
         {
-          "miui": "V15.0.0.1.UNBEUXM",
+          "miui": "OS1.0.0.0.UNBEUXM",
           "android": "14.0",
           "recovery": "",
           "fastboot": ""

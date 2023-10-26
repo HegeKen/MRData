@@ -20,19 +20,45 @@
       "code":"houji",
       "btag":"F",
       "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "carrier":["","chinamobile","chinaunicom"],
       "branch": "cnmo",
       "zone":"1",
       "show": "0",
       "ep":"1",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
+      "cnname": "小米澎湃 OS",
+      "enname": "Xiaomi HyperOS",
       "links": [
         {
-          "miui": "V15.0.0.1.UNCCNXM",
+          "miui": "OS1.0.9.0.UNCCNXM",
           "android": "14.0",
           "recovery": "",
+          "fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_f1003ae985.tgz"
+        },
+        {
+          "miui": "OS1.0.5.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.6.0.UNCCNXM_3461cbcbc7_14.0.zip",
           "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"houji",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "zone":"1",
+      "show": "1",
+      "ep":"0",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "OS1.0.9.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_chinatelecom_3a7f003707.tgz"
         }
       ]
     },
@@ -49,15 +75,15 @@
       "enname": "China Mainland Demo Stable",
       "links": [
         {
-          "miui": "V816.0.2.0.UNCCNDM",
+          "miui": "OS1.0.2.0.UNCCNDM",
           "android": "14.0",
-          "recovery": "",
+          "recovery": "miui_HOUJIDEMO_OS1.0.2.0.UNCCNDM_70b4b0894b_14.0.zip",
           "fastboot": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_e802ade132.tgz"
         },
         {
-          "miui": "V816.0.2.0.UNCCNDM",
+          "miui": "OS1.0.2.0.UNCCNDM",
           "android": "14.0",
-          "recovery": "",
+          "recovery": "miui_HOUJIDEMO_OS1.0.2.0.UNCCNDM_70b4b0894b_14.0.zip",
           "fastboot": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_chinatelecom_36f7b6dc15.tgz"
         }
       ]
