@@ -17,9 +17,9 @@ common.MiOTAForm["c"] = "14"
 common.MiOTAForm["sdk"] = common.sdk[common.MiOTAForm["c"]]
 common.MiOTAForm["p"] = device
 common.MiOTAForm["options"]["zone"] = "1"
-common.MiOTAForm["options"]["cv"] = "OS1.0.1.0.UNCCNXM"
+common.MiOTAForm["options"]["cv"] = "OS1.0.6.0.UNCCNXM"
 common.MiOTAForm["options"]["previewPlan"] = "0"
-common.MiOTAForm["v"] = "MIUI-"+"OS1.0.2.0.UNCCNXM"
+common.MiOTAForm["v"] = "MIUI-"+"OS1.0.4.0.UNCCNXM"
 
 
 common.getChangelog(common.miui_encrypt(json.dumps(common.MiOTAForm)),device)
