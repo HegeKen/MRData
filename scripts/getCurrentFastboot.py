@@ -32,5 +32,7 @@ for device in common.currentStable:
     else:
       print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
       common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
+      print("\r"+base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n="+"                                   ",end="")
+      common.getFastboot(base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n=")
       print("\r"+base_url+code+"&b="+btag+"&r=global"+"&n="+"                                   ",end="")
       common.getFastboot(base_url+code+"&b="+btag+"&r=global"+"&n=")

@@ -2035,6 +2035,35 @@ def getFromApi(encrypted_data,device):
     else:
       return 0
   response.close()
+
+def getFromApi2(encrypted_data,device):
+  headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
+           "Connection": "Keep-Alive",
+           "Content-Type":"application/x-www-form-urlencoded",
+           "Cache-Control":"no-cache",
+           "Host":"update.miui.com",
+           "Accept-Encoding":"gzip",
+           "Content-Length":"795",
+           "Cookie":"serviceToken=;"
+           }
+  data = "q=" + encrypted_data + "&s=1&t="
+  response = requests.post(check_url, headers=headers, data=data)
+  if "code" in response.text:
+    print(json.loads(response.text))
+  else:
+    data = miui_decrypt(response.text.split("q=")[0])
+    print(data)
+    if "LatestRom" in data:
+      package = data["LatestRom"]["filename"].split("?")[0]
+      checkExit(package)
+      return 1
+    elif "CrossRom" in data:
+      package = data["CrossRom"]["filename"].split("?")[0]
+      checkExit(package)
+      return 1
+    else:
+      return 0
+  response.close()
 def getChangelog(encrypted_data,device):
   headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
            "Connection": "Keep-Alive",
