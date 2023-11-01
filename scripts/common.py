@@ -1979,7 +1979,7 @@ MiOTAForm = {
   "sn":"0x77309938",
   "sdk":"29",
   "pn":"fuxi",
-  "options":{"zone":1,"hashId":"2371ef99a72a282c","ab":"0","previewPlan":"0","sv":3,"av":"8.1.6","cv":"V14.0.23.9.12.DEV"}}
+  "options":{"zone":1,"hashId":"2371ef99a72a282c","ab":"0","previewPlan":"0","sv":3,"av":"8.3.1","cv":"V14.0.23.9.12.DEV"}}
 
 MiOTAForm2 = {
   "a":"0",
