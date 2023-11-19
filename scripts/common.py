@@ -45,6 +45,8 @@ flags = {
     "houji":"houji",
     "houji_demo":"houji",
     "gale_global":"gale",
+    "pearl_ep_stdee":"pearl",
+    "PEARLEPSTDEE":"pearl",
     "GALEGLOBAL":"gale",
     "shennong_demo":"shennong",
     "SHENNONG":"shennong",
