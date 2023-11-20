@@ -33,6 +33,8 @@ for device in common.currentStable:
       print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
       common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
       print("\r"+base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n="+"                                   ",end="")
+      print("\r"+base_url+code+"&b="+btag+"&r=eea&n="+"                                   ",end="")
+      common.getFastboot(base_url+code+"&b="+btag+"&r=eea&n=")
       common.getFastboot(base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n=")
       print("\r"+base_url+code+"&b="+btag+"&r=global"+"&n="+"                                   ",end="")
       common.getFastboot(base_url+code+"&b="+btag+"&r=global"+"&n=")
