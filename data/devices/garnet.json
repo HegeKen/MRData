@@ -166,6 +166,32 @@
           "fastboot": "garnet_demo_images_V14.0.4.0.TNRCNDM_20230920.0000.00_13.0_cn_chinatelecom_00649367b4.tgz"
         }
       ]
+    },
+    {
+      "code":"garnet_ep_stdee",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "stde",
+      "zone":"1",
+      "show": "0",
+      "ep":"1",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V14.0.23.11.20.EP.STDEE.N16",
+          "android": "13.0",
+          "recovery": "miui_GARNETEPSTDEE_V14.0.23.11.20.EP.STDEE.N16_27e89801d3_13.0.zip",
+          "fastboot": "garnet_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N16_20231120.0000.00_13.0_cn_8b1292ae4b.tgz"
+        },
+        {
+          "miui": "V14.0.23.11.20.EP.STDEE.N16",
+          "android": "13.0",
+          "recovery": "miui_GARNETEPSTDEE_V14.0.23.11.20.EP.STDEE.N16_27e89801d3_13.0.zip",
+          "fastboot": "garnet_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N16_20231120.0000.00_13.0_cn_chinatelecom_4e53b11429.tgz"
+        }
+      ]
     }
   ]
 }

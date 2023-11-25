@@ -47,6 +47,8 @@ flags = {
     "gale_global":"gale",
     "pearl_ep_stdee":"pearl",
     "PEARLEPSTDEE":"pearl",
+    "garnet_ep_stdee":"garnet",
+    "GARNETEPSTDEE":"garnet",
     "GALEGLOBAL":"gale",
     "shennong_demo":"shennong",
     "SHENNONG":"shennong",
