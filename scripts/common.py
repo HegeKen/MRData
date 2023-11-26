@@ -45,6 +45,8 @@ flags = {
     "houji":"houji",
     "houji_demo":"houji",
     "gale_global":"gale",
+    "GOLDEPSTDEE":"gold",
+    "gold_ep_stdee":"gold",
     "pearl_ep_stdee":"pearl",
     "PEARLEPSTDEE":"pearl",
     "garnet_ep_stdee":"garnet",

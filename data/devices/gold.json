@@ -80,6 +80,32 @@
           "fastboot": "gold_images_V14.0.1.0.TNQCNXM_20230901.0000.00_13.0_cn_chinatelecom_f68bc3713c.tgz"
         }
       ]
+    },
+    {
+      "code":"gold_ep_stdee",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "stde",
+      "zone":"1",
+      "show": "0",
+      "ep":"1",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V14.0.23.11.20.EP.STDEE.N17",
+          "android": "13.0",
+          "recovery": "miui_GOLDEPSTDEE_V14.0.23.11.20.EP.STDEE.N17_a315483de6_13.0.zip",
+          "fastboot": "gold_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N17_20231120.0000.00_13.0_cn_86bff93de3.tgz"
+        },
+        {
+          "miui": "V14.0.23.11.20.EP.STDEE.N17",
+          "android": "13.0",
+          "recovery": "miui_GOLDEPSTDEE_V14.0.23.11.20.EP.STDEE.N17_a315483de6_13.0.zip",
+          "fastboot": "gold_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N17_20231120.0000.00_13.0_cn_chinatelecom_773398bde3.tgz"
+        }
+      ]
     }
   ]
 }
