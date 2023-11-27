@@ -30,7 +30,27 @@
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "V15.0.0.1.UNKCNXM",
+          "miui": "OS.1.0.0.1.UNKCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"vermeer_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cndm",
+      "zone":"1",
+      "show": "0",
+      "ep":"0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "OS.1.0.0.1.UNKCNDM",
           "android": "14.0",
           "recovery": "",
           "fastboot": ""

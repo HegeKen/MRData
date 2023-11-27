@@ -30,7 +30,27 @@
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
         {
-          "miui": "V15.0.0.1.UNLCNXM",
+          "miui": "OS1.0.0.1.UNLCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"duchamp_demo",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "cndm",
+      "zone":"1",
+      "show": "0",
+      "ep":"0",
+      "cnname": "中国大陆Demo",
+      "enname": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "OS1.0.0.1.UNLCNDM",
           "android": "14.0",
           "recovery": "",
           "fastboot": ""
