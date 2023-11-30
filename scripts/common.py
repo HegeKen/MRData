@@ -61,6 +61,8 @@ flags = {
     "gold_ep_stdee":"gold",
     "pearl_ep_stdee":"pearl",
     "PEARLEPSTDEE":"pearl",
+    "xaga_ep_stdee":"xaga",
+    "XAGAEPSTDEE":"xaga",
     "garnet_ep_stdee":"garnet",
     "GARNETEPSTDEE":"garnet",
     "GALEGLOBAL":"gale",
