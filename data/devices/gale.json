@@ -18,6 +18,26 @@
   "pcid": "",
   "branches": [
     {
+      "code":"gale_tw_global",
+      "btag":"F",
+      "region":"tw",
+      "carrier":[],
+      "branch": "cntw",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "中国台湾地区稳定版",
+      "enname": "China Taiwan Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TGPTWXM",
+          "android": "14.0",
+          "recovery": "miui_GALETWGlobal_V14.0.1.0.TGPTWXM_9cc14cfd6b_13.0.zip",
+          "fastboot": "gale_tw_global_images_V14.0.1.0.TGPTWXM_20231107.0000.00_13.0_tw_16a6f9c144.tgz"
+        }
+      ]
+    },
+    {
       "code":"gale_global",
       "btag":"F",
       "region":"global",

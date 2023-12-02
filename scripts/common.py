@@ -54,6 +54,8 @@ flags = {
     "MANET": "manet",
     "MANETDEMO": "manet",
     "manet_demo": "manet",
+    "GALETWGlobal":"gale",
+    "gale_tw_global":"gale",
     "manet": "manet",
     "houji_demo":"houji",
     "gale_global":"gale",
