@@ -1,7 +1,7 @@
 {
   "codename": "air",
-  "cnname": "Redmi 13R 5G 印度版",
-  "enname": "Redmi 13R 5G India",
+  "cnname": "Redmi 13R 5G",
+  "enname": "Redmi 13R 5G",
   "attentions": [
     {
       "cn": "",
@@ -17,6 +17,26 @@
   "gdid": "",
   "pcid": "",
   "branches": [
+    {
+      "code":"air",
+      "btag":"F",
+      "region":"cn",
+      "carrier":[],
+      "branch": "cnmo",
+      "zone":"1",
+      "show": "1",
+      "ep":"0",
+      "cnname": "中国大陆正式版",
+      "enname": "China Mainland Stable(MIUI14)",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TGQCNXM",
+          "android": "13.0",
+          "recovery": "miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip",
+          "fastboot": "air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_ca44e766b1.tgz"
+        }
+      ]
+    },
     {
       "code": "air_in_global",
       "btag": "F",

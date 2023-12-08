@@ -106,6 +106,8 @@ flags = {
     "duchamp_demo": "duchamp",
     "duchamp": "duchamp",
     "MANET": "manet",
+    "AIR":"air",
+    "air":"air",
     "MANETDEMO": "manet",
     "manet_demo": "manet",
     "air_in_global":"air",
