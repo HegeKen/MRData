@@ -109,7 +109,7 @@ flags = {
     "MANETDEMO": "manet",
     "manet_demo": "manet",
     "air_in_global":"air",
-    "AIRINGLOBAL":"air",
+    "AIRINGlobal":"air",
     "GALETWGlobal":"gale",
     "gale_tw_global":"gale",
     "manet": "manet",
@@ -123,7 +123,7 @@ flags = {
     "XAGAEPSTDEE":"xaga",
     "garnet_ep_stdee":"garnet",
     "GARNETEPSTDEE":"garnet",
-    "GALEGLOBAL":"gale",
+    "GALEGlobal":"gale",
     "shennong_demo":"shennong",
     "SHENNONG":"shennong",
     "SHENNONGDEMO":"shennong",
@@ -1974,6 +1974,7 @@ def getDeviceCode(filename):
       codename = flags[flag]
       return codename
     else:
+      print(flag)
       writeFlag(flag)
       return 0
   elif ".tgz" in filename:
