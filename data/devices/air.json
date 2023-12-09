@@ -1,7 +1,7 @@
 {
   "codename": "air",
-  "cnname": "Redmi 13R 5G",
-  "enname": "Redmi 13R 5G",
+  "cnname": "Redmi 13C 5G/ Redmi 13R 5G/ POCO M6 5G",
+  "enname": "Redmi 13C 5G/ Redmi 13R 5G/ POCO M6 5G",
   "attentions": [
     {
       "cn": "",
@@ -21,7 +21,7 @@
       "code":"air",
       "btag":"F",
       "region":"cn",
-      "carrier":[],
+      "carrier":["","chinamobile","chinaunicom"],
       "branch": "cnmo",
       "zone":"1",
       "show": "1",
@@ -34,6 +34,26 @@
           "android": "13.0",
           "recovery": "miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip",
           "fastboot": "air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_ca44e766b1.tgz"
+        }
+      ]
+    },
+    {
+      "code":"air",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["chinatelecom"],
+      "branch": "ctce",
+      "zone":"1",
+      "show": "1",
+      "ep":"0",
+      "cnname": "中国电信定制版",
+      "enname": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TGQCNXM",
+          "android": "13.0",
+          "recovery": "miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip",
+          "fastboot":"air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_chinatelecom_21a756ac17.tgz"
         }
       ]
     },
