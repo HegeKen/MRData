@@ -2017,7 +2017,7 @@ def getFastboot(url):
     i = 0
   response.close()
 def checkExit(filename):
-  if 'blockota' in filename:
+  if 'blockota' in filename or 'OS' in filename:
     i = 0
   else:
     if getDeviceCode(filename) == 0:
