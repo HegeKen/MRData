@@ -44,6 +44,26 @@
       ]
     },
     {
+      "code":"xun_ep_stdee",
+      "btag":"F",
+      "region":"cn",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "branch": "stde",
+      "zone":"1",
+      "show": "0",
+      "ep":"1",
+      "cnname": "中国大陆STDEE",
+      "enname": "China Mainland STDEE",
+      "links": [
+        {
+          "miui": "V14.0.23.11.29.EP.STDEE.M84",
+          "android": "13.0",
+          "recovery": "miui_XUNEPSTDEE_V14.0.23.11.29.EP.STDEE.M84_4b4e34dbc4_13.0.zip",
+          "fastboot": "xun_ep_stdee_images_V14.0.23.11.29.EP.STDEE.M84_20231129.0000.00_13.0_cn_3b25a3d6cf.tgz"
+        }
+      ]
+    },
+    {
       "code":"xun_tw_global",
       "btag":"F",
       "region":"tw",

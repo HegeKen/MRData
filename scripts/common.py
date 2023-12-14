@@ -102,6 +102,8 @@ flags = {
     'vermeer_demo': 'vermeer',
     "gale_eea_global":"gale",
     "GALEEEAGlobal":"gale",
+    "xun_ep_stdee":"xun",
+    "XUNEPSTDEE":"xun",
     'vermeer': 'vermeer',
     'DUCHAMP': 'duchamp',
     'DUCHAMPDEMO': 'duchamp',
