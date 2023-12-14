@@ -100,6 +100,8 @@ flags = {
     'VERMEER': 'vermeer',
     'VERMEERDEMO': 'vermeer',
     'vermeer_demo': 'vermeer',
+    "gale_eea_global":"gale",
+    "GALEEEAGlobal":"gale",
     'vermeer': 'vermeer',
     'DUCHAMP': 'duchamp',
     'DUCHAMPDEMO': 'duchamp',
