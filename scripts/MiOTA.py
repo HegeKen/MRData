@@ -1,10 +1,7 @@
-import requests
 import common
 import json
 from sys import platform
-import ssl
 
-ssl._create_default_https_context = ssl._create_unverified_context
 
 miui_key = b'miuiotavalided11'
 miui_iv = b'0102030405060708'

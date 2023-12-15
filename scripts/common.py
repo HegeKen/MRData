@@ -6,9 +6,7 @@ from Crypto.Cipher import AES
 import json
 from Crypto.Util.Padding import pad
 import requests
-import ssl
 
-ssl._create_default_https_context = ssl._create_unverified_context
 
 test = ['xun']
 sdk = {
@@ -23,7 +21,10 @@ sdk = {
 }
 currentBeta = ['houji','shennong','cupid','zeus','daumier','mayfly','unicorn','thor','fuxi','nuwa','ishtar','zizhan','babylon','dagu',
                'rubens','matisse','ingres','diting','mondrian','socrates']
-currentStable = ['biloba','merlin','lime',
+currentStable = ['air','gale','gust','aristotle','umi','cmi','monet','vangogh','cas','thyme','venus','courbet','star',
+                 'renoir','agate','vili','lisa','pissarroin','cupid','zeus','psyche','daumier','mayfly','unicorn','thor','taoyao','plato',
+                 'fuxi','nuwa','ishtar','cetus','odin','zizhan','babylon','nabu','elish','enuma','dagu','pipa','liuqin','yudi','mona','zijin',
+                 'ziyi','yuechu','lancelot','dandelion','angelica','angelican','cattail','dandelion_c3l2','fog','fire','earth','biloba','merlin','lime',
                  'cannon','gauguin','joyeuse','excalibur','curtana','mojito','curtana_in_rf','sweet','camellia','chopin','rosemary','lilac','selene',
                  'evergo','pissarro','spes','spesn','veux','fleur','viva','vida','light','lightcm','opal','xaga','sunstone','sky','ruby','redwood',
                  'marble','pearl','tapas','topaz','sweet_k6a','sea','gold','garnet','zircon','cezanne','apollo','alioth','haydn','ares','munch','ingres',
