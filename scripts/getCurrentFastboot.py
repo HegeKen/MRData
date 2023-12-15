@@ -2,6 +2,9 @@ import requests
 import json
 from sys import platform
 import common
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
 for device in common.currentStable:

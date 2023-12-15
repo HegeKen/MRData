@@ -6,6 +6,9 @@ from Crypto.Cipher import AES
 import json
 from Crypto.Util.Padding import pad
 import requests
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 test = ['xun']
 sdk = {
@@ -20,10 +23,7 @@ sdk = {
 }
 currentBeta = ['houji','shennong','cupid','zeus','daumier','mayfly','unicorn','thor','fuxi','nuwa','ishtar','zizhan','babylon','dagu',
                'rubens','matisse','ingres','diting','mondrian','socrates']
-currentStable = ['air','gale','gust','aristotle','umi','cmi','monet','vangogh','cas','thyme','venus','courbet','star',
-                 'renoir','agate','vili','lisa','pissarroin','cupid','zeus','psyche','daumier','mayfly','unicorn','thor','taoyao','plato',
-                 'fuxi','nuwa','ishtar','cetus','odin','zizhan','babylon','nabu','elish','enuma','dagu','pipa','liuqin','yudi','mona','zijin',
-                 'ziyi','yuechu','lancelot','dandelion','angelica','angelican','cattail','dandelion_c3l2','fog','fire','earth','biloba','merlin','lime',
+currentStable = ['biloba','merlin','lime',
                  'cannon','gauguin','joyeuse','excalibur','curtana','mojito','curtana_in_rf','sweet','camellia','chopin','rosemary','lilac','selene',
                  'evergo','pissarro','spes','spesn','veux','fleur','viva','vida','light','lightcm','opal','xaga','sunstone','sky','ruby','redwood',
                  'marble','pearl','tapas','topaz','sweet_k6a','sea','gold','garnet','zircon','cezanne','apollo','alioth','haydn','ares','munch','ingres',
@@ -2006,7 +2006,7 @@ def getDeviceCode(filename):
   else:
     return 0
 def getFastboot(url):
-  headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76',
+  headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
            'Connection': 'close'}
   response = requests.post(url, headers=headers)
   if (response.status_code == 200):
