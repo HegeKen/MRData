@@ -21,7 +21,7 @@ sdk = {
 }
 currentBeta = ['houji','shennong','cupid','zeus','daumier','mayfly','unicorn','thor','fuxi','nuwa','ishtar','zizhan','babylon','dagu',
                'rubens','matisse','ingres','diting','mondrian','socrates']
-currentStable = ['sky','gale','gust','aristotle','umi','cmi','monet','vangogh','cas','thyme','venus','courbet','star',
+currentStable = ['air','gale','gust','aristotle','umi','cmi','monet','vangogh','cas','thyme','venus','courbet','star',
                  'renoir','agate','vili','lisa','pissarroin','cupid','zeus','psyche','daumier','mayfly','unicorn','thor','taoyao','plato',
                  'fuxi','nuwa','ishtar','cetus','odin','zizhan','babylon','nabu','elish','enuma','dagu','pipa','liuqin','yudi','mona','zijin',
                  'ziyi','yuechu','lancelot','dandelion','angelica','angelican','cattail','dandelion_c3l2','fog','fire','earth','biloba','merlin','lime',
