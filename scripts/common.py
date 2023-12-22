@@ -6,7 +6,9 @@ from Crypto.Cipher import AES
 import json
 from Crypto.Util.Padding import pad
 import requests
-
+from selenium import webdriver
+from selenium.webdriver.edge.options import Options
+from bs4 import BeautifulSoup
 
 test = ['xun']
 sdk = {
@@ -2054,6 +2056,16 @@ def miui_encrypt(json_request):
   cipher_text = cipher.encrypt(pad(bytes(str(json_request),encoding='ascii'),AES.block_size))
   encrypted_request = urllib.parse.quote(base64.b64encode(cipher_text).decode('utf-8')).replace('/','%2F')
   return encrypted_request
+
+def MiFirm(url):
+    options = Options()
+    driver = webdriver.Edge(options=options)
+    driver.get(url)
+    soup = BeautifulSoup(driver.page_source, 'lxml')
+    td_tags = soup.find_all("td")
+    filtered_td_tags = [td for td in td_tags if "zip" in td.text or "tgz" in td.text]
+    for tag in filtered_td_tags:
+      checkExit(tag.text)
 
 MiOTAForm = {
   'a':'0',
