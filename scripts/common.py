@@ -114,6 +114,8 @@ flags = {
     'DUCHAMPDEMO': 'duchamp',
     'duchamp_demo': 'duchamp',
     'duchamp': 'duchamp',
+    "gale_ru_global":"gale",
+    "GALERUGlobal":"gale",
     'MANET': 'manet',
     'AIR':'air',
     'air':'air',
