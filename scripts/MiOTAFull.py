@@ -1,4 +1,3 @@
-import requests
 import common
 import json
 from sys import platform
