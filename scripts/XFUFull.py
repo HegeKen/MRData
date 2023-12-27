@@ -29,6 +29,6 @@ for root, dirs, files in os.walk(directory):
               i = 0
             else:
               package = link.split('/')[4]
-              common.checkExit(package)
+              common.checkExist(package)
           else:
             i = 0

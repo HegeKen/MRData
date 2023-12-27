@@ -35,6 +35,6 @@ for device in common.currentStable:
             i = 0
           else:
             packname = rom_url.split('/')[4]
-            common.checkExit(packname)
+            common.checkExist(packname)
       bresp.close()
   response.close()

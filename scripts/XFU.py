@@ -14,5 +14,5 @@ if (response.status_code == 200):
     data = yaml.safe_load(content)
     for link in data:
       package = link['link'].split('/')[4]
-      common.checkExit(package)
+      common.checkExist(package)
 response.close()

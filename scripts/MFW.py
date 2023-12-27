@@ -28,6 +28,6 @@ for url in urls:
         newurls.append(link["href"])
     else:
       filename = link["href"].split('/')[4]
-      common.checkExit(filename)
+      common.checkExist(filename)
 for url in newurls:
   common.MiFirm(url)

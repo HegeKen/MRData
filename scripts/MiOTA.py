@@ -37,10 +37,10 @@ check_url = 'https://update.miui.com/updates/miotaV3.php'
 #           data = common.miui_decrypt(response.text.split('q=')[0])
 #           if 'LatestRom' in data:
 #             package = data['LatestRom']['filename'].split('?')[0]
-#             common.checkExit(package)
+#             common.checkExist(package)
 #           elif 'CrossRom' in data:
 #             package = data['CrossRom']['filename'].split('?')[0]
-#             common.checkExit(package)
+#             common.checkExist(package)
 #             print(package)
 #             i = 0
 #           else:

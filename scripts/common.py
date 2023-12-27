@@ -10,7 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
 
-test = ['xun']
+test = ['marble']
 sdk = {
   '14':'34',
   '13':'33',
@@ -2023,22 +2023,33 @@ def getFastboot(url):
     else:
       data = json.loads(content)['LatestFullRom']
       if len(data)>0:
-        checkExit(data['filename'])
+        checkExist(data['filename'])
       else:
         i = 0
   else:
     i = 0
   response.close()
-def checkExit(filename):
-  if 'blockota' in filename or 'OS' in filename:
+def checkExist(filename):
+  if 'blockota' in filename:
     i = 0
   else:
     if getDeviceCode(filename) == 0:
       writeData(filename)
-    elif filename in localData(getDeviceCode(filename)):
-      i = 0
     else:
-      writeData(filename)
+      if 'OS1.' in filename:
+        checkOSExist(filename)
+      elif filename in localData(getDeviceCode(filename)):
+        i = 0
+      else:
+        writeData(filename)
+
+def checkOSExist(filename):
+  OSPath = 'D:/Projects/HyperOS.fans/Web/public/data/devices/'
+  devdata = json.loads(open(OSPath+getDeviceCode(filename)+'.json', 'r', encoding='utf-8').read())
+  if filename in str(devdata):
+    i = 0
+  else:
+    writeData(filename)
 
 miui_key = b'miuiotavalided11'
 miui_iv = b'0102030405060708'
@@ -2069,7 +2080,7 @@ def MiFirm(url):
     td_tags = soup.find_all("td")
     filtered_td_tags = [td for td in td_tags if "zip" in td.text or "tgz" in td.text]
     for tag in filtered_td_tags:
-      checkExit(tag.text)
+      checkExist(tag.text)
 
 MiOTAForm = {
   'a':'0',
@@ -2142,11 +2153,11 @@ def getFromApi(encrypted_data,device):
     data = miui_decrypt(response.text.split('q=')[0])
     if 'LatestRom' in data:
       package = data['LatestRom']['filename'].split('?')[0]
-      checkExit(package)
+      checkExist(package)
       return 1
     if 'CrossRom' in data:
       package = data['CrossRom']['filename'].split('?')[0]
-      checkExit(package)
+      checkExist(package)
       return 1
     else:
       return 0
@@ -2171,11 +2182,11 @@ def getFromApi2(encrypted_data,device):
     print(data)
     if 'LatestRom' in data:
       package = data['LatestRom']['filename'].split('?')[0]
-      checkExit(package)
+      checkExist(package)
       return 1
     elif 'CrossRom' in data:
       package = data['CrossRom']['filename'].split('?')[0]
-      checkExit(package)
+      checkExist(package)
       return 1
     else:
       return 0

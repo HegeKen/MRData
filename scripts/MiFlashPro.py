@@ -11,4 +11,4 @@ for row in cursor:
   if 'OS' in row[0]:
     i = 0
   else:
-    common.checkExit(row[0])
+    common.checkExist(row[0])
