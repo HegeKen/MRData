@@ -125,6 +125,8 @@ flags = {
     'manet_demo': 'manet',
     'air_in_global':'air',
     'AIRINGlobal':'air',
+    "fuxi_ep_sdlybjcg":"fuxi",
+    "FUXIEPSDLYBJCG":"fuxi",
     'GALETWGlobal':'gale',
     'gale_tw_global':'gale',
     'manet': 'manet',
