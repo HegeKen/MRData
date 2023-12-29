@@ -106,6 +106,8 @@ flags = {
     "gale_eea_global":"gale",
     "GALEEEAGlobal":"gale",
     "gale_in_global":"gale",
+    "gale_tr_global":"gale",
+    "GALETRGlobal":"gale",
     "GALEINGlobal":"gale",
     "xun_ep_stdee":"xun",
     "XUNEPSTDEE":"xun",
