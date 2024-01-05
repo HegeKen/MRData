@@ -9,7 +9,7 @@
     }
   ],
   "cdid": "",
-  "ismiui":"",
+  "ismiui": "",
   "ccshow": "",
   "cbshow": "",
   "csid": [],
@@ -18,14 +18,14 @@
   "pcid": "",
   "branches": [
     {
-      "code":"frost_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
+      "code": "frost_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
       "branch": "cntw",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -50,20 +50,26 @@
       ]
     },
     {
-      "code":"frost_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "frost_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mgbs",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
         {
+          "miui": "V13.0.25.0.RGFMIXM",
+          "android": "11.0",
+          "recovery": "miui_FROSTGlobal_V13.0.25.0.RGFMIXM_98e9ac456b_11.0.zip",
+          "fastboot": ""
+        },
+        {
           "miui": "V13.0.24.0.RGFMIXM",
-          "android": "13.0",
+          "android": "11.0",
           "recovery": "miui_FROSTGlobal_V13.0.24.0.RGFMIXM_e8da2a5872_11.0.zip",
           "fastboot": "frost_global_images_V13.0.24.0.RGFMIXM_20231012.0000.00_11.0_global_02f9037562.tgz"
         },
@@ -112,14 +118,14 @@
       ]
     },
     {
-      "code":"frost_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "frost_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eeas",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -156,14 +162,14 @@
       ]
     },
     {
-      "code":"frost_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
+      "code": "frost_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
       "branch": "russ",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -212,14 +218,14 @@
       ]
     },
     {
-      "code":"frost_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
+      "code": "frost_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
       "branch": "inns",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -250,14 +256,14 @@
       ]
     },
     {
-      "code":"frost_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
+      "code": "frost_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
       "branch": "trks",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
