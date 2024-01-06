@@ -9,7 +9,7 @@
     }
   ],
   "cdid": "35575055",
-  "ismiui":"",
+  "ismiui": "",
   "ccshow": "1",
   "cbshow": "1",
   "csid": [
@@ -20,14 +20,19 @@
   "pcid": "",
   "branches": [
     {
-      "code":"cas",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "cas",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cnmp",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -2459,14 +2464,14 @@
       ]
     },
     {
-      "code":"cas",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "cas",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnmo",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -2491,14 +2496,14 @@
       ]
     },
     {
-      "code":"cas",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "cas",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -2631,14 +2636,16 @@
       ]
     },
     {
-      "code":"cas",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
+      "code": "cas",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "branch": "ctce",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -2663,14 +2670,16 @@
       ]
     },
     {
-      "code":"cas",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "cas",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [

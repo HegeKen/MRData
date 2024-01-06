@@ -1,62 +1,62 @@
 {
-  "codename": "duchamp",
-  "cnname": "Redmi K70E",
-  "enname": "Redmi K70E",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"duchamp",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "OS1.0.0.1.UNLCNXM",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"duchamp_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"0",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "OS1.0.2.0.UNLCNDM",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_25d52b4af4.tgz",
-          "ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "duchamp",
+	"cnname": "Redmi K70E",
+	"enname": "Redmi K70E",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "duchamp",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "OS1.0.0.1.UNLCNXM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "duchamp_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "0",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "OS1.0.2.0.UNLCNDM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_25d52b4af4.tgz",
+					"ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
+				}
+			]
+		}
+	]
 }

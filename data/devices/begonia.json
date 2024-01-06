@@ -9,7 +9,7 @@
     }
   ],
   "cdid": "5591957",
-  "ismiui":"",
+  "ismiui": "",
   "ccshow": "1",
   "cbshow": "",
   "csid": [],
@@ -18,14 +18,19 @@
   "pcid": "",
   "branches": [
     {
-      "code":"begonia",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "begonia",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cnmp",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -1712,14 +1717,14 @@
       ]
     },
     {
-      "code":"begonia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "begonia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -1852,14 +1857,16 @@
       ]
     },
     {
-      "code":"begonia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
+      "code": "begonia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "branch": "ctce",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -1872,14 +1879,16 @@
       ]
     },
     {
-      "code":"begonia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "begonia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -1892,14 +1901,14 @@
       ]
     },
     {
-      "code":"begonia_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "begonia_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mgbs",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -2026,14 +2035,14 @@
       ]
     },
     {
-      "code":"begonia_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "begonia_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eeas",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -2154,14 +2163,14 @@
       ]
     },
     {
-      "code":"begonia_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
+      "code": "begonia_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
       "branch": "russ",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -2264,14 +2273,14 @@
       ]
     },
     {
-      "code":"begoniain_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
+      "code": "begoniain_in_global",
+      "btag": "F",
+      "region": "in",
+      "carrier": [],
       "branch": "inds",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -2392,14 +2401,14 @@
       ]
     },
     {
-      "code":"begonia_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
+      "code": "begonia_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
       "branch": "inns",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -2490,14 +2499,14 @@
       ]
     },
     {
-      "code":"begonia_mx_tc_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "begonia_mx_tc_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mxtc",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "墨西哥Telcel稳定版",
       "enname": "Mexico Stable Telcel Carrier Edtion",
       "links": [
@@ -2510,14 +2519,14 @@
       ]
     },
     {
-      "code":"begonia_lm_cr_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "begonia_lm_cr_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "lmcr",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [

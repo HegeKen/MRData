@@ -1,621 +1,619 @@
 {
-  "codename": "redwood",
-  "cnname": "Redmi Note 12 Pro 极速版/POCO X5 Pro 5G",
-  "enname": "Redmi Note 12 Pro Speed/POCO X5 Pro 5G",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "37322270",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "474"
-  ],
-  "cbid": [],
-  "gdid": "583743",
-  "pcid": "85780",
-  "branches": [
-    {
-      "code":"redwood",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.6.0.TMSCNXM_96dd34c66d_13.0.zip",
-          "fastboot": "redwood_images_V14.0.6.0.TMSCNXM_20231129.0000.00_13.0_cn_c38150c5e4.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.4.0.TMSCNXM_ba49814069_13.0.zip",
-          "fastboot": "redwood_images_V14.0.4.0.TMSCNXM_20230915.0000.00_13.0_cn_530ebc9343.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.3.0.TMSCNXM_deacb33990_13.0.zip",
-          "fastboot": "redwood_images_V14.0.3.0.TMSCNXM_20230630.0000.00_13.0_cn_d53674d819.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.2.0.TMSCNXM_f894bb1c92_13.0.zip",
-          "fastboot": "redwood_images_V14.0.2.0.TMSCNXM_20230525.0000.00_13.0_cn_bfa77d6cac.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.1.0.TMSCNXM_bab9d2489e_13.0.zip",
-          "fastboot": "redwood_images_V14.0.1.0.TMSCNXM_20230326.0000.00_13.0_cn_3dddf4d1cf.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.6.0.SMSCNXM_fb9582ecfa_12.0.zip",
-          "fastboot": "redwood_images_V14.0.6.0.SMSCNXM_20230227.0000.00_12.0_cn_70b2252bc2.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.5.0.SMSCNXM_aab6b2f7f3_12.0.zip",
-          "fastboot": "redwood_images_V14.0.5.0.SMSCNXM_20230213.0000.00_12.0_cn_c0e64d020f.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.3.0.SMSCNXM_2d81f55d33_12.0.zip",
-          "fastboot": "redwood_images_V14.0.3.0.SMSCNXM_20221216.0000.00_12.0_cn_013992206b.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.2.0.SMSCNXM_5ca7d7fd66_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"redwood",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.6.0.TMSCNXM_96dd34c66d_13.0.zip",
-          "fastboot": "redwood_images_V14.0.6.0.TMSCNXM_20231129.0000.00_13.0_cn_chinatelecom_469540c022.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.4.0.TMSCNXM_ba49814069_13.0.zip",
-          "fastboot": "redwood_images_V14.0.4.0.TMSCNXM_20230915.0000.00_13.0_cn_chinatelecom_5935789a0d.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.3.0.TMSCNXM_deacb33990_13.0.zip",
-          "fastboot": "redwood_images_V14.0.3.0.TMSCNXM_20230630.0000.00_13.0_cn_chinatelecom_c1b2e930cb.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.2.0.TMSCNXM_f894bb1c92_13.0.zip",
-          "fastboot": "redwood_images_V14.0.2.0.TMSCNXM_20230525.0000.00_13.0_cn_chinatelecom_f947a2e0a8.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMSCNXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOOD_V14.0.1.0.TMSCNXM_bab9d2489e_13.0.zip",
-          "fastboot": "redwood_images_V14.0.1.0.TMSCNXM_20230326.0000.00_13.0_cn_chinatelecom_c2af29810b.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.6.0.SMSCNXM_fb9582ecfa_12.0.zip",
-          "fastboot": "redwood_images_V14.0.6.0.SMSCNXM_20230227.0000.00_12.0_cn_chinatelecom_2da06c4951.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.5.0.SMSCNXM_aab6b2f7f3_12.0.zip",
-          "fastboot": "redwood_images_V14.0.5.0.SMSCNXM_20230213.0000.00_12.0_cn_chinatelecom_584f19ca62.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.3.0.SMSCNXM_2d81f55d33_12.0.zip",
-          "fastboot": "redwood_images_V14.0.3.0.SMSCNXM_20221216.0000.00_12.0_cn_chinatelecom_90a1ed774f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.6.0.SMSCNXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOOD_V14.0.6.0.SMSCNXM_fb9582ecfa_12.0.zip",
-          "fastboot": "redwood_images_V14.0.6.0.SMSCNXM_20230227.0000.00_12.0_cn_chinamobile_f13233fe2e.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TMSTWXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODTWGlobal_V14.0.4.0.TMSTWXM_2157fd25fa_13.0.zip",
-          "fastboot": "redwood_tw_global_images_V14.0.4.0.TMSTWXM_20231026.0000.00_13.0_tw_a08a7739a5.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSTWXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODTWGlobal_V14.0.3.0.TMSTWXM_4e441caf9b_13.0.zip",
-          "fastboot": "redwood_tw_global_images_V14.0.3.0.TMSTWXM_20230727.0000.00_13.0_tw_61b8412478.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSTWXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODTWGlobal_V14.0.2.0.TMSTWXM_671b9a8fff_13.0.zip",
-          "fastboot": "redwood_tw_global_images_V14.0.2.0.TMSTWXM_20230524.0000.00_13.0_tw_957dec61ce.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.SMSTWXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTWGlobal_V14.0.5.0.SMSTWXM_b099fae9a2_12.0.zip",
-          "fastboot": "redwood_tw_global_images_V14.0.5.0.SMSTWXM_20230530.0000.00_12.0_global_92e4eb3cd7.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMSTWXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTWGlobal_V14.0.3.0.SMSTWXM_e6fda2104c_12.0.zip",
-          "fastboot": "redwood_tw_global_images_V14.0.3.0.SMSTWXM_20230328.0000.00_12.0_global_87fb258622.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.SMSTWXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTWGlobal_V14.0.2.0.SMSTWXM_e0d7706776_12.0.zip",
-          "fastboot": "redwood_tw_global_images_V14.0.2.0.SMSTWXM_20230219.0000.00_12.0_global_2a16049e7b.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.SMSTWXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTWGlobal_V14.0.1.0.SMSTWXM_a83d9e93fc_12.0.zip",
-          "fastboot": "redwood_tw_global_images_V14.0.1.0.SMSTWXM_20221229.0000.00_12.0_global_e5e52f3dac.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TMSMIXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.7.0.TMSMIXM_86299647c0_13.0.zip",
-          "fastboot": "redwood_global_images_V14.0.7.0.TMSMIXM_20231129.0000.00_13.0_global_d4c41f9bfc.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMSMIXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.5.0.TMSMIXM_d4c47d0905_13.0.zip",
-          "fastboot": "redwood_global_images_V14.0.5.0.TMSMIXM_20231030.0000.00_13.0_global_927f2e02d0.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMSMIXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.4.0.TMSMIXM_c4b0ececc9_13.0.zip",
-          "fastboot": "redwood_global_images_V14.0.4.0.TMSMIXM_20230828.0000.00_13.0_global_ba5e4489ed.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSMIXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.2.0.TMSMIXM_a4e031f81c_13.0.zip",
-          "fastboot": "redwood_global_images_V14.0.2.0.TMSMIXM_20230626.0000.00_13.0_global_17fd3e438c.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMSMIXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.1.0.TMSMIXM_77bc6fad91_13.0.zip",
-          "fastboot": "redwood_global_images_V14.0.1.0.TMSMIXM_20230419.0000.00_13.0_global_1dc0c18fb5.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.SMSMIXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.9.0.SMSMIXM_d99744f109_12.0.zip",
-          "fastboot": "redwood_global_images_V14.0.9.0.SMSMIXM_20230530.0000.00_12.0_global_d805ca62f6.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.SMSMIXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.7.0.SMSMIXM_1e1012ffb5_12.0.zip",
-          "fastboot": "redwood_global_images_V14.0.7.0.SMSMIXM_20230324.0000.00_12.0_global_4b5bffe778.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.SMSMIXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.6.0.SMSMIXM_df007c0748_12.0.zip",
-          "fastboot": "redwood_global_images_V14.0.6.0.SMSMIXM_20230227.0000.00_12.0_global_079b97a9d6.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.SMSMIXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.5.0.SMSMIXM_5815f52703_12.0.zip",
-          "fastboot": "redwood_global_images_V14.0.5.0.SMSMIXM_20230216.0000.00_12.0_global_6d7de979d5.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMSMIXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.3.0.SMSMIXM_097b260a3b_12.0.zip",
-          "fastboot": "redwood_global_images_V14.0.3.0.SMSMIXM_20230101.0000.00_12.0_global_7bbecb3354.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.SMSMIXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODGlobal_V14.0.2.0.SMSMIXM_fcb264345f_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"redwood_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TMSEUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.5.0.TMSEUXM_787e502307_13.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.5.0.TMSEUXM_20231129.0000.00_13.0_eea_d79325d037.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSEUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.3.0.TMSEUXM_0542139e5a_13.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.3.0.TMSEUXM_20230901.0000.00_13.0_eea_c8d0606214.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSEUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.2.0.TMSEUXM_d2b0ac8e1e_13.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.2.0.TMSEUXM_20230621.0000.00_13.0_eea_aa0fce5529.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMSEUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.1.0.TMSEUXM_54ce695850_13.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.1.0.TMSEUXM_20230406.0000.00_13.0_eea_c77438dde9.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.SMSEUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.8.0.SMSEUXM_8cd81b9ae5_12.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.8.0.SMSEUXM_20230530.0000.00_12.0_eea_773b4049cc.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.SMSEUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.4.0.SMSEUXM_f39a0efffe_12.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.4.0.SMSEUXM_20230227.0000.00_12.0_eea_2125d2dc1c.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMSEUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.3.0.SMSEUXM_9b357f29c2_12.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.3.0.SMSEUXM_20230204.0000.00_12.0_eea_185a010056.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.SMSEUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.2.0.SMSEUXM_2d482ddda6_12.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.2.0.SMSEUXM_20221231.0000.00_12.0_eea_881ad4695d.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.SMSEUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODEEAGlobal_V14.0.1.0.SMSEUXM_a7ce01fac2_12.0.zip",
-          "fastboot": "redwood_eea_global_images_V14.0.1.0.SMSEUXM_20221208.0000.00_12.0_eea_45e82a231f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TMSRUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.4.0.TMSRUXM_856606ccab_13.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.4.0.TMSRUXM_20231130.0000.00_13.0_ru_d5ace6ff6a.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSRUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.3.0.TMSRUXM_fc3c537d4c_13.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.3.0.TMSRUXM_20230907.0000.00_13.0_ru_c3e126982d.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSRUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.2.0.TMSRUXM_f315550287_13.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.2.0.TMSRUXM_20230629.0000.00_13.0_ru_6c107cdda8.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMSRUXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.1.0.TMSRUXM_4288398401_13.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.1.0.TMSRUXM_20230512.0000.00_13.0_ru_51649c67b3.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.SMSRUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.10.0.SMSRUXM_4dc948b90a_12.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.10.0.SMSRUXM_20230530.0000.00_12.0_global_99d6863b79.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.SMSRUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.8.0.SMSRUXM_eaa8a36c6f_12.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.8.0.SMSRUXM_20230418.0000.00_12.0_global_76936199b4.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.SMSRUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.7.0.SMSRUXM_eedcf2d8e1_12.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.7.0.SMSRUXM_20230328.0000.00_12.0_global_e1642afb65.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.SMSRUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.5.0.SMSRUXM_d59e839628_12.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.5.0.SMSRUXM_20230227.0000.00_12.0_global_86c0065186.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.SMSRUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.4.0.SMSRUXM_0da5d22f40_12.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.4.0.SMSRUXM_20230216.0000.00_12.0_global_86073607b0.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMSRUXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODRUGlobal_V14.0.3.0.SMSRUXM_55aa8701da_12.0.zip",
-          "fastboot": "redwood_ru_global_images_V14.0.3.0.SMSRUXM_20230113.0000.00_12.0_global_89589fa44f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TMSINXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.5.0.TMSINXM_f1d7452e77_13.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.5.0.TMSINXM_20231205.0000.00_13.0_in_89fd61754c.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSINXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.3.0.TMSINXM_8e6dd01ce3_13.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.3.0.TMSINXM_20230901.0000.00_13.0_in_08063b8d70.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSINXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.2.0.TMSINXM_12227977ee_13.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.2.0.TMSINXM_20230629.0000.00_13.0_in_e4561e87e9.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMSINXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.1.0.TMSINXM_78c7594286_13.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.1.0.TMSINXM_20230421.0000.00_13.0_in_89044b905a.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.SMSINXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.9.0.SMSINXM_ae42af2cd8_12.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.9.0.SMSINXM_20230328.0000.00_12.0_in_d3b66ba830.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.SMSINXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.8.0.SMSINXM_ef83d1a6f2_12.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.8.0.SMSINXM_20230227.0000.00_12.0_in_d4657cddb0.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.SMSINXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.7.0.SMSINXM_e3c19c5834_12.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.7.0.SMSINXM_20230208.0000.00_12.0_in_867c1f9aea.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.SMSINXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODINGlobal_V14.0.6.0.SMSINXM_ed20d983c1_12.0.zip",
-          "fastboot": "redwood_in_global_images_V14.0.6.0.SMSINXM_20230112.0000.00_12.0_in_f0909f490d.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TMSIDXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODIDGlobal_V14.0.4.0.TMSIDXM_ff6b6d8213_13.0.zip",
-          "fastboot": "redwood_id_global_images_V14.0.4.0.TMSIDXM_20231222.0000.00_13.0_id_381d3c8a35.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSIDXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODIDGlobal_V14.0.3.0.TMSIDXM_f8dda5403c_13.0.zip",
-          "fastboot": "redwood_id_global_images_V14.0.3.0.TMSIDXM_20231007.0000.00_13.0_id_950ad2dbd7.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSIDXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODIDGlobal_V14.0.2.0.TMSIDXM_3cd02277d2_13.0.zip",
-          "fastboot": "redwood_id_global_images_V14.0.2.0.TMSIDXM_20230710.0000.00_13.0_id_abf6a2f0eb.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.SMSIDXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODIDGlobal_V14.0.2.0.SMSIDXM_8ff86d5623_12.0.zip",
-          "fastboot": "redwood_id_global_images_V14.0.2.0.SMSIDXM_20230403.0000.00_12.0_global_77cbf057ed.tgz"
-        }
-      ]
-    },
-    {
-      "code":"redwood_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TMSTRXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODTRGlobal_V14.0.4.0.TMSTRXM_1f01027972_13.0.zip",
-          "fastboot": "redwood_tr_global_images_V14.0.4.0.TMSTRXM_20231026.0000.00_13.0_tr_cf048eb9b6.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMSTRXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODTRGlobal_V14.0.3.0.TMSTRXM_c9de79cb2d_13.0.zip",
-          "fastboot": "redwood_tr_global_images_V14.0.3.0.TMSTRXM_20230727.0000.00_13.0_tr_8c4e29f00b.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMSTRXM",
-          "android": "13.0",
-          "recovery": "miui_REDWOODTRGlobal_V14.0.2.0.TMSTRXM_6b2b208528_13.0.zip",
-          "fastboot": "redwood_tr_global_images_V14.0.2.0.TMSTRXM_20230524.0000.00_13.0_tr_b3b0421644.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.SMSTRXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTRGlobal_V14.0.6.0.SMSTRXM_bd1c408919_12.0.zip",
-          "fastboot": "redwood_tr_global_images_V14.0.6.0.SMSTRXM_20230530.0000.00_12.0_global_fcd562e441.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.SMSTRXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTRGlobal_V14.0.4.0.SMSTRXM_2b2196a09e_12.0.zip",
-          "fastboot": "redwood_tr_global_images_V14.0.4.0.SMSTRXM_20230328.0000.00_12.0_global_130090935a.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMSTRXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTRGlobal_V14.0.3.0.SMSTRXM_6f0a251be4_12.0.zip",
-          "fastboot": "redwood_tr_global_images_V14.0.3.0.SMSTRXM_20230227.0000.00_12.0_global_9c372e0d71.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.SMSTRXM",
-          "android": "12.0",
-          "recovery": "miui_REDWOODTRGlobal_V14.0.1.0.SMSTRXM_99efe3b15d_12.0.zip",
-          "fastboot": "redwood_tr_global_images_V14.0.1.0.SMSTRXM_20221217.0000.00_12.0_global_e8fd58c404.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "redwood",
+	"cnname": "Redmi Note 12 Pro 极速版/POCO X5 Pro 5G",
+	"enname": "Redmi Note 12 Pro Speed/POCO X5 Pro 5G",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "37322270",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["474"],
+	"cbid": [],
+	"gdid": "583743",
+	"pcid": "85780",
+	"branches": [
+		{
+			"code": "redwood",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.6.0.TMSCNXM_96dd34c66d_13.0.zip",
+					"fastboot": "redwood_images_V14.0.6.0.TMSCNXM_20231129.0000.00_13.0_cn_c38150c5e4.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.4.0.TMSCNXM_ba49814069_13.0.zip",
+					"fastboot": "redwood_images_V14.0.4.0.TMSCNXM_20230915.0000.00_13.0_cn_530ebc9343.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.3.0.TMSCNXM_deacb33990_13.0.zip",
+					"fastboot": "redwood_images_V14.0.3.0.TMSCNXM_20230630.0000.00_13.0_cn_d53674d819.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.2.0.TMSCNXM_f894bb1c92_13.0.zip",
+					"fastboot": "redwood_images_V14.0.2.0.TMSCNXM_20230525.0000.00_13.0_cn_bfa77d6cac.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.1.0.TMSCNXM_bab9d2489e_13.0.zip",
+					"fastboot": "redwood_images_V14.0.1.0.TMSCNXM_20230326.0000.00_13.0_cn_3dddf4d1cf.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.6.0.SMSCNXM_fb9582ecfa_12.0.zip",
+					"fastboot": "redwood_images_V14.0.6.0.SMSCNXM_20230227.0000.00_12.0_cn_70b2252bc2.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.5.0.SMSCNXM_aab6b2f7f3_12.0.zip",
+					"fastboot": "redwood_images_V14.0.5.0.SMSCNXM_20230213.0000.00_12.0_cn_c0e64d020f.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.3.0.SMSCNXM_2d81f55d33_12.0.zip",
+					"fastboot": "redwood_images_V14.0.3.0.SMSCNXM_20221216.0000.00_12.0_cn_013992206b.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.2.0.SMSCNXM_5ca7d7fd66_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "redwood",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.6.0.TMSCNXM_96dd34c66d_13.0.zip",
+					"fastboot": "redwood_images_V14.0.6.0.TMSCNXM_20231129.0000.00_13.0_cn_chinatelecom_469540c022.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.4.0.TMSCNXM_ba49814069_13.0.zip",
+					"fastboot": "redwood_images_V14.0.4.0.TMSCNXM_20230915.0000.00_13.0_cn_chinatelecom_5935789a0d.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.3.0.TMSCNXM_deacb33990_13.0.zip",
+					"fastboot": "redwood_images_V14.0.3.0.TMSCNXM_20230630.0000.00_13.0_cn_chinatelecom_c1b2e930cb.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.2.0.TMSCNXM_f894bb1c92_13.0.zip",
+					"fastboot": "redwood_images_V14.0.2.0.TMSCNXM_20230525.0000.00_13.0_cn_chinatelecom_f947a2e0a8.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMSCNXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOOD_V14.0.1.0.TMSCNXM_bab9d2489e_13.0.zip",
+					"fastboot": "redwood_images_V14.0.1.0.TMSCNXM_20230326.0000.00_13.0_cn_chinatelecom_c2af29810b.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.6.0.SMSCNXM_fb9582ecfa_12.0.zip",
+					"fastboot": "redwood_images_V14.0.6.0.SMSCNXM_20230227.0000.00_12.0_cn_chinatelecom_2da06c4951.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.5.0.SMSCNXM_aab6b2f7f3_12.0.zip",
+					"fastboot": "redwood_images_V14.0.5.0.SMSCNXM_20230213.0000.00_12.0_cn_chinatelecom_584f19ca62.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.3.0.SMSCNXM_2d81f55d33_12.0.zip",
+					"fastboot": "redwood_images_V14.0.3.0.SMSCNXM_20221216.0000.00_12.0_cn_chinatelecom_90a1ed774f.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.6.0.SMSCNXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOOD_V14.0.6.0.SMSCNXM_fb9582ecfa_12.0.zip",
+					"fastboot": "redwood_images_V14.0.6.0.SMSCNXM_20230227.0000.00_12.0_cn_chinamobile_f13233fe2e.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TMSTWXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODTWGlobal_V14.0.4.0.TMSTWXM_2157fd25fa_13.0.zip",
+					"fastboot": "redwood_tw_global_images_V14.0.4.0.TMSTWXM_20231026.0000.00_13.0_tw_a08a7739a5.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSTWXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODTWGlobal_V14.0.3.0.TMSTWXM_4e441caf9b_13.0.zip",
+					"fastboot": "redwood_tw_global_images_V14.0.3.0.TMSTWXM_20230727.0000.00_13.0_tw_61b8412478.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSTWXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODTWGlobal_V14.0.2.0.TMSTWXM_671b9a8fff_13.0.zip",
+					"fastboot": "redwood_tw_global_images_V14.0.2.0.TMSTWXM_20230524.0000.00_13.0_tw_957dec61ce.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.SMSTWXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTWGlobal_V14.0.5.0.SMSTWXM_b099fae9a2_12.0.zip",
+					"fastboot": "redwood_tw_global_images_V14.0.5.0.SMSTWXM_20230530.0000.00_12.0_global_92e4eb3cd7.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMSTWXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTWGlobal_V14.0.3.0.SMSTWXM_e6fda2104c_12.0.zip",
+					"fastboot": "redwood_tw_global_images_V14.0.3.0.SMSTWXM_20230328.0000.00_12.0_global_87fb258622.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.SMSTWXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTWGlobal_V14.0.2.0.SMSTWXM_e0d7706776_12.0.zip",
+					"fastboot": "redwood_tw_global_images_V14.0.2.0.SMSTWXM_20230219.0000.00_12.0_global_2a16049e7b.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.SMSTWXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTWGlobal_V14.0.1.0.SMSTWXM_a83d9e93fc_12.0.zip",
+					"fastboot": "redwood_tw_global_images_V14.0.1.0.SMSTWXM_20221229.0000.00_12.0_global_e5e52f3dac.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TMSMIXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.7.0.TMSMIXM_86299647c0_13.0.zip",
+					"fastboot": "redwood_global_images_V14.0.7.0.TMSMIXM_20231129.0000.00_13.0_global_d4c41f9bfc.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMSMIXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.5.0.TMSMIXM_d4c47d0905_13.0.zip",
+					"fastboot": "redwood_global_images_V14.0.5.0.TMSMIXM_20231030.0000.00_13.0_global_927f2e02d0.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMSMIXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.4.0.TMSMIXM_c4b0ececc9_13.0.zip",
+					"fastboot": "redwood_global_images_V14.0.4.0.TMSMIXM_20230828.0000.00_13.0_global_ba5e4489ed.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSMIXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.2.0.TMSMIXM_a4e031f81c_13.0.zip",
+					"fastboot": "redwood_global_images_V14.0.2.0.TMSMIXM_20230626.0000.00_13.0_global_17fd3e438c.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMSMIXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.1.0.TMSMIXM_77bc6fad91_13.0.zip",
+					"fastboot": "redwood_global_images_V14.0.1.0.TMSMIXM_20230419.0000.00_13.0_global_1dc0c18fb5.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.SMSMIXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.9.0.SMSMIXM_d99744f109_12.0.zip",
+					"fastboot": "redwood_global_images_V14.0.9.0.SMSMIXM_20230530.0000.00_12.0_global_d805ca62f6.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.SMSMIXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.7.0.SMSMIXM_1e1012ffb5_12.0.zip",
+					"fastboot": "redwood_global_images_V14.0.7.0.SMSMIXM_20230324.0000.00_12.0_global_4b5bffe778.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.SMSMIXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.6.0.SMSMIXM_df007c0748_12.0.zip",
+					"fastboot": "redwood_global_images_V14.0.6.0.SMSMIXM_20230227.0000.00_12.0_global_079b97a9d6.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.SMSMIXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.5.0.SMSMIXM_5815f52703_12.0.zip",
+					"fastboot": "redwood_global_images_V14.0.5.0.SMSMIXM_20230216.0000.00_12.0_global_6d7de979d5.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMSMIXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.3.0.SMSMIXM_097b260a3b_12.0.zip",
+					"fastboot": "redwood_global_images_V14.0.3.0.SMSMIXM_20230101.0000.00_12.0_global_7bbecb3354.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.SMSMIXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODGlobal_V14.0.2.0.SMSMIXM_fcb264345f_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "redwood_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TMSEUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.5.0.TMSEUXM_787e502307_13.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.5.0.TMSEUXM_20231129.0000.00_13.0_eea_d79325d037.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSEUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.3.0.TMSEUXM_0542139e5a_13.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.3.0.TMSEUXM_20230901.0000.00_13.0_eea_c8d0606214.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSEUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.2.0.TMSEUXM_d2b0ac8e1e_13.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.2.0.TMSEUXM_20230621.0000.00_13.0_eea_aa0fce5529.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMSEUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.1.0.TMSEUXM_54ce695850_13.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.1.0.TMSEUXM_20230406.0000.00_13.0_eea_c77438dde9.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.SMSEUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.8.0.SMSEUXM_8cd81b9ae5_12.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.8.0.SMSEUXM_20230530.0000.00_12.0_eea_773b4049cc.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.SMSEUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.4.0.SMSEUXM_f39a0efffe_12.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.4.0.SMSEUXM_20230227.0000.00_12.0_eea_2125d2dc1c.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMSEUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.3.0.SMSEUXM_9b357f29c2_12.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.3.0.SMSEUXM_20230204.0000.00_12.0_eea_185a010056.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.SMSEUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.2.0.SMSEUXM_2d482ddda6_12.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.2.0.SMSEUXM_20221231.0000.00_12.0_eea_881ad4695d.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.SMSEUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODEEAGlobal_V14.0.1.0.SMSEUXM_a7ce01fac2_12.0.zip",
+					"fastboot": "redwood_eea_global_images_V14.0.1.0.SMSEUXM_20221208.0000.00_12.0_eea_45e82a231f.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TMSRUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.4.0.TMSRUXM_856606ccab_13.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.4.0.TMSRUXM_20231130.0000.00_13.0_ru_d5ace6ff6a.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSRUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.3.0.TMSRUXM_fc3c537d4c_13.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.3.0.TMSRUXM_20230907.0000.00_13.0_ru_c3e126982d.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSRUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.2.0.TMSRUXM_f315550287_13.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.2.0.TMSRUXM_20230629.0000.00_13.0_ru_6c107cdda8.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMSRUXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.1.0.TMSRUXM_4288398401_13.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.1.0.TMSRUXM_20230512.0000.00_13.0_ru_51649c67b3.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.SMSRUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.10.0.SMSRUXM_4dc948b90a_12.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.10.0.SMSRUXM_20230530.0000.00_12.0_global_99d6863b79.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.SMSRUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.8.0.SMSRUXM_eaa8a36c6f_12.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.8.0.SMSRUXM_20230418.0000.00_12.0_global_76936199b4.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.SMSRUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.7.0.SMSRUXM_eedcf2d8e1_12.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.7.0.SMSRUXM_20230328.0000.00_12.0_global_e1642afb65.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.SMSRUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.5.0.SMSRUXM_d59e839628_12.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.5.0.SMSRUXM_20230227.0000.00_12.0_global_86c0065186.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.SMSRUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.4.0.SMSRUXM_0da5d22f40_12.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.4.0.SMSRUXM_20230216.0000.00_12.0_global_86073607b0.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMSRUXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODRUGlobal_V14.0.3.0.SMSRUXM_55aa8701da_12.0.zip",
+					"fastboot": "redwood_ru_global_images_V14.0.3.0.SMSRUXM_20230113.0000.00_12.0_global_89589fa44f.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TMSINXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.5.0.TMSINXM_f1d7452e77_13.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.5.0.TMSINXM_20231205.0000.00_13.0_in_89fd61754c.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSINXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.3.0.TMSINXM_8e6dd01ce3_13.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.3.0.TMSINXM_20230901.0000.00_13.0_in_08063b8d70.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSINXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.2.0.TMSINXM_12227977ee_13.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.2.0.TMSINXM_20230629.0000.00_13.0_in_e4561e87e9.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMSINXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.1.0.TMSINXM_78c7594286_13.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.1.0.TMSINXM_20230421.0000.00_13.0_in_89044b905a.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.SMSINXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.9.0.SMSINXM_ae42af2cd8_12.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.9.0.SMSINXM_20230328.0000.00_12.0_in_d3b66ba830.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.SMSINXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.8.0.SMSINXM_ef83d1a6f2_12.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.8.0.SMSINXM_20230227.0000.00_12.0_in_d4657cddb0.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.SMSINXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.7.0.SMSINXM_e3c19c5834_12.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.7.0.SMSINXM_20230208.0000.00_12.0_in_867c1f9aea.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.SMSINXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODINGlobal_V14.0.6.0.SMSINXM_ed20d983c1_12.0.zip",
+					"fastboot": "redwood_in_global_images_V14.0.6.0.SMSINXM_20230112.0000.00_12.0_in_f0909f490d.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TMSIDXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODIDGlobal_V14.0.4.0.TMSIDXM_ff6b6d8213_13.0.zip",
+					"fastboot": "redwood_id_global_images_V14.0.4.0.TMSIDXM_20231222.0000.00_13.0_id_381d3c8a35.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSIDXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODIDGlobal_V14.0.3.0.TMSIDXM_f8dda5403c_13.0.zip",
+					"fastboot": "redwood_id_global_images_V14.0.3.0.TMSIDXM_20231007.0000.00_13.0_id_950ad2dbd7.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSIDXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODIDGlobal_V14.0.2.0.TMSIDXM_3cd02277d2_13.0.zip",
+					"fastboot": "redwood_id_global_images_V14.0.2.0.TMSIDXM_20230710.0000.00_13.0_id_abf6a2f0eb.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.SMSIDXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODIDGlobal_V14.0.2.0.SMSIDXM_8ff86d5623_12.0.zip",
+					"fastboot": "redwood_id_global_images_V14.0.2.0.SMSIDXM_20230403.0000.00_12.0_global_77cbf057ed.tgz"
+				}
+			]
+		},
+		{
+			"code": "redwood_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TMSTRXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODTRGlobal_V14.0.4.0.TMSTRXM_1f01027972_13.0.zip",
+					"fastboot": "redwood_tr_global_images_V14.0.4.0.TMSTRXM_20231026.0000.00_13.0_tr_cf048eb9b6.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMSTRXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODTRGlobal_V14.0.3.0.TMSTRXM_c9de79cb2d_13.0.zip",
+					"fastboot": "redwood_tr_global_images_V14.0.3.0.TMSTRXM_20230727.0000.00_13.0_tr_8c4e29f00b.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMSTRXM",
+					"android": "13.0",
+					"recovery": "miui_REDWOODTRGlobal_V14.0.2.0.TMSTRXM_6b2b208528_13.0.zip",
+					"fastboot": "redwood_tr_global_images_V14.0.2.0.TMSTRXM_20230524.0000.00_13.0_tr_b3b0421644.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.SMSTRXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTRGlobal_V14.0.6.0.SMSTRXM_bd1c408919_12.0.zip",
+					"fastboot": "redwood_tr_global_images_V14.0.6.0.SMSTRXM_20230530.0000.00_12.0_global_fcd562e441.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.SMSTRXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTRGlobal_V14.0.4.0.SMSTRXM_2b2196a09e_12.0.zip",
+					"fastboot": "redwood_tr_global_images_V14.0.4.0.SMSTRXM_20230328.0000.00_12.0_global_130090935a.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMSTRXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTRGlobal_V14.0.3.0.SMSTRXM_6f0a251be4_12.0.zip",
+					"fastboot": "redwood_tr_global_images_V14.0.3.0.SMSTRXM_20230227.0000.00_12.0_global_9c372e0d71.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.SMSTRXM",
+					"android": "12.0",
+					"recovery": "miui_REDWOODTRGlobal_V14.0.1.0.SMSTRXM_99efe3b15d_12.0.zip",
+					"fastboot": "redwood_tr_global_images_V14.0.1.0.SMSTRXM_20221217.0000.00_12.0_global_e8fd58c404.tgz"
+				}
+			]
+		}
+	]
 }

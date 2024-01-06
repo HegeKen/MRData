@@ -1,123 +1,123 @@
 {
-  "codename": "gold",
-  "cnname": "Redmi Note 13 5G/ Redmi Note 13R Pro/ POCO X6 Neo",
-  "enname": "Redmi Note 13 5G/ Redmi Note 13R Pro/ POCO X6 Neo",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"1",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"gold",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinamobile","chinaunicom"],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TNQCNXM",
-          "android": "13.0",
-          "recovery": "miui_GOLD_V14.0.7.0.TNQCNXM_71f8604e0a_13.0.zip",
-          "fastboot": "gold_images_V14.0.7.0.TNQCNXM_20231102.0000.00_13.0_cn_3284507abe.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TNQCNXM",
-          "android": "13.0",
-          "recovery": "miui_GOLD_V14.0.5.0.TNQCNXM_b24d77228a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TNQCNXM",
-          "android": "13.0",
-          "recovery": "miui_GOLD_V14.0.1.0.TNQCNXM_0a344a58dc_13.0.zip",
-          "fastboot": "gold_images_V14.0.1.0.TNQCNXM_20230901.0000.00_13.0_cn_8d2cf4f43b.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gold",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TNQCNXM",
-          "android": "13.0",
-          "recovery": "miui_GOLD_V14.0.7.0.TNQCNXM_71f8604e0a_13.0.zip",
-          "fastboot": "gold_images_V14.0.7.0.TNQCNXM_20231102.0000.00_13.0_cn_chinatelecom_342179d946.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TNQCNXM",
-          "android": "13.0",
-          "recovery": "miui_GOLD_V14.0.5.0.TNQCNXM_b24d77228a_13.0.zip",
-          "fastboot": "gold_images_V14.0.5.0.TNQCNXM_20231015.0000.00_13.0_cn_chinatelecom_931a3927cb.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TNQCNXM",
-          "android": "13.0",
-          "recovery": "miui_GOLD_V14.0.1.0.TNQCNXM_0a344a58dc_13.0.zip",
-          "fastboot": "gold_images_V14.0.1.0.TNQCNXM_20230901.0000.00_13.0_cn_chinatelecom_f68bc3713c.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gold_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.12.21.EP.STDEE.N17",
-          "android": "13.0",
-          "recovery": "miui_GOLDEPSTDEE_V14.0.23.12.21.EP.STDEE.N17_bd25535833_13.0.zip",
-          "fastboot": "gold_ep_stdee_images_V14.0.23.12.21.EP.STDEE.N17_20231221.0000.00_13.0_cn_300e59e582.tgz"
-        },
-        {
-          "miui": "V14.0.23.12.21.EP.STDEE.N17",
-          "android": "13.0",
-          "recovery": "miui_GOLDEPSTDEE_V14.0.23.12.21.EP.STDEE.N17_bd25535833_13.0.zip",
-          "fastboot": "gold_ep_stdee_images_V14.0.23.12.21.EP.STDEE.N17_20231221.0000.00_13.0_cn_chinatelecom_1eaee6cce6.tgz"
-        },
-        {
-          "miui": "V14.0.23.11.20.EP.STDEE.N17",
-          "android": "13.0",
-          "recovery": "miui_GOLDEPSTDEE_V14.0.23.11.20.EP.STDEE.N17_a315483de6_13.0.zip",
-          "fastboot": "gold_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N17_20231120.0000.00_13.0_cn_86bff93de3.tgz"
-        },
-        {
-          "miui": "V14.0.23.11.20.EP.STDEE.N17",
-          "android": "13.0",
-          "recovery": "miui_GOLDEPSTDEE_V14.0.23.11.20.EP.STDEE.N17_a315483de6_13.0.zip",
-          "fastboot": "gold_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N17_20231120.0000.00_13.0_cn_chinatelecom_773398bde3.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "gold",
+	"cnname": "Redmi Note 13 5G/ Redmi Note 13R Pro/ POCO X6 Neo",
+	"enname": "Redmi Note 13 5G/ Redmi Note 13R Pro/ POCO X6 Neo",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "1",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "gold",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TNQCNXM",
+					"android": "13.0",
+					"recovery": "miui_GOLD_V14.0.7.0.TNQCNXM_71f8604e0a_13.0.zip",
+					"fastboot": "gold_images_V14.0.7.0.TNQCNXM_20231102.0000.00_13.0_cn_3284507abe.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TNQCNXM",
+					"android": "13.0",
+					"recovery": "miui_GOLD_V14.0.5.0.TNQCNXM_b24d77228a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TNQCNXM",
+					"android": "13.0",
+					"recovery": "miui_GOLD_V14.0.1.0.TNQCNXM_0a344a58dc_13.0.zip",
+					"fastboot": "gold_images_V14.0.1.0.TNQCNXM_20230901.0000.00_13.0_cn_8d2cf4f43b.tgz"
+				}
+			]
+		},
+		{
+			"code": "gold",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TNQCNXM",
+					"android": "13.0",
+					"recovery": "miui_GOLD_V14.0.7.0.TNQCNXM_71f8604e0a_13.0.zip",
+					"fastboot": "gold_images_V14.0.7.0.TNQCNXM_20231102.0000.00_13.0_cn_chinatelecom_342179d946.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TNQCNXM",
+					"android": "13.0",
+					"recovery": "miui_GOLD_V14.0.5.0.TNQCNXM_b24d77228a_13.0.zip",
+					"fastboot": "gold_images_V14.0.5.0.TNQCNXM_20231015.0000.00_13.0_cn_chinatelecom_931a3927cb.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TNQCNXM",
+					"android": "13.0",
+					"recovery": "miui_GOLD_V14.0.1.0.TNQCNXM_0a344a58dc_13.0.zip",
+					"fastboot": "gold_images_V14.0.1.0.TNQCNXM_20230901.0000.00_13.0_cn_chinatelecom_f68bc3713c.tgz"
+				}
+			]
+		},
+		{
+			"code": "gold_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.12.21.EP.STDEE.N17",
+					"android": "13.0",
+					"recovery": "miui_GOLDEPSTDEE_V14.0.23.12.21.EP.STDEE.N17_bd25535833_13.0.zip",
+					"fastboot": "gold_ep_stdee_images_V14.0.23.12.21.EP.STDEE.N17_20231221.0000.00_13.0_cn_300e59e582.tgz"
+				},
+				{
+					"miui": "V14.0.23.12.21.EP.STDEE.N17",
+					"android": "13.0",
+					"recovery": "miui_GOLDEPSTDEE_V14.0.23.12.21.EP.STDEE.N17_bd25535833_13.0.zip",
+					"fastboot": "gold_ep_stdee_images_V14.0.23.12.21.EP.STDEE.N17_20231221.0000.00_13.0_cn_chinatelecom_1eaee6cce6.tgz"
+				},
+				{
+					"miui": "V14.0.23.11.20.EP.STDEE.N17",
+					"android": "13.0",
+					"recovery": "miui_GOLDEPSTDEE_V14.0.23.11.20.EP.STDEE.N17_a315483de6_13.0.zip",
+					"fastboot": "gold_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N17_20231120.0000.00_13.0_cn_86bff93de3.tgz"
+				},
+				{
+					"miui": "V14.0.23.11.20.EP.STDEE.N17",
+					"android": "13.0",
+					"recovery": "miui_GOLDEPSTDEE_V14.0.23.11.20.EP.STDEE.N17_a315483de6_13.0.zip",
+					"fastboot": "gold_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N17_20231120.0000.00_13.0_cn_chinatelecom_773398bde3.tgz"
+				}
+			]
+		}
+	]
 }

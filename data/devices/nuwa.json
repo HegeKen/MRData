@@ -1,899 +1,895 @@
 {
-  "codename": "nuwa",
-  "cnname": "小米 13 Pro",
-  "enname": "Xiaomi 13 Pro",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "38940061",
-  "ismiui":"0",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "469"
-  ],
-  "cbid": [
-    "472"
-  ],
-  "gdid": "577308",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"nuwa_pre_gpp",
-      "btag":"X",
-      "region":"cn",
-      "carrier":[""],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发者预览版",
-      "enname": "Android Developer Preview",
-      "links": [
-        {
-          "miui": "23.7.28",
-          "android": "14.0 Beta3 大陆版",
-          "recovery": "",
-          "fastboot": "nuwa_pre_gpp_images_23.7.28_20230728.0000.00_14.0_cn_6fd71e1c4b.tgz"
-        },
-        {
-          "miui": "23.7.28",
-          "android": "14.0 Beta3 Global",
-          "recovery": "",
-          "fastboot": "nuwa_pre_gpp_global_images_23.7.28_20230728.0000.00_14.0_global_ae975cbf47.tgz"
-        },
-        {
-          "miui": "23.5.6",
-          "android": "14.0 DP1 大陆版",
-          "recovery": "",
-          "fastboot": "nuwa_pre_dpp_images_23.5.6_20230506.0000.00_14.0_cn_1e7321db36.tgz"
-        },
-        {
-          "miui": "23.5.6",
-          "android": "14.0 DP1 Global",
-          "recovery": "",
-          "fastboot": "nuwa_pre_dpp_global_images_23.5.6_20230506.0000.00_14.0_global_476952a033.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.9.19.DEV",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.23.9.19.DEV_9d8a27a910_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.12.DEV",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.23.9.12.DEV_9c31c83ac5_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.6.DEV",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.23.9.6.DEV_83eeaa6e25_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.29.DEV",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.23.8.29.DEV_b13b9ebc11_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.22.DEV",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.23.8.22.DEV_7af7c43a24_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.15.DEV",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.23.8.15.DEV_4bcc683022_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.9.18.DEV_05317d6e31_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.9.11.DEV_f93fc0a487_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.4.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.9.4.DEV_5583f418f0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.8.28.DEV_85e86170ea_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.8.21.DEV_e1592684c1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.14.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.8.14.DEV_9dfffcf073_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.23.8.14.DEV_20230814.0000.00_13.0_cn_5d30e6f073.tgz"
-        },
-        {
-          "miui": "V14.0.23.8.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.8.13.DEV_e304759db0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.8.6.DEV_b0c28e3beb_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.7.31.DEV_4446b0337b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.7.24.DEV_8baefdcd10_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.7.17.DEV_81dc4192c6_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.7.10.DEV_dc86e8dab1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.7.3.DEV_b84f6e5e69_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.6.26.DEV_0db90483c8_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.6.8.DEV_39eeb52bd7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.6.5.DEV_672f03470a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.5.29.DEV_f95707afdd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.5.22.DEV_9fb02dcea0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.5.15.DEV_9a623be01f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.5.8.DEV_9b2fac53e7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.4.25.DEV_00e22c0cc2_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.4.17.DEV_6255cdd420_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.4.10.DEV_97daf44e0c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.4.2.DEV_ac05162fb0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.3.27.DEV_e59d4fffd8_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.20.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.3.20.DEV_25ca0bfda1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.3.13.DEV_ec84cef9c6_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.3.7.DEV_031408d43f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.3.6.DEV_ea9cbfdee7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.2.27.DEV_b5a6035ab9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.2.21.DEV_18d161da73_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.2.13.DEV_2abdf526d7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.2.6.DEV_9cb94a71dd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.1.31.DEV_5506be42d3_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.1.9.DEV_d4b1bd913f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.1.3.DEV_cf7878f62a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.22.12.26.DEV_722cbbd21c_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.22.12.26.DEV_20221226.0000.00_13.0_cn_89264ad126.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.4.0.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.4.0.UMBCNXM_54c70dc059_14.0.zip",
-          "fastboot": "nuwa_images_V14.0.4.0.UMBCNXM_20231025.0000.00_14.0_cn_39c80f4664.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.3.0.UMBCNXM_184887d220_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.2.0.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.2.0.UMBCNXM_cec8f8783b_14.0.zip",
-          "fastboot": "nuwa_images_V14.0.2.0.UMBCNXM_20230920.0000.00_14.0_cn_a0202a3d05.tgz"
-        },
-        {
-          "miui": "V14.0.1.14.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.1.14.UMBCNXM_37edee3f63_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.3.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.1.3.UMBCNXM_71e9a4495d_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.0.18.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.0.18.UMBCNXM_5f2e30813c_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.0.11.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.0.11.UMBCNXM_f3d6b2d080_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.0.4.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.0.4.UMBCNXM_32bf040098_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.28.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.28.0.TMBCNXM_dfaed9c04f_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.28.0.TMBCNXM_20230802.0000.00_13.0_cn_b403cba643.tgz"
-        },
-        {
-          "miui": "V14.0.27.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.27.0.TMBCNXM_bf99c48bc7_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.27.0.TMBCNXM_20230523.0000.00_13.0_cn_fa5a2e045c.tgz"
-        },
-        {
-          "miui": "V14.0.26.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.26.0.TMBCNXM_a94b128ed9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.24.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.24.0.TMBCNXM_399338bd4d_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.24.0.TMBCNXM_20230412.0000.00_13.0_cn_0420079646.tgz"
-        },
-        {
-          "miui": "V14.0.23.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.0.TMBCNXM_7c977c5c30_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.22.0.TMBCNXM_7793384246_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.12.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.12.0.TMBCNXM_f06c81d818_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.12.0.TMBCNXM_20230111.0000.00_13.0_cn_ec7d9e835d.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.10.0.TMBCNXM_a92bd7643e_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.10.0.TMBCNXM_20221230.0000.00_13.0_cn_803277e78a.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.8.0.TMBCNXM_08bc7fba33_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.8.0.TMBCNXM_20221216.0000.00_13.0_cn_1c42af38b6.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.7.0.TMBCNXM_bd620edff7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.4.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.4.0.TMBCNXM_c5625d2228_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.4.0.TMBCNXM_20221116.0000.00_13.0_cn_88ccfd8d0f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.4.0.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.4.0.UMBCNXM_54c70dc059_14.0.zip",
-          "fastboot": "nuwa_images_V14.0.4.0.UMBCNXM_20231025.0000.00_14.0_cn_chinatelecom_c2f47e96de.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.UMBCNXM",
-          "android": "14.0",
-          "recovery": "miui_NUWA_V14.0.2.0.UMBCNXM_cec8f8783b_14.0.zip",
-          "fastboot": "nuwa_images_V14.0.2.0.UMBCNXM_20230920.0000.00_14.0_cn_chinatelecom_0aac54048e.tgz"
-        },
-        {
-          "miui": "V14.0.28.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.28.0.TMBCNXM_dfaed9c04f_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.28.0.TMBCNXM_20230802.0000.00_13.0_cn_chinatelecom_f324cd74b1.tgz"
-        },
-        {
-          "miui": "V14.0.27.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.27.0.TMBCNXM_bf99c48bc7_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.27.0.TMBCNXM_20230523.0000.00_13.0_cn_chinatelecom_25f14d49d9.tgz"
-        },
-        {
-          "miui": "V14.0.24.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.24.0.TMBCNXM_399338bd4d_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.24.0.TMBCNXM_20230412.0000.00_13.0_cn_chinatelecom_bc16c5a7dc.tgz"
-        },
-        {
-          "miui": "V14.0.23.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.23.0.TMBCNXM_7c977c5c30_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.23.0.TMBCNXM_20230324.0000.00_13.0_cn_chinatelecom_0b2cc4988d.tgz"
-        },
-        {
-          "miui": "V14.0.12.0.TMBCNXM",
-          "android": "13.0",
-          "recovery": "miui_NUWA_V14.0.12.0.TMBCNXM_f06c81d818_13.0.zip",
-          "fastboot": "nuwa_images_V14.0.12.0.TMBCNXM_20230111.0000.00_13.0_cn_chinatelecom_e8a0a7c6ff.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TMBCNDM",
-          "android": "13.0",
-          "recovery": "miui_NUWADEMO_V14.0.5.0.TMBCNDM_56d9f81aa2_13.0.zip",
-          "fastboot": "nuwa_demo_images_V14.0.5.0.TMBCNDM_20221220.0000.00_13.0_cn_289057c9f7.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMBCNDM",
-          "android": "13.0",
-          "recovery": "miui_NUWADEMO_V14.0.5.0.TMBCNDM_56d9f81aa2_13.0.zip",
-          "fastboot": "nuwa_demo_images_V14.0.5.0.TMBCNDM_20221220.0000.00_13.0_cn_chinatelecom_c65eb4f6ae.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.6.12.EP.STDEE.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSTDEE_V14.0.23.6.12.EP.STDEE.M2_94a1cd47dc_13.0.zip",
-          "fastboot": "nuwa_ep_stdee_images_V14.0.23.6.12.EP.STDEE.M2_20230612.0000.00_13.0_cn_0ab3edae5a.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.12.EP.STDEE.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSTDEE_V14.0.23.6.12.EP.STDEE.M2_94a1cd47dc_13.0.zip",
-          "fastboot": "nuwa_ep_stdee_images_V14.0.23.6.12.EP.STDEE.M2_20230612.0000.00_13.0_cn_chinatelecom_6505f23914.tgz"
-        },
-        {
-          "miui": "V14.0.23.3.8.EP.STDEE.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSTDEE_V14.0.23.3.8.EP.STDEE.M2_1cb069d764_13.0.zip",
-          "fastboot": "nuwa_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M2_20230308.0000.00_13.0_cn_e5dbdbd416.tgz"
-        },
-        {
-          "miui": "V14.0.23.3.8.EP.STDEE.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSTDEE_V14.0.23.3.8.EP.STDEE.M2_1cb069d764_13.0.zip",
-          "fastboot": "nuwa_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M2_20230308.0000.00_13.0_cn_chinatelecom_c941a21000.tgz"
-        },
-        {
-          "miui": "V14.0.23.2.16.EP.STDEE.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSTDEE_V14.0.23.2.16.EP.STDEE.M2_df4f47637b_13.0.zip",
-          "fastboot": "nuwa_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M2_20230216.0000.00_13.0_cn_376affc1e1.tgz"
-        },
-        {
-          "miui": "V14.0.23.2.16.EP.STDEE.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSTDEE_V14.0.23.2.16.EP.STDEE.M2_df4f47637b_13.0.zip",
-          "fastboot": "nuwa_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M2_20230216.0000.00_13.0_cn_chinatelecom_d461b335b5.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_ep_sdlybjcg",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "epsdlybjcg",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆EPSDLYBJCG",
-      "enname": "China Mainland EPSDLYBJCG",
-      "links": [
-        {
-          "miui": "V14.0.23.6.20.EP.SDLYBJCG.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSDLYBJCG_V14.0.23.6.20.EP.SDLYBJCG.M2_312dfc0d61_13.0.zip",
-          "fastboot": "nuwa_ep_sdlybjcg_images_V14.0.23.6.20.EP.SDLYBJCG.M2_20230620.0000.00_13.0_cn_d85d6d4922.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.20.EP.SDLYBJCG.M2",
-          "android": "13.0",
-          "recovery": "miui_NUWAEPSDLYBJCG_V14.0.23.6.20.EP.SDLYBJCG.M2_312dfc0d61_13.0.zip",
-          "fastboot": "nuwa_ep_sdlybjcg_images_V14.0.23.6.20.EP.SDLYBJCG.M2_20230620.0000.00_13.0_cn_chinatelecom_7cc23b5767.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TMBTWXM",
-          "android": "13.0",
-          "recovery": "miui_NUWATWGlobal_V14.0.11.0.TMBTWXM_ffe35d4d9c_13.0.zip",
-          "fastboot": "nuwa_tw_global_images_V14.0.11.0.TMBTWXM_20230831.0000.00_13.0_tw_ac47b95f68.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMBTWXM",
-          "android": "13.0",
-          "recovery": "miui_NUWATWGlobal_V14.0.6.0.TMBTWXM_3a87d013db_13.0.zip",
-          "fastboot": "nuwa_tw_global_images_V14.0.6.0.TMBTWXM_20230414.0000.00_13.0_tw_b22932f2ab.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMBTWXM",
-          "android": "13.0",
-          "recovery": "miui_NUWATWGlobal_V14.0.4.0.TMBTWXM_a7e9a96bd8_13.0.zip",
-          "fastboot": "nuwa_tw_global_images_V14.0.4.0.TMBTWXM_20230203.0000.00_13.0_tw_03df1015ae.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.UMBMIXM",
-          "android": "14.0",
-          "recovery": "miui_NUWAGlobal_V14.0.6.0.UMBMIXM_a5c27eefd4_14.0.zip",
-          "fastboot":"nuwa_global_images_V14.0.6.0.UMBMIXM_20231022.0000.00_14.0_global_bb3b8e78d2.tgz",
-          "debug": "nuwa_global_images_V14.0.6.0.UMBMIXM.debug_20231022.0000.00_14.0_global_59163ba69d.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.UMBMIXM",
-          "android": "14.0",
-          "recovery": "miui_NUWAGlobal_V14.0.5.0.UMBMIXM_8e1fd5eaf6_14.0.zip",
-          "fastboot": "nuwa_global_images_V14.0.5.0.UMBMIXM_20230925.0000.00_14.0_global_76f82de48c.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.UMBMIXM",
-          "android": "14.0",
-          "recovery": "miui_NUWAGlobal_V14.0.2.0.UMBMIXM_6020356313_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.13.0.TMBMIXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAGlobal_V14.0.13.0.TMBMIXM_2ca9697995_13.0.zip",
-          "fastboot": "nuwa_global_images_V14.0.13.0.TMBMIXM_20230822.0000.00_13.0_global_686e44dace.tgz"
-        },
-        {
-          "miui": "V14.0.12.0.TMBMIXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAGlobal_V14.0.12.0.TMBMIXM_1a19a77d05_13.0.zip",
-          "fastboot": "nuwa_global_images_V14.0.12.0.TMBMIXM_20230803.0000.00_13.0_global_2022fc9ba3.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TMBMIXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAGlobal_V14.0.9.0.TMBMIXM_5a519b76bf_13.0.zip",
-          "fastboot": "nuwa_global_images_V14.0.9.0.TMBMIXM_20230414.0000.00_13.0_global_32953d0dc0.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMBMIXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAGlobal_V14.0.7.0.TMBMIXM_875710201a_13.0.zip",
-          "fastboot": "nuwa_global_images_V14.0.7.0.TMBMIXM_20230221.0000.00_13.0_global_df45c62d36.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMBMIXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAGlobal_V14.0.6.0.TMBMIXM_203521e787_13.0.zip",
-          "fastboot": "nuwa_global_images_V14.0.6.0.TMBMIXM_20221231.0000.00_13.0_global_25e66d1aa0.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.9.0.UMBEUXM",
-          "android": "14.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.9.0.UMBEUXM_af014e3105_14.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.9.0.UMBEUXM_20231116.0000.00_14.0_eea_9d5624315b.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.UMBEUXM",
-          "android": "14.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.6.0.UMBEUXM_5f652310d4_14.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.6.0.UMBEUXM_20231022.0000.00_14.0_eea_8851ddd678.tgz",
-          "debug": "nuwa_eea_global_images_V14.0.6.0.UMBEUXM.debug_20231022.0000.00_14.0_eea_c7870dbdbd.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.UMBEUXM",
-          "android": "14.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.5.0.UMBEUXM_d5bb9079a3_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.28.0.TMBEUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.28.0.TMBEUXM_d6bc3716b8_13.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.28.0.TMBEUXM_20230822.0000.00_13.0_eea_95abd473cd.tgz"
-        },
-        {
-          "miui": "V14.0.27.0.TMBEUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.27.0.TMBEUXM_c963e513cb_13.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.27.0.TMBEUXM_20230731.0000.00_13.0_eea_a78a88d1cf.tgz"
-        },
-        {
-          "miui": "V14.0.24.0.TMBEUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.24.0.TMBEUXM_1d57b3de91_13.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.24.0.TMBEUXM_20230615.0000.00_13.0_eea_7ec29b9895.tgz"
-        },
-        {
-          "miui": "V14.0.22.0.TMBEUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.22.0.TMBEUXM_c74cc43483_13.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.22.0.TMBEUXM_20230414.0000.00_13.0_eea_df81ff57d8.tgz"
-        },
-        {
-          "miui": "V14.0.19.0.TMBEUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.19.0.TMBEUXM_58d299a75b_13.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.19.0.TMBEUXM_20230309.0000.00_13.0_eea_70d5b77548.tgz"
-        },
-        {
-          "miui": "V14.0.15.0.TMBEUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.15.0.TMBEUXM_add9a133df_13.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.15.0.TMBEUXM_20230203.0000.00_13.0_eea_e96acaa6fb.tgz"
-        },
-        {
-          "miui": "V14.0.11.0.TMBEUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAEEAGlobal_V14.0.11.0.TMBEUXM_412c938038_13.0.zip",
-          "fastboot": "nuwa_eea_global_images_V14.0.11.0.TMBEUXM_20230104.0000.00_13.0_eea_e7fefdb369.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TMBRUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWARUGlobal_V14.0.11.0.TMBRUXM_01704445ed_13.0.zip",
-          "fastboot": "nuwa_ru_global_images_V14.0.11.0.TMBRUXM_20230831.0000.00_13.0_ru_8d81ed9d3f.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMBRUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWARUGlobal_V14.0.6.0.TMBRUXM_e95181d62e_13.0.zip",
-          "fastboot": "nuwa_ru_global_images_V14.0.6.0.TMBRUXM_20230508.0000.00_13.0_ru_64d8ac78d6.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMBRUXM",
-          "android": "13.0",
-          "recovery": "miui_NUWARUGlobal_V14.0.5.0.TMBRUXM_a12808c0ab_13.0.zip",
-          "fastboot": "nuwa_ru_global_images_V14.0.5.0.TMBRUXM_20230203.0000.00_13.0_ru_2a50ccb714.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.1.0.UMBINXM",
-          "android": "14.0",
-          "recovery": "miui_NUWAINGlobal_V14.0.1.0.UMBINXM_4bb456eea5_14.0.zip",
-          "fastboot": "nuwa_in_global_images_V14.0.1.0.UMBINXM_20231025.0000.00_14.0_in_3feee679e0.tgz"
-        },
-        {
-          "miui": "V14.0.11.0.TMBINXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAINGlobal_V14.0.11.0.TMBINXM_0434ae5c79_13.0.zip",
-          "fastboot": "nuwa_in_global_images_V14.0.11.0.TMBINXM_20230822.0000.00_13.0_in_c78fe09e2c.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TMBINXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAINGlobal_V14.0.10.0.TMBINXM_1fa4bb0b03_13.0.zip",
-          "fastboot": "nuwa_in_global_images_V14.0.10.0.TMBINXM_20230731.0000.00_13.0_in_5c175eb322.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TMBINXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAINGlobal_V14.0.9.0.TMBINXM_8c379e9527_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.8.0.TMBINXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAINGlobal_V14.0.8.0.TMBINXM_4087ed25f7_13.0.zip",
-          "fastboot": "nuwa_in_global_images_V14.0.8.0.TMBINXM_20230502.0000.00_13.0_in_61de362880.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMBINXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAINGlobal_V14.0.6.0.TMBINXM_a32be332d1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.2.0.TMBINXM",
-          "android": "13.0",
-          "recovery": "miui_NUWAINGlobal_V14.0.2.0.TMBINXM_974300981a_13.0.zip",
-          "fastboot": "nuwa_in_global_images_V14.0.2.0.TMBINXM_20230209.0000.00_13.0_in_48688dcba7.tgz"
-        }
-      ]
-    },
-    {
-      "code":"nuwa_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TMBTRXM",
-          "android": "13.0",
-          "recovery": "miui_NUWATRGlobal_V14.0.3.0.TMBTRXM_2e90882797_13.0.zip",
-          "fastboot": "nuwa_tr_global_images_V14.0.3.0.TMBTRXM_20230208.0000.00_13.0_tr_d2b4862202.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "nuwa",
+	"cnname": "小米 13 Pro",
+	"enname": "Xiaomi 13 Pro",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "38940061",
+	"ismiui": "0",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["469"],
+	"cbid": ["472"],
+	"gdid": "577308",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "nuwa_pre_gpp",
+			"btag": "X",
+			"region": "cn",
+			"carrier": [""],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发者预览版",
+			"enname": "Android Developer Preview",
+			"links": [
+				{
+					"miui": "23.7.28",
+					"android": "14.0 Beta3 大陆版",
+					"recovery": "",
+					"fastboot": "nuwa_pre_gpp_images_23.7.28_20230728.0000.00_14.0_cn_6fd71e1c4b.tgz"
+				},
+				{
+					"miui": "23.7.28",
+					"android": "14.0 Beta3 Global",
+					"recovery": "",
+					"fastboot": "nuwa_pre_gpp_global_images_23.7.28_20230728.0000.00_14.0_global_ae975cbf47.tgz"
+				},
+				{
+					"miui": "23.5.6",
+					"android": "14.0 DP1 大陆版",
+					"recovery": "",
+					"fastboot": "nuwa_pre_dpp_images_23.5.6_20230506.0000.00_14.0_cn_1e7321db36.tgz"
+				},
+				{
+					"miui": "23.5.6",
+					"android": "14.0 DP1 Global",
+					"recovery": "",
+					"fastboot": "nuwa_pre_dpp_global_images_23.5.6_20230506.0000.00_14.0_global_476952a033.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.9.19.DEV",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.23.9.19.DEV_9d8a27a910_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.12.DEV",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.23.9.12.DEV_9c31c83ac5_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.6.DEV",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.23.9.6.DEV_83eeaa6e25_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.29.DEV",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.23.8.29.DEV_b13b9ebc11_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.22.DEV",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.23.8.22.DEV_7af7c43a24_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.15.DEV",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.23.8.15.DEV_4bcc683022_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.9.18.DEV_05317d6e31_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.9.11.DEV_f93fc0a487_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.4.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.9.4.DEV_5583f418f0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.8.28.DEV_85e86170ea_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.8.21.DEV_e1592684c1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.14.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.8.14.DEV_9dfffcf073_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.23.8.14.DEV_20230814.0000.00_13.0_cn_5d30e6f073.tgz"
+				},
+				{
+					"miui": "V14.0.23.8.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.8.13.DEV_e304759db0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.8.6.DEV_b0c28e3beb_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.7.31.DEV_4446b0337b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.7.24.DEV_8baefdcd10_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.7.17.DEV_81dc4192c6_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.7.10.DEV_dc86e8dab1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.7.3.DEV_b84f6e5e69_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.6.26.DEV_0db90483c8_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.6.8.DEV_39eeb52bd7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.6.5.DEV_672f03470a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.5.29.DEV_f95707afdd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.5.22.DEV_9fb02dcea0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.5.15.DEV_9a623be01f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.5.8.DEV_9b2fac53e7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.4.25.DEV_00e22c0cc2_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.4.17.DEV_6255cdd420_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.4.10.DEV_97daf44e0c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.4.2.DEV_ac05162fb0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.3.27.DEV_e59d4fffd8_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.20.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.3.20.DEV_25ca0bfda1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.3.13.DEV_ec84cef9c6_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.3.7.DEV_031408d43f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.3.6.DEV_ea9cbfdee7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.2.27.DEV_b5a6035ab9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.2.21.DEV_18d161da73_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.2.13.DEV_2abdf526d7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.2.6.DEV_9cb94a71dd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.1.31.DEV_5506be42d3_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.1.9.DEV_d4b1bd913f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.1.3.DEV_cf7878f62a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.22.12.26.DEV_722cbbd21c_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.22.12.26.DEV_20221226.0000.00_13.0_cn_89264ad126.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.4.0.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.4.0.UMBCNXM_54c70dc059_14.0.zip",
+					"fastboot": "nuwa_images_V14.0.4.0.UMBCNXM_20231025.0000.00_14.0_cn_39c80f4664.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.3.0.UMBCNXM_184887d220_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.2.0.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.2.0.UMBCNXM_cec8f8783b_14.0.zip",
+					"fastboot": "nuwa_images_V14.0.2.0.UMBCNXM_20230920.0000.00_14.0_cn_a0202a3d05.tgz"
+				},
+				{
+					"miui": "V14.0.1.14.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.1.14.UMBCNXM_37edee3f63_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.3.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.1.3.UMBCNXM_71e9a4495d_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.0.18.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.0.18.UMBCNXM_5f2e30813c_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.0.11.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.0.11.UMBCNXM_f3d6b2d080_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.0.4.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.0.4.UMBCNXM_32bf040098_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.28.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.28.0.TMBCNXM_dfaed9c04f_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.28.0.TMBCNXM_20230802.0000.00_13.0_cn_b403cba643.tgz"
+				},
+				{
+					"miui": "V14.0.27.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.27.0.TMBCNXM_bf99c48bc7_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.27.0.TMBCNXM_20230523.0000.00_13.0_cn_fa5a2e045c.tgz"
+				},
+				{
+					"miui": "V14.0.26.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.26.0.TMBCNXM_a94b128ed9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.24.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.24.0.TMBCNXM_399338bd4d_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.24.0.TMBCNXM_20230412.0000.00_13.0_cn_0420079646.tgz"
+				},
+				{
+					"miui": "V14.0.23.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.0.TMBCNXM_7c977c5c30_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.22.0.TMBCNXM_7793384246_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.12.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.12.0.TMBCNXM_f06c81d818_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.12.0.TMBCNXM_20230111.0000.00_13.0_cn_ec7d9e835d.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.10.0.TMBCNXM_a92bd7643e_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.10.0.TMBCNXM_20221230.0000.00_13.0_cn_803277e78a.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.8.0.TMBCNXM_08bc7fba33_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.8.0.TMBCNXM_20221216.0000.00_13.0_cn_1c42af38b6.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.7.0.TMBCNXM_bd620edff7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.4.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.4.0.TMBCNXM_c5625d2228_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.4.0.TMBCNXM_20221116.0000.00_13.0_cn_88ccfd8d0f.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.4.0.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.4.0.UMBCNXM_54c70dc059_14.0.zip",
+					"fastboot": "nuwa_images_V14.0.4.0.UMBCNXM_20231025.0000.00_14.0_cn_chinatelecom_c2f47e96de.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.UMBCNXM",
+					"android": "14.0",
+					"recovery": "miui_NUWA_V14.0.2.0.UMBCNXM_cec8f8783b_14.0.zip",
+					"fastboot": "nuwa_images_V14.0.2.0.UMBCNXM_20230920.0000.00_14.0_cn_chinatelecom_0aac54048e.tgz"
+				},
+				{
+					"miui": "V14.0.28.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.28.0.TMBCNXM_dfaed9c04f_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.28.0.TMBCNXM_20230802.0000.00_13.0_cn_chinatelecom_f324cd74b1.tgz"
+				},
+				{
+					"miui": "V14.0.27.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.27.0.TMBCNXM_bf99c48bc7_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.27.0.TMBCNXM_20230523.0000.00_13.0_cn_chinatelecom_25f14d49d9.tgz"
+				},
+				{
+					"miui": "V14.0.24.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.24.0.TMBCNXM_399338bd4d_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.24.0.TMBCNXM_20230412.0000.00_13.0_cn_chinatelecom_bc16c5a7dc.tgz"
+				},
+				{
+					"miui": "V14.0.23.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.23.0.TMBCNXM_7c977c5c30_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.23.0.TMBCNXM_20230324.0000.00_13.0_cn_chinatelecom_0b2cc4988d.tgz"
+				},
+				{
+					"miui": "V14.0.12.0.TMBCNXM",
+					"android": "13.0",
+					"recovery": "miui_NUWA_V14.0.12.0.TMBCNXM_f06c81d818_13.0.zip",
+					"fastboot": "nuwa_images_V14.0.12.0.TMBCNXM_20230111.0000.00_13.0_cn_chinatelecom_e8a0a7c6ff.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TMBCNDM",
+					"android": "13.0",
+					"recovery": "miui_NUWADEMO_V14.0.5.0.TMBCNDM_56d9f81aa2_13.0.zip",
+					"fastboot": "nuwa_demo_images_V14.0.5.0.TMBCNDM_20221220.0000.00_13.0_cn_289057c9f7.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMBCNDM",
+					"android": "13.0",
+					"recovery": "miui_NUWADEMO_V14.0.5.0.TMBCNDM_56d9f81aa2_13.0.zip",
+					"fastboot": "nuwa_demo_images_V14.0.5.0.TMBCNDM_20221220.0000.00_13.0_cn_chinatelecom_c65eb4f6ae.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.6.12.EP.STDEE.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSTDEE_V14.0.23.6.12.EP.STDEE.M2_94a1cd47dc_13.0.zip",
+					"fastboot": "nuwa_ep_stdee_images_V14.0.23.6.12.EP.STDEE.M2_20230612.0000.00_13.0_cn_0ab3edae5a.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.12.EP.STDEE.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSTDEE_V14.0.23.6.12.EP.STDEE.M2_94a1cd47dc_13.0.zip",
+					"fastboot": "nuwa_ep_stdee_images_V14.0.23.6.12.EP.STDEE.M2_20230612.0000.00_13.0_cn_chinatelecom_6505f23914.tgz"
+				},
+				{
+					"miui": "V14.0.23.3.8.EP.STDEE.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSTDEE_V14.0.23.3.8.EP.STDEE.M2_1cb069d764_13.0.zip",
+					"fastboot": "nuwa_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M2_20230308.0000.00_13.0_cn_e5dbdbd416.tgz"
+				},
+				{
+					"miui": "V14.0.23.3.8.EP.STDEE.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSTDEE_V14.0.23.3.8.EP.STDEE.M2_1cb069d764_13.0.zip",
+					"fastboot": "nuwa_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M2_20230308.0000.00_13.0_cn_chinatelecom_c941a21000.tgz"
+				},
+				{
+					"miui": "V14.0.23.2.16.EP.STDEE.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSTDEE_V14.0.23.2.16.EP.STDEE.M2_df4f47637b_13.0.zip",
+					"fastboot": "nuwa_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M2_20230216.0000.00_13.0_cn_376affc1e1.tgz"
+				},
+				{
+					"miui": "V14.0.23.2.16.EP.STDEE.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSTDEE_V14.0.23.2.16.EP.STDEE.M2_df4f47637b_13.0.zip",
+					"fastboot": "nuwa_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M2_20230216.0000.00_13.0_cn_chinatelecom_d461b335b5.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_ep_sdlybjcg",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epsdlybjcg",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆EPSDLYBJCG",
+			"enname": "China Mainland EPSDLYBJCG",
+			"links": [
+				{
+					"miui": "V14.0.23.6.20.EP.SDLYBJCG.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSDLYBJCG_V14.0.23.6.20.EP.SDLYBJCG.M2_312dfc0d61_13.0.zip",
+					"fastboot": "nuwa_ep_sdlybjcg_images_V14.0.23.6.20.EP.SDLYBJCG.M2_20230620.0000.00_13.0_cn_d85d6d4922.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.20.EP.SDLYBJCG.M2",
+					"android": "13.0",
+					"recovery": "miui_NUWAEPSDLYBJCG_V14.0.23.6.20.EP.SDLYBJCG.M2_312dfc0d61_13.0.zip",
+					"fastboot": "nuwa_ep_sdlybjcg_images_V14.0.23.6.20.EP.SDLYBJCG.M2_20230620.0000.00_13.0_cn_chinatelecom_7cc23b5767.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TMBTWXM",
+					"android": "13.0",
+					"recovery": "miui_NUWATWGlobal_V14.0.11.0.TMBTWXM_ffe35d4d9c_13.0.zip",
+					"fastboot": "nuwa_tw_global_images_V14.0.11.0.TMBTWXM_20230831.0000.00_13.0_tw_ac47b95f68.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMBTWXM",
+					"android": "13.0",
+					"recovery": "miui_NUWATWGlobal_V14.0.6.0.TMBTWXM_3a87d013db_13.0.zip",
+					"fastboot": "nuwa_tw_global_images_V14.0.6.0.TMBTWXM_20230414.0000.00_13.0_tw_b22932f2ab.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMBTWXM",
+					"android": "13.0",
+					"recovery": "miui_NUWATWGlobal_V14.0.4.0.TMBTWXM_a7e9a96bd8_13.0.zip",
+					"fastboot": "nuwa_tw_global_images_V14.0.4.0.TMBTWXM_20230203.0000.00_13.0_tw_03df1015ae.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.UMBMIXM",
+					"android": "14.0",
+					"recovery": "miui_NUWAGlobal_V14.0.6.0.UMBMIXM_a5c27eefd4_14.0.zip",
+					"fastboot": "nuwa_global_images_V14.0.6.0.UMBMIXM_20231022.0000.00_14.0_global_bb3b8e78d2.tgz",
+					"debug": "nuwa_global_images_V14.0.6.0.UMBMIXM.debug_20231022.0000.00_14.0_global_59163ba69d.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.UMBMIXM",
+					"android": "14.0",
+					"recovery": "miui_NUWAGlobal_V14.0.5.0.UMBMIXM_8e1fd5eaf6_14.0.zip",
+					"fastboot": "nuwa_global_images_V14.0.5.0.UMBMIXM_20230925.0000.00_14.0_global_76f82de48c.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.UMBMIXM",
+					"android": "14.0",
+					"recovery": "miui_NUWAGlobal_V14.0.2.0.UMBMIXM_6020356313_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.13.0.TMBMIXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAGlobal_V14.0.13.0.TMBMIXM_2ca9697995_13.0.zip",
+					"fastboot": "nuwa_global_images_V14.0.13.0.TMBMIXM_20230822.0000.00_13.0_global_686e44dace.tgz"
+				},
+				{
+					"miui": "V14.0.12.0.TMBMIXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAGlobal_V14.0.12.0.TMBMIXM_1a19a77d05_13.0.zip",
+					"fastboot": "nuwa_global_images_V14.0.12.0.TMBMIXM_20230803.0000.00_13.0_global_2022fc9ba3.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TMBMIXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAGlobal_V14.0.9.0.TMBMIXM_5a519b76bf_13.0.zip",
+					"fastboot": "nuwa_global_images_V14.0.9.0.TMBMIXM_20230414.0000.00_13.0_global_32953d0dc0.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMBMIXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAGlobal_V14.0.7.0.TMBMIXM_875710201a_13.0.zip",
+					"fastboot": "nuwa_global_images_V14.0.7.0.TMBMIXM_20230221.0000.00_13.0_global_df45c62d36.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMBMIXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAGlobal_V14.0.6.0.TMBMIXM_203521e787_13.0.zip",
+					"fastboot": "nuwa_global_images_V14.0.6.0.TMBMIXM_20221231.0000.00_13.0_global_25e66d1aa0.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.9.0.UMBEUXM",
+					"android": "14.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.9.0.UMBEUXM_af014e3105_14.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.9.0.UMBEUXM_20231116.0000.00_14.0_eea_9d5624315b.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.UMBEUXM",
+					"android": "14.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.6.0.UMBEUXM_5f652310d4_14.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.6.0.UMBEUXM_20231022.0000.00_14.0_eea_8851ddd678.tgz",
+					"debug": "nuwa_eea_global_images_V14.0.6.0.UMBEUXM.debug_20231022.0000.00_14.0_eea_c7870dbdbd.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.UMBEUXM",
+					"android": "14.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.5.0.UMBEUXM_d5bb9079a3_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.28.0.TMBEUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.28.0.TMBEUXM_d6bc3716b8_13.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.28.0.TMBEUXM_20230822.0000.00_13.0_eea_95abd473cd.tgz"
+				},
+				{
+					"miui": "V14.0.27.0.TMBEUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.27.0.TMBEUXM_c963e513cb_13.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.27.0.TMBEUXM_20230731.0000.00_13.0_eea_a78a88d1cf.tgz"
+				},
+				{
+					"miui": "V14.0.24.0.TMBEUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.24.0.TMBEUXM_1d57b3de91_13.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.24.0.TMBEUXM_20230615.0000.00_13.0_eea_7ec29b9895.tgz"
+				},
+				{
+					"miui": "V14.0.22.0.TMBEUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.22.0.TMBEUXM_c74cc43483_13.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.22.0.TMBEUXM_20230414.0000.00_13.0_eea_df81ff57d8.tgz"
+				},
+				{
+					"miui": "V14.0.19.0.TMBEUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.19.0.TMBEUXM_58d299a75b_13.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.19.0.TMBEUXM_20230309.0000.00_13.0_eea_70d5b77548.tgz"
+				},
+				{
+					"miui": "V14.0.15.0.TMBEUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.15.0.TMBEUXM_add9a133df_13.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.15.0.TMBEUXM_20230203.0000.00_13.0_eea_e96acaa6fb.tgz"
+				},
+				{
+					"miui": "V14.0.11.0.TMBEUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAEEAGlobal_V14.0.11.0.TMBEUXM_412c938038_13.0.zip",
+					"fastboot": "nuwa_eea_global_images_V14.0.11.0.TMBEUXM_20230104.0000.00_13.0_eea_e7fefdb369.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TMBRUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWARUGlobal_V14.0.11.0.TMBRUXM_01704445ed_13.0.zip",
+					"fastboot": "nuwa_ru_global_images_V14.0.11.0.TMBRUXM_20230831.0000.00_13.0_ru_8d81ed9d3f.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMBRUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWARUGlobal_V14.0.6.0.TMBRUXM_e95181d62e_13.0.zip",
+					"fastboot": "nuwa_ru_global_images_V14.0.6.0.TMBRUXM_20230508.0000.00_13.0_ru_64d8ac78d6.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMBRUXM",
+					"android": "13.0",
+					"recovery": "miui_NUWARUGlobal_V14.0.5.0.TMBRUXM_a12808c0ab_13.0.zip",
+					"fastboot": "nuwa_ru_global_images_V14.0.5.0.TMBRUXM_20230203.0000.00_13.0_ru_2a50ccb714.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.UMBINXM",
+					"android": "14.0",
+					"recovery": "miui_NUWAINGlobal_V14.0.1.0.UMBINXM_4bb456eea5_14.0.zip",
+					"fastboot": "nuwa_in_global_images_V14.0.1.0.UMBINXM_20231025.0000.00_14.0_in_3feee679e0.tgz"
+				},
+				{
+					"miui": "V14.0.11.0.TMBINXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAINGlobal_V14.0.11.0.TMBINXM_0434ae5c79_13.0.zip",
+					"fastboot": "nuwa_in_global_images_V14.0.11.0.TMBINXM_20230822.0000.00_13.0_in_c78fe09e2c.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TMBINXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAINGlobal_V14.0.10.0.TMBINXM_1fa4bb0b03_13.0.zip",
+					"fastboot": "nuwa_in_global_images_V14.0.10.0.TMBINXM_20230731.0000.00_13.0_in_5c175eb322.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TMBINXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAINGlobal_V14.0.9.0.TMBINXM_8c379e9527_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.8.0.TMBINXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAINGlobal_V14.0.8.0.TMBINXM_4087ed25f7_13.0.zip",
+					"fastboot": "nuwa_in_global_images_V14.0.8.0.TMBINXM_20230502.0000.00_13.0_in_61de362880.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMBINXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAINGlobal_V14.0.6.0.TMBINXM_a32be332d1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.2.0.TMBINXM",
+					"android": "13.0",
+					"recovery": "miui_NUWAINGlobal_V14.0.2.0.TMBINXM_974300981a_13.0.zip",
+					"fastboot": "nuwa_in_global_images_V14.0.2.0.TMBINXM_20230209.0000.00_13.0_in_48688dcba7.tgz"
+				}
+			]
+		},
+		{
+			"code": "nuwa_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TMBTRXM",
+					"android": "13.0",
+					"recovery": "miui_NUWATRGlobal_V14.0.3.0.TMBTRXM_2e90882797_13.0.zip",
+					"fastboot": "nuwa_tr_global_images_V14.0.3.0.TMBTRXM_20230208.0000.00_13.0_tr_d2b4862202.tgz"
+				}
+			]
+		}
+	]
 }

@@ -9,7 +9,7 @@
     }
   ],
   "cdid": "23211289",
-  "ismiui":"",
+  "ismiui": "",
   "ccshow": "1",
   "cbshow": "1",
   "csid": [
@@ -20,14 +20,19 @@
   "pcid": "",
   "branches": [
     {
-      "code":"cannon",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "cannon",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cnmp",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -1552,14 +1557,19 @@
       ]
     },
     {
-      "code":"cannon_yunke",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "cannon_yunke",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "epyk",
-      "zone":"1",
+      "zone": "1",
       "show": "0",
-      "ep":"1",
+      "ep": "1",
       "cnname": "中国大陆YUNKE",
       "enname": "China Mainland YUNKE",
       "links": [
@@ -1572,29 +1582,32 @@
       ]
     },
     {
-      "code":"cannon",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "cannon",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cnmo",
-      "zone":"1",
+      "zone": "1",
       "show": "0",
-      "ep":"1",
+      "ep": "1",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-
-      ]
+      "links": []
     },
     {
-      "code":"cannon",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "cannon",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -1727,14 +1740,14 @@
       ]
     },
     {
-      "code":"cannon",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "cannon",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "ctce",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -1765,14 +1778,16 @@
       ]
     },
     {
-      "code":"cannon",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "cannon",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -1797,14 +1812,14 @@
       ]
     },
     {
-      "code":"cannong_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
+      "code": "cannong_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
       "branch": "cntw",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -1847,14 +1862,14 @@
       ]
     },
     {
-      "code":"cannong_global",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "cannong_global",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "mgbs",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -1951,14 +1966,14 @@
       ]
     },
     {
-      "code":"cannong_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "cannong_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eeas",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -2043,14 +2058,14 @@
       ]
     },
     {
-      "code":"cannong_eea_or_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "cannong_eea_or_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euor",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
@@ -2069,14 +2084,14 @@
       ]
     },
     {
-      "code":"cannong_eea_tf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "cannong_eea_tf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eutf",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Telefonica运营商定制版",
       "enname": "Europe Telefonica Carrier Edition",
       "links": [
@@ -2089,14 +2104,14 @@
       ]
     },
     {
-      "code":"cannong_eea_vf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "cannong_eea_vf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euvf",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
@@ -2115,14 +2130,14 @@
       ]
     },
     {
-      "code":"cannong_eea_sf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "cannong_eea_sf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eusf",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
@@ -2135,14 +2150,14 @@
       ]
     },
     {
-      "code":"cannong_eea_ti_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "cannong_eea_ti_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euti",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲TIM运营商定制版",
       "enname": "Europe TIM Carrier Edition",
       "links": [
@@ -2155,14 +2170,14 @@
       ]
     },
     {
-      "code":"cannong_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
+      "code": "cannong_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
       "branch": "russ",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -2211,14 +2226,14 @@
       ]
     },
     {
-      "code":"cannong_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
+      "code": "cannong_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
       "branch": "trks",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -2255,14 +2270,14 @@
       ]
     },
     {
-      "code":"cannong_lm_cr_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "cannong_lm_cr_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "lmcr",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [

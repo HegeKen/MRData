@@ -1,860 +1,856 @@
 {
-  "codename": "fuxi",
-  "cnname": "小米 13",
-  "enname": "Xiaomi 13",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "38940061",
-  "ismiui":"0",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "470"
-  ],
-  "cbid": [
-    "471"
-  ],
-  "gdid": "577308",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"fuxi_pre_gpp",
-      "btag":"X",
-      "region":"cn",
-      "carrier":[""],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发者预览版",
-      "enname": "Android Developer Preview",
-      "links": [
-        {
-          "miui": "23.7.28",
-          "android": "14.0 Beta3 大陆版",
-          "recovery": "",
-          "fastboot": "fuxi_pre_gpp_images_23.7.28_20230728.0000.00_14.0_cn_eb6a6ac0d3.tgz"
-        },
-        {
-          "miui": "23.7.28",
-          "android": "14.0 Beta3 Global",
-          "recovery": "",
-          "fastboot": "fuxi_pre_gpp_global_images_23.7.28_20230728.0000.00_14.0_global_cd29d19e26.tgz"
-        },
-        {
-          "miui": "23.5.6",
-          "android": "14.0 DP1 大陆版",
-          "recovery": "",
-          "fastboot": "fuxi_pre_dpp_images_23.5.6_20230506.0000.00_14.0_cn_5cfc986a7c.tgz"
-        },
-        {
-          "miui": "23.5.6",
-          "android": "14.0 DP1 Global",
-          "recovery": "",
-          "fastboot": "fuxi_pre_dpp_global_images_23.5.6_20230506.0000.00_14.0_global_5ebdff21cd.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.9.19.DEV",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.23.9.19.DEV_2c8468010c_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.12.DEV",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.23.9.12.DEV_599d9d6b02_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.6.DEV",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.23.9.6.DEV_ef00a854b3_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.29.DEV",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.23.8.29.DEV_c92267266b_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.22.DEV",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.23.8.22.DEV_9fb4fa37ae_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.15.DEV",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.23.8.15.DEV_285e461a99_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.9.18.DEV_6b8abb969e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.9.11.DEV_ed7e1fc990_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.9.5.DEV_9f38e78571_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.8.28.DEV_b83758ff18_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.21.DEV",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.23.8.21.DEV_4bd1401e56_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.14.DEV",
-          "android": "13.0",
-          "recovery": "",
-          "fastboot": "fuxi_images_V14.0.23.8.14.DEV_20230814.0000.00_13.0_cn_1f99eb1773.tgz"
-        },
-        {
-          "miui": "V14.0.23.8.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.8.13.DEV_88770cb247_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.8.6.DEV_c4eba11876_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.7.31.DEV_bca365c1cd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.7.24.DEV_5a00756e81_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.7.17.DEV_0f861f2071_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.7.10.DEV_e577311d84_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.7.3.DEV_7864d95f6c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.6.26.DEV_42fc53a4c5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.6.8.DEV_ec426ca458_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.6.5.DEV_93fd784a4e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.5.29.DEV_a4c8b89f1b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.5.22.DEV_ed0a144cb8_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.5.15.DEV_c3ba951569_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.5.8.DEV_a2f47b4a67_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.4.25.DEV_7c7bc6308c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.4.17.DEV_cf9532d2b3_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.4.10.DEV_d988fb683d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.4.2.DEV_5dd934f4f1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.3.27.DEV_eaffa287b9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.3.21.DEV_29fc06722b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.16.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.3.16.DEV_07716d8ed5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.3.7.DEV_52f9d4c766_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.3.6.DEV_86d9fc8276_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.2.27.DEV_199ede6e6c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.2.21.DEV_d5011f1f53_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.2.13.DEV_fd07a256d5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.2.6.DEV_a0e7bf4107_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.1.30.DEV_2066f7993f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.1.9.DEV_07724d51d9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.1.3.DEV_66a6245c82_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.22.12.26.DEV_eeffec363b_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.22.12.26.DEV_20221226.0000.00_13.0_cn_3fdab38559.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.5.0.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.5.0.UMCCNXM_bb63991392_14.0.zip",
-          "fastboot": "fuxi_images_V14.0.5.0.UMCCNXM_20231103.0000.00_14.0_cn_b6df746cf6.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.4.0.UMCCNXM_f88642927a_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.3.0.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.3.0.UMCCNXM_bf195e5edb_14.0.zip",
-          "fastboot": "fuxi_images_V14.0.3.0.UMCCNXM_20230926.0000.00_14.0_cn_9051f26807.tgz"
-        },
-        {
-          "miui": "V14.0.1.15.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.1.15.UMCCNXM_eb0d00b618_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.14.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.1.14.UMCCNXM_e8949cfca7_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.3.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.1.3.UMCCNXM_3d99a1b5a6_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.0.18.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.0.18.UMCCNXM_d3aaea971d_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.0.11.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.0.11.UMCCNXM_1fc98fd237_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.0.4.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.0.4.UMCCNXM_7703311c92_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.31.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.31.0.TMCCNXM_1110d3341a_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.31.0.TMCCNXM_20230802.0000.00_13.0_cn_1516e24894.tgz"
-        },
-        {
-          "miui": "V14.0.30.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.30.0.TMCCNXM_a93872e3c3_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.30.0.TMCCNXM_20230707.0000.00_13.0_cn_0379e4443c.tgz"
-        },
-        {
-          "miui": "V14.0.29.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.29.0.TMCCNXM_a72354d5c7_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.29.0.TMCCNXM_20230524.0000.00_13.0_cn_b2428dadab.tgz"
-        },
-        {
-          "miui": "V14.0.27.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.27.0.TMCCNXM_15d7021adf_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.24.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.24.0.TMCCNXM_bad43a4e6f_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.24.0.TMCCNXM_20230420.0000.00_13.0_cn_6b12f01d61.tgz"
-        },
-        {
-          "miui": "V14.0.23.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.23.0.TMCCNXM_9a5c50ca65_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.21.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.21.0.TMCCNXM_a2d21eb89e_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.21.0.TMCCNXM_20230227.0000.00_13.0_cn_6bd56184d7.tgz"
-        },
-        {
-          "miui": "V14.0.17.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.17.0.TMCCNXM_6d5bf8c2d6_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.17.0.TMCCNXM_20230202.0000.00_13.0_cn_016a2eca59.tgz"
-        },
-        {
-          "miui": "V14.0.13.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.13.0.TMCCNXM_8fa764eb0d_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.13.0.TMCCNXM_20230111.0000.00_13.0_cn_f47e0d6c78.tgz"
-        },
-        {
-          "miui": "V14.0.11.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.11.0.TMCCNXM_77665cadba_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.9.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.9.0.TMCCNXM_18131fe0aa_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.9.0.TMCCNXM_20221211.0000.00_13.0_cn_ade0288de0.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.4.0.TMCCNXM_f4decbbbee_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.4.0.TMCCNXM_20221116.0000.00_13.0_cn_9907ee3ec1.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.4.0.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.4.0.UMCCNXM_f88642927a_14.0.zip",
-          "fastboot": "fuxi_images_V14.0.4.0.UMCCNXM_20231018.0000.00_14.0_cn_chinatelecom_f40121d80e.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.UMCCNXM",
-          "android": "14.0",
-          "recovery": "miui_FUXI_V14.0.3.0.UMCCNXM_bf195e5edb_14.0.zip",
-          "fastboot": "fuxi_images_V14.0.3.0.UMCCNXM_20230926.0000.00_14.0_cn_chinatelecom_944fa9bc15.tgz"
-        },
-        {
-          "miui": "V14.0.31.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.31.0.TMCCNXM_1110d3341a_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.31.0.TMCCNXM_20230802.0000.00_13.0_cn_chinatelecom_3098fe1351.tgz"
-        },
-        {
-          "miui": "V14.0.30.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.30.0.TMCCNXM_a93872e3c3_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.30.0.TMCCNXM_20230707.0000.00_13.0_cn_chinatelecom_54bf7a2472.tgz"
-        },
-        {
-          "miui": "V14.0.29.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.29.0.TMCCNXM_a72354d5c7_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.29.0.TMCCNXM_20230524.0000.00_13.0_cn_chinatelecom_372c024171.tgz"
-        },
-        {
-          "miui": "V14.0.24.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.24.0.TMCCNXM_bad43a4e6f_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.24.0.TMCCNXM_20230420.0000.00_13.0_cn_chinatelecom_1f3e7ad6e0.tgz"
-        },
-        {
-          "miui": "V14.0.21.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.21.0.TMCCNXM_a2d21eb89e_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.21.0.TMCCNXM_20230227.0000.00_13.0_cn_chinatelecom_d50e233ea8.tgz"
-        },
-        {
-          "miui": "V14.0.17.0.TMCCNXM",
-          "android": "13.0",
-          "recovery": "miui_FUXI_V14.0.17.0.TMCCNXM_6d5bf8c2d6_13.0.zip",
-          "fastboot": "fuxi_images_V14.0.17.0.TMCCNXM_20230202.0000.00_13.0_cn_chinatelecom_bc68a59155.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TMCCNDM",
-          "android": "13.0",
-          "recovery": "miui_FUXIDEMO_V14.0.5.0.TMCCNDM_58d41876e2_13.0.zip",
-          "fastboot": "fuxi_demo_images_V14.0.5.0.TMCCNDM_20221220.0000.00_13.0_cn_5509b09e6d.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMCCNDM",
-          "android": "13.0",
-          "recovery": "miui_FUXIDEMO_V14.0.5.0.TMCCNDM_58d41876e2_13.0.zip",
-          "fastboot": "fuxi_demo_images_V14.0.5.0.TMCCNDM_20221220.0000.00_13.0_cn_chinatelecom_da98337774.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.9.7.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.9.7.EP.STDEE.M3_2218a50cc0_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.9.7.EP.STDEE.M3_20230907.0000.00_13.0_cn_54ef8de593.tgz"
-        },
-        {
-          "miui": "V14.0.23.9.7.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.9.7.EP.STDEE.M3_2218a50cc0_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.9.7.EP.STDEE.M3_20230907.0000.00_13.0_cn_chinatelecom_217a580c0b.tgz"
-        },
-        {
-          "miui": "V14.0.23.5.9.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.5.9.EP.STDEE.M3_5730d23445_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.5.9.EP.STDEE.M3_20230509.0000.00_13.0_cn_6514b713a1.tgz"
-        },
-        {
-          "miui": "V14.0.23.5.9.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.5.9.EP.STDEE.M3_5730d23445_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.5.9.EP.STDEE.M3_20230509.0000.00_13.0_cn_chinatelecom_e09865314d.tgz"
-        },
-        {
-          "miui": "V14.0.23.3.8.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.3.8.EP.STDEE.M3_d24b366d38_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M3_20230308.0000.00_13.0_cn_9fa6e216cd.tgz"
-        },
-        {
-          "miui": "V14.0.23.3.8.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.3.8.EP.STDEE.M3_d24b366d38_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M3_20230308.0000.00_13.0_cn_chinatelecom_f2ac2a5663.tgz"
-        },
-        {
-          "miui": "V14.0.23.2.16.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.2.16.EP.STDEE.M3_240bfe9985_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M3_20230216.0000.00_13.0_cn_cb5894c87b.tgz"
-        },
-        {
-          "miui": "V14.0.23.2.16.EP.STDEE.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSTDEE_V14.0.23.2.16.EP.STDEE.M3_240bfe9985_13.0.zip",
-          "fastboot": "fuxi_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M3_20230216.0000.00_13.0_cn_chinatelecom_2b0ba2c213.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi_ep_sdlybjcg",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "epsdlybjcg",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆EPSDLYBJCG",
-      "enname": "China Mainland EPSDLYBJCG",
-      "links": [
-        {
-          "miui": "V14.0.23.12.27.EP.SDLYBJCG.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSDLYBJCG_V14.0.23.12.27.EP.SDLYBJCG.M3_c39ad5384f_13.0.zip",
-          "fastboot": "fuxi_ep_sdlybjcg_images_V14.0.23.12.27.EP.SDLYBJCG.M3_20231227.0000.00_13.0_cn_f1ca4a590a.tgz"
-        },
-        {
-          "miui": "V14.0.23.12.27.EP.SDLYBJCG.M3",
-          "android": "13.0",
-          "recovery": "miui_FUXIEPSDLYBJCG_V14.0.23.12.27.EP.SDLYBJCG.M3_c39ad5384f_13.0.zip",
-          "fastboot": "fuxi_ep_sdlybjcg_images_V14.0.23.12.27.EP.SDLYBJCG.M3_20231227.0000.00_13.0_cn_chinatelecom_124c04b05f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.10.0.TMCTWXM",
-          "android": "13.0",
-          "recovery": "miui_FUXITWGlobal_V14.0.10.0.TMCTWXM_4aef30969a_13.0.zip",
-          "fastboot": "fuxi_tw_global_images_V14.0.10.0.TMCTWXM_20230811.0000.00_13.0_tw_cca65ea4fc.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMCTWXM",
-          "android": "13.0",
-          "recovery": "miui_FUXITWGlobal_V14.0.6.0.TMCTWXM_24f3434ca9_13.0.zip",
-          "fastboot": "fuxi_tw_global_images_V14.0.6.0.TMCTWXM_20230414.0000.00_13.0_tw_6eb11c0a67.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMCTWXM",
-          "android": "13.0",
-          "recovery": "miui_FUXITWGlobal_V14.0.4.0.TMCTWXM_53fa921698_13.0.zip",
-          "fastboot": "fuxi_tw_global_images_V14.0.4.0.TMCTWXM_20230203.0000.00_13.0_tw_00d79e0d0c.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.UMCMIXM",
-          "android": "14.0",
-          "recovery": "miui_FUXIGlobal_V14.0.6.0.UMCMIXM_052c72c9ab_14.0.zip",
-          "fastboot":"fuxi_global_images_V14.0.6.0.UMCMIXM_20231022.0000.00_14.0_global_43ce6e8182.tgz",
-          "debug": "fuxi_global_images_V14.0.6.0.UMCMIXM.debug_20231022.0000.00_14.0_global_077de19ad5.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.UMCMIXM",
-          "android": "14.0",
-          "recovery": "miui_FUXIGlobal_V14.0.5.0.UMCMIXM_f78cd6abea_14.0.zip",
-          "fastboot": "fuxi_global_images_V14.0.5.0.UMCMIXM_20230925.0000.00_14.0_global_d3303c964f.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.UMCMIXM",
-          "android": "14.0",
-          "recovery": "miui_FUXIGlobal_V14.0.2.0.UMCMIXM_c98b5a7f9b_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.9.0.TMCMIXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIGlobal_V14.0.9.0.TMCMIXM_e156b47e92_13.0.zip",
-          "fastboot": "fuxi_global_images_V14.0.9.0.TMCMIXM_20230803.0000.00_13.0_global_e9b03bd329.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMCMIXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIGlobal_V14.0.7.0.TMCMIXM_71356743bf_13.0.zip",
-          "fastboot": "fuxi_global_images_V14.0.7.0.TMCMIXM_20230414.0000.00_13.0_global_1f463a0893.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMCMIXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIGlobal_V14.0.4.0.TMCMIXM_200d8eb3a1_13.0.zip",
-          "fastboot": "fuxi_global_images_V14.0.4.0.TMCMIXM_20230215.0000.00_13.0_global_5bc4b166d5.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMCMIXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIGlobal_V14.0.3.0.TMCMIXM_bb347e0b42_13.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"fuxi_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.9.0.UMCEUXM",
-          "android": "14.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.9.0.UMCEUXM_99c17c3590_14.0.zip",
-          "fastboot": "fuxi_eea_global_images_V14.0.9.0.UMCEUXM_20231116.0000.00_14.0_eea_eb1fbcbad8.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.UMCEUXM",
-          "android": "14.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.6.0.UMCEUXM_bd06bcd878_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.5.0.UMCEUXM",
-          "android": "14.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.5.0.UMCEUXM_1c2b555269_14.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.27.0.TMCEUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.27.0.TMCEUXM_3c918f3bc6_13.0.zip",
-          "fastboot": "fuxi_eea_global_images_V14.0.27.0.TMCEUXM_20230731.0000.00_13.0_eea_87da11140a.tgz"
-        },
-        {
-          "miui": "V14.0.24.0.TMCEUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.24.0.TMCEUXM_b42d0e6c2d_13.0.zip",
-          "fastboot": "fuxi_eea_global_images_V14.0.24.0.TMCEUXM_20230615.0000.00_13.0_eea_9df09be1a9.tgz"
-        },
-        {
-          "miui": "V14.0.22.0.TMCEUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.22.0.TMCEUXM_278c59e2f9_13.0.zip",
-          "fastboot": "fuxi_eea_global_images_V14.0.22.0.TMCEUXM_20230414.0000.00_13.0_eea_d8cdd6e4ff.tgz"
-        },
-        {
-          "miui": "V14.0.19.0.TMCEUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.19.0.TMCEUXM_9b775e827c_13.0.zip",
-          "fastboot": "fuxi_eea_global_images_V14.0.19.0.TMCEUXM_20230309.0000.00_13.0_eea_21358da4a2.tgz"
-        },
-        {
-          "miui": "V14.0.15.0.TMCEUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.15.0.TMCEUXM_eb1b5a7489_13.0.zip",
-          "fastboot": "fuxi_eea_global_images_V14.0.15.0.TMCEUXM_20230203.0000.00_13.0_eea_af5681bb33.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMCEUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIEEAGlobal_V14.0.6.0.TMCEUXM_1af1430ee4_13.0.zip",
-          "fastboot": "fuxi_eea_global_images_V14.0.6.0.TMCEUXM_20221224.0000.00_13.0_eea_2361c60192.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TMCRUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIRUGlobal_V14.0.11.0.TMCRUXM_704f503fed_13.0.zip",
-          "fastboot": "fuxi_ru_global_images_V14.0.11.0.TMCRUXM_20230831.0000.00_13.0_ru_29c6d9fe83.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMCRUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIRUGlobal_V14.0.6.0.TMCRUXM_9833cc6a23_13.0.zip",
-          "fastboot": "fuxi_ru_global_images_V14.0.6.0.TMCRUXM_20230508.0000.00_13.0_ru_272683d291.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMCRUXM",
-          "android": "13.0",
-          "recovery": "miui_FUXIRUGlobal_V14.0.5.0.TMCRUXM_48d8f2649c_13.0.zip",
-          "fastboot": "fuxi_ru_global_images_V14.0.5.0.TMCRUXM_20230203.0000.00_13.0_ru_5755249b3e.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fuxi_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TMCTRXM",
-          "android": "13.0",
-          "recovery": "miui_FUXITRGlobal_V14.0.3.0.TMCTRXM_fed6212609_13.0.zip",
-          "fastboot": "fuxi_tr_global_images_V14.0.3.0.TMCTRXM_20230208.0000.00_13.0_tr_1f37ffbcff.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "fuxi",
+	"cnname": "小米 13",
+	"enname": "Xiaomi 13",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "38940061",
+	"ismiui": "0",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["470"],
+	"cbid": ["471"],
+	"gdid": "577308",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "fuxi_pre_gpp",
+			"btag": "X",
+			"region": "cn",
+			"carrier": [""],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发者预览版",
+			"enname": "Android Developer Preview",
+			"links": [
+				{
+					"miui": "23.7.28",
+					"android": "14.0 Beta3 大陆版",
+					"recovery": "",
+					"fastboot": "fuxi_pre_gpp_images_23.7.28_20230728.0000.00_14.0_cn_eb6a6ac0d3.tgz"
+				},
+				{
+					"miui": "23.7.28",
+					"android": "14.0 Beta3 Global",
+					"recovery": "",
+					"fastboot": "fuxi_pre_gpp_global_images_23.7.28_20230728.0000.00_14.0_global_cd29d19e26.tgz"
+				},
+				{
+					"miui": "23.5.6",
+					"android": "14.0 DP1 大陆版",
+					"recovery": "",
+					"fastboot": "fuxi_pre_dpp_images_23.5.6_20230506.0000.00_14.0_cn_5cfc986a7c.tgz"
+				},
+				{
+					"miui": "23.5.6",
+					"android": "14.0 DP1 Global",
+					"recovery": "",
+					"fastboot": "fuxi_pre_dpp_global_images_23.5.6_20230506.0000.00_14.0_global_5ebdff21cd.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.9.19.DEV",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.23.9.19.DEV_2c8468010c_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.12.DEV",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.23.9.12.DEV_599d9d6b02_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.6.DEV",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.23.9.6.DEV_ef00a854b3_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.29.DEV",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.23.8.29.DEV_c92267266b_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.22.DEV",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.23.8.22.DEV_9fb4fa37ae_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.15.DEV",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.23.8.15.DEV_285e461a99_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.9.18.DEV_6b8abb969e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.9.11.DEV_ed7e1fc990_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.9.5.DEV_9f38e78571_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.8.28.DEV_b83758ff18_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.21.DEV",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.23.8.21.DEV_4bd1401e56_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.14.DEV",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "fuxi_images_V14.0.23.8.14.DEV_20230814.0000.00_13.0_cn_1f99eb1773.tgz"
+				},
+				{
+					"miui": "V14.0.23.8.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.8.13.DEV_88770cb247_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.8.6.DEV_c4eba11876_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.7.31.DEV_bca365c1cd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.7.24.DEV_5a00756e81_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.7.17.DEV_0f861f2071_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.7.10.DEV_e577311d84_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.7.3.DEV_7864d95f6c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.6.26.DEV_42fc53a4c5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.6.8.DEV_ec426ca458_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.6.5.DEV_93fd784a4e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.5.29.DEV_a4c8b89f1b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.5.22.DEV_ed0a144cb8_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.5.15.DEV_c3ba951569_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.5.8.DEV_a2f47b4a67_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.4.25.DEV_7c7bc6308c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.4.17.DEV_cf9532d2b3_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.4.10.DEV_d988fb683d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.4.2.DEV_5dd934f4f1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.3.27.DEV_eaffa287b9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.3.21.DEV_29fc06722b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.16.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.3.16.DEV_07716d8ed5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.3.7.DEV_52f9d4c766_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.3.6.DEV_86d9fc8276_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.2.27.DEV_199ede6e6c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.2.21.DEV_d5011f1f53_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.2.13.DEV_fd07a256d5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.2.6.DEV_a0e7bf4107_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.1.30.DEV_2066f7993f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.1.9.DEV_07724d51d9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.1.3.DEV_66a6245c82_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.22.12.26.DEV_eeffec363b_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.22.12.26.DEV_20221226.0000.00_13.0_cn_3fdab38559.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.5.0.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.5.0.UMCCNXM_bb63991392_14.0.zip",
+					"fastboot": "fuxi_images_V14.0.5.0.UMCCNXM_20231103.0000.00_14.0_cn_b6df746cf6.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.4.0.UMCCNXM_f88642927a_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.3.0.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.3.0.UMCCNXM_bf195e5edb_14.0.zip",
+					"fastboot": "fuxi_images_V14.0.3.0.UMCCNXM_20230926.0000.00_14.0_cn_9051f26807.tgz"
+				},
+				{
+					"miui": "V14.0.1.15.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.1.15.UMCCNXM_eb0d00b618_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.14.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.1.14.UMCCNXM_e8949cfca7_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.3.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.1.3.UMCCNXM_3d99a1b5a6_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.0.18.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.0.18.UMCCNXM_d3aaea971d_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.0.11.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.0.11.UMCCNXM_1fc98fd237_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.0.4.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.0.4.UMCCNXM_7703311c92_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.31.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.31.0.TMCCNXM_1110d3341a_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.31.0.TMCCNXM_20230802.0000.00_13.0_cn_1516e24894.tgz"
+				},
+				{
+					"miui": "V14.0.30.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.30.0.TMCCNXM_a93872e3c3_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.30.0.TMCCNXM_20230707.0000.00_13.0_cn_0379e4443c.tgz"
+				},
+				{
+					"miui": "V14.0.29.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.29.0.TMCCNXM_a72354d5c7_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.29.0.TMCCNXM_20230524.0000.00_13.0_cn_b2428dadab.tgz"
+				},
+				{
+					"miui": "V14.0.27.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.27.0.TMCCNXM_15d7021adf_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.24.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.24.0.TMCCNXM_bad43a4e6f_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.24.0.TMCCNXM_20230420.0000.00_13.0_cn_6b12f01d61.tgz"
+				},
+				{
+					"miui": "V14.0.23.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.23.0.TMCCNXM_9a5c50ca65_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.21.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.21.0.TMCCNXM_a2d21eb89e_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.21.0.TMCCNXM_20230227.0000.00_13.0_cn_6bd56184d7.tgz"
+				},
+				{
+					"miui": "V14.0.17.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.17.0.TMCCNXM_6d5bf8c2d6_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.17.0.TMCCNXM_20230202.0000.00_13.0_cn_016a2eca59.tgz"
+				},
+				{
+					"miui": "V14.0.13.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.13.0.TMCCNXM_8fa764eb0d_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.13.0.TMCCNXM_20230111.0000.00_13.0_cn_f47e0d6c78.tgz"
+				},
+				{
+					"miui": "V14.0.11.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.11.0.TMCCNXM_77665cadba_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.9.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.9.0.TMCCNXM_18131fe0aa_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.9.0.TMCCNXM_20221211.0000.00_13.0_cn_ade0288de0.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.4.0.TMCCNXM_f4decbbbee_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.4.0.TMCCNXM_20221116.0000.00_13.0_cn_9907ee3ec1.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.4.0.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.4.0.UMCCNXM_f88642927a_14.0.zip",
+					"fastboot": "fuxi_images_V14.0.4.0.UMCCNXM_20231018.0000.00_14.0_cn_chinatelecom_f40121d80e.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.UMCCNXM",
+					"android": "14.0",
+					"recovery": "miui_FUXI_V14.0.3.0.UMCCNXM_bf195e5edb_14.0.zip",
+					"fastboot": "fuxi_images_V14.0.3.0.UMCCNXM_20230926.0000.00_14.0_cn_chinatelecom_944fa9bc15.tgz"
+				},
+				{
+					"miui": "V14.0.31.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.31.0.TMCCNXM_1110d3341a_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.31.0.TMCCNXM_20230802.0000.00_13.0_cn_chinatelecom_3098fe1351.tgz"
+				},
+				{
+					"miui": "V14.0.30.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.30.0.TMCCNXM_a93872e3c3_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.30.0.TMCCNXM_20230707.0000.00_13.0_cn_chinatelecom_54bf7a2472.tgz"
+				},
+				{
+					"miui": "V14.0.29.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.29.0.TMCCNXM_a72354d5c7_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.29.0.TMCCNXM_20230524.0000.00_13.0_cn_chinatelecom_372c024171.tgz"
+				},
+				{
+					"miui": "V14.0.24.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.24.0.TMCCNXM_bad43a4e6f_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.24.0.TMCCNXM_20230420.0000.00_13.0_cn_chinatelecom_1f3e7ad6e0.tgz"
+				},
+				{
+					"miui": "V14.0.21.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.21.0.TMCCNXM_a2d21eb89e_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.21.0.TMCCNXM_20230227.0000.00_13.0_cn_chinatelecom_d50e233ea8.tgz"
+				},
+				{
+					"miui": "V14.0.17.0.TMCCNXM",
+					"android": "13.0",
+					"recovery": "miui_FUXI_V14.0.17.0.TMCCNXM_6d5bf8c2d6_13.0.zip",
+					"fastboot": "fuxi_images_V14.0.17.0.TMCCNXM_20230202.0000.00_13.0_cn_chinatelecom_bc68a59155.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TMCCNDM",
+					"android": "13.0",
+					"recovery": "miui_FUXIDEMO_V14.0.5.0.TMCCNDM_58d41876e2_13.0.zip",
+					"fastboot": "fuxi_demo_images_V14.0.5.0.TMCCNDM_20221220.0000.00_13.0_cn_5509b09e6d.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMCCNDM",
+					"android": "13.0",
+					"recovery": "miui_FUXIDEMO_V14.0.5.0.TMCCNDM_58d41876e2_13.0.zip",
+					"fastboot": "fuxi_demo_images_V14.0.5.0.TMCCNDM_20221220.0000.00_13.0_cn_chinatelecom_da98337774.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.9.7.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.9.7.EP.STDEE.M3_2218a50cc0_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.9.7.EP.STDEE.M3_20230907.0000.00_13.0_cn_54ef8de593.tgz"
+				},
+				{
+					"miui": "V14.0.23.9.7.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.9.7.EP.STDEE.M3_2218a50cc0_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.9.7.EP.STDEE.M3_20230907.0000.00_13.0_cn_chinatelecom_217a580c0b.tgz"
+				},
+				{
+					"miui": "V14.0.23.5.9.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.5.9.EP.STDEE.M3_5730d23445_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.5.9.EP.STDEE.M3_20230509.0000.00_13.0_cn_6514b713a1.tgz"
+				},
+				{
+					"miui": "V14.0.23.5.9.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.5.9.EP.STDEE.M3_5730d23445_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.5.9.EP.STDEE.M3_20230509.0000.00_13.0_cn_chinatelecom_e09865314d.tgz"
+				},
+				{
+					"miui": "V14.0.23.3.8.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.3.8.EP.STDEE.M3_d24b366d38_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M3_20230308.0000.00_13.0_cn_9fa6e216cd.tgz"
+				},
+				{
+					"miui": "V14.0.23.3.8.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.3.8.EP.STDEE.M3_d24b366d38_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.3.8.EP.STDEE.M3_20230308.0000.00_13.0_cn_chinatelecom_f2ac2a5663.tgz"
+				},
+				{
+					"miui": "V14.0.23.2.16.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.2.16.EP.STDEE.M3_240bfe9985_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M3_20230216.0000.00_13.0_cn_cb5894c87b.tgz"
+				},
+				{
+					"miui": "V14.0.23.2.16.EP.STDEE.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSTDEE_V14.0.23.2.16.EP.STDEE.M3_240bfe9985_13.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_V14.0.23.2.16.EP.STDEE.M3_20230216.0000.00_13.0_cn_chinatelecom_2b0ba2c213.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi_ep_sdlybjcg",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epsdlybjcg",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆EPSDLYBJCG",
+			"enname": "China Mainland EPSDLYBJCG",
+			"links": [
+				{
+					"miui": "V14.0.23.12.27.EP.SDLYBJCG.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSDLYBJCG_V14.0.23.12.27.EP.SDLYBJCG.M3_c39ad5384f_13.0.zip",
+					"fastboot": "fuxi_ep_sdlybjcg_images_V14.0.23.12.27.EP.SDLYBJCG.M3_20231227.0000.00_13.0_cn_f1ca4a590a.tgz"
+				},
+				{
+					"miui": "V14.0.23.12.27.EP.SDLYBJCG.M3",
+					"android": "13.0",
+					"recovery": "miui_FUXIEPSDLYBJCG_V14.0.23.12.27.EP.SDLYBJCG.M3_c39ad5384f_13.0.zip",
+					"fastboot": "fuxi_ep_sdlybjcg_images_V14.0.23.12.27.EP.SDLYBJCG.M3_20231227.0000.00_13.0_cn_chinatelecom_124c04b05f.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.10.0.TMCTWXM",
+					"android": "13.0",
+					"recovery": "miui_FUXITWGlobal_V14.0.10.0.TMCTWXM_4aef30969a_13.0.zip",
+					"fastboot": "fuxi_tw_global_images_V14.0.10.0.TMCTWXM_20230811.0000.00_13.0_tw_cca65ea4fc.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMCTWXM",
+					"android": "13.0",
+					"recovery": "miui_FUXITWGlobal_V14.0.6.0.TMCTWXM_24f3434ca9_13.0.zip",
+					"fastboot": "fuxi_tw_global_images_V14.0.6.0.TMCTWXM_20230414.0000.00_13.0_tw_6eb11c0a67.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMCTWXM",
+					"android": "13.0",
+					"recovery": "miui_FUXITWGlobal_V14.0.4.0.TMCTWXM_53fa921698_13.0.zip",
+					"fastboot": "fuxi_tw_global_images_V14.0.4.0.TMCTWXM_20230203.0000.00_13.0_tw_00d79e0d0c.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.UMCMIXM",
+					"android": "14.0",
+					"recovery": "miui_FUXIGlobal_V14.0.6.0.UMCMIXM_052c72c9ab_14.0.zip",
+					"fastboot": "fuxi_global_images_V14.0.6.0.UMCMIXM_20231022.0000.00_14.0_global_43ce6e8182.tgz",
+					"debug": "fuxi_global_images_V14.0.6.0.UMCMIXM.debug_20231022.0000.00_14.0_global_077de19ad5.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.UMCMIXM",
+					"android": "14.0",
+					"recovery": "miui_FUXIGlobal_V14.0.5.0.UMCMIXM_f78cd6abea_14.0.zip",
+					"fastboot": "fuxi_global_images_V14.0.5.0.UMCMIXM_20230925.0000.00_14.0_global_d3303c964f.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.UMCMIXM",
+					"android": "14.0",
+					"recovery": "miui_FUXIGlobal_V14.0.2.0.UMCMIXM_c98b5a7f9b_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.9.0.TMCMIXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIGlobal_V14.0.9.0.TMCMIXM_e156b47e92_13.0.zip",
+					"fastboot": "fuxi_global_images_V14.0.9.0.TMCMIXM_20230803.0000.00_13.0_global_e9b03bd329.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMCMIXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIGlobal_V14.0.7.0.TMCMIXM_71356743bf_13.0.zip",
+					"fastboot": "fuxi_global_images_V14.0.7.0.TMCMIXM_20230414.0000.00_13.0_global_1f463a0893.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMCMIXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIGlobal_V14.0.4.0.TMCMIXM_200d8eb3a1_13.0.zip",
+					"fastboot": "fuxi_global_images_V14.0.4.0.TMCMIXM_20230215.0000.00_13.0_global_5bc4b166d5.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMCMIXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIGlobal_V14.0.3.0.TMCMIXM_bb347e0b42_13.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "fuxi_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.9.0.UMCEUXM",
+					"android": "14.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.9.0.UMCEUXM_99c17c3590_14.0.zip",
+					"fastboot": "fuxi_eea_global_images_V14.0.9.0.UMCEUXM_20231116.0000.00_14.0_eea_eb1fbcbad8.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.UMCEUXM",
+					"android": "14.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.6.0.UMCEUXM_bd06bcd878_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.5.0.UMCEUXM",
+					"android": "14.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.5.0.UMCEUXM_1c2b555269_14.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.27.0.TMCEUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.27.0.TMCEUXM_3c918f3bc6_13.0.zip",
+					"fastboot": "fuxi_eea_global_images_V14.0.27.0.TMCEUXM_20230731.0000.00_13.0_eea_87da11140a.tgz"
+				},
+				{
+					"miui": "V14.0.24.0.TMCEUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.24.0.TMCEUXM_b42d0e6c2d_13.0.zip",
+					"fastboot": "fuxi_eea_global_images_V14.0.24.0.TMCEUXM_20230615.0000.00_13.0_eea_9df09be1a9.tgz"
+				},
+				{
+					"miui": "V14.0.22.0.TMCEUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.22.0.TMCEUXM_278c59e2f9_13.0.zip",
+					"fastboot": "fuxi_eea_global_images_V14.0.22.0.TMCEUXM_20230414.0000.00_13.0_eea_d8cdd6e4ff.tgz"
+				},
+				{
+					"miui": "V14.0.19.0.TMCEUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.19.0.TMCEUXM_9b775e827c_13.0.zip",
+					"fastboot": "fuxi_eea_global_images_V14.0.19.0.TMCEUXM_20230309.0000.00_13.0_eea_21358da4a2.tgz"
+				},
+				{
+					"miui": "V14.0.15.0.TMCEUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.15.0.TMCEUXM_eb1b5a7489_13.0.zip",
+					"fastboot": "fuxi_eea_global_images_V14.0.15.0.TMCEUXM_20230203.0000.00_13.0_eea_af5681bb33.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMCEUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIEEAGlobal_V14.0.6.0.TMCEUXM_1af1430ee4_13.0.zip",
+					"fastboot": "fuxi_eea_global_images_V14.0.6.0.TMCEUXM_20221224.0000.00_13.0_eea_2361c60192.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TMCRUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIRUGlobal_V14.0.11.0.TMCRUXM_704f503fed_13.0.zip",
+					"fastboot": "fuxi_ru_global_images_V14.0.11.0.TMCRUXM_20230831.0000.00_13.0_ru_29c6d9fe83.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMCRUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIRUGlobal_V14.0.6.0.TMCRUXM_9833cc6a23_13.0.zip",
+					"fastboot": "fuxi_ru_global_images_V14.0.6.0.TMCRUXM_20230508.0000.00_13.0_ru_272683d291.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMCRUXM",
+					"android": "13.0",
+					"recovery": "miui_FUXIRUGlobal_V14.0.5.0.TMCRUXM_48d8f2649c_13.0.zip",
+					"fastboot": "fuxi_ru_global_images_V14.0.5.0.TMCRUXM_20230203.0000.00_13.0_ru_5755249b3e.tgz"
+				}
+			]
+		},
+		{
+			"code": "fuxi_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TMCTRXM",
+					"android": "13.0",
+					"recovery": "miui_FUXITRGlobal_V14.0.3.0.TMCTRXM_fed6212609_13.0.zip",
+					"fastboot": "fuxi_tr_global_images_V14.0.3.0.TMCTRXM_20230208.0000.00_13.0_tr_1f37ffbcff.tgz"
+				}
+			]
+		}
+	]
 }

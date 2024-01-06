@@ -1,1004 +1,999 @@
 {
-  "codename": "xaga",
-  "cnname": "Redmi Note 11T Pro/Pro+/Redmi K50i/POCO X4 GT",
-  "enname": "Redmi Note 11T Pro/Pro+/Redmi K50i/POCO X4 GT",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "37338214",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "437"
-  ],
-  "cbid": [
-    "435",
-    "436"
-  ],
-  "gdid": "56423",
-  "pcid": "69230",
-  "branches": [
-    {
-      "code":"xaga",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.9.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.9.18.DEV_22826f5920_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.9.11.DEV_f703de7ca3_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.4.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.9.4.DEV_de00940cbe_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.8.28.DEV_5ce31689d1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.8.21.DEV_4abfd33395_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.14.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.8.14.DEV_ffcd0f0971_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.8.7.DEV_1383f3c8c7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.7.31.DEV_e6c821f410_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.7.24.DEV_0f018b10e1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.7.17.DEV_9fe0cf97b4_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.7.10.DEV_d0cb9df7fe_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.7.3.DEV_4755f33ba3_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.6.26.DEV_7cb1ed1900_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.6.8.DEV_48aaafa32e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.6.5.DEV_64995952df_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.5.29.DEV_ecbccf2500_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.5.22.DEV_da39849cf0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.5.15.DEV_79033ee593_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.5.8.DEV_62445ecf2c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.4.25.DEV_a3ecdedfb4_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.4.17.DEV_391cb552e7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.4.10.DEV_4d6f7d8fc1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.4.2.DEV_ec9866988b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.3.27.DEV_0f957e1909_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.20.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.3.20.DEV_bf037944b1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.3.13.DEV_7d0da54c1e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.3.7.DEV_fed35c042f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.2.27.DEV_9b73ba2477_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.2.21.DEV_cc9d872544_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.2.13.DEV_462a22c479_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.2.6.DEV_bc76dedc3f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.1.30.DEV_de0bd5d907_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.1.9.DEV_a0ed575c3e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.23.1.3.DEV_1c118910f9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.22.12.26.DEV_ecfded26d8_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.22.12.19.DEV_5c8ffa2855_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.22.12.8.DEV_7a3170e760_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.22.12.5.DEV_745241ea26_13.0.zip",
-          "fastboot": "xaga_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_725d6230f6.tgz"
-        },
-        {
-          "miui": "V13.1.22.10.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V13.1.22.10.25.DEV_1f9012e1e6_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V13.1.22.10.19.DEV_33321da305_13.0.zip",
-          "fastboot": "xaga_images_V13.1.22.10.19.DEV_20221019.0000.00_13.0_cn_chinatelecom_a939da58a5.tgz"
-        },
-        {
-          "miui": "V13.1.22.10.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V13.1.22.10.11.DEV_65a32558ee_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.19.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.1.22.9.19.DEV_12e69a235c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.12.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.1.22.9.12.DEV_3715ab60f3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.1.22.9.5.DEV_d323388946_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.1.22.8.29.DEV_10b97e097c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.1.22.8.22.DEV_be851b3e8e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.1.22.8.16.DEV_78e4481fb6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.59.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.59.DEV_3440c74ee9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.56.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.56.DEV_fa34390c12_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.55.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.55.DEV_a7b139c65a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.51.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.51.DEV_5b46fa26df_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.46.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.46.DEV_8aeddc7874_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.45.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.45.DEV_318b276bb2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.43.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.43.DEV_e896fb3a23_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.40.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.40.DEV_24c12f096e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.39.DEV",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.1.39.DEV_bc1b17839d_12.0.zip",
-          "fastboot": "xaga_images_V13.0.4.1.39.DEV_20220614.0000.00_12.0_cn_5d82e91e1b.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.7.0.TLOCNXM_cbde1beb4e_13.0.zip",
-          "fastboot": "xaga_images_V14.0.7.0.TLOCNXM_20231205.0000.00_13.0_cn_96ecd2300a.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.6.0.TLOCNXM_3a10fb7068_13.0.zip",
-          "fastboot": "xaga_images_V14.0.6.0.TLOCNXM_20230904.0000.00_13.0_cn_e2a532f260.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.5.0.TLOCNXM_cc8ef566d0_13.0.zip",
-          "fastboot": "xaga_images_V14.0.5.0.TLOCNXM_20230613.0000.00_13.0_cn_9c91ab072d.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.3.0.TLOCNXM_3a52786fc2_13.0.zip",
-          "fastboot": "xaga_images_V14.0.3.0.TLOCNXM_20230209.0000.00_13.0_cn_67736fc245.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.2.0.TLOCNXM_c79ba02c33_13.0.zip",
-          "fastboot": "xaga_images_V14.0.2.0.TLOCNXM_20230101.0000.00_13.0_cn_4935a50eac.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.1.0.TLOCNXM_4653c67b61_13.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"xaga",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.2.3.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V13.2.3.0.TLOCNXM_8d01537ae1_13.0.zip",
-          "fastboot": "xaga_images_V13.2.3.0.TLOCNXM_20221124.0000.00_13.0_cn_a53f0a67ea.tgz"
-        },
-        {
-          "miui": "V13.0.14.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.14.0.SLOCNXM_559aa81f92_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.13.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.13.0.SLOCNXM_a7f2605cc3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.11.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.11.0.SLOCNXM_da7d1e2cfb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.10.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.10.0.SLOCNXM_58d9bdf32e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.9.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.9.0.SLOCNXM_8b3cec057f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.7.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.7.0.SLOCNXM_23aa2247ed_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.5.0.SLOCNXM_17f68470fe_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.0.SLOCNXM_ab373c2cb1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.2.0.SLOCNXM_0b4a7fc3cc_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.1.0.SLOCNXM_f006d771b4_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"xaga",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.7.0.TLOCNXM_cbde1beb4e_13.0.zip",
-          "fastboot": "xaga_images_V14.0.7.0.TLOCNXM_20231205.0000.00_13.0_cn_chinatelecom_3f18ecbe2c.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.6.0.TLOCNXM_3a10fb7068_13.0.zip",
-          "fastboot": "xaga_images_V14.0.6.0.TLOCNXM_20230904.0000.00_13.0_cn_chinatelecom_8a28cabd6e.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.5.0.TLOCNXM_cc8ef566d0_13.0.zip",
-          "fastboot": "xaga_images_V14.0.5.0.TLOCNXM_20230613.0000.00_13.0_cn_chinatelecom_f055d8b425.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.3.0.TLOCNXM_3a52786fc2_13.0.zip",
-          "fastboot": "xaga_images_V14.0.3.0.TLOCNXM_20230209.0000.00_13.0_cn_chinatelecom_0c38ac7bf8.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V14.0.2.0.TLOCNXM_c79ba02c33_13.0.zip",
-          "fastboot": "xaga_images_V14.0.2.0.TLOCNXM_20230101.0000.00_13.0_cn_chinatelecom_4fb2c16822.tgz"
-        },
-        {
-          "miui": "V13.2.3.0.TLOCNXM",
-          "android": "13.0",
-          "recovery": "miui_XAGA_V13.2.3.0.TLOCNXM_8d01537ae1_13.0.zip",
-          "fastboot": "xaga_images_V13.2.3.0.TLOCNXM_20221124.0000.00_13.0_cn_chinatelecom_fd8b2cb3eb.tgz"
-        },
-        {
-          "miui": "V13.0.14.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.14.0.SLOCNXM_559aa81f92_12.0.zip",
-          "fastboot": "xaga_images_V13.0.14.0.SLOCNXM_20221009.0000.00_12.0_cn_chinatelecom_60dedea0e2.tgz"
-        },
-        {
-          "miui": "V13.0.13.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.13.0.SLOCNXM_a7f2605cc3_12.0.zip",
-          "fastboot": "xaga_images_V13.0.13.0.SLOCNXM_20220908.0000.00_12.0_cn_chinatelecom_540d00ca97.tgz"
-        },
-        {
-          "miui": "V13.0.11.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.11.0.SLOCNXM_da7d1e2cfb_12.0.zip",
-          "fastboot": "xaga_images_V13.0.11.0.SLOCNXM_20220716.0000.00_12.0_cn_chinatelecom_fab8f0d52f.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.10.0.SLOCNXM_58d9bdf32e_12.0.zip",
-          "fastboot": "xaga_images_V13.0.10.0.SLOCNXM_20220624.0000.00_12.0_cn_chinatelecom_5f459116e4.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLOCNXM",
-          "android": "12.0",
-          "recovery": "miui_XAGA_V13.0.4.0.SLOCNXM_ab373c2cb1_12.0.zip",
-          "fastboot": "xaga_images_V13.0.4.0.SLOCNXM_20220527.0000.00_12.0_cn_chinatelecom_f841a8adb2.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V13.0.3.0.SLOCNDM",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "xaga_demo_images_V13.0.3.0.SLOCNDM_20220529.0000.00_12.0_cn_chinatelecom_b142bae975.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V13.0.23.9.7.EP.STDEE.L16",
-          "android": "12.0",
-          "recovery": "miui_XAGAEPSTDEE_V13.0.23.9.7.EP.STDEE.L16_4b969ff686_12.0.zip",
-          "fastboot": "xaga_ep_stdee_images_V13.0.23.9.7.EP.STDEE.L16_20230907.0000.00_12.0_cn_eecf7b1f12.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TLOTWXM",
-          "android": "13.0",
-          "recovery": "miui_XAGATWGlobal_V14.0.5.0.TLOTWXM_bbf9623c1e_13.0.zip",
-          "fastboot": "xaga_tw_global_images_V14.0.5.0.TLOTWXM_20231024.0000.00_13.0_tw_708a657f50.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLOTWXM",
-          "android": "13.0",
-          "recovery": "miui_XAGATWGlobal_V14.0.3.0.TLOTWXM_f049c6e6ac_13.0.zip",
-          "fastboot": "xaga_tw_global_images_V14.0.3.0.TLOTWXM_20230606.0000.00_13.0_tw_69ece3e2e9.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLOTWXM",
-          "android": "13.0",
-          "recovery": "miui_XAGATWGlobal_V14.0.1.0.TLOTWXM_7176ea37d8_13.0.zip",
-          "fastboot": "xaga_tw_global_images_V14.0.1.0.TLOTWXM_20230217.0000.00_13.0_tw_1e5ed02724.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLOTWXM",
-          "android": "12.0",
-          "recovery": "miui_XAGATWGlobal_V13.0.5.0.SLOTWXM_d61107521f_12.0.zip",
-          "fastboot": "xaga_tw_global_images_V13.0.5.0.SLOTWXM_20220920.0000.00_12.0_global_11690007a2.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLOTWXM",
-          "android": "12.0",
-          "recovery": "miui_XAGATWGlobal_V13.0.3.0.SLOTWXM_966f64d83e_12.0.zip",
-          "fastboot": "xaga_tw_global_images_V13.0.3.0.SLOTWXM_20220822.0000.00_12.0_global_ea04e085dc.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLOTWXM",
-          "android": "12.0",
-          "recovery": "miui_XAGATWGlobal_V13.0.2.0.SLOTWXM_fb39e2f509_12.0.zip",
-          "fastboot": "xaga_tw_global_images_V13.0.2.0.SLOTWXM_20220703.0000.00_12.0_global_b875cb46bd.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SLOTWXM",
-          "android": "12.0",
-          "recovery": "miui_XAGATWGlobal_V13.0.1.0.SLOTWXM_d0401b28fa_12.0.zip",
-          "fastboot": "xaga_tw_global_images_V13.0.1.0.SLOTWXM_20220617.0000.00_12.0_global_ad1ff3a019.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TLOMIXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAGlobal_V14.0.7.0.TLOMIXM_f860dc3e84_13.0.zip",
-          "fastboot": "xaga_global_images_V14.0.7.0.TLOMIXM_20231129.0000.00_13.0_global_834aea1f6c.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TLOMIXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAGlobal_V14.0.6.0.TLOMIXM_75134d8178_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.5.0.TLOMIXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAGlobal_V14.0.5.0.TLOMIXM_6b421fe451_13.0.zip",
-          "fastboot": "xaga_global_images_V14.0.5.0.TLOMIXM_20230710.0000.00_13.0_global_f7c9673f16.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLOMIXM",
-          "android": "13.0",
-          "recovery": "",
-          "fastboot": "xaga_global_images_V14.0.4.0.TLOMIXM_20230420.0000.00_13.0_global_5c3138b752.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLOMIXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAGlobal_V14.0.1.0.TLOMIXM_caa4d0d388_13.0.zip",
-          "fastboot": "xaga_global_images_V14.0.1.0.TLOMIXM_20230112.0000.00_13.0_global_0c89898b2e.tgz"
-        },
-        {
-          "miui": "V13.2.5.0.TLOMIXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAGlobal_V13.2.5.0.TLOMIXM_a6236b8bca_13.0.zip",
-          "fastboot": "xaga_global_images_V13.2.5.0.TLOMIXM_20221219.0000.00_13.0_global_6f16de431a.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLOMIXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAGlobal_V13.0.5.0.SLOMIXM_add9754910_12.0.zip",
-          "fastboot": "xaga_global_images_V13.0.5.0.SLOMIXM_20220926.0000.00_12.0_global_feef0d4c9d.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLOMIXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAGlobal_V13.0.3.0.SLOMIXM_0dee88d6ec_12.0.zip",
-          "fastboot": "xaga_global_images_V13.0.3.0.SLOMIXM_20220818.0000.00_12.0_global_756c0356fd.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLOMIXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAGlobal_V13.0.2.0.SLOMIXM_6e4def4ce5_12.0.zip",
-          "fastboot": "xaga_global_images_V13.0.2.0.SLOMIXM_20220703.0000.00_12.0_global_7c0a666f52.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SLOMIXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAGlobal_V13.0.1.0.SLOMIXM_e9de5b3f19_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"xaga_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TLOEUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAEEAGlobal_V14.0.6.0.TLOEUXM_b6d65c38fe_13.0.zip",
-          "fastboot": "xaga_eea_global_images_V14.0.6.0.TLOEUXM_20231129.0000.00_13.0_eea_39c8339f71.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLOEUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAEEAGlobal_V14.0.5.0.TLOEUXM_32d064d84d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.4.0.TLOEUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAEEAGlobal_V14.0.4.0.TLOEUXM_547ad562e7_13.0.zip",
-          "fastboot": "xaga_eea_global_images_V14.0.4.0.TLOEUXM_20230714.0000.00_13.0_eea_978444d5cb.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLOEUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAEEAGlobal_V14.0.3.0.TLOEUXM_d48cbe29a6_13.0.zip",
-          "fastboot": "xaga_eea_global_images_V14.0.3.0.TLOEUXM_20230505.0000.00_13.0_eea_8da03fd236.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLOEUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAEEAGlobal_V14.0.1.0.TLOEUXM_4f049b35ad_13.0.zip",
-          "fastboot": "xaga_eea_global_images_V14.0.1.0.TLOEUXM_20230203.0000.00_13.0_eea_9ca2399c81.tgz"
-        },
-        {
-          "miui": "V13.2.2.0.TLOEUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAEEAGlobal_V13.2.2.0.TLOEUXM_65555fcd14_13.0.zip",
-          "fastboot": "xaga_eea_global_images_V13.2.2.0.TLOEUXM_20221223.0000.00_13.0_eea_0332e4ab0c.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SLOEUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAEEAGlobal_V13.0.9.0.SLOEUXM_5af3c3ce9d_12.0.zip",
-          "fastboot": "xaga_eea_global_images_V13.0.9.0.SLOEUXM_20221009.0000.00_12.0_eea_1d3be28b9d.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLOEUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAEEAGlobal_V13.0.8.0.SLOEUXM_f44f5b93b2_12.0.zip",
-          "fastboot": "xaga_eea_global_images_V13.0.8.0.SLOEUXM_20220920.0000.00_12.0_eea_850a619424.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SLOEUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAEEAGlobal_V13.0.6.0.SLOEUXM_ac6c554947_12.0.zip",
-          "fastboot": "xaga_eea_global_images_V13.0.6.0.SLOEUXM_20220822.0000.00_12.0_eea_33623b7fc9.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLOEUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAEEAGlobal_V13.0.5.0.SLOEUXM_73e42266ec_12.0.zip",
-          "fastboot": "xaga_eea_global_images_V13.0.5.0.SLOEUXM_20220712.0000.00_12.0_eea_7e94cd9e3a.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLOEUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAEEAGlobal_V13.0.3.0.SLOEUXM_a3b9ebade0_12.0.zip",
-          "fastboot": "xaga_eea_global_images_V13.0.3.0.SLOEUXM_20220616.0000.00_12.0_eea_79e74164b7.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SLOEUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAEEAGlobal_V13.0.1.0.SLOEUXM_bd172827c6_12.0.zip",
-          "fastboot": "xaga_eea_global_images_V13.0.1.0.SLOEUXM_20220531.0000.00_12.0_eea_18cc934d65.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TLORUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGARUGlobal_V14.0.4.0.TLORUXM_5ffef1c540_13.0.zip",
-          "fastboot": "xaga_ru_global_images_V14.0.4.0.TLORUXM_20231122.0000.00_13.0_ru_30bdb24edc.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLORUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGARUGlobal_V14.0.3.0.TLORUXM_1d5c99630e_13.0.zip",
-          "fastboot": "xaga_ru_global_images_V14.0.3.0.TLORUXM_20230815.0000.00_13.0_ru_6e6f2b4a99.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLORUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGARUGlobal_V14.0.2.0.TLORUXM_58dff710a7_13.0.zip",
-          "fastboot": "xaga_ru_global_images_V14.0.2.0.TLORUXM_20230528.0000.00_13.0_ru_7429abc161.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLORUXM",
-          "android": "13.0",
-          "recovery": "miui_XAGARUGlobal_V14.0.1.0.TLORUXM_b2118e56c0_13.0.zip",
-          "fastboot": "xaga_ru_global_images_V14.0.1.0.TLORUXM_20230224.0000.00_13.0_ru_6a95bae0a1.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SLORUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGARUGlobal_V13.0.6.0.SLORUXM_3ed073cacb_12.0.zip",
-          "fastboot": "xaga_ru_global_images_V13.0.6.0.SLORUXM_20220920.0000.00_12.0_global_cedd196bc9.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLORUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGARUGlobal_V13.0.4.0.SLORUXM_a7e5a0b98e_12.0.zip",
-          "fastboot": "xaga_ru_global_images_V13.0.4.0.SLORUXM_20220823.0000.00_12.0_global_77303c2c1d.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLORUXM",
-          "android": "12.0",
-          "recovery": "miui_XAGARUGlobal_V13.0.3.0.SLORUXM_404eaf9f48_12.0.zip",
-          "fastboot": "xaga_ru_global_images_V13.0.3.0.SLORUXM_20220703.0000.00_12.0_global_83b6161b47.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TLOINXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAINGlobal_V14.0.6.0.TLOINXM_3b41cc4ccf_13.0.zip",
-          "fastboot": "xaga_in_global_images_V14.0.6.0.TLOINXM_20231123.0000.00_13.0_in_398c8865c2.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLOINXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAINGlobal_V14.0.4.0.TLOINXM_421814eb1e_13.0.zip",
-          "fastboot": "xaga_in_global_images_V14.0.4.0.TLOINXM_20230904.0000.00_13.0_in_e57fc01310.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLOINXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAINGlobal_V14.0.3.0.TLOINXM_14885bc6ad_13.0.zip",
-          "fastboot": "xaga_in_global_images_V14.0.3.0.TLOINXM_20230612.0000.00_13.0_in_204a95f7ed.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLOINXM",
-          "android": "13.0",
-          "recovery": "miui_XAGAINGlobal_V14.0.2.0.TLOINXM_6a469f9ae6_13.0.zip",
-          "fastboot": "xaga_in_global_images_V14.0.2.0.TLOINXM_20230316.0000.00_13.0_in_6215e51ae1.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLOINXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAINGlobal_V13.0.8.0.SLOINXM_e04be60aa1_12.0.zip",
-          "fastboot": "xaga_in_global_images_V13.0.8.0.SLOINXM_20221215.0000.00_12.0_in_4c07998bdb.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SLOINXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAINGlobal_V13.0.7.0.SLOINXM_155a0699ab_12.0.zip",
-          "fastboot": "xaga_in_global_images_V13.0.7.0.SLOINXM_20221011.0000.00_12.0_in_f961e49f9b.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SLOINXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAINGlobal_V13.0.6.0.SLOINXM_9dd2e4011d_12.0.zip",
-          "fastboot": "xaga_in_global_images_V13.0.6.0.SLOINXM_20220927.0000.00_12.0_in_4c2c7d1333.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLOINXM",
-          "android": "12.0",
-          "recovery": "miui_XAGAINGlobal_V13.0.3.0.SLOINXM_3879ca58c9_12.0.zip",
-          "fastboot": "xaga_in_global_images_V13.0.3.0.SLOINXM_20220630.0000.00_12.0_in_f83329b748.tgz"
-        }
-      ]
-    },
-    {
-      "code":"xaga_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TLOTRXM",
-          "android": "13.0",
-          "recovery": "miui_XAGATRGlobal_V14.0.4.0.TLOTRXM_643419eedd_13.0.zip",
-          "fastboot": "xaga_tr_global_images_V14.0.4.0.TLOTRXM_20230915.0000.00_13.0_tr_2064062343.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLOTRXM",
-          "android": "13.0",
-          "recovery": "miui_XAGATRGlobal_V14.0.3.0.TLOTRXM_c1544ba2e4_13.0.zip",
-          "fastboot": "xaga_tr_global_images_V14.0.3.0.TLOTRXM_20230606.0000.00_13.0_tr_e159f369da.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLOTRXM",
-          "android": "13.0",
-          "recovery": "miui_XAGATRGlobal_V14.0.1.0.TLOTRXM_53bd0f1e10_13.0.zip",
-          "fastboot": "xaga_tr_global_images_V14.0.1.0.TLOTRXM_20230217.0000.00_13.0_tr_d9b90b2193.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLOTRXM",
-          "android": "12.0",
-          "recovery": "miui_XAGATRGlobal_V13.0.5.0.SLOTRXM_fbce0b8645_12.0.zip",
-          "fastboot": "xaga_tr_global_images_V13.0.5.0.SLOTRXM_20220914.0000.00_12.0_global_b45c48e221.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLOTRXM",
-          "android": "12.0",
-          "recovery": "miui_XAGATRGlobal_V13.0.4.0.SLOTRXM_69206c0b1e_12.0.zip",
-          "fastboot": "xaga_tr_global_images_V13.0.4.0.SLOTRXM_20220817.0000.00_12.0_global_0067294e01.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "xaga",
+	"cnname": "Redmi Note 11T Pro/Pro+/Redmi K50i/POCO X4 GT",
+	"enname": "Redmi Note 11T Pro/Pro+/Redmi K50i/POCO X4 GT",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "37338214",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["437"],
+	"cbid": ["435", "436"],
+	"gdid": "56423",
+	"pcid": "69230",
+	"branches": [
+		{
+			"code": "xaga",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.9.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.9.18.DEV_22826f5920_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.9.11.DEV_f703de7ca3_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.4.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.9.4.DEV_de00940cbe_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.8.28.DEV_5ce31689d1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.8.21.DEV_4abfd33395_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.14.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.8.14.DEV_ffcd0f0971_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.8.7.DEV_1383f3c8c7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.7.31.DEV_e6c821f410_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.7.24.DEV_0f018b10e1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.7.17.DEV_9fe0cf97b4_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.7.10.DEV_d0cb9df7fe_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.7.3.DEV_4755f33ba3_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.6.26.DEV_7cb1ed1900_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.6.8.DEV_48aaafa32e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.6.5.DEV_64995952df_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.5.29.DEV_ecbccf2500_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.5.22.DEV_da39849cf0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.5.15.DEV_79033ee593_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.5.8.DEV_62445ecf2c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.4.25.DEV_a3ecdedfb4_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.4.17.DEV_391cb552e7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.4.10.DEV_4d6f7d8fc1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.4.2.DEV_ec9866988b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.3.27.DEV_0f957e1909_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.20.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.3.20.DEV_bf037944b1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.3.13.DEV_7d0da54c1e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.3.7.DEV_fed35c042f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.2.27.DEV_9b73ba2477_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.2.21.DEV_cc9d872544_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.2.13.DEV_462a22c479_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.2.6.DEV_bc76dedc3f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.1.30.DEV_de0bd5d907_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.1.9.DEV_a0ed575c3e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.23.1.3.DEV_1c118910f9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.22.12.26.DEV_ecfded26d8_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.22.12.19.DEV_5c8ffa2855_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.22.12.8.DEV_7a3170e760_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.22.12.5.DEV_745241ea26_13.0.zip",
+					"fastboot": "xaga_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_725d6230f6.tgz"
+				},
+				{
+					"miui": "V13.1.22.10.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V13.1.22.10.25.DEV_1f9012e1e6_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V13.1.22.10.19.DEV_33321da305_13.0.zip",
+					"fastboot": "xaga_images_V13.1.22.10.19.DEV_20221019.0000.00_13.0_cn_chinatelecom_a939da58a5.tgz"
+				},
+				{
+					"miui": "V13.1.22.10.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V13.1.22.10.11.DEV_65a32558ee_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.19.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.1.22.9.19.DEV_12e69a235c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.12.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.1.22.9.12.DEV_3715ab60f3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.1.22.9.5.DEV_d323388946_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.1.22.8.29.DEV_10b97e097c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.1.22.8.22.DEV_be851b3e8e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.1.22.8.16.DEV_78e4481fb6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.59.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.59.DEV_3440c74ee9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.56.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.56.DEV_fa34390c12_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.55.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.55.DEV_a7b139c65a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.51.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.51.DEV_5b46fa26df_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.46.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.46.DEV_8aeddc7874_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.45.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.45.DEV_318b276bb2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.43.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.43.DEV_e896fb3a23_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.40.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.40.DEV_24c12f096e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.39.DEV",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.1.39.DEV_bc1b17839d_12.0.zip",
+					"fastboot": "xaga_images_V13.0.4.1.39.DEV_20220614.0000.00_12.0_cn_5d82e91e1b.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.7.0.TLOCNXM_cbde1beb4e_13.0.zip",
+					"fastboot": "xaga_images_V14.0.7.0.TLOCNXM_20231205.0000.00_13.0_cn_96ecd2300a.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.6.0.TLOCNXM_3a10fb7068_13.0.zip",
+					"fastboot": "xaga_images_V14.0.6.0.TLOCNXM_20230904.0000.00_13.0_cn_e2a532f260.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.5.0.TLOCNXM_cc8ef566d0_13.0.zip",
+					"fastboot": "xaga_images_V14.0.5.0.TLOCNXM_20230613.0000.00_13.0_cn_9c91ab072d.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.3.0.TLOCNXM_3a52786fc2_13.0.zip",
+					"fastboot": "xaga_images_V14.0.3.0.TLOCNXM_20230209.0000.00_13.0_cn_67736fc245.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.2.0.TLOCNXM_c79ba02c33_13.0.zip",
+					"fastboot": "xaga_images_V14.0.2.0.TLOCNXM_20230101.0000.00_13.0_cn_4935a50eac.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.1.0.TLOCNXM_4653c67b61_13.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "xaga",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.2.3.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V13.2.3.0.TLOCNXM_8d01537ae1_13.0.zip",
+					"fastboot": "xaga_images_V13.2.3.0.TLOCNXM_20221124.0000.00_13.0_cn_a53f0a67ea.tgz"
+				},
+				{
+					"miui": "V13.0.14.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.14.0.SLOCNXM_559aa81f92_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.13.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.13.0.SLOCNXM_a7f2605cc3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.11.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.11.0.SLOCNXM_da7d1e2cfb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.10.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.10.0.SLOCNXM_58d9bdf32e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.9.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.9.0.SLOCNXM_8b3cec057f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.7.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.7.0.SLOCNXM_23aa2247ed_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.5.0.SLOCNXM_17f68470fe_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.0.SLOCNXM_ab373c2cb1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.2.0.SLOCNXM_0b4a7fc3cc_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.1.0.SLOCNXM_f006d771b4_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "xaga",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.7.0.TLOCNXM_cbde1beb4e_13.0.zip",
+					"fastboot": "xaga_images_V14.0.7.0.TLOCNXM_20231205.0000.00_13.0_cn_chinatelecom_3f18ecbe2c.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.6.0.TLOCNXM_3a10fb7068_13.0.zip",
+					"fastboot": "xaga_images_V14.0.6.0.TLOCNXM_20230904.0000.00_13.0_cn_chinatelecom_8a28cabd6e.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.5.0.TLOCNXM_cc8ef566d0_13.0.zip",
+					"fastboot": "xaga_images_V14.0.5.0.TLOCNXM_20230613.0000.00_13.0_cn_chinatelecom_f055d8b425.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.3.0.TLOCNXM_3a52786fc2_13.0.zip",
+					"fastboot": "xaga_images_V14.0.3.0.TLOCNXM_20230209.0000.00_13.0_cn_chinatelecom_0c38ac7bf8.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V14.0.2.0.TLOCNXM_c79ba02c33_13.0.zip",
+					"fastboot": "xaga_images_V14.0.2.0.TLOCNXM_20230101.0000.00_13.0_cn_chinatelecom_4fb2c16822.tgz"
+				},
+				{
+					"miui": "V13.2.3.0.TLOCNXM",
+					"android": "13.0",
+					"recovery": "miui_XAGA_V13.2.3.0.TLOCNXM_8d01537ae1_13.0.zip",
+					"fastboot": "xaga_images_V13.2.3.0.TLOCNXM_20221124.0000.00_13.0_cn_chinatelecom_fd8b2cb3eb.tgz"
+				},
+				{
+					"miui": "V13.0.14.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.14.0.SLOCNXM_559aa81f92_12.0.zip",
+					"fastboot": "xaga_images_V13.0.14.0.SLOCNXM_20221009.0000.00_12.0_cn_chinatelecom_60dedea0e2.tgz"
+				},
+				{
+					"miui": "V13.0.13.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.13.0.SLOCNXM_a7f2605cc3_12.0.zip",
+					"fastboot": "xaga_images_V13.0.13.0.SLOCNXM_20220908.0000.00_12.0_cn_chinatelecom_540d00ca97.tgz"
+				},
+				{
+					"miui": "V13.0.11.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.11.0.SLOCNXM_da7d1e2cfb_12.0.zip",
+					"fastboot": "xaga_images_V13.0.11.0.SLOCNXM_20220716.0000.00_12.0_cn_chinatelecom_fab8f0d52f.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.10.0.SLOCNXM_58d9bdf32e_12.0.zip",
+					"fastboot": "xaga_images_V13.0.10.0.SLOCNXM_20220624.0000.00_12.0_cn_chinatelecom_5f459116e4.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLOCNXM",
+					"android": "12.0",
+					"recovery": "miui_XAGA_V13.0.4.0.SLOCNXM_ab373c2cb1_12.0.zip",
+					"fastboot": "xaga_images_V13.0.4.0.SLOCNXM_20220527.0000.00_12.0_cn_chinatelecom_f841a8adb2.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V13.0.3.0.SLOCNDM",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "xaga_demo_images_V13.0.3.0.SLOCNDM_20220529.0000.00_12.0_cn_chinatelecom_b142bae975.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V13.0.23.9.7.EP.STDEE.L16",
+					"android": "12.0",
+					"recovery": "miui_XAGAEPSTDEE_V13.0.23.9.7.EP.STDEE.L16_4b969ff686_12.0.zip",
+					"fastboot": "xaga_ep_stdee_images_V13.0.23.9.7.EP.STDEE.L16_20230907.0000.00_12.0_cn_eecf7b1f12.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TLOTWXM",
+					"android": "13.0",
+					"recovery": "miui_XAGATWGlobal_V14.0.5.0.TLOTWXM_bbf9623c1e_13.0.zip",
+					"fastboot": "xaga_tw_global_images_V14.0.5.0.TLOTWXM_20231024.0000.00_13.0_tw_708a657f50.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLOTWXM",
+					"android": "13.0",
+					"recovery": "miui_XAGATWGlobal_V14.0.3.0.TLOTWXM_f049c6e6ac_13.0.zip",
+					"fastboot": "xaga_tw_global_images_V14.0.3.0.TLOTWXM_20230606.0000.00_13.0_tw_69ece3e2e9.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLOTWXM",
+					"android": "13.0",
+					"recovery": "miui_XAGATWGlobal_V14.0.1.0.TLOTWXM_7176ea37d8_13.0.zip",
+					"fastboot": "xaga_tw_global_images_V14.0.1.0.TLOTWXM_20230217.0000.00_13.0_tw_1e5ed02724.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLOTWXM",
+					"android": "12.0",
+					"recovery": "miui_XAGATWGlobal_V13.0.5.0.SLOTWXM_d61107521f_12.0.zip",
+					"fastboot": "xaga_tw_global_images_V13.0.5.0.SLOTWXM_20220920.0000.00_12.0_global_11690007a2.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLOTWXM",
+					"android": "12.0",
+					"recovery": "miui_XAGATWGlobal_V13.0.3.0.SLOTWXM_966f64d83e_12.0.zip",
+					"fastboot": "xaga_tw_global_images_V13.0.3.0.SLOTWXM_20220822.0000.00_12.0_global_ea04e085dc.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLOTWXM",
+					"android": "12.0",
+					"recovery": "miui_XAGATWGlobal_V13.0.2.0.SLOTWXM_fb39e2f509_12.0.zip",
+					"fastboot": "xaga_tw_global_images_V13.0.2.0.SLOTWXM_20220703.0000.00_12.0_global_b875cb46bd.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SLOTWXM",
+					"android": "12.0",
+					"recovery": "miui_XAGATWGlobal_V13.0.1.0.SLOTWXM_d0401b28fa_12.0.zip",
+					"fastboot": "xaga_tw_global_images_V13.0.1.0.SLOTWXM_20220617.0000.00_12.0_global_ad1ff3a019.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TLOMIXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAGlobal_V14.0.7.0.TLOMIXM_f860dc3e84_13.0.zip",
+					"fastboot": "xaga_global_images_V14.0.7.0.TLOMIXM_20231129.0000.00_13.0_global_834aea1f6c.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TLOMIXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAGlobal_V14.0.6.0.TLOMIXM_75134d8178_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.5.0.TLOMIXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAGlobal_V14.0.5.0.TLOMIXM_6b421fe451_13.0.zip",
+					"fastboot": "xaga_global_images_V14.0.5.0.TLOMIXM_20230710.0000.00_13.0_global_f7c9673f16.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLOMIXM",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "xaga_global_images_V14.0.4.0.TLOMIXM_20230420.0000.00_13.0_global_5c3138b752.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLOMIXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAGlobal_V14.0.1.0.TLOMIXM_caa4d0d388_13.0.zip",
+					"fastboot": "xaga_global_images_V14.0.1.0.TLOMIXM_20230112.0000.00_13.0_global_0c89898b2e.tgz"
+				},
+				{
+					"miui": "V13.2.5.0.TLOMIXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAGlobal_V13.2.5.0.TLOMIXM_a6236b8bca_13.0.zip",
+					"fastboot": "xaga_global_images_V13.2.5.0.TLOMIXM_20221219.0000.00_13.0_global_6f16de431a.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLOMIXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAGlobal_V13.0.5.0.SLOMIXM_add9754910_12.0.zip",
+					"fastboot": "xaga_global_images_V13.0.5.0.SLOMIXM_20220926.0000.00_12.0_global_feef0d4c9d.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLOMIXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAGlobal_V13.0.3.0.SLOMIXM_0dee88d6ec_12.0.zip",
+					"fastboot": "xaga_global_images_V13.0.3.0.SLOMIXM_20220818.0000.00_12.0_global_756c0356fd.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLOMIXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAGlobal_V13.0.2.0.SLOMIXM_6e4def4ce5_12.0.zip",
+					"fastboot": "xaga_global_images_V13.0.2.0.SLOMIXM_20220703.0000.00_12.0_global_7c0a666f52.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SLOMIXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAGlobal_V13.0.1.0.SLOMIXM_e9de5b3f19_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "xaga_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TLOEUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAEEAGlobal_V14.0.6.0.TLOEUXM_b6d65c38fe_13.0.zip",
+					"fastboot": "xaga_eea_global_images_V14.0.6.0.TLOEUXM_20231129.0000.00_13.0_eea_39c8339f71.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLOEUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAEEAGlobal_V14.0.5.0.TLOEUXM_32d064d84d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.4.0.TLOEUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAEEAGlobal_V14.0.4.0.TLOEUXM_547ad562e7_13.0.zip",
+					"fastboot": "xaga_eea_global_images_V14.0.4.0.TLOEUXM_20230714.0000.00_13.0_eea_978444d5cb.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLOEUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAEEAGlobal_V14.0.3.0.TLOEUXM_d48cbe29a6_13.0.zip",
+					"fastboot": "xaga_eea_global_images_V14.0.3.0.TLOEUXM_20230505.0000.00_13.0_eea_8da03fd236.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLOEUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAEEAGlobal_V14.0.1.0.TLOEUXM_4f049b35ad_13.0.zip",
+					"fastboot": "xaga_eea_global_images_V14.0.1.0.TLOEUXM_20230203.0000.00_13.0_eea_9ca2399c81.tgz"
+				},
+				{
+					"miui": "V13.2.2.0.TLOEUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAEEAGlobal_V13.2.2.0.TLOEUXM_65555fcd14_13.0.zip",
+					"fastboot": "xaga_eea_global_images_V13.2.2.0.TLOEUXM_20221223.0000.00_13.0_eea_0332e4ab0c.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SLOEUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAEEAGlobal_V13.0.9.0.SLOEUXM_5af3c3ce9d_12.0.zip",
+					"fastboot": "xaga_eea_global_images_V13.0.9.0.SLOEUXM_20221009.0000.00_12.0_eea_1d3be28b9d.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLOEUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAEEAGlobal_V13.0.8.0.SLOEUXM_f44f5b93b2_12.0.zip",
+					"fastboot": "xaga_eea_global_images_V13.0.8.0.SLOEUXM_20220920.0000.00_12.0_eea_850a619424.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SLOEUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAEEAGlobal_V13.0.6.0.SLOEUXM_ac6c554947_12.0.zip",
+					"fastboot": "xaga_eea_global_images_V13.0.6.0.SLOEUXM_20220822.0000.00_12.0_eea_33623b7fc9.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLOEUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAEEAGlobal_V13.0.5.0.SLOEUXM_73e42266ec_12.0.zip",
+					"fastboot": "xaga_eea_global_images_V13.0.5.0.SLOEUXM_20220712.0000.00_12.0_eea_7e94cd9e3a.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLOEUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAEEAGlobal_V13.0.3.0.SLOEUXM_a3b9ebade0_12.0.zip",
+					"fastboot": "xaga_eea_global_images_V13.0.3.0.SLOEUXM_20220616.0000.00_12.0_eea_79e74164b7.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SLOEUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAEEAGlobal_V13.0.1.0.SLOEUXM_bd172827c6_12.0.zip",
+					"fastboot": "xaga_eea_global_images_V13.0.1.0.SLOEUXM_20220531.0000.00_12.0_eea_18cc934d65.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TLORUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGARUGlobal_V14.0.4.0.TLORUXM_5ffef1c540_13.0.zip",
+					"fastboot": "xaga_ru_global_images_V14.0.4.0.TLORUXM_20231122.0000.00_13.0_ru_30bdb24edc.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLORUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGARUGlobal_V14.0.3.0.TLORUXM_1d5c99630e_13.0.zip",
+					"fastboot": "xaga_ru_global_images_V14.0.3.0.TLORUXM_20230815.0000.00_13.0_ru_6e6f2b4a99.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLORUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGARUGlobal_V14.0.2.0.TLORUXM_58dff710a7_13.0.zip",
+					"fastboot": "xaga_ru_global_images_V14.0.2.0.TLORUXM_20230528.0000.00_13.0_ru_7429abc161.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLORUXM",
+					"android": "13.0",
+					"recovery": "miui_XAGARUGlobal_V14.0.1.0.TLORUXM_b2118e56c0_13.0.zip",
+					"fastboot": "xaga_ru_global_images_V14.0.1.0.TLORUXM_20230224.0000.00_13.0_ru_6a95bae0a1.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SLORUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGARUGlobal_V13.0.6.0.SLORUXM_3ed073cacb_12.0.zip",
+					"fastboot": "xaga_ru_global_images_V13.0.6.0.SLORUXM_20220920.0000.00_12.0_global_cedd196bc9.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLORUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGARUGlobal_V13.0.4.0.SLORUXM_a7e5a0b98e_12.0.zip",
+					"fastboot": "xaga_ru_global_images_V13.0.4.0.SLORUXM_20220823.0000.00_12.0_global_77303c2c1d.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLORUXM",
+					"android": "12.0",
+					"recovery": "miui_XAGARUGlobal_V13.0.3.0.SLORUXM_404eaf9f48_12.0.zip",
+					"fastboot": "xaga_ru_global_images_V13.0.3.0.SLORUXM_20220703.0000.00_12.0_global_83b6161b47.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TLOINXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAINGlobal_V14.0.6.0.TLOINXM_3b41cc4ccf_13.0.zip",
+					"fastboot": "xaga_in_global_images_V14.0.6.0.TLOINXM_20231123.0000.00_13.0_in_398c8865c2.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLOINXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAINGlobal_V14.0.4.0.TLOINXM_421814eb1e_13.0.zip",
+					"fastboot": "xaga_in_global_images_V14.0.4.0.TLOINXM_20230904.0000.00_13.0_in_e57fc01310.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLOINXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAINGlobal_V14.0.3.0.TLOINXM_14885bc6ad_13.0.zip",
+					"fastboot": "xaga_in_global_images_V14.0.3.0.TLOINXM_20230612.0000.00_13.0_in_204a95f7ed.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLOINXM",
+					"android": "13.0",
+					"recovery": "miui_XAGAINGlobal_V14.0.2.0.TLOINXM_6a469f9ae6_13.0.zip",
+					"fastboot": "xaga_in_global_images_V14.0.2.0.TLOINXM_20230316.0000.00_13.0_in_6215e51ae1.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLOINXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAINGlobal_V13.0.8.0.SLOINXM_e04be60aa1_12.0.zip",
+					"fastboot": "xaga_in_global_images_V13.0.8.0.SLOINXM_20221215.0000.00_12.0_in_4c07998bdb.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SLOINXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAINGlobal_V13.0.7.0.SLOINXM_155a0699ab_12.0.zip",
+					"fastboot": "xaga_in_global_images_V13.0.7.0.SLOINXM_20221011.0000.00_12.0_in_f961e49f9b.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SLOINXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAINGlobal_V13.0.6.0.SLOINXM_9dd2e4011d_12.0.zip",
+					"fastboot": "xaga_in_global_images_V13.0.6.0.SLOINXM_20220927.0000.00_12.0_in_4c2c7d1333.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLOINXM",
+					"android": "12.0",
+					"recovery": "miui_XAGAINGlobal_V13.0.3.0.SLOINXM_3879ca58c9_12.0.zip",
+					"fastboot": "xaga_in_global_images_V13.0.3.0.SLOINXM_20220630.0000.00_12.0_in_f83329b748.tgz"
+				}
+			]
+		},
+		{
+			"code": "xaga_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TLOTRXM",
+					"android": "13.0",
+					"recovery": "miui_XAGATRGlobal_V14.0.4.0.TLOTRXM_643419eedd_13.0.zip",
+					"fastboot": "xaga_tr_global_images_V14.0.4.0.TLOTRXM_20230915.0000.00_13.0_tr_2064062343.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLOTRXM",
+					"android": "13.0",
+					"recovery": "miui_XAGATRGlobal_V14.0.3.0.TLOTRXM_c1544ba2e4_13.0.zip",
+					"fastboot": "xaga_tr_global_images_V14.0.3.0.TLOTRXM_20230606.0000.00_13.0_tr_e159f369da.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLOTRXM",
+					"android": "13.0",
+					"recovery": "miui_XAGATRGlobal_V14.0.1.0.TLOTRXM_53bd0f1e10_13.0.zip",
+					"fastboot": "xaga_tr_global_images_V14.0.1.0.TLOTRXM_20230217.0000.00_13.0_tr_d9b90b2193.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLOTRXM",
+					"android": "12.0",
+					"recovery": "miui_XAGATRGlobal_V13.0.5.0.SLOTRXM_fbce0b8645_12.0.zip",
+					"fastboot": "xaga_tr_global_images_V13.0.5.0.SLOTRXM_20220914.0000.00_12.0_global_b45c48e221.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLOTRXM",
+					"android": "12.0",
+					"recovery": "miui_XAGATRGlobal_V13.0.4.0.SLOTRXM_69206c0b1e_12.0.zip",
+					"fastboot": "xaga_tr_global_images_V13.0.4.0.SLOTRXM_20220817.0000.00_12.0_global_0067294e01.tgz"
+				}
+			]
+		}
+	]
 }

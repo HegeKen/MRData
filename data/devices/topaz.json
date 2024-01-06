@@ -1,263 +1,263 @@
 {
-  "codename": "topaz",
-  "cnname": "Redmi Note 12 4G NFC 国际",
-  "enname": "Redmi Note 12 4G NFC",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"0",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "583743",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"topaz_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TMGMIXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZGlobal_V14.0.8.0.TMGMIXM_64c17677ed_13.0.zip",
-          "fastboot": "topaz_global_images_V14.0.8.0.TMGMIXM_20231102.0000.00_13.0_global_044efb989c.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMGMIXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZGlobal_V14.0.7.0.TMGMIXM_4e148ecf3f_13.0.zip",
-          "fastboot": "topaz_global_images_V14.0.7.0.TMGMIXM_20230907.0000.00_13.0_global_f559842c66.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMGMIXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZGlobal_V14.0.5.0.TMGMIXM_fe6ea14cd3_13.0.zip",
-          "fastboot": "topaz_global_images_V14.0.5.0.TMGMIXM_20230712.0000.00_13.0_global_93b5e8492d.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMGMIXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZGlobal_V14.0.4.0.TMGMIXM_5ed0d3f62c_13.0.zip",
-          "fastboot": "topaz_global_images_V14.0.4.0.TMGMIXM_20230612.0000.00_13.0_global_649fd25752.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMGMIXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZGlobal_V14.0.3.0.TMGMIXM_50d540e4de_13.0.zip",
-          "fastboot": "topaz_global_images_V14.0.3.0.TMGMIXM_20230504.0000.00_13.0_global_f3767bc6a9.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMGMIXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZGlobal_V14.0.2.0.TMGMIXM_69d8c8488e_13.0.zip",
-          "fastboot": "topaz_global_images_V14.0.2.0.TMGMIXM_20230316.0000.00_13.0_global_394d9c0dde.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMGMIXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZGlobal_V14.0.1.0.TMGMIXM_8000f29ef0_13.0.zip",
-          "fastboot": "topaz_global_images_V14.0.1.0.TMGMIXM_20230221.0000.00_13.0_global_7a9a51a5b4.tgz"
-        }
-      ]
-    },
-    {
-      "code":"topaz_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.12.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.12.0.TMGEUXM_99ecb5b397_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.12.0.TMGEUXM_20231106.0000.00_13.0_eea_0d5c69604e.tgz"
-        },
-        {
-          "miui": "V14.0.11.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.11.0.TMGEUXM_43e4ee28c6_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.11.0.TMGEUXM_20230830.0000.00_13.0_eea_5f1cf32844.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.10.0.TMGEUXM_7673a8c890_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.10.0.TMGEUXM_20230714.0000.00_13.0_eea_705fd2f5e7.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.9.0.TMGEUXM_e6053ff3d4_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.9.0.TMGEUXM_20230603.0000.00_13.0_eea_37c4bbc677.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.8.0.TMGEUXM_b52dd70b6e_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.8.0.TMGEUXM_20230506.0000.00_13.0_eea_bd18f4ca3d.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.7.0.TMGEUXM_7a3fcbf5d9_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.7.0.TMGEUXM_20230415.0000.00_13.0_eea_d5c12b65b5.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.4.0.TMGEUXM_f568bed179_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.4.0.TMGEUXM_20230321.0000.00_13.0_eea_2b4780549e.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.2.0.TMGEUXM_e1fc034b56_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.2.0.TMGEUXM_20230227.0000.00_13.0_eea_5465edb4ce.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMGEUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZEEAGlobal_V14.0.1.0.TMGEUXM_aa5e91ec83_13.0.zip",
-          "fastboot": "topaz_eea_global_images_V14.0.1.0.TMGEUXM_20230214.0000.00_13.0_eea_5fc5e65a2d.tgz"
-        }
-      ]
-    },
-    {
-      "code":"topaz_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.8.0.TMGRUXM_4b44e1ad4f_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.8.0.TMGRUXM_20231102.0000.00_13.0_ru_73cfc7880a.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.7.0.TMGRUXM_d986950ff3_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.7.0.TMGRUXM_20231007.0000.00_13.0_ru_0ed6962f89.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.6.0.TMGRUXM_ea3f47b9ef_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.6.0.TMGRUXM_20230904.0000.00_13.0_ru_148e2eff02.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.5.0.TMGRUXM_c0f44997f1_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.5.0.TMGRUXM_20230711.0000.00_13.0_ru_9b6c0a154e.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.4.0.TMGRUXM_d2754dde7e_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.4.0.TMGRUXM_20230612.0000.00_13.0_ru_1c88ca69b7.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.3.0.TMGRUXM_f23fc019b4_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.3.0.TMGRUXM_20230510.0000.00_13.0_ru_97fdd5064a.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.2.0.TMGRUXM_943de8f4b2_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.2.0.TMGRUXM_20230324.0000.00_13.0_ru_1426f2cfba.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMGRUXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZRUGlobal_V14.0.1.0.TMGRUXM_6487d2c485_13.0.zip",
-          "fastboot": "topaz_ru_global_images_V14.0.1.0.TMGRUXM_20230208.0000.00_13.0_ru_89c974692d.tgz"
-        }
-      ]
-    },
-    {
-      "code":"topaz_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TMGIDXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZIDGlobal_V14.0.8.0.TMGIDXM_263afdfd15_13.0.zip",
-          "fastboot": "topaz_id_global_images_V14.0.8.0.TMGIDXM_20231106.0000.00_13.0_id_d56742d5c7.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMGIDXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZIDGlobal_V14.0.7.0.TMGIDXM_3b56a09ea5_13.0.zip",
-          "fastboot": "topaz_id_global_images_V14.0.7.0.TMGIDXM_20230830.0000.00_13.0_id_f7b7a0d880.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMGIDXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZIDGlobal_V14.0.6.0.TMGIDXM_4839a2a0e9_13.0.zip",
-          "fastboot": "topaz_id_global_images_V14.0.6.0.TMGIDXM_20230725.0000.00_13.0_id_df6180a755.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMGIDXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZIDGlobal_V14.0.4.0.TMGIDXM_99144da840_13.0.zip",
-          "fastboot": "topaz_id_global_images_V14.0.4.0.TMGIDXM_20230619.0000.00_13.0_id_50da3c4c30.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMGIDXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZIDGlobal_V14.0.3.0.TMGIDXM_fb33b01791_13.0.zip",
-          "fastboot": "topaz_id_global_images_V14.0.3.0.TMGIDXM_20230425.0000.00_13.0_id_2e01f1ca77.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMGIDXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZIDGlobal_V14.0.2.0.TMGIDXM_18ac19f1d5_13.0.zip",
-          "fastboot": "topaz_id_global_images_V14.0.2.0.TMGIDXM_20230324.0000.00_13.0_id_db5c8e3223.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMGIDXM",
-          "android": "13.0",
-          "recovery": "miui_TOPAZIDGlobal_V14.0.1.0.TMGIDXM_ca4db59e50_13.0.zip",
-          "fastboot": "topaz_id_global_images_V14.0.1.0.TMGIDXM_20230228.0000.00_13.0_id_e23b883c67.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "topaz",
+	"cnname": "Redmi Note 12 4G NFC 国际",
+	"enname": "Redmi Note 12 4G NFC",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "0",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "583743",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "topaz_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TMGMIXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZGlobal_V14.0.8.0.TMGMIXM_64c17677ed_13.0.zip",
+					"fastboot": "topaz_global_images_V14.0.8.0.TMGMIXM_20231102.0000.00_13.0_global_044efb989c.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMGMIXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZGlobal_V14.0.7.0.TMGMIXM_4e148ecf3f_13.0.zip",
+					"fastboot": "topaz_global_images_V14.0.7.0.TMGMIXM_20230907.0000.00_13.0_global_f559842c66.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMGMIXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZGlobal_V14.0.5.0.TMGMIXM_fe6ea14cd3_13.0.zip",
+					"fastboot": "topaz_global_images_V14.0.5.0.TMGMIXM_20230712.0000.00_13.0_global_93b5e8492d.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMGMIXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZGlobal_V14.0.4.0.TMGMIXM_5ed0d3f62c_13.0.zip",
+					"fastboot": "topaz_global_images_V14.0.4.0.TMGMIXM_20230612.0000.00_13.0_global_649fd25752.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMGMIXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZGlobal_V14.0.3.0.TMGMIXM_50d540e4de_13.0.zip",
+					"fastboot": "topaz_global_images_V14.0.3.0.TMGMIXM_20230504.0000.00_13.0_global_f3767bc6a9.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMGMIXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZGlobal_V14.0.2.0.TMGMIXM_69d8c8488e_13.0.zip",
+					"fastboot": "topaz_global_images_V14.0.2.0.TMGMIXM_20230316.0000.00_13.0_global_394d9c0dde.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMGMIXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZGlobal_V14.0.1.0.TMGMIXM_8000f29ef0_13.0.zip",
+					"fastboot": "topaz_global_images_V14.0.1.0.TMGMIXM_20230221.0000.00_13.0_global_7a9a51a5b4.tgz"
+				}
+			]
+		},
+		{
+			"code": "topaz_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.12.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.12.0.TMGEUXM_99ecb5b397_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.12.0.TMGEUXM_20231106.0000.00_13.0_eea_0d5c69604e.tgz"
+				},
+				{
+					"miui": "V14.0.11.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.11.0.TMGEUXM_43e4ee28c6_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.11.0.TMGEUXM_20230830.0000.00_13.0_eea_5f1cf32844.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.10.0.TMGEUXM_7673a8c890_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.10.0.TMGEUXM_20230714.0000.00_13.0_eea_705fd2f5e7.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.9.0.TMGEUXM_e6053ff3d4_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.9.0.TMGEUXM_20230603.0000.00_13.0_eea_37c4bbc677.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.8.0.TMGEUXM_b52dd70b6e_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.8.0.TMGEUXM_20230506.0000.00_13.0_eea_bd18f4ca3d.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.7.0.TMGEUXM_7a3fcbf5d9_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.7.0.TMGEUXM_20230415.0000.00_13.0_eea_d5c12b65b5.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.4.0.TMGEUXM_f568bed179_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.4.0.TMGEUXM_20230321.0000.00_13.0_eea_2b4780549e.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.2.0.TMGEUXM_e1fc034b56_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.2.0.TMGEUXM_20230227.0000.00_13.0_eea_5465edb4ce.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMGEUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZEEAGlobal_V14.0.1.0.TMGEUXM_aa5e91ec83_13.0.zip",
+					"fastboot": "topaz_eea_global_images_V14.0.1.0.TMGEUXM_20230214.0000.00_13.0_eea_5fc5e65a2d.tgz"
+				}
+			]
+		},
+		{
+			"code": "topaz_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.8.0.TMGRUXM_4b44e1ad4f_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.8.0.TMGRUXM_20231102.0000.00_13.0_ru_73cfc7880a.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.7.0.TMGRUXM_d986950ff3_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.7.0.TMGRUXM_20231007.0000.00_13.0_ru_0ed6962f89.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.6.0.TMGRUXM_ea3f47b9ef_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.6.0.TMGRUXM_20230904.0000.00_13.0_ru_148e2eff02.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.5.0.TMGRUXM_c0f44997f1_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.5.0.TMGRUXM_20230711.0000.00_13.0_ru_9b6c0a154e.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.4.0.TMGRUXM_d2754dde7e_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.4.0.TMGRUXM_20230612.0000.00_13.0_ru_1c88ca69b7.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.3.0.TMGRUXM_f23fc019b4_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.3.0.TMGRUXM_20230510.0000.00_13.0_ru_97fdd5064a.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.2.0.TMGRUXM_943de8f4b2_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.2.0.TMGRUXM_20230324.0000.00_13.0_ru_1426f2cfba.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMGRUXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZRUGlobal_V14.0.1.0.TMGRUXM_6487d2c485_13.0.zip",
+					"fastboot": "topaz_ru_global_images_V14.0.1.0.TMGRUXM_20230208.0000.00_13.0_ru_89c974692d.tgz"
+				}
+			]
+		},
+		{
+			"code": "topaz_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TMGIDXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZIDGlobal_V14.0.8.0.TMGIDXM_263afdfd15_13.0.zip",
+					"fastboot": "topaz_id_global_images_V14.0.8.0.TMGIDXM_20231106.0000.00_13.0_id_d56742d5c7.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMGIDXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZIDGlobal_V14.0.7.0.TMGIDXM_3b56a09ea5_13.0.zip",
+					"fastboot": "topaz_id_global_images_V14.0.7.0.TMGIDXM_20230830.0000.00_13.0_id_f7b7a0d880.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMGIDXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZIDGlobal_V14.0.6.0.TMGIDXM_4839a2a0e9_13.0.zip",
+					"fastboot": "topaz_id_global_images_V14.0.6.0.TMGIDXM_20230725.0000.00_13.0_id_df6180a755.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMGIDXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZIDGlobal_V14.0.4.0.TMGIDXM_99144da840_13.0.zip",
+					"fastboot": "topaz_id_global_images_V14.0.4.0.TMGIDXM_20230619.0000.00_13.0_id_50da3c4c30.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMGIDXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZIDGlobal_V14.0.3.0.TMGIDXM_fb33b01791_13.0.zip",
+					"fastboot": "topaz_id_global_images_V14.0.3.0.TMGIDXM_20230425.0000.00_13.0_id_2e01f1ca77.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMGIDXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZIDGlobal_V14.0.2.0.TMGIDXM_18ac19f1d5_13.0.zip",
+					"fastboot": "topaz_id_global_images_V14.0.2.0.TMGIDXM_20230324.0000.00_13.0_id_db5c8e3223.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMGIDXM",
+					"android": "13.0",
+					"recovery": "miui_TOPAZIDGlobal_V14.0.1.0.TMGIDXM_ca4db59e50_13.0.zip",
+					"fastboot": "topaz_id_global_images_V14.0.1.0.TMGIDXM_20230228.0000.00_13.0_id_e23b883c67.tgz"
+				}
+			]
+		}
+	]
 }

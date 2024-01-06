@@ -1,669 +1,667 @@
 {
-  "codename": "sunstone",
-  "cnname": "Redmi Note 12 5G/Redmi Note 12R Pro",
-  "enname": "Redmi Note 12 5G/Redmi Note 12R Pro",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "37322270",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "465"
-  ],
-  "cbid": [],
-  "gdid": "583743",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"sunstone",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.10.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.10.0.TMQCNXM_bca3f090f5_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.10.0.TMQCNXM_20231204.0000.00_13.0_cn_f9bb29c4ad.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.9.0.TMQCNXM_0a069aa2ee_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.8.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.8.0.TMQCNXM_cded3c4e85_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.8.0.TMQCNXM_20230815.0000.00_13.0_cn_8b9c670e92.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.7.0.TMQCNXM_b63bb7456c_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.7.0.TMQCNXM_20230719.0000.00_13.0_cn_3f79223ee0.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.6.0.TMQCNXM_8596ca11c3_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.6.0.TMQCNXM_20230709.0000.00_13.0_cn_a877fd035b.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.4.0.TMQCNXM_a070ee4d67_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.4.0.TMQCNXM_20230427.0000.00_13.0_cn_a80d8580a6.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.1.0.TMQCNXM_38455e4b24_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.1.0.TMQCNXM_20230208.0000.00_13.0_cn_a92ada09bc.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.0.15.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.15.0.SMQCNXM_3c03194584_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.15.0.SMQCNXM_20230331.0000.00_12.0_cn_96ec246cc5.tgz"
-        },
-        {
-          "miui": "V13.0.14.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.14.0.SMQCNXM_30a9e21f4a_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.14.0.SMQCNXM_20230308.0000.00_12.0_cn_50515097b9.tgz"
-        },
-        {
-          "miui": "V13.0.13.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.13.0.SMQCNXM_d762b9c2bb_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.13.0.SMQCNXM_20230224.0000.00_12.0_cn_c9e5858e13.tgz"
-        },
-        {
-          "miui": "V13.0.11.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.11.0.SMQCNXM_64fb233a1a_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.11.0.SMQCNXM_20230107.0000.00_12.0_cn_7b4cb9627d.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.7.0.SMQCNXM_fc184ae49e_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.7.0.SMQCNXM_20221206.0000.00_12.0_cn_375a6bfde5.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.3.0.SMQCNXM_fb50a1c1f8_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.3.0.SMQCNXM_20221024.0000.00_12.0_cn_b6ec948975.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.2.0.SMQCNXM_a309cfd83f_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"sunstone",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.10.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.10.0.TMQCNXM_bca3f090f5_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.10.0.TMQCNXM_20231204.0000.00_13.0_cn_chinatelecom_2e2a944269.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.8.0.TMQCNXM_cded3c4e85_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.8.0.TMQCNXM_20230815.0000.00_13.0_cn_chinatelecom_0853a05d00.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.7.0.TMQCNXM_b63bb7456c_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.7.0.TMQCNXM_20230719.0000.00_13.0_cn_chinatelecom_84b4b11517.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.6.0.TMQCNXM_8596ca11c3_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.6.0.TMQCNXM_20230709.0000.00_13.0_cn_chinatelecom_c753759282.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.4.0.TMQCNXM_a070ee4d67_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.4.0.TMQCNXM_20230427.0000.00_13.0_cn_chinatelecom_e5782c539a.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V14.0.1.0.TMQCNXM_38455e4b24_13.0.zip",
-          "fastboot": "sunstone_images_V14.0.1.0.TMQCNXM_20230208.0000.00_13.0_cn_chinatelecom_e871889980.tgz"
-        },
-        {
-          "miui": "V13.0.15.0.SMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V13.0.15.0.SMQCNXM_3c03194584_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.15.0.SMQCNXM_20230331.0000.00_12.0_cn_chinatelecom_820bd3a59b.tgz"
-        },
-        {
-          "miui": "V13.0.14.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.14.0.SMQCNXM_30a9e21f4a_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.14.0.SMQCNXM_20230308.0000.00_12.0_cn_chinatelecom_d6f1f028cc.tgz"
-        },
-        {
-          "miui": "V13.0.13.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.13.0.SMQCNXM_d762b9c2bb_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.13.0.SMQCNXM_20230224.0000.00_12.0_cn_chinatelecom_1999360a6b.tgz"
-        },
-        {
-          "miui": "V13.0.11.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.11.0.SMQCNXM_64fb233a1a_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.11.0.SMQCNXM_20230107.0000.00_12.0_cn_chinatelecom_1e1af94c18.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.7.0.SMQCNXM_fc184ae49e_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.7.0.SMQCNXM_20221206.0000.00_12.0_cn_chinatelecom_244ef8144a.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.3.0.SMQCNXM_fb50a1c1f8_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.3.0.SMQCNXM_20221024.0000.00_12.0_cn_chinatelecom_a4ff5f51ed.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.16.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.16.0.SMQCNXM_dd83de737f_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.16.0.SMQCNXM_20230426.0000.00_12.0_cn_chinamobile_35e72d064a.tgz"
-        },
-        {
-          "miui": "V13.0.15.0.SMQCNXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONE_V13.0.15.0.SMQCNXM_3c03194584_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.15.0.SMQCNXM_20230331.0000.00_12.0_cn_chinamobile_4e28dc8a8c.tgz"
-        },
-        {
-          "miui": "V13.0.14.0.SMQCNXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONE_V13.0.14.0.SMQCNXM_30a9e21f4a_12.0.zip",
-          "fastboot": "sunstone_images_V13.0.14.0.SMQCNXM_20230308.0000.00_12.0_cn_chinamobile_d054e43978.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TMQCNDM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEDEMO_V14.0.2.0.TMQCNDM_2a47a183b9_13.0.zip",
-          "fastboot": "sunstone_demo_images_V14.0.2.0.TMQCNDM_20230517.0000.00_13.0_cn_84658dbdfb.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMQCNDM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEDEMO_V14.0.2.0.TMQCNDM_2a47a183b9_13.0.zip",
-          "fastboot": "sunstone_demo_images_V14.0.2.0.TMQCNDM_20230517.0000.00_13.0_cn_chinatelecom_0cc1061aa5.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SMQCNDM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEDEMO_V13.0.3.0.SMQCNDM_1204d22f20_12.0.zip",
-          "fastboot": "sunstone_demo_images_V13.0.3.0.SMQCNDM_20221024.0000.00_12.0_cn_4937ef91bc.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SMQCNDM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEDEMO_V13.0.3.0.SMQCNDM_1204d22f20_12.0.zip",
-          "fastboot": "sunstone_demo_images_V13.0.3.0.SMQCNDM_20221024.0000.00_12.0_cn_chinatelecom_9655a5b519.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SMQCNDM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEDEMO_V13.0.3.0.SMQCNDM_1204d22f20_12.0.zip",
-          "fastboot": "sunstone_demo_images_V13.0.3.0.SMQCNDM_20221024.0000.00_12.0_cn_chinamobile_e567776542.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.11.30.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.30.EP.STDEE.M17_5be7cbb1d7_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.11.30.EP.STDEE.M17_20231130.0000.00_13.0_cn_9d0832e8c4.tgz"
-        },
-        {
-          "miui": "V14.0.23.11.30.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.30.EP.STDEE.M17_5be7cbb1d7_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.11.30.EP.STDEE.M17_20231130.0000.00_13.0_cn_chinatelecom_72cbf2d3be.tgz"
-        },
-        {
-          "miui": "V14.0.23.11.24.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.24.EP.STDEE.M17_69d02147e0_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.11.24.EP.STDEE.M17_20231124.0000.00_13.0_cn_b7f1f5866d.tgz"
-        },
-        {
-          "miui": "V14.0.23.11.24.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.24.EP.STDEE.M17_69d02147e0_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.11.24.EP.STDEE.M17_20231124.0000.00_13.0_cn_chinatelecom_e581fefcc7.tgz"
-        },
-        {
-          "miui": "V14.0.23.11.8.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.8.EP.STDEE.M17_662d537a0e_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.11.8.EP.STDEE.M17_20231107.0000.00_13.0_cn_fd68059a16.tgz"
-        },
-        {
-          "miui": "V14.0.23.11.8.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.8.EP.STDEE.M17_662d537a0e_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.11.8.EP.STDEE.M17_20231107.0000.00_13.0_cn_chinatelecom_ad91415283.tgz"
-        },
-        {
-          "miui": "V14.0.23.10.12.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.10.12.EP.STDEE.M17_9df8f0d444_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.10.12.EP.STDEE.M17.debug_20231012.0000.00_13.0_cn_9c1ea400bc.tgz"
-        },
-        {
-          "miui": "V14.0.23.10.12.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.10.12.EP.STDEE.M17_9df8f0d444_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.10.12.EP.STDEE.M17.debug_20231012.0000.00_13.0_cn_chinatelecom_3a47e35756.tgz"
-        },
-        {
-          "miui": "V14.0.23.9.6.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.9.6.EP.STDEE.M17_4940051041_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.9.6.EP.STDEE.M17_20230906.0000.00_13.0_cn_2e99a98415.tgz"
-        },
-        {
-          "miui": "V14.0.23.9.6.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.9.6.EP.STDEE.M17_4940051041_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.9.6.EP.STDEE.M17_20230906.0000.00_13.0_cn_chinatelecom_d03d4fa02d.tgz"
-        },
-        {
-          "miui": "V14.0.23.7.27.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.27.EP.STDEE.M17_0105f855df_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.7.27.EP.STDEE.M17_20230727.0000.00_13.0_cn_95503b31a6.tgz"
-        },
-        {
-          "miui": "V14.0.23.7.27.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.27.EP.STDEE.M17_0105f855df_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.7.27.EP.STDEE.M17_20230727.0000.00_13.0_cn_chinatelecom_91f972b6b4.tgz"
-        },
-        {
-          "miui": "V14.0.23.7.5.EP.STDEE.M17X",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.5.EP.STDEE.M17X_a8903e9f88_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.7.5.EP.STDEE.M17X_20230705.0000.00_13.0_cn_7dafc7a1ae.tgz"
-        },
-        {
-          "miui": "V14.0.23.7.5.EP.STDEE.M17X",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.5.EP.STDEE.M17X_a8903e9f88_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.7.5.EP.STDEE.M17X_20230705.0000.00_13.0_cn_chinatelecom_08ac7bb60d.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.14.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.6.14.EP.STDEE.M17_66362b3367_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M17_20230614.0000.00_13.0_cn_3c8997f7d5.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.14.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.6.14.EP.STDEE.M17_66362b3367_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M17_20230614.0000.00_13.0_cn_chinatelecom_b48764700b.tgz"
-        },
-        {
-          "miui": "V14.0.23.5.24.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.5.24.EP.STDEE.M17_323bf63f76_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.5.24.EP.STDEE.M17_20230524.0000.00_13.0_cn_a92484b488.tgz"
-        },
-        {
-          "miui": "V14.0.23.5.24.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.5.24.EP.STDEE.M17_323bf63f76_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.5.24.EP.STDEE.M17_20230524.0000.00_13.0_cn_chinatelecom_2b08a65aa3.tgz"
-        },
-        {
-          "miui": "V14.0.23.4.6.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.4.6.EP.STDEE.M17_615c065a5d_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.4.6.EP.STDEE.M17_20230406.0000.00_13.0_cn_08f7455dfd.tgz"
-        },
-        {
-          "miui": "V14.0.23.4.6.EP.STDEE.M17",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.4.6.EP.STDEE.M17_615c065a5d_13.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V14.0.23.4.6.EP.STDEE.M17_20230406.0000.00_13.0_cn_chinatelecom_2397453ad2.tgz"
-        },
-        {
-          "miui": "V13.0.23.3.22.EP.STDEE.M17",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V13.0.23.3.22.EP.STDEE.M17_fc2a146e93_12.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V13.0.23.3.22.EP.STDEE.M17_20230322.0000.00_12.0_cn_65c71c36de.tgz"
-        },
-        {
-          "miui": "V13.0.23.3.7.EP.STDEE.M17",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V13.0.23.3.7.EP.STDEE.M17_cb9fd122b1_12.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V13.0.23.3.7.EP.STDEE.M17_20230306.0000.00_12.0_cn_59f22bbf4c.tgz"
-        },
-        {
-          "miui": "V13.0.23.2.23.EP.STDEE.M17",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEEPSTDEE_V13.0.23.2.23.EP.STDEE.M17_164c6d599a_12.0.zip",
-          "fastboot": "sunstone_ep_stdee_images_V13.0.23.2.23.EP.STDEE.M17_20230223.0000.00_12.0_cn_d1b78b4a80.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone_ep_tkgwdl",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "tkgw",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆TKGWDL",
-      "enname": "China Mainland TKGWDL",
-      "links": [
-        {
-          "miui": "V14.0.23.9.12.EP.TKGWDL.M17X",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPTKGWDL_V14.0.23.9.12.EP.TKGWDL.M17X_0e2a3628a2_13.0.zip",
-          "fastboot": "sunstone_ep_tkgwdl_images_V14.0.23.9.12.EP.TKGWDL.M17X_20230912.0000.00_13.0_cn_39289519ce.tgz"
-        },
-        {
-          "miui": "V14.0.23.9.12.EP.TKGWDL.M17X",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEPTKGWDL_V14.0.23.9.12.EP.TKGWDL.M17X_0e2a3628a2_13.0.zip",
-          "fastboot": "sunstone_ep_tkgwdl_images_V14.0.23.9.12.EP.TKGWDL.M17X_20230912.0000.00_13.0_cn_chinatelecom_f2424304a2.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TMQTWXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONETWGlobal_V14.0.3.0.TMQTWXM_a4d3dd27a0_13.0.zip",
-          "fastboot": "sunstone_tw_global_images_V14.0.3.0.TMQTWXM_20231110.0000.00_13.0_tw_a7a1c6a305.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TMQTWXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONETWGlobal_V14.0.1.0.TMQTWXM_eeff15e6ce_13.0.zip",
-          "fastboot": "sunstone_tw_global_images_V14.0.1.0.TMQTWXM_20230705.0000.00_13.0_tw_25582e824e.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.SMQTWXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONETWGlobal_V14.0.3.0.SMQTWXM_44f3fcc553_12.0.zip",
-          "fastboot": "sunstone_tw_global_images_V14.0.3.0.SMQTWXM_20230331.0000.00_12.0_global_cd4047fc7f.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.SMQTWXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONETWGlobal_V14.0.1.0.SMQTWXM_0593129e17_12.0.zip",
-          "fastboot": "sunstone_tw_global_images_V14.0.1.0.SMQTWXM_20230110.0000.00_12.0_global_f591c64f24.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TMQMIXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEGlobal_V14.0.6.0.TMQMIXM_5e7ecd5eec_13.0.zip",
-          "fastboot": "sunstone_global_images_V14.0.6.0.TMQMIXM_20231102.0000.00_13.0_global_37cabef240.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMQMIXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEGlobal_V14.0.5.0.TMQMIXM_3536c9f974_13.0.zip",
-          "fastboot": "sunstone_global_images_V14.0.5.0.TMQMIXM_20230802.0000.00_13.0_global_178045d4de.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMQMIXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEGlobal_V14.0.4.0.TMQMIXM_dd8266c06b_13.0.zip",
-          "fastboot": "sunstone_global_images_V14.0.4.0.TMQMIXM_20230620.0000.00_13.0_global_5b690b0d5c.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMQMIXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEGlobal_V14.0.3.0.TMQMIXM_91ab4cb188_13.0.zip",
-          "fastboot": "sunstone_global_images_V14.0.3.0.TMQMIXM_20230523.0000.00_13.0_global_4b725aa2d3.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.SMQMIXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEGlobal_V14.0.6.0.SMQMIXM_334cf81b68_12.0.zip",
-          "fastboot": "sunstone_global_images_V14.0.6.0.SMQMIXM_20230420.0000.00_12.0_global_087f0ffa04.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.SMQMIXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEGlobal_V14.0.5.0.SMQMIXM_7cebf3e108_12.0.zip",
-          "fastboot": "sunstone_global_images_V14.0.5.0.SMQMIXM_20230329.0000.00_12.0_global_b8189b8fe0.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.SMQMIXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEGlobal_V14.0.2.0.SMQMIXM_c4d02a0348_12.0.zip",
-          "fastboot": "sunstone_global_images_V14.0.2.0.SMQMIXM_20230111.0000.00_12.0_global_2b8ab4ddb3.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TMQEUXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEEAGlobal_V14.0.5.0.TMQEUXM_7a94e186fd_13.0.zip",
-          "fastboot": "sunstone_eea_global_images_V14.0.5.0.TMQEUXM_20231117.0000.00_13.0_eea_eabc58be11.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMQEUXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEEAGlobal_V14.0.4.0.TMQEUXM_304f5be0b6_13.0.zip",
-          "fastboot": "sunstone_eea_global_images_V14.0.4.0.TMQEUXM_20230828.0000.00_13.0_eea_95fcb3008b.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMQEUXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEEAGlobal_V14.0.3.0.TMQEUXM_6c9d709926_13.0.zip",
-          "fastboot": "sunstone_eea_global_images_V14.0.3.0.TMQEUXM_20230618.0000.00_13.0_eea_4abed96cc0.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMQEUXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEEEAGlobal_V14.0.2.0.TMQEUXM_bc85ab2d4e_13.0.zip",
-          "fastboot": "sunstone_eea_global_images_V14.0.2.0.TMQEUXM_20230523.0000.00_13.0_eea_e9e1dbe17e.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.SMQEUXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEEEAGlobal_V14.0.7.0.SMQEUXM_c762988963_12.0.zip",
-          "fastboot": "sunstone_eea_global_images_V14.0.7.0.SMQEUXM_20230425.0000.00_12.0_eea_d508730340.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.SMQEUXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEEEAGlobal_V14.0.6.0.SMQEUXM_85ffd31644_12.0.zip",
-          "fastboot": "sunstone_eea_global_images_V14.0.6.0.SMQEUXM_20230324.0000.00_12.0_eea_45cd8be0e0.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.SMQEUXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEEEAGlobal_V14.0.4.0.SMQEUXM_28fd553f3c_12.0.zip",
-          "fastboot": "sunstone_eea_global_images_V14.0.4.0.SMQEUXM_20230207.0000.00_12.0_eea_4107c2a264.tgz"
-        }
-      ]
-    },
-    {
-      "code":"sunstone_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TMQINXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEINGlobal_V14.0.4.0.TMQINXM_6581e78c30_13.0.zip",
-          "fastboot": "sunstone_in_global_images_V14.0.4.0.TMQINXM_20231109.0000.00_13.0_in_0ec7f33c83.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMQINXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEINGlobal_V14.0.3.0.TMQINXM_9c8c12b1a7_13.0.zip",
-          "fastboot": "sunstone_in_global_images_V14.0.3.0.TMQINXM_20230816.0000.00_13.0_in_679ab20651.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMQINXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEINGlobal_V14.0.2.0.TMQINXM_2a22a38aaf_13.0.zip",
-          "fastboot": "sunstone_in_global_images_V14.0.2.0.TMQINXM_20230618.0000.00_13.0_in_7f4bfbad2b.tgz"
-        },
-        {
-          "miui": "V13.0.11.0.SMQINXM",
-          "android": "13.0",
-          "recovery": "miui_SUNSTONEINGlobal_V13.0.11.0.SMQINXM_c5376a062f_12.0.zip",
-          "fastboot": "sunstone_in_global_images_V13.0.11.0.SMQINXM_20230324.0000.00_12.0_in_5f7606bf74.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SMQINXM",
-          "android": "12.0",
-          "recovery": "miui_SUNSTONEINGlobal_V13.0.7.0.SMQINXM_96ecfd55d0_12.0.zip",
-          "fastboot": "sunstone_in_global_images_V13.0.7.0.SMQINXM_20230210.0000.00_12.0_in_17133dc219.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "sunstone",
+	"cnname": "Redmi Note 12 5G/Redmi Note 12R Pro",
+	"enname": "Redmi Note 12 5G/Redmi Note 12R Pro",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "37322270",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["465"],
+	"cbid": [],
+	"gdid": "583743",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "sunstone",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.10.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.10.0.TMQCNXM_bca3f090f5_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.10.0.TMQCNXM_20231204.0000.00_13.0_cn_f9bb29c4ad.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.9.0.TMQCNXM_0a069aa2ee_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.8.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.8.0.TMQCNXM_cded3c4e85_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.8.0.TMQCNXM_20230815.0000.00_13.0_cn_8b9c670e92.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.7.0.TMQCNXM_b63bb7456c_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.7.0.TMQCNXM_20230719.0000.00_13.0_cn_3f79223ee0.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.6.0.TMQCNXM_8596ca11c3_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.6.0.TMQCNXM_20230709.0000.00_13.0_cn_a877fd035b.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.4.0.TMQCNXM_a070ee4d67_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.4.0.TMQCNXM_20230427.0000.00_13.0_cn_a80d8580a6.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.1.0.TMQCNXM_38455e4b24_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.1.0.TMQCNXM_20230208.0000.00_13.0_cn_a92ada09bc.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.0.15.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.15.0.SMQCNXM_3c03194584_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.15.0.SMQCNXM_20230331.0000.00_12.0_cn_96ec246cc5.tgz"
+				},
+				{
+					"miui": "V13.0.14.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.14.0.SMQCNXM_30a9e21f4a_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.14.0.SMQCNXM_20230308.0000.00_12.0_cn_50515097b9.tgz"
+				},
+				{
+					"miui": "V13.0.13.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.13.0.SMQCNXM_d762b9c2bb_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.13.0.SMQCNXM_20230224.0000.00_12.0_cn_c9e5858e13.tgz"
+				},
+				{
+					"miui": "V13.0.11.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.11.0.SMQCNXM_64fb233a1a_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.11.0.SMQCNXM_20230107.0000.00_12.0_cn_7b4cb9627d.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.7.0.SMQCNXM_fc184ae49e_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.7.0.SMQCNXM_20221206.0000.00_12.0_cn_375a6bfde5.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.3.0.SMQCNXM_fb50a1c1f8_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.3.0.SMQCNXM_20221024.0000.00_12.0_cn_b6ec948975.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.2.0.SMQCNXM_a309cfd83f_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "sunstone",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.10.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.10.0.TMQCNXM_bca3f090f5_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.10.0.TMQCNXM_20231204.0000.00_13.0_cn_chinatelecom_2e2a944269.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.8.0.TMQCNXM_cded3c4e85_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.8.0.TMQCNXM_20230815.0000.00_13.0_cn_chinatelecom_0853a05d00.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.7.0.TMQCNXM_b63bb7456c_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.7.0.TMQCNXM_20230719.0000.00_13.0_cn_chinatelecom_84b4b11517.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.6.0.TMQCNXM_8596ca11c3_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.6.0.TMQCNXM_20230709.0000.00_13.0_cn_chinatelecom_c753759282.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.4.0.TMQCNXM_a070ee4d67_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.4.0.TMQCNXM_20230427.0000.00_13.0_cn_chinatelecom_e5782c539a.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V14.0.1.0.TMQCNXM_38455e4b24_13.0.zip",
+					"fastboot": "sunstone_images_V14.0.1.0.TMQCNXM_20230208.0000.00_13.0_cn_chinatelecom_e871889980.tgz"
+				},
+				{
+					"miui": "V13.0.15.0.SMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V13.0.15.0.SMQCNXM_3c03194584_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.15.0.SMQCNXM_20230331.0000.00_12.0_cn_chinatelecom_820bd3a59b.tgz"
+				},
+				{
+					"miui": "V13.0.14.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.14.0.SMQCNXM_30a9e21f4a_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.14.0.SMQCNXM_20230308.0000.00_12.0_cn_chinatelecom_d6f1f028cc.tgz"
+				},
+				{
+					"miui": "V13.0.13.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.13.0.SMQCNXM_d762b9c2bb_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.13.0.SMQCNXM_20230224.0000.00_12.0_cn_chinatelecom_1999360a6b.tgz"
+				},
+				{
+					"miui": "V13.0.11.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.11.0.SMQCNXM_64fb233a1a_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.11.0.SMQCNXM_20230107.0000.00_12.0_cn_chinatelecom_1e1af94c18.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.7.0.SMQCNXM_fc184ae49e_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.7.0.SMQCNXM_20221206.0000.00_12.0_cn_chinatelecom_244ef8144a.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.3.0.SMQCNXM_fb50a1c1f8_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.3.0.SMQCNXM_20221024.0000.00_12.0_cn_chinatelecom_a4ff5f51ed.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.16.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.16.0.SMQCNXM_dd83de737f_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.16.0.SMQCNXM_20230426.0000.00_12.0_cn_chinamobile_35e72d064a.tgz"
+				},
+				{
+					"miui": "V13.0.15.0.SMQCNXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONE_V13.0.15.0.SMQCNXM_3c03194584_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.15.0.SMQCNXM_20230331.0000.00_12.0_cn_chinamobile_4e28dc8a8c.tgz"
+				},
+				{
+					"miui": "V13.0.14.0.SMQCNXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONE_V13.0.14.0.SMQCNXM_30a9e21f4a_12.0.zip",
+					"fastboot": "sunstone_images_V13.0.14.0.SMQCNXM_20230308.0000.00_12.0_cn_chinamobile_d054e43978.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TMQCNDM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEDEMO_V14.0.2.0.TMQCNDM_2a47a183b9_13.0.zip",
+					"fastboot": "sunstone_demo_images_V14.0.2.0.TMQCNDM_20230517.0000.00_13.0_cn_84658dbdfb.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMQCNDM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEDEMO_V14.0.2.0.TMQCNDM_2a47a183b9_13.0.zip",
+					"fastboot": "sunstone_demo_images_V14.0.2.0.TMQCNDM_20230517.0000.00_13.0_cn_chinatelecom_0cc1061aa5.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SMQCNDM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEDEMO_V13.0.3.0.SMQCNDM_1204d22f20_12.0.zip",
+					"fastboot": "sunstone_demo_images_V13.0.3.0.SMQCNDM_20221024.0000.00_12.0_cn_4937ef91bc.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SMQCNDM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEDEMO_V13.0.3.0.SMQCNDM_1204d22f20_12.0.zip",
+					"fastboot": "sunstone_demo_images_V13.0.3.0.SMQCNDM_20221024.0000.00_12.0_cn_chinatelecom_9655a5b519.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SMQCNDM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEDEMO_V13.0.3.0.SMQCNDM_1204d22f20_12.0.zip",
+					"fastboot": "sunstone_demo_images_V13.0.3.0.SMQCNDM_20221024.0000.00_12.0_cn_chinamobile_e567776542.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.11.30.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.30.EP.STDEE.M17_5be7cbb1d7_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.11.30.EP.STDEE.M17_20231130.0000.00_13.0_cn_9d0832e8c4.tgz"
+				},
+				{
+					"miui": "V14.0.23.11.30.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.30.EP.STDEE.M17_5be7cbb1d7_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.11.30.EP.STDEE.M17_20231130.0000.00_13.0_cn_chinatelecom_72cbf2d3be.tgz"
+				},
+				{
+					"miui": "V14.0.23.11.24.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.24.EP.STDEE.M17_69d02147e0_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.11.24.EP.STDEE.M17_20231124.0000.00_13.0_cn_b7f1f5866d.tgz"
+				},
+				{
+					"miui": "V14.0.23.11.24.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.24.EP.STDEE.M17_69d02147e0_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.11.24.EP.STDEE.M17_20231124.0000.00_13.0_cn_chinatelecom_e581fefcc7.tgz"
+				},
+				{
+					"miui": "V14.0.23.11.8.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.8.EP.STDEE.M17_662d537a0e_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.11.8.EP.STDEE.M17_20231107.0000.00_13.0_cn_fd68059a16.tgz"
+				},
+				{
+					"miui": "V14.0.23.11.8.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.11.8.EP.STDEE.M17_662d537a0e_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.11.8.EP.STDEE.M17_20231107.0000.00_13.0_cn_chinatelecom_ad91415283.tgz"
+				},
+				{
+					"miui": "V14.0.23.10.12.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.10.12.EP.STDEE.M17_9df8f0d444_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.10.12.EP.STDEE.M17.debug_20231012.0000.00_13.0_cn_9c1ea400bc.tgz"
+				},
+				{
+					"miui": "V14.0.23.10.12.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.10.12.EP.STDEE.M17_9df8f0d444_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.10.12.EP.STDEE.M17.debug_20231012.0000.00_13.0_cn_chinatelecom_3a47e35756.tgz"
+				},
+				{
+					"miui": "V14.0.23.9.6.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.9.6.EP.STDEE.M17_4940051041_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.9.6.EP.STDEE.M17_20230906.0000.00_13.0_cn_2e99a98415.tgz"
+				},
+				{
+					"miui": "V14.0.23.9.6.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.9.6.EP.STDEE.M17_4940051041_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.9.6.EP.STDEE.M17_20230906.0000.00_13.0_cn_chinatelecom_d03d4fa02d.tgz"
+				},
+				{
+					"miui": "V14.0.23.7.27.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.27.EP.STDEE.M17_0105f855df_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.7.27.EP.STDEE.M17_20230727.0000.00_13.0_cn_95503b31a6.tgz"
+				},
+				{
+					"miui": "V14.0.23.7.27.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.27.EP.STDEE.M17_0105f855df_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.7.27.EP.STDEE.M17_20230727.0000.00_13.0_cn_chinatelecom_91f972b6b4.tgz"
+				},
+				{
+					"miui": "V14.0.23.7.5.EP.STDEE.M17X",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.5.EP.STDEE.M17X_a8903e9f88_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.7.5.EP.STDEE.M17X_20230705.0000.00_13.0_cn_7dafc7a1ae.tgz"
+				},
+				{
+					"miui": "V14.0.23.7.5.EP.STDEE.M17X",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.7.5.EP.STDEE.M17X_a8903e9f88_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.7.5.EP.STDEE.M17X_20230705.0000.00_13.0_cn_chinatelecom_08ac7bb60d.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.14.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.6.14.EP.STDEE.M17_66362b3367_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M17_20230614.0000.00_13.0_cn_3c8997f7d5.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.14.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.6.14.EP.STDEE.M17_66362b3367_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M17_20230614.0000.00_13.0_cn_chinatelecom_b48764700b.tgz"
+				},
+				{
+					"miui": "V14.0.23.5.24.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.5.24.EP.STDEE.M17_323bf63f76_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.5.24.EP.STDEE.M17_20230524.0000.00_13.0_cn_a92484b488.tgz"
+				},
+				{
+					"miui": "V14.0.23.5.24.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.5.24.EP.STDEE.M17_323bf63f76_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.5.24.EP.STDEE.M17_20230524.0000.00_13.0_cn_chinatelecom_2b08a65aa3.tgz"
+				},
+				{
+					"miui": "V14.0.23.4.6.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.4.6.EP.STDEE.M17_615c065a5d_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.4.6.EP.STDEE.M17_20230406.0000.00_13.0_cn_08f7455dfd.tgz"
+				},
+				{
+					"miui": "V14.0.23.4.6.EP.STDEE.M17",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V14.0.23.4.6.EP.STDEE.M17_615c065a5d_13.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V14.0.23.4.6.EP.STDEE.M17_20230406.0000.00_13.0_cn_chinatelecom_2397453ad2.tgz"
+				},
+				{
+					"miui": "V13.0.23.3.22.EP.STDEE.M17",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V13.0.23.3.22.EP.STDEE.M17_fc2a146e93_12.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V13.0.23.3.22.EP.STDEE.M17_20230322.0000.00_12.0_cn_65c71c36de.tgz"
+				},
+				{
+					"miui": "V13.0.23.3.7.EP.STDEE.M17",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V13.0.23.3.7.EP.STDEE.M17_cb9fd122b1_12.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V13.0.23.3.7.EP.STDEE.M17_20230306.0000.00_12.0_cn_59f22bbf4c.tgz"
+				},
+				{
+					"miui": "V13.0.23.2.23.EP.STDEE.M17",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEEPSTDEE_V13.0.23.2.23.EP.STDEE.M17_164c6d599a_12.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_V13.0.23.2.23.EP.STDEE.M17_20230223.0000.00_12.0_cn_d1b78b4a80.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone_ep_tkgwdl",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "tkgw",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆TKGWDL",
+			"enname": "China Mainland TKGWDL",
+			"links": [
+				{
+					"miui": "V14.0.23.9.12.EP.TKGWDL.M17X",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPTKGWDL_V14.0.23.9.12.EP.TKGWDL.M17X_0e2a3628a2_13.0.zip",
+					"fastboot": "sunstone_ep_tkgwdl_images_V14.0.23.9.12.EP.TKGWDL.M17X_20230912.0000.00_13.0_cn_39289519ce.tgz"
+				},
+				{
+					"miui": "V14.0.23.9.12.EP.TKGWDL.M17X",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEPTKGWDL_V14.0.23.9.12.EP.TKGWDL.M17X_0e2a3628a2_13.0.zip",
+					"fastboot": "sunstone_ep_tkgwdl_images_V14.0.23.9.12.EP.TKGWDL.M17X_20230912.0000.00_13.0_cn_chinatelecom_f2424304a2.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TMQTWXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONETWGlobal_V14.0.3.0.TMQTWXM_a4d3dd27a0_13.0.zip",
+					"fastboot": "sunstone_tw_global_images_V14.0.3.0.TMQTWXM_20231110.0000.00_13.0_tw_a7a1c6a305.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TMQTWXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONETWGlobal_V14.0.1.0.TMQTWXM_eeff15e6ce_13.0.zip",
+					"fastboot": "sunstone_tw_global_images_V14.0.1.0.TMQTWXM_20230705.0000.00_13.0_tw_25582e824e.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.SMQTWXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONETWGlobal_V14.0.3.0.SMQTWXM_44f3fcc553_12.0.zip",
+					"fastboot": "sunstone_tw_global_images_V14.0.3.0.SMQTWXM_20230331.0000.00_12.0_global_cd4047fc7f.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.SMQTWXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONETWGlobal_V14.0.1.0.SMQTWXM_0593129e17_12.0.zip",
+					"fastboot": "sunstone_tw_global_images_V14.0.1.0.SMQTWXM_20230110.0000.00_12.0_global_f591c64f24.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TMQMIXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEGlobal_V14.0.6.0.TMQMIXM_5e7ecd5eec_13.0.zip",
+					"fastboot": "sunstone_global_images_V14.0.6.0.TMQMIXM_20231102.0000.00_13.0_global_37cabef240.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMQMIXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEGlobal_V14.0.5.0.TMQMIXM_3536c9f974_13.0.zip",
+					"fastboot": "sunstone_global_images_V14.0.5.0.TMQMIXM_20230802.0000.00_13.0_global_178045d4de.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMQMIXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEGlobal_V14.0.4.0.TMQMIXM_dd8266c06b_13.0.zip",
+					"fastboot": "sunstone_global_images_V14.0.4.0.TMQMIXM_20230620.0000.00_13.0_global_5b690b0d5c.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMQMIXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEGlobal_V14.0.3.0.TMQMIXM_91ab4cb188_13.0.zip",
+					"fastboot": "sunstone_global_images_V14.0.3.0.TMQMIXM_20230523.0000.00_13.0_global_4b725aa2d3.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.SMQMIXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEGlobal_V14.0.6.0.SMQMIXM_334cf81b68_12.0.zip",
+					"fastboot": "sunstone_global_images_V14.0.6.0.SMQMIXM_20230420.0000.00_12.0_global_087f0ffa04.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.SMQMIXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEGlobal_V14.0.5.0.SMQMIXM_7cebf3e108_12.0.zip",
+					"fastboot": "sunstone_global_images_V14.0.5.0.SMQMIXM_20230329.0000.00_12.0_global_b8189b8fe0.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.SMQMIXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEGlobal_V14.0.2.0.SMQMIXM_c4d02a0348_12.0.zip",
+					"fastboot": "sunstone_global_images_V14.0.2.0.SMQMIXM_20230111.0000.00_12.0_global_2b8ab4ddb3.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TMQEUXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEEAGlobal_V14.0.5.0.TMQEUXM_7a94e186fd_13.0.zip",
+					"fastboot": "sunstone_eea_global_images_V14.0.5.0.TMQEUXM_20231117.0000.00_13.0_eea_eabc58be11.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMQEUXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEEAGlobal_V14.0.4.0.TMQEUXM_304f5be0b6_13.0.zip",
+					"fastboot": "sunstone_eea_global_images_V14.0.4.0.TMQEUXM_20230828.0000.00_13.0_eea_95fcb3008b.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMQEUXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEEAGlobal_V14.0.3.0.TMQEUXM_6c9d709926_13.0.zip",
+					"fastboot": "sunstone_eea_global_images_V14.0.3.0.TMQEUXM_20230618.0000.00_13.0_eea_4abed96cc0.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMQEUXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEEEAGlobal_V14.0.2.0.TMQEUXM_bc85ab2d4e_13.0.zip",
+					"fastboot": "sunstone_eea_global_images_V14.0.2.0.TMQEUXM_20230523.0000.00_13.0_eea_e9e1dbe17e.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.SMQEUXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEEEAGlobal_V14.0.7.0.SMQEUXM_c762988963_12.0.zip",
+					"fastboot": "sunstone_eea_global_images_V14.0.7.0.SMQEUXM_20230425.0000.00_12.0_eea_d508730340.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.SMQEUXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEEEAGlobal_V14.0.6.0.SMQEUXM_85ffd31644_12.0.zip",
+					"fastboot": "sunstone_eea_global_images_V14.0.6.0.SMQEUXM_20230324.0000.00_12.0_eea_45cd8be0e0.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.SMQEUXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEEEAGlobal_V14.0.4.0.SMQEUXM_28fd553f3c_12.0.zip",
+					"fastboot": "sunstone_eea_global_images_V14.0.4.0.SMQEUXM_20230207.0000.00_12.0_eea_4107c2a264.tgz"
+				}
+			]
+		},
+		{
+			"code": "sunstone_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TMQINXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEINGlobal_V14.0.4.0.TMQINXM_6581e78c30_13.0.zip",
+					"fastboot": "sunstone_in_global_images_V14.0.4.0.TMQINXM_20231109.0000.00_13.0_in_0ec7f33c83.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMQINXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEINGlobal_V14.0.3.0.TMQINXM_9c8c12b1a7_13.0.zip",
+					"fastboot": "sunstone_in_global_images_V14.0.3.0.TMQINXM_20230816.0000.00_13.0_in_679ab20651.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMQINXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEINGlobal_V14.0.2.0.TMQINXM_2a22a38aaf_13.0.zip",
+					"fastboot": "sunstone_in_global_images_V14.0.2.0.TMQINXM_20230618.0000.00_13.0_in_7f4bfbad2b.tgz"
+				},
+				{
+					"miui": "V13.0.11.0.SMQINXM",
+					"android": "13.0",
+					"recovery": "miui_SUNSTONEINGlobal_V13.0.11.0.SMQINXM_c5376a062f_12.0.zip",
+					"fastboot": "sunstone_in_global_images_V13.0.11.0.SMQINXM_20230324.0000.00_12.0_in_5f7606bf74.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SMQINXM",
+					"android": "12.0",
+					"recovery": "miui_SUNSTONEINGlobal_V13.0.7.0.SMQINXM_96ecfd55d0_12.0.zip",
+					"fastboot": "sunstone_in_global_images_V13.0.7.0.SMQINXM_20230210.0000.00_12.0_in_17133dc219.tgz"
+				}
+			]
+		}
+	]
 }

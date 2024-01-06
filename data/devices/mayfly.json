@@ -1,667 +1,663 @@
 {
-  "codename": "mayfly",
-  "cnname": "小米 12S",
-  "enname": "Xiaomi 12S",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "38055264",
-  "ismiui":"0",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "443"
-  ],
-  "cbid": [
-    "441"
-  ],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"mayfly",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.10.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.10.15.DEV_c758b4577d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.10.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.10.8.DEV_5c57c04da1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.9.18.DEV_f7cd1b0b8d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.9.11.DEV_4dfa21ea24_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.4.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.9.4.DEV_991d7fbcfe_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.8.28.DEV_80ba8aaf93_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.8.21.DEV_0094388862_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.14.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.8.14.DEV_56b73356f2_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.8.7.DEV_c1786f9db1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.7.31.DEV_448657abc3_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.7.24.DEV_2e7fd62e33_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.7.17.DEV_f9ed5fc8f0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.7.10.DEV_c28b4a8fe1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.7.3.DEV_bc726f038e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.6.26.DEV_e2f18b5749_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.6.8.DEV_7670397a6a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.6.5.DEV_b568f86a75_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.5.29.DEV_8d7b34256b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.5.22.DEV_fd45577076_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.5.15.DEV_2c836dc571_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.5.8.DEV_d850b13d51_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.4.25.DEV_9727b307d5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.4.17.DEV_9e97b1ff14_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.4.10.DEV_c454a23170_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.4.2.DEV_84741236cc_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.3.27.DEV_388fadcccf_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.20.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.3.20.DEV_e3479eb7e2_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.3.13.DEV_5cb425f3c6_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.3.7.DEV_2191a3c4e4_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.2.27.DEV_d0544dc0d8_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.2.21.DEV_41e4bad85c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.2.13.DEV_c133b9cbf0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.2.6.DEV_a817919100_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.1.30.DEV_cc1b793156_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.1.9.DEV_e63cefcd3e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.23.1.3.DEV_585dd90738_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.22.12.26.DEV_492b853818_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.22.12.19.DEV_0f55d9954a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.22.12.8.DEV_89c5421767_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.22.12.5.DEV_1ac01f9c78_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_085cddb1a5.tgz"
-        },
-        {
-          "miui": "V13.1.22.10.24.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.10.24.DEV_3e94201711_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.17.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.10.17.DEV_b8ca9ad3b0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.11.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.10.11.DEV_c9c0621a2a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.9.28.DEV_4900216fc4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.19.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.9.19.DEV_331ec58131_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.12.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.9.12.DEV_5cdcab8db5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.9.5.DEV_aa40e9eaca_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.8.29.DEV_4a6c02db38_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.8.22.DEV_ea66cb3d38_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.1.22.8.16.DEV_20f99d0b8c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.59.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.0.1.59.DEV_9977d6f628_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.56.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.0.1.56.DEV_c93d365d06_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.55.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.0.1.55.DEV_bbd8dd85ef_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.51.DEV",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.0.1.51.DEV_54c4ab6045_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.0.1.51.DEV_20220719.0000.00_12.0_cn_ef69015bc7.tgz"
-        }
-      ]
-    },
-    {
-      "code":"mayfly",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.11.0.TLTCNXM_df28bdbf98_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.11.0.TLTCNXM_20231123.0000.00_13.0_cn_b18d163dfd.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.10.0.TLTCNXM_d6b46c9130_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.10.0.TLTCNXM_20230825.0000.00_13.0_cn_9a7b296e19.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.9.0.TLTCNXM_2587764434_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.9.0.TLTCNXM_20230613.0000.00_13.0_cn_188c9e18e9.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.8.0.TLTCNXM_48682b1e6d_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.8.0.TLTCNXM_20230330.0000.00_13.0_cn_98a639f35d.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.7.0.TLTCNXM_99ecf04ccb_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.7.0.TLTCNXM_20230210.0000.00_13.0_cn_9b04c85dc0.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.5.0.TLTCNXM_c9b9d9dadb_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.5.0.TLTCNXM_20230109.0000.00_13.0_cn_43d1798155.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.4.0.TLTCNXM_53f81d8553_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.3.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.3.0.TLTCNXM_f54e20687e_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.3.0.TLTCNXM_20221213.0000.00_13.0_cn_d191149baf.tgz"
-        }
-      ]
-    },
-    {
-      "code":"mayfly",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.0.20.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.20.0.SLTCNXM_9d035657a1_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.20.0.SLTCNXM_20221013.0000.00_12.0_cn_89be1b26b5.tgz"
-        },
-        {
-          "miui": "V13.0.18.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.18.0.SLTCNXM_c58e371576_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.18.0.SLTCNXM_20220816.0000.00_12.0_cn_4d906b7d25.tgz"
-        },
-        {
-          "miui": "V13.0.17.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.17.0.SLTCNXM_b1f05ac44b_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.17.0.SLTCNXM_20220805.0000.00_12.0_cn_87fe74e508.tgz"
-        },
-        {
-          "miui": "V13.0.16.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.16.0.SLTCNXM_c042c635f3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.14.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.14.0.SLTCNXM_ab8b71c9e5_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.14.0.SLTCNXM_20220721.0000.00_12.0_cn_0768913a3a.tgz"
-        },
-        {
-          "miui": "V13.0.12.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.12.0.SLTCNXM_31879da7f9_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.12.0.SLTCNXM_20220708.0000.00_12.0_cn_b2bebce142.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.10.0.SLTCNXM_23590222e8_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.10.0.SLTCNXM_20220704.0000.00_12.0_cn_84cc835a28.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.8.0.SLTCNXM_71719fe7f6_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.8.0.SLTCNXM_20220627.0000.00_12.0_cn_73e865011c.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.7.0.SLTCNXM_58e8f672e2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.6.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.6.0.SLTCNXM_28abc4932e_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.6.0.SLTCNXM_20220624.0000.00_12.0_cn_fea2fd8d27.tgz"
-        }
-      ]
-    },
-    {
-      "code":"mayfly_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TLTCNDM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLYDEMO_V14.0.1.0.TLTCNDM_1b94ab5c18_13.0.zip",
-          "fastboot": "mayfly_demo_images_V14.0.1.0.TLTCNDM_20230330.0000.00_13.0_cn_18c524d7db.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLTCNDM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLYDEMO_V14.0.1.0.TLTCNDM_1b94ab5c18_13.0.zip",
-          "fastboot": "mayfly_demo_images_V14.0.1.0.TLTCNDM_20230330.0000.00_13.0_cn_chinatelecom_128275f63a.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLTCNDM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLYDEMO_V13.0.4.0.SLTCNDM_076ecdceb5_12.0.zip",
-          "fastboot": "mayfly_demo_images_V13.0.4.0.SLTCNDM_20221107.0000.00_12.0_cn_fa686b3be5.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLTCNDM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLYDEMO_V13.0.4.0.SLTCNDM_076ecdceb5_12.0.zip",
-          "fastboot": "mayfly_demo_images_V13.0.4.0.SLTCNDM_20221107.0000.00_12.0_cn_chinamobile_f2f68ae0de.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLTCNDM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLYDEMO_V13.0.4.0.SLTCNDM_076ecdceb5_12.0.zip",
-          "fastboot": "mayfly_demo_images_V13.0.4.0.SLTCNDM_20221107.0000.00_12.0_cn_chinatelecom_0c26994d27.tgz"
-        }
-      ]
-    },
-    {
-      "code":"mayfly",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.11.0.TLTCNXM_df28bdbf98_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.11.0.TLTCNXM_20231123.0000.00_13.0_cn_chinatelecom_b5dfd8e415.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.10.0.TLTCNXM_d6b46c9130_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.10.0.TLTCNXM_20230825.0000.00_13.0_cn_chinatelecom_2413366202.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.9.0.TLTCNXM_2587764434_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.9.0.TLTCNXM_20230613.0000.00_13.0_cn_chinatelecom_30b51a7dc2.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.8.0.TLTCNXM_48682b1e6d_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.8.0.TLTCNXM_20230330.0000.00_13.0_cn_chinatelecom_58847c9c76.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.7.0.TLTCNXM_99ecf04ccb_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.7.0.TLTCNXM_20230210.0000.00_13.0_cn_chinatelecom_3e5b64cc63.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.5.0.TLTCNXM_c9b9d9dadb_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.5.0.TLTCNXM_20230109.0000.00_13.0_cn_chinatelecom_3068d1fd22.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLTCNXM",
-          "android": "13.0",
-          "recovery": "miui_MAYFLY_V14.0.3.0.TLTCNXM_f54e20687e_13.0.zip",
-          "fastboot": "mayfly_images_V14.0.3.0.TLTCNXM_20221213.0000.00_13.0_cn_chinatelecom_80d2ceadda.tgz"
-        },
-        {
-          "miui": "V13.0.20.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.20.0.SLTCNXM_9d035657a1_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.20.0.SLTCNXM_20221013.0000.00_12.0_cn_chinatelecom_662b925fe0.tgz"
-        },
-        {
-          "miui": "V13.0.18.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.18.0.SLTCNXM_c58e371576_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.18.0.SLTCNXM_20220816.0000.00_12.0_cn_chinatelecom_1181e024ea.tgz"
-        },
-        {
-          "miui": "V13.0.17.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.17.0.SLTCNXM_b1f05ac44b_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.17.0.SLTCNXM_20220805.0000.00_12.0_cn_chinatelecom_2ebeb25a36.tgz"
-        },
-        {
-          "miui": "V13.0.16.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.16.0.SLTCNXM_c042c635f3_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.16.0.SLTCNXM_20220801.0000.00_12.0_cn_chinatelecom_f2fa64abd7.tgz"
-        },
-        {
-          "miui": "V13.0.14.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.14.0.SLTCNXM_ab8b71c9e5_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.14.0.SLTCNXM_20220721.0000.00_12.0_cn_chinatelecom_420ba8a830.tgz"
-        },
-        {
-          "miui": "V13.0.12.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.12.0.SLTCNXM_31879da7f9_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.12.0.SLTCNXM_20220708.0000.00_12.0_cn_chinatelecom_8f6b8b44f0.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.10.0.SLTCNXM_23590222e8_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.10.0.SLTCNXM_20220704.0000.00_12.0_cn_chinatelecom_3fee310424.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.8.0.SLTCNXM_71719fe7f6_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.8.0.SLTCNXM_20220627.0000.00_12.0_cn_chinatelecom_9b615f23d4.tgz"
-        }
-      ]
-    },
-    {
-      "code":"mayfly",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.20.0.SLTCNXM",
-          "android": "12.0",
-          "recovery": "miui_MAYFLY_V13.0.20.0.SLTCNXM_9d035657a1_12.0.zip",
-          "fastboot": "mayfly_images_V13.0.20.0.SLTCNXM_20221013.0000.00_12.0_cn_chinamobile_12f2fd7197.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "mayfly",
+	"cnname": "小米 12S",
+	"enname": "Xiaomi 12S",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "38055264",
+	"ismiui": "0",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["443"],
+	"cbid": ["441"],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "mayfly",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.10.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.10.15.DEV_c758b4577d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.10.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.10.8.DEV_5c57c04da1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.9.18.DEV_f7cd1b0b8d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.9.11.DEV_4dfa21ea24_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.4.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.9.4.DEV_991d7fbcfe_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.8.28.DEV_80ba8aaf93_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.8.21.DEV_0094388862_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.14.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.8.14.DEV_56b73356f2_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.8.7.DEV_c1786f9db1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.7.31.DEV_448657abc3_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.7.24.DEV_2e7fd62e33_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.7.17.DEV_f9ed5fc8f0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.7.10.DEV_c28b4a8fe1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.7.3.DEV_bc726f038e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.6.26.DEV_e2f18b5749_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.6.8.DEV_7670397a6a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.6.5.DEV_b568f86a75_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.5.29.DEV_8d7b34256b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.5.22.DEV_fd45577076_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.5.15.DEV_2c836dc571_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.5.8.DEV_d850b13d51_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.4.25.DEV_9727b307d5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.4.17.DEV_9e97b1ff14_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.4.10.DEV_c454a23170_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.4.2.DEV_84741236cc_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.3.27.DEV_388fadcccf_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.20.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.3.20.DEV_e3479eb7e2_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.3.13.DEV_5cb425f3c6_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.3.7.DEV_2191a3c4e4_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.2.27.DEV_d0544dc0d8_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.2.21.DEV_41e4bad85c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.2.13.DEV_c133b9cbf0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.2.6.DEV_a817919100_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.1.30.DEV_cc1b793156_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.1.9.DEV_e63cefcd3e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.23.1.3.DEV_585dd90738_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.22.12.26.DEV_492b853818_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.22.12.19.DEV_0f55d9954a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.22.12.8.DEV_89c5421767_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.22.12.5.DEV_1ac01f9c78_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_085cddb1a5.tgz"
+				},
+				{
+					"miui": "V13.1.22.10.24.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.10.24.DEV_3e94201711_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.17.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.10.17.DEV_b8ca9ad3b0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.10.11.DEV_c9c0621a2a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.9.28.DEV_4900216fc4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.19.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.9.19.DEV_331ec58131_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.12.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.9.12.DEV_5cdcab8db5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.9.5.DEV_aa40e9eaca_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.8.29.DEV_4a6c02db38_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.8.22.DEV_ea66cb3d38_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.1.22.8.16.DEV_20f99d0b8c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.59.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.0.1.59.DEV_9977d6f628_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.56.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.0.1.56.DEV_c93d365d06_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.55.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.0.1.55.DEV_bbd8dd85ef_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.51.DEV",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.0.1.51.DEV_54c4ab6045_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.0.1.51.DEV_20220719.0000.00_12.0_cn_ef69015bc7.tgz"
+				}
+			]
+		},
+		{
+			"code": "mayfly",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.11.0.TLTCNXM_df28bdbf98_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.11.0.TLTCNXM_20231123.0000.00_13.0_cn_b18d163dfd.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.10.0.TLTCNXM_d6b46c9130_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.10.0.TLTCNXM_20230825.0000.00_13.0_cn_9a7b296e19.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.9.0.TLTCNXM_2587764434_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.9.0.TLTCNXM_20230613.0000.00_13.0_cn_188c9e18e9.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.8.0.TLTCNXM_48682b1e6d_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.8.0.TLTCNXM_20230330.0000.00_13.0_cn_98a639f35d.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.7.0.TLTCNXM_99ecf04ccb_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.7.0.TLTCNXM_20230210.0000.00_13.0_cn_9b04c85dc0.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.5.0.TLTCNXM_c9b9d9dadb_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.5.0.TLTCNXM_20230109.0000.00_13.0_cn_43d1798155.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.4.0.TLTCNXM_53f81d8553_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.3.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.3.0.TLTCNXM_f54e20687e_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.3.0.TLTCNXM_20221213.0000.00_13.0_cn_d191149baf.tgz"
+				}
+			]
+		},
+		{
+			"code": "mayfly",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.0.20.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.20.0.SLTCNXM_9d035657a1_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.20.0.SLTCNXM_20221013.0000.00_12.0_cn_89be1b26b5.tgz"
+				},
+				{
+					"miui": "V13.0.18.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.18.0.SLTCNXM_c58e371576_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.18.0.SLTCNXM_20220816.0000.00_12.0_cn_4d906b7d25.tgz"
+				},
+				{
+					"miui": "V13.0.17.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.17.0.SLTCNXM_b1f05ac44b_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.17.0.SLTCNXM_20220805.0000.00_12.0_cn_87fe74e508.tgz"
+				},
+				{
+					"miui": "V13.0.16.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.16.0.SLTCNXM_c042c635f3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.14.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.14.0.SLTCNXM_ab8b71c9e5_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.14.0.SLTCNXM_20220721.0000.00_12.0_cn_0768913a3a.tgz"
+				},
+				{
+					"miui": "V13.0.12.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.12.0.SLTCNXM_31879da7f9_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.12.0.SLTCNXM_20220708.0000.00_12.0_cn_b2bebce142.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.10.0.SLTCNXM_23590222e8_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.10.0.SLTCNXM_20220704.0000.00_12.0_cn_84cc835a28.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.8.0.SLTCNXM_71719fe7f6_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.8.0.SLTCNXM_20220627.0000.00_12.0_cn_73e865011c.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.7.0.SLTCNXM_58e8f672e2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.6.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.6.0.SLTCNXM_28abc4932e_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.6.0.SLTCNXM_20220624.0000.00_12.0_cn_fea2fd8d27.tgz"
+				}
+			]
+		},
+		{
+			"code": "mayfly_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TLTCNDM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLYDEMO_V14.0.1.0.TLTCNDM_1b94ab5c18_13.0.zip",
+					"fastboot": "mayfly_demo_images_V14.0.1.0.TLTCNDM_20230330.0000.00_13.0_cn_18c524d7db.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLTCNDM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLYDEMO_V14.0.1.0.TLTCNDM_1b94ab5c18_13.0.zip",
+					"fastboot": "mayfly_demo_images_V14.0.1.0.TLTCNDM_20230330.0000.00_13.0_cn_chinatelecom_128275f63a.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLTCNDM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLYDEMO_V13.0.4.0.SLTCNDM_076ecdceb5_12.0.zip",
+					"fastboot": "mayfly_demo_images_V13.0.4.0.SLTCNDM_20221107.0000.00_12.0_cn_fa686b3be5.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLTCNDM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLYDEMO_V13.0.4.0.SLTCNDM_076ecdceb5_12.0.zip",
+					"fastboot": "mayfly_demo_images_V13.0.4.0.SLTCNDM_20221107.0000.00_12.0_cn_chinamobile_f2f68ae0de.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLTCNDM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLYDEMO_V13.0.4.0.SLTCNDM_076ecdceb5_12.0.zip",
+					"fastboot": "mayfly_demo_images_V13.0.4.0.SLTCNDM_20221107.0000.00_12.0_cn_chinatelecom_0c26994d27.tgz"
+				}
+			]
+		},
+		{
+			"code": "mayfly",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.11.0.TLTCNXM_df28bdbf98_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.11.0.TLTCNXM_20231123.0000.00_13.0_cn_chinatelecom_b5dfd8e415.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.10.0.TLTCNXM_d6b46c9130_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.10.0.TLTCNXM_20230825.0000.00_13.0_cn_chinatelecom_2413366202.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.9.0.TLTCNXM_2587764434_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.9.0.TLTCNXM_20230613.0000.00_13.0_cn_chinatelecom_30b51a7dc2.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.8.0.TLTCNXM_48682b1e6d_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.8.0.TLTCNXM_20230330.0000.00_13.0_cn_chinatelecom_58847c9c76.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.7.0.TLTCNXM_99ecf04ccb_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.7.0.TLTCNXM_20230210.0000.00_13.0_cn_chinatelecom_3e5b64cc63.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.5.0.TLTCNXM_c9b9d9dadb_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.5.0.TLTCNXM_20230109.0000.00_13.0_cn_chinatelecom_3068d1fd22.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLTCNXM",
+					"android": "13.0",
+					"recovery": "miui_MAYFLY_V14.0.3.0.TLTCNXM_f54e20687e_13.0.zip",
+					"fastboot": "mayfly_images_V14.0.3.0.TLTCNXM_20221213.0000.00_13.0_cn_chinatelecom_80d2ceadda.tgz"
+				},
+				{
+					"miui": "V13.0.20.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.20.0.SLTCNXM_9d035657a1_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.20.0.SLTCNXM_20221013.0000.00_12.0_cn_chinatelecom_662b925fe0.tgz"
+				},
+				{
+					"miui": "V13.0.18.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.18.0.SLTCNXM_c58e371576_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.18.0.SLTCNXM_20220816.0000.00_12.0_cn_chinatelecom_1181e024ea.tgz"
+				},
+				{
+					"miui": "V13.0.17.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.17.0.SLTCNXM_b1f05ac44b_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.17.0.SLTCNXM_20220805.0000.00_12.0_cn_chinatelecom_2ebeb25a36.tgz"
+				},
+				{
+					"miui": "V13.0.16.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.16.0.SLTCNXM_c042c635f3_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.16.0.SLTCNXM_20220801.0000.00_12.0_cn_chinatelecom_f2fa64abd7.tgz"
+				},
+				{
+					"miui": "V13.0.14.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.14.0.SLTCNXM_ab8b71c9e5_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.14.0.SLTCNXM_20220721.0000.00_12.0_cn_chinatelecom_420ba8a830.tgz"
+				},
+				{
+					"miui": "V13.0.12.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.12.0.SLTCNXM_31879da7f9_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.12.0.SLTCNXM_20220708.0000.00_12.0_cn_chinatelecom_8f6b8b44f0.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.10.0.SLTCNXM_23590222e8_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.10.0.SLTCNXM_20220704.0000.00_12.0_cn_chinatelecom_3fee310424.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.8.0.SLTCNXM_71719fe7f6_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.8.0.SLTCNXM_20220627.0000.00_12.0_cn_chinatelecom_9b615f23d4.tgz"
+				}
+			]
+		},
+		{
+			"code": "mayfly",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.20.0.SLTCNXM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLY_V13.0.20.0.SLTCNXM_9d035657a1_12.0.zip",
+					"fastboot": "mayfly_images_V13.0.20.0.SLTCNXM_20221013.0000.00_12.0_cn_chinamobile_12f2fd7197.tgz"
+				}
+			]
+		}
+	]
 }

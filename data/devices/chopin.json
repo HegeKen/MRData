@@ -9,7 +9,7 @@
     }
   ],
   "cdid": "26819709",
-  "ismiui":"1",
+  "ismiui": "1",
   "ccshow": "1",
   "cbshow": "1",
   "csid": [
@@ -22,14 +22,19 @@
   "pcid": "29227",
   "branches": [
     {
-      "code":"chopin",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "chopin",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cnmp",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -1332,14 +1337,19 @@
       ]
     },
     {
-      "code":"chopin_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "chopin_demo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cndm",
-      "zone":"1",
+      "zone": "1",
       "show": "0",
-      "ep":"1",
+      "ep": "1",
       "cnname": "中国大陆Demo",
       "enname": "China Mainland Demo Stable",
       "links": [
@@ -1370,14 +1380,14 @@
       ]
     },
     {
-      "code":"chopin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "chopin",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnmo",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -1414,14 +1424,14 @@
       ]
     },
     {
-      "code":"chopin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "chopin",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -1524,14 +1534,16 @@
       ]
     },
     {
-      "code":"chopin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
+      "code": "chopin",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "branch": "ctce",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -1568,14 +1580,16 @@
       ]
     },
     {
-      "code":"chopin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "chopin",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -1594,14 +1608,16 @@
       ]
     },
     {
-      "code":"chopin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinaunicom"],
+      "code": "chopin",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinaunicom"
+      ],
       "branch": "ctcu",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国联通定制版",
       "enname": "China Unicom Carrier Edition",
       "links": [
@@ -1614,14 +1630,19 @@
       ]
     },
     {
-      "code":"chopin_ep_kywl",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "chopin_ep_kywl",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "kywl",
-      "zone":"1",
+      "zone": "1",
       "show": "0",
-      "ep":"1",
+      "ep": "1",
       "cnname": "中国大陆KYWL",
       "enname": "China Mainland KYWL",
       "links": [
@@ -1634,14 +1655,14 @@
       ]
     },
     {
-      "code":"chopin_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "chopin_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mgbs",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -1732,14 +1753,14 @@
       ]
     },
     {
-      "code":"chopin_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
+      "code": "chopin_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
       "branch": "inns",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -1824,14 +1845,14 @@
       ]
     },
     {
-      "code":"chopin_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
+      "code": "chopin_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
       "branch": "trks",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [

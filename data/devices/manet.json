@@ -1,61 +1,61 @@
 {
-  "codename": "manet",
-  "cnname": "Redmi K70 Pro",
-  "enname": "Redmi K70 Pro",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"manet",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "OS1.0.0.1.UNMCNXM",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"manet_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"0",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "OS1.0.0.1.UNMCNDM",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    }
-  ]
+	"codename": "manet",
+	"cnname": "Redmi K70 Pro",
+	"enname": "Redmi K70 Pro",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "manet",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "OS1.0.0.1.UNMCNXM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "manet_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "0",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "OS1.0.0.1.UNMCNDM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		}
+	]
 }

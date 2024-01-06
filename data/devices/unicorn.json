@@ -1,651 +1,647 @@
 {
-  "codename": "unicorn",
-  "cnname": "小米 12S Pro",
-  "enname": "Xiaomi 12S Pro",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "38055264",
-  "ismiui":"0",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "445"
-  ],
-  "cbid": [
-    "440"
-  ],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"unicorn",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.10.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.10.15.DEV_82ffa09909_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.10.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.10.8.DEV_a8f0844227_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.9.18.DEV_db71832a76_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.9.11.DEV_7eab08fa56_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.4.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.9.4.DEV_31722766ea_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.8.28.DEV_2291e5cfb9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.8.21.DEV_ad7a4f1672_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.14.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.8.14.DEV_137cdd16bf_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.8.7.DEV_38b56fbbfe_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.7.31.DEV_3737715db9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.7.24.DEV_98e6151c0a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.7.17.DEV_61097401a2_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.7.10.DEV_f9f8713262_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.7.3.DEV_cf72b83208_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.6.26.DEV_28003aed44_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.6.8.DEV_3ce4f63a01_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.6.5.DEV_65a96f3eec_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.5.29.DEV_c6c38b926c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.5.22.DEV_bc6ddfb5e7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.5.15.DEV_2669be042b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.5.8.DEV_0b8305266d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.4.25.DEV_cde145c784_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.4.17.DEV_eb88bd9cd0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.4.10.DEV_de7ba4ac1f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.4.2.DEV_761de9a4a5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.3.27.DEV_b1e8c9416b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.20.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.3.20.DEV_6966fd2f41_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.3.13.DEV_74794dff06_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.3.7.DEV_918df9534b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.2.27.DEV_d357d33f7c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.2.21.DEV_c628608494_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.2.13.DEV_8d5e46f4d0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.2.6.DEV_1998207d7e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.1.30.DEV_252a813bc2_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.1.9.DEV_09ad731bf2_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.23.1.3.DEV_e9e06937e0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.22.12.26.DEV_53f46d8882_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.22.12.19.DEV_7bc940cfe5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.22.12.8.DEV_71c5fa0268_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.22.12.5.DEV_a29b4feeba_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_492d87e2cd.tgz"
-        },
-        {
-          "miui": "V13.1.22.10.24.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.10.24.DEV_964d8f8bc8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.17.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.10.17.DEV_78e833ceca_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.11.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.10.11.DEV_bd629a41dc_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.9.28.DEV_fec25b40a4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.19.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.9.19.DEV_5d7cd6f173_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.12.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.9.12.DEV_c927a99210_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.9.5.DEV_adbff46b41_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.8.29.DEV_a463516d48_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.8.22.DEV_e02f172af2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.1.22.8.16.DEV_3a128fc401_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.59.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.0.1.59.DEV_27b57d1670_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.56.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.0.1.56.DEV_417a4257b9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.55.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.0.1.55.DEV_aee361b369_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.0.1.51.DEV",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.0.1.51.DEV_00895c8cff_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.0.1.51.DEV_20220719.0000.00_12.0_cn_4e6c6224e3.tgz"
-        }
-      ]
-    },
-    {
-      "code":"unicorn",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.11.0.TLECNXM_a358061ab8_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.11.0.TLECNXM_20231123.0000.00_13.0_cn_68a0cf3542.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.10.0.TLECNXM_7de59603f2_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.10.0.TLECNXM_20230818.0000.00_13.0_cn_d06f1825ae.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.9.0.TLECNXM_72bb2a8bae_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.9.0.TLECNXM_20230609.0000.00_13.0_cn_ca3283e892.tgz"
-        },
-        {
-          "miui": "V14.0.8.2.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.8.2.TLECNXM_62a0cf79ff_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.8.2.TLECNXM_20230504.0000.00_13.0_cn_68008b9ea2.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.8.0.TLECNXM_a5f58e9088_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.8.0.TLECNXM_20230330.0000.00_13.0_cn_e2ae546964.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.7.0.TLECNXM_28340a028e_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.7.0.TLECNXM_20230210.0000.00_13.0_cn_b5000098be.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.4.0.TLECNXM_5d047a1bdd_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.4.0.TLECNXM_20230109.0000.00_13.0_cn_fde7f8f433.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.3.0.TLECNXM_9bcaa9726e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.2.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.2.0.TLECNXM_dd574a95b0_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.2.0.TLECNXM_20221207.0000.00_13.0_cn_24640fdafe.tgz"
-        }
-      ]
-    },
-    {
-      "code":"unicorn",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.0.18.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.18.0.SLECNXM_e0e8d6a1d1_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.18.0.SLECNXM_20221013.0000.00_12.0_cn_0bda59c866.tgz"
-        },
-        {
-          "miui": "V13.0.16.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.16.0.SLECNXM_5741181043_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.16.0.SLECNXM_20220815.0000.00_12.0_cn_b0041c7673.tgz"
-        },
-        {
-          "miui": "V13.0.12.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.12.0.SLECNXM_f4293e0f37_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.12.0.SLECNXM_20220809.0000.00_12.0_cn_c5bdcec8b7.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.9.0.SLECNXM_702c54672e_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.9.0.SLECNXM_20220801.0000.00_12.0_cn_f67ce2b4bd.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.7.0.SLECNXM_b29599f478_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.7.0.SLECNXM_20220704.0000.00_12.0_cn_da8d55e153.tgz"
-        }
-      ]
-    },
-    {
-      "code":"unicorn",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.11.0.TLECNXM_a358061ab8_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.11.0.TLECNXM_20231123.0000.00_13.0_cn_chinatelecom_a6f2daffd2.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.10.0.TLECNXM_7de59603f2_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.10.0.TLECNXM_20230818.0000.00_13.0_cn_chinatelecom_d1d2318599.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.9.0.TLECNXM_72bb2a8bae_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.9.0.TLECNXM_20230609.0000.00_13.0_cn_chinatelecom_f420b56c29.tgz"
-        },
-        {
-          "miui": "V14.0.8.2.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.8.2.TLECNXM_62a0cf79ff_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.8.2.TLECNXM_20230504.0000.00_13.0_cn_chinatelecom_4eb25baa07.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.8.0.TLECNXM_a5f58e9088_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.8.0.TLECNXM_20230330.0000.00_13.0_cn_chinatelecom_e475b37599.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.7.0.TLECNXM_28340a028e_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.7.0.TLECNXM_20230210.0000.00_13.0_cn_chinatelecom_2d1c8ff736.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.4.0.TLECNXM_5d047a1bdd_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.4.0.TLECNXM_20230109.0000.00_13.0_cn_chinatelecom_fbf5d3dc3a.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLECNXM",
-          "android": "13.0",
-          "recovery": "miui_UNICORN_V14.0.2.0.TLECNXM_dd574a95b0_13.0.zip",
-          "fastboot": "unicorn_images_V14.0.2.0.TLECNXM_20221207.0000.00_13.0_cn_chinatelecom_d1b899d55a.tgz"
-        },
-        {
-          "miui": "V13.0.18.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.18.0.SLECNXM_e0e8d6a1d1_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.18.0.SLECNXM_20221013.0000.00_12.0_cn_chinatelecom_d52b112f7a.tgz"
-        },
-        {
-          "miui": "V13.0.16.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.16.0.SLECNXM_5741181043_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.16.0.SLECNXM_20220815.0000.00_12.0_cn_chinatelecom_195f456c5c.tgz"
-        },
-        {
-          "miui": "V13.0.12.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.12.0.SLECNXM_f4293e0f37_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.12.0.SLECNXM_20220809.0000.00_12.0_cn_chinatelecom_e630afdbae.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.9.0.SLECNXM_702c54672e_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.9.0.SLECNXM_20220801.0000.00_12.0_cn_chinatelecom_69d24fb0bd.tgz"
-        }
-      ]
-    },
-    {
-      "code":"unicorn",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.18.0.SLECNXM",
-          "android": "12.0",
-          "recovery": "miui_UNICORN_V13.0.18.0.SLECNXM_e0e8d6a1d1_12.0.zip",
-          "fastboot": "unicorn_images_V13.0.18.0.SLECNXM_20221013.0000.00_12.0_cn_chinamobile_acaba95419.tgz"
-        }
-      ]
-    },
-    {
-      "code":"unicorn_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V13.0.8.0.SLECNDM",
-          "android": "12.0",
-          "recovery": "miui_UNICORNDEMO_V13.0.8.0.SLECNDM_ae893155f7_12.0.zip",
-          "fastboot": "unicorn_demo_images_V13.0.8.0.SLECNDM_20221107.0000.00_12.0_cn_5b7f565843.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLECNDM",
-          "android": "12.0",
-          "recovery": "miui_UNICORNDEMO_V13.0.8.0.SLECNDM_ae893155f7_12.0.zip",
-          "fastboot": "unicorn_demo_images_V13.0.8.0.SLECNDM_20221107.0000.00_12.0_cn_chinatelecom_78c5c4a440.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLECNDM",
-          "android": "12.0",
-          "recovery": "miui_UNICORNDEMO_V13.0.8.0.SLECNDM_ae893155f7_12.0.zip",
-          "fastboot": "unicorn_demo_images_V13.0.8.0.SLECNDM_20221107.0000.00_12.0_cn_chinamobile_857437fc36.tgz"
-        }
-      ]
-    },
-    {
-      "code":"unicorn_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.9.21.EP.STDEE.L2S",
-          "android": "13.0",
-          "recovery": "miui_UNICORNEPSTDEE_V14.0.23.9.21.EP.STDEE.L2S_b0ebdb04a5_13.0.zip",
-          "fastboot": "unicorn_ep_stdee_images_V14.0.23.9.21.EP.STDEE.L2S_20230921.0000.00_13.0_cn_5322775d52.tgz"
-        },
-        {
-          "miui": "V14.0.23.9.21.EP.STDEE.L2S",
-          "android": "13.0",
-          "recovery": "miui_UNICORNEPSTDEE_V14.0.23.9.21.EP.STDEE.L2S_b0ebdb04a5_13.0.zip",
-          "fastboot": "unicorn_ep_stdee_images_V14.0.23.9.21.EP.STDEE.L2S_20230921.0000.00_13.0_cn_chinatelecom_4ff3110f60.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.14.EP.STDEE.L2S",
-          "android": "13.0",
-          "recovery": "miui_UNICORNEPSTDEE_V14.0.23.6.14.EP.STDEE.L2S_71ad80d8c4_13.0.zip",
-          "fastboot": "unicorn_ep_stdee_images_V14.0.23.6.14.EP.STDEE.L2S_20230614.0000.00_13.0_cn_02114ab132.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.14.EP.STDEE.L2S",
-          "android": "13.0",
-          "recovery": "miui_UNICORNEPSTDEE_V14.0.23.6.14.EP.STDEE.L2S_71ad80d8c4_13.0.zip",
-          "fastboot": "unicorn_ep_stdee_images_V14.0.23.6.14.EP.STDEE.L2S_20230614.0000.00_13.0_cn_chinatelecom_54a90a863c.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "unicorn",
+	"cnname": "小米 12S Pro",
+	"enname": "Xiaomi 12S Pro",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "38055264",
+	"ismiui": "0",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["445"],
+	"cbid": ["440"],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "unicorn",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.10.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.10.15.DEV_82ffa09909_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.10.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.10.8.DEV_a8f0844227_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.9.18.DEV_db71832a76_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.9.11.DEV_7eab08fa56_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.4.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.9.4.DEV_31722766ea_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.8.28.DEV_2291e5cfb9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.8.21.DEV_ad7a4f1672_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.14.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.8.14.DEV_137cdd16bf_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.8.7.DEV_38b56fbbfe_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.7.31.DEV_3737715db9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.7.24.DEV_98e6151c0a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.7.17.DEV_61097401a2_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.7.10.DEV_f9f8713262_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.7.3.DEV_cf72b83208_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.6.26.DEV_28003aed44_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.6.8.DEV_3ce4f63a01_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.6.5.DEV_65a96f3eec_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.5.29.DEV_c6c38b926c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.5.22.DEV_bc6ddfb5e7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.5.15.DEV_2669be042b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.5.8.DEV_0b8305266d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.4.25.DEV_cde145c784_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.4.17.DEV_eb88bd9cd0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.4.10.DEV_de7ba4ac1f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.4.2.DEV_761de9a4a5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.3.27.DEV_b1e8c9416b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.20.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.3.20.DEV_6966fd2f41_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.3.13.DEV_74794dff06_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.3.7.DEV_918df9534b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.2.27.DEV_d357d33f7c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.2.21.DEV_c628608494_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.2.13.DEV_8d5e46f4d0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.2.6.DEV_1998207d7e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.1.30.DEV_252a813bc2_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.1.9.DEV_09ad731bf2_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.23.1.3.DEV_e9e06937e0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.22.12.26.DEV_53f46d8882_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.22.12.19.DEV_7bc940cfe5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.22.12.8.DEV_71c5fa0268_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.22.12.5.DEV_a29b4feeba_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_492d87e2cd.tgz"
+				},
+				{
+					"miui": "V13.1.22.10.24.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.10.24.DEV_964d8f8bc8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.17.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.10.17.DEV_78e833ceca_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.10.11.DEV_bd629a41dc_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.9.28.DEV_fec25b40a4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.19.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.9.19.DEV_5d7cd6f173_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.12.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.9.12.DEV_c927a99210_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.9.5.DEV_adbff46b41_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.8.29.DEV_a463516d48_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.8.22.DEV_e02f172af2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.1.22.8.16.DEV_3a128fc401_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.59.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.0.1.59.DEV_27b57d1670_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.56.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.0.1.56.DEV_417a4257b9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.55.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.0.1.55.DEV_aee361b369_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.0.1.51.DEV",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.0.1.51.DEV_00895c8cff_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.0.1.51.DEV_20220719.0000.00_12.0_cn_4e6c6224e3.tgz"
+				}
+			]
+		},
+		{
+			"code": "unicorn",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.11.0.TLECNXM_a358061ab8_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.11.0.TLECNXM_20231123.0000.00_13.0_cn_68a0cf3542.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.10.0.TLECNXM_7de59603f2_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.10.0.TLECNXM_20230818.0000.00_13.0_cn_d06f1825ae.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.9.0.TLECNXM_72bb2a8bae_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.9.0.TLECNXM_20230609.0000.00_13.0_cn_ca3283e892.tgz"
+				},
+				{
+					"miui": "V14.0.8.2.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.8.2.TLECNXM_62a0cf79ff_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.8.2.TLECNXM_20230504.0000.00_13.0_cn_68008b9ea2.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.8.0.TLECNXM_a5f58e9088_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.8.0.TLECNXM_20230330.0000.00_13.0_cn_e2ae546964.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.7.0.TLECNXM_28340a028e_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.7.0.TLECNXM_20230210.0000.00_13.0_cn_b5000098be.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.4.0.TLECNXM_5d047a1bdd_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.4.0.TLECNXM_20230109.0000.00_13.0_cn_fde7f8f433.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.3.0.TLECNXM_9bcaa9726e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.2.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.2.0.TLECNXM_dd574a95b0_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.2.0.TLECNXM_20221207.0000.00_13.0_cn_24640fdafe.tgz"
+				}
+			]
+		},
+		{
+			"code": "unicorn",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.0.18.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.18.0.SLECNXM_e0e8d6a1d1_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.18.0.SLECNXM_20221013.0000.00_12.0_cn_0bda59c866.tgz"
+				},
+				{
+					"miui": "V13.0.16.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.16.0.SLECNXM_5741181043_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.16.0.SLECNXM_20220815.0000.00_12.0_cn_b0041c7673.tgz"
+				},
+				{
+					"miui": "V13.0.12.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.12.0.SLECNXM_f4293e0f37_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.12.0.SLECNXM_20220809.0000.00_12.0_cn_c5bdcec8b7.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.9.0.SLECNXM_702c54672e_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.9.0.SLECNXM_20220801.0000.00_12.0_cn_f67ce2b4bd.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.7.0.SLECNXM_b29599f478_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.7.0.SLECNXM_20220704.0000.00_12.0_cn_da8d55e153.tgz"
+				}
+			]
+		},
+		{
+			"code": "unicorn",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.11.0.TLECNXM_a358061ab8_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.11.0.TLECNXM_20231123.0000.00_13.0_cn_chinatelecom_a6f2daffd2.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.10.0.TLECNXM_7de59603f2_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.10.0.TLECNXM_20230818.0000.00_13.0_cn_chinatelecom_d1d2318599.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.9.0.TLECNXM_72bb2a8bae_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.9.0.TLECNXM_20230609.0000.00_13.0_cn_chinatelecom_f420b56c29.tgz"
+				},
+				{
+					"miui": "V14.0.8.2.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.8.2.TLECNXM_62a0cf79ff_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.8.2.TLECNXM_20230504.0000.00_13.0_cn_chinatelecom_4eb25baa07.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.8.0.TLECNXM_a5f58e9088_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.8.0.TLECNXM_20230330.0000.00_13.0_cn_chinatelecom_e475b37599.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.7.0.TLECNXM_28340a028e_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.7.0.TLECNXM_20230210.0000.00_13.0_cn_chinatelecom_2d1c8ff736.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.4.0.TLECNXM_5d047a1bdd_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.4.0.TLECNXM_20230109.0000.00_13.0_cn_chinatelecom_fbf5d3dc3a.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLECNXM",
+					"android": "13.0",
+					"recovery": "miui_UNICORN_V14.0.2.0.TLECNXM_dd574a95b0_13.0.zip",
+					"fastboot": "unicorn_images_V14.0.2.0.TLECNXM_20221207.0000.00_13.0_cn_chinatelecom_d1b899d55a.tgz"
+				},
+				{
+					"miui": "V13.0.18.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.18.0.SLECNXM_e0e8d6a1d1_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.18.0.SLECNXM_20221013.0000.00_12.0_cn_chinatelecom_d52b112f7a.tgz"
+				},
+				{
+					"miui": "V13.0.16.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.16.0.SLECNXM_5741181043_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.16.0.SLECNXM_20220815.0000.00_12.0_cn_chinatelecom_195f456c5c.tgz"
+				},
+				{
+					"miui": "V13.0.12.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.12.0.SLECNXM_f4293e0f37_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.12.0.SLECNXM_20220809.0000.00_12.0_cn_chinatelecom_e630afdbae.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.9.0.SLECNXM_702c54672e_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.9.0.SLECNXM_20220801.0000.00_12.0_cn_chinatelecom_69d24fb0bd.tgz"
+				}
+			]
+		},
+		{
+			"code": "unicorn",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.18.0.SLECNXM",
+					"android": "12.0",
+					"recovery": "miui_UNICORN_V13.0.18.0.SLECNXM_e0e8d6a1d1_12.0.zip",
+					"fastboot": "unicorn_images_V13.0.18.0.SLECNXM_20221013.0000.00_12.0_cn_chinamobile_acaba95419.tgz"
+				}
+			]
+		},
+		{
+			"code": "unicorn_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V13.0.8.0.SLECNDM",
+					"android": "12.0",
+					"recovery": "miui_UNICORNDEMO_V13.0.8.0.SLECNDM_ae893155f7_12.0.zip",
+					"fastboot": "unicorn_demo_images_V13.0.8.0.SLECNDM_20221107.0000.00_12.0_cn_5b7f565843.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLECNDM",
+					"android": "12.0",
+					"recovery": "miui_UNICORNDEMO_V13.0.8.0.SLECNDM_ae893155f7_12.0.zip",
+					"fastboot": "unicorn_demo_images_V13.0.8.0.SLECNDM_20221107.0000.00_12.0_cn_chinatelecom_78c5c4a440.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLECNDM",
+					"android": "12.0",
+					"recovery": "miui_UNICORNDEMO_V13.0.8.0.SLECNDM_ae893155f7_12.0.zip",
+					"fastboot": "unicorn_demo_images_V13.0.8.0.SLECNDM_20221107.0000.00_12.0_cn_chinamobile_857437fc36.tgz"
+				}
+			]
+		},
+		{
+			"code": "unicorn_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.9.21.EP.STDEE.L2S",
+					"android": "13.0",
+					"recovery": "miui_UNICORNEPSTDEE_V14.0.23.9.21.EP.STDEE.L2S_b0ebdb04a5_13.0.zip",
+					"fastboot": "unicorn_ep_stdee_images_V14.0.23.9.21.EP.STDEE.L2S_20230921.0000.00_13.0_cn_5322775d52.tgz"
+				},
+				{
+					"miui": "V14.0.23.9.21.EP.STDEE.L2S",
+					"android": "13.0",
+					"recovery": "miui_UNICORNEPSTDEE_V14.0.23.9.21.EP.STDEE.L2S_b0ebdb04a5_13.0.zip",
+					"fastboot": "unicorn_ep_stdee_images_V14.0.23.9.21.EP.STDEE.L2S_20230921.0000.00_13.0_cn_chinatelecom_4ff3110f60.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.14.EP.STDEE.L2S",
+					"android": "13.0",
+					"recovery": "miui_UNICORNEPSTDEE_V14.0.23.6.14.EP.STDEE.L2S_71ad80d8c4_13.0.zip",
+					"fastboot": "unicorn_ep_stdee_images_V14.0.23.6.14.EP.STDEE.L2S_20230614.0000.00_13.0_cn_02114ab132.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.14.EP.STDEE.L2S",
+					"android": "13.0",
+					"recovery": "miui_UNICORNEPSTDEE_V14.0.23.6.14.EP.STDEE.L2S_71ad80d8c4_13.0.zip",
+					"fastboot": "unicorn_ep_stdee_images_V14.0.23.6.14.EP.STDEE.L2S_20230614.0000.00_13.0_cn_chinatelecom_54a90a863c.tgz"
+				}
+			]
+		}
+	]
 }

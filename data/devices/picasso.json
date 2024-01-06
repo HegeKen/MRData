@@ -1,2569 +1,2567 @@
 {
-  "codename": "picasso",
-  "cnname": "Redmi K30 5G",
-  "enname": "Redmi K30 5G",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "35578055",
-  "ismiui":"",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "199"
-  ],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "TACO": [
-    "miui_PICASSO48MPRE_22.7.13_364458fe2d_12.0.zip",
-    "miui_PICASSO48MPRE_22.7.12_7d63ca6c77_12.0.zip",
-    "miui_PICASSO48MPRE_22.7.8_2d8922206c_12.0.zip",
-    "miui_PICASSO48MPRE_22.7.6_055cb376e4_12.0.zip",
-    "miui_PICASSO48MPRE_22.6.29_820199b227_12.0.zip",
-    "miui_PICASSO48MPRE_22.6.28_b1df46826b_12.0.zip",
-    "miui_PICASSO48MPRE_22.6.24_1632ae160e_12.0.zip",
-    "miui_PICASSO48MPRE_22.6.22_808427c51d_12.0.zip",
-    "miui_PICASSO48MPRE_22.6.20_8b247a0d91_12.0.zip",
-    "miui_PICASSO48MPRE_22.6.17_e8fa6d7982_12.0.zip"
-  ],
-  "branches": [
-    {
-      "code":"picasso",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V13.0.1.1.47.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.47.DEV_be447cac89_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.45.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.45.DEV_cc00477852_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.43.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.43.DEV_5afb42ae07_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.40.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.40.DEV_2981dd5ec7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.39.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.39.DEV_2a9deedab4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.37.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.37.DEV_fc5a48518a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.35.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.35.DEV_64aa72336c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.32.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.32.DEV_861bdcf649_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.29.DEV_17913173f0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.1.28.DEV_e3d34d25ff_12.0.zip",
-          "fastboot": "picasso_images_V13.0.1.1.28.DEV_20220426.0000.00_12.0_cn_63b803bcb7.tgz"
-        },
-        {
-          "miui": "22.7.13",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.13_9e232b24f2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.12",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.12_0b3a9e1fa9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.11",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.11_e21cbb97a0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.8",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.8_21158256fb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.7",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.7_4c1d6c8f73_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.6",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.6_ae7ba88575_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.4",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.4_08e7b0c1a6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.1",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.7.1_58da160445_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.29",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.29_287b8502b1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.28",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.28_61aaba5484_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.27",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.27_f3fa7aab89_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.24",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.24_0f7c899626_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.22",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.22_2408e1c4ed_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.21",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.21_80f0ac9c44_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.20",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.20_88f4a2207d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.17",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.17_4ae29688d3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.15",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.15_71122e2436_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.14",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.14_050b314e11_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.9",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.9_403a25aa36_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.8",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.8_776eda01c7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.6",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.6_c259aabaae_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.2",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.2_15ec8de695_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.1",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.6.1_53691def8d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.31",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.31_7191a66f0f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.27",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.27_4aff9a73ea_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.25",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.25_bf07af20d8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.24",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.24_6042baadf1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.23",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.23_481d4932f3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.18",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.18_1bb6d86482_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.17",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.17_1e3dab244c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.16",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.16_0fa66388d3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.15",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.15_b9580f8223_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.11",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.11_9a9269d51c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.10",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.10_67384015e5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.9",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.9_22925743d6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.6",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.5.6_6a6e2c154d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.27",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.27_4ddabc6b9b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.26",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.26_1f6669b394_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.25",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.25_29be83a6eb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.22",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.22_c7ee100942_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.21",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.21_043444fa1a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.20",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.20_6a6f71f80f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.18",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.18_2edec2d15a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.13",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.13_b24a9fd12f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.12",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.12_e48180046a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.11",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.11_30ffdaacc4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.8",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.8_a9fe1e4fae_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.7",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.7_b4d0da6613_12.0.zip",
-          "fastboot": "picasso_pre_images_22.4.7_20220407.0000.00_12.0_cn_d975a0013a.tgz"
-        },
-        {
-          "miui": "22.4.1",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.4.1_2e9a5494d8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.30",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.30_17699e7901_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.29",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.29_d7a4353d99_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.28",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.28_5aab2b7d0d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.25",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.25_48969f8815_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.23",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.23_4ac4252cf7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.22",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.22_a0e35bab72_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.21",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.21_5ea5bb4bd7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.18",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.18_058cfc42fd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.16",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.16_af20d8bb14_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.15",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.15_d9d20fb565_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.14",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.14_4379f1eef5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.12",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.12_534c8648c5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.3",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.3_729d4d428d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.2",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.3.2_9f129106b8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.28",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.28_27ed7600c8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.25",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.25_5702bf658f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.23",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.23_0d3a3eaaf0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.22",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.22_22cf326c45_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.21",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.21_0060b3a81e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.19",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.19_744c2d8968_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.17",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.17_42b524e225_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.16",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.16_6baadb4a5a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.15",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.15_43ef85d8b2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.10",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.10_dce686904e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.9",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.9_6da3db3ef7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.8",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.8_d0776e7e92_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.7",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.2.7_4345bf92f2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.24",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.1.24_dd76bc4dc9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.8",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.1.8_c8202f0c0b_12.0.zip",
-          "fastboot": "picasso_pre_images_22.1.8_20220108.0000.00_12.0_cn_21cdeb4c0c.tgz"
-        },
-        {
-          "miui": "22.1.6",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.1.6_2e93e95f9a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.5",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_22.1.5_9d590ed057_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.29",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_21.12.29_920cfc6841_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.28",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_21.12.28_b4e824fdd6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.27",
-          "android": "12.0",
-          "recovery": "miui_PICASSOPRE_21.12.27_b05f0046a6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.12.8_cfe585c639_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.7",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.12.7_3e55efb727_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.6",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.12.6_ca9cb00222_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.3",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.12.3_16fc60b2fb_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.1",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.12.1_55d9c5f125_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.30_03099749ca_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.29",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.29_3ad131eca7_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.26",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.26_3683b1c8c8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.24_a73b5667c6_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.23",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.23_4bef947183_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.22_36938067cb_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.19",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.19_cfa54447d9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.17",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.17_5a29e298f7_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.16_11f53e7093_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.15",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.15_1dd99739ad_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.12_018dd94ac1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.10_a0e8c17239_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.9",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.9_f306f47e43_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.8_137f3f6328_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.5",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.5_f5437af886_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.3",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.3_88d3584d39_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.2_f5e3c0543e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.1",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.11.1_fabcdd914a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.29",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.29_ac57c3674b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.28_8de15b0d5c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.27",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.27_4971081d3d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.25_c33a3b18c7_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.22_b199b49144_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.20_a4cdfd70f9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.19",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.19_6df81bfd06_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.18",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.18_741c9f37f8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.15",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.15_99db52c953_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.13",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.13_6c3b6adae1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.12_7f0b64688a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.11",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.11_9ad4ec115b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.10.8_35e31ceb0f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.28_084421d637_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.27",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.27_e52ff723ec_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.24_1b6289809b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.22_dda098a656_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.15",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.15_da2a53d5fb_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.14",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.14_0918c8a619_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.13",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.13_f8ad778de3_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.12_7893a2d025_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.8_9a59d6399c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.7",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.7_992addea16_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.6",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.6_8edfc38af8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.3",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.3_3caea5f1cd_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.1",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.9.1_331b3a6916_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.31",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.31_e9355a5296_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.30_97014323f2_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.27",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.27_fdf373cc54_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.25_c3c009b2a6_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.24_46ced23464_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.23",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.23_82212eaca5_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.20_40b496b305_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.18",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.18_8155913957_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.17",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.17_eb44ab3a8d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.16_b4504b4dc6_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.13",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.13_e76744be1a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.11",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.11_bcda743053_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.10_135448ba4f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.9",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.9_694bc05c9a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.6",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.6_19ab350405_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.4",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.4_4c0f10630f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.3",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.3_90689d089c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.8.2_603315ec12_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.30_8df455b087_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.28_9695e2674f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.27",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.27_227cf41d2f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.26",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.26_fdaeb3a1e2_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.23",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.23_2ffb34807c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.21",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.21_721eb93304_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.20_fb4d498123_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.19",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.19_824fc906ac_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.16_05cde4c33e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.14",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.14_b0b15c7954_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.13",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.13_a9dd12513b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.12_cfbf9ac088_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.9",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.9_6ed662d2d7_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.7",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.7_f8d0a1307e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.6",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.6_2c52601000_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.5",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.5_91bff0609c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.7.2_925b3f54c9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.30_bd78ab9a38_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.28_d27e0aff9c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.25_7dedb5b458_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.23",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.23_0763fbc039_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.21",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.21_14b2628616_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.18",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.18_4b0edc74b3_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.17",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.17_c0b2edc75d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.16_f5823655ab_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.15",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.15_0f57fbae37_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.11",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.11_1376dd31e1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.9",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.9_e8f5586483_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.8_a6f2436392_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.7",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.7_168c3a95e1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.4",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.4_78837831dd_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.2_ca4514b86b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.1",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.6.1_2ff2afdc40_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.31",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.31_6ead4aff1e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.28_4fbade45a8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.26",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.26_53efcabe57_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.25_eb8cc70050_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.24_6f394d71b9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.22_988d0a1a1a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.20_70e31721ee_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.19",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.19_c88769c897_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.18",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.18_6382f0a713_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.14",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.14_8366bf167b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.12_5133a17b4c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.11",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.11_7c59522d0e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.10_6382933379_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.7",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.5.7_4913a98092_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.29",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.29_717653b7bf_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.28_cc7ca314c7_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.26",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.26_e09a2556f2_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.23",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.23_705d9925a1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.22_a09989c93a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.21",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.21_f1800274b3_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.20_305d21d5c9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.16_d71bad7b38_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.14",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.14_098664a773_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.13",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.13_7f988ee0a0_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.12_ff1e8fb995_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.10_097149d2da_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.7",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.7_c8e4cc9a56_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.6",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.6_e3f8e4a3a5_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.4.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.4.2_50d0fa5d6c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.31",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.31_89fa07229c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.30_10e3afced1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.29",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.29_2a9468543e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.25_fd275e96d5_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.24_bae5a05901_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.23",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.23_39177a58d9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.21",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.21_5d7e84c1f4_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.19",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.19_334a5b94d0_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.17",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.17_c4dd7a39a6_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.16_04862b9868_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.15",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.15_67f1b1b463_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.12_fb9dc1e554_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.10_71521dca82_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.9",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.9_9843561fe4_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.8_80b78d4b01_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.5",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.5_032ee23ce1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.3",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.3_f18f697bce_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.2_7740e35c32_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.3.1",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.3.1_ea373516ff_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.26",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.26_ac8c7b83f0_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.24_9bc2a114ad_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.23",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.23_35107a0aa1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.22_15183aafab_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.19",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.19_4924952be2_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.3",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.3_2307ec632f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.2_b9be519a61_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.2.1",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.2.1_424b70245c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.28_4292d0e1df_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.26",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.26_a27fc0072e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.25_0d3c82b063_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.22_06d496ab78_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.20_67f499455c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.19",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.19_1075fff813_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.18",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.18_781336228e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.15",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.15_25b3282d0d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.13",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.13_f88ad0004d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.12_beea3f15f2_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.11",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.11_3181d8e55c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.8_28447afa44_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.6",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.6_eb13849abe_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.5",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.5_cacfb8e3ab_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.1.4",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_21.1.4_bee77764f0_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.30_6e65e0dbc5_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.28_a20831a3af_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.25_d7519d7e7d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.10_469cb4838a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.9",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.9_1e944cce7a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.8_c074da99cf_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.7",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.7_cc094e37d1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.2_507e6fcb09_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.12.1",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.12.1_86e2aeff87_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.30_258aa6b490_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.28_70d4a2370b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.26",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.26_ef8fd541b9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.25",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.25_9a65db2d60_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.24_d6bd4a9ef8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.20_5ff94b07b1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.18",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.18_0d6d0d9f30_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.16_3225c5c42a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.12_1f20772379_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.10_1df650d305_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.6",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.6_75583083a0_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.5",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.5_b8a716b7bc_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.4",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.4_ebad39fd75_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.3",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.3_1509f4687b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.11.2",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.11.2_b9498b1c54_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.30",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.30_63239e924b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.29",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.29_756d47884d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.28_29baa23190_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.27",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.27_4a5756f2d9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.22",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.22_5de6666fa8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.20",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.20_511af205e0_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.15",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.15_3e7be651e8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.14",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.14_d563673b91_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.10.12",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.10.12_5eccba559f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.29",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.29_a2226772dd_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.28",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.28_5e12d32dfc_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.24",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.24_080adb8746_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.21",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.21_a8e2cef186_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.17",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.17_89b0c56ae2_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.16",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.16_ee7315a58e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.10",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.10_ce71d9f4cd_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.9.8",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_20.9.8_e540e877f8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.13",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.13_1c175693eb_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.12",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.12_d80fd76553_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.11",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.11_7a8fd67444_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.10",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.10_a80f23746a_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.7",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.7_fd7967cd3b_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.6",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.6_8acfc1991f_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.5",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.5_61c07ce83d_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.8.3",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.8.3_f87a4e0bbe_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.30",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.30_713251a876_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.29",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.29_59fe2caac5_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.28",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.28_7e0e20e2b3_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.27",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.27_b567f4a03f_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.23",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.23_f3592574af_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.22",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.22_f122d029a5_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.21",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.21_88a7ffd1ea_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.20",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.20_c4497305d0_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.16",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.16_cad8bdd324_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.15",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.15_cf239d255f_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.14",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.14_60b291f98b_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.13",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.13_466e62c4a2_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.9",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.9_41580d31b0_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.8",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.8_6bec3b4549_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.7",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.7_03f14dceab_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.6",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.6_a6409cc211_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.7.2",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.7.2_a5482a21cf_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.23",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.23_637c8b8d53_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.18",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.18_6b7935ec4c_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.17",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.17_b235bfb8fd_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.16",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.16_8b5680639d_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.15",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.15_0c7d0f3e7c_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.11",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.11_186a6727de_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.10",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.10_82635e88eb_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.4",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.4_254677e6a9_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.3",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.3_0b13c2bb68_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.2",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.2_f061e2d020_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.6.1",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.6.1_1b70423994_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.28",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.28_1a3b6da8f3_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.26",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.26_be3c96a6c6_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.21",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.21_ef9dd37553_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.20",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.20_e1068d0681_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.19",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.19_1b081f77c3_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.18",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.18_97a6ab22a6_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.14",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.14_8c33286ef0_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.13",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.13_6dad1238f3_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.12",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.12_15f1da54ab_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.11",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.11_afc2040d50_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.7",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.7_f507bed7ab_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.5.6",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.5.6_22bcdfdd91_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.4.30",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.4.30_9e99f3bc13_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.4.28",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.4.28_b6a08a1700_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.4.27",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.4.27_e8d40f3110_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.26",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.26_d4fdbad600_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.25",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.25_c116e599bc_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.24",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.24_3ef070b8c2_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.23",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.23_73db404cb4_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.20",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.20_33a1bd8aa3_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.19",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.19_c9395adf4b_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.18",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.18_096c5906f6_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.17",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.17_fb24e48167_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.12",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.12_56f04be6ff_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.11",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.11_2df79d700e_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.6",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.6_8dd8059e54_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.5",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.5_ff0ad99b93_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.4",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.4_5c0194d47a_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.3.3",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.3.3_5f6a3efff2_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.27",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.27_4361b07006_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.26",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.26_d4e1bbb582_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.25",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.25_aa622d1e27_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.22",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.22_f69d3455c4_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.20",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.20_61906f4ab7_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.19",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.19_e7ecf87f35_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.18",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.18_48b6613d3c_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.17",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.17_0f25830d6b_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.13",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.13_a8210061e5_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.2.10",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.2.10_4e9f7e0be7_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.1.16",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.1.16_68dfe1adb0_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "20.1.15",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_20.1.15_49d79c8eb3_10.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"picasso",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.0.5.0.SGICNXM",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.5.0.SGICNXM_5d1ab6f4d3_12.0.zip",
-          "fastboot": "picasso_images_V13.0.5.0.SGICNXM_20221028.0000.00_12.0_cn_742f2bdc43.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SGICNXM",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.3.0.SGICNXM_af4ea69868_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.0.SGICNXM",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.2.0.SGICNXM_67e48545ae_12.0.zip",
-          "fastboot": "picasso_images_V13.0.2.0.SGICNXM_20220519.0000.00_12.0_cn_31c1f7a768.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SGICNXM",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.1.0.SGICNXM_d7217d8b20_12.0.zip",
-          "fastboot": "picasso_images_V13.0.1.0.SGICNXM_20220419.0000.00_12.0_cn_22c48f786e.tgz"
-        },
-        {
-          "miui": "V12.5.9.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.5.9.0.RGICNXM_f6a8f5350a_11.0.zip",
-          "fastboot": "picasso_images_V12.5.9.0.RGICNXM_20211221.0000.00_11.0_cn_2f823d69b4.tgz"
-        },
-        {
-          "miui": "V12.5.7.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.5.7.0.RGICNXM_02c694af6e_11.0.zip",
-          "fastboot": "picasso_images_V12.5.7.0.RGICNXM_20211025.0000.00_11.0_cn_bcecc3ea11.tgz"
-        },
-        {
-          "miui": "V12.5.5.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.5.5.0.RGICNXM_117473f5f1_11.0.zip",
-          "fastboot": "picasso_images_V12.5.5.0.RGICNXM_20210909.0000.00_11.0_cn_0f2de322cf.tgz"
-        },
-        {
-          "miui": "V12.5.3.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.5.3.0.RGICNXM_05bb6333fd_11.0.zip",
-          "fastboot": "picasso_images_V12.5.3.0.RGICNXM_20210705.0000.00_11.0_cn_92bc3cd538.tgz"
-        },
-        {
-          "miui": "V12.5.2.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.5.2.0.RGICNXM_8f5c35ebbc_11.0.zip",
-          "fastboot": "picasso_images_V12.5.2.0.RGICNXM_20210511.0000.00_11.0_cn_a514208876.tgz"
-        },
-        {
-          "miui": "V12.1.8.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.1.8.0.RGICNXM_3d34a905a9_11.0.zip",
-          "fastboot": "picasso_images_V12.1.8.0.RGICNXM_20210422.0000.00_11.0_cn_078e7a113e.tgz"
-        },
-        {
-          "miui": "V12.1.6.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.1.6.0.RGICNXM_ef44446e10_11.0.zip",
-          "fastboot": "picasso_images_V12.1.6.0.RGICNXM_20210214.0000.00_11.0_cn_6a3120ecdc.tgz"
-        },
-        {
-          "miui": "V12.1.5.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.1.5.0.RGICNXM_93d47d6f82_11.0.zip",
-          "fastboot": "picasso_images_V12.1.5.0.RGICNXM_20210117.0000.00_11.0_cn_18bac8710e.tgz"
-        },
-        {
-          "miui": "V12.1.4.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.1.4.0.RGICNXM_a664b3a7e1_11.0.zip",
-          "fastboot": "picasso_images_V12.1.4.0.RGICNXM_20201219.0000.00_11.0_cn_e03c587b5e.tgz"
-        },
-        {
-          "miui": "V12.1.1.0.RGICNXM",
-          "android": "11.0",
-          "recovery": "miui_PICASSO_V12.1.1.0.RGICNXM_45056581ec_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V12.0.7.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V12.0.7.0.QGICNXM_118ecb3759_10.0.zip",
-          "fastboot": "picasso_images_V12.0.7.0.QGICNXM_20201020.0000.00_10.0_cn_fb8608a237.tgz"
-        },
-        {
-          "miui": "V12.0.6.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V12.0.6.0.QGICNXM_adf9e45b32_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V12.0.5.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V12.0.5.0.QGICNXM_a6f920de6b_10.0.zip",
-          "fastboot": "picasso_images_V12.0.5.0.QGICNXM_20200728.0000.00_10.0_cn_36ddc16bb9.tgz"
-        },
-        {
-          "miui": "V12.0.2.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V12.0.2.0.QGICNXM_b5234a4fce_10.0.zip",
-          "fastboot": "picasso_images_V12.0.2.0.QGICNXM_20200620.0000.00_10.0_cn_473a9cf008.tgz"
-        },
-        {
-          "miui": "V12.0.1.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V12.0.1.0.QGICNXM_7efba8714d_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V11.1.25.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.1.25.0.QGICNXM_94554ec0db_10.0.zip",
-          "fastboot": "picasso_images_V11.1.25.0.QGICNXM_20200511.0000.00_10.0_cn_fbb47deded.tgz"
-        },
-        {
-          "miui": "V11.1.23.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.1.23.0.QGICNXM_136c15dbd7_10.0.zip",
-          "fastboot": "picasso_images_V11.1.23.0.QGICNXM_20200430.0000.00_10.0_cn_c905e7aa87.tgz"
-        },
-        {
-          "miui": "V11.1.20.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.1.20.0.QGICNXM_4005cb8a8c_10.0.zip",
-          "fastboot": "picasso_images_V11.1.20.0.QGICNXM_20200417.0000.00_10.0_cn_9f2d1f0fcb.tgz"
-        },
-        {
-          "miui": "V11.1.19.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.1.19.0.QGICNXM_55921e2c61_10.0.zip",
-          "fastboot": "picasso_images_V11.1.19.0.QGICNXM_20200403.0000.00_10.0_cn_f79224aa74.tgz"
-        },
-        {
-          "miui": "V11.1.18.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.1.18.0.QGICNXM_d7565408e1_10.0.zip",
-          "fastboot": "picasso_images_V11.1.18.0.QGICNXM_20200327.0000.00_10.0_cn_61b84f1991.tgz"
-        },
-        {
-          "miui": "V11.1.15.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.1.15.0.QGICNXM_d19323c8e5_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V11.0.11.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.0.11.0.QGICNXM_65ec88895f_10.0.zip",
-          "fastboot": "picasso_images_V11.0.11.0.QGICNXM_20200216.0000.00_10.0_cn_47f74b1cf6.tgz"
-        },
-        {
-          "miui": "V11.0.9.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.0.9.0.QGICNXM_02768d0fa6_10.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V11.0.7.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.0.7.0.QGICNXM_5706d31794_10.0.zip",
-          "fastboot": "picasso_images_V11.0.7.0.QGICNXM_20200113.0000.00_10.0_cn_518b104179.tgz"
-        },
-        {
-          "miui": "V11.0.3.0.QGICNXM",
-          "android": "10.0",
-          "recovery": "miui_PICASSO_V11.0.3.0.QGICNXM_9dc5e5a16b_10.0.zip",
-          "fastboot": "picasso_images_V11.0.3.0.QGICNXM_20191227.0000.00_10.0_cn_f869d015b4.tgz"
-        }
-      ]
-    },
-    {
-      "code":"picasso",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.5.0.SGICNXM",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.5.0.SGICNXM_5d1ab6f4d3_12.0.zip",
-          "fastboot": "picasso_images_V13.0.5.0.SGICNXM_20221028.0000.00_12.0_cn_chinatelecom_208c44e5c4.tgz"
-        }
-      ]
-    },
-    {
-      "code":"picasso",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.5.0.SGICNXM",
-          "android": "12.0",
-          "recovery": "miui_PICASSO_V13.0.5.0.SGICNXM_5d1ab6f4d3_12.0.zip",
-          "fastboot": "picasso_images_V13.0.5.0.SGICNXM_20221028.0000.00_12.0_cn_chinamobile_19121a9a6c.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "picasso",
+	"cnname": "Redmi K30 5G",
+	"enname": "Redmi K30 5G",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "35578055",
+	"ismiui": "",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["199"],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"TACO": [
+		"miui_PICASSO48MPRE_22.7.13_364458fe2d_12.0.zip",
+		"miui_PICASSO48MPRE_22.7.12_7d63ca6c77_12.0.zip",
+		"miui_PICASSO48MPRE_22.7.8_2d8922206c_12.0.zip",
+		"miui_PICASSO48MPRE_22.7.6_055cb376e4_12.0.zip",
+		"miui_PICASSO48MPRE_22.6.29_820199b227_12.0.zip",
+		"miui_PICASSO48MPRE_22.6.28_b1df46826b_12.0.zip",
+		"miui_PICASSO48MPRE_22.6.24_1632ae160e_12.0.zip",
+		"miui_PICASSO48MPRE_22.6.22_808427c51d_12.0.zip",
+		"miui_PICASSO48MPRE_22.6.20_8b247a0d91_12.0.zip",
+		"miui_PICASSO48MPRE_22.6.17_e8fa6d7982_12.0.zip"
+	],
+	"branches": [
+		{
+			"code": "picasso",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V13.0.1.1.47.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.47.DEV_be447cac89_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.45.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.45.DEV_cc00477852_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.43.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.43.DEV_5afb42ae07_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.40.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.40.DEV_2981dd5ec7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.39.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.39.DEV_2a9deedab4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.37.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.37.DEV_fc5a48518a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.35.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.35.DEV_64aa72336c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.32.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.32.DEV_861bdcf649_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.29.DEV_17913173f0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.1.28.DEV_e3d34d25ff_12.0.zip",
+					"fastboot": "picasso_images_V13.0.1.1.28.DEV_20220426.0000.00_12.0_cn_63b803bcb7.tgz"
+				},
+				{
+					"miui": "22.7.13",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.13_9e232b24f2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.12",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.12_0b3a9e1fa9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.11",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.11_e21cbb97a0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.8",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.8_21158256fb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.7",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.7_4c1d6c8f73_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.6",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.6_ae7ba88575_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.4",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.4_08e7b0c1a6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.1",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.7.1_58da160445_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.29",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.29_287b8502b1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.28",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.28_61aaba5484_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.27",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.27_f3fa7aab89_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.24",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.24_0f7c899626_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.22",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.22_2408e1c4ed_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.21",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.21_80f0ac9c44_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.20",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.20_88f4a2207d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.17",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.17_4ae29688d3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.15",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.15_71122e2436_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.14",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.14_050b314e11_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.9",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.9_403a25aa36_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.8",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.8_776eda01c7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.6",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.6_c259aabaae_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.2",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.2_15ec8de695_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.1",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.6.1_53691def8d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.31",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.31_7191a66f0f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.27",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.27_4aff9a73ea_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.25",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.25_bf07af20d8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.24",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.24_6042baadf1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.23",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.23_481d4932f3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.18",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.18_1bb6d86482_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.17",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.17_1e3dab244c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.16",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.16_0fa66388d3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.15",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.15_b9580f8223_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.11",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.11_9a9269d51c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.10",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.10_67384015e5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.9",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.9_22925743d6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.6",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.5.6_6a6e2c154d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.27",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.27_4ddabc6b9b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.26",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.26_1f6669b394_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.25",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.25_29be83a6eb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.22",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.22_c7ee100942_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.21",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.21_043444fa1a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.20",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.20_6a6f71f80f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.18",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.18_2edec2d15a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.13",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.13_b24a9fd12f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.12",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.12_e48180046a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.11",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.11_30ffdaacc4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.8",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.8_a9fe1e4fae_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.7",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.7_b4d0da6613_12.0.zip",
+					"fastboot": "picasso_pre_images_22.4.7_20220407.0000.00_12.0_cn_d975a0013a.tgz"
+				},
+				{
+					"miui": "22.4.1",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.4.1_2e9a5494d8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.30",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.30_17699e7901_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.29",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.29_d7a4353d99_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.28",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.28_5aab2b7d0d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.25",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.25_48969f8815_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.23",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.23_4ac4252cf7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.22",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.22_a0e35bab72_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.21",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.21_5ea5bb4bd7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.18",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.18_058cfc42fd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.16",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.16_af20d8bb14_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.15",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.15_d9d20fb565_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.14",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.14_4379f1eef5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.12",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.12_534c8648c5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.3",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.3_729d4d428d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.2",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.3.2_9f129106b8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.28",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.28_27ed7600c8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.25",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.25_5702bf658f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.23",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.23_0d3a3eaaf0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.22",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.22_22cf326c45_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.21",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.21_0060b3a81e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.19",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.19_744c2d8968_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.17",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.17_42b524e225_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.16",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.16_6baadb4a5a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.15",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.15_43ef85d8b2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.10",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.10_dce686904e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.9",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.9_6da3db3ef7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.8",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.8_d0776e7e92_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.7",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.2.7_4345bf92f2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.24",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.1.24_dd76bc4dc9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.8",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.1.8_c8202f0c0b_12.0.zip",
+					"fastboot": "picasso_pre_images_22.1.8_20220108.0000.00_12.0_cn_21cdeb4c0c.tgz"
+				},
+				{
+					"miui": "22.1.6",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.1.6_2e93e95f9a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.5",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_22.1.5_9d590ed057_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.29",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_21.12.29_920cfc6841_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.28",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_21.12.28_b4e824fdd6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.27",
+					"android": "12.0",
+					"recovery": "miui_PICASSOPRE_21.12.27_b05f0046a6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.12.8_cfe585c639_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.7",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.12.7_3e55efb727_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.6",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.12.6_ca9cb00222_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.3",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.12.3_16fc60b2fb_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.1",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.12.1_55d9c5f125_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.30_03099749ca_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.29",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.29_3ad131eca7_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.26",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.26_3683b1c8c8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.24_a73b5667c6_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.23",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.23_4bef947183_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.22_36938067cb_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.19",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.19_cfa54447d9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.17",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.17_5a29e298f7_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.16_11f53e7093_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.15",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.15_1dd99739ad_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.12_018dd94ac1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.10_a0e8c17239_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.9",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.9_f306f47e43_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.8_137f3f6328_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.5",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.5_f5437af886_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.3",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.3_88d3584d39_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.2_f5e3c0543e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.1",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.11.1_fabcdd914a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.29",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.29_ac57c3674b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.28_8de15b0d5c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.27",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.27_4971081d3d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.25_c33a3b18c7_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.22_b199b49144_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.20_a4cdfd70f9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.19",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.19_6df81bfd06_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.18",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.18_741c9f37f8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.15",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.15_99db52c953_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.13",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.13_6c3b6adae1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.12_7f0b64688a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.11",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.11_9ad4ec115b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.10.8_35e31ceb0f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.28_084421d637_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.27",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.27_e52ff723ec_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.24_1b6289809b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.22_dda098a656_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.15",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.15_da2a53d5fb_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.14",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.14_0918c8a619_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.13",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.13_f8ad778de3_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.12_7893a2d025_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.8_9a59d6399c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.7",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.7_992addea16_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.6",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.6_8edfc38af8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.3",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.3_3caea5f1cd_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.1",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.9.1_331b3a6916_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.31",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.31_e9355a5296_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.30_97014323f2_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.27",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.27_fdf373cc54_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.25_c3c009b2a6_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.24_46ced23464_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.23",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.23_82212eaca5_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.20_40b496b305_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.18",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.18_8155913957_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.17",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.17_eb44ab3a8d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.16_b4504b4dc6_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.13",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.13_e76744be1a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.11",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.11_bcda743053_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.10_135448ba4f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.9",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.9_694bc05c9a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.6",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.6_19ab350405_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.4",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.4_4c0f10630f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.3",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.3_90689d089c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.8.2_603315ec12_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.30_8df455b087_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.28_9695e2674f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.27",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.27_227cf41d2f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.26",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.26_fdaeb3a1e2_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.23",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.23_2ffb34807c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.21",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.21_721eb93304_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.20_fb4d498123_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.19",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.19_824fc906ac_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.16_05cde4c33e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.14",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.14_b0b15c7954_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.13",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.13_a9dd12513b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.12_cfbf9ac088_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.9",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.9_6ed662d2d7_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.7",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.7_f8d0a1307e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.6",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.6_2c52601000_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.5",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.5_91bff0609c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.7.2_925b3f54c9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.30_bd78ab9a38_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.28_d27e0aff9c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.25_7dedb5b458_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.23",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.23_0763fbc039_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.21",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.21_14b2628616_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.18",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.18_4b0edc74b3_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.17",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.17_c0b2edc75d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.16_f5823655ab_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.15",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.15_0f57fbae37_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.11",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.11_1376dd31e1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.9",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.9_e8f5586483_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.8_a6f2436392_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.7",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.7_168c3a95e1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.4",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.4_78837831dd_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.2_ca4514b86b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.1",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.6.1_2ff2afdc40_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.31",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.31_6ead4aff1e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.28_4fbade45a8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.26",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.26_53efcabe57_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.25_eb8cc70050_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.24_6f394d71b9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.22_988d0a1a1a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.20_70e31721ee_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.19",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.19_c88769c897_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.18",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.18_6382f0a713_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.14",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.14_8366bf167b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.12_5133a17b4c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.11",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.11_7c59522d0e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.10_6382933379_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.7",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.5.7_4913a98092_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.29",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.29_717653b7bf_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.28_cc7ca314c7_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.26",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.26_e09a2556f2_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.23",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.23_705d9925a1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.22_a09989c93a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.21",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.21_f1800274b3_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.20_305d21d5c9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.16_d71bad7b38_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.14",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.14_098664a773_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.13",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.13_7f988ee0a0_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.12_ff1e8fb995_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.10_097149d2da_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.7",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.7_c8e4cc9a56_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.6",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.6_e3f8e4a3a5_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.4.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.4.2_50d0fa5d6c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.31",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.31_89fa07229c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.30_10e3afced1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.29",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.29_2a9468543e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.25_fd275e96d5_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.24_bae5a05901_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.23",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.23_39177a58d9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.21",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.21_5d7e84c1f4_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.19",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.19_334a5b94d0_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.17",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.17_c4dd7a39a6_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.16_04862b9868_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.15",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.15_67f1b1b463_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.12_fb9dc1e554_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.10_71521dca82_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.9",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.9_9843561fe4_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.8_80b78d4b01_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.5",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.5_032ee23ce1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.3",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.3_f18f697bce_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.2_7740e35c32_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.3.1",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.3.1_ea373516ff_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.26",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.26_ac8c7b83f0_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.24_9bc2a114ad_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.23",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.23_35107a0aa1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.22_15183aafab_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.19",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.19_4924952be2_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.3",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.3_2307ec632f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.2_b9be519a61_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.2.1",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.2.1_424b70245c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.28_4292d0e1df_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.26",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.26_a27fc0072e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.25_0d3c82b063_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.22_06d496ab78_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.20_67f499455c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.19",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.19_1075fff813_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.18",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.18_781336228e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.15",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.15_25b3282d0d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.13",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.13_f88ad0004d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.12_beea3f15f2_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.11",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.11_3181d8e55c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.8_28447afa44_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.6",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.6_eb13849abe_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.5",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.5_cacfb8e3ab_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.1.4",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_21.1.4_bee77764f0_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.30_6e65e0dbc5_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.28_a20831a3af_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.25_d7519d7e7d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.10_469cb4838a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.9",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.9_1e944cce7a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.8_c074da99cf_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.7",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.7_cc094e37d1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.2_507e6fcb09_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.12.1",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.12.1_86e2aeff87_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.30_258aa6b490_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.28_70d4a2370b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.26",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.26_ef8fd541b9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.25",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.25_9a65db2d60_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.24_d6bd4a9ef8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.20_5ff94b07b1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.18",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.18_0d6d0d9f30_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.16_3225c5c42a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.12_1f20772379_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.10_1df650d305_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.6",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.6_75583083a0_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.5",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.5_b8a716b7bc_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.4",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.4_ebad39fd75_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.3",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.3_1509f4687b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.11.2",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.11.2_b9498b1c54_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.30",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.30_63239e924b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.29",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.29_756d47884d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.28_29baa23190_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.27",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.27_4a5756f2d9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.22",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.22_5de6666fa8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.20",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.20_511af205e0_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.15",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.15_3e7be651e8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.14",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.14_d563673b91_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.10.12",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.10.12_5eccba559f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.29",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.29_a2226772dd_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.28",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.28_5e12d32dfc_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.24",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.24_080adb8746_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.21",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.21_a8e2cef186_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.17",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.17_89b0c56ae2_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.16",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.16_ee7315a58e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.10",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.10_ce71d9f4cd_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.9.8",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_20.9.8_e540e877f8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.13",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.13_1c175693eb_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.12",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.12_d80fd76553_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.11",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.11_7a8fd67444_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.10",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.10_a80f23746a_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.7",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.7_fd7967cd3b_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.6",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.6_8acfc1991f_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.5",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.5_61c07ce83d_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.8.3",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.8.3_f87a4e0bbe_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.30",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.30_713251a876_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.29",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.29_59fe2caac5_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.28",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.28_7e0e20e2b3_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.27",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.27_b567f4a03f_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.23",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.23_f3592574af_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.22",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.22_f122d029a5_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.21",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.21_88a7ffd1ea_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.20",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.20_c4497305d0_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.16",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.16_cad8bdd324_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.15",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.15_cf239d255f_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.14",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.14_60b291f98b_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.13",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.13_466e62c4a2_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.9",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.9_41580d31b0_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.8",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.8_6bec3b4549_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.7",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.7_03f14dceab_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.6",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.6_a6409cc211_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.7.2",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.7.2_a5482a21cf_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.23",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.23_637c8b8d53_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.18",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.18_6b7935ec4c_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.17",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.17_b235bfb8fd_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.16",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.16_8b5680639d_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.15",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.15_0c7d0f3e7c_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.11",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.11_186a6727de_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.10",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.10_82635e88eb_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.4",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.4_254677e6a9_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.3",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.3_0b13c2bb68_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.2",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.2_f061e2d020_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.6.1",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.6.1_1b70423994_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.28",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.28_1a3b6da8f3_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.26",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.26_be3c96a6c6_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.21",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.21_ef9dd37553_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.20",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.20_e1068d0681_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.19",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.19_1b081f77c3_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.18",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.18_97a6ab22a6_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.14",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.14_8c33286ef0_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.13",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.13_6dad1238f3_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.12",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.12_15f1da54ab_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.11",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.11_afc2040d50_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.7",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.7_f507bed7ab_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.5.6",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.5.6_22bcdfdd91_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.4.30",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.4.30_9e99f3bc13_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.4.28",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.4.28_b6a08a1700_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.4.27",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.4.27_e8d40f3110_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.26",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.26_d4fdbad600_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.25",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.25_c116e599bc_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.24",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.24_3ef070b8c2_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.23",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.23_73db404cb4_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.20",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.20_33a1bd8aa3_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.19",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.19_c9395adf4b_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.18",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.18_096c5906f6_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.17",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.17_fb24e48167_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.12",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.12_56f04be6ff_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.11",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.11_2df79d700e_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.6",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.6_8dd8059e54_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.5",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.5_ff0ad99b93_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.4",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.4_5c0194d47a_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.3.3",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.3.3_5f6a3efff2_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.27",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.27_4361b07006_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.26",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.26_d4e1bbb582_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.25",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.25_aa622d1e27_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.22",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.22_f69d3455c4_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.20",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.20_61906f4ab7_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.19",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.19_e7ecf87f35_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.18",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.18_48b6613d3c_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.17",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.17_0f25830d6b_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.13",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.13_a8210061e5_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.2.10",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.2.10_4e9f7e0be7_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.1.16",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.1.16_68dfe1adb0_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "20.1.15",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_20.1.15_49d79c8eb3_10.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "picasso",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.0.5.0.SGICNXM",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.5.0.SGICNXM_5d1ab6f4d3_12.0.zip",
+					"fastboot": "picasso_images_V13.0.5.0.SGICNXM_20221028.0000.00_12.0_cn_742f2bdc43.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SGICNXM",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.3.0.SGICNXM_af4ea69868_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.0.SGICNXM",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.2.0.SGICNXM_67e48545ae_12.0.zip",
+					"fastboot": "picasso_images_V13.0.2.0.SGICNXM_20220519.0000.00_12.0_cn_31c1f7a768.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SGICNXM",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.1.0.SGICNXM_d7217d8b20_12.0.zip",
+					"fastboot": "picasso_images_V13.0.1.0.SGICNXM_20220419.0000.00_12.0_cn_22c48f786e.tgz"
+				},
+				{
+					"miui": "V12.5.9.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.5.9.0.RGICNXM_f6a8f5350a_11.0.zip",
+					"fastboot": "picasso_images_V12.5.9.0.RGICNXM_20211221.0000.00_11.0_cn_2f823d69b4.tgz"
+				},
+				{
+					"miui": "V12.5.7.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.5.7.0.RGICNXM_02c694af6e_11.0.zip",
+					"fastboot": "picasso_images_V12.5.7.0.RGICNXM_20211025.0000.00_11.0_cn_bcecc3ea11.tgz"
+				},
+				{
+					"miui": "V12.5.5.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.5.5.0.RGICNXM_117473f5f1_11.0.zip",
+					"fastboot": "picasso_images_V12.5.5.0.RGICNXM_20210909.0000.00_11.0_cn_0f2de322cf.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.5.3.0.RGICNXM_05bb6333fd_11.0.zip",
+					"fastboot": "picasso_images_V12.5.3.0.RGICNXM_20210705.0000.00_11.0_cn_92bc3cd538.tgz"
+				},
+				{
+					"miui": "V12.5.2.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.5.2.0.RGICNXM_8f5c35ebbc_11.0.zip",
+					"fastboot": "picasso_images_V12.5.2.0.RGICNXM_20210511.0000.00_11.0_cn_a514208876.tgz"
+				},
+				{
+					"miui": "V12.1.8.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.1.8.0.RGICNXM_3d34a905a9_11.0.zip",
+					"fastboot": "picasso_images_V12.1.8.0.RGICNXM_20210422.0000.00_11.0_cn_078e7a113e.tgz"
+				},
+				{
+					"miui": "V12.1.6.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.1.6.0.RGICNXM_ef44446e10_11.0.zip",
+					"fastboot": "picasso_images_V12.1.6.0.RGICNXM_20210214.0000.00_11.0_cn_6a3120ecdc.tgz"
+				},
+				{
+					"miui": "V12.1.5.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.1.5.0.RGICNXM_93d47d6f82_11.0.zip",
+					"fastboot": "picasso_images_V12.1.5.0.RGICNXM_20210117.0000.00_11.0_cn_18bac8710e.tgz"
+				},
+				{
+					"miui": "V12.1.4.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.1.4.0.RGICNXM_a664b3a7e1_11.0.zip",
+					"fastboot": "picasso_images_V12.1.4.0.RGICNXM_20201219.0000.00_11.0_cn_e03c587b5e.tgz"
+				},
+				{
+					"miui": "V12.1.1.0.RGICNXM",
+					"android": "11.0",
+					"recovery": "miui_PICASSO_V12.1.1.0.RGICNXM_45056581ec_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.7.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V12.0.7.0.QGICNXM_118ecb3759_10.0.zip",
+					"fastboot": "picasso_images_V12.0.7.0.QGICNXM_20201020.0000.00_10.0_cn_fb8608a237.tgz"
+				},
+				{
+					"miui": "V12.0.6.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V12.0.6.0.QGICNXM_adf9e45b32_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.5.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V12.0.5.0.QGICNXM_a6f920de6b_10.0.zip",
+					"fastboot": "picasso_images_V12.0.5.0.QGICNXM_20200728.0000.00_10.0_cn_36ddc16bb9.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V12.0.2.0.QGICNXM_b5234a4fce_10.0.zip",
+					"fastboot": "picasso_images_V12.0.2.0.QGICNXM_20200620.0000.00_10.0_cn_473a9cf008.tgz"
+				},
+				{
+					"miui": "V12.0.1.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V12.0.1.0.QGICNXM_7efba8714d_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.1.25.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.1.25.0.QGICNXM_94554ec0db_10.0.zip",
+					"fastboot": "picasso_images_V11.1.25.0.QGICNXM_20200511.0000.00_10.0_cn_fbb47deded.tgz"
+				},
+				{
+					"miui": "V11.1.23.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.1.23.0.QGICNXM_136c15dbd7_10.0.zip",
+					"fastboot": "picasso_images_V11.1.23.0.QGICNXM_20200430.0000.00_10.0_cn_c905e7aa87.tgz"
+				},
+				{
+					"miui": "V11.1.20.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.1.20.0.QGICNXM_4005cb8a8c_10.0.zip",
+					"fastboot": "picasso_images_V11.1.20.0.QGICNXM_20200417.0000.00_10.0_cn_9f2d1f0fcb.tgz"
+				},
+				{
+					"miui": "V11.1.19.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.1.19.0.QGICNXM_55921e2c61_10.0.zip",
+					"fastboot": "picasso_images_V11.1.19.0.QGICNXM_20200403.0000.00_10.0_cn_f79224aa74.tgz"
+				},
+				{
+					"miui": "V11.1.18.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.1.18.0.QGICNXM_d7565408e1_10.0.zip",
+					"fastboot": "picasso_images_V11.1.18.0.QGICNXM_20200327.0000.00_10.0_cn_61b84f1991.tgz"
+				},
+				{
+					"miui": "V11.1.15.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.1.15.0.QGICNXM_d19323c8e5_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.11.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.0.11.0.QGICNXM_65ec88895f_10.0.zip",
+					"fastboot": "picasso_images_V11.0.11.0.QGICNXM_20200216.0000.00_10.0_cn_47f74b1cf6.tgz"
+				},
+				{
+					"miui": "V11.0.9.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.0.9.0.QGICNXM_02768d0fa6_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.7.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.0.7.0.QGICNXM_5706d31794_10.0.zip",
+					"fastboot": "picasso_images_V11.0.7.0.QGICNXM_20200113.0000.00_10.0_cn_518b104179.tgz"
+				},
+				{
+					"miui": "V11.0.3.0.QGICNXM",
+					"android": "10.0",
+					"recovery": "miui_PICASSO_V11.0.3.0.QGICNXM_9dc5e5a16b_10.0.zip",
+					"fastboot": "picasso_images_V11.0.3.0.QGICNXM_20191227.0000.00_10.0_cn_f869d015b4.tgz"
+				}
+			]
+		},
+		{
+			"code": "picasso",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.5.0.SGICNXM",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.5.0.SGICNXM_5d1ab6f4d3_12.0.zip",
+					"fastboot": "picasso_images_V13.0.5.0.SGICNXM_20221028.0000.00_12.0_cn_chinatelecom_208c44e5c4.tgz"
+				}
+			]
+		},
+		{
+			"code": "picasso",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.5.0.SGICNXM",
+					"android": "12.0",
+					"recovery": "miui_PICASSO_V13.0.5.0.SGICNXM_5d1ab6f4d3_12.0.zip",
+					"fastboot": "picasso_images_V13.0.5.0.SGICNXM_20221028.0000.00_12.0_cn_chinamobile_19121a9a6c.tgz"
+				}
+			]
+		}
+	]
 }

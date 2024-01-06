@@ -1,173 +1,173 @@
 {
-  "codename": "gale",
-  "cnname": "Redmi 13C/POCO C65",
-  "enname": "Redmi 13C/POCO C65",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"gale_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TGPTWXM",
-          "android": "13.0",
-          "recovery": "miui_GALETWGlobal_V14.0.2.0.TGPTWXM_8628eeab67_13.0.zip",
-          "fastboot": "gale_tw_global_images_V14.0.2.0.TGPTWXM_20231211.0000.00_13.0_tw_72ed6eb21a.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TGPTWXM",
-          "android": "13.0",
-          "recovery": "miui_GALETWGlobal_V14.0.1.0.TGPTWXM_9cc14cfd6b_13.0.zip",
-          "fastboot": "gale_tw_global_images_V14.0.1.0.TGPTWXM_20231107.0000.00_13.0_tw_16a6f9c144.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gale_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TGPMIXM",
-          "android": "13.0",
-          "recovery": "miui_GALEGlobal_V14.0.7.0.TGPMIXM_a162b65372_13.0.zip",
-          "fastboot": "gale_global_images_V14.0.7.0.TGPMIXM_20231130.0000.00_13.0_global_9ecb4da4bd.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TGPMIXM",
-          "android": "13.0",
-          "recovery": "miui_GALEGlobal_V14.0.6.0.TGPMIXM_5b359fc290_13.0.zip",
-          "fastboot": "gale_global_images_V14.0.6.0.TGPMIXM_20231106.0000.00_13.0_global_273ca54229.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gale_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TGPEUXM",
-          "android": "13.0",
-          "recovery": "miui_GALEEEAGlobal_V14.0.6.0.TGPEUXM_0c650dc6c5_13.0.zip",
-          "fastboot": "gale_eea_global_images_V14.0.6.0.TGPEUXM_20231206.0000.00_13.0_eea_28a1b2ee0a.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gale_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TGPRUXM",
-          "android": "13.0",
-          "recovery": "miui_GALERUGlobal_V14.0.3.0.TGPRUXM_26369ac8f8_13.0.zip",
-          "fastboot": "gale_ru_global_images_V14.0.3.0.TGPRUXM_20231207.0000.00_13.0_ru_ca8d64d7a5.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gale_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TGPINXM",
-          "android": "13.0",
-          "recovery": "miui_GALEINGlobal_V14.0.3.0.TGPINXM_944e0a3bf2_13.0.zip",
-          "fastboot": "gale_in_global_images_V14.0.3.0.TGPINXM_20231206.0000.00_13.0_in_ebf0c06652.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gale_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TGPIDXM",
-          "android": "13.0",
-          "recovery": "miui_GALEIDGlobal_V14.0.2.0.TGPIDXM_c830a4846f_13.0.zip",
-          "fastboot": "gale_id_global_images_V14.0.2.0.TGPIDXM_20231214.0000.00_13.0_id_580d1cae04.tgz"
-        }
-      ]
-    },
-    {
-      "code":"gale_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TGPTRXM",
-          "android": "13.0",
-          "recovery": "miui_GALETRGlobal_V14.0.3.0.TGPTRXM_9ddcfc980e_13.0.zip",
-          "fastboot": "gale_tr_global_images_V14.0.3.0.TGPTRXM_20231219.0000.00_13.0_tr_28c74b684a.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "gale",
+	"cnname": "Redmi 13C/POCO C65",
+	"enname": "Redmi 13C/POCO C65",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "gale_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TGPTWXM",
+					"android": "13.0",
+					"recovery": "miui_GALETWGlobal_V14.0.2.0.TGPTWXM_8628eeab67_13.0.zip",
+					"fastboot": "gale_tw_global_images_V14.0.2.0.TGPTWXM_20231211.0000.00_13.0_tw_72ed6eb21a.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TGPTWXM",
+					"android": "13.0",
+					"recovery": "miui_GALETWGlobal_V14.0.1.0.TGPTWXM_9cc14cfd6b_13.0.zip",
+					"fastboot": "gale_tw_global_images_V14.0.1.0.TGPTWXM_20231107.0000.00_13.0_tw_16a6f9c144.tgz"
+				}
+			]
+		},
+		{
+			"code": "gale_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TGPMIXM",
+					"android": "13.0",
+					"recovery": "miui_GALEGlobal_V14.0.7.0.TGPMIXM_a162b65372_13.0.zip",
+					"fastboot": "gale_global_images_V14.0.7.0.TGPMIXM_20231130.0000.00_13.0_global_9ecb4da4bd.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TGPMIXM",
+					"android": "13.0",
+					"recovery": "miui_GALEGlobal_V14.0.6.0.TGPMIXM_5b359fc290_13.0.zip",
+					"fastboot": "gale_global_images_V14.0.6.0.TGPMIXM_20231106.0000.00_13.0_global_273ca54229.tgz"
+				}
+			]
+		},
+		{
+			"code": "gale_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TGPEUXM",
+					"android": "13.0",
+					"recovery": "miui_GALEEEAGlobal_V14.0.6.0.TGPEUXM_0c650dc6c5_13.0.zip",
+					"fastboot": "gale_eea_global_images_V14.0.6.0.TGPEUXM_20231206.0000.00_13.0_eea_28a1b2ee0a.tgz"
+				}
+			]
+		},
+		{
+			"code": "gale_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TGPRUXM",
+					"android": "13.0",
+					"recovery": "miui_GALERUGlobal_V14.0.3.0.TGPRUXM_26369ac8f8_13.0.zip",
+					"fastboot": "gale_ru_global_images_V14.0.3.0.TGPRUXM_20231207.0000.00_13.0_ru_ca8d64d7a5.tgz"
+				}
+			]
+		},
+		{
+			"code": "gale_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TGPINXM",
+					"android": "13.0",
+					"recovery": "miui_GALEINGlobal_V14.0.3.0.TGPINXM_944e0a3bf2_13.0.zip",
+					"fastboot": "gale_in_global_images_V14.0.3.0.TGPINXM_20231206.0000.00_13.0_in_ebf0c06652.tgz"
+				}
+			]
+		},
+		{
+			"code": "gale_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TGPIDXM",
+					"android": "13.0",
+					"recovery": "miui_GALEIDGlobal_V14.0.2.0.TGPIDXM_c830a4846f_13.0.zip",
+					"fastboot": "gale_id_global_images_V14.0.2.0.TGPIDXM_20231214.0000.00_13.0_id_580d1cae04.tgz"
+				}
+			]
+		},
+		{
+			"code": "gale_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TGPTRXM",
+					"android": "13.0",
+					"recovery": "miui_GALETRGlobal_V14.0.3.0.TGPTRXM_9ddcfc980e_13.0.zip",
+					"fastboot": "gale_tr_global_images_V14.0.3.0.TGPTRXM_20231219.0000.00_13.0_tr_28c74b684a.tgz"
+				}
+			]
+		}
+	]
 }

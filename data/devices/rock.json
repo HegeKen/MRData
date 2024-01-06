@@ -1,389 +1,389 @@
 {
-  "codename": "rock",
-  "cnname": "Redmi 11 Prime 4G/POCO M5",
-  "enname": "Redmi 11 Prime 4G/POCO M5",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "76851",
-  "branches": [
-    {
-      "code":"rock_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TLUTWXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKTWGlobal_V14.0.1.0.TLUTWXM_eac177ac34_13.0.zip",
-          "fastboot": "rock_tw_global_images_V14.0.1.0.TLUTWXM_20230327.0000.00_13.0_tw_c050c555b2.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLUTWXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKTWGlobal_V13.0.3.0.SLUTWXM_b3eed7287a_12.0.zip",
-          "fastboot": "rock_tw_global_images_V13.0.3.0.SLUTWXM_20221128.0000.00_12.0_global_285f51a10a.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLUTWXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKTWGlobal_V13.0.2.0.SLUTWXM_a59d55fcce_12.0.zip",
-          "fastboot": "rock_tw_global_images_V13.0.2.0.SLUTWXM_20220927.0000.00_12.0_global_593ca51958.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SLUTWXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKTWGlobal_V13.0.1.0.SLUTWXM_6c78db8e5f_12.0.zip",
-          "fastboot": "rock_tw_global_images_V13.0.1.0.SLUTWXM_20220830.0000.00_12.0_global_839bd2b6c9.tgz"
-        }
-      ]
-    },
-    {
-      "code":"rock_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.9.0.TLUMIXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKGlobal_V14.0.9.0.TLUMIXM_bc18926a42_13.0.zip",
-          "fastboot": "rock_global_images_V14.0.9.0.TLUMIXM_20231103.0000.00_13.0_global_13eea02fb6.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLUMIXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKGlobal_V14.0.8.0.TLUMIXM_9b89fd9841_13.0.zip",
-          "fastboot": "rock_global_images_V14.0.8.0.TLUMIXM_20230809.0000.00_13.0_global_759aee4d8e.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TLUMIXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKGlobal_V14.0.7.0.TLUMIXM_b16d8555c3_13.0.zip",
-          "fastboot": "rock_global_images_V14.0.7.0.TLUMIXM_20230508.0000.00_13.0_global_a508bc807e.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TLUMIXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKGlobal_V14.0.6.0.TLUMIXM_b64ad54537_13.0.zip",
-          "fastboot": "rock_global_images_V14.0.6.0.TLUMIXM_20230301.0000.00_13.0_global_7764f158f1.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SLUMIXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKGlobal_V13.0.10.0.SLUMIXM_41ad25688b_12.0.zip",
-          "fastboot": "rock_global_images_V13.0.10.0.SLUMIXM_20230222.0000.00_12.0_global_74178b848b.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLUMIXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKGlobal_V13.0.8.0.SLUMIXM_7cd25c4c7f_12.0.zip",
-          "fastboot": "rock_global_images_V13.0.8.0.SLUMIXM_20221117.0000.00_12.0_global_8f98646275.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLUMIXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKGlobal_V13.0.5.0.SLUMIXM_2a655da13a_12.0.zip",
-          "fastboot": "rock_global_images_V13.0.5.0.SLUMIXM_20220928.0000.00_12.0_global_5e14a38b89.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLUMIXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKGlobal_V13.0.2.0.SLUMIXM_04495a13b8_12.0.zip",
-          "fastboot": "rock_global_images_V13.0.2.0.SLUMIXM_20220822.0000.00_12.0_global_f6d540ffa3.tgz"
-        }
-      ]
-    },
-    {
-      "code":"rock_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TLUEUXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKEEAGlobal_V14.0.1.0.TLUEUXM_8d81d0013c_13.0.zip",
-          "fastboot": "rock_eea_global_images_V14.0.1.0.TLUEUXM_20230314.0000.00_13.0_eea_07f645d498.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLUEUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKEEAGlobal_V13.0.8.0.SLUEUXM_0ae9392c62_12.0.zip",
-          "fastboot": "rock_eea_global_images_V13.0.8.0.SLUEUXM_20221104.0000.00_12.0_eea_641e330247.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLUEUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKEEAGlobal_V13.0.5.0.SLUEUXM_a3ca68c34b_12.0.zip",
-          "fastboot": "rock_eea_global_images_V13.0.5.0.SLUEUXM_20220920.0000.00_12.0_eea_e708bcbed4.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLUEUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKEEAGlobal_V13.0.3.0.SLUEUXM_4ab9598f3a_12.0.zip",
-          "fastboot": "rock_eea_global_images_V13.0.3.0.SLUEUXM_20220831.0000.00_12.0_eea_6cfb0cc012.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLUEUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKEEAGlobal_V13.0.2.0.SLUEUXM_bf21d4dfb0_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"rock_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TLURUXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKRUGlobal_V14.0.5.0.TLURUXM_49c3954fde_13.0.zip",
-          "fastboot": "rock_ru_global_images_V14.0.5.0.TLURUXM_20231201.0000.00_13.0_ru_ba11110398.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLURUXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKRUGlobal_V14.0.4.0.TLURUXM_d12d7cc0b5_13.0.zip",
-          "fastboot": "rock_ru_global_images_V14.0.4.0.TLURUXM_20230919.0000.00_13.0_ru_ef67ede744.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLURUXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKRUGlobal_V14.0.2.0.TLURUXM_37502c94b2_13.0.zip",
-          "fastboot": "rock_ru_global_images_V14.0.2.0.TLURUXM_20230613.0000.00_13.0_ru_a666ba23f0.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLURUXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKRUGlobal_V14.0.1.0.TLURUXM_5cc72642cb_13.0.zip",
-          "fastboot": "rock_ru_global_images_V14.0.1.0.TLURUXM_20230320.0000.00_13.0_ru_249fbed0c5.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLURUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKRUGlobal_V13.0.8.0.SLURUXM_87432b5b99_12.0.zip",
-          "fastboot": "rock_ru_global_images_V13.0.8.0.SLURUXM_20221223.0000.00_12.0_global_1a34a215e4.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SLURUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKRUGlobal_V13.0.7.0.SLURUXM_b6c84f082b_12.0.zip",
-          "fastboot": "rock_ru_global_images_V13.0.7.0.SLURUXM_20221122.0000.00_12.0_global_9af18a9ac6.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLURUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKRUGlobal_V13.0.3.0.SLURUXM_00559d2221_12.0.zip",
-          "fastboot": "rock_ru_global_images_V13.0.3.0.SLURUXM_20220926.0000.00_12.0_global_56241e40c7.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLURUXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKRUGlobal_V13.0.2.0.SLURUXM_124ca1fd68_12.0.zip",
-          "fastboot": "rock_ru_global_images_V13.0.2.0.SLURUXM_20220822.0000.00_12.0_global_8386d1ed4d.tgz"
-        }
-      ]
-    },
-    {
-      "code":"rock_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TLUINXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKINGlobal_V14.0.3.0.TLUINXM_a7d3a01208_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.2.0.TLUINXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKINGlobal_V14.0.2.0.TLUINXM_2a03c56898_13.0.zip",
-          "fastboot": "rock_in_global_images_V14.0.2.0.TLUINXM_20230707.0000.00_13.0_in_43f9f66168.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLUINXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKINGlobal_V14.0.1.0.TLUINXM_ac3bcc7fcf_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.12.0.SLUINXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKINGlobal_V13.0.12.0.SLUINXM_900614398d_12.0.zip",
-          "fastboot": "rock_in_global_images_V13.0.12.0.SLUINXM_20230503.0000.00_12.0_in_90f22ed0cd.tgz"
-        },
-        {
-          "miui": "V13.0.11.0.SLUINXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKINGlobal_V13.0.11.0.SLUINXM_408e72298a_12.0.zip",
-          "fastboot": "rock_in_global_images_V13.0.11.0.SLUINXM_20230324.0000.00_12.0_in_12b27c6ee4.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SLUINXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKINGlobal_V13.0.9.0.SLUINXM_56808f4ece_12.0.zip",
-          "fastboot": "rock_in_global_images_V13.0.9.0.SLUINXM_20221122.0000.00_12.0_in_a7ccf34f98.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SLUINXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKINGlobal_V13.0.8.0.SLUINXM_b42bff6f7e_12.0.zip",
-          "fastboot": "rock_in_global_images_V13.0.8.0.SLUINXM_20220920.0000.00_12.0_in_4358b32484.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SLUINXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKINGlobal_V13.0.6.0.SLUINXM_529e5f797c_12.0.zip",
-          "fastboot": "rock_in_global_images_V13.0.6.0.SLUINXM_20220830.0000.00_12.0_in_a15d9ed4f2.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLUINXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKINGlobal_V13.0.5.0.SLUINXM_0dff3b31ed_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.0.SLUINXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKINGlobal_V13.0.4.0.SLUINXM_e01f621ff2_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"rock_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TLUIDXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKIDGlobal_V14.0.6.0.TLUIDXM_d04130723a_13.0.zip",
-          "fastboot": "rock_id_global_images_V14.0.6.0.TLUIDXM_20231201.0000.00_13.0_id_5ca33c2702.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLUIDXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKIDGlobal_V14.0.5.0.TLUIDXM_4be79e2a16_13.0.zip",
-          "fastboot": "rock_id_global_images_V14.0.5.0.TLUIDXM_20230919.0000.00_13.0_id_2eeeee8d04.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLUIDXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKIDGlobal_V14.0.3.0.TLUIDXM_5681589f11_13.0.zip",
-          "fastboot": "rock_id_global_images_V14.0.3.0.TLUIDXM_20230613.0000.00_13.0_id_5f71f83a35.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLUIDXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKIDGlobal_V14.0.1.0.TLUIDXM_8c4c2678f5_13.0.zip",
-          "fastboot": "rock_id_global_images_V14.0.1.0.TLUIDXM_20230314.0000.00_13.0_id_8f5bd0398d.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLUIDXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKIDGlobal_V13.0.5.0.SLUIDXM_99bb6bc4d1_12.0.zip",
-          "fastboot": "rock_id_global_images_V13.0.5.0.SLUIDXM_20230106.0000.00_12.0_global_7f2a2a45ac.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLUIDXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKIDGlobal_V13.0.4.0.SLUIDXM_c2ddc0c36a_12.0.zip",
-          "fastboot": "rock_id_global_images_V13.0.4.0.SLUIDXM_20221128.0000.00_12.0_global_d2b351a5eb.tgz"
-        }
-      ]
-    },
-    {
-      "code":"rock_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TLUTRXM",
-          "android": "13.0",
-          "recovery": "miui_ROCKTRGlobal_V14.0.1.0.TLUTRXM_af4eb07eee_13.0.zip",
-          "fastboot": "rock_tr_global_images_V14.0.1.0.TLUTRXM_20230327.0000.00_13.0_tr_41bd8014c9.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLUTRXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKTRGlobal_V13.0.5.0.SLUTRXM_0616543e99_12.0.zip",
-          "fastboot": "rock_tr_global_images_V13.0.5.0.SLUTRXM_20221231.0000.00_12.0_global_2710a1ae5c.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLUTRXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKTRGlobal_V13.0.3.0.SLUTRXM_b4153d5a0d_12.0.zip",
-          "fastboot": "rock_tr_global_images_V13.0.3.0.SLUTRXM_20220926.0000.00_12.0_global_b591ac8cac.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLUTRXM",
-          "android": "12.0",
-          "recovery": "miui_ROCKTRGlobal_V13.0.2.0.SLUTRXM_fc61e4c78d_12.0.zip",
-          "fastboot": "rock_tr_global_images_V13.0.2.0.SLUTRXM_20220824.0000.00_12.0_global_f90be35b80.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "rock",
+	"cnname": "Redmi 11 Prime 4G/POCO M5",
+	"enname": "Redmi 11 Prime 4G/POCO M5",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "76851",
+	"branches": [
+		{
+			"code": "rock_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TLUTWXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKTWGlobal_V14.0.1.0.TLUTWXM_eac177ac34_13.0.zip",
+					"fastboot": "rock_tw_global_images_V14.0.1.0.TLUTWXM_20230327.0000.00_13.0_tw_c050c555b2.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLUTWXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKTWGlobal_V13.0.3.0.SLUTWXM_b3eed7287a_12.0.zip",
+					"fastboot": "rock_tw_global_images_V13.0.3.0.SLUTWXM_20221128.0000.00_12.0_global_285f51a10a.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLUTWXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKTWGlobal_V13.0.2.0.SLUTWXM_a59d55fcce_12.0.zip",
+					"fastboot": "rock_tw_global_images_V13.0.2.0.SLUTWXM_20220927.0000.00_12.0_global_593ca51958.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SLUTWXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKTWGlobal_V13.0.1.0.SLUTWXM_6c78db8e5f_12.0.zip",
+					"fastboot": "rock_tw_global_images_V13.0.1.0.SLUTWXM_20220830.0000.00_12.0_global_839bd2b6c9.tgz"
+				}
+			]
+		},
+		{
+			"code": "rock_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.9.0.TLUMIXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKGlobal_V14.0.9.0.TLUMIXM_bc18926a42_13.0.zip",
+					"fastboot": "rock_global_images_V14.0.9.0.TLUMIXM_20231103.0000.00_13.0_global_13eea02fb6.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLUMIXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKGlobal_V14.0.8.0.TLUMIXM_9b89fd9841_13.0.zip",
+					"fastboot": "rock_global_images_V14.0.8.0.TLUMIXM_20230809.0000.00_13.0_global_759aee4d8e.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TLUMIXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKGlobal_V14.0.7.0.TLUMIXM_b16d8555c3_13.0.zip",
+					"fastboot": "rock_global_images_V14.0.7.0.TLUMIXM_20230508.0000.00_13.0_global_a508bc807e.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TLUMIXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKGlobal_V14.0.6.0.TLUMIXM_b64ad54537_13.0.zip",
+					"fastboot": "rock_global_images_V14.0.6.0.TLUMIXM_20230301.0000.00_13.0_global_7764f158f1.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SLUMIXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKGlobal_V13.0.10.0.SLUMIXM_41ad25688b_12.0.zip",
+					"fastboot": "rock_global_images_V13.0.10.0.SLUMIXM_20230222.0000.00_12.0_global_74178b848b.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLUMIXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKGlobal_V13.0.8.0.SLUMIXM_7cd25c4c7f_12.0.zip",
+					"fastboot": "rock_global_images_V13.0.8.0.SLUMIXM_20221117.0000.00_12.0_global_8f98646275.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLUMIXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKGlobal_V13.0.5.0.SLUMIXM_2a655da13a_12.0.zip",
+					"fastboot": "rock_global_images_V13.0.5.0.SLUMIXM_20220928.0000.00_12.0_global_5e14a38b89.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLUMIXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKGlobal_V13.0.2.0.SLUMIXM_04495a13b8_12.0.zip",
+					"fastboot": "rock_global_images_V13.0.2.0.SLUMIXM_20220822.0000.00_12.0_global_f6d540ffa3.tgz"
+				}
+			]
+		},
+		{
+			"code": "rock_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TLUEUXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKEEAGlobal_V14.0.1.0.TLUEUXM_8d81d0013c_13.0.zip",
+					"fastboot": "rock_eea_global_images_V14.0.1.0.TLUEUXM_20230314.0000.00_13.0_eea_07f645d498.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLUEUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKEEAGlobal_V13.0.8.0.SLUEUXM_0ae9392c62_12.0.zip",
+					"fastboot": "rock_eea_global_images_V13.0.8.0.SLUEUXM_20221104.0000.00_12.0_eea_641e330247.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLUEUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKEEAGlobal_V13.0.5.0.SLUEUXM_a3ca68c34b_12.0.zip",
+					"fastboot": "rock_eea_global_images_V13.0.5.0.SLUEUXM_20220920.0000.00_12.0_eea_e708bcbed4.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLUEUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKEEAGlobal_V13.0.3.0.SLUEUXM_4ab9598f3a_12.0.zip",
+					"fastboot": "rock_eea_global_images_V13.0.3.0.SLUEUXM_20220831.0000.00_12.0_eea_6cfb0cc012.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLUEUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKEEAGlobal_V13.0.2.0.SLUEUXM_bf21d4dfb0_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "rock_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TLURUXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKRUGlobal_V14.0.5.0.TLURUXM_49c3954fde_13.0.zip",
+					"fastboot": "rock_ru_global_images_V14.0.5.0.TLURUXM_20231201.0000.00_13.0_ru_ba11110398.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLURUXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKRUGlobal_V14.0.4.0.TLURUXM_d12d7cc0b5_13.0.zip",
+					"fastboot": "rock_ru_global_images_V14.0.4.0.TLURUXM_20230919.0000.00_13.0_ru_ef67ede744.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLURUXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKRUGlobal_V14.0.2.0.TLURUXM_37502c94b2_13.0.zip",
+					"fastboot": "rock_ru_global_images_V14.0.2.0.TLURUXM_20230613.0000.00_13.0_ru_a666ba23f0.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLURUXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKRUGlobal_V14.0.1.0.TLURUXM_5cc72642cb_13.0.zip",
+					"fastboot": "rock_ru_global_images_V14.0.1.0.TLURUXM_20230320.0000.00_13.0_ru_249fbed0c5.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLURUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKRUGlobal_V13.0.8.0.SLURUXM_87432b5b99_12.0.zip",
+					"fastboot": "rock_ru_global_images_V13.0.8.0.SLURUXM_20221223.0000.00_12.0_global_1a34a215e4.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SLURUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKRUGlobal_V13.0.7.0.SLURUXM_b6c84f082b_12.0.zip",
+					"fastboot": "rock_ru_global_images_V13.0.7.0.SLURUXM_20221122.0000.00_12.0_global_9af18a9ac6.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLURUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKRUGlobal_V13.0.3.0.SLURUXM_00559d2221_12.0.zip",
+					"fastboot": "rock_ru_global_images_V13.0.3.0.SLURUXM_20220926.0000.00_12.0_global_56241e40c7.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLURUXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKRUGlobal_V13.0.2.0.SLURUXM_124ca1fd68_12.0.zip",
+					"fastboot": "rock_ru_global_images_V13.0.2.0.SLURUXM_20220822.0000.00_12.0_global_8386d1ed4d.tgz"
+				}
+			]
+		},
+		{
+			"code": "rock_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TLUINXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKINGlobal_V14.0.3.0.TLUINXM_a7d3a01208_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.2.0.TLUINXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKINGlobal_V14.0.2.0.TLUINXM_2a03c56898_13.0.zip",
+					"fastboot": "rock_in_global_images_V14.0.2.0.TLUINXM_20230707.0000.00_13.0_in_43f9f66168.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLUINXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKINGlobal_V14.0.1.0.TLUINXM_ac3bcc7fcf_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.12.0.SLUINXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKINGlobal_V13.0.12.0.SLUINXM_900614398d_12.0.zip",
+					"fastboot": "rock_in_global_images_V13.0.12.0.SLUINXM_20230503.0000.00_12.0_in_90f22ed0cd.tgz"
+				},
+				{
+					"miui": "V13.0.11.0.SLUINXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKINGlobal_V13.0.11.0.SLUINXM_408e72298a_12.0.zip",
+					"fastboot": "rock_in_global_images_V13.0.11.0.SLUINXM_20230324.0000.00_12.0_in_12b27c6ee4.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SLUINXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKINGlobal_V13.0.9.0.SLUINXM_56808f4ece_12.0.zip",
+					"fastboot": "rock_in_global_images_V13.0.9.0.SLUINXM_20221122.0000.00_12.0_in_a7ccf34f98.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SLUINXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKINGlobal_V13.0.8.0.SLUINXM_b42bff6f7e_12.0.zip",
+					"fastboot": "rock_in_global_images_V13.0.8.0.SLUINXM_20220920.0000.00_12.0_in_4358b32484.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SLUINXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKINGlobal_V13.0.6.0.SLUINXM_529e5f797c_12.0.zip",
+					"fastboot": "rock_in_global_images_V13.0.6.0.SLUINXM_20220830.0000.00_12.0_in_a15d9ed4f2.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLUINXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKINGlobal_V13.0.5.0.SLUINXM_0dff3b31ed_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.0.SLUINXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKINGlobal_V13.0.4.0.SLUINXM_e01f621ff2_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "rock_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TLUIDXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKIDGlobal_V14.0.6.0.TLUIDXM_d04130723a_13.0.zip",
+					"fastboot": "rock_id_global_images_V14.0.6.0.TLUIDXM_20231201.0000.00_13.0_id_5ca33c2702.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLUIDXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKIDGlobal_V14.0.5.0.TLUIDXM_4be79e2a16_13.0.zip",
+					"fastboot": "rock_id_global_images_V14.0.5.0.TLUIDXM_20230919.0000.00_13.0_id_2eeeee8d04.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLUIDXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKIDGlobal_V14.0.3.0.TLUIDXM_5681589f11_13.0.zip",
+					"fastboot": "rock_id_global_images_V14.0.3.0.TLUIDXM_20230613.0000.00_13.0_id_5f71f83a35.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLUIDXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKIDGlobal_V14.0.1.0.TLUIDXM_8c4c2678f5_13.0.zip",
+					"fastboot": "rock_id_global_images_V14.0.1.0.TLUIDXM_20230314.0000.00_13.0_id_8f5bd0398d.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLUIDXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKIDGlobal_V13.0.5.0.SLUIDXM_99bb6bc4d1_12.0.zip",
+					"fastboot": "rock_id_global_images_V13.0.5.0.SLUIDXM_20230106.0000.00_12.0_global_7f2a2a45ac.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLUIDXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKIDGlobal_V13.0.4.0.SLUIDXM_c2ddc0c36a_12.0.zip",
+					"fastboot": "rock_id_global_images_V13.0.4.0.SLUIDXM_20221128.0000.00_12.0_global_d2b351a5eb.tgz"
+				}
+			]
+		},
+		{
+			"code": "rock_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TLUTRXM",
+					"android": "13.0",
+					"recovery": "miui_ROCKTRGlobal_V14.0.1.0.TLUTRXM_af4eb07eee_13.0.zip",
+					"fastboot": "rock_tr_global_images_V14.0.1.0.TLUTRXM_20230327.0000.00_13.0_tr_41bd8014c9.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLUTRXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKTRGlobal_V13.0.5.0.SLUTRXM_0616543e99_12.0.zip",
+					"fastboot": "rock_tr_global_images_V13.0.5.0.SLUTRXM_20221231.0000.00_12.0_global_2710a1ae5c.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLUTRXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKTRGlobal_V13.0.3.0.SLUTRXM_b4153d5a0d_12.0.zip",
+					"fastboot": "rock_tr_global_images_V13.0.3.0.SLUTRXM_20220926.0000.00_12.0_global_b591ac8cac.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLUTRXM",
+					"android": "12.0",
+					"recovery": "miui_ROCKTRGlobal_V13.0.2.0.SLUTRXM_fc61e4c78d_12.0.zip",
+					"fastboot": "rock_tr_global_images_V13.0.2.0.SLUTRXM_20220824.0000.00_12.0_global_f90be35b80.tgz"
+				}
+			]
+		}
+	]
 }

@@ -1,79 +1,79 @@
 {
-  "codename": "yudi",
-  "cnname": "小米平板 6 Max 14",
-  "enname": "Xiaomi Pad 6 Max 14",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"0",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"yudi",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TMHCNXM",
-          "android": "13.0",
-          "recovery": "miui_YUDI_V14.0.6.0.TMHCNXM_e089ca23f1_13.0.zip",
-          "fastboot": "yudi_images_V14.0.6.0.TMHCNXM_20230915.0000.00_13.0_cn_74b725da7b.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMHCNXM",
-          "android": "13.0",
-          "recovery": "miui_YUDI_V14.0.4.0.TMHCNXM_fc95e1b9b3_13.0.zip",
-          "fastboot": "yudi_images_V14.0.4.0.TMHCNXM_20230825.0000.00_13.0_cn_20395aa145.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TMHCNXM",
-          "android": "13.0",
-          "recovery": "miui_YUDI_V14.0.3.0.TMHCNXM_791c025ae6_13.0.zip",
-          "fastboot": "yudi_images_V14.0.3.0.TMHCNXM_20230804.0000.00_13.0_cn_e44fe9dc5b.tgz"
-        }
-      ]
-    },
-    {
-      "code":"yudi_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TMHCNDM",
-          "android": "13.0",
-          "recovery": "miui_YUDIDEMO_V14.0.3.0.TMHCNDM_ee2673b575_13.0.zip",
-          "fastboot": "yudi_demo_images_V14.0.3.0.TMHCNDM_20230817.0000.00_13.0_cn_40ebcbab32.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TMHCNDM",
-          "android": "13.0",
-          "recovery": "miui_YUDIDEMO_V14.0.2.0.TMHCNDM_a032970556_13.0.zip",
-          "fastboot": "yudi_demo_images_V14.0.2.0.TMHCNDM_20230807.0000.00_13.0_cn_8b4278f53a.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "yudi",
+	"cnname": "小米平板 6 Max 14",
+	"enname": "Xiaomi Pad 6 Max 14",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "0",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "yudi",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TMHCNXM",
+					"android": "13.0",
+					"recovery": "miui_YUDI_V14.0.6.0.TMHCNXM_e089ca23f1_13.0.zip",
+					"fastboot": "yudi_images_V14.0.6.0.TMHCNXM_20230915.0000.00_13.0_cn_74b725da7b.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMHCNXM",
+					"android": "13.0",
+					"recovery": "miui_YUDI_V14.0.4.0.TMHCNXM_fc95e1b9b3_13.0.zip",
+					"fastboot": "yudi_images_V14.0.4.0.TMHCNXM_20230825.0000.00_13.0_cn_20395aa145.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TMHCNXM",
+					"android": "13.0",
+					"recovery": "miui_YUDI_V14.0.3.0.TMHCNXM_791c025ae6_13.0.zip",
+					"fastboot": "yudi_images_V14.0.3.0.TMHCNXM_20230804.0000.00_13.0_cn_e44fe9dc5b.tgz"
+				}
+			]
+		},
+		{
+			"code": "yudi_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TMHCNDM",
+					"android": "13.0",
+					"recovery": "miui_YUDIDEMO_V14.0.3.0.TMHCNDM_ee2673b575_13.0.zip",
+					"fastboot": "yudi_demo_images_V14.0.3.0.TMHCNDM_20230817.0000.00_13.0_cn_40ebcbab32.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TMHCNDM",
+					"android": "13.0",
+					"recovery": "miui_YUDIDEMO_V14.0.2.0.TMHCNDM_a032970556_13.0.zip",
+					"fastboot": "yudi_demo_images_V14.0.2.0.TMHCNDM_20230807.0000.00_13.0_cn_8b4278f53a.tgz"
+				}
+			]
+		}
+	]
 }

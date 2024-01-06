@@ -1,1337 +1,1333 @@
 {
-  "codename": "zeus",
-  "cnname": "小米 12 Pro",
-  "enname": "Xiaomi 12 Pro",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "36837921",
-  "ismiui":"0",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "409"
-  ],
-  "cbid": [
-    "413"
-  ],
-  "gdid": "70002",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"zeus",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.10.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.10.15.DEV_d2df58695a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.10.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.10.8.DEV_2014ffe53b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.9.18.DEV_1bb0d58f6f_13.0.zip",
-          "fastboot": "zeus_images_V14.0.23.9.18.DEV_20230918.0000.00_13.0_cn_200d5634f5.tgz"
-        },
-        {
-          "miui": "V14.0.23.9.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.9.11.DEV_8d2e75e50e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.4.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.9.4.DEV_9c0b5e0b58_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.8.28.DEV_f73fb493a5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.8.21.DEV_264c202161_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.14.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.8.14.DEV_b3e78a2f54_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.8.7.DEV_3f2321771e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.7.31.DEV_f95779d2e9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.7.24.DEV_c82fb309e0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.7.17.DEV_0dc892863f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.7.10.DEV_bd9329eec1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.7.3.DEV_76e8143897_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.6.26.DEV_7f14f60a9d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.6.8.DEV_62a5a5791d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.6.5.DEV_ae9d85022a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.5.29.DEV_22b184ce72_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.5.22.DEV_a4d8a440c1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.5.15.DEV_8ad9ec3190_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.5.8.DEV_964a8f8ed3_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.4.25.DEV_82cefdd5a9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.4.17.DEV_79509dd1b7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.4.10.DEV_1b7d24d555_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.4.2.DEV_e57b632b46_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.3.27.DEV_f095750d00_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.20.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.3.20.DEV_d04bc62d67_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.3.13.DEV_f907f47a63_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.3.7.DEV_13d73d4278_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.2.27.DEV_165541ff46_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.2.21.DEV_6bff198868_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.2.13.DEV_dc397aec0c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.2.6.DEV_694588fdcc_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.1.30.DEV_1fcd530e96_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.1.9.DEV_f681dc25a4_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.23.1.3.DEV_75905dcbaa_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.22.12.26.DEV_435d86fb1a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.22.12.19.DEV_b18b4380d7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.22.12.8.DEV_1f0a233d27_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.22.12.5.DEV_0307382815_13.0.zip",
-          "fastboot": "zeus_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_9e94bd9f24.tgz"
-        },
-        {
-          "miui": "V13.1.22.10.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.10.25.DEV_6185ef2489_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.10.19.DEV_bbfa676a56_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.10.11.DEV_e71cbd9b03_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.9.29.DEV_23af26c0b1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.9.19.DEV_609c997f4a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.9.13.DEV_d701413485_13.0.zip",
-          "fastboot": "zeus_images_V13.1.22.9.13.DEV_20220914.0000.00_13.0_cn_24ab9f2944.tgz"
-        },
-        {
-          "miui": "V13.1.22.9.1.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.9.1.DEV_4b5e9f752f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.8.18.DEV_aecd45699e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.8.9.DEV_37209b6482_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.8.3.DEV_324bcdd487_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.7.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.1.22.7.28.DEV_441735746a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.1.22.8.22.DEV_623e388db6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.1.22.8.16.DEV_c08959374f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.59.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.59.DEV_e0ccca3f88_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.56.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.56.DEV_6a6cf27ca5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.55.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.55.DEV_23af0ddecb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.51.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.51.DEV_0815d275dc_12.0.zip",
-          "fastboot": "zeus_images_V13.0.31.1.51.DEV_20220719.0000.00_12.0_cn_8e28623587.tgz"
-        },
-        {
-          "miui": "V13.0.31.1.48.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.48.DEV_ac2a39feba_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.47.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.47.DEV_217bd058d4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.45.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.45.DEV_1f0833475a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.44.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.44.DEV_52d9f5f97f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.40.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.40.DEV_1b4e3864ef_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.39.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.39.DEV_3d61a8e618_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.37.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.37.DEV_fbe9796407_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.36.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.36.DEV_ad9f2f580e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.32.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.32.DEV_b19a28350b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.29.DEV_fe6907517a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.31.1.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.31.1.28.DEV_489cd5e1e8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.28.1.18.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.28.1.18.DEV_24b86f2f23_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.25.1.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.25.1.16.DEV_27c2f441f8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.25.1.15.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.25.1.15.DEV_d486784e75_12.0.zip",
-          "fastboot": "zeus_images_V13.0.25.1.15.DEV_20220308.0000.00_12.0_cn_6ae479b691.tgz"
-        },
-        {
-          "miui": "V13.0.25.1.13.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.25.1.13.DEV_e996a2a5a8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.23.1.11.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.23.1.11.DEV_2afbe7d756_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.23.1.9.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.23.1.9.DEV_83a25d078d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.23.1.7.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.23.1.7.DEV_da16c44bfa_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.21.1.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.21.1.5.DEV_96aedc9293_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.12.1.1.DEV",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.12.1.1.DEV_5b2393e286_12.0.zip",
-          "fastboot": "zeus_images_V13.0.12.1.1.DEV_20220112.0000.00_12.0_cn_cd3ec4ec88.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.18.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.18.0.TLBCNXM_4a0ec88897_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.16.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.16.0.TLBCNXM_0043ba0424_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.15.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.15.0.TLBCNXM_f6a22db295_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.14.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.14.0.TLBCNXM_e07208b49d_13.0.zip",
-          "fastboot": "zeus_images_V14.0.14.0.TLBCNXM_20230704.0000.00_13.0_cn_1bfe3b7d17.tgz"
-        },
-        {
-          "miui": "V14.0.13.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.13.0.TLBCNXM_800e3c12d0_13.0.zip",
-          "fastboot": "zeus_images_V14.0.13.0.TLBCNXM_20230414.0000.00_13.0_cn_063dbd1872.tgz"
-        },
-        {
-          "miui": "V14.0.12.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.12.0.TLBCNXM_00fd49cb33_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.8.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.8.0.TLBCNXM_ec4f2b340b_13.0.zip",
-          "fastboot": "zeus_images_V14.0.8.0.TLBCNXM_20230109.0000.00_13.0_cn_8f9b23b485.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.6.0.TLBCNXM_7c8e952288_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.4.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.4.0.TLBCNXM_98bd7af353_13.0.zip",
-          "fastboot": "zeus_images_V14.0.4.0.TLBCNXM_20221214.0000.00_13.0_cn_3ea0a3ab70.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.2.7.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.2.7.0.TLBCNXM_f8cfa489fb_13.0.zip",
-          "fastboot": "zeus_images_V13.2.7.0.TLBCNXM_20221125.0000.00_13.0_cn_a10f7a0851.tgz"
-        },
-        {
-          "miui": "V13.2.4.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.2.4.0.TLBCNXM_f898df6ade_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.41.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.41.0.SLBCNXM_feeaee9deb_12.0.zip",
-          "fastboot": "zeus_images_V13.0.41.0.SLBCNXM_20220930.0000.00_12.0_cn_9d123ecc99.tgz"
-        },
-        {
-          "miui": "V13.0.39.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.39.0.SLBCNXM_eb2bc0574b_12.0.zip",
-          "fastboot": "zeus_images_V13.0.39.0.SLBCNXM_20220829.0000.00_12.0_cn_e111befa06.tgz"
-        },
-        {
-          "miui": "V13.0.37.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.37.0.SLBCNXM_46c0d55212_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.36.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.36.0.SLBCNXM_8a9ad9557d_12.0.zip",
-          "fastboot": "zeus_images_V13.0.36.0.SLBCNXM_20220621.0000.00_12.0_cn_a38468b040.tgz"
-        },
-        {
-          "miui": "V13.0.33.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.33.0.SLBCNXM_f7568400f7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.32.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.32.0.SLBCNXM_454ee2aa88_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.30.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.30.0.SLBCNXM_d60d892580_12.0.zip",
-          "fastboot": "zeus_images_V13.0.30.0.SLBCNXM_20220401.0000.00_12.0_cn_1ba2c640ed.tgz"
-        },
-        {
-          "miui": "V13.0.28.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.28.0.SLBCNXM_db86831e34_12.0.zip",
-          "fastboot": "zeus_images_V13.0.28.0.SLBCNXM_20220309.0000.00_12.0_cn_0f1c14e0f3.tgz"
-        },
-        {
-          "miui": "V13.0.25.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.25.0.SLBCNXM_fb6c8ae4c9_12.0.zip",
-          "fastboot": "zeus_images_V13.0.25.0.SLBCNXM_20220217.0000.00_12.0_cn_395e704fb6.tgz"
-        },
-        {
-          "miui": "V13.0.23.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.23.0.SLBCNXM_878e12bc9c_12.0.zip",
-          "fastboot": "zeus_images_V13.0.23.0.SLBCNXM_20220125.0000.00_12.0_cn_0737fefe9f.tgz"
-        },
-        {
-          "miui": "V13.0.21.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.21.0.SLBCNXM_dae35fa397_12.0.zip",
-          "fastboot": "zeus_images_V13.0.21.0.SLBCNXM_20220115.0000.00_12.0_cn_a4580fc1ca.tgz"
-        },
-        {
-          "miui": "V13.0.16.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.16.0.SLBCNXM_e679eda7cf_12.0.zip",
-          "fastboot": "zeus_images_V13.0.16.0.SLBCNXM_20220104.0000.00_12.0_cn_470942f2d4.tgz"
-        },
-        {
-          "miui": "V13.0.12.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.12.0.SLBCNXM_ec43b73003_12.0.zip",
-          "fastboot": "zeus_images_V13.0.12.0.SLBCNXM_20211229.0000.00_12.0_cn_6bbe7289d7.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.10.0.SLBCNXM_310771d8cf_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"zeus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.14.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.14.0.TLBCNXM_e07208b49d_13.0.zip",
-          "fastboot": "zeus_images_V14.0.14.0.TLBCNXM_20230704.0000.00_13.0_cn_chinatelecom_209b4dca5b.tgz"
-        },
-        {
-          "miui": "V14.0.13.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.13.0.TLBCNXM_800e3c12d0_13.0.zip",
-          "fastboot": "zeus_images_V14.0.13.0.TLBCNXM_20230414.0000.00_13.0_cn_chinatelecom_8bbb327040.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.8.0.TLBCNXM_ec4f2b340b_13.0.zip",
-          "fastboot": "zeus_images_V14.0.8.0.TLBCNXM_20230109.0000.00_13.0_cn_chinatelecom_c4973f7370.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V14.0.4.0.TLBCNXM_98bd7af353_13.0.zip",
-          "fastboot": "zeus_images_V14.0.4.0.TLBCNXM_20221214.0000.00_13.0_cn_chinatelecom_9268f63040.tgz"
-        },
-        {
-          "miui": "V13.2.7.0.TLBCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUS_V13.2.7.0.TLBCNXM_f8cfa489fb_13.0.zip",
-          "fastboot": "zeus_images_V13.2.7.0.TLBCNXM_20221125.0000.00_13.0_cn_chinatelecom_d7fb4a1f80.tgz"
-        },
-        {
-          "miui": "V13.0.41.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.41.0.SLBCNXM_feeaee9deb_12.0.zip",
-          "fastboot": "zeus_images_V13.0.41.0.SLBCNXM_20220930.0000.00_12.0_cn_chinatelecom_a8a387e734.tgz"
-        },
-        {
-          "miui": "V13.0.39.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.39.0.SLBCNXM_eb2bc0574b_12.0.zip",
-          "fastboot": "zeus_images_V13.0.39.0.SLBCNXM_20220829.0000.00_12.0_cn_chinatelecom_d642698c25.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.41.0.SLBCNXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUS_V13.0.41.0.SLBCNXM_feeaee9deb_12.0.zip",
-          "fastboot": "zeus_images_V13.0.41.0.SLBCNXM_20220930.0000.00_12.0_cn_chinamobile_b0d938022f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_ep_xy",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "epxy",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆EPXY",
-      "enname": "China Mainland EPXY",
-      "links": [
-        {
-          "miui": "V13.0.22.6.24.EP.XY.L2",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEPXY_V13.0.22.6.24.EP.XY.L2_b9f050c690_12.0.zip",
-          "fastboot": "zeus_ep_xy_images_V13.0.22.6.24.EP.XY.L2_20220624.0000.00_12.0_cn_facdee6008.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_ep_stdee",
-      "btag":"F",
-      "region":"",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stdee",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.3.30.EP.STDEE.L2",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEPSTDEE_V14.0.23.3.30.EP.STDEE.L2_53e99c0547_13.0.zip",
-          "fastboot": "zeus_ep_stdee_images_V14.0.23.3.30.EP.STDEE.L2_20230330.0000.00_13.0_cn_f505b67e09.tgz"
-        },
-        {
-          "miui": "V14.0.23.3.30.EP.STDEE.L2",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEPSTDEE_V14.0.23.3.30.EP.STDEE.L2_53e99c0547_13.0.zip",
-          "fastboot": "zeus_ep_stdee_images_V14.0.23.3.30.EP.STDEE.L2_20230330.0000.00_13.0_cn_chinatelecom_c94ed935cb.tgz"
-        },
-        {
-          "miui": "V13.0.22.9.23.EP.STDEE.L2",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEPSTDEE_V13.0.22.9.23.EP.STDEE.L2_62b96ccfb0_12.0.zip",
-          "fastboot": "zeus_ep_stdee_images_V13.0.22.9.23.EP.STDEE.L2_20220923.0000.00_12.0_cn_2971823f56.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TLBTWXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTWGlobal_V14.0.4.0.TLBTWXM_ab4716b038_13.0.zip",
-          "fastboot": "zeus_tw_global_images_V14.0.4.0.TLBTWXM_20231010.0000.00_13.0_tw_bbef546d6a.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLBTWXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTWGlobal_V14.0.3.0.TLBTWXM_d3b6998cb5_13.0.zip",
-          "fastboot": "zeus_tw_global_images_V14.0.3.0.TLBTWXM_20230706.0000.00_13.0_tw_03f1eb934f.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLBTWXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTWGlobal_V14.0.2.0.TLBTWXM_ab0929a230_13.0.zip",
-          "fastboot": "zeus_tw_global_images_V14.0.2.0.TLBTWXM_20230427.0000.00_13.0_tw_2ff8930c96.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLBTWXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTWGlobal_V14.0.1.0.TLBTWXM_be09c6b7cd_13.0.zip",
-          "fastboot": "zeus_tw_global_images_V14.0.1.0.TLBTWXM_20230213.0000.00_13.0_tw_a369132149.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLBTWXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSTWGlobal_V13.0.4.0.SLBTWXM_2802546335_12.0.zip",
-          "fastboot": "zeus_tw_global_images_V13.0.4.0.SLBTWXM_20220907.0000.00_12.0_global_2efb49dfd0.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLBTWXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSTWGlobal_V13.0.3.0.SLBTWXM_aa6109c24f_12.0.zip",
-          "fastboot": "zeus_tw_global_images_V13.0.3.0.SLBTWXM_20220415.0000.00_12.0_global_4b30680f4e.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLBTWXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSTWGlobal_V13.0.2.0.SLBTWXM_077cf0f3a5_12.0.zip",
-          "fastboot": "zeus_tw_global_images_V13.0.2.0.SLBTWXM_20220215.0000.00_12.0_global_b6ec2f68d1.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.9.0.TLBMIXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSGlobal_V14.0.9.0.TLBMIXM_33fcfe4410_13.0.zip",
-          "fastboot": "zeus_global_images_V14.0.9.0.TLBMIXM_20230913.0000.00_13.0_global_179b3a2755.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLBMIXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSGlobal_V14.0.8.0.TLBMIXM_fe533574a9_13.0.zip",
-          "fastboot": "zeus_global_images_V14.0.8.0.TLBMIXM_20230630.0000.00_13.0_global_9f5e328c21.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TLBMIXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSGlobal_V14.0.7.0.TLBMIXM_9068eca21a_13.0.zip",
-          "fastboot": "zeus_global_images_V14.0.7.0.TLBMIXM_20230411.0000.00_13.0_global_301f858688.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLBMIXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSGlobal_V14.0.5.0.TLBMIXM_3e6bbfed12_13.0.zip",
-          "fastboot": "zeus_global_images_V14.0.5.0.TLBMIXM_20230110.0000.00_13.0_global_d1ba795dc9.tgz"
-        },
-        {
-          "miui": "V13.2.1.0.TLBMIXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSGlobal_V13.2.1.0.TLBMIXM_603442db0b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.0.TLBMIXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSGlobal_V13.0.4.0.TLBMIXM_bf23673ad2_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.9.0.SLBMIXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSGlobal_V13.0.9.0.SLBMIXM_5a008a8076_12.0.zip",
-          "fastboot": "zeus_global_images_V13.0.9.0.SLBMIXM_20221020.0000.00_12.0_global_d24c2e8706.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SLBMIXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSGlobal_V13.0.7.0.SLBMIXM_6b702aa8e2_12.0.zip",
-          "fastboot": "zeus_global_images_V13.0.7.0.SLBMIXM_20220718.0000.00_12.0_global_086ed0beee.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SLBMIXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSGlobal_V13.0.6.0.SLBMIXM_35481701b3_12.0.zip",
-          "fastboot": "zeus_global_images_V13.0.6.0.SLBMIXM_20220413.0000.00_12.0_global_a244b582bb.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLBMIXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSGlobal_V13.0.5.0.SLBMIXM_9e61d6d796_12.0.zip",
-          "fastboot": "zeus_global_images_V13.0.5.0.SLBMIXM_20220318.0000.00_12.0_global_08bcf67fd7.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLBMIXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSGlobal_V13.0.3.0.SLBMIXM_91c62f666f_12.0.zip",
-          "fastboot": "zeus_global_images_V13.0.3.0.SLBMIXM_20220221.0000.00_12.0_global_f03fcfa91e.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.18.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.18.0.TLBEUXM_9f384902ae_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.17.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.17.0.TLBEUXM_6521ddb7a8_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.16.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.16.0.TLBEUXM_c6082a5a4e_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.16.0.TLBEUXM_20230804.0000.00_13.0_eea_9c4824b5ee.tgz"
-        },
-        {
-          "miui": "V14.0.15.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.15.0.TLBEUXM_1d0561625b_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.15.0.TLBEUXM_20230619.0000.00_13.0_eea_e30a6b4d17.tgz"
-        },
-        {
-          "miui": "V14.0.14.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.14.0.TLBEUXM_a43bf1ae45_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.14.0.TLBEUXM_20230608.0000.00_13.0_eea_23e6de61c8.tgz"
-        },
-        {
-          "miui": "V14.0.13.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.13.0.TLBEUXM_c256fb10fb_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.13.0.TLBEUXM_20230512.0000.00_13.0_eea_e711887aae.tgz"
-        },
-        {
-          "miui": "V14.0.11.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.11.0.TLBEUXM_8ede272e60_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.11.0.TLBEUXM_20230412.0000.00_13.0_eea_35f49f0c5e.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.10.0.TLBEUXM_fca9d5201d_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.10.0.TLBEUXM_20230322.0000.00_13.0_eea_5b74549ba2.tgz"
-        },
-        {
-          "miui": "V14.0.8.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.8.0.TLBEUXM_80c9d5c6cf_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.8.0.TLBEUXM_20230210.0000.00_13.0_eea_46c94cef44.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V14.0.7.0.TLBEUXM_5a02eae86f_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V14.0.7.0.TLBEUXM_20230110.0000.00_13.0_eea_9e5b0e5331.tgz"
-        },
-        {
-          "miui": "V13.2.8.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.2.8.0.TLBEUXM_38792cb870_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.2.8.0.TLBEUXM_20230110.0000.00_13.0_eea_8336a1450f.tgz"
-        },
-        {
-          "miui": "V13.2.4.0.TLBEUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.2.4.0.TLBEUXM_ae529519f1_13.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.2.4.0.TLBEUXM_20221124.0000.00_13.0_eea_1d7552c6aa.tgz"
-        },
-        {
-          "miui": "V13.0.29.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.29.0.SLBEUXM_88264a12e1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.28.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.28.0.SLBEUXM_4a58293b57_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.28.0.SLBEUXM_20221117.0000.00_12.0_eea_85df8adae1.tgz"
-        },
-        {
-          "miui": "V13.0.26.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.26.0.SLBEUXM_fca1b9668c_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.26.0.SLBEUXM_20221028.0000.00_12.0_eea_1a636aebf9.tgz"
-        },
-        {
-          "miui": "V13.0.25.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.25.0.SLBEUXM_34cb82f91f_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.25.0.SLBEUXM_20221019.0000.00_12.0_eea_05634f4676.tgz"
-        },
-        {
-          "miui": "V13.0.23.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.23.0.SLBEUXM_0ed38c114c_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.23.0.SLBEUXM_20220927.0000.00_12.0_eea_33f9a4f5f6.tgz"
-        },
-        {
-          "miui": "V13.0.21.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.21.0.SLBEUXM_de900c087f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.20.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.20.0.SLBEUXM_ff585d22b5_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.20.0.SLBEUXM_20220826.0000.00_12.0_eea_ddcd5c233c.tgz"
-        },
-        {
-          "miui": "V13.0.19.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.19.0.SLBEUXM_74dfa5425e_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.19.0.SLBEUXM_20220704.0000.00_12.0_eea_92527974b1.tgz"
-        },
-        {
-          "miui": "V13.0.18.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.18.0.SLBEUXM_d7b9b704d3_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.18.0.SLBEUXM_20220527.0000.00_12.0_eea_4c2068350f.tgz"
-        },
-        {
-          "miui": "V13.0.17.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.17.0.SLBEUXM_ddb8257ea4_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.17.0.SLBEUXM_20220511.0000.00_12.0_eea_d01cb100f7.tgz"
-        },
-        {
-          "miui": "V13.0.16.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.16.0.SLBEUXM_db2b379891_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.16.0.SLBEUXM_20220408.0000.00_12.0_eea_8f8570be0c.tgz"
-        },
-        {
-          "miui": "V13.0.14.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.14.0.SLBEUXM_ac7a931bbd_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.14.0.SLBEUXM_20220316.0000.00_12.0_eea_3e88f67ac0.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SLBEUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSEEAGlobal_V13.0.10.0.SLBEUXM_8af10526e8_12.0.zip",
-          "fastboot": "zeus_eea_global_images_V13.0.10.0.SLBEUXM_20220129.0000.00_12.0_eea_e1a9ad0dd4.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TLBRUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSRUGlobal_V14.0.5.0.TLBRUXM_f90b835d72_13.0.zip",
-          "fastboot": "zeus_ru_global_images_V14.0.5.0.TLBRUXM_20231121.0000.00_13.0_ru_9c5b809968.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLBRUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSRUGlobal_V14.0.4.0.TLBRUXM_d6fcfff44d_13.0.zip",
-          "fastboot": "zeus_ru_global_images_V14.0.4.0.TLBRUXM_20230818.0000.00_13.0_ru_744c8aba81.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLBRUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSRUGlobal_V14.0.3.0.TLBRUXM_1ffd79a57e_13.0.zip",
-          "fastboot": "zeus_ru_global_images_V14.0.3.0.TLBRUXM_20230517.0000.00_13.0_ru_63b6c1f4a3.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLBRUXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSRUGlobal_V14.0.2.0.TLBRUXM_034907f7c0_13.0.zip",
-          "fastboot": "zeus_ru_global_images_V14.0.2.0.TLBRUXM_20230221.0000.00_13.0_ru_ad5eabe7d7.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLBRUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSRUGlobal_V13.0.3.0.SLBRUXM_6e0ee3b912_12.0.zip",
-          "fastboot": "zeus_ru_global_images_V13.0.3.0.SLBRUXM_20230111.0000.00_12.0_global_7352e36d51.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLBRUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSRUGlobal_V13.0.2.0.SLBRUXM_386f40d676_12.0.zip",
-          "fastboot": "zeus_ru_global_images_V13.0.2.0.SLBRUXM_20220421.0000.00_12.0_global_86b26fae40.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SLBRUXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSRUGlobal_V13.0.1.0.SLBRUXM_cf027e3a69_12.0.zip",
-          "fastboot": "zeus_ru_global_images_V13.0.1.0.SLBRUXM_20220218.0000.00_12.0_global_943c49bcac.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TLBINXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSINGlobal_V14.0.7.0.TLBINXM_a4b9ce4180_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.4.0.TLBINXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSINGlobal_V14.0.4.0.TLBINXM_05a1a3c256_13.0.zip",
-          "fastboot": "zeus_in_global_images_V14.0.4.0.TLBINXM_20230906.0000.00_13.0_in_8f14464771.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLBINXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSINGlobal_V14.0.3.0.TLBINXM_a27b835a26_13.0.zip",
-          "fastboot": "zeus_in_global_images_V14.0.3.0.TLBINXM_20230621.0000.00_13.0_in_4995d87217.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLBINXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSINGlobal_V14.0.2.0.TLBINXM_0c869f4e17_13.0.zip",
-          "fastboot": "zeus_in_global_images_V14.0.2.0.TLBINXM_20230328.0000.00_13.0_in_412fb9ea74.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLBINXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSINGlobal_V14.0.1.0.TLBINXM_1ad467d767_13.0.zip",
-          "fastboot": "zeus_in_global_images_V14.0.1.0.TLBINXM_20230118.0000.00_13.0_in_8a22e3f871.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SLBINXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSINGlobal_V13.0.9.0.SLBINXM_b72d7ac8fd_12.0.zip",
-          "fastboot": "zeus_in_global_images_V13.0.9.0.SLBINXM_20221017.0000.00_12.0_in_a6b8826ba4.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SLBINXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSINGlobal_V13.0.6.0.SLBINXM_d42c0e4b75_12.0.zip",
-          "fastboot": "zeus_in_global_images_V13.0.6.0.SLBINXM_20220714.0000.00_12.0_in_294219fe27.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SLBINXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSINGlobal_V13.0.5.0.SLBINXM_3cacdd6497_12.0.zip",
-          "fastboot": "zeus_in_global_images_V13.0.5.0.SLBINXM_20220512.0000.00_12.0_in_d618b978d2.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLBINXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSINGlobal_V13.0.4.0.SLBINXM_9ba8c8e1c3_12.0.zip",
-          "fastboot": "zeus_in_global_images_V13.0.4.0.SLBINXM_20220328.0000.00_12.0_in_f4be65e7ab.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TLBIDXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSIDGlobal_V14.0.6.0.TLBIDXM_3df68eb478_13.0.zip",
-          "fastboot": "zeus_id_global_images_V14.0.6.0.TLBIDXM_20231208.0000.00_13.0_id_046c07f3b4.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TLBIDXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSIDGlobal_V14.0.5.0.TLBIDXM_aa231bcffc_13.0.zip",
-          "fastboot": "zeus_id_global_images_V14.0.5.0.TLBIDXM_20230925.0000.00_13.0_id_1bfaf11f03.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLBIDXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSIDGlobal_V14.0.2.0.TLBIDXM_9a93271fa7_13.0.zip",
-          "fastboot": "zeus_id_global_images_V14.0.2.0.TLBIDXM_20230412.0000.00_13.0_id_8291a5472d.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TLBIDXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSIDGlobal_V14.0.1.0.TLBIDXM_66c54fb153_13.0.zip",
-          "fastboot": "zeus_id_global_images_V14.0.1.0.TLBIDXM_20230213.0000.00_13.0_id_80529ced03.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SLBIDXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSIDGlobal_V13.0.4.0.SLBIDXM_07e5157041_12.0.zip",
-          "fastboot": "zeus_id_global_images_V13.0.4.0.SLBIDXM_20221102.0000.00_12.0_global_bab2294f89.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLBIDXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSIDGlobal_V13.0.3.0.SLBIDXM_4cf52b1ee7_12.0.zip",
-          "fastboot": "zeus_id_global_images_V13.0.3.0.SLBIDXM_20220805.0000.00_12.0_global_a0c808ace5.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SLBIDXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSIDGlobal_V13.0.2.0.SLBIDXM_2595e3b802_12.0.zip",
-          "fastboot": "zeus_id_global_images_V13.0.2.0.SLBIDXM_20220420.0000.00_12.0_global_a981d042d9.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SLBIDXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSIDGlobal_V13.0.1.0.SLBIDXM_36b023c025_12.0.zip",
-          "fastboot": "zeus_id_global_images_V13.0.1.0.SLBIDXM_20220222.0000.00_12.0_global_871e6d925c.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zeus_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TLBTRXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTRGlobal_V14.0.5.0.TLBTRXM_809f1aec9c_13.0.zip",
-          "fastboot": "zeus_tr_global_images_V14.0.5.0.TLBTRXM_20231121.0000.00_13.0_tr_da9fddda8d.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TLBTRXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTRGlobal_V14.0.4.0.TLBTRXM_c2ca0958ce_13.0.zip",
-          "fastboot": "zeus_tr_global_images_V14.0.4.0.TLBTRXM_20230818.0000.00_13.0_tr_6029fd6412.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TLBTRXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTRGlobal_V14.0.3.0.TLBTRXM_4555357f2c_13.0.zip",
-          "fastboot": "zeus_tr_global_images_V14.0.3.0.TLBTRXM_20230517.0000.00_13.0_tr_ff7f1495b3.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TLBTRXM",
-          "android": "13.0",
-          "recovery": "miui_ZEUSTRGlobal_V14.0.2.0.TLBTRXM_0512f6f4f2_13.0.zip",
-          "fastboot": "zeus_tr_global_images_V14.0.2.0.TLBTRXM_20230221.0000.00_13.0_tr_a235d77aca.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SLBTRXM",
-          "android": "12.0",
-          "recovery": "miui_ZEUSTRGlobal_V13.0.3.0.SLBTRXM_2c0ac7c642_12.0.zip",
-          "fastboot": "zeus_tr_global_images_V13.0.3.0.SLBTRXM_20230111.0000.00_12.0_global_1cfd690f46.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "zeus",
+	"cnname": "小米 12 Pro",
+	"enname": "Xiaomi 12 Pro",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "36837921",
+	"ismiui": "0",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["409"],
+	"cbid": ["413"],
+	"gdid": "70002",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "zeus",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.10.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.10.15.DEV_d2df58695a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.10.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.10.8.DEV_2014ffe53b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.9.18.DEV_1bb0d58f6f_13.0.zip",
+					"fastboot": "zeus_images_V14.0.23.9.18.DEV_20230918.0000.00_13.0_cn_200d5634f5.tgz"
+				},
+				{
+					"miui": "V14.0.23.9.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.9.11.DEV_8d2e75e50e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.4.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.9.4.DEV_9c0b5e0b58_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.8.28.DEV_f73fb493a5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.8.21.DEV_264c202161_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.14.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.8.14.DEV_b3e78a2f54_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.8.7.DEV_3f2321771e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.7.31.DEV_f95779d2e9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.7.24.DEV_c82fb309e0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.7.17.DEV_0dc892863f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.7.10.DEV_bd9329eec1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.7.3.DEV_76e8143897_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.6.26.DEV_7f14f60a9d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.6.8.DEV_62a5a5791d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.6.5.DEV_ae9d85022a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.5.29.DEV_22b184ce72_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.5.22.DEV_a4d8a440c1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.5.15.DEV_8ad9ec3190_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.5.8.DEV_964a8f8ed3_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.4.25.DEV_82cefdd5a9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.4.17.DEV_79509dd1b7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.4.10.DEV_1b7d24d555_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.4.2.DEV_e57b632b46_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.3.27.DEV_f095750d00_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.20.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.3.20.DEV_d04bc62d67_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.3.13.DEV_f907f47a63_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.3.7.DEV_13d73d4278_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.2.27.DEV_165541ff46_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.2.21.DEV_6bff198868_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.2.13.DEV_dc397aec0c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.2.6.DEV_694588fdcc_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.1.30.DEV_1fcd530e96_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.1.9.DEV_f681dc25a4_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.23.1.3.DEV_75905dcbaa_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.22.12.26.DEV_435d86fb1a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.22.12.19.DEV_b18b4380d7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.22.12.8.DEV_1f0a233d27_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.22.12.5.DEV_0307382815_13.0.zip",
+					"fastboot": "zeus_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_9e94bd9f24.tgz"
+				},
+				{
+					"miui": "V13.1.22.10.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.10.25.DEV_6185ef2489_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.10.19.DEV_bbfa676a56_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.10.11.DEV_e71cbd9b03_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.9.29.DEV_23af26c0b1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.9.19.DEV_609c997f4a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.9.13.DEV_d701413485_13.0.zip",
+					"fastboot": "zeus_images_V13.1.22.9.13.DEV_20220914.0000.00_13.0_cn_24ab9f2944.tgz"
+				},
+				{
+					"miui": "V13.1.22.9.1.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.9.1.DEV_4b5e9f752f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.8.18.DEV_aecd45699e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.8.9.DEV_37209b6482_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.8.3.DEV_324bcdd487_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.7.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.1.22.7.28.DEV_441735746a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.1.22.8.22.DEV_623e388db6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.1.22.8.16.DEV_c08959374f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.59.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.59.DEV_e0ccca3f88_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.56.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.56.DEV_6a6cf27ca5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.55.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.55.DEV_23af0ddecb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.51.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.51.DEV_0815d275dc_12.0.zip",
+					"fastboot": "zeus_images_V13.0.31.1.51.DEV_20220719.0000.00_12.0_cn_8e28623587.tgz"
+				},
+				{
+					"miui": "V13.0.31.1.48.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.48.DEV_ac2a39feba_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.47.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.47.DEV_217bd058d4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.45.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.45.DEV_1f0833475a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.44.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.44.DEV_52d9f5f97f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.40.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.40.DEV_1b4e3864ef_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.39.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.39.DEV_3d61a8e618_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.37.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.37.DEV_fbe9796407_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.36.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.36.DEV_ad9f2f580e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.32.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.32.DEV_b19a28350b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.29.DEV_fe6907517a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.31.1.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.31.1.28.DEV_489cd5e1e8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.28.1.18.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.28.1.18.DEV_24b86f2f23_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.25.1.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.25.1.16.DEV_27c2f441f8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.25.1.15.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.25.1.15.DEV_d486784e75_12.0.zip",
+					"fastboot": "zeus_images_V13.0.25.1.15.DEV_20220308.0000.00_12.0_cn_6ae479b691.tgz"
+				},
+				{
+					"miui": "V13.0.25.1.13.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.25.1.13.DEV_e996a2a5a8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.23.1.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.23.1.11.DEV_2afbe7d756_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.23.1.9.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.23.1.9.DEV_83a25d078d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.23.1.7.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.23.1.7.DEV_da16c44bfa_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.21.1.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.21.1.5.DEV_96aedc9293_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.12.1.1.DEV",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.12.1.1.DEV_5b2393e286_12.0.zip",
+					"fastboot": "zeus_images_V13.0.12.1.1.DEV_20220112.0000.00_12.0_cn_cd3ec4ec88.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.18.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.18.0.TLBCNXM_4a0ec88897_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.16.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.16.0.TLBCNXM_0043ba0424_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.15.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.15.0.TLBCNXM_f6a22db295_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.14.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.14.0.TLBCNXM_e07208b49d_13.0.zip",
+					"fastboot": "zeus_images_V14.0.14.0.TLBCNXM_20230704.0000.00_13.0_cn_1bfe3b7d17.tgz"
+				},
+				{
+					"miui": "V14.0.13.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.13.0.TLBCNXM_800e3c12d0_13.0.zip",
+					"fastboot": "zeus_images_V14.0.13.0.TLBCNXM_20230414.0000.00_13.0_cn_063dbd1872.tgz"
+				},
+				{
+					"miui": "V14.0.12.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.12.0.TLBCNXM_00fd49cb33_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.8.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.8.0.TLBCNXM_ec4f2b340b_13.0.zip",
+					"fastboot": "zeus_images_V14.0.8.0.TLBCNXM_20230109.0000.00_13.0_cn_8f9b23b485.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.6.0.TLBCNXM_7c8e952288_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.4.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.4.0.TLBCNXM_98bd7af353_13.0.zip",
+					"fastboot": "zeus_images_V14.0.4.0.TLBCNXM_20221214.0000.00_13.0_cn_3ea0a3ab70.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.2.7.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.2.7.0.TLBCNXM_f8cfa489fb_13.0.zip",
+					"fastboot": "zeus_images_V13.2.7.0.TLBCNXM_20221125.0000.00_13.0_cn_a10f7a0851.tgz"
+				},
+				{
+					"miui": "V13.2.4.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.2.4.0.TLBCNXM_f898df6ade_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.41.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.41.0.SLBCNXM_feeaee9deb_12.0.zip",
+					"fastboot": "zeus_images_V13.0.41.0.SLBCNXM_20220930.0000.00_12.0_cn_9d123ecc99.tgz"
+				},
+				{
+					"miui": "V13.0.39.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.39.0.SLBCNXM_eb2bc0574b_12.0.zip",
+					"fastboot": "zeus_images_V13.0.39.0.SLBCNXM_20220829.0000.00_12.0_cn_e111befa06.tgz"
+				},
+				{
+					"miui": "V13.0.37.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.37.0.SLBCNXM_46c0d55212_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.36.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.36.0.SLBCNXM_8a9ad9557d_12.0.zip",
+					"fastboot": "zeus_images_V13.0.36.0.SLBCNXM_20220621.0000.00_12.0_cn_a38468b040.tgz"
+				},
+				{
+					"miui": "V13.0.33.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.33.0.SLBCNXM_f7568400f7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.32.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.32.0.SLBCNXM_454ee2aa88_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.30.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.30.0.SLBCNXM_d60d892580_12.0.zip",
+					"fastboot": "zeus_images_V13.0.30.0.SLBCNXM_20220401.0000.00_12.0_cn_1ba2c640ed.tgz"
+				},
+				{
+					"miui": "V13.0.28.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.28.0.SLBCNXM_db86831e34_12.0.zip",
+					"fastboot": "zeus_images_V13.0.28.0.SLBCNXM_20220309.0000.00_12.0_cn_0f1c14e0f3.tgz"
+				},
+				{
+					"miui": "V13.0.25.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.25.0.SLBCNXM_fb6c8ae4c9_12.0.zip",
+					"fastboot": "zeus_images_V13.0.25.0.SLBCNXM_20220217.0000.00_12.0_cn_395e704fb6.tgz"
+				},
+				{
+					"miui": "V13.0.23.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.23.0.SLBCNXM_878e12bc9c_12.0.zip",
+					"fastboot": "zeus_images_V13.0.23.0.SLBCNXM_20220125.0000.00_12.0_cn_0737fefe9f.tgz"
+				},
+				{
+					"miui": "V13.0.21.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.21.0.SLBCNXM_dae35fa397_12.0.zip",
+					"fastboot": "zeus_images_V13.0.21.0.SLBCNXM_20220115.0000.00_12.0_cn_a4580fc1ca.tgz"
+				},
+				{
+					"miui": "V13.0.16.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.16.0.SLBCNXM_e679eda7cf_12.0.zip",
+					"fastboot": "zeus_images_V13.0.16.0.SLBCNXM_20220104.0000.00_12.0_cn_470942f2d4.tgz"
+				},
+				{
+					"miui": "V13.0.12.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.12.0.SLBCNXM_ec43b73003_12.0.zip",
+					"fastboot": "zeus_images_V13.0.12.0.SLBCNXM_20211229.0000.00_12.0_cn_6bbe7289d7.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.10.0.SLBCNXM_310771d8cf_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "zeus",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.14.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.14.0.TLBCNXM_e07208b49d_13.0.zip",
+					"fastboot": "zeus_images_V14.0.14.0.TLBCNXM_20230704.0000.00_13.0_cn_chinatelecom_209b4dca5b.tgz"
+				},
+				{
+					"miui": "V14.0.13.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.13.0.TLBCNXM_800e3c12d0_13.0.zip",
+					"fastboot": "zeus_images_V14.0.13.0.TLBCNXM_20230414.0000.00_13.0_cn_chinatelecom_8bbb327040.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.8.0.TLBCNXM_ec4f2b340b_13.0.zip",
+					"fastboot": "zeus_images_V14.0.8.0.TLBCNXM_20230109.0000.00_13.0_cn_chinatelecom_c4973f7370.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V14.0.4.0.TLBCNXM_98bd7af353_13.0.zip",
+					"fastboot": "zeus_images_V14.0.4.0.TLBCNXM_20221214.0000.00_13.0_cn_chinatelecom_9268f63040.tgz"
+				},
+				{
+					"miui": "V13.2.7.0.TLBCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUS_V13.2.7.0.TLBCNXM_f8cfa489fb_13.0.zip",
+					"fastboot": "zeus_images_V13.2.7.0.TLBCNXM_20221125.0000.00_13.0_cn_chinatelecom_d7fb4a1f80.tgz"
+				},
+				{
+					"miui": "V13.0.41.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.41.0.SLBCNXM_feeaee9deb_12.0.zip",
+					"fastboot": "zeus_images_V13.0.41.0.SLBCNXM_20220930.0000.00_12.0_cn_chinatelecom_a8a387e734.tgz"
+				},
+				{
+					"miui": "V13.0.39.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.39.0.SLBCNXM_eb2bc0574b_12.0.zip",
+					"fastboot": "zeus_images_V13.0.39.0.SLBCNXM_20220829.0000.00_12.0_cn_chinatelecom_d642698c25.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.41.0.SLBCNXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUS_V13.0.41.0.SLBCNXM_feeaee9deb_12.0.zip",
+					"fastboot": "zeus_images_V13.0.41.0.SLBCNXM_20220930.0000.00_12.0_cn_chinamobile_b0d938022f.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_ep_xy",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epxy",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆EPXY",
+			"enname": "China Mainland EPXY",
+			"links": [
+				{
+					"miui": "V13.0.22.6.24.EP.XY.L2",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEPXY_V13.0.22.6.24.EP.XY.L2_b9f050c690_12.0.zip",
+					"fastboot": "zeus_ep_xy_images_V13.0.22.6.24.EP.XY.L2_20220624.0000.00_12.0_cn_facdee6008.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_ep_stdee",
+			"btag": "F",
+			"region": "",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stdee",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.3.30.EP.STDEE.L2",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEPSTDEE_V14.0.23.3.30.EP.STDEE.L2_53e99c0547_13.0.zip",
+					"fastboot": "zeus_ep_stdee_images_V14.0.23.3.30.EP.STDEE.L2_20230330.0000.00_13.0_cn_f505b67e09.tgz"
+				},
+				{
+					"miui": "V14.0.23.3.30.EP.STDEE.L2",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEPSTDEE_V14.0.23.3.30.EP.STDEE.L2_53e99c0547_13.0.zip",
+					"fastboot": "zeus_ep_stdee_images_V14.0.23.3.30.EP.STDEE.L2_20230330.0000.00_13.0_cn_chinatelecom_c94ed935cb.tgz"
+				},
+				{
+					"miui": "V13.0.22.9.23.EP.STDEE.L2",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEPSTDEE_V13.0.22.9.23.EP.STDEE.L2_62b96ccfb0_12.0.zip",
+					"fastboot": "zeus_ep_stdee_images_V13.0.22.9.23.EP.STDEE.L2_20220923.0000.00_12.0_cn_2971823f56.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TLBTWXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTWGlobal_V14.0.4.0.TLBTWXM_ab4716b038_13.0.zip",
+					"fastboot": "zeus_tw_global_images_V14.0.4.0.TLBTWXM_20231010.0000.00_13.0_tw_bbef546d6a.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLBTWXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTWGlobal_V14.0.3.0.TLBTWXM_d3b6998cb5_13.0.zip",
+					"fastboot": "zeus_tw_global_images_V14.0.3.0.TLBTWXM_20230706.0000.00_13.0_tw_03f1eb934f.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLBTWXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTWGlobal_V14.0.2.0.TLBTWXM_ab0929a230_13.0.zip",
+					"fastboot": "zeus_tw_global_images_V14.0.2.0.TLBTWXM_20230427.0000.00_13.0_tw_2ff8930c96.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLBTWXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTWGlobal_V14.0.1.0.TLBTWXM_be09c6b7cd_13.0.zip",
+					"fastboot": "zeus_tw_global_images_V14.0.1.0.TLBTWXM_20230213.0000.00_13.0_tw_a369132149.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLBTWXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSTWGlobal_V13.0.4.0.SLBTWXM_2802546335_12.0.zip",
+					"fastboot": "zeus_tw_global_images_V13.0.4.0.SLBTWXM_20220907.0000.00_12.0_global_2efb49dfd0.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLBTWXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSTWGlobal_V13.0.3.0.SLBTWXM_aa6109c24f_12.0.zip",
+					"fastboot": "zeus_tw_global_images_V13.0.3.0.SLBTWXM_20220415.0000.00_12.0_global_4b30680f4e.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLBTWXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSTWGlobal_V13.0.2.0.SLBTWXM_077cf0f3a5_12.0.zip",
+					"fastboot": "zeus_tw_global_images_V13.0.2.0.SLBTWXM_20220215.0000.00_12.0_global_b6ec2f68d1.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.9.0.TLBMIXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSGlobal_V14.0.9.0.TLBMIXM_33fcfe4410_13.0.zip",
+					"fastboot": "zeus_global_images_V14.0.9.0.TLBMIXM_20230913.0000.00_13.0_global_179b3a2755.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLBMIXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSGlobal_V14.0.8.0.TLBMIXM_fe533574a9_13.0.zip",
+					"fastboot": "zeus_global_images_V14.0.8.0.TLBMIXM_20230630.0000.00_13.0_global_9f5e328c21.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TLBMIXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSGlobal_V14.0.7.0.TLBMIXM_9068eca21a_13.0.zip",
+					"fastboot": "zeus_global_images_V14.0.7.0.TLBMIXM_20230411.0000.00_13.0_global_301f858688.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLBMIXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSGlobal_V14.0.5.0.TLBMIXM_3e6bbfed12_13.0.zip",
+					"fastboot": "zeus_global_images_V14.0.5.0.TLBMIXM_20230110.0000.00_13.0_global_d1ba795dc9.tgz"
+				},
+				{
+					"miui": "V13.2.1.0.TLBMIXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSGlobal_V13.2.1.0.TLBMIXM_603442db0b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.0.TLBMIXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSGlobal_V13.0.4.0.TLBMIXM_bf23673ad2_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.9.0.SLBMIXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSGlobal_V13.0.9.0.SLBMIXM_5a008a8076_12.0.zip",
+					"fastboot": "zeus_global_images_V13.0.9.0.SLBMIXM_20221020.0000.00_12.0_global_d24c2e8706.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SLBMIXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSGlobal_V13.0.7.0.SLBMIXM_6b702aa8e2_12.0.zip",
+					"fastboot": "zeus_global_images_V13.0.7.0.SLBMIXM_20220718.0000.00_12.0_global_086ed0beee.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SLBMIXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSGlobal_V13.0.6.0.SLBMIXM_35481701b3_12.0.zip",
+					"fastboot": "zeus_global_images_V13.0.6.0.SLBMIXM_20220413.0000.00_12.0_global_a244b582bb.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLBMIXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSGlobal_V13.0.5.0.SLBMIXM_9e61d6d796_12.0.zip",
+					"fastboot": "zeus_global_images_V13.0.5.0.SLBMIXM_20220318.0000.00_12.0_global_08bcf67fd7.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLBMIXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSGlobal_V13.0.3.0.SLBMIXM_91c62f666f_12.0.zip",
+					"fastboot": "zeus_global_images_V13.0.3.0.SLBMIXM_20220221.0000.00_12.0_global_f03fcfa91e.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.18.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.18.0.TLBEUXM_9f384902ae_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.17.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.17.0.TLBEUXM_6521ddb7a8_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.16.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.16.0.TLBEUXM_c6082a5a4e_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.16.0.TLBEUXM_20230804.0000.00_13.0_eea_9c4824b5ee.tgz"
+				},
+				{
+					"miui": "V14.0.15.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.15.0.TLBEUXM_1d0561625b_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.15.0.TLBEUXM_20230619.0000.00_13.0_eea_e30a6b4d17.tgz"
+				},
+				{
+					"miui": "V14.0.14.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.14.0.TLBEUXM_a43bf1ae45_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.14.0.TLBEUXM_20230608.0000.00_13.0_eea_23e6de61c8.tgz"
+				},
+				{
+					"miui": "V14.0.13.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.13.0.TLBEUXM_c256fb10fb_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.13.0.TLBEUXM_20230512.0000.00_13.0_eea_e711887aae.tgz"
+				},
+				{
+					"miui": "V14.0.11.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.11.0.TLBEUXM_8ede272e60_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.11.0.TLBEUXM_20230412.0000.00_13.0_eea_35f49f0c5e.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.10.0.TLBEUXM_fca9d5201d_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.10.0.TLBEUXM_20230322.0000.00_13.0_eea_5b74549ba2.tgz"
+				},
+				{
+					"miui": "V14.0.8.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.8.0.TLBEUXM_80c9d5c6cf_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.8.0.TLBEUXM_20230210.0000.00_13.0_eea_46c94cef44.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V14.0.7.0.TLBEUXM_5a02eae86f_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V14.0.7.0.TLBEUXM_20230110.0000.00_13.0_eea_9e5b0e5331.tgz"
+				},
+				{
+					"miui": "V13.2.8.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.2.8.0.TLBEUXM_38792cb870_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.2.8.0.TLBEUXM_20230110.0000.00_13.0_eea_8336a1450f.tgz"
+				},
+				{
+					"miui": "V13.2.4.0.TLBEUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.2.4.0.TLBEUXM_ae529519f1_13.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.2.4.0.TLBEUXM_20221124.0000.00_13.0_eea_1d7552c6aa.tgz"
+				},
+				{
+					"miui": "V13.0.29.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.29.0.SLBEUXM_88264a12e1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.28.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.28.0.SLBEUXM_4a58293b57_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.28.0.SLBEUXM_20221117.0000.00_12.0_eea_85df8adae1.tgz"
+				},
+				{
+					"miui": "V13.0.26.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.26.0.SLBEUXM_fca1b9668c_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.26.0.SLBEUXM_20221028.0000.00_12.0_eea_1a636aebf9.tgz"
+				},
+				{
+					"miui": "V13.0.25.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.25.0.SLBEUXM_34cb82f91f_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.25.0.SLBEUXM_20221019.0000.00_12.0_eea_05634f4676.tgz"
+				},
+				{
+					"miui": "V13.0.23.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.23.0.SLBEUXM_0ed38c114c_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.23.0.SLBEUXM_20220927.0000.00_12.0_eea_33f9a4f5f6.tgz"
+				},
+				{
+					"miui": "V13.0.21.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.21.0.SLBEUXM_de900c087f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.20.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.20.0.SLBEUXM_ff585d22b5_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.20.0.SLBEUXM_20220826.0000.00_12.0_eea_ddcd5c233c.tgz"
+				},
+				{
+					"miui": "V13.0.19.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.19.0.SLBEUXM_74dfa5425e_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.19.0.SLBEUXM_20220704.0000.00_12.0_eea_92527974b1.tgz"
+				},
+				{
+					"miui": "V13.0.18.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.18.0.SLBEUXM_d7b9b704d3_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.18.0.SLBEUXM_20220527.0000.00_12.0_eea_4c2068350f.tgz"
+				},
+				{
+					"miui": "V13.0.17.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.17.0.SLBEUXM_ddb8257ea4_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.17.0.SLBEUXM_20220511.0000.00_12.0_eea_d01cb100f7.tgz"
+				},
+				{
+					"miui": "V13.0.16.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.16.0.SLBEUXM_db2b379891_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.16.0.SLBEUXM_20220408.0000.00_12.0_eea_8f8570be0c.tgz"
+				},
+				{
+					"miui": "V13.0.14.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.14.0.SLBEUXM_ac7a931bbd_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.14.0.SLBEUXM_20220316.0000.00_12.0_eea_3e88f67ac0.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SLBEUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSEEAGlobal_V13.0.10.0.SLBEUXM_8af10526e8_12.0.zip",
+					"fastboot": "zeus_eea_global_images_V13.0.10.0.SLBEUXM_20220129.0000.00_12.0_eea_e1a9ad0dd4.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TLBRUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSRUGlobal_V14.0.5.0.TLBRUXM_f90b835d72_13.0.zip",
+					"fastboot": "zeus_ru_global_images_V14.0.5.0.TLBRUXM_20231121.0000.00_13.0_ru_9c5b809968.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLBRUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSRUGlobal_V14.0.4.0.TLBRUXM_d6fcfff44d_13.0.zip",
+					"fastboot": "zeus_ru_global_images_V14.0.4.0.TLBRUXM_20230818.0000.00_13.0_ru_744c8aba81.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLBRUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSRUGlobal_V14.0.3.0.TLBRUXM_1ffd79a57e_13.0.zip",
+					"fastboot": "zeus_ru_global_images_V14.0.3.0.TLBRUXM_20230517.0000.00_13.0_ru_63b6c1f4a3.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLBRUXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSRUGlobal_V14.0.2.0.TLBRUXM_034907f7c0_13.0.zip",
+					"fastboot": "zeus_ru_global_images_V14.0.2.0.TLBRUXM_20230221.0000.00_13.0_ru_ad5eabe7d7.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLBRUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSRUGlobal_V13.0.3.0.SLBRUXM_6e0ee3b912_12.0.zip",
+					"fastboot": "zeus_ru_global_images_V13.0.3.0.SLBRUXM_20230111.0000.00_12.0_global_7352e36d51.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLBRUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSRUGlobal_V13.0.2.0.SLBRUXM_386f40d676_12.0.zip",
+					"fastboot": "zeus_ru_global_images_V13.0.2.0.SLBRUXM_20220421.0000.00_12.0_global_86b26fae40.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SLBRUXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSRUGlobal_V13.0.1.0.SLBRUXM_cf027e3a69_12.0.zip",
+					"fastboot": "zeus_ru_global_images_V13.0.1.0.SLBRUXM_20220218.0000.00_12.0_global_943c49bcac.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TLBINXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSINGlobal_V14.0.7.0.TLBINXM_a4b9ce4180_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.4.0.TLBINXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSINGlobal_V14.0.4.0.TLBINXM_05a1a3c256_13.0.zip",
+					"fastboot": "zeus_in_global_images_V14.0.4.0.TLBINXM_20230906.0000.00_13.0_in_8f14464771.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLBINXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSINGlobal_V14.0.3.0.TLBINXM_a27b835a26_13.0.zip",
+					"fastboot": "zeus_in_global_images_V14.0.3.0.TLBINXM_20230621.0000.00_13.0_in_4995d87217.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLBINXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSINGlobal_V14.0.2.0.TLBINXM_0c869f4e17_13.0.zip",
+					"fastboot": "zeus_in_global_images_V14.0.2.0.TLBINXM_20230328.0000.00_13.0_in_412fb9ea74.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLBINXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSINGlobal_V14.0.1.0.TLBINXM_1ad467d767_13.0.zip",
+					"fastboot": "zeus_in_global_images_V14.0.1.0.TLBINXM_20230118.0000.00_13.0_in_8a22e3f871.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SLBINXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSINGlobal_V13.0.9.0.SLBINXM_b72d7ac8fd_12.0.zip",
+					"fastboot": "zeus_in_global_images_V13.0.9.0.SLBINXM_20221017.0000.00_12.0_in_a6b8826ba4.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SLBINXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSINGlobal_V13.0.6.0.SLBINXM_d42c0e4b75_12.0.zip",
+					"fastboot": "zeus_in_global_images_V13.0.6.0.SLBINXM_20220714.0000.00_12.0_in_294219fe27.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SLBINXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSINGlobal_V13.0.5.0.SLBINXM_3cacdd6497_12.0.zip",
+					"fastboot": "zeus_in_global_images_V13.0.5.0.SLBINXM_20220512.0000.00_12.0_in_d618b978d2.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLBINXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSINGlobal_V13.0.4.0.SLBINXM_9ba8c8e1c3_12.0.zip",
+					"fastboot": "zeus_in_global_images_V13.0.4.0.SLBINXM_20220328.0000.00_12.0_in_f4be65e7ab.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TLBIDXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSIDGlobal_V14.0.6.0.TLBIDXM_3df68eb478_13.0.zip",
+					"fastboot": "zeus_id_global_images_V14.0.6.0.TLBIDXM_20231208.0000.00_13.0_id_046c07f3b4.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TLBIDXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSIDGlobal_V14.0.5.0.TLBIDXM_aa231bcffc_13.0.zip",
+					"fastboot": "zeus_id_global_images_V14.0.5.0.TLBIDXM_20230925.0000.00_13.0_id_1bfaf11f03.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLBIDXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSIDGlobal_V14.0.2.0.TLBIDXM_9a93271fa7_13.0.zip",
+					"fastboot": "zeus_id_global_images_V14.0.2.0.TLBIDXM_20230412.0000.00_13.0_id_8291a5472d.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TLBIDXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSIDGlobal_V14.0.1.0.TLBIDXM_66c54fb153_13.0.zip",
+					"fastboot": "zeus_id_global_images_V14.0.1.0.TLBIDXM_20230213.0000.00_13.0_id_80529ced03.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SLBIDXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSIDGlobal_V13.0.4.0.SLBIDXM_07e5157041_12.0.zip",
+					"fastboot": "zeus_id_global_images_V13.0.4.0.SLBIDXM_20221102.0000.00_12.0_global_bab2294f89.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLBIDXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSIDGlobal_V13.0.3.0.SLBIDXM_4cf52b1ee7_12.0.zip",
+					"fastboot": "zeus_id_global_images_V13.0.3.0.SLBIDXM_20220805.0000.00_12.0_global_a0c808ace5.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SLBIDXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSIDGlobal_V13.0.2.0.SLBIDXM_2595e3b802_12.0.zip",
+					"fastboot": "zeus_id_global_images_V13.0.2.0.SLBIDXM_20220420.0000.00_12.0_global_a981d042d9.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SLBIDXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSIDGlobal_V13.0.1.0.SLBIDXM_36b023c025_12.0.zip",
+					"fastboot": "zeus_id_global_images_V13.0.1.0.SLBIDXM_20220222.0000.00_12.0_global_871e6d925c.tgz"
+				}
+			]
+		},
+		{
+			"code": "zeus_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TLBTRXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTRGlobal_V14.0.5.0.TLBTRXM_809f1aec9c_13.0.zip",
+					"fastboot": "zeus_tr_global_images_V14.0.5.0.TLBTRXM_20231121.0000.00_13.0_tr_da9fddda8d.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TLBTRXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTRGlobal_V14.0.4.0.TLBTRXM_c2ca0958ce_13.0.zip",
+					"fastboot": "zeus_tr_global_images_V14.0.4.0.TLBTRXM_20230818.0000.00_13.0_tr_6029fd6412.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TLBTRXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTRGlobal_V14.0.3.0.TLBTRXM_4555357f2c_13.0.zip",
+					"fastboot": "zeus_tr_global_images_V14.0.3.0.TLBTRXM_20230517.0000.00_13.0_tr_ff7f1495b3.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TLBTRXM",
+					"android": "13.0",
+					"recovery": "miui_ZEUSTRGlobal_V14.0.2.0.TLBTRXM_0512f6f4f2_13.0.zip",
+					"fastboot": "zeus_tr_global_images_V14.0.2.0.TLBTRXM_20230221.0000.00_13.0_tr_a235d77aca.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLBTRXM",
+					"android": "12.0",
+					"recovery": "miui_ZEUSTRGlobal_V13.0.3.0.SLBTRXM_2c0ac7c642_12.0.zip",
+					"fastboot": "zeus_tr_global_images_V13.0.3.0.SLBTRXM_20230111.0000.00_12.0_global_1cfd690f46.tgz"
+				}
+			]
+		}
+	]
 }

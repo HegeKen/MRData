@@ -1,1301 +1,1301 @@
 {
-  "codename": "lithium",
-  "cnname": "小米 MIX",
-  "enname": "Mi MIX",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "17746085",
-  "ismiui":"",
-  "ccshow": "1",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "9.10.10",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.10.10_205eb6e663_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "9.9.26",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.9.26_6fec175e2b_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "9.8.29",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.8.29_574004787f_8.0.zip",
-          "fastboot": "lithium_images_9.8.29_20190829.0000.00_8.0_cn_7d237d1665.tgz"
-        },
-        {
-          "miui": "9.8.15",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.8.15_b732b33ee3_8.0.zip",
-          "fastboot": "lithium_images_9.8.15_20190815.0000.00_8.0_cn_997fab5a00.tgz"
-        },
-        {
-          "miui": "9.8.1",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.8.1_0e044d4d6b_8.0.zip",
-          "fastboot": "lithium_images_9.8.1_20190801.0000.00_8.0_cn_b0116413f9.tgz"
-        },
-        {
-          "miui": "9.7.25",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.7.25_2b8a7b5e45_8.0.zip",
-          "fastboot": "lithium_images_9.7.25_20190725.0000.00_8.0_cn_da2de52a1c.tgz"
-        },
-        {
-          "miui": "9.7.18",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.7.18_1dbcaf7751_8.0.zip",
-          "fastboot": "lithium_images_9.7.18_20190718.0000.00_8.0_cn_c24d0942b1.tgz"
-        },
-        {
-          "miui": "9.7.11",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.7.11_29e2f7f919_8.0.zip",
-          "fastboot": "lithium_images_9.7.11_20190711.0000.00_8.0_cn_559be1cc4c.tgz"
-        },
-        {
-          "miui": "9.7.4",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.7.4_f12c90ccb6_8.0.zip",
-          "fastboot": "lithium_images_9.7.4_20190704.0000.00_8.0_cn_29318c9146.tgz"
-        },
-        {
-          "miui": "9.6.27",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.6.27_d6b5a3446e_8.0.zip",
-          "fastboot": "lithium_images_9.6.27_20190627.0000.00_8.0_cn_0f77acb77c.tgz"
-        },
-        {
-          "miui": "9.6.20",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.6.20_4f59373a4a_8.0.zip",
-          "fastboot": "lithium_images_9.6.20_20190620.0000.00_8.0_cn_dccf554755.tgz"
-        },
-        {
-          "miui": "9.6.17",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.6.17_7084fd0c01_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "9.6.13",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.6.13_50dc036767_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "9.5.30",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.5.30_eabc42d3ee_8.0.zip",
-          "fastboot": "lithium_images_9.5.30_20190530.0000.00_8.0_cn_06dbe24a88.tgz"
-        },
-        {
-          "miui": "9.5.23",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.5.23_f9abb66427_8.0.zip",
-          "fastboot": "lithium_images_9.5.23_20190523.0000.00_8.0_cn_ab49abfa15.tgz"
-        },
-        {
-          "miui": "9.5.16",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.5.16_ac0057fa62_8.0.zip",
-          "fastboot": "lithium_images_9.5.16_20190516.0000.00_8.0_cn_0037c68adb.tgz"
-        },
-        {
-          "miui": "9.5.9",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.5.9_9e2b6d373c_8.0.zip",
-          "fastboot": "lithium_images_9.5.9_20190509.0000.00_8.0_cn_2a4166c029.tgz"
-        },
-        {
-          "miui": "9.4.25",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.4.25_a978d0b59e_8.0.zip",
-          "fastboot": "lithium_images_9.4.25_20190425.0000.00_8.0_cn_e4cccc24bd.tgz"
-        },
-        {
-          "miui": "9.4.18",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.4.18_1c7dac385a_8.0.zip",
-          "fastboot": "lithium_images_9.4.18_20190418.0000.00_8.0_cn_426e872c7c.tgz"
-        },
-        {
-          "miui": "9.4.11",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.4.11_a08b3d97c9_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "9.3.28",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.3.28_d169d75507_8.0.zip",
-          "fastboot": "lithium_images_9.3.28_20190328.0000.00_8.0_cn_3ec9eeeeec.tgz"
-        },
-        {
-          "miui": "9.3.21",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.3.21_506074b67c_8.0.zip",
-          "fastboot": "lithium_images_9.3.21_20190321.0000.00_8.0_cn_595be4865a.tgz"
-        },
-        {
-          "miui": "9.3.14",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.3.14_88f53f4904_8.0.zip",
-          "fastboot": "lithium_images_9.3.14_20190314.0000.00_8.0_cn_84f64b1956.tgz"
-        },
-        {
-          "miui": "9.3.7",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.3.7_deda125c27_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "9.2.28",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.2.28_b5d8b8d501_8.0.zip",
-          "fastboot": "lithium_images_9.2.28_20190228.0000.00_8.0_cn_a632c95020.tgz"
-        },
-        {
-          "miui": "9.2.21",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.2.21_9fcb2ace63_8.0.zip",
-          "fastboot": "lithium_images_9.2.21_20190221.0000.00_8.0_cn_a58daffd32.tgz"
-        },
-        {
-          "miui": "9.2.15",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.2.15_dd8709462c_8.0.zip",
-          "fastboot": "lithium_images_9.2.15_20190215.0000.00_8.0_cn_eef5147644.tgz"
-        },
-        {
-          "miui": "9.1.24",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.1.24_dd1932554f_8.0.zip",
-          "fastboot": "lithium_images_9.1.24_20190124.0000.00_8.0_cn_9205fb3606.tgz"
-        },
-        {
-          "miui": "9.1.17",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.1.17_3ef673e746_8.0.zip",
-          "fastboot": "lithium_images_9.1.17_20190117.0000.00_8.0_cn_41a3deaaea.tgz"
-        },
-        {
-          "miui": "9.1.10",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_9.1.10_bd82dd6bfa_8.0.zip",
-          "fastboot": "lithium_images_9.1.10_20190110.0000.00_8.0_cn_7ddb5da3cb.tgz"
-        },
-        {
-          "miui": "8.12.27",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.12.27_a0690eb7c3_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.12.20",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.12.20_f879d75513_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.12.13",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.12.13_782a5ebeed_8.0.zip",
-          "fastboot": "lithium_images_8.12.13_20181213.0000.00_8.0_cn_91ef5a5df6.tgz"
-        },
-        {
-          "miui": "8.12.6",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.12.6_879d3f30fa_8.0.zip",
-          "fastboot": "lithium_images_8.12.6_20181206.0000.00_8.0_cn_5c58af5fb3.tgz"
-        },
-        {
-          "miui": "8.11.29",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.11.29_e903d0d810_8.0.zip",
-          "fastboot": "lithium_images_8.11.29_20181129.0000.00_8.0_cn_304b2d2148.tgz"
-        },
-        {
-          "miui": "8.11.22",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.11.22_579a7887d4_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.11.15",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.11.15_9902ed46a4_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.11.1",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.11.1_842cd15b74_8.0.zip",
-          "fastboot": "lithium_images_8.11.1_20181101.0000.00_8.0_cn_b3c2e23abb.tgz"
-        },
-        {
-          "miui": "8.10.25",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.10.25_c749a6e3ca_8.0.zip",
-          "fastboot": "lithium_images_8.10.25_20181025.0000.00_8.0_cn_a75f47c483.tgz"
-        },
-        {
-          "miui": "8.10.18",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.10.18_418d6f176a_8.0.zip",
-          "fastboot": "lithium_images_8.10.18_20181018.0000.00_8.0_cn_8dc87dacd2.tgz"
-        },
-        {
-          "miui": "8.10.11",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.10.11_9b43a41b03_8.0.zip",
-          "fastboot": "lithium_images_8.10.11_20181011.0000.00_8.0_cn_e3929cc9f3.tgz"
-        },
-        {
-          "miui": "8.9.20",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.9.20_6be67003f8_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.9.13",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.9.13_2501eac0f5_8.0.zip",
-          "fastboot": "lithium_images_8.9.13_20180913.0000.00_8.0_cn_15142fddd6.tgz"
-        },
-        {
-          "miui": "8.9.6",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.9.6_8c1119dde6_8.0.zip",
-          "fastboot": "lithium_images_8.9.6_20180906.0000.00_8.0_cn_9a898cf695.tgz"
-        },
-        {
-          "miui": "8.8.30",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.8.30_c26803ba2d_8.0.zip",
-          "fastboot": "lithium_images_8.8.30_20180830.0000.00_8.0_cn_20d642f658.tgz"
-        },
-        {
-          "miui": "8.8.23",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.8.23_93f09ed0a3_8.0.zip",
-          "fastboot": "lithium_images_8.8.23_20180823.0000.00_8.0_cn_ecde544b70.tgz"
-        },
-        {
-          "miui": "8.8.16",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.8.16_57f972cbaa_8.0.zip",
-          "fastboot": "lithium_images_8.8.16_20180816.0000.00_8.0_cn_549e1633ca.tgz"
-        },
-        {
-          "miui": "8.8.9",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.8.9_ccf4344176_8.0.zip",
-          "fastboot": "lithium_images_8.8.9_20180809.0000.00_8.0_cn_e7e3456909.tgz"
-        },
-        {
-          "miui": "8.8.3",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.8.3_134de3d89d_8.0.zip",
-          "fastboot": "lithium_images_8.8.3_20180802.0000.00_8.0_cn_0c8066ad8d.tgz"
-        },
-        {
-          "miui": "8.7.26",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.7.26_00b88bc5e8_8.0.zip",
-          "fastboot": "lithium_images_8.7.26_20180726.0000.00_8.0_cn_22c58903af.tgz"
-        },
-        {
-          "miui": "8.7.19",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.7.19_353563fbd5_8.0.zip",
-          "fastboot": "lithium_images_8.7.19_20180719.0000.00_8.0_cn_8dddd6b2bf.tgz"
-        },
-        {
-          "miui": "8.7.12",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.7.12_67306d82a4_8.0.zip",
-          "fastboot": "lithium_images_8.7.12_20180712.0000.00_8.0_cn_e65f03051b.tgz"
-        },
-        {
-          "miui": "8.7.5",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.7.5_8e3b5ca69d_8.0.zip",
-          "fastboot": "lithium_images_8.7.5_20180705.0000.00_8.0_cn_2d95197510.tgz"
-        },
-        {
-          "miui": "8.6.28",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.6.28_c50f63548e_8.0.zip",
-          "fastboot": "lithium_images_8.6.28_20180628.0000.00_8.0_cn_4c243e04e9.tgz"
-        },
-        {
-          "miui": "8.6.21",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.6.21_daa4db7442_8.0.zip",
-          "fastboot": "lithium_images_8.6.21_20180621.0000.00_8.0_cn_5f1d95755a.tgz"
-        },
-        {
-          "miui": "8.6.14",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.6.14_0e02efa1d0_8.0.zip",
-          "fastboot": "lithium_images_8.6.14_20180614.0000.00_8.0_cn_25b8dfbed3.tgz"
-        },
-        {
-          "miui": "8.5.24",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.5.24_08a6e2366e_8.0.zip",
-          "fastboot": "lithium_images_8.5.24_20180524.0000.00_8.0_cn_131a7b9098.tgz"
-        },
-        {
-          "miui": "8.5.17",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.5.17_b6b18b30c1_8.0.zip",
-          "fastboot": "lithium_images_8.5.17_20180517.0000.00_8.0_cn_b1d7f9f8cd.tgz"
-        },
-        {
-          "miui": "8.5.10",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.5.10_a204ab382a_8.0.zip",
-          "fastboot": "lithium_images_8.5.10_20180510.0000.00_8.0_cn_f4946c4a11.tgz"
-        },
-        {
-          "miui": "8.5.3",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_8.5.3_8f6a3bf2e9_8.0.zip",
-          "fastboot": "lithium_images_8.5.3_20180503.0000.00_8.0_cn_5d3080efa2.tgz"
-        },
-        {
-          "miui": "8.3.26",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.3.26_6cbaf6abc9_7.0.zip",
-          "fastboot": "lithium_images_8.3.26_20180326.0000.00_7.0_cn_f53788ff45.tgz"
-        },
-        {
-          "miui": "8.3.22",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.3.22_a22f2b3cbf_7.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.3.15",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.3.15_4488483296_7.0.zip",
-          "fastboot": "lithium_images_8.3.15_20180315.0000.00_7.0_cn_13c5547d02.tgz"
-        },
-        {
-          "miui": "8.3.8",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.3.8_32486f9c0c_7.0.zip",
-          "fastboot": "lithium_images_8.3.8_20180308.0000.00_7.0_cn_a4791d6d7f.tgz"
-        },
-        {
-          "miui": "8.3.1",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.3.1_0ef09f73f2_7.0.zip",
-          "fastboot": "lithium_images_8.3.1_20180301.0000.00_7.0_cn_fd15719aa4.tgz"
-        },
-        {
-          "miui": "8.2.1",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.2.1_c14c5691e3_7.0.zip",
-          "fastboot": "lithium_images_8.2.1_20180201.0000.00_7.0_cn_544dbf7f9c.tgz"
-        },
-        {
-          "miui": "8.1.25",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.1.25_5dc9fca51a_7.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.1.11",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.1.11_e878946621_7.0.zip",
-          "fastboot": "lithium_images_8.1.11_20180111.0000.00_7.0_cn_3def6331c3.tgz"
-        },
-        {
-          "miui": "8.1.4",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_8.1.4_6ccdfe209f_7.0.zip",
-          "fastboot": "lithium_images_8.1.4_20180104.0000.00_7.0_cn_9f051f92d8.tgz"
-        },
-        {
-          "miui": "7.12.28",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.12.28_80a4dee3c1_7.0.zip",
-          "fastboot": "lithium_images_7.12.28_20171228.0000.00_7.0_cn_595c4d0c75.tgz"
-        },
-        {
-          "miui": "7.12.21",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.12.21_5ebc85c4c2_7.0.zip",
-          "fastboot": "lithium_images_7.12.21_20171221.0000.00_7.0_cn_eec286a926.tgz"
-        },
-        {
-          "miui": "7.12.14",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.12.14_dfef887313_7.0.zip",
-          "fastboot": "lithium_images_7.12.14_20171214.0000.00_7.0_cn_c21760115b.tgz"
-        },
-        {
-          "miui": "7.12.7",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.12.7_cd0938d9ba_7.0.zip",
-          "fastboot": "lithium_images_7.12.7_20171207.0000.00_7.0_cn_e3c782599a.tgz"
-        },
-        {
-          "miui": "7.11.30",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.11.30_7b9e0fad17_7.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "7.11.23",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.11.23_08bd547604_7.0.zip",
-          "fastboot": "lithium_images_7.11.23_20171123.0000.00_7.0_cn_6f765a81f9.tgz"
-        },
-        {
-          "miui": "7.11.16",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.11.16_b01b6fa819_7.0.zip",
-          "fastboot": "lithium_images_7.11.16_20171116.0000.00_7.0_cn_993d50f213.tgz"
-        },
-        {
-          "miui": "7.11.9",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.11.9_885e49f514_7.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "7.11.2",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.11.2_1f75f7ae3a_7.0.zip",
-          "fastboot": "lithium_images_7.11.2_20171102.0000.00_7.0_cn_35d3715aee.tgz"
-        },
-        {
-          "miui": "7.10.26",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.10.26_e83b08f470_7.0.zip",
-          "fastboot": "lithium_images_7.10.26_20171026.0000.00_7.0_cn_e98541dd5d.tgz"
-        },
-        {
-          "miui": "7.10.19",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.10.19_67d794ba4b_7.0.zip",
-          "fastboot": "lithium_images_7.10.19_20171019.0000.00_7.0_cn_fb04b701d4.tgz"
-        },
-        {
-          "miui": "7.10.12",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.10.12_9d7e2758af_7.0.zip",
-          "fastboot": "lithium_images_7.10.12_20171012.0000.00_7.0_cn_8619e8ddfd.tgz"
-        },
-        {
-          "miui": "7.9.28",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.9.28_c6fa80bb50_7.0.zip",
-          "fastboot": "lithium_images_7.9.28_20170928.0000.00_7.0_cn_6a462f4d76.tgz"
-        },
-        {
-          "miui": "7.9.21",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.9.21_00b2a9bae7_7.0.zip",
-          "fastboot": "lithium_images_7.9.21_20170921.0000.00_7.0_cn_c2c79c0639.tgz"
-        },
-        {
-          "miui": "7.9.14",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.9.14_3e464b2086_7.0.zip",
-          "fastboot": "lithium_images_7.9.14_20170914.0000.00_7.0_cn_3c691b2d39.tgz"
-        },
-        {
-          "miui": "7.9.7",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.9.7_63bc20b41c_7.0.zip",
-          "fastboot": "lithium_images_7.9.7_20170907.0000.00_7.0_cn_632cdeaada.tgz"
-        },
-        {
-          "miui": "7.8.31",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.8.31_e25dcf90d0_7.0.zip",
-          "fastboot": "lithium_images_7.8.31_20170831.0000.00_7.0_cn_6b3b6dd776.tgz"
-        },
-        {
-          "miui": "7.8.24",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.8.24_ea4eb5652b_7.0.zip",
-          "fastboot": "lithium_images_7.8.24_20170824.0000.00_7.0_cn_d663968576.tgz"
-        },
-        {
-          "miui": "7.7.20",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.7.20_580f35b594_7.0.zip",
-          "fastboot": "lithium_images_7.7.20_20170720.0000.00_7.0_cn_79ab01aa69.tgz"
-        },
-        {
-          "miui": "7.7.15",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.7.15_d8041b4316_7.0.zip",
-          "fastboot": "lithium_images_7.7.15_20170715.0000.00_7.0_cn_ff22a79dd4.tgz"
-        },
-        {
-          "miui": "7.7.6",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.7.6_4017b66079_7.0.zip",
-          "fastboot": "lithium_images_7.7.6_20170706.0000.00_7.0_cn_79cd82dd6c.tgz"
-        },
-        {
-          "miui": "7.6.29",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.6.29_68693b3671_7.0.zip",
-          "fastboot": "lithium_images_7.6.29_20170629.0000.00_7.0_cn_febac0c3da.tgz"
-        },
-        {
-          "miui": "7.6.15",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_7.6.15_45e7d09258_7.0.zip",
-          "fastboot": "lithium_images_7.6.15_20170615.0000.00_7.0_cn_7262918c93.tgz"
-        },
-        {
-          "miui": "7.5.11",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.5.11_98fc76ffa8_6.0.zip",
-          "fastboot": "lithium_images_7.5.11_20170511.0000.00_6.0_cn_8017f730a0.tgz"
-        },
-        {
-          "miui": "7.5.4",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.5.4_aa8cd3eacb_6.0.zip",
-          "fastboot": "lithium_images_7.5.4_20170504.0000.00_6.0_cn_3baeb93ede.tgz"
-        },
-        {
-          "miui": "7.4.27",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.4.27_c38a070b58_6.0.zip",
-          "fastboot": "lithium_images_7.4.27_20170426.0000.00_6.0_cn_045011708c.tgz"
-        },
-        {
-          "miui": "7.4.20",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.4.20_eb641081dc_6.0.zip",
-          "fastboot": "lithium_images_7.4.20_20170420.0000.00_6.0_cn_19b63337ca.tgz"
-        },
-        {
-          "miui": "7.4.14",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.4.14_9a55a19683_6.0.zip",
-          "fastboot": "lithium_images_7.4.14_20170414.0000.00_6.0_cn_6d63aa4c1e.tgz"
-        },
-        {
-          "miui": "7.4.6",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.4.6_1a56fb1169_6.0.zip",
-          "fastboot": "lithium_images_7.4.6_20170406.0000.00_6.0_cn_60a4adad8c.tgz"
-        },
-        {
-          "miui": "7.3.30",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.3.30_0c391dd39a_6.0.zip",
-          "fastboot": "lithium_images_7.3.30_20170330.0000.00_6.0_cn_07e58795df.tgz"
-        },
-        {
-          "miui": "7.3.23",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.3.23_0b87a87e9c_6.0.zip",
-          "fastboot": "lithium_images_7.3.23_20170323.0000.00_6.0_cn_ca81af4c7f.tgz"
-        },
-        {
-          "miui": "7.3.16",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.3.16_5b4ca3441c_6.0.zip",
-          "fastboot": "lithium_images_7.3.16_20170316.0000.00_6.0_cn_d18d7c3415.tgz"
-        },
-        {
-          "miui": "7.3.9",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.3.9_7fe4aae1ee_6.0.zip",
-          "fastboot": "lithium_images_7.3.9_20170309.0000.00_6.0_cn_2d87f3d0f5.tgz"
-        },
-        {
-          "miui": "7.3.2",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.3.2_1055950535_6.0.zip",
-          "fastboot": "lithium_images_7.3.2_20170302.0000.00_6.0_cn_60601d33af.tgz"
-        },
-        {
-          "miui": "7.2.24",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.2.24_973c6ed753_6.0.zip",
-          "fastboot": "lithium_images_7.2.24_20170224.0000.00_6.0_cn_0504f3180e.tgz"
-        },
-        {
-          "miui": "7.2.16",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.2.16_e9a0088856_6.0.zip",
-          "fastboot": "lithium_images_7.2.16_20170216.0000.00_6.0_cn_4de2db3532.tgz"
-        },
-        {
-          "miui": "7.2.9",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.2.9_19d11277e5_6.0.zip",
-          "fastboot": "lithium_images_7.2.9_20170209.0000.00_6.0_cn_6d2b665dc6.tgz"
-        },
-        {
-          "miui": "7.1.20",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.1.20_53e0614764_6.0.zip",
-          "fastboot": "lithium_images_7.1.20_20170120.0000.00_6.0_cn_3e8255257e.tgz"
-        },
-        {
-          "miui": "7.1.12",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.1.12_a9ebf58633_6.0.zip",
-          "fastboot": "lithium_images_7.1.12_20170111.0000.00_6.0_cn_d01b9e191b.tgz"
-        },
-        {
-          "miui": "7.1.5",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_7.1.5_3a3466c505_6.0.zip",
-          "fastboot": "lithium_images_7.1.5_20170105.0000.00_6.0_cn_35732487c2.tgz"
-        },
-        {
-          "miui": "6.12.29",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_6.12.29_c5354bdf5f_6.0.zip",
-          "fastboot": "lithium_images_6.12.29_20161228.0000.00_6.0_cn_0952735c8e.tgz"
-        },
-        {
-          "miui": "6.12.22",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_6.12.22_77130da443_6.0.zip",
-          "fastboot": "lithium_images_6.12.22_20161222.0000.00_6.0_cn_97cf81635b.tgz"
-        },
-        {
-          "miui": "6.12.8",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_6.12.8_7fe44b9fe3_6.0.zip",
-          "fastboot": "lithium_images_6.12.8_20161208.0000.00_6.0_cn_a1faddcc04.tgz"
-        },
-        {
-          "miui": "6.12.1",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_6.12.1_df9175711d_6.0.zip",
-          "fastboot": "lithium_images_6.12.1_20161201.0000.00_6.0_cn_daaa6e0d1c.tgz"
-        },
-        {
-          "miui": "6.11.10",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_6.11.10_fc61339a09_6.0.zip",
-          "fastboot": "lithium_images_6.11.10_20161110.0000.00_6.0_cn_dcb9895fd6.tgz"
-        },
-        {
-          "miui": "6.11.3",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_6.11.3_e968946206_6.0.zip",
-          "fastboot": "lithium_images_6.11.3_20161103.0000.00_6.0_cn_77dbbb1110.tgz"
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V11.0.2.0.OAHCNXM",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_V11.0.2.0.OAHCNXM_4b2fbb5687_8.0.zip",
-          "fastboot": "lithium_images_V11.0.2.0.OAHCNXM_20191023.0000.00_8.0_cn_a4318423db.tgz"
-        },
-        {
-          "miui": "V10.2.1.0.OAHCNFK",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_V10.2.1.0.OAHCNFK_90b6156a40_8.0.zip",
-          "fastboot": "lithium_images_V10.2.1.0.OAHCNFK_20181217.0000.00_8.0_cn_3b7d46f02e.tgz"
-        },
-        {
-          "miui": "V10.0.1.0.OAHCNFH",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_V10.0.1.0.OAHCNFH_55bf6b514b_8.0.zip",
-          "fastboot": "lithium_images_V10.0.1.0.OAHCNFH_20180823.0000.00_8.0_cn_89afc8aebb.tgz"
-        },
-        {
-          "miui": "V9.6.1.0.OAHCNFD",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_V9.6.1.0.OAHCNFD_6d6f733fd0_8.0.zip",
-          "fastboot": "lithium_images_V9.6.1.0.OAHCNFD_20180625.0000.00_8.0_cn_20ef7e3b33.tgz"
-        },
-        {
-          "miui": "V9.6.1.0.OAHCNFD",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_V9.6.1.0.OAHCNFD_6d6f733fd0_8.0.zip",
-          "fastboot": "lithium_images_V9.6.1.0.OAHCNFD_20180625.0000.00_8.0_cn_chinatelecom_2c9da25871.tgz"
-        },
-        {
-          "miui": "V9.6.1.0.OAHCNFD",
-          "android": "8.0",
-          "recovery": "miui_MIMIX_V9.6.1.0.OAHCNFD_6d6f733fd0_8.0.zip",
-          "fastboot": "lithium_images_V9.6.1.0.OAHCNFD_20180625.0000.00_8.0_cn_chinamobile_8e26230f7b.tgz"
-        },
-        {
-          "miui": "V9.5.4.0.NAHCNFA",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_V9.5.4.0.NAHCNFA_8868c57db3_7.0.zip",
-          "fastboot": "lithium_images_V9.5.4.0.NAHCNFA_20180614.0000.00_7.0_cn_dd700e9b34.tgz"
-        },
-        {
-          "miui": "V9.5.2.0.NAHCNFA",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_V9.5.2.0.NAHCNFA_f1c1c434d7_7.0.zip",
-          "fastboot": "lithium_images_V9.5.2.0.NAHCNFA_20180405.0000.00_7.0_cn_c473adafc5.tgz"
-        },
-        {
-          "miui": "V9.5.1.0.NAHCNFA",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_V9.5.1.0.NAHCNFA_034e70f063_7.0.zip",
-          "fastboot": "lithium_images_V9.5.1.0.NAHCNFA_20180212.0000.00_7.0_cn_59bf8e124f.tgz"
-        },
-        {
-          "miui": "V9.2.2.0.NAHCNEK",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_V9.2.2.0.NAHCNEK_05b5af9ea9_7.0.zip",
-          "fastboot": "lithium_images_V9.2.2.0.NAHCNEK_20180124.0000.00_7.0_cn_d16a30bc67.tgz"
-        },
-        {
-          "miui": "V9.2.1.0.NAHCNEK",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_V9.2.1.0.NAHCNEK_d1d5a6c648_7.0.zip",
-          "fastboot": "lithium_images_V9.2.1.0.NAHCNEK_20171226.0000.00_7.0_cn_7436138256.tgz"
-        },
-        {
-          "miui": "V9.1.3.0.NAHCNEI",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_V9.1.3.0.NAHCNEI_eb4cb805ff_7.0.zip",
-          "fastboot": "lithium_images_V9.1.3.0.NAHCNEI_20171129.0000.00_7.0_cn_4c16063ba5.tgz"
-        },
-        {
-          "miui": "V9.1.2.0.NAHCNEI",
-          "android": "7.0",
-          "recovery": "miui_MIMIX_V9.1.2.0.NAHCNEI_a0b0b3f750_7.0.zip",
-          "fastboot": "lithium_images_V9.1.2.0.NAHCNEI_20171101.0000.00_7.0_cn_bbcaf4af0d.tgz"
-        },
-        {
-          "miui": "V8.5.6.0.MAHCNED",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.5.6.0.MAHCNED_a1b2ed4f38_6.0.zip",
-          "fastboot": "lithium_images_V8.5.6.0.MAHCNED_20170926.0000.00_6.0_cn_7b73138560.tgz"
-        },
-        {
-          "miui": "V8.5.4.0.MAHCNED",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.5.4.0.MAHCNED_960e70f1bb_6.0.zip",
-          "fastboot": "lithium_images_V8.5.4.0.MAHCNED_20170728.0000.00_6.0_cn_796b584c68.tgz"
-        },
-        {
-          "miui": "V8.5.3.0.MAHCNED",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.5.3.0.MAHCNED_84d2c1c280_6.0.zip",
-          "fastboot": "lithium_images_V8.5.3.0.MAHCNED_20170626.0000.00_6.0_cn_a06f137d89.tgz"
-        },
-        {
-          "miui": "V8.5.2.0.MAHCNED",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.5.2.0.MAHCNED_c367f15c38_6.0.zip",
-          "fastboot": "lithium_images_V8.5.2.0.MAHCNED_20170525.0000.00_6.0_cn_d2b1c8bb33.tgz"
-        },
-        {
-          "miui": "V8.2.4.0.MAHCNDL",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.2.4.0.MAHCNDL_c15b672f17_6.0.zip",
-          "fastboot": "lithium_images_V8.2.4.0.MAHCNDL_20170426.0000.00_6.0_cn_d788f7dda0.tgz"
-        },
-        {
-          "miui": "V8.2.3.0.MAHCNDL",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.2.3.0.MAHCNDL_919b9e6e49_6.0.zip",
-          "fastboot": "lithium_images_V8.2.3.0.MAHCNDL_20170314.0000.00_6.0_cn_7e681657ef.tgz"
-        },
-        {
-          "miui": "V8.2.2.0.MAHCNDL",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.2.2.0.MAHCNDL_ce7449c4b2_6.0.zip",
-          "fastboot": "lithium_images_V8.2.2.0.MAHCNDL_20170216.0000.00_6.0_cn_ba37709956.tgz"
-        },
-        {
-          "miui": "V8.0.12.0.MAHCNDI",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.0.12.0.MAHCNDI_43b016f991_6.0.zip",
-          "fastboot": "lithium_images_V8.0.12.0.MAHCNDI_20161220.0000.00_6.0_cn_1d11697504.tgz"
-        },
-        {
-          "miui": "V8.0.11.0.MAHCNDI",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.0.11.0.MAHCNDI_967267d7c1_6.0.zip",
-          "fastboot": "lithium_images_V8.0.11.0.MAHCNDI_20161128.0000.00_6.0_cn_26ed69120e.tgz"
-        },
-        {
-          "miui": "V8.0.10.0.MAHCNDI",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.0.10.0.MAHCNDI_7344267342_6.0.zip",
-          "fastboot": "lithium_images_V8.0.10.0.MAHCNDI_20161111.0000.00_6.0_cn_0ffcfbd68a.tgz"
-        },
-        {
-          "miui": "V8.0.8.0.MAHCNDI",
-          "android": "6.0",
-          "recovery": "miui_MIMIX_V8.0.8.0.MAHCNDI_27ef2b7029_6.0.zip",
-          "fastboot": "lithium_images_V8.0.8.0.MAHCNDI_20161026.0000_6.0_cn_2bbbb8ec9e.tgz"
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"",
-      "carrier":[],
-      "branch": "mgbb",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际开发版",
-      "enname": "Global Beta",
-      "links": [
-        {
-          "miui": "9.6.27",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.6.27_ffd0ee5403_8.0.zip",
-          "fastboot": "lithium_global_images_9.6.27_20190627.0000.00_8.0_global_2e7c0122f0.tgz"
-        },
-        {
-          "miui": "9.6.20",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.6.20_f7a6a1c1e6_8.0.zip",
-          "fastboot": "lithium_global_images_9.6.20_20190620.0000.00_8.0_global_e532d99d25.tgz"
-        },
-        {
-          "miui": "9.6.13",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.6.13_40630823df_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "9.5.30",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.5.30_4f7d7ad49a_8.0.zip",
-          "fastboot": "lithium_global_images_9.5.30_20190530.0000.00_8.0_global_7fb4c3b0ff.tgz"
-        },
-        {
-          "miui": "9.5.23",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.5.23_c10c55dda1_8.0.zip",
-          "fastboot": "lithium_global_images_9.5.23_20190523.0000.00_8.0_global_99ce2c2d57.tgz"
-        },
-        {
-          "miui": "9.5.16",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.5.16_a30bc5cf2e_8.0.zip",
-          "fastboot": "lithium_global_images_9.5.16_20190516.0000.00_8.0_global_3ff589e0e4.tgz"
-        },
-        {
-          "miui": "9.5.9",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.5.9_80362d635f_8.0.zip",
-          "fastboot": "lithium_global_images_9.5.9_20190509.0000.00_8.0_global_55b945dcb2.tgz"
-        },
-        {
-          "miui": "9.4.25",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.4.25_354e1aa838_8.0.zip",
-          "fastboot": "lithium_global_images_9.4.25_20190425.0000.00_8.0_global_0444d3cdd0.tgz"
-        },
-        {
-          "miui": "9.4.18",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.4.18_087756faf8_8.0.zip",
-          "fastboot": "lithium_global_images_9.4.18_20190418.0000.00_8.0_global_24ad323897.tgz"
-        },
-        {
-          "miui": "9.4.11",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.4.11_c1ea4e56ec_8.0.zip",
-          "fastboot": "lithium_global_images_9.4.11_20190411.0000.00_8.0_global_1052f115ca.tgz"
-        },
-        {
-          "miui": "9.3.28",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.3.28_2f5fa59a8b_8.0.zip",
-          "fastboot": "lithium_global_images_9.3.28_20190328.0000.00_8.0_global_74a32ffa29.tgz"
-        },
-        {
-          "miui": "9.3.21",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.3.21_19984f8108_8.0.zip",
-          "fastboot": "lithium_global_images_9.3.21_20190321.0000.00_8.0_global_3c3afa3987.tgz"
-        },
-        {
-          "miui": "9.3.14",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.3.14_2ccb2e1dd0_8.0.zip",
-          "fastboot": "lithium_global_images_9.3.14_20190314.0000.00_8.0_global_111a939c9a.tgz"
-        },
-        {
-          "miui": "9.3.7",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.3.7_68d72941f9_8.0.zip",
-          "fastboot": "lithium_global_images_9.3.7_20190307.0000.00_8.0_global_cc2b769dea.tgz"
-        },
-        {
-          "miui": "9.2.28",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.2.28_3199123fdc_8.0.zip",
-          "fastboot": "lithium_global_images_9.2.28_20190228.0000.00_8.0_global_0bc4ef9c16.tgz"
-        },
-        {
-          "miui": "9.2.21",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.2.21_703299cccb_8.0.zip",
-          "fastboot": "lithium_global_images_9.2.21_20190221.0000.00_8.0_global_b6b810b0a0.tgz"
-        },
-        {
-          "miui": "9.2.15",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.2.15_529ee40cc0_8.0.zip",
-          "fastboot": "lithium_global_images_9.2.15_20190215.0000.00_8.0_global_978ce9588f.tgz"
-        },
-        {
-          "miui": "9.1.24",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.1.24_3b526a1eef_8.0.zip",
-          "fastboot": "lithium_global_images_9.1.24_20190124.0000.00_8.0_global_7c9652c10b.tgz"
-        },
-        {
-          "miui": "9.1.17",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.1.17_d25bd0b93c_8.0.zip",
-          "fastboot": "lithium_global_images_9.1.17_20190117.0000.00_8.0_global_7b117f24cf.tgz"
-        },
-        {
-          "miui": "9.1.10",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_9.1.10_12152766f9_8.0.zip",
-          "fastboot": "lithium_global_images_9.1.10_20190110.0000.00_8.0_global_79de14bd29.tgz"
-        },
-        {
-          "miui": "8.12.27",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.12.27_882ddcbce4_8.0.zip",
-          "fastboot": "lithium_global_images_8.12.27_20181227.0000.00_8.0_global_c3040f5e11.tgz"
-        },
-        {
-          "miui": "8.12.20",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.12.20_0f51c821e4_8.0.zip",
-          "fastboot": "lithium_global_images_8.12.20_20181220.0000.00_8.0_global_5338fdb454.tgz"
-        },
-        {
-          "miui": "8.12.13",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.12.13_f8a0f7f2cc_8.0.zip",
-          "fastboot": "lithium_global_images_8.12.13_20181213.0000.00_8.0_global_a5a275dce8.tgz"
-        },
-        {
-          "miui": "8.12.6",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.12.6_77d1a9b622_8.0.zip",
-          "fastboot": "lithium_global_images_8.12.6_20181206.0000.00_8.0_global_1879cd04e3.tgz"
-        },
-        {
-          "miui": "8.11.29",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.11.29_604bd556ea_8.0.zip",
-          "fastboot": "lithium_global_images_8.11.29_20181129.0000.00_8.0_global_616964a15c.tgz"
-        },
-        {
-          "miui": "8.11.22",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.11.22_1879470bab_8.0.zip",
-          "fastboot": "lithium_global_images_8.11.22_20181122.0000.00_8.0_global_e5825b9f63.tgz"
-        },
-        {
-          "miui": "8.11.15",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.11.15_e6aaf8cb32_8.0.zip",
-          "fastboot": "lithium_global_images_8.11.15_20181115.0000.00_8.0_global_238b2d1956.tgz"
-        },
-        {
-          "miui": "8.11.8",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.11.8_817a0eeb36_8.0.zip",
-          "fastboot": "lithium_global_images_8.11.8_20181108.0000.00_8.0_global_ea52647843.tgz"
-        },
-        {
-          "miui": "8.11.1",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.11.1_4f40a8f767_8.0.zip",
-          "fastboot": "lithium_global_images_8.11.1_20181101.0000.00_8.0_global_be745ff2d6.tgz"
-        },
-        {
-          "miui": "8.10.25",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.10.25_36da1292ca_8.0.zip",
-          "fastboot": "lithium_global_images_8.10.25_20181025.0000.00_8.0_global_0e19d11a69.tgz"
-        },
-        {
-          "miui": "8.10.18",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.10.18_e90b4512bd_8.0.zip",
-          "fastboot": "lithium_global_images_8.10.18_20181018.0000.00_8.0_global_1e6b3c59ab.tgz"
-        },
-        {
-          "miui": "8.10.11",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.10.11_6cc2074f50_8.0.zip",
-          "fastboot": "lithium_global_images_8.10.11_20181011.0000.00_8.0_global_7c91b2fd15.tgz"
-        },
-        {
-          "miui": "8.9.20",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.9.20_c7720e306f_8.0.zip",
-          "fastboot": "lithium_global_images_8.9.20_20180920.0000.00_8.0_global_aab4d8c3cf.tgz"
-        },
-        {
-          "miui": "8.9.13",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.9.13_8d0c7f3ae3_8.0.zip",
-          "fastboot": "lithium_global_images_8.9.13_20180913.0000.00_8.0_global_c4ccd90e42.tgz"
-        },
-        {
-          "miui": "8.9.6",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.9.6_b254176073_8.0.zip",
-          "fastboot": "lithium_global_images_8.9.6_20180906.0000.00_8.0_global_8824d8bdc7.tgz"
-        },
-        {
-          "miui": "8.8.30",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.8.30_164344baa5_8.0.zip",
-          "fastboot": "lithium_global_images_8.8.30_20180830.0000.00_8.0_global_632d286625.tgz"
-        },
-        {
-          "miui": "8.8.23",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.8.23_0cef6af706_8.0.zip",
-          "fastboot": "lithium_global_images_8.8.23_20180823.0000.00_8.0_global_865f29c0be.tgz"
-        },
-        {
-          "miui": "8.8.21",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.8.21_ea9cd26d23_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.8.16",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.8.16_65990ae491_8.0.zip",
-          "fastboot": "lithium_global_images_8.8.16_20180816.0000.00_8.0_global_3d33d2093e.tgz"
-        },
-        {
-          "miui": "8.8.9",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.8.9_04640eff3f_8.0.zip",
-          "fastboot": "lithium_global_images_8.8.9_20180809.0000.00_8.0_global_8893992ca0.tgz"
-        },
-        {
-          "miui": "8.8.2",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.8.2_eb841a01d5_8.0.zip",
-          "fastboot": "lithium_global_images_8.8.2_20180802.0000.00_8.0_global_f1027a8954.tgz"
-        },
-        {
-          "miui": "8.7.26",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.7.26_4da41ac482_8.0.zip",
-          "fastboot": "lithium_global_images_8.7.26_20180726.0000.00_8.0_global_474a359f8f.tgz"
-        },
-        {
-          "miui": "8.7.19",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.7.19_2ced6e5338_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.7.12",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.7.12_fd70fd90f6_8.0.zip",
-          "fastboot": "lithium_global_images_8.7.12_20180712.0000.00_8.0_global_7efbf7ee95.tgz"
-        },
-        {
-          "miui": "8.7.5",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.7.5_a77275a171_8.0.zip",
-          "fastboot": "lithium_global_images_8.7.5_20180705.0000.00_8.0_global_36082d8fd6.tgz"
-        },
-        {
-          "miui": "8.5.24",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.5.24_a5d2a960cf_8.0.zip",
-          "fastboot": "lithium_global_images_8.5.24_20180524.0000.00_8.0_global_3469133506.tgz"
-        },
-        {
-          "miui": "8.5.17",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.5.17_4eb4d45bcb_8.0.zip",
-          "fastboot": "lithium_global_images_8.5.17_20180517.0000.00_8.0_global_d8a780f991.tgz"
-        },
-        {
-          "miui": "8.5.10",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.5.10_8c62ecada7_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "8.4.19",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_8.4.19_0114578e8e_8.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "7.5.25",
-          "android": "6.0",
-          "recovery": "miui_MIMIXGlobal_7.5.25_0cc67107a6_6.0.zip",
-          "fastboot": "lithium_global_images_7.5.25_20170525.0000.00_6.0_global_38932075b8.tgz"
-        },
-        {
-          "miui": "7.5.19",
-          "android": "6.0",
-          "recovery": "miui_MIMIXGlobal_7.5.19_2dd86ade8a_6.0.zip",
-          "fastboot": "lithium_global_images_7.5.19_20170519.0000.00_6.0_global_0585cfa863.tgz"
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V11.0.2.0.OAHMIXM",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_V11.0.2.0.OAHMIXM_6e058c6d8f_8.0.zip",
-          "fastboot": "lithium_global_images_V11.0.2.0.OAHMIXM_20191023.0000.00_8.0_global_3454b31c75.tgz"
-        },
-        {
-          "miui": "V10.2.1.0.OAHMIXM",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_V10.2.1.0.OAHMIXM_25679d5790_8.0.zip",
-          "fastboot": "lithium_global_images_V10.2.1.0.OAHMIXM_20190107.0000.00_8.0_global_98da9b5a48.tgz"
-        },
-        {
-          "miui": "V10.0.1.0.OAHMIFH",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_V10.0.1.0.OAHMIFH_9bf07533e3_8.0.zip",
-          "fastboot": "lithium_global_images_V10.0.1.0.OAHMIFH_20180831.0000.00_8.0_global_6af721a86e.tgz"
-        },
-        {
-          "miui": "V9.6.2.0.OAHMIFD",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_V9.6.2.0.OAHMIFD_419d938029_8.0.zip",
-          "fastboot": "lithium_global_images_V9.6.2.0.OAHMIFD_20180801.0000.00_8.0_global_7824993d57.tgz"
-        },
-        {
-          "miui": "V9.6.1.0.OAHMIFD",
-          "android": "8.0",
-          "recovery": "miui_MIMIXGlobal_V9.6.1.0.OAHMIFD_283d157a31_8.0.zip",
-          "fastboot": "lithium_global_images_V9.6.1.0.OAHMIFD_20180626.0000.00_8.0_global_b6c717dd70.tgz"
-        },
-        {
-          "miui": "V9.5.6.0.NAHMIFA",
-          "android": "7.0",
-          "recovery": "miui_MIMIXGlobal_V9.5.6.0.NAHMIFA_fe61fd71d1_7.0.zip",
-          "fastboot": "lithium_global_images_V9.5.6.0.NAHMIFA_20180620.0000.00_7.0_global_eeb91e4a18.tgz"
-        },
-        {
-          "miui": "V9.5.5.0.NAHMIFA",
-          "android": "7.0",
-          "recovery": "miui_MIMIXGlobal_V9.5.5.0.NAHMIFA_aad4ca88d1_7.0.zip",
-          "fastboot": "lithium_global_images_V9.5.5.0.NAHMIFA_20180612.0000.00_7.0_global_2a755c0379.tgz"
-        },
-        {
-          "miui": "V9.5.2.0.NAHMIFA",
-          "android": "7.0",
-          "recovery": "miui_MIMIXGlobal_V9.5.2.0.NAHMIFA_a18f75ba49_7.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V9.2.1.0.NAHMIEK",
-          "android": "7.0",
-          "recovery": "miui_MIMIXGlobal_V9.2.1.0.NAHMIEK_54d930a390_7.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V9.1.1.0.NAHMIEI",
-          "android": "7.0",
-          "recovery": "miui_MIMIXGlobal_V9.1.1.0.NAHMIEI_6310b4fe9a_7.0.zip",
-          "fastboot": "lithium_global_images_V9.1.1.0.NAHMIEI_20171106.0000.00_7.0_global_3bd01e95ee.tgz"
-        },
-        {
-          "miui": "V8.5.5.0.MAHMIED",
-          "android": "6.0",
-          "recovery": "miui_MIMIXGlobal_V8.5.5.0.MAHMIED_e22d674467_6.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V8.5.4.0.MAHMIED",
-          "android": "6.0",
-          "recovery": "miui_MIMIXGlobal_V8.5.4.0.MAHMIED_0178011bcd_6.0.zip",
-          "fastboot": "lithium_global_images_V8.5.4.0.MAHMIED_20170728.0000.00_6.0_global_0b066fca54.tgz"
-        },
-        {
-          "miui": "V8.2.5.0.MAHMIDL",
-          "android": "6.0",
-          "recovery": "miui_MIMIXGlobal_V8.2.5.0.MAHMIDL_6edb1d5c7a_6.0.zip",
-          "fastboot": "lithium_global_images_V8.2.5.0.MAHMIDL_20170509.0000.00_6.0_global_6cfe1f635c.tgz"
-        },
-        {
-          "miui": "V8.2.4.0.MAHMIDL",
-          "android": "6.0",
-          "recovery": "miui_MIMIXGlobal_V8.2.4.0.MAHMIDL_a48c317843_6.0.zip",
-          "fastboot": "lithium_global_images_V8.2.4.0.MAHMIDL_20170427.0000.00_6.0_global_ff825cd8ef.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "lithium",
+	"cnname": "小米 MIX",
+	"enname": "Mi MIX",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "17746085",
+	"ismiui": "",
+	"ccshow": "1",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "9.10.10",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.10.10_205eb6e663_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "9.9.26",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.9.26_6fec175e2b_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "9.8.29",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.8.29_574004787f_8.0.zip",
+					"fastboot": "lithium_images_9.8.29_20190829.0000.00_8.0_cn_7d237d1665.tgz"
+				},
+				{
+					"miui": "9.8.15",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.8.15_b732b33ee3_8.0.zip",
+					"fastboot": "lithium_images_9.8.15_20190815.0000.00_8.0_cn_997fab5a00.tgz"
+				},
+				{
+					"miui": "9.8.1",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.8.1_0e044d4d6b_8.0.zip",
+					"fastboot": "lithium_images_9.8.1_20190801.0000.00_8.0_cn_b0116413f9.tgz"
+				},
+				{
+					"miui": "9.7.25",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.7.25_2b8a7b5e45_8.0.zip",
+					"fastboot": "lithium_images_9.7.25_20190725.0000.00_8.0_cn_da2de52a1c.tgz"
+				},
+				{
+					"miui": "9.7.18",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.7.18_1dbcaf7751_8.0.zip",
+					"fastboot": "lithium_images_9.7.18_20190718.0000.00_8.0_cn_c24d0942b1.tgz"
+				},
+				{
+					"miui": "9.7.11",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.7.11_29e2f7f919_8.0.zip",
+					"fastboot": "lithium_images_9.7.11_20190711.0000.00_8.0_cn_559be1cc4c.tgz"
+				},
+				{
+					"miui": "9.7.4",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.7.4_f12c90ccb6_8.0.zip",
+					"fastboot": "lithium_images_9.7.4_20190704.0000.00_8.0_cn_29318c9146.tgz"
+				},
+				{
+					"miui": "9.6.27",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.6.27_d6b5a3446e_8.0.zip",
+					"fastboot": "lithium_images_9.6.27_20190627.0000.00_8.0_cn_0f77acb77c.tgz"
+				},
+				{
+					"miui": "9.6.20",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.6.20_4f59373a4a_8.0.zip",
+					"fastboot": "lithium_images_9.6.20_20190620.0000.00_8.0_cn_dccf554755.tgz"
+				},
+				{
+					"miui": "9.6.17",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.6.17_7084fd0c01_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "9.6.13",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.6.13_50dc036767_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "9.5.30",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.5.30_eabc42d3ee_8.0.zip",
+					"fastboot": "lithium_images_9.5.30_20190530.0000.00_8.0_cn_06dbe24a88.tgz"
+				},
+				{
+					"miui": "9.5.23",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.5.23_f9abb66427_8.0.zip",
+					"fastboot": "lithium_images_9.5.23_20190523.0000.00_8.0_cn_ab49abfa15.tgz"
+				},
+				{
+					"miui": "9.5.16",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.5.16_ac0057fa62_8.0.zip",
+					"fastboot": "lithium_images_9.5.16_20190516.0000.00_8.0_cn_0037c68adb.tgz"
+				},
+				{
+					"miui": "9.5.9",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.5.9_9e2b6d373c_8.0.zip",
+					"fastboot": "lithium_images_9.5.9_20190509.0000.00_8.0_cn_2a4166c029.tgz"
+				},
+				{
+					"miui": "9.4.25",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.4.25_a978d0b59e_8.0.zip",
+					"fastboot": "lithium_images_9.4.25_20190425.0000.00_8.0_cn_e4cccc24bd.tgz"
+				},
+				{
+					"miui": "9.4.18",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.4.18_1c7dac385a_8.0.zip",
+					"fastboot": "lithium_images_9.4.18_20190418.0000.00_8.0_cn_426e872c7c.tgz"
+				},
+				{
+					"miui": "9.4.11",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.4.11_a08b3d97c9_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "9.3.28",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.3.28_d169d75507_8.0.zip",
+					"fastboot": "lithium_images_9.3.28_20190328.0000.00_8.0_cn_3ec9eeeeec.tgz"
+				},
+				{
+					"miui": "9.3.21",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.3.21_506074b67c_8.0.zip",
+					"fastboot": "lithium_images_9.3.21_20190321.0000.00_8.0_cn_595be4865a.tgz"
+				},
+				{
+					"miui": "9.3.14",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.3.14_88f53f4904_8.0.zip",
+					"fastboot": "lithium_images_9.3.14_20190314.0000.00_8.0_cn_84f64b1956.tgz"
+				},
+				{
+					"miui": "9.3.7",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.3.7_deda125c27_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "9.2.28",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.2.28_b5d8b8d501_8.0.zip",
+					"fastboot": "lithium_images_9.2.28_20190228.0000.00_8.0_cn_a632c95020.tgz"
+				},
+				{
+					"miui": "9.2.21",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.2.21_9fcb2ace63_8.0.zip",
+					"fastboot": "lithium_images_9.2.21_20190221.0000.00_8.0_cn_a58daffd32.tgz"
+				},
+				{
+					"miui": "9.2.15",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.2.15_dd8709462c_8.0.zip",
+					"fastboot": "lithium_images_9.2.15_20190215.0000.00_8.0_cn_eef5147644.tgz"
+				},
+				{
+					"miui": "9.1.24",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.1.24_dd1932554f_8.0.zip",
+					"fastboot": "lithium_images_9.1.24_20190124.0000.00_8.0_cn_9205fb3606.tgz"
+				},
+				{
+					"miui": "9.1.17",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.1.17_3ef673e746_8.0.zip",
+					"fastboot": "lithium_images_9.1.17_20190117.0000.00_8.0_cn_41a3deaaea.tgz"
+				},
+				{
+					"miui": "9.1.10",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_9.1.10_bd82dd6bfa_8.0.zip",
+					"fastboot": "lithium_images_9.1.10_20190110.0000.00_8.0_cn_7ddb5da3cb.tgz"
+				},
+				{
+					"miui": "8.12.27",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.12.27_a0690eb7c3_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.12.20",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.12.20_f879d75513_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.12.13",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.12.13_782a5ebeed_8.0.zip",
+					"fastboot": "lithium_images_8.12.13_20181213.0000.00_8.0_cn_91ef5a5df6.tgz"
+				},
+				{
+					"miui": "8.12.6",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.12.6_879d3f30fa_8.0.zip",
+					"fastboot": "lithium_images_8.12.6_20181206.0000.00_8.0_cn_5c58af5fb3.tgz"
+				},
+				{
+					"miui": "8.11.29",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.11.29_e903d0d810_8.0.zip",
+					"fastboot": "lithium_images_8.11.29_20181129.0000.00_8.0_cn_304b2d2148.tgz"
+				},
+				{
+					"miui": "8.11.22",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.11.22_579a7887d4_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.11.15",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.11.15_9902ed46a4_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.11.1",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.11.1_842cd15b74_8.0.zip",
+					"fastboot": "lithium_images_8.11.1_20181101.0000.00_8.0_cn_b3c2e23abb.tgz"
+				},
+				{
+					"miui": "8.10.25",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.10.25_c749a6e3ca_8.0.zip",
+					"fastboot": "lithium_images_8.10.25_20181025.0000.00_8.0_cn_a75f47c483.tgz"
+				},
+				{
+					"miui": "8.10.18",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.10.18_418d6f176a_8.0.zip",
+					"fastboot": "lithium_images_8.10.18_20181018.0000.00_8.0_cn_8dc87dacd2.tgz"
+				},
+				{
+					"miui": "8.10.11",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.10.11_9b43a41b03_8.0.zip",
+					"fastboot": "lithium_images_8.10.11_20181011.0000.00_8.0_cn_e3929cc9f3.tgz"
+				},
+				{
+					"miui": "8.9.20",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.9.20_6be67003f8_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.9.13",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.9.13_2501eac0f5_8.0.zip",
+					"fastboot": "lithium_images_8.9.13_20180913.0000.00_8.0_cn_15142fddd6.tgz"
+				},
+				{
+					"miui": "8.9.6",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.9.6_8c1119dde6_8.0.zip",
+					"fastboot": "lithium_images_8.9.6_20180906.0000.00_8.0_cn_9a898cf695.tgz"
+				},
+				{
+					"miui": "8.8.30",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.8.30_c26803ba2d_8.0.zip",
+					"fastboot": "lithium_images_8.8.30_20180830.0000.00_8.0_cn_20d642f658.tgz"
+				},
+				{
+					"miui": "8.8.23",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.8.23_93f09ed0a3_8.0.zip",
+					"fastboot": "lithium_images_8.8.23_20180823.0000.00_8.0_cn_ecde544b70.tgz"
+				},
+				{
+					"miui": "8.8.16",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.8.16_57f972cbaa_8.0.zip",
+					"fastboot": "lithium_images_8.8.16_20180816.0000.00_8.0_cn_549e1633ca.tgz"
+				},
+				{
+					"miui": "8.8.9",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.8.9_ccf4344176_8.0.zip",
+					"fastboot": "lithium_images_8.8.9_20180809.0000.00_8.0_cn_e7e3456909.tgz"
+				},
+				{
+					"miui": "8.8.3",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.8.3_134de3d89d_8.0.zip",
+					"fastboot": "lithium_images_8.8.3_20180802.0000.00_8.0_cn_0c8066ad8d.tgz"
+				},
+				{
+					"miui": "8.7.26",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.7.26_00b88bc5e8_8.0.zip",
+					"fastboot": "lithium_images_8.7.26_20180726.0000.00_8.0_cn_22c58903af.tgz"
+				},
+				{
+					"miui": "8.7.19",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.7.19_353563fbd5_8.0.zip",
+					"fastboot": "lithium_images_8.7.19_20180719.0000.00_8.0_cn_8dddd6b2bf.tgz"
+				},
+				{
+					"miui": "8.7.12",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.7.12_67306d82a4_8.0.zip",
+					"fastboot": "lithium_images_8.7.12_20180712.0000.00_8.0_cn_e65f03051b.tgz"
+				},
+				{
+					"miui": "8.7.5",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.7.5_8e3b5ca69d_8.0.zip",
+					"fastboot": "lithium_images_8.7.5_20180705.0000.00_8.0_cn_2d95197510.tgz"
+				},
+				{
+					"miui": "8.6.28",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.6.28_c50f63548e_8.0.zip",
+					"fastboot": "lithium_images_8.6.28_20180628.0000.00_8.0_cn_4c243e04e9.tgz"
+				},
+				{
+					"miui": "8.6.21",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.6.21_daa4db7442_8.0.zip",
+					"fastboot": "lithium_images_8.6.21_20180621.0000.00_8.0_cn_5f1d95755a.tgz"
+				},
+				{
+					"miui": "8.6.14",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.6.14_0e02efa1d0_8.0.zip",
+					"fastboot": "lithium_images_8.6.14_20180614.0000.00_8.0_cn_25b8dfbed3.tgz"
+				},
+				{
+					"miui": "8.5.24",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.5.24_08a6e2366e_8.0.zip",
+					"fastboot": "lithium_images_8.5.24_20180524.0000.00_8.0_cn_131a7b9098.tgz"
+				},
+				{
+					"miui": "8.5.17",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.5.17_b6b18b30c1_8.0.zip",
+					"fastboot": "lithium_images_8.5.17_20180517.0000.00_8.0_cn_b1d7f9f8cd.tgz"
+				},
+				{
+					"miui": "8.5.10",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.5.10_a204ab382a_8.0.zip",
+					"fastboot": "lithium_images_8.5.10_20180510.0000.00_8.0_cn_f4946c4a11.tgz"
+				},
+				{
+					"miui": "8.5.3",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_8.5.3_8f6a3bf2e9_8.0.zip",
+					"fastboot": "lithium_images_8.5.3_20180503.0000.00_8.0_cn_5d3080efa2.tgz"
+				},
+				{
+					"miui": "8.3.26",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.3.26_6cbaf6abc9_7.0.zip",
+					"fastboot": "lithium_images_8.3.26_20180326.0000.00_7.0_cn_f53788ff45.tgz"
+				},
+				{
+					"miui": "8.3.22",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.3.22_a22f2b3cbf_7.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.3.15",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.3.15_4488483296_7.0.zip",
+					"fastboot": "lithium_images_8.3.15_20180315.0000.00_7.0_cn_13c5547d02.tgz"
+				},
+				{
+					"miui": "8.3.8",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.3.8_32486f9c0c_7.0.zip",
+					"fastboot": "lithium_images_8.3.8_20180308.0000.00_7.0_cn_a4791d6d7f.tgz"
+				},
+				{
+					"miui": "8.3.1",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.3.1_0ef09f73f2_7.0.zip",
+					"fastboot": "lithium_images_8.3.1_20180301.0000.00_7.0_cn_fd15719aa4.tgz"
+				},
+				{
+					"miui": "8.2.1",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.2.1_c14c5691e3_7.0.zip",
+					"fastboot": "lithium_images_8.2.1_20180201.0000.00_7.0_cn_544dbf7f9c.tgz"
+				},
+				{
+					"miui": "8.1.25",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.1.25_5dc9fca51a_7.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.1.11",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.1.11_e878946621_7.0.zip",
+					"fastboot": "lithium_images_8.1.11_20180111.0000.00_7.0_cn_3def6331c3.tgz"
+				},
+				{
+					"miui": "8.1.4",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_8.1.4_6ccdfe209f_7.0.zip",
+					"fastboot": "lithium_images_8.1.4_20180104.0000.00_7.0_cn_9f051f92d8.tgz"
+				},
+				{
+					"miui": "7.12.28",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.12.28_80a4dee3c1_7.0.zip",
+					"fastboot": "lithium_images_7.12.28_20171228.0000.00_7.0_cn_595c4d0c75.tgz"
+				},
+				{
+					"miui": "7.12.21",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.12.21_5ebc85c4c2_7.0.zip",
+					"fastboot": "lithium_images_7.12.21_20171221.0000.00_7.0_cn_eec286a926.tgz"
+				},
+				{
+					"miui": "7.12.14",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.12.14_dfef887313_7.0.zip",
+					"fastboot": "lithium_images_7.12.14_20171214.0000.00_7.0_cn_c21760115b.tgz"
+				},
+				{
+					"miui": "7.12.7",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.12.7_cd0938d9ba_7.0.zip",
+					"fastboot": "lithium_images_7.12.7_20171207.0000.00_7.0_cn_e3c782599a.tgz"
+				},
+				{
+					"miui": "7.11.30",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.11.30_7b9e0fad17_7.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "7.11.23",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.11.23_08bd547604_7.0.zip",
+					"fastboot": "lithium_images_7.11.23_20171123.0000.00_7.0_cn_6f765a81f9.tgz"
+				},
+				{
+					"miui": "7.11.16",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.11.16_b01b6fa819_7.0.zip",
+					"fastboot": "lithium_images_7.11.16_20171116.0000.00_7.0_cn_993d50f213.tgz"
+				},
+				{
+					"miui": "7.11.9",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.11.9_885e49f514_7.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "7.11.2",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.11.2_1f75f7ae3a_7.0.zip",
+					"fastboot": "lithium_images_7.11.2_20171102.0000.00_7.0_cn_35d3715aee.tgz"
+				},
+				{
+					"miui": "7.10.26",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.10.26_e83b08f470_7.0.zip",
+					"fastboot": "lithium_images_7.10.26_20171026.0000.00_7.0_cn_e98541dd5d.tgz"
+				},
+				{
+					"miui": "7.10.19",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.10.19_67d794ba4b_7.0.zip",
+					"fastboot": "lithium_images_7.10.19_20171019.0000.00_7.0_cn_fb04b701d4.tgz"
+				},
+				{
+					"miui": "7.10.12",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.10.12_9d7e2758af_7.0.zip",
+					"fastboot": "lithium_images_7.10.12_20171012.0000.00_7.0_cn_8619e8ddfd.tgz"
+				},
+				{
+					"miui": "7.9.28",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.9.28_c6fa80bb50_7.0.zip",
+					"fastboot": "lithium_images_7.9.28_20170928.0000.00_7.0_cn_6a462f4d76.tgz"
+				},
+				{
+					"miui": "7.9.21",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.9.21_00b2a9bae7_7.0.zip",
+					"fastboot": "lithium_images_7.9.21_20170921.0000.00_7.0_cn_c2c79c0639.tgz"
+				},
+				{
+					"miui": "7.9.14",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.9.14_3e464b2086_7.0.zip",
+					"fastboot": "lithium_images_7.9.14_20170914.0000.00_7.0_cn_3c691b2d39.tgz"
+				},
+				{
+					"miui": "7.9.7",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.9.7_63bc20b41c_7.0.zip",
+					"fastboot": "lithium_images_7.9.7_20170907.0000.00_7.0_cn_632cdeaada.tgz"
+				},
+				{
+					"miui": "7.8.31",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.8.31_e25dcf90d0_7.0.zip",
+					"fastboot": "lithium_images_7.8.31_20170831.0000.00_7.0_cn_6b3b6dd776.tgz"
+				},
+				{
+					"miui": "7.8.24",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.8.24_ea4eb5652b_7.0.zip",
+					"fastboot": "lithium_images_7.8.24_20170824.0000.00_7.0_cn_d663968576.tgz"
+				},
+				{
+					"miui": "7.7.20",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.7.20_580f35b594_7.0.zip",
+					"fastboot": "lithium_images_7.7.20_20170720.0000.00_7.0_cn_79ab01aa69.tgz"
+				},
+				{
+					"miui": "7.7.15",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.7.15_d8041b4316_7.0.zip",
+					"fastboot": "lithium_images_7.7.15_20170715.0000.00_7.0_cn_ff22a79dd4.tgz"
+				},
+				{
+					"miui": "7.7.6",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.7.6_4017b66079_7.0.zip",
+					"fastboot": "lithium_images_7.7.6_20170706.0000.00_7.0_cn_79cd82dd6c.tgz"
+				},
+				{
+					"miui": "7.6.29",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.6.29_68693b3671_7.0.zip",
+					"fastboot": "lithium_images_7.6.29_20170629.0000.00_7.0_cn_febac0c3da.tgz"
+				},
+				{
+					"miui": "7.6.15",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_7.6.15_45e7d09258_7.0.zip",
+					"fastboot": "lithium_images_7.6.15_20170615.0000.00_7.0_cn_7262918c93.tgz"
+				},
+				{
+					"miui": "7.5.11",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.5.11_98fc76ffa8_6.0.zip",
+					"fastboot": "lithium_images_7.5.11_20170511.0000.00_6.0_cn_8017f730a0.tgz"
+				},
+				{
+					"miui": "7.5.4",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.5.4_aa8cd3eacb_6.0.zip",
+					"fastboot": "lithium_images_7.5.4_20170504.0000.00_6.0_cn_3baeb93ede.tgz"
+				},
+				{
+					"miui": "7.4.27",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.4.27_c38a070b58_6.0.zip",
+					"fastboot": "lithium_images_7.4.27_20170426.0000.00_6.0_cn_045011708c.tgz"
+				},
+				{
+					"miui": "7.4.20",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.4.20_eb641081dc_6.0.zip",
+					"fastboot": "lithium_images_7.4.20_20170420.0000.00_6.0_cn_19b63337ca.tgz"
+				},
+				{
+					"miui": "7.4.14",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.4.14_9a55a19683_6.0.zip",
+					"fastboot": "lithium_images_7.4.14_20170414.0000.00_6.0_cn_6d63aa4c1e.tgz"
+				},
+				{
+					"miui": "7.4.6",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.4.6_1a56fb1169_6.0.zip",
+					"fastboot": "lithium_images_7.4.6_20170406.0000.00_6.0_cn_60a4adad8c.tgz"
+				},
+				{
+					"miui": "7.3.30",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.3.30_0c391dd39a_6.0.zip",
+					"fastboot": "lithium_images_7.3.30_20170330.0000.00_6.0_cn_07e58795df.tgz"
+				},
+				{
+					"miui": "7.3.23",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.3.23_0b87a87e9c_6.0.zip",
+					"fastboot": "lithium_images_7.3.23_20170323.0000.00_6.0_cn_ca81af4c7f.tgz"
+				},
+				{
+					"miui": "7.3.16",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.3.16_5b4ca3441c_6.0.zip",
+					"fastboot": "lithium_images_7.3.16_20170316.0000.00_6.0_cn_d18d7c3415.tgz"
+				},
+				{
+					"miui": "7.3.9",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.3.9_7fe4aae1ee_6.0.zip",
+					"fastboot": "lithium_images_7.3.9_20170309.0000.00_6.0_cn_2d87f3d0f5.tgz"
+				},
+				{
+					"miui": "7.3.2",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.3.2_1055950535_6.0.zip",
+					"fastboot": "lithium_images_7.3.2_20170302.0000.00_6.0_cn_60601d33af.tgz"
+				},
+				{
+					"miui": "7.2.24",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.2.24_973c6ed753_6.0.zip",
+					"fastboot": "lithium_images_7.2.24_20170224.0000.00_6.0_cn_0504f3180e.tgz"
+				},
+				{
+					"miui": "7.2.16",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.2.16_e9a0088856_6.0.zip",
+					"fastboot": "lithium_images_7.2.16_20170216.0000.00_6.0_cn_4de2db3532.tgz"
+				},
+				{
+					"miui": "7.2.9",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.2.9_19d11277e5_6.0.zip",
+					"fastboot": "lithium_images_7.2.9_20170209.0000.00_6.0_cn_6d2b665dc6.tgz"
+				},
+				{
+					"miui": "7.1.20",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.1.20_53e0614764_6.0.zip",
+					"fastboot": "lithium_images_7.1.20_20170120.0000.00_6.0_cn_3e8255257e.tgz"
+				},
+				{
+					"miui": "7.1.12",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.1.12_a9ebf58633_6.0.zip",
+					"fastboot": "lithium_images_7.1.12_20170111.0000.00_6.0_cn_d01b9e191b.tgz"
+				},
+				{
+					"miui": "7.1.5",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_7.1.5_3a3466c505_6.0.zip",
+					"fastboot": "lithium_images_7.1.5_20170105.0000.00_6.0_cn_35732487c2.tgz"
+				},
+				{
+					"miui": "6.12.29",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_6.12.29_c5354bdf5f_6.0.zip",
+					"fastboot": "lithium_images_6.12.29_20161228.0000.00_6.0_cn_0952735c8e.tgz"
+				},
+				{
+					"miui": "6.12.22",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_6.12.22_77130da443_6.0.zip",
+					"fastboot": "lithium_images_6.12.22_20161222.0000.00_6.0_cn_97cf81635b.tgz"
+				},
+				{
+					"miui": "6.12.8",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_6.12.8_7fe44b9fe3_6.0.zip",
+					"fastboot": "lithium_images_6.12.8_20161208.0000.00_6.0_cn_a1faddcc04.tgz"
+				},
+				{
+					"miui": "6.12.1",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_6.12.1_df9175711d_6.0.zip",
+					"fastboot": "lithium_images_6.12.1_20161201.0000.00_6.0_cn_daaa6e0d1c.tgz"
+				},
+				{
+					"miui": "6.11.10",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_6.11.10_fc61339a09_6.0.zip",
+					"fastboot": "lithium_images_6.11.10_20161110.0000.00_6.0_cn_dcb9895fd6.tgz"
+				},
+				{
+					"miui": "6.11.3",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_6.11.3_e968946206_6.0.zip",
+					"fastboot": "lithium_images_6.11.3_20161103.0000.00_6.0_cn_77dbbb1110.tgz"
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V11.0.2.0.OAHCNXM",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_V11.0.2.0.OAHCNXM_4b2fbb5687_8.0.zip",
+					"fastboot": "lithium_images_V11.0.2.0.OAHCNXM_20191023.0000.00_8.0_cn_a4318423db.tgz"
+				},
+				{
+					"miui": "V10.2.1.0.OAHCNFK",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_V10.2.1.0.OAHCNFK_90b6156a40_8.0.zip",
+					"fastboot": "lithium_images_V10.2.1.0.OAHCNFK_20181217.0000.00_8.0_cn_3b7d46f02e.tgz"
+				},
+				{
+					"miui": "V10.0.1.0.OAHCNFH",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_V10.0.1.0.OAHCNFH_55bf6b514b_8.0.zip",
+					"fastboot": "lithium_images_V10.0.1.0.OAHCNFH_20180823.0000.00_8.0_cn_89afc8aebb.tgz"
+				},
+				{
+					"miui": "V9.6.1.0.OAHCNFD",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_V9.6.1.0.OAHCNFD_6d6f733fd0_8.0.zip",
+					"fastboot": "lithium_images_V9.6.1.0.OAHCNFD_20180625.0000.00_8.0_cn_20ef7e3b33.tgz"
+				},
+				{
+					"miui": "V9.6.1.0.OAHCNFD",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_V9.6.1.0.OAHCNFD_6d6f733fd0_8.0.zip",
+					"fastboot": "lithium_images_V9.6.1.0.OAHCNFD_20180625.0000.00_8.0_cn_chinatelecom_2c9da25871.tgz"
+				},
+				{
+					"miui": "V9.6.1.0.OAHCNFD",
+					"android": "8.0",
+					"recovery": "miui_MIMIX_V9.6.1.0.OAHCNFD_6d6f733fd0_8.0.zip",
+					"fastboot": "lithium_images_V9.6.1.0.OAHCNFD_20180625.0000.00_8.0_cn_chinamobile_8e26230f7b.tgz"
+				},
+				{
+					"miui": "V9.5.4.0.NAHCNFA",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_V9.5.4.0.NAHCNFA_8868c57db3_7.0.zip",
+					"fastboot": "lithium_images_V9.5.4.0.NAHCNFA_20180614.0000.00_7.0_cn_dd700e9b34.tgz"
+				},
+				{
+					"miui": "V9.5.2.0.NAHCNFA",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_V9.5.2.0.NAHCNFA_f1c1c434d7_7.0.zip",
+					"fastboot": "lithium_images_V9.5.2.0.NAHCNFA_20180405.0000.00_7.0_cn_c473adafc5.tgz"
+				},
+				{
+					"miui": "V9.5.1.0.NAHCNFA",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_V9.5.1.0.NAHCNFA_034e70f063_7.0.zip",
+					"fastboot": "lithium_images_V9.5.1.0.NAHCNFA_20180212.0000.00_7.0_cn_59bf8e124f.tgz"
+				},
+				{
+					"miui": "V9.2.2.0.NAHCNEK",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_V9.2.2.0.NAHCNEK_05b5af9ea9_7.0.zip",
+					"fastboot": "lithium_images_V9.2.2.0.NAHCNEK_20180124.0000.00_7.0_cn_d16a30bc67.tgz"
+				},
+				{
+					"miui": "V9.2.1.0.NAHCNEK",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_V9.2.1.0.NAHCNEK_d1d5a6c648_7.0.zip",
+					"fastboot": "lithium_images_V9.2.1.0.NAHCNEK_20171226.0000.00_7.0_cn_7436138256.tgz"
+				},
+				{
+					"miui": "V9.1.3.0.NAHCNEI",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_V9.1.3.0.NAHCNEI_eb4cb805ff_7.0.zip",
+					"fastboot": "lithium_images_V9.1.3.0.NAHCNEI_20171129.0000.00_7.0_cn_4c16063ba5.tgz"
+				},
+				{
+					"miui": "V9.1.2.0.NAHCNEI",
+					"android": "7.0",
+					"recovery": "miui_MIMIX_V9.1.2.0.NAHCNEI_a0b0b3f750_7.0.zip",
+					"fastboot": "lithium_images_V9.1.2.0.NAHCNEI_20171101.0000.00_7.0_cn_bbcaf4af0d.tgz"
+				},
+				{
+					"miui": "V8.5.6.0.MAHCNED",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.5.6.0.MAHCNED_a1b2ed4f38_6.0.zip",
+					"fastboot": "lithium_images_V8.5.6.0.MAHCNED_20170926.0000.00_6.0_cn_7b73138560.tgz"
+				},
+				{
+					"miui": "V8.5.4.0.MAHCNED",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.5.4.0.MAHCNED_960e70f1bb_6.0.zip",
+					"fastboot": "lithium_images_V8.5.4.0.MAHCNED_20170728.0000.00_6.0_cn_796b584c68.tgz"
+				},
+				{
+					"miui": "V8.5.3.0.MAHCNED",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.5.3.0.MAHCNED_84d2c1c280_6.0.zip",
+					"fastboot": "lithium_images_V8.5.3.0.MAHCNED_20170626.0000.00_6.0_cn_a06f137d89.tgz"
+				},
+				{
+					"miui": "V8.5.2.0.MAHCNED",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.5.2.0.MAHCNED_c367f15c38_6.0.zip",
+					"fastboot": "lithium_images_V8.5.2.0.MAHCNED_20170525.0000.00_6.0_cn_d2b1c8bb33.tgz"
+				},
+				{
+					"miui": "V8.2.4.0.MAHCNDL",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.2.4.0.MAHCNDL_c15b672f17_6.0.zip",
+					"fastboot": "lithium_images_V8.2.4.0.MAHCNDL_20170426.0000.00_6.0_cn_d788f7dda0.tgz"
+				},
+				{
+					"miui": "V8.2.3.0.MAHCNDL",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.2.3.0.MAHCNDL_919b9e6e49_6.0.zip",
+					"fastboot": "lithium_images_V8.2.3.0.MAHCNDL_20170314.0000.00_6.0_cn_7e681657ef.tgz"
+				},
+				{
+					"miui": "V8.2.2.0.MAHCNDL",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.2.2.0.MAHCNDL_ce7449c4b2_6.0.zip",
+					"fastboot": "lithium_images_V8.2.2.0.MAHCNDL_20170216.0000.00_6.0_cn_ba37709956.tgz"
+				},
+				{
+					"miui": "V8.0.12.0.MAHCNDI",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.0.12.0.MAHCNDI_43b016f991_6.0.zip",
+					"fastboot": "lithium_images_V8.0.12.0.MAHCNDI_20161220.0000.00_6.0_cn_1d11697504.tgz"
+				},
+				{
+					"miui": "V8.0.11.0.MAHCNDI",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.0.11.0.MAHCNDI_967267d7c1_6.0.zip",
+					"fastboot": "lithium_images_V8.0.11.0.MAHCNDI_20161128.0000.00_6.0_cn_26ed69120e.tgz"
+				},
+				{
+					"miui": "V8.0.10.0.MAHCNDI",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.0.10.0.MAHCNDI_7344267342_6.0.zip",
+					"fastboot": "lithium_images_V8.0.10.0.MAHCNDI_20161111.0000.00_6.0_cn_0ffcfbd68a.tgz"
+				},
+				{
+					"miui": "V8.0.8.0.MAHCNDI",
+					"android": "6.0",
+					"recovery": "miui_MIMIX_V8.0.8.0.MAHCNDI_27ef2b7029_6.0.zip",
+					"fastboot": "lithium_images_V8.0.8.0.MAHCNDI_20161026.0000_6.0_cn_2bbbb8ec9e.tgz"
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "",
+			"carrier": [],
+			"branch": "mgbb",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际开发版",
+			"enname": "Global Beta",
+			"links": [
+				{
+					"miui": "9.6.27",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.6.27_ffd0ee5403_8.0.zip",
+					"fastboot": "lithium_global_images_9.6.27_20190627.0000.00_8.0_global_2e7c0122f0.tgz"
+				},
+				{
+					"miui": "9.6.20",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.6.20_f7a6a1c1e6_8.0.zip",
+					"fastboot": "lithium_global_images_9.6.20_20190620.0000.00_8.0_global_e532d99d25.tgz"
+				},
+				{
+					"miui": "9.6.13",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.6.13_40630823df_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "9.5.30",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.5.30_4f7d7ad49a_8.0.zip",
+					"fastboot": "lithium_global_images_9.5.30_20190530.0000.00_8.0_global_7fb4c3b0ff.tgz"
+				},
+				{
+					"miui": "9.5.23",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.5.23_c10c55dda1_8.0.zip",
+					"fastboot": "lithium_global_images_9.5.23_20190523.0000.00_8.0_global_99ce2c2d57.tgz"
+				},
+				{
+					"miui": "9.5.16",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.5.16_a30bc5cf2e_8.0.zip",
+					"fastboot": "lithium_global_images_9.5.16_20190516.0000.00_8.0_global_3ff589e0e4.tgz"
+				},
+				{
+					"miui": "9.5.9",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.5.9_80362d635f_8.0.zip",
+					"fastboot": "lithium_global_images_9.5.9_20190509.0000.00_8.0_global_55b945dcb2.tgz"
+				},
+				{
+					"miui": "9.4.25",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.4.25_354e1aa838_8.0.zip",
+					"fastboot": "lithium_global_images_9.4.25_20190425.0000.00_8.0_global_0444d3cdd0.tgz"
+				},
+				{
+					"miui": "9.4.18",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.4.18_087756faf8_8.0.zip",
+					"fastboot": "lithium_global_images_9.4.18_20190418.0000.00_8.0_global_24ad323897.tgz"
+				},
+				{
+					"miui": "9.4.11",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.4.11_c1ea4e56ec_8.0.zip",
+					"fastboot": "lithium_global_images_9.4.11_20190411.0000.00_8.0_global_1052f115ca.tgz"
+				},
+				{
+					"miui": "9.3.28",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.3.28_2f5fa59a8b_8.0.zip",
+					"fastboot": "lithium_global_images_9.3.28_20190328.0000.00_8.0_global_74a32ffa29.tgz"
+				},
+				{
+					"miui": "9.3.21",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.3.21_19984f8108_8.0.zip",
+					"fastboot": "lithium_global_images_9.3.21_20190321.0000.00_8.0_global_3c3afa3987.tgz"
+				},
+				{
+					"miui": "9.3.14",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.3.14_2ccb2e1dd0_8.0.zip",
+					"fastboot": "lithium_global_images_9.3.14_20190314.0000.00_8.0_global_111a939c9a.tgz"
+				},
+				{
+					"miui": "9.3.7",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.3.7_68d72941f9_8.0.zip",
+					"fastboot": "lithium_global_images_9.3.7_20190307.0000.00_8.0_global_cc2b769dea.tgz"
+				},
+				{
+					"miui": "9.2.28",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.2.28_3199123fdc_8.0.zip",
+					"fastboot": "lithium_global_images_9.2.28_20190228.0000.00_8.0_global_0bc4ef9c16.tgz"
+				},
+				{
+					"miui": "9.2.21",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.2.21_703299cccb_8.0.zip",
+					"fastboot": "lithium_global_images_9.2.21_20190221.0000.00_8.0_global_b6b810b0a0.tgz"
+				},
+				{
+					"miui": "9.2.15",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.2.15_529ee40cc0_8.0.zip",
+					"fastboot": "lithium_global_images_9.2.15_20190215.0000.00_8.0_global_978ce9588f.tgz"
+				},
+				{
+					"miui": "9.1.24",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.1.24_3b526a1eef_8.0.zip",
+					"fastboot": "lithium_global_images_9.1.24_20190124.0000.00_8.0_global_7c9652c10b.tgz"
+				},
+				{
+					"miui": "9.1.17",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.1.17_d25bd0b93c_8.0.zip",
+					"fastboot": "lithium_global_images_9.1.17_20190117.0000.00_8.0_global_7b117f24cf.tgz"
+				},
+				{
+					"miui": "9.1.10",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_9.1.10_12152766f9_8.0.zip",
+					"fastboot": "lithium_global_images_9.1.10_20190110.0000.00_8.0_global_79de14bd29.tgz"
+				},
+				{
+					"miui": "8.12.27",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.12.27_882ddcbce4_8.0.zip",
+					"fastboot": "lithium_global_images_8.12.27_20181227.0000.00_8.0_global_c3040f5e11.tgz"
+				},
+				{
+					"miui": "8.12.20",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.12.20_0f51c821e4_8.0.zip",
+					"fastboot": "lithium_global_images_8.12.20_20181220.0000.00_8.0_global_5338fdb454.tgz"
+				},
+				{
+					"miui": "8.12.13",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.12.13_f8a0f7f2cc_8.0.zip",
+					"fastboot": "lithium_global_images_8.12.13_20181213.0000.00_8.0_global_a5a275dce8.tgz"
+				},
+				{
+					"miui": "8.12.6",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.12.6_77d1a9b622_8.0.zip",
+					"fastboot": "lithium_global_images_8.12.6_20181206.0000.00_8.0_global_1879cd04e3.tgz"
+				},
+				{
+					"miui": "8.11.29",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.11.29_604bd556ea_8.0.zip",
+					"fastboot": "lithium_global_images_8.11.29_20181129.0000.00_8.0_global_616964a15c.tgz"
+				},
+				{
+					"miui": "8.11.22",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.11.22_1879470bab_8.0.zip",
+					"fastboot": "lithium_global_images_8.11.22_20181122.0000.00_8.0_global_e5825b9f63.tgz"
+				},
+				{
+					"miui": "8.11.15",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.11.15_e6aaf8cb32_8.0.zip",
+					"fastboot": "lithium_global_images_8.11.15_20181115.0000.00_8.0_global_238b2d1956.tgz"
+				},
+				{
+					"miui": "8.11.8",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.11.8_817a0eeb36_8.0.zip",
+					"fastboot": "lithium_global_images_8.11.8_20181108.0000.00_8.0_global_ea52647843.tgz"
+				},
+				{
+					"miui": "8.11.1",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.11.1_4f40a8f767_8.0.zip",
+					"fastboot": "lithium_global_images_8.11.1_20181101.0000.00_8.0_global_be745ff2d6.tgz"
+				},
+				{
+					"miui": "8.10.25",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.10.25_36da1292ca_8.0.zip",
+					"fastboot": "lithium_global_images_8.10.25_20181025.0000.00_8.0_global_0e19d11a69.tgz"
+				},
+				{
+					"miui": "8.10.18",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.10.18_e90b4512bd_8.0.zip",
+					"fastboot": "lithium_global_images_8.10.18_20181018.0000.00_8.0_global_1e6b3c59ab.tgz"
+				},
+				{
+					"miui": "8.10.11",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.10.11_6cc2074f50_8.0.zip",
+					"fastboot": "lithium_global_images_8.10.11_20181011.0000.00_8.0_global_7c91b2fd15.tgz"
+				},
+				{
+					"miui": "8.9.20",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.9.20_c7720e306f_8.0.zip",
+					"fastboot": "lithium_global_images_8.9.20_20180920.0000.00_8.0_global_aab4d8c3cf.tgz"
+				},
+				{
+					"miui": "8.9.13",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.9.13_8d0c7f3ae3_8.0.zip",
+					"fastboot": "lithium_global_images_8.9.13_20180913.0000.00_8.0_global_c4ccd90e42.tgz"
+				},
+				{
+					"miui": "8.9.6",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.9.6_b254176073_8.0.zip",
+					"fastboot": "lithium_global_images_8.9.6_20180906.0000.00_8.0_global_8824d8bdc7.tgz"
+				},
+				{
+					"miui": "8.8.30",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.8.30_164344baa5_8.0.zip",
+					"fastboot": "lithium_global_images_8.8.30_20180830.0000.00_8.0_global_632d286625.tgz"
+				},
+				{
+					"miui": "8.8.23",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.8.23_0cef6af706_8.0.zip",
+					"fastboot": "lithium_global_images_8.8.23_20180823.0000.00_8.0_global_865f29c0be.tgz"
+				},
+				{
+					"miui": "8.8.21",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.8.21_ea9cd26d23_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.8.16",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.8.16_65990ae491_8.0.zip",
+					"fastboot": "lithium_global_images_8.8.16_20180816.0000.00_8.0_global_3d33d2093e.tgz"
+				},
+				{
+					"miui": "8.8.9",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.8.9_04640eff3f_8.0.zip",
+					"fastboot": "lithium_global_images_8.8.9_20180809.0000.00_8.0_global_8893992ca0.tgz"
+				},
+				{
+					"miui": "8.8.2",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.8.2_eb841a01d5_8.0.zip",
+					"fastboot": "lithium_global_images_8.8.2_20180802.0000.00_8.0_global_f1027a8954.tgz"
+				},
+				{
+					"miui": "8.7.26",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.7.26_4da41ac482_8.0.zip",
+					"fastboot": "lithium_global_images_8.7.26_20180726.0000.00_8.0_global_474a359f8f.tgz"
+				},
+				{
+					"miui": "8.7.19",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.7.19_2ced6e5338_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.7.12",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.7.12_fd70fd90f6_8.0.zip",
+					"fastboot": "lithium_global_images_8.7.12_20180712.0000.00_8.0_global_7efbf7ee95.tgz"
+				},
+				{
+					"miui": "8.7.5",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.7.5_a77275a171_8.0.zip",
+					"fastboot": "lithium_global_images_8.7.5_20180705.0000.00_8.0_global_36082d8fd6.tgz"
+				},
+				{
+					"miui": "8.5.24",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.5.24_a5d2a960cf_8.0.zip",
+					"fastboot": "lithium_global_images_8.5.24_20180524.0000.00_8.0_global_3469133506.tgz"
+				},
+				{
+					"miui": "8.5.17",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.5.17_4eb4d45bcb_8.0.zip",
+					"fastboot": "lithium_global_images_8.5.17_20180517.0000.00_8.0_global_d8a780f991.tgz"
+				},
+				{
+					"miui": "8.5.10",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.5.10_8c62ecada7_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "8.4.19",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_8.4.19_0114578e8e_8.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "7.5.25",
+					"android": "6.0",
+					"recovery": "miui_MIMIXGlobal_7.5.25_0cc67107a6_6.0.zip",
+					"fastboot": "lithium_global_images_7.5.25_20170525.0000.00_6.0_global_38932075b8.tgz"
+				},
+				{
+					"miui": "7.5.19",
+					"android": "6.0",
+					"recovery": "miui_MIMIXGlobal_7.5.19_2dd86ade8a_6.0.zip",
+					"fastboot": "lithium_global_images_7.5.19_20170519.0000.00_6.0_global_0585cfa863.tgz"
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V11.0.2.0.OAHMIXM",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_V11.0.2.0.OAHMIXM_6e058c6d8f_8.0.zip",
+					"fastboot": "lithium_global_images_V11.0.2.0.OAHMIXM_20191023.0000.00_8.0_global_3454b31c75.tgz"
+				},
+				{
+					"miui": "V10.2.1.0.OAHMIXM",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_V10.2.1.0.OAHMIXM_25679d5790_8.0.zip",
+					"fastboot": "lithium_global_images_V10.2.1.0.OAHMIXM_20190107.0000.00_8.0_global_98da9b5a48.tgz"
+				},
+				{
+					"miui": "V10.0.1.0.OAHMIFH",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_V10.0.1.0.OAHMIFH_9bf07533e3_8.0.zip",
+					"fastboot": "lithium_global_images_V10.0.1.0.OAHMIFH_20180831.0000.00_8.0_global_6af721a86e.tgz"
+				},
+				{
+					"miui": "V9.6.2.0.OAHMIFD",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_V9.6.2.0.OAHMIFD_419d938029_8.0.zip",
+					"fastboot": "lithium_global_images_V9.6.2.0.OAHMIFD_20180801.0000.00_8.0_global_7824993d57.tgz"
+				},
+				{
+					"miui": "V9.6.1.0.OAHMIFD",
+					"android": "8.0",
+					"recovery": "miui_MIMIXGlobal_V9.6.1.0.OAHMIFD_283d157a31_8.0.zip",
+					"fastboot": "lithium_global_images_V9.6.1.0.OAHMIFD_20180626.0000.00_8.0_global_b6c717dd70.tgz"
+				},
+				{
+					"miui": "V9.5.6.0.NAHMIFA",
+					"android": "7.0",
+					"recovery": "miui_MIMIXGlobal_V9.5.6.0.NAHMIFA_fe61fd71d1_7.0.zip",
+					"fastboot": "lithium_global_images_V9.5.6.0.NAHMIFA_20180620.0000.00_7.0_global_eeb91e4a18.tgz"
+				},
+				{
+					"miui": "V9.5.5.0.NAHMIFA",
+					"android": "7.0",
+					"recovery": "miui_MIMIXGlobal_V9.5.5.0.NAHMIFA_aad4ca88d1_7.0.zip",
+					"fastboot": "lithium_global_images_V9.5.5.0.NAHMIFA_20180612.0000.00_7.0_global_2a755c0379.tgz"
+				},
+				{
+					"miui": "V9.5.2.0.NAHMIFA",
+					"android": "7.0",
+					"recovery": "miui_MIMIXGlobal_V9.5.2.0.NAHMIFA_a18f75ba49_7.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V9.2.1.0.NAHMIEK",
+					"android": "7.0",
+					"recovery": "miui_MIMIXGlobal_V9.2.1.0.NAHMIEK_54d930a390_7.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V9.1.1.0.NAHMIEI",
+					"android": "7.0",
+					"recovery": "miui_MIMIXGlobal_V9.1.1.0.NAHMIEI_6310b4fe9a_7.0.zip",
+					"fastboot": "lithium_global_images_V9.1.1.0.NAHMIEI_20171106.0000.00_7.0_global_3bd01e95ee.tgz"
+				},
+				{
+					"miui": "V8.5.5.0.MAHMIED",
+					"android": "6.0",
+					"recovery": "miui_MIMIXGlobal_V8.5.5.0.MAHMIED_e22d674467_6.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V8.5.4.0.MAHMIED",
+					"android": "6.0",
+					"recovery": "miui_MIMIXGlobal_V8.5.4.0.MAHMIED_0178011bcd_6.0.zip",
+					"fastboot": "lithium_global_images_V8.5.4.0.MAHMIED_20170728.0000.00_6.0_global_0b066fca54.tgz"
+				},
+				{
+					"miui": "V8.2.5.0.MAHMIDL",
+					"android": "6.0",
+					"recovery": "miui_MIMIXGlobal_V8.2.5.0.MAHMIDL_6edb1d5c7a_6.0.zip",
+					"fastboot": "lithium_global_images_V8.2.5.0.MAHMIDL_20170509.0000.00_6.0_global_6cfe1f635c.tgz"
+				},
+				{
+					"miui": "V8.2.4.0.MAHMIDL",
+					"android": "6.0",
+					"recovery": "miui_MIMIXGlobal_V8.2.4.0.MAHMIDL_a48c317843_6.0.zip",
+					"fastboot": "lithium_global_images_V8.2.4.0.MAHMIDL_20170427.0000.00_6.0_global_ff825cd8ef.tgz"
+				}
+			]
+		}
+	]
 }

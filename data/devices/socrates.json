@@ -1,431 +1,427 @@
 {
-  "codename": "socrates",
-  "cnname": "Redmi K60 Pro",
-  "enname": "Redmi K60 Pro",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "39069692",
-  "ismiui":"0",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "477"
-  ],
-  "cbid": [
-    "475"
-  ],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"socrates",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.9.18.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.9.18.DEV_0ae74e6539_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.11.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.9.11.DEV_3fd90a75da_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.9.4.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.9.4.DEV_70a771b3ae_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.28.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.8.28.DEV_5f7eed6a45_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.8.21.DEV_4457ade068_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.14.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.8.14.DEV_09cc31c347_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.8.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.8.7.DEV_bd0f936cb9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.7.31.DEV_de56f0ec81_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.7.24.DEV_bf6200e83f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.7.17.DEV_8486ed7e06_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.7.10.DEV_aaa9e5339d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.7.3.DEV_c8b8660232_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.6.26.DEV_1bde96779b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.6.8.DEV_3d7ba927c0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.6.5.DEV_08b7dca423_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.5.29.DEV_2bf825f01f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.5.22.DEV_6092d612af_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.5.15.DEV_ad52bd8ff4_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.5.8.DEV_01a28086e1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.4.25.DEV_426117c0c0_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.4.17.DEV_e423c50673_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.4.10.DEV_4597dcdb27_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.4.2.DEV_803df552fd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.3.27.DEV_3b0f4ef32c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.20.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.3.20.DEV_4d44974eea_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.3.13.DEV_713da01e6b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.3.7.DEV_f664933fcc_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.2.27.DEV_65cc3dca59_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.2.21.DEV_f86d63e126_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.2.13.DEV_c706377e12_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.2.6.DEV_28e7804cc6_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.1.30.DEV_05d53f5705_13.0.zip",
-          "fastboot": "socrates_images_V14.0.23.1.30.DEV_20230130.0000.00_13.0_cn_637e83e75d.tgz"
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.1.9.DEV_78b1fc4164_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.1.3.DEV_0c20b3e780_13.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"socrates",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.25.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.25.0.TMKCNXM_15e4bf0534_13.0.zip",
-          "fastboot": "socrates_images_V14.0.25.0.TMKCNXM_20231025.0000.00_13.0_cn_dbcbda1b69.tgz"
-        },
-        {
-          "miui": "V14.0.24.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.24.0.TMKCNXM_fca9ce14b6_13.0.zip",
-          "fastboot": "socrates_images_V14.0.24.0.TMKCNXM_20230727.0000.00_13.0_cn_6df1e4a7df.tgz"
-        },
-        {
-          "miui": "V14.0.23.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.0.TMKCNXM_b423194d4e_13.0.zip",
-          "fastboot": "socrates_images_V14.0.23.0.TMKCNXM_20230327.0000.00_13.0_cn_0bac074c38.tgz"
-        },
-        {
-          "miui": "V14.0.18.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.18.0.TMKCNXM_c30f543e79_13.0.zip",
-          "fastboot": "socrates_images_V14.0.18.0.TMKCNXM_20230206.0000.00_13.0_cn_74067a5de0.tgz"
-        },
-        {
-          "miui": "V14.0.17.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.17.0.TMKCNXM_fe33cdf694_13.0.zip",
-          "fastboot": "socrates_images_V14.0.17.0.TMKCNXM_20230114.0000.00_13.0_cn_6c765aed0a.tgz"
-        },
-        {
-          "miui": "V14.0.15.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.15.0.TMKCNXM_a548d054e6_13.0.zip",
-          "fastboot": "socrates_images_V14.0.15.0.TMKCNXM_20230110.0000.00_13.0_cn_2b61de6aff.tgz"
-        },
-        {
-          "miui": "V14.0.13.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.13.0.TMKCNXM_12a3a4b29f_13.0.zip",
-          "fastboot": "socrates_images_V14.0.13.0.TMKCNXM_20230108.0000.00_13.0_cn_9e193395f1.tgz"
-        },
-        {
-          "miui": "V14.0.12.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.12.0.TMKCNXM_8a9c1a713d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.11.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.11.0.TMKCNXM_01ab8e04e6_13.0.zip",
-          "fastboot": "socrates_images_V14.0.11.0.TMKCNXM_20221230.0000.00_13.0_cn_c6a5106966.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.4.0.TMKCNXM_5f4307fb62_13.0.zip",
-          "fastboot": "socrates_images_V14.0.4.0.TMKCNXM_20221213.0000.00_13.0_cn_0b17ad4b61.tgz"
-        }
-      ]
-    },
-    {
-      "code":"socrates",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.25.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.25.0.TMKCNXM_15e4bf0534_13.0.zip",
-          "fastboot": "socrates_images_V14.0.25.0.TMKCNXM_20231025.0000.00_13.0_cn_chinatelecom_c5dac27434.tgz"
-        },
-        {
-          "miui": "V14.0.24.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.24.0.TMKCNXM_fca9ce14b6_13.0.zip",
-          "fastboot": "socrates_images_V14.0.24.0.TMKCNXM_20230727.0000.00_13.0_cn_chinatelecom_98cb728012.tgz"
-        },
-        {
-          "miui": "V14.0.23.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.23.0.TMKCNXM_b423194d4e_13.0.zip",
-          "fastboot": "socrates_images_V14.0.23.0.TMKCNXM_20230327.0000.00_13.0_cn_chinatelecom_d0a96de904.tgz"
-        },
-        {
-          "miui": "V14.0.18.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.18.0.TMKCNXM_c30f543e79_13.0.zip",
-          "fastboot": "socrates_images_V14.0.18.0.TMKCNXM_20230206.0000.00_13.0_cn_chinatelecom_f3ed1419c9.tgz"
-        },
-        {
-          "miui": "V14.0.17.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.17.0.TMKCNXM_fe33cdf694_13.0.zip",
-          "fastboot": "socrates_images_V14.0.17.0.TMKCNXM_20230114.0000.00_13.0_cn_chinatelecom_7343c2ccc1.tgz"
-        },
-        {
-          "miui": "V14.0.15.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.15.0.TMKCNXM_a548d054e6_13.0.zip",
-          "fastboot": "socrates_images_V14.0.15.0.TMKCNXM_20230110.0000.00_13.0_cn_chinatelecom_e2445f97a8.tgz"
-        },
-        {
-          "miui": "V14.0.13.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.13.0.TMKCNXM_12a3a4b29f_13.0.zip",
-          "fastboot": "socrates_images_V14.0.13.0.TMKCNXM_20230108.0000.00_13.0_cn_chinatelecom_1242ec0f53.tgz"
-        },
-        {
-          "miui": "V14.0.11.0.TMKCNXM",
-          "android": "13.0",
-          "recovery": "miui_SOCRATES_V14.0.11.0.TMKCNXM_01ab8e04e6_13.0.zip",
-          "fastboot": "socrates_images_V14.0.11.0.TMKCNXM_20221230.0000.00_13.0_cn_chinatelecom_9dd5c46c1d.tgz"
-        }
-      ]
-    },
-    {
-      "code":"socrates_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V14.0.10.0.TMKCNDM",
-          "android": "13.0",
-          "recovery": "",
-          "fastboot": "socrates_demo_images_V14.0.10.0.TMKCNDM_20230111.0000.00_13.0_cn_12b6e16776.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TMKCNDM",
-          "android": "13.0",
-          "recovery": "",
-          "fastboot": "socrates_demo_images_V14.0.10.0.TMKCNDM_20230111.0000.00_13.0_cn_chinatelecom_89c68bc4e5.tgz"
-        }
-      ]
-    },
-    {
-      "code":"socrates_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.6.14.EP.STDEE.M11",
-          "android": "13.0",
-          "recovery": "miui_SOCRATESEPSTDEE_V14.0.23.6.14.EP.STDEE.M11_b62efbd9d8_13.0.zip",
-          "fastboot": "socrates_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M11_20230614.0000.00_13.0_cn_f2cbdc1592.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.14.EP.STDEE.M11",
-          "android": "13.0",
-          "recovery": "miui_SOCRATESEPSTDEE_V14.0.23.6.14.EP.STDEE.M11_b62efbd9d8_13.0.zip",
-          "fastboot": "socrates_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M11_20230614.0000.00_13.0_cn_chinatelecom_9c2fab59bd.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "socrates",
+	"cnname": "Redmi K60 Pro",
+	"enname": "Redmi K60 Pro",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "39069692",
+	"ismiui": "0",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["477"],
+	"cbid": ["475"],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "socrates",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.9.18.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.9.18.DEV_0ae74e6539_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.11.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.9.11.DEV_3fd90a75da_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.9.4.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.9.4.DEV_70a771b3ae_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.28.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.8.28.DEV_5f7eed6a45_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.8.21.DEV_4457ade068_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.14.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.8.14.DEV_09cc31c347_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.8.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.8.7.DEV_bd0f936cb9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.7.31.DEV_de56f0ec81_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.7.24.DEV_bf6200e83f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.7.17.DEV_8486ed7e06_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.7.10.DEV_aaa9e5339d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.7.3.DEV_c8b8660232_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.6.26.DEV_1bde96779b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.6.8.DEV_3d7ba927c0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.6.5.DEV_08b7dca423_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.5.29.DEV_2bf825f01f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.5.22.DEV_6092d612af_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.5.15.DEV_ad52bd8ff4_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.5.8.DEV_01a28086e1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.4.25.DEV_426117c0c0_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.4.17.DEV_e423c50673_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.4.10.DEV_4597dcdb27_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.4.2.DEV_803df552fd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.3.27.DEV_3b0f4ef32c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.20.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.3.20.DEV_4d44974eea_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.3.13.DEV_713da01e6b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.3.7.DEV_f664933fcc_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.2.27.DEV_65cc3dca59_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.2.21.DEV_f86d63e126_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.2.13.DEV_c706377e12_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.2.6.DEV_28e7804cc6_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.1.30.DEV_05d53f5705_13.0.zip",
+					"fastboot": "socrates_images_V14.0.23.1.30.DEV_20230130.0000.00_13.0_cn_637e83e75d.tgz"
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.1.9.DEV_78b1fc4164_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.1.3.DEV_0c20b3e780_13.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "socrates",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.25.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.25.0.TMKCNXM_15e4bf0534_13.0.zip",
+					"fastboot": "socrates_images_V14.0.25.0.TMKCNXM_20231025.0000.00_13.0_cn_dbcbda1b69.tgz"
+				},
+				{
+					"miui": "V14.0.24.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.24.0.TMKCNXM_fca9ce14b6_13.0.zip",
+					"fastboot": "socrates_images_V14.0.24.0.TMKCNXM_20230727.0000.00_13.0_cn_6df1e4a7df.tgz"
+				},
+				{
+					"miui": "V14.0.23.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.0.TMKCNXM_b423194d4e_13.0.zip",
+					"fastboot": "socrates_images_V14.0.23.0.TMKCNXM_20230327.0000.00_13.0_cn_0bac074c38.tgz"
+				},
+				{
+					"miui": "V14.0.18.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.18.0.TMKCNXM_c30f543e79_13.0.zip",
+					"fastboot": "socrates_images_V14.0.18.0.TMKCNXM_20230206.0000.00_13.0_cn_74067a5de0.tgz"
+				},
+				{
+					"miui": "V14.0.17.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.17.0.TMKCNXM_fe33cdf694_13.0.zip",
+					"fastboot": "socrates_images_V14.0.17.0.TMKCNXM_20230114.0000.00_13.0_cn_6c765aed0a.tgz"
+				},
+				{
+					"miui": "V14.0.15.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.15.0.TMKCNXM_a548d054e6_13.0.zip",
+					"fastboot": "socrates_images_V14.0.15.0.TMKCNXM_20230110.0000.00_13.0_cn_2b61de6aff.tgz"
+				},
+				{
+					"miui": "V14.0.13.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.13.0.TMKCNXM_12a3a4b29f_13.0.zip",
+					"fastboot": "socrates_images_V14.0.13.0.TMKCNXM_20230108.0000.00_13.0_cn_9e193395f1.tgz"
+				},
+				{
+					"miui": "V14.0.12.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.12.0.TMKCNXM_8a9c1a713d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.11.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.11.0.TMKCNXM_01ab8e04e6_13.0.zip",
+					"fastboot": "socrates_images_V14.0.11.0.TMKCNXM_20221230.0000.00_13.0_cn_c6a5106966.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.4.0.TMKCNXM_5f4307fb62_13.0.zip",
+					"fastboot": "socrates_images_V14.0.4.0.TMKCNXM_20221213.0000.00_13.0_cn_0b17ad4b61.tgz"
+				}
+			]
+		},
+		{
+			"code": "socrates",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.25.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.25.0.TMKCNXM_15e4bf0534_13.0.zip",
+					"fastboot": "socrates_images_V14.0.25.0.TMKCNXM_20231025.0000.00_13.0_cn_chinatelecom_c5dac27434.tgz"
+				},
+				{
+					"miui": "V14.0.24.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.24.0.TMKCNXM_fca9ce14b6_13.0.zip",
+					"fastboot": "socrates_images_V14.0.24.0.TMKCNXM_20230727.0000.00_13.0_cn_chinatelecom_98cb728012.tgz"
+				},
+				{
+					"miui": "V14.0.23.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.23.0.TMKCNXM_b423194d4e_13.0.zip",
+					"fastboot": "socrates_images_V14.0.23.0.TMKCNXM_20230327.0000.00_13.0_cn_chinatelecom_d0a96de904.tgz"
+				},
+				{
+					"miui": "V14.0.18.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.18.0.TMKCNXM_c30f543e79_13.0.zip",
+					"fastboot": "socrates_images_V14.0.18.0.TMKCNXM_20230206.0000.00_13.0_cn_chinatelecom_f3ed1419c9.tgz"
+				},
+				{
+					"miui": "V14.0.17.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.17.0.TMKCNXM_fe33cdf694_13.0.zip",
+					"fastboot": "socrates_images_V14.0.17.0.TMKCNXM_20230114.0000.00_13.0_cn_chinatelecom_7343c2ccc1.tgz"
+				},
+				{
+					"miui": "V14.0.15.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.15.0.TMKCNXM_a548d054e6_13.0.zip",
+					"fastboot": "socrates_images_V14.0.15.0.TMKCNXM_20230110.0000.00_13.0_cn_chinatelecom_e2445f97a8.tgz"
+				},
+				{
+					"miui": "V14.0.13.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.13.0.TMKCNXM_12a3a4b29f_13.0.zip",
+					"fastboot": "socrates_images_V14.0.13.0.TMKCNXM_20230108.0000.00_13.0_cn_chinatelecom_1242ec0f53.tgz"
+				},
+				{
+					"miui": "V14.0.11.0.TMKCNXM",
+					"android": "13.0",
+					"recovery": "miui_SOCRATES_V14.0.11.0.TMKCNXM_01ab8e04e6_13.0.zip",
+					"fastboot": "socrates_images_V14.0.11.0.TMKCNXM_20221230.0000.00_13.0_cn_chinatelecom_9dd5c46c1d.tgz"
+				}
+			]
+		},
+		{
+			"code": "socrates_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V14.0.10.0.TMKCNDM",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "socrates_demo_images_V14.0.10.0.TMKCNDM_20230111.0000.00_13.0_cn_12b6e16776.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TMKCNDM",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "socrates_demo_images_V14.0.10.0.TMKCNDM_20230111.0000.00_13.0_cn_chinatelecom_89c68bc4e5.tgz"
+				}
+			]
+		},
+		{
+			"code": "socrates_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.6.14.EP.STDEE.M11",
+					"android": "13.0",
+					"recovery": "miui_SOCRATESEPSTDEE_V14.0.23.6.14.EP.STDEE.M11_b62efbd9d8_13.0.zip",
+					"fastboot": "socrates_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M11_20230614.0000.00_13.0_cn_f2cbdc1592.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.14.EP.STDEE.M11",
+					"android": "13.0",
+					"recovery": "miui_SOCRATESEPSTDEE_V14.0.23.6.14.EP.STDEE.M11_b62efbd9d8_13.0.zip",
+					"fastboot": "socrates_ep_stdee_images_V14.0.23.6.14.EP.STDEE.M11_20230614.0000.00_13.0_cn_chinatelecom_9c2fab59bd.tgz"
+				}
+			]
+		}
+	]
 }

@@ -1,847 +1,847 @@
 {
-  "codename": "fleur",
-  "cnname": "Redmi Note 11S 4G/POCO M4 Pro 4G",
-  "enname": "Redmi Note 11S 4G/POCO M4 Pro 4G",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "56423",
-  "pcid": "54379",
-  "branches": [
-    {
-      "code":"fleur_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TKETWXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURTWGlobal_V14.0.1.0.TKETWXM_9f7927ee3e_13.0.zip",
-          "fastboot": "fleur_tw_global_images_V14.0.1.0.TKETWXM_20230630.0000.00_13.0_tw_117ebbd454.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKETWXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURTWGlobal_V13.0.3.0.SKETWXM_cfe72134bc_12.0.zip",
-          "fastboot": "fleur_tw_global_images_V13.0.3.0.SKETWXM_20220915.0000.00_12.0_global_0cb1ce21fe.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKETWXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURTWGlobal_V13.0.2.0.SKETWXM_161ce6e903_12.0.zip",
-          "fastboot": "fleur_tw_global_images_V13.0.2.0.SKETWXM_20220823.0000.00_12.0_global_e67cd376eb.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.RKETWXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURTWGlobal_V13.0.5.0.RKETWXM_7120c9f7d0_11.0.zip",
-          "fastboot": "fleur_tw_global_images_V13.0.5.0.RKETWXM_20220715.0000.00_11.0_global_ca006b8262.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.RKETWXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURTWGlobal_V13.0.3.0.RKETWXM_47ad43bac0_11.0.zip",
-          "fastboot": "fleur_tw_global_images_V13.0.3.0.RKETWXM_20220506.0000.00_11.0_global_25948d678f.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.RKETWXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURTWGlobal_V13.0.2.0.RKETWXM_c9b006e75e_11.0.zip",
-          "fastboot": "fleur_tw_global_images_V13.0.2.0.RKETWXM_20220303.0000.00_11.0_global_3e2cd5716a.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.RKETWXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURTWGlobal_V13.0.1.0.RKETWXM_2341bdbec8_11.0.zip",
-          "fastboot": "fleur_tw_global_images_V13.0.1.0.RKETWXM_20220124.0000.00_11.0_global_6cf6790a57.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TKEMIXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURGlobal_V14.0.5.0.TKEMIXM_6e13241437_13.0.zip",
-          "fastboot": "fleur_global_images_V14.0.5.0.TKEMIXM_20230925.0000.00_13.0_global_a9121f0654.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TKEMIXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURGlobal_V14.0.4.0.TKEMIXM_aa22b26729_13.0.zip",
-          "fastboot": "fleur_global_images_V14.0.4.0.TKEMIXM_20230712.0000.00_13.0_global_0adf7adc85.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKEMIXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURGlobal_V14.0.3.0.TKEMIXM_2ff7566a60_13.0.zip",
-          "fastboot": "fleur_global_images_V14.0.3.0.TKEMIXM_20230525.0000.00_13.0_global_5b14b58ff4.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SKEMIXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURGlobal_V13.0.9.0.SKEMIXM_1a71513d7d_12.0.zip",
-          "fastboot": "fleur_global_images_V13.0.9.0.SKEMIXM_20230417.0000.00_12.0_global_1e050a4139.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKEMIXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURGlobal_V13.0.8.0.SKEMIXM_9ab29758a9_12.0.zip",
-          "fastboot": "fleur_global_images_V13.0.8.0.SKEMIXM_20230302.0000.00_12.0_global_05291f7c9c.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SKEMIXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURGlobal_V13.0.7.0.SKEMIXM_2c4d856d6e_12.0.zip",
-          "fastboot": "fleur_global_images_V13.0.7.0.SKEMIXM_20221216.0000.00_12.0_global_1b1352f3e6.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKEMIXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURGlobal_V13.0.6.0.SKEMIXM_d32a407f53_12.0.zip",
-          "fastboot": "fleur_global_images_V13.0.6.0.SKEMIXM_20220906.0000.00_12.0_global_e49b564e1d.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKEMIXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURGlobal_V13.0.5.0.SKEMIXM_6e81c5650f_12.0.zip",
-          "fastboot": "fleur_global_images_V13.0.5.0.SKEMIXM_20220712.0000.00_12.0_global_e345dc3d46.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.RKEMIXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURGlobal_V13.0.7.0.RKEMIXM_30020f3ca0_11.0.zip",
-          "fastboot": "fleur_global_images_V13.0.7.0.RKEMIXM_20220419.0000.00_11.0_global_79dd3bd4a6.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.RKEMIXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURGlobal_V13.0.5.0.RKEMIXM_ba53853969_11.0.zip",
-          "fastboot": "fleur_global_images_V13.0.5.0.RKEMIXM_20220216.0000.00_11.0_global_311980d25a.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.RKEMIXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURGlobal_V13.0.4.0.RKEMIXM_2b40dd0025_11.0.zip",
-          "fastboot": "fleur_global_images_V13.0.4.0.RKEMIXM_20220120.0000.00_11.0_global_7ffd343505.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.RKEMIXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURGlobal_V13.0.3.0.RKEMIXM_574d14d050_11.0.zip",
-          "fastboot": "fleur_global_images_V13.0.3.0.RKEMIXM_20220112.0000.00_11.0_global_5b4bf7f97c.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.RKEMIXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURGlobal_V13.0.10.0.RKEMIXM_8853bc0f31_11.0.zip",
-          "fastboot": "fleur_global_images_V13.0.10.0.RKEMIXM_20220709.0000.00_11.0_global_b02b2f96e0.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TKEEUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEAGlobal_V14.0.5.0.TKEEUXM_25b24748bc_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.4.0.TKEEUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEAGlobal_V14.0.4.0.TKEEUXM_2e7d43bae3_13.0.zip",
-          "fastboot": "fleur_eea_global_images_V14.0.4.0.TKEEUXM_20230705.0000.00_13.0_eea_9acad78cb8.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKEEUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEAGlobal_V14.0.3.0.TKEEUXM_607e8f303a_13.0.zip",
-          "fastboot": "fleur_eea_global_images_V14.0.3.0.TKEEUXM_20230522.0000.00_13.0_eea_5b00c4c37c.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKEEUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEAGlobal_V14.0.2.0.TKEEUXM_4a037bf6d4_13.0.zip",
-          "fastboot": "fleur_eea_global_images_V14.0.2.0.TKEEUXM_20230510.0000.00_13.0_eea_81068cf3f2.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKEEUXM",
-          "android": "12.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.3.0.SKEEUXM_57b47e8037_12.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.3.0.SKEEUXM_20230313.0000.00_12.0_eea_985da13a98.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKEEUXM",
-          "android": "12.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.2.0.SKEEUXM_b263906b79_12.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.2.0.SKEEUXM_20230109.0000.00_12.0_eea_7b8d774e56.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.10.0.RKEEUXM_e9ad09d751_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.10.0.RKEEUXM_20221031.0000.00_11.0_eea_2de4c35bc7.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.9.0.RKEEUXM_9f43753107_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.9.0.RKEEUXM_20220804.0000.00_11.0_eea_2fd03f2da4.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.8.0.RKEEUXM_50b7a919a1_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.8.0.RKEEUXM_20220701.0000.00_11.0_eea_25cc04b17c.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.7.0.RKEEUXM_41284ec7e3_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.7.0.RKEEUXM_20220617.0000.00_11.0_eea_dbb293071f.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.6.0.RKEEUXM_5f930e4d70_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.6.0.RKEEUXM_20220420.0000.00_11.0_eea_6cb913c99f.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.5.0.RKEEUXM_c0c6c6c1bc_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.5.0.RKEEUXM_20220319.0000.00_11.0_eea_2584cafd8f.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.3.0.RKEEUXM_c2d922edcd_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.3.0.RKEEUXM_20220130.0000.00_11.0_eea_95b42ace10.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.RKEEUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEUREEAGlobal_V13.0.1.0.RKEEUXM_fc7808e89b_11.0.zip",
-          "fastboot": "fleur_eea_global_images_V13.0.1.0.RKEEUXM_20220108.0000.00_11.0_eea_e34cd61d83.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_eea_or_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euor",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Orange运营商定制版",
-      "enname": "Europe Orange Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TKEEUOR",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEAORGlobal_V14.0.5.0.TKEEUOR_8144cf3ab7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.4.0.TKEEUOR",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEAORGlobal_V14.0.4.0.TKEEUOR_8bdc0135af_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.3.0.TKEEUOR",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEAORGlobal_V14.0.3.0.TKEEUOR_df9654a00a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.0.SKEEUOR",
-          "android": "12.0",
-          "recovery": "miui_FLEUREEAORGlobal_V13.0.5.0.SKEEUOR_0e419d54fc_12.0.zip",
-          "fastboot": "fleur_eea_or_global_images_V13.0.5.0.SKEEUOR_20230512.0000.00_12.0_eea_58b61947d4.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKEEUOR",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "fleur_eea_or_global_images_V13.0.3.0.SKEEUOR_20230301.0000.00_12.0_eea_15da0b96f4.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_eea_by_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euby",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Bouygues Telecom运营商定制版",
-      "enname": "Europe Bouygues Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TKEEUBY",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEABYGlobal_V14.0.2.0.TKEEUBY_66d0ec2f4e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TKEEUBY",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEABYGlobal_V14.0.1.0.TKEEUBY_733b63bb16_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.0.SKEEUBY",
-          "android": "12.0",
-          "recovery": "miui_FLEUREEABYGlobal_V13.0.4.0.SKEEUBY_b7e0f00746_12.0.zip",
-          "fastboot": "fleur_eea_by_global_images_V13.0.4.0.SKEEUBY_20230411.0000.00_12.0_eea_29f15b76d9.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKEEUBY",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "fleur_eea_by_global_images_V13.0.2.0.SKEEUBY_20230112.0000.00_12.0_eea_05ae8bcac9.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_eea_sf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eusf",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Altice(SFR)运营商定制版",
-      "enname": "Europe Altice(SFR) Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TKEEUSF",
-          "android": "13.0",
-          "recovery": "miui_FLEUREEASFGlobal_V14.0.3.0.TKEEUSF_9fb0ad243a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.0.SKEEUSF",
-          "android": "12.0",
-          "recovery": "miui_FLEUREEASFGlobal_V13.0.2.0.SKEEUSF_7b23771232_12.0.zip",
-          "fastboot": "fleur_eea_sf_global_images_V13.0.2.0.SKEEUSF_20230106.0000.00_12.0_eea_95307ea264.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TKERUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURRUGlobal_V14.0.5.0.TKERUXM_5bba61d04b_13.0.zip",
-          "fastboot": "fleur_ru_global_images_V14.0.5.0.TKERUXM_20231130.0000.00_13.0_ru_de666be02b.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TKERUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURRUGlobal_V14.0.4.0.TKERUXM_13d1777fbe_13.0.zip",
-          "fastboot": "fleur_ru_global_images_V14.0.4.0.TKERUXM_20230901.0000.00_13.0_ru_5de2445887.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKERUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURRUGlobal_V14.0.2.0.TKERUXM_7da4ddb066_13.0.zip",
-          "fastboot": "fleur_ru_global_images_V14.0.2.0.TKERUXM_20230628.0000.00_13.0_ru_2d0a2ad407.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKERUXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURRUGlobal_V14.0.1.0.TKERUXM_95b0c49728_13.0.zip",
-          "fastboot": "fleur_ru_global_images_V14.0.1.0.TKERUXM_20230606.0000.00_13.0_ru_90c86b876a.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKERUXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.5.0.SKERUXM_78d307244e_12.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.5.0.SKERUXM_20230306.0000.00_12.0_global_ea2f6d90a0.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKERUXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.4.0.SKERUXM_bf55474f1f_12.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.4.0.SKERUXM_20221215.0000.00_12.0_global_4ad4b0ef06.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKERUXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.3.0.SKERUXM_c95e106a4b_12.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.3.0.SKERUXM_20220913.0000.00_12.0_global_7e4675d2c0.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKERUXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.2.0.SKERUXM_312935f9b0_12.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.2.0.SKERUXM_20220727.0000.00_12.0_global_8a16520d63.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.RKERUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.10.0.RKERUXM_8e16d406aa_11.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.10.0.RKERUXM_20230109.0000.00_11.0_global_ad9337673b.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.RKERUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.7.0.RKERUXM_65a4788693_11.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.7.0.RKERUXM_20220709.0000.00_11.0_global_7b10e0391d.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.RKERUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.4.0.RKERUXM_0f6c1dd0fe_11.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.4.0.RKERUXM_20220505.0000.00_11.0_global_fd94f4041c.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.RKERUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.3.0.RKERUXM_e80ee865eb_11.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.3.0.RKERUXM_20220303.0000.00_11.0_global_f38ba74952.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.RKERUXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURRUGlobal_V13.0.2.0.RKERUXM_4fc0a92376_11.0.zip",
-          "fastboot": "fleur_ru_global_images_V13.0.2.0.RKERUXM_20220118.0000.00_11.0_global_a5ef2517b4.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TKEINXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURINGlobal_V14.0.6.0.TKEINXM_30003eb717_13.0.zip",
-          "fastboot": "fleur_in_global_images_V14.0.6.0.TKEINXM_20231218.0000.00_13.0_in_e514849b14.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TKEINXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURINGlobal_V14.0.5.0.TKEINXM_c61b6380a5_13.0.zip",
-          "fastboot": "fleur_in_global_images_V14.0.5.0.TKEINXM_20231128.0000.00_13.0_in_a88f9bbf64.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TKEINXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURINGlobal_V14.0.4.0.TKEINXM_afc380ab0b_13.0.zip",
-          "fastboot": "fleur_in_global_images_V14.0.4.0.TKEINXM_20230828.0000.00_13.0_in_cb61e6bb4e.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKEINXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURINGlobal_V14.0.3.0.TKEINXM_f30e9024ac_13.0.zip",
-          "fastboot": "fleur_in_global_images_V14.0.3.0.TKEINXM_20230620.0000.00_13.0_in_f716040ef2.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKEINXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURINGlobal_V14.0.1.0.TKEINXM_67093b086b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.0.SKEINXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.5.0.SKEINXM_8d00f6ee55_12.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.5.0.SKEINXM_20230504.0000.00_12.0_in_8fd7dcb9a2.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKEINXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.4.0.SKEINXM_8ac73c29ea_12.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.4.0.SKEINXM_20230213.0000.00_12.0_in_f2dc876b93.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKEINXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.3.0.SKEINXM_a6994af41a_12.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.3.0.SKEINXM_20221118.0000.00_12.0_in_36b555b0f3.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKEINXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.2.0.SKEINXM_9cfa475249_12.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.2.0.SKEINXM_20220901.0000.00_12.0_in_229b509e5e.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKEINXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.1.0.SKEINXM_2ff63fe343_12.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.1.0.SKEINXM_20220810.0000.00_12.0_in_63a2740f04.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.RKEINXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.5.0.RKEINXM_a9cbafb5b9_11.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.5.0.RKEINXM_20220718.0000.00_11.0_in_ac779f730d.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.RKEINXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.4.0.RKEINXM_afb173fd97_11.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.4.0.RKEINXM_20220517.0000.00_11.0_in_c1fed9c92d.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.RKEINXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.3.0.RKEINXM_965c6abe20_11.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.3.0.RKEINXM_20220304.0000.00_11.0_in_538b1af049.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.RKEINXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURINGlobal_V13.0.2.0.RKEINXM_afd26d0eb8_11.0.zip",
-          "fastboot": "fleur_in_global_images_V13.0.2.0.RKEINXM_20220128.0000.00_11.0_in_b5df67d38c.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TKEIDXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURIDGlobal_V14.0.6.0.TKEIDXM_a764c8f425_13.0.zip",
-          "fastboot": "fleur_id_global_images_V14.0.6.0.TKEIDXM_20231128.0000.00_13.0_id_93c72beb42.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TKEIDXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURIDGlobal_V14.0.5.0.TKEIDXM_edf191b1e6_13.0.zip",
-          "fastboot": "fleur_id_global_images_V14.0.5.0.TKEIDXM_20230904.0000.00_13.0_id_fbb1f98bbe.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKEIDXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURIDGlobal_V14.0.2.0.TKEIDXM_4d3fbb44b2_13.0.zip",
-          "fastboot": "fleur_id_global_images_V14.0.2.0.TKEIDXM_20230628.0000.00_13.0_id_595a9297d2.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKEIDXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURIDGlobal_V13.0.5.0.SKEIDXM_ff7e9ffdbb_12.0.zip",
-          "fastboot": "fleur_id_global_images_V13.0.5.0.SKEIDXM_20230506.0000.00_12.0_global_c4232a475f.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKEIDXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURIDGlobal_V13.0.4.0.SKEIDXM_cbf6086fb6_12.0.zip",
-          "fastboot": "fleur_id_global_images_V13.0.4.0.SKEIDXM_20230217.0000.00_12.0_global_bc874d9beb.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKEIDXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURIDGlobal_V13.0.3.0.SKEIDXM_c4b248c350_12.0.zip",
-          "fastboot": "fleur_id_global_images_V13.0.3.0.SKEIDXM_20221202.0000.00_12.0_global_67758be26a.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKEIDXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURIDGlobal_V13.0.2.0.SKEIDXM_c1fc440753_12.0.zip",
-          "fastboot": "fleur_id_global_images_V13.0.2.0.SKEIDXM_20220916.0000.00_12.0_global_ba55bb2f08.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.RKEIDXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURIDGlobal_V13.0.4.0.RKEIDXM_7271320e94_11.0.zip",
-          "fastboot": "fleur_id_global_images_V13.0.4.0.RKEIDXM_20220722.0000.00_11.0_global_372ee878fa.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.RKEIDXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURIDGlobal_V13.0.3.0.RKEIDXM_e0c9153ecc_11.0.zip",
-          "fastboot": "fleur_id_global_images_V13.0.3.0.RKEIDXM_20220512.0000.00_11.0_global_94088bef22.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.RKEIDXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURIDGlobal_V13.0.2.0.RKEIDXM_409c70d95f_11.0.zip",
-          "fastboot": "fleur_id_global_images_V13.0.2.0.RKEIDXM_20220303.0000.00_11.0_global_9496d96d15.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TKETRXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURTRGlobal_V14.0.3.0.TKETRXM_77a6d9a22c_13.0.zip",
-          "fastboot": "fleur_tr_global_images_V14.0.3.0.TKETRXM_20230918.0000.00_13.0_tr_05b239f576.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKETRXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURTRGlobal_V14.0.2.0.TKETRXM_a599c5da78_13.0.zip",
-          "fastboot": "fleur_tr_global_images_V14.0.2.0.TKETRXM_20230724.0000.00_13.0_tr_fd8ce338bf.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKETRXM",
-          "android": "13.0",
-          "recovery": "miui_FLEURTRGlobal_V14.0.1.0.TKETRXM_d9fd4eddce_13.0.zip",
-          "fastboot": "fleur_tr_global_images_V14.0.1.0.TKETRXM_20230602.0000.00_13.0_tr_6960734130.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKETRXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURTRGlobal_V13.0.3.0.SKETRXM_2492fe0ab9_12.0.zip",
-          "fastboot": "fleur_tr_global_images_V13.0.3.0.SKETRXM_20230306.0000.00_12.0_global_2b7daebc3a.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKETRXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURTRGlobal_V13.0.2.0.SKETRXM_2164f012fe_12.0.zip",
-          "fastboot": "fleur_tr_global_images_V13.0.2.0.SKETRXM_20221209.0000.00_12.0_global_58c5d7a7d2.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKETRXM",
-          "android": "12.0",
-          "recovery": "miui_FLEURTRGlobal_V13.0.1.0.SKETRXM_b5e01e9667_12.0.zip",
-          "fastboot": "fleur_tr_global_images_V13.0.1.0.SKETRXM_20220826.0000.00_12.0_global_fa63f62e5d.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.RKETRXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURTRGlobal_V13.0.5.0.RKETRXM_0eb71ece9d_11.0.zip",
-          "fastboot": "fleur_tr_global_images_V13.0.5.0.RKETRXM_20220715.0000.00_11.0_global_fd78793bad.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.RKETRXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURTRGlobal_V13.0.3.0.RKETRXM_91b0379f1a_11.0.zip",
-          "fastboot": "fleur_tr_global_images_V13.0.3.0.RKETRXM_20220424.0000.00_11.0_global_c79cbc08ab.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.RKETRXM",
-          "android": "11.0",
-          "recovery": "miui_FLEURTRGlobal_V13.0.2.0.RKETRXM_b63d9b0e32_11.0.zip",
-          "fastboot": "fleur_tr_global_images_V13.0.2.0.RKETRXM_20220224.0000.00_11.0_global_8f7dfe37a5.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_cl_en_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "clen",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "智利Entel运营商定制版",
-      "enname": "Chile Stable Entel Carrier Edtion",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TKECLEN",
-          "android": "13.0",
-          "recovery": "miui_FLEURCLENGlobal_V14.0.1.0.TKECLEN_8acf285730_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.0.SKECLEN",
-          "android": "12.0",
-          "recovery": "miui_FLEURCLENGlobal_V13.0.2.0.SKECLEN_574d16a897_12.0.zip",
-          "fastboot": "fleur_cl_en_global_images_V13.0.2.0.SKECLEN_20230310.0000.00_12.0_global_aaf8af0ce3.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKECLEN",
-          "android": "12.0",
-          "recovery": "miui_FLEURCLENGlobal_V13.0.1.0.SKECLEN_e07321bdef_12.0.zip",
-          "fastboot": "fleur_cl_en_global_images_V13.0.1.0.SKECLEN_20221024.0000.00_12.0_global_a4946dba05.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_lm_cr_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "lmcr",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "拉丁美洲Claro运营商定制版",
-      "enname": "Latin America Claro Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.3.0.SKELMCR",
-          "android": "12.0",
-          "recovery": "miui_FLEURLMCRGlobal_V13.0.3.0.SKELMCR_d0c206b9dd_12.0.zip",
-          "fastboot": "fleur_lm_cr_global_images_V13.0.3.0.SKELMCR_20230420.0000.00_12.0_global_0294b83c8c.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKELMCR",
-          "android": "12.0",
-          "recovery": "miui_FLEURLMCRGlobal_V13.0.2.0.SKELMCR_facd5862cf_12.0.zip",
-          "fastboot": "fleur_lm_cr_global_images_V13.0.2.0.SKELMCR_20230306.0000.00_12.0_global_046a71595a.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKELMCR",
-          "android": "12.0",
-          "recovery": "miui_FLEURLMCRGlobal_V13.0.1.0.SKELMCR_48aaf8dcea_12.0.zip",
-          "fastboot": "fleur_lm_cr_global_images_V13.0.1.0.SKELMCR_20230103.0000.00_12.0_global_830a4729d4.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.RKELMCR",
-          "android": "11.0",
-          "recovery": "miui_FLEURLMCRGlobal_V13.0.6.0.RKELMCR_5ca885ccf5_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.0.RKELMCR",
-          "android": "11.0",
-          "recovery": "miui_FLEURLMCRGlobal_V13.0.1.0.RKELMCR_62798ec46e_11.0.zip",
-          "fastboot": "fleur_lm_cr_global_images_V13.0.1.0.RKELMCR_20220215.0000.00_11.0_global_8ac5a54ec0.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_mx_at_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mxat",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "墨西哥AT&T运营商定制版",
-      "enname": "Mexico Stable AT&T Carrier Edtion",
-      "links": [
-        {
-          "miui": "V13.0.4.0.SKEMXAT",
-          "android": "12.0",
-          "recovery": "miui_FLEURMXATGlobal_V13.0.4.0.SKEMXAT_71b3cd8430_12.0.zip",
-          "fastboot": "fleur_mx_at_global_images_V13.0.4.0.SKEMXAT_20230423.0000.00_12.0_global_2cead0333d.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKEMXAT",
-          "android": "12.0",
-          "recovery": "miui_FLEURMXATGlobal_V13.0.3.0.SKEMXAT_cbcf379430_12.0.zip",
-          "fastboot": "fleur_mx_at_global_images_V13.0.3.0.SKEMXAT_20230216.0000.00_12.0_global_25ac5fecbc.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKEMXAT",
-          "android": "12.0",
-          "recovery": "miui_FLEURMXATGlobal_V13.0.2.0.SKEMXAT_2999e060ad_12.0.zip",
-          "fastboot": "fleur_mx_at_global_images_V13.0.2.0.SKEMXAT_20221225.0000.00_12.0_global_cd0f3d6876.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.RKEMXAT",
-          "android": "11.0",
-          "recovery": "miui_FLEURMXATGlobal_V13.0.4.0.RKEMXAT_1b875f1607_11.0.zip",
-          "fastboot": "fleur_mx_at_global_images_V13.0.4.0.RKEMXAT_20220812.0000.00_11.0_global_7fb6d1a378.tgz"
-        }
-      ]
-    },
-    {
-      "code":"fleur_lm_ms_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "lmms",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "拉丁美洲Moviestar运营商定制版",
-      "enname": "Latin America Moviestar Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.1.0.SKELMMS",
-          "android": "12.0",
-          "recovery": "miui_FLEURLMMSGlobal_V13.0.1.0.SKELMMS_6214ecd0d8_12.0.zip",
-          "fastboot": "fleur_lm_ms_global_images_V13.0.1.0.SKELMMS_20221231.0000.00_12.0_global_4b8f178a6c.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.RKELMMS",
-          "android": "11.0",
-          "recovery": "miui_FLEURLMMSGlobal_V13.0.2.0.RKELMMS_461c0c3434_11.0.zip",
-          "fastboot": "fleur_lm_ms_global_images_V13.0.2.0.RKELMMS_20220928.0000.00_11.0_global_5318b970d1.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "fleur",
+	"cnname": "Redmi Note 11S 4G/POCO M4 Pro 4G",
+	"enname": "Redmi Note 11S 4G/POCO M4 Pro 4G",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "56423",
+	"pcid": "54379",
+	"branches": [
+		{
+			"code": "fleur_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TKETWXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURTWGlobal_V14.0.1.0.TKETWXM_9f7927ee3e_13.0.zip",
+					"fastboot": "fleur_tw_global_images_V14.0.1.0.TKETWXM_20230630.0000.00_13.0_tw_117ebbd454.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKETWXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURTWGlobal_V13.0.3.0.SKETWXM_cfe72134bc_12.0.zip",
+					"fastboot": "fleur_tw_global_images_V13.0.3.0.SKETWXM_20220915.0000.00_12.0_global_0cb1ce21fe.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKETWXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURTWGlobal_V13.0.2.0.SKETWXM_161ce6e903_12.0.zip",
+					"fastboot": "fleur_tw_global_images_V13.0.2.0.SKETWXM_20220823.0000.00_12.0_global_e67cd376eb.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.RKETWXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURTWGlobal_V13.0.5.0.RKETWXM_7120c9f7d0_11.0.zip",
+					"fastboot": "fleur_tw_global_images_V13.0.5.0.RKETWXM_20220715.0000.00_11.0_global_ca006b8262.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RKETWXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURTWGlobal_V13.0.3.0.RKETWXM_47ad43bac0_11.0.zip",
+					"fastboot": "fleur_tw_global_images_V13.0.3.0.RKETWXM_20220506.0000.00_11.0_global_25948d678f.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.RKETWXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURTWGlobal_V13.0.2.0.RKETWXM_c9b006e75e_11.0.zip",
+					"fastboot": "fleur_tw_global_images_V13.0.2.0.RKETWXM_20220303.0000.00_11.0_global_3e2cd5716a.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.RKETWXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURTWGlobal_V13.0.1.0.RKETWXM_2341bdbec8_11.0.zip",
+					"fastboot": "fleur_tw_global_images_V13.0.1.0.RKETWXM_20220124.0000.00_11.0_global_6cf6790a57.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TKEMIXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURGlobal_V14.0.5.0.TKEMIXM_6e13241437_13.0.zip",
+					"fastboot": "fleur_global_images_V14.0.5.0.TKEMIXM_20230925.0000.00_13.0_global_a9121f0654.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TKEMIXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURGlobal_V14.0.4.0.TKEMIXM_aa22b26729_13.0.zip",
+					"fastboot": "fleur_global_images_V14.0.4.0.TKEMIXM_20230712.0000.00_13.0_global_0adf7adc85.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKEMIXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURGlobal_V14.0.3.0.TKEMIXM_2ff7566a60_13.0.zip",
+					"fastboot": "fleur_global_images_V14.0.3.0.TKEMIXM_20230525.0000.00_13.0_global_5b14b58ff4.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SKEMIXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURGlobal_V13.0.9.0.SKEMIXM_1a71513d7d_12.0.zip",
+					"fastboot": "fleur_global_images_V13.0.9.0.SKEMIXM_20230417.0000.00_12.0_global_1e050a4139.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKEMIXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURGlobal_V13.0.8.0.SKEMIXM_9ab29758a9_12.0.zip",
+					"fastboot": "fleur_global_images_V13.0.8.0.SKEMIXM_20230302.0000.00_12.0_global_05291f7c9c.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SKEMIXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURGlobal_V13.0.7.0.SKEMIXM_2c4d856d6e_12.0.zip",
+					"fastboot": "fleur_global_images_V13.0.7.0.SKEMIXM_20221216.0000.00_12.0_global_1b1352f3e6.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKEMIXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURGlobal_V13.0.6.0.SKEMIXM_d32a407f53_12.0.zip",
+					"fastboot": "fleur_global_images_V13.0.6.0.SKEMIXM_20220906.0000.00_12.0_global_e49b564e1d.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKEMIXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURGlobal_V13.0.5.0.SKEMIXM_6e81c5650f_12.0.zip",
+					"fastboot": "fleur_global_images_V13.0.5.0.SKEMIXM_20220712.0000.00_12.0_global_e345dc3d46.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.RKEMIXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURGlobal_V13.0.7.0.RKEMIXM_30020f3ca0_11.0.zip",
+					"fastboot": "fleur_global_images_V13.0.7.0.RKEMIXM_20220419.0000.00_11.0_global_79dd3bd4a6.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.RKEMIXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURGlobal_V13.0.5.0.RKEMIXM_ba53853969_11.0.zip",
+					"fastboot": "fleur_global_images_V13.0.5.0.RKEMIXM_20220216.0000.00_11.0_global_311980d25a.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.RKEMIXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURGlobal_V13.0.4.0.RKEMIXM_2b40dd0025_11.0.zip",
+					"fastboot": "fleur_global_images_V13.0.4.0.RKEMIXM_20220120.0000.00_11.0_global_7ffd343505.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RKEMIXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURGlobal_V13.0.3.0.RKEMIXM_574d14d050_11.0.zip",
+					"fastboot": "fleur_global_images_V13.0.3.0.RKEMIXM_20220112.0000.00_11.0_global_5b4bf7f97c.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.RKEMIXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURGlobal_V13.0.10.0.RKEMIXM_8853bc0f31_11.0.zip",
+					"fastboot": "fleur_global_images_V13.0.10.0.RKEMIXM_20220709.0000.00_11.0_global_b02b2f96e0.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TKEEUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEAGlobal_V14.0.5.0.TKEEUXM_25b24748bc_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.4.0.TKEEUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEAGlobal_V14.0.4.0.TKEEUXM_2e7d43bae3_13.0.zip",
+					"fastboot": "fleur_eea_global_images_V14.0.4.0.TKEEUXM_20230705.0000.00_13.0_eea_9acad78cb8.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKEEUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEAGlobal_V14.0.3.0.TKEEUXM_607e8f303a_13.0.zip",
+					"fastboot": "fleur_eea_global_images_V14.0.3.0.TKEEUXM_20230522.0000.00_13.0_eea_5b00c4c37c.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKEEUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEAGlobal_V14.0.2.0.TKEEUXM_4a037bf6d4_13.0.zip",
+					"fastboot": "fleur_eea_global_images_V14.0.2.0.TKEEUXM_20230510.0000.00_13.0_eea_81068cf3f2.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKEEUXM",
+					"android": "12.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.3.0.SKEEUXM_57b47e8037_12.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.3.0.SKEEUXM_20230313.0000.00_12.0_eea_985da13a98.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKEEUXM",
+					"android": "12.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.2.0.SKEEUXM_b263906b79_12.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.2.0.SKEEUXM_20230109.0000.00_12.0_eea_7b8d774e56.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.10.0.RKEEUXM_e9ad09d751_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.10.0.RKEEUXM_20221031.0000.00_11.0_eea_2de4c35bc7.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.9.0.RKEEUXM_9f43753107_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.9.0.RKEEUXM_20220804.0000.00_11.0_eea_2fd03f2da4.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.8.0.RKEEUXM_50b7a919a1_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.8.0.RKEEUXM_20220701.0000.00_11.0_eea_25cc04b17c.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.7.0.RKEEUXM_41284ec7e3_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.7.0.RKEEUXM_20220617.0000.00_11.0_eea_dbb293071f.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.6.0.RKEEUXM_5f930e4d70_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.6.0.RKEEUXM_20220420.0000.00_11.0_eea_6cb913c99f.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.5.0.RKEEUXM_c0c6c6c1bc_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.5.0.RKEEUXM_20220319.0000.00_11.0_eea_2584cafd8f.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.3.0.RKEEUXM_c2d922edcd_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.3.0.RKEEUXM_20220130.0000.00_11.0_eea_95b42ace10.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.RKEEUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEUREEAGlobal_V13.0.1.0.RKEEUXM_fc7808e89b_11.0.zip",
+					"fastboot": "fleur_eea_global_images_V13.0.1.0.RKEEUXM_20220108.0000.00_11.0_eea_e34cd61d83.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_eea_or_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euor",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Orange运营商定制版",
+			"enname": "Europe Orange Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TKEEUOR",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEAORGlobal_V14.0.5.0.TKEEUOR_8144cf3ab7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.4.0.TKEEUOR",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEAORGlobal_V14.0.4.0.TKEEUOR_8bdc0135af_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.3.0.TKEEUOR",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEAORGlobal_V14.0.3.0.TKEEUOR_df9654a00a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.0.SKEEUOR",
+					"android": "12.0",
+					"recovery": "miui_FLEUREEAORGlobal_V13.0.5.0.SKEEUOR_0e419d54fc_12.0.zip",
+					"fastboot": "fleur_eea_or_global_images_V13.0.5.0.SKEEUOR_20230512.0000.00_12.0_eea_58b61947d4.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKEEUOR",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "fleur_eea_or_global_images_V13.0.3.0.SKEEUOR_20230301.0000.00_12.0_eea_15da0b96f4.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_eea_by_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euby",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Bouygues Telecom运营商定制版",
+			"enname": "Europe Bouygues Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TKEEUBY",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEABYGlobal_V14.0.2.0.TKEEUBY_66d0ec2f4e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TKEEUBY",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEABYGlobal_V14.0.1.0.TKEEUBY_733b63bb16_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.0.SKEEUBY",
+					"android": "12.0",
+					"recovery": "miui_FLEUREEABYGlobal_V13.0.4.0.SKEEUBY_b7e0f00746_12.0.zip",
+					"fastboot": "fleur_eea_by_global_images_V13.0.4.0.SKEEUBY_20230411.0000.00_12.0_eea_29f15b76d9.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKEEUBY",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "fleur_eea_by_global_images_V13.0.2.0.SKEEUBY_20230112.0000.00_12.0_eea_05ae8bcac9.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_eea_sf_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eusf",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Altice(SFR)运营商定制版",
+			"enname": "Europe Altice(SFR) Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TKEEUSF",
+					"android": "13.0",
+					"recovery": "miui_FLEUREEASFGlobal_V14.0.3.0.TKEEUSF_9fb0ad243a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.0.SKEEUSF",
+					"android": "12.0",
+					"recovery": "miui_FLEUREEASFGlobal_V13.0.2.0.SKEEUSF_7b23771232_12.0.zip",
+					"fastboot": "fleur_eea_sf_global_images_V13.0.2.0.SKEEUSF_20230106.0000.00_12.0_eea_95307ea264.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TKERUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURRUGlobal_V14.0.5.0.TKERUXM_5bba61d04b_13.0.zip",
+					"fastboot": "fleur_ru_global_images_V14.0.5.0.TKERUXM_20231130.0000.00_13.0_ru_de666be02b.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TKERUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURRUGlobal_V14.0.4.0.TKERUXM_13d1777fbe_13.0.zip",
+					"fastboot": "fleur_ru_global_images_V14.0.4.0.TKERUXM_20230901.0000.00_13.0_ru_5de2445887.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKERUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURRUGlobal_V14.0.2.0.TKERUXM_7da4ddb066_13.0.zip",
+					"fastboot": "fleur_ru_global_images_V14.0.2.0.TKERUXM_20230628.0000.00_13.0_ru_2d0a2ad407.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKERUXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURRUGlobal_V14.0.1.0.TKERUXM_95b0c49728_13.0.zip",
+					"fastboot": "fleur_ru_global_images_V14.0.1.0.TKERUXM_20230606.0000.00_13.0_ru_90c86b876a.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKERUXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.5.0.SKERUXM_78d307244e_12.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.5.0.SKERUXM_20230306.0000.00_12.0_global_ea2f6d90a0.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKERUXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.4.0.SKERUXM_bf55474f1f_12.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.4.0.SKERUXM_20221215.0000.00_12.0_global_4ad4b0ef06.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKERUXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.3.0.SKERUXM_c95e106a4b_12.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.3.0.SKERUXM_20220913.0000.00_12.0_global_7e4675d2c0.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKERUXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.2.0.SKERUXM_312935f9b0_12.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.2.0.SKERUXM_20220727.0000.00_12.0_global_8a16520d63.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.RKERUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.10.0.RKERUXM_8e16d406aa_11.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.10.0.RKERUXM_20230109.0000.00_11.0_global_ad9337673b.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.RKERUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.7.0.RKERUXM_65a4788693_11.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.7.0.RKERUXM_20220709.0000.00_11.0_global_7b10e0391d.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.RKERUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.4.0.RKERUXM_0f6c1dd0fe_11.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.4.0.RKERUXM_20220505.0000.00_11.0_global_fd94f4041c.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RKERUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.3.0.RKERUXM_e80ee865eb_11.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.3.0.RKERUXM_20220303.0000.00_11.0_global_f38ba74952.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.RKERUXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURRUGlobal_V13.0.2.0.RKERUXM_4fc0a92376_11.0.zip",
+					"fastboot": "fleur_ru_global_images_V13.0.2.0.RKERUXM_20220118.0000.00_11.0_global_a5ef2517b4.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TKEINXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURINGlobal_V14.0.6.0.TKEINXM_30003eb717_13.0.zip",
+					"fastboot": "fleur_in_global_images_V14.0.6.0.TKEINXM_20231218.0000.00_13.0_in_e514849b14.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TKEINXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURINGlobal_V14.0.5.0.TKEINXM_c61b6380a5_13.0.zip",
+					"fastboot": "fleur_in_global_images_V14.0.5.0.TKEINXM_20231128.0000.00_13.0_in_a88f9bbf64.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TKEINXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURINGlobal_V14.0.4.0.TKEINXM_afc380ab0b_13.0.zip",
+					"fastboot": "fleur_in_global_images_V14.0.4.0.TKEINXM_20230828.0000.00_13.0_in_cb61e6bb4e.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKEINXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURINGlobal_V14.0.3.0.TKEINXM_f30e9024ac_13.0.zip",
+					"fastboot": "fleur_in_global_images_V14.0.3.0.TKEINXM_20230620.0000.00_13.0_in_f716040ef2.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKEINXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURINGlobal_V14.0.1.0.TKEINXM_67093b086b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.0.SKEINXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.5.0.SKEINXM_8d00f6ee55_12.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.5.0.SKEINXM_20230504.0000.00_12.0_in_8fd7dcb9a2.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKEINXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.4.0.SKEINXM_8ac73c29ea_12.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.4.0.SKEINXM_20230213.0000.00_12.0_in_f2dc876b93.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKEINXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.3.0.SKEINXM_a6994af41a_12.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.3.0.SKEINXM_20221118.0000.00_12.0_in_36b555b0f3.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKEINXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.2.0.SKEINXM_9cfa475249_12.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.2.0.SKEINXM_20220901.0000.00_12.0_in_229b509e5e.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKEINXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.1.0.SKEINXM_2ff63fe343_12.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.1.0.SKEINXM_20220810.0000.00_12.0_in_63a2740f04.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.RKEINXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.5.0.RKEINXM_a9cbafb5b9_11.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.5.0.RKEINXM_20220718.0000.00_11.0_in_ac779f730d.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.RKEINXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.4.0.RKEINXM_afb173fd97_11.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.4.0.RKEINXM_20220517.0000.00_11.0_in_c1fed9c92d.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RKEINXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.3.0.RKEINXM_965c6abe20_11.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.3.0.RKEINXM_20220304.0000.00_11.0_in_538b1af049.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.RKEINXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURINGlobal_V13.0.2.0.RKEINXM_afd26d0eb8_11.0.zip",
+					"fastboot": "fleur_in_global_images_V13.0.2.0.RKEINXM_20220128.0000.00_11.0_in_b5df67d38c.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TKEIDXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURIDGlobal_V14.0.6.0.TKEIDXM_a764c8f425_13.0.zip",
+					"fastboot": "fleur_id_global_images_V14.0.6.0.TKEIDXM_20231128.0000.00_13.0_id_93c72beb42.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TKEIDXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURIDGlobal_V14.0.5.0.TKEIDXM_edf191b1e6_13.0.zip",
+					"fastboot": "fleur_id_global_images_V14.0.5.0.TKEIDXM_20230904.0000.00_13.0_id_fbb1f98bbe.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKEIDXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURIDGlobal_V14.0.2.0.TKEIDXM_4d3fbb44b2_13.0.zip",
+					"fastboot": "fleur_id_global_images_V14.0.2.0.TKEIDXM_20230628.0000.00_13.0_id_595a9297d2.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKEIDXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURIDGlobal_V13.0.5.0.SKEIDXM_ff7e9ffdbb_12.0.zip",
+					"fastboot": "fleur_id_global_images_V13.0.5.0.SKEIDXM_20230506.0000.00_12.0_global_c4232a475f.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKEIDXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURIDGlobal_V13.0.4.0.SKEIDXM_cbf6086fb6_12.0.zip",
+					"fastboot": "fleur_id_global_images_V13.0.4.0.SKEIDXM_20230217.0000.00_12.0_global_bc874d9beb.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKEIDXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURIDGlobal_V13.0.3.0.SKEIDXM_c4b248c350_12.0.zip",
+					"fastboot": "fleur_id_global_images_V13.0.3.0.SKEIDXM_20221202.0000.00_12.0_global_67758be26a.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKEIDXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURIDGlobal_V13.0.2.0.SKEIDXM_c1fc440753_12.0.zip",
+					"fastboot": "fleur_id_global_images_V13.0.2.0.SKEIDXM_20220916.0000.00_12.0_global_ba55bb2f08.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.RKEIDXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURIDGlobal_V13.0.4.0.RKEIDXM_7271320e94_11.0.zip",
+					"fastboot": "fleur_id_global_images_V13.0.4.0.RKEIDXM_20220722.0000.00_11.0_global_372ee878fa.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RKEIDXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURIDGlobal_V13.0.3.0.RKEIDXM_e0c9153ecc_11.0.zip",
+					"fastboot": "fleur_id_global_images_V13.0.3.0.RKEIDXM_20220512.0000.00_11.0_global_94088bef22.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.RKEIDXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURIDGlobal_V13.0.2.0.RKEIDXM_409c70d95f_11.0.zip",
+					"fastboot": "fleur_id_global_images_V13.0.2.0.RKEIDXM_20220303.0000.00_11.0_global_9496d96d15.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TKETRXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURTRGlobal_V14.0.3.0.TKETRXM_77a6d9a22c_13.0.zip",
+					"fastboot": "fleur_tr_global_images_V14.0.3.0.TKETRXM_20230918.0000.00_13.0_tr_05b239f576.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKETRXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURTRGlobal_V14.0.2.0.TKETRXM_a599c5da78_13.0.zip",
+					"fastboot": "fleur_tr_global_images_V14.0.2.0.TKETRXM_20230724.0000.00_13.0_tr_fd8ce338bf.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKETRXM",
+					"android": "13.0",
+					"recovery": "miui_FLEURTRGlobal_V14.0.1.0.TKETRXM_d9fd4eddce_13.0.zip",
+					"fastboot": "fleur_tr_global_images_V14.0.1.0.TKETRXM_20230602.0000.00_13.0_tr_6960734130.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKETRXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURTRGlobal_V13.0.3.0.SKETRXM_2492fe0ab9_12.0.zip",
+					"fastboot": "fleur_tr_global_images_V13.0.3.0.SKETRXM_20230306.0000.00_12.0_global_2b7daebc3a.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKETRXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURTRGlobal_V13.0.2.0.SKETRXM_2164f012fe_12.0.zip",
+					"fastboot": "fleur_tr_global_images_V13.0.2.0.SKETRXM_20221209.0000.00_12.0_global_58c5d7a7d2.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKETRXM",
+					"android": "12.0",
+					"recovery": "miui_FLEURTRGlobal_V13.0.1.0.SKETRXM_b5e01e9667_12.0.zip",
+					"fastboot": "fleur_tr_global_images_V13.0.1.0.SKETRXM_20220826.0000.00_12.0_global_fa63f62e5d.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.RKETRXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURTRGlobal_V13.0.5.0.RKETRXM_0eb71ece9d_11.0.zip",
+					"fastboot": "fleur_tr_global_images_V13.0.5.0.RKETRXM_20220715.0000.00_11.0_global_fd78793bad.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RKETRXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURTRGlobal_V13.0.3.0.RKETRXM_91b0379f1a_11.0.zip",
+					"fastboot": "fleur_tr_global_images_V13.0.3.0.RKETRXM_20220424.0000.00_11.0_global_c79cbc08ab.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.RKETRXM",
+					"android": "11.0",
+					"recovery": "miui_FLEURTRGlobal_V13.0.2.0.RKETRXM_b63d9b0e32_11.0.zip",
+					"fastboot": "fleur_tr_global_images_V13.0.2.0.RKETRXM_20220224.0000.00_11.0_global_8f7dfe37a5.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_cl_en_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "clen",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "智利Entel运营商定制版",
+			"enname": "Chile Stable Entel Carrier Edtion",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TKECLEN",
+					"android": "13.0",
+					"recovery": "miui_FLEURCLENGlobal_V14.0.1.0.TKECLEN_8acf285730_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.0.SKECLEN",
+					"android": "12.0",
+					"recovery": "miui_FLEURCLENGlobal_V13.0.2.0.SKECLEN_574d16a897_12.0.zip",
+					"fastboot": "fleur_cl_en_global_images_V13.0.2.0.SKECLEN_20230310.0000.00_12.0_global_aaf8af0ce3.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKECLEN",
+					"android": "12.0",
+					"recovery": "miui_FLEURCLENGlobal_V13.0.1.0.SKECLEN_e07321bdef_12.0.zip",
+					"fastboot": "fleur_cl_en_global_images_V13.0.1.0.SKECLEN_20221024.0000.00_12.0_global_a4946dba05.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_lm_cr_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "lmcr",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "拉丁美洲Claro运营商定制版",
+			"enname": "Latin America Claro Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.3.0.SKELMCR",
+					"android": "12.0",
+					"recovery": "miui_FLEURLMCRGlobal_V13.0.3.0.SKELMCR_d0c206b9dd_12.0.zip",
+					"fastboot": "fleur_lm_cr_global_images_V13.0.3.0.SKELMCR_20230420.0000.00_12.0_global_0294b83c8c.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKELMCR",
+					"android": "12.0",
+					"recovery": "miui_FLEURLMCRGlobal_V13.0.2.0.SKELMCR_facd5862cf_12.0.zip",
+					"fastboot": "fleur_lm_cr_global_images_V13.0.2.0.SKELMCR_20230306.0000.00_12.0_global_046a71595a.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKELMCR",
+					"android": "12.0",
+					"recovery": "miui_FLEURLMCRGlobal_V13.0.1.0.SKELMCR_48aaf8dcea_12.0.zip",
+					"fastboot": "fleur_lm_cr_global_images_V13.0.1.0.SKELMCR_20230103.0000.00_12.0_global_830a4729d4.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.RKELMCR",
+					"android": "11.0",
+					"recovery": "miui_FLEURLMCRGlobal_V13.0.6.0.RKELMCR_5ca885ccf5_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.0.RKELMCR",
+					"android": "11.0",
+					"recovery": "miui_FLEURLMCRGlobal_V13.0.1.0.RKELMCR_62798ec46e_11.0.zip",
+					"fastboot": "fleur_lm_cr_global_images_V13.0.1.0.RKELMCR_20220215.0000.00_11.0_global_8ac5a54ec0.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_mx_at_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mxat",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "墨西哥AT&T运营商定制版",
+			"enname": "Mexico Stable AT&T Carrier Edtion",
+			"links": [
+				{
+					"miui": "V13.0.4.0.SKEMXAT",
+					"android": "12.0",
+					"recovery": "miui_FLEURMXATGlobal_V13.0.4.0.SKEMXAT_71b3cd8430_12.0.zip",
+					"fastboot": "fleur_mx_at_global_images_V13.0.4.0.SKEMXAT_20230423.0000.00_12.0_global_2cead0333d.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKEMXAT",
+					"android": "12.0",
+					"recovery": "miui_FLEURMXATGlobal_V13.0.3.0.SKEMXAT_cbcf379430_12.0.zip",
+					"fastboot": "fleur_mx_at_global_images_V13.0.3.0.SKEMXAT_20230216.0000.00_12.0_global_25ac5fecbc.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKEMXAT",
+					"android": "12.0",
+					"recovery": "miui_FLEURMXATGlobal_V13.0.2.0.SKEMXAT_2999e060ad_12.0.zip",
+					"fastboot": "fleur_mx_at_global_images_V13.0.2.0.SKEMXAT_20221225.0000.00_12.0_global_cd0f3d6876.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.RKEMXAT",
+					"android": "11.0",
+					"recovery": "miui_FLEURMXATGlobal_V13.0.4.0.RKEMXAT_1b875f1607_11.0.zip",
+					"fastboot": "fleur_mx_at_global_images_V13.0.4.0.RKEMXAT_20220812.0000.00_11.0_global_7fb6d1a378.tgz"
+				}
+			]
+		},
+		{
+			"code": "fleur_lm_ms_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "lmms",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "拉丁美洲Moviestar运营商定制版",
+			"enname": "Latin America Moviestar Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.1.0.SKELMMS",
+					"android": "12.0",
+					"recovery": "miui_FLEURLMMSGlobal_V13.0.1.0.SKELMMS_6214ecd0d8_12.0.zip",
+					"fastboot": "fleur_lm_ms_global_images_V13.0.1.0.SKELMMS_20221231.0000.00_12.0_global_4b8f178a6c.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.RKELMMS",
+					"android": "11.0",
+					"recovery": "miui_FLEURLMMSGlobal_V13.0.2.0.RKELMMS_461c0c3434_11.0.zip",
+					"fastboot": "fleur_lm_ms_global_images_V13.0.2.0.RKELMMS_20220928.0000.00_11.0_global_5318b970d1.tgz"
+				}
+			]
+		}
+	]
 }

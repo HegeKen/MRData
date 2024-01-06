@@ -1,153 +1,153 @@
 {
-  "codename": "zircon",
-  "cnname": "Redmi Note 13 Pro+",
-  "enname": "Redmi Note 13 Pro+",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"1",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"zircon",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinamobile","chinaunicom"],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.8.0.TNOCNXM_0e45ff6fd1_13.0.zip",
-          "fastboot": "zircon_images_V14.0.8.0.TNOCNXM_20231129.0000.00_13.0_cn_f63a143fa2.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.7.0.TNOCNXM_1062227fa3_13.0.zip",
-          "fastboot": "zircon_images_V14.0.7.0.TNOCNXM_20231025.0000.00_13.0_cn_71ba6d90fd.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.6.0.TNOCNXM_0b5917a12c_13.0.zip",
-          "fastboot": "zircon_images_V14.0.6.0.TNOCNXM.debug_20231008.0000.00_13.0_cn_c9a40bd2e4.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.4.0.TNOCNXM_c3eaaec36a_13.0.zip",
-          "fastboot": "zircon_images_V14.0.4.0.TNOCNXM_20230925.0000.00_13.0_cn_e686c46004.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.3.0.TNOCNXM_4fa8dea371_13.0.zip",
-          "fastboot": "zircon_images_V14.0.3.0.TNOCNXM_20230915.0000.00_13.0_cn_755a2f66a1.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.1.0.TNOCNXM_ef7c4991b6_13.0.zip",
-          "fastboot": "zircon_images_V14.0.1.0.TNOCNXM_20230901.0000.00_13.0_cn_f85a58ffe8.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zircon",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.8.0.TNOCNXM_0e45ff6fd1_13.0.zip",
-          "fastboot": "zircon_images_V14.0.8.0.TNOCNXM_20231129.0000.00_13.0_cn_chinatelecom_61991f9e01.tgz"
-        },
-        {
-          "miui": "V14.0.7.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.7.0.TNOCNXM_1062227fa3_13.0.zip",
-          "fastboot": "zircon_images_V14.0.7.0.TNOCNXM_20231025.0000.00_13.0_cn_chinatelecom_3496acb470.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.6.0.TNOCNXM_0b5917a12c_13.0.zip",
-          "fastboot": "zircon_images_V14.0.6.0.TNOCNXM_20231008.0000.00_13.0_cn_chinatelecom_bef185be58.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.6.0.TNOCNXM_0b5917a12c_13.0.zip",
-          "fastboot": "zircon_images_V14.0.6.0.TNOCNXM.debug_20231008.0000.00_13.0_cn_chinatelecom_0c52ad4b71.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.4.0.TNOCNXM_c3eaaec36a_13.0.zip",
-          "fastboot": "zircon_images_V14.0.4.0.TNOCNXM_20230925.0000.00_13.0_cn_chinatelecom_3cf255953e.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.3.0.TNOCNXM_4fa8dea371_13.0.zip",
-          "fastboot": "zircon_images_V14.0.3.0.TNOCNXM_20230915.0000.00_13.0_cn_chinatelecom_e7a46e9038.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TNOCNXM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCON_V14.0.1.0.TNOCNXM_ef7c4991b6_13.0.zip",
-          "fastboot": "zircon_images_V14.0.1.0.TNOCNXM_20230901.0000.00_13.0_cn_chinatelecom_1ed353cb96.tgz"
-        }
-      ]
-    },
-    {
-      "code":"zircon_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TNOCNDM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCONDEMO_V14.0.2.0.TNOCNDM_d33e42da5d_13.0.zip",
-          "fastboot": "zircon_demo_images_V14.0.2.0.TNOCNDM_20230918.0000.00_13.0_cn_e704c3002c.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TNOCNDM",
-          "android": "13.0",
-          "recovery": "miui_ZIRCONDEMO_V14.0.2.0.TNOCNDM_d33e42da5d_13.0.zip",
-          "fastboot": "zircon_demo_images_V14.0.2.0.TNOCNDM_20230918.0000.00_13.0_cn_chinatelecom_07c5f97b9d.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "zircon",
+	"cnname": "Redmi Note 13 Pro+",
+	"enname": "Redmi Note 13 Pro+",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "1",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "zircon",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.8.0.TNOCNXM_0e45ff6fd1_13.0.zip",
+					"fastboot": "zircon_images_V14.0.8.0.TNOCNXM_20231129.0000.00_13.0_cn_f63a143fa2.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.7.0.TNOCNXM_1062227fa3_13.0.zip",
+					"fastboot": "zircon_images_V14.0.7.0.TNOCNXM_20231025.0000.00_13.0_cn_71ba6d90fd.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.6.0.TNOCNXM_0b5917a12c_13.0.zip",
+					"fastboot": "zircon_images_V14.0.6.0.TNOCNXM.debug_20231008.0000.00_13.0_cn_c9a40bd2e4.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.4.0.TNOCNXM_c3eaaec36a_13.0.zip",
+					"fastboot": "zircon_images_V14.0.4.0.TNOCNXM_20230925.0000.00_13.0_cn_e686c46004.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.3.0.TNOCNXM_4fa8dea371_13.0.zip",
+					"fastboot": "zircon_images_V14.0.3.0.TNOCNXM_20230915.0000.00_13.0_cn_755a2f66a1.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.1.0.TNOCNXM_ef7c4991b6_13.0.zip",
+					"fastboot": "zircon_images_V14.0.1.0.TNOCNXM_20230901.0000.00_13.0_cn_f85a58ffe8.tgz"
+				}
+			]
+		},
+		{
+			"code": "zircon",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.8.0.TNOCNXM_0e45ff6fd1_13.0.zip",
+					"fastboot": "zircon_images_V14.0.8.0.TNOCNXM_20231129.0000.00_13.0_cn_chinatelecom_61991f9e01.tgz"
+				},
+				{
+					"miui": "V14.0.7.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.7.0.TNOCNXM_1062227fa3_13.0.zip",
+					"fastboot": "zircon_images_V14.0.7.0.TNOCNXM_20231025.0000.00_13.0_cn_chinatelecom_3496acb470.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.6.0.TNOCNXM_0b5917a12c_13.0.zip",
+					"fastboot": "zircon_images_V14.0.6.0.TNOCNXM_20231008.0000.00_13.0_cn_chinatelecom_bef185be58.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.6.0.TNOCNXM_0b5917a12c_13.0.zip",
+					"fastboot": "zircon_images_V14.0.6.0.TNOCNXM.debug_20231008.0000.00_13.0_cn_chinatelecom_0c52ad4b71.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.4.0.TNOCNXM_c3eaaec36a_13.0.zip",
+					"fastboot": "zircon_images_V14.0.4.0.TNOCNXM_20230925.0000.00_13.0_cn_chinatelecom_3cf255953e.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.3.0.TNOCNXM_4fa8dea371_13.0.zip",
+					"fastboot": "zircon_images_V14.0.3.0.TNOCNXM_20230915.0000.00_13.0_cn_chinatelecom_e7a46e9038.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TNOCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCON_V14.0.1.0.TNOCNXM_ef7c4991b6_13.0.zip",
+					"fastboot": "zircon_images_V14.0.1.0.TNOCNXM_20230901.0000.00_13.0_cn_chinatelecom_1ed353cb96.tgz"
+				}
+			]
+		},
+		{
+			"code": "zircon_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TNOCNDM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCONDEMO_V14.0.2.0.TNOCNDM_d33e42da5d_13.0.zip",
+					"fastboot": "zircon_demo_images_V14.0.2.0.TNOCNDM_20230918.0000.00_13.0_cn_e704c3002c.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TNOCNDM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCONDEMO_V14.0.2.0.TNOCNDM_d33e42da5d_13.0.zip",
+					"fastboot": "zircon_demo_images_V14.0.2.0.TNOCNDM_20230918.0000.00_13.0_cn_chinatelecom_07c5f97b9d.tgz"
+				}
+			]
+		}
+	]
 }

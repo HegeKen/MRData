@@ -1,99 +1,99 @@
 {
-  "codename": "air",
-  "cnname": "Redmi 13C 5G/ Redmi 13R 5G/ POCO M6 5G",
-  "enname": "Redmi 13C 5G/ Redmi 13R 5G/ POCO M6 5G",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui": "",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"air",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinamobile","chinaunicom"],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TGQCNXM",
-          "android": "13.0",
-          "recovery": "miui_AIR_V14.0.5.0.TGQCNXM_550989bad2_13.0.zip",
-          "fastboot": "air_images_V14.0.5.0.TGQCNXM_20231225.0000.00_13.0_cn_b474bd7a4a.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TGQCNXM",
-          "android": "13.0",
-          "recovery": "miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip",
-          "fastboot": "air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_ca44e766b1.tgz"
-        }
-      ]
-    },
-    {
-      "code":"air",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TGQCNXM",
-          "android": "13.0",
-          "recovery": "miui_AIR_V14.0.5.0.TGQCNXM_550989bad2_13.0.zip",
-          "fastboot": "air_images_V14.0.5.0.TGQCNXM_20231225.0000.00_13.0_cn_chinatelecom_344e7d18cc.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TGQCNXM",
-          "android": "13.0",
-          "recovery": "miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip",
-          "fastboot":"air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_chinatelecom_21a756ac17.tgz"
-        }
-      ]
-    },
-    {
-      "code": "air_in_global",
-      "btag": "F",
-      "region": "in",
-      "carrier": [],
-      "branch": "inds",
-      "zone": "2",
-      "show": "1",
-      "ep": "0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TGQINXM",
-          "android": "13.0",
-          "recovery": "miui_AIRINGlobal_V14.0.4.0.TGQINXM_323ad93ff9_13.0.zip",
-          "fastboot": "air_in_global_images_V14.0.4.0.TGQINXM_20231208.0000.00_13.0_in_014b9d6dbc.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TGQINXM",
-          "android": "13.0",
-          "recovery": "miui_AIRINGlobal_V14.0.2.0.TGQINXM_16bf618b8d_13.0.zip",
-          "fastboot": "air_in_global_images_V14.0.2.0.TGQINXM_20231124.0000.00_13.0_in_1437222e22.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "air",
+	"cnname": "Redmi 13C 5G/ Redmi 13R 5G/ POCO M6 5G",
+	"enname": "Redmi 13C 5G/ Redmi 13R 5G/ POCO M6 5G",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "air",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TGQCNXM",
+					"android": "13.0",
+					"recovery": "miui_AIR_V14.0.5.0.TGQCNXM_550989bad2_13.0.zip",
+					"fastboot": "air_images_V14.0.5.0.TGQCNXM_20231225.0000.00_13.0_cn_b474bd7a4a.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TGQCNXM",
+					"android": "13.0",
+					"recovery": "miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip",
+					"fastboot": "air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_ca44e766b1.tgz"
+				}
+			]
+		},
+		{
+			"code": "air",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TGQCNXM",
+					"android": "13.0",
+					"recovery": "miui_AIR_V14.0.5.0.TGQCNXM_550989bad2_13.0.zip",
+					"fastboot": "air_images_V14.0.5.0.TGQCNXM_20231225.0000.00_13.0_cn_chinatelecom_344e7d18cc.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TGQCNXM",
+					"android": "13.0",
+					"recovery": "miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip",
+					"fastboot": "air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_chinatelecom_21a756ac17.tgz"
+				}
+			]
+		},
+		{
+			"code": "air_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TGQINXM",
+					"android": "13.0",
+					"recovery": "miui_AIRINGlobal_V14.0.4.0.TGQINXM_323ad93ff9_13.0.zip",
+					"fastboot": "air_in_global_images_V14.0.4.0.TGQINXM_20231208.0000.00_13.0_in_014b9d6dbc.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TGQINXM",
+					"android": "13.0",
+					"recovery": "miui_AIRINGlobal_V14.0.2.0.TGQINXM_16bf618b8d_13.0.zip",
+					"fastboot": "air_in_global_images_V14.0.2.0.TGQINXM_20231124.0000.00_13.0_in_1437222e22.tgz"
+				}
+			]
+		}
+	]
 }

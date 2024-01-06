@@ -1,1965 +1,1961 @@
 {
-  "codename": "ares",
-  "cnname": "Redmi K40 游戏增强版/POCO F3 GT",
-  "enname": "Redmi K40 Gaming/POCO F3 GT",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "37339049",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "343"
-  ],
-  "cbid": [
-    "345"
-  ],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"ares",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.4.17.DEV_6d67cc0938_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.4.10.DEV_4f060bfc2e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.4.2.DEV_c3c07bd66f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.3.27.DEV_4b2dba363e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.20.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.3.20.DEV_533745e473_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.3.13.DEV_cb9724e5bd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.3.7.DEV_e287e00fd4_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.2.27.DEV_cd6dac17db_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.2.21.DEV_1efa7ed25e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.2.13.DEV_026a7c5370_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.2.6.DEV_082ad43a93_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.1.30.DEV_64aa911952_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.1.9.DEV_ae18ec08c7_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.23.1.3.DEV_917ab0fd71_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.22.12.26.DEV_77dab78db5_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.22.12.19.DEV_cc35cc8b25_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.22.12.8.DEV_3cad47ad05_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.22.12.5.DEV_9ce65836f3_13.0.zip",
-          "fastboot": "ares_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_eeef419b6c.tgz"
-        },
-        {
-          "miui": "22.10.26",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.26_e5f0b46eaa_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.25",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.25_7a487bfbc1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.24.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.10.24.DEV_5bf8f81d64_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.24",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.24_71ac2d409c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.21",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.21_aea9541cc8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.19",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.19_475d646163_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.18",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.18_c4f562d6ee_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.17.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.10.17.DEV_a4b29551b5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.17",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.17_00d78b9074_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.14",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.14_5ea56004d3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.12",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.12_040e7f89d4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.11.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.10.11.DEV_aa6e297141_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.11",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.11_73fe7c4ebf_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.10",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.10_61193bfacb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.8",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.10.8_9c03487707_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.29",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.29_28a62d55c3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.9.28.DEV_d5099e78b5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.28",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.28_cf299f2db5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.27",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.27_c3d2c6ef76_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.26",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.26_1cc18e9033_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.23",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.23_0e0cdf8b45_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.21",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.21_ec793e94c8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.20",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.20_50f97cf39e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.19.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.9.19.DEV_c0e8fc7328_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.19",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.19_488f6be231_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.16",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.16_88bb49adad_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.14",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.14_48b09ebdbc_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.13.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.9.13.DEV_ca0ba002c2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.13",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.13_d0c880233b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.9",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.9_9bc55dab45_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.7",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.7_c186687ef6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.6",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.6_1dfc754418_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.9.5.DEV_90ce1ab105_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.5",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.9.5_d1037117aa_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.31",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.31_197ce2c4c7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.30",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.30_4bd13cc880_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.8.29.DEV_4886dcd807_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.29",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.29_2bf493a918_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.26",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.26_8ed31e5b64_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.25",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.25_1277205c48_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.24",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.24_a0de41bf1b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.23",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.23_a09c07f61a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.8.22.DEV_4e667d098a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.19",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.19_3914006166_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.17.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.1.22.8.17.DEV_561535e80f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.17",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.17_0b02b3ad2f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.16",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.16_e5041c242b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.15",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.15_19542372f7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.59.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.59.DEV_fc61ead904_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.56.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.56.DEV_6407f951d1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.55.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.55.DEV_54dae77144_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.50.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.50.DEV_e83f23ecec_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.47.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.47.DEV_5be6e1b64a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.45.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.45.DEV_7a741b5ebd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.43.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.43.DEV_8c6b489806_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.40.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.40.DEV_e6656ed7fb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.39.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.39.DEV_f161a81f01_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.37.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.37.DEV_a6fa7702b4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.8.1.35.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.1.35.DEV_8e49efcf78_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.7.1.32.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.7.1.32.DEV_3200e408cd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.6.1.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.6.1.29.DEV_b1c20a9814_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.5.1.28.DEV_ba4d5441b7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.27.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.4.1.27.DEV_7364d59f2a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.26.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.4.1.26.DEV_9db67c19b9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.23.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.4.1.23.DEV_6126a5fe71_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.4.1.22.DEV_9646d3000f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.19.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.4.1.19.DEV_d29ee9d78c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.1.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.3.1.16.DEV_c44684d2f7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.1.15.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.3.1.15.DEV_da9922d345_12.0.zip",
-          "fastboot": "ares_images_V13.0.3.1.15.DEV_20220308.0000.00_12.0_cn_303d437722.tgz"
-        },
-        {
-          "miui": "V13.0.3.1.13.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.3.1.13.DEV_0df786ab6a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.1.11.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.2.1.11.DEV_0d7e32e7ad_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.1.10.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.2.1.10.DEV_7e8b787fe2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.8.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.1.1.8.DEV_c76e45721b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.1.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.1.1.5.DEV_54cd89c250_12.0.zip",
-          "fastboot": "ares_images_V13.0.1.1.5.DEV_20220122.0000.00_12.0_cn_d829bf35e9.tgz"
-        },
-        {
-          "miui": "V13.0.0.1.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.0.1.5.DEV_aac59869a8_12.0.zip",
-          "fastboot": "ares_images_V13.0.0.1.5.DEV_20220118.0000.00_12.0_cn_16fd0dd371.tgz"
-        },
-        {
-          "miui": "22.8.13",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.13_305715a759_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.12",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.12_b1f5aa4810_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.10",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.10_41c09744cd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.9",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.9_8de2b321e1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.8",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.8_8f4151af8a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.5",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.5_fadbec96bf_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.3",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.3_d0453d59aa_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.2",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.2_427b9a55be_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.1",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.8.1_084db06cb4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.29",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.29_0ee28bbdd0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.28",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.28_b547eb03d1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.26",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.26_8067d722c9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.21",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.21_1cd88b0e7d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.20",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.20_7f2351747d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.18",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.18_d51a428f76_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.15",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.15_fe84e13ad3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.13",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.13_a5517acd65_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.12",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.12_3778dd7fad_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.11",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.11_c5e12730cf_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.8",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.8_ff4a8d414e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.6",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.6_91658b8ad1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.5",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.5_4062afc7e6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.4",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.4_d873f6eceb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.1",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.7.1_95ba8316d0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.29",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.29_02b0c6d073_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.28",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.28_29697b4b6d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.27",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.27_637391081a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.24",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.24_d579ae218b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.22",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.22_ac030ef5e7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.21",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.21_3bfa0fbd54_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.20",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.20_7af1c09ce0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.17",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.17_d356915d28_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.15",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.15_019db88ad9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.14",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.14_fd807325d5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.9",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.9_44748bdc02_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.8",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.8_1ebbf170ac_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.6",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.6_bd7e6f6b2e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.2",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.2_81c41ec271_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.1",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.6.1_7e66543c5d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.31",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.31_c9533f3564_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.27",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.27_02716ed0db_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.25",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.25_32c252b999_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.24",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.24_1b04fd896b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.23",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.23_5c43a2de3f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.20",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.20_136147f18b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.18",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.18_1456414029_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.17",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.17_bd34bb6ea1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.16",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.16_2c90af3dad_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.15",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.15_976c043e86_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.11",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.11_ba2ac74f92_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.10",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.10_4fc6778590_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.9",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.9_a3142727fe_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.6",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.5.6_58ef522bc1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.27",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.27_d1dea78e48_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.26",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.26_2ecfd402f3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.25",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.25_bb04f5f907_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.22",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.22_ae2f6d372d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.20",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.20_1a4cdbccf4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.19",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.19_77aa9d7c7e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.18",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.18_eee3588009_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.13",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.13_d9dd486713_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.12",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.12_cfe12f7671_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.11",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.11_7ac92de477_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.10",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.10_f8b78475ab_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.6",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.6_3700205fc2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.1",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.4.1_981524fbde_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.30",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.30_4ef48a1bb1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.29",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.29_23f20267b5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.28",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.28_74d4d63a64_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.25",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.25_3ab3b0792e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.23",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.23_5655c7e1e5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.22",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.22_072d691375_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.21",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.21_c378b4e9a7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.18",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.18_1c73526368_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.16",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.16_1840282010_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.15",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.15_0421fa4493_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.14",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.14_ca4a08ba63_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.11",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.11_b4f1173500_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.9",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.9_2673de4395_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.8",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.8_e600f3fe0c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.7",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.7_ddadb2c096_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.4",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.4_a22f4dc4d6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.3",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.3_9ed8471658_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.2",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.3.2_dd393cfdf8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.25",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.25_d56129a0da_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.23",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.23_fbd63cffbc_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.22",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.22_49dd97c7c5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.21",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.21_b471098879_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.20",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.20_9f65e2deae_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.17",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.17_dd93b77f06_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.16",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.16_d73cea8df5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.15",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.15_745430d735_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.10",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.10_2fb75d3809_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.9",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.9_01a13ad7cd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.8",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.8_84f21d05ce_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.7",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.2.7_d4abd9c696_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.24",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.24_fa96b840a4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.19",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.19_2635ef92b6_12.0.zip",
-          "fastboot": "ares_pre_images_22.1.19_20220119.0000.00_12.0_cn_cf9f53da8d.tgz"
-        },
-        {
-          "miui": "22.1.18",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.18_ef81a3d8ab_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.17",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.17_2a00dfb08b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.14",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.14_bc7d0a5fc0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.13",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.13_fe225402ca_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.12",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.12_fc65746d53_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.11",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_22.1.11_8a185991de_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.30",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_21.12.30_770f5457a8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.27",
-          "android": "12.0",
-          "recovery": "miui_ARESPRE_21.12.27_4d0560fd47_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.8",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.12.8_02482d0304_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.7",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.12.7_5b79c057cc_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.6",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.12.6_a62dfbaf9a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.4",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.12.4_e18c6b64ab_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.1",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.12.1_0f37f9f6c1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.30",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.30_f67cf5950f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.29",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.29_e7d204ed0c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.28",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.28_195afba7f4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.24",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.24_bf9b3a2526_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.23",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.23_a4f9843c2c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.22",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.22_f1a911fa18_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.17",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.17_fd47aae68e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.16",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.16_4a7bd3aaa4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.15",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.15_c2b763fc4b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.9",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.9_b7f345cf9d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.8",
-          "android": "12.0",
-          "recovery": "miui_ARES_21.11.8_4d9eff787b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.20",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.10.20_1042c24b86_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.19",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.10.19_a920c376ca_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.15",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.10.15_686770ad67_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.13",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.10.13_159790180c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.12",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.10.12_91de0575e1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.11",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.10.11_e78370cf57_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.8",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.10.8_cffa30dccf_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.28",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.28_a0c9c12a2c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.27",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.27_69eddfdc1f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.24",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.24_069df210ba_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.22",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.22_fdedad7518_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.18",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.18_4cf021b858_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.15",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.15_f3857e6d25_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.14",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.14_f4a2ea422f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.13",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.13_4fb440e0bb_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.8",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.8_f75c8f5545_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.2",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.9.2_dc2c1fe2dc_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.31",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.31_02c5cc5a24_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.30",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.30_33c8e3b88f_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.27",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.27_0e76453d79_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.25",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.25_4edc065bc1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.18",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.18_6027276375_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.13",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.13_2768c39370_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.11",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.11_2c75019e59_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.9",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.9_90aef0c942_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.6",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.6_52f2a464dc_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.4",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.8.4_9076e148b3_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.28",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.28_078bbf45c6_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.27",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.27_216f49db74_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.26",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.26_5508ca15d3_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.23",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.23_01d96e6285_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.21",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.21_9ffccf4fa6_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.14",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.14_2afb8a7580_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.9",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.9_19c5cfd8b8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.7",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.7_ab1f3e7216_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.5",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.5_8c66691648_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.7.2",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.7.2_2ea8742213_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.30",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.30_80dd703af6_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.28",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.28_32db5b878c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.23",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.23_18dac870a1_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.18",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.18_fce01f9daf_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.17",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.17_51d1caf53c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.16",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.16_ae167a9b87_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.11",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.11_ef706f19df_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.9",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.9_e551ed7fcb_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.8",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.8_6797cd7a87_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.7",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.7_2dbf3cf227_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.4",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.4_39cb942d37_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.2",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.2_f87de2e2ee_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.6.1",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.6.1_5c121fc85e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.31",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.31_acdac66577_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.28",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.28_7c63150b23_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.27",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.27_a0326c482d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.26",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.26_477399079c_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.25",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.25_3753f09d5d_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.24",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.24_7202c20487_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.20",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.20_a5534f9a34_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.19",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.19_3b5f7eac6b_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.5.18",
-          "android": "11.0",
-          "recovery": "miui_ARES_21.5.18_02c4b12315_11.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"ares",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V12.5.7.0.RKJCNDM",
-          "android": "11.0",
-          "recovery": "",
-          "fastboot": "ares_demo_images_V12.5.7.0.RKJCNDM_20210508.0000.00_11.0_cn_13f7db875c.tgz"
-        }
-      ]
-    },
-    {
-      "code":"ares",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TKJCNXM",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.5.0.TKJCNXM_4f27761e0b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.4.0.TKJCNXM",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.4.0.TKJCNXM_511d5498e5_13.0.zip",
-          "fastboot": "ares_images_V14.0.4.0.TKJCNXM_20230710.0000.00_13.0_cn_932146031f.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKJCNXM",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.3.0.TKJCNXM_4c4e40a144_13.0.zip",
-          "fastboot": "ares_images_V14.0.3.0.TKJCNXM_20230404.0000.00_13.0_cn_e00263ca4d.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKJCNXM",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.2.0.TKJCNXM_36a3687cce_13.0.zip",
-          "fastboot": "ares_images_V14.0.2.0.TKJCNXM_20230131.0000.00_13.0_cn_71c2d82d9f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"ares",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.0.9.0.SKJCNXM",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.9.0.SKJCNXM_4eb03893db_12.0.zip",
-          "fastboot": "ares_images_V13.0.9.0.SKJCNXM_20221017.0000.00_12.0_cn_f46ed417a2.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKJCNXM",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.8.0.SKJCNXM_962a604fb3_12.0.zip",
-          "fastboot": "ares_images_V13.0.8.0.SKJCNXM_20220626.0000.00_12.0_cn_1c8cd8c1c0.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SKJCNXM",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.7.0.SKJCNXM_48ffec74d8_12.0.zip",
-          "fastboot": "ares_images_V13.0.7.0.SKJCNXM_20220510.0000.00_12.0_cn_fe1eb7b4f7.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKJCNXM",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.4.0.SKJCNXM_315d9552cd_12.0.zip",
-          "fastboot": "ares_images_V13.0.4.0.SKJCNXM_20220320.0000.00_12.0_cn_1ea6819a51.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKJCNXM",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.3.0.SKJCNXM_45927a602a_12.0.zip",
-          "fastboot": "ares_images_V13.0.3.0.SKJCNXM_20220223.0000.00_12.0_cn_40308804d0.tgz"
-        },
-        {
-          "miui": "V12.5.8.0.RKJCNXM",
-          "android": "11.0",
-          "recovery": "miui_ARES_V12.5.8.0.RKJCNXM_d866a4bd8b_11.0.zip",
-          "fastboot": "ares_images_V12.5.8.0.RKJCNXM_20210726.0000.00_11.0_cn_d990bbe324.tgz"
-        },
-        {
-          "miui": "V12.5.6.0.RKJCNXM",
-          "android": "11.0",
-          "recovery": "miui_ARES_V12.5.6.0.RKJCNXM_c571abdd03_11.0.zip",
-          "fastboot": "ares_images_V12.5.6.0.RKJCNXM_20210526.0000.00_11.0_cn_45927a13db.tgz"
-        },
-        {
-          "miui": "V12.5.5.0.RKJCNXM",
-          "android": "11.0",
-          "recovery": "miui_ARES_V12.5.5.0.RKJCNXM_9965600c65_11.0.zip",
-          "fastboot": "ares_images_V12.5.5.0.RKJCNXM_20210524.0000.00_11.0_cn_cb9479baa6.tgz"
-        },
-        {
-          "miui": "V12.5.3.0.RKJCNXM",
-          "android": "11.0",
-          "recovery": "miui_ARES_V12.5.3.0.RKJCNXM_0762ce621a_11.0.zip",
-          "fastboot": "ares_images_V12.5.3.0.RKJCNXM_20210429.0000.00_11.0_cn_1084bb7a7f.tgz"
-        },
-        {
-          "miui": "V12.5.12.0.RKJCNXM",
-          "android": "11.0",
-          "recovery": "miui_ARES_V12.5.12.0.RKJCNXM_0fab614862_11.0.zip",
-          "fastboot": "ares_images_V12.5.12.0.RKJCNXM_20211129.0000.00_11.0_cn_e8cc69b884.tgz"
-        },
-        {
-          "miui": "V12.5.10.0.RKJCNXM",
-          "android": "11.0",
-          "recovery": "miui_ARES_V12.5.10.0.RKJCNXM_20a2a20007_11.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"ares",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TKJCNXM",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.4.0.TKJCNXM_511d5498e5_13.0.zip",
-          "fastboot": "ares_images_V14.0.4.0.TKJCNXM_20230710.0000.00_13.0_cn_chinatelecom_fba2b9bb33.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKJCNXM",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.3.0.TKJCNXM_4c4e40a144_13.0.zip",
-          "fastboot": "ares_images_V14.0.3.0.TKJCNXM_20230404.0000.00_13.0_cn_chinatelecom_60effa74d5.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKJCNXM",
-          "android": "13.0",
-          "recovery": "miui_ARES_V14.0.2.0.TKJCNXM_36a3687cce_13.0.zip",
-          "fastboot": "ares_images_V14.0.2.0.TKJCNXM_20230131.0000.00_13.0_cn_chinatelecom_fc6e7592c8.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SKJCNXM",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.9.0.SKJCNXM_4eb03893db_12.0.zip",
-          "fastboot": "ares_images_V13.0.9.0.SKJCNXM_20221017.0000.00_12.0_cn_chinatelecom_76b80b8b30.tgz"
-        }
-      ]
-    },
-    {
-      "code":"ares",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.9.0.SKJCNXM",
-          "android": "12.0",
-          "recovery": "miui_ARES_V13.0.9.0.SKJCNXM_4eb03893db_12.0.zip",
-          "fastboot": "ares_images_V13.0.9.0.SKJCNXM_20221017.0000.00_12.0_cn_chinamobile_9b0f183d57.tgz"
-        }
-      ]
-    },
-    {
-      "code":"ares_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.5.0.TKJINXM",
-          "android": "13.0",
-          "recovery": "miui_ARESINGlobal_V14.0.5.0.TKJINXM_f82c4bfd01_13.0.zip",
-          "fastboot": "ares_in_global_images_V14.0.5.0.TKJINXM_20231010.0000.00_13.0_in_4cfd7ac934.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TKJINXM",
-          "android": "13.0",
-          "recovery": "miui_ARESINGlobal_V14.0.4.0.TKJINXM_b137439e7a_13.0.zip",
-          "fastboot": "ares_in_global_images_V14.0.4.0.TKJINXM_20230714.0000.00_13.0_in_c8a416bfc6.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKJINXM",
-          "android": "13.0",
-          "recovery": "miui_ARESINGlobal_V14.0.3.0.TKJINXM_6f42b74c21_13.0.zip",
-          "fastboot": "ares_in_global_images_V14.0.3.0.TKJINXM_20230504.0000.00_13.0_in_12d9a4d3ab.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKJINXM",
-          "android": "13.0",
-          "recovery": "miui_ARESINGlobal_V14.0.1.0.TKJINXM_dc6957e454_13.0.zip",
-          "fastboot": "ares_in_global_images_V14.0.1.0.TKJINXM_20230203.0000.00_13.0_in_c750d08285.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKJINXM",
-          "android": "12.0",
-          "recovery": "miui_ARESINGlobal_V13.0.5.0.SKJINXM_6d348beef2_12.0.zip",
-          "fastboot": "ares_in_global_images_V13.0.5.0.SKJINXM_20221111.0000.00_12.0_in_e8238202cc.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKJINXM",
-          "android": "12.0",
-          "recovery": "miui_ARESINGlobal_V13.0.4.0.SKJINXM_cda5f54377_12.0.zip",
-          "fastboot": "ares_in_global_images_V13.0.4.0.SKJINXM_20220811.0000.00_12.0_in_86d6e7f0da.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKJINXM",
-          "android": "12.0",
-          "recovery": "miui_ARESINGlobal_V13.0.3.0.SKJINXM_7fc8702539_12.0.zip",
-          "fastboot": "ares_in_global_images_V13.0.3.0.SKJINXM_20220606.0000.00_12.0_in_487c9d9e38.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKJINXM",
-          "android": "12.0",
-          "recovery": "miui_ARESINGlobal_V13.0.1.0.SKJINXM_f83ba2a353_12.0.zip",
-          "fastboot": "ares_in_global_images_V13.0.1.0.SKJINXM_20220228.0000.00_12.0_in_4d5ed35b9a.tgz"
-        },
-        {
-          "miui": "V13.0.0.10.SKJINXM",
-          "android": "12.0",
-          "recovery": "miui_ARESINGlobal_V13.0.0.10.SKJINXM_6a746b43e9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V12.5.7.0.RKJINXM",
-          "android": "11.0",
-          "recovery": "miui_ARESINGlobal_V12.5.7.0.RKJINXM_9e66206b15_11.0.zip",
-          "fastboot": "ares_in_global_images_V12.5.7.0.RKJINXM_20211129.0000.00_11.0_in_ca27ebc0dc.tgz"
-        },
-        {
-          "miui": "V12.5.5.0.RKJINXM",
-          "android": "11.0",
-          "recovery": "miui_ARESINGlobal_V12.5.5.0.RKJINXM_e147a56170_11.0.zip",
-          "fastboot": "ares_in_global_images_V12.5.5.0.RKJINXM_20210818.0000.00_11.0_in_364b3801dc.tgz"
-        },
-        {
-          "miui": "V12.5.4.0.RKJINXM",
-          "android": "11.0",
-          "recovery": "miui_ARESINGlobal_V12.5.4.0.RKJINXM_4423d96961_11.0.zip",
-          "fastboot": "ares_in_global_images_V12.5.4.0.RKJINXM_20210721.0000.00_11.0_in_f38f58a6cb.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "ares",
+	"cnname": "Redmi K40 游戏增强版/POCO F3 GT",
+	"enname": "Redmi K40 Gaming/POCO F3 GT",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "37339049",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["343"],
+	"cbid": ["345"],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "ares",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.4.17.DEV_6d67cc0938_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.4.10.DEV_4f060bfc2e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.4.2.DEV_c3c07bd66f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.3.27.DEV_4b2dba363e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.20.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.3.20.DEV_533745e473_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.3.13.DEV_cb9724e5bd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.3.7.DEV_e287e00fd4_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.2.27.DEV_cd6dac17db_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.2.21.DEV_1efa7ed25e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.2.13.DEV_026a7c5370_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.2.6.DEV_082ad43a93_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.1.30.DEV_64aa911952_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.1.9.DEV_ae18ec08c7_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.23.1.3.DEV_917ab0fd71_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.22.12.26.DEV_77dab78db5_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.22.12.19.DEV_cc35cc8b25_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.22.12.8.DEV_3cad47ad05_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.22.12.5.DEV_9ce65836f3_13.0.zip",
+					"fastboot": "ares_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_eeef419b6c.tgz"
+				},
+				{
+					"miui": "22.10.26",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.26_e5f0b46eaa_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.25",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.25_7a487bfbc1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.24.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.10.24.DEV_5bf8f81d64_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.24",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.24_71ac2d409c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.21",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.21_aea9541cc8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.19",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.19_475d646163_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.18",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.18_c4f562d6ee_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.17.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.10.17.DEV_a4b29551b5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.17",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.17_00d78b9074_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.14",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.14_5ea56004d3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.12",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.12_040e7f89d4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.10.11.DEV_aa6e297141_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.11",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.11_73fe7c4ebf_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.10",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.10_61193bfacb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.8",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.10.8_9c03487707_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.29",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.29_28a62d55c3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.9.28.DEV_d5099e78b5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.28",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.28_cf299f2db5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.27",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.27_c3d2c6ef76_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.26",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.26_1cc18e9033_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.23",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.23_0e0cdf8b45_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.21",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.21_ec793e94c8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.20",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.20_50f97cf39e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.19.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.9.19.DEV_c0e8fc7328_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.19",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.19_488f6be231_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.16",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.16_88bb49adad_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.14",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.14_48b09ebdbc_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.13.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.9.13.DEV_ca0ba002c2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.13",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.13_d0c880233b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.9",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.9_9bc55dab45_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.7",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.7_c186687ef6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.6",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.6_1dfc754418_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.9.5.DEV_90ce1ab105_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.5",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.9.5_d1037117aa_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.31",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.31_197ce2c4c7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.30",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.30_4bd13cc880_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.8.29.DEV_4886dcd807_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.29",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.29_2bf493a918_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.26",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.26_8ed31e5b64_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.25",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.25_1277205c48_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.24",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.24_a0de41bf1b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.23",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.23_a09c07f61a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.8.22.DEV_4e667d098a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.19",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.19_3914006166_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.17.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.1.22.8.17.DEV_561535e80f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.17",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.17_0b02b3ad2f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.16",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.16_e5041c242b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.15",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.15_19542372f7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.59.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.59.DEV_fc61ead904_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.56.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.56.DEV_6407f951d1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.55.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.55.DEV_54dae77144_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.50.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.50.DEV_e83f23ecec_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.47.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.47.DEV_5be6e1b64a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.45.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.45.DEV_7a741b5ebd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.43.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.43.DEV_8c6b489806_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.40.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.40.DEV_e6656ed7fb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.39.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.39.DEV_f161a81f01_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.37.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.37.DEV_a6fa7702b4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.8.1.35.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.1.35.DEV_8e49efcf78_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.7.1.32.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.7.1.32.DEV_3200e408cd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.6.1.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.6.1.29.DEV_b1c20a9814_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.5.1.28.DEV_ba4d5441b7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.27.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.4.1.27.DEV_7364d59f2a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.26.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.4.1.26.DEV_9db67c19b9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.23.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.4.1.23.DEV_6126a5fe71_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.4.1.22.DEV_9646d3000f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.19.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.4.1.19.DEV_d29ee9d78c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.1.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.3.1.16.DEV_c44684d2f7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.1.15.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.3.1.15.DEV_da9922d345_12.0.zip",
+					"fastboot": "ares_images_V13.0.3.1.15.DEV_20220308.0000.00_12.0_cn_303d437722.tgz"
+				},
+				{
+					"miui": "V13.0.3.1.13.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.3.1.13.DEV_0df786ab6a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.1.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.2.1.11.DEV_0d7e32e7ad_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.1.10.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.2.1.10.DEV_7e8b787fe2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.8.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.1.1.8.DEV_c76e45721b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.1.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.1.1.5.DEV_54cd89c250_12.0.zip",
+					"fastboot": "ares_images_V13.0.1.1.5.DEV_20220122.0000.00_12.0_cn_d829bf35e9.tgz"
+				},
+				{
+					"miui": "V13.0.0.1.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.0.1.5.DEV_aac59869a8_12.0.zip",
+					"fastboot": "ares_images_V13.0.0.1.5.DEV_20220118.0000.00_12.0_cn_16fd0dd371.tgz"
+				},
+				{
+					"miui": "22.8.13",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.13_305715a759_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.12",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.12_b1f5aa4810_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.10",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.10_41c09744cd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.9",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.9_8de2b321e1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.8",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.8_8f4151af8a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.5",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.5_fadbec96bf_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.3",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.3_d0453d59aa_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.2",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.2_427b9a55be_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.1",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.8.1_084db06cb4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.29",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.29_0ee28bbdd0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.28",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.28_b547eb03d1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.26",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.26_8067d722c9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.21",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.21_1cd88b0e7d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.20",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.20_7f2351747d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.18",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.18_d51a428f76_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.15",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.15_fe84e13ad3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.13",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.13_a5517acd65_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.12",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.12_3778dd7fad_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.11",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.11_c5e12730cf_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.8",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.8_ff4a8d414e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.6",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.6_91658b8ad1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.5",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.5_4062afc7e6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.4",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.4_d873f6eceb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.1",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.7.1_95ba8316d0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.29",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.29_02b0c6d073_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.28",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.28_29697b4b6d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.27",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.27_637391081a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.24",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.24_d579ae218b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.22",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.22_ac030ef5e7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.21",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.21_3bfa0fbd54_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.20",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.20_7af1c09ce0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.17",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.17_d356915d28_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.15",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.15_019db88ad9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.14",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.14_fd807325d5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.9",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.9_44748bdc02_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.8",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.8_1ebbf170ac_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.6",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.6_bd7e6f6b2e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.2",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.2_81c41ec271_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.1",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.6.1_7e66543c5d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.31",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.31_c9533f3564_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.27",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.27_02716ed0db_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.25",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.25_32c252b999_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.24",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.24_1b04fd896b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.23",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.23_5c43a2de3f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.20",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.20_136147f18b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.18",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.18_1456414029_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.17",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.17_bd34bb6ea1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.16",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.16_2c90af3dad_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.15",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.15_976c043e86_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.11",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.11_ba2ac74f92_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.10",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.10_4fc6778590_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.9",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.9_a3142727fe_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.6",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.5.6_58ef522bc1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.27",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.27_d1dea78e48_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.26",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.26_2ecfd402f3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.25",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.25_bb04f5f907_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.22",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.22_ae2f6d372d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.20",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.20_1a4cdbccf4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.19",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.19_77aa9d7c7e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.18",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.18_eee3588009_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.13",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.13_d9dd486713_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.12",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.12_cfe12f7671_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.11",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.11_7ac92de477_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.10",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.10_f8b78475ab_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.6",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.6_3700205fc2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.1",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.4.1_981524fbde_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.30",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.30_4ef48a1bb1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.29",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.29_23f20267b5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.28",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.28_74d4d63a64_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.25",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.25_3ab3b0792e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.23",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.23_5655c7e1e5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.22",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.22_072d691375_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.21",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.21_c378b4e9a7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.18",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.18_1c73526368_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.16",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.16_1840282010_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.15",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.15_0421fa4493_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.14",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.14_ca4a08ba63_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.11",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.11_b4f1173500_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.9",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.9_2673de4395_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.8",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.8_e600f3fe0c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.7",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.7_ddadb2c096_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.4",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.4_a22f4dc4d6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.3",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.3_9ed8471658_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.2",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.3.2_dd393cfdf8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.25",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.25_d56129a0da_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.23",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.23_fbd63cffbc_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.22",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.22_49dd97c7c5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.21",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.21_b471098879_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.20",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.20_9f65e2deae_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.17",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.17_dd93b77f06_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.16",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.16_d73cea8df5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.15",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.15_745430d735_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.10",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.10_2fb75d3809_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.9",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.9_01a13ad7cd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.8",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.8_84f21d05ce_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.7",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.2.7_d4abd9c696_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.24",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.24_fa96b840a4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.19",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.19_2635ef92b6_12.0.zip",
+					"fastboot": "ares_pre_images_22.1.19_20220119.0000.00_12.0_cn_cf9f53da8d.tgz"
+				},
+				{
+					"miui": "22.1.18",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.18_ef81a3d8ab_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.17",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.17_2a00dfb08b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.14",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.14_bc7d0a5fc0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.13",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.13_fe225402ca_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.12",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.12_fc65746d53_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.11",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_22.1.11_8a185991de_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.30",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_21.12.30_770f5457a8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.27",
+					"android": "12.0",
+					"recovery": "miui_ARESPRE_21.12.27_4d0560fd47_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.8",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.12.8_02482d0304_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.7",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.12.7_5b79c057cc_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.6",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.12.6_a62dfbaf9a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.4",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.12.4_e18c6b64ab_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.1",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.12.1_0f37f9f6c1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.30",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.30_f67cf5950f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.29",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.29_e7d204ed0c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.28",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.28_195afba7f4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.24",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.24_bf9b3a2526_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.23",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.23_a4f9843c2c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.22",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.22_f1a911fa18_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.17",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.17_fd47aae68e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.16",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.16_4a7bd3aaa4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.15",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.15_c2b763fc4b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.9",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.9_b7f345cf9d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.8",
+					"android": "12.0",
+					"recovery": "miui_ARES_21.11.8_4d9eff787b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.20",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.10.20_1042c24b86_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.19",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.10.19_a920c376ca_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.15",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.10.15_686770ad67_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.13",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.10.13_159790180c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.12",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.10.12_91de0575e1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.11",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.10.11_e78370cf57_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.8",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.10.8_cffa30dccf_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.28",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.28_a0c9c12a2c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.27",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.27_69eddfdc1f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.24",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.24_069df210ba_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.22",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.22_fdedad7518_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.18",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.18_4cf021b858_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.15",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.15_f3857e6d25_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.14",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.14_f4a2ea422f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.13",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.13_4fb440e0bb_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.8",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.8_f75c8f5545_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.2",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.9.2_dc2c1fe2dc_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.31",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.31_02c5cc5a24_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.30",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.30_33c8e3b88f_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.27",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.27_0e76453d79_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.25",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.25_4edc065bc1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.18",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.18_6027276375_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.13",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.13_2768c39370_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.11",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.11_2c75019e59_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.9",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.9_90aef0c942_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.6",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.6_52f2a464dc_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.4",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.8.4_9076e148b3_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.28",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.28_078bbf45c6_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.27",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.27_216f49db74_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.26",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.26_5508ca15d3_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.23",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.23_01d96e6285_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.21",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.21_9ffccf4fa6_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.14",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.14_2afb8a7580_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.9",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.9_19c5cfd8b8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.7",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.7_ab1f3e7216_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.5",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.5_8c66691648_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.7.2",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.7.2_2ea8742213_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.30",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.30_80dd703af6_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.28",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.28_32db5b878c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.23",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.23_18dac870a1_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.18",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.18_fce01f9daf_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.17",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.17_51d1caf53c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.16",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.16_ae167a9b87_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.11",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.11_ef706f19df_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.9",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.9_e551ed7fcb_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.8",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.8_6797cd7a87_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.7",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.7_2dbf3cf227_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.4",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.4_39cb942d37_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.2",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.2_f87de2e2ee_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.6.1",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.6.1_5c121fc85e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.31",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.31_acdac66577_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.28",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.28_7c63150b23_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.27",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.27_a0326c482d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.26",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.26_477399079c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.25",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.25_3753f09d5d_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.24",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.24_7202c20487_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.20",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.20_a5534f9a34_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.19",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.19_3b5f7eac6b_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.5.18",
+					"android": "11.0",
+					"recovery": "miui_ARES_21.5.18_02c4b12315_11.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "ares",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V12.5.7.0.RKJCNDM",
+					"android": "11.0",
+					"recovery": "",
+					"fastboot": "ares_demo_images_V12.5.7.0.RKJCNDM_20210508.0000.00_11.0_cn_13f7db875c.tgz"
+				}
+			]
+		},
+		{
+			"code": "ares",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TKJCNXM",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.5.0.TKJCNXM_4f27761e0b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.4.0.TKJCNXM",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.4.0.TKJCNXM_511d5498e5_13.0.zip",
+					"fastboot": "ares_images_V14.0.4.0.TKJCNXM_20230710.0000.00_13.0_cn_932146031f.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKJCNXM",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.3.0.TKJCNXM_4c4e40a144_13.0.zip",
+					"fastboot": "ares_images_V14.0.3.0.TKJCNXM_20230404.0000.00_13.0_cn_e00263ca4d.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKJCNXM",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.2.0.TKJCNXM_36a3687cce_13.0.zip",
+					"fastboot": "ares_images_V14.0.2.0.TKJCNXM_20230131.0000.00_13.0_cn_71c2d82d9f.tgz"
+				}
+			]
+		},
+		{
+			"code": "ares",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.0.9.0.SKJCNXM",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.9.0.SKJCNXM_4eb03893db_12.0.zip",
+					"fastboot": "ares_images_V13.0.9.0.SKJCNXM_20221017.0000.00_12.0_cn_f46ed417a2.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKJCNXM",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.8.0.SKJCNXM_962a604fb3_12.0.zip",
+					"fastboot": "ares_images_V13.0.8.0.SKJCNXM_20220626.0000.00_12.0_cn_1c8cd8c1c0.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SKJCNXM",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.7.0.SKJCNXM_48ffec74d8_12.0.zip",
+					"fastboot": "ares_images_V13.0.7.0.SKJCNXM_20220510.0000.00_12.0_cn_fe1eb7b4f7.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKJCNXM",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.4.0.SKJCNXM_315d9552cd_12.0.zip",
+					"fastboot": "ares_images_V13.0.4.0.SKJCNXM_20220320.0000.00_12.0_cn_1ea6819a51.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKJCNXM",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.3.0.SKJCNXM_45927a602a_12.0.zip",
+					"fastboot": "ares_images_V13.0.3.0.SKJCNXM_20220223.0000.00_12.0_cn_40308804d0.tgz"
+				},
+				{
+					"miui": "V12.5.8.0.RKJCNXM",
+					"android": "11.0",
+					"recovery": "miui_ARES_V12.5.8.0.RKJCNXM_d866a4bd8b_11.0.zip",
+					"fastboot": "ares_images_V12.5.8.0.RKJCNXM_20210726.0000.00_11.0_cn_d990bbe324.tgz"
+				},
+				{
+					"miui": "V12.5.6.0.RKJCNXM",
+					"android": "11.0",
+					"recovery": "miui_ARES_V12.5.6.0.RKJCNXM_c571abdd03_11.0.zip",
+					"fastboot": "ares_images_V12.5.6.0.RKJCNXM_20210526.0000.00_11.0_cn_45927a13db.tgz"
+				},
+				{
+					"miui": "V12.5.5.0.RKJCNXM",
+					"android": "11.0",
+					"recovery": "miui_ARES_V12.5.5.0.RKJCNXM_9965600c65_11.0.zip",
+					"fastboot": "ares_images_V12.5.5.0.RKJCNXM_20210524.0000.00_11.0_cn_cb9479baa6.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKJCNXM",
+					"android": "11.0",
+					"recovery": "miui_ARES_V12.5.3.0.RKJCNXM_0762ce621a_11.0.zip",
+					"fastboot": "ares_images_V12.5.3.0.RKJCNXM_20210429.0000.00_11.0_cn_1084bb7a7f.tgz"
+				},
+				{
+					"miui": "V12.5.12.0.RKJCNXM",
+					"android": "11.0",
+					"recovery": "miui_ARES_V12.5.12.0.RKJCNXM_0fab614862_11.0.zip",
+					"fastboot": "ares_images_V12.5.12.0.RKJCNXM_20211129.0000.00_11.0_cn_e8cc69b884.tgz"
+				},
+				{
+					"miui": "V12.5.10.0.RKJCNXM",
+					"android": "11.0",
+					"recovery": "miui_ARES_V12.5.10.0.RKJCNXM_20a2a20007_11.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "ares",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TKJCNXM",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.4.0.TKJCNXM_511d5498e5_13.0.zip",
+					"fastboot": "ares_images_V14.0.4.0.TKJCNXM_20230710.0000.00_13.0_cn_chinatelecom_fba2b9bb33.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKJCNXM",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.3.0.TKJCNXM_4c4e40a144_13.0.zip",
+					"fastboot": "ares_images_V14.0.3.0.TKJCNXM_20230404.0000.00_13.0_cn_chinatelecom_60effa74d5.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKJCNXM",
+					"android": "13.0",
+					"recovery": "miui_ARES_V14.0.2.0.TKJCNXM_36a3687cce_13.0.zip",
+					"fastboot": "ares_images_V14.0.2.0.TKJCNXM_20230131.0000.00_13.0_cn_chinatelecom_fc6e7592c8.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SKJCNXM",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.9.0.SKJCNXM_4eb03893db_12.0.zip",
+					"fastboot": "ares_images_V13.0.9.0.SKJCNXM_20221017.0000.00_12.0_cn_chinatelecom_76b80b8b30.tgz"
+				}
+			]
+		},
+		{
+			"code": "ares",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.9.0.SKJCNXM",
+					"android": "12.0",
+					"recovery": "miui_ARES_V13.0.9.0.SKJCNXM_4eb03893db_12.0.zip",
+					"fastboot": "ares_images_V13.0.9.0.SKJCNXM_20221017.0000.00_12.0_cn_chinamobile_9b0f183d57.tgz"
+				}
+			]
+		},
+		{
+			"code": "ares_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TKJINXM",
+					"android": "13.0",
+					"recovery": "miui_ARESINGlobal_V14.0.5.0.TKJINXM_f82c4bfd01_13.0.zip",
+					"fastboot": "ares_in_global_images_V14.0.5.0.TKJINXM_20231010.0000.00_13.0_in_4cfd7ac934.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TKJINXM",
+					"android": "13.0",
+					"recovery": "miui_ARESINGlobal_V14.0.4.0.TKJINXM_b137439e7a_13.0.zip",
+					"fastboot": "ares_in_global_images_V14.0.4.0.TKJINXM_20230714.0000.00_13.0_in_c8a416bfc6.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKJINXM",
+					"android": "13.0",
+					"recovery": "miui_ARESINGlobal_V14.0.3.0.TKJINXM_6f42b74c21_13.0.zip",
+					"fastboot": "ares_in_global_images_V14.0.3.0.TKJINXM_20230504.0000.00_13.0_in_12d9a4d3ab.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKJINXM",
+					"android": "13.0",
+					"recovery": "miui_ARESINGlobal_V14.0.1.0.TKJINXM_dc6957e454_13.0.zip",
+					"fastboot": "ares_in_global_images_V14.0.1.0.TKJINXM_20230203.0000.00_13.0_in_c750d08285.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKJINXM",
+					"android": "12.0",
+					"recovery": "miui_ARESINGlobal_V13.0.5.0.SKJINXM_6d348beef2_12.0.zip",
+					"fastboot": "ares_in_global_images_V13.0.5.0.SKJINXM_20221111.0000.00_12.0_in_e8238202cc.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKJINXM",
+					"android": "12.0",
+					"recovery": "miui_ARESINGlobal_V13.0.4.0.SKJINXM_cda5f54377_12.0.zip",
+					"fastboot": "ares_in_global_images_V13.0.4.0.SKJINXM_20220811.0000.00_12.0_in_86d6e7f0da.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKJINXM",
+					"android": "12.0",
+					"recovery": "miui_ARESINGlobal_V13.0.3.0.SKJINXM_7fc8702539_12.0.zip",
+					"fastboot": "ares_in_global_images_V13.0.3.0.SKJINXM_20220606.0000.00_12.0_in_487c9d9e38.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKJINXM",
+					"android": "12.0",
+					"recovery": "miui_ARESINGlobal_V13.0.1.0.SKJINXM_f83ba2a353_12.0.zip",
+					"fastboot": "ares_in_global_images_V13.0.1.0.SKJINXM_20220228.0000.00_12.0_in_4d5ed35b9a.tgz"
+				},
+				{
+					"miui": "V13.0.0.10.SKJINXM",
+					"android": "12.0",
+					"recovery": "miui_ARESINGlobal_V13.0.0.10.SKJINXM_6a746b43e9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.7.0.RKJINXM",
+					"android": "11.0",
+					"recovery": "miui_ARESINGlobal_V12.5.7.0.RKJINXM_9e66206b15_11.0.zip",
+					"fastboot": "ares_in_global_images_V12.5.7.0.RKJINXM_20211129.0000.00_11.0_in_ca27ebc0dc.tgz"
+				},
+				{
+					"miui": "V12.5.5.0.RKJINXM",
+					"android": "11.0",
+					"recovery": "miui_ARESINGlobal_V12.5.5.0.RKJINXM_e147a56170_11.0.zip",
+					"fastboot": "ares_in_global_images_V12.5.5.0.RKJINXM_20210818.0000.00_11.0_in_364b3801dc.tgz"
+				},
+				{
+					"miui": "V12.5.4.0.RKJINXM",
+					"android": "11.0",
+					"recovery": "miui_ARESINGlobal_V12.5.4.0.RKJINXM_4423d96961_11.0.zip",
+					"fastboot": "ares_in_global_images_V12.5.4.0.RKJINXM_20210721.0000.00_11.0_in_f38f58a6cb.tgz"
+				}
+			]
+		}
+	]
 }

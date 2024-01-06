@@ -1,1257 +1,1255 @@
 {
-  "codename": "earth",
-  "cnname": "Redmi 12C/POCO C55",
-  "enname": "Redmi 12C/POCO C55",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "39560126",
-  "ismiui":"0",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "479"
-  ],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"earth",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TCVCNXM",
-          "android": "13.0",
-          "recovery": "miui_EARTH_V14.0.4.0.TCVCNXM_1238757265_13.0.zip",
-          "fastboot": "earth_images_V14.0.4.0.TCVCNXM_20231106.0000.00_13.0_cn_8c0c8ae09a.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TCVCNXM",
-          "android": "13.0",
-          "recovery": "miui_EARTH_V14.0.2.0.TCVCNXM_a172f552a0_13.0.zip",
-          "fastboot": "earth_images_V14.0.2.0.TCVCNXM_20230815.0000.00_13.0_cn_96154767fd.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TCVCNXM",
-          "android": "13.0",
-          "recovery": "miui_EARTH_V14.0.1.0.TCVCNXM_16aa946429_13.0.zip",
-          "fastboot": "earth_images_V14.0.1.0.TCVCNXM_20230512.0000.00_13.0_cn_d69879c03e.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.0.10.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.10.0.SCVCNXM_d252e1bf0e_12.0.zip",
-          "fastboot": "earth_images_V13.0.10.0.SCVCNXM_20231017.0000.00_12.0_cn_6eebabdaa6.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.9.0.SCVCNXM_3a8732bfab_12.0.zip",
-          "fastboot": "earth_images_V13.0.9.0.SCVCNXM_20230717.0000.00_12.0_cn_19f4a81723.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.8.0.SCVCNXM_dbc7475907_12.0.zip",
-          "fastboot": "earth_images_V13.0.8.0.SCVCNXM_20230509.0000.00_12.0_cn_72c2889db7.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.7.0.SCVCNXM_0837c6a70d_12.0.zip",
-          "fastboot": "earth_images_V13.0.7.0.SCVCNXM_20230419.0000.00_12.0_cn_398562b7d8.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip",
-          "fastboot": "earth_images_V13.0.6.0.SCVCNXM_20230302.0000.00_12.0_cn_34510a0bda.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.5.0.SCVCNXM_7ff5e2ee27_12.0.zip",
-          "fastboot": "earth_images_V13.0.5.0.SCVCNXM_20230208.0000.00_12.0_cn_bd6da88d50.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.4.0.SCVCNXM_de102f96ee_12.0.zip",
-          "fastboot": "earth_images_V13.0.4.0.SCVCNXM_20230115.0000.00_12.0_cn_b0332c1bfd.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.3.0.SCVCNXM_a0ea237487_12.0.zip",
-          "fastboot": "earth_images_V13.0.3.0.SCVCNXM_20230110.0000.00_12.0_cn_b29b2e363e.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.2.0.SCVCNXM_308e259415_12.0.zip",
-          "fastboot": "earth_images_V13.0.2.0.SCVCNXM_20230105.0000.00_12.0_cn_b6e6429365.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.1.0.SCVCNXM_018e6f07e7_12.0.zip",
-          "fastboot": "earth_images_V13.0.1.0.SCVCNXM_20221117.0000.00_12.0_cn_26667f68bd.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TCVCNXM",
-          "android": "13.0",
-          "recovery": "miui_EARTH_V14.0.4.0.TCVCNXM_1238757265_13.0.zip",
-          "fastboot": "earth_images_V14.0.4.0.TCVCNXM_20231106.0000.00_13.0_cn_chinatelecom_1d516f4de2.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TCVCNXM",
-          "android": "13.0",
-          "recovery": "miui_EARTH_V14.0.2.0.TCVCNXM_a172f552a0_13.0.zip",
-          "fastboot": "earth_images_V14.0.2.0.TCVCNXM_20230815.0000.00_13.0_cn_chinatelecom_c5085c557e.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.10.0.SCVCNXM_d252e1bf0e_12.0.zip",
-          "fastboot": "earth_images_V13.0.10.0.SCVCNXM_20231017.0000.00_12.0_cn_chinatelecom_7553c4aadc.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.9.0.SCVCNXM_3a8732bfab_12.0.zip",
-          "fastboot": "earth_images_V13.0.9.0.SCVCNXM_20230717.0000.00_12.0_cn_chinatelecom_59172fee63.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TCVCNXM",
-          "android": "13.0",
-          "recovery": "miui_EARTH_V14.0.1.0.TCVCNXM_16aa946429_13.0.zip",
-          "fastboot": "earth_images_V14.0.1.0.TCVCNXM_20230512.0000.00_13.0_cn_chinatelecom_c6357e28da.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.8.0.SCVCNXM_dbc7475907_12.0.zip",
-          "fastboot": "earth_images_V13.0.8.0.SCVCNXM_20230509.0000.00_12.0_cn_chinatelecom_f7b4b3f990.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.7.0.SCVCNXM_0837c6a70d_12.0.zip",
-          "fastboot": "earth_images_V13.0.7.0.SCVCNXM_20230419.0000.00_12.0_cn_chinatelecom_469c1ec57b.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip",
-          "fastboot": "earth_images_V13.0.6.0.SCVCNXM_20230302.0000.00_12.0_cn_chinatelecom_0e920eff6c.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.5.0.SCVCNXM_7ff5e2ee27_12.0.zip",
-          "fastboot": "earth_images_V13.0.5.0.SCVCNXM_20230208.0000.00_12.0_cn_chinatelecom_90d4cc1dad.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.4.0.SCVCNXM_de102f96ee_12.0.zip",
-          "fastboot": "earth_images_V13.0.4.0.SCVCNXM_20230115.0000.00_12.0_cn_chinatelecom_202eed653a.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.3.0.SCVCNXM_a0ea237487_12.0.zip",
-          "fastboot": "earth_images_V13.0.3.0.SCVCNXM_20230110.0000.00_12.0_cn_chinatelecom_b4a7973c89.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.2.0.SCVCNXM_308e259415_12.0.zip",
-          "fastboot": "earth_images_V13.0.2.0.SCVCNXM_20230105.0000.00_12.0_cn_chinatelecom_eb629e8c0b.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.1.0.SCVCNXM_018e6f07e7_12.0.zip",
-          "fastboot": "earth_images_V13.0.1.0.SCVCNXM_20221117.0000.00_12.0_cn_chinatelecom_85f45a1d19.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.10.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.10.0.SCVCNXM_d252e1bf0e_12.0.zip",
-          "fastboot": "earth_images_V13.0.10.0.SCVCNXM_20231017.0000.00_12.0_cn_chinamobile_c3fceaeb05.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.9.0.SCVCNXM_3a8732bfab_12.0.zip",
-          "fastboot": "earth_images_V13.0.9.0.SCVCNXM_20230717.0000.00_12.0_cn_chinamobile_4f03a0a988.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.8.0.SCVCNXM_dbc7475907_12.0.zip",
-          "fastboot": "earth_images_V13.0.8.0.SCVCNXM_20230509.0000.00_12.0_cn_chinamobile_5230ff8fc8.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.7.0.SCVCNXM_0837c6a70d_12.0.zip",
-          "fastboot": "earth_images_V13.0.7.0.SCVCNXM_20230419.0000.00_12.0_cn_chinamobile_19365fb9a1.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SCVCNXM",
-          "android": "12.0",
-          "recovery": "miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip",
-          "fastboot": "earth_images_V13.0.6.0.SCVCNXM_20230302.0000.00_12.0_cn_chinamobile_35bbc8b5b2.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "V14.0.23.12.18.EP.STDEE.C3T",
-          "android": "13.0",
-          "recovery": "miui_EARTHEPSTDEE_V14.0.23.12.18.EP.STDEE.C3T_25ae1a48da_13.0.zip",
-          "fastboot": "earth_ep_stdee_images_V14.0.23.12.18.EP.STDEE.C3T_20231218.0000.00_13.0_cn_411aaa8faa.tgz"
-        },
-        {
-          "miui": "V14.0.23.12.18.EP.STDEE.C3T",
-          "android": "13.0",
-          "recovery": "miui_EARTHEPSTDEE_V14.0.23.12.18.EP.STDEE.C3T_25ae1a48da_13.0.zip",
-          "fastboot": "earth_ep_stdee_images_V14.0.23.12.18.EP.STDEE.C3T_20231218.0000.00_13.0_cn_chinatelecom_4da9f976b6.tgz"
-        },
-        {
-          "miui": "V14.0.23.10.24.EP.STDEE.C3T",
-          "android": "13.0",
-          "recovery": "miui_EARTHEPSTDEE_V14.0.23.10.24.EP.STDEE.C3T_4d759d6c04_13.0.zip",
-          "fastboot": "earth_ep_stdee_images_V14.0.23.10.24.EP.STDEE.C3T_20231024.0000.00_13.0_cn_eb83b37ee3.tgz"
-        },
-        {
-          "miui": "V14.0.23.10.24.EP.STDEE.C3T",
-          "android": "13.0",
-          "recovery": "miui_EARTHEPSTDEE_V14.0.23.10.24.EP.STDEE.C3T_4d759d6c04_13.0.zip",
-          "fastboot": "earth_ep_stdee_images_V14.0.23.10.24.EP.STDEE.C3T_20231024.0000.00_13.0_cn_chinatelecom_cd99c0643f.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.28.EP.STDEE.C3T",
-          "android": "13.0",
-          "recovery": "miui_EARTHEPSTDEE_V14.0.23.6.28.EP.STDEE.C3T_85c06f1dd2_13.0.zip",
-          "fastboot": "earth_ep_stdee_images_V14.0.23.6.28.EP.STDEE.C3T_20230628.0000.00_13.0_cn_014676eacc.tgz"
-        },
-        {
-          "miui": "V14.0.23.6.28.EP.STDEE.C3T",
-          "android": "13.0",
-          "recovery": "miui_EARTHEPSTDEE_V14.0.23.6.28.EP.STDEE.C3T_85c06f1dd2_13.0.zip",
-          "fastboot": "earth_ep_stdee_images_V14.0.23.6.28.EP.STDEE.C3T_20230628.0000.00_13.0_cn_chinatelecom_86f23a10a4.tgz"
-        },
-        {
-          "miui": "V13.0.23.5.16.EP.STDEE.C3T",
-          "android": "12.0",
-          "recovery": "miui_EARTHEPSTDEE_V13.0.23.5.16.EP.STDEE.C3T_2486cdff91_12.0.zip",
-          "fastboot": "earth_ep_stdee_images_V13.0.23.5.16.EP.STDEE.C3T_20230516.0000.00_12.0_cn_ac5a4f4e47.tgz"
-        },
-        {
-          "miui": "V13.0.23.3.29.EP.STDEE.C3T",
-          "android": "12.0",
-          "recovery": "miui_EARTHEPSTDEE_V13.0.23.3.29.EP.STDEE.C3T_9e9a979c89_12.0.zip",
-          "fastboot": "earth_ep_stdee_images_V13.0.23.3.29.EP.STDEE.C3T_20230329.0000.00_12.0_cn_b97da743ca.tgz"
-        },
-        {
-          "miui": "V13.0.23.3.15.EP.STDEE.C3T",
-          "android": "12.0",
-          "recovery": "miui_EARTHEPSTDEE_V13.0.23.3.15.EP.STDEE.C3T_b3dae1a320_12.0.zip",
-          "fastboot": "earth_ep_stdee_images_V13.0.23.3.15.EP.STDEE.C3T_20230315.0000.00_12.0_cn_f92bb5160b.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区稳定版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TCVTWXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHTWGlobal_V14.0.3.0.TCVTWXM_bed099fb22_13.0.zip",
-          "fastboot": "earth_tw_global_images_V14.0.3.0.TCVTWXM_20231109.0000.00_13.0_tw_106684de95.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TCVTWXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHTWGlobal_V14.0.2.0.TCVTWXM_27f3890e99_13.0.zip",
-          "fastboot": "earth_tw_global_images_V14.0.2.0.TCVTWXM_20230829.0000.00_13.0_tw_c08e8352f3.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TCVTWXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHTWGlobal_V14.0.1.0.TCVTWXM_70b75956f9_13.0.zip",
-          "fastboot": "earth_tw_global_images_V14.0.1.0.TCVTWXM_20230713.0000.00_13.0_tw_2af88f910f.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVTWXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHTWGlobal_V13.0.4.0.SCVTWXM_9d404f49ce_12.0.zip",
-          "fastboot": "earth_tw_global_images_V13.0.4.0.SCVTWXM_20230531.0000.00_12.0_global_30735cca72.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVTWXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHTWGlobal_V13.0.2.0.SCVTWXM_58a106a304_12.0.zip",
-          "fastboot": "earth_tw_global_images_V13.0.2.0.SCVTWXM_20230310.0000.00_12.0_global_4a408c3a02.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SCVTWXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHTWGlobal_V13.0.1.0.SCVTWXM_4d009d0522_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"earth_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TCVMIXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHGlobal_V14.0.7.0.TCVMIXM_b83820f33d_13.0.zip",
-          "fastboot": "earth_global_images_V14.0.7.0.TCVMIXM_20231205.0000.00_13.0_global_f94e03f451.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TCVMIXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHGlobal_V14.0.6.0.TCVMIXM_200a18e40f_13.0.zip",
-          "fastboot": "earth_global_images_V14.0.6.0.TCVMIXM_20230921.0000.00_13.0_global_6393b4426f.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TCVMIXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHGlobal_V14.0.4.0.TCVMIXM_a9aa86c158_13.0.zip",
-          "fastboot": "earth_global_images_V14.0.4.0.TCVMIXM_20230713.0000.00_13.0_global_f419b7ad2a.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SCVMIXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHGlobal_V13.0.8.0.SCVMIXM_317676a8b4_12.0.zip",
-          "fastboot": "earth_global_images_V13.0.8.0.SCVMIXM_20230811.0000.00_12.0_global_2b42ca8b3d.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SCVMIXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHGlobal_V13.0.7.0.SCVMIXM_df45be6a45_12.0.zip",
-          "fastboot": "earth_global_images_V13.0.7.0.SCVMIXM_20230519.0000.00_12.0_global_e1aef09046.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SCVMIXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHGlobal_V13.0.5.0.SCVMIXM_65e757e671_12.0.zip",
-          "fastboot": "earth_global_images_V13.0.5.0.SCVMIXM_20230310.0000.00_12.0_global_596373c569.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVMIXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHGlobal_V13.0.4.0.SCVMIXM_bcf04673ce_12.0.zip",
-          "fastboot": "earth_global_images_V13.0.4.0.SCVMIXM_20230226.0000.00_12.0_global_b4819b83f8.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVMIXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHGlobal_V13.0.3.0.SCVMIXM_207f0b2ea0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.0.SCVMIXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHGlobal_V13.0.2.0.SCVMIXM_51993cc5b8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.0.SCVMIXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHGlobal_V13.0.1.0.SCVMIXM_dca25e00ce_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.7.0.TCVEUXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAGlobal_V14.0.7.0.TCVEUXM_db2fd86fd3_13.0.zip",
-          "fastboot": "earth_eea_global_images_V14.0.7.0.TCVEUXM_20231106.0000.00_13.0_eea_58e679e6e8.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TCVEUXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAGlobal_V14.0.4.0.TCVEUXM_13a5ae398b_13.0.zip",
-          "fastboot": "earth_eea_global_images_V14.0.4.0.TCVEUXM_20230825.0000.00_13.0_eea_1423d643e1.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TCVEUXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAGlobal_V14.0.3.0.TCVEUXM_d1c1828972_13.0.zip",
-          "fastboot": "earth_eea_global_images_V14.0.3.0.TCVEUXM_20230621.0000.00_13.0_eea_3ce4dd5cfa.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SCVEUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAGlobal_V13.0.9.0.SCVEUXM_6dbbe8a75e_12.0.zip",
-          "fastboot": "earth_eea_global_images_V13.0.9.0.SCVEUXM_20230811.0000.00_12.0_eea_e7e07f8c9b.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SCVEUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAGlobal_V13.0.8.0.SCVEUXM_e06861504f_12.0.zip",
-          "fastboot": "earth_eea_global_images_V13.0.8.0.SCVEUXM_20230519.0000.00_12.0_eea_e045a99a1e.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SCVEUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAGlobal_V13.0.6.0.SCVEUXM_02f7206dba_12.0.zip",
-          "fastboot": "earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SCVEUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAGlobal_V13.0.5.0.SCVEUXM_01d0e61c75_12.0.zip",
-          "fastboot": "earth_eea_global_images_V13.0.5.0.SCVEUXM_20230203.0000.00_12.0_eea_d5dd5d5884.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVEUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAGlobal_V13.0.4.0.SCVEUXM_523a00cf7a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.0.SCVEUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAGlobal_V13.0.3.0.SCVEUXM_7113ccd4b2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.0.SCVEUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAGlobal_V13.0.2.0.SCVEUXM_41b38ec758_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_hg_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euhg",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲ThreeHK运营商定制版",
-      "enname": "Europe ThreeHK Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TCVEUHG",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAHGGlobal_V14.0.2.0.TCVEUHG_050fbb448b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.0.SCVEUHG",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAHGGlobal_V13.0.3.0.SCVEUHG_6eb26cdb2a_12.0.zip",
-          "fastboot": "earth_eea_hg_global_images_V13.0.3.0.SCVEUHG_20230607.0000.00_12.0_eea_04fdbd6e6b.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVEUHG",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_hg_global_images_V13.0.2.0.SCVEUHG_20230310.0000.00_12.0_eea_cf19319533.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_or_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euor",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Orange运营商定制版",
-      "enname": "Europe Orange Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TCVEUOR",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAORGlobal_V14.0.4.0.TCVEUOR_dc55810381_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.3.0.TCVEUOR",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAORGlobal_V14.0.3.0.TCVEUOR_66c6c2fe6e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TCVEUOR",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAORGlobal_V14.0.1.0.TCVEUOR_361d95dfde_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.6.0.SCVEUOR",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAORGlobal_V13.0.6.0.SCVEUOR_5e9bfee2b9_12.0.zip",
-          "fastboot": "earth_eea_or_global_images_V13.0.6.0.SCVEUOR_20230612.0000.00_12.0_eea_c8fe783eb8.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SCVEUOR",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_or_global_images_V13.0.5.0.SCVEUOR_20230404.0000.00_12.0_eea_deced5bfbb.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVEUOR",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_or_global_images_V13.0.3.0.SCVEUOR_20230213.0000.00_12.0_eea_8a1e21e3e5.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SCVEUOR",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_or_global_images_V13.0.1.0.SCVEUOR_20230111.0000.00_12.0_eea_5094ae3169.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_tf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eutf",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Telefonica运营商定制版",
-      "enname": "Europe Telefonica Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TCVEUTF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEATFGlobal_V14.0.3.0.TCVEUTF_a110cd85bf_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.2.0.TCVEUTF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEATFGlobal_V14.0.2.0.TCVEUTF_0db8a51247_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TCVEUTF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEATFGlobal_V14.0.1.0.TCVEUTF_6652cc080e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.0.SCVEUTF",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEATFGlobal_V13.0.5.0.SCVEUTF_88f86f888a_12.0.zip",
-          "fastboot": "earth_eea_tf_global_images_V13.0.5.0.SCVEUTF_20230608.0000.00_12.0_eea_232fa0b3f7.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVEUTF",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_tf_global_images_V13.0.4.0.SCVEUTF_20230324.0000.00_12.0_eea_e2a0518687.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_by_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euby",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Bouygues Telecom运营商定制版",
-      "enname": "Europe Bouygues Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TCVEUBY",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEABYGlobal_V14.0.2.0.TCVEUBY_487aa8ba44_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TCVEUBY",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEABYGlobal_V14.0.1.0.TCVEUBY_e286083765_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.6.0.SCVEUBY",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_by_global_images_V13.0.6.0.SCVEUBY_20230612.0000.00_12.0_eea_294aa55b78.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SCVEUBY",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEABYGlobal_V13.0.5.0.SCVEUBY_e22d58de17_12.0.zip",
-          "fastboot": "earth_eea_by_global_images_V13.0.5.0.SCVEUBY_20230322.0000.00_12.0_eea_bd27b89262.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_vf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euvf",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Vodafone运营商定制版",
-      "enname": "Europe Vodafone Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TCVEUVF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAVFGlobal_V14.0.4.0.TCVEUVF_332d3e2c80_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.3.0.TCVEUVF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAVFGlobal_V14.0.3.0.TCVEUVF_e83d28e525_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.2.0.TCVEUVF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEAVFGlobal_V14.0.2.0.TCVEUVF_e67b732dbd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.0.SCVEUVF",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEAVFGlobal_V13.0.5.0.SCVEUVF_0636f08ecc_12.0.zip",
-          "fastboot": "earth_eea_vf_global_images_V13.0.5.0.SCVEUVF_20230523.0000.00_12.0_eea_d36023f4c8.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVEUVF",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_vf_global_images_V13.0.4.0.SCVEUVF_20230315.0000.00_12.0_eea_2f649df413.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_sf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eusf",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Altice(SFR)运营商定制版",
-      "enname": "Europe Altice(SFR) Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TCVEUSF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEASFGlobal_V14.0.2.0.TCVEUSF_83e34d034a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TCVEUSF",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEASFGlobal_V14.0.1.0.TCVEUSF_85cd8fca33_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.0.SCVEUSF",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEASFGlobal_V13.0.4.0.SCVEUSF_c684099370_12.0.zip",
-          "fastboot": "earth_eea_sf_global_images_V13.0.4.0.SCVEUSF_20230603.0000.00_12.0_eea_deca15457e.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVEUSF",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_sf_global_images_V13.0.3.0.SCVEUSF_20230324.0000.00_12.0_eea_cf493a0a6e.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_eea_ti_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euti",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲TIM运营商定制版",
-      "enname": "Europe TIM Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TCVEUTI",
-          "android": "13.0",
-          "recovery": "miui_EARTHEEATIGlobal_V14.0.1.0.TCVEUTI_8388b9ab11_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.0.SCVEUTI",
-          "android": "12.0",
-          "recovery": "miui_EARTHEEATIGlobal_V13.0.4.0.SCVEUTI_0852b2b99a_12.0.zip",
-          "fastboot": "earth_eea_ti_global_images_V13.0.4.0.SCVEUTI_20230612.0000.00_12.0_eea_d907fe27a4.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVEUTI",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_ti_global_images_V13.0.3.0.SCVEUTI_20230308.0000.00_12.0_eea_06be3ddaed.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVEUTI",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_eea_ti_global_images_V13.0.2.0.SCVEUTI_20221223.0000.00_12.0_eea_99d9c9fe98.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TCVRUXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHRUGlobal_V14.0.3.0.TCVRUXM_6e13ad9579_13.0.zip",
-          "fastboot": "earth_ru_global_images_V14.0.3.0.TCVRUXM_20231129.0000.00_13.0_ru_fc8f1043d3.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TCVRUXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHRUGlobal_V14.0.2.0.TCVRUXM_7f28453c94_13.0.zip",
-          "fastboot": "earth_ru_global_images_V14.0.2.0.TCVRUXM_20230928.0000.00_13.0_ru_ab101c545c.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TCVRUXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHRUGlobal_V14.0.1.0.TCVRUXM_28308b1e4c_13.0.zip",
-          "fastboot": "earth_ru_global_images_V14.0.1.0.TCVRUXM_20230713.0000.00_13.0_ru_763dbbd481.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SCVRUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHRUGlobal_V13.0.6.0.SCVRUXM_093e4bb6c6_12.0.zip",
-          "fastboot": "earth_ru_global_images_V13.0.6.0.SCVRUXM_20230811.0000.00_12.0_global_7e598143d1.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SCVRUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHRUGlobal_V13.0.5.0.SCVRUXM_62a581460f_12.0.zip",
-          "fastboot": "earth_ru_global_images_V13.0.5.0.SCVRUXM_20230526.0000.00_12.0_global_99b6d44f85.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVRUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHRUGlobal_V13.0.4.0.SCVRUXM_d83a56597d_12.0.zip",
-          "fastboot": "earth_ru_global_images_V13.0.4.0.SCVRUXM_20230321.0000.00_12.0_global_885b106d4c.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVRUXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHRUGlobal_V13.0.3.0.SCVRUXM_03fa03660e_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"earth_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TCVINXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHINGlobal_V14.0.4.0.TCVINXM_e6f9b34a7d_13.0.zip",
-          "fastboot": "earth_in_global_images_V14.0.4.0.TCVINXM_20231109.0000.00_13.0_in_bc85e639fd.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TCVINXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHINGlobal_V14.0.3.0.TCVINXM_65206f3e94_13.0.zip",
-          "fastboot": "earth_in_global_images_V14.0.3.0.TCVINXM_20230825.0000.00_13.0_in_736e1b8bd2.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TCVINXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHINGlobal_V14.0.2.0.TCVINXM_44134a2261_13.0.zip",
-          "fastboot": "earth_in_global_images_V14.0.2.0.TCVINXM_20230619.0000.00_13.0_in_e5276c89cf.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVINXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHINGlobal_V13.0.4.0.SCVINXM_e07f536966_12.0.zip",
-          "fastboot": "earth_in_global_images_V13.0.4.0.SCVINXM_20230802.0000.00_12.0_in_d12f6b76a6.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVINXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHINGlobal_V13.0.3.0.SCVINXM_1bfad882c9_12.0.zip",
-          "fastboot": "earth_in_global_images_V13.0.3.0.SCVINXM_20230511.0000.00_12.0_in_1bd255cb41.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVINXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHINGlobal_V13.0.2.0.SCVINXM_16af528b85_12.0.zip",
-          "fastboot": "earth_in_global_images_V13.0.2.0.SCVINXM_20230301.0000.00_12.0_in_8495ffb4bd.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TCVIDXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHIDGlobal_V14.0.4.0.TCVIDXM_8607cffad3_13.0.zip",
-          "fastboot": "earth_id_global_images_V14.0.4.0.TCVIDXM_20231205.0000.00_13.0_id_c3b83ce3c4.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TCVIDXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHIDGlobal_V14.0.3.0.TCVIDXM_b07e2a5ae3_13.0.zip",
-          "fastboot": "earth_id_global_images_V14.0.3.0.TCVIDXM_20230904.0000.00_13.0_id_6b26cec090.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TCVIDXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHIDGlobal_V14.0.2.0.TCVIDXM_675624930e_13.0.zip",
-          "fastboot": "earth_id_global_images_V14.0.2.0.TCVIDXM_20230619.0000.00_13.0_id_070e8783b1.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVIDXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHIDGlobal_V13.0.3.0.SCVIDXM_f88ef35f1e_12.0.zip",
-          "fastboot": "earth_id_global_images_V13.0.3.0.SCVIDXM_20230525.0000.00_12.0_global_460bf2b924.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVIDXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHIDGlobal_V13.0.2.0.SCVIDXM_5734426e45_12.0.zip",
-          "fastboot": "earth_id_global_images_V13.0.2.0.SCVIDXM_20230305.0000.00_12.0_global_9e22445e60.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SCVIDXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHIDGlobal_V13.0.1.0.SCVIDXM_9b609972b1_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"earth_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TCVTRXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHTRGlobal_V14.0.2.0.TCVTRXM_7fb2077682_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TCVTRXM",
-          "android": "13.0",
-          "recovery": "miui_EARTHTRGlobal_V14.0.1.0.TCVTRXM_f93f23e059_13.0.zip",
-          "fastboot": "earth_tr_global_images_V14.0.1.0.TCVTRXM_20230713.0000.00_13.0_tr_1b986f8cb3.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SCVTRXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHTRGlobal_V13.0.4.0.SCVTRXM_0e98e56d48_12.0.zip",
-          "fastboot": "earth_tr_global_images_V13.0.4.0.SCVTRXM_20230525.0000.00_12.0_global_47a8830fd1.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVTRXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHTRGlobal_V13.0.3.0.SCVTRXM_dbc11ff01d_12.0.zip",
-          "fastboot": "earth_tr_global_images_V13.0.3.0.SCVTRXM_20230305.0000.00_12.0_global_3e22ecf9af.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVTRXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHTRGlobal_V13.0.2.0.SCVTRXM_a60c9d81f0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.1.0.SCVTRXM",
-          "android": "12.0",
-          "recovery": "miui_EARTHTRGlobal_V13.0.1.0.SCVTRXM_7ae0bc9f85_12.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"earth_cl_en_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "clen",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "智利Entel运营商定制版",
-      "enname": "Chile Stable Entel Carrier Edtion",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TCVCLEN",
-          "android": "13.0",
-          "recovery": "miui_EARTHCLENGlobal_V14.0.1.0.TCVCLEN_72c5786efd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.0.SCVCLEN",
-          "android": "12.0",
-          "recovery": "miui_EARTHCLENGlobal_V13.0.3.0.SCVCLEN_d2d3bc2933_12.0.zip",
-          "fastboot": "earth_cl_en_global_images_V13.0.3.0.SCVCLEN_20230603.0000.00_12.0_global_b1e4fdbc78.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVCLEN",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_cl_en_global_images_V13.0.2.0.SCVCLEN_20230309.0000.00_12.0_global_74a4f45033.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SCVCLEN",
-          "android": "12.0",
-          "recovery": "miui_EARTHCLENGlobal_V13.0.1.0.SCVCLEN_1f687b89d0_12.0.zip",
-          "fastboot": "earth_cl_en_global_images_V13.0.1.0.SCVCLEN_20221213.0000.00_12.0_global_b05f97e158.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_lm_cr_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "lmcr",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "拉丁美洲Claro运营商定制版",
-      "enname": "Latin America Claro Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.4.0.SCVLMCR",
-          "android": "12.0",
-          "recovery": "miui_EARTHLMCRGlobal_V13.0.4.0.SCVLMCR_cb00adca3e_12.0.zip",
-          "fastboot": "earth_lm_cr_global_images_V13.0.4.0.SCVLMCR_20230625.0000.00_12.0_global_9b877e818f.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVLMCR",
-          "android": "12.0",
-          "recovery": "miui_EARTHLMCRGlobal_V13.0.3.0.SCVLMCR_50bb0c6b0f_12.0.zip",
-          "fastboot": "earth_lm_cr_global_images_V13.0.3.0.SCVLMCR_20230426.0000.00_12.0_global_f60941ec16.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVLMCR",
-          "android": "12.0",
-          "recovery": "miui_EARTHLMCRGlobal_V13.0.2.0.SCVLMCR_763525b2b3_12.0.zip",
-          "fastboot": "earth_lm_cr_global_images_V13.0.2.0.SCVLMCR_20230309.0000.00_12.0_global_63a8f49f08.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SCVLMCR",
-          "android": "12.0",
-          "recovery": "miui_EARTHLMCRGlobal_V13.0.1.0.SCVLMCR_01307a5baa_12.0.zip",
-          "fastboot": "earth_lm_cr_global_images_V13.0.1.0.SCVLMCR_20230112.0000.00_12.0_global_044bb8212f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_lm_ms_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "lmms",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "拉丁美洲Moviestar运营商定制版",
-      "enname": "Latin America Moviestar Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.4.0.SCVLMMS",
-          "android": "12.0",
-          "recovery": "miui_EARTHLMMSGlobal_V13.0.4.0.SCVLMMS_2f8d348cfb_12.0.zip",
-          "fastboot": "earth_lm_ms_global_images_V13.0.4.0.SCVLMMS_20230607.0000.00_12.0_global_a2d60184eb.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVLMMS",
-          "android": "12.0",
-          "recovery": "miui_EARTHLMMSGlobal_V13.0.3.0.SCVLMMS_7b71226404_12.0.zip",
-          "fastboot": "earth_lm_ms_global_images_V13.0.3.0.SCVLMMS_20230308.0000.00_12.0_global_af36d82050.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_mx_at_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mxat",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "墨西哥AT&T运营商定制版",
-      "enname": "Mexico Stable AT&T Carrier Edtion",
-      "links": [
-        {
-          "miui": "V13.0.3.0.SCVMXAT",
-          "android": "12.0",
-          "recovery": "miui_EARTHMXATGlobal_V13.0.3.0.SCVMXAT_40db9c8552_12.0.zip",
-          "fastboot": "earth_mx_at_global_images_V13.0.3.0.SCVMXAT_20230526.0000.00_12.0_global_9d14c00ba9.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVMXAT",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_mx_at_global_images_V13.0.2.0.SCVMXAT_20230308.0000.00_12.0_global_2368b164e8.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_gt_tg_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "gttg",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "危地马拉Tigo运营商定制版",
-      "enname": "Guatemala Tigo Carrier Edtion",
-      "links": [
-        {
-          "miui": "V14.0.1.0.TCVGTTG",
-          "android": "13.0",
-          "recovery": "miui_EARTHGTTGGlobal_V14.0.1.0.TCVGTTG_68c5128f88_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.0.SCVGTTG",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_gt_tg_global_images_V13.0.3.0.SCVGTTG_20230525.0000.00_12.0_global_4816d96a98.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_za_mt_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "zamt",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "南非MTN运营商定制版",
-      "enname": "South Africa MTN Carrier Edtion",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TCVZAMT",
-          "android": "13.0",
-          "recovery": "miui_EARTHZAMTGlobal_V14.0.2.0.TCVZAMT_d1c5ac512d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TCVZAMT",
-          "android": "13.0",
-          "recovery": "miui_EARTHZAMTGlobal_V14.0.1.0.TCVZAMT_35567ddac1_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.0.SCVZAMT",
-          "android": "12.0",
-          "recovery": "miui_EARTHZAMTGlobal_V13.0.3.0.SCVZAMT_e719d1d0af_12.0.zip",
-          "fastboot": "earth_za_mt_global_images_V13.0.3.0.SCVZAMT_20230605.0000.00_12.0_global_15fdb3163d.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SCVZAMT",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_za_mt_global_images_V13.0.2.0.SCVZAMT_20230308.0000.00_12.0_global_016ba9d4fe.tgz"
-        }
-      ]
-    },
-    {
-      "code":"earth_za_vc_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "zavc",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "南非Vodacom稳定版",
-      "enname": "South Africa Vodacom Carrier Edtion",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TCVZAVC",
-          "android": "13.0",
-          "recovery": "miui_EARTHZAVCGlobal_V14.0.2.0.TCVZAVC_52459751db_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.1.0.TCVZAVC",
-          "android": "13.0",
-          "recovery": "miui_EARTHZAVCGlobal_V14.0.1.0.TCVZAVC_058f5405f4_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.0.SCVZAVC",
-          "android": "12.0",
-          "recovery": "miui_EARTHZAVCGlobal_V13.0.5.0.SCVZAVC_7f0c67dd5c_12.0.zip",
-          "fastboot": "earth_za_vc_global_images_V13.0.5.0.SCVZAVC_20230613.0000.00_12.0_global_6218e43f9d.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SCVZAVC",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "earth_za_vc_global_images_V13.0.3.0.SCVZAVC_20230308.0000.00_12.0_global_4a55272ff9.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "earth",
+	"cnname": "Redmi 12C/POCO C55",
+	"enname": "Redmi 12C/POCO C55",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "39560126",
+	"ismiui": "0",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["479"],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "earth",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TCVCNXM",
+					"android": "13.0",
+					"recovery": "miui_EARTH_V14.0.4.0.TCVCNXM_1238757265_13.0.zip",
+					"fastboot": "earth_images_V14.0.4.0.TCVCNXM_20231106.0000.00_13.0_cn_8c0c8ae09a.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TCVCNXM",
+					"android": "13.0",
+					"recovery": "miui_EARTH_V14.0.2.0.TCVCNXM_a172f552a0_13.0.zip",
+					"fastboot": "earth_images_V14.0.2.0.TCVCNXM_20230815.0000.00_13.0_cn_96154767fd.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TCVCNXM",
+					"android": "13.0",
+					"recovery": "miui_EARTH_V14.0.1.0.TCVCNXM_16aa946429_13.0.zip",
+					"fastboot": "earth_images_V14.0.1.0.TCVCNXM_20230512.0000.00_13.0_cn_d69879c03e.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.0.10.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.10.0.SCVCNXM_d252e1bf0e_12.0.zip",
+					"fastboot": "earth_images_V13.0.10.0.SCVCNXM_20231017.0000.00_12.0_cn_6eebabdaa6.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.9.0.SCVCNXM_3a8732bfab_12.0.zip",
+					"fastboot": "earth_images_V13.0.9.0.SCVCNXM_20230717.0000.00_12.0_cn_19f4a81723.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.8.0.SCVCNXM_dbc7475907_12.0.zip",
+					"fastboot": "earth_images_V13.0.8.0.SCVCNXM_20230509.0000.00_12.0_cn_72c2889db7.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.7.0.SCVCNXM_0837c6a70d_12.0.zip",
+					"fastboot": "earth_images_V13.0.7.0.SCVCNXM_20230419.0000.00_12.0_cn_398562b7d8.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip",
+					"fastboot": "earth_images_V13.0.6.0.SCVCNXM_20230302.0000.00_12.0_cn_34510a0bda.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.5.0.SCVCNXM_7ff5e2ee27_12.0.zip",
+					"fastboot": "earth_images_V13.0.5.0.SCVCNXM_20230208.0000.00_12.0_cn_bd6da88d50.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.4.0.SCVCNXM_de102f96ee_12.0.zip",
+					"fastboot": "earth_images_V13.0.4.0.SCVCNXM_20230115.0000.00_12.0_cn_b0332c1bfd.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.3.0.SCVCNXM_a0ea237487_12.0.zip",
+					"fastboot": "earth_images_V13.0.3.0.SCVCNXM_20230110.0000.00_12.0_cn_b29b2e363e.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.2.0.SCVCNXM_308e259415_12.0.zip",
+					"fastboot": "earth_images_V13.0.2.0.SCVCNXM_20230105.0000.00_12.0_cn_b6e6429365.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.1.0.SCVCNXM_018e6f07e7_12.0.zip",
+					"fastboot": "earth_images_V13.0.1.0.SCVCNXM_20221117.0000.00_12.0_cn_26667f68bd.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TCVCNXM",
+					"android": "13.0",
+					"recovery": "miui_EARTH_V14.0.4.0.TCVCNXM_1238757265_13.0.zip",
+					"fastboot": "earth_images_V14.0.4.0.TCVCNXM_20231106.0000.00_13.0_cn_chinatelecom_1d516f4de2.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TCVCNXM",
+					"android": "13.0",
+					"recovery": "miui_EARTH_V14.0.2.0.TCVCNXM_a172f552a0_13.0.zip",
+					"fastboot": "earth_images_V14.0.2.0.TCVCNXM_20230815.0000.00_13.0_cn_chinatelecom_c5085c557e.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.10.0.SCVCNXM_d252e1bf0e_12.0.zip",
+					"fastboot": "earth_images_V13.0.10.0.SCVCNXM_20231017.0000.00_12.0_cn_chinatelecom_7553c4aadc.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.9.0.SCVCNXM_3a8732bfab_12.0.zip",
+					"fastboot": "earth_images_V13.0.9.0.SCVCNXM_20230717.0000.00_12.0_cn_chinatelecom_59172fee63.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TCVCNXM",
+					"android": "13.0",
+					"recovery": "miui_EARTH_V14.0.1.0.TCVCNXM_16aa946429_13.0.zip",
+					"fastboot": "earth_images_V14.0.1.0.TCVCNXM_20230512.0000.00_13.0_cn_chinatelecom_c6357e28da.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.8.0.SCVCNXM_dbc7475907_12.0.zip",
+					"fastboot": "earth_images_V13.0.8.0.SCVCNXM_20230509.0000.00_12.0_cn_chinatelecom_f7b4b3f990.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.7.0.SCVCNXM_0837c6a70d_12.0.zip",
+					"fastboot": "earth_images_V13.0.7.0.SCVCNXM_20230419.0000.00_12.0_cn_chinatelecom_469c1ec57b.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip",
+					"fastboot": "earth_images_V13.0.6.0.SCVCNXM_20230302.0000.00_12.0_cn_chinatelecom_0e920eff6c.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.5.0.SCVCNXM_7ff5e2ee27_12.0.zip",
+					"fastboot": "earth_images_V13.0.5.0.SCVCNXM_20230208.0000.00_12.0_cn_chinatelecom_90d4cc1dad.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.4.0.SCVCNXM_de102f96ee_12.0.zip",
+					"fastboot": "earth_images_V13.0.4.0.SCVCNXM_20230115.0000.00_12.0_cn_chinatelecom_202eed653a.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.3.0.SCVCNXM_a0ea237487_12.0.zip",
+					"fastboot": "earth_images_V13.0.3.0.SCVCNXM_20230110.0000.00_12.0_cn_chinatelecom_b4a7973c89.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.2.0.SCVCNXM_308e259415_12.0.zip",
+					"fastboot": "earth_images_V13.0.2.0.SCVCNXM_20230105.0000.00_12.0_cn_chinatelecom_eb629e8c0b.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.1.0.SCVCNXM_018e6f07e7_12.0.zip",
+					"fastboot": "earth_images_V13.0.1.0.SCVCNXM_20221117.0000.00_12.0_cn_chinatelecom_85f45a1d19.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.10.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.10.0.SCVCNXM_d252e1bf0e_12.0.zip",
+					"fastboot": "earth_images_V13.0.10.0.SCVCNXM_20231017.0000.00_12.0_cn_chinamobile_c3fceaeb05.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.9.0.SCVCNXM_3a8732bfab_12.0.zip",
+					"fastboot": "earth_images_V13.0.9.0.SCVCNXM_20230717.0000.00_12.0_cn_chinamobile_4f03a0a988.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.8.0.SCVCNXM_dbc7475907_12.0.zip",
+					"fastboot": "earth_images_V13.0.8.0.SCVCNXM_20230509.0000.00_12.0_cn_chinamobile_5230ff8fc8.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.7.0.SCVCNXM_0837c6a70d_12.0.zip",
+					"fastboot": "earth_images_V13.0.7.0.SCVCNXM_20230419.0000.00_12.0_cn_chinamobile_19365fb9a1.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SCVCNXM",
+					"android": "12.0",
+					"recovery": "miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip",
+					"fastboot": "earth_images_V13.0.6.0.SCVCNXM_20230302.0000.00_12.0_cn_chinamobile_35bbc8b5b2.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.12.18.EP.STDEE.C3T",
+					"android": "13.0",
+					"recovery": "miui_EARTHEPSTDEE_V14.0.23.12.18.EP.STDEE.C3T_25ae1a48da_13.0.zip",
+					"fastboot": "earth_ep_stdee_images_V14.0.23.12.18.EP.STDEE.C3T_20231218.0000.00_13.0_cn_411aaa8faa.tgz"
+				},
+				{
+					"miui": "V14.0.23.12.18.EP.STDEE.C3T",
+					"android": "13.0",
+					"recovery": "miui_EARTHEPSTDEE_V14.0.23.12.18.EP.STDEE.C3T_25ae1a48da_13.0.zip",
+					"fastboot": "earth_ep_stdee_images_V14.0.23.12.18.EP.STDEE.C3T_20231218.0000.00_13.0_cn_chinatelecom_4da9f976b6.tgz"
+				},
+				{
+					"miui": "V14.0.23.10.24.EP.STDEE.C3T",
+					"android": "13.0",
+					"recovery": "miui_EARTHEPSTDEE_V14.0.23.10.24.EP.STDEE.C3T_4d759d6c04_13.0.zip",
+					"fastboot": "earth_ep_stdee_images_V14.0.23.10.24.EP.STDEE.C3T_20231024.0000.00_13.0_cn_eb83b37ee3.tgz"
+				},
+				{
+					"miui": "V14.0.23.10.24.EP.STDEE.C3T",
+					"android": "13.0",
+					"recovery": "miui_EARTHEPSTDEE_V14.0.23.10.24.EP.STDEE.C3T_4d759d6c04_13.0.zip",
+					"fastboot": "earth_ep_stdee_images_V14.0.23.10.24.EP.STDEE.C3T_20231024.0000.00_13.0_cn_chinatelecom_cd99c0643f.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.28.EP.STDEE.C3T",
+					"android": "13.0",
+					"recovery": "miui_EARTHEPSTDEE_V14.0.23.6.28.EP.STDEE.C3T_85c06f1dd2_13.0.zip",
+					"fastboot": "earth_ep_stdee_images_V14.0.23.6.28.EP.STDEE.C3T_20230628.0000.00_13.0_cn_014676eacc.tgz"
+				},
+				{
+					"miui": "V14.0.23.6.28.EP.STDEE.C3T",
+					"android": "13.0",
+					"recovery": "miui_EARTHEPSTDEE_V14.0.23.6.28.EP.STDEE.C3T_85c06f1dd2_13.0.zip",
+					"fastboot": "earth_ep_stdee_images_V14.0.23.6.28.EP.STDEE.C3T_20230628.0000.00_13.0_cn_chinatelecom_86f23a10a4.tgz"
+				},
+				{
+					"miui": "V13.0.23.5.16.EP.STDEE.C3T",
+					"android": "12.0",
+					"recovery": "miui_EARTHEPSTDEE_V13.0.23.5.16.EP.STDEE.C3T_2486cdff91_12.0.zip",
+					"fastboot": "earth_ep_stdee_images_V13.0.23.5.16.EP.STDEE.C3T_20230516.0000.00_12.0_cn_ac5a4f4e47.tgz"
+				},
+				{
+					"miui": "V13.0.23.3.29.EP.STDEE.C3T",
+					"android": "12.0",
+					"recovery": "miui_EARTHEPSTDEE_V13.0.23.3.29.EP.STDEE.C3T_9e9a979c89_12.0.zip",
+					"fastboot": "earth_ep_stdee_images_V13.0.23.3.29.EP.STDEE.C3T_20230329.0000.00_12.0_cn_b97da743ca.tgz"
+				},
+				{
+					"miui": "V13.0.23.3.15.EP.STDEE.C3T",
+					"android": "12.0",
+					"recovery": "miui_EARTHEPSTDEE_V13.0.23.3.15.EP.STDEE.C3T_b3dae1a320_12.0.zip",
+					"fastboot": "earth_ep_stdee_images_V13.0.23.3.15.EP.STDEE.C3T_20230315.0000.00_12.0_cn_f92bb5160b.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区稳定版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TCVTWXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHTWGlobal_V14.0.3.0.TCVTWXM_bed099fb22_13.0.zip",
+					"fastboot": "earth_tw_global_images_V14.0.3.0.TCVTWXM_20231109.0000.00_13.0_tw_106684de95.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TCVTWXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHTWGlobal_V14.0.2.0.TCVTWXM_27f3890e99_13.0.zip",
+					"fastboot": "earth_tw_global_images_V14.0.2.0.TCVTWXM_20230829.0000.00_13.0_tw_c08e8352f3.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TCVTWXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHTWGlobal_V14.0.1.0.TCVTWXM_70b75956f9_13.0.zip",
+					"fastboot": "earth_tw_global_images_V14.0.1.0.TCVTWXM_20230713.0000.00_13.0_tw_2af88f910f.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVTWXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHTWGlobal_V13.0.4.0.SCVTWXM_9d404f49ce_12.0.zip",
+					"fastboot": "earth_tw_global_images_V13.0.4.0.SCVTWXM_20230531.0000.00_12.0_global_30735cca72.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVTWXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHTWGlobal_V13.0.2.0.SCVTWXM_58a106a304_12.0.zip",
+					"fastboot": "earth_tw_global_images_V13.0.2.0.SCVTWXM_20230310.0000.00_12.0_global_4a408c3a02.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SCVTWXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHTWGlobal_V13.0.1.0.SCVTWXM_4d009d0522_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "earth_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TCVMIXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHGlobal_V14.0.7.0.TCVMIXM_b83820f33d_13.0.zip",
+					"fastboot": "earth_global_images_V14.0.7.0.TCVMIXM_20231205.0000.00_13.0_global_f94e03f451.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TCVMIXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHGlobal_V14.0.6.0.TCVMIXM_200a18e40f_13.0.zip",
+					"fastboot": "earth_global_images_V14.0.6.0.TCVMIXM_20230921.0000.00_13.0_global_6393b4426f.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TCVMIXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHGlobal_V14.0.4.0.TCVMIXM_a9aa86c158_13.0.zip",
+					"fastboot": "earth_global_images_V14.0.4.0.TCVMIXM_20230713.0000.00_13.0_global_f419b7ad2a.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SCVMIXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHGlobal_V13.0.8.0.SCVMIXM_317676a8b4_12.0.zip",
+					"fastboot": "earth_global_images_V13.0.8.0.SCVMIXM_20230811.0000.00_12.0_global_2b42ca8b3d.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SCVMIXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHGlobal_V13.0.7.0.SCVMIXM_df45be6a45_12.0.zip",
+					"fastboot": "earth_global_images_V13.0.7.0.SCVMIXM_20230519.0000.00_12.0_global_e1aef09046.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SCVMIXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHGlobal_V13.0.5.0.SCVMIXM_65e757e671_12.0.zip",
+					"fastboot": "earth_global_images_V13.0.5.0.SCVMIXM_20230310.0000.00_12.0_global_596373c569.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVMIXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHGlobal_V13.0.4.0.SCVMIXM_bcf04673ce_12.0.zip",
+					"fastboot": "earth_global_images_V13.0.4.0.SCVMIXM_20230226.0000.00_12.0_global_b4819b83f8.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVMIXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHGlobal_V13.0.3.0.SCVMIXM_207f0b2ea0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.0.SCVMIXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHGlobal_V13.0.2.0.SCVMIXM_51993cc5b8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.0.SCVMIXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHGlobal_V13.0.1.0.SCVMIXM_dca25e00ce_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "earth_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.7.0.TCVEUXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAGlobal_V14.0.7.0.TCVEUXM_db2fd86fd3_13.0.zip",
+					"fastboot": "earth_eea_global_images_V14.0.7.0.TCVEUXM_20231106.0000.00_13.0_eea_58e679e6e8.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TCVEUXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAGlobal_V14.0.4.0.TCVEUXM_13a5ae398b_13.0.zip",
+					"fastboot": "earth_eea_global_images_V14.0.4.0.TCVEUXM_20230825.0000.00_13.0_eea_1423d643e1.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TCVEUXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAGlobal_V14.0.3.0.TCVEUXM_d1c1828972_13.0.zip",
+					"fastboot": "earth_eea_global_images_V14.0.3.0.TCVEUXM_20230621.0000.00_13.0_eea_3ce4dd5cfa.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SCVEUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAGlobal_V13.0.9.0.SCVEUXM_6dbbe8a75e_12.0.zip",
+					"fastboot": "earth_eea_global_images_V13.0.9.0.SCVEUXM_20230811.0000.00_12.0_eea_e7e07f8c9b.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SCVEUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAGlobal_V13.0.8.0.SCVEUXM_e06861504f_12.0.zip",
+					"fastboot": "earth_eea_global_images_V13.0.8.0.SCVEUXM_20230519.0000.00_12.0_eea_e045a99a1e.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SCVEUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAGlobal_V13.0.6.0.SCVEUXM_02f7206dba_12.0.zip",
+					"fastboot": "earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SCVEUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAGlobal_V13.0.5.0.SCVEUXM_01d0e61c75_12.0.zip",
+					"fastboot": "earth_eea_global_images_V13.0.5.0.SCVEUXM_20230203.0000.00_12.0_eea_d5dd5d5884.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVEUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAGlobal_V13.0.4.0.SCVEUXM_523a00cf7a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.0.SCVEUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAGlobal_V13.0.3.0.SCVEUXM_7113ccd4b2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.0.SCVEUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAGlobal_V13.0.2.0.SCVEUXM_41b38ec758_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "earth_eea_hg_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euhg",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲ThreeHK运营商定制版",
+			"enname": "Europe ThreeHK Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TCVEUHG",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAHGGlobal_V14.0.2.0.TCVEUHG_050fbb448b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.0.SCVEUHG",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAHGGlobal_V13.0.3.0.SCVEUHG_6eb26cdb2a_12.0.zip",
+					"fastboot": "earth_eea_hg_global_images_V13.0.3.0.SCVEUHG_20230607.0000.00_12.0_eea_04fdbd6e6b.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVEUHG",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_hg_global_images_V13.0.2.0.SCVEUHG_20230310.0000.00_12.0_eea_cf19319533.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_eea_or_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euor",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Orange运营商定制版",
+			"enname": "Europe Orange Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TCVEUOR",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAORGlobal_V14.0.4.0.TCVEUOR_dc55810381_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.3.0.TCVEUOR",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAORGlobal_V14.0.3.0.TCVEUOR_66c6c2fe6e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TCVEUOR",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAORGlobal_V14.0.1.0.TCVEUOR_361d95dfde_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.6.0.SCVEUOR",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAORGlobal_V13.0.6.0.SCVEUOR_5e9bfee2b9_12.0.zip",
+					"fastboot": "earth_eea_or_global_images_V13.0.6.0.SCVEUOR_20230612.0000.00_12.0_eea_c8fe783eb8.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SCVEUOR",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_or_global_images_V13.0.5.0.SCVEUOR_20230404.0000.00_12.0_eea_deced5bfbb.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVEUOR",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_or_global_images_V13.0.3.0.SCVEUOR_20230213.0000.00_12.0_eea_8a1e21e3e5.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SCVEUOR",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_or_global_images_V13.0.1.0.SCVEUOR_20230111.0000.00_12.0_eea_5094ae3169.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_eea_tf_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eutf",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Telefonica运营商定制版",
+			"enname": "Europe Telefonica Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TCVEUTF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEATFGlobal_V14.0.3.0.TCVEUTF_a110cd85bf_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.2.0.TCVEUTF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEATFGlobal_V14.0.2.0.TCVEUTF_0db8a51247_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TCVEUTF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEATFGlobal_V14.0.1.0.TCVEUTF_6652cc080e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.0.SCVEUTF",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEATFGlobal_V13.0.5.0.SCVEUTF_88f86f888a_12.0.zip",
+					"fastboot": "earth_eea_tf_global_images_V13.0.5.0.SCVEUTF_20230608.0000.00_12.0_eea_232fa0b3f7.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVEUTF",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_tf_global_images_V13.0.4.0.SCVEUTF_20230324.0000.00_12.0_eea_e2a0518687.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_eea_by_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euby",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Bouygues Telecom运营商定制版",
+			"enname": "Europe Bouygues Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TCVEUBY",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEABYGlobal_V14.0.2.0.TCVEUBY_487aa8ba44_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TCVEUBY",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEABYGlobal_V14.0.1.0.TCVEUBY_e286083765_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.6.0.SCVEUBY",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_by_global_images_V13.0.6.0.SCVEUBY_20230612.0000.00_12.0_eea_294aa55b78.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SCVEUBY",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEABYGlobal_V13.0.5.0.SCVEUBY_e22d58de17_12.0.zip",
+					"fastboot": "earth_eea_by_global_images_V13.0.5.0.SCVEUBY_20230322.0000.00_12.0_eea_bd27b89262.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_eea_vf_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euvf",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Vodafone运营商定制版",
+			"enname": "Europe Vodafone Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TCVEUVF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAVFGlobal_V14.0.4.0.TCVEUVF_332d3e2c80_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.3.0.TCVEUVF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAVFGlobal_V14.0.3.0.TCVEUVF_e83d28e525_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.2.0.TCVEUVF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEAVFGlobal_V14.0.2.0.TCVEUVF_e67b732dbd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.0.SCVEUVF",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEAVFGlobal_V13.0.5.0.SCVEUVF_0636f08ecc_12.0.zip",
+					"fastboot": "earth_eea_vf_global_images_V13.0.5.0.SCVEUVF_20230523.0000.00_12.0_eea_d36023f4c8.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVEUVF",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_vf_global_images_V13.0.4.0.SCVEUVF_20230315.0000.00_12.0_eea_2f649df413.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_eea_sf_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eusf",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Altice(SFR)运营商定制版",
+			"enname": "Europe Altice(SFR) Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TCVEUSF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEASFGlobal_V14.0.2.0.TCVEUSF_83e34d034a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TCVEUSF",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEASFGlobal_V14.0.1.0.TCVEUSF_85cd8fca33_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.0.SCVEUSF",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEASFGlobal_V13.0.4.0.SCVEUSF_c684099370_12.0.zip",
+					"fastboot": "earth_eea_sf_global_images_V13.0.4.0.SCVEUSF_20230603.0000.00_12.0_eea_deca15457e.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVEUSF",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_sf_global_images_V13.0.3.0.SCVEUSF_20230324.0000.00_12.0_eea_cf493a0a6e.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_eea_ti_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euti",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲TIM运营商定制版",
+			"enname": "Europe TIM Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TCVEUTI",
+					"android": "13.0",
+					"recovery": "miui_EARTHEEATIGlobal_V14.0.1.0.TCVEUTI_8388b9ab11_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.0.SCVEUTI",
+					"android": "12.0",
+					"recovery": "miui_EARTHEEATIGlobal_V13.0.4.0.SCVEUTI_0852b2b99a_12.0.zip",
+					"fastboot": "earth_eea_ti_global_images_V13.0.4.0.SCVEUTI_20230612.0000.00_12.0_eea_d907fe27a4.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVEUTI",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_ti_global_images_V13.0.3.0.SCVEUTI_20230308.0000.00_12.0_eea_06be3ddaed.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVEUTI",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_eea_ti_global_images_V13.0.2.0.SCVEUTI_20221223.0000.00_12.0_eea_99d9c9fe98.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TCVRUXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHRUGlobal_V14.0.3.0.TCVRUXM_6e13ad9579_13.0.zip",
+					"fastboot": "earth_ru_global_images_V14.0.3.0.TCVRUXM_20231129.0000.00_13.0_ru_fc8f1043d3.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TCVRUXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHRUGlobal_V14.0.2.0.TCVRUXM_7f28453c94_13.0.zip",
+					"fastboot": "earth_ru_global_images_V14.0.2.0.TCVRUXM_20230928.0000.00_13.0_ru_ab101c545c.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TCVRUXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHRUGlobal_V14.0.1.0.TCVRUXM_28308b1e4c_13.0.zip",
+					"fastboot": "earth_ru_global_images_V14.0.1.0.TCVRUXM_20230713.0000.00_13.0_ru_763dbbd481.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SCVRUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHRUGlobal_V13.0.6.0.SCVRUXM_093e4bb6c6_12.0.zip",
+					"fastboot": "earth_ru_global_images_V13.0.6.0.SCVRUXM_20230811.0000.00_12.0_global_7e598143d1.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SCVRUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHRUGlobal_V13.0.5.0.SCVRUXM_62a581460f_12.0.zip",
+					"fastboot": "earth_ru_global_images_V13.0.5.0.SCVRUXM_20230526.0000.00_12.0_global_99b6d44f85.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVRUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHRUGlobal_V13.0.4.0.SCVRUXM_d83a56597d_12.0.zip",
+					"fastboot": "earth_ru_global_images_V13.0.4.0.SCVRUXM_20230321.0000.00_12.0_global_885b106d4c.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVRUXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHRUGlobal_V13.0.3.0.SCVRUXM_03fa03660e_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "earth_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TCVINXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHINGlobal_V14.0.4.0.TCVINXM_e6f9b34a7d_13.0.zip",
+					"fastboot": "earth_in_global_images_V14.0.4.0.TCVINXM_20231109.0000.00_13.0_in_bc85e639fd.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TCVINXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHINGlobal_V14.0.3.0.TCVINXM_65206f3e94_13.0.zip",
+					"fastboot": "earth_in_global_images_V14.0.3.0.TCVINXM_20230825.0000.00_13.0_in_736e1b8bd2.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TCVINXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHINGlobal_V14.0.2.0.TCVINXM_44134a2261_13.0.zip",
+					"fastboot": "earth_in_global_images_V14.0.2.0.TCVINXM_20230619.0000.00_13.0_in_e5276c89cf.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVINXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHINGlobal_V13.0.4.0.SCVINXM_e07f536966_12.0.zip",
+					"fastboot": "earth_in_global_images_V13.0.4.0.SCVINXM_20230802.0000.00_12.0_in_d12f6b76a6.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVINXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHINGlobal_V13.0.3.0.SCVINXM_1bfad882c9_12.0.zip",
+					"fastboot": "earth_in_global_images_V13.0.3.0.SCVINXM_20230511.0000.00_12.0_in_1bd255cb41.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVINXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHINGlobal_V13.0.2.0.SCVINXM_16af528b85_12.0.zip",
+					"fastboot": "earth_in_global_images_V13.0.2.0.SCVINXM_20230301.0000.00_12.0_in_8495ffb4bd.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TCVIDXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHIDGlobal_V14.0.4.0.TCVIDXM_8607cffad3_13.0.zip",
+					"fastboot": "earth_id_global_images_V14.0.4.0.TCVIDXM_20231205.0000.00_13.0_id_c3b83ce3c4.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TCVIDXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHIDGlobal_V14.0.3.0.TCVIDXM_b07e2a5ae3_13.0.zip",
+					"fastboot": "earth_id_global_images_V14.0.3.0.TCVIDXM_20230904.0000.00_13.0_id_6b26cec090.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TCVIDXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHIDGlobal_V14.0.2.0.TCVIDXM_675624930e_13.0.zip",
+					"fastboot": "earth_id_global_images_V14.0.2.0.TCVIDXM_20230619.0000.00_13.0_id_070e8783b1.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVIDXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHIDGlobal_V13.0.3.0.SCVIDXM_f88ef35f1e_12.0.zip",
+					"fastboot": "earth_id_global_images_V13.0.3.0.SCVIDXM_20230525.0000.00_12.0_global_460bf2b924.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVIDXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHIDGlobal_V13.0.2.0.SCVIDXM_5734426e45_12.0.zip",
+					"fastboot": "earth_id_global_images_V13.0.2.0.SCVIDXM_20230305.0000.00_12.0_global_9e22445e60.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SCVIDXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHIDGlobal_V13.0.1.0.SCVIDXM_9b609972b1_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "earth_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TCVTRXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHTRGlobal_V14.0.2.0.TCVTRXM_7fb2077682_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TCVTRXM",
+					"android": "13.0",
+					"recovery": "miui_EARTHTRGlobal_V14.0.1.0.TCVTRXM_f93f23e059_13.0.zip",
+					"fastboot": "earth_tr_global_images_V14.0.1.0.TCVTRXM_20230713.0000.00_13.0_tr_1b986f8cb3.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SCVTRXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHTRGlobal_V13.0.4.0.SCVTRXM_0e98e56d48_12.0.zip",
+					"fastboot": "earth_tr_global_images_V13.0.4.0.SCVTRXM_20230525.0000.00_12.0_global_47a8830fd1.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVTRXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHTRGlobal_V13.0.3.0.SCVTRXM_dbc11ff01d_12.0.zip",
+					"fastboot": "earth_tr_global_images_V13.0.3.0.SCVTRXM_20230305.0000.00_12.0_global_3e22ecf9af.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVTRXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHTRGlobal_V13.0.2.0.SCVTRXM_a60c9d81f0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.1.0.SCVTRXM",
+					"android": "12.0",
+					"recovery": "miui_EARTHTRGlobal_V13.0.1.0.SCVTRXM_7ae0bc9f85_12.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "earth_cl_en_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "clen",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "智利Entel运营商定制版",
+			"enname": "Chile Stable Entel Carrier Edtion",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TCVCLEN",
+					"android": "13.0",
+					"recovery": "miui_EARTHCLENGlobal_V14.0.1.0.TCVCLEN_72c5786efd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.0.SCVCLEN",
+					"android": "12.0",
+					"recovery": "miui_EARTHCLENGlobal_V13.0.3.0.SCVCLEN_d2d3bc2933_12.0.zip",
+					"fastboot": "earth_cl_en_global_images_V13.0.3.0.SCVCLEN_20230603.0000.00_12.0_global_b1e4fdbc78.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVCLEN",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_cl_en_global_images_V13.0.2.0.SCVCLEN_20230309.0000.00_12.0_global_74a4f45033.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SCVCLEN",
+					"android": "12.0",
+					"recovery": "miui_EARTHCLENGlobal_V13.0.1.0.SCVCLEN_1f687b89d0_12.0.zip",
+					"fastboot": "earth_cl_en_global_images_V13.0.1.0.SCVCLEN_20221213.0000.00_12.0_global_b05f97e158.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_lm_cr_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "lmcr",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "拉丁美洲Claro运营商定制版",
+			"enname": "Latin America Claro Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.4.0.SCVLMCR",
+					"android": "12.0",
+					"recovery": "miui_EARTHLMCRGlobal_V13.0.4.0.SCVLMCR_cb00adca3e_12.0.zip",
+					"fastboot": "earth_lm_cr_global_images_V13.0.4.0.SCVLMCR_20230625.0000.00_12.0_global_9b877e818f.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVLMCR",
+					"android": "12.0",
+					"recovery": "miui_EARTHLMCRGlobal_V13.0.3.0.SCVLMCR_50bb0c6b0f_12.0.zip",
+					"fastboot": "earth_lm_cr_global_images_V13.0.3.0.SCVLMCR_20230426.0000.00_12.0_global_f60941ec16.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVLMCR",
+					"android": "12.0",
+					"recovery": "miui_EARTHLMCRGlobal_V13.0.2.0.SCVLMCR_763525b2b3_12.0.zip",
+					"fastboot": "earth_lm_cr_global_images_V13.0.2.0.SCVLMCR_20230309.0000.00_12.0_global_63a8f49f08.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SCVLMCR",
+					"android": "12.0",
+					"recovery": "miui_EARTHLMCRGlobal_V13.0.1.0.SCVLMCR_01307a5baa_12.0.zip",
+					"fastboot": "earth_lm_cr_global_images_V13.0.1.0.SCVLMCR_20230112.0000.00_12.0_global_044bb8212f.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_lm_ms_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "lmms",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "拉丁美洲Moviestar运营商定制版",
+			"enname": "Latin America Moviestar Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.4.0.SCVLMMS",
+					"android": "12.0",
+					"recovery": "miui_EARTHLMMSGlobal_V13.0.4.0.SCVLMMS_2f8d348cfb_12.0.zip",
+					"fastboot": "earth_lm_ms_global_images_V13.0.4.0.SCVLMMS_20230607.0000.00_12.0_global_a2d60184eb.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVLMMS",
+					"android": "12.0",
+					"recovery": "miui_EARTHLMMSGlobal_V13.0.3.0.SCVLMMS_7b71226404_12.0.zip",
+					"fastboot": "earth_lm_ms_global_images_V13.0.3.0.SCVLMMS_20230308.0000.00_12.0_global_af36d82050.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_mx_at_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mxat",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "墨西哥AT&T运营商定制版",
+			"enname": "Mexico Stable AT&T Carrier Edtion",
+			"links": [
+				{
+					"miui": "V13.0.3.0.SCVMXAT",
+					"android": "12.0",
+					"recovery": "miui_EARTHMXATGlobal_V13.0.3.0.SCVMXAT_40db9c8552_12.0.zip",
+					"fastboot": "earth_mx_at_global_images_V13.0.3.0.SCVMXAT_20230526.0000.00_12.0_global_9d14c00ba9.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVMXAT",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_mx_at_global_images_V13.0.2.0.SCVMXAT_20230308.0000.00_12.0_global_2368b164e8.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_gt_tg_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "gttg",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "危地马拉Tigo运营商定制版",
+			"enname": "Guatemala Tigo Carrier Edtion",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TCVGTTG",
+					"android": "13.0",
+					"recovery": "miui_EARTHGTTGGlobal_V14.0.1.0.TCVGTTG_68c5128f88_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.0.SCVGTTG",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_gt_tg_global_images_V13.0.3.0.SCVGTTG_20230525.0000.00_12.0_global_4816d96a98.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_za_mt_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "zamt",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "南非MTN运营商定制版",
+			"enname": "South Africa MTN Carrier Edtion",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TCVZAMT",
+					"android": "13.0",
+					"recovery": "miui_EARTHZAMTGlobal_V14.0.2.0.TCVZAMT_d1c5ac512d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TCVZAMT",
+					"android": "13.0",
+					"recovery": "miui_EARTHZAMTGlobal_V14.0.1.0.TCVZAMT_35567ddac1_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.0.SCVZAMT",
+					"android": "12.0",
+					"recovery": "miui_EARTHZAMTGlobal_V13.0.3.0.SCVZAMT_e719d1d0af_12.0.zip",
+					"fastboot": "earth_za_mt_global_images_V13.0.3.0.SCVZAMT_20230605.0000.00_12.0_global_15fdb3163d.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SCVZAMT",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_za_mt_global_images_V13.0.2.0.SCVZAMT_20230308.0000.00_12.0_global_016ba9d4fe.tgz"
+				}
+			]
+		},
+		{
+			"code": "earth_za_vc_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "zavc",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "南非Vodacom稳定版",
+			"enname": "South Africa Vodacom Carrier Edtion",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TCVZAVC",
+					"android": "13.0",
+					"recovery": "miui_EARTHZAVCGlobal_V14.0.2.0.TCVZAVC_52459751db_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.1.0.TCVZAVC",
+					"android": "13.0",
+					"recovery": "miui_EARTHZAVCGlobal_V14.0.1.0.TCVZAVC_058f5405f4_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.0.SCVZAVC",
+					"android": "12.0",
+					"recovery": "miui_EARTHZAVCGlobal_V13.0.5.0.SCVZAVC_7f0c67dd5c_12.0.zip",
+					"fastboot": "earth_za_vc_global_images_V13.0.5.0.SCVZAVC_20230613.0000.00_12.0_global_6218e43f9d.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SCVZAVC",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "earth_za_vc_global_images_V13.0.3.0.SCVZAVC_20230308.0000.00_12.0_global_4a55272ff9.tgz"
+				}
+			]
+		}
+	]
 }

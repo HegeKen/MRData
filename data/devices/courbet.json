@@ -1,715 +1,715 @@
 {
-  "codename": "courbet",
-  "cnname": "小米 11 Lite 4G",
-  "enname": "Mi 11 Lite 4G",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "10389",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"courbet_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际稳定版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TKQMIXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETGlobal_V14.0.4.0.TKQMIXM_43ae052f51_13.0.zip",
-          "fastboot": "courbet_global_images_V14.0.4.0.TKQMIXM_20231016.0000.00_13.0_global_f2bf2136b3.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKQMIXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETGlobal_V14.0.3.0.TKQMIXM_6497cb2f42_13.0.zip",
-          "fastboot": "courbet_global_images_V14.0.3.0.TKQMIXM_20230508.0000.00_13.0_global_1d43ddaf63.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKQMIXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETGlobal_V14.0.2.0.TKQMIXM_480ceb4179_13.0.zip",
-          "fastboot": "courbet_global_images_V14.0.2.0.TKQMIXM_20230306.0000.00_13.0_global_7ee23bf78b.tgz"
-        },
-        {
-          "miui": "V13.0.11.0.SKQMIXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETGlobal_V13.0.11.0.SKQMIXM_5a5feb1ab0_12.0.zip",
-          "fastboot": "courbet_global_images_V13.0.11.0.SKQMIXM_20230109.0000.00_12.0_global_2428b819f1.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SKQMIXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETGlobal_V13.0.10.0.SKQMIXM_166d4b44c3_12.0.zip",
-          "fastboot": "courbet_global_images_V13.0.10.0.SKQMIXM_20221031.0000.00_12.0_global_e6da2c54fe.tgz"
-        },
-        {
-          "miui": "V13.0.9.0.SKQMIXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETGlobal_V13.0.9.0.SKQMIXM_54d0096666_12.0.zip",
-          "fastboot": "courbet_global_images_V13.0.9.0.SKQMIXM_20220831.0000.00_12.0_global_7e6c886027.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKQMIXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETGlobal_V13.0.8.0.SKQMIXM_1dc23745d5_12.0.zip",
-          "fastboot": "courbet_global_images_V13.0.8.0.SKQMIXM_20220602.0000.00_12.0_global_93455e2274.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SKQMIXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETGlobal_V13.0.7.0.SKQMIXM_3d00265751_12.0.zip",
-          "fastboot": "courbet_global_images_V13.0.7.0.SKQMIXM_20220406.0000.00_12.0_global_97facf36c0.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKQMIXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETGlobal_V13.0.4.0.SKQMIXM_61288b3a39_12.0.zip",
-          "fastboot": "courbet_global_images_V13.0.4.0.SKQMIXM_20220211.0000.00_12.0_global_5276d15edc.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKQMIXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETGlobal_V13.0.2.0.SKQMIXM_bae172608c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V12.5.8.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.5.8.0.RKQMIXM_d3268afe4e_11.0.zip",
-          "fastboot": "courbet_global_images_V12.5.8.0.RKQMIXM_20211130.0000.00_11.0_global_d4367f0286.tgz"
-        },
-        {
-          "miui": "V12.5.6.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.5.6.0.RKQMIXM_e7eea260ac_11.0.zip",
-          "fastboot": "courbet_global_images_V12.5.6.0.RKQMIXM_20210918.0000.00_11.0_global_02669ffbf3.tgz"
-        },
-        {
-          "miui": "V12.5.5.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.5.5.0.RKQMIXM_5c1bc0ec53_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V12.5.4.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.5.4.0.RKQMIXM_d2bca4def4_11.0.zip",
-          "fastboot": "courbet_global_images_V12.5.4.0.RKQMIXM_20210804.0000.00_11.0_global_5316ab623c.tgz"
-        },
-        {
-          "miui": "V12.5.3.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.5.3.0.RKQMIXM_55353ea368_11.0.zip",
-          "fastboot": "courbet_global_images_V12.5.3.0.RKQMIXM_20210622.0000.00_11.0_global_363e5e8513.tgz"
-        },
-        {
-          "miui": "V12.0.11.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.0.11.0.RKQMIXM_b8b8dd4107_11.0.zip",
-          "fastboot": "courbet_global_images_V12.0.11.0.RKQMIXM_20210519.0000.00_11.0_global_81e3c7db16.tgz"
-        },
-        {
-          "miui": "V12.0.8.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.0.8.0.RKQMIXM_055c84640d_11.0.zip",
-          "fastboot": "courbet_global_images_V12.0.8.0.RKQMIXM_20210413.0000.00_11.0_global_1c2ac9c295.tgz"
-        },
-        {
-          "miui": "V12.0.5.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.0.5.0.RKQMIXM_f05aecdac2_11.0.zip",
-          "fastboot": "courbet_global_images_V12.0.5.0.RKQMIXM_20210303.0000.00_11.0_global_ba56d6d514.tgz"
-        },
-        {
-          "miui": "V12.0.3.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.0.3.0.RKQMIXM_d74e3f5c43_11.0.zip",
-          "fastboot": "courbet_global_images_V12.0.3.0.RKQMIXM_20210130.0000.00_11.0_global_b7444bb76d.tgz"
-        },
-        {
-          "miui": "V12.0.2.0.RKQMIXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETGlobal_V12.0.2.0.RKQMIXM_fe70f83b36_11.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"courbet_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA稳定版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TKQEUXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETEEAGlobal_V14.0.3.0.TKQEUXM_671ecd36e9_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.2.0.TKQEUXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETEEAGlobal_V14.0.2.0.TKQEUXM_03a1aa08ad_13.0.zip",
-          "fastboot": "courbet_eea_global_images_V14.0.2.0.TKQEUXM_20230418.0000.00_13.0_eea_d172449d15.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKQEUXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETEEAGlobal_V14.0.1.0.TKQEUXM_e5d9d68368_13.0.zip",
-          "fastboot": "courbet_eea_global_images_V14.0.1.0.TKQEUXM_20230202.0000.00_13.0_eea_ab30d71790.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKQEUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETEEAGlobal_V13.0.8.0.SKQEUXM_2c217004e8_12.0.zip",
-          "fastboot": "courbet_eea_global_images_V13.0.8.0.SKQEUXM_20230105.0000.00_12.0_eea_6a673dada1.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SKQEUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETEEAGlobal_V13.0.7.0.SKQEUXM_53718d7da3_12.0.zip",
-          "fastboot": "courbet_eea_global_images_V13.0.7.0.SKQEUXM_20221128.0000.00_12.0_eea_646d7f1c27.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKQEUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETEEAGlobal_V13.0.6.0.SKQEUXM_f604f6d98b_12.0.zip",
-          "fastboot": "courbet_eea_global_images_V13.0.6.0.SKQEUXM_20220907.0000.00_12.0_eea_c16be671d4.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKQEUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETEEAGlobal_V13.0.5.0.SKQEUXM_c7b142a6a9_12.0.zip",
-          "fastboot": "courbet_eea_global_images_V13.0.5.0.SKQEUXM_20220609.0000.00_12.0_eea_e676aff083.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKQEUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETEEAGlobal_V13.0.4.0.SKQEUXM_03879a39c4_12.0.zip",
-          "fastboot": "courbet_eea_global_images_V13.0.4.0.SKQEUXM_20220408.0000.00_12.0_eea_cc7b1cde0e.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKQEUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETEEAGlobal_V13.0.3.0.SKQEUXM_a7f9bbdc63_12.0.zip",
-          "fastboot": "courbet_eea_global_images_V13.0.3.0.SKQEUXM_20220215.0000.00_12.0_eea_f2dfff68a2.tgz"
-        },
-        {
-          "miui": "V12.5.6.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.5.6.0.RKQEUXM_6539d2a6e9_11.0.zip",
-          "fastboot": "courbet_eea_global_images_V12.5.6.0.RKQEUXM_20211130.0000.00_11.0_eea_3117809c53.tgz"
-        },
-        {
-          "miui": "V12.5.5.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.5.5.0.RKQEUXM_57b656eeec_11.0.zip",
-          "fastboot": "courbet_eea_global_images_V12.5.5.0.RKQEUXM_20210918.0000.00_11.0_eea_c14b930938.tgz"
-        },
-        {
-          "miui": "V12.5.4.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.5.4.0.RKQEUXM_7861f2118e_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V12.5.3.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.5.3.0.RKQEUXM_ae3e8da362_11.0.zip",
-          "fastboot": "courbet_eea_global_images_V12.5.3.0.RKQEUXM_20210625.0000.00_11.0_eea_8a727854f5.tgz"
-        },
-        {
-          "miui": "V12.0.4.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.0.4.0.RKQEUXM_cc0380588d_11.0.zip",
-          "fastboot": "courbet_eea_global_images_V12.0.4.0.RKQEUXM_20210413.0000.00_11.0_eea_92ba4a5056.tgz"
-        },
-        {
-          "miui": "V12.0.3.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.0.3.0.RKQEUXM_97d5b05cb7_11.0.zip",
-          "fastboot": "courbet_eea_global_images_V12.0.3.0.RKQEUXM_20210302.0000.00_11.0_eea_4524a97167.tgz"
-        },
-        {
-          "miui": "V12.0.2.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.0.2.0.RKQEUXM_73603117d3_11.0.zip",
-          "fastboot": "courbet_eea_global_images_V12.0.2.0.RKQEUXM_20210203.0000.00_11.0_eea_b7ecb3dc73.tgz"
-        },
-        {
-          "miui": "V12.0.1.0.RKQEUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETEEAGlobal_V12.0.1.0.RKQEUXM_4c0a312652_11.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"courbet_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯稳定版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TKQRUXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETRUGlobal_V14.0.2.0.TKQRUXM_61e3e81c51_13.0.zip",
-          "fastboot": "courbet_ru_global_images_V14.0.2.0.TKQRUXM_20230731.0000.00_13.0_ru_4a87673773.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKQRUXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETRUGlobal_V14.0.1.0.TKQRUXM_47195c997a_13.0.zip",
-          "fastboot": "courbet_ru_global_images_V14.0.1.0.TKQRUXM_20230329.0000.00_13.0_ru_a007243147.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKQRUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETRUGlobal_V13.0.8.0.SKQRUXM_9b2e5fcb30_12.0.zip",
-          "fastboot": "courbet_ru_global_images_V13.0.8.0.SKQRUXM_20230307.0000.00_12.0_global_9ec8d9d4e7.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SKQRUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETRUGlobal_V13.0.7.0.SKQRUXM_0ff841b273_12.0.zip",
-          "fastboot": "courbet_ru_global_images_V13.0.7.0.SKQRUXM_20230104.0000.00_12.0_global_a7d5a6bfad.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKQRUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETRUGlobal_V13.0.6.0.SKQRUXM_1c8a6b9569_12.0.zip",
-          "fastboot": "courbet_ru_global_images_V13.0.6.0.SKQRUXM_20220929.0000.00_12.0_global_98fb2a2c44.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKQRUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETRUGlobal_V13.0.5.0.SKQRUXM_3071939d4a_12.0.zip",
-          "fastboot": "courbet_ru_global_images_V13.0.5.0.SKQRUXM_20220704.0000.00_12.0_global_a0594169b9.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKQRUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETRUGlobal_V13.0.2.0.SKQRUXM_92bfca3435_12.0.zip",
-          "fastboot": "courbet_ru_global_images_V13.0.2.0.SKQRUXM_20220427.0000.00_12.0_global_c04c12af12.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKQRUXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETRUGlobal_V13.0.1.0.SKQRUXM_2d96a1d5a0_12.0.zip",
-          "fastboot": "courbet_ru_global_images_V13.0.1.0.SKQRUXM_20220306.0000.00_12.0_global_3d6b6e2acb.tgz"
-        },
-        {
-          "miui": "V12.5.4.0.RKQRUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETRUGlobal_V12.5.4.0.RKQRUXM_8546514c5d_11.0.zip",
-          "fastboot": "courbet_ru_global_images_V12.5.4.0.RKQRUXM_20220216.0000.00_11.0_global_d602cbfda9.tgz"
-        },
-        {
-          "miui": "V12.5.3.0.RKQRUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETRUGlobal_V12.5.3.0.RKQRUXM_ae9aae804b_11.0.zip",
-          "fastboot": "courbet_ru_global_images_V12.5.3.0.RKQRUXM_20211215.0000.00_11.0_global_759a8a220b.tgz"
-        },
-        {
-          "miui": "V12.5.2.0.RKQRUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETRUGlobal_V12.5.2.0.RKQRUXM_bd5c12966e_11.0.zip",
-          "fastboot": "courbet_ru_global_images_V12.5.2.0.RKQRUXM_20210927.0000.00_11.0_global_ae8930ef62.tgz"
-        },
-        {
-          "miui": "V12.5.1.0.RKQRUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETRUGlobal_V12.5.1.0.RKQRUXM_69fd016a9b_11.0.zip",
-          "fastboot": "courbet_ru_global_images_V12.5.1.0.RKQRUXM_20210625.0000.00_11.0_global_22432e46be.tgz"
-        },
-        {
-          "miui": "V12.0.3.0.RKQRUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETRUGlobal_V12.0.3.0.RKQRUXM_5e2b39c09c_11.0.zip",
-          "fastboot": "courbet_ru_global_images_V12.0.3.0.RKQRUXM_20210417.0000.00_11.0_global_56c311da63.tgz"
-        },
-        {
-          "miui": "V12.0.1.0.RKQRUXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETRUGlobal_V12.0.1.0.RKQRUXM_a7fce83b92_11.0.zip",
-          "fastboot": "courbet_ru_global_images_V12.0.1.0.RKQRUXM_20210130.0000.00_11.0_global_1851f3409c.tgz"
-        }
-      ]
-    },
-    {
-      "code":"courbet_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度稳定版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TKQINXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETINGlobal_V14.0.2.0.TKQINXM_90facf8162_13.0.zip",
-          "fastboot": "courbet_in_global_images_V14.0.2.0.TKQINXM_20230407.0000.00_13.0_in_54d8c7c57c.tgz"
-        },
-        {
-          "miui": "V13.0.10.0.SKQINXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETINGlobal_V13.0.10.0.SKQINXM_9b0a666f68_12.0.zip",
-          "fastboot": "courbet_in_global_images_V13.0.10.0.SKQINXM_20230223.0000.00_12.0_in_b176ad818b.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKQINXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETINGlobal_V13.0.8.0.SKQINXM_ac9c9ba356_12.0.zip",
-          "fastboot": "courbet_in_global_images_V13.0.8.0.SKQINXM_20230104.0000.00_12.0_in_8572652b75.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SKQINXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETINGlobal_V13.0.7.0.SKQINXM_f8c4307438_12.0.zip",
-          "fastboot": "courbet_in_global_images_V13.0.7.0.SKQINXM_20221031.0000.00_12.0_in_cb44628256.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKQINXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETINGlobal_V13.0.5.0.SKQINXM_190449e833_12.0.zip",
-          "fastboot": "courbet_in_global_images_V13.0.5.0.SKQINXM_20220723.0000.00_12.0_in_856b8fed03.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKQINXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETINGlobal_V13.0.3.0.SKQINXM_bdb6ed8c2a_12.0.zip",
-          "fastboot": "courbet_in_global_images_V13.0.3.0.SKQINXM_20220518.0000.00_12.0_in_0180816f2c.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKQINXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETINGlobal_V13.0.2.0.SKQINXM_da16992466_12.0.zip",
-          "fastboot": "courbet_in_global_images_V13.0.2.0.SKQINXM_20220328.0000.00_12.0_in_c7d02c5757.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKQINXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETINGlobal_V13.0.1.0.SKQINXM_b51a467375_12.0.zip",
-          "fastboot": "courbet_in_global_images_V13.0.1.0.SKQINXM_20220306.0000.00_12.0_in_e9b159a742.tgz"
-        },
-        {
-          "miui": "V12.5.4.0.RKQINXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETINGlobal_V12.5.4.0.RKQINXM_b9e6bcfb76_11.0.zip",
-          "fastboot": "courbet_in_global_images_V12.5.4.0.RKQINXM_20220211.0000.00_11.0_in_65f85c2b62.tgz"
-        },
-        {
-          "miui": "V12.5.3.0.RKQINXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETINGlobal_V12.5.3.0.RKQINXM_745bb61749_11.0.zip",
-          "fastboot": "courbet_in_global_images_V12.5.3.0.RKQINXM_20211208.0000.00_11.0_in_643d1c8aab.tgz"
-        },
-        {
-          "miui": "V12.5.2.0.RKQINXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETINGlobal_V12.5.2.0.RKQINXM_ab17538bd0_11.0.zip",
-          "fastboot": "courbet_in_global_images_V12.5.2.0.RKQINXM_20210813.0000.00_11.0_in_e4d3611e36.tgz"
-        },
-        {
-          "miui": "V12.0.4.0.RKQINXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETINGlobal_V12.0.4.0.RKQINXM_e498228020_11.0.zip",
-          "fastboot": "courbet_in_global_images_V12.0.4.0.RKQINXM_20210422.0000.00_11.0_in_b04ba60a1c.tgz"
-        }
-      ]
-    },
-    {
-      "code":"courbet_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚稳定版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "V14.0.3.0.TKQIDXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETIDGlobal_V14.0.3.0.TKQIDXM_45bb375253_13.0.zip",
-          "fastboot": "courbet_id_global_images_V14.0.3.0.TKQIDXM_20230424.0000.00_13.0_id_2959f56aa9.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TKQIDXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETIDGlobal_V14.0.2.0.TKQIDXM_309df79761_13.0.zip",
-          "fastboot": "courbet_id_global_images_V14.0.2.0.TKQIDXM_20230321.0000.00_13.0_id_efb3154dff.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKQIDXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETIDGlobal_V13.0.6.0.SKQIDXM_159ba8c695_12.0.zip",
-          "fastboot": "courbet_id_global_images_V13.0.6.0.SKQIDXM_20230206.0000.00_12.0_global_f11f447a56.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKQIDXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETIDGlobal_V13.0.5.0.SKQIDXM_aed85f80d4_12.0.zip",
-          "fastboot": "courbet_id_global_images_V13.0.5.0.SKQIDXM_20221128.0000.00_12.0_global_c24b52829a.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKQIDXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETIDGlobal_V13.0.4.0.SKQIDXM_2014cef4dc_12.0.zip",
-          "fastboot": "courbet_id_global_images_V13.0.4.0.SKQIDXM_20220902.0000.00_12.0_global_347480089c.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKQIDXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETIDGlobal_V13.0.3.0.SKQIDXM_ee6541f2f7_12.0.zip",
-          "fastboot": "courbet_id_global_images_V13.0.3.0.SKQIDXM_20220602.0000.00_12.0_global_2e4264cb9c.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKQIDXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETIDGlobal_V13.0.2.0.SKQIDXM_24d75e3692_12.0.zip",
-          "fastboot": "courbet_id_global_images_V13.0.2.0.SKQIDXM_20220426.0000.00_12.0_global_0f8e610e17.tgz"
-        },
-        {
-          "miui": "V13.0.1.0.SKQIDXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETIDGlobal_V13.0.1.0.SKQIDXM_d537e04831_12.0.zip",
-          "fastboot": "courbet_id_global_images_V13.0.1.0.SKQIDXM_20220306.0000.00_12.0_global_a647365c94.tgz"
-        },
-        {
-          "miui": "V12.5.3.0.RKQIDXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETIDGlobal_V12.5.3.0.RKQIDXM_dde1abff6d_11.0.zip",
-          "fastboot": "courbet_id_global_images_V12.5.3.0.RKQIDXM_20211208.0000.00_11.0_global_b916b15d9e.tgz"
-        },
-        {
-          "miui": "V12.5.2.0.RKQIDXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETIDGlobal_V12.5.2.0.RKQIDXM_6e600fec72_11.0.zip",
-          "fastboot": "courbet_id_global_images_V12.5.2.0.RKQIDXM_20210927.0000.00_11.0_global_01934d041a.tgz"
-        },
-        {
-          "miui": "V12.5.1.0.RKQIDXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETIDGlobal_V12.5.1.0.RKQIDXM_15361efcb3_11.0.zip",
-          "fastboot": "courbet_id_global_images_V12.5.1.0.RKQIDXM_20210630.0000.00_11.0_global_df94a51e3a.tgz"
-        },
-        {
-          "miui": "V12.0.2.0.RKQIDXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETIDGlobal_V12.0.2.0.RKQIDXM_ab45e359ad_11.0.zip",
-          "fastboot": "courbet_id_global_images_V12.0.2.0.RKQIDXM_20210422.0000.00_11.0_global_c6c780c59d.tgz"
-        }
-      ]
-    },
-    {
-      "code":"courbet_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其稳定版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TKQTRXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETTRGlobal_V14.0.2.0.TKQTRXM_a6cce01963_13.0.zip",
-          "fastboot": "courbet_tr_global_images_V14.0.2.0.TKQTRXM_20230803.0000.00_13.0_tr_f447a36562.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKQTRXM",
-          "android": "13.0",
-          "recovery": "miui_COURBETTRGlobal_V14.0.1.0.TKQTRXM_f1061797bf_13.0.zip",
-          "fastboot": "courbet_tr_global_images_V14.0.1.0.TKQTRXM_20230329.0000.00_13.0_tr_dc5acf04d5.tgz"
-        },
-        {
-          "miui": "V13.0.7.0.SKQTRXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETTRGlobal_V13.0.7.0.SKQTRXM_e4ced3197b_12.0.zip",
-          "fastboot": "courbet_tr_global_images_V13.0.7.0.SKQTRXM_20230131.0000.00_12.0_global_e893c50d53.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKQTRXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETTRGlobal_V13.0.6.0.SKQTRXM_4c4bdae449_12.0.zip",
-          "fastboot": "courbet_tr_global_images_V13.0.6.0.SKQTRXM_20221107.0000.00_12.0_global_bb45b61d1f.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKQTRXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETTRGlobal_V13.0.5.0.SKQTRXM_a9971fa2ff_12.0.zip",
-          "fastboot": "courbet_tr_global_images_V13.0.5.0.SKQTRXM_20220810.0000.00_12.0_global_9eb1a76d19.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKQTRXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETTRGlobal_V13.0.4.0.SKQTRXM_211e794cb8_12.0.zip",
-          "fastboot": "courbet_tr_global_images_V13.0.4.0.SKQTRXM_20220518.0000.00_12.0_global_78c7b2bf31.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKQTRXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETTRGlobal_V13.0.3.0.SKQTRXM_a8dd242a5b_12.0.zip",
-          "fastboot": "courbet_tr_global_images_V13.0.3.0.SKQTRXM_20220329.0000.00_12.0_global_4592f0697a.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKQTRXM",
-          "android": "12.0",
-          "recovery": "miui_COURBETTRGlobal_V13.0.2.0.SKQTRXM_bfc575a28e_12.0.zip",
-          "fastboot": "courbet_tr_global_images_V13.0.2.0.SKQTRXM_20220316.0000.00_12.0_global_b9cd2a53f5.tgz"
-        },
-        {
-          "miui": "V12.5.4.0.RKQTRXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETTRGlobal_V12.5.4.0.RKQTRXM_d9c84f31b3_11.0.zip",
-          "fastboot": "courbet_tr_global_images_V12.5.4.0.RKQTRXM_20220216.0000.00_11.0_global_091b7f1dbe.tgz"
-        },
-        {
-          "miui": "V12.5.3.0.RKQTRXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETTRGlobal_V12.5.3.0.RKQTRXM_7e7f25844f_11.0.zip",
-          "fastboot": "courbet_tr_global_images_V12.5.3.0.RKQTRXM_20211215.0000.00_11.0_global_17ac934a35.tgz"
-        },
-        {
-          "miui": "V12.5.2.0.RKQTRXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETTRGlobal_V12.5.2.0.RKQTRXM_4bf3409fcb_11.0.zip",
-          "fastboot": "courbet_tr_global_images_V12.5.2.0.RKQTRXM_20210927.0000.00_11.0_global_e7380a4477.tgz"
-        },
-        {
-          "miui": "V12.5.1.0.RKQTRXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETTRGlobal_V12.5.1.0.RKQTRXM_df2d222571_11.0.zip",
-          "fastboot": "courbet_tr_global_images_V12.5.1.0.RKQTRXM_20210630.0000.00_11.0_global_c37b8f6da8.tgz"
-        },
-        {
-          "miui": "V12.0.2.0.RKQTRXM",
-          "android": "11.0",
-          "recovery": "miui_COURBETTRGlobal_V12.0.2.0.RKQTRXM_e008eb83ae_11.0.zip",
-          "fastboot": "courbet_tr_global_images_V12.0.2.0.RKQTRXM_20210417.0000.00_11.0_global_894d3480b5.tgz"
-        }
-      ]
-    },
-    {
-      "code":"courbet_lm_cr_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "lmcr",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "拉丁美洲Claro运营商定制版",
-      "enname": "Latin America Claro Carrier Edition",
-      "links": [
-        {
-          "miui": "V13.0.6.0.SKQLMCR",
-          "android": "13.0",
-          "recovery": "miui_COURBETLMCRGlobal_V13.0.6.0.SKQLMCR_63e69c7d8a_12.0.zip",
-          "fastboot": "courbet_lm_cr_global_images_V13.0.6.0.SKQLMCR_20230706.0000.00_12.0_global_acb61e3844.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKQLMCR",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "courbet_lm_cr_global_images_V13.0.5.0.SKQLMCR_20230504.0000.00_12.0_global_3e119b0421.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKQLMCR",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "courbet_lm_cr_global_images_V13.0.4.0.SKQLMCR_20230307.0000.00_12.0_global_ccbbc27f27.tgz"
-        },
-        {
-          "miui": "V13.0.3.0.SKQLMCR",
-          "android": "12.0",
-          "recovery": "miui_COURBETLMCRGlobal_V13.0.3.0.SKQLMCR_8ec27e9600_12.0.zip",
-          "fastboot": "courbet_lm_cr_global_images_V13.0.3.0.SKQLMCR_20221225.0000.00_12.0_global_1e764899f9.tgz"
-        }
-      ]
-    },
-    {
-      "code":"courbet_mx_tc_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mxtc",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "墨西哥Telcel稳定版",
-      "enname": "Mexico Stable Telcel Carrier Edtion",
-      "links": [
-        {
-          "miui": "V13.0.10.0.SKQMXTC",
-          "android": "12.0",
-          "recovery": "miui_COURBETMXTCGlobal_V13.0.10.0.SKQMXTC_92d6a6ef31_12.0.zip",
-          "fastboot": "courbet_mx_tc_global_images_V13.0.10.0.SKQMXTC_20230914.0000.00_12.0_global_6c96fe3bfa.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKQMXTC",
-          "android": "12.0",
-          "recovery": "miui_COURBETMXTCGlobal_V13.0.8.0.SKQMXTC_c459b8507e_12.0.zip",
-          "fastboot": "courbet_mx_tc_global_images_V13.0.8.0.SKQMXTC_20230706.0000.00_12.0_global_be32e07076.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKQMXTC",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "courbet_mx_tc_global_images_V13.0.6.0.SKQMXTC_20230504.0000.00_12.0_global_713a5c79bf.tgz"
-        },
-        {
-          "miui": "V13.0.5.0.SKQMXTC",
-          "android": "12.0",
-          "recovery": "",
-          "fastboot": "courbet_mx_tc_global_images_V13.0.5.0.SKQMXTC_20230227.0000.00_12.0_global_d729907ea6.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKQMXTC",
-          "android": "12.0",
-          "recovery": "miui_COURBETMXTCGlobal_V13.0.4.0.SKQMXTC_7130192ce3_12.0.zip",
-          "fastboot": "courbet_mx_tc_global_images_V13.0.4.0.SKQMXTC_20230106.0000.00_12.0_global_cab5cb61bd.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "courbet",
+	"cnname": "小米 11 Lite 4G",
+	"enname": "Mi 11 Lite 4G",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "10389",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "courbet_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际稳定版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TKQMIXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETGlobal_V14.0.4.0.TKQMIXM_43ae052f51_13.0.zip",
+					"fastboot": "courbet_global_images_V14.0.4.0.TKQMIXM_20231016.0000.00_13.0_global_f2bf2136b3.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKQMIXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETGlobal_V14.0.3.0.TKQMIXM_6497cb2f42_13.0.zip",
+					"fastboot": "courbet_global_images_V14.0.3.0.TKQMIXM_20230508.0000.00_13.0_global_1d43ddaf63.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKQMIXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETGlobal_V14.0.2.0.TKQMIXM_480ceb4179_13.0.zip",
+					"fastboot": "courbet_global_images_V14.0.2.0.TKQMIXM_20230306.0000.00_13.0_global_7ee23bf78b.tgz"
+				},
+				{
+					"miui": "V13.0.11.0.SKQMIXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETGlobal_V13.0.11.0.SKQMIXM_5a5feb1ab0_12.0.zip",
+					"fastboot": "courbet_global_images_V13.0.11.0.SKQMIXM_20230109.0000.00_12.0_global_2428b819f1.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SKQMIXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETGlobal_V13.0.10.0.SKQMIXM_166d4b44c3_12.0.zip",
+					"fastboot": "courbet_global_images_V13.0.10.0.SKQMIXM_20221031.0000.00_12.0_global_e6da2c54fe.tgz"
+				},
+				{
+					"miui": "V13.0.9.0.SKQMIXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETGlobal_V13.0.9.0.SKQMIXM_54d0096666_12.0.zip",
+					"fastboot": "courbet_global_images_V13.0.9.0.SKQMIXM_20220831.0000.00_12.0_global_7e6c886027.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKQMIXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETGlobal_V13.0.8.0.SKQMIXM_1dc23745d5_12.0.zip",
+					"fastboot": "courbet_global_images_V13.0.8.0.SKQMIXM_20220602.0000.00_12.0_global_93455e2274.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SKQMIXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETGlobal_V13.0.7.0.SKQMIXM_3d00265751_12.0.zip",
+					"fastboot": "courbet_global_images_V13.0.7.0.SKQMIXM_20220406.0000.00_12.0_global_97facf36c0.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKQMIXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETGlobal_V13.0.4.0.SKQMIXM_61288b3a39_12.0.zip",
+					"fastboot": "courbet_global_images_V13.0.4.0.SKQMIXM_20220211.0000.00_12.0_global_5276d15edc.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKQMIXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETGlobal_V13.0.2.0.SKQMIXM_bae172608c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.8.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.5.8.0.RKQMIXM_d3268afe4e_11.0.zip",
+					"fastboot": "courbet_global_images_V12.5.8.0.RKQMIXM_20211130.0000.00_11.0_global_d4367f0286.tgz"
+				},
+				{
+					"miui": "V12.5.6.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.5.6.0.RKQMIXM_e7eea260ac_11.0.zip",
+					"fastboot": "courbet_global_images_V12.5.6.0.RKQMIXM_20210918.0000.00_11.0_global_02669ffbf3.tgz"
+				},
+				{
+					"miui": "V12.5.5.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.5.5.0.RKQMIXM_5c1bc0ec53_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.4.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.5.4.0.RKQMIXM_d2bca4def4_11.0.zip",
+					"fastboot": "courbet_global_images_V12.5.4.0.RKQMIXM_20210804.0000.00_11.0_global_5316ab623c.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.5.3.0.RKQMIXM_55353ea368_11.0.zip",
+					"fastboot": "courbet_global_images_V12.5.3.0.RKQMIXM_20210622.0000.00_11.0_global_363e5e8513.tgz"
+				},
+				{
+					"miui": "V12.0.11.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.0.11.0.RKQMIXM_b8b8dd4107_11.0.zip",
+					"fastboot": "courbet_global_images_V12.0.11.0.RKQMIXM_20210519.0000.00_11.0_global_81e3c7db16.tgz"
+				},
+				{
+					"miui": "V12.0.8.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.0.8.0.RKQMIXM_055c84640d_11.0.zip",
+					"fastboot": "courbet_global_images_V12.0.8.0.RKQMIXM_20210413.0000.00_11.0_global_1c2ac9c295.tgz"
+				},
+				{
+					"miui": "V12.0.5.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.0.5.0.RKQMIXM_f05aecdac2_11.0.zip",
+					"fastboot": "courbet_global_images_V12.0.5.0.RKQMIXM_20210303.0000.00_11.0_global_ba56d6d514.tgz"
+				},
+				{
+					"miui": "V12.0.3.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.0.3.0.RKQMIXM_d74e3f5c43_11.0.zip",
+					"fastboot": "courbet_global_images_V12.0.3.0.RKQMIXM_20210130.0000.00_11.0_global_b7444bb76d.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.RKQMIXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETGlobal_V12.0.2.0.RKQMIXM_fe70f83b36_11.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "courbet_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA稳定版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TKQEUXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETEEAGlobal_V14.0.3.0.TKQEUXM_671ecd36e9_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.2.0.TKQEUXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETEEAGlobal_V14.0.2.0.TKQEUXM_03a1aa08ad_13.0.zip",
+					"fastboot": "courbet_eea_global_images_V14.0.2.0.TKQEUXM_20230418.0000.00_13.0_eea_d172449d15.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKQEUXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETEEAGlobal_V14.0.1.0.TKQEUXM_e5d9d68368_13.0.zip",
+					"fastboot": "courbet_eea_global_images_V14.0.1.0.TKQEUXM_20230202.0000.00_13.0_eea_ab30d71790.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKQEUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETEEAGlobal_V13.0.8.0.SKQEUXM_2c217004e8_12.0.zip",
+					"fastboot": "courbet_eea_global_images_V13.0.8.0.SKQEUXM_20230105.0000.00_12.0_eea_6a673dada1.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SKQEUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETEEAGlobal_V13.0.7.0.SKQEUXM_53718d7da3_12.0.zip",
+					"fastboot": "courbet_eea_global_images_V13.0.7.0.SKQEUXM_20221128.0000.00_12.0_eea_646d7f1c27.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKQEUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETEEAGlobal_V13.0.6.0.SKQEUXM_f604f6d98b_12.0.zip",
+					"fastboot": "courbet_eea_global_images_V13.0.6.0.SKQEUXM_20220907.0000.00_12.0_eea_c16be671d4.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKQEUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETEEAGlobal_V13.0.5.0.SKQEUXM_c7b142a6a9_12.0.zip",
+					"fastboot": "courbet_eea_global_images_V13.0.5.0.SKQEUXM_20220609.0000.00_12.0_eea_e676aff083.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKQEUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETEEAGlobal_V13.0.4.0.SKQEUXM_03879a39c4_12.0.zip",
+					"fastboot": "courbet_eea_global_images_V13.0.4.0.SKQEUXM_20220408.0000.00_12.0_eea_cc7b1cde0e.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKQEUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETEEAGlobal_V13.0.3.0.SKQEUXM_a7f9bbdc63_12.0.zip",
+					"fastboot": "courbet_eea_global_images_V13.0.3.0.SKQEUXM_20220215.0000.00_12.0_eea_f2dfff68a2.tgz"
+				},
+				{
+					"miui": "V12.5.6.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.5.6.0.RKQEUXM_6539d2a6e9_11.0.zip",
+					"fastboot": "courbet_eea_global_images_V12.5.6.0.RKQEUXM_20211130.0000.00_11.0_eea_3117809c53.tgz"
+				},
+				{
+					"miui": "V12.5.5.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.5.5.0.RKQEUXM_57b656eeec_11.0.zip",
+					"fastboot": "courbet_eea_global_images_V12.5.5.0.RKQEUXM_20210918.0000.00_11.0_eea_c14b930938.tgz"
+				},
+				{
+					"miui": "V12.5.4.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.5.4.0.RKQEUXM_7861f2118e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.3.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.5.3.0.RKQEUXM_ae3e8da362_11.0.zip",
+					"fastboot": "courbet_eea_global_images_V12.5.3.0.RKQEUXM_20210625.0000.00_11.0_eea_8a727854f5.tgz"
+				},
+				{
+					"miui": "V12.0.4.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.0.4.0.RKQEUXM_cc0380588d_11.0.zip",
+					"fastboot": "courbet_eea_global_images_V12.0.4.0.RKQEUXM_20210413.0000.00_11.0_eea_92ba4a5056.tgz"
+				},
+				{
+					"miui": "V12.0.3.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.0.3.0.RKQEUXM_97d5b05cb7_11.0.zip",
+					"fastboot": "courbet_eea_global_images_V12.0.3.0.RKQEUXM_20210302.0000.00_11.0_eea_4524a97167.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.0.2.0.RKQEUXM_73603117d3_11.0.zip",
+					"fastboot": "courbet_eea_global_images_V12.0.2.0.RKQEUXM_20210203.0000.00_11.0_eea_b7ecb3dc73.tgz"
+				},
+				{
+					"miui": "V12.0.1.0.RKQEUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETEEAGlobal_V12.0.1.0.RKQEUXM_4c0a312652_11.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "courbet_ru_global",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯稳定版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TKQRUXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETRUGlobal_V14.0.2.0.TKQRUXM_61e3e81c51_13.0.zip",
+					"fastboot": "courbet_ru_global_images_V14.0.2.0.TKQRUXM_20230731.0000.00_13.0_ru_4a87673773.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKQRUXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETRUGlobal_V14.0.1.0.TKQRUXM_47195c997a_13.0.zip",
+					"fastboot": "courbet_ru_global_images_V14.0.1.0.TKQRUXM_20230329.0000.00_13.0_ru_a007243147.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKQRUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETRUGlobal_V13.0.8.0.SKQRUXM_9b2e5fcb30_12.0.zip",
+					"fastboot": "courbet_ru_global_images_V13.0.8.0.SKQRUXM_20230307.0000.00_12.0_global_9ec8d9d4e7.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SKQRUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETRUGlobal_V13.0.7.0.SKQRUXM_0ff841b273_12.0.zip",
+					"fastboot": "courbet_ru_global_images_V13.0.7.0.SKQRUXM_20230104.0000.00_12.0_global_a7d5a6bfad.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKQRUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETRUGlobal_V13.0.6.0.SKQRUXM_1c8a6b9569_12.0.zip",
+					"fastboot": "courbet_ru_global_images_V13.0.6.0.SKQRUXM_20220929.0000.00_12.0_global_98fb2a2c44.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKQRUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETRUGlobal_V13.0.5.0.SKQRUXM_3071939d4a_12.0.zip",
+					"fastboot": "courbet_ru_global_images_V13.0.5.0.SKQRUXM_20220704.0000.00_12.0_global_a0594169b9.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKQRUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETRUGlobal_V13.0.2.0.SKQRUXM_92bfca3435_12.0.zip",
+					"fastboot": "courbet_ru_global_images_V13.0.2.0.SKQRUXM_20220427.0000.00_12.0_global_c04c12af12.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKQRUXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETRUGlobal_V13.0.1.0.SKQRUXM_2d96a1d5a0_12.0.zip",
+					"fastboot": "courbet_ru_global_images_V13.0.1.0.SKQRUXM_20220306.0000.00_12.0_global_3d6b6e2acb.tgz"
+				},
+				{
+					"miui": "V12.5.4.0.RKQRUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETRUGlobal_V12.5.4.0.RKQRUXM_8546514c5d_11.0.zip",
+					"fastboot": "courbet_ru_global_images_V12.5.4.0.RKQRUXM_20220216.0000.00_11.0_global_d602cbfda9.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKQRUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETRUGlobal_V12.5.3.0.RKQRUXM_ae9aae804b_11.0.zip",
+					"fastboot": "courbet_ru_global_images_V12.5.3.0.RKQRUXM_20211215.0000.00_11.0_global_759a8a220b.tgz"
+				},
+				{
+					"miui": "V12.5.2.0.RKQRUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETRUGlobal_V12.5.2.0.RKQRUXM_bd5c12966e_11.0.zip",
+					"fastboot": "courbet_ru_global_images_V12.5.2.0.RKQRUXM_20210927.0000.00_11.0_global_ae8930ef62.tgz"
+				},
+				{
+					"miui": "V12.5.1.0.RKQRUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETRUGlobal_V12.5.1.0.RKQRUXM_69fd016a9b_11.0.zip",
+					"fastboot": "courbet_ru_global_images_V12.5.1.0.RKQRUXM_20210625.0000.00_11.0_global_22432e46be.tgz"
+				},
+				{
+					"miui": "V12.0.3.0.RKQRUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETRUGlobal_V12.0.3.0.RKQRUXM_5e2b39c09c_11.0.zip",
+					"fastboot": "courbet_ru_global_images_V12.0.3.0.RKQRUXM_20210417.0000.00_11.0_global_56c311da63.tgz"
+				},
+				{
+					"miui": "V12.0.1.0.RKQRUXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETRUGlobal_V12.0.1.0.RKQRUXM_a7fce83b92_11.0.zip",
+					"fastboot": "courbet_ru_global_images_V12.0.1.0.RKQRUXM_20210130.0000.00_11.0_global_1851f3409c.tgz"
+				}
+			]
+		},
+		{
+			"code": "courbet_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度稳定版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TKQINXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETINGlobal_V14.0.2.0.TKQINXM_90facf8162_13.0.zip",
+					"fastboot": "courbet_in_global_images_V14.0.2.0.TKQINXM_20230407.0000.00_13.0_in_54d8c7c57c.tgz"
+				},
+				{
+					"miui": "V13.0.10.0.SKQINXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETINGlobal_V13.0.10.0.SKQINXM_9b0a666f68_12.0.zip",
+					"fastboot": "courbet_in_global_images_V13.0.10.0.SKQINXM_20230223.0000.00_12.0_in_b176ad818b.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKQINXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETINGlobal_V13.0.8.0.SKQINXM_ac9c9ba356_12.0.zip",
+					"fastboot": "courbet_in_global_images_V13.0.8.0.SKQINXM_20230104.0000.00_12.0_in_8572652b75.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SKQINXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETINGlobal_V13.0.7.0.SKQINXM_f8c4307438_12.0.zip",
+					"fastboot": "courbet_in_global_images_V13.0.7.0.SKQINXM_20221031.0000.00_12.0_in_cb44628256.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKQINXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETINGlobal_V13.0.5.0.SKQINXM_190449e833_12.0.zip",
+					"fastboot": "courbet_in_global_images_V13.0.5.0.SKQINXM_20220723.0000.00_12.0_in_856b8fed03.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKQINXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETINGlobal_V13.0.3.0.SKQINXM_bdb6ed8c2a_12.0.zip",
+					"fastboot": "courbet_in_global_images_V13.0.3.0.SKQINXM_20220518.0000.00_12.0_in_0180816f2c.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKQINXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETINGlobal_V13.0.2.0.SKQINXM_da16992466_12.0.zip",
+					"fastboot": "courbet_in_global_images_V13.0.2.0.SKQINXM_20220328.0000.00_12.0_in_c7d02c5757.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKQINXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETINGlobal_V13.0.1.0.SKQINXM_b51a467375_12.0.zip",
+					"fastboot": "courbet_in_global_images_V13.0.1.0.SKQINXM_20220306.0000.00_12.0_in_e9b159a742.tgz"
+				},
+				{
+					"miui": "V12.5.4.0.RKQINXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETINGlobal_V12.5.4.0.RKQINXM_b9e6bcfb76_11.0.zip",
+					"fastboot": "courbet_in_global_images_V12.5.4.0.RKQINXM_20220211.0000.00_11.0_in_65f85c2b62.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKQINXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETINGlobal_V12.5.3.0.RKQINXM_745bb61749_11.0.zip",
+					"fastboot": "courbet_in_global_images_V12.5.3.0.RKQINXM_20211208.0000.00_11.0_in_643d1c8aab.tgz"
+				},
+				{
+					"miui": "V12.5.2.0.RKQINXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETINGlobal_V12.5.2.0.RKQINXM_ab17538bd0_11.0.zip",
+					"fastboot": "courbet_in_global_images_V12.5.2.0.RKQINXM_20210813.0000.00_11.0_in_e4d3611e36.tgz"
+				},
+				{
+					"miui": "V12.0.4.0.RKQINXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETINGlobal_V12.0.4.0.RKQINXM_e498228020_11.0.zip",
+					"fastboot": "courbet_in_global_images_V12.0.4.0.RKQINXM_20210422.0000.00_11.0_in_b04ba60a1c.tgz"
+				}
+			]
+		},
+		{
+			"code": "courbet_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚稳定版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TKQIDXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETIDGlobal_V14.0.3.0.TKQIDXM_45bb375253_13.0.zip",
+					"fastboot": "courbet_id_global_images_V14.0.3.0.TKQIDXM_20230424.0000.00_13.0_id_2959f56aa9.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TKQIDXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETIDGlobal_V14.0.2.0.TKQIDXM_309df79761_13.0.zip",
+					"fastboot": "courbet_id_global_images_V14.0.2.0.TKQIDXM_20230321.0000.00_13.0_id_efb3154dff.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKQIDXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETIDGlobal_V13.0.6.0.SKQIDXM_159ba8c695_12.0.zip",
+					"fastboot": "courbet_id_global_images_V13.0.6.0.SKQIDXM_20230206.0000.00_12.0_global_f11f447a56.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKQIDXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETIDGlobal_V13.0.5.0.SKQIDXM_aed85f80d4_12.0.zip",
+					"fastboot": "courbet_id_global_images_V13.0.5.0.SKQIDXM_20221128.0000.00_12.0_global_c24b52829a.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKQIDXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETIDGlobal_V13.0.4.0.SKQIDXM_2014cef4dc_12.0.zip",
+					"fastboot": "courbet_id_global_images_V13.0.4.0.SKQIDXM_20220902.0000.00_12.0_global_347480089c.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKQIDXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETIDGlobal_V13.0.3.0.SKQIDXM_ee6541f2f7_12.0.zip",
+					"fastboot": "courbet_id_global_images_V13.0.3.0.SKQIDXM_20220602.0000.00_12.0_global_2e4264cb9c.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKQIDXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETIDGlobal_V13.0.2.0.SKQIDXM_24d75e3692_12.0.zip",
+					"fastboot": "courbet_id_global_images_V13.0.2.0.SKQIDXM_20220426.0000.00_12.0_global_0f8e610e17.tgz"
+				},
+				{
+					"miui": "V13.0.1.0.SKQIDXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETIDGlobal_V13.0.1.0.SKQIDXM_d537e04831_12.0.zip",
+					"fastboot": "courbet_id_global_images_V13.0.1.0.SKQIDXM_20220306.0000.00_12.0_global_a647365c94.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKQIDXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETIDGlobal_V12.5.3.0.RKQIDXM_dde1abff6d_11.0.zip",
+					"fastboot": "courbet_id_global_images_V12.5.3.0.RKQIDXM_20211208.0000.00_11.0_global_b916b15d9e.tgz"
+				},
+				{
+					"miui": "V12.5.2.0.RKQIDXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETIDGlobal_V12.5.2.0.RKQIDXM_6e600fec72_11.0.zip",
+					"fastboot": "courbet_id_global_images_V12.5.2.0.RKQIDXM_20210927.0000.00_11.0_global_01934d041a.tgz"
+				},
+				{
+					"miui": "V12.5.1.0.RKQIDXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETIDGlobal_V12.5.1.0.RKQIDXM_15361efcb3_11.0.zip",
+					"fastboot": "courbet_id_global_images_V12.5.1.0.RKQIDXM_20210630.0000.00_11.0_global_df94a51e3a.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.RKQIDXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETIDGlobal_V12.0.2.0.RKQIDXM_ab45e359ad_11.0.zip",
+					"fastboot": "courbet_id_global_images_V12.0.2.0.RKQIDXM_20210422.0000.00_11.0_global_c6c780c59d.tgz"
+				}
+			]
+		},
+		{
+			"code": "courbet_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其稳定版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TKQTRXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETTRGlobal_V14.0.2.0.TKQTRXM_a6cce01963_13.0.zip",
+					"fastboot": "courbet_tr_global_images_V14.0.2.0.TKQTRXM_20230803.0000.00_13.0_tr_f447a36562.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKQTRXM",
+					"android": "13.0",
+					"recovery": "miui_COURBETTRGlobal_V14.0.1.0.TKQTRXM_f1061797bf_13.0.zip",
+					"fastboot": "courbet_tr_global_images_V14.0.1.0.TKQTRXM_20230329.0000.00_13.0_tr_dc5acf04d5.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SKQTRXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETTRGlobal_V13.0.7.0.SKQTRXM_e4ced3197b_12.0.zip",
+					"fastboot": "courbet_tr_global_images_V13.0.7.0.SKQTRXM_20230131.0000.00_12.0_global_e893c50d53.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKQTRXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETTRGlobal_V13.0.6.0.SKQTRXM_4c4bdae449_12.0.zip",
+					"fastboot": "courbet_tr_global_images_V13.0.6.0.SKQTRXM_20221107.0000.00_12.0_global_bb45b61d1f.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKQTRXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETTRGlobal_V13.0.5.0.SKQTRXM_a9971fa2ff_12.0.zip",
+					"fastboot": "courbet_tr_global_images_V13.0.5.0.SKQTRXM_20220810.0000.00_12.0_global_9eb1a76d19.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKQTRXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETTRGlobal_V13.0.4.0.SKQTRXM_211e794cb8_12.0.zip",
+					"fastboot": "courbet_tr_global_images_V13.0.4.0.SKQTRXM_20220518.0000.00_12.0_global_78c7b2bf31.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKQTRXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETTRGlobal_V13.0.3.0.SKQTRXM_a8dd242a5b_12.0.zip",
+					"fastboot": "courbet_tr_global_images_V13.0.3.0.SKQTRXM_20220329.0000.00_12.0_global_4592f0697a.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKQTRXM",
+					"android": "12.0",
+					"recovery": "miui_COURBETTRGlobal_V13.0.2.0.SKQTRXM_bfc575a28e_12.0.zip",
+					"fastboot": "courbet_tr_global_images_V13.0.2.0.SKQTRXM_20220316.0000.00_12.0_global_b9cd2a53f5.tgz"
+				},
+				{
+					"miui": "V12.5.4.0.RKQTRXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETTRGlobal_V12.5.4.0.RKQTRXM_d9c84f31b3_11.0.zip",
+					"fastboot": "courbet_tr_global_images_V12.5.4.0.RKQTRXM_20220216.0000.00_11.0_global_091b7f1dbe.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKQTRXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETTRGlobal_V12.5.3.0.RKQTRXM_7e7f25844f_11.0.zip",
+					"fastboot": "courbet_tr_global_images_V12.5.3.0.RKQTRXM_20211215.0000.00_11.0_global_17ac934a35.tgz"
+				},
+				{
+					"miui": "V12.5.2.0.RKQTRXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETTRGlobal_V12.5.2.0.RKQTRXM_4bf3409fcb_11.0.zip",
+					"fastboot": "courbet_tr_global_images_V12.5.2.0.RKQTRXM_20210927.0000.00_11.0_global_e7380a4477.tgz"
+				},
+				{
+					"miui": "V12.5.1.0.RKQTRXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETTRGlobal_V12.5.1.0.RKQTRXM_df2d222571_11.0.zip",
+					"fastboot": "courbet_tr_global_images_V12.5.1.0.RKQTRXM_20210630.0000.00_11.0_global_c37b8f6da8.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.RKQTRXM",
+					"android": "11.0",
+					"recovery": "miui_COURBETTRGlobal_V12.0.2.0.RKQTRXM_e008eb83ae_11.0.zip",
+					"fastboot": "courbet_tr_global_images_V12.0.2.0.RKQTRXM_20210417.0000.00_11.0_global_894d3480b5.tgz"
+				}
+			]
+		},
+		{
+			"code": "courbet_lm_cr_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "lmcr",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "拉丁美洲Claro运营商定制版",
+			"enname": "Latin America Claro Carrier Edition",
+			"links": [
+				{
+					"miui": "V13.0.6.0.SKQLMCR",
+					"android": "13.0",
+					"recovery": "miui_COURBETLMCRGlobal_V13.0.6.0.SKQLMCR_63e69c7d8a_12.0.zip",
+					"fastboot": "courbet_lm_cr_global_images_V13.0.6.0.SKQLMCR_20230706.0000.00_12.0_global_acb61e3844.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKQLMCR",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "courbet_lm_cr_global_images_V13.0.5.0.SKQLMCR_20230504.0000.00_12.0_global_3e119b0421.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKQLMCR",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "courbet_lm_cr_global_images_V13.0.4.0.SKQLMCR_20230307.0000.00_12.0_global_ccbbc27f27.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SKQLMCR",
+					"android": "12.0",
+					"recovery": "miui_COURBETLMCRGlobal_V13.0.3.0.SKQLMCR_8ec27e9600_12.0.zip",
+					"fastboot": "courbet_lm_cr_global_images_V13.0.3.0.SKQLMCR_20221225.0000.00_12.0_global_1e764899f9.tgz"
+				}
+			]
+		},
+		{
+			"code": "courbet_mx_tc_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mxtc",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "墨西哥Telcel稳定版",
+			"enname": "Mexico Stable Telcel Carrier Edtion",
+			"links": [
+				{
+					"miui": "V13.0.10.0.SKQMXTC",
+					"android": "12.0",
+					"recovery": "miui_COURBETMXTCGlobal_V13.0.10.0.SKQMXTC_92d6a6ef31_12.0.zip",
+					"fastboot": "courbet_mx_tc_global_images_V13.0.10.0.SKQMXTC_20230914.0000.00_12.0_global_6c96fe3bfa.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKQMXTC",
+					"android": "12.0",
+					"recovery": "miui_COURBETMXTCGlobal_V13.0.8.0.SKQMXTC_c459b8507e_12.0.zip",
+					"fastboot": "courbet_mx_tc_global_images_V13.0.8.0.SKQMXTC_20230706.0000.00_12.0_global_be32e07076.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKQMXTC",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "courbet_mx_tc_global_images_V13.0.6.0.SKQMXTC_20230504.0000.00_12.0_global_713a5c79bf.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.SKQMXTC",
+					"android": "12.0",
+					"recovery": "",
+					"fastboot": "courbet_mx_tc_global_images_V13.0.5.0.SKQMXTC_20230227.0000.00_12.0_global_d729907ea6.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKQMXTC",
+					"android": "12.0",
+					"recovery": "miui_COURBETMXTCGlobal_V13.0.4.0.SKQMXTC_7130192ce3_12.0.zip",
+					"fastboot": "courbet_mx_tc_global_images_V13.0.4.0.SKQMXTC_20230106.0000.00_12.0_global_cab5cb61bd.tgz"
+				}
+			]
+		}
+	]
 }

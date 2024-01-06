@@ -1,1717 +1,1713 @@
 {
-  "codename": "odin",
-  "cnname": "小米 MIX 4",
-  "enname": "MIX 4",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "35575060",
-  "ismiui":"1",
-  "ccshow": "1",
-  "cbshow": "1",
-  "csid": [
-    "363"
-  ],
-  "cbid": [
-    "369"
-  ],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"odin",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "V14.0.23.7.31.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.7.31.DEV_df62483742_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.24.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.7.24.DEV_aa77f4fd8e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.7.17.DEV_b99798b439_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.7.10.DEV_ac39e7d563_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.7.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.7.3.DEV_eaa9e5b324_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.6.26.DEV_ebfb025aac_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.6.8.DEV_9c7614c320_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.6.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.6.5.DEV_589a675eea_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.29.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.5.29.DEV_bb71e5a891_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.22.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.5.22.DEV_b8d3c9af7e_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.15.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.5.15.DEV_1514aac14b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.5.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.5.8.DEV_591be49d27_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.25.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.4.25.DEV_69c1b2c70a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.17.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.4.17.DEV_e1aad3688a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.10.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.4.10.DEV_2ed8d9e18a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.4.2.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.4.2.DEV_1709f40205_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.3.27.DEV_a1f98a9665_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.3.21.DEV_140eec084f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.3.13.DEV_cbef1b6d4d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.3.7.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.3.7.DEV_1d17e3d183_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.27.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.2.27.DEV_24a569530c_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.21.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.2.21.DEV_c9e842cf0f_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.13.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.2.13.DEV_c9f4ebede6_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.2.6.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.2.6.DEV_4f6fc97120_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.30.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.1.30.DEV_43f44b743a_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.9.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.1.9.DEV_b4dc022062_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.23.1.3.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.23.1.3.DEV_f33f1fc423_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.26.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.22.12.26.DEV_65171f3c4b_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.19.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.22.12.19.DEV_65a85755dd_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.8.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.22.12.8.DEV_b4a2f2fb6d_13.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V14.0.22.12.5.DEV",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.22.12.5.DEV_8718bbdbae_13.0.zip",
-          "fastboot": "odin_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_5b9c041c9e.tgz"
-        },
-        {
-          "miui": "22.10.26",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.26_fa810d0123_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.25",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.25_04df6a866f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.24.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.10.24.DEV_af02ce2d99_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.24",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.24_74981bfa3b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.21",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.21_d134b04673_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.19",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.19_d3006e27e6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.18",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.18_9fc3780408_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.17.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.10.17.DEV_599ae820f9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.17",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.17_e25d9320f1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.14",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.14_284a856ce7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.12",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.12_d78a99d0e4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.10.11.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.10.11.DEV_78fe30d9eb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.11",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.11_7e0442d1c4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.10",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.10_816f7f4257_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.10.8",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.10.8_8a8625abcf_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.29",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.29_1889131247_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.9.28.DEV_f9dbf13e05_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.28",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.28_821ccc0a9f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.27",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.27_20329453fd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.26",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.26_20b3e6bde0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.23",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.23_cd1d8a526f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.21",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.21_7a0cd321d5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.20",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.20_5ae0abc5dd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.19.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.9.19.DEV_ef5956463f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.17",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.17_5c60906b51_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.16",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.16_749a297b92_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.14",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.14_1838688b29_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.13",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.13_b3290e5a74_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.12.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.9.12.DEV_c3b655cd1a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.9",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.9_3f6b8f0a0b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.7",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.7_7e84205923_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.6",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.6_659fd6fde7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.9.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.9.5.DEV_f85e38f6a7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.9.5",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.9.5_a093d913fe_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.31",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.31_911c96aef6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.30",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.30_f03cbade93_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.8.29.DEV_4d4f6cf3ec_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.29",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.29_d6a4824047_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.26",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.26_61ec21f0a7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.25",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.25_6ae3205823_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.24",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.24_ad235d3ad2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.23",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.23_0c8029cf1b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.8.22.DEV_b307c2000c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.1.22.8.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.1.22.8.16.DEV_de2fb56d48_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.16",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.16_e835cfb95e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.15",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.15_d197fb3c93_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.59.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.59.DEV_1d353a3f38_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.56.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.56.DEV_871ce66bba_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.55.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.55.DEV_3112cd8835_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.51.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.51.DEV_2c3e39eeba_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.47.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.47.DEV_1b8bb6df0b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.45.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.45.DEV_9dc1ee4f60_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.43.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.43.DEV_669b8ca14c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.40.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.40.DEV_ac35b425f3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.39.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.39.DEV_28e01126bc_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.37.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.37.DEV_a4e65a1f4c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.35.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.35.DEV_3086896847_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.32.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.32.DEV_f6e3fbba32_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.29.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.29.DEV_93614c161d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.5.1.28.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.5.1.28.DEV_509b3f632f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.26.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.26.DEV_2249a88e26_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.23.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.23.DEV_75c2120088_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.22.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.22.DEV_55261aa670_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.18.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.18.DEV_48f97e8919_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.16.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.16.DEV_fd513f2295_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.15.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.15.DEV_f979655d4d_12.0.zip",
-          "fastboot": "odin_images_V13.0.4.1.15.DEV_20220308.0000.00_12.0_cn_713cd3335d.tgz"
-        },
-        {
-          "miui": "V13.0.4.1.13.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.13.DEV_7726be68b1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.11.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.11.DEV_fa7a4a0a3d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.9.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.9.DEV_531b43e1d2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.4.1.7.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.1.7.DEV_a23591e5f0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.3.1.5.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.3.1.5.DEV_c428dbde95_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "V13.0.2.1.1.DEV",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.2.1.1.DEV_d24c0ec79e_12.0.zip",
-          "fastboot": "odin_images_V13.0.2.1.1.DEV_20220112.0000.00_12.0_cn_082e56fab7.tgz"
-        },
-        {
-          "miui": "22.8.12",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.12_6667c2646f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.10",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.10_68e9d0fc8a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.9",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.9_336ee11dde_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.8",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.8_69fe132c64_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.5",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.5_44348b1cbf_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.3",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.3_4c5ce316bd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.2",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.2_fba369633d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.8.1",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.8.1_aca51f08d2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.30",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.30_a499f8b811_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.28",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.28_50776db574_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.26",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.26_d24ec928b9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.25",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.25_3f919c905e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.22",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.22_b408b24eb0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.21",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.21_52d8661a0c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.20",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.20_36dd1542aa_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.15",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.15_e4242f7dc1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.13",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.13_e9fee48344_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.12",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.12_6dd90afb39_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.11",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.11_447239a20a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.8",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.8_f6cea3899f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.7",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.7_7db0818210_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.6",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.6_9d4180d698_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.4",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.4_7004c4b88c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.7.1",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.7.1_d75d8e3dc6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.29",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.29_6df4308055_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.28",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.28_da014a9305_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.27",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.27_034b85842f_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.24",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.24_e6670b3189_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.22",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.22_f9979e8a26_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.21",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.21_454aa0a42b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.20",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.20_e1daa7536a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.17",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.17_e96ac19d10_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.15",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.15_6ced11c06c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.14",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.14_86839fb9d5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.9",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.9_6253d12147_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.8",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.8_7d2cfe85ff_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.6.6",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.6.6_61239a6eb2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.31",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.31_c5ac23b5f3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.27",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.27_1467ac9c43_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.24",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.24_f46eaea159_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.23",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.23_f3f9c7ec0b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.22",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.22_7de936cb0c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.18",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.18_c3f2d82223_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.17",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.17_7a372e5865_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.16",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.16_b1f211e47e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.15",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.15_76a9e55152_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.11",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.11_b03ef20eeb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.10",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.10_7551952d72_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.9",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.9_36ef687d57_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.5.6",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.5.6_a8162f4a4b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.27",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.27_2ec7f4dd59_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.26",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.26_b765fff8fe_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.25",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.25_bef4778578_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.22",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.22_9116708763_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.21",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.21_1305cc1ccd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.20",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.20_ebfa24fd81_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.18",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.18_49e15f6853_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.13",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.13_9f85b2f2d3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.12",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.12_cbd94a1b62_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.11",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.11_71d4db5a30_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.8",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.8_b4b564cd50_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.4.7",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.7_a2d210ff66_12.0.zip",
-          "fastboot": "odin_pre_images_22.4.7_20220407.0000.00_12.0_cn_37ab2d8402.tgz"
-        },
-        {
-          "miui": "22.4.1",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.4.1_59f7136fbe_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.30",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.30_04f00472d1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.29",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.29_d93a7fa259_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.28",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.28_72b48c25af_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.25",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.25_bb40d099f7_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.24",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.24_044bbd8059_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.22",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.22_d88ae3761a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.21",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.21_d45cbc8aee_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.18",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.18_77ba6930ba_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.16",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.16_1cba3c95eb_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.15",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.15_bcbe31dbab_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.14",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.14_0ed14db1e4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.12",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.12_99b23e1a25_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.3",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.3_0daa699abe_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.3.2",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.3.2_f22323cff0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.25",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.25_a6bb320a59_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.23",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.23_924baa5eb2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.22",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.22_6230253b9d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.21",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.21_6cb5be8a08_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.19",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.19_6721dead20_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.17",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.17_5939268c2d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.16",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.16_08b9c3aa48_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.15",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.15_3d55e181e2_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.10",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.10_cb4c190bce_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.9",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.9_11c1323913_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.8",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.8_62d7bf2dcd_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.2.7",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.2.7_aaba42f386_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.24",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.24_30c27034c0_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.19",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.19_812ba11394_12.0.zip",
-          "fastboot": "odin_pre_images_22.1.19_20220119.0000.00_12.0_cn_17e9205496.tgz"
-        },
-        {
-          "miui": "22.1.18",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.18_9d23beee9a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.17",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.17_0a92bbc60b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.14",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.14_cc1d41d70c_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.13",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.13_ab12e8d8a6_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.12",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.12_41ad460554_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.5",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.5_ef35c3ca17_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "22.1.4",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_22.1.4_0958369813_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.27",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_21.12.27_55f6edca9a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.29",
-          "android": "12.0",
-          "recovery": "miui_ODINPRE_21.12.29_20bc7c5398_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.8",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.12.8_c5c68e08c5_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.7",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.12.7_0a05a45cf9_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.6",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.12.6_0a5c02ab8d_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.4",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.12.4_818a5b251b_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.12.1",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.12.1_86796631c1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.30",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.30_2a146148b1_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.29",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.29_1f194ebc83_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.28",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.28_0790ee409a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.25",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.25_81b7b79cb8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.24",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.24_9560f82811_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.22",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.22_d522a8beb3_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.19",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.19_2835e47f1e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.17",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.17_98b7129d4a_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.16",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.16_a579d5b1b4_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.15",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.15_72564eb639_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.12",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.12_61e6288a0e_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.11",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.11_3dc2823f80_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.10",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.10_f1d31c8382_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.9",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.9_b27c808208_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.11.1",
-          "android": "12.0",
-          "recovery": "miui_ODIN_21.11.1_560c5f64d8_12.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.20",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.10.20_63d4a78137_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.19",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.10.19_e978bae8f8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.10.13",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.10.13_6a3083bf64_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.22",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.22_83af48db10_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.15",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.15_490ccdbef4_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.14",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.14_6d71ec005a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.13",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.13_5aa275c8da_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.10",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.10_24f3e745e5_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.8",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.8_8ad6f9e192_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.7",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.7_8d3a35f317_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.6",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.6_292c865bff_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.9.1",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.9.1_c07ccb492a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.30",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.8.30_366631113a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.27",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.8.27_48150a8cb9_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.25",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.8.25_79803a9554_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.24",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.8.24_c69c4af92a_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.23",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.8.23_445e327fc8_11.0.zip",
-          "fastboot": ""
-        },
-        {
-          "miui": "21.8.20",
-          "android": "11.0",
-          "recovery": "miui_ODIN_21.8.20_0724d06781_11.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"odin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.8.0.TKMCNXM_88dba1bada_13.0.zip",
-          "fastboot": "odin_images_V14.0.8.0.TKMCNXM_20231120.0000.00_13.0_cn_c306c1fd79.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.6.0.TKMCNXM_444a9dea66_13.0.zip",
-          "fastboot": "odin_images_V14.0.6.0.TKMCNXM_20230614.0000.00_13.0_cn_c3283794ee.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.4.0.TKMCNXM_93a33b9259_13.0.zip",
-          "fastboot": "odin_images_V14.0.4.0.TKMCNXM_20230313.0000.00_13.0_cn_e7f39f24f2.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.3.0.TKMCNXM_9a8b41326e_13.0.zip",
-          "fastboot": "odin_images_V14.0.3.0.TKMCNXM_20230214.0000.00_13.0_cn_0d9a351566.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.1.0.TKMCNXM_dd4b49c456_13.0.zip",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"odin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆稳定版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "V13.0.8.0.SKMCNXM",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.8.0.SKMCNXM_0677745b0e_12.0.zip",
-          "fastboot": "odin_images_V13.0.8.0.SKMCNXM_20220728.0000.00_12.0_cn_4500f63ce5.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKMCNXM",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.6.0.SKMCNXM_970df7504a_12.0.zip",
-          "fastboot": "odin_images_V13.0.6.0.SKMCNXM_20220429.0000.00_12.0_cn_37f7300653.tgz"
-        },
-        {
-          "miui": "V13.0.4.0.SKMCNXM",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.4.0.SKMCNXM_322cda29ce_12.0.zip",
-          "fastboot": "odin_images_V13.0.4.0.SKMCNXM_20220124.0000.00_12.0_cn_81ee937b83.tgz"
-        },
-        {
-          "miui": "V13.0.2.0.SKMCNXM",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.2.0.SKMCNXM_b8f93e611c_12.0.zip",
-          "fastboot": "odin_images_V13.0.2.0.SKMCNXM_20211230.0000.00_12.0_cn_dca4cf5cf6.tgz"
-        },
-        {
-          "miui": "V12.5.12.0.RKMCNXM",
-          "android": "11.0",
-          "recovery": "miui_ODIN_V12.5.12.0.RKMCNXM_dc201b3eed_11.0.zip",
-          "fastboot": "odin_images_V12.5.12.0.RKMCNXM_20211021.0000.00_11.0_cn_0d71adc934.tgz"
-        },
-        {
-          "miui": "V12.5.9.0.RKMCNXM",
-          "android": "11.0",
-          "recovery": "miui_ODIN_V12.5.9.0.RKMCNXM_7929237658_11.0.zip",
-          "fastboot": "odin_images_V12.5.9.0.RKMCNXM_20210929.0000.00_11.0_cn_b7cae7c8fa.tgz"
-        },
-        {
-          "miui": "V12.5.7.0.RKMCNXM",
-          "android": "11.0",
-          "recovery": "miui_ODIN_V12.5.7.0.RKMCNXM_8f32b2c09f_11.0.zip",
-          "fastboot": "odin_images_V12.5.7.0.RKMCNXM_20210829.0000.00_11.0_cn_4e98ce9a00.tgz"
-        },
-        {
-          "miui": "V12.5.4.0.RKMCNXM",
-          "android": "11.0",
-          "recovery": "miui_ODIN_V12.5.4.0.RKMCNXM_eacb5c9e71_11.0.zip",
-          "fastboot": "odin_images_V12.5.4.0.RKMCNXM_20210810.0000.00_11.0_cn_a0967ddcc6.tgz"
-        },
-        {
-          "miui": "V12.5.2.0.RKMCNXM",
-          "android": "11.0",
-          "recovery": "miui_ODIN_V12.5.2.0.RKMCNXM_344c66de85_11.0.zip",
-          "fastboot": "odin_images_V12.5.2.0.RKMCNXM_20210728.0000.00_11.0_cn_ca9d65238f.tgz"
-        }
-      ]
-    },
-    {
-      "code":"odin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinaunicom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.8.0.TKMCNXM_88dba1bada_13.0.zip",
-          "fastboot": "odin_images_V14.0.8.0.TKMCNXM_20231120.0000.00_13.0_cn_chinatelecom_0844a68cdb.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.6.0.TKMCNXM_444a9dea66_13.0.zip",
-          "fastboot": "odin_images_V14.0.6.0.TKMCNXM_20230614.0000.00_13.0_cn_chinatelecom_a2f306d76b.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.4.0.TKMCNXM_93a33b9259_13.0.zip",
-          "fastboot": "odin_images_V14.0.4.0.TKMCNXM_20230313.0000.00_13.0_cn_chinatelecom_c59c09b181.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.3.0.TKMCNXM_9a8b41326e_13.0.zip",
-          "fastboot": "odin_images_V14.0.3.0.TKMCNXM_20230214.0000.00_13.0_cn_chinatelecom_7033346403.tgz"
-        },
-        {
-          "miui": "V13.0.8.0.SKMCNXM",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.8.0.SKMCNXM_0677745b0e_12.0.zip",
-          "fastboot": "odin_images_V13.0.8.0.SKMCNXM_20220728.0000.00_12.0_cn_chinatelecom_023d1c8006.tgz"
-        }
-      ]
-    },
-    {
-      "code":"odin",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.8.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.8.0.TKMCNXM_88dba1bada_13.0.zip",
-          "fastboot": "odin_images_V14.0.8.0.TKMCNXM_20231120.0000.00_13.0_cn_chinamobile_7fbf714a5d.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.6.0.TKMCNXM_444a9dea66_13.0.zip",
-          "fastboot": "odin_images_V14.0.6.0.TKMCNXM_20230614.0000.00_13.0_cn_chinamobile_c706da2755.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.4.0.TKMCNXM_93a33b9259_13.0.zip",
-          "fastboot": "odin_images_V14.0.4.0.TKMCNXM_20230313.0000.00_13.0_cn_chinamobile_f4db6b2ae4.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TKMCNXM",
-          "android": "13.0",
-          "recovery": "miui_ODIN_V14.0.3.0.TKMCNXM_9a8b41326e_13.0.zip",
-          "fastboot": "odin_images_V14.0.3.0.TKMCNXM_20230214.0000.00_13.0_cn_chinamobile_990cbd3b08.tgz"
-        },
-        {
-          "miui": "V13.0.6.0.SKMCNXM",
-          "android": "12.0",
-          "recovery": "miui_ODIN_V13.0.6.0.SKMCNXM_970df7504a_12.0.zip",
-          "fastboot": "odin_images_V13.0.6.0.SKMCNXM_20220429.0000.00_12.0_cn_chinamobile_afb49ff208.tgz"
-        }
-      ]
-    },
-    {
-      "code":"odin_demo",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "V12.5.13.0.RKMCNDM",
-          "android": "11.0",
-          "recovery": "",
-          "fastboot": "odin_demo_images_V12.5.13.0.RKMCNDM_20210928.0000.00_11.0_cn_c710e2d180.tgz"
-        },
-        {
-          "miui": "V12.5.13.0.RKMCNDM",
-          "android": "11.0",
-          "recovery": "",
-          "fastboot": "odin_demo_images_V12.5.13.0.RKMCNDM_20210928.0000.00_11.0_cn_chinatelecom_f4d7b2f5f8.tgz"
-        },
-        {
-          "miui": "V12.5.13.0.RKMCNDM",
-          "android": "11.0",
-          "recovery": "",
-          "fastboot": "odin_demo_images_V12.5.13.0.RKMCNDM_20210928.0000.00_11.0_cn_chinamobile_4d1e5bd78b.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "odin",
+	"cnname": "小米 MIX 4",
+	"enname": "MIX 4",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "35575060",
+	"ismiui": "1",
+	"ccshow": "1",
+	"cbshow": "1",
+	"csid": ["363"],
+	"cbid": ["369"],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "odin",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "V14.0.23.7.31.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.7.31.DEV_df62483742_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.24.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.7.24.DEV_aa77f4fd8e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.7.17.DEV_b99798b439_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.7.10.DEV_ac39e7d563_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.7.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.7.3.DEV_eaa9e5b324_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.6.26.DEV_ebfb025aac_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.6.8.DEV_9c7614c320_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.6.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.6.5.DEV_589a675eea_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.29.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.5.29.DEV_bb71e5a891_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.22.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.5.22.DEV_b8d3c9af7e_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.15.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.5.15.DEV_1514aac14b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.5.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.5.8.DEV_591be49d27_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.25.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.4.25.DEV_69c1b2c70a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.17.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.4.17.DEV_e1aad3688a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.10.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.4.10.DEV_2ed8d9e18a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.4.2.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.4.2.DEV_1709f40205_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.3.27.DEV_a1f98a9665_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.3.21.DEV_140eec084f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.3.13.DEV_cbef1b6d4d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.3.7.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.3.7.DEV_1d17e3d183_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.27.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.2.27.DEV_24a569530c_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.21.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.2.21.DEV_c9e842cf0f_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.13.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.2.13.DEV_c9f4ebede6_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.2.6.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.2.6.DEV_4f6fc97120_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.30.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.1.30.DEV_43f44b743a_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.9.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.1.9.DEV_b4dc022062_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.23.1.3.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.23.1.3.DEV_f33f1fc423_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.26.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.22.12.26.DEV_65171f3c4b_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.19.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.22.12.19.DEV_65a85755dd_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.8.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.22.12.8.DEV_b4a2f2fb6d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.22.12.5.DEV",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.22.12.5.DEV_8718bbdbae_13.0.zip",
+					"fastboot": "odin_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_5b9c041c9e.tgz"
+				},
+				{
+					"miui": "22.10.26",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.26_fa810d0123_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.25",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.25_04df6a866f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.24.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.10.24.DEV_af02ce2d99_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.24",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.24_74981bfa3b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.21",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.21_d134b04673_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.19",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.19_d3006e27e6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.18",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.18_9fc3780408_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.17.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.10.17.DEV_599ae820f9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.17",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.17_e25d9320f1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.14",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.14_284a856ce7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.12",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.12_d78a99d0e4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.10.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.10.11.DEV_78fe30d9eb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.11",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.11_7e0442d1c4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.10",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.10_816f7f4257_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.10.8",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.10.8_8a8625abcf_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.29",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.29_1889131247_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.9.28.DEV_f9dbf13e05_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.28",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.28_821ccc0a9f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.27",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.27_20329453fd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.26",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.26_20b3e6bde0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.23",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.23_cd1d8a526f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.21",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.21_7a0cd321d5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.20",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.20_5ae0abc5dd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.19.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.9.19.DEV_ef5956463f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.17",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.17_5c60906b51_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.16",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.16_749a297b92_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.14",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.14_1838688b29_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.13",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.13_b3290e5a74_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.12.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.9.12.DEV_c3b655cd1a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.9",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.9_3f6b8f0a0b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.7",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.7_7e84205923_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.6",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.6_659fd6fde7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.9.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.9.5.DEV_f85e38f6a7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.9.5",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.9.5_a093d913fe_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.31",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.31_911c96aef6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.30",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.30_f03cbade93_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.8.29.DEV_4d4f6cf3ec_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.29",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.29_d6a4824047_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.26",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.26_61ec21f0a7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.25",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.25_6ae3205823_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.24",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.24_ad235d3ad2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.23",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.23_0c8029cf1b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.8.22.DEV_b307c2000c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.1.22.8.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.1.22.8.16.DEV_de2fb56d48_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.16",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.16_e835cfb95e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.15",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.15_d197fb3c93_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.59.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.59.DEV_1d353a3f38_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.56.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.56.DEV_871ce66bba_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.55.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.55.DEV_3112cd8835_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.51.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.51.DEV_2c3e39eeba_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.47.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.47.DEV_1b8bb6df0b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.45.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.45.DEV_9dc1ee4f60_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.43.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.43.DEV_669b8ca14c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.40.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.40.DEV_ac35b425f3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.39.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.39.DEV_28e01126bc_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.37.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.37.DEV_a4e65a1f4c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.35.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.35.DEV_3086896847_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.32.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.32.DEV_f6e3fbba32_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.29.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.29.DEV_93614c161d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.5.1.28.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.5.1.28.DEV_509b3f632f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.26.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.26.DEV_2249a88e26_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.23.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.23.DEV_75c2120088_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.22.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.22.DEV_55261aa670_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.18.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.18.DEV_48f97e8919_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.16.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.16.DEV_fd513f2295_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.15.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.15.DEV_f979655d4d_12.0.zip",
+					"fastboot": "odin_images_V13.0.4.1.15.DEV_20220308.0000.00_12.0_cn_713cd3335d.tgz"
+				},
+				{
+					"miui": "V13.0.4.1.13.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.13.DEV_7726be68b1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.11.DEV_fa7a4a0a3d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.9.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.9.DEV_531b43e1d2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.4.1.7.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.1.7.DEV_a23591e5f0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.3.1.5.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.3.1.5.DEV_c428dbde95_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.1.1.DEV",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.2.1.1.DEV_d24c0ec79e_12.0.zip",
+					"fastboot": "odin_images_V13.0.2.1.1.DEV_20220112.0000.00_12.0_cn_082e56fab7.tgz"
+				},
+				{
+					"miui": "22.8.12",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.12_6667c2646f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.10",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.10_68e9d0fc8a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.9",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.9_336ee11dde_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.8",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.8_69fe132c64_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.5",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.5_44348b1cbf_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.3",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.3_4c5ce316bd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.2",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.2_fba369633d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.8.1",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.8.1_aca51f08d2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.30",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.30_a499f8b811_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.28",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.28_50776db574_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.26",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.26_d24ec928b9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.25",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.25_3f919c905e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.22",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.22_b408b24eb0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.21",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.21_52d8661a0c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.20",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.20_36dd1542aa_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.15",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.15_e4242f7dc1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.13",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.13_e9fee48344_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.12",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.12_6dd90afb39_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.11",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.11_447239a20a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.8",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.8_f6cea3899f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.7",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.7_7db0818210_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.6",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.6_9d4180d698_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.4",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.4_7004c4b88c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.7.1",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.7.1_d75d8e3dc6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.29",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.29_6df4308055_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.28",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.28_da014a9305_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.27",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.27_034b85842f_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.24",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.24_e6670b3189_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.22",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.22_f9979e8a26_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.21",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.21_454aa0a42b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.20",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.20_e1daa7536a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.17",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.17_e96ac19d10_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.15",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.15_6ced11c06c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.14",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.14_86839fb9d5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.9",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.9_6253d12147_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.8",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.8_7d2cfe85ff_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.6.6",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.6.6_61239a6eb2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.31",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.31_c5ac23b5f3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.27",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.27_1467ac9c43_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.24",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.24_f46eaea159_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.23",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.23_f3f9c7ec0b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.22",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.22_7de936cb0c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.18",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.18_c3f2d82223_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.17",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.17_7a372e5865_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.16",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.16_b1f211e47e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.15",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.15_76a9e55152_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.11",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.11_b03ef20eeb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.10",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.10_7551952d72_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.9",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.9_36ef687d57_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.5.6",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.5.6_a8162f4a4b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.27",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.27_2ec7f4dd59_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.26",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.26_b765fff8fe_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.25",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.25_bef4778578_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.22",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.22_9116708763_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.21",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.21_1305cc1ccd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.20",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.20_ebfa24fd81_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.18",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.18_49e15f6853_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.13",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.13_9f85b2f2d3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.12",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.12_cbd94a1b62_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.11",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.11_71d4db5a30_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.8",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.8_b4b564cd50_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.4.7",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.7_a2d210ff66_12.0.zip",
+					"fastboot": "odin_pre_images_22.4.7_20220407.0000.00_12.0_cn_37ab2d8402.tgz"
+				},
+				{
+					"miui": "22.4.1",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.4.1_59f7136fbe_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.30",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.30_04f00472d1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.29",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.29_d93a7fa259_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.28",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.28_72b48c25af_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.25",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.25_bb40d099f7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.24",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.24_044bbd8059_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.22",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.22_d88ae3761a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.21",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.21_d45cbc8aee_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.18",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.18_77ba6930ba_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.16",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.16_1cba3c95eb_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.15",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.15_bcbe31dbab_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.14",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.14_0ed14db1e4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.12",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.12_99b23e1a25_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.3",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.3_0daa699abe_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.3.2",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.3.2_f22323cff0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.25",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.25_a6bb320a59_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.23",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.23_924baa5eb2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.22",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.22_6230253b9d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.21",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.21_6cb5be8a08_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.19",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.19_6721dead20_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.17",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.17_5939268c2d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.16",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.16_08b9c3aa48_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.15",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.15_3d55e181e2_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.10",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.10_cb4c190bce_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.9",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.9_11c1323913_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.8",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.8_62d7bf2dcd_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.2.7",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.2.7_aaba42f386_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.24",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.24_30c27034c0_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.19",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.19_812ba11394_12.0.zip",
+					"fastboot": "odin_pre_images_22.1.19_20220119.0000.00_12.0_cn_17e9205496.tgz"
+				},
+				{
+					"miui": "22.1.18",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.18_9d23beee9a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.17",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.17_0a92bbc60b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.14",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.14_cc1d41d70c_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.13",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.13_ab12e8d8a6_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.12",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.12_41ad460554_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.5",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.5_ef35c3ca17_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "22.1.4",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_22.1.4_0958369813_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.27",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_21.12.27_55f6edca9a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.29",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_21.12.29_20bc7c5398_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.8",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.12.8_c5c68e08c5_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.7",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.12.7_0a05a45cf9_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.6",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.12.6_0a5c02ab8d_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.4",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.12.4_818a5b251b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.1",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.12.1_86796631c1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.30",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.30_2a146148b1_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.29",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.29_1f194ebc83_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.28",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.28_0790ee409a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.25",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.25_81b7b79cb8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.24",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.24_9560f82811_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.22",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.22_d522a8beb3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.19",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.19_2835e47f1e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.17",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.17_98b7129d4a_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.16",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.16_a579d5b1b4_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.15",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.15_72564eb639_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.12",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.12_61e6288a0e_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.11",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.11_3dc2823f80_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.10",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.10_f1d31c8382_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.9",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.9_b27c808208_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.11.1",
+					"android": "12.0",
+					"recovery": "miui_ODIN_21.11.1_560c5f64d8_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.20",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.10.20_63d4a78137_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.19",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.10.19_e978bae8f8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.10.13",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.10.13_6a3083bf64_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.22",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.22_83af48db10_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.15",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.15_490ccdbef4_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.14",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.14_6d71ec005a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.13",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.13_5aa275c8da_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.10",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.10_24f3e745e5_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.8",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.8_8ad6f9e192_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.7",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.7_8d3a35f317_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.6",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.6_292c865bff_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.9.1",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.9.1_c07ccb492a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.30",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.8.30_366631113a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.27",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.8.27_48150a8cb9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.25",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.8.25_79803a9554_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.24",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.8.24_c69c4af92a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.23",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.8.23_445e327fc8_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.8.20",
+					"android": "11.0",
+					"recovery": "miui_ODIN_21.8.20_0724d06781_11.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "odin",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.8.0.TKMCNXM_88dba1bada_13.0.zip",
+					"fastboot": "odin_images_V14.0.8.0.TKMCNXM_20231120.0000.00_13.0_cn_c306c1fd79.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.6.0.TKMCNXM_444a9dea66_13.0.zip",
+					"fastboot": "odin_images_V14.0.6.0.TKMCNXM_20230614.0000.00_13.0_cn_c3283794ee.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.4.0.TKMCNXM_93a33b9259_13.0.zip",
+					"fastboot": "odin_images_V14.0.4.0.TKMCNXM_20230313.0000.00_13.0_cn_e7f39f24f2.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.3.0.TKMCNXM_9a8b41326e_13.0.zip",
+					"fastboot": "odin_images_V14.0.3.0.TKMCNXM_20230214.0000.00_13.0_cn_0d9a351566.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.1.0.TKMCNXM_dd4b49c456_13.0.zip",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "odin",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆稳定版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "V13.0.8.0.SKMCNXM",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.8.0.SKMCNXM_0677745b0e_12.0.zip",
+					"fastboot": "odin_images_V13.0.8.0.SKMCNXM_20220728.0000.00_12.0_cn_4500f63ce5.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKMCNXM",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.6.0.SKMCNXM_970df7504a_12.0.zip",
+					"fastboot": "odin_images_V13.0.6.0.SKMCNXM_20220429.0000.00_12.0_cn_37f7300653.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.SKMCNXM",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.4.0.SKMCNXM_322cda29ce_12.0.zip",
+					"fastboot": "odin_images_V13.0.4.0.SKMCNXM_20220124.0000.00_12.0_cn_81ee937b83.tgz"
+				},
+				{
+					"miui": "V13.0.2.0.SKMCNXM",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.2.0.SKMCNXM_b8f93e611c_12.0.zip",
+					"fastboot": "odin_images_V13.0.2.0.SKMCNXM_20211230.0000.00_12.0_cn_dca4cf5cf6.tgz"
+				},
+				{
+					"miui": "V12.5.12.0.RKMCNXM",
+					"android": "11.0",
+					"recovery": "miui_ODIN_V12.5.12.0.RKMCNXM_dc201b3eed_11.0.zip",
+					"fastboot": "odin_images_V12.5.12.0.RKMCNXM_20211021.0000.00_11.0_cn_0d71adc934.tgz"
+				},
+				{
+					"miui": "V12.5.9.0.RKMCNXM",
+					"android": "11.0",
+					"recovery": "miui_ODIN_V12.5.9.0.RKMCNXM_7929237658_11.0.zip",
+					"fastboot": "odin_images_V12.5.9.0.RKMCNXM_20210929.0000.00_11.0_cn_b7cae7c8fa.tgz"
+				},
+				{
+					"miui": "V12.5.7.0.RKMCNXM",
+					"android": "11.0",
+					"recovery": "miui_ODIN_V12.5.7.0.RKMCNXM_8f32b2c09f_11.0.zip",
+					"fastboot": "odin_images_V12.5.7.0.RKMCNXM_20210829.0000.00_11.0_cn_4e98ce9a00.tgz"
+				},
+				{
+					"miui": "V12.5.4.0.RKMCNXM",
+					"android": "11.0",
+					"recovery": "miui_ODIN_V12.5.4.0.RKMCNXM_eacb5c9e71_11.0.zip",
+					"fastboot": "odin_images_V12.5.4.0.RKMCNXM_20210810.0000.00_11.0_cn_a0967ddcc6.tgz"
+				},
+				{
+					"miui": "V12.5.2.0.RKMCNXM",
+					"android": "11.0",
+					"recovery": "miui_ODIN_V12.5.2.0.RKMCNXM_344c66de85_11.0.zip",
+					"fastboot": "odin_images_V12.5.2.0.RKMCNXM_20210728.0000.00_11.0_cn_ca9d65238f.tgz"
+				}
+			]
+		},
+		{
+			"code": "odin",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinaunicom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.8.0.TKMCNXM_88dba1bada_13.0.zip",
+					"fastboot": "odin_images_V14.0.8.0.TKMCNXM_20231120.0000.00_13.0_cn_chinatelecom_0844a68cdb.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.6.0.TKMCNXM_444a9dea66_13.0.zip",
+					"fastboot": "odin_images_V14.0.6.0.TKMCNXM_20230614.0000.00_13.0_cn_chinatelecom_a2f306d76b.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.4.0.TKMCNXM_93a33b9259_13.0.zip",
+					"fastboot": "odin_images_V14.0.4.0.TKMCNXM_20230313.0000.00_13.0_cn_chinatelecom_c59c09b181.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.3.0.TKMCNXM_9a8b41326e_13.0.zip",
+					"fastboot": "odin_images_V14.0.3.0.TKMCNXM_20230214.0000.00_13.0_cn_chinatelecom_7033346403.tgz"
+				},
+				{
+					"miui": "V13.0.8.0.SKMCNXM",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.8.0.SKMCNXM_0677745b0e_12.0.zip",
+					"fastboot": "odin_images_V13.0.8.0.SKMCNXM_20220728.0000.00_12.0_cn_chinatelecom_023d1c8006.tgz"
+				}
+			]
+		},
+		{
+			"code": "odin",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.8.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.8.0.TKMCNXM_88dba1bada_13.0.zip",
+					"fastboot": "odin_images_V14.0.8.0.TKMCNXM_20231120.0000.00_13.0_cn_chinamobile_7fbf714a5d.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.6.0.TKMCNXM_444a9dea66_13.0.zip",
+					"fastboot": "odin_images_V14.0.6.0.TKMCNXM_20230614.0000.00_13.0_cn_chinamobile_c706da2755.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.4.0.TKMCNXM_93a33b9259_13.0.zip",
+					"fastboot": "odin_images_V14.0.4.0.TKMCNXM_20230313.0000.00_13.0_cn_chinamobile_f4db6b2ae4.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TKMCNXM",
+					"android": "13.0",
+					"recovery": "miui_ODIN_V14.0.3.0.TKMCNXM_9a8b41326e_13.0.zip",
+					"fastboot": "odin_images_V14.0.3.0.TKMCNXM_20230214.0000.00_13.0_cn_chinamobile_990cbd3b08.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SKMCNXM",
+					"android": "12.0",
+					"recovery": "miui_ODIN_V13.0.6.0.SKMCNXM_970df7504a_12.0.zip",
+					"fastboot": "odin_images_V13.0.6.0.SKMCNXM_20220429.0000.00_12.0_cn_chinamobile_afb49ff208.tgz"
+				}
+			]
+		},
+		{
+			"code": "odin_demo",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "V12.5.13.0.RKMCNDM",
+					"android": "11.0",
+					"recovery": "",
+					"fastboot": "odin_demo_images_V12.5.13.0.RKMCNDM_20210928.0000.00_11.0_cn_c710e2d180.tgz"
+				},
+				{
+					"miui": "V12.5.13.0.RKMCNDM",
+					"android": "11.0",
+					"recovery": "",
+					"fastboot": "odin_demo_images_V12.5.13.0.RKMCNDM_20210928.0000.00_11.0_cn_chinatelecom_f4d7b2f5f8.tgz"
+				},
+				{
+					"miui": "V12.5.13.0.RKMCNDM",
+					"android": "11.0",
+					"recovery": "",
+					"fastboot": "odin_demo_images_V12.5.13.0.RKMCNDM_20210928.0000.00_11.0_cn_chinamobile_4d1e5bd78b.tgz"
+				}
+			]
+		}
+	]
 }

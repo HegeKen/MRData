@@ -1,121 +1,121 @@
 {
-  "codename": "yuechu",
-  "cnname": "小米 Civi 3",
-  "enname": "Xiaomi Civi 3",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"0",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"yuechu",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.11.0.TMICNXM_ce1e97909a_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.11.0.TMICNXM_20231205.0000.00_13.0_cn_b1214da34f.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.10.0.TMICNXM_a641f5a7fa_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.10.0.TMICNXM_20231031.0000.00_13.0_cn_33c00f29a7.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.9.0.TMICNXM_fefb2fe758_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.9.0.TMICNXM_20230705.0000.00_13.0_cn_8cf972de1b.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.6.0.TMICNXM_caa863f99e_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.6.0.TMICNXM_20230601.0000.00_13.0_cn_b83cf76f38.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.5.0.TMICNXM_6b3f863826_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.5.0.TMICNXM_20230526.0000.00_13.0_cn_e73cd82003.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.4.0.TMICNXM_957a8a2821_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.4.0.TMICNXM_20230518.0000.00_13.0_cn_f6d52ecf00.tgz"
-        }
-      ]
-    },
-    {
-      "code":"yuechu",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "V14.0.11.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.11.0.TMICNXM_ce1e97909a_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.11.0.TMICNXM_20231205.0000.00_13.0_cn_chinatelecom_3fc8008426.tgz"
-        },
-        {
-          "miui": "V14.0.10.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.10.0.TMICNXM_a641f5a7fa_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.10.0.TMICNXM_20231031.0000.00_13.0_cn_chinatelecom_08e1ed07a0.tgz"
-        },
-        {
-          "miui": "V14.0.9.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.9.0.TMICNXM_fefb2fe758_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.9.0.TMICNXM_20230705.0000.00_13.0_cn_chinatelecom_e21ab9c458.tgz"
-        },
-        {
-          "miui": "V14.0.6.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.6.0.TMICNXM_caa863f99e_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.6.0.TMICNXM_20230601.0000.00_13.0_cn_chinatelecom_8efb466818.tgz"
-        },
-        {
-          "miui": "V14.0.5.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.5.0.TMICNXM_6b3f863826_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.5.0.TMICNXM_20230526.0000.00_13.0_cn_chinatelecom_0dc3a72981.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TMICNXM",
-          "android": "13.0",
-          "recovery": "miui_YUECHU_V14.0.4.0.TMICNXM_957a8a2821_13.0.zip",
-          "fastboot": "yuechu_images_V14.0.4.0.TMICNXM_20230518.0000.00_13.0_cn_chinatelecom_cc07c80734.tgz"
-        }
-      ]
-    }
-  ]
+	"codename": "yuechu",
+	"cnname": "小米 Civi 3",
+	"enname": "Xiaomi Civi 3",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "0",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "yuechu",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.11.0.TMICNXM_ce1e97909a_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.11.0.TMICNXM_20231205.0000.00_13.0_cn_b1214da34f.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.10.0.TMICNXM_a641f5a7fa_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.10.0.TMICNXM_20231031.0000.00_13.0_cn_33c00f29a7.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.9.0.TMICNXM_fefb2fe758_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.9.0.TMICNXM_20230705.0000.00_13.0_cn_8cf972de1b.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.6.0.TMICNXM_caa863f99e_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.6.0.TMICNXM_20230601.0000.00_13.0_cn_b83cf76f38.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.5.0.TMICNXM_6b3f863826_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.5.0.TMICNXM_20230526.0000.00_13.0_cn_e73cd82003.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.4.0.TMICNXM_957a8a2821_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.4.0.TMICNXM_20230518.0000.00_13.0_cn_f6d52ecf00.tgz"
+				}
+			]
+		},
+		{
+			"code": "yuechu",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.11.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.11.0.TMICNXM_ce1e97909a_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.11.0.TMICNXM_20231205.0000.00_13.0_cn_chinatelecom_3fc8008426.tgz"
+				},
+				{
+					"miui": "V14.0.10.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.10.0.TMICNXM_a641f5a7fa_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.10.0.TMICNXM_20231031.0000.00_13.0_cn_chinatelecom_08e1ed07a0.tgz"
+				},
+				{
+					"miui": "V14.0.9.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.9.0.TMICNXM_fefb2fe758_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.9.0.TMICNXM_20230705.0000.00_13.0_cn_chinatelecom_e21ab9c458.tgz"
+				},
+				{
+					"miui": "V14.0.6.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.6.0.TMICNXM_caa863f99e_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.6.0.TMICNXM_20230601.0000.00_13.0_cn_chinatelecom_8efb466818.tgz"
+				},
+				{
+					"miui": "V14.0.5.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.5.0.TMICNXM_6b3f863826_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.5.0.TMICNXM_20230526.0000.00_13.0_cn_chinatelecom_0dc3a72981.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TMICNXM",
+					"android": "13.0",
+					"recovery": "miui_YUECHU_V14.0.4.0.TMICNXM_957a8a2821_13.0.zip",
+					"fastboot": "yuechu_images_V14.0.4.0.TMICNXM_20230518.0000.00_13.0_cn_chinatelecom_cc07c80734.tgz"
+				}
+			]
+		}
+	]
 }

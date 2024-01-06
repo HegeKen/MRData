@@ -9,7 +9,7 @@
     }
   ],
   "cdid": "26819709",
-  "ismiui":"1",
+  "ismiui": "1",
   "ccshow": "1",
   "cbshow": "1",
   "csid": [
@@ -20,14 +20,19 @@
   "pcid": "13861",
   "branches": [
     {
-      "code":"camellia",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "camellia",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "cnmp",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "开发版",
       "enname": "China Beta",
       "links": [
@@ -1120,14 +1125,14 @@
       ]
     },
     {
-      "code":"camellia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "camellia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnmo",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆正式版",
       "enname": "China Mainland Stable(MIUI14)",
       "links": [
@@ -1140,14 +1145,14 @@
       ]
     },
     {
-      "code":"camellia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
+      "code": "camellia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
       "branch": "cnms",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国大陆稳定版",
       "enname": "China Mainland Stable",
       "links": [
@@ -1232,14 +1237,16 @@
       ]
     },
     {
-      "code":"camellia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
+      "code": "camellia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "branch": "ctce",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国电信定制版",
       "enname": "China Telecom Carrier Edition",
       "links": [
@@ -1270,14 +1277,16 @@
       ]
     },
     {
-      "code":"camellia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinaunicom"],
+      "code": "camellia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinaunicom"
+      ],
       "branch": "ctcu",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国联通定制版",
       "enname": "China Unicom Carrier Edition",
       "links": [
@@ -1290,14 +1299,16 @@
       ]
     },
     {
-      "code":"camellia",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
+      "code": "camellia",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
       "branch": "ctcm",
-      "zone":"1",
+      "zone": "1",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国移动定制版",
       "enname": "China Mobile Carrier Edition",
       "links": [
@@ -1310,14 +1321,19 @@
       ]
     },
     {
-      "code":"camellia_ep_stdee",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "camellia_ep_stdee",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "stde",
-      "zone":"1",
+      "zone": "1",
       "show": "0",
-      "ep":"1",
+      "ep": "1",
       "cnname": "中国大陆STDEE",
       "enname": "China Mainland STDEE",
       "links": [
@@ -1342,14 +1358,19 @@
       ]
     },
     {
-      "code":"camellia_ep_yunke",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "camellia_ep_yunke",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "epyk",
-      "zone":"1",
+      "zone": "1",
       "show": "0",
-      "ep":"1",
+      "ep": "1",
       "cnname": "中国大陆YUNKE",
       "enname": "China Mainland YUNKE",
       "links": [
@@ -1362,14 +1383,19 @@
       ]
     },
     {
-      "code":"camellia_ep_yx",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "code": "camellia_ep_yx",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "branch": "epyx",
-      "zone":"1",
+      "zone": "1",
       "show": "0",
-      "ep":"1",
+      "ep": "1",
       "cnname": "中国大陆EPYX",
       "enname": "China Mainland EPYX",
       "links": [
@@ -1382,14 +1408,14 @@
       ]
     },
     {
-      "code":"camellian_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
+      "code": "camellian_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
       "branch": "cntw",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "中国台湾地区稳定版",
       "enname": "China Taiwan Stable",
       "links": [
@@ -1456,14 +1482,14 @@
       ]
     },
     {
-      "code":"camellian_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "camellian_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mgbs",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "国际稳定版",
       "enname": "Global Stable",
       "links": [
@@ -1584,14 +1610,14 @@
       ]
     },
     {
-      "code":"camellian_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "camellian_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eeas",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲EEA稳定版",
       "enname": "Europe EEA Stable",
       "links": [
@@ -1706,14 +1732,14 @@
       ]
     },
     {
-      "code":"camellian_eea_hg_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "camellian_eea_hg_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euhg",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲ThreeHK运营商定制版",
       "enname": "Europe ThreeHK Carrier Edition",
       "links": [
@@ -1738,14 +1764,14 @@
       ]
     },
     {
-      "code":"camellian_eea_or_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "camellian_eea_or_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euor",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Orange运营商定制版",
       "enname": "Europe Orange Carrier Edition",
       "links": [
@@ -1770,14 +1796,14 @@
       ]
     },
     {
-      "code":"camellian_eea_tf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "camellian_eea_tf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eutf",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Telefonica运营商定制版",
       "enname": "Europe Telefonica Carrier Edition",
       "links": [
@@ -1796,14 +1822,14 @@
       ]
     },
     {
-      "code":"camellian_eea_vf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "camellian_eea_vf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euvf",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Vodafone运营商定制版",
       "enname": "Europe Vodafone Carrier Edition",
       "links": [
@@ -1828,14 +1854,14 @@
       ]
     },
     {
-      "code":"camellian_eea_sf_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "camellian_eea_sf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "eusf",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲Altice(SFR)运营商定制版",
       "enname": "Europe Altice(SFR) Carrier Edition",
       "links": [
@@ -1854,14 +1880,14 @@
       ]
     },
     {
-      "code":"camellian_eea_ti_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "camellian_eea_ti_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "euti",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "欧洲TIM运营商定制版",
       "enname": "Europe TIM Carrier Edition",
       "links": [
@@ -1880,14 +1906,14 @@
       ]
     },
     {
-      "code":"camellian_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
+      "code": "camellian_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
       "branch": "russ",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "俄罗斯稳定版",
       "enname": "Russia Stable",
       "links": [
@@ -1966,14 +1992,14 @@
       ]
     },
     {
-      "code":"camellia_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
+      "code": "camellia_in_global",
+      "btag": "F",
+      "region": "in",
+      "carrier": [],
       "branch": "inds",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "印度稳定版",
       "enname": "India Stable",
       "links": [
@@ -2064,14 +2090,14 @@
       ]
     },
     {
-      "code":"camellian_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
+      "code": "camellian_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
       "branch": "inns",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "印度尼西亚稳定版",
       "enname": "Indonesia Stable",
       "links": [
@@ -2168,14 +2194,14 @@
       ]
     },
     {
-      "code":"camellian_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
+      "code": "camellian_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
       "branch": "trks",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "土耳其稳定版",
       "enname": "Turkey Stable",
       "links": [
@@ -2254,14 +2280,14 @@
       ]
     },
     {
-      "code":"camellian_th_as_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "camellian_th_as_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "thas",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "泰国AIS运营商定制版",
       "enname": "Thailand Stable AIS Carrier Edtion",
       "links": [
@@ -2280,14 +2306,14 @@
       ]
     },
     {
-      "code":"camellian_cl_en_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "camellian_cl_en_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "clen",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "智利Entel运营商定制版",
       "enname": "Chile Stable Entel Carrier Edtion",
       "links": [
@@ -2300,14 +2326,14 @@
       ]
     },
     {
-      "code":"camellian_lm_cr_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "camellian_lm_cr_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "lmcr",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "拉丁美洲Claro运营商定制版",
       "enname": "Latin America Claro Carrier Edition",
       "links": [
@@ -2350,14 +2376,14 @@
       ]
     },
     {
-      "code":"camellian_mx_at_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "code": "camellian_mx_at_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "mxat",
-      "zone":"2",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "cnname": "墨西哥AT&T运营商定制版",
       "enname": "Mexico Stable AT&T Carrier Edtion",
       "links": [
