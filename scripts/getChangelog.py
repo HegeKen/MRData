@@ -1,7 +1,5 @@
-import requests
 import common
 import json
-from sys import platform
 
 miui_key = b'miuiotavalided11'
 miui_iv = b'0102030405060708'
