@@ -148,6 +148,106 @@
 					"fastboot": "zircon_demo_images_V14.0.2.0.TNOCNDM_20230918.0000.00_13.0_cn_chinatelecom_07c5f97b9d.tgz"
 				}
 			]
-		}
+		},
+    {
+      "code":"zircon_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "zone":"2",
+      "show": "0",
+      "ep":"0",
+      "cnname": "国际正式版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNQMIXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"zircon_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "zone":"2",
+      "show": "0",
+      "ep":"0",
+      "cnname": "欧洲EEA正式版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"zircon_in_global",
+      "btag":"F",
+      "region":"in",
+      "carrier":[],
+      "branch": "inds",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "印度正式版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNOINXM",
+          "android": "13.0",
+          "recovery": "miui_ZIRCONINGlobal_V14.0.1.0.TNOINXM_0a2f099b2b_13.0.zip",
+          "fastboot": "zircon_in_global_images_V14.0.1.0.TNOINXM_20231108.0000.00_13.0_in_558b382f6d.tgz"
+        }
+      ]
+    },
+    {
+      "code":"zircon_id_global",
+      "btag":"F",
+      "region":"id",
+      "carrier":[],
+      "branch": "inns",
+      "zone":"2",
+      "show": "0",
+      "ep":"0",
+      "cnname": "印度尼西亚正式版",
+      "enname": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    },
+    {
+      "code":"zircon_tr_global",
+      "btag":"F",
+      "region":"tr",
+      "carrier":[],
+      "branch": "trks",
+      "zone":"2",
+      "show": "0",
+      "ep":"0",
+      "cnname": "土耳其正式版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      ]
+    }
 	]
 }

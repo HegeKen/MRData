@@ -118,6 +118,106 @@
 					"fastboot": "gold_ep_stdee_images_V14.0.23.11.20.EP.STDEE.N17_20231120.0000.00_13.0_cn_chinatelecom_773398bde3.tgz"
 				}
 			]
-		}
+		},
+    {
+      "code":"gold_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "国际正式版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNQMIXM",
+          "android": "13.0",
+          "recovery": "miui_GOLDGlobal_V14.0.1.0.TNQMIXM_1bad16b831_13.0.zip",
+          "fastboot": "gold_global_images_V14.0.1.0.TNQMIXM_20231117.0000.00_13.0_global_1f471ac4f1.tgz"
+        }
+      ]
+    },
+    {
+      "code":"gold_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "欧洲EEA正式版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TNQEUXM",
+          "android": "13.0",
+          "recovery": "miui_GOLDEEAGlobal_V14.0.3.0.TNQEUXM_89fd7ca462_13.0.zip",
+          "fastboot": "gold_eea_global_images_V14.0.3.0.TNQEUXM_20231110.0000.00_13.0_eea_0a2947bda7.tgz"
+        }
+      ]
+    },
+    {
+      "code":"gold_in_global",
+      "btag":"F",
+      "region":"in",
+      "carrier":[],
+      "branch": "inds",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "印度正式版",
+      "enname": "India Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNQINXM",
+          "android": "13.0",
+          "recovery": "miui_GOLDINGlobal_V14.0.1.0.TNQINXM_636ed78238_13.0.zip",
+          "fastboot": "gold_in_global_images_V14.0.1.0.TNQINXM_20231116.0000.00_13.0_in_c574f8566c.tgz"
+        }
+      ]
+    },
+    {
+      "code":"gold_id_global",
+      "btag":"F",
+      "region":"id",
+      "carrier":[],
+      "branch": "inns",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "印度尼西亚正式版",
+      "enname": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNQIDXM",
+          "android": "13.0",
+          "recovery": "miui_GOLDIDGlobal_V14.0.1.0.TNQIDXM_a66acbecf5_13.0.zip",
+          "fastboot": "gold_id_global_images_V14.0.1.0.TNQIDXM_20231115.0000.00_13.0_id_05afd19e3f.tgz"
+        }
+      ]
+    },
+    {
+      "code":"gold_tr_global",
+      "btag":"F",
+      "region":"tr",
+      "carrier":[],
+      "branch": "trks",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "土耳其正式版",
+      "enname": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNQTRXM",
+          "android": "13.0",
+          "recovery": "miui_GOLDTRGlobal_V14.0.1.0.TNQTRXM_0474814fa6_13.0.zip",
+          "fastboot": "gold_tr_global_images_V14.0.1.0.TNQTRXM_20231204.0000.00_13.0_tr_efcf3ac55a.tgz"
+        }
+      ]
+    }
 	]
 }
