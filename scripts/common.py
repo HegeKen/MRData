@@ -106,6 +106,8 @@ flags = {
     "GALEEEAGlobal":"gale",
     "gale_in_global":"gale",
     "gale_tr_global":"gale",
+    "gold_tw_global":"gold",
+    "GOLDTWGlobal":"gold",
     "GALETRGlobal":"gale",
     "GALEINGlobal":"gale",
     "xun_ep_stdee":"xun",
