@@ -1,7 +1,7 @@
 {
 	"codename": "emerald",
-	"cnname": "",
-	"enname": "",
+	"cnname": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
+	"enname": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
 	"attentions": [
 		{
 			"cn": "",
@@ -17,25 +17,45 @@
 	"gdid": "",
 	"pcid": "",
 	"branches": [
-		{
-			"code": "emerald",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "cnmo",
-			"zone": "1",
-			"show": "0",
-			"ep": "1",
-			"cnname": "中国大陆正式版",
-			"enname": "China Mainland Stable(MIUI14)",
-			"links": [
-				{
-					"miui": "",
-					"android": "",
-					"recovery": "",
-					"fastboot": ""
-				}
-			]
-		}
+    {
+      "code":"emerald_eea_global",
+      "btag":"F",
+      "region":"eea",
+      "carrier":[],
+      "branch": "eeas",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "欧洲EEA正式版",
+      "enname": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.1.0.TNFEUXM",
+          "android": "13.0",
+          "recovery": "miui_EMERALDEEAGlobal_V14.0.1.0.TNFEUXM_b4435301cb_13.0.zip",
+          "fastboot": "emerald_eea_global_images_V14.0.1.0.TNFEUXM_20231128.0000.00_13.0_eea_4cf0f356b2.tgz"
+        }
+      ]
+    },
+    {
+      "code":"emerald_ru_global",
+      "btag":"F",
+      "region":"ru",
+      "carrier":[],
+      "branch": "russ",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "俄罗斯正式版",
+      "enname": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TNFRUXM",
+          "android": "13.0",
+          "recovery": "miui_EMERALDRUGlobal_V14.0.2.0.TNFRUXM_aa5b783e03_13.0.zip",
+          "fastboot": "emerald_ru_global_images_V14.0.2.0.TNFRUXM_20231120.0000.00_13.0_ru_4b8e89dc69.tgz"
+        }
+      ]
+    }
 	]
 }
