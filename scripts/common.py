@@ -99,6 +99,7 @@ flags = {
     'pipa_ep_stdee':'pipa',
     'HOUJI':'houji',
     'HOUJIDEMO':'houji',
+    'ALIOTHDEMO':'alioth',
     'houji':'houji',
     "emerald_eea_global":"emerald",
     "EMERALDEEAGlobal":"emerald",
