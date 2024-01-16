@@ -162,6 +162,12 @@
       "enname": "Global Stable",
       "links": [
         {
+          "miui": "V14.0.4.0.TNOMIXM",
+          "android": "13.0",
+          "recovery": "miui_ZIRCONGlobal_V14.0.4.0.TNOMIXM_23cfe2f152_13.0.zip",
+          "fastboot": "zircon_global_images_V14.0.4.0.TNOMIXM_20240102.0000.00_13.0_global_7b70bd703f.tgz"
+        },
+        {
           "miui": "V14.0.3.0.TNOMIXM",
           "android": "13.0",
           "recovery": "miui_ZIRCONGlobal_V14.0.3.0.TNOMIXM_f657a54f91_13.0.zip",
@@ -176,16 +182,16 @@
       "carrier":[],
       "branch": "eeas",
       "zone":"2",
-      "show": "0",
+      "show": "1",
       "ep":"0",
       "cnname": "欧洲EEA正式版",
       "enname": "Europe EEA Stable",
       "links": [
         {
-          "miui": "V14.0.0.1.TNOEUXM",
+          "miui": "V14.0.2.0.TNOEUXM",
           "android": "13.0",
-          "recovery": "",
-          "fastboot": ""
+          "recovery": "miui_ZIRCONEEAGlobal_V14.0.2.0.TNOEUXM_bdd86864d3_13.0.zip",
+          "fastboot": "zircon_eea_global_images_V14.0.2.0.TNOEUXM_20231110.0000.00_13.0_eea_232c98560c.tgz"
         }
       ]
     },
