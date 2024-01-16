@@ -18,6 +18,32 @@
 	"pcid": "",
 	"branches": [
     {
+      "code":"emerald_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "国际正式版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TNFMIXM",
+          "android": "13.0",
+          "recovery": "miui_EMERALDGlobal_V14.0.4.0.TNFMIXM_a5389adcd1_13.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V14.0.1.0.TNFMIXM",
+          "android": "13.0",
+          "recovery": "",
+          "fastboot": "emerald_global_images_V14.0.1.0.TNFMIXM_20231125.0000.00_13.0_global_e6ab407880.tgz"
+        }
+      ]
+    },
+    {
       "code":"emerald_eea_global",
       "btag":"F",
       "region":"eea",

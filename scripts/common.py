@@ -113,6 +113,8 @@ flags = {
     "gale_in_global": "gale",
     "gale_tr_global": "gale",
     "gold_tw_global": "gold",
+    "emerald_global": "emerald",
+    "EMERALDGlobal": "emerald",
     "GOLDTWGlobal": "gold",
     "GALETRGlobal": "gale",
     "GALEINGlobal": "gale",
