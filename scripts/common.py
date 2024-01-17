@@ -22,16 +22,19 @@ sdk = {
     '8': '26'
 }
 
-currentStable = ['emerald', 'gold', 'garnet', 'zircon', 'river', 'sapphiren', 'sapphire', 'air', 'gale', 'gust', 'aristotle', 'umi', 'cmi', 'monet',
-                 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star',
-                 'renoir', 'agate', 'vili', 'lisa', 'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
-                 'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa', 'liuqin', 'yudi', 'mona', 'zijin',
-                 'ziyi', 'yuechu', 'lancelot', 'dandelion', 'angelica', 'angelican', 'cattail', 'dandelion_c3l2', 'fog', 'fire', 'earth', 'biloba', 'merlin', 'lime',
-                 'cannon', 'gauguin', 'joyeuse', 'excalibur', 'curtana', 'mojito', 'curtana_in_rf', 'sweet', 'camellia', 'chopin', 'rosemary', 'lilac', 'selene',
-                 'evergo', 'pissarro', 'spes', 'spesn', 'veux', 'fleur', 'viva', 'vida', 'light', 'lightcm', 'opal', 'xaga', 'sunstone', 'sky', 'ruby', 'redwood',
-                 'marble', 'pearl', 'tapas', 'topaz', 'sweet_k6a', 'sea', 'cezanne', 'apollo', 'alioth', 'haydn', 'ares', 'munch', 'ingres',
-                 'rubens', 'matisse', 'diting', 'mondrian', 'socrates', 'corot', 'rembrandt', 'yunluo', 'xun', 'ice', 'water', 'angelicain', 'frost', 'evergreen',
-                 'rock', 'rosemary_p', 'surya', 'vayu', 'moonstone']
+currentStable = [
+                 'iron', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'sapphiren', 'sapphire', 'air', 'gale', 'gust', 'aristotle',
+                 'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
+                 'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
+                 'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
+                 'liuqin', 'yudi', 'mona', 'zijin', 'ziyi', 'yuechu', 'lancelot', 'dandelion', 'angelica', 'angelican',
+                 'cattail', 'dandelion_c3l2', 'fog', 'fire', 'earth', 'biloba', 'merlin', 'lime', 'cannon', 'gauguin', 'joyeuse',
+                 'excalibur', 'curtana', 'mojito', 'curtana_in_rf', 'sweet', 'camellia', 'chopin', 'rosemary', 'lilac', 'selene',
+                 'evergo', 'pissarro', 'spes', 'spesn', 'veux', 'fleur', 'viva', 'vida', 'light', 'lightcm', 'opal', 'xaga',
+                 'sunstone', 'sky', 'ruby', 'redwood', 'marble', 'pearl', 'tapas', 'topaz', 'sweet_k6a', 'sea', 'cezanne',
+                 'apollo', 'alioth', 'haydn', 'ares', 'munch', 'ingres', 'rubens', 'matisse', 'diting', 'mondrian', 'socrates',
+                 'corot', 'rembrandt', 'yunluo', 'xun', 'ice', 'water', 'angelicain', 'frost', 'evergreen', 'rock',
+                 'rosemary_p', 'surya', 'vayu', 'moonstone']
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 fullDevices = ['agate', 'alioth', 'andromeda', 'angelica', 'angelicain', 'angelican', 'apollo', 'aqua', 'ares', 'aries', 'aristotle', 'armani',
