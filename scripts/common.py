@@ -129,6 +129,8 @@ flags = {
     "garnet_tw_global": "garnet",
     "GARNETTWGlobal": "garnet",
     'duchamp_demo': 'duchamp',
+    "sapphire_global": "sapphire",
+    "SAPPHIREGlobal": "sapphire",
     'duchamp': 'duchamp',
     "gale_ru_global": "gale",
     "GALERUGlobal": "gale",

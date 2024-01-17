@@ -1,7 +1,7 @@
 {
 	"codename": "sapphire",
-	"cnname": "",
-	"enname": "",
+	"cnname": "Redmi Note 13 国际版",
+	"enname": "Redmi Note 13",
 	"attentions": [
 		{
 			"cn": "",
@@ -17,25 +17,25 @@
 	"gdid": "",
 	"pcid": "",
 	"branches": [
-		{
-			"code": "sapphire",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "cnmo",
-			"zone": "1",
-			"show": "0",
-			"ep": "1",
-			"cnname": "中国大陆正式版",
-			"enname": "China Mainland Stable(MIUI14)",
-			"links": [
-				{
-					"miui": "",
-					"android": "",
-					"recovery": "",
-					"fastboot": ""
-				}
-			]
-		}
+    {
+      "code":"sapphire_global",
+      "btag":"F",
+      "region":"global",
+      "carrier":[],
+      "branch": "mgbs",
+      "zone":"2",
+      "show": "1",
+      "ep":"0",
+      "cnname": "国际正式版",
+      "enname": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TNGMIXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIREGlobal_V14.0.4.0.TNGMIXM_cd13dc01db_13.0.zip",
+          "fastboot": "sapphire_global_images_V14.0.4.0.TNGMIXM_20231228.0000.00_13.0_global_366da50c82.tgz"
+        }
+      ]
+    }
 	]
 }
