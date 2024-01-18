@@ -23,7 +23,7 @@ sdk = {
 }
 
 currentStable = [
-                 'iron', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'sapphiren', 'sapphire', 'air', 'gale', 'gust', 'aristotle',
+                 'sapphire', 'sapphiren', 'iron', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
