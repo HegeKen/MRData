@@ -107,6 +107,8 @@ flags = {
     "emerald_eea_global": "emerald",
     "EMERALDEEAGlobal": "emerald",
     "emerald_ru_global": "emerald",
+    "sapphiren_eea_global": "sapphiren",
+    "SAPPHIRENEEAGlobal": "sapphiren",
     "EMERALDRUGlobal": "emerald",
     'VERMEER': 'vermeer',
     'VERMEERDEMO': 'vermeer',

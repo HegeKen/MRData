@@ -1,7 +1,7 @@
 {
 	"codename": "sapphiren",
-	"cnname": "",
-	"enname": "",
+	"cnname": "Redmi Note 13 NFC",
+	"enname": "Redmi Note 13 NFC",
 	"attentions": [
 		{
 			"cn": "",
@@ -18,22 +18,22 @@
 	"pcid": "",
 	"branches": [
 		{
-			"code": "sapphiren",
+			"code": "sapphiren_eea_global",
 			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "cnmo",
-			"zone": "1",
-			"show": "0",
-			"ep": "1",
-			"cnname": "中国大陆正式版",
-			"enname": "China Mainland Stable(MIUI14)",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA正式版",
+			"enname": "Europe EEA Stable",
 			"links": [
 				{
-					"miui": "",
-					"android": "",
-					"recovery": "",
-					"fastboot": ""
+					"miui": "V14.0.3.0.TNHEUXM",
+					"android": "13.0",
+					"recovery": "miui_SAPPHIRENEEAGlobal_V14.0.3.0.TNHEUXM_c4014ef897_13.0.zip",
+					"fastboot": "sapphiren_eea_global_images_V14.0.3.0.TNHEUXM_20231206.0000.00_13.0_eea_a828c5884f.tgz"
 				}
 			]
 		}

@@ -1,966 +1,966 @@
 {
-  "codename": "",
-  "cnname": "",
-  "enname": "",
-  "attentions": [
-    {
-      "cn": "",
-      "en": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui":"",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "branches": [
-    {
-      "code":"",
-      "btag":"X",
-      "region":"cn",
-      "carrier":[""],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发者预览版",
-      "enname": "Android Developer Preview",
-      "links": [
-        {
-          "miui": "23.5.6",
-          "android": "14.0 14.0 DP1 大陆版",
-          "recovery": "",
-          "fastboot": ""
-        },
-        {
-          "miui": "23.5.6",
-          "android": "14.0 DP1 Global",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "开发版",
-      "enname": "China Beta",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"X",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cnmp",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "小米澎湃 OS 开发版",
-      "enname": "Xiaomi HyperOS DEV",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "小米澎湃 OS",
-      "enname": "Xiaomi HyperOS",
-      "links": [
-        {
-          "miui": "",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnmo",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable(MIUI14)",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "cndm",
-      "zone":"1",
-      "show": "0",
-      "ep":"0",
-      "cnname": "中国大陆Demo",
-      "enname": "China Mainland Demo Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "epyk",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆YUNKE",
-      "enname": "China Mainland YUNKE",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "eptl",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆TL",
-      "enname": "China Mainland TL",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "epxy",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆EPXY",
-      "enname": "China Mainland EPXY",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "epsdlybjcg",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆EPSDLYBJCG",
-      "enname": "China Mainland EPSDLYBJCG",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "epyx",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆EPYX",
-      "enname": "China Mainland EPYX",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "tkgw",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆TKGWDL",
-      "enname": "China Mainland TKGWDL",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "branch": "stde",
-      "zone":"1",
-      "show": "0",
-      "ep":"1",
-      "cnname": "中国大陆STDEE",
-      "enname": "China Mainland STDEE",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":[],
-      "branch": "cnms",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国大陆正式版",
-      "enname": "China Mainland Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "branch": "ctce",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国电信定制版",
-      "enname": "China Telecom Carrier Edition",
-      "links": []
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinaunicom"],
-      "branch": "ctcu",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国联通定制版",
-      "enname": "China Unicom Carrier Edition",
-      "links": []
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"cn",
-      "carrier":["chinamobile"],
-      "branch": "ctcm",
-      "zone":"1",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国移动定制版",
-      "enname": "China Mobile Carrier Edition",
-      "links": []
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "中国台湾地区正式版",
-      "enname": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际正式版",
-      "enname": "Global Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mghg",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "国际ThreeHK运营商定制版",
-      "enname": "Global ThreeHK Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲EEA正式版",
-      "enname": "Europe EEA Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euhg",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲ThreeHK运营商定制版",
-      "enname": "Europe ThreeHK Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euor",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Orange运营商定制版",
-      "enname": "Europe Orange Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eutf",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Telefonica运营商定制版",
-      "enname": "Europe Telefonica Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euby",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Bouygues Telecom运营商定制版",
-      "enname": "Europe Bouygues Telecom Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euvf",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Vodafone运营商定制版",
-      "enname": "Europe Vodafone Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eusf",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲Altice(SFR)运营商定制版",
-      "enname": "Europe Altice(SFR) Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "euti",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "欧洲TIM运营商定制版",
-      "enname": "Europe TIM Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
-      "branch": "russ",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "俄罗斯正式版",
-      "enname": "Russia Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度正式版",
-      "enname": "India Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "印度尼西亚正式版",
-      "enname": "Indonesia Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "土耳其正式版",
-      "enname": "Turkey Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "thas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "泰国AIS运营商定制版",
-      "enname": "Thailand Stable AIS Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "clen",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "智利Entel运营商定制版",
-      "enname": "Chile Stable Entel Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mxtc",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "墨西哥Telcel运营商定制版",
-      "enname": "Mexico Stable Telcel Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mxat",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "墨西哥AT&T运营商定制版",
-      "enname": "Mexico Stable AT&T Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "lmcr",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "拉丁美洲Claro运营商定制版",
-      "enname": "Latin America Claro Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "lmms",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "拉丁美洲Moviestar运营商定制版",
-      "enname": "Latin America Moviestar Carrier Edition",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "gttg",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "危地马拉Tigo运营商定制版",
-      "enname": "Guatemala Tigo Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "zavc",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "南非Vodacom运营商定制版",
-      "enname": "South Africa Vodacom Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "zamt",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "南非MTN运营商定制版",
-      "enname": "South Africa MTN Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"jp",
-      "carrier":[],
-      "branch": "japs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "日本正式版",
-      "enname": "Japan Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "jpsb",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "日本SoftBank运营商定制版",
-      "enname": "Japan Stable SoftBank Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "jpkd",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "日本KDDI电信运营商定制版",
-      "enname": "Japan Stable KDDI Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "krgs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "韩国正式版",
-      "enname": "South Korea Stable",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "krgu",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "韩国LG U+运营商定制版",
-      "enname": "South Korea Stable LG U+ Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "krkt",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "韩KTF运营商定制版",
-      "enname": "South Korea Stable KTF Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    },
-    {
-      "code":"",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "krsk",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "cnname": "韩国SK电讯运营商定制版",
-      "enname": "South Korea Stable SK Telecom Carrier Edtion",
-      "links": [
-        {
-          "miui": "",
-          "android": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      ]
-    }
-  ]
+	"codename": "",
+	"cnname": "",
+	"enname": "",
+	"attentions": [
+		{
+			"cn": "",
+			"en": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "",
+			"btag": "X",
+			"region": "cn",
+			"carrier": [""],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发者预览版",
+			"enname": "Android Developer Preview",
+			"links": [
+				{
+					"miui": "23.5.6",
+					"android": "14.0 14.0 DP1 大陆版",
+					"recovery": "",
+					"fastboot": ""
+				},
+				{
+					"miui": "23.5.6",
+					"android": "14.0 DP1 Global",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "开发版",
+			"enname": "China Beta",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "X",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cnmp",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "小米澎湃 OS 开发版",
+			"enname": "Xiaomi HyperOS DEV",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "小米澎湃 OS",
+			"enname": "Xiaomi HyperOS",
+			"links": [
+				{
+					"miui": "",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnmo",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable(MIUI14)",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "cndm",
+			"zone": "1",
+			"show": "0",
+			"ep": "0",
+			"cnname": "中国大陆Demo",
+			"enname": "China Mainland Demo Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epyk",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆YUNKE",
+			"enname": "China Mainland YUNKE",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "eptl",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆TL",
+			"enname": "China Mainland TL",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epxy",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆EPXY",
+			"enname": "China Mainland EPXY",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epsdlybjcg",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆EPSDLYBJCG",
+			"enname": "China Mainland EPSDLYBJCG",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epyx",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆EPYX",
+			"enname": "China Mainland EPYX",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "tkgw",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆TKGWDL",
+			"enname": "China Mainland TKGWDL",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": [],
+			"branch": "cnms",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国大陆正式版",
+			"enname": "China Mainland Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"branch": "ctce",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国电信定制版",
+			"enname": "China Telecom Carrier Edition",
+			"links": []
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinaunicom"],
+			"branch": "ctcu",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国联通定制版",
+			"enname": "China Unicom Carrier Edition",
+			"links": []
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"branch": "ctcm",
+			"zone": "1",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国移动定制版",
+			"enname": "China Mobile Carrier Edition",
+			"links": []
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区正式版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际正式版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mghg",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际ThreeHK运营商定制版",
+			"enname": "Global ThreeHK Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲EEA正式版",
+			"enname": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euhg",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲ThreeHK运营商定制版",
+			"enname": "Europe ThreeHK Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euor",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Orange运营商定制版",
+			"enname": "Europe Orange Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eutf",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Telefonica运营商定制版",
+			"enname": "Europe Telefonica Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euby",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Bouygues Telecom运营商定制版",
+			"enname": "Europe Bouygues Telecom Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euvf",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Vodafone运营商定制版",
+			"enname": "Europe Vodafone Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eusf",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲Altice(SFR)运营商定制版",
+			"enname": "Europe Altice(SFR) Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "euti",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "欧洲TIM运营商定制版",
+			"enname": "Europe TIM Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "ru",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "俄罗斯正式版",
+			"enname": "Russia Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度正式版",
+			"enname": "India Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "印度尼西亚正式版",
+			"enname": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "土耳其正式版",
+			"enname": "Turkey Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "thas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "泰国AIS运营商定制版",
+			"enname": "Thailand Stable AIS Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "clen",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "智利Entel运营商定制版",
+			"enname": "Chile Stable Entel Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mxtc",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "墨西哥Telcel运营商定制版",
+			"enname": "Mexico Stable Telcel Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mxat",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "墨西哥AT&T运营商定制版",
+			"enname": "Mexico Stable AT&T Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "lmcr",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "拉丁美洲Claro运营商定制版",
+			"enname": "Latin America Claro Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "lmms",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "拉丁美洲Moviestar运营商定制版",
+			"enname": "Latin America Moviestar Carrier Edition",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "gttg",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "危地马拉Tigo运营商定制版",
+			"enname": "Guatemala Tigo Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "zavc",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "南非Vodacom运营商定制版",
+			"enname": "South Africa Vodacom Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "zamt",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "南非MTN运营商定制版",
+			"enname": "South Africa MTN Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "jp",
+			"carrier": [],
+			"branch": "japs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "日本正式版",
+			"enname": "Japan Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "jpsb",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "日本SoftBank运营商定制版",
+			"enname": "Japan Stable SoftBank Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "jpkd",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "日本KDDI电信运营商定制版",
+			"enname": "Japan Stable KDDI Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "krgs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "韩国正式版",
+			"enname": "South Korea Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "krgu",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "韩国LG U+运营商定制版",
+			"enname": "South Korea Stable LG U+ Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "krkt",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "韩KTF运营商定制版",
+			"enname": "South Korea Stable KTF Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		},
+		{
+			"code": "",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "krsk",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "韩国SK电讯运营商定制版",
+			"enname": "South Korea Stable SK Telecom Carrier Edtion",
+			"links": [
+				{
+					"miui": "",
+					"android": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			]
+		}
+	]
 }
