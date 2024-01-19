@@ -113,6 +113,8 @@ flags = {
     'VERMEER': 'vermeer',
     'VERMEERDEMO': 'vermeer',
     'vermeer_demo': 'vermeer',
+    "water_eea_vf_global": "water",
+    'WATEREEAVFGlobal': 'water',
     "gale_eea_global": "gale",
     "GALEEEAGlobal": "gale",
     "gale_in_global": "gale",
