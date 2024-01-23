@@ -17,6 +17,46 @@
 	"gdid": "",
 	"pcid": "",
 	"branches": [
+    {
+			"code": "sapphiren_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区正式版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TNHTWXM",
+					"android": "13.0",
+					"recovery": "miui_SAPPHIRENTWGlobal_V14.0.1.0.TNHTWXM_8cc2fc205e_13.0.zip",
+					"fastboot": "sapphiren_tw_global_images_V14.0.1.0.TNHTWXM_20231215.0000.00_13.0_tw_de25db2bde.tgz"
+				}
+			]
+		},
+    {
+			"code": "sapphiren_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "国际正式版",
+			"enname": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TNHMIXM",
+					"android": "13.0",
+					"recovery": "miui_SAPPHIRENGlobal_V14.0.1.0.TNHMIXM_d7f8df09ee_13.0.zip",
+					"fastboot": "sapphiren_global_images_V14.0.1.0.TNHMIXM_20231215.0000.00_13.0_global_158dbf88fb.tgz"
+				}
+			]
+		},
 		{
 			"code": "sapphiren_eea_global",
 			"btag": "F",
