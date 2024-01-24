@@ -162,6 +162,26 @@
 			]
 		},
     {
+			"code": "zircon_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"cnname": "中国台湾地区正式版",
+			"enname": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.1.0.TNOTWXM",
+					"android": "13.0",
+					"recovery": "miui_ZIRCONTWGlobal_V14.0.1.0.TNOTWXM_340b53f984_13.0.zip",
+					"fastboot": "zircon_tw_global_images_V14.0.1.0.TNOTWXM_20231123.0000.00_13.0_tw_96b263783d.tgz"
+				}
+			]
+		},
+    {
       "code":"zircon_global",
       "btag":"F",
       "region":"global",

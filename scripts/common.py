@@ -118,6 +118,8 @@ flags = {
     "sapphire_global": "sapphire",
     "SAPPHIREGlobal": "sapphire",
     "EMERALDRUGlobal": "emerald",
+    "zircon_tw_global": "zircon",
+    "ZIRCONTWGlobal": "zircon",
     'VERMEER': 'vermeer',
     'VERMEERDEMO': 'vermeer',
     'vermeer_demo': 'vermeer',
