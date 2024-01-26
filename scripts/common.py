@@ -134,6 +134,8 @@ flags = {
     "gold_tw_global": "gold",
     "emerald_global": "emerald",
     "EMERALDGlobal": "emerald",
+    "emerald_id_global": "emerald",
+    "EMERALDIDGlobal": "emerald",
     "GOLDTWGlobal": "gold",
     "GALETRGlobal": "gale",
     "GALEINGlobal": "gale",
