@@ -162,6 +162,32 @@
 			]
 		},
     {
+			"code": "zircon_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"cnname": "中国大陆STDEE",
+			"enname": "China Mainland STDEE",
+			"links": [
+				{
+					"miui": "V14.0.23.12.25.EP.STDEE.N16U",
+					"android": "13.0",
+					"recovery": "miui_ZIRCONEPSTDEE_V14.0.23.12.25.EP.STDEE.N16U_5c85a5d2a0_13.0.zip",
+					"fastboot": "zircon_ep_stdee_images_V14.0.23.12.25.EP.STDEE.N16U_20231225.0000.00_13.0_cn_a20884b29d.tgz"
+				},
+        {
+					"miui": "V14.0.23.12.25.EP.STDEE.N16U",
+					"android": "13.0",
+					"recovery": "miui_ZIRCONEPSTDEE_V14.0.23.12.25.EP.STDEE.N16U_5c85a5d2a0_13.0.zip",
+					"fastboot": "zircon_ep_stdee_images_V14.0.23.12.25.EP.STDEE.N16U_20231225.0000.00_13.0_cn_chinatelecom_120ea39986.tgz"
+				}
+			]
+		},
+    {
 			"code": "zircon_tw_global",
 			"btag": "F",
 			"region": "tw",

@@ -124,6 +124,8 @@ flags = {
     'duchamp_global': 'duchamp',
     'DUCHAMPTWGlobal': 'duchamp',
     'duchamp_tw_global': 'duchamp',
+    'zircon_ep_stdee': 'zircon',
+    'ZIRCONEPSTDEE': 'zircon',
     'VERMEERDEMO': 'vermeer',
     'vermeer_demo': 'vermeer',
     'water_eea_vf_global': 'water',

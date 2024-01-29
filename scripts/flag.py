@@ -15,12 +15,19 @@ def localData(codename):
         devdata = json.loads(open('/sdcard/Codes/NuxtMR/static/data/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
     return devdata
 
-
-for device in devices:
-  if device in common.currentStable:
-    if int(localData(device)["ismiui"]) > 0:
-      print(device+"\t"+localData(device)["ismiui"])
+def checkOS():
+  for device in common.currentStable:
+    if device in common.currentStable:
+      if int(localData(device)["ismiui"]) > 0:
+        print(device+"\t"+localData(device)["ismiui"])
+      else:
+        i = 0
     else:
       i = 0
-  else:
-    i = 0
+
+def countBranch():
+  for device in common.currentStable:
+    print(device + "\t" + str(len(localData(device)["branches"])))
+
+
+countBranch()
