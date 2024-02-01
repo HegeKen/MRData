@@ -115,6 +115,8 @@ flags = {
     'SAPPHIRENGlobal': 'sapphiren',
     'sapphiren_tw_global': 'sapphiren',
     'SAPPHIRENTWGlobal': 'sapphiren',
+    "corot_jp_global": "corot",
+    "COROTJPGlobal": "corot",
     'sapphire_global': 'sapphire',
     'SAPPHIREGlobal': 'sapphire',
     'EMERALDRUGlobal': 'emerald',
