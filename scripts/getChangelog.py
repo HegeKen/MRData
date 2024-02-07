@@ -20,4 +20,5 @@ common.MiOTAForm['options']['previewPlan'] = '1'
 common.MiOTAForm['v'] = 'V14.0.17.0.TLLCNXM'
 
 
-common.getChangelog(common.miui_encrypt(json.dumps(common.MiOTAForm)),device)
+encrypted_form = common.miui_encrypt(json.dumps(common.MiOTAForm))
+common.getChangelog(encrypted_form, device)

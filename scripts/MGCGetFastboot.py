@@ -27,6 +27,25 @@ def getFastboot(region):
           common.checkExist(fastboot)
     response.close()
 
-
+urls = []
 for region in regions:
-  getFastboot(region)
+  for domain in domains:
+    url = domain+region+params
+    if url in urls:
+      continue
+    else:
+      urls.append(url)
+
+for url in urls:
+  print("\r"+url+"      ",end="")
+  response = requests.get(url, headers=headers)
+  content = response.content.decode('utf8')
+  if (response.status_code != 404):
+    packages = json.loads(content)['data']
+    if packages == None:
+      i = 0
+    else:
+      for package in packages:
+        fastboot = package['package_url'].split('/')[4].split('?')[0]
+        common.checkExist(fastboot)
+  response.close()

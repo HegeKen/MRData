@@ -23,7 +23,7 @@ sdk = {
 }
 
 currentStable = [
-                 'sapphire', 'sapphiren', 'iron', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
+                 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -2059,7 +2059,14 @@ def localData(codename):
         devdata = json.loads(open('/sdcard/Codes/NuxtMR/static/data/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read()).__str__()
     return devdata
-
+def LoadJson(codename):
+    if platform == 'win32':
+        devdata = json.loads(open('static/data/data/devices/' +
+                             codename+'.json', 'r', encoding='utf-8').read())
+    else:
+        devdata = json.loads(open('/sdcard/Codes/NuxtMR/static/data/data/devices/' +
+                             codename+'.json', 'r', encoding='utf-8').read())
+    return devdata
 
 def writeData(filename):
     print('发现未收录版本')
@@ -2072,13 +2079,13 @@ def writeData(filename):
     file.close()
 
 
-def writeFlag(flag):
+def writeFlag(flag,device):
     if platform == 'win32':
         file = open('static/data/scripts/Flags.json', 'a', encoding='utf-8')
     else:
         file = open(
             '/sdcard/Codes/NuxtMR/static/data/scripts/Flags.json', 'a', encoding='utf-8')
-    file.write('\''+flag+'\':\'\',\n')
+    file.write(f"\'{flag}\':\'{device}\',\n")
     file.close()
 
 
@@ -2090,7 +2097,7 @@ def getDeviceCode(filename):
             return codename
         else:
             print(flag)
-            writeFlag(flag)
+            writeFlag(flag,"")
             return 0
     elif '.tgz' in filename:
         flag = filename.split('_images')[0]
@@ -2099,7 +2106,7 @@ def getDeviceCode(filename):
             codename = flags[flag]
             return codename
         else:
-            writeFlag(flag)
+            writeFlag(flag,"")
             return 0
     elif '.exe' in filename:
         flag = filename.split('_')[1]
@@ -2108,7 +2115,7 @@ def getDeviceCode(filename):
             codename = flags[flag]
             return codename
         else:
-            writeFlag(flag)
+            writeFlag(flag,"")
             return 0
     else:
         return 0
