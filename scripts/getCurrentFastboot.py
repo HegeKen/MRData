@@ -7,7 +7,7 @@ def chekc_url_exits(url):
   else:
     urls.append(url)
 
-def genlink(code, btag, region, carriers):
+def genlink(codename, code, btag, region, carriers):
   base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
 
   if region == 'cn':
@@ -24,11 +24,12 @@ def genlink(code, btag, region, carriers):
   else:
     url = base_url + code + '&b=' + btag + '&r=' + region + '&n='
     chekc_url_exits(url)
-    url = base_url + code + '&b=' + btag + '&r=' + code.split('_global')[0] + '&n='
-    chekc_url_exits(url)
+    if "_global" in code and codename not in ["pissarroin","angelica","cannon","sweet","camellia"]:
+      url = base_url + code + '&b=' + btag + '&r=' + code.split(codename+"_")[1].split("_global")[0] + '&n='
+      chekc_url_exits(url)
+    else:
+      i = 0
     url = base_url + code + '&b=' + btag + '&r=eea&n='
-    chekc_url_exits(url)
-    url = base_url + code + '&b=' + btag + '&r=' + code.split('_global')[0] + '&n='
     chekc_url_exits(url)
     url = base_url + code + '&b=' + btag + '&r=global' + '&n='
     chekc_url_exits(url)
@@ -36,6 +37,7 @@ def genlink(code, btag, region, carriers):
 base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
 for device in common.currentStable:
   devdata = common.LoadJson(device)
+  codename = devdata["codename"]
   for branch in devdata['branches']:
     code = branch['code']
     if code == '':
@@ -45,7 +47,7 @@ for device in common.currentStable:
     btag = branch['btag']
     region = branch['region']
     carriers = branch['carrier']
-    genlink(code, btag, region, carriers)
+    genlink(codename, code, btag, region, carriers)
 
 for url in urls:
   print("\r"+url+"                ",end="")
