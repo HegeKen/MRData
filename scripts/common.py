@@ -105,6 +105,8 @@ flags = {
     'ALIOTHDEMO': 'alioth',
     "DUCHAMPIDGlobal": "duchamp",
     "duchamp_id_global": "duchamp",
+    "sapphiren_tr_global": "sapphiren",
+    "SAPPHIRENTRGlobal": "sapphiren",
     "vermeer_ep_stdee": "vermeer",
     "VERMEEREPSTDEE": "vermeer",
     "DUCHAMPGlobal": "duchamp",
