@@ -12,8 +12,8 @@
   "devices": [
     {
       "code": "cupid",
-      "NameCn": "小米 12",
-      "NameEn": "Xiaomi 12",
+      "zh-cn": "小米 12",
+      "en-us": "Xiaomi 12",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_CUPID_V14.0.23.10.8.DEV_edad4ada36_13.0.zip",
@@ -21,8 +21,8 @@
     },
     {
       "code": "zeus",
-      "NameCn": "小米 12 Pro",
-      "NameEn": "Xiaomi 12 Pro",
+      "zh-cn": "小米 12 Pro",
+      "en-us": "Xiaomi 12 Pro",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_ZEUS_V14.0.23.10.8.DEV_2014ffe53b_13.0.zip",
@@ -30,8 +30,8 @@
     },
     {
       "code": "daumier",
-      "NameCn": "小米 12 Pro 天玑版",
-      "NameEn": "Xiaomi 12 Pro Dimensity",
+      "zh-cn": "小米 12 Pro 天玑版",
+      "en-us": "Xiaomi 12 Pro Dimensity",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_DAUMIER_V14.0.23.10.8.DEV_1da85c2bd2_13.0.zip",
@@ -39,8 +39,8 @@
     },
     {
       "code": "mayfly",
-      "NameCn": "小米 12S",
-      "NameEn": "Xiaomi 12S",
+      "zh-cn": "小米 12S",
+      "en-us": "Xiaomi 12S",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_MAYFLY_V14.0.23.10.8.DEV_5c57c04da1_13.0.zip",
@@ -48,8 +48,8 @@
     },
     {
       "code": "unicorn",
-      "NameCn": "小米 12S Pro",
-      "NameEn": "Xiaomi 12S Pro",
+      "zh-cn": "小米 12S Pro",
+      "en-us": "Xiaomi 12S Pro",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_UNICORN_V14.0.23.10.8.DEV_a8f0844227_13.0.zip",
@@ -57,8 +57,8 @@
     },
     {
       "code": "thor",
-      "NameCn": "小米 12S Ultra",
-      "NameEn": "Xiaomi 12S Ultra",
+      "zh-cn": "小米 12S Ultra",
+      "en-us": "Xiaomi 12S Ultra",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_THOR_V14.0.23.10.8.DEV_538ac8a537_13.0.zip",
@@ -66,8 +66,8 @@
     },
     {
       "code": "dagu",
-      "NameCn": "小米平板 5 Pro 12.4",
-      "NameEn": "Xiaomi Pad 5 Pro 12.4",
+      "zh-cn": "小米平板 5 Pro 12.4",
+      "en-us": "Xiaomi Pad 5 Pro 12.4",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_DAGU_V14.0.23.10.8.DEV_a2667ce603_13.0.zip",
@@ -75,8 +75,8 @@
     },
     {
       "code": "rubens",
-      "NameCn": "Redmi K50",
-      "NameEn": "Redmi K50",
+      "zh-cn": "Redmi K50",
+      "en-us": "Redmi K50",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_RUBENS_V14.0.23.10.8.DEV_13237707d6_13.0.zip",
@@ -84,8 +84,8 @@
     },
     {
       "code": "matisse",
-      "NameCn": "Redmi K50 Pro",
-      "NameEn": "Redmi K50 Pro",
+      "zh-cn": "Redmi K50 Pro",
+      "en-us": "Redmi K50 Pro",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_MATISSE_V14.0.23.10.8.DEV_5f6f8358d5_13.0.zip",
@@ -93,8 +93,8 @@
     },
     {
       "code": "ingres",
-      "NameCn": "Redmi K50 电竞版",
-      "NameEn": "Redmi K50G",
+      "zh-cn": "Redmi K50 电竞版",
+      "en-us": "Redmi K50G",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_INGRES_V14.0.23.10.8.DEV_d9f73647f7_13.0.zip",
@@ -102,8 +102,8 @@
     },
     {
       "code": "diting",
-      "NameCn": "Redmi K50 至尊版",
-      "NameEn": "Redmi K50 Ultra",
+      "zh-cn": "Redmi K50 至尊版",
+      "en-us": "Redmi K50 Ultra",
       "miui": "V14.0.23.10.8.DEV",
       "android": "13.0",
       "recovery": "miui_DITING_V14.0.23.10.8.DEV_8317a4d879_13.0.zip",
@@ -163,12 +163,12 @@
       "en-us": "The 617th MIUI Weekly Update Changelogs",
       "log": [
         {
-          "componentCn": "系统",
-          "componentEn": "System",
+          "zh-cn": "系统",
+          "en-us": "System",
           "changes": [
             {
-              "changesCn": "优化 部分影响使用体验的问题",
-              "changesEn": "Optiminzing some factors affecting user experience."
+              "zh-cn": "优化 部分影响使用体验的问题",
+              "en-us": "Optiminzing some factors affecting user experience."
             }
           ]
         }

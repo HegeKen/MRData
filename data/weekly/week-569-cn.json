@@ -11,8 +11,8 @@
   "devices": [
     {
       "code": "cas",
-      "NameCn": "小米 10 至尊纪念版",
-      "NameEn": "Mi 10 Ultra",
+      "zh-cn": "小米 10 至尊纪念版",
+      "en-us": "Mi 10 Ultra",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_CAS_V13.1.22.10.11.DEV_b42cbefe68_12.0.zip",
@@ -20,8 +20,8 @@
     },
     {
       "code": "atom",
-      "NameCn": "Redmi 10X 5G",
-      "NameEn": "Redmi 10X 5G",
+      "zh-cn": "Redmi 10X 5G",
+      "en-us": "Redmi 10X 5G",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_ATOM_V13.1.22.10.11.DEV_233c6c980b_12.0.zip",
@@ -29,8 +29,8 @@
     },
     {
       "code": "bomb",
-      "NameCn": "Redmi 10X Pro",
-      "NameEn": "Redmi 10X Pro",
+      "zh-cn": "Redmi 10X Pro",
+      "en-us": "Redmi 10X Pro",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_BOMB_V13.1.22.10.11.DEV_e0a5a9b966_12.0.zip",
@@ -38,8 +38,8 @@
     },
     {
       "code": "lime",
-      "NameCn": "Redmi Note 9 4G",
-      "NameEn": "Redmi Note 9 4G",
+      "zh-cn": "Redmi Note 9 4G",
+      "en-us": "Redmi Note 9 4G",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_LIME_V13.1.22.10.11.DEV_0d42183f0d_12.0.zip",
@@ -47,8 +47,8 @@
     },
     {
       "code": "cannon",
-      "NameCn": "Redmi Note 9 5G",
-      "NameEn": "Redmi Note 9 5G",
+      "zh-cn": "Redmi Note 9 5G",
+      "en-us": "Redmi Note 9 5G",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_CANNON_V13.1.22.10.11.DEV_0f4b87da23_12.0.zip",
@@ -56,8 +56,8 @@
     },
     {
       "code": "gauguin",
-      "NameCn": "Redmi Note 9 Pro 5G",
-      "NameEn": "Redmi Note 9 Pro 5G",
+      "zh-cn": "Redmi Note 9 Pro 5G",
+      "en-us": "Redmi Note 9 Pro 5G",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_GAUGUIN_V13.1.22.10.11.DEV_cf8b70f216_12.0.zip",
@@ -65,8 +65,8 @@
     },
     {
       "code": "xaga",
-      "NameCn": "Redmi Note 11T Pro/Pro+",
-      "NameEn": "Redmi Note 11T Pro/Pro+",
+      "zh-cn": "Redmi Note 11T Pro/Pro+",
+      "en-us": "Redmi Note 11T Pro/Pro+",
       "miui": "V13.1.22.10.11.DEV",
       "android": "13.0",
       "recovery": "miui_XAGA_V13.1.22.10.11.DEV_65a32558ee_13.0.zip",
@@ -74,8 +74,8 @@
     },
     {
       "code": "cezanne",
-      "NameCn": "Redmi K30 至尊纪念版",
-      "NameEn": "Redmi K30 Ultra",
+      "zh-cn": "Redmi K30 至尊纪念版",
+      "en-us": "Redmi K30 Ultra",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_CEZANNE_V13.1.22.10.11.DEV_b0328dd778_12.0.zip",
@@ -83,8 +83,8 @@
     },
     {
       "code": "apollo",
-      "NameCn": "Redmi K30S 至尊纪念版",
-      "NameEn": "Redmi K30S Ultra",
+      "zh-cn": "Redmi K30S 至尊纪念版",
+      "en-us": "Redmi K30S Ultra",
       "miui": "V13.1.22.10.11.DEV",
       "android": "12.0",
       "recovery": "miui_APOLLO_V13.1.22.10.11.DEV_dbe58048a2_12.0.zip",
@@ -160,30 +160,30 @@
       "en-us": "The 569th MIUI Weekly Update Changelogs",
       "log": [
         {
-          "componentCn": "小米笔记",
-          "componentEn": "Mi Notes",
+          "zh-cn": "小米笔记",
+          "en-us": "Mi Notes",
           "changes": [
             {
-              "changesCn": "新增文件夹快速选择栏，支持滑动查看与点击切换",
-              "changesEn": "Adding new folder switcher, you can access by tapping or sliding inside the app."
+              "zh-cn": "新增文件夹快速选择栏，支持滑动查看与点击切换",
+              "en-us": "Adding new folder switcher, you can access by tapping or sliding inside the app."
             },
             {
-              "changesCn": "修复设置皮肤的笔记偶现语音条UI显示异常的问题",
-              "changesEn": "Fixing recording ui bug on skinned notes."
+              "zh-cn": "修复设置皮肤的笔记偶现语音条UI显示异常的问题",
+              "en-us": "Fixing recording ui bug on skinned notes."
             },
             {
-              "changesCn": "修复小窗状态下引导文案显示不全的问题",
-              "changesEn": "Fixing texts not displaying fully in window mode."
+              "zh-cn": "修复小窗状态下引导文案显示不全的问题",
+              "en-us": "Fixing texts not displaying fully in window mode."
             }
           ]
         },
         {
-          "componentCn": "应用商店",
-          "componentEn": "Mi GetApp",
+          "zh-cn": "应用商店",
+          "en-us": "Mi GetApp",
           "changes": [
             {
-              "changesCn": "优化商店多处文案，提示引导更清晰",
-              "changesEn": "Aptomizing labels in GetApp to make it more user friendly."
+              "zh-cn": "优化商店多处文案，提示引导更清晰",
+              "en-us": "Aptomizing labels in GetApp to make it more user friendly."
             }
           ]
         }
