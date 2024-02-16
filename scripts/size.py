@@ -30,7 +30,7 @@ ui_sizes = []
 os_sizes = []
 for device in UI:
   devdata = json.loads(open('static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
-  print('目前正在完成'+devdata['cnname']+'('+devdata['codename']+')')
+  print('目前正在完成'+devdata['zh-cn']+'('+devdata['codename']+')')
   for branch in devdata['branches']:
     if branch['branch'] == 'cnmp' or branch['branch'] == 'cnmo' or branch['branch'] == 'cnms':
       for rom in branch['links']:

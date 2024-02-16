@@ -1,19 +1,19 @@
 {
 	"codename": "whyred",
-	"cnname": "红米 Note 5",
-	"enname": "Redmi Note 5/5 Pro",
+	"zh-cn": "红米 Note 5",
+	"en-us": "Redmi Note 5/5 Pro",
 	"attentions": [
 		{
-			"cn": "为保持系统稳定性并确保设备的安全性，近期红米 Note 5 引入了“防回刷”机制。MIUI国内8.7.6及以上的开发版和稳定版V9.5.22及以上版本，将无法降级刷回旧版本的开发版或稳定版。",
-			"en": "For maintaining system stability, we've implemented 'Anti-rollback' mechanisim for Redmi Note 5/5 Pro, for China based roms, if your current version is same or higher than 8.7.6 or V9.5.22, then you cannot roll back to older builds."
+			"zh-cn": "为保持系统稳定性并确保设备的安全性，近期红米 Note 5 引入了“防回刷”机制。MIUI国内8.7.6及以上的开发版和稳定版V9.5.22及以上版本，将无法降级刷回旧版本的开发版或稳定版。",
+			"en-us": "For maintaining system stability, we've implemented 'Anti-rollback' mechanisim for Redmi Note 5/5 Pro, for China based roms, if your current version is same or higher than 8.7.6 or V9.5.22, then you cannot roll back to older builds."
 		},
 		{
-			"cn": "开发版：①8.7.6及以上版本，无法刷回8.7.5及之前的版本（卡刷/线刷均不支持）；②8.7.6及之后的版本之间可互刷，但无法刷回8.7.5或之前版本（卡刷/线刷均不支持）；③8.7.5之前的版本之间仍可互刷",
-			"en": "China Beta:①Users with same or higher than 8.7.6 cannot roll back to builds older builds than 8.7.5(Both recovery and fastboot are not supported);② Users can flash builds same or higher that 8.7.6, but can't roll back to older builds(Both recovery and fastboot are not supported);③Users can flash builds older than 8.7.5 freely."
+			"zh-cn": "开发版：①8.7.6及以上版本，无法刷回8.7.5及之前的版本（卡刷/线刷均不支持）；②8.7.6及之后的版本之间可互刷，但无法刷回8.7.5或之前版本（卡刷/线刷均不支持）；③8.7.5之前的版本之间仍可互刷",
+			"en-us": "China Beta:①Users with same or higher than 8.7.6 cannot roll back to builds older builds than 8.7.5(Both recovery and fastboot are not supported);② Users can flash builds same or higher that 8.7.6, but can't roll back to older builds(Both recovery and fastboot are not supported);③Users can flash builds older than 8.7.5 freely."
 		},
 		{
-			"cn": "稳定版：①V9.5.22及之后的版本，无法刷回V9.5.21之前的版本（卡刷/线刷均不支持）；②V9.5.22及之后的版本之间可互刷，但无法刷回V9.5.21及之前的版本（卡刷/线刷均不支持）；③V9.5.21之前的版本之间仍可互刷",
-			"en": "China Mainland Stable:①Users with same or higher than V6.5.22 cannot roll back to builds older builds than V9.5.21(Both recovery and fastboot are not supported);② Users can flash builds same or higher that V9.5.22, but can't roll back to older builds(Both recovery and fastboot are not supported);③Users can flash builds older than V9.5.21 freely."
+			"zh-cn": "稳定版：①V9.5.22及之后的版本，无法刷回V9.5.21之前的版本（卡刷/线刷均不支持）；②V9.5.22及之后的版本之间可互刷，但无法刷回V9.5.21及之前的版本（卡刷/线刷均不支持）；③V9.5.21之前的版本之间仍可互刷",
+			"en-us": "China Mainland Stable:①Users with same or higher than V6.5.22 cannot roll back to builds older builds than V9.5.21(Both recovery and fastboot are not supported);② Users can flash builds same or higher that V9.5.22, but can't roll back to older builds(Both recovery and fastboot are not supported);③Users can flash builds older than V9.5.21 freely."
 		}
 	],
 	"cdid": "12569458",
@@ -34,8 +34,8 @@
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
-			"cnname": "开发版",
-			"enname": "China Beta",
+			"zh-cn": "开发版",
+			"en-us": "China Beta",
 			"links": [
 				{
 					"miui": "20.6.18",
@@ -750,8 +750,8 @@
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
-			"cnname": "中国大陆稳定版",
-			"enname": "China Mainland Stable",
+			"zh-cn": "中国大陆稳定版",
+			"en-us": "China Mainland Stable",
 			"links": [
 				{
 					"miui": "V12.0.3.0.PEICNXM",
@@ -878,8 +878,8 @@
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
-			"cnname": "中国电信定制版",
-			"enname": "China Telecom Carrier Edition",
+			"zh-cn": "中国电信定制版",
+			"en-us": "China Telecom Carrier Edition",
 			"links": [
 				{
 					"miui": "V12.0.3.0.PEICNXM",
@@ -898,8 +898,8 @@
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
-			"cnname": "中国移动定制版",
-			"enname": "China Mobile Carrier Edition",
+			"zh-cn": "中国移动定制版",
+			"en-us": "China Mobile Carrier Edition",
 			"links": [
 				{
 					"miui": "V12.0.3.0.PEICNXM",
@@ -918,8 +918,8 @@
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
-			"cnname": "国际开发版",
-			"enname": "Global Beta",
+			"zh-cn": "国际开发版",
+			"en-us": "Global Beta",
 			"links": [
 				{
 					"miui": "9.6.27",
@@ -1238,8 +1238,8 @@
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
-			"cnname": "国际稳定版",
-			"enname": "Global Stable",
+			"zh-cn": "国际稳定版",
+			"en-us": "Global Stable",
 			"links": [
 				{
 					"miui": "V12.0.2.0.PEIMIXM",
@@ -1408,8 +1408,8 @@
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
-			"cnname": "俄罗斯稳定版",
-			"enname": "Russia Stable",
+			"zh-cn": "俄罗斯稳定版",
+			"en-us": "Russia Stable",
 			"links": [
 				{
 					"miui": "V11.0.1.0.PEIRUXM",

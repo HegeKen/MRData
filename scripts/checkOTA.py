@@ -41,9 +41,9 @@ for device in common.currentStable:
               file = open('static/data/scripts/checkOTA.txt', 'a', encoding='utf-8')
             else:
               file = open('/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt', 'a', encoding='utf-8')
-            file.write(devdata['cnname']+'('+device+'),\t'+branch['code']+',\t'+branch['cnname']+',\t'+branch['zone']+'\n')
+            file.write(devdata['zh-cn']+'('+device+'),\t'+branch['code']+',\t'+branch['zh-cn']+',\t'+branch['zone']+'\n')
             file.close()
         else:
           i = 0
         latest = link['android']
-  print(devdata['cnname']+'已完成')
+  print(devdata['zh-cn']+'已完成')

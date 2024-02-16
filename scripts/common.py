@@ -2271,7 +2271,7 @@ def getFromApi(encrypted_data, device):
         devdata = json.loads(open(
             '/sdcard/Codes/NuxtMR/static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
-    print('\r'+'正在抓取'+devdata['cnname']+'(' +
+    print('\r'+'正在抓取'+devdata['zh-cn']+'(' +
           devdata['codename']+')                  ', end='')
     if 'code' in response.text:
         print(json.loads(response.text))
@@ -2338,7 +2338,7 @@ def getChangelog(encrypted_data, device):
         devdata = json.loads(open(
             '/sdcard/Codes/NuxtMR/static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
-    print('\r'+'正在抓取'+devdata['cnname']+'(' +
+    print('\r'+'正在抓取'+devdata['zh-cn']+'(' +
           devdata['codename']+')                  ', end='')
     if 'code' in response.text:
         print(json.loads(response.text)['desc'])

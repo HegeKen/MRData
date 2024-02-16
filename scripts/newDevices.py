@@ -43,9 +43,9 @@ for device in common.test:
             if branch['branch'] == 'cnmp':
               i = 0
             else:
-              file.write(devdata['cnname']+'('+device+'),\t'+branch['code']+',\t'+branch['cnname']+',\t'+branch['zone']+'\n')
+              file.write(devdata['zh-cn']+'('+device+'),\t'+branch['code']+',\t'+branch['zh-cn']+',\t'+branch['zone']+'\n')
               file.close()
         else:
           i = 0
         latest = link['android']
-  print(devdata['cnname']+'已完成')
+  print(devdata['zh-cn']+'已完成')

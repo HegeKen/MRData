@@ -30,7 +30,7 @@ check_url = 'https://update.miui.com/updates/miotaV3.php'
 #       else:
 #         data = 'q=' + common.miui_encrypt(json.dumps(common.MiOTAForm)) + '&s=1&t='
 #         response = requests.post(check_url, headers=headers, data=data)
-#         print('\r'+'正在抓取'+devdata['cnname']+'(' + devdata['codename']+ ') 的 ' + branch['code']+ '分支，安卓版本为：'+link['android']+'                          ',end='')
+#         print('\r'+'正在抓取'+devdata['zh-cn']+'(' + devdata['codename']+ ') 的 ' + branch['code']+ '分支，安卓版本为：'+link['android']+'                          ',end='')
 #         if 'code' in response.text:
 #           print(json.loads(response.text)['desc'])
 #         else:
@@ -87,9 +87,9 @@ for device in common.currentStable:
           if branch['branch'] == 'cnmp':
             i = 0
           else:
-            file.write(devdata['cnname']+'('+device+'),\t'+branch['code']+',\t'+branch['cnname']+',\t'+link['android']+',\t'+branch['zone']+'\n')
+            file.write(devdata['zh-cn']+'('+device+'),\t'+branch['code']+',\t'+branch['zh-cn']+',\t'+link['android']+',\t'+branch['zone']+'\n')
             file.close()
         else:
           i = 0
         latest = link['android']
-  print('\r'+devdata['cnname']+'已完成                            ',end='')
+  print('\r'+devdata['zh-cn']+'已完成                            ',end='')

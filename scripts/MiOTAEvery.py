@@ -22,7 +22,7 @@ def FormRun(link):
       if branch['branch'] == 'cnmp':
         i = 0
       else:
-        file.write(devdata['cnname']+'('+device+'),\t'+branch['code']+',\t'+branch['cnname']+',\t'+link['android']+',\t'+branch['zone']+'\n')
+        file.write(devdata['zh-cn']+'('+device+'),\t'+branch['code']+',\t'+branch['zh-cn']+',\t'+link['android']+',\t'+branch['zone']+'\n')
         file.close()
   else:
     i = 0
@@ -54,4 +54,4 @@ for device in common.currentStable:
       common.MiOTAForm2['options']['zone'] = '3'
       for link in branch['links']:
         FormRun(link)
-  print('\r'+devdata['cnname']+'已完成                            ',end='')
+  print('\r'+devdata['zh-cn']+'已完成                            ',end='')
