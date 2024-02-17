@@ -4,6 +4,7 @@
 			"brand": "Xiaomi",
 			"zh-cn": "小米设备",
 			"en-us": "Xiaomi devices",
+      "color": "#FF6900",
 			"series": [
 				{
 					"series": "mi",
@@ -611,6 +612,7 @@
 			"brand": "Redmi",
 			"zh-cn": "红米设备",
 			"en-us": "Redmi devices",
+      "color": "#000000",
 			"series": [
 				{
 					"series": "redmi",
@@ -1335,6 +1337,23 @@
 						}
 					]
 				},
+        {
+					"series": "redmia",
+					"zh-cn": "Redmi A 系列",
+					"en-us": "Redmi A series",
+					"devices": [
+						{
+							"code": "ice",
+							"zh-cn": "Redmi A1/A1+",
+							"en-us": "Redmi A1/A1+"
+						},
+						{
+							"code": "water",
+							"zh-cn": "Redmi A2/A2+",
+							"en-us": "Redmi A2/A2+"
+						}
+					]
+				},
 				{
 					"series": "redmiothers",
 					"zh-cn": "其他 Redmi 设备",
@@ -1361,30 +1380,14 @@
 							"en-us": "Redmi Y3"
 						}
 					]
-				},
-				{
-					"series": "redmia",
-					"zh-cn": "Redmi A 系列",
-					"en-us": "Redmi A series",
-					"devices": [
-						{
-							"code": "ice",
-							"zh-cn": "Redmi A1/A1+",
-							"en-us": "Redmi A1/A1+"
-						},
-						{
-							"code": "water",
-							"zh-cn": "Redmi A2/A2+",
-							"en-us": "Redmi A2/A2+"
-						}
-					]
 				}
 			]
 		},
 		{
 			"brand": "POCO",
 			"zh-cn": "POCO 手机",
-			"en-us": "POCO series",
+			"en-us": "POCO Phones",
+      "color": "#FFD400",
 			"series": [
 				{
 					"series": "POCOC",
