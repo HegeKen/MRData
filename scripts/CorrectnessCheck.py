@@ -19,7 +19,7 @@ for device in common.currentStable:
 # from sys import platform
 # import common
 # for device in common.currentStable:
-#   devdata = json.loads(open('static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())['branches']
+#   devdata = json.loads(open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())['branches']
 #   for branch in devdata:
 #     if branch['zh-cn'] == '开发者预览版' or branch['zh-cn'] == '原生安卓':
 #       i = 0

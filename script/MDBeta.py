@@ -6,9 +6,9 @@ from sys import platform
 
 def getRom(codename):
   if platform == "win32":
-    devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+    devlist = open("public/MRdata/script/crawler.json", 'r', encoding='utf-8')
   else:
-    devlist = open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8')
+    devlist = open("/sdcard/Codes/NuxtMR/public/MRdata/script/crawler.json", 'r', encoding='utf-8')
   all_devices = json.loads(devlist.read())["MDbeta"]
   for all in all_devices:
     code = all["code"]
@@ -41,9 +41,9 @@ def getRom(codename):
         for v in vers:
           if v == ver:
             if platform == "win32":
-              fine = "static/data/data/devices/"+codename+".json"
+              fine = "public/MRdata/data/devices/"+codename+".json"
             else:
-              fine = "/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json"
+              fine = "/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+codename+".json"
             devicedata = open(fine, 'r', encoding='utf-8')
             devdata = json.loads(devicedata.read())
             if recovery in devdata.__str__():
@@ -51,9 +51,9 @@ def getRom(codename):
             else:
               print("尚未收录该本版,版本为："+v+"\t机型："+cname+"("+codename+")")
               if platform == "win32":
-                filename = "static/data/script/MDBeta.json"
+                filename = "public/MRdata/script/MDBeta.json"
               else:
-                filename = "/sdcard/Codes/NuxtMR/static/data/script/MDBeta.json"
+                filename = "/sdcard/Codes/NuxtMR/public/MRdata/script/MDBeta.json"
               file = open(filename, "a", encoding='utf-8')
               datas = {'code':device,'NameCn':cname,'NameEn':ename,'miui': ver, 'android': android, 'recovery':recovery,'fastboot':""}
               person_json = json.dumps(datas,ensure_ascii=False)

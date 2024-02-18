@@ -17,9 +17,9 @@ def FormRun(link):
     common.MiOTAForm2['v'] = 'MIUI-'+ link['miui']
     if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
         if platform == 'win32':
-          file = open('static/data/scripts/checkOTA.txt', 'a', encoding='utf-8')
+          file = open('public/MRdata/scripts/checkOTA.txt', 'a', encoding='utf-8')
         else:
-          file = open('/sdcard/Codes/NuxtMR/static/data/script/checkOTA.txt', 'a', encoding='utf-8')
+          file = open('/sdcard/Codes/NuxtMR/public/MRdata/script/checkOTA.txt', 'a', encoding='utf-8')
         if branch['branch'] == 'cnmp':
           i = 0
         else:
@@ -32,9 +32,9 @@ def FormRun(link):
 
 for device in common.currentStable:
   if platform == 'win32':
-    devdata = json.loads(open('static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+    devdata = json.loads(open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
   else:
-    devdata = json.loads(open('/sdcard/Codes/NuxtMR/static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+    devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
   for branch in devdata['branches']:
     if branch['btag'] == 'X':
       i = 0

@@ -7,9 +7,9 @@ devices = ["agate","aristotle","babylon","corot","cupid","dagu","daumier","ditin
 
 def localData(codename):
     if platform == 'win32':
-        devdata = json.loads(open('static/data/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
+        devdata = json.loads(open('public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
     else:
-        devdata = json.loads(open('/sdcard/Codes/NuxtMR/static/data/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
+        devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
     return devdata
 
 def checkOS():

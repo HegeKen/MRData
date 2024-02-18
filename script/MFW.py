@@ -30,25 +30,25 @@ for url in urls:
       else:
         flag = link.split('/')[3][-6:]
         if platform == "win32":
-          flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+          flags = json.loads(open("public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
         else:
-          flags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+          flags = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
         if flag in flags:
           recode = flags[flag]
         else:
           print(flag)
       if platform == "win32":
-        devdata = json.loads(open("static/data/data/devices/"+recode+".json", 'r', encoding='utf-8').read()).__str__()
+        devdata = json.loads(open("public/MRdata/data/devices/"+recode+".json", 'r', encoding='utf-8').read()).__str__()
       else:
-        devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+recode+".json", 'r', encoding='utf-8').read()).__str__()
+        devdata = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+recode+".json", 'r', encoding='utf-8').read()).__str__()
       if pack_name in devdata:
         i = 0
       else:
         print("发现未收录版本")
         if platform == "win32":
-          file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+          file = open("public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
         else:
-          file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+          file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
         file.write(pack_name+"\n")
         file.close()
     elif ".tgz" in link:
@@ -58,30 +58,30 @@ for url in urls:
         pack_name = link.split('/')[4]
         flag = link.split('/')[3][-6:]
         if platform == "win32":
-          flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+          flags = json.loads(open("public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
         else:
-          flags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+          flags = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
         if flag in flags:
           if platform == "win32":
-            devdata = json.loads(open("static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+            devdata = json.loads(open("public/MRdata/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
           else:
-            devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+            devdata = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+flags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
           if pack_name in devdata:
             i = 0
           else:
             print("发现未收录版本")
             if platform == "win32":
-              file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+              file = open("public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
             else:
-              file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+              file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
             file.write(pack_name+"\n")
             file.close()
         else:
           print("发现未收录机型以及版本")
           if platform == "win32":
-            file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+            file = open("public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
           else:
-            file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+            file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
           file.write(flag +"\t"+ pack_name+"\n")
           file.close()
     else:

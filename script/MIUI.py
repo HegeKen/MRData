@@ -15,7 +15,7 @@ for id in IDs:
     soup = BeautifulSoup(content,'lxml')
     lists = soup.find_all("a", attrs={"class" :"link_down"})
     if len(lists) > 1:
-      # IDFile = open("static/data/script/MIUIIDFile.txt", "a", encoding='utf-8')
+      # IDFile = open("public/MRdata/script/MIUIIDFile.txt", "a", encoding='utf-8')
       # IDFile.write("\""+id+"\",")
       # IDFile.close()
       devname = soup.find("h3").text
@@ -25,21 +25,21 @@ for id in IDs:
         if rom_url == '':
           i = 0
         else:
-          REflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
+          REflags = json.loads(open("public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
           recovery = rom_url.split('/')[4]
           checker = recovery.split('_')[1]
           if checker in REflags:
-            devdata = json.loads(open("static/data/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
+            devdata = json.loads(open("public/MRdata/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
             if recovery in devdata:
               i = 0
             else:
               print("发现一条新数据\tID:"+id)
-              file = open("static/data/script/MIUI.txt", "a", encoding='utf-8')
+              file = open("public/MRdata/script/MIUI.txt", "a", encoding='utf-8')
               file.write(recovery+"\n")
               file.close()
           else:
               print("发现一条新判断符\tID:"+id)
-              file = open("static/data/script/MIUIFlags.txt", "a", encoding='utf-8')
+              file = open("public/MRdata/script/MIUIFlags.txt", "a", encoding='utf-8')
               file.write(checker+"\n")
               file.close()
     else:

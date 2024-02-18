@@ -2055,38 +2055,38 @@ flags = {
 
 def localData(codename):
     if platform == 'win32':
-        devdata = json.loads(open('static/data/data/devices/' +
+        devdata = json.loads(open('public/MRdata/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read()).__str__()
     else:
-        devdata = json.loads(open('/sdcard/Codes/NuxtMR/static/data/data/devices/' +
+        devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read()).__str__()
     return devdata
 def LoadJson(codename):
     if platform == 'win32':
-        devdata = json.loads(open('static/data/data/devices/' +
+        devdata = json.loads(open('public/MRdata/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read())
     else:
-        devdata = json.loads(open('/sdcard/Codes/NuxtMR/static/data/data/devices/' +
+        devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read())
     return devdata
 
 def writeData(filename):
     print('发现未收录版本')
     if platform == 'win32':
-        file = open('static/data/scripts/NewROMs.txt', 'a', encoding='utf-8')
+        file = open('public/MRdata/scripts/NewROMs.txt', 'a', encoding='utf-8')
     else:
         file = open(
-            '/sdcard/Codes/NuxtMR/static/data/script/NewROMs.txt', 'a', encoding='utf-8')
+            '/sdcard/Codes/NuxtMR/public/MRdata/script/NewROMs.txt', 'a', encoding='utf-8')
     file.write(filename+'\n')
     file.close()
 
 
 def writeFlag(flag,device):
     if platform == 'win32':
-        file = open('static/data/scripts/Flags.json', 'a', encoding='utf-8')
+        file = open('public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
     else:
         file = open(
-            '/sdcard/Codes/NuxtMR/static/data/scripts/Flags.json', 'a', encoding='utf-8')
+            '/sdcard/Codes/NuxtMR/public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
     file.write(f"\'{flag}\':\'{device}\',\n")
     file.close()
 
@@ -2266,10 +2266,10 @@ def getFromApi(encrypted_data, device):
     data = 'q=' + encrypted_data + '&s=1&t='
     if platform == 'win32':
         devdata = json.loads(
-            open('static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+            open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     else:
         devdata = json.loads(open(
-            '/sdcard/Codes/NuxtMR/static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+            '/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
     print('\r'+'正在抓取'+devdata['zh-cn']+'(' +
           devdata['codename']+')                  ', end='')
@@ -2333,10 +2333,10 @@ def getChangelog(encrypted_data, device):
     data = 'q=' + encrypted_data + '&s=1&t='
     if platform == 'win32':
         devdata = json.loads(
-            open('static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+            open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     else:
         devdata = json.loads(open(
-            '/sdcard/Codes/NuxtMR/static/data/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+            '/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
     print('\r'+'正在抓取'+devdata['zh-cn']+'(' +
           devdata['codename']+')                  ', end='')

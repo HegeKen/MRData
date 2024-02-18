@@ -16,17 +16,17 @@ def getFb(soup):
     else:
       ver = fastboot.split('_')[2]
       if platform == "win32":
-        devicedata = open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8')
+        devicedata = open("public/MRdata/data/devices/"+codename+".json", 'r', encoding='utf-8')
       else:
-        devicedata = open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json", 'r', encoding='utf-8')
+        devicedata = open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+codename+".json", 'r', encoding='utf-8')
       devdata = json.loads(devicedata.read())
       if fastboot in devdata.__str__():
         i=0
       else:
         if platform == "win32":
-          file = open("static/data/script/QQDoc.txt", "a", encoding='utf-8')
+          file = open("public/MRdata/script/QQDoc.txt", "a", encoding='utf-8')
         else:
-          file = open("/sdcard/Codes/NuxtMR/static/data/script/QQDoc.txt", "a", encoding='utf-8')
+          file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/QQDoc.txt", "a", encoding='utf-8')
         file.write(fastboot+"\n")
         file.close()
         print("发现"+codename+"线刷包有新版本，版本号：->"+ver)
@@ -40,17 +40,17 @@ def getRec(soup):
     codename = recovery.split('_')[1].swapcase()
     ver = recovery.split('_')[2]
     if platform == "win32":
-      devicedata = open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8')
+      devicedata = open("public/MRdata/data/devices/"+codename+".json", 'r', encoding='utf-8')
     else:
-      devicedata = open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json", 'r', encoding='utf-8')
+      devicedata = open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+codename+".json", 'r', encoding='utf-8')
     devdata = json.loads(devicedata.read())
     if recovery in devdata.__str__():
       i=0
     else:
       if platform == "win32":
-        file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+        file = open("public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
       else:
-        file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+        file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
       file.write(recovery+"\n")
       file.close()
       print("发现"+codename+"卡刷包有新版本，版本号：->"+ver)

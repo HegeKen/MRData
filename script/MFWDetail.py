@@ -24,11 +24,11 @@ def getDetail(url):
           checker = packname.split('_')[1]
           flag = rom_url.split('/')[3][-6:]
           if platform == "win32":
-            FBflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
-            REflags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
+            FBflags = json.loads(open("public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+            REflags = json.loads(open("public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
           else:
-            FBflags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
-            REflags = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
+            FBflags = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["VersionFlags"]
+            REflags = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"]
           if "blockota" in packname:
             i = 0
           elif "DEV" in packname:
@@ -37,49 +37,49 @@ def getDetail(url):
             if ".zip" in rom_url:
               if checker in REflags:
                 if platform == "win32":
-                  devdata = json.loads(open("static/data/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
+                  devdata = json.loads(open("public/MRdata/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
                 else:
-                  devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
+                  devdata = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+REflags[checker]+".json", 'r', encoding='utf-8').read()).__str__()
                 if packname in devdata:
                   i = 0
                 else:
                   print("发现未收录版本")
                   if platform == "win32":
-                    file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                    file = open("public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
                   else:
-                    file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                    file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
                   file.write(packname+"\n")
                   file.close()
               else:
                 print("发现未收录机型以及版本")
                 if platform == "win32":
-                  file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                  file = open("public/MRdata/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 else:
-                  file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                  file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 file.write(checker +"\t"+ packname+"\n")
                 file.close()
             elif ".tgz" in rom_url:
               if flag in FBflags:
                 if platform == "win32":
-                  devdata = json.loads(open("static/data/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+                  devdata = json.loads(open("public/MRdata/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
                 else:
-                  devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
+                  devdata = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+FBflags[flag]+".json", 'r', encoding='utf-8').read()).__str__()
                 if packname in devdata:
                   i = 0
                 else:
                   print("发现未收录版本")
                   if platform == "win32":
-                    file = open("static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                    file = open("public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
                   else:
-                    file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt", "a", encoding='utf-8')
+                    file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMs.txt", "a", encoding='utf-8')
                   file.write(packname+"\n")
                   file.close()
               else:
                 print("发现未收录机型以及版本")
                 if platform == "win32":
-                  file = open("static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                  file = open("public/MRdata/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 else:
-                  file = open("/sdcard/Codes/NuxtMR/static/data/script/2023NewROMFlags.txt", "a", encoding='utf-8')
+                  file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMFlags.txt", "a", encoding='utf-8')
                 file.write(flag +"\t"+ packname+"\n")
                 file.close()
             else:
@@ -89,9 +89,9 @@ def getDetail(url):
   response.close()
 
 if platform == "win32":
-  links = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["MFWCurrent"]
+  links = json.loads(open("public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["MFWCurrent"]
 else:
-  links = json.loads(open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8').read())["MFWCurrent"]
+  links = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["MFWCurrent"]
 for link in links:
   url = "https://mifirmware.com/" + link + "/"
   getDetail(url)

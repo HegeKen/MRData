@@ -14,9 +14,9 @@ devices = ["garnet","zircon","gold","sapphiren","sapphire","aurora","manet","ver
 for device in devices:
   codename = device
   if platform == "win32":
-    devdata = json.loads(open("static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read())["branches"]
+    devdata = json.loads(open("public/MRdata/data/devices/"+codename+".json", 'r', encoding='utf-8').read())["branches"]
   else:
-    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+codename+".json", 'r', encoding='utf-8').read())["branches"]
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+codename+".json", 'r', encoding='utf-8').read())["branches"]
   for branch in devdata:
     for rom in branch["links"]:
       if rom["recovery"] == '':
@@ -25,17 +25,17 @@ for device in devices:
         flag = rom["recovery"].split('_')[1]
         print(flag)
         if platform == "win32":
-          fine = "static/data/script/Flags.json"
+          fine = "public/MRdata/script/Flags.json"
         else:
-          fine = "/sdcard/Codes/NuxtMR/static/data/script/Flags.json"
-        all_flags = json.loads(open("static/data/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"].__str__()
+          fine = "/sdcard/Codes/NuxtMR/public/MRdata/script/Flags.json"
+        all_flags = json.loads(open("public/MRdata/script/crawler.json", 'r', encoding='utf-8').read())["RecoveryFlags"].__str__()
         if flag in all_flags:
           i = 0
         else:
           if platform == "win32":
-            file = open("static/data/script/Flags.json", "a", encoding='utf-8')
+            file = open("public/MRdata/script/Flags.json", "a", encoding='utf-8')
           else:
-            file = open("/sdcard/Codes/NuxtMR/static/data/script/Flags.json", "a", encoding='utf-8')
+            file = open("/sdcard/Codes/NuxtMR/public/MRdata/script/Flags.json", "a", encoding='utf-8')
           file.write("\""+flag+"\":\""+codename+"\",\n")
           file.close()
 

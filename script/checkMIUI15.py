@@ -30,9 +30,9 @@ def getFastboot(url,devdata):
         else:
           print("发现一条新数据")
           if platform == "win32":
-            filename = "static/data/script/2023NewROMs.txt"
+            filename = "public/MRdata/script/2023NewROMs.txt"
           else:
-            filename = "/sdcard/Codes/NuxtMR/static/data/script/2023NewROMs.txt"
+            filename = "/sdcard/Codes/NuxtMR/public/MRdata/script/2023NewROMs.txt"
           file = open(filename, "a", encoding='utf-8')
           file.write(data["filename"]+"\n")
           file.close()
@@ -43,9 +43,9 @@ def getFastboot(url,devdata):
   response.close()
 for device in devices:
   if platform == "win32":
-    devdata = json.loads(open("static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+    devdata = json.loads(open("public/MRdata/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   else:
-    devdata = json.loads(open("/sdcard/Codes/NuxtMR/static/data/data/devices/"+device+".json", 'r', encoding='utf-8').read())
+    devdata = json.loads(open("/sdcard/Codes/NuxtMR/public/MRdata/data/devices/"+device+".json", 'r', encoding='utf-8').read())
   for carrier in carriers:
     url = base_url+device+"_pre_miui15&b=X&r="+carrier+"&n="
     getFastboot(url,devdata)

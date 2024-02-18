@@ -24,7 +24,7 @@ for region in regions:
     did = json.loads(content)
     device_name = did["data"]["device_data"]["phone_name"]
     if (device_name != ""):
-        filename = "static/data/script/2023NewIDs.txt.txt"
+        filename = "public/MRdata/script/2023NewIDs.txt.txt"
         file = open(filename, "a", encoding='utf-8')
         file.write("机型ID:"+str(id)+"\t机型名称:"+device_name+"\n")
         file.close()

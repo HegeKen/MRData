@@ -9,9 +9,9 @@ ahome = "/phone/getdevicelist?phone_id="
 regions = ["global", "rs", "bd", "id", "my", "pk", "ph", "tr", "vn", "th", "de", "es", "fr", "it", "pl", "uk", "ru", "ua", "mie", "br", "co", "mx", "pe", "cl", "ng", "eg"]
 domains = ["https://sgp-api.buy.mi.com/bbs/api/","https://ams-api.buy.mi.com/bbs/api/"]
 if platform == "win32":
-  devlist = open("static/data/script/crawler.json", 'r', encoding='utf-8')
+  devlist = open("public/MRdata/script/crawler.json", 'r', encoding='utf-8')
 else:
-  devlist = open("/sdcard/Codes/NuxtMR/static/data/script/crawler.json", 'r', encoding='utf-8')
+  devlist = open("/sdcard/Codes/NuxtMR/public/MRdata/script/crawler.json", 'r', encoding='utf-8')
 AllIds = json.loads(devlist.read())["Full"]
 for region in regions:
   for domain in domains:
