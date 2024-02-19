@@ -115,6 +115,8 @@ flags = {
     "DUCHAMPRUGlobal": "duchamp",
     "duchamp_ru_global": "duchamp",
     "DUCHAMPINGlobal": "duchamp",
+    "garnet_ru_global": "garnet",
+    "GARNETRUGlobal": "garnet",
     "AURORA": "aurora",
     "ruyi": "ruyi",
     "RUYI": "ruyi",
