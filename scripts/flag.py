@@ -2,7 +2,11 @@ import common
 import json
 from sys import platform
 
-devices = ["agate","aristotle","babylon","corot","cupid","dagu","daumier","diting","duchamp","earth","fire","fuxi","garnet","gold","houji","ingres","ishtar","light","lightcm","liuqin","manet","marble","matisse","mayfly","mondrian","moonstone","nuwa","pipa","plato","psyche","redwood","rock","rubens","ruby","sea","shennong","sky","socrates","sunstone","sweet_k6a","taoyao","tapas","thor","topaz","unicorn","vermeer","xun","yudi","yuechu","yunluo","zeus","zircon","zizhan"]
+devices = ["lisa", "pissarro", "ruyi", "aurora", "sheng", "agate", "aristotle", "aurora", "babylon", "corot", "cupid", "dagu", "daumier",
+				 "diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm",
+				 "liuqin", "manet", "marble", "matisse", "mayfly", "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche",
+				 "redwood", "rock", "rubens", "ruby", "ruyi", "sea", "sheng", "shennong", "sky", "socrates", "sunstone", "sweet_k6a",
+				 "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
 
 
 def localData(codename):
