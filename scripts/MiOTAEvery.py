@@ -54,4 +54,4 @@ for device in common.currentStable:
       common.MiOTAForm2['options']['zone'] = '3'
       for link in branch['links']:
         FormRun(link)
-  print('\r'+devdata['zh-cn']+'已完成                            ',end='')
+  print('\r'+devdata['zh-cn']+'已完成                                                ',end='')

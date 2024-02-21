@@ -92,4 +92,4 @@ for device in common.currentStable:
         else:
           i = 0
         latest = link['android']
-  print('\r'+devdata['zh-cn']+'已完成                            ',end='')
+  print('\r'+devdata['zh-cn']+'已完成                                           ',end='')

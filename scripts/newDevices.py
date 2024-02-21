@@ -48,4 +48,4 @@ for device in common.test:
         else:
           i = 0
         latest = link['android']
-  print(devdata['zh-cn']+'已完成')
+  print('\r'+devdata['zh-cn']+'已完成                                                 ',end='')
