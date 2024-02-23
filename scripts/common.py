@@ -37,6 +37,19 @@ currentStable = ['grayman','maverick','moderntimes','mulan','mulan_a','hyper_mav
                  'rosemary_p', 'surya', 'vayu', 'moonstone']
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
+
+cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm', 
+              'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor', 
+              'thyme', 'unicorn', 'yudi', 'yuechu', 'zijin', 'zizhan']
+gb_devices = ['agate', 'aristotle', 'biloba', 'courbet', 'curtana_in_rf', 'curtana', 'evergreen', 'fire', 'fleur', 'fog', 
+              'frost', 'ice', 'lilac', 'mojito', 'monet', 'moonstone', 'opal', 'pissarroin', 'plato', 'rock', 'rosemary_p', 
+              'rosemary', 'sapphire', 'sapphiren', 'sea', 'spes', 'spesn', 'sweet_k6a', 'sweet', 'taoyao', 'tapas', 'tiare', 
+              'topaz', 'vida', 'vili', 'viva', 'water',]
+both_regions = ['alioth', 'ares', 'camellia', 'camellian', 'chopin', 'cmi', 'corot', 'cupid', 'dandelion_c3l2', 'dandelion', 
+                'diting', 'earth', 'fuxi', 'garnet', 'gauguin', 'gold', 'haydn', 'ingres', 'ishtar', 'light', 'lime', 
+                'lisa', 'marble', 'mondrian', 'munch', 'nabu', 'nuwa', 'pipa', 'pissarro', 'psyche', 'renoir', 'ruby', 
+                'selene', 'sky', 'star', 'sunstone', 'umi', 'venus', 'xaga', 'xun', 'yunluo', 'zeus', 'zircon', 'ziyi']
+
 fullDevices = ['agate', 'alioth', 'andromeda', 'angelica', 'angelicain', 'angelican', 'apollo', 'aqua', 'ares', 'aries', 'aristotle', 'armani',
                'atom', 'babylon', 'begonia', 'beryllium', 'biloba', 'bomb', 'cactus', 'camellia', 'camellian', 'cancro_lte_ct', 'cancro',
                'cannon', 'cappu', 'capricorn', 'cas', 'cattail', 'cepheus', 'cereus', 'cetus', 'cezanne', 'chiron', 'chopin', 'citrus',
@@ -115,6 +128,8 @@ flags = {
     "DUCHAMPRUGlobal": "duchamp",
     "duchamp_ru_global": "duchamp",
     "DUCHAMPINGlobal": "duchamp",
+    "emerald_tr_global": "emerald",
+    "EMERALDTRGlobal": "emerald",
     "garnet_ru_global": "garnet",
     "GARNETRUGlobal": "garnet",
     "AURORA": "aurora",
