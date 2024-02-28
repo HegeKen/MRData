@@ -22,7 +22,7 @@ sdk = {
     '8': '26'
 }
 
-currentStable = ['grayman','maverick','moderntimes','mulan','mulan_a','hyper_maverick','blueplanet',
+currentStable = ['grayman', 'maverick', 'moderntimes', 'mulan', 'mulan_a', 'hyper_maverick', 'blueplanet',
                  'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
@@ -38,16 +38,16 @@ currentStable = ['grayman','maverick','moderntimes','mulan','mulan_a','hyper_mav
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 
-cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm', 
-              'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor', 
+cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
+              'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor',
               'thyme', 'unicorn', 'yudi', 'yuechu', 'zijin', 'zizhan']
-gb_devices = ['agate', 'aristotle', 'biloba', 'courbet', 'curtana_in_rf', 'curtana', 'evergreen', 'fire', 'fleur', 'fog', 
-              'frost', 'ice', 'lilac', 'mojito', 'monet', 'moonstone', 'opal', 'pissarroin', 'plato', 'rock', 'rosemary_p', 
-              'rosemary', 'sapphire', 'sapphiren', 'sea', 'spes', 'spesn', 'sweet_k6a', 'sweet', 'taoyao', 'tapas', 'tiare', 
+gb_devices = ['agate', 'aristotle', 'biloba', 'courbet', 'curtana_in_rf', 'curtana', 'evergreen', 'fire', 'fleur', 'fog',
+              'frost', 'ice', 'lilac', 'mojito', 'monet', 'moonstone', 'opal', 'pissarroin', 'plato', 'rock', 'rosemary_p',
+              'rosemary', 'sapphire', 'sapphiren', 'sea', 'spes', 'spesn', 'sweet_k6a', 'sweet', 'taoyao', 'tapas', 'tiare',
               'topaz', 'vida', 'vili', 'viva', 'water',]
-both_regions = ['alioth', 'ares', 'camellia', 'camellian', 'chopin', 'cmi', 'corot', 'cupid', 'dandelion_c3l2', 'dandelion', 
-                'diting', 'earth', 'fuxi', 'garnet', 'gauguin', 'gold', 'haydn', 'ingres', 'ishtar', 'light', 'lime', 
-                'lisa', 'marble', 'mondrian', 'munch', 'nabu', 'nuwa', 'pipa', 'pissarro', 'psyche', 'renoir', 'ruby', 
+both_regions = ['alioth', 'ares', 'camellia', 'camellian', 'chopin', 'cmi', 'corot', 'cupid', 'dandelion_c3l2', 'dandelion',
+                'diting', 'earth', 'fuxi', 'garnet', 'gauguin', 'gold', 'haydn', 'ingres', 'ishtar', 'light', 'lime',
+                'lisa', 'marble', 'mondrian', 'munch', 'nabu', 'nuwa', 'pipa', 'pissarro', 'psyche', 'renoir', 'ruby',
                 'selene', 'sky', 'star', 'sunstone', 'umi', 'venus', 'xaga', 'xun', 'yunluo', 'zeus', 'zircon', 'ziyi']
 
 fullDevices = ['agate', 'alioth', 'andromeda', 'angelica', 'angelicain', 'angelican', 'apollo', 'aqua', 'ares', 'aries', 'aristotle', 'armani',
@@ -154,6 +154,12 @@ flags = {
     'SAPPHIRENGlobal': 'sapphiren',
     'sapphiren_tw_global': 'sapphiren',
     'SAPPHIRENTWGlobal': 'sapphiren',
+    "aurora_demo": "aurora",
+    "shennong_t": "shennong_t",
+    "SHENNONGT": "shennong_t",
+    "AURORADEMO": "aurora",
+    "houji_eea_global": "houji",
+    "HOUJIEEAGlobal": "houji",
     "corot_jp_global": "corot",
     "COROTJPGlobal": "corot",
     "yuechu_demo": "yuechu",
@@ -2083,6 +2089,8 @@ def localData(codename):
         devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read()).__str__()
     return devdata
+
+
 def LoadJson(codename):
     if platform == 'win32':
         devdata = json.loads(open('public/MRdata/data/devices/' +
@@ -2091,6 +2099,7 @@ def LoadJson(codename):
         devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read())
     return devdata
+
 
 def writeData(filename):
     print('发现未收录版本')
@@ -2103,7 +2112,7 @@ def writeData(filename):
     file.close()
 
 
-def writeFlag(flag,device):
+def writeFlag(flag, device):
     if platform == 'win32':
         file = open('public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
     else:
@@ -2121,7 +2130,7 @@ def getDeviceCode(filename):
             return codename
         else:
             print(flag)
-            writeFlag(flag,"")
+            writeFlag(flag, "")
             return 0
     elif '.tgz' in filename:
         flag = filename.split('_images')[0]
@@ -2130,7 +2139,7 @@ def getDeviceCode(filename):
             codename = flags[flag]
             return codename
         else:
-            writeFlag(flag,"")
+            writeFlag(flag, "")
             return 0
     elif '.exe' in filename:
         flag = filename.split('_')[1]
@@ -2139,7 +2148,7 @@ def getDeviceCode(filename):
             codename = flags[flag]
             return codename
         else:
-            writeFlag(flag,"")
+            writeFlag(flag, "")
             return 0
     else:
         return 0
