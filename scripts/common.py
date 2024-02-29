@@ -22,7 +22,7 @@ sdk = {
     '8': '26'
 }
 
-currentStable = ['ice','water','grayman', 'maverick', 'moderntimes', 'mulan', 'mulan_a', 'hyper_maverick', 'blueplanet',
+currentStable = ['sunstone','water','grayman', 'maverick', 'moderntimes', 'mulan', 'mulan_a', 'hyper_maverick', 'blueplanet',
                  'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
@@ -146,6 +146,18 @@ flags = {
     'emerald_eea_global': 'emerald',
     'EMERALDEEAGlobal': 'emerald',
     'emerald_ru_global': 'emerald',
+    "houji_global" : "houji",
+    "HOUJIGlobal" : "houji",
+    "houji_in_global" : "houji",
+    "HOUJIINGlobal" : "houji",
+    "houji_id_global" : "houji",
+    "HOUJIIDGlobal" : "houji",
+    "houji_tw_global" : "houji",
+    "HOUJITWGlobal" : "houji",
+    "houji_tr_global" : "houji",
+    "HOUJITRGlobal" : "houji",
+    "sheng_demo" : "sheng",
+    "SHENGDEMO" : "sheng",
     'sapphiren_eea_global': 'sapphiren',
     'SAPPHIRENEEAGlobal': 'sapphiren',
     'sapphiren_ru_global': 'sapphiren',
