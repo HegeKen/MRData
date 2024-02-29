@@ -1,33 +1,31 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.edge.options import Options
-from bs4 import BeautifulSoup
-import json
-from sys import platform
 import common
+from selenium.webdriver.common.by import By
+import os
 
 
-urls = ['https://mifirmware.com/xiaomi-software-update/','https://mifirmware.com/xiaomi-miui-14/','https://mifirmware.com/xiaomi-firmware/','https://mifirmware.com/xiaomi-software-update/','https://mifirmware.com/stable-beta/']
-newurls = []
+urls = []
+links = ['https://mifirmware.com/xiaomi-software-update/','https://mifirmware.com/xiaomi-miui-14/','https://mifirmware.com/xiaomi-firmware/','https://mifirmware.com/xiaomi-software-update/','https://mifirmware.com/stable-beta/']
 
-options = Options()
-# options.binary_location = r'C:\Users\Hege\AppData\Local\Microsoft\Edge SxS\Application\118.0.2047.0\msedge.exe'
+options = webdriver.EdgeOptions()
+options.add_argument("--start-maximized")
 driver = webdriver.Edge(options=options)
-for url in urls:
-  driver.get(url)
-  soup = BeautifulSoup(driver.page_source, 'lxml')
-  a_tags = soup.find_all("a")
-  download_links = [a for a in a_tags if a.text == "Download"]
-  for link in download_links:
-    if "#" in link["href"]:
+for link in links:
+  driver.get(link)
+  elements = driver.find_elements(By.TAG_NAME,"a")
+  for element in elements:
+    link = element.get_attribute("href")
+    if link is None:
       i = 0
-    elif "firmware" in link["href"]:
-      if link["href"] in newurls:
-        i = 0
-      else:
-        newurls.append(link["href"])
+    elif "-firmware" in link:
+      urls.append(link)
+    elif ".zip" in link or ".tgz" in link:
+      common.checkExist(link.split('/')[4])
     else:
-      filename = link["href"].split('/')[4]
-      common.checkExist(filename)
-for url in newurls:
-  common.MiFirm(url)
+      i = 0
+driver.quit()
+
+os.system('cls')
+for url in urls:
+  print('\r'+url + '              ',end='')
+  common.MiFirm2(url)
