@@ -22,7 +22,7 @@ sdk = {
     '8': '26'
 }
 
-currentStable = ['sunstone','water','grayman', 'maverick', 'moderntimes', 'mulan', 'mulan_a', 'hyper_maverick', 'blueplanet',
+currentStable = ['grayman', 'maverick', 'moderntimes', 'mulan', 'mulan_a', 'hyper_maverick', 'blueplanet',
                  'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
