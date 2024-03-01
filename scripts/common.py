@@ -22,7 +22,7 @@ sdk = {
     '8': '26'
 }
 
-currentStable = ['grayman', 'maverick', 'moderntimes', 'mulan', 'mulan_a', 'hyper_maverick', 'blueplanet',
+currentStable = [
                  'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
@@ -132,6 +132,12 @@ flags = {
     "EMERALDTRGlobal": "emerald",
     "garnet_ru_global": "garnet",
     "GARNETRUGlobal": "garnet",
+	"blue_ru_global": "blue",
+	"BLUERUGlobal": "blue",
+	"blue_global": "blue",
+	"BLUEGlobal": "blue",
+	"blue_id_global": "blue",
+	"BLUEIDGlobal": "blue",
     "AURORA": "aurora",
     "ruyi": "ruyi",
     "RUYI": "ruyi",
@@ -2193,6 +2199,8 @@ def checkExist(filename):
             writeData(filename)
         else:
             if 'OS1.' in filename:
+                checkOSExist(filename)
+            elif 'V816' in filename:
                 checkOSExist(filename)
             elif filename in localData(getDeviceCode(filename)):
                 i = 0
