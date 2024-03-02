@@ -1,0 +1,81 @@
+{
+	"codename": "blue",
+	"zh-cn": "Redmi A3",
+	"en-us": "Redmi A3",
+	"attentions": [
+		{
+			"zh-cn": "",
+			"en-us": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "1",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"branches": [
+		{
+			"code": "blue_global",
+			"btag": "F",
+			"region": "",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "国际稳定版",
+			"en-us": "Global Stable",
+			"links": [
+        {
+          "miui": "V816.0.3.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_global_images_V816.0.3.0.UGRMIXM_20240202.0000.00_14.0_b43157e2f9.tgz"
+        }
+			]
+		},
+		{
+			"code": "blue_ru_global",
+			"btag": "F",
+			"region": "",
+			"carrier": [],
+			"branch": "russ",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "俄罗斯稳定版",
+			"en-us": "Russia Stable",
+			"links": [
+				{
+					"miui": "V816.0.6.0.UGRRUXM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": "blue_ru_global_images_V816.0.6.0.UGRRUXM_20240222.0000.00_14.0_158e2e33be.tgz"
+				}
+			]
+		},
+		{
+			"code": "blue_id_global",
+			"btag": "F",
+			"region": "",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "印度尼西亚稳定版",
+			"en-us": "Indonesia Stable",
+			"links": [
+				{
+					"miui": "",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": "blue_id_global_images_V816.0.3.0.UGRIDXM_20240204.0000.00_14.0_ff9671c256.tgz"
+				}
+			]
+		}
+	]
+}

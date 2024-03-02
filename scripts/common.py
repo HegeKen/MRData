@@ -22,7 +22,7 @@ sdk = {
     '8': '26'
 }
 
-currentStable = [
+currentStable = ["blue",
                  'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
@@ -122,6 +122,12 @@ flags = {
     "SAPPHIRENTRGlobal": "sapphiren",
     "vermeer_ep_stdee": "vermeer",
     "VERMEEREPSTDEE": "vermeer",
+    "blue_ru_global": "blue",
+	"BLUERUGlobal": "blue",
+	"blue_global": "blue",
+	"BLUEGlobal": "blue",
+	"blue_id_global": "blue",
+	"BLUEIDGlobal": "blue",
     "DUCHAMPGlobal": "duchamp",
     "DUCHAMPEEAGlobal": "duchamp",
     "duchamp_eea_global": "duchamp",
@@ -2290,7 +2296,7 @@ MiOTAForm = {
     'n': '',
     'p': 'fuxi',
     'r': 'CN',
-    'bv': '12',
+    'bv': '14',
     'v': 'MIUI-V14.0.23.9.12.DEV',
     'id': '',
     'sn': '0x77309938',

@@ -37,13 +37,13 @@ for device in UI:
         if rom['recovery'] =='':
           k = 0
         else:
-          url = 'https://cdnorg.d.miui.com/'+rom['miui']+'/'+rom['recovery']
+          url = 'https://cdn-ota.azureedge.net/'+rom['miui']+'/'+rom['recovery']
           ui_sizes.append(get_file_size(url))
           print("\r"+str(sum(ui_sizes))+" GB                               ",end="")
         if rom['fastboot'] =='':
           k = 0
         else:
-          url = 'https://cdnorg.d.miui.com/'+rom['miui']+'/'+rom['fastboot']
+          url = 'https://cdn-ota.azureedge.net/'+rom['miui']+'/'+rom['fastboot']
           ui_sizes.append(get_file_size(url))
           print("\r"+str(sum(ui_sizes))+" GB                               ",end="")
 
@@ -59,14 +59,14 @@ for device in OS:
           if current['recovery'] =='':
             k = 0
           else:
-            url = 'https://cdnorg.d.miui.com/'+current['os']+'/'+current['recovery']
+            url = 'https://cdn-ota.azureedge.net/'+current['os']+'/'+current['recovery']
             os_sizes.append(get_file_size(url))
             print("\r"+str(sum(os_sizes)+" GB                               "),end="")
 
           if current['fastboot'] =='':
             k = 0
           else:
-            url = 'https://cdnorg.d.miui.com/'+current['os']+'/'+current['fastboot']
+            url = 'https://cdn-ota.azureedge.net/'+current['os']+'/'+current['fastboot']
             os_sizes.append(get_file_size(url))
             print("\r"+str(sum(os_sizes)+" GB                               "),end="")
 print("HyperOS 总计大小为:"+str(round(sum(os_sizes)/1024,3))+" TB")
