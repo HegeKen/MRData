@@ -126,6 +126,8 @@ flags = {
 	"BLUERUGlobal": "blue",
 	"blue_global": "blue",
 	"BLUEGlobal": "blue",
+    "blue_in_global": "blue",
+    "BLUEINGlobal": "blue",
 	"blue_id_global": "blue",
 	"BLUEIDGlobal": "blue",
     "DUCHAMPGlobal": "duchamp",
