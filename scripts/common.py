@@ -2155,32 +2155,35 @@ def writeFlag(flag, device):
 
 def getDeviceCode(filename):
     if '.zip' in filename:
-        flag = filename.split('_')[1]
-        if flag in flags:
-            codename = flags[flag]
-            return codename
-        else:
-            print(flag)
-            writeFlag(flag, "")
-            return 0
+        if filename.split('_')[1]:
+            flag = filename.split('_')[1]
+            if flag in flags:
+                codename = flags[flag]
+                return codename
+            else:
+                print(flag)
+                writeFlag(flag, "")
+                return 0
     elif '.tgz' in filename:
-        flag = filename.split('_images')[0]
-        codename = flags[flag]
-        if flag in flags:
+        if filename.split('_images')[0]:
+            flag = filename.split('_images')[0]
             codename = flags[flag]
-            return codename
-        else:
-            writeFlag(flag, "")
-            return 0
+            if flag in flags:
+                codename = flags[flag]
+                return codename
+            else:
+                writeFlag(flag, "")
+                return 0
     elif '.exe' in filename:
-        flag = filename.split('_')[1]
-        codename = flags[flag]
-        if flag in flags:
+        if filename.split('_')[1]:
+            flag = filename.split('_')[1]
             codename = flags[flag]
-            return codename
-        else:
-            writeFlag(flag, "")
-            return 0
+            if flag in flags:
+                codename = flags[flag]
+                return codename
+            else:
+                writeFlag(flag, "")
+                return 0
     else:
         return 0
 
@@ -2205,7 +2208,7 @@ def getFastboot(url):
 
 
 def checkExist(filename):
-    if 'blockota' in filename:
+    if 'blockota' in filename or 'miui-ota' in filename :
         i = 0
     else:
         if getDeviceCode(filename) == 0:
