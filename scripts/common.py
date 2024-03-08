@@ -2154,36 +2154,39 @@ def writeFlag(flag, device):
 
 
 def getDeviceCode(filename):
-    if '.zip' in filename:
-        if filename.split('_')[1]:
-            flag = filename.split('_')[1]
-            if flag in flags:
+    if "_" in filename:
+        if '.zip' in filename:
+            if filename.split('_')[1]:
+                flag = filename.split('_')[1]
+                if flag in flags:
+                    codename = flags[flag]
+                    return codename
+                else:
+                    print(flag)
+                    writeFlag(flag, "")
+                    return 0
+        elif '.tgz' in filename:
+            if filename.split('_images')[0]:
+                flag = filename.split('_images')[0]
                 codename = flags[flag]
-                return codename
-            else:
-                print(flag)
-                writeFlag(flag, "")
-                return 0
-    elif '.tgz' in filename:
-        if filename.split('_images')[0]:
-            flag = filename.split('_images')[0]
-            codename = flags[flag]
-            if flag in flags:
+                if flag in flags:
+                    codename = flags[flag]
+                    return codename
+                else:
+                    writeFlag(flag, "")
+                    return 0
+        elif '.exe' in filename:
+            if filename.split('_')[1]:
+                flag = filename.split('_')[1]
                 codename = flags[flag]
-                return codename
-            else:
-                writeFlag(flag, "")
-                return 0
-    elif '.exe' in filename:
-        if filename.split('_')[1]:
-            flag = filename.split('_')[1]
-            codename = flags[flag]
-            if flag in flags:
-                codename = flags[flag]
-                return codename
-            else:
-                writeFlag(flag, "")
-                return 0
+                if flag in flags:
+                    codename = flags[flag]
+                    return codename
+                else:
+                    writeFlag(flag, "")
+                    return 0
+        else:
+            return 0
     else:
         return 0
 
