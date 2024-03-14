@@ -70,6 +70,32 @@
 			]
 		},
 		{
+			"code": "air_ep_stdee",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "1",
+			"ep": "1",
+			"zh-cn": "中国大陆政企标准版",
+			"en-us": "China Mainland Enterprise Standard",
+			"links": [
+				{
+					"miui": "V14.0.24.1.30.EP.STDEE.C3V",
+					"android": "13.0",
+					"recovery": "miui_AIREPSTDEE_V14.0.24.1.30.EP.STDEE.C3V_fb8559c1ad_13.0.zip",
+					"fastboot": "air_ep_stdee_images_V14.0.24.1.30.EP.STDEE.C3V_20240130.0000.00_13.0_cn_b28e64ed87.tgz"
+				},
+				{
+					"miui": "V14.0.24.1.30.EP.STDEE.C3V",
+					"android": "13.0",
+					"recovery": "miui_AIREPSTDEE_V14.0.24.1.30.EP.STDEE.C3V_fb8559c1ad_13.0.zip",
+					"fastboot": "air_ep_stdee_images_V14.0.24.1.30.EP.STDEE.C3V_20240130.0000.00_13.0_cn_chinatelecom_3d605b0719.tgz"
+				}
+			]
+		},
+		{
 			"code": "air_in_global",
 			"btag": "F",
 			"region": "in",
@@ -81,12 +107,12 @@
 			"zh-cn": "印度稳定版",
 			"en-us": "India Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TGQINXM",
-          "android": "13.0",
-          "recovery": "miui_AIRINGlobal_V14.0.5.0.TGQINXM_5cb562f32b_13.0.zip",
-          "fastboot": "air_in_global_images_V14.0.5.0.TGQINXM_20240105.0000.00_13.0_in_1412e02c0a.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TGQINXM",
+					"android": "13.0",
+					"recovery": "miui_AIRINGlobal_V14.0.5.0.TGQINXM_5cb562f32b_13.0.zip",
+					"fastboot": "air_in_global_images_V14.0.5.0.TGQINXM_20240105.0000.00_13.0_in_1412e02c0a.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TGQINXM",
 					"android": "13.0",

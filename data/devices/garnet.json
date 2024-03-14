@@ -33,14 +33,14 @@
 					"miui": "V14.0.18.0.TNRCNXM",
 					"android": "13.0",
 					"recovery": "miui_GARNET_V14.0.18.0.TNRCNXM_cab020b96f_13.0.zip",
-					"fastboot": ""
+					"fastboot": "garnet_images_V14.0.18.0.TNRCNXM_20240228.0000.00_13.0_cn_64dc700e1c.tgz"
 				},
-        {
-          "miui": "V14.0.17.0.TNRCNXM",
-          "android": "13.0",
-          "recovery": "miui_GARNET_V14.0.17.0.TNRCNXM_f09d30e63e_13.0.zip",
-          "fastboot": "garnet_images_V14.0.17.0.TNRCNXM_20240116.0000.00_13.0_cn_f4c0b2a0dc.tgz"
-        },
+				{
+					"miui": "V14.0.17.0.TNRCNXM",
+					"android": "13.0",
+					"recovery": "miui_GARNET_V14.0.17.0.TNRCNXM_f09d30e63e_13.0.zip",
+					"fastboot": "garnet_images_V14.0.17.0.TNRCNXM_20240116.0000.00_13.0_cn_f4c0b2a0dc.tgz"
+				},
 				{
 					"miui": "V14.0.15.0.TNRCNXM",
 					"android": "13.0",
@@ -109,13 +109,19 @@
 			"zh-cn": "中国电信定制版",
 			"en-us": "China Telecom Carrier Edition",
 			"links": [
-        {
-          "miui": "V14.0.17.0.TNRCNXM",
-          "android": "13.0",
-          "recovery": "miui_GARNET_V14.0.17.0.TNRCNXM_f09d30e63e_13.0.zip",
-          "fastboot": "garnet_images_V14.0.17.0.TNRCNXM_20240116.0000.00_13.0_cn_chinatelecom_a509475f25.tgz"
-        },
-        {
+				{
+					"miui": "V14.0.18.0.TNRCNXM",
+					"android": "13.0",
+					"recovery": "miui_GARNET_V14.0.18.0.TNRCNXM_cab020b96f_13.0.zip",
+					"fastboot": "garnet_images_V14.0.18.0.TNRCNXM_20240228.0000.00_13.0_cn_chinatelecom_cef1c1f1dc.tgz"
+				},
+				{
+					"miui": "V14.0.17.0.TNRCNXM",
+					"android": "13.0",
+					"recovery": "miui_GARNET_V14.0.17.0.TNRCNXM_f09d30e63e_13.0.zip",
+					"fastboot": "garnet_images_V14.0.17.0.TNRCNXM_20240116.0000.00_13.0_cn_chinatelecom_a509475f25.tgz"
+				},
+				{
 					"miui": "V14.0.15.0.TNRCNXM",
 					"android": "13.0",
 					"recovery": "miui_GARNET_V14.0.15.0.TNRCNXM_dd713b1601_13.0.zip",
@@ -259,90 +265,90 @@
 				}
 			]
 		},
-    {
-      "code":"garnet_tw_global",
-      "btag":"F",
-      "region":"tw",
-      "carrier":[],
-      "branch": "cntw",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "zh-cn": "中国台湾地区正式版",
-      "en-us": "China Taiwan Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TNRTWXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETTWGlobal_V14.0.2.0.TNRTWXM_7862e08281_13.0.zip",
-          "fastboot": "garnet_tw_global_images_V14.0.2.0.TNRTWXM_20240116.0000.00_13.0_tw_1ce6b2cbd9.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TNRTWXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETTWGlobal_V14.0.1.0.TNRTWXM_ec34fb6292_13.0.zip",
-          "fastboot": "garnet_tw_global_images_V14.0.1.0.TNRTWXM_20231123.0000.00_13.0_tw_0efd851d22.tgz"
-        }
-      ]
-    },
-    {
-      "code":"garnet_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
-      "branch": "mgbs",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "zh-cn": "国际正式版",
-      "en-us": "Global Stable",
-      "links": [
-        {
-          "miui": "V14.0.6.0.TNRMIXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETGlobal_V14.0.6.0.TNRMIXM_8197c5c865_13.0.zip",
-          "fastboot": "garnet_global_images_V14.0.6.0.TNRMIXM_20231228.0000.00_13.0_global_075babf566.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TNRMIXM",
-          "android": "13.0",
-          "recovery": "",
-          "fastboot": "garnet_global_images_V14.0.4.0.TNRMIXM_20231123.0000.00_13.0_global_bd496fccd8.tgz"
-        }
-      ]
-    },
-    {
-      "code":"garnet_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
-      "branch": "eeas",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "zh-cn": "欧洲EEA正式版",
-      "en-us": "Europe EEA Stable",
-      "links": [
+		{
+			"code": "garnet_tw_global",
+			"btag": "F",
+			"region": "tw",
+			"carrier": [],
+			"branch": "cntw",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "中国台湾地区正式版",
+			"en-us": "China Taiwan Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TNRTWXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETTWGlobal_V14.0.2.0.TNRTWXM_7862e08281_13.0.zip",
+					"fastboot": "garnet_tw_global_images_V14.0.2.0.TNRTWXM_20240116.0000.00_13.0_tw_1ce6b2cbd9.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TNRTWXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETTWGlobal_V14.0.1.0.TNRTWXM_ec34fb6292_13.0.zip",
+					"fastboot": "garnet_tw_global_images_V14.0.1.0.TNRTWXM_20231123.0000.00_13.0_tw_0efd851d22.tgz"
+				}
+			]
+		},
+		{
+			"code": "garnet_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "国际正式版",
+			"en-us": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TNRMIXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETGlobal_V14.0.6.0.TNRMIXM_8197c5c865_13.0.zip",
+					"fastboot": "garnet_global_images_V14.0.6.0.TNRMIXM_20231228.0000.00_13.0_global_075babf566.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TNRMIXM",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "garnet_global_images_V14.0.4.0.TNRMIXM_20231123.0000.00_13.0_global_bd496fccd8.tgz"
+				}
+			]
+		},
+		{
+			"code": "garnet_eea_global",
+			"btag": "F",
+			"region": "eea",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "欧洲EEA正式版",
+			"en-us": "Europe EEA Stable",
+			"links": [
 				{
 					"miui": "V14.0.8.0.TNREUXM",
 					"android": "13.0",
 					"recovery": "miui_GARNETEEAGlobal_V14.0.8.0.TNREUXM_b654206e98_13.0.zip",
 					"fastboot": ""
 				},
-        {
-          "miui": "V14.0.6.0.TNREUXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETEEAGlobal_V14.0.6.0.TNREUXM_bd81c8580d_13.0.zip",
-          "fastboot": "garnet_eea_global_images_V14.0.6.0.TNREUXM_20240104.0000.00_13.0_eea_68d970d6c9.tgz"
-        },
-        {
-          "miui": "V14.0.4.0.TNREUXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETEEAGlobal_V14.0.4.0.TNREUXM_3c7ce45625_13.0.zip",
-          "fastboot": "garnet_eea_global_images_V14.0.4.0.TNREUXM_20231205.0000.00_13.0_eea_03e7eb6a49.tgz"
-        }
-      ]
-    },
+				{
+					"miui": "V14.0.6.0.TNREUXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETEEAGlobal_V14.0.6.0.TNREUXM_bd81c8580d_13.0.zip",
+					"fastboot": "garnet_eea_global_images_V14.0.6.0.TNREUXM_20240104.0000.00_13.0_eea_68d970d6c9.tgz"
+				},
+				{
+					"miui": "V14.0.4.0.TNREUXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETEEAGlobal_V14.0.4.0.TNREUXM_3c7ce45625_13.0.zip",
+					"fastboot": "garnet_eea_global_images_V14.0.4.0.TNREUXM_20231205.0000.00_13.0_eea_03e7eb6a49.tgz"
+				}
+			]
+		},
 		{
 			"code": "garnet_ru_global",
 			"btag": "F",
@@ -369,89 +375,89 @@
 				}
 			]
 		},
-    {
-      "code":"garnet_in_global",
-      "btag":"F",
-      "region":"in",
-      "carrier":[],
-      "branch": "inds",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "zh-cn": "印度正式版",
-      "en-us": "India Stable",
-      "links": [
-        {
-          "miui": "V14.0.4.0.TNRINXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETINGlobal_V14.0.4.0.TNRINXM_56b24d11df_13.0.zip",
-          "fastboot": "garnet_in_global_images_V14.0.4.0.TNRINXM_20240126.0000.00_13.0_in_e7053ecc64.tgz"
-        },
-        {
-          "miui": "V14.0.3.0.TNRINXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETINGlobal_V14.0.3.0.TNRINXM_c58fc72d31_13.0.zip",
-          "fastboot": "garnet_in_global_images_V14.0.3.0.TNRINXM_20240106.0000.00_13.0_in_032bb83866.tgz"
-        },
-        {
-          "miui": "V14.0.2.0.TNRINXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETINGlobal_V14.0.2.0.TNRINXM_68d1262e54_13.0.zip",
-          "fastboot": "garnet_in_global_images_V14.0.2.0.TNRINXM_20231128.0000.00_13.0_in_3f74c31ffa.tgz"
-        }
-      ]
-    },
-    {
-      "code":"garnet_id_global",
-      "btag":"F",
-      "region":"id",
-      "carrier":[],
-      "branch": "inns",
-      "zone":"2",
-      "show": "0",
-      "ep":"0",
-      "zh-cn": "印度尼西亚正式版",
-      "en-us": "Indonesia Stable",
-      "links": [
+		{
+			"code": "garnet_in_global",
+			"btag": "F",
+			"region": "in",
+			"carrier": [],
+			"branch": "inds",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "印度正式版",
+			"en-us": "India Stable",
+			"links": [
+				{
+					"miui": "V14.0.4.0.TNRINXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETINGlobal_V14.0.4.0.TNRINXM_56b24d11df_13.0.zip",
+					"fastboot": "garnet_in_global_images_V14.0.4.0.TNRINXM_20240126.0000.00_13.0_in_e7053ecc64.tgz"
+				},
+				{
+					"miui": "V14.0.3.0.TNRINXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETINGlobal_V14.0.3.0.TNRINXM_c58fc72d31_13.0.zip",
+					"fastboot": "garnet_in_global_images_V14.0.3.0.TNRINXM_20240106.0000.00_13.0_in_032bb83866.tgz"
+				},
+				{
+					"miui": "V14.0.2.0.TNRINXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETINGlobal_V14.0.2.0.TNRINXM_68d1262e54_13.0.zip",
+					"fastboot": "garnet_in_global_images_V14.0.2.0.TNRINXM_20231128.0000.00_13.0_in_3f74c31ffa.tgz"
+				}
+			]
+		},
+		{
+			"code": "garnet_id_global",
+			"btag": "F",
+			"region": "id",
+			"carrier": [],
+			"branch": "inns",
+			"zone": "2",
+			"show": "0",
+			"ep": "0",
+			"zh-cn": "印度尼西亚正式版",
+			"en-us": "Indonesia Stable",
+			"links": [
 				{
 					"miui": "V14.0.4.0.TNRIDXM",
 					"android": "13.0",
 					"recovery": "miui_GARNETIDGlobal_V14.0.4.0.TNRIDXM_803648b0bb_13.0.zip",
 					"fastboot": "garnet_id_global_images_V14.0.4.0.TNRIDXM_20240223.0000.00_13.0_id_2c5a0d9370.tgz"
 				},
-        {
-          "miui": "V14.0.1.0.TNRIDXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETIDGlobal_V14.0.1.0.TNRIDXM_ae3c2012b7_13.0.zip",
-          "fastboot": "garnet_id_global_images_V14.0.1.0.TNRIDXM_20231123.0000.00_13.0_id_4d51d1da38.tgz"
-        }
-      ]
-    },
-    {
-      "code":"garnet_tr_global",
-      "btag":"F",
-      "region":"tr",
-      "carrier":[],
-      "branch": "trks",
-      "zone":"2",
-      "show": "1",
-      "ep":"0",
-      "zh-cn": "土耳其正式版",
-      "en-us": "Turkey Stable",
-      "links": [
-        {
-          "miui": "V14.0.2.0.TNRTRXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETTRGlobal_V14.0.2.0.TNRTRXM_a84b0b59aa_13.0.zip",
-          "fastboot": "garnet_tr_global_images_V14.0.2.0.TNRTRXM_20240116.0000.00_13.0_tr_62d0676eca.tgz"
-        },
-        {
-          "miui": "V14.0.1.0.TNRTRXM",
-          "android": "13.0",
-          "recovery": "miui_GARNETTRGlobal_V14.0.1.0.TNRTRXM_3fe2cfb351_13.0.zip",
-          "fastboot": "garnet_tr_global_images_V14.0.1.0.TNRTRXM_20231123.0000.00_13.0_tr_f6220fc168.tgz"
-        }
-      ]
-    }
+				{
+					"miui": "V14.0.1.0.TNRIDXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETIDGlobal_V14.0.1.0.TNRIDXM_ae3c2012b7_13.0.zip",
+					"fastboot": "garnet_id_global_images_V14.0.1.0.TNRIDXM_20231123.0000.00_13.0_id_4d51d1da38.tgz"
+				}
+			]
+		},
+		{
+			"code": "garnet_tr_global",
+			"btag": "F",
+			"region": "tr",
+			"carrier": [],
+			"branch": "trks",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "土耳其正式版",
+			"en-us": "Turkey Stable",
+			"links": [
+				{
+					"miui": "V14.0.2.0.TNRTRXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETTRGlobal_V14.0.2.0.TNRTRXM_a84b0b59aa_13.0.zip",
+					"fastboot": "garnet_tr_global_images_V14.0.2.0.TNRTRXM_20240116.0000.00_13.0_tr_62d0676eca.tgz"
+				},
+				{
+					"miui": "V14.0.1.0.TNRTRXM",
+					"android": "13.0",
+					"recovery": "miui_GARNETTRGlobal_V14.0.1.0.TNRTRXM_3fe2cfb351_13.0.zip",
+					"fastboot": "garnet_tr_global_images_V14.0.1.0.TNRTRXM_20231123.0000.00_13.0_tr_f6220fc168.tgz"
+				}
+			]
+		}
 	]
 }

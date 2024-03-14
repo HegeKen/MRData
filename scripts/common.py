@@ -151,6 +151,8 @@ flags = {
     "AURORA": "aurora",
     "ruyi": "ruyi",
     "RUYI": "ruyi",
+    "air_ep_stdee": "air",
+    "AIREPSTDEE": "air",
     "sheng": "sheng",
     "SHENG": "sheng",
     "duchamp_in_global": "duchamp",
