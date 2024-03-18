@@ -143,6 +143,8 @@ flags = {
     "DIZI" : "dizi",
     "GOKU" : "goku",
     "PERIDOT" : "peridot",
+    "aurora_eea_global" : "aurora",
+    "AURORAEEAGlobal" : "aurora",
     "RUAN" : "ruan",
     "duchamp_eea_global": "duchamp",
     "DUCHAMPRUGlobal": "duchamp",
