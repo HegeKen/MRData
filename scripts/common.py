@@ -158,6 +158,8 @@ flags = {
     "houji_ru_global" : "houji",
     "HOUJIRUGlobal" : "houji",
 	"BLUERUGlobal": "blue",
+    "aurora_tw_global": "aurora",
+	"AURORATWGlobal": "aurora",
 	"blue_global": "blue",
 	"BLUEGlobal": "blue",
 	"blue_id_global": "blue",
