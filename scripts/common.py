@@ -155,6 +155,8 @@ flags = {
     "garnet_ru_global": "garnet",
     "GARNETRUGlobal": "garnet",
 	"blue_ru_global": "blue",
+    "duchamp_ep_stdee": "duchamp",
+    "DUCHAMPEPSTDEE": "duchamp",
     "houji_ru_global" : "houji",
     "HOUJIRUGlobal" : "houji",
 	"BLUERUGlobal": "blue",
