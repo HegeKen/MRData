@@ -2000,6 +2000,8 @@ flags = {
     'alioth_tr_global': 'alioth',
     'haydn': 'haydn',
     'haydn_global': 'haydn',
+    "chenfeng_demo" : "chenfeng",
+    "CHENFENGDEMO" : "chenfeng",
     'haydn_eea_global': 'haydn',
     'haydn_eea_hg_global': 'haydn',
     'haydn_eea_or_global': 'haydn',
@@ -2238,8 +2240,6 @@ def checkExist(filename):
             writeData(filename)
         else:
             if 'OS1.' in filename:
-                checkOSExist(filename)
-            elif 'V816' in filename:
                 checkOSExist(filename)
             elif filename in localData(getDeviceCode(filename)):
                 i = 0
