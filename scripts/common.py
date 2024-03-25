@@ -125,6 +125,7 @@ flags = {
     "blue_ru_global": "blue",
 	"BLUERUGlobal": "blue",
 	"blue_global": "blue",
+    "blue_eea_global": "blue",
 	"BLUEGlobal": "blue",
     "blue_in_global": "blue",
     "BLUEINGlobal": "blue",

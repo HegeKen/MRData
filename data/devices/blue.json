@@ -44,6 +44,26 @@
 			]
 		},
 		{
+			"code": "blue_eea_global",
+			"btag": "F",
+			"region": "",
+			"carrier": [],
+			"branch": "eeas",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "欧洲EEA正式版",
+			"en-us": "Europe EEA Stable",
+			"links": [
+				{
+					"miui": "V816.0.4.0.UGREUXM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": "blue_eea_global_images_V816.0.4.0.UGREUXM_20240227.0000.00_14.0_75f899ce1d.tgz"
+				}
+			]
+		},
+		{
 			"code": "blue_ru_global",
 			"btag": "F",
 			"region": "",
@@ -102,7 +122,13 @@
 			"en-us": "Indonesia Stable",
 			"links": [
 				{
-					"miui": "",
+					"miui": "V816.0.4.0.UGRIDXM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": "blue_id_global_images_V816.0.4.0.UGRIDXM_20240314.0000.00_14.0_53ee2305d6.tgz"
+				},
+				{
+					"miui": "V816.0.3.0.UGRIDXM",
 					"android": "14.0",
 					"recovery": "",
 					"fastboot": "blue_id_global_images_V816.0.3.0.UGRIDXM_20240204.0000.00_14.0_ff9671c256.tgz"
