@@ -14,6 +14,13 @@ for device in common.currentStable:
         i = 0
       else:
         print(f"{branch['branch']} - {link['miui']} - {link['android']} - No for device "+ device)
+      if link["fastboot"] == "":
+        i = 0
+      else:
+        if link["fastboot"].split('_images')[0] == branch["code"]:
+          continue
+        else:
+          print(f"{branch['branch']} - {link['miui']} - {link['android']} - No for device "+ device)
 
 # import json
 # from sys import platform
