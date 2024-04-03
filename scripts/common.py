@@ -140,6 +140,8 @@ flags = {
     "AURORAGlobal" : "aurora",
     "peridot" : "peridot",
     "ruan" : "ruan",
+    "manet_ep_stdee" : "manet",
+    "MANETEPSTDEE" : "manet",
     "CHENFENG" : "chenfeng",
     "DIZI" : "dizi",
     "GOKU" : "goku",
