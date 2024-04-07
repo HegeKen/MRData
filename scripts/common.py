@@ -19,7 +19,19 @@ sdk = {
     '10': '29',
     '9': '28',
     '8.1': '27',
-    '8': '26'
+    '8': '26',
+    '7.1': '25',
+    '7': '24',
+    '6': '23',
+    '5.1': '22',
+    '5': '21',
+    '4.4': '19',
+    '4.3': '18',
+    '4.2': '17',
+    '4.1': '16',
+    '4': '14',
+    '2.3': '9',
+    '2': '9'
 }
 
 currentStable = ['blue',
@@ -50,29 +62,32 @@ both_regions = ['alioth', 'ares', 'camellia', 'camellian', 'chopin', 'cmi', 'cor
                 'lisa', 'marble', 'mondrian', 'munch', 'nabu', 'nuwa', 'pipa', 'pissarro', 'psyche', 'renoir', 'ruby',
                 'selene', 'sky', 'star', 'sunstone', 'umi', 'venus', 'xaga', 'xun', 'yunluo', 'zeus', 'zircon', 'ziyi']
 
-fullDevices = ['agate', 'alioth', 'andromeda', 'angelica', 'angelicain', 'angelican', 'apollo', 'aqua', 'ares', 'aries', 'aristotle', 'armani',
-               'atom', 'babylon', 'begonia', 'beryllium', 'biloba', 'bomb', 'cactus', 'camellia', 'camellian', 'cancro_lte_ct', 'cancro',
-               'cannon', 'cappu', 'capricorn', 'cas', 'cattail', 'cepheus', 'cereus', 'cetus', 'cezanne', 'chiron', 'chopin', 'citrus',
-               'clover', 'cmi', 'corot', 'courbet', 'crux', 'cupid', 'curtana_in_rf', 'curtana', 'dagu', 'daisy', 'dandelion_c3l2', 'dandelion',
-               'daumier', 'davinci', 'dior', 'dipper', 'diting', 'draco', 'duchamp', 'earth', 'elish', 'enuma', 'eos', 'equuleus', 'evergo',
-               'evergreen', 'excalibur', 'ferrari', 'fire', 'fleur', 'fog', 'frost', 'fuxi', 'galahad', 'garnet', 'gauguin', 'gauguininpro',
-               'gauguinpro', 'gemini', 'ginkgo', 'gold', 'gram', 'grus', 'gucci', 'haydn', 'haydnin', 'heat', 'helium', 'hennessy', 'hermes',
-               'HM2013023', 'HM2014011', 'HM2014501', 'hydrogen', 'ice', 'ido_xhdpi', 'ido', 'ingres', 'iris', 'ishtar', 'jasmine',
-               'jason', 'joyeuse', 'karna', 'kate', 'kenzo', 'lancelot', 'land', 'latte', 'laurel_sprout', 'laurel', 'laurus', 'lavender',
-               'lcsh92_wet_jb9', 'lcsh92_wet_tdd', 'lcsh92_wet_xm_td', 'lcsh92', 'lemon', 'leo', 'libra', 'light', 'lightcm', 'lilac', 'lime',
-               'lisa', 'lithium', 'liuqin', 'lmi', 'lmipro', 'lotus', 'lte26007', 'maltose', 'manet', 'marble', 'markw', 'matisse', 'mayfly',
-               'meri', 'merlin', 'merlinnfc', 'mido', 'miel', 'mione_plus', 'mione', 'mocha', 'mojito', 'mona', 'mondrian', 'monet', 'moonstone',
-               'munch', 'nabu', 'natrium', 'nikel', 'nitrogen', 'nuwa', 'ocean', 'odin', 'olive', 'olivelite', 'olivewood', 'omega', 'onc',
-               'onclite', 'opal', 'oxygen', 'pearl', 'perseus', 'peux', 'phoenix', 'picasso_48m', 'picasso', 'pine', 'pipa', 'pisces', 'pissarro',
-               'pissarroin', 'pissarroinpro', 'pissarropro', 'platina', 'plato', 'polaris', 'pomelo', 'prada', 'psyche', 'pyxis', 'rain',
-               'raphael', 'raphaels', 'redwood', 'rembrandt', 'renoir', 'riva', 'river', 'rock', 'rolex', 'rosemary_p', 'rosemary', 'rosy',
-               'rubens', 'ruby', 'rubyplus', 'rubypro', 'sagit', 'sakura', 'santoni', 'sapphire', 'sapphiren', 'scorpio', 'sea', 'secret',
-               'selene', 'shiva', 'sirius', 'sky', 'snow', 'socrates', 'spes', 'spesn', 'star', 'sunstone', 'surya', 'sweet_k6a',
-               'sweet', 'taoyao', 'tapas', 'taurus', 'thor', 'thunder', 'thyme', 'tiare', 'tiffany', 'tissot', 'toco', 'topaz', 'tucana', 'tulip',
-               'ugg', 'ugglite', 'umi', 'unicorn', 'ursa', 'vangogh', 'vayu', 'vela', 'venus', 'vermeer', 'veux', 'vida', 'vili', 'vince', 'violet',
-               'virgo_lte_ct', 'virgo', 'viva', 'water', 'wayne', 'whyred', 'willow', 'wind', 'wt86047_pro', 'wt86047', 'wt88047_pro', 'wt88047',
-               'wt93007', 'wt93807', 'wt96007', 'wt98007', 'xaga', 'xagain', 'xagapro', 'xun', 'ysl', 'yudi', 'yuechu', 'yunluo', 'zeus', 'zijin',
-               'zircon', 'ziyi', 'zizhan']
+fullDevices = [
+    "agate", "air", "alioth", "andromeda", "angelica", "angelicain", "angelican", "apollo",
+    "aqua", "ares", "aries", "aristotle", "armani", "atom", "babylon", "begonia", "beryllium",
+    "biloba", "blue", "bomb", "cactus", "camellia", "camellian", "cancro_lte_ct", "cancro", "cannon",
+    "cappu", "capricorn", "cas", "cattail", "cepheus", "cereus", "cetus", "cezanne", "chiron", "chopin", "citrus", "clover",
+    "cmi", "corot", "courbet", "crux", "cupid", "curtana_in_rf", "curtana", "dagu", "daisy", "dandelion_c3l2", "dandelion", "daumier",
+    "davinci", "dior", "dipper", "diting", "earth", "elish", "emerald", "enuma", "equuleus", "evergo",
+    "evergreen", "excalibur", "ferrari", "fire", "fleur", "fog", "frost", "fuxi", "gale", "garnet", "gauguin",
+    "gemini", "ginkgo", "gold", "gram", "grus", "gucci", "haydn",
+    "helium", "hennessy", "hermes", "hydrogen", "ice", "ido_xhdpi",
+    "ingres", "ishtar", "jasmine", "jason", "joyeuse", "kate", "kenzo", "lancelot", "land", "latte",
+    "laurel_sprout", "laurel", "laurus", "lavender", "lcsh92_wet_jb9", "lcsh92_wet_tdd", "lcsh92_wet_xm_td", "lcsh92",
+    "leo", "libra", "light", "lightcm", "lilac", "lime", "lisa", "lithium", "liuqin", "lmi", "lotus", "lte26007",
+    "marble", "markw", "matisse", "mayfly", "meri", "merlin", "mido", "mione_plus",
+    "mocha", "mojito", "mona", "mondrian", "monet", "moonstone", "munch", "nabu", "natrium",
+    "nikel", "nitrogen", "nuwa", "odin", "olive", "olivelite", "olivewood", "omega", "onc", "onclite", "opal", "oxygen", "pearl",
+    "perseus", "phoenix", "picasso_48m", "picasso", "pine", "pipa", "pisces", "pissarro", "pissarroin",
+    "platina", "plato", "polaris", "prada", "psyche", "pyxis", "raphael", "raphaels", "redwood",
+    "rembrandt", "renoir", "riva", "rock", "rolex", "rosemary_p", "rosemary", "rosy", "rubens", "ruby",
+    "sagit", "sakura", "santoni", "sapphire", "sapphiren", "scorpio", "sea", "selene", "shiva", "sirius",
+    "sky", "socrates", "spes", "spesn", "star", "sunstone", "surya", "sweet_k6a", "sweet", "taoyao", "tapas", "taurus", "thor",
+    "thyme", "tiare", "tiffany", "tissot", "toco", "topaz", "tucana", "tulip", "ugg", "ugglite", "umi", "unicorn", "ursa",
+    "vangogh", "vayu", "vela", "venus", "veux", "vida", "vili", "vince", "violet", "virgo_lte_ct", "virgo", "viva", "water",
+    "wayne", "whyred", "willow", "wt86047_pro", "wt86047", "wt88047_pro", "wt88047", "wt93007", "wt93807", "wt96007", "wt98007",
+    "xaga", "xun", "ysl", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"
+]
 CurrentIDS = ['1900587', '1900586', '1900585', '1900584', '1900583', '1900582', '1900581', '1900580', '1900579', '1900578', '1900577', '1900576',
               '1900575', '1900574', '1900573', '1900571', '1900570', '1900567', '1900566', '1900565', '1900564', '1900563', '1900562', '1900561',
               '1900560', '1900559', '1900558', '1900557', '1900556', '1900555', '1900554', '1900553', '1900552', '1900551', '1900549', '1900547',
@@ -123,32 +138,51 @@ flags = {
     "vermeer_ep_stdee": "vermeer",
     "VERMEEREPSTDEE": "vermeer",
     "blue_ru_global": "blue",
-	"BLUERUGlobal": "blue",
-	"blue_global": "blue",
+    "BLUERUGlobal": "blue",
+    "blue_global": "blue",
     "blue_eea_global": "blue",
-	"BLUEGlobal": "blue",
+    "BLUEGlobal": "blue",
     "blue_in_global": "blue",
     "BLUEINGlobal": "blue",
-	"blue_id_global": "blue",
-	"BLUEIDGlobal": "blue",
+    "blue_id_global": "blue",
+    "BLUEIDGlobal": "blue",
     "DUCHAMPGlobal": "duchamp",
     "DUCHAMPEEAGlobal": "duchamp",
-    "chenfeng" : "chenfeng",
-    "dizi" : "dizi",
-    "goku" : "goku",
-    "aurora_global" : "aurora",
-    "AURORAGlobal" : "aurora",
-    "peridot" : "peridot",
-    "ruan" : "ruan",
-    "manet_ep_stdee" : "manet",
-    "MANETEPSTDEE" : "manet",
-    "CHENFENG" : "chenfeng",
-    "DIZI" : "dizi",
-    "GOKU" : "goku",
-    "PERIDOT" : "peridot",
-    "aurora_eea_global" : "aurora",
-    "AURORAEEAGlobal" : "aurora",
-    "RUAN" : "ruan",
+    "chenfeng": "chenfeng",
+    "dizi": "dizi",
+    "goku": "goku",
+    "aurora_global": "aurora",
+    "AURORAGlobal": "aurora",
+    "peridot": "peridot",
+    "ruan": "ruan",
+    "manet_ep_stdee": "manet",
+    "MANETEPSTDEE": "manet",
+    "CHENFENG": "chenfeng",
+    "DIZI": "dizi",
+    "GOKU": "goku",
+    "PERIDOT": "peridot",
+    "aurora_eea_global": "aurora",
+    "AURORAEEAGlobal": "aurora",
+    "RUAN": "ruan",
+    'OLIVELITELMCRGlobal':'olivelite',
+    'ONCLITELMCRGlobal':'onclite',
+    'PINEEEAORGlobal':'pine',
+    'PINEEEATFGlobal':'pine',
+    'PINEEEAVFGlobal':'pine',
+    'PINEEEASFGlobal':'pine',
+    'PYXISEEATFGlobal':'pyxis',
+    'PYXISEEAVFGlobal':'pyxis',
+    'PYXISEEASFGlobal':'pyxis',
+    'TUCANAEEAHGGlobal':'tucana',
+    'TUCANAEEAORGlobal':'tucana',
+    'TUCANAEEATFGlobal':'tucana',
+    'TUCANAEEAVFGlobal':'tucana',
+    'TUCANAEEATIGlobal':'tucana',
+    'WILLOWEEAHGGlobal':'willow',
+    'WILLOWEEAORGlobal':'willow',
+    'WILLOWEEATFGlobal':'willow',
+    'WILLOWEEAVFGlobal':'willow',
+    'WILLOWEEATIGlobal':'willow',
     "duchamp_eea_global": "duchamp",
     "DUCHAMPRUGlobal": "duchamp",
     "duchamp_ru_global": "duchamp",
@@ -157,18 +191,18 @@ flags = {
     "EMERALDTRGlobal": "emerald",
     "garnet_ru_global": "garnet",
     "GARNETRUGlobal": "garnet",
-	"blue_ru_global": "blue",
+    "blue_ru_global": "blue",
     "duchamp_ep_stdee": "duchamp",
     "DUCHAMPEPSTDEE": "duchamp",
-    "houji_ru_global" : "houji",
-    "HOUJIRUGlobal" : "houji",
-	"BLUERUGlobal": "blue",
+    "houji_ru_global": "houji",
+    "HOUJIRUGlobal": "houji",
+    "BLUERUGlobal": "blue",
     "aurora_tw_global": "aurora",
-	"AURORATWGlobal": "aurora",
-	"blue_global": "blue",
-	"BLUEGlobal": "blue",
-	"blue_id_global": "blue",
-	"BLUEIDGlobal": "blue",
+    "AURORATWGlobal": "aurora",
+    "blue_global": "blue",
+    "BLUEGlobal": "blue",
+    "blue_id_global": "blue",
+    "BLUEIDGlobal": "blue",
     "AURORA": "aurora",
     "ruyi": "ruyi",
     "RUYI": "ruyi",
@@ -185,18 +219,18 @@ flags = {
     'emerald_eea_global': 'emerald',
     'EMERALDEEAGlobal': 'emerald',
     'emerald_ru_global': 'emerald',
-    "houji_global" : "houji",
-    "HOUJIGlobal" : "houji",
-    "houji_in_global" : "houji",
-    "HOUJIINGlobal" : "houji",
-    "houji_id_global" : "houji",
-    "HOUJIIDGlobal" : "houji",
-    "houji_tw_global" : "houji",
-    "HOUJITWGlobal" : "houji",
-    "houji_tr_global" : "houji",
-    "HOUJITRGlobal" : "houji",
-    "sheng_demo" : "sheng",
-    "SHENGDEMO" : "sheng",
+    "houji_global": "houji",
+    "HOUJIGlobal": "houji",
+    "houji_in_global": "houji",
+    "HOUJIINGlobal": "houji",
+    "houji_id_global": "houji",
+    "HOUJIIDGlobal": "houji",
+    "houji_tw_global": "houji",
+    "HOUJITWGlobal": "houji",
+    "houji_tr_global": "houji",
+    "HOUJITRGlobal": "houji",
+    "sheng_demo": "sheng",
+    "SHENGDEMO": "sheng",
     'sapphiren_eea_global': 'sapphiren',
     'SAPPHIRENEEAGlobal': 'sapphiren',
     'sapphiren_ru_global': 'sapphiren',
@@ -2003,8 +2037,8 @@ flags = {
     'alioth_tr_global': 'alioth',
     'haydn': 'haydn',
     'haydn_global': 'haydn',
-    "chenfeng_demo" : "chenfeng",
-    "CHENFENGDEMO" : "chenfeng",
+    "chenfeng_demo": "chenfeng",
+    "CHENFENGDEMO": "chenfeng",
     'haydn_eea_global': 'haydn',
     'haydn_eea_hg_global': 'haydn',
     'haydn_eea_or_global': 'haydn',
@@ -2236,7 +2270,7 @@ def getFastboot(url):
 
 
 def checkExist(filename):
-    if 'blockota' in filename or 'miui-ota' in filename :
+    if 'blockota' in filename or 'miui-ota' in filename:
         i = 0
     else:
         if getDeviceCode(filename) == 0:
@@ -2296,23 +2330,25 @@ def MiFirm(url):
     for tag in filtered_td_tags:
         checkExist(tag.text)
 
+
 def MiFirm2(url):
-	response = requests.post(url)
-	if (response.status_code == 200):
-		content = response.content.decode("utf8")
-		if content == "":
-			i = 0
-		else:
-			soup = BeautifulSoup(content, 'lxml')
-			table_tags = soup.find_all("table", class_="firm_data")
-			for tag in table_tags:
-				tdtags = BeautifulSoup(str(tag), 'lxml')
-				tds = tdtags.find_all("td")
-				for td in tds:
-					if ".tgz" in td.text or ".zip" in td.text:
-						checkExist(td.text)
-					else:
-						i = 0
+    response = requests.post(url)
+    if (response.status_code == 200):
+        content = response.content.decode("utf8")
+        if content == "":
+            i = 0
+        else:
+            soup = BeautifulSoup(content, 'lxml')
+            table_tags = soup.find_all("table", class_="firm_data")
+            for tag in table_tags:
+                tdtags = BeautifulSoup(str(tag), 'lxml')
+                tds = tdtags.find_all("td")
+                for td in tds:
+                    if ".tgz" in td.text or ".zip" in td.text:
+                        checkExist(td.text)
+                    else:
+                        i = 0
+
 
 MiOTAForm = {
     'a': '0',

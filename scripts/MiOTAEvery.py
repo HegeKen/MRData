@@ -8,26 +8,29 @@ check_url = 'https://update.miui.com/updates/miotaV3.php'
 
 
 def FormRun(link):
-  if link['android'] == '':
-    common.MiOTAForm2['c'] = '13'
-  else:
-    common.MiOTAForm2['c'] = link['android'].split('.')[0]
-  common.MiOTAForm2['sdk'] = common.sdk[common.MiOTAForm2['c']]
-  common.MiOTAForm2['v'] = 'MIUI-'+ link['miui']
-  if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
-      if platform == 'win32':
-        file = open('public/MRdata/scripts/checkOTA.txt', 'a', encoding='utf-8')
-      else:
-        file = open('/sdcard/Codes/NuxtMR/public/MRdata/script/checkOTA.txt', 'a', encoding='utf-8')
-      if branch['branch'] == 'cnmp':
-        i = 0
-      else:
-        file.write(devdata['zh-cn']+'('+device+'),\t'+branch['code']+',\t'+branch['zh-cn']+',\t'+link['android']+',\t'+branch['zone']+'\n')
-        file.close()
+  if link['recovery'] == '':
+    if link['android'] == '':
+      common.MiOTAForm2['c'] = '13'
+    else:
+      common.MiOTAForm2['c'] = link['android'].split('.')[0]
+    common.MiOTAForm2['sdk'] = common.sdk[common.MiOTAForm2['c']]
+    common.MiOTAForm2['v'] = 'MIUI-'+ link['miui']
+    if common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm2)),device) == 0:
+        if platform == 'win32':
+          file = open('public/MRdata/scripts/checkOTA.txt', 'a', encoding='utf-8')
+        else:
+          file = open('/sdcard/Codes/NuxtMR/public/MRdata/script/checkOTA.txt', 'a', encoding='utf-8')
+        if branch['branch'] == 'cnmp':
+          i = 0
+        else:
+          file.write(devdata['zh-cn']+'('+device+'),\t'+branch['code']+',\t'+branch['zh-cn']+',\t'+link['android']+',\t'+branch['zone']+'\n')
+          file.close()
+    else:
+      i = 0
   else:
     i = 0
 
-for device in common.currentStable:
+for device in common.fullDevices:
   if platform == 'win32':
     devdata = json.loads(open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
   else:

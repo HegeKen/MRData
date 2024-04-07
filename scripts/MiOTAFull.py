@@ -30,7 +30,7 @@ def FormRun(link):
   else:
     i = 0
 
-for device in common.currentStable:
+for device in common.fullDevices:
   if platform == 'win32':
     devdata = json.loads(open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
   else:
