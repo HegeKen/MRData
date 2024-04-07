@@ -6,7 +6,7 @@ miui_iv = b'0102030405060708'
 check_url = 'https://update.miui.com/updates/miotaV3.php'
 
 
-device = 'garnet'
+device = 'gold'
 common.MiOTAForm['d'] = device + ''
 common.MiOTAForm['R'] = 'CN'
 common.MiOTAForm['b'] = 'F'
@@ -15,9 +15,9 @@ common.MiOTAForm['c'] = '13'
 common.MiOTAForm['sdk'] = common.sdk[common.MiOTAForm['c']]
 common.MiOTAForm['p'] = device
 common.MiOTAForm['options']['zone'] = '1'
-common.MiOTAForm['options']['cv'] = 'V14.0.18.0.TNRCNXM'
+common.MiOTAForm['options']['cv'] = 'V14.0.10.0.TNQCNXM'
 common.MiOTAForm['options']['previewPlan'] = '1'
-common.MiOTAForm['v'] = 'V14.0.18.0.TNRCNXM'
+common.MiOTAForm['v'] = 'V14.0.10.0.TNQCNXM'
 
 
 encrypted_form = common.miui_encrypt(json.dumps(common.MiOTAForm))

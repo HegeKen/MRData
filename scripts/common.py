@@ -23,7 +23,7 @@ sdk = {
 }
 
 currentStable = ['blue',
-                 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'river', 'air', 'gale', 'gust', 'aristotle',
+                 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'air', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -41,7 +41,7 @@ newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
 cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
               'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor',
               'thyme', 'unicorn', 'yudi', 'yuechu', 'zijin', 'zizhan']
-gb_devices = ['agate', 'aristotle', 'biloba', 'courbet', 'curtana_in_rf', 'curtana', 'evergreen', 'fire', 'fleur', 'fog',
+gb_devices = ['blue', 'agate', 'aristotle', 'biloba', 'courbet', 'curtana_in_rf', 'curtana', 'evergreen', 'fire', 'fleur', 'fog',
               'frost', 'ice', 'lilac', 'mojito', 'monet', 'moonstone', 'opal', 'pissarroin', 'plato', 'rock', 'rosemary_p',
               'rosemary', 'sapphire', 'sapphiren', 'sea', 'spes', 'spesn', 'sweet_k6a', 'sweet', 'taoyao', 'tapas', 'tiare',
               'topaz', 'vida', 'vili', 'viva', 'water',]
