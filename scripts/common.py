@@ -151,6 +151,8 @@ flags = {
     "chenfeng": "chenfeng",
     "dizi": "dizi",
     "goku": "goku",
+    "air_eea_global": "air",
+    "AIREEAGlobal": "air",
     "aurora_global": "aurora",
     "AURORAGlobal": "aurora",
     "peridot": "peridot",
