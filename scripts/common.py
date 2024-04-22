@@ -50,6 +50,8 @@ currentStable = ['blue',
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 
+onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
+
 cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
               'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor',
               'thyme', 'unicorn', 'yudi', 'yuechu', 'zijin', 'zizhan']
