@@ -30,6 +30,12 @@
 			"en-us": "China Mainland Stable(MIUI14)",
 			"links": [
 				{
+					"miui": "V14.0.6.0.TGQCNXM",
+					"android": "13.0",
+					"recovery": "miui_AIR_V14.0.6.0.TGQCNXM_d12e5e5014_13.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V14.0.5.0.TGQCNXM",
 					"android": "13.0",
 					"recovery": "miui_AIR_V14.0.5.0.TGQCNXM_550989bad2_13.0.zip",
@@ -104,6 +110,26 @@
 					"android": "13.0",
 					"recovery": "miui_AIREPSTDEE_V14.0.24.1.30.EP.STDEE.C3V_fb8559c1ad_13.0.zip",
 					"fastboot": "air_ep_stdee_images_V14.0.24.1.30.EP.STDEE.C3V_20240130.0000.00_13.0_cn_chinatelecom_3d605b0719.tgz"
+				}
+			]
+		},
+		{
+			"code": "air_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "mgbs",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "国际正式版",
+			"en-us": "Global Stable",
+			"links": [
+				{
+					"miui": "V14.0.3.0.TGQMIXM",
+					"android": "13.0",
+					"recovery": "miui_AIRGlobal_V14.0.3.0.TGQMIXM_ad8ba9e8f7_13.0.zip",
+					"fastboot": "air_global_images_V14.0.3.0.TGQMIXM_20240308.0000.00_13.0_global_fb2ee927f0.tgz"
 				}
 			]
 		},
