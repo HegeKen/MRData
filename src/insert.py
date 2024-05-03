@@ -41,44 +41,37 @@ try:
     cursor = cnx.cursor()
     for codename in devices:
       devdata = json.loads(open('public/MRdata/data/devices/' + codename +'.json', 'r', encoding='utf-8').read())
-      cnname = devdata["zh-cn"]
-      enname = devdata["en-us"]
-      for branchs in devdata["branches"]:
-        code = branchs["code"]
-        branch = branchs["btag"]
-        cnbranch = branchs["zh-cn"]
-        enbranch = branchs["en-us"]
-        region = branchs["region"]
-        tag =  branchs["branch"]
-        os = 0
-        ui = 1
-        ep = int(branchs["ep"])
-        carrier = str(branchs["carrier"])
-        zone = branchs["zone"]
-        listed = branchs["show"]
-        if branch == "X" or ep == 1:
-          if branch == "X":
-            mark = ""
-          else:
-            marks = branchs["links"][0]["miui"].split(".")
-            mark = str(marks[len(marks) - 3]) + "." + str(marks[len(marks) - 2]) + "." + str(marks[len(marks) - 1])
-        else:
-          if branchs["links"][0]["miui"][0] in ['K','J','I']:
-            mark = branchs["links"][0]["miui"][:5]
-            if mark[:3] != "JLB":
-              mark = mark
-            elif mark[:3] == "ICS":
-              mark = "ICS"
+      for branches in devdata["branches"]:
+        code = branches["code"]
+        branch = branches["branch"]
+        tag = branches["btag"]
+        for rom in branches["links"]:
+          miui = rom["miui"]
+          android = rom["android"]
+          recovery = rom["recovery"]
+          se_sql = "SELECT * FROM miui WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
+          cursor.execute(se_sql, (code,branch,tag,miui,android))
+          result = cursor.fetchone()
+          if result: 
+            if 'telecom' in rom["fastboot"]:
+              ctelecom = rom["fastboot"]
+              up_sql = "UPDATE miui SET ctelecom = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
+              cursor.execute(up_sql, (ctelecom,code,branch,tag,miui,android))
+            elif 'unicom' in rom["fastboot"]:
+              cunicom = rom["fastboot"]
+              up_sql = "UPDATE miui SET cunicom = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
+              cursor.execute(up_sql, (cunicom,code,branch,tag,miui,android))
+            elif 'mobile' in rom["fastboot"]:
+              cmobile = rom["fastboot"]
+              up_sql = "UPDATE miui SET cmobile = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
+              cursor.execute(up_sql, (cmobile,code,branch,tag,miui,android))
             else:
-              mark = "JLB"
+              fastboot = rom["fastboot"]
+              up_sql = "UPDATE miui SET fastboot = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
+              cursor.execute(up_sql, (fastboot,code,branch,tag,miui,android))
           else:
-            mark = branchs["links"][0]["miui"][-6:]
-          if mark.startswith(('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')):
-             mark = ""
-        cursor = cnx.cursor()
-        ins_sql = "INSERT INTO branches (codename,code,branch,tag,cnname,enname,cnbranch,enbranch,region,os,ui,mark,carrier,zone,ep,listed) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(ins_sql, (codename,code,branch,tag,cnname,enname,cnbranch,enbranch,region,os,ui,mark,carrier,zone,ep,listed))
-
+            ins_sql = "INSERT INTO miui (code,branch,tag,miui,android,recovery) VALUES (%s, %s, %s, %s, %s, %s)"
+            cursor.execute(ins_sql, (code,branch,tag,miui,android,recovery))
 
 except Exception as e:
     print(e)

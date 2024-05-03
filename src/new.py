@@ -30,55 +30,33 @@ devices = [
 ]
 cnx = None
 try:
-    cnx = Connection(
-        user=config.user,
-        password=config.password,
-        host=config.host,
-        port=config.port,
-        database=config.database,
-        autocommit=True
-    )
-    cursor = cnx.cursor()
-    for codename in devices:
-      devdata = json.loads(open('public/MRdata/data/devices/' + codename +'.json', 'r', encoding='utf-8').read())
-      cnname = devdata["zh-cn"]
-      enname = devdata["en-us"]
-      for branchs in devdata["branches"]:
-        code = branchs["code"]
-        branch = branchs["btag"]
-        cnbranch = branchs["zh-cn"]
-        enbranch = branchs["en-us"]
-        region = branchs["region"]
-        tag =  branchs["branch"]
-        os = 0
-        ui = 1
-        ep = int(branchs["ep"])
-        carrier = str(branchs["carrier"])
-        zone = branchs["zone"]
-        listed = branchs["show"]
-        if branch == "X" or ep == 1:
-          if branch == "X":
-            mark = ""
+  cnx = Connection(
+    user=config.user,
+    password=config.password,
+    host=config.host,
+    port=config.port,
+    database=config.database,
+    autocommit=True
+  )
+  cursor = cnx.cursor()
+  for codename in devices:
+    devdata = json.loads(open('public/MRdata/data/devices/' + codename +'.json', 'r', encoding='utf-8').read())
+    for branch in devdata['branches']:
+      for rom in branch['links']:
+        if rom['fastboot'] != '':
+          if 'exe' in rom['fastboot']:
+            continue
           else:
-            marks = branchs["links"][0]["miui"].split(".")
-            mark = str(marks[len(marks) - 3]) + "." + str(marks[len(marks) - 2]) + "." + str(marks[len(marks) - 1])
-        else:
-          if branchs["links"][0]["miui"][0] in ['K','J','I']:
-            mark = branchs["links"][0]["miui"][:5]
-            if mark[:3] != "JLB":
-              mark = mark
-            elif mark[:3] == "ICS":
-              mark = "ICS"
-            else:
-              mark = "JLB"
-          else:
-            mark = branchs["links"][0]["miui"][-6:]
-          if mark.startswith(('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')):
-             mark = ""
-        cursor = cnx.cursor()
-        ins_sql = "INSERT INTO branches (codename,code,branch,tag,cnname,enname,cnbranch,enbranch,region,os,ui,mark,carrier,zone,ep,listed) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(ins_sql, (codename,code,branch,tag,cnname,enname,cnbranch,enbranch,region,os,ui,mark,carrier,zone,ep,listed))
-
+            flag = rom['fastboot'].split('_images')[0]
+            se_sql = "SELECT * FROM branches WHERE code = %s"
+            cursor.execute(se_sql, (flag))
+            result = cursor.fetchone()
+            if result:  
+              continue
+            else: 
+              cursor = cnx.cursor()
+              ins_sql = "INSERT INTO branches (codename,code,branch,tag,cnname,enname,cnbranch,enbranch,region,os,ui,mark,carrier,zone,ep,listed) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+              cursor.execute(ins_sql, (codename,flag,branch["btag"],branch["branch"],devdata["zh-cn"],devdata["en-us"],branch["zh-cn"],branch["en-us"],branch["region"],'0','1',int(branch["ep"]),str(branch["carrier"]),branch["zone"],'',branch["show"]))
 
 except Exception as e:
     print(e)
