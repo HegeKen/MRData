@@ -187,6 +187,8 @@ flags = {
     "AURORARUGlobal" : "aurora",
     "dagu_ep_stdee" : "dagu",
     "DAGUEPSTDEE" : "dagu",
+    "sheng_ep_stdee":"sheng",
+	"SHENGEPSTDEE":"sheng",
     "AURORAINGlobal" : "aurora",
     "aurora_in_global" : "aurora",
     "aurora_tr_global" : "aurora",
