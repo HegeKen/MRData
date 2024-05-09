@@ -45,33 +45,51 @@ try:
         code = branches["code"]
         branch = branches["branch"]
         tag = branches["btag"]
+        bid = len(branches["links"]) + 1
         for rom in branches["links"]:
-          miui = rom["miui"]
+          bid = bid - 1
+          ver = rom["miui"]
           android = rom["android"]
           recovery = rom["recovery"]
-          se_sql = "SELECT * FROM miui WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
-          cursor.execute(se_sql, (code,branch,tag,miui,android))
+          se_sql = "SELECT * FROM roms WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+          cursor.execute(se_sql, (code,branch,tag,ver,android))
           result = cursor.fetchone()
-          if result: 
+          if result:
             if 'telecom' in rom["fastboot"]:
               ctelecom = rom["fastboot"]
-              up_sql = "UPDATE miui SET ctelecom = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
-              cursor.execute(up_sql, (ctelecom,code,branch,tag,miui,android))
+              up_sql = "UPDATE roms SET ctelecom = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (ctelecom,code,branch,tag,ver,android))
             elif 'unicom' in rom["fastboot"]:
               cunicom = rom["fastboot"]
-              up_sql = "UPDATE miui SET cunicom = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
-              cursor.execute(up_sql, (cunicom,code,branch,tag,miui,android))
+              up_sql = "UPDATE roms SET cunicom = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (cunicom,code,branch,tag,ver,android))
             elif 'mobile' in rom["fastboot"]:
               cmobile = rom["fastboot"]
-              up_sql = "UPDATE miui SET cmobile = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
-              cursor.execute(up_sql, (cmobile,code,branch,tag,miui,android))
+              up_sql = "UPDATE roms SET cmobile = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (cmobile,code,branch,tag,ver,android))
             else:
               fastboot = rom["fastboot"]
-              up_sql = "UPDATE miui SET fastboot = %s WHERE code = %s && branch = %s && tag = %s && miui = %s && android = %s"
-              cursor.execute(up_sql, (fastboot,code,branch,tag,miui,android))
+              up_sql = "UPDATE roms SET fastboot = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (fastboot,code,branch,tag,ver,android))
           else:
-            ins_sql = "INSERT INTO miui (code,branch,tag,miui,android,recovery) VALUES (%s, %s, %s, %s, %s, %s)"
-            cursor.execute(ins_sql, (code,branch,tag,miui,android,recovery))
+            ins_sql = "INSERT INTO roms (code,branch,tag,ver,bid,android,recovery) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+            cursor.execute(ins_sql, (code,branch,tag,ver,bid,android,recovery))
+            if 'telecom' in rom["fastboot"]:
+              ctelecom = rom["fastboot"]
+              up_sql = "UPDATE roms SET ctelecom = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (ctelecom,code,branch,tag,ver,android))
+            elif 'unicom' in rom["fastboot"]:
+              cunicom = rom["fastboot"]
+              up_sql = "UPDATE roms SET cunicom = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (cunicom,code,branch,tag,ver,android))
+            elif 'mobile' in rom["fastboot"]:
+              cmobile = rom["fastboot"]
+              up_sql = "UPDATE roms SET cmobile = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (cmobile,code,branch,tag,ver,android))
+            else:
+              fastboot = rom["fastboot"]
+              up_sql = "UPDATE roms SET fastboot = %s WHERE code = %s && branch = %s && tag = %s && ver = %s && android = %s"
+              cursor.execute(up_sql, (fastboot,code,branch,tag,ver,android))
 
 except Exception as e:
     print(e)
