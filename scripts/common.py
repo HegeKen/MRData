@@ -989,6 +989,7 @@ flags = {
     'river': 'river',
     'xun': 'xun',
     'xun_demo': 'xun',
+    "XUNDEMO" : "xun",
     'xun_tw_global': 'xun',
     'xun_global': 'xun',
     'xun_eea_global': 'xun',
