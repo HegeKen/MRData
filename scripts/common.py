@@ -154,6 +154,8 @@ flags = {
     "DUCHAMPEEAGlobal": "duchamp",
     "chenfeng": "chenfeng",
     "dizi": "dizi",
+    "gold_demo": "gold",
+    "GOLDDEMO": "gold",
     "goku": "goku",
     "vermeer_global" : "vermeer",
     "VERMEERGlobal" : "vermeer",
