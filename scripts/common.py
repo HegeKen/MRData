@@ -2462,8 +2462,7 @@ def getFromApi(encrypted_data, device):
         devdata = json.loads(open(
             '/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
-    print('\r'+'正在抓取'+devdata['zh-cn']+'(' +
-          devdata['codename']+')                  ', end='')
+    print('\r'+'正在抓取'+devdata['zh-cn']+'(' + devdata['codename']+')                  ', end='')
     if 'code' in response.text:
         print(json.loads(response.text))
     else:
