@@ -21,7 +21,7 @@ for device in common.currentStable:
       print('\r'+new_url+'              ',end='')
       bresp = requests.get(new_url, headers=headers)
       bcon = bresp.content.decode('utf8')
-      bsoup = BeautifulSoup(content,'lxml')
+      bsoup = BeautifulSoup(bcon,'lxml')
       lists = bsoup.find_all('a', attrs={'class' :'downloadbutton'})
       if len(lists) == 0 :
         i = 0
