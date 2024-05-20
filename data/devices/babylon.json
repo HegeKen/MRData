@@ -167,6 +167,27 @@
       ]
     },
     {
+			"code": "babylon",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "stde",
+			"zone": "1",
+			"show": "1",
+			"ep": "1",
+			"zh-cn": "中国大陆政企标准版",
+			"en-us": "China Mainland Enterprise Standard",
+			"links": [
+				{
+					"miui": "V14.0.23.10.24.EP.STDEE.M18",
+					"android": "13.0",
+					"recovery": "miui_BABYLONEPSTDEE_V14.0.23.10.24.EP.STDEE.M18_33d9b8276f_13.0.zip",
+					"fastboot": "babylon_ep_stdee_images_V14.0.23.10.24.EP.STDEE.M18_20231024.0000.00_13.0_cn_c56c24bca0.tgz",
+          "ctelecom": "babylon_ep_stdee_images_V14.0.23.10.24.EP.STDEE.M18_20231024.0000.00_13.0_cn_chinatelecom_0ab5a72d2e.tgz"
+				}
+			]
+		},
+    {
       "code": "babylon_demo",
       "btag": "F",
       "region": "cn",
