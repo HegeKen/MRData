@@ -168,6 +168,8 @@ flags = {
     "AURORAGlobal": "aurora",
     "peridot": "peridot",
     "ruan": "ruan",
+    "vermeer_tw_global" : "vermeer",
+    "VERMEERTWGlobal" : "vermeer",
     "SHENGIDGlobal" : "sheng",
     "sheng_id_global" : "sheng",
     "breeze" : "breeze",
