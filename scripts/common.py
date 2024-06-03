@@ -163,6 +163,8 @@ flags = {
 	"BABYLONEPSTDEE":"babylon",
     "gold_demo": "gold",
     "GOLDDEMO": "gold",
+    "dizi_global" : "dizi",
+    "DIZIGlobal" : "dizi",
     "goku": "goku",
     "COROTPREDPP" : "corot",
     "COROTPREDPPGlobal" : "corot",
