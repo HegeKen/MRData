@@ -5,7 +5,7 @@ from sys import platform
 
 # https://mifirmware.com/firmware/
 def getDetail(url):
-  headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
+  headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
   headers = {"Connection": "close"}
   domains = ["bigota.d.miui.com","hugeota.d.miui.com"]
   response = requests.get(url, headers=headers)

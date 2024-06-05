@@ -3,7 +3,7 @@ import json
 import time
 from sys import platform
 
-headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76"}
+headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
 headers = {"Connection": "close"}
 ahome = "/phone/getdevicelist?phone_id="
 regions = ["global", "rs", "bd", "id", "my", "pk", "ph", "tr", "vn", "th", "de", "es", "fr", "it", "pl", "uk", "ru", "ua", "mie", "br", "co", "mx", "pe", "cl", "ng", "eg"]

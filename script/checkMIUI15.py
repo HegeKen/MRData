@@ -13,7 +13,7 @@ devices = ["sky","pearl","corot","marble","yuechu","sea","fire","babylon","sweet
            "surya","vayu","moonstone"]
 carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
-headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76",
+headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0",
            "Connection": "close"}
 
 def getFastboot(url,devdata):
