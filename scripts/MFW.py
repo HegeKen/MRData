@@ -20,7 +20,7 @@ for link in links:
     elif "-firmware" in link:
       urls.append(link)
     elif ".zip" in link or ".tgz" in link:
-      common.checkExist(link.split('/')[4])
+      common.checkExist(link.split('/')[-1])
     else:
       i = 0
 driver.quit()
