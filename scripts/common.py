@@ -34,8 +34,7 @@ sdk = {
     '2': '9'
 }
 
-currentStable = ['air', 'blue',
-                 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
+currentStable = ['air', 'blue', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -176,6 +175,8 @@ flags = {
     "COROTPREDPPGlobal" : "corot",
     "HOUJIPREDPP" : "houji",
     "SHENGPREDPP" : "sheng",
+    "dizi_tw_global": "dizi",
+    "DIZITWGlobal": "dizi",
     "HOUJIPREDPPGlobal" : "sheng",
     "SHENNONGPREDPP" : "shennong",
     "vermeer_global" : "vermeer",
