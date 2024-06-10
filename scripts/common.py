@@ -149,6 +149,8 @@ flags = {
     "BLUEINGlobal": "blue",
     "blue_id_global": "blue",
     "BLUEIDGlobal": "blue",
+    "peridot_ep_stdee" : "peridot",
+    "PERIDOTEPSTDEE" : "peridot",
     "PERIDOTTWGlobal" : "peridot",
     "peridot_tw_global" : "peridot",
     "klein_demo" : "klein",
