@@ -34,7 +34,7 @@ sdk = {
     '2': '9'
 }
 
-currentStable = ['air', 'blue', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
+currentStable = ['klein', 'air', 'blue', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -49,7 +49,7 @@ currentStable = ['air', 'blue', 'sapphire', 'sapphiren', 'emerald', 'gold', 'gar
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 
-onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
+onedevices=["klein", "blue", "tissot","jasmine","laurel","tiare","ice","water"]
 
 cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
               'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor',
@@ -159,6 +159,14 @@ flags = {
     "DUCHAMPEEAGlobal": "duchamp",
     "chenfeng": "chenfeng",
     "dizi": "dizi",
+    "moon_id_global" : "moon",
+    "MOONIDGlobal" : "moon",
+    "moon_eea_global" : "moon",
+    "MOONEEAGlobal" : "moon",
+    "moon_ru_global" : "moon",
+    "MOONRUGlobal" : "moon",
+    "klein_global": "klein",
+    "KLEINGlobal": "klein",
     "breeze_demo" : "breeze",
     "babylon_ep_stdee": "babylon",
 	"BABYLONEPSTDEE":"babylon",
