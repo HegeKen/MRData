@@ -2392,8 +2392,7 @@ def checkExist(filename):
 
 def checkOSExist(filename):
     OSPath = 'D:/Projects/HyperOS.fans/Web/public/data/devices/'
-    devdata = json.loads(
-        open(OSPath+getDeviceCode(filename)+'.json', 'r', encoding='utf-8').read())
+    devdata = json.loads(open(OSPath+getDeviceCode(filename)+'.json', 'r', encoding='utf-8').read())
     if filename in str(devdata):
         i = 0
     else:

@@ -9,6 +9,7 @@ for test in devdata['entity']['ongoingPlans']['items']:
     package = test["testing"]["apps"][0]["downloadUrl"]
     if "ultimateota" in package:
       rom = package.split('/')[4].split('?')[0]
+      # print(rom)
       common.checkExist(rom)
   else:
     i = 0
