@@ -155,6 +155,8 @@ flags = {
     "peridot_tw_global" : "peridot",
     "klein_demo" : "klein",
     "klein" : "klein",
+    "dizi_eea_global" : "dizi",
+    "DIZIEEAGlobal" : "dizi",
     "DUCHAMPGlobal": "duchamp",
     "DUCHAMPEEAGlobal": "duchamp",
     "chenfeng": "chenfeng",
@@ -176,6 +178,8 @@ flags = {
 	"BABYLONEPSTDEE":"babylon",
     "gold_demo": "gold",
     "GOLDDEMO": "gold",
+    "chenfeng_in_global" : "chenfeng",
+    "CHENFENGINGlobal" : "chenfeng",
     "dizi_global" : "dizi",
     "DIZIGlobal" : "dizi",
     "dizi_ru_global" : "dizi",
@@ -2502,6 +2506,20 @@ MiOTAForm2 = {
     'sdk': '33',
     'pn': 'cepheus_eea',
     'options': {'zone': 2, 'hashId': '2371ef99a72a282c', 'ab': '0', 'previewPlan': '0'}}
+
+def OTAFormer(device, code, region, branch, zone, ep, android, sdk, version):
+    MiOTAForm2['d'] = device
+    if region == 'cn':
+        MiOTAForm2['pn'] = code
+    else:
+        if code == device + "_global":
+            MiOTAForm2['pn'] = code
+        else:
+            MiOTAForm2['pn'] = code.split('_global')[0]
+        MiOTAForm2['b'] = branch
+        MiOTAForm2['options']['zone'] = zone
+
+
 
 
 def getFromApi(encrypted_data, device):
