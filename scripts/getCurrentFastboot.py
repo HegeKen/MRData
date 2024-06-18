@@ -1,4 +1,5 @@
 import common
+from datetime import datetime
 
 urls = []
 def chekc_url_exits(url):
@@ -50,5 +51,5 @@ for device in common.currentStable:
     genlink(codename, code, btag, region, carriers)
 
 for url in urls:
-  print("\r"+url+"                ",end="")
+  print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+url+"                ",end="")
   common.getFastboot(url)

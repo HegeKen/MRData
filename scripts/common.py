@@ -9,6 +9,7 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 test = ['marble']
 sdk = {
@@ -2508,7 +2509,7 @@ MiOTAForm2 = {
     'options': {'zone': 2, 'hashId': '2371ef99a72a282c', 'ab': '0', 'previewPlan': '0'}}
 
 def OTAFormer(device, code, region, branch, zone, android, version):
-    MiOTAForm2['d'] = device
+    MiOTAForm2['d'] = code
     if region == 'cn':
         MiOTAForm2['pn'] = code
     else:
@@ -2525,6 +2526,7 @@ def OTAFormer(device, code, region, branch, zone, android, version):
         MiOTAForm2['c'] = android.split('.0')[0]
     MiOTAForm2['sdk'] = sdk[android.split('.0')[0]]
     MiOTAForm2['v'] = 'MIUI-'+ version
+    # print(version)
     return json.dumps(MiOTAForm2)
 
 def versionAdd(version,add):
@@ -2549,17 +2551,19 @@ def getFromApi(encrypted_data, device):
         devdata = json.loads(open(
             '/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
-    print('\r'+'正在抓取'+devdata['zh-cn']+'(' + devdata['codename']+')                  ', end='')
+    print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t正在抓取'+devdata['zh-cn']+'(' + devdata['codename']+')                  ', end='')
     if 'code' in response.text:
         print(json.loads(response.text))
     else:
         data = miui_decrypt(response.text.split('q=')[0])
         if 'LatestRom' in data:
             package = data['LatestRom']['filename'].split('?')[0]
+            # print(package)
             checkExist(package)
             return 1
         if 'CrossRom' in data:
             package = data['CrossRom']['filename'].split('?')[0]
+            # print(package)
             checkExist(package)
             return 1
         else:

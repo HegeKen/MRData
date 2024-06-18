@@ -1,6 +1,7 @@
 import requests
 import json
 import common
+from datetime import datetime
 
 base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
 
@@ -122,68 +123,68 @@ for device in common.currentStable:
         if device+branch in common.flags:
           i = 0
         else:
-          print('\r'+base_url+device+branch+'&b=F&r=cn&n='+carrier+'                                      ',end='')
+          print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=cn&n='+carrier+'                                      ',end='')
           common.getFastboot(base_url+device+branch+'&b=F&r=cn&n='+carrier)
     for branch in gbbranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
     for branch in eeabranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=eea&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=eea&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=eea&n=')
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
     for branch in rubranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=ru&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=ru&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=ru&n=')
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
     for branch in inbranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=in&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=in&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=in&n=')
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
     for branch in idbranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=id&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=id&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=id&n=')
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
     for branch in trbranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=tr&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=tr&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=tr&n=')
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
     for branch in krbranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=kr&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=kr&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=kr&n=')
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
     for branch in jpbranches:
       if device+branch in common.flags:
         i = 0
       else:
-        print('\r'+base_url+device+branch+'&b=F&r=jp&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=jp&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=jp&n=')
-        print('\r'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
+        print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+base_url+device+branch+'&b=F&r=global&n='+'                                      ',end='')
         common.getFastboot(base_url+device+branch+'&b=F&r=global&n=')
 
