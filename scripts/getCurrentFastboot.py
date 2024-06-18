@@ -36,7 +36,7 @@ def genlink(codename, code, btag, region, carriers):
 
 base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
 for device in common.currentStable:
-  devdata = common.LoadJson(device)
+  devdata = common.loadJson(device)
   codename = devdata["codename"]
   for branch in devdata['branches']:
     code = branch['code']

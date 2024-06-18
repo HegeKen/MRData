@@ -1,7 +1,7 @@
 import common
 
 for device in common.currentStable:
-  for branch in common.LoadJson(device)["branches"]:
+  for branch in common.loadJson(device)["branches"]:
     for rom in branch["links"]:
       if rom["recovery"] == "" :
         if  rom["fastboot"] == "":

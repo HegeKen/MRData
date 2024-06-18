@@ -2291,7 +2291,7 @@ def localData(codename):
     return devdata
 
 
-def LoadJson(codename):
+def loadJson(codename):
     if platform == 'win32':
         devdata = json.loads(open('public/MRdata/data/devices/' +
                              codename+'.json', 'r', encoding='utf-8').read())
@@ -2507,7 +2507,7 @@ MiOTAForm2 = {
     'pn': 'cepheus_eea',
     'options': {'zone': 2, 'hashId': '2371ef99a72a282c', 'ab': '0', 'previewPlan': '0'}}
 
-def OTAFormer(device, code, region, branch, zone, ep, android, sdk, version):
+def OTAFormer(device, code, region, branch, zone, android, version):
     MiOTAForm2['d'] = device
     if region == 'cn':
         MiOTAForm2['pn'] = code
@@ -2516,10 +2516,19 @@ def OTAFormer(device, code, region, branch, zone, ep, android, sdk, version):
             MiOTAForm2['pn'] = code
         else:
             MiOTAForm2['pn'] = code.split('_global')[0]
-        MiOTAForm2['b'] = branch
-        MiOTAForm2['options']['zone'] = zone
+    MiOTAForm2['b'] = branch
+    MiOTAForm2['options']['zone'] = zone
+    if android == '':
+        print(device,version,"请补充安卓版本")
+        MiOTAForm2['c'] = '14'
+    else:
+        MiOTAForm2['c'] = android.split('.0')[0]
+    MiOTAForm2['sdk'] = sdk[android.split('.0')[0]]
+    MiOTAForm2['v'] = 'MIUI-'+ version
+    return json.dumps(MiOTAForm2)
 
-
+def versionAdd(version,add):
+    return version.replace(version.split('.')[2],str(int(version.split('.')[2])+add))
 
 
 def getFromApi(encrypted_data, device):
