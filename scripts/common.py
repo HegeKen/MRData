@@ -156,6 +156,9 @@ flags = {
     "peridot_tw_global" : "peridot",
     "klein_demo" : "klein",
     "klein" : "klein",
+    'ODINDEMO':'odin',
+    'ZIZHANDEMO':'zizhan',
+    'MONADEMO':'mona',
     "dizi_eea_global" : "dizi",
     "DIZIEEAGlobal" : "dizi",
     "DUCHAMPGlobal": "duchamp",
@@ -2530,6 +2533,7 @@ def OTAFormer(device, code, region, branch, zone, android, version):
     return json.dumps(MiOTAForm2)
 
 def versionAdd(version,add):
+    # print(version)
     return version.replace(version.split('.')[2],str(int(version.split('.')[2])+add))
 
 
@@ -2544,12 +2548,7 @@ def getFromApi(encrypted_data, device):
                'Cookie': 'serviceToken=;'
                }
     data = 'q=' + encrypted_data + '&s=1&t='
-    if platform == 'win32':
-        devdata = json.loads(
-            open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
-    else:
-        devdata = json.loads(open(
-            '/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+    devdata = json.loads(open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
     print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t正在抓取'+devdata['zh-cn']+'(' + devdata['codename']+')                  ', end='')
     if 'code' in response.text:
