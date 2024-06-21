@@ -12,8 +12,14 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["329", "330"],
-	"cbid": ["333", "334"],
+	"csid": [
+		"329",
+		"330"
+	],
+	"cbid": [
+		"333",
+		"334"
+	],
 	"gdid": "10389",
 	"pcid": "",
 	"branches": [
@@ -21,7 +27,12 @@
 			"code": "star",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "cnmp",
 			"zone": "1",
 			"show": "1",
@@ -2211,7 +2222,9 @@
 			"code": "star",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "ctce",
 			"zone": "1",
 			"show": "1",
@@ -2219,7 +2232,7 @@
 			"zh-cn": "中国电信定制版",
 			"en-us": "China Telecom Carrier Edition",
 			"links": [
-        {
+				{
 					"miui": "V14.0.13.0.TKACNXM",
 					"android": "13.0",
 					"recovery": "miui_STAR_V14.0.13.0.TKACNXM_f867605f4c_13.0.zip",
@@ -2255,7 +2268,9 @@
 			"code": "star",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "cmce",
 			"zone": "1",
 			"show": "1",
@@ -2263,7 +2278,7 @@
 			"zh-cn": "中国移动定制版",
 			"en-us": "China Mobile Carrier Edition",
 			"links": [
-        {
+				{
 					"miui": "V14.0.13.0.TKACNXM",
 					"android": "13.0",
 					"recovery": "miui_STAR_V14.0.13.0.TKACNXM_f867605f4c_13.0.zip",
@@ -2293,7 +2308,12 @@
 			"code": "star_ep_xy",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "epxy",
 			"zone": "1",
 			"show": "0",
@@ -2541,6 +2561,12 @@
 			"zh-cn": "欧洲Orange运营商定制版",
 			"en-us": "Europe Orange Carrier Edition",
 			"links": [
+				{
+					"miui": "V14.0.8.0.TKAEUOR",
+					"android": "10.0",
+					"recovery": "miui_STAREEAORGlobal_V14.0.8.0.TKAEUOR_89487f3884_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.7.0.TKAEUOR",
 					"android": "13.0",

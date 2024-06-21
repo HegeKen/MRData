@@ -1,6 +1,6 @@
 import common
 
-for device in common.fullDevices:
+for device in common.currentStable:
   devdata = common.loadJson(device)
   for branch in devdata['branches']:
     if branch['btag'] == 'X' or branch['btag'] == 'D' or "Enterprise" in branch['en-us'] or "EP" in branch['en-us']:
