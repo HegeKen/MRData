@@ -412,6 +412,8 @@ flags = {
     'GOLDINGlobal': 'gold',
     'GOLDIDGlobal': 'gold',
     'GOLDTRGlobal': 'gold',
+    "ruan_in_global" : "ruan",
+    "RUANINGlobal" : "ruan",
     'garnet_global': 'garnet',
     'garnet_eea_global': 'garnet',
     'garnet_in_global': 'garnet',
