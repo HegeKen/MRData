@@ -173,6 +173,8 @@ flags = {
     "dizi": "dizi",
     "moon_id_global" : "moon",
     "MOONIDGlobal" : "moon",
+    "zircon_jp_global": "zircon",
+    "ZIRCONJPGlobal": "zircon",
     "moon_eea_global" : "moon",
     "MOONEEAGlobal" : "moon",
     "moon_ru_global" : "moon",
