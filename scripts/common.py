@@ -637,6 +637,8 @@ flags = {
     'WATERZAVCGlobal': 'water',
     'YUNLUODEMO': 'yunluo',
     'ZIRCONDEMO': 'zircon',
+    "DIZIINGlobal" : "dizi",
+    "dizi_in_global" : "dizi",
     'Mione': 'mione_plus',
     'MI3': 'pisces',
     'UGG': 'ugg',
