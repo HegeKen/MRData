@@ -2563,17 +2563,17 @@ def getFromApi(encrypted_data, device):
     devdata = json.loads(open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
     print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t正在抓取'+devdata['zh-cn']+'(' + devdata['codename']+')                  ', end='')
-    if 'code' in response.text:
-        print(json.loads(response.text))
+    if response.status_code != 200:
+        i = 0
     else:
-        data = miui_decrypt(response.text.split('q=')[0])
-        if 'LatestRom' in data:
-            package = data['LatestRom']['filename'].split('?')[0]
+        resdata = miui_decrypt(response.text.split('q=')[0])
+        if 'LatestRom' in resdata:
+            package = resdata['LatestRom']['filename'].split('?')[0]
             # print(package)
             checkExist(package)
             return 1
-        if 'CrossRom' in data:
-            package = data['CrossRom']['filename'].split('?')[0]
+        if 'CrossRom' in resdata:
+            package = resdata['CrossRom']['filename'].split('?')[0]
             # print(package)
             checkExist(package)
             return 1
@@ -2594,7 +2594,7 @@ def getFromApi2(encrypted_data, device):
                }
     data = 'q=' + encrypted_data + '&s=1&t='
     response = requests.post(check_url, headers=headers, data=data)
-    if 'code' in response.text:
+    if response.status_code != 200:
         print(json.loads(response.text))
     else:
         data = miui_decrypt(response.text.split('q=')[0])
@@ -2630,15 +2630,15 @@ def getChangelog(encrypted_data, device):
         devdata = json.loads(open(
             '/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
     response = requests.post(check_url, headers=headers, data=data)
-    if 'code' in response.text:
-        print(json.loads(response.text)['desc'])
+    if response.status_code != 200:
+        i = 0
     else:
         data = miui_decrypt(response.text.split('q=')[0])
         if 'LatestRom' in data:
             print("最新版本更新日志：")
             print_log(data["LatestRom"]["changelog"])
         if 'CurrentRom' in data:
-            print("当前版本更新日志：")
+            print("\n当前版本更新日志：")
             print_log(data["CurrentRom"]["changelog"])
         else:
             print(data)
