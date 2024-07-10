@@ -159,6 +159,8 @@ flags = {
     "peridot_tw_global" : "peridot",
     "klein_demo" : "klein",
     "klein" : "klein",
+    "klein_in_global": "klein",
+    "KLEININGlobal": "klein",
     'ODINDEMO':'odin',
     "degas_demo" : "degas",
     "rothko_demo" : "rothko",
