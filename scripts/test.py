@@ -13,7 +13,7 @@ roms = ['miui_VENUS_V14.0.23.8.15.DEV_3bb57a35f6_13.0.zip',
 # # print(today)
 # # dayOfWeek = today.weekday()
 # # print(dayOfWeek)
-# link = "https://bn.d.miui.com/OS1.0.24.1.29.DEV/miui_RUBENS_OS1.0.24.1.29.DEV_43b39a9e96_14.0.zip"
+# link = "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.24.1.29.DEV/miui_RUBENS_OS1.0.24.1.29.DEV_43b39a9e96_14.0.zip"
 # print(link.split('/')[4])
 
 # pack = "miui_EMERALDRUGlobal_OS1.0.2.0.UNFRUXM_535997a0b0_14.0.zip"
