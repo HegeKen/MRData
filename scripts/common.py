@@ -183,6 +183,8 @@ flags = {
     "MOONRUGlobal" : "moon",
     "klein_global": "klein",
     "KLEINGlobal": "klein",
+    "air_tw_global": "air",
+    "AIRTWGlobal": "air",
     "breeze_demo" : "breeze",
     "moon_tw_global" : "moon",
     "MOONTWGlobal" : "moon",
