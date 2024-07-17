@@ -2403,21 +2403,23 @@ def checkExist(filename):
     if 'blockota' in filename or 'miui-ota' in filename:
         i = 0
     else:
+        newROM = open("public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
         if getDeviceCode(filename) == 0:
             writeData(filename)
         else:
             if 'OS1.' in filename:
                 checkOSExist(filename)
-            elif filename in localData(getDeviceCode(filename)):
+            elif filename in localData(getDeviceCode(filename)) or filename in newROM:
                 i = 0
             else:
                 writeData(filename)
 
 
 def checkOSExist(filename):
+    newROM = open("D:/Projects/HyperOS.fans/Web/public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
     OSPath = 'D:/Projects/HyperOS.fans/Web/public/data/devices/'
     devdata = json.loads(open(OSPath+getDeviceCode(filename)+'.json', 'r', encoding='utf-8').read())
-    if filename in str(devdata):
+    if filename in str(devdata) or filename in newROM:
         i = 0
     else:
         writeData(filename)
