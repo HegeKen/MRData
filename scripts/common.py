@@ -162,6 +162,7 @@ flags = {
     "klein_in_global": "klein",
     "KLEININGlobal": "klein",
     'ODINDEMO':'odin',
+    'BLUEEEAGlobal':'blue',
     "degas_demo" : "degas",
     "rothko_demo" : "rothko",
     "tides_demo" : "tides",
