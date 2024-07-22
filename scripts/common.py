@@ -2429,10 +2429,11 @@ def checkExist(filename):
 
 
 def checkOSExist(filename):
-    newROM = open("D:/Projects/HyperOS.fans/Web/public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+    OSnewROM = open("D:/Projects/HyperOS.fans/Web/public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+    newROM = open("public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
     OSPath = 'D:/Projects/HyperOS.fans/Web/public/data/devices/'
     devdata = json.loads(open(OSPath+getDeviceCode(filename)+'.json', 'r', encoding='utf-8').read())
-    if filename in str(devdata) or filename in newROM:
+    if filename in str(devdata) or filename in OSnewROM or filename in newROM:
         i = 0
     else:
         writeData(filename)
