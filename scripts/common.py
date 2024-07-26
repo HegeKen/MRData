@@ -166,6 +166,8 @@ flags = {
     "degas_demo" : "degas",
     "rothko_demo" : "rothko",
     "tides_demo" : "tides",
+    "ruyi_global" : "ruyi",
+    "RUYIGlobal" : "ruyi",
     'ZIZHANDEMO':'zizhan',
     'MONADEMO':'mona',
     "dizi_eea_global" : "dizi",
