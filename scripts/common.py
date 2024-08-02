@@ -161,6 +161,8 @@ flags = {
     "klein" : "klein",
     "klein_in_global": "klein",
     "KLEININGlobal": "klein",
+    "klein_ru_global": "klein",
+    "KLEINRUGlobal": "klein",
     'ODINDEMO':'odin',
     'BLUEEEAGlobal':'blue',
     "degas_demo" : "degas",
