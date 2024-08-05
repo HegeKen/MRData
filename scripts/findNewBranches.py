@@ -1,5 +1,3 @@
-import requests
-import json
 import common
 from datetime import datetime
 
