@@ -35,7 +35,7 @@ sdk = {
     '2': '9'
 }
 
-currentStable = ['klein', 'air', 'blue', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
+currentStable = ['klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -45,7 +45,7 @@ currentStable = ['klein', 'air', 'blue', 'sapphire', 'sapphiren', 'emerald', 'go
                  'evergo', 'pissarro', 'spes', 'spesn', 'veux', 'fleur', 'viva', 'vida', 'light', 'lightcm', 'opal', 'xaga',
                  'sunstone', 'sky', 'ruby', 'redwood', 'marble', 'pearl', 'tapas', 'topaz', 'sweet_k6a', 'sea', 'cezanne',
                  'apollo', 'alioth', 'haydn', 'ares', 'munch', 'ingres', 'rubens', 'matisse', 'diting', 'mondrian', 'socrates',
-                 'corot', 'rembrandt', 'yunluo', 'xun', 'ice', 'water', 'angelicain', 'frost', 'evergreen', 'rock',
+                 'corot', 'rembrandt', 'yunluo', 'xun', 'ice', 'angelicain', 'frost', 'evergreen', 'rock',
                  'rosemary_p', 'surya', 'vayu', 'moonstone']
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
@@ -164,6 +164,10 @@ flags = {
     "klein_ru_global": "klein",
     "KLEINRUGlobal": "klein",
     'ODINDEMO':'odin',
+    "RUANEEAGlobal" : "ruan",
+    "ruan_eea_global" : "ruan",
+    "ruan_ru_global" : "ruan",
+    "RUANRUGlobal" : "ruan",
     "RUYITWGlobal" : "ruyi",
     "ruyi_tw_global" : "ruyi",
     "aurora_ep_stdee" : "aurora",
