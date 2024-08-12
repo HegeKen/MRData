@@ -150,6 +150,8 @@ flags = {
     "BLUEINGlobal": "blue",
     "blue_id_global": "blue",
     "BLUEIDGlobal": "blue",
+    'RUANEEAGlobal':'ruan',
+    'HM6EEASFGlobal':'cereus',
     'ARESDEMO':'ares',
     'MATISSEDEMO':'matisse',
     'SOCRATESDEMO':'socrates',
