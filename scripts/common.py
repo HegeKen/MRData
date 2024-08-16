@@ -162,6 +162,8 @@ flags = {
     "PERIDOTTWGlobal" : "peridot",
     "peridot_tw_global" : "peridot",
     "klein_demo" : "klein",
+    "garnet_ep_cjcc": "garnet",
+    "GARNETEPCJCC": "garnet",
     "klein" : "klein",
     "klein_in_global": "klein",
     "KLEININGlobal": "klein",
