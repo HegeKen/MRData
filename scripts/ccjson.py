@@ -6,10 +6,14 @@ devdata = json.loads(open('public/MRdata/scripts/MiFlashPro/cc.json', 'r', encod
 
 for test in devdata['entity']['ongoingPlans']['items']:
   if test['type'] == "MIUI":
-    package = test["testing"]["apps"][0]["downloadUrl"]
-    if "ultimateota" in package:
-      rom = package.split('/')[4].split('?')[0]
-      # print(rom)
-      common.checkExist(rom)
+    if len(test["testing"]["apps"]) > 0:
+      package = test["testing"]["apps"][0]["downloadUrl"]
+      if "ultimateota" in package:
+        rom = package.split('/')[4].split('?')[0]
+        common.checkExist(rom)
+      else:
+        i = 0
+    else:
+      i = 0
   else:
     i = 0
