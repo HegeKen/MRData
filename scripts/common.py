@@ -35,7 +35,7 @@ sdk = {
     '2': '9'
 }
 
-currentStable = ['klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
+currentStable = ["pond", 'klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -50,7 +50,7 @@ currentStable = ['klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emer
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 
-onedevices=["klein", "blue", "tissot","jasmine","laurel","tiare","ice","water"]
+onedevices=["klein", "blue", "tissot","jasmine","laurel","tiare","ice","water", "pond"]
 
 cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
               'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor',
@@ -81,7 +81,7 @@ fullDevices = [
     "mocha", "mojito", "mona", "mondrian", "monet", "moonstone", "munch", "nabu", "natrium",
     "nikel", "nitrogen", "nuwa", "odin", "olive", "olivelite", "olivewood", "omega", "onc", "onclite", "opal", "oxygen", "pearl",
     "perseus", "phoenix", "picasso_48m", "picasso", "pine", "pipa", "pisces", "pissarro", "pissarroin",
-    "platina", "plato", "polaris", "prada", "psyche", "pyxis", "raphael", "raphaels", "redwood",
+    "platina", "plato", "polaris", "pond", "prada", "psyche", "pyxis", "raphael", "raphaels", "redwood",
     "rembrandt", "renoir", "riva", "rock", "rolex", "rosemary_p", "rosemary", "rosy", "rubens", "ruby",
     "sagit", "sakura", "santoni", "sapphire", "sapphiren", "scorpio", "sea", "selene", "shiva", "sirius",
     "sky", "socrates", "spes", "spesn", "star", "sunstone", "surya", "sweet_k6a", "sweet", "taoyao", "tapas", "taurus", "thor",
@@ -157,6 +157,8 @@ flags = {
     "SPARKINGlobal" : "spark",
     "spark_in_global" : "spark",
     'RUANEEAGlobal':'ruan',
+    "lake_global" : "lake",
+    "LAKEGlobal" : "lake",
     'HM6EEASFGlobal':'cereus',
     'ARESDEMO':'ares',
     'MATISSEDEMO':'matisse',
