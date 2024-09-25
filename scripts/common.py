@@ -206,6 +206,8 @@ flags = {
     "FLAME" : "flame",
     "flame_demo":"flame",
     "FLAMEDEMO":"flame",
+    "ruan_ep_stdee" : "ruan",
+    "RUANEPSTDEE" : "ruan",
     "PONDGlobal" : "pond",
     "tides_demo" : "tides",
     "ruyi_global" : "ruyi",
