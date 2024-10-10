@@ -162,6 +162,8 @@ flags = {
     "spark_ru_global":"spark",
     "FLARERUGlobal":"flare",
     "SPARKRUGlobal":"spark",
+    "lake_id_global":"lake",
+    "LAKEIDGlobal":"lake",
     "rothko_eea_global" : "rothko",
     "ROTHKOEEAGlobal" : "rothko",
     "rothko_global" : "rothko",
