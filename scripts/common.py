@@ -2399,6 +2399,8 @@ flags = {
     'vayu_id_global': 'vayu',
     'xun_ru_global': 'xun',
     'xun_tr_global': 'xun',
+    "ruyi_ru_global": "ruyi",
+    "RUYIRUGlobal": "ruyi",
     "sapphiren_id_global": "sapphiren",
     "SAPPHIRENIDGlobal": "sapphiren",
     'vayu_tr_global': 'vayu',
