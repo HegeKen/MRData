@@ -2403,6 +2403,8 @@ flags = {
     "RUYIRUGlobal": "ruyi",
     "FLARETRGlobal":"flare",
     "flare_tr_global":"flare",
+    "dada":"dada",
+	"haotian":"haotian",
     "rothko_ep_stdee":"rothko",
     "ROTHKOEPSTDEE":"rothko",
     "sapphiren_id_global": "sapphiren",
