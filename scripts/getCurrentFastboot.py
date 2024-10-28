@@ -10,30 +10,13 @@ def chekc_url_exits(url):
 
 def genlink(codename, code, btag, region, carriers):
   base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
-
-  if region == 'cn':
-    if not carriers:
-      url = base_url + code + '&b=' + btag + '&r=' + region + '&n='
-      chekc_url_exits(url)
-    else:
-      for carrier in carriers:
-        url = base_url + code + '&b=' + btag + '&r=' + region + '&n=' + carrier
-        chekc_url_exits(url)
-  elif region == 'global':
+  if not carriers:
     url = base_url + code + '&b=' + btag + '&r=' + region + '&n='
     chekc_url_exits(url)
   else:
-    url = base_url + code + '&b=' + btag + '&r=' + region + '&n='
-    chekc_url_exits(url)
-    if "_global" in code and codename not in ["pissarroin","angelica","cannon","sweet","camellia"]:
-      url = base_url + code + '&b=' + btag + '&r=' + code.split(codename+"_")[1].split("_global")[0] + '&n='
+    for carrier in carriers:
+      url = base_url + code + '&b=' + btag + '&r=' + region + '&n=' + carrier
       chekc_url_exits(url)
-    else:
-      i = 0
-    url = base_url + code + '&b=' + btag + '&r=eea&n='
-    chekc_url_exits(url)
-    url = base_url + code + '&b=' + btag + '&r=global' + '&n='
-    chekc_url_exits(url)
 
 base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
 for device in common.currentStable:

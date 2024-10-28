@@ -2453,7 +2453,7 @@
 			"code": "renoir_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["h3g"],
 			"branch": "euhg",
 			"zone": "2",
 			"show": "1",
@@ -2465,7 +2465,7 @@
 					"miui": "V14.0.3.0.TKIEUHG",
 					"android": "13.0",
 					"recovery": "miui_RENOIREEAHGGlobal_V14.0.3.0.TKIEUHG_62d25aa5cd_13.0.zip",
-					"fastboot": ""
+					"fastboot": "renoir_eea_hg_global_images_V14.0.3.0.TKIEUHG_20230705.0000.00_13.0_eea_h3g_f264826f51.tgz"
 				},
 				{
 					"miui": "V13.0.8.0.SKIEUHG",
@@ -2511,7 +2511,7 @@
 			"code": "renoir_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["tf"],
 			"branch": "eutf",
 			"zone": "2",
 			"show": "1",
@@ -2523,7 +2523,7 @@
 					"miui": "V14.0.2.0.TKIEUTF",
 					"android": "13.0",
 					"recovery": "miui_RENOIREEATFGlobal_V14.0.2.0.TKIEUTF_3bd15a81ae_13.0.zip",
-					"fastboot": ""
+					"fastboot": "renoir_eea_tf_global_images_V14.0.2.0.TKIEUTF_20230612.0000.00_13.0_eea_tf_e9ade04cc7.tgz"
 				},
 				{
 					"miui": "V13.0.3.0.SKIEUTF",
@@ -2537,7 +2537,7 @@
 			"code": "renoir_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["vodafone"],
 			"branch": "euvf",
 			"zone": "2",
 			"show": "1",
@@ -2549,7 +2549,7 @@
 					"miui": "V14.0.4.0.TKIEUVF",
 					"android": "13.0",
 					"recovery": "miui_RENOIREEAVFGlobal_V14.0.4.0.TKIEUVF_058818aad2_13.0.zip",
-					"fastboot": ""
+					"fastboot": "renoir_eea_vf_global_images_V14.0.4.0.TKIEUVF_20230418.0000.00_13.0_eea_vodafone_abd0095b84.tgz"
 				},
 				{
 					"miui": "V14.0.3.0.TKIEUVF",
@@ -2569,7 +2569,7 @@
 			"code": "renoir_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["sfr"],
 			"branch": "eusf",
 			"zone": "2",
 			"show": "1",
@@ -2587,7 +2587,7 @@
 					"miui": "V14.0.1.0.TKIEUSF",
 					"android": "13.0",
 					"recovery": "miui_RENOIREEASFGlobal_V14.0.1.0.TKIEUSF_4b93cf58d7_13.0.zip",
-					"fastboot": ""
+					"fastboot": "renoir_eea_sf_global_images_V14.0.1.0.TKIEUSF_20230625.0000.00_13.0_eea_sfr_5d14c91670.tgz"
 				},
 				{
 					"miui": "V13.0.6.0.SKIEUSF",
@@ -2601,7 +2601,7 @@
 			"code": "renoir_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["tim"],
 			"branch": "euti",
 			"zone": "2",
 			"show": "1",
@@ -2613,7 +2613,7 @@
 					"miui": "V14.0.1.0.TKIEUTI",
 					"android": "13.0",
 					"recovery": "miui_RENOIREEATIGlobal_V14.0.1.0.TKIEUTI_208ad3dc15_13.0.zip",
-					"fastboot": ""
+					"fastboot": "renoir_eea_ti_global_images_V14.0.1.0.TKIEUTI_20230727.0000.00_13.0_eea_tim_71b527805e.tgz"
 				},
 				{
 					"miui": "V13.0.4.0.SKIEUTI",
@@ -2724,8 +2724,8 @@
 		{
 			"code": "renoir_lm_cr_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "lm",
+			"carrier": ["cr"],
 			"branch": "lmcr",
 			"zone": "2",
 			"show": "1",
@@ -2733,6 +2733,12 @@
 			"zh-cn": "拉丁美洲Claro运营商定制版",
 			"en-us": "Latin America Claro Carrier Edition",
 			"links": [
+				{
+					"miui": "V14.0.2.0.TKILMCR",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "renoir_lm_cr_global_images_V14.0.2.0.TKILMCR_20230731.0000.00_13.0_lm_cr_8dddcd8551.tgz"
+				},
 				{
 					"miui": "V13.0.7.0.SKILMCR",
 					"android": "13.0",
@@ -2756,8 +2762,8 @@
 		{
 			"code": "renoir_mx_tc_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "mx",
+			"carrier": ["telcel"],
 			"branch": "mxtc",
 			"zone": "2",
 			"show": "1",
@@ -2769,7 +2775,7 @@
 					"miui": "V14.0.2.0.TKIMXTC",
 					"android": "13.0",
 					"recovery": "miui_RENOIRMXTCGlobal_V14.0.2.0.TKIMXTC_204e774d90_13.0.zip",
-					"fastboot": ""
+					"fastboot": "renoir_mx_tc_global_images_V14.0.2.0.TKIMXTC_20230731.0000.00_13.0_mx_telcel_bea048a84c.tgz"
 				},
 				{
 					"miui": "V13.0.8.0.SKIMXTC",
@@ -2794,8 +2800,8 @@
 		{
 			"code": "renoir_cl_en_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "cl",
+			"carrier": ["en"],
 			"branch": "clen",
 			"zone": "2",
 			"show": "1",

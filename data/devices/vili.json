@@ -455,7 +455,7 @@
 			"code": "vili_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["tf"],
 			"branch": "eutf",
 			"zone": "2",
 			"show": "1",
@@ -505,7 +505,7 @@
 			"code": "vili_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["vodafone"],
 			"branch": "euvf",
 			"zone": "2",
 			"show": "1",
@@ -555,7 +555,7 @@
 			"code": "vili_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["sfr"],
 			"branch": "eusf",
 			"zone": "2",
 			"show": "1",
@@ -968,8 +968,8 @@
 		{
 			"code": "vili_cl_en_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "cl",
+			"carrier": ["en"],
 			"branch": "clen",
 			"zone": "2",
 			"show": "1",
@@ -994,8 +994,8 @@
 		{
 			"code": "vili_mx_at_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "mx",
+			"carrier": ["at"],
 			"branch": "mxat",
 			"zone": "2",
 			"show": "1",
@@ -1050,8 +1050,8 @@
 		{
 			"code": "vili_lm_cr_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "lm",
+			"carrier": ["cr"],
 			"branch": "lmcr",
 			"zone": "2",
 			"show": "1",
@@ -1059,6 +1059,12 @@
 			"zh-cn": "拉丁美洲Claro运营商定制版",
 			"en-us": "Latin America Claro Carrier Edition",
 			"links": [
+				{
+					"miui": "V14.0.7.0.TKDLMCR",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "vili_lm_cr_global_images_V14.0.7.0.TKDLMCR_20240201.0000.00_13.0_lm_cr_b8242ef215.tgz"
+				},
 				{
 					"miui": "V13.0.7.0.SKDLMCR",
 					"android": "12.0",

@@ -447,7 +447,7 @@
 			"code": "sweet_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["h3g"],
 			"branch": "euhg",
 			"zone": "2",
 			"show": "1",
@@ -459,7 +459,7 @@
 					"miui": "V14.0.4.0.TKFEUHG",
 					"android": "13.0",
 					"recovery": "miui_SWEETEEAHGGlobal_V14.0.4.0.TKFEUHG_a0e6d30c70_13.0.zip",
-					"fastboot": ""
+					"fastboot": "sweet_eea_hg_global_images_V14.0.4.0.TKFEUHG_20230703.0000.00_13.0_eea_h3g_e07146ce70.tgz"
 				},
 				{
 					"miui": "V13.0.5.0.SKFEUHG",
@@ -505,7 +505,7 @@
 			"code": "sweet_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["tf"],
 			"branch": "eutf",
 			"zone": "2",
 			"show": "1",
@@ -517,7 +517,7 @@
 					"miui": "V14.0.1.0.TKFEUTF",
 					"android": "13.0",
 					"recovery": "miui_SWEETEEATFGlobal_V14.0.1.0.TKFEUTF_d20e54194b_13.0.zip",
-					"fastboot": ""
+					"fastboot": "sweet_eea_tf_global_images_V14.0.1.0.TKFEUTF_20230322.0000.00_13.0_eea_tf_edf27ee3a4.tgz"
 				},
 				{
 					"miui": "V13.0.5.0.SKFEUTF",
@@ -531,7 +531,7 @@
 			"code": "sweet_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["vodafone"],
 			"branch": "euvf",
 			"zone": "2",
 			"show": "1",
@@ -543,7 +543,7 @@
 					"miui": "V14.0.3.0.TKFEUVF",
 					"android": "13.0",
 					"recovery": "miui_SWEETEEAVFGlobal_V14.0.3.0.TKFEUVF_dcdc00f0e6_13.0.zip",
-					"fastboot": ""
+					"fastboot": "sweet_eea_vf_global_images_V14.0.3.0.TKFEUVF_20230804.0000.00_13.0_eea_vodafone_ba6da2bb48.tgz"
 				},
 				{
 					"miui": "V13.0.9.0.SKFEUVF",
@@ -557,7 +557,7 @@
 			"code": "sweet_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["sfr"],
 			"branch": "eusf",
 			"zone": "2",
 			"show": "1",
@@ -569,7 +569,7 @@
 					"miui": "V14.0.5.0.TKFEUSF",
 					"android": "13.0",
 					"recovery": "miui_SWEETEEASFGlobal_V14.0.5.0.TKFEUSF_d862f57b4e_13.0.zip",
-					"fastboot": ""
+					"fastboot": "sweet_eea_sf_global_images_V14.0.5.0.TKFEUSF_20240315.0000.00_13.0_eea_sfr_6c2467ab43.tgz"
 				},
 				{
 					"miui": "V14.0.4.0.TKFEUSF",
@@ -601,7 +601,7 @@
 			"code": "sweet_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["tim"],
 			"branch": "euti",
 			"zone": "2",
 			"show": "1",
@@ -613,7 +613,7 @@
 					"miui": "V14.0.1.0.TKFEUTI",
 					"android": "13.0",
 					"recovery": "miui_SWEETEEATIGlobal_V14.0.1.0.TKFEUTI_f142dd8fbb_13.0.zip",
-					"fastboot": ""
+					"fastboot": "sweet_eea_ti_global_images_V14.0.1.0.TKFEUTI_20230325.0000.00_13.0_eea_tim_4949bc4eea.tgz"
 				},
 				{
 					"miui": "V13.0.2.0.SKFEUTI",
@@ -1078,8 +1078,8 @@
 		{
 			"code": "sweet_cl_en_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "cl",
+			"carrier": ["en"],
 			"branch": "clen",
 			"zone": "2",
 			"show": "1",
@@ -1087,6 +1087,12 @@
 			"zh-cn": "智利Entel运营商定制版",
 			"en-us": "Chile Stable Entel Carrier Edtion",
 			"links": [
+				{
+					"miui": "V14.0.3.0.TKFCLEN",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "sweet_cl_en_global_images_V14.0.3.0.TKFCLEN_20230606.0000.00_13.0_cl_en_af37f093e7.tgz"
+				},
 				{
 					"miui": "V13.0.3.0.SKFCLEN",
 					"android": "12.0",
@@ -1098,8 +1104,8 @@
 		{
 			"code": "sweet_mx_tc_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "mx",
+			"carrier": ["telcel"],
 			"branch": "mxtc",
 			"zone": "2",
 			"show": "1",
@@ -1107,6 +1113,12 @@
 			"zh-cn": "墨西哥Telcel运营商定制版",
 			"en-us": "Mexico Stable Telcel Carrier Edtion",
 			"links": [
+				{
+					"miui": "V14.0.1.0.TKFMXTC",
+					"android": "13.0",
+					"recovery": "sweet_mx_tc_global_images_V14.0.1.0.TKFMXTC_20230420.0000.00_13.0_mx_telcel_d35deaa480.tgz",
+					"fastboot": ""
+				},
 				{
 					"miui": "V13.0.5.0.SKFMXTC",
 					"android": "12.0",
@@ -1142,8 +1154,8 @@
 		{
 			"code": "sweet_mx_at_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "mx",
+			"carrier": ["at"],
 			"branch": "mxat",
 			"zone": "2",
 			"show": "1",
@@ -1151,6 +1163,12 @@
 			"zh-cn": "墨西哥AT&T运营商定制版",
 			"en-us": "Mexico Stable AT&T Carrier Edtion",
 			"links": [
+				{
+					"miui": "V14.0.4.0.TKFMXAT",
+					"android": "13.0",
+					"recovery": "sweet_mx_at_global_images_V14.0.4.0.TKFMXAT_20230606.0000.00_13.0_mx_at_ba704282fc.tgz",
+					"fastboot": ""
+				},
 				{
 					"miui": "V13.0.6.0.SKFMXAT",
 					"android": "12.0",
@@ -1174,8 +1192,8 @@
 		{
 			"code": "sweet_lm_cr_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "lm",
+			"carrier": ["cr"],
 			"branch": "lmcr",
 			"zone": "2",
 			"show": "1",
@@ -1254,8 +1272,8 @@
 		{
 			"code": "sweet_za_vc_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "za",
+			"carrier": ["vc"],
 			"branch": "zavc",
 			"zone": "2",
 			"show": "1",

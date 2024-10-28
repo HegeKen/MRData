@@ -351,7 +351,7 @@
 			"code": "fog_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["h3g"],
 			"branch": "euhg",
 			"zone": "2",
 			"show": "1",
@@ -363,7 +363,7 @@
 					"miui": "V14.0.10.0.TGEEUHG",
 					"android": "13.0",
 					"recovery": "miui_FOGEEAHGGlobal_V14.0.10.0.TGEEUHG_2b3fe24fb6_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_eea_hg_global_images_V14.0.10.0.TGEEUHG_20240904.0000.00_13.0_eea_h3g_7ac1ae88ad.tgz"
 				},
 				{
 					"miui": "V14.0.8.0.TGEEUHG",
@@ -505,7 +505,7 @@
 			"code": "fog_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["tf"],
 			"branch": "eutf",
 			"zone": "2",
 			"show": "1",
@@ -517,7 +517,7 @@
 					"miui": "V14.0.11.0.TGEEUTF",
 					"android": "13.0",
 					"recovery": "miui_FOGEEATFGlobal_V14.0.11.0.TGEEUTF_15b9c6d2b2_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_eea_tf_global_images_V14.0.11.0.TGEEUTF_20240904.0000.00_13.0_eea_tf_9ed1a30baf.tgz"
 				},
 				{
 					"miui": "V14.0.9.0.TGEEUTF",
@@ -579,7 +579,7 @@
 			"code": "fog_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["vodafone"],
 			"branch": "euvf",
 			"zone": "2",
 			"show": "1",
@@ -597,7 +597,7 @@
 					"miui": "V14.0.9.0.TGEEUVF",
 					"android": "13.0",
 					"recovery": "miui_FOGEEAVFGlobal_V14.0.9.0.TGEEUVF_144d9b3b79_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_eea_vf_global_images_V14.0.9.0.TGEEUVF_20240910.0000.00_13.0_eea_vodafone_5743ecb261.tgz"
 				},
 				{
 					"miui": "V14.0.8.0.TGEEUVF",
@@ -659,7 +659,7 @@
 			"code": "fog_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["sfr"],
 			"branch": "eusf",
 			"zone": "2",
 			"show": "1",
@@ -671,7 +671,7 @@
 					"miui": "V14.0.5.0.TGEEUSF",
 					"android": "13.0",
 					"recovery": "miui_FOGEEASFGlobal_V14.0.5.0.TGEEUSF_5b22752855_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_eea_sf_global_images_V14.0.5.0.TGEEUSF_20240708.0000.00_13.0_eea_sfr_71d77de13b.tgz"
 				},
 				{
 					"miui": "V14.0.4.0.TGEEUSF",
@@ -715,7 +715,7 @@
 			"code": "fog_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": [],
+			"carrier": ["tim"],
 			"branch": "euti",
 			"zone": "2",
 			"show": "1",
@@ -727,7 +727,7 @@
 					"miui": "V14.0.1.0.TGEEUTI",
 					"android": "13.0",
 					"recovery": "miui_FOGEEATIGlobal_V14.0.1.0.TGEEUTI_fd7cbc753b_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_eea_ti_global_images_V14.0.1.0.TGEEUTI_20230720.0000.00_13.0_eea_tim_9f08009d2a.tgz"
 				},
 				{
 					"miui": "V13.0.1.0.SGEEUTI",
@@ -1144,8 +1144,8 @@
 		{
 			"code": "fog_cl_en_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "cl",
+			"carrier": ["en"],
 			"branch": "clen",
 			"zone": "2",
 			"show": "1",
@@ -1157,7 +1157,7 @@
 					"miui": "V14.0.4.0.TGECLEN",
 					"android": "13.0",
 					"recovery": "miui_FOGCLENGlobal_V14.0.4.0.TGECLEN_3ba5f5619a_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_cl_en_global_images_V14.0.4.0.TGECLEN_20240407.0000.00_13.0_cl_en_5359640ed5.tgz"
 				},
 				{
 					"miui": "V14.0.3.0.TGECLEN",
@@ -1182,8 +1182,8 @@
 		{
 			"code": "fog_mx_at_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "mx",
+			"carrier": ["at"],
 			"branch": "mxat",
 			"zone": "2",
 			"show": "1",
@@ -1201,7 +1201,7 @@
 					"miui": "V14.0.7.0.TGEMXAT",
 					"android": "13.0",
 					"recovery": "miui_FOGMXATGlobal_V14.0.7.0.TGEMXAT_959439e867_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_mx_at_global_images_V14.0.7.0.TGEMXAT_20240813.0000.00_13.0_mx_at_79ccf81bad.tgz"
 				},
 				{
 					"miui": "V14.0.6.0.TGEMXAT",
@@ -1238,8 +1238,8 @@
 		{
 			"code": "fog_lm_cr_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "lm",
+			"carrier": ["cr"],
 			"branch": "lmcr",
 			"zone": "2",
 			"show": "1",
@@ -1247,6 +1247,12 @@
 			"zh-cn": "拉丁美洲Claro运营商定制版",
 			"en-us": "Latin America Claro Carrier Edition",
 			"links": [
+				{
+					"miui": "V14.0.8.0.TGELMCR",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "fog_lm_cr_global_images_V14.0.8.0.TGELMCR_20240725.0000.00_13.0_lm_cr_652d436278.tgz"
+				},
 				{
 					"miui": "V13.0.4.0.SGELMCR",
 					"android": "12.0",
@@ -1312,8 +1318,8 @@
 		{
 			"code": "fog_za_mt_global",
 			"btag": "F",
-			"region": "global",
-			"carrier": [],
+			"region": "za",
+			"carrier": ["mt"],
 			"branch": "zamt",
 			"zone": "2",
 			"show": "1",
@@ -1325,7 +1331,7 @@
 					"miui": "V14.0.3.0.TGEZAMT",
 					"android": "13.0",
 					"recovery": "miui_FOGZAMTGlobal_V14.0.3.0.TGEZAMT_366e018d14_13.0.zip",
-					"fastboot": ""
+					"fastboot": "fog_za_mt_global_images_V14.0.3.0.TGEZAMT_20240118.0000.00_13.0_za_mt_812ba997bf.tgz"
 				},
 				{
 					"miui": "V14.0.2.0.TGEZAMT",

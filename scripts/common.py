@@ -2405,6 +2405,8 @@ flags = {
     "flare_tr_global":"flare",
     "dada":"dada",
 	"haotian":"haotian",
+    "beryl_ep_stdee":"beryl",
+    "BERYLEPSTDEE":"beryl",
     "rothko_ep_stdee":"rothko",
     "ROTHKOEPSTDEE":"rothko",
     "sapphiren_id_global": "sapphiren",
