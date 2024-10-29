@@ -390,6 +390,26 @@
 					"android": "11.0",
 					"recovery": "miui_SPESMXATGlobal_V13.0.5.0.RGCMXAT_158f2aa8db_11.0.zip",
 					"fastboot": "spes_mx_at_global_images_V13.0.5.0.RGCMXAT_20220816.0000.00_11.0_global_482b4839ad.tgz"
+				}
+			]
+		},
+		{
+			"code": "spes_lm_cr_global",
+			"btag": "F",
+			"region": "lm",
+			"carrier": ["cr"],
+			"branch": "lmcr",
+			"zone": "2",
+			"show": "1",
+			"ep": "0",
+			"zh-cn": "拉丁美洲Claro运营商定制版",
+			"en-us": "Latin America Claro Carrier Edition",
+			"links": [
+				{
+					"miui": "V14.0.6.0.TGCLMCR",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "spes_lm_cr_global_images_V14.0.6.0.TGCLMCR_20240227.0000.00_13.0_lm_cr_ee6a3d9173.tgz"
 				},
 				{
 					"miui": "V13.0.4.0.RGCLMCR",
@@ -408,21 +428,7 @@
 					"android": "11.0",
 					"recovery": "miui_SPESLMCRGlobal_V13.0.2.0.RGCLMCR_ab719d69ca_11.0.zip",
 					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "spes_lm_cr_global",
-			"btag": "F",
-			"region": "lm",
-			"carrier": ["cr"],
-			"branch": "lmcr",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "拉丁美洲Claro运营商定制版",
-			"en-us": "Latin America Claro Carrier Edition",
-			"links": [
+				},
 				{
 					"miui": "V13.0.3.0.SGCLMCR",
 					"android": "12.0",
@@ -464,14 +470,14 @@
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
-			"zh-cn": "拉丁美洲Moviestar运营商定制版",
-			"en-us": "Latin America Moviestar Carrier Edition",
+			"zh-cn": "拉丁美洲Movistar运营商定制版",
+			"en-us": "Latin America Movistar Carrier Edition",
 			"links": [
 				{
 					"miui": "V14.0.3.0.TGCLMMS",
 					"android": "13.0",
 					"recovery": "miui_SPESLMMSGlobal_V14.0.3.0.TGCLMMS_639e2bbaec_13.0.zip",
-					"fastboot": ""
+					"fastboot": "spes_lm_ms_global_images_V14.0.3.0.TGCLMMS_20240328.0000.00_13.0_lm_movistar_2786a4816a.tgz"
 				},
 				{
 					"miui": "V14.0.2.0.TGCLMMS",
