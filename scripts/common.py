@@ -2390,6 +2390,8 @@ flags = {
   'rosemary_p_ru_global': 'rosemary_p',
   'rosemary_p_id_global': 'rosemary_p',
   'rosemary_p_tr_global': 'rosemary_p',
+  "lake_ru_global" : "lake",
+  "LAKERUGlobal" : "lake",
   'surya_global': 'surya',
   'surya_eea_global': 'surya',
   'surya_ru_global': 'surya',
