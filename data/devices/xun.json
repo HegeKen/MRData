@@ -88,6 +88,26 @@
 			]
 		},
 		{
+			"code": "xun_ep_cmcc",
+			"btag": "F",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"branch": "epcmcc",
+			"zone": "1",
+			"show": "0",
+			"ep": "1",
+			"zh-cn": "中国大陆EMCC",
+			"en-us": "China Mainland EMCC",
+			"links": [
+				{
+					"miui": "V14.0.24.5.6.EP.CMCC.LZXY.M84",
+					"android": "13.0",
+					"recovery": "miui_XUNEPCMCC_V14.0.24.5.6.EP.CMCC.LZXY.M84_ddd9518706_13.0.zip",
+					"fastboot": "xun_ep_cmcc_images_V14.0.24.5.6.EP.CMCC.LZXY.M84_20240506.0000.00_13.0_cn_c2527de7f6.tgz"
+				}
+			]
+		},
+		{
 			"code": "xun_tw_global",
 			"btag": "F",
 			"region": "tw",
