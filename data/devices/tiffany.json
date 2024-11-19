@@ -16,6 +16,9 @@
 	"cbid": [],
 	"gdid": "",
 	"pcid": "",
+	"code": "DB",
+	"android": ["7.1", "8.1"],
+	"miui": ["V8.5", "V9.0", "V9.2", "V9.5", "V9.6", "V10.1", "V10.2", "V10.3", "V11.0"],
 	"branches": [
 		{
 			"code": "tiffany",
@@ -23,6 +26,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "cnmp",
+			"tag": "",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -541,6 +545,7 @@
 			"region": "cn",
 			"carrier": [],
 			"branch": "cnms",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",

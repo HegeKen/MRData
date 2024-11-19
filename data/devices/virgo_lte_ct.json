@@ -16,6 +16,9 @@
 	"cbid": [],
 	"gdid": "",
 	"pcid": "",
+	"code": "XJ",
+	"android": ["4.4"],
+	"miui": ["V6.5", "V6.6", "V6.7", "V7.0", "V7.1"],
 	"branches": [
 		{
 			"code": "virgo_lte_ct",
@@ -23,6 +26,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "cnmp",
+			"tag": "",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -175,6 +179,7 @@
 			"region": "cn",
 			"carrier": [],
 			"branch": "cnms",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",

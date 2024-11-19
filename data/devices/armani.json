@@ -16,7 +16,10 @@
   "cbid": [],
   "gdid": "",
   "pcid": "",
-  "branches": [
+  "code": "HC",
+	"android": ["4.3", "4.4"],
+	"miui": ["V6.6", "V6.7", "V7.0", "V7.1", "V7.2", "V7.3", "V7.5", "V8.0", "V8.1", "V8.2", "V8.5", "V9.2"],
+	"branches": [
     {
       "code": "armani",
       "btag": "X",
@@ -28,6 +31,7 @@
         "chinaunicom"
       ],
       "branch": "cnmp",
+			"tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -666,6 +670,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "cnms",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -896,6 +901,7 @@
       "region": "global",
       "carrier": [],
       "branch": "mgbb",
+			"tag": "",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -1210,6 +1216,7 @@
       "region": "global",
       "carrier": [],
       "branch": "mgbs",
+			"tag": "MIXM",
       "zone": "2",
       "show": "1",
       "ep": "0",

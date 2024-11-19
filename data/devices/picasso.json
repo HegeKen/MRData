@@ -28,6 +28,9 @@
 		"miui_PICASSO48MPRE_22.6.20_8b247a0d91_12.0.zip",
 		"miui_PICASSO48MPRE_22.6.17_e8fa6d7982_12.0.zip"
 	],
+	"code": "GI",
+	"android": ["10.0", "11.0", "12.0"],
+	"miui": ["V11.0", "V11.1", "V12.0", "V12.1", "V12.5", "V13.0"],
 	"branches": [
 		{
 			"code": "picasso",
@@ -35,6 +38,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "cnmp",
+			"tag": "",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -2341,6 +2345,7 @@
 			"region": "cn",
 			"carrier": [],
 			"branch": "cnms",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -2529,6 +2534,7 @@
 			"region": "cn",
 			"carrier": ["chinatelecom"],
 			"branch": "ctce",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -2549,6 +2555,7 @@
 			"region": "cn",
 			"carrier": ["chinamobile"],
 			"branch": "cmce",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",

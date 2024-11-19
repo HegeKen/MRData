@@ -35,6 +35,48 @@ sdk = {
   '2': '9'
 }
 
+def android(ver):
+	if ver == "15.0":
+		return "V"
+	elif ver == "14.0":
+		return "U"
+	elif ver == "13.0":
+		return "T"
+	elif ver == "12.0":
+		return "S"
+	elif ver == "11.0":
+		return "R"
+	elif ver == "10.0":
+		return "Q"
+	elif ver == "9.0":
+		return "P"
+	elif ver == "8.1":
+		return "O"
+	elif ver == "8.0":
+		return "O"
+	elif ver == "7.1":
+		return "N"
+	elif ver == "7.0":
+		return "N"
+	elif ver == "6.0":
+		return "M"
+	elif ver == "5.1":
+		return "L"
+	elif ver == "5.0":
+		return "L"
+	elif ver == "4.4":
+		return "K"
+	elif ver == "4.3":
+		return "J"
+	elif ver == "4.2":
+		return "J"
+	elif ver == "4.1":
+		return "J"
+	elif ver == "4.0":
+		return "I"
+	else:
+		return "U"
+
 currentStable = ["pond", 'klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',

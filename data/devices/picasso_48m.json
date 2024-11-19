@@ -16,6 +16,9 @@
 	"cbid": [],
 	"gdid": "",
 	"pcid": "",
+	"code": "GI",
+	"android": ["10.0", "11.0", "12.0"],
+	"miui": ["V11.1", "V12.0", "V12.1", "V12.5", "V13.0"],
 	"branches": [
 		{
 			"code": "picasso_48m",
@@ -23,6 +26,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "cnmp",
+			"tag": "",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -1153,6 +1157,7 @@
 			"region": "cn",
 			"carrier": [],
 			"branch": "cnms",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",

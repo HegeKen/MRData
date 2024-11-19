@@ -18,7 +18,10 @@
   "cbid": [],
   "gdid": "",
   "pcid": "",
-  "branches": [
+  "code": "JL",
+	"android": ["10.0", "11.0", "12.0"],
+	"miui": ["V11.0", "V12.0", "V12.5", "V13.0"],
+	"branches": [
     {
       "code": "bomb",
       "btag": "X",
@@ -30,6 +33,7 @@
         "chinaunicom"
       ],
       "branch": "cnmp",
+			"tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -2006,6 +2010,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "cnms",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -2142,6 +2147,7 @@
         "chinatelecom"
       ],
       "branch": "ctce",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -2176,6 +2182,7 @@
         "chinamobile"
       ],
       "branch": "cmce",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",

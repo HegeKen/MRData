@@ -16,13 +16,17 @@
   "cbid": [],
   "gdid": "10005",
   "pcid": "",
-  "branches": [
+  "code": "CT",
+	"android": ["10.0", "11.0"],
+	"miui": ["V12.0", "V12.5"],
+	"branches": [
     {
       "code": "cattail_in_global",
       "btag": "F",
       "region": "in",
       "carrier": [],
       "branch": "inds",
+			"tag": "INXM",
       "zone": "2",
       "show": "1",
       "ep": "0",

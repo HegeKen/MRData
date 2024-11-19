@@ -16,7 +16,10 @@
   "cbid": [],
   "gdid": "",
   "pcid": "",
-  "branches": [
+  "code": "MV",
+	"android": ["13.0"],
+	"miui": ["V14.1"],
+	"branches": [
     {
       "code": "babylon",
       "btag": "X",
@@ -28,6 +31,7 @@
         "chinaunicom"
       ],
       "branch": "cnmp",
+			"tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -76,6 +80,7 @@
         "chinaunicom"
       ],
       "branch": "cnmo",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -128,6 +133,7 @@
         "chinatelecom"
       ],
       "branch": "ctce",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -172,6 +178,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "stde",
+			"tag": "",
 			"zone": "1",
 			"show": "1",
 			"ep": "1",
@@ -198,6 +205,7 @@
         "chinaunicom"
       ],
       "branch": "cndm",
+			"tag": "CNDM",
       "zone": "1",
       "show": "0",
       "ep": "0",

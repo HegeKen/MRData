@@ -20,7 +20,10 @@
   ],
   "gdid": "",
   "pcid": "",
-  "branches": [
+  "code": "JT",
+	"android": ["11.0", "12.0", "13.0"],
+	"miui": ["V12.0", "V12.5", "V13.0", "V13.1", "V14.0"],
+	"branches": [
     {
       "code": "cetus",
       "btag": "X",
@@ -32,6 +35,7 @@
         "chinaunicom"
       ],
       "branch": "cnmp",
+			"tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1054,6 +1058,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "cnmo",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1086,6 +1091,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "cnms",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1180,6 +1186,7 @@
         "chinatelecom"
       ],
       "branch": "ctce",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1232,6 +1239,7 @@
         "chinamobile"
       ],
       "branch": "cmce",
+			"tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",

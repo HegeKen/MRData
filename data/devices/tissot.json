@@ -16,6 +16,9 @@
 	"cbid": [],
 	"gdid": "",
 	"pcid": "",
+	"code": "DH",
+	"android": ["8.0", "9.0"],
+	"miui": ["V9.5", "V9.6", "V10.0"],
 	"branches": [
 		{
 			"code": "tissot",
@@ -23,6 +26,7 @@
 			"region": "",
 			"carrier": [],
 			"branch": "mgbb",
+			"tag": "",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -85,6 +89,7 @@
 			"region": "",
 			"carrier": [],
 			"branch": "mgbs",
+			"tag": "MIXM",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -212,10 +217,10 @@
 					"fastboot": "tissot_images_V9.5.11.0.ODHMIFA_20180504.0000.00_8.0_1a04581058.tgz"
 				},
 				{
-					"miui": "V.9.5.10.0.ODHMIFA",
+					"miui": "V9.5.10.0.ODHMIFA",
 					"android": "8.0",
 					"recovery": "",
-					"fastboot": "tissot_images_V.9.5.10.0.ODHMIFA_20180405.0000.00_8.0_b9e697ed56.tgz"
+					"fastboot": "tissot_images_V9.5.10.0.ODHMIFA_20180405.0000.00_8.0_b9e697ed56.tgz"
 				},
 				{
 					"miui": "V9.6.8.0.ODHMIFE",

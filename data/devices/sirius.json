@@ -16,6 +16,9 @@
 	"cbid": [],
 	"gdid": "",
 	"pcid": "",
+	"code": "EB",
+	"android": ["8.1", "9.0", "10.0"],
+	"miui": ["V9.5", "V10.0", "V10.2", "V10.3", "V11.0", "V12.0", "V12.5"],
 	"branches": [
 		{
 			"code": "sirius",
@@ -23,6 +26,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "cnmp",
+			"tag": "",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -1603,6 +1607,7 @@
 			"region": "cn",
 			"carrier": [],
 			"branch": "cnms",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",

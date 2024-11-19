@@ -16,6 +16,9 @@
 	"cbid": [],
 	"gdid": "10027",
 	"pcid": "",
+	"code": "FQ",
+	"android": ["9.0", "10.0", "11.0"],
+	"miui": ["V10.3", "V11.0", "V12.0"],
 	"branches": [
 		{
 			"code": "laurel_sprout_global",
@@ -23,6 +26,7 @@
 			"region": "",
 			"carrier": [],
 			"branch": "mgbs",
+			"tag": "MIXM",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -130,6 +134,12 @@
 					"android": "11.0",
 					"recovery": "miui_LAURELSPROUTGlobal_V12.0.8.0.RFQMIXM_70d2678cd2_11.0.zip",
 					"fastboot": "laurel_sprout_global_images_V12.0.8.0.RFQMIXM_20210409.0000.00_11.0_b4c6e3d5b3.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.RFQMIXM",
+					"android": "11.0",
+					"recovery": "",
+					"fastboot": "laurel_sprout_global_images_V12.0.2.0.RFQMIXM_20201226.0000.00_11.0_9a673f1503.tgz"
 				},
 				{
 					"miui": "V11.0.23.0.QFQMIXM",
@@ -253,6 +263,7 @@
 			"region": "",
 			"carrier": [],
 			"branch": "eeas",
+			"tag": "EUXM",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -368,6 +379,12 @@
 					"fastboot": "laurel_sprout_eea_global_images_V12.0.3.0.RFQEUXM_20210129.0000.00_11.0_e5463f39f1.tgz"
 				},
 				{
+					"miui": "V12.0.1.0.RFQEUXM",
+					"android": "11.0",
+					"recovery": "",
+					"fastboot": "laurel_sprout_eea_global_images_V12.0.1.0.RFQEUXM_20201227.0000.00_11.0_4d92859652.tgz"
+				},
+				{
 					"miui": "V11.0.10.0.QFQEUXM",
 					"android": "10.0",
 					"recovery": "miui_LAURELSPROUTEEAGlobal_V11.0.10.0.QFQEUXM_6616c313be_10.0.zip",
@@ -435,6 +452,7 @@
 			"region": "",
 			"carrier": [],
 			"branch": "mxtc",
+			"tag": "MXTC",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",

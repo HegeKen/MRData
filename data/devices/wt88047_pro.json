@@ -21,6 +21,9 @@
 		"wt86047_pro_images_V9.2.3.0.LHJCNEK_20171229.0000.00_5.1_cn_e803177f27.tgz",
 		"wt88047_images_V9.2.3.0.KHJCNEK_20171229.0000.00_4.4_cn_99c7d8c5eb.tgz"
 	],
+	"code": "HJ",
+	"android": ["5.1"],
+	"miui": ["V7.3", "V7.5", "V8.0", "V8.1", "V8.2", "V8.5", "V9.2"],
 	"branches": [
 		{
 			"code": "wt88047_pro",
@@ -28,6 +31,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "cnmp",
+			"tag": "",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -372,6 +376,7 @@
 			"region": "cn",
 			"carrier": [],
 			"branch": "cnms",
+			"tag": "CNXM",
 			"zone": "1",
 			"show": "1",
 			"ep": "0",
@@ -464,6 +469,7 @@
 			"region": "",
 			"carrier": [],
 			"branch": "mgbb",
+			"tag": "",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -676,6 +682,7 @@
 			"region": "global",
 			"carrier": [],
 			"branch": "mgbs",
+			"tag": "MIXM",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",

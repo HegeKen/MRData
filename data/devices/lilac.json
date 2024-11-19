@@ -16,6 +16,9 @@
 	"cbid": [],
 	"gdid": "11767",
 	"pcid": "",
+	"code": "KN",
+	"android": ["12.0", "13.0"],
+	"miui": ["V13.0", "V14.0"],
 	"branches": [
 		{
 			"code": "lilac_jp_global",
@@ -23,6 +26,7 @@
 			"region": "jp",
 			"carrier": [],
 			"branch": "japs",
+			"tag": "JPXM",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -85,12 +89,19 @@
 			"region": "jp",
 			"carrier": ["sb"],
 			"branch": "jpsb",
+			"tag": "JPSB",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
 			"zh-cn": "日本SoftBank运营商定制版",
 			"en-us": "Japan Stable SoftBank Carrier Edtion",
 			"links": [
+				{
+					"miui": "V14.0.24.0.TKNJPSB",
+					"android": "13.0",
+					"recovery": "miui_LILACJPSBGlobal_V14.0.24.0.TKNJPSB_47cc1f3128_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.15.0.TKNJPSB",
 					"android": "13.0",
