@@ -12,7 +12,7 @@ devices = ["aristotle","garnet","zircon","gold","river","xun","babylon","corot",
            "opal","xaga","sunstone","ruby","redwood","lmi","cezanne","apollo","alioth","haydn","ares","munch","ingres","rubens",
            "matisse","diting","mondrian","socrates","rembrandt","yunluo","ice","angelicain","frost","citrus","evergreen","rosemary_p",
            "surya","vayu","moonstone"]
-base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
+base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0",
            "Connection": "close"}
 

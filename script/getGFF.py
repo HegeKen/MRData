@@ -2,7 +2,7 @@ import requests
 import json
 from sys import platform
 
-base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
+base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
 carriers = ["","chinatelecom","chinaunicom","chinamobile"]
 
 

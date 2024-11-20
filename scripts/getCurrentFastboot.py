@@ -9,7 +9,7 @@ def chekc_url_exits(url):
     urls.append(url)
 
 def genlink(codename, code, btag, region, carriers):
-  base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
+  base_url = 'https://update.intl.miui.com/updates/miota-fullrom.php?d='
   if not carriers:
     url = base_url + code + '&b=' + btag + '&r=' + region + '&n='
     chekc_url_exits(url)
@@ -18,7 +18,7 @@ def genlink(codename, code, btag, region, carriers):
       url = base_url + code + '&b=' + btag + '&r=' + region + '&n=' + carrier
       chekc_url_exits(url)
 
-base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
+base_url = 'https://update.intl.miui.com/updates/miota-fullrom.php?d='
 for device in common.currentStable:
   devdata = common.loadJson(device)
   codename = devdata["codename"]

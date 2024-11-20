@@ -5,7 +5,7 @@ from sys import platform
 
 miui_key = b'miuiotavalided11'
 miui_iv = b'0102030405060708'
-check_url = 'https://update.miui.com/updates/miotaV3.php'
+check_url = 'https://update.intl.miui.com/updates/miotaV3.php'
 
 
 for device in common.test:

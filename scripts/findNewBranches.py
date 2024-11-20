@@ -1,7 +1,7 @@
 import common
 from datetime import datetime
 
-base_url = 'https://update.miui.com/updates/miota-fullrom.php?d='
+base_url = 'https://update.intl.miui.com/updates/miota-fullrom.php?d='
 
 carriers = ['','chinatelecom','chinaunicom','chinamobile']
 cnbranches = ['','_demo','_ep_yunke','_ep_stdee', 'ep_cjcc', '_ep_xy','_ep_kywl','_ep_cqrcb','_ep_ec','_ep_sxht','_ep_yfan','_ep_yx','_ep_stdce',
