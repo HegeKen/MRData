@@ -275,6 +275,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "sdtc",
+			"tag": "",
 			"zone": "1",
 			"show": "0",
 			"ep": "1",
@@ -316,6 +317,7 @@
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"branch": "xdja",
+			"tag": "",
 			"zone": "1",
 			"show": "0",
 			"ep": "1",
@@ -1101,7 +1103,7 @@
 		{
 			"code": "light_cl_en_global",
 			"btag": "F",
-			"region": "cn",
+			"region": "cl",
 			"carrier": [],
 			"branch": "clen",
 			"tag": "CLEN",
@@ -1144,6 +1146,12 @@
 			"zh-cn": "拉丁美洲Claro运营商定制版",
 			"en-us": "Latin America Claro Carrier Edition",
 			"links": [
+				{
+					"miui": "V14.0.2.0.TLSLMCR",
+					"android": "13.0",
+					"recovery": "miui_LIGHTLMCRGlobal_V14.0.2.0.TLSLMCR_919dc6e48e_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V13.0.6.0.SLSLMCR",
 					"android": "12.0",

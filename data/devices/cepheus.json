@@ -3298,6 +3298,12 @@
           "android": "10.0",
           "recovery": "miui_CEPHEUSEEAORGlobal_V12.0.6.0.QFAEUOR_efef34dc1a_10.0.zip",
           "fastboot": "cepheus_eea_or_global_images_V12.0.6.0.QFAEUOR_20210828.0000.00_10.0_eea_9f7f7336c0.tgz"
+        },
+        {
+          "miui": "V10.2.2.0.PFAEUOR",
+          "android": "9.0",
+          "recovery": "miui_CEPHEUSEEAORGlobal_V10.2.2.0.PFAEUOR_89d20e2933_9.0.zip",
+          "fastboot": ""
         }
       ]
     },
@@ -3320,14 +3326,20 @@
           "android": "10.0",
           "recovery": "miui_CEPHEUSEEAVFGlobal_V12.0.6.0.QFAEUVF_4a7512ad1d_10.0.zip",
           "fastboot": "cepheus_eea_vf_global_images_V12.0.6.0.QFAEUVF_20210506.0000.00_10.0_eea_1757fd6d37.tgz"
+        },
+        {
+          "miui": "V10.2.18.0.PFAEUVF",
+          "android": "9.0",
+          "recovery": "miui_CEPHEUSEEAVFGlobal_V10.2.18.0.PFAEUVF_9cd204cee9_9.0.zip",
+          "fastboot": ""
         }
       ]
     },
     {
       "code": "cepheus_eea_hg_global",
       "btag": "F",
-      "region": "hg",
-      "carrier": [],
+      "region": "eea",
+      "carrier": ["hg"],
       "pn": "cepheus_eea",
       "branch": "euhg",
 			"tag": "EUHG",
@@ -3458,6 +3470,12 @@
           "android": "10.0",
           "recovery": "miui_CEPHEUSLMCRGlobal_V11.0.9.0.QFALMCR_7c437e16a6_10.0.zip",
           "fastboot": "cepheus_lm_cr_global_images_V11.0.9.0.QFALMCR_20210818.0000.00_10.0_global_363813ff0e.tgz"
+        },
+        {
+          "miui": "V10.2.9.0.PFALMCR",
+          "android": "9.0",
+          "recovery": "miui_CEPHEUSLMCRGlobal_V10.2.9.0.PFALMCR_833932ce3b_9.0.zip",
+          "fastboot": ""
         }
       ]
     },

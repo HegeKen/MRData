@@ -18,7 +18,7 @@
 	"pcid": "",
 	"code": "HB",
 	"android": ["4.2", "4.4"],
-	"miui": [""],
+	"miui": ["V6.6", "V7.3"],
 	"branches": [
 		{
 			"code": "wt98007",
@@ -824,6 +824,7 @@
 			"region": "",
 			"carrier": [],
 			"branch": "sggb",
+			"tag": "",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -839,11 +840,12 @@
 			]
 		},
 		{
-			"code": "HM2013023_sg_global",
+			"code": "wt98007_sg_global",
 			"btag": "F",
 			"region": "",
 			"carrier": [],
 			"branch": "sggs",
+			"tag": "",
 			"zone": "2",
 			"show": "1",
 			"ep": "0",
@@ -919,7 +921,7 @@
 			]
 		},
 		{
-			"code": "HM2013023_global",
+			"code": "wt98007_global",
 			"btag": "F",
 			"region": "global",
 			"carrier": [],

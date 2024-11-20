@@ -76,8 +76,480 @@ def android(ver):
 		return "I"
 	else:
 		return "U"
+   
 
-currentStable = ["pond", 'klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
+branches = [
+  {
+    "code": "",
+    "tag": "CNXM",
+    "region": "cn",
+    "carrier": ["","chinatelecom","chinamobile","chinaunicom"],
+    "zone": "1"
+  },
+  {
+    "code": "_demo",
+    "tag": "CNDM",
+    "region": "cn",
+    "carrier": ["","chinatelecom","chinamobile","chinaunicom"],
+    "zone": "1"
+  },
+  {
+    "code": "_tw_global",
+    "tag": "TWXM",
+    "region": "tw",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_global",
+    "tag": "MIXM",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_global",
+    "tag": "EUXM",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_hg_global",
+    "tag": "EUHG",
+    "region": "eea",
+    "carrier": [
+      "h3g"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_or_global",
+    "tag": "EUOR",
+    "region": "eea",
+    "carrier": [
+      "orange"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_tf_global",
+    "tag": "EUTF",
+    "region": "eea",
+    "carrier": [
+      "tf"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_by_global",
+    "tag": "EUBY",
+    "region": "eea",
+    "carrier": [
+      "by"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_vf_global",
+    "tag": "EUVF",
+    "region": "eea",
+    "carrier": [
+      "vodafone"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_sf_global",
+    "tag": "EUSF",
+    "region": "eea",
+    "carrier": [
+      "sfr"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_ti_global",
+    "tag": "EUTI",
+    "region": "eea",
+    "carrier": [
+      "tim"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_ru_global",
+    "tag": "RUXM",
+    "region": "ru",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_id_global",
+    "tag": "IDXM",
+    "region": "id",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_tr_global",
+    "tag": "TRXM",
+    "region": "tr",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_cl_en_global",
+    "tag": "CLEN",
+    "region": "cl",
+    "carrier": [
+      "en"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_lm_cr_global",
+    "tag": "LMCR",
+    "region": "lm",
+    "carrier": [
+      "cr"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_mx_at_global",
+    "tag": "MXAT",
+    "region": "mx",
+    "carrier": [
+      "at"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_in_global",
+    "tag": "INXM",
+    "region": "in",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "in_in_global",
+    "tag": "INXM",
+    "region": "in",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_mx_tc_global",
+    "tag": "MXTC",
+    "region": "mx",
+    "carrier": [
+      "telcel"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_in_rf_global",
+    "tag": "INRF",
+    "region": "in",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_tw_global",
+    "tag": "TWXM",
+    "region": "tw",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_global",
+    "tag": "MIXM",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_eea_global",
+    "tag": "EUXM",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_eea_hg_global",
+    "tag": "EUHG",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_eea_or_global",
+    "tag": "EUOR",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_eea_tf_global",
+    "tag": "EUTF",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_eea_vf_global",
+    "tag": "EUVF",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_eea_sf_global",
+    "tag": "EUSF",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_eea_ti_global",
+    "tag": "EUTI",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_ru_global",
+    "tag": "RUXM",
+    "region": "ru",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_id_global",
+    "tag": "IDXM",
+    "region": "id",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_tr_global",
+    "tag": "TRXM",
+    "region": "tr",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_th_as_global",
+    "tag": "THAS",
+    "region": "th",
+    "carrier": [
+      "as"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "n_cl_en_global",
+    "tag": "CLEN",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_lm_cr_global",
+    "tag": "LMCR",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "n_mx_at_global",
+    "tag": "MXAT",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_tw_global",
+    "tag": "TWXM",
+    "region": "tw",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_eea_global",
+    "tag": "EUXM",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_eea_or_global",
+    "tag": "EUOR",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_eea_tf_global",
+    "tag": "EUTF",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_eea_vf_global",
+    "tag": "EUVF",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_eea_sf_global",
+    "tag": "EUSF",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_eea_ti_global",
+    "tag": "EUTI",
+    "region": "eea",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_ru_global",
+    "tag": "RUXM",
+    "region": "ru",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_tr_global",
+    "tag": "TRXM",
+    "region": "tr",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "g_lm_cr_global",
+    "tag": "LMCR",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_hg_global",
+    "tag": "EUHG",
+    "region": "eea",
+    "carrier": ["h3g"],
+    "zone": "2"
+  },
+  {
+    "code": "_jp_global",
+    "tag": "JPXM",
+    "region": "jp",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_za_mt_global",
+    "tag": "ZAMT",
+    "region": "za",
+    "carrier": [
+      "mt"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_lm_ms_global",
+    "tag": "LMMS",
+    "region": "lm",
+    "carrier": [
+      "movistar"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_gt_tg_global",
+    "tag": "GTTG",
+    "region": "gt",
+    "carrier": [
+      "gt"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_za_vc_global",
+    "tag": "ZAVC",
+    "region": "za",
+    "carrier": [
+      "vc"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_jp_sb_global",
+    "tag": "JPSB",
+    "region": "jp",
+    "carrier": [
+      "sb"
+    ],
+    "zone": "2"
+  },
+  {
+    "code": "_jp_kd_global",
+    "tag": "JPKD",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_kr_gu_global",
+    "tag": "KRGU",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_kr_kt_global",
+    "tag": "KRKT",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_kr_sk_global",
+    "tag": "KRSK",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_h3g_global",
+    "tag": "MIHG",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_in_fk_global",
+    "tag": "INFK",
+    "region": "in",
+    "carrier": [],
+    "zone": "2"
+  },
+  {
+    "code": "_kr_global",
+    "tag": "KRXM",
+    "region": "global",
+    "carrier": [],
+    "zone": "2"
+  }
+]
+
+currentStable = ['klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -93,7 +565,7 @@ newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 
 onedevices = ["klein", "blue", "tissot", "jasmine",
-              "laurel", "tiare", "ice", "water", "pond"]
+              "laurel", "tiare", "ice", "water"]
 
 cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
               'liuqin', 'manet', 'matisse', 'mayfly', 'mona', 'odin', 'pearl', 'rembrandt', 'rubens', 'socrates', 'thor',
@@ -124,7 +596,7 @@ fullDevices = [
                "mocha", "mojito", "mona", "mondrian", "monet", "moonstone", "munch", "nabu", "natrium",
                "nikel", "nitrogen", "nuwa", "odin", "olive", "olivelite", "olivewood", "omega", "onc", "onclite", "opal", "oxygen", "pearl",
                "perseus", "phoenix", "picasso_48m", "picasso", "pine", "pipa", "pisces", "pissarro", "pissarroin",
-               "platina", "plato", "polaris", "pond", "prada", "psyche", "pyxis", "raphael", "raphaels", "redwood",
+               "platina", "plato", "polaris", "prada", "psyche", "pyxis", "raphael", "raphaels", "redwood",
                "rembrandt", "renoir", "riva", "rock", "rolex", "rosemary_p", "rosemary", "rosy", "rubens", "ruby",
                "sagit", "sakura", "santoni", "sapphire", "sapphiren", "scorpio", "sea", "selene", "shiva", "sirius",
                "sky", "socrates", "spes", "spesn", "star", "sunstone", "surya", "sweet_k6a", "sweet", "taoyao", "tapas", "taurus", "thor",
@@ -205,6 +677,20 @@ flags = {
   "spark_ru_global": "spark",
   "FLARERUGlobal": "flare",
   "SPARKRUGlobal": "spark",
+  'THORDEMO':'thor',
+  'XAGADEMO':'xaga',
+  'DITINGDEMO':'diting',
+  'LAURELSPROUTMXTCGlobal':'laurel_sprout',
+  "cupid_cl_en_global" : "cupid",
+  "CUPIDCLENGlobal" : "cupid",
+  "garnet_dc_global" : "garnet",
+  "GARNETDCGlobal" : "garnet",
+  "moon_cl_en_global" : "moon",
+  "MOONLMCRGlobal" : "moon",
+  "sky_lm_cr_global" : "sky",
+  "SKYLMCRGlobal" : "sky",
+  "lake_dc_global" : "lake",
+  "LAKEDCGlobal" : "lake",
   "lake_id_global": "lake",
   "LAKEIDGlobal": "lake",
   "rothko_eea_global": "rothko",

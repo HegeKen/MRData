@@ -17,8 +17,8 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "FC",
-	"android": ["V10.3", "V11.0", "V11.3", "V12.0", "V12.5"],
-	"miui": [""],
+	"android": ["9.0", "10.0", "11.0"],
+	"miui": ["V10.3", "V11.0", "V11.3", "V12.0", "V12.5"],
 	"branches": [
 		{
 			"code": "pyxis",
@@ -1861,7 +1861,7 @@
 					"fastboot": "pyxis_images_V12.5.3.0.RFCCNXM_20210624.0000.00_11.0_cn_03df66d909.tgz"
 				},
 				{
-					"miui": "V12.5.2.0.RFCCNXM",
+					"miui": "V12.5.1.0.RFCCNXM",
 					"android": "11.0",
 					"recovery": "miui_PYXIS_V12.5.1.0.RFCCNXM_35145e1d67_11.0.zip",
 					"fastboot": ""
@@ -2240,6 +2240,12 @@
 					"android": "10.0",
 					"recovery": "miui_PYXISEEATFGlobal_V11.0.7.0.QFCEUTF_fc71d94165_10.0.zip",
 					"fastboot": "pyxis_eea_tf_global_images_V11.0.7.0.QFCEUTF_20210726.0000.00_10.0_eea_15d11fb8eb.tgz"
+				},
+				{
+					"miui": "V11.3.2.0.PFCEUTF",
+					"android": "9.0",
+					"recovery": "miui_PYXISEEATFGlobal_V11.3.2.0.PFCEUTF_21f3b53c97_9.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -2261,6 +2267,18 @@
 					"android": "11.0",
 					"recovery": "miui_PYXISEEAVFGlobal_V12.5.7.0.RFCEUVF_ab7f21de3d_11.0.zip",
 					"fastboot": "pyxis_eea_vf_global_images_V12.5.7.0.RFCEUVF_20211118.0000.00_11.0_eea_11d84482bd.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RFCEUVF",
+					"android": "11.0",
+					"recovery": "miui_PYXISEEAVFGlobal_V12.5.3.0.RFCEUVF_1a89336d04_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.5.0.QFCEUVF",
+					"android": "10.0",
+					"recovery": "miui_PYXISEEAVFGlobal_V12.0.5.0.QFCEUVF_2fb6f09d9a_10.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -2282,6 +2300,18 @@
 					"android": "11.0",
 					"recovery": "miui_PYXISEEASFGlobal_V12.5.3.0.RFCEUSF_a06e33572a_11.0.zip",
 					"fastboot": "pyxis_eea_sf_global_images_V12.5.3.0.RFCEUSF_20210918.0000.00_11.0_eea_fe7c0c4822.tgz"
+				},
+				{
+					"miui": "V11.0.4.0.QFCEUSF",
+					"android": "10.0",
+					"recovery": "miui_PYXISEEASFGlobal_V11.0.4.0.QFCEUSF_5f97ac114c_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.3.2.0.PFCEUSF",
+					"android": "9.0",
+					"recovery": "miui_PYXISEEASFGlobal_V11.3.2.0.PFCEUSF_ccd7aeee8c_9.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
