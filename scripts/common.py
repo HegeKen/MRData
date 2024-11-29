@@ -549,7 +549,7 @@ branches = [
   }
 ]
 
-currentStable = ['warm', 'klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
+currentStable = ['klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emerald', 'gold', 'garnet', 'zircon', 'gale', 'aristotle',
                  'umi', 'cmi', 'monet', 'vangogh', 'cas', 'thyme', 'venus', 'courbet', 'star', 'renoir', 'agate', 'vili', 'lisa',
                  'pissarroin', 'cupid', 'zeus', 'psyche', 'daumier', 'mayfly', 'unicorn', 'thor', 'taoyao', 'plato',
                  'fuxi', 'nuwa', 'ishtar', 'cetus', 'odin', 'zizhan', 'babylon', 'nabu', 'elish', 'enuma', 'dagu', 'pipa',
@@ -564,7 +564,7 @@ currentStable = ['warm', 'klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 
-onedevices = ['warm', "klein", "blue", "tissot", "jasmine",
+onedevices = ["klein", "blue", "tissot", "jasmine",
               "laurel", "tiare", "ice", "water"]
 
 cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
@@ -713,6 +713,8 @@ flags = {
   "MIRO" : "miro",
   "rodin" : "rodin",
   "RODIN" : "rodin",
+  "warm_in_global":"warm",
+  "WARMINGlobal":"warm",
   "lake_tr_global" : "lake",
   "LAKETRGlobal" : "lake",
   "dada_ep_stdee" : "dada",
