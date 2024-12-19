@@ -10,6 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
 from datetime import datetime
+from requests.adapters import HTTPAdapter
 
 test = ['marble']
 sdk = {
@@ -564,7 +565,7 @@ currentStable = ['klein', 'air', 'blue', 'water', 'sapphire', 'sapphiren', 'emer
 newDevices = ['air', 'gale', 'gust', 'freeguy', 'sapphiren', 'sapphire',
               'aristotle', 'garnet', 'zircon', 'gold']
 
-onedevices = ["klein", "blue", "tissot", "jasmine",
+onedevices = ["blue", "tissot", "jasmine",
               "laurel", "tiare", "ice", "water"]
 
 cn_devices = ['babylon', 'cas', 'cetus', 'dagu', 'daumier', 'duchamp', 'elish', 'enuma', 'evergo', 'haydnin', 'lightcm',
@@ -3170,22 +3171,28 @@ def getDeviceCode(filename):
 
 
 def getFastboot(url):
+  s = requests.Session()
+  s.mount('http://', HTTPAdapter(max_retries=3))
+  s.mount('https://', HTTPAdapter(max_retries=3))
   headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
          'Connection': 'close'}
-  response = requests.post(url, headers=headers)
-  if (response.status_code == 200):
-    content = response.content.decode('utf8')
-    if content == '':
-      i = 0
-    else:
-      data = json.loads(content)['LatestFullRom']
-      if len(data) > 0:
-        checkExist(data['filename'])
-      else:
+  try:
+    response = s.post(url, headers=headers, json=True)
+    if (response.status_code == 200):
+      content = response.content.decode('utf8')
+      if content == '':
         i = 0
-  else:
+      else:
+        data = json.loads(content)['LatestFullRom']
+        if len(data) > 0:
+          checkExist(data['filename'])
+        else:
+          i = 0
+    else:
+      i = 0
+  except requests.exceptions.RequestException as e:
     i = 0
-  response.close()
+  s.close()
 
 
 def checkExist(filename):
