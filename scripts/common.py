@@ -108,6 +108,13 @@ branches = [
     "carrier": [],
     "zone": "2"
   },
+    {
+    "code": "_dc_global",
+    "tag": "MIDC",
+    "region": "global_dc",
+    "carrier": [""],
+    "zone": "2"
+  },
   {
     "code": "_eea_global",
     "tag": "EUXM",
