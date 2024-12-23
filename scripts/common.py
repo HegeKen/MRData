@@ -746,6 +746,8 @@ flags = {
   "AIRLMCRGlobal":"air",
   "air_dc_global":"air",
   "AIRDCGlobal":"air",
+  "amethyst_in_global" : "amethyst",
+  "AMETHYSTINGlobal" : "amethyst",
   "aristotle_lm_cr_global":"aristotle",
   "ARISTOTLELMCRGlobal":"aristotle",
   "aristotle_dc_global":"aristotle",
