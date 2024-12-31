@@ -3419,7 +3419,7 @@ def getFromApi(encrypted_data, device):
       return 1
     else:
       return 0
-  response.close(data)
+  response.close()
 
 
 def getFromApi2(encrypted_data, device):
