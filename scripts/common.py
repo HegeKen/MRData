@@ -1540,6 +1540,10 @@ flags = {
 	"beryl_dc_global":"beryl",
 	"BERYLEEAGlobal":"beryl",
 	"beryl_eea_global":"beryl",
+  "rodin_global":"rodin",
+	"rodin_eea_global":"rodin",
+	"RIDONGlobal":"rodin",
+	"RIDONEEAGlobal":"rodin",
   'MI6': 'sagit', 'MI6Alpha': 'sagit', 'MI6Global': 'sagit',
   'MI6X': 'wayne',
   'MI8': 'dipper', 'DIPPER': 'dipper', 'MI8Global': 'dipper', 'MI8RUGlobal': 'dipper',
@@ -3393,8 +3397,9 @@ def OTAFormer(device, code, region, branch, zone, android, version):
 
 
 def versionAdd(version, add):
-  # print(version)
-  return version.replace(version.split('.')[2], str(int(version.split('.')[2])+add))
+	parts = [version.split('.')[0],version.split('.')[1],str(int(version.split('.')[2])+add),"0",version.split('.')[4]]
+	separator = "."
+	return separator.join(parts)
 
 
 def getFromApi(encrypted_data, device):
