@@ -2915,6 +2915,7 @@ flags = {
   "obsidian_tr_global" : "obsidian",
   "OBSIDIANRUGlobal" : "obsidian",
   "OBSIDIANTRGlobal" : "obsidian",
+  "rodin_in_global":"rodin",
   'raphael': 'raphael',
   'raphael_global': 'raphael',
   'raphael_eea_global': 'raphael',
