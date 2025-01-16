@@ -3294,8 +3294,10 @@ def checkOSExist(filename):
     flag = filename.split(rec_seperator)[rec_spot]
   if "tgz" in filename:
     flag = filename.split('_images')[0]
-  devdata = json.loads(
-    open(OSPath+flags[flag]+'.json', 'r', encoding='utf-8').read())
+  if "PISSARROINFKGlobal" in filename:
+    devdata = devdata = json.loads(open(OSPath+'pissarro_in.json', 'r', encoding='utf-8').read())
+  else:
+    devdata = json.loads(open(OSPath+flags[flag]+'.json', 'r', encoding='utf-8').read())
   if filename in str(devdata) or filename in OSnewROM or filename in newROM:
     i = 0
   else:
