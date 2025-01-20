@@ -2224,6 +2224,8 @@ flags = {
   'merlin_lm_cr_global': 'merlin',
   "TANZANITEEEAGlobal":"tanzanite",
   "tanzanite_eea_global":"tanzanite",
+  "TANZANITETRGlobal":"tanzanite",
+  "tanzanite_tr_global":"tanzanite",
   'lancelot': 'lancelot',
   'lancelot_global': 'lancelot',
   'lancelot_eea_global': 'lancelot',
