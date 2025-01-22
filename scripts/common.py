@@ -2227,6 +2227,8 @@ flags = {
   "TANZANITETRGlobal":"tanzanite",
   "tanzanite_tr_global":"tanzanite",
   'lancelot': 'lancelot',
+  "MALACHITETRGlobal":"malachite",
+  "malachite_tr_global":"malachite",
   'lancelot_global': 'lancelot',
   'lancelot_eea_global': 'lancelot',
   'lancelot_eea_hg_global': 'lancelot',
