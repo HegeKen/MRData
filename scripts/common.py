@@ -8,7 +8,7 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from requests.adapters import HTTPAdapter
 from pymysql import Connection
 import database.config as config
@@ -3162,6 +3162,8 @@ flags = {
   "ROTHKOJPGlobal": "rothko",
   "uke": "uke",
   "muyu": "muyu",
+  "MALACHITEIDGlobal":"malachite",
+  "malachite_id_global":"malachite",
   "rothko_ep_stdee": "rothko",
   "ROTHKOEPSTDEE": "rothko",
   "sapphiren_id_global": "sapphiren",
@@ -3214,16 +3216,21 @@ def writeFlag(flag, device):
 
 def getDeviceCode(filename):
   if "_" in filename:
-    if '.zip' in filename:
-      if filename.split('_')[1]:
-        flag = filename.split('_')[1]
-        if flag in flags:
-          codename = flags[flag]
-          return codename
-        else:
-          print(flag)
-          writeFlag(flag, "")
-          return 0
+    if "zip" in filename:
+      if "miui" in filename:
+        rec_seperator = "_"
+        rec_spot = 1
+      else:
+        rec_seperator = "-ota_full"
+        rec_spot = 0
+      flag = filename.split(rec_seperator)[rec_spot]
+      if flag in flags:
+        codename = flags[flag]
+        return codename
+      else:
+        print(flag)
+        writeFlag(flag, "")
+        return 0
     elif '.tgz' in filename:
       if filename.split('_images')[0]:
         flag = filename.split('_images')[0]
@@ -3307,6 +3314,115 @@ def get_time(url):
       return ""
   except requests.RequestException as e:
     return f"访问URL失败: {e}"
+def get_version(filename):
+  if ".zip" in filename:
+    if "miui" in filename:
+      version = filename.split("_")[2]
+    else:
+      version = filename.split("ota_full-")[1].split("-")[0]
+  else:
+    version = filename.split("images_")[1].split("_")[0]
+  return version
+def get_android(filename):
+  if ".zip" in filename:
+    if "miui" in filename:
+      android = filename.split("_")[4].split(".zip")[0]
+    else:
+      android = filename.split("ota_full-")[1].split("-")[2]
+  else:
+    android = filename.split("images_")[1].split("_")[2]
+  return android
+def form_url(filename):
+  base_url = 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/'
+  return base_url+get_version(filename)+"/"+filename
+def get_flag(filename):
+  if "_" in filename:
+    if "zip" in filename:
+      if "miui" in filename:
+        rec_seperator = "_"
+        rec_spot = 1
+      else:
+        rec_seperator = "-ota_full"
+        rec_spot = 0
+      flag = filename.split(rec_seperator)[rec_spot]
+    elif '.tgz' in filename:
+      flag = filename.split('_images')[0]
+  else:
+    flag = 0
+  return flag
+# def checkExist(filename):
+  # if 'blockota' in filename or 'miui-ota' in filename:
+  #   i = 0
+  # else:
+  #   newROM = open("public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+  #   if getDeviceCode(filename) == 0:
+  #     writeData(filename)
+  #   else:
+  #     get_sql = "SELECT * FROM roms WHERE device = %s" % (stringify(getDeviceCode(filename)))
+  #     if filename in str(db_job(get_sql)):
+  #       i = 0
+  #     else:
+  #       print(filename)
+  #       info_sql = "SELECT tag, region, branch, zone FROM roms WHERE code = %s" % stringify(get_flag(filename))
+  #       if len(db_job(info_sql)) > 0:
+  #         ver_info = db_job(info_sql)
+  #         tag = stringify(ver_info[0][0])
+  #         region = stringify(ver_info[0][1])
+  #         code = stringify(get_flag(filename))
+  #         branch = stringify(ver_info[0][3])
+  #         zone = int(ver_info[0][4])
+  #         device = stringify(getDeviceCode(filename))
+  #         version = stringify(get_version(filename))
+  #         android = stringify(get_android(filename))
+  #         release_date = stringify(get_time(form_url(filename)))
+  #         insdate = stringify(date.today().strftime("%a, %d %b %Y %H:%M:%S %Z"))
+  #         public_date = stringify(date.today().strftime("%a, %d %b %Y %H:%M:%S %Z"))
+  #         update_date = stringify(date.today().strftime("%a, %d %b %Y %H:%M:%S %Z"))
+  #         if 'zip' in filename:
+  #           recovery = stringify(filename)
+  #           beta_date = stringify(get_time(form_url(filename)))
+  #           if get_version(filename).startswith('V'):
+  #             type=stringify("MIUI")
+  #             bigver = stringify("MIUI " + get_version(filename).split('V')[1].split('.')[0])
+  #           else:
+  #             type=stringify("HyperOS")
+  #             bigver = stringify("HyperOS " + get_version(filename).split('OS')[1].split('.')[0])
+  #             if get_version(filename)[-4:] == "CNXM":
+  #               ins_sql = f"INSERT INTO roms (device,type,bigver,region,branch,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d)" % (device,type,bigver,region,branch,version,android,recovery,beta_date,release_date,insdate,update_date,1)
+  #             else:
+  #               ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,zone,version,android,recovery,beta_date,release_date,insdate,update_date) VALUES (%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s,%s,%s,%s,%s)" % (device,code,type,bigver,region,branch,tag,zone,version,android,recovery,beta_date,release_date,insdate,update_date)
+  #             db_job(ins_sql)
+  #         else:
+  #           get_id = "SELECT id,fastboot FROM roms WHERE version = %s" % (stringify(get_version(filename)))
+  #           if len(db_job(get_id)) >0:
+  #             id = db_job(get_id)[0][0]
+  #             if 'chinatelecom' in filename:
+  #               ctelecom = stringify(filename)
+  #               update_sql = "UPDATE roms SET telecom = %s, public_date = %s, update_date = %s WHERE id = %d" % (ctelecom,public_date,update_date,id)
+  #             elif 'chinaunicom' in filename:
+  #               cunicom = stringify(filename)
+  #               update_sql = "UPDATE roms SET cunicom = %s, public_date = %s, update_date = %s WHERE id = %d" % (cunicom,public_date,update_date,id)
+  #             elif 'chinamobile' in filename:
+  #               cmobile = stringify(filename)
+  #               update_sql = "UPDATE roms SET cmobile = %s, public_date = %s, update_date = %s WHERE id = %d" % (cmobile,public_date,update_date,id)
+  #             else:
+  #               fastboot = stringify(filename)
+  #               if db_job(get_id)[0][1] != "":
+  #                 writeData(filename)
+  #                 update_sql = "COMMIT;"
+  #               else:
+  #                 update_sql = "UPDATE roms SET fastboot = %s public_date = %s, update_date = %s WHERE id = %d" % (fastboot,public_date,update_date,id)
+  #             db_job(update_sql)
+  #           else:
+  #             print(filename)
+  #       else:
+  #         writeData(filename)
+  #     if '_OS' in filename or '-OS' in filename:
+  #       checkOSExist(filename)
+  #     elif filename in localData(getDeviceCode(filename)) or filename in newROM:
+  #       i = 0
+  #     else:
+  #       writeData(filename)
 
 def checkExist(filename):
   if 'blockota' in filename or 'miui-ota' in filename:

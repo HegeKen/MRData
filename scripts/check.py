@@ -1,4 +1,11 @@
 import common
+from openpyxl import load_workbook
+import pandas as pd
+
+
+file_path = "roms.xlsx"
+df = pd.read_excel(file_path, engine='openpyxl')
+data_string = df.to_csv(sep='\t', index=False, header=False)
 
 for device in common.fullDevices:
   devcode = common.stringify(device)
@@ -15,5 +22,7 @@ for device in common.fullDevices:
       android = common.stringify(rom['android'])
       recovery = common.stringify(rom['recovery'])
       fastboot = common.stringify(rom['fastboot'])
-      ins_sql = f"INSERT INTO roms (device,code,type,region,branch,tag,zone,version,android,recovery,fastboot) VALUES (%s, %s, %s, %s, %s, %s, %d, %s, %s, %s, %s)" % (devcode,code,type,region,btag,tag,zone,version,android,recovery,fastboot)
-      common.db_job(ins_sql)
+      if rom['recovery'] in data_string:
+        i = 0
+      else:
+        print("not in",device,rom['recovery'])
