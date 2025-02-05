@@ -1,22 +1,9 @@
 import common
-from datetime import date
-
-# for device in common.fullDevices:
-#   devcode = common.stringify(device)
-#   devdata = common.loadJson(device)
-#   for branch in devdata['branches']:
-#     code = common.stringify(branch['code'])
-#     type=common.stringify("MIUI")
-#     region = common.stringify(branch['region'])
-#     btag = common.stringify(branch['btag'])
-#     tag = common.stringify(branch['branch'])
-#     zone = int(branch['zone'])
-#     for rom in reversed(branch['links']):
-#       version = common.stringify(rom['miui'])
-#       android = common.stringify(rom['android'])
-#       recovery = common.stringify(rom['recovery'])
-#       fastboot = common.stringify(rom['fastboot'])
-#       ins_sql = f"INSERT INTO roms (device,code,type,region,branch,tag,zone,version,android,recovery,fastboot) VALUES (%s, %s, %s, %s, %s, %s, %d, %s, %s, %s, %s)" % (devcode,code,type,region,btag,tag,zone,version,android,recovery,fastboot)
-#       common.db_job(ins_sql)
-
-print(common.stringify(date.today().strftime("%Y-%m-%d")))
+roms = ["miui_ROSEMARYPTWGlobal_V14.0.9.0.TFFTWXM_32f05fdce4_13.0.zip",
+        "miui_BLUEIDGlobal_V816.0.8.0.UGRIDXM_f40076ddc4_14.0.zip",
+        "miui_DITINGGlobal_OS1.0.11.0.ULFMIXM_cc95677d50_14.0.zip",
+        "miui_LISAMXATGlobal_OS1.0.7.0.UKOMXAT_ae0703bbf7_14.0.zip",
+        "miro-ota_full-OS2.0.104.0.VOMCNXM-user-15.0-f810008bcf.zip",
+        "zircon_tr_global-ota_full-OS2.0.1.0.VNOTRXM-user-15.0-43991a0bac.zip"]
+for rom in roms:
+  print(common.getRegion(rom))
