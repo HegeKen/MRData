@@ -272,6 +272,27 @@
         }
       ]
     },
+		{
+			"code": "zircon_dc_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "GBDC",
+			"tag": "MIDC",
+			"zone": "2",
+			"ep": "0",
+			"show": "1",
+			"zh-cn": "国际 DC 正式版",
+			"en-us": "Global DC Stable",
+			"links": [
+				{
+					"miui": "V14.0.5.0.TNOMIDC",
+					"android": "13.0",
+					"recovery": "miui_ZIRCONDCGlobal_V14.0.5.0.TNOMIDC_a05ff19867_13.0.zip",
+					"fastboot": "zircon_dc_global_images_V14.0.5.0.TNOMIDC_20240315.0000.00_13.0_global_dc_fe4cddab84.tgz"
+				}
+			]
+		},
     {
       "code":"zircon_eea_global",
       "btag":"F",
