@@ -2781,6 +2781,14 @@ flags = {
   'kenzo': 'kenzo',
   'kenzo_global': 'kenzo',
   'land': 'land',
+  "TANZANITEIDGlobal":"tanzanite",
+	"tanzanite_id_global":"tanzanite",
+  "TANZANITELMCRGlobal" : "tanzanite",
+  "tanzanite_lm_cr_global" : "tanzanite",
+  "BERYLLMCRGlobal" : "beryl",
+  "beryl_lm_cr_global" : "beryl",
+  "AMETHYSTLMCRGlobal" : "amethyst",
+  "amethyst_lm_cr_global" : "amethyst",
   'land_global': 'land',
   'latte': 'latte',
   'laurel_sprout_global': 'laurel_sprout',
@@ -3372,7 +3380,7 @@ def getBranchcode(filename):
       branchCode = filename.split("_")[1]
       get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(branchCode))
       if len(db_job(get_sql)) > 0:
-        return branchCode
+        return db_job(get_sql)[0][0]
       else:
         return 0
     else:
@@ -3396,7 +3404,7 @@ def getRegion(filename):
       if filename.split("_")[0] == getDeviceCode(filename)+"-ota":
         return "cn"
       else:
-        return filename.split("_")[1]
+        return filename.split("_")[1].split('-')[0]
   else:
     code = filename.split('_images')[0]
     get_sql = f"SELECT region FROM devices WHERE code = %s" % (stringify(code))
@@ -3409,16 +3417,51 @@ def getRegion(filename):
        return ""
   
 def getTag(filename):
-  if filename.startswith("miui"):
-    branchCode = filename.split("_")[1]
+  if ".zip" in filename:
+    if filename.startswith("miui"):
+      branchCode = filename.split("_")[1]
+      get_sql = "SELECT tag FROM devices WHERE branchcode = %s" % (stringify(branchCode))
+      if len(db_job(get_sql)) > 0:
+        if db_job(get_sql)[0][0] is None:
+          return ""
+        else:
+          return db_job(get_sql)[0][0]
+      else:
+        return ""
+    else:
+      code = filename.split("-")[0]
+      get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
+      if len(db_job(get_sql)) > 0:
+        if db_job(get_sql)[0][0] is None:
+          return ""
+        else:
+          return db_job(get_sql)[0][0]
+      else:
+        return ""
   else:
-    branchCode = filename.split("-")[0]
-  get_sql = "SELECT tag FROM devices WHERE branchcode = %s" % (stringify(branchCode))
-  if len(db_job(get_sql)) > 0:
-    return db_job(get_sql)[0][0]
-  else:
-    return ""
-
+    code = filename.split("-")[0]
+    get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
+    if len(db_job(get_sql)) > 0:
+      if db_job(get_sql)[0][0] is None:
+        return ""
+      else:
+        return db_job(get_sql)[0][0]
+    else:
+      return ""
+def getCode(filename):
+  if ".zip" in filename:
+    if "-ota_full" in filename:
+      return filename.split("-")[0]
+    else:
+      code = filename.split("_")[1]
+    get_sql = f"SELECT code FROM devices WHERE branchcode = '{code}'"
+    if len(db_job(get_sql)) > 0:
+      return db_job(get_sql)[0][0]
+    else:
+      return 0
+  elif ".tgz" in filename:
+    return filename.split('_images')[0]
+  
 def checkDatabase(filename):
   if ".EP" in filename:
     i = 0
@@ -3487,10 +3530,7 @@ def checkDatabase(filename):
           i = 0
           ins_sql = "COMMIT;"
         else:
-          if "-ota_full" in filename:
-            code = stringify(filename.split("-")[0])
-          else:
-            code = stringify(filename.split("_")[1])
+          code = stringify(getCode(filename))
           ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,stringify(filename),beta_date,release_date,insdate,update_date,1)
         db_job(ins_sql)
       else:

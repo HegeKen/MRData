@@ -6,4 +6,4 @@ roms = ["miui_ROSEMARYPTWGlobal_V14.0.9.0.TFFTWXM_32f05fdce4_13.0.zip",
         "miro-ota_full-OS2.0.104.0.VOMCNXM-user-15.0-f810008bcf.zip",
         "zircon_tr_global-ota_full-OS2.0.1.0.VNOTRXM-user-15.0-43991a0bac.zip"]
 for rom in roms:
-  print(common.getRegion(rom))
+  print(common.checkDatabase(rom))
