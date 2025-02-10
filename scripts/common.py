@@ -3328,7 +3328,6 @@ def get_version(filename):
       version = filename.split("_")[2]
     else:
       version = filename.split("ota_full-")[1].split("-")[0]
-      print(version)
   else:
     version = filename.split("images_")[1].split("_")[0]
   return version
