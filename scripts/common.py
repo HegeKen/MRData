@@ -3328,6 +3328,7 @@ def get_version(filename):
       version = filename.split("_")[2]
     else:
       version = filename.split("ota_full-")[1].split("-")[0]
+      print(version)
   else:
     version = filename.split("images_")[1].split("_")[0]
   return version
@@ -3430,14 +3431,20 @@ def getTag(filename):
         return ""
     else:
       code = filename.split("-")[0]
-      get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
-      if len(db_job(get_sql)) > 0:
-        if db_job(get_sql)[0][0] is None:
-          return ""
+      if "CNXM" in filename:
+        if get_version(filename).split(".")[3] == 0 or get_version(filename).split(".")[3] == "0":
+          return "CnOO"
         else:
-          return db_job(get_sql)[0][0]
+          return "CnOB"
       else:
-        return ""
+        get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
+        if len(db_job(get_sql)) > 0:
+          if db_job(get_sql)[0][0] is None:
+            return ""
+          else:
+            return db_job(get_sql)[0][0]
+        else:
+          return ""
   else:
     code = filename.split("-")[0]
     get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
