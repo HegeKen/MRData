@@ -3671,7 +3671,7 @@ MiOTAForm2 = {
   'n': '',
   'r': 'CN',
   'bv': '14',
-  'v': 'MIUI-V2.0.6.0.QFAEUOR',
+  'v': 'MIUI-V12.0.6.0.QFAEUOR',
   'id': '',
   'sn': '0x77309938',
   'sdk': '33',
