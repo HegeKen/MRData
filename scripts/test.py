@@ -1,9 +1,30 @@
 import common
-roms = ["miui_ROSEMARYPTWGlobal_V14.0.9.0.TFFTWXM_32f05fdce4_13.0.zip",
-        "miui_BLUEIDGlobal_V816.0.8.0.UGRIDXM_f40076ddc4_14.0.zip",
-        "miui_DITINGGlobal_OS1.0.11.0.ULFMIXM_cc95677d50_14.0.zip",
-        "miui_LISAMXATGlobal_OS1.0.7.0.UKOMXAT_ae0703bbf7_14.0.zip",
-        "miro-ota_full-OS2.0.104.0.VOMCNXM-user-15.0-f810008bcf.zip",
-        "zircon_tr_global-ota_full-OS2.0.1.0.VNOTRXM-user-15.0-43991a0bac.zip"]
+roms = ["peridot_ep_stdee_images_OS1.0.25.1.7.EP.STDEE.N16T_20250107.0000.00_14.0_cn_3ef3aecc31.tgz",
+        "peridot_ep_stdee_images_OS1.0.25.1.7.EP.STDEE.N16T_20250107.0000.00_14.0_cn_chinatelecom_c59ea87dcc.tgz",
+        "miui_FLAMEEPSTDEE_OS1.0.24.12.27.EP.STDEE.C3F_97af60a416_14.0.zip",
+        "flame_ep_stdee_images_OS1.0.24.12.27.EP.STDEE.C3F_20241227.0000.00_14.0_cn_2c120a3ae0.tgz",
+        "flame_ep_stdee_images_OS1.0.24.12.27.EP.STDEE.C3F_20241227.0000.00_14.0_cn_chinatelecom_5c2774437c.tgz",
+        "miui_PERIDOTEPSTDEE_OS1.0.25.1.7.EP.STDEE.N16T_27f6fa83e1_14.0.zip"]
+
+
+def getData(filename):
+  if "miui" in filename:
+    android = filename.split("_")[4].split(".zip")[0]
+    version = filename.split("_")[2]
+    get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (common.stringify(filename.split("_")[1]))
+    if len(common.db_job(get_sql)) > 0:
+      code = common.db_job(get_sql)[0][0]
+    else:
+      code = 0
+  else:
+    if filename.endswith(".tgz"):
+      android = filename.split("images_")[1].split("_")[2]
+      version = filename.split("images_")[1].split("_")[0]
+      code = filename.split('_images')[0]
+    else:
+      android = filename.split("ota_full-")[1].split("-")[2]
+      version = filename.split("ota_full-")[1].split("-")[0]
+      code = filename.split("-ota_full")[0]
+  return code, android, version
 for rom in roms:
-  print(common.checkDatabase(rom))
+  print(getData(rom))

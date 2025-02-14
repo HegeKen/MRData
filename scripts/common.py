@@ -3009,6 +3009,8 @@ flags = {
   'virgo_global': 'virgo',
   'wayne': 'wayne',
   'whyred': 'whyred',
+  "malachite_ru_global":"malachite",
+	"MALACHITERUGlobal":"malachite",
   'whyred_global': 'whyred',
   'whyred_ru_global': 'whyred',
   'willow_global': 'willow',
