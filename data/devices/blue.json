@@ -17,7 +17,7 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "GR",
-	"android": ["14.0"],
+	"android": ["14.0", "15.0"],
 	"miui": ["V816.0"],
 	"branches": [
 		{
@@ -33,6 +33,12 @@
 			"zh-cn": "国际稳定版",
 			"en-us": "Global Stable",
 			"links": [
+				{
+					"miui": "V816.0.1.0.VGRMIXM",
+					"android": "15.0",
+					"recovery": "miui_BLUEGlobal_V816.0.1.0.VGRMIXM_f9d85c090f_15.0.zip",
+					"fastboot": "blue_global_images_V816.0.1.0.VGRMIXM_20250124.0000.00_15.0_ade259015f.tgz"
+				},
 				{
 					"miui": "V816.0.11.0.UGRMIXM",
 					"android": "14.0",
