@@ -1415,6 +1415,8 @@ flags = {
   'SELENEZAVCGlobal': 'selene',
   'SELENEZAMTGlobal': 'selene',
   'SKYEPSTDEE': 'sky',
+  "xuanyuan":"xuanyuan",
+	"xuanyuan_demo":"xuanyuan",
   'SPESNEEAHGGlobal': 'spesn',
   'SPESNEEAORGlobal': 'spesn',
   'SPESNEEATFGlobal': 'spesn',
