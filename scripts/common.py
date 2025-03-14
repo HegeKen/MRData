@@ -1873,6 +1873,8 @@ flags = {
 	'MOONSTONETRGlobal': 'moonstone',
 	'PSYCHEEPSTDEE': 'psyche',
 	'UNICORNDEMO': 'unicorn',
+	"AMETHYSTTRGlobal":"amethyst",
+	"amethyst_tr_global":"amethyst",
 	'ZIYIDEMO': 'ziyi',
 	'REDWOODIDGlobal': 'redwood',
 	'SWEETK6ATRGlobal': 'sweet_k6a',
