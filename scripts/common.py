@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, date, timezone
 from requests.adapters import HTTPAdapter
 from pymysql import Connection
-import database.config as config
+import config
 
 test = ['marble']
 sdk = {
