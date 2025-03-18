@@ -2,9 +2,14 @@ import os
 from bs4 import BeautifulSoup
 import common
 
+# directories = [
+#   "D:\\Projects\\MIUIROMS\\XFUOrigin\\pages\\miui",
+#   "D:\\Projects\\MIUIROMS\\XFUOrigin\\pages\\hyperos"
+# ]
+
 directories = [
-  "D:\\Projects\\MIUIROMS\\XFUOrigin\\pages\\miui",
-  "D:\\Projects\\MIUIROMS\\XFUOrigin\\pages\\hyperos"
+  "../Sources/xmfirmwareupdater.github.io/pages/miui",
+  "../Sources/xmfirmwareupdater.github.io/pages/hyperos"
 ]
 
 false_packs = [
@@ -20,7 +25,7 @@ for directory in directories:
       with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
         soup = BeautifulSoup(content, 'lxml')
-        span_tags = soup.findAll('span', {'id': 'filename'})
+        span_tags = soup.find_all('span', {'id': 'filename'})
         for tag in span_tags:
           if tag.text in false_packs:
             continue

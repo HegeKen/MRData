@@ -3241,6 +3241,8 @@ flags = {
 def localData(codename):
 	if platform == 'win32':
 		devdata = json.loads(open('public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read()).__str__()
+	elif platform == 'darwin':
+		devdata = json.loads(open('public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read()).__str__()
 	else:
 		devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read()).__str__()
 	return devdata
@@ -3248,6 +3250,8 @@ def localData(codename):
 
 def loadJson(codename):
 	if platform == 'win32':
+		devdata = json.loads(open('public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
+	elif platform == 'darwin':
 		devdata = json.loads(open('public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
 	else:
 		devdata = json.loads(open('/sdcard/Codes/NuxtMR/public/MRdata/data/devices/' + codename+'.json', 'r', encoding='utf-8').read())
@@ -3258,6 +3262,8 @@ def writeData(filename):
 	print('发现未收录版本')
 	if platform == 'win32':
 		file = open('public/MRdata/scripts/NewROMs.txt', 'a', encoding='utf-8')
+	elif platform == 'darwin':
+		file = open('public/MRdata/scripts/NewROMs.txt', 'a', encoding='utf-8')
 	else:
 		file = open('/sdcard/Codes/NuxtMR/public/MRdata/script/NewROMs.txt', 'a', encoding='utf-8')
 	file.write(filename+'\n')
@@ -3267,6 +3273,8 @@ def writeData(filename):
 def writeFlag(flag, device):
 	if platform == 'win32':
 		file = open('public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
+	elif platform == 'darwin':
+		file = json.loads(open('public/MRdata/scripts/Flags.json', 'a', encoding='utf-8').read())
 	else:
 		file = open('/sdcard/Codes/NuxtMR/public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
 	file.write(f"\'{flag}\':\'{device}\',\n")
@@ -3665,12 +3673,20 @@ def checkDatabase(device, code, android, version, type, bigver, region,tag,zone,
 		db_job_latest(ins_sql)
 
 
+
 def checkOSExist(filename):
-	OSnewROM = open("D:/Projects/HyperOS.fans/Web/public/data/scripts/NewROMs.txt",
-					'r', encoding='utf-8').read()
-	newROM = open("public/MRData/scripts/NewROMs.txt",
-					'r', encoding='utf-8').read()
-	OSPath = 'D:/Projects/HyperOS.fans/Web/public/data/devices/'
+	if platform == "win32":
+		OSPath = 'D:/Projects/HyperOS.fans/Web/public/data/devices/'
+		OSnewROM = open("D:/Projects/HyperOS.fans/Web/public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+		newROM = open("public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+	elif platform == "darwin":
+		OSPath = '../HyperOS.fans/public/data/devices/'
+		OSnewROM = open("../HyperOS.fans/public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+		newROM = open("public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+	else:
+		OSPath = '/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'
+		OSnewROM = open("/sdcard/Codes/NuxtMR/public/MRdata/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+		newROM = open("/sdcard/Codes/NuxtMR/public/MRdata/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
 	if "zip" in filename:
 		if "miui" in filename:
 			rec_seperator = "_"
