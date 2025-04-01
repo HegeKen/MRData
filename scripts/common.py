@@ -3295,7 +3295,7 @@ def writeFlag(flag, device):
 	if platform == 'win32':
 		file = open('public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
 	elif platform == 'darwin':
-		file = json.loads(open('public/MRdata/scripts/Flags.json', 'a', encoding='utf-8').read())
+		file = open('public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
 	else:
 		file = open('/sdcard/Codes/NuxtMR/public/MRdata/scripts/Flags.json', 'a', encoding='utf-8')
 	file.write(f"\'{flag}\':\'{device}\',\n")
