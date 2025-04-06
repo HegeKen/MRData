@@ -689,6 +689,8 @@ flags = {
 	"SPARKRUGlobal": "spark",
 	'THORDEMO':'thor',
 	'XAGADEMO':'xaga',
+	"SERENITYGlobal": "serenity",
+	"serenity_global": "serenity",
 	'DITINGDEMO':'diting',
 	'LAURELSPROUTMXTCGlobal':'laurel_sprout',
 	"cupid_cl_en_global" : "cupid",
@@ -3463,7 +3465,7 @@ def checkExist(filename):
 		i = 0
 	else:
 		newROM = open("public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
-		if '_OS' in filename or '-OS' in filename:
+		if '_OS' in filename or '-OS' in filename or "A1" in filename:
 			checkOSExist(filename)
 		elif getDeviceCode(filename) == 0:
 			writeData(filename)
@@ -3610,9 +3612,12 @@ def getData(filename):
 	if version.startswith('V'):
 		type = "MIUI"
 		bigver = "MIUI " + version.split('V')[1].split('.')[0]
-	else:
+	elif version.startswith('OS'):
 		type = "HyperOS"
 		bigver = "HyperOS " + version.split('OS')[1].split('.')[0]
+	elif version.startswith('A'):
+		type = "STAN"
+		bigver = "STAN " + version.split('.')[0]
 	if code == 0:
 		return 0
 	else:
