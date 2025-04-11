@@ -2916,6 +2916,16 @@ flags = {
 	'oxygen': 'oxygen',
 	'oxygen_global': 'oxygen',
 	'perseus': 'perseus',
+	"SERENITYINGlobal":"serenity",
+	"serenity_in_global":"serenity",
+	"SERENITYGTTGGlobal":"serenity",
+	"serenity_gt_tg_global":"serenity",
+	"BERYLGTTGGlobal":"beryl",
+	"beryl_gt_tg_global":"beryl",
+	"SERENITYMXATGlobal":"serenity",
+	"serenity_mx_at_global":"serenity",
+	"SERENITYLMMSGlobal":"serenity",
+	"serenity_lm_ms_global":"serenity",
 	'perseus_global': 'perseus',
 	'perseus_h3g_global': 'perseus',
 	'perseus_ru_global': 'perseus',
@@ -3322,6 +3332,14 @@ def getDeviceCode(filename):
 				writeFlag(flag, "")
 				return 0
 		elif '.tgz' in filename:
+			if "-A1" in filename:
+				flag = filename.split('-images')[0]
+			else:
+				flag = filename.split('_images')[0]
+		else:
+			return 0
+		if flag in flags:
+			codename = flags[flag]
 			if filename.split('_images')[0]:
 				flag = filename.split('_images')[0]
 				codename = flags[flag]
@@ -3596,9 +3614,14 @@ def getData(filename):
 	else:
 		if filename.endswith(".tgz"):
 			filetype = "fastboot"
-			android = filename.split("images_")[1].split("_")[2]
-			version = filename.split("images_")[1].split("_")[0]
-			code = filename.split('_images')[0]
+			if "-A1" in filename:
+				android = filename.split("images-")[1].split("-")[3]
+				version = filename.split("images-")[1].split("-")[0]
+				code = filename.split('-images')[0]
+			else:
+				android = filename.split("images_")[1].split("_")[2]
+				version = filename.split("images_")[1].split("_")[0]
+				code = filename.split('_images')[0]
 		else:
 			filetype = "recovery"
 			android = filename.split("ota_full-")[1].split("-")[2]
@@ -3722,7 +3745,10 @@ def checkOSExist(filename):
 			rec_spot = 0
 		flag = filename.split(rec_seperator)[rec_spot]
 	if "tgz" in filename:
-		flag = filename.split('_images')[0]
+		if "-A1" in filename:
+			flag = filename.split('-images')[0]
+		else:
+			flag = filename.split('_images')[0]
 	if "PISSARROINFKGlobal" in filename:
 		devdata = devdata = json.loads(open(OSPath+'pissarro_in.json', 'r', encoding='utf-8').read())
 	else:

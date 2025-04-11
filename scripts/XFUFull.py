@@ -1,6 +1,7 @@
 import os
-from bs4 import BeautifulSoup
 import common
+import chardet # type: ignore
+from bs4 import BeautifulSoup
 
 # directories = [
 #   "D:\\Projects\\MIUIROMS\\XFUOrigin\\pages\\miui",
@@ -22,8 +23,11 @@ for directory in directories:
   for root, dirs, files in os.walk(directory):
     for file in files:
       file_path = os.path.join(root, file)
-      with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+      with open(file_path, 'rb') as f:
+        raw_content = f.read()
+        result = chardet.detect(raw_content)
+        encoding = result['encoding']
+        content = raw_content.decode(encoding, errors='replace')
         soup = BeautifulSoup(content, 'lxml')
         span_tags = soup.find_all('span', {'id': 'filename'})
         for tag in span_tags:
