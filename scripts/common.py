@@ -3267,7 +3267,9 @@ flags = {
 	'moonstone_ru_global': 'moonstone',
 	'moonstone_in_global': 'moonstone',
 	'moonstone_id_global': 'moonstone',
-	'moonstone_tr_global': 'moonstone'
+	'moonstone_tr_global': 'moonstone',
+	"EMERALDRRUGlobal":"emerald_r",
+	"emerald_r_ru_global":"emerald_r"
 }
 
 
