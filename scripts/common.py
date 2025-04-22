@@ -12,6 +12,8 @@ from datetime import datetime, timedelta, date, timezone
 from requests.adapters import HTTPAdapter
 from pymysql import Connection
 import config
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 test = ['marble']
 sdk = {
@@ -1840,6 +1842,8 @@ flags = {
 	'UMIEEAVFGlobal': 'umi',
 	'UMIEEASFGlobal': 'umi',
 	'UMIEEATIGlobal': 'umi',
+	"SERENITYRUGlobal":"serenity",
+	"serenity_ru_global":"serenity",
 	'VENUSEEAHGGlobal': 'venus',
 	'VENUSEEAORGlobal': 'venus',
 	'VENUSEEATFGlobal': 'venus',
@@ -3909,26 +3913,33 @@ def getFromApi(encrypted_data, device):
 	data = 'q=' + encrypted_data + '&s=1&t='
 	devdata = json.loads(open('public/MRdata/data/devices/' +
 						 device+'.json', 'r', encoding='utf-8').read())
-	response = requests.post(check_url, headers=headers, data=data)
-	print('\r', datetime.now().strftime("%Y-%m-%d %H:%M:%S"), '\t正在抓取' +
-			devdata['zh-cn']+'(' + devdata['codename']+')					', end='')
-	if response.status_code != 200:
-		i = 0
-	else:
-		resdata = miui_decrypt(response.text.split('q=')[0])
-		if 'LatestRom' in resdata:
-			package = resdata['LatestRom']['filename'].split('?')[0]
-			# print(package)
-			checkExist(package)
-			return 1
-		if 'CrossRom' in resdata:
-			package = resdata['CrossRom']['filename'].split('?')[0]
-			# print(package)
-			checkExist(package)
-			return 1
+	session = requests.Session()
+	retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+	session.mount('http://', HTTPAdapter(max_retries=retries))
+	session.mount('https://', HTTPAdapter(max_retries=retries))
+	try:
+		response = session.post(check_url, headers=headers, data=data, timeout=10)
+		print('\r', datetime.now().strftime("%Y-%m-%d %H:%M:%S"), '\t正在抓取' +
+				devdata['zh-cn']+'(' + devdata['codename']+')					', end='')
+		if response.status_code != 200:
+			i = 0
 		else:
-			return 0
-	response.close()
+			resdata = miui_decrypt(response.text.split('q=')[0])
+			if 'LatestRom' in resdata:
+				package = resdata['LatestRom']['filename'].split('?')[0]
+				# print(package)
+				checkExist(package)
+				return 1
+			if 'CrossRom' in resdata:
+				package = resdata['CrossRom']['filename'].split('?')[0]
+				# print(package)
+				checkExist(package)
+				return 1
+			else:
+				return 0
+		response.close()
+	except requests.exceptions.RequestException as e:
+		print(f"请求失败: {e}")
 
 
 def getFromApi2(encrypted_data, device):
