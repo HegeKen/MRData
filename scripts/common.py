@@ -660,6 +660,8 @@ flags = {
 	'HOUJI': 'houji',
 	'HOUJIDEMO': 'houji',
 	'ALIOTHDEMO': 'alioth',
+	"FLAREIDGlobal":"flare",
+	"flare_id_global":"flare",
 	"DUCHAMPIDGlobal": "duchamp",
 	"duchamp_id_global": "duchamp",
 	"sapphiren_tr_global": "sapphiren",
