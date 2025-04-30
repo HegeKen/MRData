@@ -1844,6 +1844,7 @@ flags = {
 	'UMIEEATIGlobal': 'umi',
 	"onyx_demo":"onyx",
 	"onyx":"onyx",
+	"malachite_jp_global":"malachite",
 	"SERENITYEEATFGlobal":"serenity",
 	"serenity_eea_tf_global":"serenity",
 	"SERENITYZAMTGlobal":"serenity",
