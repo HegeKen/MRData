@@ -670,6 +670,8 @@ flags = {
 	"VERMEEREPSTDEE": "vermeer",
 	"blue_ru_global": "blue",
 	"BLUERUGlobal": "blue",
+	"SERENITYLMCRGlobal":"serenity",
+	"serenity_lm_cr_global": "serenity",
 	'AIRGlobal': 'air',
 	'air_global': 'air',
 	"goku_ep_stdee": "goku",
