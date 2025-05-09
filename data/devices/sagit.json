@@ -8,6 +8,10 @@
 			"en-us": "We don't recommend MI6 users to downgrade their device from Android Pie. IF you really want to do it, you may will have 'Find My Phone' Or Fingerprint malfunction issue, please try to flash the 9.5.7.1 Version From China Beta section, and then flash your prefered Android Oreo ROM."
 		},
 		{
+			"zh-cn": "安卓9.0与8.0之间的过渡版本是9.5.7.1，具体位置在开发版 #113。",
+			"en-us": "The transition version between Android 9.0 and 8.0 is 9.5.7.1, you can find it in the Dev section #113."
+		},
+		{
 			"zh-cn": "请在刷入旧版本前确认此版本是否低于手机出厂版本，有几率出现无法识别基带或者指纹传感器的情况，请刷更新的版本以规避该问题",
 			"en-us": "IF your phone cannot detect Modem of Fingerprint sensor after flashing rom, please try for a newer build."
 		}
@@ -21,8 +25,24 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "CA",
-	"android": ["7.1", "8.0", "9.0"],
-	"miui": ["V8.2", "V8.5", "V9.0", "V9.2", "V9.5", "V9.6", "V10.0", "V10.2", "V10.3", "V10.4", "V11.0"],
+	"android": [
+		"7.1",
+		"8.0",
+		"9.0"
+	],
+	"miui": [
+		"V8.2",
+		"V8.5",
+		"V9.0",
+		"V9.2",
+		"V9.5",
+		"V9.6",
+		"V10.0",
+		"V10.2",
+		"V10.3",
+		"V10.4",
+		"V11.0"
+	],
 	"branches": [
 		{
 			"code": "sagit",
@@ -55,7 +75,12 @@
 			"code": "sagit",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
