@@ -17,8 +17,13 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "GR",
-	"android": ["14.0", "15.0"],
-	"miui": ["V816.0"],
+	"android": [
+		"14.0",
+		"15.0"
+	],
+	"miui": [
+		"V816.0"
+	],
 	"branches": [
 		{
 			"code": "blue_global",
@@ -93,12 +98,33 @@
 					"recovery": "",
 					"fastboot": "blue_global_images_V816.0.4.0.UGRMIXM_20240312.0000.00_14.0_d53ed3c01a.tgz"
 				},
-        {
-          "miui": "V816.0.3.0.UGRMIXM",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": "blue_global_images_V816.0.3.0.UGRMIXM_20240202.0000.00_14.0_b43157e2f9.tgz"
-        }
+				{
+					"miui": "V816.0.3.0.UGRMIXM",
+					"android": "14.0",
+					"recovery": "",
+					"fastboot": "blue_global_images_V816.0.3.0.UGRMIXM_20240202.0000.00_14.0_b43157e2f9.tgz"
+				}
+			]
+		},
+		{
+			"code": "blue_dc_global",
+			"btag": "F",
+			"region": "global",
+			"carrier": [],
+			"branch": "GBDC",
+			"tag": "MIDC",
+			"zone": "2",
+			"ep": "0",
+			"show": "1",
+			"zh-cn": "国际 DC 正式版",
+			"en-us": "Global DC Stable",
+			"links": [
+				{
+					"miui": "V816.0.2.0.VGRMIDC",
+					"android": "13.0",
+					"recovery": "",
+					"fastboot": "blue_dc_global_images_V816.0.2.0.VGRMIDC_20250310.0000.00_15.0_b25bddcb54.tgz"
+				}
 			]
 		},
 		{

@@ -1,26 +1,31 @@
 {
-  "codename": "klein",
-  "zh-cn": "Redmi A3x",
-  "en-us": "Redmi A3x",
-  "attentions": [
-    {
-      "zh-cn": "",
-      "en-us": ""
-    }
-  ],
-  "cdid": "",
-  "ismiui": "",
-  "ccshow": "",
-  "cbshow": "",
-  "csid": [],
-  "cbid": [],
-  "gdid": "",
-  "pcid": "",
-  "code": "GS",
-	"android": ["14.0", "15.0"],
-	"miui": ["V816"],
+	"codename": "klein",
+	"zh-cn": "Redmi A3x",
+	"en-us": "Redmi A3x",
+	"attentions": [
+		{
+			"zh-cn": "",
+			"en-us": ""
+		}
+	],
+	"cdid": "",
+	"ismiui": "",
+	"ccshow": "",
+	"cbshow": "",
+	"csid": [],
+	"cbid": [],
+	"gdid": "",
+	"pcid": "",
+	"code": "GS",
+	"android": [
+		"14.0",
+		"15.0"
+	],
+	"miui": [
+		"V816"
+	],
 	"branches": [
-    {
+		{
 			"code": "klein_global",
 			"btag": "F",
 			"region": "global",
@@ -140,7 +145,7 @@
 				}
 			]
 		},
-    {
+		{
 			"code": "klein_in_global",
 			"btag": "F",
 			"region": "in",
@@ -153,6 +158,12 @@
 			"zh-cn": "印度正式版",
 			"en-us": "India Stable",
 			"links": [
+				{
+					"miui": "V816.0.5.0.VGSINXM",
+					"android": "15.0",
+					"recovery": "miui_KLEININGlobal_V816.0.5.0.VGSINXM_041adaafd0_15.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V816.0.4.0.VGSINXM",
 					"android": "15.0",
@@ -209,5 +220,5 @@
 				}
 			]
 		}
-  ]
+	]
 }
