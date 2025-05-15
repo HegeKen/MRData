@@ -3285,6 +3285,8 @@ flags = {
 	'moonstone_tr_global': 'moonstone',
 	"EMERALDRRUGlobal":"emerald_r",
 	"SERENITYEEAGlobal":"serenity",
+	"blue_dc_global": "blue",
+	"BLUEDCGlobal": "blue",
 	"serenity_eea_global":"serenity",
 	"emerald_r_ru_global":"emerald_r"
 }
