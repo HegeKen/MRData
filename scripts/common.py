@@ -3287,6 +3287,18 @@ flags = {
 	"SERENITYEEAGlobal":"serenity",
 	"blue_dc_global": "blue",
 	"BLUEDCGlobal": "blue",
+	"SERENITYEEAORGlobal": "serenity",
+	"SERENITYEEAVFGlobal": "serenity",
+	"SERENITYEEABYGlobal": "serenity",
+	"serenity_eea_or_global": "serenity",
+	"serenity_eea_vf_global": "serenity",
+	"serenity_eea_by_global": "serenity",
+	"dijun":"dijun",
+	"dijun_demo":"dijun",
+	"jinghu":"jinghu",
+	"jinghu_demo":"jinghu",
+	"luming":"luming",
+	"luming_demo":"luming",
 	"serenity_eea_global":"serenity",
 	"emerald_r_ru_global":"emerald_r"
 }
