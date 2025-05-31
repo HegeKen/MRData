@@ -3647,7 +3647,7 @@ def getData(filename):
 	else:
 		if filename.endswith(".tgz"):
 			filetype = "fastboot"
-			if "-A1" in filename:
+			if "-images" in filename:
 				android = filename.split("images-")[1].split("-")[3]
 				version = filename.split("images-")[1].split("-")[0]
 				code = filename.split('-images')[0]
@@ -3778,7 +3778,7 @@ def checkOSExist(filename):
 			rec_spot = 0
 		flag = filename.split(rec_seperator)[rec_spot]
 	if "tgz" in filename:
-		if "-A1" in filename:
+		if "-images" in filename:
 			flag = filename.split('-images')[0]
 		else:
 			flag = filename.split('_images')[0]
