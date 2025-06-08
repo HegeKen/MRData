@@ -2910,6 +2910,15 @@ flags = {
 	'olive_in_global': 'olive',
 	'olive_id_global': 'olive',
 	'olivelite': 'olivelite',
+	"serenity_id_global":"serenity",
+	"SERENITYIDGlobal":"serenity",
+	"taiko_tw_global": "taiko",
+	"taiko_global": "taiko",
+	"koto_global": "koto",
+	"koto_tw_global": "koto",
+	"koto_eea_global": "koto",
+	"taiko_eea_global": "taiko",
+	"taiko_in_global": "taiko",
 	'olivelite_global': 'olivelite',
 	'olivelite_eea_global': 'olivelite',
 	'olivelite_ru_global': 'olivelite',
@@ -3303,6 +3312,35 @@ flags = {
 	"emerald_r_ru_global":"emerald_r"
 }
 
+def parse_version(version):
+	try:
+		if version.startswith("V") and ".EP" not in version:
+			body = version[1:]
+		elif ".EP" in version:
+			body = version[1:].split(".EP")[0]+".EP"
+		elif version.startswith("J"):
+			body = version[-3:]
+		else:
+			body = version
+		version_part = body.split(".")
+		if len(version_part) == 3:
+			vlen = len(body.split("."))
+		else:
+			vlen = len(body.split("."))-1
+		numeric_parts = tuple(map(int, version_part[:vlen]))
+		if len(numeric_parts) <5:
+			numeric_parts = numeric_parts + (0,) * (5 - len(numeric_parts))
+		else:
+			numeric_parts = numeric_parts[:5]
+		return numeric_parts
+	except Exception:
+		return None
+
+def compare(v1, v2):
+	if type(v1) == type(v2) == tuple or type(v1) == type(v2) == None:
+		return False
+	else:
+		return parse_version(v1) > parse_version(v2)
 
 def localData(codename):
 	if platform == 'win32':

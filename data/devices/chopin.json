@@ -12,19 +12,36 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["347"],
-	"cbid": ["350"],
+	"csid": [
+		"347"
+	],
+	"cbid": [
+		"350"
+	],
 	"gdid": "11767",
 	"pcid": "29227",
 	"code": "KP",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui":  ["V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "chopin",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -394,6 +411,12 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V13.1.22.10.17.DEV",
+					"android": "12.0",
+					"recovery": "miui_CHOPIN_V13.1.22.10.17.DEV_b4e71c89f9_12.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V13.1.22.8.22.DEV",
 					"android": "12.0",
 					"recovery": "miui_CHOPIN_V13.1.22.8.22.DEV_1832e20d41_12.0.zip",
@@ -520,12 +543,6 @@
 					"fastboot": ""
 				},
 				{
-					"miui": "V13.1.22.10.17.DEV",
-					"android": "12.0",
-					"recovery": "miui_CHOPIN_V13.1.22.10.17.DEV_b4e71c89f9_12.0.zip",
-					"fastboot": ""
-				},
-				{
 					"miui": "V13.0.3.1.16.DEV",
 					"android": "12.0",
 					"recovery": "miui_CHOPIN_V13.0.3.1.16.DEV_a8a5f48a26_12.0.zip",
@@ -544,6 +561,12 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V13.0.2.1.11.DEV",
+					"android": "12.0",
+					"recovery": "miui_CHOPIN_V13.0.2.1.11.DEV_1b9fba52d1_12.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V13.0.2.1.9.DEV",
 					"android": "12.0",
 					"recovery": "miui_CHOPIN_V13.0.2.1.9.DEV_f87d784d54_12.0.zip",
@@ -553,12 +576,6 @@
 					"miui": "V13.0.2.1.7.DEV",
 					"android": "12.0",
 					"recovery": "miui_CHOPIN_V13.0.2.1.7.DEV_ce54311f6b_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.2.1.11.DEV",
-					"android": "12.0",
-					"recovery": "miui_CHOPIN_V13.0.2.1.11.DEV_1b9fba52d1_12.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -1335,7 +1352,12 @@
 			"code": "chopin_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
@@ -1521,7 +1543,9 @@
 			"code": "chopin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1566,7 +1590,9 @@
 			"code": "chopin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1593,7 +1619,9 @@
 			"code": "chopin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinaunicom"],
+			"carrier": [
+				"chinaunicom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1614,9 +1642,14 @@
 			"code": "chopin_ep_kywl",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPKYW",
-			"tag":"",
+			"tag": "",
 			"zone": "1",
 			"show": "0",
 			"ep": "1",

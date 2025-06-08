@@ -12,19 +12,34 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["456"],
-	"cbid": ["459"],
+	"csid": [
+		"456"
+	],
+	"cbid": [
+		"459"
+	],
 	"gdid": "317874",
 	"pcid": "",
 	"code": "LF",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
+	"android": [
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "diting",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -426,7 +441,9 @@
 			"code": "diting",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -501,7 +518,9 @@
 			"code": "diting",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -522,7 +541,12 @@
 			"code": "diting_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
@@ -555,7 +579,12 @@
 			"code": "diting_ep_stdee",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPSTD",
 			"tag": "",
 			"zone": "1",
@@ -790,16 +819,16 @@
 					"fastboot": "diting_eea_global_images_V13.0.11.0.SLFEUXM_20221028.0000.00_12.0_eea_eb6ecc8937.tgz"
 				},
 				{
-					"miui": "V13.0.7.0.SLFEUXM",
-					"android": "12.0",
-					"recovery": "miui_DITINGEEAGlobal_V13.0.7.0.SLFEUXM_6b58a0c0fb_12.0.zip",
-					"fastboot": "diting_eea_global_images_V13.0.7.0.SLFEUXM_20220830.0000.00_12.0_eea_a161d5223f.tgz"
-				},
-				{
 					"miui": "V13.0.9.0.SLFEUXM",
 					"android": "12.0",
 					"recovery": "miui_DITINGEEAGlobal_V13.0.9.0.SLFEUXM_cf0ab4f07a_12.0.zip",
 					"fastboot": "diting_eea_global_images_V13.0.9.0.SLFEUXM_20221008.0000.00_12.0_eea_2e2f63bf53.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SLFEUXM",
+					"android": "12.0",
+					"recovery": "miui_DITINGEEAGlobal_V13.0.7.0.SLFEUXM_6b58a0c0fb_12.0.zip",
+					"fastboot": "diting_eea_global_images_V13.0.7.0.SLFEUXM_20220830.0000.00_12.0_eea_a161d5223f.tgz"
 				}
 			]
 		},
@@ -897,7 +926,9 @@
 			"code": "diting_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -906,12 +937,12 @@
 			"zh-cn": "智利Entel运营商定制版",
 			"en-us": "Chile Stable Entel Carrier Edtion",
 			"links": [
-        {
-          "miui": "V14.0.2.0.TLFCLEN",
-          "android": "13.0",
-          "recovery": "miui_DITINGCLENGlobal_V14.0.2.0.TLFCLEN_38c442658e_13.0.zip",
-          "fastboot": ""
-        },
+				{
+					"miui": "V14.0.2.0.TLFCLEN",
+					"android": "13.0",
+					"recovery": "miui_DITINGCLENGlobal_V14.0.2.0.TLFCLEN_38c442658e_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.1.0.TLFCLEN",
 					"android": "13.0",
@@ -930,7 +961,9 @@
 			"code": "diting_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -999,7 +1032,9 @@
 			"code": "diting_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",

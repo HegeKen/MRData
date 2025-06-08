@@ -17,9 +17,18 @@
   "gdid": "10021",
   "pcid": "",
   "code": "GG",
-	"android": ["9.0", "10.0", "11.0"],
-	"miui": ["V10.4", "V11.0", "V12.0", "V12.5"],
-	"branches": [
+  "android": [
+    "9.0",
+    "10.0",
+    "11.0"
+  ],
+  "miui": [
+    "V10.4",
+    "V11.0",
+    "V12.0",
+    "V12.5"
+  ],
+  "branches": [
     {
       "code": "begonia",
       "btag": "X",
@@ -31,7 +40,7 @@
         "chinaunicom"
       ],
       "branch": "Dev",
-			"tag": "",
+      "tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1726,7 +1735,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1869,7 +1878,7 @@
         "chinatelecom"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1892,7 +1901,7 @@
         "chinamobile"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1913,7 +1922,7 @@
       "region": "global",
       "carrier": [],
       "branch": "GBOO",
-			"tag": "MIXM",
+      "tag": "MIXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -2048,13 +2057,25 @@
       "region": "eea",
       "carrier": [],
       "branch": "EEAO",
-			"tag": "EUXM",
+      "tag": "EUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
       "zh-cn": "欧洲EEA稳定版",
       "en-us": "Europe EEA Stable",
       "links": [
+        {
+          "miui": "V12.5.15.0.RGGEUXM",
+          "android": "11.0",
+          "recovery": "miui_BEGONIAEEAGlobal_V12.5.15.0.RGGEUXM_cd5652a4c4_11.0.zip",
+          "fastboot": "begonia_eea_global_images_V12.5.15.0.RGGEUXM_20220826.0000.00_11.0_eea_b8c6b15c15.tgz"
+        },
+        {
+          "miui": "V12.5.14.0.RGGEUXM",
+          "android": "11.0",
+          "recovery": "miui_BEGONIAEEAGlobal_V12.5.14.0.RGGEUXM_d0012c6e24_11.0.zip",
+          "fastboot": "begonia_eea_global_images_V12.5.14.0.RGGEUXM_20220826.0000.00_11.0_eea_73c7574ecc.tgz"
+        },
         {
           "miui": "V12.5.7.0.RGGEUXM",
           "android": "11.0",
@@ -2084,18 +2105,6 @@
           "android": "11.0",
           "recovery": "miui_BEGONIAEEAGlobal_V12.5.2.0.RGGEUXM_40245966cd_11.0.zip",
           "fastboot": "begonia_eea_global_images_V12.5.2.0.RGGEUXM_20210718.0000.00_11.0_eea_275d67715b.tgz"
-        },
-        {
-          "miui": "V12.5.15.0.RGGEUXM",
-          "android": "11.0",
-          "recovery": "miui_BEGONIAEEAGlobal_V12.5.15.0.RGGEUXM_cd5652a4c4_11.0.zip",
-          "fastboot": "begonia_eea_global_images_V12.5.15.0.RGGEUXM_20220826.0000.00_11.0_eea_b8c6b15c15.tgz"
-        },
-        {
-          "miui": "V12.5.14.0.RGGEUXM",
-          "android": "11.0",
-          "recovery": "miui_BEGONIAEEAGlobal_V12.5.14.0.RGGEUXM_d0012c6e24_11.0.zip",
-          "fastboot": "begonia_eea_global_images_V12.5.14.0.RGGEUXM_20220826.0000.00_11.0_eea_73c7574ecc.tgz"
         },
         {
           "miui": "V12.0.6.0.QGGEUXM",
@@ -2177,7 +2186,7 @@
       "region": "ru",
       "carrier": [],
       "branch": "RUSO",
-			"tag": "RUXM",
+      "tag": "RUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -2288,7 +2297,7 @@
       "region": "in",
       "carrier": [],
       "branch": "INSO",
-			"tag": "INXM",
+      "tag": "INXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -2417,7 +2426,7 @@
       "region": "id",
       "carrier": [],
       "branch": "IDSO",
-			"tag": "IDXM",
+      "tag": "IDXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -2516,7 +2525,7 @@
       "region": "global",
       "carrier": [],
       "branch": "MXTC",
-			"tag": "MXTC",
+      "tag": "MXTC",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -2543,7 +2552,7 @@
       "region": "global",
       "carrier": [],
       "branch": "LMCR",
-			"tag": "LMCR",
+      "tag": "LMCR",
       "zone": "2",
       "show": "1",
       "ep": "0",

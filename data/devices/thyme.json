@@ -12,19 +12,37 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["324"],
-	"cbid": ["326"],
+	"csid": [
+		"324"
+	],
+	"cbid": [
+		"326"
+	],
 	"gdid": "",
 	"pcid": "",
 	"code": "GA",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "thyme",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -1228,15 +1246,15 @@
 					"fastboot": ""
 				},
 				{
-					"miui": "21.12.7",
-					"android": "12.0",
-					"recovery": "miui_THYME_21.12.7_09b035bb65_12.0.zip",
-					"fastboot": ""
-				},
-				{
 					"miui": "21.12.8",
 					"android": "12.0",
 					"recovery": "miui_THYME_21.12.8_6a076263a3_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.7",
+					"android": "12.0",
+					"recovery": "miui_THYME_21.12.7_09b035bb65_12.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -1983,7 +2001,12 @@
 			"code": "thyme_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
@@ -2151,7 +2174,9 @@
 			"code": "thyme",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2196,7 +2221,9 @@
 			"code": "thyme",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",

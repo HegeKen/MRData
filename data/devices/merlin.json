@@ -12,14 +12,25 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "",
-	"csid": ["228"],
+	"csid": [
+		"228"
+	],
 	"cbid": [],
 	"gdid": "10010",
 	"pcid": "",
 	"TSACO": "miui_MERLIN_V14.0.0.1.SJOCNXM_12.0.zip",
 	"code": "JO",
-	"android": ["10.0", "11.0", "12.0"],
-	"miui": ["V11.0", "V12.0", "V12.5", "V13.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0"
+	],
+	"miui": [
+		"V11.0",
+		"V12.0",
+		"V12.5",
+		"V13.0"
+	],
 	"branches": [
 		{
 			"code": "merlin",
@@ -142,7 +153,9 @@
 			"code": "merlin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -163,7 +176,9 @@
 			"code": "merlin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -184,7 +199,9 @@
 			"code": "merlin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinaunicom"],
+			"carrier": [
+				"chinaunicom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -431,6 +448,12 @@
 					"fastboot": "merlin_eea_global_images_V12.0.1.0.RJOEUXM_20210615.0000.00_11.0_eea_e43ec8aa79.tgz"
 				},
 				{
+					"miui": "V12.0.10.0.QJOEUXM",
+					"android": "10.0",
+					"recovery": "miui_MERLINEEAGlobal_V12.0.10.0.QJOEUXM_17329ead77_10.0.zip",
+					"fastboot": "merlin_eea_global_images_V12.0.10.0.QJOEUXM_20210413.0000.00_10.0_eea_c4a9d5d7fc.tgz"
+				},
+				{
 					"miui": "V12.0.9.0.QJOEUXM",
 					"android": "10.0",
 					"recovery": "miui_MERLINEEAGlobal_V12.0.9.0.QJOEUXM_5a7954d9cf_10.0.zip",
@@ -459,12 +482,6 @@
 					"android": "10.0",
 					"recovery": "miui_MERLINEEAGlobal_V12.0.2.0.QJOEUXM_f84bbb9162_10.0.zip",
 					"fastboot": "merlin_eea_global_images_V12.0.2.0.QJOEUXM_20200812.0000.00_10.0_eea_54843ae36c.tgz"
-				},
-				{
-					"miui": "V12.0.10.0.QJOEUXM",
-					"android": "10.0",
-					"recovery": "miui_MERLINEEAGlobal_V12.0.10.0.QJOEUXM_17329ead77_10.0.zip",
-					"fastboot": "merlin_eea_global_images_V12.0.10.0.QJOEUXM_20210413.0000.00_10.0_eea_c4a9d5d7fc.tgz"
 				},
 				{
 					"miui": "V12.0.1.0.QJOEUXM",
@@ -502,7 +519,9 @@
 			"code": "merlin_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -568,7 +587,9 @@
 			"code": "merlin_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -688,7 +709,9 @@
 			"code": "merlin_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -739,7 +762,9 @@
 			"code": "merlin_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -1162,7 +1187,9 @@
 			"code": "merlin_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -1189,7 +1216,9 @@
 			"code": "merlin_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -1216,7 +1245,9 @@
 			"code": "merlin_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -1249,7 +1280,9 @@
 			"code": "merlin_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",

@@ -12,19 +12,37 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["337"],
-	"cbid": ["336"],
+	"csid": [
+		"337"
+	],
+	"cbid": [
+		"336"
+	],
 	"gdid": "10389",
 	"pcid": "",
 	"code": "KI",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "renoir",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -544,6 +562,12 @@
 					"fastboot": "renoir_images_V13.0.8.1.15.DEV_20220308.0000.00_12.0_cn_ce1be8a226.tgz"
 				},
 				{
+					"miui": "V13.0.7.1.13.DEV",
+					"android": "12.0",
+					"recovery": "miui_RENOIR_V13.0.7.1.13.DEV_7df16a24d5_12.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V13.0.7.1.9.DEV",
 					"android": "12.0",
 					"recovery": "miui_RENOIR_V13.0.7.1.9.DEV_0a178f2b61_12.0.zip",
@@ -553,12 +577,6 @@
 					"miui": "V13.0.7.1.7.DEV",
 					"android": "12.0",
 					"recovery": "miui_RENOIR_V13.0.7.1.7.DEV_0e18fb494c_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.7.1.13.DEV",
-					"android": "12.0",
-					"recovery": "miui_RENOIR_V13.0.7.1.13.DEV_7df16a24d5_12.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -1156,15 +1174,15 @@
 					"fastboot": ""
 				},
 				{
-					"miui": "21.12.27",
-					"android": "12.0",
-					"recovery": "miui_RENOIRPRE_21.12.27_f39a45043b_12.0.zip",
-					"fastboot": ""
-				},
-				{
 					"miui": "21.12.29",
 					"android": "12.0",
 					"recovery": "miui_RENOIRPRE_21.12.29_e4b74024b7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.27",
+					"android": "12.0",
+					"recovery": "miui_RENOIRPRE_21.12.27_f39a45043b_12.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -1909,6 +1927,12 @@
 					"fastboot": "renoir_images_V13.0.14.0.SKICNXM_20221108.0000.00_12.0_cn_42a55cdd28.tgz"
 				},
 				{
+					"miui": "V13.0.12.0.SKICNXM",
+					"android": "12.0",
+					"recovery": "miui_RENOIR_V13.0.12.0.SKICNXM_ab867de060_12.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V13.0.9.0.SKICNXM",
 					"android": "12.0",
 					"recovery": "miui_RENOIR_V13.0.9.0.SKICNXM_d14041e8b9_12.0.zip",
@@ -1930,12 +1954,6 @@
 					"miui": "V13.0.4.0.SKICNXM",
 					"android": "12.0",
 					"recovery": "miui_RENOIR_V13.0.4.0.SKICNXM_40f0bd0d21_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.12.0.SKICNXM",
-					"android": "12.0",
-					"recovery": "miui_RENOIR_V13.0.12.0.SKICNXM_ab867de060_12.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -1980,7 +1998,9 @@
 			"code": "renoir",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2025,7 +2045,9 @@
 			"code": "renoir",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2070,7 +2092,12 @@
 			"code": "renoir_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
@@ -2103,7 +2130,12 @@
 			"code": "renoir_ep_yy",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPYYE",
 			"tag": "",
 			"zone": "1",
@@ -2133,12 +2165,12 @@
 			"zh-cn": "中国台湾省稳定版",
 			"en-us": "China Taiwan Province Stable",
 			"links": [
-        {
-          "miui": "V14.0.6.0.TKITWXM",
-          "android": "13.0",
-          "recovery": "miui_RENOIRTWGlobal_V14.0.6.0.TKITWXM_055d7f5726_13.0.zip",
-          "fastboot": "renoir_tw_global_images_V14.0.6.0.TKITWXM_20240104.0000.00_13.0_tw_0e1e7a1530.tgz"
-        },
+				{
+					"miui": "V14.0.6.0.TKITWXM",
+					"android": "13.0",
+					"recovery": "miui_RENOIRTWGlobal_V14.0.6.0.TKITWXM_055d7f5726_13.0.zip",
+					"fastboot": "renoir_tw_global_images_V14.0.6.0.TKITWXM_20240104.0000.00_13.0_tw_0e1e7a1530.tgz"
+				},
 				{
 					"miui": "V14.0.5.0.TKITWXM",
 					"android": "13.0",
@@ -2451,7 +2483,9 @@
 			"code": "renoir_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -2523,7 +2557,9 @@
 			"code": "renoir_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -2556,7 +2592,9 @@
 			"code": "renoir_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -2595,7 +2633,9 @@
 			"code": "renoir_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -2634,7 +2674,9 @@
 			"code": "renoir_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -2766,7 +2808,9 @@
 			"code": "renoir_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -2817,7 +2861,9 @@
 			"code": "renoir_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -2862,7 +2908,9 @@
 			"code": "renoir_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -2898,12 +2946,12 @@
 			"zh-cn": "日本稳定版",
 			"en-us": "Japan Stable",
 			"links": [
-        {
-          "miui": "V14.0.4.0.TKIJPXM",
-          "android": "13.0",
-          "recovery": "miui_RENOIRJPGlobal_V14.0.4.0.TKIJPXM_215c17b9d1_13.0.zip",
-          "fastboot": "renoir_jp_global_images_V14.0.4.0.TKIJPXM_20240104.0000.00_13.0_jp_d28757e43e.tgz"
-        },
+				{
+					"miui": "V14.0.4.0.TKIJPXM",
+					"android": "13.0",
+					"recovery": "miui_RENOIRJPGlobal_V14.0.4.0.TKIJPXM_215c17b9d1_13.0.zip",
+					"fastboot": "renoir_jp_global_images_V14.0.4.0.TKIJPXM_20240104.0000.00_13.0_jp_d28757e43e.tgz"
+				},
 				{
 					"miui": "V14.0.3.0.TKIJPXM",
 					"android": "13.0",

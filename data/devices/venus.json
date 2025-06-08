@@ -12,19 +12,37 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["312"],
-	"cbid": ["311"],
+	"csid": [
+		"312"
+	],
+	"cbid": [
+		"311"
+	],
 	"gdid": "10389",
 	"pcid": "",
 	"code": "KB",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "venus",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -2382,12 +2400,12 @@
 			"zh-cn": "中国大陆正式版",
 			"en-us": "China Mainland Stable",
 			"links": [
-        {
-          "miui": "V14.0.11.0.TKBCNXM",
-          "android": "13.0",
-          "recovery": "miui_VENUS_V14.0.11.0.TKBCNXM_92852eba5a_13.0.zip",
-          "fastboot": "venus_images_V14.0.11.0.TKBCNXM_20231226.0000.00_13.0_cn_381734d624.tgz"
-        },
+				{
+					"miui": "V14.0.11.0.TKBCNXM",
+					"android": "13.0",
+					"recovery": "miui_VENUS_V14.0.11.0.TKBCNXM_92852eba5a_13.0.zip",
+					"fastboot": "venus_images_V14.0.11.0.TKBCNXM_20231226.0000.00_13.0_cn_381734d624.tgz"
+				},
 				{
 					"miui": "V14.0.10.0.TKBCNXM",
 					"android": "13.0",
@@ -2568,7 +2586,9 @@
 			"code": "venus",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2577,12 +2597,12 @@
 			"zh-cn": "中国电信定制版",
 			"en-us": "China Telecom Carrier Edition",
 			"links": [
-        {
-          "miui": "V14.0.11.0.TKBCNXM",
-          "android": "13.0",
-          "recovery": "miui_VENUS_V14.0.11.0.TKBCNXM_92852eba5a_13.0.zip",
-          "fastboot": "venus_images_V14.0.11.0.TKBCNXM_20231226.0000.00_13.0_cn_chinatelecom_42a8eead53.tgz"
-        },
+				{
+					"miui": "V14.0.11.0.TKBCNXM",
+					"android": "13.0",
+					"recovery": "miui_VENUS_V14.0.11.0.TKBCNXM_92852eba5a_13.0.zip",
+					"fastboot": "venus_images_V14.0.11.0.TKBCNXM_20231226.0000.00_13.0_cn_chinatelecom_42a8eead53.tgz"
+				},
 				{
 					"miui": "V14.0.10.0.TKBCNXM",
 					"android": "13.0",
@@ -2613,7 +2633,9 @@
 			"code": "venus",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2622,12 +2644,12 @@
 			"zh-cn": "中国移动定制版",
 			"en-us": "China Mobile Carrier Edition",
 			"links": [
-        {
-          "miui": "V14.0.11.0.TKBCNXM",
-          "android": "13.0",
-          "recovery": "miui_VENUS_V14.0.11.0.TKBCNXM_92852eba5a_13.0.zip",
-          "fastboot": "venus_images_V14.0.11.0.TKBCNXM_20231226.0000.00_13.0_cn_chinamobile_242f2f084c.tgz"
-        },
+				{
+					"miui": "V14.0.11.0.TKBCNXM",
+					"android": "13.0",
+					"recovery": "miui_VENUS_V14.0.11.0.TKBCNXM_92852eba5a_13.0.zip",
+					"fastboot": "venus_images_V14.0.11.0.TKBCNXM_20231226.0000.00_13.0_cn_chinamobile_242f2f084c.tgz"
+				},
 				{
 					"miui": "V14.0.10.0.TKBCNXM",
 					"android": "13.0",
@@ -3004,18 +3026,6 @@
 					"fastboot": "venus_eea_global_images_V12.5.1.0.RKBEUXM_20210428.0000.00_11.0_eea_a182c96769.tgz"
 				},
 				{
-					"miui": "V12.0.9.0.RKBEUXM",
-					"android": "11.0",
-					"recovery": "miui_VENUSEEAGlobal_V12.0.9.0.RKBEUXM_488d4eb5c0_11.0.zip",
-					"fastboot": "venus_eea_global_images_V12.0.9.0.RKBEUXM_20210307.0000.00_11.0_eea_a9dcd237a8.tgz"
-				},
-				{
-					"miui": "V12.0.3.0.RKBEUXM",
-					"android": "11.0",
-					"recovery": "miui_VENUSEEAGlobal_V12.0.3.0.RKBEUXM_19bd7040ac_11.0.zip",
-					"fastboot": "venus_eea_global_images_V12.0.3.0.RKBEUXM_20210206.0000.00_11.0_eea_6367a5651f.tgz"
-				},
-				{
 					"miui": "V12.0.13.0.RKBEUXM",
 					"android": "11.0",
 					"recovery": "miui_VENUSEEAGlobal_V12.0.13.0.RKBEUXM_27c451d5b7_11.0.zip",
@@ -3026,6 +3036,18 @@
 					"android": "11.0",
 					"recovery": "miui_VENUSEEAGlobal_V12.0.11.0.RKBEUXM_e771d3aba9_11.0.zip",
 					"fastboot": "venus_eea_global_images_V12.0.11.0.RKBEUXM_20210323.0000.00_11.0_eea_3bd8ecac1c.tgz"
+				},
+				{
+					"miui": "V12.0.9.0.RKBEUXM",
+					"android": "11.0",
+					"recovery": "miui_VENUSEEAGlobal_V12.0.9.0.RKBEUXM_488d4eb5c0_11.0.zip",
+					"fastboot": "venus_eea_global_images_V12.0.9.0.RKBEUXM_20210307.0000.00_11.0_eea_a9dcd237a8.tgz"
+				},
+				{
+					"miui": "V12.0.3.0.RKBEUXM",
+					"android": "11.0",
+					"recovery": "miui_VENUSEEAGlobal_V12.0.3.0.RKBEUXM_19bd7040ac_11.0.zip",
+					"fastboot": "venus_eea_global_images_V12.0.3.0.RKBEUXM_20210206.0000.00_11.0_eea_6367a5651f.tgz"
 				}
 			]
 		},
@@ -3033,7 +3055,9 @@
 			"code": "venus_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -3147,7 +3171,9 @@
 			"code": "venus_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -3204,7 +3230,9 @@
 			"code": "venus_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -3261,7 +3289,9 @@
 			"code": "venus_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -3276,12 +3306,12 @@
 					"recovery": "miui_VENUSEEASFGlobal_V14.0.5.0.TKBEUSF_caf7624c91_13.0.zip",
 					"fastboot": ""
 				},
-        {
-          "miui": "V14.0.4.0.TKBEUSF",
-          "android": "13.0",
-          "recovery": "miui_VENUSEEASFGlobal_V14.0.4.0.TKBEUSF_06fe914f3c_13.0.zip",
-          "fastboot": ""
-        },
+				{
+					"miui": "V14.0.4.0.TKBEUSF",
+					"android": "13.0",
+					"recovery": "miui_VENUSEEASFGlobal_V14.0.4.0.TKBEUSF_06fe914f3c_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.2.0.TKBEUSF",
 					"android": "13.0",
@@ -3306,7 +3336,9 @@
 			"code": "venus_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -3411,12 +3443,12 @@
 			"zh-cn": "印度尼西亚稳定版",
 			"en-us": "Indonesia Stable",
 			"links": [
-        {
-          "miui": "V14.0.4.0.TKBIDXM",
-          "android": "13.0",
-          "recovery": "miui_VENUSIDGlobal_V14.0.4.0.TKBIDXM_98e51e4937_13.0.zip",
-          "fastboot": "venus_id_global_images_V14.0.4.0.TKBIDXM_20240102.0000.00_13.0_id_f871dc5d17.tgz"
-        },
+				{
+					"miui": "V14.0.4.0.TKBIDXM",
+					"android": "13.0",
+					"recovery": "miui_VENUSIDGlobal_V14.0.4.0.TKBIDXM_98e51e4937_13.0.zip",
+					"fastboot": "venus_id_global_images_V14.0.4.0.TKBIDXM_20240102.0000.00_13.0_id_f871dc5d17.tgz"
+				},
 				{
 					"miui": "V14.0.3.0.TKBIDXM",
 					"android": "13.0",
@@ -3546,7 +3578,9 @@
 			"code": "venus_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",

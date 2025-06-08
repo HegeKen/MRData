@@ -17,9 +17,34 @@
   "gdid": "",
   "pcid": "",
   "code": "XD",
-	"android": ["4.3", "4.4", "6.0"],
-	"miui": ["V6.1", "V6.2", "V6.3", "V6.4", "V6.5", "V6.6", "V6.7", "V7.0", "V7.1", "V7.2", "V7.3", "V7.5", "V8.0", "V8.1", "V8.2", "V8.5", "V9.2", "V9.5", "V9.6", "V10.1"],
-	"branches": [
+  "android": [
+    "4.3",
+    "4.4",
+    "6.0"
+  ],
+  "miui": [
+    "V6.1",
+    "V6.2",
+    "V6.3",
+    "V6.4",
+    "V6.5",
+    "V6.6",
+    "V6.7",
+    "V7.0",
+    "V7.1",
+    "V7.2",
+    "V7.3",
+    "V7.5",
+    "V8.0",
+    "V8.1",
+    "V8.2",
+    "V8.5",
+    "V9.2",
+    "V9.5",
+    "V9.6",
+    "V10.1"
+  ],
+  "branches": [
     {
       "code": "cancro_alpha",
       "btag": "X",
@@ -31,7 +56,7 @@
         "chinaunicom"
       ],
       "branch": "CNAL",
-			"tag": "",
+      "tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -52,7 +77,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "Dev",
-			"tag": "",
+      "tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1315,7 +1340,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1431,6 +1456,12 @@
           "fastboot": "cancro_images_V7.3.1.0.MXDCNDD_20160322.0000.17_6.0_cn_6838547fe3.tgz"
         },
         {
+          "miui": "V7.2.11.0.MXDCNDB",
+          "android": "6.0",
+          "recovery": "miui_MI3WMI4W_V7.2.11.0.MXDCNDB_a08d6219b1_6.0.zip",
+          "fastboot": "cancro_images_V7.2.11.0.MXDCNDB_20160129.0000.14_6.0_cn_7e8ac92c86.tgz"
+        },
+        {
           "miui": "V7.2.9.0.MXDCNDB",
           "android": "6.0",
           "recovery": "miui_MI3WMI4W_V7.2.9.0.MXDCNDB_20dd009875_6.0.zip",
@@ -1447,12 +1478,6 @@
           "android": "6.0",
           "recovery": "miui_MI3WMI4W_V7.2.7.0.MXDCNDB_604e6c2c50_6.0.zip",
           "fastboot": ""
-        },
-        {
-          "miui": "V7.2.11.0.MXDCNDB",
-          "android": "6.0",
-          "recovery": "miui_MI3WMI4W_V7.2.11.0.MXDCNDB_a08d6219b1_6.0.zip",
-          "fastboot": "cancro_images_V7.2.11.0.MXDCNDB_20160129.0000.14_6.0_cn_7e8ac92c86.tgz"
         },
         {
           "miui": "V7.1.5.0.KXDCNCK",
@@ -1557,6 +1582,12 @@
           "fastboot": "cancro_images_V6.4.1.0.KXDCNCB_4.4_cn_4c5965a024.tgz"
         },
         {
+          "miui": "V6.3.10.0.KXDCNBL",
+          "android": "4.4",
+          "recovery": "miui_MI3WMI4W_V6.3.10.0.KXDCNBL_3cfedb36ea_4.4.zip",
+          "fastboot": "cancro_images_V6.3.10.0.KXDCNBL_4.4_cn_3248a4b333.tgz"
+        },
+        {
           "miui": "V6.3.9.0.KXDCNBL",
           "android": "4.4",
           "recovery": "miui_MI3WMI4W_V6.3.9.0.KXDCNBL_0d7c439baf_4.4.zip",
@@ -1567,12 +1598,6 @@
           "android": "4.4",
           "recovery": "miui_MI3WMI4W_V6.3.3.0.KXDCNBL_4bc46db87b_4.4.zip",
           "fastboot": "cancro_images_V6.3.3.0.KXDCNBL_4.4_cn_79a4df3b09.tgz"
-        },
-        {
-          "miui": "V6.3.10.0.KXDCNBL",
-          "android": "4.4",
-          "recovery": "miui_MI3WMI4W_V6.3.10.0.KXDCNBL_3cfedb36ea_4.4.zip",
-          "fastboot": "cancro_images_V6.3.10.0.KXDCNBL_4.4_cn_3248a4b333.tgz"
         },
         {
           "miui": "V6.2.1.0.KXDCNBK",
@@ -1674,7 +1699,7 @@
         "chinaunicom"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1721,7 +1746,7 @@
         "chinatelecom"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1754,7 +1779,7 @@
       "region": "hk",
       "carrier": [],
       "branch": "CNHK",
-			"tag": "",
+      "tag": "",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -1805,7 +1830,7 @@
       "region": "tw",
       "carrier": [],
       "branch": "CNTP",
-			"tag": "TWXM",
+      "tag": "TWXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -1922,7 +1947,7 @@
       "region": "global",
       "carrier": [],
       "branch": "GDev",
-			"tag": "",
+      "tag": "",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -2405,7 +2430,7 @@
       "region": "global",
       "carrier": [],
       "branch": "GBOO",
-			"tag": "MIXM",
+      "tag": "MIXM",
       "zone": "2",
       "show": "1",
       "ep": "0",

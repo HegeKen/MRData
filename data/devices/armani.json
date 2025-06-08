@@ -17,9 +17,25 @@
   "gdid": "",
   "pcid": "",
   "code": "HC",
-	"android": ["4.3", "4.4"],
-	"miui": ["V6.6", "V6.7", "V7.0", "V7.1", "V7.2", "V7.3", "V7.5", "V8.0", "V8.1", "V8.2", "V8.5", "V9.2"],
-	"branches": [
+  "android": [
+    "4.3",
+    "4.4"
+  ],
+  "miui": [
+    "V6.6",
+    "V6.7",
+    "V7.0",
+    "V7.1",
+    "V7.2",
+    "V7.3",
+    "V7.5",
+    "V8.0",
+    "V8.1",
+    "V8.2",
+    "V8.5",
+    "V9.2"
+  ],
+  "branches": [
     {
       "code": "armani",
       "btag": "X",
@@ -31,7 +47,7 @@
         "chinaunicom"
       ],
       "branch": "Dev",
-			"tag": "",
+      "tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -351,12 +367,6 @@
           "fastboot": ""
         },
         {
-          "miui": "6.3.3",
-          "android": "4.4",
-          "recovery": "miui_HM1SWC_6.3.3_78b05cdaf5_4.4.zip",
-          "fastboot": ""
-        },
-        {
           "miui": "6.3.24",
           "android": "4.4",
           "recovery": "miui_HM1SWC_6.3.24_e6232b269c_4.4.zip",
@@ -372,6 +382,12 @@
           "miui": "6.3.10",
           "android": "4.4",
           "recovery": "miui_HM1SWC_6.3.10_78211e9f99_4.4.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "6.3.3",
+          "android": "4.4",
+          "recovery": "miui_HM1SWC_6.3.3_78b05cdaf5_4.4.zip",
           "fastboot": ""
         },
         {
@@ -670,7 +686,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -901,7 +917,7 @@
       "region": "global",
       "carrier": [],
       "branch": "GDev",
-			"tag": "",
+      "tag": "",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -1216,7 +1232,7 @@
       "region": "global",
       "carrier": [],
       "branch": "GBOO",
-			"tag": "MIXM",
+      "tag": "MIXM",
       "zone": "2",
       "show": "1",
       "ep": "0",

@@ -12,19 +12,36 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["363"],
-	"cbid": ["369"],
+	"csid": [
+		"363"
+	],
+	"cbid": [
+		"369"
+	],
 	"gdid": "",
 	"pcid": "",
 	"code": "KM",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "odin",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -1240,15 +1257,15 @@
 					"fastboot": ""
 				},
 				{
-					"miui": "21.12.27",
-					"android": "12.0",
-					"recovery": "miui_ODINPRE_21.12.27_55f6edca9a_12.0.zip",
-					"fastboot": ""
-				},
-				{
 					"miui": "21.12.29",
 					"android": "12.0",
 					"recovery": "miui_ODINPRE_21.12.29_20bc7c5398_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "21.12.27",
+					"android": "12.0",
+					"recovery": "miui_ODINPRE_21.12.27_55f6edca9a_12.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -1584,7 +1601,9 @@
 			"code": "odin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinaunicom"],
+			"carrier": [
+				"chinaunicom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1629,7 +1648,9 @@
 			"code": "odin",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1674,7 +1695,12 @@
 			"code": "odin_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",

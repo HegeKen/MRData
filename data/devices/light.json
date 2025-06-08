@@ -12,7 +12,9 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["426"],
+	"csid": [
+		"426"
+	],
 	"cbid": [],
 	"gdid": "56423",
 	"pcid": "76410",
@@ -23,14 +25,26 @@
 		"lightcm_images_V13.0.20.0.SLSCNXM_20230413.0000.00_12.0_cn_aecc489276.tgz"
 	],
 	"code": "LS",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V13.2", "V14.0"],
+	"android": [
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.0",
+		"V13.2",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "light",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -117,7 +131,9 @@
 			"code": "light",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -180,7 +196,9 @@
 			"code": "light",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -219,7 +237,9 @@
 			"code": "light",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinaunicom"],
+			"carrier": [
+				"chinaunicom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -258,7 +278,12 @@
 			"code": "light_ep_stdce",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPSTD",
 			"tag": "",
 			"zone": "1",
@@ -279,7 +304,12 @@
 			"code": "light_ep_xy",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPXYE",
 			"tag": "",
 			"zone": "1",
@@ -300,7 +330,12 @@
 			"code": "light_ep_xdja",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPXDJ",
 			"tag": "",
 			"zone": "1",
@@ -333,7 +368,12 @@
 			"code": "light_ep_stdee",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPSTD",
 			"tag": "",
 			"zone": "1",
@@ -507,12 +547,12 @@
 			"zh-cn": "欧洲EEA稳定版",
 			"en-us": "Europe EEA Stable",
 			"links": [
-        {
-          "miui": "V14.0.9.0.TLSEUXM",
-          "android": "13.0",
-          "recovery": "miui_LIGHTEEAGlobal_V14.0.9.0.TLSEUXM_1f8a4ad1b6_13.0.zip",
-          "fastboot": "light_eea_global_images_V14.0.9.0.TLSEUXM_20240126.0000.00_13.0_eea_8115dcdbac.tgz"
-        },
+				{
+					"miui": "V14.0.9.0.TLSEUXM",
+					"android": "13.0",
+					"recovery": "miui_LIGHTEEAGlobal_V14.0.9.0.TLSEUXM_1f8a4ad1b6_13.0.zip",
+					"fastboot": "light_eea_global_images_V14.0.9.0.TLSEUXM_20240126.0000.00_13.0_eea_8115dcdbac.tgz"
+				},
 				{
 					"miui": "V14.0.8.0.TLSEUXM",
 					"android": "13.0",
@@ -585,7 +625,9 @@
 			"code": "light_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -646,15 +688,15 @@
 					"fastboot": ""
 				},
 				{
-					"miui": "V14.0.3.0.TLSEUOR",
-					"android": "13.0",
-					"recovery": "miui_LIGHTEEAORGlobal_V14.0.3.0.TLSEUOR_2ea929d4bb_13.0.zip",
-					"fastboot": ""
-				},
-				{
 					"miui": "V14.0.4.0.TLSEUOR",
 					"android": "13.0",
 					"recovery": "miui_LIGHTEEAORGlobal_V14.0.4.0.TLSEUOR_0b3a03401d_13.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V14.0.3.0.TLSEUOR",
+					"android": "13.0",
+					"recovery": "miui_LIGHTEEAORGlobal_V14.0.3.0.TLSEUOR_2ea929d4bb_13.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -675,7 +717,9 @@
 			"code": "light_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -714,7 +758,9 @@
 			"code": "light_eea_by_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"branch": "EUBY",
 			"tag": "EUBY",
 			"zone": "2",
@@ -735,7 +781,9 @@
 			"code": "light_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -780,7 +828,9 @@
 			"code": "light_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -819,7 +869,9 @@
 			"code": "light_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -987,12 +1039,12 @@
 			"zh-cn": "印度尼西亚稳定版",
 			"en-us": "Indonesia Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TLSIDXM",
-          "android": "13.0",
-          "recovery": "miui_LIGHTIDGlobal_V14.0.5.0.TLSIDXM_f9cd622b2d_13.0.zip",
-          "fastboot": "light_id_global_images_V14.0.5.0.TLSIDXM_20240122.0000.00_13.0_id_d8e6992ac8.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TLSIDXM",
+					"android": "13.0",
+					"recovery": "miui_LIGHTIDGlobal_V14.0.5.0.TLSIDXM_f9cd622b2d_13.0.zip",
+					"fastboot": "light_id_global_images_V14.0.5.0.TLSIDXM_20240122.0000.00_13.0_id_d8e6992ac8.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TLSIDXM",
 					"android": "13.0",
@@ -1122,7 +1174,9 @@
 			"code": "light_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",

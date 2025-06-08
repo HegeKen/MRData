@@ -12,19 +12,36 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["284"],
+	"csid": [
+		"284"
+	],
 	"cbid": [],
 	"gdid": "10006",
 	"pcid": "",
 	"code": "JD",
-	"android": ["10.0", "11.0", "12.0"],
-	"miui": ["V12.0", "V12.1", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.1",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "apollo",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -2292,7 +2309,9 @@
 			"code": "apollo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2319,7 +2338,9 @@
 			"code": "apollo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2521,6 +2542,18 @@
 					"fastboot": "apollo_global_images_V12.1.1.0.RJDMIXM_20210303.0000.00_11.0_global_3242c246e6.tgz"
 				},
 				{
+					"miui": "V12.0.11.0.QJDMIXM",
+					"android": "10.0",
+					"recovery": "miui_APOLLOGlobal_V12.0.11.0.QJDMIXM_a18d9524b4_10.0.zip",
+					"fastboot": "apollo_global_images_V12.0.11.0.QJDMIXM_20210119.0000.00_10.0_global_6cb814382c.tgz"
+				},
+				{
+					"miui": "V12.0.10.0.QJDMIXM",
+					"android": "10.0",
+					"recovery": "miui_APOLLOGlobal_V12.0.10.0.QJDMIXM_a56b86d8e2_10.0.zip",
+					"fastboot": "apollo_global_images_V12.0.10.0.QJDMIXM_20201219.0000.00_10.0_global_790093dfa4.tgz"
+				},
+				{
 					"miui": "V12.0.9.0.QJDMIXM",
 					"android": "10.0",
 					"recovery": "miui_APOLLOGlobal_V12.0.9.0.QJDMIXM_5afb52eebd_10.0.zip",
@@ -2555,18 +2588,6 @@
 					"android": "10.0",
 					"recovery": "miui_APOLLOGlobal_V12.0.3.0.QJDMIXM_a2694ad671_10.0.zip",
 					"fastboot": "apollo_global_images_V12.0.3.0.QJDMIXM_20200926.0000.00_10.0_global_189932d414.tgz"
-				},
-				{
-					"miui": "V12.0.11.0.QJDMIXM",
-					"android": "10.0",
-					"recovery": "miui_APOLLOGlobal_V12.0.11.0.QJDMIXM_a18d9524b4_10.0.zip",
-					"fastboot": "apollo_global_images_V12.0.11.0.QJDMIXM_20210119.0000.00_10.0_global_6cb814382c.tgz"
-				},
-				{
-					"miui": "V12.0.10.0.QJDMIXM",
-					"android": "10.0",
-					"recovery": "miui_APOLLOGlobal_V12.0.10.0.QJDMIXM_a56b86d8e2_10.0.zip",
-					"fastboot": "apollo_global_images_V12.0.10.0.QJDMIXM_20201219.0000.00_10.0_global_790093dfa4.tgz"
 				}
 			]
 		},
@@ -2793,7 +2814,9 @@
 			"code": "apollo_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -2859,7 +2882,9 @@
 			"code": "apollo_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -2892,7 +2917,9 @@
 			"code": "apollo_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -2925,7 +2952,9 @@
 			"code": "apollo_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -2952,7 +2981,9 @@
 			"code": "apollo_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -3309,7 +3340,9 @@
 			"code": "apollo_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -3336,7 +3369,9 @@
 			"code": "apollo_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -3423,7 +3458,9 @@
 			"code": "apollo_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",

@@ -23,8 +23,17 @@
 	"gdid": "10389",
 	"pcid": "",
 	"code": "KA",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "star",
@@ -693,6 +702,12 @@
 					"fastboot": "star_images_V13.0.10.1.15.DEV_20220308.0000.00_12.0_cn_a89200424e.tgz"
 				},
 				{
+					"miui": "V13.0.9.1.13.DEV",
+					"android": "12.0",
+					"recovery": "miui_STAR_V13.0.9.1.13.DEV_908df69784_12.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V13.0.9.1.11.DEV",
 					"android": "12.0",
 					"recovery": "miui_STAR_V13.0.9.1.11.DEV_a2d6d052a0_12.0.zip",
@@ -714,12 +729,6 @@
 					"miui": "V13.0.9.1.5.DEV",
 					"android": "12.0",
 					"recovery": "miui_STAR_V13.0.9.1.5.DEV_6c4f54771d_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.9.1.13.DEV",
-					"android": "12.0",
-					"recovery": "miui_STAR_V13.0.9.1.13.DEV_908df69784_12.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -2606,7 +2615,9 @@
 			"code": "star_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",

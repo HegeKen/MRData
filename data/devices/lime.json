@@ -12,19 +12,35 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["297"],
+	"csid": [
+		"297"
+	],
 	"cbid": [],
 	"gdid": "10005",
 	"pcid": "",
 	"code": "JQ",
-	"android": ["10.0", "11.0", "12.0"],
-	"miui": ["V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "lime",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -1590,7 +1606,9 @@
 			"code": "lime",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1617,7 +1635,9 @@
 			"code": "lime",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1638,7 +1658,12 @@
 			"code": "lime_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
@@ -1665,7 +1690,12 @@
 			"code": "lime_yunke",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPYKE",
 			"tag": "",
 			"zone": "1",
@@ -1686,7 +1716,12 @@
 			"code": "lime_tl",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPTLE",
 			"tag": "",
 			"zone": "1",
@@ -1804,12 +1839,6 @@
 			"en-us": "Global Stable",
 			"links": [
 				{
-					"miui": "V13.0.6.0.SJQMIXM",
-					"android": "12.0",
-					"recovery": "miui_LIMEGlobal_V13.0.6.0.SJQMIXM_dccad322e9_12.0.zip",
-					"fastboot": "lime_global_images_V13.0.6.0.SJQMIXM_20230712.0000.00_12.0_global_586b8928bc.tgz"
-				},
-				{
 					"miui": "V14.0.5.0.SJQMIXM",
 					"android": "12.0",
 					"recovery": "miui_LIMEGlobal_V14.0.5.0.SJQMIXM_057bc83463_12.0.zip",
@@ -1820,6 +1849,12 @@
 					"android": "12.0",
 					"recovery": "miui_LIMEGlobal_V14.0.3.0.SJQMIXM_e2059cb6c7_12.0.zip",
 					"fastboot": "lime_global_images_V14.0.3.0.SJQMIXM_20230330.0000.00_12.0_global_bdec0baa47.tgz"
+				},
+				{
+					"miui": "V13.0.6.0.SJQMIXM",
+					"android": "12.0",
+					"recovery": "miui_LIMEGlobal_V13.0.6.0.SJQMIXM_dccad322e9_12.0.zip",
+					"fastboot": "lime_global_images_V13.0.6.0.SJQMIXM_20230712.0000.00_12.0_global_586b8928bc.tgz"
 				},
 				{
 					"miui": "V13.0.3.0.SJQMIXM",
@@ -2112,7 +2147,9 @@
 			"code": "lime_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -2190,7 +2227,9 @@
 			"code": "lime_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -2229,7 +2268,9 @@
 			"code": "lime_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -2328,7 +2369,9 @@
 			"code": "lime_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -2361,7 +2404,9 @@
 			"code": "lime_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -2826,7 +2871,9 @@
 			"code": "lime_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -2859,7 +2906,9 @@
 			"code": "lime_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",

@@ -17,8 +17,18 @@
 	"gdid": "10010",
 	"pcid": "",
 	"code": "JX",
-	"android": ["10.0", "11.0", "12.0"],
-	"miui": ["V11.0", "V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0"
+	],
+	"miui": [
+		"V11.0",
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "excalibur_in_global",
@@ -64,16 +74,16 @@
 					"fastboot": "excalibur_in_global_images_V12.5.5.0.RJXINXM_20220120.0000.00_11.0_in_8baaa3af77.tgz"
 				},
 				{
-					"miui": "V12.5.2.4.RJXINXM",
-					"android": "11.0",
-					"recovery": "miui_EXCALIBURINGlobal_V12.5.2.4.RJXINXM_0efceb2c21_11.0.zip",
-					"fastboot": ""
-				},
-				{
 					"miui": "V12.5.3.0.RJXINXM",
 					"android": "11.0",
 					"recovery": "miui_EXCALIBURINGlobal_V12.5.3.0.RJXINXM_26940de4a6_11.0.zip",
 					"fastboot": "excalibur_in_global_images_V12.5.3.0.RJXINXM_20211110.0000.00_11.0_in_2499e4f60f.tgz"
+				},
+				{
+					"miui": "V12.5.2.4.RJXINXM",
+					"android": "11.0",
+					"recovery": "miui_EXCALIBURINGlobal_V12.5.2.4.RJXINXM_0efceb2c21_11.0.zip",
+					"fastboot": ""
 				},
 				{
 					"miui": "V12.5.2.0.RJXINXM",

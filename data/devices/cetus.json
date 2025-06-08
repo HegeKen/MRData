@@ -21,9 +21,19 @@
   "gdid": "",
   "pcid": "",
   "code": "JT",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.0", "V12.5", "V13.0", "V13.1", "V14.0"],
-	"branches": [
+  "android": [
+    "11.0",
+    "12.0",
+    "13.0"
+  ],
+  "miui": [
+    "V12.0",
+    "V12.5",
+    "V13.0",
+    "V13.1",
+    "V14.0"
+  ],
+  "branches": [
     {
       "code": "cetus",
       "btag": "X",
@@ -35,7 +45,7 @@
         "chinaunicom"
       ],
       "branch": "Dev",
-			"tag": "",
+      "tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1058,7 +1068,7 @@
       "region": "cn",
       "carrier": [],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1126,12 +1136,6 @@
           "fastboot": "cetus_images_V12.5.1.0.RJTCNXM_20211021.0000.00_11.0_cn_8315d9e673.tgz"
         },
         {
-          "miui": "V12.0.5.0.RJTCNXM",
-          "android": "11.0",
-          "recovery": "miui_CETUS_V12.0.5.0.RJTCNXM_ec6b2659db_11.0.zip",
-          "fastboot": "cetus_images_V12.0.5.0.RJTCNXM_20210327.0000.00_11.0_cn_68ba78b3e7.tgz"
-        },
-        {
           "miui": "V12.0.21.0.RJTCNXM",
           "android": "11.0",
           "recovery": "miui_CETUS_V12.0.21.0.RJTCNXM_88269eae6e_11.0.zip",
@@ -1160,6 +1164,12 @@
           "android": "11.0",
           "recovery": "miui_CETUS_V12.0.10.0.RJTCNXM_631bf2b214_11.0.zip",
           "fastboot": "cetus_images_V12.0.10.0.RJTCNXM_20210501.0000.00_11.0_cn_ea50bbf2e2.tgz"
+        },
+        {
+          "miui": "V12.0.5.0.RJTCNXM",
+          "android": "11.0",
+          "recovery": "miui_CETUS_V12.0.5.0.RJTCNXM_ec6b2659db_11.0.zip",
+          "fastboot": "cetus_images_V12.0.5.0.RJTCNXM_20210327.0000.00_11.0_cn_68ba78b3e7.tgz"
         }
       ]
     },
@@ -1171,7 +1181,7 @@
         "chinatelecom"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -1224,7 +1234,7 @@
         "chinamobile"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",

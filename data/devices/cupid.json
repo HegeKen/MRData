@@ -12,19 +12,35 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["410"],
-	"cbid": ["412"],
+	"csid": [
+		"410"
+	],
+	"cbid": [
+		"412"
+	],
 	"gdid": "70002",
 	"pcid": "",
 	"code": "LC",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V13.2", "V14.0"],
+	"android": [
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.0",
+		"V13.2",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "cupid",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -558,7 +574,9 @@
 			"code": "cupid",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -726,7 +744,9 @@
 			"code": "cupid",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -747,7 +767,12 @@
 			"code": "cupid_ep_xy",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPXYE",
 			"tag": "",
 			"zone": "1",
@@ -777,12 +802,12 @@
 			"zh-cn": "中国台湾省稳定版",
 			"en-us": "China Taiwan Province Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TLCTWXM",
-          "android": "13.0",
-          "recovery": "miui_CUPIDTWGlobal_V14.0.5.0.TLCTWXM_8f5ab26bdb_13.0.zip",
-          "fastboot": "cupid_tw_global_images_V14.0.5.0.TLCTWXM_20240103.0000.00_13.0_tw_f3acf372e7.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TLCTWXM",
+					"android": "13.0",
+					"recovery": "miui_CUPIDTWGlobal_V14.0.5.0.TLCTWXM_8f5ab26bdb_13.0.zip",
+					"fastboot": "cupid_tw_global_images_V14.0.5.0.TLCTWXM_20240103.0000.00_13.0_tw_f3acf372e7.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TLCTWXM",
 					"android": "13.0",
@@ -840,12 +865,12 @@
 			"zh-cn": "国际稳定版",
 			"en-us": "Global Stable",
 			"links": [
-        {
-          "miui": "V14.0.8.0.TLCMIXM",
-          "android": "13.0",
-          "recovery": "miui_CUPIDGlobal_V14.0.8.0.TLCMIXM_c8a95a39e8_13.0.zip",
-          "fastboot": "cupid_global_images_V14.0.8.0.TLCMIXM_20231229.0000.00_13.0_global_672499d54d.tgz"
-        },
+				{
+					"miui": "V14.0.8.0.TLCMIXM",
+					"android": "13.0",
+					"recovery": "miui_CUPIDGlobal_V14.0.8.0.TLCMIXM_c8a95a39e8_13.0.zip",
+					"fastboot": "cupid_global_images_V14.0.8.0.TLCMIXM_20231229.0000.00_13.0_global_672499d54d.tgz"
+				},
 				{
 					"miui": "V14.0.7.0.TLCMIXM",
 					"android": "13.0",
@@ -876,17 +901,17 @@
 					"recovery": "miui_CUPIDGlobal_V14.0.2.0.TLCMIXM_ab78ec9efa_13.0.zip",
 					"fastboot": "cupid_global_images_V14.0.2.0.TLCMIXM_20230110.0000.00_13.0_global_5fe27d585f.tgz"
 				},
-        {
-          "miui": "V13.0.4.0.TLCMIXM",
-          "android": "13.0",
-          "recovery": "miui_CUPIDGlobal_V13.0.4.0.TLCMIXM_271430c4dc_13.0.zip",
-          "fastboot": ""
-        },
 				{
 					"miui": "V13.2.3.0.TLCMIXM",
 					"android": "13.0",
 					"recovery": "miui_CUPIDGlobal_V13.2.3.0.TLCMIXM_4f7b4390f5_13.0.zip",
 					"fastboot": "cupid_global_images_V13.2.3.0.TLCMIXM_20221216.0000.00_13.0_global_1edb493892.tgz"
+				},
+				{
+					"miui": "V13.0.4.0.TLCMIXM",
+					"android": "13.0",
+					"recovery": "miui_CUPIDGlobal_V13.0.4.0.TLCMIXM_271430c4dc_13.0.zip",
+					"fastboot": ""
 				},
 				{
 					"miui": "V13.0.10.0.SLCMIXM",
@@ -1080,12 +1105,12 @@
 			"zh-cn": "俄罗斯稳定版",
 			"en-us": "Russia Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TLCRUXM",
-          "android": "13.0",
-          "recovery": "miui_CUPIDRUGlobal_V14.0.5.0.TLCRUXM_0c89f6a78a_13.0.zip",
-          "fastboot": "cupid_ru_global_images_V14.0.5.0.TLCRUXM_20231226.0000.00_13.0_ru_3ddf5c9226.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TLCRUXM",
+					"android": "13.0",
+					"recovery": "miui_CUPIDRUGlobal_V14.0.5.0.TLCRUXM_0c89f6a78a_13.0.zip",
+					"fastboot": "cupid_ru_global_images_V14.0.5.0.TLCRUXM_20231226.0000.00_13.0_ru_3ddf5c9226.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TLCRUXM",
 					"android": "13.0",
@@ -1143,12 +1168,12 @@
 			"zh-cn": "印度尼西亚稳定版",
 			"en-us": "Indonesia Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TLCIDXM",
-          "android": "13.0",
-          "recovery": "miui_CUPIDIDGlobal_V14.0.5.0.TLCIDXM_a09161910c_13.0.zip",
-          "fastboot": "cupid_id_global_images_V14.0.5.0.TLCIDXM_20231226.0000.00_13.0_id_20fd75f565.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TLCIDXM",
+					"android": "13.0",
+					"recovery": "miui_CUPIDIDGlobal_V14.0.5.0.TLCIDXM_a09161910c_13.0.zip",
+					"fastboot": "cupid_id_global_images_V14.0.5.0.TLCIDXM_20231226.0000.00_13.0_id_20fd75f565.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TLCIDXM",
 					"android": "13.0",
@@ -1206,12 +1231,12 @@
 			"zh-cn": "土耳其稳定版",
 			"en-us": "Turkey Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TLCTRXM",
-          "android": "13.0",
-          "recovery": "miui_CUPIDTRGlobal_V14.0.5.0.TLCTRXM_04d102deb9_13.0.zip",
-          "fastboot": "cupid_tr_global_images_V14.0.5.0.TLCTRXM_20240115.0000.00_13.0_tr_442cc1a575.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TLCTRXM",
+					"android": "13.0",
+					"recovery": "miui_CUPIDTRGlobal_V14.0.5.0.TLCTRXM_04d102deb9_13.0.zip",
+					"fastboot": "cupid_tr_global_images_V14.0.5.0.TLCTRXM_20240115.0000.00_13.0_tr_442cc1a575.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TLCTRXM",
 					"android": "13.0",
@@ -1254,7 +1279,9 @@
 			"code": "cupid_lm_cr_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -1299,7 +1326,9 @@
 			"code": "cupid_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
