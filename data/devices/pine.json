@@ -17,8 +17,16 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "CM",
-	"android": ["9.0", "10.0"],
-	"miui": ["V10.2", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0"
+	],
+	"miui": [
+		"V10.2",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "pine",
@@ -135,7 +143,9 @@
 			"code": "pine",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -156,7 +166,9 @@
 			"code": "pine",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -426,7 +438,9 @@
 			"code": "pine_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -453,7 +467,9 @@
 			"code": "pine_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -499,6 +515,12 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V11.0.8.0.PCMEUVF",
+					"android": "9.0",
+					"recovery": "miui_PINEEEAVFGlobal_V11.0.8.0.PCMEUVF_ba63d9515a_9.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V11.0.7.0.PCMEUVF",
 					"android": "9.0",
 					"recovery": "miui_PINEEEAVFGlobal_V11.0.7.0.PCMEUVF_d90aec8dba_9.0.zip",
@@ -534,7 +556,9 @@
 			"code": "pine_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",

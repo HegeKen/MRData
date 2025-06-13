@@ -17,8 +17,17 @@
 	"gdid": "10021",
 	"pcid": "",
 	"code": "CX",
-	"android": ["9.0", "10.0", "11.0"],
-	"miui": ["V10.3", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0",
+		"11.0"
+	],
+	"miui": [
+		"V10.3",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "willow_global",
@@ -258,7 +267,9 @@
 			"code": "willow_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -324,7 +335,9 @@
 			"code": "willow_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -351,7 +364,9 @@
 			"code": "willow_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -376,6 +391,18 @@
 					"miui": "V12.0.1.0.RCXEUVF",
 					"android": "11.0",
 					"recovery": "miui_WILLOWEEAVFGlobal_V12.0.1.0.RCXEUVF_822b4877d7_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.6.0.PCXEUVF",
+					"android": "9.0",
+					"recovery": "miui_WILLOWEEAVFGlobal_V11.0.6.0.PCXEUVF_942d2cea7b_9.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.5.0.PCXEUVF",
+					"android": "9.0",
+					"recovery": "miui_WILLOWEEAVFGlobal_V11.0.5.0.PCXEUVF_0a4c667143_9.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -408,7 +435,9 @@
 			"code": "willow_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",

@@ -17,8 +17,18 @@
 	"gdid": "10016",
 	"pcid": "",
 	"code": "FN",
-	"android": ["10.0", "11.0", "12.0"],
-	"miui": ["V11.0", "V12.0", "V12.1", "V12.5", "V13.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0"
+	],
+	"miui": [
+		"V11.0",
+		"V12.0",
+		"V12.1",
+		"V12.5",
+		"V13.0"
+	],
 	"branches": [
 		{
 			"code": "toco_global",
@@ -322,6 +332,12 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V11.0.6.0.QFNEUOR",
+					"android": "10.0",
+					"recovery": "miui_TOCOEEAORGlobal_V11.0.6.0.QFNEUOR_7069372000_10.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V11.0.4.0.QFNEUOR",
 					"android": "10.0",
 					"recovery": "miui_TOCOEEAORGlobal_V11.0.4.0.QFNEUOR_66c59cb415_10.0.zip",
@@ -339,7 +355,9 @@
 			"code": "toco_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -378,7 +396,9 @@
 			"code": "toco_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",

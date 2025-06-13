@@ -17,8 +17,17 @@
 	"gdid": "11767",
 	"pcid": "",
 	"code": "KF",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "sweet_tw_global",
@@ -453,7 +462,9 @@
 			"code": "sweet_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -525,7 +536,9 @@
 			"code": "sweet_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -558,7 +571,9 @@
 			"code": "sweet_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -591,7 +606,9 @@
 			"code": "sweet_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -642,7 +659,9 @@
 			"code": "sweet_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -1131,7 +1150,9 @@
 			"code": "sweet_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -1158,7 +1179,9 @@
 			"code": "sweet_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -1204,6 +1227,30 @@
 					"fastboot": "sweet_mx_tc_global_images_V13.0.1.0.SKFMXTC_20220630.0000.00_12.0_global_b35dfe446c.tgz"
 				},
 				{
+					"miui": "V12.0.8.0.RKFMXTC",
+					"android": "11.0",
+					"recovery": "miui_SWEETMXTCGlobal_V12.0.8.0.RKFMXTC_bea6dba27e_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.6.0.RKFMXTC",
+					"android": "11.0",
+					"recovery": "miui_SWEETMXTCGlobal_V12.0.6.0.RKFMXTC_41fa21a35a_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.4.0.RKFMXTC",
+					"android": "11.0",
+					"recovery": "miui_SWEETMXTCGlobal_V12.0.4.0.RKFMXTC_e229180c4c_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.3.0.RKFMXTC",
+					"android": "11.0",
+					"recovery": "miui_SWEETMXTCGlobal_V12.0.3.0.RKFMXTC_348ad6ce9c_11.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V12.0.2.0.RKFMXTC",
 					"android": "11.0",
 					"recovery": "miui_SWEETMXTCGlobal_V12.0.2.0.RKFMXTC_5fb9c1eafd_11.0.zip",
@@ -1215,7 +1262,9 @@
 			"code": "sweet_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -1272,7 +1321,9 @@
 			"code": "sweet_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -1353,7 +1404,9 @@
 			"code": "sweet_za_vc_global",
 			"btag": "F",
 			"region": "za",
-			"carrier": ["vc"],
+			"carrier": [
+				"vc"
+			],
 			"branch": "ZAVC",
 			"tag": "ZAVC",
 			"zone": "2",
@@ -1385,6 +1438,12 @@
 					"android": "12.0",
 					"recovery": "miui_SWEETZAVCGlobal_V13.0.4.0.SKFZAVC_8c44e4bf91_12.0.zip",
 					"fastboot": "sweet_za_vc_global_images_V13.0.4.0.SKFZAVC_20221021.0000.00_12.0_global_24d6fd400d.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKFZAVC",
+					"android": "11.0",
+					"recovery": "miui_SWEETZAVCGlobal_V12.5.3.0.RKFZAVC_598fc16e1e_11.0.zip",
+					"fastboot": ""
 				},
 				{
 					"miui": "V12.5.2.0.RKFZAVC",

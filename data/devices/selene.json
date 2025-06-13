@@ -12,13 +12,23 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["399"],
+	"csid": [
+		"399"
+	],
 	"cbid": [],
 	"gdid": "56423",
 	"pcid": "",
 	"code": "KU",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "selene",
@@ -123,7 +133,12 @@
 			"code": "selene_ep_tly",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPTLY",
 			"tag": "",
 			"zone": "1",
@@ -144,7 +159,9 @@
 			"code": "selene",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -159,7 +176,7 @@
 					"recovery": "miui_SELENE_V14.0.5.0.TKUCNXM_12e46d144e_13.0.zip",
 					"fastboot": "selene_images_V14.0.5.0.TKUCNXM_20240718.0000.00_13.0_cn_chinatelecom_1d24bdce21.tgz"
 				},
-        {
+				{
 					"miui": "V14.0.4.0.TKUCNXM",
 					"android": "13.0",
 					"recovery": "miui_SELENE_V14.0.4.0.TKUCNXM_8b53438968_13.0.zip",
@@ -195,7 +212,9 @@
 			"code": "selene",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -222,7 +241,9 @@
 			"code": "selene",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinaunicom"],
+			"carrier": [
+				"chinaunicom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -237,7 +258,7 @@
 					"recovery": "miui_SELENE_V14.0.5.0.TKUCNXM_12e46d144e_13.0.zip",
 					"fastboot": "selene_images_V14.0.5.0.TKUCNXM_20240718.0000.00_13.0_cn_chinaunicom_ed8cf4041d.tgz"
 				},
-        {
+				{
 					"miui": "V14.0.4.0.TKUCNXM",
 					"android": "13.0",
 					"recovery": "miui_SELENE_V14.0.4.0.TKUCNXM_8b53438968_13.0.zip",
@@ -654,7 +675,9 @@
 			"code": "selene_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -738,12 +761,12 @@
 					"recovery": "miui_SELENEEEAORGlobal_V14.0.6.0.TKUEUOR_1af396b6fe_13.0.zip",
 					"fastboot": ""
 				},
-        {
-          "miui": "V14.0.5.0.TKUEUOR",
-          "android": "13.0",
-          "recovery": "miui_SELENEEEAORGlobal_V14.0.5.0.TKUEUOR_592b52d003_13.0.zip",
-          "fastboot": ""
-        },
+				{
+					"miui": "V14.0.5.0.TKUEUOR",
+					"android": "13.0",
+					"recovery": "miui_SELENEEEAORGlobal_V14.0.5.0.TKUEUOR_592b52d003_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.4.0.TKUEUOR",
 					"android": "13.0",
@@ -786,7 +809,9 @@
 			"code": "selene_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -843,7 +868,9 @@
 			"code": "selene_eea_by_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"branch": "EUBY",
 			"tag": "EUBY",
 			"zone": "2",
@@ -894,7 +921,9 @@
 			"code": "selene_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -952,6 +981,18 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V12.5.5.0.RKUEUVF",
+					"android": "11.0",
+					"recovery": "miui_SELENEEEAVFGlobal_V12.5.5.0.RKUEUVF_329f0f98ec_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.4.0.RKUEUVF",
+					"android": "11.0",
+					"recovery": "miui_SELENEEEAVFGlobal_V12.5.4.0.RKUEUVF_153560a1a5_11.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V12.5.2.0.RKUEUVF",
 					"android": "11.0",
 					"recovery": "miui_SELENEEEAVFGlobal_V12.5.2.0.RKUEUVF_bfeac6e6a9_11.0.zip",
@@ -969,7 +1010,9 @@
 			"code": "selene_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -1019,6 +1062,12 @@
 					"android": "12.0",
 					"recovery": "miui_SELENEEEASFGlobal_V13.0.3.0.SKUEUSF_1006feb15f_12.0.zip",
 					"fastboot": "selene_eea_sf_global_images_V13.0.3.0.SKUEUSF_20220920.0000.00_12.0_eea_f59984463b.tgz"
+				},
+				{
+					"miui": "V12.5.3.0.RKUEUSF",
+					"android": "11.0",
+					"recovery": "miui_SELENEEEASFGlobal_V12.5.3.0.RKUEUSF_1ac9656432_11.0.zip",
+					"fastboot": ""
 				},
 				{
 					"miui": "V12.5.2.0.RKUEUSF",
@@ -1440,7 +1489,9 @@
 			"code": "selene_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -1491,7 +1542,9 @@
 			"code": "selene_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -1572,7 +1625,9 @@
 			"code": "selene_za_vc_global",
 			"btag": "F",
 			"region": "za",
-			"carrier": ["vc"],
+			"carrier": [
+				"vc"
+			],
 			"branch": "ZAVC",
 			"tag": "ZAVC",
 			"zone": "2",
@@ -1581,12 +1636,12 @@
 			"zh-cn": "南非Vodacom运营商定制版",
 			"en-us": "South Africa Vodacom Carrier Edtion",
 			"links": [
-        {
-          "miui": "V14.0.3.0.TKUZAVC",
-          "android": "13.0",
-          "recovery": "miui_SELENEZAVCGlobal_V14.0.3.0.TKUZAVC_b3ea9b30b3_13.0.zip",
-          "fastboot": "selene_za_vc_global_images_V14.0.3.0.TKUZAVC_20240109.0000.00_13.0_za_vc_b5687c0979.tgz"
-        },
+				{
+					"miui": "V14.0.3.0.TKUZAVC",
+					"android": "13.0",
+					"recovery": "miui_SELENEZAVCGlobal_V14.0.3.0.TKUZAVC_b3ea9b30b3_13.0.zip",
+					"fastboot": "selene_za_vc_global_images_V14.0.3.0.TKUZAVC_20240109.0000.00_13.0_za_vc_b5687c0979.tgz"
+				},
 				{
 					"miui": "V14.0.2.0.TKUZAVC",
 					"android": "13.0",
@@ -1611,7 +1666,9 @@
 			"code": "selene_za_mt_global",
 			"btag": "F",
 			"region": "za",
-			"carrier": ["mt"],
+			"carrier": [
+				"mt"
+			],
 			"branch": "ZAMT",
 			"tag": "ZAMT",
 			"zone": "2",

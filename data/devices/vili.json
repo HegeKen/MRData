@@ -17,8 +17,16 @@
 	"gdid": "27843",
 	"pcid": "",
 	"code": "KD",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "vili_tw_global",
@@ -468,7 +476,9 @@
 			"code": "vili_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -525,7 +535,9 @@
 			"code": "vili_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -571,6 +583,24 @@
 					"fastboot": "vili_eea_vf_global_images_V13.0.14.0.SKDEUVF_20230111.0000.00_12.0_eea_cdc37d8842.tgz"
 				},
 				{
+					"miui": "V12.5.6.0.RKDEUVF",
+					"android": "11.0",
+					"recovery": "miui_VILIEEAVFGlobal_V12.5.6.0.RKDEUVF_6b1db16b17_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.5.0.RKDEUVF",
+					"android": "11.0",
+					"recovery": "miui_VILIEEAVFGlobal_V12.5.5.0.RKDEUVF_1f2e88f410_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.4.0.RKDEUVF",
+					"android": "11.0",
+					"recovery": "miui_VILIEEAVFGlobal_V12.5.4.0.RKDEUVF_e852ef9f00_11.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V12.5.2.0.RKDEUVF",
 					"android": "11.0",
 					"recovery": "miui_VILIEEAVFGlobal_V12.5.2.0.RKDEUVF_c964b5112c_11.0.zip",
@@ -588,7 +618,9 @@
 			"code": "vili_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -1014,7 +1046,9 @@
 			"code": "vili_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -1053,7 +1087,9 @@
 			"code": "vili_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -1140,7 +1176,9 @@
 			"code": "vili_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -1213,6 +1251,18 @@
 					"miui": "V13.0.1.0.SKDLMCR",
 					"android": "12.0",
 					"recovery": "miui_VILILMCRGlobal_V13.0.1.0.SKDLMCR_3494d3fa33_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.5.0.RKDLMCR",
+					"android": "11.0",
+					"recovery": "miui_VILILMCRGlobal_V12.5.5.0.RKDLMCR_1a6391b5c9_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.4.0.RKDLMCR",
+					"android": "11.0",
+					"recovery": "miui_VILILMCRGlobal_V12.5.4.0.RKDLMCR_c9728689ba_11.0.zip",
 					"fastboot": ""
 				},
 				{
