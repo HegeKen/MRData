@@ -17,8 +17,12 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "LH",
-	"android": ["13.0"],
-	"miui": ["V14.0"],
+	"android": [
+		"13.0"
+	],
+	"miui": [
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "pearl",
@@ -87,7 +91,9 @@
 			"code": "pearl",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -138,7 +144,12 @@
 			"code": "pearl_ep_stdee",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPSTD",
 			"tag": "",
 			"zone": "1",
@@ -147,27 +158,27 @@
 			"zh-cn": "中国大陆政企标准版",
 			"en-us": "China Mainland Enterprise Standard",
 			"links": [
-        {
-          "miui": "V14.0.23.12.27.EP.STDEE.L16S",
-          "android": "13.0",
-          "recovery": "miui_PEARLEPSTDEE_V14.0.23.12.27.EP.STDEE.L16S_684ba17db0_13.0.zip",
-          "fastboot": "pearl_ep_stdee_images_V14.0.23.12.27.EP.STDEE.L16S_20231227.0000.00_13.0_cn_4f5cbc7613.tgz"
-        },
-        {
-          "miui": "V14.0.23.12.27.EP.STDEE.L16S",
-          "android": "13.0",
-          "recovery": "miui_PEARLEPSTDEE_V14.0.23.12.27.EP.STDEE.L16S_684ba17db0_13.0.zip",
-          "fastboot": "pearl_ep_stdee_images_V14.0.23.12.27.EP.STDEE.L16S_20231227.0000.00_13.0_cn_chinatelecom_02391087b9.tgz"
-        },
+				{
+					"miui": "V14.0.23.12.27.EP.STDEE.L16S",
+					"android": "13.0",
+					"recovery": "miui_PEARLEPSTDEE_V14.0.23.12.27.EP.STDEE.L16S_684ba17db0_13.0.zip",
+					"fastboot": "pearl_ep_stdee_images_V14.0.23.12.27.EP.STDEE.L16S_20231227.0000.00_13.0_cn_4f5cbc7613.tgz"
+				},
+				{
+					"miui": "V14.0.23.12.27.EP.STDEE.L16S",
+					"android": "13.0",
+					"recovery": "miui_PEARLEPSTDEE_V14.0.23.12.27.EP.STDEE.L16S_684ba17db0_13.0.zip",
+					"fastboot": "pearl_ep_stdee_images_V14.0.23.12.27.EP.STDEE.L16S_20231227.0000.00_13.0_cn_chinatelecom_02391087b9.tgz"
+				},
 				{
 					"miui": "V14.0.23.9.6.EP.STDEE.L16S",
-					"android": "14.0",
+					"android": "13.0",
 					"recovery": "miui_PEARLEPSTDEE_V14.0.23.9.6.EP.STDEE.L16S_22c1327f8c_13.0.zip",
 					"fastboot": "pearl_ep_stdee_images_V14.0.23.9.6.EP.STDEE.L16S_20230906.0000.00_13.0_cn_057123df18.tgz"
 				},
 				{
 					"miui": "V14.0.23.9.6.EP.STDEE.L16S",
-					"android": "14.0",
+					"android": "13.0",
 					"recovery": "miui_PEARLEPSTDEE_V14.0.23.9.6.EP.STDEE.L16S_22c1327f8c_13.0.zip",
 					"fastboot": "pearl_ep_stdee_images_V14.0.23.9.6.EP.STDEE.L16S_20230906.0000.00_13.0_cn_chinatelecom_a363a2486c.tgz"
 				}
