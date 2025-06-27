@@ -1,5 +1,7 @@
 import common
+import os
 
+os.system(f"clear")
 for device in common.currentStable:
   devdata = common.loadJson(device)
   for branch in devdata['branches']:

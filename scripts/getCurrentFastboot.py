@@ -1,6 +1,8 @@
 import common
 from datetime import datetime
+import os
 
+os.system(f"clear")
 urls = []
 def chekc_url_exits(url):
   if url in urls:

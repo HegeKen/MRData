@@ -1,4 +1,7 @@
 import common
+import os
+
+os.system(f"clear")
 
 for device in common.fullDevices:
   devdata = common.loadJson(device)

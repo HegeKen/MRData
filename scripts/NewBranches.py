@@ -1,6 +1,8 @@
 import common
 from datetime import datetime
+import os
 
+os.system(f"clear")
 base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
 for device in common.fullDevices:
   if device == "mione_plus":
