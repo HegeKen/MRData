@@ -693,6 +693,8 @@ flags = {
 	"dali": "dali",
 	"violin" : "violin",
 	"onyx_global": "onyx",
+	"taiko_id_global": "taiko",
+	"taiko_tr_global": "taiko",
 	"violin_demo" : "violin",
 	"koto_in_global" : "koto",
 	"turner_demo":"turner",
