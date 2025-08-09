@@ -1371,6 +1371,8 @@ flags = {
 	'EARTHLMMSGlobal': 'earth',
 	'EARTHMXATGlobal': 'earth',
 	'EARTHGTTGGlobal': 'earth',
+	"spring_eea_global": "spring",
+	"spring_global": "spring",
 	'EARTHZAMTGlobal': 'earth',
 	'EARTHZAVCGlobal': 'earth',
 	'FLEUREEAORGlobal': 'fleur',
