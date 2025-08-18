@@ -3206,6 +3206,7 @@ flags = {
 	'diting_ru_global': 'diting',
 	'diting_tr_global': 'diting',
 	'diting_cl_en_global': 'diting',
+	"creek_global": "creek",
 	'diting_lm_cr_global': 'diting',
 	'diting_mx_at_global': 'diting',
 	'diting_jp_global': 'diting',
