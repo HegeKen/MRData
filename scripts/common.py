@@ -3216,6 +3216,7 @@ flags = {
 	"flourite_demo" : "flourite",
 	"flourite" : "flourite",
 	"kunzite" : "kunzite",
+	"creek_eea_global": "creek",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
 	"lapis_demo" : "lapis",
