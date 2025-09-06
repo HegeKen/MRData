@@ -12,19 +12,34 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["454"],
-	"cbid": ["457"],
+	"csid": [
+		"454"
+	],
+	"cbid": [
+		"457"
+	],
 	"gdid": "",
 	"pcid": "",
 	"code": "LR",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.1", "V14.0"],
+	"android": [
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.1",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "zizhan",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -225,7 +240,7 @@
 					"recovery": "miui_ZIZHAN_V14.0.23.1.30.DEV_68403e8b5b_13.0.zip",
 					"fastboot": ""
 				},
-        {
+				{
 					"miui": "V14.0.23.1.9.DEV",
 					"android": "13.0",
 					"recovery": "miui_ZIZHAN_V14.0.23.1.9.DEV_8809dda287_13.0.zip",
@@ -325,6 +340,12 @@
 			"en-us": "China Mainland Stable",
 			"links": [
 				{
+					"miui": "V14.0.15.0.TLRCNXM",
+					"android": "13.0",
+					"recovery": "miui_ZIZHAN_V14.0.15.0.TLRCNXM_ec53357acf_13.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V14.0.14.0.TLRCNXM",
 					"android": "13.0",
 					"recovery": "miui_ZIZHAN_V14.0.14.0.TLRCNXM_ae77ba7ef4_13.0.zip",
@@ -384,7 +405,9 @@
 			"code": "zizhan",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -447,7 +470,9 @@
 			"code": "zizhan",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -474,7 +499,12 @@
 			"code": "zizhan_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
