@@ -3230,6 +3230,7 @@ flags = {
 	"spring": "spring",
 	"KONGHOU": "konghou",
 	"konghou": "konghou",
+	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
 	"lapis_demo" : "lapis",
