@@ -3274,6 +3274,7 @@ flags = {
 	"turner_global": "turner",
 	"dew_lm_cr_global": "dew",
 	"tornado_tr_global": "tornado",
+	"tornado_lm_cr_global": "tornado",
 	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
