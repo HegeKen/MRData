@@ -3277,6 +3277,8 @@ flags = {
 	"tornado_lm_cr_global": "tornado",
 	"organ_eea_global": "organ",
 	"spring_gt_tg_global": "spring",
+	"creek_dc_global": "creek",
+  "creek_tr_global": "creek",
 	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
