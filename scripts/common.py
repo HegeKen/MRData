@@ -3275,6 +3275,8 @@ flags = {
 	"dew_lm_cr_global": "dew",
 	"tornado_tr_global": "tornado",
 	"tornado_lm_cr_global": "tornado",
+	"organ_eea_global": "organ",
+	"spring_gt_tg_global": "spring",
 	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
