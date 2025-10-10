@@ -3279,6 +3279,7 @@ flags = {
 	"spring_gt_tg_global": "spring",
 	"creek_dc_global": "creek",
   "creek_tr_global": "creek",
+	"flute_id_global": "flute",
 	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
