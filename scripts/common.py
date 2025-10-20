@@ -3281,6 +3281,8 @@ flags = {
   "creek_tr_global": "creek",
 	"flute_id_global": "flute",
 	"organ_global": "organ",
+	"organ_tw_global": "organ",
+	"creek_mx_at_global": "creek",
 	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
