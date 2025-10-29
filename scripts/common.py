@@ -3288,6 +3288,7 @@ flags = {
 	"myron_demo": "myron",
 	"annibale": "annibale",
 	"annibale_demo": "annibale",
+	"dew_gt_tg_global" : "dew",
 	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
