@@ -17,6 +17,7 @@ from urllib3.util.retry import Retry
 
 test = ['marble']
 sdk = {
+	'16': '36',
 	'15': '35',
 	'14': '34',
 	'13': '33',
@@ -41,6 +42,8 @@ sdk = {
 }
 
 def android(ver):
+	if ver == "16.0":
+		return "W"
 	if ver == "15.0":
 		return "V"
 	elif ver == "14.0":
@@ -3289,6 +3292,7 @@ flags = {
 	"annibale": "annibale",
 	"annibale_demo": "annibale",
 	"dew_gt_tg_global" : "dew",
+	"spring_lm_cr_global": "spring",
 	"tornado_eea_global": "tornado",
 	"kunzite_demo" : "kunzite",
 	"lapis" : "lapis",
