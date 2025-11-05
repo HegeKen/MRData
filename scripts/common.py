@@ -710,6 +710,8 @@ flags = {
 	"koto_in_global" : "koto",
 	"turner_demo":"turner",
 	"turner": "turner",
+	"organ_ru_global": "organ",
+	"organ_dc_global": "organ",
 	"onyx_tw_global": "onyx",
 	"onyx_ru_global": "onyx",
 	"onyx_id_global": "onyx",
