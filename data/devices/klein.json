@@ -19,7 +19,8 @@
 	"code": "GS",
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"miui": [
 		"V816"
@@ -38,6 +39,12 @@
 			"zh-cn": "国际正式版",
 			"en-us": "Global Stable",
 			"links": [
+				{
+					"miui": "V816.0.1.0.WGSMIXM",
+					"android": "16.0",
+					"recovery": "miui_KLEINGlobal_V816.0.1.0.WGSMIXM_3791f0c123_16.0.zip",
+					"fastboot": "klein_global_images_V816.0.1.0.WGSMIXM_20251105.0000.00_16.0_global_a4553a94bb.tgz"
+				},
 				{
 					"miui": "V816.0.7.0.VGSMIXM",
 					"android": "15.0",

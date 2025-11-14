@@ -712,6 +712,8 @@ flags = {
 	"turner": "turner",
 	"organ_ru_global": "organ",
 	"organ_dc_global": "organ",
+	"dew_mx_at_global": "dew",
+	"tornado_in_global": "tornado",
 	"onyx_tw_global": "onyx",
 	"onyx_ru_global": "onyx",
 	"onyx_id_global": "onyx",
