@@ -4167,12 +4167,7 @@ def getChangelog(encrypted_data, device):
 				 'Cookie': 'serviceToken=;'
 				 }
 	data = 'q=' + encrypted_data + '&s=1&t='
-	if platform == 'win32':
-		devdata = json.loads(
-			open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
-	else:
-		devdata = json.loads(open(
-			'/sdcard/Codes/NuxtMR/public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
+	devdata = json.loads(open('public/MRdata/data/devices/'+device+'.json', 'r', encoding='utf-8').read())
 	response = requests.post(check_url, headers=headers, data=data)
 	if response.status_code != 200:
 		i = 0
