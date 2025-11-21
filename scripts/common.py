@@ -2113,6 +2113,7 @@ flags = {
 	'star_eea_vf_global': 'star',
 	'star_in_global': 'star',
 	'star_id_global': 'star',
+	"organ_in_global": "organ",
 	"spring_dc_global": "spring",
 	'renoir': 'renoir',
 	'renoir_demo': 'renoir',
