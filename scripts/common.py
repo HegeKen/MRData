@@ -2620,6 +2620,7 @@ flags = {
 	'spes_lm_cr_global': 'spes',
 	'spes_lm_ms_global': 'spes',
 	'spesn_global': 'spesn',
+	"spring_tw_global": "spring",
 	'spesn_eea_global': 'spesn',
 	'spesn_eea_hg_global': 'spesn',
 	'spesn_eea_or_global': 'spesn',
