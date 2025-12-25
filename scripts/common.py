@@ -2630,6 +2630,8 @@ flags = {
 	'spesn_eea_sf_global': 'spesn',
 	'spesn_eea_ti_global': 'spesn',
 	'spesn_ru_global': 'spesn',
+	"nezha":"nezha",
+	"nezha_demo":"nezha",
 	'spesn_id_global': 'spesn',
 	'spesn_za_mt_global': 'spesn',
 	'veux': 'veux',
