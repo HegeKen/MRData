@@ -2622,6 +2622,8 @@ flags = {
 	'spesn_global': 'spesn',
 	"spring_tw_global": "spring",
 	'spesn_eea_global': 'spesn',
+	"koto_id_global": "koto",
+	"spring_tr_global": "spring",
 	'spesn_eea_hg_global': 'spesn',
 	'spesn_eea_or_global': 'spesn',
 	'spesn_eea_tf_global': 'spesn',
