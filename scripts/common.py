@@ -2659,6 +2659,7 @@ flags = {
 	"lapis_dc_global": "lapis",
 	"kunzite_dc_global": "kunzite",
 	"flourite_dc_global": "flourite",
+	"kunzite_lm_cr_global": "kunzite",
 	'spesn_eea_hg_global': 'spesn',
 	'spesn_eea_or_global': 'spesn',
 	'spesn_eea_tf_global': 'spesn',
