@@ -2644,6 +2644,7 @@ flags = {
 	"flourite_id_global": "flourite",
 	"spring_jp_global": "spring",
 	"lapis_lm_cr_global": "lapis",
+	"spinel_lm_cr_global": "spinel",
 	"spinel_tw_global": "spinel",
 	"spinel_global": "spinel",
 	"spinel_dc_global": "spinel",
