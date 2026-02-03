@@ -1188,6 +1188,7 @@ flags = {
 	"dash_demo": "dash",
 	"flute": "flute",
 	"flute_demo": "flute",
+	"flourite_in_global": "flourite",
 	"HOUJIGlobal": "houji",
 	"houji_in_global": "houji",
 	"HOUJIINGlobal": "houji",

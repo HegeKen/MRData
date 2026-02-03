@@ -38,7 +38,7 @@ for url in urls:
     content = response.content.decode('utf8') 
     if (response.status_code != 404):
       packages = json.loads(content)['data']
-      if packages == None:
+      if packages == None or packages == "null":
         i = 0
       else:
         for package in packages:
