@@ -12,19 +12,39 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["205"],
+	"csid": [
+		"205"
+	],
 	"cbid": [],
 	"gdid": "10011",
 	"pcid": "",
 	"code": "JB",
-	"android": ["10.0", "11.0", "12.0", "13.0"],
-	"miui": ["V11.0", "V12.0", "V12.1", "V12.2", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V11.0",
+		"V12.0",
+		"V12.1",
+		"V12.2",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "umi",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -2532,7 +2552,9 @@
 			"code": "umi",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2577,7 +2599,9 @@
 			"code": "umi",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2697,7 +2721,7 @@
 					"recovery": "miui_UMIGlobal_V12.2.1.0.RJBMIXM_5dcaf5cf5a_11.0.zip",
 					"fastboot": ""
 				},
-        {
+				{
 					"miui": "V12.1.2.0.RJBMIXM",
 					"android": "11.0",
 					"recovery": "miui_UMIGlobal_V12.1.2.0.RJBMIXM_101a6de3c8_11.0.zip",
@@ -2904,7 +2928,9 @@
 			"code": "umi_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -2929,6 +2955,12 @@
 					"miui": "V11.0.6.0.QJBEUHG",
 					"android": "10.0",
 					"recovery": "miui_UMIEEAHGGlobal_V11.0.6.0.QJBEUHG_dee5e06319_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.2.0.QJBEUHG",
+					"android": "10.0",
+					"recovery": "miui_UMIEEAHGGlobal_V11.0.2.0.QJBEUHG_4d16f529c3_10.0.zip",
 					"fastboot": ""
 				}
 			]
@@ -2970,7 +3002,9 @@
 			"code": "umi_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -2997,7 +3031,9 @@
 			"code": "umi_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -3030,7 +3066,9 @@
 			"code": "umi_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -3057,7 +3095,9 @@
 			"code": "umi_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",

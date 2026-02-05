@@ -17,9 +17,18 @@
   "gdid": "",
   "pcid": "",
   "code": "FA",
-	"android": ["9.0", "10.0", "11.0"],
-	"miui": ["V10.2", "V11.0", "V12.0", "V12.5"],
-	"branches": [
+  "android": [
+    "9.0",
+    "10.0",
+    "11.0"
+  ],
+  "miui": [
+    "V10.2",
+    "V11.0",
+    "V12.0",
+    "V12.5"
+  ],
+  "branches": [
     {
       "code": "cepheus",
       "btag": "X",
@@ -31,7 +40,7 @@
         "chinaunicom"
       ],
       "branch": "Dev",
-			"tag": "",
+      "tag": "",
       "zone": "1",
       "pn": "cepheus",
       "show": "1",
@@ -2646,7 +2655,7 @@
       "carrier": [],
       "pn": "cepheus",
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -2837,7 +2846,7 @@
         "chinatelecom"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "pn": "cepheus",
       "show": "1",
@@ -2861,7 +2870,7 @@
         "chinamobile"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -2884,7 +2893,7 @@
       "carrier": [],
       "pn": "cepheus_global",
       "branch": "GDev",
-			"tag": "",
+      "tag": "",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3002,7 +3011,7 @@
       "carrier": [],
       "pn": "cepheus_global",
       "branch": "GBOO",
-			"tag": "MIXM",
+      "tag": "MIXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3138,7 +3147,7 @@
       "carrier": [],
       "pn": "cepheus_eea",
       "branch": "EEAO",
-			"tag": "EUXM",
+      "tag": "EUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3286,7 +3295,7 @@
       "carrier": [],
       "pn": "cepheus_eea",
       "branch": "EUOR",
-			"tag": "EUOR",
+      "tag": "EUOR",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3314,7 +3323,7 @@
       "carrier": [],
       "pn": "cepheus_eea",
       "branch": "EUVF",
-			"tag": "EUVF",
+      "tag": "EUVF",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3339,10 +3348,12 @@
       "code": "cepheus_eea_hg_global",
       "btag": "F",
       "region": "eea",
-      "carrier": ["hg"],
+      "carrier": [
+        "hg"
+      ],
       "pn": "cepheus_eea",
       "branch": "EUHG",
-			"tag": "EUHG",
+      "tag": "EUHG",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3353,6 +3364,12 @@
           "miui": "V12.0.2.0.QFAEUHG",
           "android": "10.0",
           "recovery": "miui_CEPHEUSEEAHGGlobal_V12.0.2.0.QFAEUHG_912333db22_10.0.zip",
+          "fastboot": ""
+        },
+        {
+          "miui": "V11.0.2.0.QFAEUHG",
+          "android": "10.0",
+          "recovery": "miui_CEPHEUSEEAHGGlobal_V11.0.2.0.QFAEUHG_dd02f79f8c_10.0.zip",
           "fastboot": ""
         },
         {
@@ -3376,7 +3393,7 @@
       "carrier": [],
       "pn": "cepheus_ru",
       "branch": "RUSO",
-			"tag": "RUXM",
+      "tag": "RUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3458,7 +3475,7 @@
       "carrier": [],
       "pn": "cepheus_lm_cr",
       "branch": "LMCR",
-			"tag": "LMCR",
+      "tag": "LMCR",
       "zone": "2",
       "show": "1",
       "ep": "0",
@@ -3486,7 +3503,7 @@
       "carrier": [],
       "pn": "cepheus_mx_tc",
       "branch": "MXTC",
-			"tag": "MXTC",
+      "tag": "MXTC",
       "zone": "2",
       "show": "1",
       "ep": "0",

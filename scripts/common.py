@@ -1189,6 +1189,7 @@ flags = {
 	"flute": "flute",
 	"flute_demo": "flute",
 	"flourite_in_global": "flourite",
+	"myron_id_global": "myron",
 	"HOUJIGlobal": "houji",
 	"houji_in_global": "houji",
 	"HOUJIINGlobal": "houji",
