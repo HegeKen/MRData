@@ -12,19 +12,34 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["443"],
-	"cbid": ["441"],
+	"csid": [
+		"443"
+	],
+	"cbid": [
+		"441"
+	],
 	"gdid": "",
 	"pcid": "",
 	"code": "LT",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
+	"android": [
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "mayfly",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -486,7 +501,12 @@
 			"code": "mayfly_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
@@ -524,6 +544,18 @@
 					"android": "12.0",
 					"recovery": "miui_MAYFLYDEMO_V13.0.4.0.SLTCNDM_076ecdceb5_12.0.zip",
 					"fastboot": "mayfly_demo_images_V13.0.4.0.SLTCNDM_20221107.0000.00_12.0_cn_chinatelecom_0c26994d27.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.SLTCNDM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLYDEMO_V13.0.3.0.SLTCNDM_da791a6d3b_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.2.0.SLTCNDM",
+					"android": "12.0",
+					"recovery": "miui_MAYFLYDEMO_V13.0.2.0.SLTCNDM_5222ee7b6e_12.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -531,7 +563,9 @@
 			"code": "mayfly",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -636,7 +670,9 @@
 			"code": "mayfly",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",

@@ -17,14 +17,29 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "FC",
-	"android": ["9.0", "10.0", "11.0"],
-	"miui": ["V10.3", "V11.0", "V11.3", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0",
+		"11.0"
+	],
+	"miui": [
+		"V10.3",
+		"V11.0",
+		"V11.3",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "pyxis",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -1956,7 +1971,9 @@
 			"code": "pyxis",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1977,7 +1994,9 @@
 			"code": "pyxis",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2226,7 +2245,9 @@
 			"code": "pyxis_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -2253,7 +2274,9 @@
 			"code": "pyxis_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -2281,6 +2304,12 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V11.3.5.0.PFCEUVF",
+					"android": "9.0",
+					"recovery": "miui_PYXISEEAVFGlobal_V11.3.5.0.PFCEUVF_5ce72ed30b_9.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V11.3.4.0.PFCEUVF",
 					"android": "9.0",
 					"recovery": "miui_PYXISEEAVFGlobal_V11.3.4.0.PFCEUVF_a506d7cc5e_9.0.zip",
@@ -2298,7 +2327,9 @@
 			"code": "pyxis_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",

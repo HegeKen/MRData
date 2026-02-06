@@ -18,8 +18,18 @@
 	"gg": "curtana_in_rf_global_images_V14.0.5.0.SJWINRF_20230619.0000.00_12.0_in_4176b4342c.tgz",
 	"pcid": "",
 	"code": "JW",
-	"android": ["10.0", "11.0", "12.0"],
-	"miui":  ["V11.0", "V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0"
+	],
+	"miui": [
+		"V11.0",
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "curtana_global",
@@ -487,7 +497,6 @@
 					"recovery": "miui_CURTANAINGlobal_V12.0.2.0.QJWINXM_533770a027_10.0.zip",
 					"fastboot": "curtana_in_global_images_V12.0.2.0.QJWINXM_20201213.0000.00_10.0_in_89ec1dcda0.tgz"
 				},
-
 				{
 					"miui": "V12.0.1.0.QJWINXM",
 					"android": "10.0",
@@ -629,7 +638,9 @@
 			"code": "curtana_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -648,6 +659,12 @@
 					"miui": "V12.0.2.0.QJWMXAT",
 					"android": "10.0",
 					"recovery": "miui_CURTANAMXATGlobal_V12.0.2.0.QJWMXAT_6a6a310b14_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.2.0.QJWMXAT",
+					"android": "10.0",
+					"recovery": "miui_CURTANAMXATGlobal_V11.0.2.0.QJWMXAT_c489aed64a_10.0.zip",
 					"fastboot": ""
 				}
 			]

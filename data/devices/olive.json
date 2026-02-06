@@ -17,8 +17,16 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "CN",
-	"android": ["9.0", "10.0"],
-	"miui": ["V10.3", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0"
+	],
+	"miui": [
+		"V10.3",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "olive",
@@ -147,7 +155,9 @@
 			"code": "olive",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -168,7 +178,9 @@
 			"code": "olive",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -411,7 +423,9 @@
 			"code": "olive_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -430,6 +444,12 @@
 					"miui": "V11.0.4.0.PCNEUHG",
 					"android": "9.0",
 					"recovery": "miui_OLIVEEEAHGGlobal_V11.0.4.0.PCNEUHG_84a2a958a1_9.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.2.0.PCNEUHG",
+					"android": "9.0",
+					"recovery": "miui_OLIVEEEAHGGlobal_V11.0.2.0.PCNEUHG_b9e8c98624_9.0.zip",
 					"fastboot": ""
 				}
 			]

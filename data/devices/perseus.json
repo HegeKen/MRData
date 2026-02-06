@@ -17,14 +17,29 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "EE",
-	"android": ["9.0", "10.0"],
-	"miui": ["V10.0", "V10.2", "V10.3", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0"
+	],
+	"miui": [
+		"V10.0",
+		"V10.2",
+		"V10.3",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "perseus",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -1650,7 +1665,9 @@
 			"code": "perseus",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1671,7 +1688,9 @@
 			"code": "perseus",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1928,6 +1947,12 @@
 					"android": "10.0",
 					"recovery": "miui_PERSEUSH3GGlobal_V11.0.4.0.QEEMIHG_6fb9f649b4_10.0.zip",
 					"fastboot": "perseus_h3g_global_images_V11.0.4.0.QEEMIHG_20201201.0000.00_10.0_global_98b8faf725.tgz"
+				},
+				{
+					"miui": "V11.0.3.0.QEEMIHG",
+					"android": "10.0",
+					"recovery": "miui_PERSEUSH3GGlobal_V11.0.3.0.QEEMIHG_2862208b5d_10.0.zip",
+					"fastboot": ""
 				},
 				{
 					"miui": "V11.0.1.0.PEEMIHG",

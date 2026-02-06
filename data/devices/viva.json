@@ -17,8 +17,15 @@
 	"gdid": "56423",
 	"pcid": "",
 	"code": "GD",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "viva_tw_global",
@@ -264,12 +271,12 @@
 			"zh-cn": "俄罗斯稳定版",
 			"en-us": "Russia Stable",
 			"links": [
-        {
-          "miui": "V14.0.6.0.TGDRUXM",
-          "android": "13.0",
-          "recovery": "miui_VIVARUGlobal_V14.0.6.0.TGDRUXM_f0d3277226_13.0.zip",
-          "fastboot": "viva_ru_global_images_V14.0.6.0.TGDRUXM_20240103.0000.00_13.0_ru_56e73ada4d.tgz"
-        },
+				{
+					"miui": "V14.0.6.0.TGDRUXM",
+					"android": "13.0",
+					"recovery": "miui_VIVARUGlobal_V14.0.6.0.TGDRUXM_f0d3277226_13.0.zip",
+					"fastboot": "viva_ru_global_images_V14.0.6.0.TGDRUXM_20240103.0000.00_13.0_ru_56e73ada4d.tgz"
+				},
 				{
 					"miui": "V14.0.5.0.TGDRUXM",
 					"android": "13.0",
@@ -339,12 +346,12 @@
 			"zh-cn": "印度尼西亚稳定版",
 			"en-us": "Indonesia Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TGDIDXM",
-          "android": "13.0",
-          "recovery": "miui_VIVAIDGlobal_V14.0.5.0.TGDIDXM_33e1c4f27f_13.0.zip",
-          "fastboot": "viva_id_global_images_V14.0.5.0.TGDIDXM_20240115.0000.00_13.0_id_8eb0cbc32c.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TGDIDXM",
+					"android": "13.0",
+					"recovery": "miui_VIVAIDGlobal_V14.0.5.0.TGDIDXM_33e1c4f27f_13.0.zip",
+					"fastboot": "viva_id_global_images_V14.0.5.0.TGDIDXM_20240115.0000.00_13.0_id_8eb0cbc32c.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TGDIDXM",
 					"android": "13.0",
@@ -420,12 +427,12 @@
 			"zh-cn": "土耳其稳定版",
 			"en-us": "Turkey Stable",
 			"links": [
-        {
-          "miui": "V14.0.4.0.TGDTRXM",
-          "android": "13.0",
-          "recovery": "miui_VIVATRGlobal_V14.0.4.0.TGDTRXM_4a1dd69938_13.0.zip",
-          "fastboot": "viva_tr_global_images_V14.0.4.0.TGDTRXM_20240115.0000.00_13.0_tr_d653833a41.tgz"
-        },
+				{
+					"miui": "V14.0.4.0.TGDTRXM",
+					"android": "13.0",
+					"recovery": "miui_VIVATRGlobal_V14.0.4.0.TGDTRXM_4a1dd69938_13.0.zip",
+					"fastboot": "viva_tr_global_images_V14.0.4.0.TGDTRXM_20240115.0000.00_13.0_tr_d653833a41.tgz"
+				},
 				{
 					"miui": "V14.0.3.0.TGDTRXM",
 					"android": "13.0",
@@ -480,7 +487,9 @@
 			"code": "viva_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -560,6 +569,12 @@
 					"android": "11.0",
 					"recovery": "miui_VIVALMCRGlobal_V13.0.4.0.RGDLMCR_6348dd09a8_11.0.zip",
 					"fastboot": "viva_lm_cr_global_images_V13.0.4.0.RGDLMCR_20220830.0000.00_11.0_global_7a4ff6310f.tgz"
+				},
+				{
+					"miui": "V13.0.3.0.RGDLMCR",
+					"android": "11.0",
+					"recovery": "miui_VIVALMCRGlobal_V13.0.3.0.RGDLMCR_5e47e1a960_11.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -567,7 +582,9 @@
 			"code": "viva_lm_ms_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"branch": "LMMS",
 			"tag": "LMMS",
 			"zone": "2",
@@ -612,7 +629,9 @@
 			"code": "viva_za_mt_global",
 			"btag": "F",
 			"region": "za",
-			"carrier": ["mt"],
+			"carrier": [
+				"mt"
+			],
 			"branch": "ZAMT",
 			"tag": "ZAMT",
 			"zone": "2",

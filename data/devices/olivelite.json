@@ -17,8 +17,16 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "CP",
-	"android": ["9.0", "10.0"],
-	"miui": ["V10.3", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0"
+	],
+	"miui": [
+		"V10.3",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "olivelite",
@@ -129,7 +137,9 @@
 			"code": "olivelite",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -150,7 +160,9 @@
 			"code": "olivelite",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -678,7 +690,9 @@
 			"code": "olivelite_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -698,6 +712,24 @@
 					"android": "9.0",
 					"recovery": "miui_OLIVELITEMXTCGlobal_V10.3.9.0.PCPMXTC_9d5f9edb29_9.0.zip",
 					"fastboot": ""
+				},
+				{
+					"miui": "V10.3.8.0.PCPMXTC",
+					"android": "9.0",
+					"recovery": "miui_OLIVELITEMXTCGlobal_V10.3.8.0.PCPMXTC_b15275a6c4_9.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V10.3.7.0.PCPMXTC",
+					"android": "9.0",
+					"recovery": "miui_OLIVELITEMXTCGlobal_V10.3.7.0.PCPMXTC_2f69f4dbf9_9.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V10.3.2.0.PCPMXTC",
+					"android": "9.0",
+					"recovery": "miui_OLIVELITEMXTCGlobal_V10.3.2.0.PCPMXTC_48268bc657_9.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -705,7 +737,9 @@
 			"code": "olivelite_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",

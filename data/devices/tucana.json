@@ -12,19 +12,37 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["188"],
+	"csid": [
+		"188"
+	],
 	"cbid": [],
 	"gdid": "10016",
 	"pcid": "",
 	"code": "FD",
-	"android": ["9.0", "10.0", "11.0"],
-	"miui": ["V11.0", "V11.1", "V12.0", "V12.1", "V12.5", "V13.0"],
+	"android": [
+		"9.0",
+		"10.0",
+		"11.0"
+	],
+	"miui": [
+		"V11.0",
+		"V11.1",
+		"V12.0",
+		"V12.1",
+		"V12.5",
+		"V13.0"
+	],
 	"branches": [
 		{
 			"code": "tucana",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -2430,7 +2448,9 @@
 			"code": "tucana",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2451,7 +2471,9 @@
 			"code": "tucana",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2766,7 +2788,9 @@
 			"code": "tucana_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -2785,6 +2809,12 @@
 					"miui": "V12.0.4.0.QFDEUHG",
 					"android": "10.0",
 					"recovery": "miui_TUCANAEEAHGGlobal_V12.0.4.0.QFDEUHG_97d28c1eb3_10.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.2.0.QFDEUHG",
+					"android": "10.0",
+					"recovery": "miui_TUCANAEEAHGGlobal_V12.0.2.0.QFDEUHG_be7d21a6eb_10.0.zip",
 					"fastboot": ""
 				},
 				{
@@ -2821,6 +2851,12 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V12.0.2.0.QFDEUOR",
+					"android": "10.0",
+					"recovery": "miui_TUCANAEEAORGlobal_V12.0.2.0.QFDEUOR_a7c54d75f9_10.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V11.0.4.0.PFDEUOR",
 					"android": "9.0",
 					"recovery": "miui_TUCANAEEAORGlobal_V11.0.4.0.PFDEUOR_d0fd128c55_9.0.zip",
@@ -2832,7 +2868,9 @@
 			"code": "tucana_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -2854,9 +2892,21 @@
 					"fastboot": ""
 				},
 				{
+					"miui": "V12.0.2.0.QFDEUTF",
+					"android": "10.0",
+					"recovery": "miui_TUCANAEEATFGlobal_V12.0.2.0.QFDEUTF_9723de62a0_10.0.zip",
+					"fastboot": ""
+				},
+				{
 					"miui": "V11.0.4.0.PFDEUTF",
 					"android": "9.0",
 					"recovery": "miui_TUCANAEEATFGlobal_V11.0.4.0.PFDEUTF_7f37667bcd_9.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.2.0.PFDEUTF",
+					"android": "9.0",
+					"recovery": "miui_TUCANAEEATFGlobal_V11.0.2.0.PFDEUTF_1d71ac69d4_9.0.zip",
 					"fastboot": ""
 				}
 			]
@@ -2865,7 +2915,9 @@
 			"code": "tucana_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -2910,7 +2962,9 @@
 			"code": "tucana_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -3123,7 +3177,9 @@
 			"code": "tucana_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",

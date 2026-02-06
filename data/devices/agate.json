@@ -17,8 +17,16 @@
 	"gdid": "27843",
 	"pcid": "",
 	"code": "KW",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.5", "V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "agate_tw_global",
@@ -333,7 +341,9 @@
 			"code": "agate_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -378,7 +388,9 @@
 			"code": "agate_eea_or_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"branch": "EUOR",
 			"tag": "EUOR",
 			"zone": "2",
@@ -429,7 +441,9 @@
 			"code": "agate_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -474,7 +488,9 @@
 			"code": "agate_eea_by_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"branch": "EUBY",
 			"tag": "EUBY",
 			"zone": "2",
@@ -513,7 +529,9 @@
 			"code": "agate_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -564,7 +582,9 @@
 			"code": "agate_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -573,12 +593,12 @@
 			"zh-cn": "欧洲Altice(SFR)运营商定制版",
 			"en-us": "Europe Altice(SFR) Carrier Edition",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TKWEUSF",
-          "android": "13.0",
-          "recovery": "miui_AGATEEEASFGlobal_V14.0.5.0.TKWEUSF_7f056aa652_13.0.zip",
-          "fastboot": ""
-        },
+				{
+					"miui": "V14.0.5.0.TKWEUSF",
+					"android": "13.0",
+					"recovery": "miui_AGATEEEASFGlobal_V14.0.5.0.TKWEUSF_7f056aa652_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.4.0.TKWEUSF",
 					"android": "13.0",
@@ -609,7 +629,9 @@
 			"code": "agate_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -634,6 +656,12 @@
 					"miui": "V12.5.2.0.RKWEUTI",
 					"android": "11.0",
 					"recovery": "miui_AGATEEEATIGlobal_V12.5.2.0.RKWEUTI_17eca9c7c5_11.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V12.5.1.0.RKWEUTI",
+					"android": "11.0",
+					"recovery": "miui_AGATEEEATIGlobal_V12.5.1.0.RKWEUTI_8303cee4ff_11.0.zip",
 					"fastboot": ""
 				}
 			]
@@ -873,7 +901,9 @@
 			"code": "agate_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -906,7 +936,9 @@
 			"code": "agate_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -1005,7 +1037,9 @@
 			"code": "agate_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",

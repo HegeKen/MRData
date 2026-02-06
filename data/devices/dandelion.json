@@ -12,13 +12,21 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["249"],
+	"csid": [
+		"249"
+	],
 	"cbid": [],
 	"gdid": "10005",
 	"pcid": "",
 	"code": "CD",
-	"android": ["10.0", "11.0"],
-	"miui": ["V12.0", "V12.5"],
+	"android": [
+		"10.0",
+		"11.0"
+	],
+	"miui": [
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "dandelion",
@@ -177,7 +185,9 @@
 			"code": "dandelion",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -204,7 +214,9 @@
 			"code": "dandelion",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -519,7 +531,9 @@
 			"code": "dandelion_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -539,6 +553,12 @@
 					"android": "10.0",
 					"recovery": "miui_DANDELIONEEATFGlobal_V12.0.8.0.QCDEUTF_1eae629300_10.0.zip",
 					"fastboot": ""
+				},
+				{
+					"miui": "V12.0.2.0.QCDEUTF",
+					"android": "10.0",
+					"recovery": "miui_DANDELIONEEATFGlobal_V12.0.2.0.QCDEUTF_df2633e47c_10.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -546,7 +566,9 @@
 			"code": "dandelion_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -639,7 +661,9 @@
 			"code": "dandelion_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -672,7 +696,9 @@
 			"code": "dandelion_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -1125,7 +1151,9 @@
 			"code": "dandelion_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -1139,6 +1167,12 @@
 					"android": "10.0",
 					"recovery": "miui_DANDELIONMXTCGlobal_V12.0.12.0.QCDMXTC_cc2b488dae_10.0.zip",
 					"fastboot": "dandelion_mx_tc_global_images_V12.0.12.0.QCDMXTC_20220824.0000.00_10.0_global_66185fd3f3.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.QCDMXTC",
+					"android": "10.0",
+					"recovery": "miui_DANDELIONMXTCGlobal_V12.0.2.0.QCDMXTC_636b363e25_10.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -1146,7 +1180,9 @@
 			"code": "dandelion_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -1160,6 +1196,12 @@
 					"android": "10.0",
 					"recovery": "miui_DANDELIONMXATGlobal_V12.0.14.0.QCDMXAT_3a4a53c346_10.0.zip",
 					"fastboot": "dandelion_mx_at_global_images_V12.0.14.0.QCDMXAT_20221014.0000.00_10.0_global_e1fd64d8a0.tgz"
+				},
+				{
+					"miui": "V12.0.2.0.QCDMXAT",
+					"android": "10.0",
+					"recovery": "miui_DANDELIONMXATGlobal_V12.0.2.0.QCDMXAT_933ec644de_10.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -1167,7 +1209,9 @@
 			"code": "dandelion_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -1236,7 +1280,9 @@
 			"code": "dandelion_za_mt_global",
 			"btag": "F",
 			"region": "za",
-			"carrier": ["mt"],
+			"carrier": [
+				"mt"
+			],
 			"branch": "ZAMT",
 			"tag": "ZAMT",
 			"zone": "2",
