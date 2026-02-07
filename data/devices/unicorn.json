@@ -12,19 +12,34 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["445"],
-	"cbid": ["440"],
+	"csid": [
+		"445"
+	],
+	"cbid": [
+		"440"
+	],
 	"gdid": "",
 	"pcid": "",
 	"code": "LE",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
+	"android": [
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "unicorn",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -462,7 +477,9 @@
 			"code": "unicorn",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -549,7 +566,9 @@
 			"code": "unicorn",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -570,7 +589,12 @@
 			"code": "unicorn_demo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "CnOD",
 			"tag": "CNDM",
 			"zone": "1",
@@ -596,6 +620,18 @@
 					"android": "12.0",
 					"recovery": "miui_UNICORNDEMO_V13.0.8.0.SLECNDM_ae893155f7_12.0.zip",
 					"fastboot": "unicorn_demo_images_V13.0.8.0.SLECNDM_20221107.0000.00_12.0_cn_chinamobile_857437fc36.tgz"
+				},
+				{
+					"miui": "V13.0.7.0.SLECNDM",
+					"android": "12.0",
+					"recovery": "miui_UNICORNDEMO_V13.0.7.0.SLECNDM_8a77e784e7_12.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V13.0.6.0.SLECNDM",
+					"android": "12.0",
+					"recovery": "miui_UNICORNDEMO_V13.0.6.0.SLECNDM_36eaa7695a_12.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -603,7 +639,12 @@
 			"code": "unicorn_ep_stdee",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPSTD",
 			"tag": "",
 			"zone": "1",

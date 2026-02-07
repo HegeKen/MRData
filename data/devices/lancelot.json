@@ -12,13 +12,25 @@
 	"ismiui": "",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["245"],
+	"csid": [
+		"245"
+	],
 	"cbid": [],
 	"gdid": "10005",
 	"pcid": "",
 	"code": "JC",
-	"android": ["10.0", "11.0", "12.0"],
-	"miui": ["V11.0", "V12.0", "V12.5", "V13.0", "V14.0"],
+	"android": [
+		"10.0",
+		"11.0",
+		"12.0"
+	],
+	"miui": [
+		"V11.0",
+		"V12.0",
+		"V12.5",
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "lancelot",
@@ -159,7 +171,9 @@
 			"code": "lancelot",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -180,7 +194,9 @@
 			"code": "lancelot",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -201,7 +217,9 @@
 			"code": "lancelot",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinaunicom"],
+			"carrier": [
+				"chinaunicom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -468,7 +486,9 @@
 			"code": "lancelot_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -534,7 +554,9 @@
 			"code": "lancelot_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -567,7 +589,9 @@
 			"code": "lancelot_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -654,7 +678,9 @@
 			"code": "lancelot_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -1047,7 +1073,9 @@
 			"code": "lancelot_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -1074,7 +1102,9 @@
 			"code": "lancelot_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -1094,6 +1124,12 @@
 					"android": "10.0",
 					"recovery": "miui_LANCELOTMXTCGlobal_V11.0.7.0.QJCMXTC_8110058893_10.0.zip",
 					"fastboot": ""
+				},
+				{
+					"miui": "V11.0.4.0.QJCMXTC",
+					"android": "10.0",
+					"recovery": "miui_LANCELOTMXTCGlobal_V11.0.4.0.QJCMXTC_92d69808d3_10.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -1101,7 +1137,9 @@
 			"code": "lancelot_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -1128,7 +1166,9 @@
 			"code": "lancelot_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",

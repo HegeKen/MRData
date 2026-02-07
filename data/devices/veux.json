@@ -12,19 +12,33 @@
 	"ismiui": "0",
 	"ccshow": "1",
 	"cbshow": "1",
-	"csid": ["419"],
+	"csid": [
+		"419"
+	],
 	"cbid": [],
 	"gdid": "56423",
 	"pcid": "53262",
 	"code": "KC",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
+	"android": [
+		"11.0",
+		"12.0",
+		"13.0"
+	],
+	"miui": [
+		"V13.0",
+		"V14.0"
+	],
 	"branches": [
 		{
 			"code": "veux",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -222,7 +236,9 @@
 			"code": "veux",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -273,7 +289,9 @@
 			"code": "veux",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -312,7 +330,12 @@
 			"code": "veux_ep_stdee",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "EPSTD",
 			"tag": "",
 			"zone": "1",
@@ -342,12 +365,12 @@
 			"zh-cn": "中国台湾省稳定版",
 			"en-us": "China Taiwan Province Stable",
 			"links": [
-        {
-          "miui": "V14.0.5.0.TKCTWXM",
-          "android": "13.0",
-          "recovery": "miui_VEUXTWGlobal_V14.0.5.0.TKCTWXM_f9c777d85f_13.0.zip",
-          "fastboot": "veux_tw_global_images_V14.0.5.0.TKCTWXM_20231222.0000.00_13.0_tw_5d7bc069bf.tgz"
-        },
+				{
+					"miui": "V14.0.5.0.TKCTWXM",
+					"android": "13.0",
+					"recovery": "miui_VEUXTWGlobal_V14.0.5.0.TKCTWXM_f9c777d85f_13.0.zip",
+					"fastboot": "veux_tw_global_images_V14.0.5.0.TKCTWXM_20231222.0000.00_13.0_tw_5d7bc069bf.tgz"
+				},
 				{
 					"miui": "V14.0.4.0.TKCTWXM",
 					"android": "13.0",
@@ -642,7 +665,9 @@
 			"code": "veux_eea_hg_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"branch": "EUHG",
 			"tag": "EUHG",
 			"zone": "2",
@@ -651,12 +676,12 @@
 			"zh-cn": "欧洲ThreeHK运营商定制版",
 			"en-us": "Europe ThreeHK Carrier Edition",
 			"links": [
-        {
-          "miui": "V14.0.4.0.TKCEUHG",
-          "android": "13.0",
-          "recovery": "miui_VEUXEEAHGGlobal_V14.0.4.0.TKCEUHG_fc1e16c26e_13.0.zip",
-          "fastboot": ""
-        },
+				{
+					"miui": "V14.0.4.0.TKCEUHG",
+					"android": "13.0",
+					"recovery": "miui_VEUXEEAHGGlobal_V14.0.4.0.TKCEUHG_fc1e16c26e_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.3.0.TKCEUHG",
 					"android": "13.0",
@@ -774,7 +799,9 @@
 			"code": "veux_eea_tf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"branch": "EUTF",
 			"tag": "EUTF",
 			"zone": "2",
@@ -831,7 +858,9 @@
 			"code": "veux_eea_by_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"branch": "EUBY",
 			"tag": "EUBY",
 			"zone": "2",
@@ -864,7 +893,9 @@
 			"code": "veux_eea_vf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"branch": "EUVF",
 			"tag": "EUVF",
 			"zone": "2",
@@ -927,7 +958,9 @@
 			"code": "veux_eea_sf_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"branch": "EUSF",
 			"tag": "EUSF",
 			"zone": "2",
@@ -942,12 +975,12 @@
 					"recovery": "miui_VEUXEEASFGlobal_V14.0.6.0.TKCEUSF_2863cf8b56_13.0.zip",
 					"fastboot": "veux_eea_sf_global_images_V14.0.6.0.TKCEUSF_20240315.0000.00_13.0_eea_sfr_0cbf229816.tgz"
 				},
-        {
-          "miui": "V14.0.4.0.TKCEUSF",
-          "android": "13.0",
-          "recovery": "miui_VEUXEEASFGlobal_V14.0.4.0.TKCEUSF_140daad483_13.0.zip",
-          "fastboot": ""
-        },
+				{
+					"miui": "V14.0.4.0.TKCEUSF",
+					"android": "13.0",
+					"recovery": "miui_VEUXEEASFGlobal_V14.0.4.0.TKCEUSF_140daad483_13.0.zip",
+					"fastboot": ""
+				},
 				{
 					"miui": "V14.0.3.0.TKCEUSF",
 					"android": "13.0",
@@ -984,7 +1017,9 @@
 			"code": "veux_eea_ti_global",
 			"btag": "F",
 			"region": "eea",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"branch": "EUTI",
 			"tag": "EUTI",
 			"zone": "2",
@@ -1269,12 +1304,12 @@
 			"zh-cn": "土耳其稳定版",
 			"en-us": "Turkey Stable",
 			"links": [
-        {
-          "miui": "V14.0.3.0.TKCTRXM",
-          "android": "13.0",
-          "recovery": "miui_VEUXTRGlobal_V14.0.3.0.TKCTRXM_b98b74ce46_13.0.zip",
-          "fastboot": "veux_tr_global_images_V14.0.3.0.TKCTRXM_20231217.0000.00_13.0_tr_3aab3795a5.tgz"
-        },
+				{
+					"miui": "V14.0.3.0.TKCTRXM",
+					"android": "13.0",
+					"recovery": "miui_VEUXTRGlobal_V14.0.3.0.TKCTRXM_b98b74ce46_13.0.zip",
+					"fastboot": "veux_tr_global_images_V14.0.3.0.TKCTRXM_20231217.0000.00_13.0_tr_3aab3795a5.tgz"
+				},
 				{
 					"miui": "V14.0.2.0.TKCTRXM",
 					"android": "13.0",
@@ -1386,7 +1421,9 @@
 			"code": "veux_cl_en_global",
 			"btag": "F",
 			"region": "cl",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"branch": "CLEN",
 			"tag": "CLEN",
 			"zone": "2",
@@ -1443,7 +1480,9 @@
 			"code": "veux_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",
@@ -1536,7 +1575,9 @@
 			"code": "veux_mx_at_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"branch": "MXAT",
 			"tag": "MXAT",
 			"zone": "2",
@@ -1580,6 +1621,12 @@
 					"android": "11.0",
 					"recovery": "miui_VEUXMXATGlobal_V13.0.6.0.RKCMXAT_c3907e5edf_11.0.zip",
 					"fastboot": "veux_mx_at_global_images_V13.0.6.0.RKCMXAT_20220701.0000.00_11.0_global_fdbe702a05.tgz"
+				},
+				{
+					"miui": "V13.0.5.0.RKCMXAT",
+					"android": "11.0",
+					"recovery": "miui_VEUXMXATGlobal_V13.0.5.0.RKCMXAT_a85875d412_11.0.zip",
+					"fastboot": ""
 				}
 			]
 		}

@@ -1183,6 +1183,7 @@ flags = {
 	'emerald_ru_global': 'emerald',
 	"houji_global": "houji",
 	"klee": "klee",
+	'PLATINAGlobal':'platina',
 	"dash": "dash",
 	"klee_demo": "klee",
 	"dash_demo": "dash",

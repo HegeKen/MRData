@@ -17,14 +17,28 @@
 	"gdid": "10021",
 	"pcid": "",
 	"code": "CO",
-	"android": ["9.0", "10.0", "11.0"],
-	"miui": ["V10.3", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0",
+		"11.0"
+	],
+	"miui": [
+		"V10.3",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "ginkgo",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -1686,7 +1700,9 @@
 			"code": "ginkgo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1707,7 +1723,9 @@
 			"code": "ginkgo",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -2193,7 +2211,9 @@
 			"code": "ginkgo_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -2212,6 +2232,12 @@
 					"miui": "V10.3.13.0.PCOMXTC",
 					"android": "9.0",
 					"recovery": "miui_GINKGOMXTCGlobal_V10.3.13.0.PCOMXTC_a0cd036cdb_9.0.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V10.3.12.0.PCOMXTC",
+					"android": "9.0",
+					"recovery": "miui_GINKGOMXTCGlobal_V10.3.12.0.PCOMXTC_7ad90cda72_9.0.zip",
 					"fastboot": ""
 				}
 			]

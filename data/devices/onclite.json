@@ -17,8 +17,17 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "FL",
-	"android": ["9.0", "10.0"],
-	"miui": ["V10.2", "V10.3", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"9.0",
+		"10.0"
+	],
+	"miui": [
+		"V10.2",
+		"V10.3",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "onclite",
@@ -153,7 +162,9 @@
 			"code": "onclite",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -174,7 +185,9 @@
 			"code": "onclite",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -525,7 +538,9 @@
 			"code": "onclite_mx_tc_global",
 			"btag": "F",
 			"region": "mx",
-			"carrier": ["telcel"],
+			"carrier": [
+				"telcel"
+			],
 			"branch": "MXTC",
 			"tag": "MXTC",
 			"zone": "2",
@@ -545,6 +560,12 @@
 					"android": "9.0",
 					"recovery": "miui_ONCLITEMXTCGlobal_V10.3.19.0.PFLMXTC_3382ea35a0_9.0.zip",
 					"fastboot": ""
+				},
+				{
+					"miui": "V10.3.16.0.PFLMXTC",
+					"android": "9.0",
+					"recovery": "miui_ONCLITEMXTCGlobal_V10.3.16.0.PFLMXTC_b73ea87033_9.0.zip",
+					"fastboot": ""
 				}
 			]
 		},
@@ -552,7 +573,9 @@
 			"code": "onclite_lm_cr_global",
 			"btag": "F",
 			"region": "lm",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"branch": "LMCR",
 			"tag": "LMCR",
 			"zone": "2",

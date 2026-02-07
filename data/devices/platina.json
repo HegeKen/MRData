@@ -17,14 +17,31 @@
 	"gdid": "",
 	"pcid": "",
 	"code": "DT",
-	"android": ["8.1", "9.0", "10.0"],
-	"miui": ["V9.6", "V10.0", "V10.2", "V10.3", "V11.0", "V12.0", "V12.5"],
+	"android": [
+		"8.1",
+		"9.0",
+		"10.0"
+	],
+	"miui": [
+		"V9.6",
+		"V10.0",
+		"V10.2",
+		"V10.3",
+		"V11.0",
+		"V12.0",
+		"V12.5"
+	],
 	"branches": [
 		{
 			"code": "platina",
 			"btag": "X",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"branch": "Dev",
 			"tag": "",
 			"zone": "1",
@@ -810,7 +827,9 @@
 			"code": "platina",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -831,7 +850,9 @@
 			"code": "platina",
 			"btag": "F",
 			"region": "cn",
-			"carrier": ["chinamobile"],
+			"carrier": [
+				"chinamobile"
+			],
 			"branch": "CnOO",
 			"tag": "CNXM",
 			"zone": "1",
@@ -1132,6 +1153,12 @@
 					"miui": "V9.6.4.0.ODTMIFD",
 					"android": "8.1",
 					"recovery": "miui_MI8LiteGlobal_V9.6.4.0.ODTMIFD_9d7486b1e4_8.1.zip",
+					"fastboot": ""
+				},
+				{
+					"miui": "V9.6.3.0.ODTMIFD",
+					"android": "8.1",
+					"recovery": "miui_PLATINAGlobal_V9.6.3.0.ODTMIFD_d0be3d9f53_8.1.zip",
 					"fastboot": ""
 				}
 			]
