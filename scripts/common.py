@@ -561,6 +561,13 @@ branches = [
 		"region": "global",
 		"carrier": [],
 		"zone": "2"
+	},
+	{
+		"code": "_kr_global",
+		"tag": "KRXM",
+		"region": "kr",
+		"carrier": [],
+		"zone": "2"
 	}
 ]
 
