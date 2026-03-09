@@ -34,7 +34,7 @@ for url in urls:
   session.mount('https://', HTTPAdapter(max_retries=retries))
   print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+url+"      ",end="")
   try:
-    response = session.post(url, headers=headers)
+    response = session.post(url, headers=headers, timeout=(5, 10))
     content = response.content.decode('utf8') 
     if (response.status_code != 404):
       packages = json.loads(content)['data']

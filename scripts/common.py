@@ -2432,6 +2432,20 @@ flags = {
 	'selene_za_vc_global': 'selene',
 	'selene_za_mt_global': 'selene',
 	'dandelion_c3l2': 'dandelion_c3l2',
+	"charoite_lm_cr_global" : "charoite",
+	"piano_id_global": "piano",
+	"piano_tw_global": "piano",
+	"piano_eea_global": "piano",
+	"piano_ru_global": "piano",
+	"piano_tr_global": "piano",
+	"piano_global": "piano",
+	"yupei_global": "yupei",
+	"yupei_eea_global": "yupei",
+	"yupei_ru_global": "yupei",
+	"yupei_id_global": "yupei",
+	"yupei_in_global": "yupei",
+	"yupei_tw_global": "yupei",
+	"yupei_tr_global": "yupei",
 	'dandelion_c3l2_tw_global': 'dandelion_c3l2',
 	'dandelion_c3l2_global': 'dandelion_c3l2',
 	'dandelion_c3l2_eea_global': 'dandelion_c3l2',
@@ -3653,7 +3667,7 @@ def getFastboot(url):
 	headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
 				 'Connection': 'close'}
 	try:
-		response = s.post(url, headers=headers, json=True)
+		response = s.post(url, headers=headers, json=True, timeout=(5, 10))
 		if (response.status_code == 200):
 			content = response.content.decode('utf8')
 			if content == '':
@@ -4193,7 +4207,7 @@ def getFromApi(encrypted_data, device):
 	session.mount('http://', HTTPAdapter(max_retries=retries))
 	session.mount('https://', HTTPAdapter(max_retries=retries))
 	try:
-		response = session.post(check_url, headers=headers, data=data, timeout=10)
+		response = session.post(check_url, headers=headers, data=data, timeout=(5, 10))
 		print('\r', datetime.now().strftime("%Y-%m-%d %H:%M:%S"), '\t正在抓取' +
 				devdata['zh-cn']+'(' + devdata['codename']+')					', end='')
 		if response.status_code != 200:
