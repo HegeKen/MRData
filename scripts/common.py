@@ -1286,6 +1286,8 @@ flags = {
 	'sapphire_global': 'sapphire',
 	'SAPPHIREGlobal': 'sapphire',
 	'duchamp': 'duchamp',
+	"somalia_in_global": "somalia",
+	"arctic_id_global": "arctic",
 	'gale_ru_global': 'gale',
 	'GALERUGlobal': 'gale',
 	'gold_global': 'gold',
