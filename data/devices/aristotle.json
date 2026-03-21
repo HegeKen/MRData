@@ -17,9 +17,13 @@
   "gdid": "",
   "pcid": "",
   "code": "MF",
-	"android": ["13.0"],
-	"miui": ["V14.0"],
-	"branches": [
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.0"
+  ],
+  "branches": [
     {
       "code": "aristotle_tw_global",
       "btag": "F",
@@ -27,24 +31,26 @@
       "carrier": [],
       "pn": "aristotle_tw",
       "branch": "CNTP",
-			"tag": "TWXM",
+      "tag": "TWXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
-      "zh-cn": "中国台湾省稳定版",
+      "zh-cn": "中国台湾省正式版",
       "en-us": "China Taiwan Province Stable",
       "links": [
         {
           "miui": "V14.0.4.0.TMFTWXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLETWGlobal_V14.0.4.0.TMFTWXM_95d6326f95_13.0.zip",
-          "fastboot": "aristotle_tw_global_images_V14.0.4.0.TMFTWXM_20231024.0000.00_13.0_tw_b7ce3c9d70.tgz"
+          "fastboot": "aristotle_tw_global_images_V14.0.4.0.TMFTWXM_20231024.0000.00_13.0_tw_b7ce3c9d70.tgz",
+          "release": "2023-11-08"
         },
         {
           "miui": "V14.0.3.0.TMFTWXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLETWGlobal_V14.0.3.0.TMFTWXM_ad5a25c50c_13.0.zip",
-          "fastboot": "aristotle_tw_global_images_V14.0.3.0.TMFTWXM_20230918.0000.00_13.0_tw_ff4ddf12a2.tgz"
+          "fastboot": "aristotle_tw_global_images_V14.0.3.0.TMFTWXM_20230918.0000.00_13.0_tw_ff4ddf12a2.tgz",
+          "release": "2023-09-27"
         }
       ]
     },
@@ -54,25 +60,27 @@
       "region": "global",
       "carrier": [],
       "branch": "GBOO",
-			"tag": "MIXM",
+      "tag": "MIXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
       "pn": "aristotle_global",
-      "zh-cn": "国际稳定版",
+      "zh-cn": "国际正式版",
       "en-us": "Global Stable",
       "links": [
         {
           "miui": "V14.0.6.0.TMFMIXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEGlobal_V14.0.6.0.TMFMIXM_604989c6ed_13.0.zip",
-          "fastboot": "aristotle_global_images_V14.0.6.0.TMFMIXM_20231016.0000.00_13.0_global_32f10c8301.tgz"
+          "fastboot": "aristotle_global_images_V14.0.6.0.TMFMIXM_20231016.0000.00_13.0_global_32f10c8301.tgz",
+          "release": "2023-11-06"
         },
         {
           "miui": "V14.0.5.0.TMFMIXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEGlobal_V14.0.5.0.TMFMIXM_21bab9eb7e_13.0.zip",
-          "fastboot": "aristotle_global_images_V14.0.5.0.TMFMIXM_20230913.0000.00_13.0_global_6fb4759ad5.tgz"
+          "fastboot": "aristotle_global_images_V14.0.5.0.TMFMIXM_20230913.0000.00_13.0_global_6fb4759ad5.tgz",
+          "release": "2023-09-27"
         }
       ]
     },
@@ -82,43 +90,48 @@
       "region": "eea",
       "carrier": [],
       "branch": "EEAO",
-			"tag": "EUXM",
+      "tag": "EUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
       "pn": "aristotle_eea",
-      "zh-cn": "欧洲EEA稳定版",
+      "zh-cn": "欧洲EEA正式版",
       "en-us": "Europe EEA Stable",
       "links": [
         {
           "miui": "V14.0.13.0.TMFEUXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.13.0.TMFEUXM_41ffa14e94_13.0.zip",
-          "fastboot": "aristotle_eea_global_images_V14.0.13.0.TMFEUXM_20231206.0000.00_13.0_eea_e989a3a4df.tgz"
+          "fastboot": "aristotle_eea_global_images_V14.0.13.0.TMFEUXM_20231206.0000.00_13.0_eea_e989a3a4df.tgz",
+          "release": "2023-12-12"
         },
         {
           "miui": "V14.0.11.0.TMFEUXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.11.0.TMFEUXM_6370eb6ef4_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2023-10-28"
         },
         {
           "miui": "V14.0.10.0.TMFEUXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.10.0.TMFEUXM_eb6ba4ab46_13.0.zip",
-          "fastboot": "aristotle_eea_global_images_V14.0.10.0.TMFEUXM_20230913.0000.00_13.0_eea_3aac1d60db.tgz"
+          "fastboot": "aristotle_eea_global_images_V14.0.10.0.TMFEUXM_20230913.0000.00_13.0_eea_3aac1d60db.tgz",
+          "release": "2023-09-26"
         },
         {
           "miui": "V14.0.9.0.TMFEUXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.9.0.TMFEUXM_2cd5f53ef5_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2023-09-26"
         },
         {
           "miui": "V14.0.7.0.TMFEUXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEEEAGlobal_V14.0.7.0.TMFEUXM_e564ede01d_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2023-09-26"
         }
       ]
     },
@@ -128,18 +141,19 @@
       "region": "ru",
       "carrier": [],
       "branch": "RUSO",
-			"tag": "RUXM",
+      "tag": "RUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
-      "zh-cn": "俄罗斯稳定版",
+      "zh-cn": "俄罗斯正式版",
       "en-us": "Russia Stable",
       "links": [
         {
           "miui": "V14.0.3.0.TMFRUXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLERUGlobal_V14.0.3.0.TMFRUXM_c66a67a6d7_13.0.zip",
-          "fastboot": "aristotle_ru_global_images_V14.0.3.0.TMFRUXM_20230919.0000.00_13.0_ru_c799776fa2.tgz"
+          "fastboot": "aristotle_ru_global_images_V14.0.3.0.TMFRUXM_20230919.0000.00_13.0_ru_c799776fa2.tgz",
+          "release": "2023-09-27"
         }
       ]
     },
@@ -150,24 +164,26 @@
       "carrier": [],
       "pn": "aristotle_id",
       "branch": "IDSO",
-			"tag": "IDXM",
+      "tag": "IDXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
-      "zh-cn": "印度尼西亚稳定版",
+      "zh-cn": "印度尼西亚正式版",
       "en-us": "Indonesia Stable",
       "links": [
         {
           "miui": "V14.0.5.0.TMFIDXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEIDGlobal_V14.0.5.0.TMFIDXM_ecc815f118_13.0.zip",
-          "fastboot": "aristotle_id_global_images_V14.0.5.0.TMFIDXM_20231115.0000.00_13.0_id_164f0dcc64.tgz"
+          "fastboot": "aristotle_id_global_images_V14.0.5.0.TMFIDXM_20231115.0000.00_13.0_id_164f0dcc64.tgz",
+          "release": "2023-12-09"
         },
         {
           "miui": "V14.0.3.0.TMFIDXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLEIDGlobal_V14.0.3.0.TMFIDXM_6b69f9d1f6_13.0.zip",
-          "fastboot": "aristotle_id_global_images_V14.0.3.0.TMFIDXM_20230919.0000.00_13.0_id_de891a7d39.tgz"
+          "fastboot": "aristotle_id_global_images_V14.0.3.0.TMFIDXM_20230919.0000.00_13.0_id_de891a7d39.tgz",
+          "release": "2023-09-27"
         }
       ]
     },
@@ -178,24 +194,26 @@
       "carrier": [],
       "pn": "aristotle_tr",
       "branch": "TRSO",
-			"tag": "TRXM",
+      "tag": "TRXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
-      "zh-cn": "土耳其稳定版",
+      "zh-cn": "土耳其正式版",
       "en-us": "Turkey Stable",
       "links": [
         {
           "miui": "V14.0.4.0.TMFTRXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLETRGlobal_V14.0.4.0.TMFTRXM_01f37ed3ae_13.0.zip",
-          "fastboot": "aristotle_tr_global_images_V14.0.4.0.TMFTRXM_20231101.0000.00_13.0_tr_47807d8901.tgz"
+          "fastboot": "aristotle_tr_global_images_V14.0.4.0.TMFTRXM_20231101.0000.00_13.0_tr_47807d8901.tgz",
+          "release": "2023-11-23"
         },
         {
           "miui": "V14.0.3.0.TMFTRXM",
           "android": "13.0",
           "recovery": "miui_ARISTOTLETRGlobal_V14.0.3.0.TMFTRXM_e422fc3eae_13.0.zip",
-          "fastboot": "aristotle_tr_global_images_V14.0.3.0.TMFTRXM_20230919.0000.00_13.0_tr_55d7eaa662.tgz"
+          "fastboot": "aristotle_tr_global_images_V14.0.3.0.TMFTRXM_20230919.0000.00_13.0_tr_55d7eaa662.tgz",
+          "release": "2023-09-27"
         }
       ]
     }

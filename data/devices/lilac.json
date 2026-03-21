@@ -1,156 +1,181 @@
 {
-	"codename": "lilac",
-	"zh-cn": "Redmi Note 10T",
-	"en-us": "Redmi Note 10T",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "1",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "11767",
-	"pcid": "",
-	"code": "KN",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
-	"branches": [
-		{
-			"code": "lilac_jp_global",
-			"btag": "F",
-			"region": "jp",
-			"carrier": [],
-			"branch": "JAPS",
-			"tag": "JPXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "日本稳定版",
-			"en-us": "Japan Stable",
-			"links": [
-				{
-					"miui": "V14.0.34.0.TKNJPXM",
-					"android": "13.0",
-					"recovery": "miui_LILACJPGlobal_V14.0.34.0.TKNJPXM_f908a3ff20_13.0.zip",
-					"fastboot": "lilac_jp_global_images_V14.0.34.0.TKNJPXM_20250225.0000.00_13.0_jp_3c554078c9.tgz"
-				},
-				{
-					"miui": "V14.0.28.0.TKNJPXM",
-					"android": "13.0",
-					"recovery": "miui_LILACJPGlobal_V14.0.28.0.TKNJPXM_36581bbd39_13.0.zip",
-					"fastboot": "lilac_jp_global_images_V14.0.28.0.TKNJPXM_20241118.0000.00_13.0_jp_92e3954b1a.tgz"
-				},
-				{
-					"miui": "V14.0.24.0.TKNJPXM",
-					"android": "13.0",
-					"recovery": "miui_LILACJPGlobal_V14.0.24.0.TKNJPXM_3ee2ed6eed_13.0.zip",
-					"fastboot": "lilac_jp_global_images_V14.0.24.0.TKNJPXM_20240925.0000.00_13.0_jp_b88e0b2d2f.tgz"
-				},
+  "codename": "lilac",
+  "zh-cn": "Redmi Note 10T",
+  "en-us": "Redmi Note 10T",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "11767",
+  "pcid": "",
+  "code": "KN",
+  "android": [
+    "12.0",
+    "13.0"
+  ],
+  "miui": [
+    "V13.0",
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "lilac_jp_global",
+      "btag": "F",
+      "region": "jp",
+      "carrier": [],
+      "branch": "JAPS",
+      "tag": "JPXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "日本正式版",
+      "en-us": "Japan Stable",
+      "links": [
+        {
+          "miui": "V14.0.34.0.TKNJPXM",
+          "android": "13.0",
+          "recovery": "miui_LILACJPGlobal_V14.0.34.0.TKNJPXM_f908a3ff20_13.0.zip",
+          "fastboot": "lilac_jp_global_images_V14.0.34.0.TKNJPXM_20250225.0000.00_13.0_jp_3c554078c9.tgz",
+          "release": "2025-03-12"
+        },
+        {
+          "miui": "V14.0.28.0.TKNJPXM",
+          "android": "13.0",
+          "recovery": "miui_LILACJPGlobal_V14.0.28.0.TKNJPXM_36581bbd39_13.0.zip",
+          "fastboot": "lilac_jp_global_images_V14.0.28.0.TKNJPXM_20241118.0000.00_13.0_jp_92e3954b1a.tgz",
+          "release": "2024-12-23"
+        },
+        {
+          "miui": "V14.0.24.0.TKNJPXM",
+          "android": "13.0",
+          "recovery": "miui_LILACJPGlobal_V14.0.24.0.TKNJPXM_3ee2ed6eed_13.0.zip",
+          "fastboot": "lilac_jp_global_images_V14.0.24.0.TKNJPXM_20240925.0000.00_13.0_jp_b88e0b2d2f.tgz",
+          "release": "2024-09-30"
+        },
         {
           "miui": "V14.0.12.0.TKNJPXM",
           "android": "13.0",
           "recovery": "miui_LILACJPGlobal_V14.0.12.0.TKNJPXM_7027fa54c7_13.0.zip",
-          "fastboot": "lilac_jp_global_images_V14.0.12.0.TKNJPXM_20240103.0000.00_13.0_jp_38dff9df90.tgz"
+          "fastboot": "lilac_jp_global_images_V14.0.12.0.TKNJPXM_20240103.0000.00_13.0_jp_38dff9df90.tgz",
+          "release": "2024-01-17"
         },
-				{
-					"miui": "V14.0.11.0.TKNJPXM",
-					"android": "13.0",
-					"recovery": "miui_LILACJPGlobal_V14.0.11.0.TKNJPXM_cf66afd283_13.0.zip",
-					"fastboot": "lilac_jp_global_images_V14.0.11.0.TKNJPXM_20231031.0000.00_13.0_jp_038ec3309b.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TKNJPXM",
-					"android": "13.0",
-					"recovery": "miui_LILACJPGlobal_V14.0.8.0.TKNJPXM_05c47dc9bf_13.0.zip",
-					"fastboot": "lilac_jp_global_images_V14.0.8.0.TKNJPXM_20230721.0000.00_13.0_jp_5bcb0cfd50.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TKNJPXM",
-					"android": "13.0",
-					"recovery": "miui_LILACJPGlobal_V14.0.7.0.TKNJPXM_b5629428d4_13.0.zip",
-					"fastboot": "lilac_jp_global_images_V14.0.7.0.TKNJPXM_20230418.0000.00_13.0_jp_e2fcdb6bc2.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TKNJPXM",
-					"android": "13.0",
-					"recovery": "miui_LILACJPGlobal_V14.0.5.0.TKNJPXM_a4622fd1de_13.0.zip",
-					"fastboot": "lilac_jp_global_images_V14.0.5.0.TKNJPXM_20230227.0000.00_13.0_jp_2006aadca2.tgz"
-				},
-				{
-					"miui": "V13.0.12.0.SKNJPXM",
-					"android": "12.0",
-					"recovery": "miui_LILACJPGlobal_V13.0.12.0.SKNJPXM_bdd3aa2a33_12.0.zip",
-					"fastboot": "lilac_jp_global_images_V13.0.12.0.SKNJPXM_20221201.0000.00_12.0_global_636fbb6333.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SKNJPXM",
-					"android": "12.0",
-					"recovery": "miui_LILACJPGlobal_V13.0.2.0.SKNJPXM_6d34e29fc5_12.0.zip",
-					"fastboot": "lilac_jp_global_images_V13.0.2.0.SKNJPXM_20221008.0000.00_12.0_global_00ff936ce2.tgz"
-				}
-			]
-		},
-		{
-			"code": "lilac_jp_sb_global",
-			"btag": "F",
-			"region": "jp",
-			"carrier": ["sb"],
-			"branch": "JPSB",
-			"tag": "JPSB",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "日本SoftBank运营商定制版",
-			"en-us": "Japan Stable SoftBank Carrier Edtion",
-			"links": [
-				{
-					"miui": "V14.0.24.0.TKNJPSB",
-					"android": "13.0",
-					"recovery": "miui_LILACJPSBGlobal_V14.0.24.0.TKNJPSB_47cc1f3128_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.15.0.TKNJPSB",
-					"android": "13.0",
-					"recovery": "miui_LILACJPSBGlobal_V14.0.15.0.TKNJPSB_cad6a6ebb9_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.14.0.TKNJPSB",
-					"android": "13.0",
-					"recovery": "miui_LILACJPSBGlobal_V14.0.14.0.TKNJPSB_af27070b33_13.0.zip",
-					"fastboot": ""
-				},
+        {
+          "miui": "V14.0.11.0.TKNJPXM",
+          "android": "13.0",
+          "recovery": "miui_LILACJPGlobal_V14.0.11.0.TKNJPXM_cf66afd283_13.0.zip",
+          "fastboot": "lilac_jp_global_images_V14.0.11.0.TKNJPXM_20231031.0000.00_13.0_jp_038ec3309b.tgz",
+          "release": "2023-11-06"
+        },
+        {
+          "miui": "V14.0.8.0.TKNJPXM",
+          "android": "13.0",
+          "recovery": "miui_LILACJPGlobal_V14.0.8.0.TKNJPXM_05c47dc9bf_13.0.zip",
+          "fastboot": "lilac_jp_global_images_V14.0.8.0.TKNJPXM_20230721.0000.00_13.0_jp_5bcb0cfd50.tgz",
+          "release": "2023-07-31"
+        },
+        {
+          "miui": "V14.0.7.0.TKNJPXM",
+          "android": "13.0",
+          "recovery": "miui_LILACJPGlobal_V14.0.7.0.TKNJPXM_b5629428d4_13.0.zip",
+          "fastboot": "lilac_jp_global_images_V14.0.7.0.TKNJPXM_20230418.0000.00_13.0_jp_e2fcdb6bc2.tgz",
+          "release": "2023-04-22"
+        },
+        {
+          "miui": "V14.0.5.0.TKNJPXM",
+          "android": "13.0",
+          "recovery": "miui_LILACJPGlobal_V14.0.5.0.TKNJPXM_a4622fd1de_13.0.zip",
+          "fastboot": "lilac_jp_global_images_V14.0.5.0.TKNJPXM_20230227.0000.00_13.0_jp_2006aadca2.tgz",
+          "release": "2023-03-06"
+        },
+        {
+          "miui": "V13.0.12.0.SKNJPXM",
+          "android": "12.0",
+          "recovery": "miui_LILACJPGlobal_V13.0.12.0.SKNJPXM_bdd3aa2a33_12.0.zip",
+          "fastboot": "lilac_jp_global_images_V13.0.12.0.SKNJPXM_20221201.0000.00_12.0_global_636fbb6333.tgz",
+          "release": "2022-12-05"
+        },
+        {
+          "miui": "V13.0.2.0.SKNJPXM",
+          "android": "12.0",
+          "recovery": "miui_LILACJPGlobal_V13.0.2.0.SKNJPXM_6d34e29fc5_12.0.zip",
+          "fastboot": "lilac_jp_global_images_V13.0.2.0.SKNJPXM_20221008.0000.00_12.0_global_00ff936ce2.tgz",
+          "release": "2022-10-31"
+        }
+      ]
+    },
+    {
+      "code": "lilac_jp_sb_global",
+      "btag": "F",
+      "region": "jp",
+      "carrier": [
+        "sb"
+      ],
+      "branch": "JPSB",
+      "tag": "JPSB",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "日本SoftBank运营商定制版",
+      "en-us": "Japan Stable SoftBank Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.24.0.TKNJPSB",
+          "android": "13.0",
+          "recovery": "miui_LILACJPSBGlobal_V14.0.24.0.TKNJPSB_47cc1f3128_13.0.zip",
+          "fastboot": "",
+          "release": "2024-11-19"
+        },
+        {
+          "miui": "V14.0.15.0.TKNJPSB",
+          "android": "13.0",
+          "recovery": "miui_LILACJPSBGlobal_V14.0.15.0.TKNJPSB_cad6a6ebb9_13.0.zip",
+          "fastboot": "",
+          "release": "2024-05-27"
+        },
+        {
+          "miui": "V14.0.14.0.TKNJPSB",
+          "android": "13.0",
+          "recovery": "miui_LILACJPSBGlobal_V14.0.14.0.TKNJPSB_af27070b33_13.0.zip",
+          "fastboot": "",
+          "release": "2024-03-27"
+        },
         {
           "miui": "V14.0.13.0.TKNJPSB",
           "android": "13.0",
           "recovery": "miui_LILACJPSBGlobal_V14.0.13.0.TKNJPSB_12a80fbd18_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2024-01-31"
         },
-				{
-					"miui": "V14.0.9.0.TKNJPSB",
-					"android": "13.0",
-					"recovery": "miui_LILACJPSBGlobal_V14.0.9.0.TKNJPSB_7297acfe92_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TKNJPSB",
-					"android": "13.0",
-					"recovery": "miui_LILACJPSBGlobal_V14.0.6.0.TKNJPSB_2a7d0408ff_13.0.zip",
-					"fastboot": "lilac_jp_sb_global_images_V14.0.6.0.TKNJPSB_20230711.0000.00_13.0_jp_sb_5aa69c7a75.tgz"
-				},
-				{
-					"miui": "V13.0.10.0.SKNJPSB",
-					"android": "12.0",
-					"recovery": "miui_LILACJPSBGlobal_V13.0.10.0.SKNJPSB_05ff0bd6e4_12.0.zip",
-					"fastboot": "lilac_jp_sb_global_images_V13.0.10.0.SKNJPSB_20230313.0000.00_12.0_global_24cc6d230d.tgz"
-				}
-			]
-		}
-	]
+        {
+          "miui": "V14.0.9.0.TKNJPSB",
+          "android": "13.0",
+          "recovery": "miui_LILACJPSBGlobal_V14.0.9.0.TKNJPSB_7297acfe92_13.0.zip",
+          "fastboot": "",
+          "release": "2023-10-17"
+        },
+        {
+          "miui": "V14.0.6.0.TKNJPSB",
+          "android": "13.0",
+          "recovery": "miui_LILACJPSBGlobal_V14.0.6.0.TKNJPSB_2a7d0408ff_13.0.zip",
+          "fastboot": "lilac_jp_sb_global_images_V14.0.6.0.TKNJPSB_20230711.0000.00_13.0_jp_sb_5aa69c7a75.tgz",
+          "release": "2023-07-28"
+        },
+        {
+          "miui": "V13.0.10.0.SKNJPSB",
+          "android": "12.0",
+          "recovery": "miui_LILACJPSBGlobal_V13.0.10.0.SKNJPSB_05ff0bd6e4_12.0.zip",
+          "fastboot": "lilac_jp_sb_global_images_V13.0.10.0.SKNJPSB_20230313.0000.00_12.0_global_24cc6d230d.tgz",
+          "release": "2023-03-30"
+        }
+      ]
+    }
+  ]
 }

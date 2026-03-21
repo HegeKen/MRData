@@ -1,75 +1,85 @@
 {
-	"codename": "sapphire",
-	"zh-cn": "Redmi Note 13 国际版",
-	"en-us": "Redmi Note 13",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "0",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "NG",
-	"android": ["13.0"],
-	"miui": ["V14.0"],
-	"branches": [
-		{
-			"code": "sapphire_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际正式版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V14.0.10.0.TNGMIXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIREGlobal_V14.0.10.0.TNGMIXM_ab7ae270a5_13.0.zip",
-					"fastboot": "sapphire_global_images_V14.0.10.0.TNGMIXM_20240524.0000.00_13.0_global_b327f72ca7.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TNGMIXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIREGlobal_V14.0.9.0.TNGMIXM_112eacdfd4_13.0.zip",
-					"fastboot": ""
-				},
+  "codename": "sapphire",
+  "zh-cn": "Redmi Note 13 国际版",
+  "en-us": "Redmi Note 13",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "0",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "NG",
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "sapphire_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.10.0.TNGMIXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIREGlobal_V14.0.10.0.TNGMIXM_ab7ae270a5_13.0.zip",
+          "fastboot": "sapphire_global_images_V14.0.10.0.TNGMIXM_20240524.0000.00_13.0_global_b327f72ca7.tgz",
+          "release": "2024-06-03"
+        },
+        {
+          "miui": "V14.0.9.0.TNGMIXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIREGlobal_V14.0.9.0.TNGMIXM_112eacdfd4_13.0.zip",
+          "fastboot": "",
+          "release": "2024-04-08"
+        },
         {
           "miui": "V14.0.7.0.TNGMIXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIREGlobal_V14.0.7.0.TNGMIXM_5b648749d1_13.0.zip",
-          "fastboot": "sapphire_global_images_V14.0.7.0.TNGMIXM_20240207.0000.00_13.0_global_17c70e682b.tgz"
+          "fastboot": "sapphire_global_images_V14.0.7.0.TNGMIXM_20240207.0000.00_13.0_global_17c70e682b.tgz",
+          "release": "2024-02-09"
         },
         {
           "miui": "V14.0.6.0.TNGMIXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIREGlobal_V14.0.6.0.TNGMIXM_5bceccd334_13.0.zip",
-          "fastboot": "sapphire_global_images_V14.0.6.0.TNGMIXM_20240118.0000.00_13.0_global_fb16801fae.tgz"
+          "fastboot": "sapphire_global_images_V14.0.6.0.TNGMIXM_20240118.0000.00_13.0_global_fb16801fae.tgz",
+          "release": "2024-01-23"
         },
         {
           "miui": "V14.0.5.0.TNGMIXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIREGlobal_V14.0.5.0.TNGMIXM_7284df15fe_13.0.zip",
-          "fastboot": "sapphire_global_images_V14.0.5.0.TNGMIXM_20240109.0000.00_13.0_global_e7c453944f.tgz"
+          "fastboot": "sapphire_global_images_V14.0.5.0.TNGMIXM_20240109.0000.00_13.0_global_e7c453944f.tgz",
+          "release": "2024-01-18"
         },
-				{
-					"miui": "V14.0.4.0.TNGMIXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIREGlobal_V14.0.4.0.TNGMIXM_cd13dc01db_13.0.zip",
-					"fastboot": "sapphire_global_images_V14.0.4.0.TNGMIXM_20231228.0000.00_13.0_global_366da50c82.tgz"
-				}
-			]
-		}
-	]
+        {
+          "miui": "V14.0.4.0.TNGMIXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIREGlobal_V14.0.4.0.TNGMIXM_cd13dc01db_13.0.zip",
+          "fastboot": "sapphire_global_images_V14.0.4.0.TNGMIXM_20231228.0000.00_13.0_global_366da50c82.tgz",
+          "release": "2024-01-17"
+        }
+      ]
+    }
+  ]
 }

@@ -17,123 +17,148 @@
   "gdid": "10021",
   "pcid": "",
   "code": "CU",
-	"android": ["11.0", "12.0", "13.0"],
-	"miui": ["V12.5", "V13.0", "V14.0"],
-	"branches": [
+  "android": [
+    "11.0",
+    "12.0",
+    "13.0"
+  ],
+  "miui": [
+    "V12.5",
+    "V13.0",
+    "V14.0"
+  ],
+  "branches": [
     {
       "code": "biloba_global",
       "btag": "F",
       "region": "global",
       "carrier": [],
       "branch": "GBOO",
-			"tag": "MIXM",
+      "tag": "MIXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
-      "zh-cn": "国际稳定版",
+      "zh-cn": "国际正式版",
       "en-us": "Global Stable",
       "links": [
         {
           "miui": "V14.0.6.0.TCUMIXM",
           "android": "13.0",
           "recovery": "miui_BILOBAGlobal_V14.0.6.0.TCUMIXM_2b3d41d81b_13.0.zip",
-          "fastboot": "biloba_global_images_V14.0.6.0.TCUMIXM_20230918.0000.00_13.0_global_7a1a32c8fa.tgz"
+          "fastboot": "biloba_global_images_V14.0.6.0.TCUMIXM_20230918.0000.00_13.0_global_7a1a32c8fa.tgz",
+          "release": "2023-09-22"
         },
         {
           "miui": "V14.0.4.0.TCUMIXM",
           "android": "13.0",
           "recovery": "miui_BILOBAGlobal_V14.0.4.0.TCUMIXM_bf1ba493fe_13.0.zip",
-          "fastboot": "biloba_global_images_V14.0.4.0.TCUMIXM_20230511.0000.00_13.0_global_5bb1fd7252.tgz"
+          "fastboot": "biloba_global_images_V14.0.4.0.TCUMIXM_20230511.0000.00_13.0_global_5bb1fd7252.tgz",
+          "release": "2023-05-18"
         },
         {
           "miui": "V14.0.3.0.TCUMIXM",
           "android": "13.0",
           "recovery": "miui_BILOBAGlobal_V14.0.3.0.TCUMIXM_a18fae7bdf_13.0.zip",
-          "fastboot": "biloba_global_images_V14.0.3.0.TCUMIXM_20230224.0000.00_13.0_global_e347dad5e7.tgz"
+          "fastboot": "biloba_global_images_V14.0.3.0.TCUMIXM_20230224.0000.00_13.0_global_e347dad5e7.tgz",
+          "release": "2023-03-03"
         },
         {
           "miui": "V13.0.10.0.SCUMIXM",
           "android": "12.0",
           "recovery": "miui_BILOBAGlobal_V13.0.10.0.SCUMIXM_6d65b4f5f7_12.0.zip",
-          "fastboot": "biloba_global_images_V13.0.10.0.SCUMIXM_20230203.0000.00_12.0_global_0d0fb133e6.tgz"
+          "fastboot": "biloba_global_images_V13.0.10.0.SCUMIXM_20230203.0000.00_12.0_global_0d0fb133e6.tgz",
+          "release": "2023-02-10"
         },
         {
           "miui": "V13.0.9.0.SCUMIXM",
           "android": "12.0",
           "recovery": "miui_BILOBAGlobal_V13.0.9.0.SCUMIXM_d0a250d93b_12.0.zip",
-          "fastboot": "biloba_global_images_V13.0.9.0.SCUMIXM_20230104.0000.00_12.0_global_8998a8e897.tgz"
+          "fastboot": "biloba_global_images_V13.0.9.0.SCUMIXM_20230104.0000.00_12.0_global_8998a8e897.tgz",
+          "release": "2023-01-10"
         },
         {
           "miui": "V13.0.7.0.SCUMIXM",
           "android": "12.0",
           "recovery": "miui_BILOBAGlobal_V13.0.7.0.SCUMIXM_1603bdf3d0_12.0.zip",
-          "fastboot": "biloba_global_images_V13.0.7.0.SCUMIXM_20220923.0000.00_12.0_global_89e31c023a.tgz"
+          "fastboot": "biloba_global_images_V13.0.7.0.SCUMIXM_20220923.0000.00_12.0_global_89e31c023a.tgz",
+          "release": "2022-09-29"
         },
         {
           "miui": "V13.0.6.0.SCUMIXM",
           "android": "12.0",
           "recovery": "miui_BILOBAGlobal_V13.0.6.0.SCUMIXM_5ea54af041_12.0.zip",
-          "fastboot": "biloba_global_images_V13.0.6.0.SCUMIXM_20220728.0000.00_12.0_global_4e7f4e7626.tgz"
+          "fastboot": "biloba_global_images_V13.0.6.0.SCUMIXM_20220728.0000.00_12.0_global_4e7f4e7626.tgz",
+          "release": "2022-08-04"
         },
         {
           "miui": "V13.0.4.0.SCUMIXM",
           "android": "12.0",
           "recovery": "miui_BILOBAGlobal_V13.0.4.0.SCUMIXM_4bec0ed494_12.0.zip",
-          "fastboot": "biloba_global_images_V13.0.4.0.SCUMIXM_20220523.0000.00_12.0_global_5e0f5b5fa3.tgz"
+          "fastboot": "biloba_global_images_V13.0.4.0.SCUMIXM_20220523.0000.00_12.0_global_5e0f5b5fa3.tgz",
+          "release": "2022-05-28"
         },
         {
           "miui": "V13.0.2.0.SCUMIXM",
           "android": "12.0",
           "recovery": "miui_BILOBAGlobal_V13.0.2.0.SCUMIXM_670066a992_12.0.zip",
-          "fastboot": "biloba_global_images_V13.0.2.0.SCUMIXM_20220125.0000.00_12.0_global_0cbfc8da98.tgz"
+          "fastboot": "biloba_global_images_V13.0.2.0.SCUMIXM_20220125.0000.00_12.0_global_0cbfc8da98.tgz",
+          "release": "2022-02-07"
         },
         {
           "miui": "V12.5.9.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.9.0.RCUMIXM_ddf48ded8b_11.0.zip",
-          "fastboot": "biloba_global_images_V12.5.9.0.RCUMIXM_20220322.0000.00_11.0_global_682a75b494.tgz"
+          "fastboot": "biloba_global_images_V12.5.9.0.RCUMIXM_20220322.0000.00_11.0_global_682a75b494.tgz",
+          "release": "2022-03-25"
         },
         {
           "miui": "V12.5.8.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.8.0.RCUMIXM_046ea65d00_11.0.zip",
-          "fastboot": "biloba_global_images_V12.5.8.0.RCUMIXM_20211103.0000.00_11.0_global_b844a02266.tgz"
+          "fastboot": "biloba_global_images_V12.5.8.0.RCUMIXM_20211103.0000.00_11.0_global_b844a02266.tgz",
+          "release": "2021-11-15"
         },
         {
           "miui": "V12.5.7.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.7.0.RCUMIXM_8c81cfa8c1_11.0.zip",
-          "fastboot": "biloba_global_images_V12.5.7.0.RCUMIXM_20210918.0000.00_11.0_global_558f1f4fea.tgz"
+          "fastboot": "biloba_global_images_V12.5.7.0.RCUMIXM_20210918.0000.00_11.0_global_558f1f4fea.tgz",
+          "release": "2021-09-26"
         },
         {
           "miui": "V12.5.6.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.6.0.RCUMIXM_dc52a175b6_11.0.zip",
-          "fastboot": "biloba_global_images_V12.5.6.0.RCUMIXM_20210804.0000.00_11.0_global_67a92f716f.tgz"
+          "fastboot": "biloba_global_images_V12.5.6.0.RCUMIXM_20210804.0000.00_11.0_global_67a92f716f.tgz",
+          "release": "2021-08-11"
         },
         {
           "miui": "V12.5.5.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.5.0.RCUMIXM_6cae9b3e69_11.0.zip",
-          "fastboot": "biloba_global_images_V12.5.5.0.RCUMIXM_20210713.0000.00_11.0_global_53443d908c.tgz"
+          "fastboot": "biloba_global_images_V12.5.5.0.RCUMIXM_20210713.0000.00_11.0_global_53443d908c.tgz",
+          "release": "2021-07-21"
         },
         {
           "miui": "V12.5.4.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.4.0.RCUMIXM_52f6574211_11.0.zip",
-          "fastboot": "biloba_global_images_V12.5.4.0.RCUMIXM_20210609.0000.00_11.0_global_52dbff9e19.tgz"
+          "fastboot": "biloba_global_images_V12.5.4.0.RCUMIXM_20210609.0000.00_11.0_global_52dbff9e19.tgz",
+          "release": "2021-06-17"
         },
         {
           "miui": "V12.5.2.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.2.0.RCUMIXM_eea0fa7cde_11.0.zip",
-          "fastboot": "biloba_global_images_V12.5.2.0.RCUMIXM_20210512.0000.00_11.0_global_e524f73c09.tgz"
+          "fastboot": "biloba_global_images_V12.5.2.0.RCUMIXM_20210512.0000.00_11.0_global_e524f73c09.tgz",
+          "release": "2021-05-25"
         },
         {
           "miui": "V12.5.1.0.RCUMIXM",
           "android": "11.0",
           "recovery": "miui_BILOBAGlobal_V12.5.1.0.RCUMIXM_852e830201_11.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2021-05-25"
         }
       ]
     },
@@ -143,102 +168,117 @@
       "region": "eea",
       "carrier": [],
       "branch": "EEAO",
-			"tag": "EUXM",
+      "tag": "EUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
-      "zh-cn": "欧洲EEA稳定版",
+      "zh-cn": "欧洲EEA正式版",
       "en-us": "Europe EEA Stable",
       "links": [
         {
           "miui": "V14.0.5.0.TCUEUXM",
           "android": "13.0",
           "recovery": "miui_BILOBAEEAGlobal_V14.0.5.0.TCUEUXM_c9b278d45c_13.0.zip",
-          "fastboot": "biloba_eea_global_images_V14.0.5.0.TCUEUXM_20231106.0000.00_13.0_eea_a05fd4ea57.tgz"
+          "fastboot": "biloba_eea_global_images_V14.0.5.0.TCUEUXM_20231106.0000.00_13.0_eea_a05fd4ea57.tgz",
+          "release": "2023-11-30"
         },
         {
           "miui": "V14.0.4.0.TCUEUXM",
           "android": "13.0",
           "recovery": "miui_BILOBAEEAGlobal_V14.0.4.0.TCUEUXM_869b3b14f2_13.0.zip",
-          "fastboot": "biloba_eea_global_images_V14.0.4.0.TCUEUXM_20230626.0000.00_13.0_eea_0556b60849.tgz"
+          "fastboot": "biloba_eea_global_images_V14.0.4.0.TCUEUXM_20230626.0000.00_13.0_eea_0556b60849.tgz",
+          "release": "2023-07-03"
         },
         {
           "miui": "V14.0.3.0.TCUEUXM",
           "android": "13.0",
           "recovery": "miui_BILOBAEEAGlobal_V14.0.3.0.TCUEUXM_1871c59e8d_13.0.zip",
-          "fastboot": "biloba_eea_global_images_V14.0.3.0.TCUEUXM_20230403.0000.00_13.0_eea_9f543fcf62.tgz"
+          "fastboot": "biloba_eea_global_images_V14.0.3.0.TCUEUXM_20230403.0000.00_13.0_eea_9f543fcf62.tgz",
+          "release": "2023-04-11"
         },
         {
           "miui": "V13.0.7.0.SCUEUXM",
           "android": "12.0",
           "recovery": "miui_BILOBAEEAGlobal_V13.0.7.0.SCUEUXM_4984da8bba_12.0.zip",
-          "fastboot": "biloba_eea_global_images_V13.0.7.0.SCUEUXM_20230109.0000.00_12.0_eea_eab2b8f703.tgz"
+          "fastboot": "biloba_eea_global_images_V13.0.7.0.SCUEUXM_20230109.0000.00_12.0_eea_eab2b8f703.tgz",
+          "release": "2023-01-13"
         },
         {
           "miui": "V13.0.6.0.SCUEUXM",
           "android": "12.0",
           "recovery": "miui_BILOBAEEAGlobal_V13.0.6.0.SCUEUXM_43780699a3_12.0.zip",
-          "fastboot": "biloba_eea_global_images_V13.0.6.0.SCUEUXM_20220929.0000.00_12.0_eea_833b48a7c8.tgz"
+          "fastboot": "biloba_eea_global_images_V13.0.6.0.SCUEUXM_20220929.0000.00_12.0_eea_833b48a7c8.tgz",
+          "release": "2022-10-11"
         },
         {
           "miui": "V13.0.5.0.SCUEUXM",
           "android": "12.0",
           "recovery": "miui_BILOBAEEAGlobal_V13.0.5.0.SCUEUXM_8e514fde10_12.0.zip",
-          "fastboot": "biloba_eea_global_images_V13.0.5.0.SCUEUXM_20220808.0000.00_12.0_eea_761867b012.tgz"
+          "fastboot": "biloba_eea_global_images_V13.0.5.0.SCUEUXM_20220808.0000.00_12.0_eea_761867b012.tgz",
+          "release": "2022-08-12"
         },
         {
           "miui": "V13.0.4.0.SCUEUXM",
           "android": "12.0",
           "recovery": "miui_BILOBAEEAGlobal_V13.0.4.0.SCUEUXM_4c100e6b70_12.0.zip",
-          "fastboot": "biloba_eea_global_images_V13.0.4.0.SCUEUXM_20220527.0000.00_12.0_eea_dee86cc2de.tgz"
+          "fastboot": "biloba_eea_global_images_V13.0.4.0.SCUEUXM_20220527.0000.00_12.0_eea_dee86cc2de.tgz",
+          "release": "2022-06-03"
         },
         {
           "miui": "V13.0.3.0.SCUEUXM",
           "android": "12.0",
           "recovery": "miui_BILOBAEEAGlobal_V13.0.3.0.SCUEUXM_f36c349b19_12.0.zip",
-          "fastboot": "biloba_eea_global_images_V13.0.3.0.SCUEUXM_20220411.0000.00_12.0_eea_01d79234c3.tgz"
+          "fastboot": "biloba_eea_global_images_V13.0.3.0.SCUEUXM_20220411.0000.00_12.0_eea_01d79234c3.tgz",
+          "release": "2022-04-14"
         },
         {
           "miui": "V12.5.8.0.RCUEUXM",
           "android": "11.0",
           "recovery": "miui_BILOBAEEAGlobal_V12.5.8.0.RCUEUXM_13c867c8f8_11.0.zip",
-          "fastboot": "biloba_eea_global_images_V12.5.8.0.RCUEUXM_20220322.0000.00_11.0_eea_7bfa237075.tgz"
+          "fastboot": "biloba_eea_global_images_V12.5.8.0.RCUEUXM_20220322.0000.00_11.0_eea_7bfa237075.tgz",
+          "release": "2022-03-26"
         },
         {
           "miui": "V12.5.7.0.RCUEUXM",
           "android": "11.0",
           "recovery": "miui_BILOBAEEAGlobal_V12.5.7.0.RCUEUXM_ee2aae60a1_11.0.zip",
-          "fastboot": "biloba_eea_global_images_V12.5.7.0.RCUEUXM_20211210.0000.00_11.0_eea_ad5df2b256.tgz"
+          "fastboot": "biloba_eea_global_images_V12.5.7.0.RCUEUXM_20211210.0000.00_11.0_eea_ad5df2b256.tgz",
+          "release": "2021-12-15"
         },
         {
           "miui": "V12.5.5.0.RCUEUXM",
           "android": "11.0",
           "recovery": "miui_BILOBAEEAGlobal_V12.5.5.0.RCUEUXM_782874946f_11.0.zip",
-          "fastboot": "biloba_eea_global_images_V12.5.5.0.RCUEUXM_20210930.0000.00_11.0_eea_0a408cb783.tgz"
+          "fastboot": "biloba_eea_global_images_V12.5.5.0.RCUEUXM_20210930.0000.00_11.0_eea_0a408cb783.tgz",
+          "release": "2021-10-11"
         },
         {
           "miui": "V12.5.4.0.RCUEUXM",
           "android": "11.0",
           "recovery": "miui_BILOBAEEAGlobal_V12.5.4.0.RCUEUXM_6fa674b1cd_11.0.zip",
-          "fastboot": "biloba_eea_global_images_V12.5.4.0.RCUEUXM_20210817.0000.00_11.0_eea_0959de1d44.tgz"
+          "fastboot": "biloba_eea_global_images_V12.5.4.0.RCUEUXM_20210817.0000.00_11.0_eea_0959de1d44.tgz",
+          "release": "2021-08-24"
         },
         {
           "miui": "V12.5.3.0.RCUEUXM",
           "android": "11.0",
           "recovery": "miui_BILOBAEEAGlobal_V12.5.3.0.RCUEUXM_93997223dd_11.0.zip",
-          "fastboot": "biloba_eea_global_images_V12.5.3.0.RCUEUXM_20210702.0000.00_11.0_eea_961105b7f0.tgz"
+          "fastboot": "biloba_eea_global_images_V12.5.3.0.RCUEUXM_20210702.0000.00_11.0_eea_961105b7f0.tgz",
+          "release": "2021-07-09"
         },
         {
           "miui": "V12.5.2.0.RCUEUXM",
           "android": "11.0",
           "recovery": "miui_BILOBAEEAGlobal_V12.5.2.0.RCUEUXM_c183da341f_11.0.zip",
-          "fastboot": "biloba_eea_global_images_V12.5.2.0.RCUEUXM_20210616.0000.00_11.0_eea_f2b7718f56.tgz"
+          "fastboot": "biloba_eea_global_images_V12.5.2.0.RCUEUXM_20210616.0000.00_11.0_eea_f2b7718f56.tgz",
+          "release": "2021-06-29"
         },
         {
           "miui": "V12.5.1.0.RCUEUXM",
           "android": "11.0",
           "recovery": "miui_BILOBAEEAGlobal_V12.5.1.0.RCUEUXM_45766abaf0_11.0.zip",
-          "fastboot": "biloba_eea_global_images_V12.5.1.0.RCUEUXM_20210520.0000.00_11.0_eea_54581566bb.tgz"
+          "fastboot": "biloba_eea_global_images_V12.5.1.0.RCUEUXM_20210520.0000.00_11.0_eea_54581566bb.tgz",
+          "release": "2021-06-24"
         }
       ]
     },
@@ -248,102 +288,117 @@
       "region": "ru",
       "carrier": [],
       "branch": "RUSO",
-			"tag": "RUXM",
+      "tag": "RUXM",
       "zone": "2",
       "show": "1",
       "ep": "0",
-      "zh-cn": "俄罗斯稳定版",
+      "zh-cn": "俄罗斯正式版",
       "en-us": "Russia Stable",
       "links": [
         {
           "miui": "V14.0.6.0.TCURUXM",
           "android": "13.0",
           "recovery": "miui_BILOBARUGlobal_V14.0.6.0.TCURUXM_61978b63bd_13.0.zip",
-          "fastboot": "biloba_ru_global_images_V14.0.6.0.TCURUXM_20240228.0000.00_13.0_ru_7a80251b6d.tgz"
+          "fastboot": "biloba_ru_global_images_V14.0.6.0.TCURUXM_20240228.0000.00_13.0_ru_7a80251b6d.tgz",
+          "release": "2024-04-04"
         },
         {
           "miui": "V14.0.5.0.TCURUXM",
           "android": "13.0",
           "recovery": "miui_BILOBARUGlobal_V14.0.5.0.TCURUXM_dca50864f8_13.0.zip",
-          "fastboot": "biloba_ru_global_images_V14.0.5.0.TCURUXM_20230712.0000.00_13.0_ru_a53659a1b9.tgz"
+          "fastboot": "biloba_ru_global_images_V14.0.5.0.TCURUXM_20230712.0000.00_13.0_ru_a53659a1b9.tgz",
+          "release": "2023-07-19"
         },
         {
           "miui": "V14.0.4.0.TCURUXM",
           "android": "13.0",
           "recovery": "miui_BILOBARUGlobal_V14.0.4.0.TCURUXM_c135d243f4_13.0.zip",
-          "fastboot": "biloba_ru_global_images_V14.0.4.0.TCURUXM_20230413.0000.00_13.0_ru_c8e304be81.tgz"
+          "fastboot": "biloba_ru_global_images_V14.0.4.0.TCURUXM_20230413.0000.00_13.0_ru_c8e304be81.tgz",
+          "release": "2023-04-20"
         },
         {
           "miui": "V13.0.5.0.SCURUXM",
           "android": "12.0",
           "recovery": "miui_BILOBARUGlobal_V13.0.5.0.SCURUXM_764927060a_12.0.zip",
-          "fastboot": "biloba_ru_global_images_V13.0.5.0.SCURUXM_20230109.0000.00_12.0_global_7ce54ffabc.tgz"
+          "fastboot": "biloba_ru_global_images_V13.0.5.0.SCURUXM_20230109.0000.00_12.0_global_7ce54ffabc.tgz",
+          "release": "2023-01-14"
         },
         {
           "miui": "V13.0.4.0.SCURUXM",
           "android": "12.0",
           "recovery": "miui_BILOBARUGlobal_V13.0.4.0.SCURUXM_c5ebdbeb19_12.0.zip",
-          "fastboot": "biloba_ru_global_images_V13.0.4.0.SCURUXM_20220929.0000.00_12.0_global_c9de708a87.tgz"
+          "fastboot": "biloba_ru_global_images_V13.0.4.0.SCURUXM_20220929.0000.00_12.0_global_c9de708a87.tgz",
+          "release": "2022-10-11"
         },
         {
           "miui": "V13.0.3.0.SCURUXM",
           "android": "12.0",
           "recovery": "miui_BILOBARUGlobal_V13.0.3.0.SCURUXM_aa7cff24ca_12.0.zip",
-          "fastboot": "biloba_ru_global_images_V13.0.3.0.SCURUXM_20220808.0000.00_12.0_global_ab3841ff83.tgz"
+          "fastboot": "biloba_ru_global_images_V13.0.3.0.SCURUXM_20220808.0000.00_12.0_global_ab3841ff83.tgz",
+          "release": "2022-08-12"
         },
         {
           "miui": "V13.0.2.0.SCURUXM",
           "android": "12.0",
           "recovery": "miui_BILOBARUGlobal_V13.0.2.0.SCURUXM_530d147f96_12.0.zip",
-          "fastboot": "biloba_ru_global_images_V13.0.2.0.SCURUXM_20220606.0000.00_12.0_global_88d6527514.tgz"
+          "fastboot": "biloba_ru_global_images_V13.0.2.0.SCURUXM_20220606.0000.00_12.0_global_88d6527514.tgz",
+          "release": "2022-06-11"
         },
         {
           "miui": "V13.0.1.0.SCURUXM",
           "android": "12.0",
           "recovery": "miui_BILOBARUGlobal_V13.0.1.0.SCURUXM_904b263288_12.0.zip",
-          "fastboot": "biloba_ru_global_images_V13.0.1.0.SCURUXM_20220411.0000.00_12.0_global_dee4b140b8.tgz"
+          "fastboot": "biloba_ru_global_images_V13.0.1.0.SCURUXM_20220411.0000.00_12.0_global_dee4b140b8.tgz",
+          "release": "2022-04-18"
         },
         {
           "miui": "V12.5.7.0.RCURUXM",
           "android": "11.0",
           "recovery": "miui_BILOBARUGlobal_V12.5.7.0.RCURUXM_a30a70865a_11.0.zip",
-          "fastboot": "biloba_ru_global_images_V12.5.7.0.RCURUXM_20220324.0000.00_11.0_global_f5743cb90b.tgz"
+          "fastboot": "biloba_ru_global_images_V12.5.7.0.RCURUXM_20220324.0000.00_11.0_global_f5743cb90b.tgz",
+          "release": "2022-03-28"
         },
         {
           "miui": "V12.5.6.0.RCURUXM",
           "android": "11.0",
           "recovery": "miui_BILOBARUGlobal_V12.5.6.0.RCURUXM_00e7ff1ce0_11.0.zip",
-          "fastboot": "biloba_ru_global_images_V12.5.6.0.RCURUXM_20211224.0000.00_11.0_global_9e79455a77.tgz"
+          "fastboot": "biloba_ru_global_images_V12.5.6.0.RCURUXM_20211224.0000.00_11.0_global_9e79455a77.tgz",
+          "release": "2021-12-29"
         },
         {
           "miui": "V12.5.5.0.RCURUXM",
           "android": "11.0",
           "recovery": "miui_BILOBARUGlobal_V12.5.5.0.RCURUXM_372bcadbd8_11.0.zip",
-          "fastboot": "biloba_ru_global_images_V12.5.5.0.RCURUXM_20211115.0000.00_11.0_global_5470a8da60.tgz"
+          "fastboot": "biloba_ru_global_images_V12.5.5.0.RCURUXM_20211115.0000.00_11.0_global_5470a8da60.tgz",
+          "release": "2021-11-19"
         },
         {
           "miui": "V12.5.4.0.RCURUXM",
           "android": "11.0",
           "recovery": "miui_BILOBARUGlobal_V12.5.4.0.RCURUXM_ecd4df81db_11.0.zip",
-          "fastboot": "biloba_ru_global_images_V12.5.4.0.RCURUXM_20210807.0000.00_11.0_global_b333d3e83f.tgz"
+          "fastboot": "biloba_ru_global_images_V12.5.4.0.RCURUXM_20210807.0000.00_11.0_global_b333d3e83f.tgz",
+          "release": "2021-08-16"
         },
         {
           "miui": "V12.5.3.0.RCURUXM",
           "android": "11.0",
           "recovery": "miui_BILOBARUGlobal_V12.5.3.0.RCURUXM_38b561bd81_11.0.zip",
-          "fastboot": "biloba_ru_global_images_V12.5.3.0.RCURUXM_20210718.0000.00_11.0_global_38d5b19633.tgz"
+          "fastboot": "biloba_ru_global_images_V12.5.3.0.RCURUXM_20210718.0000.00_11.0_global_38d5b19633.tgz",
+          "release": "2021-07-22"
         },
         {
           "miui": "V12.5.2.0.RCURUXM",
           "android": "11.0",
           "recovery": "miui_BILOBARUGlobal_V12.5.2.0.RCURUXM_5e44c55a75_11.0.zip",
-          "fastboot": "biloba_ru_global_images_V12.5.2.0.RCURUXM_20210608.0000.00_11.0_global_91640d4506.tgz"
+          "fastboot": "biloba_ru_global_images_V12.5.2.0.RCURUXM_20210608.0000.00_11.0_global_91640d4506.tgz",
+          "release": "2021-06-17"
         },
         {
           "miui": "V12.5.1.0.RCURUXM",
           "android": "11.0",
           "recovery": "miui_BILOBARUGlobal_V12.5.1.0.RCURUXM_b5fcf3ada1_11.0.zip",
-          "fastboot": "biloba_ru_global_images_V12.5.1.0.RCURUXM_20210519.0000.00_11.0_global_7c53c269e5.tgz"
+          "fastboot": "biloba_ru_global_images_V12.5.1.0.RCURUXM_20210519.0000.00_11.0_global_7c53c269e5.tgz",
+          "release": "2021-05-25"
         }
       ]
     }

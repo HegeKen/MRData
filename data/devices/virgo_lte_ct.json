@@ -1,270 +1,319 @@
 {
-	"codename": "virgo_lte_ct",
-	"zh-cn": "小米 Note 全网通版",
-	"en-us": "Mi Note LTE CT",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "12066592",
-	"ismiui": "",
-	"ccshow": "1",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "XJ",
-	"android": ["4.4"],
-	"miui": ["V6.5", "V6.6", "V6.7", "V7.0", "V7.1"],
-	"branches": [
-		{
-			"code": "virgo_lte_ct",
-			"btag": "X",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "Dev",
-			"tag": "",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "开发版",
-			"en-us": "China Beta",
-			"links": [
-				{
-					"miui": "5.12.17",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.12.17_569cb85d33_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.12.11",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.12.11_7c809872d3_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.12.4",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.12.4_6320bfbb10_4.4.zip",
-					"fastboot": "virgo_lte_ct_images_5.12.4_20151126.0000.5_4.4_cn_33e8b05d8d.tgz"
-				},
-				{
-					"miui": "5.11.26",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.11.26_f1548ea921_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.11.19",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.11.19_21035de9d5_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.11.12",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.11.12_e817cd8163_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.11.5",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.11.5_31f3895614_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.11.1",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.11.1_fa3721039c_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.10.22",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.10.22_876cc8b6cb_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.10.15",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.10.15_ec4a3f7408_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.10.8",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.10.8_56de2c2c88_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.9.24",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.9.24_1727e68ba2_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.9.17",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.9.17_26e1e044f6_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.9.10",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.9.10_da033db082_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.9.1",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.9.1_f8d0f63430_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.8.27",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.8.27_fc2d34a7de_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.8.20",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.8.20_ec24b431ef_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.8.13",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.8.13_1dd2e9bcd6_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.8.6",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.8.6_dd958b3709_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.7.31",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.7.31_39c375084e_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.7.26",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.7.26_dd05d90341_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.7.16",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.7.16_c445f27c13_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "5.7.9",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_5.7.9_9226ce7daf_4.4.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "virgo_lte_ct",
-			"btag": "F",
-			"region": "cn",
-			"carrier": [],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国大陆稳定版",
-			"en-us": "China Mainland Stable",
-			"links": [
-				{
-					"miui": "V7.1.4.0.KXJCNCK",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V7.1.4.0.KXJCNCK_a7e1090bf3_4.4.zip",
-					"fastboot": "virgo_lte_ct_images_V7.1.4.0.KXJCNCK_20160125.0000.13_4.4_cn_983fea8031.tgz"
-				},
-				{
-					"miui": "V7.1.3.0.KXJCNCK",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V7.1.3.0.KXJCNCK_eb8810ee9b_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V7.0.6.0.KXJCNCI",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V7.0.6.0.KXJCNCI_ca22efdde8_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.7.6.0.KXJCNCH",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.7.6.0.KXJCNCH_4d044f006e_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.7.1.0.KXJCNCH",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.7.1.0.KXJCNCH_dd58ec169f_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.6.9.0.KXJCNCF",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.6.9.0.KXJCNCF_2b15676efe_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.6.8.0.KXJCNCF",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.6.8.0.KXJCNCF_a05635769e_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.6.6.0.KXJCNCF",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.6.6.0.KXJCNCF_eeee4aaf3f_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.6.5.0.KXJCNCF",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.6.5.0.KXJCNCF_d215fc93a4_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.6.4.0.KXJCNCF",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.6.4.0.KXJCNCF_886233bf57_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.6.3.0.KXJCNCF",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.6.3.0.KXJCNCF_a6f3c95fc6_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.6.2.0.KXJCNCF",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.6.2.0.KXJCNCF_0984c38cc0_4.4.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V6.5.3.0.KXJCNCD",
-					"android": "4.4",
-					"recovery": "miui_MINoteCT_V6.5.3.0.KXJCNCD_383494dba3_4.4.zip",
-					"fastboot": ""
-				}
-			]
-		}
-	]
+  "codename": "virgo_lte_ct",
+  "zh-cn": "小米 Note 全网通版",
+  "en-us": "Mi Note LTE CT",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "12066592",
+  "ismiui": "",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "XJ",
+  "android": [
+    "4.4"
+  ],
+  "miui": [
+    "V6.5",
+    "V6.6",
+    "V6.7",
+    "V7.0",
+    "V7.1"
+  ],
+  "branches": [
+    {
+      "code": "virgo_lte_ct",
+      "btag": "X",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "branch": "Dev",
+      "tag": "",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "开发版",
+      "en-us": "China Beta",
+      "links": [
+        {
+          "miui": "5.12.17",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.12.17_569cb85d33_4.4.zip",
+          "fastboot": "",
+          "release": "2015-12-24"
+        },
+        {
+          "miui": "5.12.11",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.12.11_7c809872d3_4.4.zip",
+          "fastboot": "",
+          "release": "2016-01-08"
+        },
+        {
+          "miui": "5.12.4",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.12.4_6320bfbb10_4.4.zip",
+          "fastboot": "virgo_lte_ct_images_5.12.4_20151126.0000.5_4.4_cn_33e8b05d8d.tgz",
+          "release": "2015-12-04"
+        },
+        {
+          "miui": "5.11.26",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.11.26_f1548ea921_4.4.zip",
+          "fastboot": "",
+          "release": "2015-11-26"
+        },
+        {
+          "miui": "5.11.19",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.11.19_21035de9d5_4.4.zip",
+          "fastboot": "",
+          "release": "2015-11-19"
+        },
+        {
+          "miui": "5.11.12",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.11.12_e817cd8163_4.4.zip",
+          "fastboot": "",
+          "release": "2015-11-14"
+        },
+        {
+          "miui": "5.11.5",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.11.5_31f3895614_4.4.zip",
+          "fastboot": "",
+          "release": "2015-11-09"
+        },
+        {
+          "miui": "5.11.1",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.11.1_fa3721039c_4.4.zip",
+          "fastboot": "",
+          "release": "2015-11-02"
+        },
+        {
+          "miui": "5.10.22",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.10.22_876cc8b6cb_4.4.zip",
+          "fastboot": "",
+          "release": "2015-10-26"
+        },
+        {
+          "miui": "5.10.15",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.10.15_ec4a3f7408_4.4.zip",
+          "fastboot": "",
+          "release": "2015-10-15"
+        },
+        {
+          "miui": "5.10.8",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.10.8_56de2c2c88_4.4.zip",
+          "fastboot": "",
+          "release": "2015-10-08"
+        },
+        {
+          "miui": "5.9.24",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.9.24_1727e68ba2_4.4.zip",
+          "fastboot": "",
+          "release": "2015-09-24"
+        },
+        {
+          "miui": "5.9.17",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.9.17_26e1e044f6_4.4.zip",
+          "fastboot": "",
+          "release": "2015-09-17"
+        },
+        {
+          "miui": "5.9.10",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.9.10_da033db082_4.4.zip",
+          "fastboot": "",
+          "release": "2015-09-10"
+        },
+        {
+          "miui": "5.9.1",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.9.1_f8d0f63430_4.4.zip",
+          "fastboot": "",
+          "release": "2015-09-01"
+        },
+        {
+          "miui": "5.8.27",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.8.27_fc2d34a7de_4.4.zip",
+          "fastboot": "",
+          "release": "2015-08-27"
+        },
+        {
+          "miui": "5.8.20",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.8.20_ec24b431ef_4.4.zip",
+          "fastboot": "",
+          "release": "2015-08-20"
+        },
+        {
+          "miui": "5.8.13",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.8.13_1dd2e9bcd6_4.4.zip",
+          "fastboot": "",
+          "release": "2015-08-13"
+        },
+        {
+          "miui": "5.8.6",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.8.6_dd958b3709_4.4.zip",
+          "fastboot": "",
+          "release": "2015-08-06"
+        },
+        {
+          "miui": "5.7.31",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.7.31_39c375084e_4.4.zip",
+          "fastboot": "",
+          "release": "2015-07-31"
+        },
+        {
+          "miui": "5.7.26",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.7.26_dd05d90341_4.4.zip",
+          "fastboot": "",
+          "release": "2015-07-26"
+        },
+        {
+          "miui": "5.7.16",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.7.16_c445f27c13_4.4.zip",
+          "fastboot": "",
+          "release": "2015-07-16"
+        },
+        {
+          "miui": "5.7.9",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_5.7.9_9226ce7daf_4.4.zip",
+          "fastboot": "",
+          "release": "2015-07-09"
+        }
+      ]
+    },
+    {
+      "code": "virgo_lte_ct",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国大陆正式版",
+      "en-us": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V7.1.4.0.KXJCNCK",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V7.1.4.0.KXJCNCK_a7e1090bf3_4.4.zip",
+          "fastboot": "virgo_lte_ct_images_V7.1.4.0.KXJCNCK_20160125.0000.13_4.4_cn_983fea8031.tgz",
+          "release": "2016-02-19"
+        },
+        {
+          "miui": "V7.1.3.0.KXJCNCK",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V7.1.3.0.KXJCNCK_eb8810ee9b_4.4.zip",
+          "fastboot": "",
+          "release": "2015-12-18"
+        },
+        {
+          "miui": "V7.0.6.0.KXJCNCI",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V7.0.6.0.KXJCNCI_ca22efdde8_4.4.zip",
+          "fastboot": "",
+          "release": "2015-10-29"
+        },
+        {
+          "miui": "V6.7.6.0.KXJCNCH",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.7.6.0.KXJCNCH_4d044f006e_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        },
+        {
+          "miui": "V6.7.1.0.KXJCNCH",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.7.1.0.KXJCNCH_dd58ec169f_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-24"
+        },
+        {
+          "miui": "V6.6.9.0.KXJCNCF",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.6.9.0.KXJCNCF_2b15676efe_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        },
+        {
+          "miui": "V6.6.8.0.KXJCNCF",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.6.8.0.KXJCNCF_a05635769e_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        },
+        {
+          "miui": "V6.6.6.0.KXJCNCF",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.6.6.0.KXJCNCF_eeee4aaf3f_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-24"
+        },
+        {
+          "miui": "V6.6.5.0.KXJCNCF",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.6.5.0.KXJCNCF_d215fc93a4_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        },
+        {
+          "miui": "V6.6.4.0.KXJCNCF",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.6.4.0.KXJCNCF_886233bf57_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        },
+        {
+          "miui": "V6.6.3.0.KXJCNCF",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.6.3.0.KXJCNCF_a6f3c95fc6_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        },
+        {
+          "miui": "V6.6.2.0.KXJCNCF",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.6.2.0.KXJCNCF_0984c38cc0_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        },
+        {
+          "miui": "V6.5.3.0.KXJCNCD",
+          "android": "4.4",
+          "recovery": "miui_MINoteCT_V6.5.3.0.KXJCNCD_383494dba3_4.4.zip",
+          "fastboot": "",
+          "release": "2016-08-23"
+        }
+      ]
+    }
+  ]
 }

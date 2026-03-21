@@ -17,29 +17,34 @@
   "gdid": "",
   "pcid": "",
   "code": "",
-	"android": [""],
-	"miui": [""],
-	"branches": [
+  "android": [
+    ""
+  ],
+  "miui": [
+    ""
+  ],
+  "branches": [
     {
-			"code": "pond_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际正式版",
-			"en-us": "Global Stable",
-			"links": [
+      "code": "pond_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
         {
           "miui": "",
           "android": "14.0",
           "recovery": "",
-          "fastboot": ""
+          "fastboot": "",
+          "release": ""
         }
       ]
-		}
+    }
   ]
 }

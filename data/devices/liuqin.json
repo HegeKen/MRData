@@ -1,117 +1,139 @@
 {
-	"codename": "liuqin",
-	"zh-cn": "小米平板 6 Pro",
-	"en-us": "Xiaomi Pad 6 Pro",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "0",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "MY",
-	"android": ["13.0"],
-	"miui": ["V14.0"],
-	"branches": [
-		{
-			"code": "liuqin",
-			"btag": "F",
-			"region": "cn",
-			"carrier": [],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国大陆正式版",
-			"en-us": "China Mainland Stable",
-			"links": [
-				{
-					"miui": "V14.0.9.0.TMYCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIUQIN_V14.0.9.0.TMYCNXM_2590719354_13.0.zip",
-					"fastboot": "liuqin_images_V14.0.9.0.TMYCNXM_20230907.0000.00_13.0_cn_58bf72f5e6.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TMYCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIUQIN_V14.0.6.0.TMYCNXM_1115cab432_13.0.zip",
-					"fastboot": "liuqin_images_V14.0.6.0.TMYCNXM_20230629.0000.00_13.0_cn_6134235f24.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TMYCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIUQIN_V14.0.5.0.TMYCNXM_e266871c8a_13.0.zip",
-					"fastboot": "liuqin_images_V14.0.5.0.TMYCNXM_20230517.0000.00_13.0_cn_50b6972b0b.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TMYCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIUQIN_V14.0.3.0.TMYCNXM_ce66b58a6e_13.0.zip",
-					"fastboot": "liuqin_images_V14.0.3.0.TMYCNXM_20230422.0000.00_13.0_cn_e9dc524036.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TMYCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIUQIN_V14.0.2.0.TMYCNXM_accb5c154e_13.0.zip",
-					"fastboot": "liuqin_images_V14.0.2.0.TMYCNXM_20230411.0000.00_13.0_cn_a3e7f3b440.tgz"
-				}
-			]
-		},
-		{
-			"code": "liuqin_demo",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "CnOD",
-			"tag": "CNDM",
-			"zone": "1",
-			"show": "0",
-			"ep": "0",
-			"zh-cn": "中国大陆Demo",
-			"en-us": "China Mainland Demo Stable",
-			"links": [
-				{
-					"miui": "V14.0.2.0.TMYCNDM",
-					"android": "13.0",
-					"recovery": "miui_LIUQINDEMO_V14.0.2.0.TMYCNDM_82a4c4e08a_13.0.zip",
-					"fastboot": "liuqin_demo_images_V14.0.2.0.TMYCNDM_20230426.0000.00_13.0_cn_a01b91bee3.tgz"
-				}
-			]
-		},
-		{
-			"code": "liuqin_ep_stdee",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "EPSTD",
-			"tag": "",
-			"zone": "1",
-			"show": "1",
-			"ep": "1",
-			"zh-cn": "中国大陆政企标准版",
-			"en-us": "China Mainland Enterprise Standard",
-			"links": [
-				{
-					"miui": "V14.0.23.10.25.EP.STDEE.M81",
-					"android": "13.0",
-					"recovery": "miui_LIUQINEPSTDEE_V14.0.23.10.25.EP.STDEE.M81_993d264b88_13.0.zip",
-					"fastboot": "liuqin_ep_stdee_images_V14.0.23.10.25.EP.STDEE.M81_20231025.0000.00_13.0_cn_ee45fc5a78.tgz"
-				},
-				{
-					"miui": "V14.0.23.6.26.EP.STDEE.M81",
-					"android": "13.0",
-					"recovery": "miui_LIUQINEPSTDEE_V14.0.23.6.26.EP.STDEE.M81_32dbcde994_13.0.zip",
-					"fastboot": "liuqin_ep_stdee_images_V14.0.23.6.26.EP.STDEE.M81_20230626.0000.00_13.0_cn_c005bf6f27.tgz"
-				}
-			]
-		}
-	]
+  "codename": "liuqin",
+  "zh-cn": "小米平板 6 Pro",
+  "en-us": "Xiaomi Pad 6 Pro",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "0",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "MY",
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "liuqin",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国大陆正式版",
+      "en-us": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V14.0.9.0.TMYCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIUQIN_V14.0.9.0.TMYCNXM_2590719354_13.0.zip",
+          "fastboot": "liuqin_images_V14.0.9.0.TMYCNXM_20230907.0000.00_13.0_cn_58bf72f5e6.tgz",
+          "release": "2023-09-14"
+        },
+        {
+          "miui": "V14.0.6.0.TMYCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIUQIN_V14.0.6.0.TMYCNXM_1115cab432_13.0.zip",
+          "fastboot": "liuqin_images_V14.0.6.0.TMYCNXM_20230629.0000.00_13.0_cn_6134235f24.tgz",
+          "release": "2023-07-04"
+        },
+        {
+          "miui": "V14.0.5.0.TMYCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIUQIN_V14.0.5.0.TMYCNXM_e266871c8a_13.0.zip",
+          "fastboot": "liuqin_images_V14.0.5.0.TMYCNXM_20230517.0000.00_13.0_cn_50b6972b0b.tgz",
+          "release": "2023-05-24"
+        },
+        {
+          "miui": "V14.0.3.0.TMYCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIUQIN_V14.0.3.0.TMYCNXM_ce66b58a6e_13.0.zip",
+          "fastboot": "liuqin_images_V14.0.3.0.TMYCNXM_20230422.0000.00_13.0_cn_e9dc524036.tgz",
+          "release": "2023-04-25"
+        },
+        {
+          "miui": "V14.0.2.0.TMYCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIUQIN_V14.0.2.0.TMYCNXM_accb5c154e_13.0.zip",
+          "fastboot": "liuqin_images_V14.0.2.0.TMYCNXM_20230411.0000.00_13.0_cn_a3e7f3b440.tgz",
+          "release": "2023-04-19"
+        }
+      ]
+    },
+    {
+      "code": "liuqin_demo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "branch": "CnOD",
+      "tag": "CNDM",
+      "zone": "1",
+      "show": "0",
+      "ep": "0",
+      "zh-cn": "中国大陆Demo",
+      "en-us": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V14.0.2.0.TMYCNDM",
+          "android": "13.0",
+          "recovery": "miui_LIUQINDEMO_V14.0.2.0.TMYCNDM_82a4c4e08a_13.0.zip",
+          "fastboot": "liuqin_demo_images_V14.0.2.0.TMYCNDM_20230426.0000.00_13.0_cn_a01b91bee3.tgz",
+          "release": "2023-04-28"
+        }
+      ]
+    },
+    {
+      "code": "liuqin_ep_stdee",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "branch": "EPSTD",
+      "tag": "",
+      "zone": "1",
+      "show": "1",
+      "ep": "1",
+      "zh-cn": "中国大陆政企标准版",
+      "en-us": "China Mainland Enterprise Standard",
+      "links": [
+        {
+          "miui": "V14.0.23.10.25.EP.STDEE.M81",
+          "android": "13.0",
+          "recovery": "miui_LIUQINEPSTDEE_V14.0.23.10.25.EP.STDEE.M81_993d264b88_13.0.zip",
+          "fastboot": "liuqin_ep_stdee_images_V14.0.23.10.25.EP.STDEE.M81_20231025.0000.00_13.0_cn_ee45fc5a78.tgz",
+          "release": "2024-03-22"
+        },
+        {
+          "miui": "V14.0.23.6.26.EP.STDEE.M81",
+          "android": "13.0",
+          "recovery": "miui_LIUQINEPSTDEE_V14.0.23.6.26.EP.STDEE.M81_32dbcde994_13.0.zip",
+          "fastboot": "liuqin_ep_stdee_images_V14.0.23.6.26.EP.STDEE.M81_20230626.0000.00_13.0_cn_c005bf6f27.tgz",
+          "release": "2023-09-08"
+        }
+      ]
+    }
+  ]
 }

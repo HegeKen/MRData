@@ -1,504 +1,575 @@
 {
-	"codename": "rosemary_p",
-	"zh-cn": "POCO M5S",
-	"en-us": "POCO M5S",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "1",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "76388",
-	"code": "FF",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
-	"branches": [
-		{
-			"code": "rosemary_p_tw_global",
-			"btag": "F",
-			"region": "tw",
-			"carrier": [],
-			"branch": "CNTP",
-			"tag": "TWXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国台湾省稳定版",
-			"en-us": "China Taiwan Province Stable",
-			"links": [
-				{
-					"miui": "V14.0.9.0.TFFTWXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V14.0.9.0.TFFTWXM_32f05fdce4_13.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V14.0.9.0.TFFTWXM_20250114.0000.00_13.0_tw_f46be01aec.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TFFTWXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V14.0.8.0.TFFTWXM_a42da21cfb_13.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V14.0.8.0.TFFTWXM_20240925.0000.00_13.0_tw_a874a091fa.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TFFTWXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V14.0.5.0.TFFTWXM_a106265b30_13.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V14.0.5.0.TFFTWXM_20240718.0000.00_13.0_tw_fd598c420e.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TFFTWXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V14.0.3.0.TFFTWXM_f1f6e59b21_13.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V14.0.3.0.TFFTWXM_20240111.0000.00_13.0_tw_1f18707554.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TFFTWXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V14.0.2.0.TFFTWXM_30443d2163_13.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V14.0.2.0.TFFTWXM_20231207.0000.00_13.0_tw_4e68674d5f.tgz"
-				},
-				{
-					"miui": "V14.0.1.0.TFFTWXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V14.0.1.0.TFFTWXM_1821dc02aa_13.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V14.0.1.0.TFFTWXM_20230608.0000.00_13.0_tw_fd15108b49.tgz"
-				},
-				{
-					"miui": "V13.0.6.0.SFFTWXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V13.0.6.0.SFFTWXM_fc434b7f90_12.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V13.0.6.0.SFFTWXM_20230322.0000.00_12.0_global_afd60f1c5f.tgz"
-				},
-				{
-					"miui": "V13.0.5.0.SFFTWXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V13.0.5.0.SFFTWXM_bb56348edb_12.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V13.0.5.0.SFFTWXM_20230114.0000.00_12.0_global_26c508a6d1.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SFFTWXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPTWGlobal_V13.0.3.0.SFFTWXM_da39d20963_12.0.zip",
-					"fastboot": "rosemary_p_tw_global_images_V13.0.3.0.SFFTWXM_20221010.0000.00_12.0_global_73d1cba4b9.tgz"
-				}
-			]
-		},
-		{
-			"code": "rosemary_p_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际稳定版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V14.0.17.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.17.0.TFFMIXM_b6ba1e953f_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.17.0.TFFMIXM_20241217.0000.00_13.0_global_e6f691d94a.tgz"
-				},
-				{
-					"miui": "V14.0.16.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.16.0.TFFMIXM_6f7b31e4ac_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.16.0.TFFMIXM_20240912.0000.00_13.0_global_0a30ca6cc1.tgz"
-				},
-				{
-					"miui": "V14.0.15.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.15.0.TFFMIXM_d0a9661a26_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.15.0.TFFMIXM_20240717.0000.00_13.0_global_2c31af12eb.tgz"
-				},
-				{
-					"miui": "V14.0.14.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.14.0.TFFMIXM_0638b45691_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.14.0.TFFMIXM_20240626.0000.00_13.0_global_b0db0352c9.tgz"
-				},
-				{
-					"miui": "V14.0.12.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.12.0.TFFMIXM_0f83bf50ef_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.11.0.TFFMIXM_4189aceaa5_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.11.0.TFFMIXM_20240304.0000.00_13.0_global_79c59e73a0.tgz"
-				},
-				{
-					"miui": "V14.0.10.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.10.0.TFFMIXM_0dc41915a4_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.10.0.TFFMIXM_20231219.0000.00_13.0_global_765c409b12.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.8.0.TFFMIXM_9715b0d208_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.8.0.TFFMIXM_20231211.0000.00_13.0_global_2cb1aafbd2.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.5.0.TFFMIXM_0971be36bd_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.5.0.TFFMIXM_20231107.0000.00_13.0_global_dbda1e82e6.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.4.0.TFFMIXM_b83a2b5b75_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.4.0.TFFMIXM_20230808.0000.00_13.0_global_47c5a6fa51.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TFFMIXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPGlobal_V14.0.2.0.TFFMIXM_a2a7b26cea_13.0.zip",
-					"fastboot": "rosemary_p_global_images_V14.0.2.0.TFFMIXM_20230513.0000.00_13.0_global_abfe13a931.tgz"
-				},
-				{
-					"miui": "V13.0.11.0.SFFMIXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPGlobal_V13.0.11.0.SFFMIXM_4225f86d28_12.0.zip",
-					"fastboot": "rosemary_p_global_images_V13.0.11.0.SFFMIXM_20230920.0000.00_12.0_global_f91b1e9448.tgz"
-				},
-				{
-					"miui": "V13.0.10.0.SFFMIXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPGlobal_V13.0.10.0.SFFMIXM_f4afb5ddc2_12.0.zip",
-					"fastboot": "rosemary_p_global_images_V13.0.10.0.SFFMIXM_20230404.0000.00_12.0_global_ecc84c9058.tgz"
-				},
-				{
-					"miui": "V13.0.9.0.SFFMIXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPGlobal_V13.0.9.0.SFFMIXM_aac94edea0_12.0.zip",
-					"fastboot": "rosemary_p_global_images_V13.0.9.0.SFFMIXM_20230318.0000.00_12.0_global_fdfaf41491.tgz"
-				},
-				{
-					"miui": "V13.0.8.0.SFFMIXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPGlobal_V13.0.8.0.SFFMIXM_9672a47707_12.0.zip",
-					"fastboot": "rosemary_p_global_images_V13.0.8.0.SFFMIXM_20230314.0000.00_12.0_global_11ed8e8236.tgz"
-				},
-				{
-					"miui": "V13.0.7.0.SFFMIXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPGlobal_V13.0.7.0.SFFMIXM_edc6ff4a5a_12.0.zip",
-					"fastboot": "rosemary_p_global_images_V13.0.7.0.SFFMIXM_20230117.0000.00_12.0_global_2207acc01e.tgz"
-				},
-				{
-					"miui": "V13.0.5.0.SFFMIXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPGlobal_V13.0.5.0.SFFMIXM_86427645e5_12.0.zip",
-					"fastboot": "rosemary_p_global_images_V13.0.5.0.SFFMIXM_20221227.0000.00_12.0_global_e4a4e5f04d.tgz"
-				},
-				{
-					"miui": "V13.0.4.0.SFFMIXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPGlobal_V13.0.4.0.SFFMIXM_8408e21761_12.0.zip",
-					"fastboot": "rosemary_p_global_images_V13.0.4.0.SFFMIXM_20220915.0000.00_12.0_global_c714eaf786.tgz"
-				}
-			]
-		},
-		{
-			"code": "rosemary_p_eea_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [],
-			"branch": "EEAO",
-			"tag": "EUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲EEA稳定版",
-			"en-us": "Europe EEA Stable",
-			"links": [
-				{
-					"miui": "V14.0.15.0.TFFEUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V14.0.15.0.TFFEUXM_173e94e181_13.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V14.0.15.0.TFFEUXM_20241125.0000.00_13.0_eea_a0d60bee80.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TFFEUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V14.0.8.0.TFFEUXM_85b4498485_13.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V14.0.8.0.TFFEUXM_20240816.0000.00_13.0_eea_84c33377bd.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TFFEUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V14.0.7.0.TFFEUXM_96ba4e2557_13.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V14.0.7.0.TFFEUXM_20240618.0000.00_13.0_eea_ecec201daa.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TFFEUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V14.0.4.0.TFFEUXM_9135d98bb6_13.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V14.0.4.0.TFFEUXM_20240418.0000.00_13.0_eea_c38883d99c.tgz"
-				},
+  "codename": "rosemary_p",
+  "zh-cn": "POCO M5S",
+  "en-us": "POCO M5S",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "76388",
+  "code": "FF",
+  "android": [
+    "12.0",
+    "13.0"
+  ],
+  "miui": [
+    "V13.0",
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "rosemary_p_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
+      "branch": "CNTP",
+      "tag": "TWXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国台湾省正式版",
+      "en-us": "China Taiwan Province Stable",
+      "links": [
+        {
+          "miui": "V14.0.9.0.TFFTWXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V14.0.9.0.TFFTWXM_32f05fdce4_13.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V14.0.9.0.TFFTWXM_20250114.0000.00_13.0_tw_f46be01aec.tgz",
+          "release": "2025-01-22"
+        },
+        {
+          "miui": "V14.0.8.0.TFFTWXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V14.0.8.0.TFFTWXM_a42da21cfb_13.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V14.0.8.0.TFFTWXM_20240925.0000.00_13.0_tw_a874a091fa.tgz",
+          "release": "2024-10-11"
+        },
+        {
+          "miui": "V14.0.5.0.TFFTWXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V14.0.5.0.TFFTWXM_a106265b30_13.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V14.0.5.0.TFFTWXM_20240718.0000.00_13.0_tw_fd598c420e.tgz",
+          "release": "2024-07-30"
+        },
+        {
+          "miui": "V14.0.3.0.TFFTWXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V14.0.3.0.TFFTWXM_f1f6e59b21_13.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V14.0.3.0.TFFTWXM_20240111.0000.00_13.0_tw_1f18707554.tgz",
+          "release": "2024-02-29"
+        },
+        {
+          "miui": "V14.0.2.0.TFFTWXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V14.0.2.0.TFFTWXM_30443d2163_13.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V14.0.2.0.TFFTWXM_20231207.0000.00_13.0_tw_4e68674d5f.tgz",
+          "release": "2023-12-21"
+        },
+        {
+          "miui": "V14.0.1.0.TFFTWXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V14.0.1.0.TFFTWXM_1821dc02aa_13.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V14.0.1.0.TFFTWXM_20230608.0000.00_13.0_tw_fd15108b49.tgz",
+          "release": "2023-06-22"
+        },
+        {
+          "miui": "V13.0.6.0.SFFTWXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V13.0.6.0.SFFTWXM_fc434b7f90_12.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V13.0.6.0.SFFTWXM_20230322.0000.00_12.0_global_afd60f1c5f.tgz",
+          "release": "2023-04-11"
+        },
+        {
+          "miui": "V13.0.5.0.SFFTWXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V13.0.5.0.SFFTWXM_bb56348edb_12.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V13.0.5.0.SFFTWXM_20230114.0000.00_12.0_global_26c508a6d1.tgz",
+          "release": "2023-01-19"
+        },
+        {
+          "miui": "V13.0.3.0.SFFTWXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPTWGlobal_V13.0.3.0.SFFTWXM_da39d20963_12.0.zip",
+          "fastboot": "rosemary_p_tw_global_images_V13.0.3.0.SFFTWXM_20221010.0000.00_12.0_global_73d1cba4b9.tgz",
+          "release": "2022-10-25"
+        }
+      ]
+    },
+    {
+      "code": "rosemary_p_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.17.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.17.0.TFFMIXM_b6ba1e953f_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.17.0.TFFMIXM_20241217.0000.00_13.0_global_e6f691d94a.tgz",
+          "release": "2025-01-03"
+        },
+        {
+          "miui": "V14.0.16.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.16.0.TFFMIXM_6f7b31e4ac_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.16.0.TFFMIXM_20240912.0000.00_13.0_global_0a30ca6cc1.tgz",
+          "release": "2024-09-26"
+        },
+        {
+          "miui": "V14.0.15.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.15.0.TFFMIXM_d0a9661a26_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.15.0.TFFMIXM_20240717.0000.00_13.0_global_2c31af12eb.tgz",
+          "release": "2024-08-05"
+        },
+        {
+          "miui": "V14.0.14.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.14.0.TFFMIXM_0638b45691_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.14.0.TFFMIXM_20240626.0000.00_13.0_global_b0db0352c9.tgz",
+          "release": "2024-07-01"
+        },
+        {
+          "miui": "V14.0.12.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.12.0.TFFMIXM_0f83bf50ef_13.0.zip",
+          "fastboot": "",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V14.0.11.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.11.0.TFFMIXM_4189aceaa5_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.11.0.TFFMIXM_20240304.0000.00_13.0_global_79c59e73a0.tgz",
+          "release": "2024-03-18"
+        },
+        {
+          "miui": "V14.0.10.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.10.0.TFFMIXM_0dc41915a4_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.10.0.TFFMIXM_20231219.0000.00_13.0_global_765c409b12.tgz",
+          "release": "2023-12-27"
+        },
+        {
+          "miui": "V14.0.8.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.8.0.TFFMIXM_9715b0d208_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.8.0.TFFMIXM_20231211.0000.00_13.0_global_2cb1aafbd2.tgz",
+          "release": "2023-12-20"
+        },
+        {
+          "miui": "V14.0.5.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.5.0.TFFMIXM_0971be36bd_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.5.0.TFFMIXM_20231107.0000.00_13.0_global_dbda1e82e6.tgz",
+          "release": "2023-11-14"
+        },
+        {
+          "miui": "V14.0.4.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.4.0.TFFMIXM_b83a2b5b75_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.4.0.TFFMIXM_20230808.0000.00_13.0_global_47c5a6fa51.tgz",
+          "release": "2023-08-17"
+        },
+        {
+          "miui": "V14.0.2.0.TFFMIXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPGlobal_V14.0.2.0.TFFMIXM_a2a7b26cea_13.0.zip",
+          "fastboot": "rosemary_p_global_images_V14.0.2.0.TFFMIXM_20230513.0000.00_13.0_global_abfe13a931.tgz",
+          "release": "2023-05-26"
+        },
+        {
+          "miui": "V13.0.11.0.SFFMIXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPGlobal_V13.0.11.0.SFFMIXM_4225f86d28_12.0.zip",
+          "fastboot": "rosemary_p_global_images_V13.0.11.0.SFFMIXM_20230920.0000.00_12.0_global_f91b1e9448.tgz",
+          "release": "2023-10-24"
+        },
+        {
+          "miui": "V13.0.10.0.SFFMIXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPGlobal_V13.0.10.0.SFFMIXM_f4afb5ddc2_12.0.zip",
+          "fastboot": "rosemary_p_global_images_V13.0.10.0.SFFMIXM_20230404.0000.00_12.0_global_ecc84c9058.tgz",
+          "release": "2023-04-14"
+        },
+        {
+          "miui": "V13.0.9.0.SFFMIXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPGlobal_V13.0.9.0.SFFMIXM_aac94edea0_12.0.zip",
+          "fastboot": "rosemary_p_global_images_V13.0.9.0.SFFMIXM_20230318.0000.00_12.0_global_fdfaf41491.tgz",
+          "release": "2023-03-30"
+        },
+        {
+          "miui": "V13.0.8.0.SFFMIXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPGlobal_V13.0.8.0.SFFMIXM_9672a47707_12.0.zip",
+          "fastboot": "rosemary_p_global_images_V13.0.8.0.SFFMIXM_20230314.0000.00_12.0_global_11ed8e8236.tgz",
+          "release": "2023-03-17"
+        },
+        {
+          "miui": "V13.0.7.0.SFFMIXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPGlobal_V13.0.7.0.SFFMIXM_edc6ff4a5a_12.0.zip",
+          "fastboot": "rosemary_p_global_images_V13.0.7.0.SFFMIXM_20230117.0000.00_12.0_global_2207acc01e.tgz",
+          "release": "2023-02-05"
+        },
+        {
+          "miui": "V13.0.5.0.SFFMIXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPGlobal_V13.0.5.0.SFFMIXM_86427645e5_12.0.zip",
+          "fastboot": "rosemary_p_global_images_V13.0.5.0.SFFMIXM_20221227.0000.00_12.0_global_e4a4e5f04d.tgz",
+          "release": "2023-01-18"
+        },
+        {
+          "miui": "V13.0.4.0.SFFMIXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPGlobal_V13.0.4.0.SFFMIXM_8408e21761_12.0.zip",
+          "fastboot": "rosemary_p_global_images_V13.0.4.0.SFFMIXM_20220915.0000.00_12.0_global_c714eaf786.tgz",
+          "release": "2022-10-08"
+        }
+      ]
+    },
+    {
+      "code": "rosemary_p_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
+      "branch": "EEAO",
+      "tag": "EUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲EEA正式版",
+      "en-us": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.15.0.TFFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V14.0.15.0.TFFEUXM_173e94e181_13.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V14.0.15.0.TFFEUXM_20241125.0000.00_13.0_eea_a0d60bee80.tgz",
+          "release": "2024-12-13"
+        },
+        {
+          "miui": "V14.0.8.0.TFFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V14.0.8.0.TFFEUXM_85b4498485_13.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V14.0.8.0.TFFEUXM_20240816.0000.00_13.0_eea_84c33377bd.tgz",
+          "release": "2024-08-23"
+        },
+        {
+          "miui": "V14.0.7.0.TFFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V14.0.7.0.TFFEUXM_96ba4e2557_13.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V14.0.7.0.TFFEUXM_20240618.0000.00_13.0_eea_ecec201daa.tgz",
+          "release": "2024-07-09"
+        },
+        {
+          "miui": "V14.0.4.0.TFFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V14.0.4.0.TFFEUXM_9135d98bb6_13.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V14.0.4.0.TFFEUXM_20240418.0000.00_13.0_eea_c38883d99c.tgz",
+          "release": "2024-05-24"
+        },
         {
           "miui": "V14.0.3.0.TFFEUXM",
           "android": "13.0",
           "recovery": "miui_ROSEMARYPEEAGlobal_V14.0.3.0.TFFEUXM_1c38f38e82_13.0.zip",
-          "fastboot": "rosemary_p_eea_global_images_V14.0.3.0.TFFEUXM_20231228.0000.00_13.0_eea_0e83cd3240.tgz"
+          "fastboot": "rosemary_p_eea_global_images_V14.0.3.0.TFFEUXM_20231228.0000.00_13.0_eea_0e83cd3240.tgz",
+          "release": "2024-01-12"
         },
-				{
-					"miui": "V14.0.2.0.TFFEUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V14.0.2.0.TFFEUXM_e063bfb806_13.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V14.0.2.0.TFFEUXM_20230830.0000.00_13.0_eea_ecafb9745e.tgz"
-				},
-				{
-					"miui": "V14.0.1.0.TFFEUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V14.0.1.0.TFFEUXM_b75a00aa98_13.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V14.0.1.0.TFFEUXM_20230602.0000.00_13.0_eea_7416e1a90f.tgz"
-				},
-				{
-					"miui": "V13.0.6.0.SFFEUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V13.0.6.0.SFFEUXM_94330b433a_12.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V13.0.6.0.SFFEUXM_20231025.0000.00_12.0_eea_28f06ea5d6.tgz"
-				},
-				{
-					"miui": "V13.0.5.0.SFFEUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V13.0.5.0.SFFEUXM_a27fa0287f_12.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V13.0.5.0.SFFEUXM_20230331.0000.00_12.0_eea_185156798f.tgz"
-				},
-				{
-					"miui": "V13.0.4.0.SFFEUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V13.0.4.0.SFFEUXM_71efaf8df1_12.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V13.0.4.0.SFFEUXM_20221220.0000.00_12.0_eea_5d752a7754.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SFFEUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V13.0.3.0.SFFEUXM_edebbc42c3_12.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V13.0.3.0.SFFEUXM_20221108.0000.00_12.0_eea_b6d9d46534.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SFFEUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPEEAGlobal_V13.0.2.0.SFFEUXM_0571eadf41_12.0.zip",
-					"fastboot": "rosemary_p_eea_global_images_V13.0.2.0.SFFEUXM_20220930.0000.00_12.0_eea_e460a31a06.tgz"
-				}
-			]
-		},
-		{
-			"code": "rosemary_p_ru_global",
-			"btag": "F",
-			"region": "ru",
-			"carrier": [],
-			"branch": "RUSO",
-			"tag": "RUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "俄罗斯稳定版",
-			"en-us": "Russia Stable",
-			"links": [
-				{
-					"miui": "V14.0.13.0.TFFRUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V14.0.13.0.TFFRUXM_357d29cc0e_13.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V14.0.13.0.TFFRUXM_20241226.0000.00_13.0_ru_e271c1a286.tgz"
-				},
-				{
-					"miui": "V14.0.11.0.TFFRUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V14.0.11.0.TFFRUXM_eac731f256_13.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V14.0.11.0.TFFRUXM_20240830.0000.00_13.0_ru_cded14ea13.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TFFRUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V14.0.9.0.TFFRUXM_de6f280fe3_13.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V14.0.9.0.TFFRUXM_20240620.0000.00_13.0_ru_b4d8eaa41e.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TFFRUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V14.0.8.0.TFFRUXM_fa2aa8bb5f_13.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V14.0.8.0.TFFRUXM_20240403.0000.00_13.0_ru_cfdb29b427.tgz"
-				},
+        {
+          "miui": "V14.0.2.0.TFFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V14.0.2.0.TFFEUXM_e063bfb806_13.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V14.0.2.0.TFFEUXM_20230830.0000.00_13.0_eea_ecafb9745e.tgz",
+          "release": "2023-09-15"
+        },
+        {
+          "miui": "V14.0.1.0.TFFEUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V14.0.1.0.TFFEUXM_b75a00aa98_13.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V14.0.1.0.TFFEUXM_20230602.0000.00_13.0_eea_7416e1a90f.tgz",
+          "release": "2023-06-21"
+        },
+        {
+          "miui": "V13.0.6.0.SFFEUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V13.0.6.0.SFFEUXM_94330b433a_12.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V13.0.6.0.SFFEUXM_20231025.0000.00_12.0_eea_28f06ea5d6.tgz",
+          "release": "2023-11-14"
+        },
+        {
+          "miui": "V13.0.5.0.SFFEUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V13.0.5.0.SFFEUXM_a27fa0287f_12.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V13.0.5.0.SFFEUXM_20230331.0000.00_12.0_eea_185156798f.tgz",
+          "release": "2023-04-11"
+        },
+        {
+          "miui": "V13.0.4.0.SFFEUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V13.0.4.0.SFFEUXM_71efaf8df1_12.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V13.0.4.0.SFFEUXM_20221220.0000.00_12.0_eea_5d752a7754.tgz",
+          "release": "2022-12-30"
+        },
+        {
+          "miui": "V13.0.3.0.SFFEUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V13.0.3.0.SFFEUXM_edebbc42c3_12.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V13.0.3.0.SFFEUXM_20221108.0000.00_12.0_eea_b6d9d46534.tgz",
+          "release": "2022-11-12"
+        },
+        {
+          "miui": "V13.0.2.0.SFFEUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPEEAGlobal_V13.0.2.0.SFFEUXM_0571eadf41_12.0.zip",
+          "fastboot": "rosemary_p_eea_global_images_V13.0.2.0.SFFEUXM_20220930.0000.00_12.0_eea_e460a31a06.tgz",
+          "release": "2022-10-25"
+        }
+      ]
+    },
+    {
+      "code": "rosemary_p_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
+      "branch": "RUSO",
+      "tag": "RUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "俄罗斯正式版",
+      "en-us": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.13.0.TFFRUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V14.0.13.0.TFFRUXM_357d29cc0e_13.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V14.0.13.0.TFFRUXM_20241226.0000.00_13.0_ru_e271c1a286.tgz",
+          "release": "2025-01-14"
+        },
+        {
+          "miui": "V14.0.11.0.TFFRUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V14.0.11.0.TFFRUXM_eac731f256_13.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V14.0.11.0.TFFRUXM_20240830.0000.00_13.0_ru_cded14ea13.tgz",
+          "release": "2024-09-09"
+        },
+        {
+          "miui": "V14.0.9.0.TFFRUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V14.0.9.0.TFFRUXM_de6f280fe3_13.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V14.0.9.0.TFFRUXM_20240620.0000.00_13.0_ru_b4d8eaa41e.tgz",
+          "release": "2024-07-04"
+        },
+        {
+          "miui": "V14.0.8.0.TFFRUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V14.0.8.0.TFFRUXM_fa2aa8bb5f_13.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V14.0.8.0.TFFRUXM_20240403.0000.00_13.0_ru_cfdb29b427.tgz",
+          "release": "2024-04-18"
+        },
         {
           "miui": "V14.0.6.0.TFFRUXM",
           "android": "13.0",
           "recovery": "miui_ROSEMARYPRUGlobal_V14.0.6.0.TFFRUXM_e6fa9f3b91_13.0.zip",
-          "fastboot": "rosemary_p_ru_global_images_V14.0.6.0.TFFRUXM_20240108.0000.00_13.0_ru_3647cf5294.tgz"
+          "fastboot": "rosemary_p_ru_global_images_V14.0.6.0.TFFRUXM_20240108.0000.00_13.0_ru_3647cf5294.tgz",
+          "release": "2024-01-30"
         },
-				{
-					"miui": "V14.0.3.0.TFFRUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V14.0.3.0.TFFRUXM_49e1b4568a_13.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V14.0.3.0.TFFRUXM_20231110.0000.00_13.0_ru_68b92dfb0d.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TFFRUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V14.0.2.0.TFFRUXM_9972fe919d_13.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V14.0.2.0.TFFRUXM_20230808.0000.00_13.0_ru_6d3a702492.tgz"
-				},
-				{
-					"miui": "V14.0.1.0.TFFRUXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V14.0.1.0.TFFRUXM_ce94bba82a_13.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V14.0.1.0.TFFRUXM_20230601.0000.00_13.0_ru_6171efc4d5.tgz"
-				},
-				{
-					"miui": "V13.0.7.0.SFFRUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V13.0.7.0.SFFRUXM_bbe09653e0_12.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V13.0.7.0.SFFRUXM_20230322.0000.00_12.0_global_217fd313a1.tgz"
-				},
-				{
-					"miui": "V13.0.6.0.SFFRUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V13.0.6.0.SFFRUXM_61cd74eece_12.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V13.0.6.0.SFFRUXM_20221220.0000.00_12.0_global_a47a4939d3.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SFFRUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V13.0.3.0.SFFRUXM_9cca1050d1_12.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V13.0.3.0.SFFRUXM_20220930.0000.00_12.0_global_7a01f20fe1.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SFFRUXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPRUGlobal_V13.0.2.0.SFFRUXM_be61607317_12.0.zip",
-					"fastboot": "rosemary_p_ru_global_images_V13.0.2.0.SFFRUXM_20220810.0000.00_12.0_global_abecc63ac2.tgz"
-				}
-			]
-		},
-		{
-			"code": "rosemary_p_id_global",
-			"btag": "F",
-			"region": "id",
-			"carrier": [],
-			"branch": "IDSO",
-			"tag": "IDXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度尼西亚稳定版",
-			"en-us": "Indonesia Stable",
-			"links": [
-				{
-					"miui": "V14.0.8.0.TFFIDXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPIDGlobal_V14.0.8.0.TFFIDXM_ef954ed9a2_13.0.zip",
-					"fastboot": "rosemary_p_id_global_images_V14.0.8.0.TFFIDXM_20241226.0000.00_13.0_id_c55a8c7832.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TFFIDXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPIDGlobal_V14.0.7.0.TFFIDXM_ca571ca359_13.0.zip",
-					"fastboot": "rosemary_p_id_global_images_V14.0.7.0.TFFIDXM_20240823.0000.00_13.0_id_88ceb2338d.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TFFIDXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPIDGlobal_V14.0.6.0.TFFIDXM_1aaf01018c_13.0.zip",
-					"fastboot": "rosemary_p_id_global_images_V14.0.6.0.TFFIDXM_20240704.0000.00_13.0_id_9dfdc9f809.tgz"
-				},
+        {
+          "miui": "V14.0.3.0.TFFRUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V14.0.3.0.TFFRUXM_49e1b4568a_13.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V14.0.3.0.TFFRUXM_20231110.0000.00_13.0_ru_68b92dfb0d.tgz",
+          "release": "2023-11-19"
+        },
+        {
+          "miui": "V14.0.2.0.TFFRUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V14.0.2.0.TFFRUXM_9972fe919d_13.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V14.0.2.0.TFFRUXM_20230808.0000.00_13.0_ru_6d3a702492.tgz",
+          "release": "2023-08-18"
+        },
+        {
+          "miui": "V14.0.1.0.TFFRUXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V14.0.1.0.TFFRUXM_ce94bba82a_13.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V14.0.1.0.TFFRUXM_20230601.0000.00_13.0_ru_6171efc4d5.tgz",
+          "release": "2023-06-15"
+        },
+        {
+          "miui": "V13.0.7.0.SFFRUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V13.0.7.0.SFFRUXM_bbe09653e0_12.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V13.0.7.0.SFFRUXM_20230322.0000.00_12.0_global_217fd313a1.tgz",
+          "release": "2023-04-11"
+        },
+        {
+          "miui": "V13.0.6.0.SFFRUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V13.0.6.0.SFFRUXM_61cd74eece_12.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V13.0.6.0.SFFRUXM_20221220.0000.00_12.0_global_a47a4939d3.tgz",
+          "release": "2022-12-30"
+        },
+        {
+          "miui": "V13.0.3.0.SFFRUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V13.0.3.0.SFFRUXM_9cca1050d1_12.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V13.0.3.0.SFFRUXM_20220930.0000.00_12.0_global_7a01f20fe1.tgz",
+          "release": "2022-10-18"
+        },
+        {
+          "miui": "V13.0.2.0.SFFRUXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPRUGlobal_V13.0.2.0.SFFRUXM_be61607317_12.0.zip",
+          "fastboot": "rosemary_p_ru_global_images_V13.0.2.0.SFFRUXM_20220810.0000.00_12.0_global_abecc63ac2.tgz",
+          "release": "2022-10-14"
+        }
+      ]
+    },
+    {
+      "code": "rosemary_p_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
+      "branch": "IDSO",
+      "tag": "IDXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度尼西亚正式版",
+      "en-us": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V14.0.8.0.TFFIDXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPIDGlobal_V14.0.8.0.TFFIDXM_ef954ed9a2_13.0.zip",
+          "fastboot": "rosemary_p_id_global_images_V14.0.8.0.TFFIDXM_20241226.0000.00_13.0_id_c55a8c7832.tgz",
+          "release": "2025-01-13"
+        },
+        {
+          "miui": "V14.0.7.0.TFFIDXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPIDGlobal_V14.0.7.0.TFFIDXM_ca571ca359_13.0.zip",
+          "fastboot": "rosemary_p_id_global_images_V14.0.7.0.TFFIDXM_20240823.0000.00_13.0_id_88ceb2338d.tgz",
+          "release": "2024-09-02"
+        },
+        {
+          "miui": "V14.0.6.0.TFFIDXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPIDGlobal_V14.0.6.0.TFFIDXM_1aaf01018c_13.0.zip",
+          "fastboot": "rosemary_p_id_global_images_V14.0.6.0.TFFIDXM_20240704.0000.00_13.0_id_9dfdc9f809.tgz",
+          "release": "2024-07-16"
+        },
         {
           "miui": "V14.0.3.0.TFFIDXM",
           "android": "13.0",
           "recovery": "miui_ROSEMARYPIDGlobal_V14.0.3.0.TFFIDXM_4a8b69d1c6_13.0.zip",
-          "fastboot": "rosemary_p_id_global_images_V14.0.3.0.TFFIDXM_20240107.0000.00_13.0_id_80ddb19ec7.tgz"
+          "fastboot": "rosemary_p_id_global_images_V14.0.3.0.TFFIDXM_20240107.0000.00_13.0_id_80ddb19ec7.tgz",
+          "release": "2024-01-22"
         },
-				{
-					"miui": "V14.0.1.0.TFFIDXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPIDGlobal_V14.0.1.0.TFFIDXM_d074815d43_13.0.zip",
-					"fastboot": "rosemary_p_id_global_images_V14.0.1.0.TFFIDXM_20230601.0000.00_13.0_id_810217fbb2.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SFFIDXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPIDGlobal_V13.0.3.0.SFFIDXM_c1a3b82bf2_12.0.zip",
-					"fastboot": "rosemary_p_id_global_images_V13.0.3.0.SFFIDXM_20230116.0000.00_12.0_global_8ee0de7db8.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SFFIDXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPIDGlobal_V13.0.2.0.SFFIDXM_63224c343d_12.0.zip",
-					"fastboot": "rosemary_p_id_global_images_V13.0.2.0.SFFIDXM_20221010.0000.00_12.0_global_bc27984230.tgz"
-				}
-			]
-		},
-		{
-			"code": "rosemary_p_tr_global",
-			"btag": "F",
-			"region": "tr",
-			"carrier": [],
-			"branch": "TRSO",
-			"tag": "TRXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "土耳其稳定版",
-			"en-us": "Turkey Stable",
-			"links": [
-				{
-					"miui": "V14.0.5.0.TFFTRXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTRGlobal_V14.0.5.0.TFFTRXM_83ab6e6b8e_13.0.zip",
-					"fastboot": "rosemary_p_tr_global_images_V14.0.5.0.TFFTRXM_20250114.0000.00_13.0_tr_0cf6686351.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TFFTRXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTRGlobal_V14.0.4.0.TFFTRXM_3b199c1c6c_13.0.zip",
-					"fastboot": "rosemary_p_tr_global_images_V14.0.4.0.TFFTRXM_20240926.0000.00_13.0_tr_0f55780e11.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TFFTRXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTRGlobal_V14.0.3.0.TFFTRXM_f8dea32768_13.0.zip",
-					"fastboot": "rosemary_p_tr_global_images_V14.0.3.0.TFFTRXM_20240708.0000.00_13.0_tr_8c87a8d60d.tgz"
-				},
+        {
+          "miui": "V14.0.1.0.TFFIDXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPIDGlobal_V14.0.1.0.TFFIDXM_d074815d43_13.0.zip",
+          "fastboot": "rosemary_p_id_global_images_V14.0.1.0.TFFIDXM_20230601.0000.00_13.0_id_810217fbb2.tgz",
+          "release": "2023-06-28"
+        },
+        {
+          "miui": "V13.0.3.0.SFFIDXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPIDGlobal_V13.0.3.0.SFFIDXM_c1a3b82bf2_12.0.zip",
+          "fastboot": "rosemary_p_id_global_images_V13.0.3.0.SFFIDXM_20230116.0000.00_12.0_global_8ee0de7db8.tgz",
+          "release": "2023-02-05"
+        },
+        {
+          "miui": "V13.0.2.0.SFFIDXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPIDGlobal_V13.0.2.0.SFFIDXM_63224c343d_12.0.zip",
+          "fastboot": "rosemary_p_id_global_images_V13.0.2.0.SFFIDXM_20221010.0000.00_12.0_global_bc27984230.tgz",
+          "release": "2022-10-25"
+        }
+      ]
+    },
+    {
+      "code": "rosemary_p_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
+      "branch": "TRSO",
+      "tag": "TRXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "土耳其正式版",
+      "en-us": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.5.0.TFFTRXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTRGlobal_V14.0.5.0.TFFTRXM_83ab6e6b8e_13.0.zip",
+          "fastboot": "rosemary_p_tr_global_images_V14.0.5.0.TFFTRXM_20250114.0000.00_13.0_tr_0cf6686351.tgz",
+          "release": "2025-01-21"
+        },
+        {
+          "miui": "V14.0.4.0.TFFTRXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTRGlobal_V14.0.4.0.TFFTRXM_3b199c1c6c_13.0.zip",
+          "fastboot": "rosemary_p_tr_global_images_V14.0.4.0.TFFTRXM_20240926.0000.00_13.0_tr_0f55780e11.tgz",
+          "release": "2024-10-17"
+        },
+        {
+          "miui": "V14.0.3.0.TFFTRXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTRGlobal_V14.0.3.0.TFFTRXM_f8dea32768_13.0.zip",
+          "fastboot": "rosemary_p_tr_global_images_V14.0.3.0.TFFTRXM_20240708.0000.00_13.0_tr_8c87a8d60d.tgz",
+          "release": "2024-07-19"
+        },
         {
           "miui": "V14.0.2.0.TFFTRXM",
           "android": "13.0",
           "recovery": "miui_ROSEMARYPTRGlobal_V14.0.2.0.TFFTRXM_58bc75ed81_13.0.zip",
-          "fastboot": "rosemary_p_tr_global_images_V14.0.2.0.TFFTRXM_20240111.0000.00_13.0_tr_60e8a16c4f.tgz"
+          "fastboot": "rosemary_p_tr_global_images_V14.0.2.0.TFFTRXM_20240111.0000.00_13.0_tr_60e8a16c4f.tgz",
+          "release": "2024-01-23"
         },
-				{
-					"miui": "V14.0.1.0.TFFTRXM",
-					"android": "13.0",
-					"recovery": "miui_ROSEMARYPTRGlobal_V14.0.1.0.TFFTRXM_76a1ab23c7_13.0.zip",
-					"fastboot": "rosemary_p_tr_global_images_V14.0.1.0.TFFTRXM_20230608.0000.00_13.0_tr_8d0c8de2a7.tgz"
-				},
-				{
-					"miui": "V13.0.4.0.SFFTRXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPTRGlobal_V13.0.4.0.SFFTRXM_5a3260a815_12.0.zip",
-					"fastboot": "rosemary_p_tr_global_images_V13.0.4.0.SFFTRXM_20221229.0000.00_12.0_global_89160abf85.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SFFTRXM",
-					"android": "12.0",
-					"recovery": "miui_ROSEMARYPTRGlobal_V13.0.3.0.SFFTRXM_4982230070_12.0.zip",
-					"fastboot": "rosemary_p_tr_global_images_V13.0.3.0.SFFTRXM_20221010.0000.00_12.0_global_bc913702d7.tgz"
-				}
-			]
-		}
-	]
+        {
+          "miui": "V14.0.1.0.TFFTRXM",
+          "android": "13.0",
+          "recovery": "miui_ROSEMARYPTRGlobal_V14.0.1.0.TFFTRXM_76a1ab23c7_13.0.zip",
+          "fastboot": "rosemary_p_tr_global_images_V14.0.1.0.TFFTRXM_20230608.0000.00_13.0_tr_8d0c8de2a7.tgz",
+          "release": "2023-06-25"
+        },
+        {
+          "miui": "V13.0.4.0.SFFTRXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPTRGlobal_V13.0.4.0.SFFTRXM_5a3260a815_12.0.zip",
+          "fastboot": "rosemary_p_tr_global_images_V13.0.4.0.SFFTRXM_20221229.0000.00_12.0_global_89160abf85.tgz",
+          "release": "2023-01-18"
+        },
+        {
+          "miui": "V13.0.3.0.SFFTRXM",
+          "android": "12.0",
+          "recovery": "miui_ROSEMARYPTRGlobal_V13.0.3.0.SFFTRXM_4982230070_12.0.zip",
+          "fastboot": "rosemary_p_tr_global_images_V13.0.3.0.SFFTRXM_20221010.0000.00_12.0_global_bc913702d7.tgz",
+          "release": "2022-10-25"
+        }
+      ]
+    }
+  ]
 }

@@ -1,566 +1,638 @@
 {
-	"codename": "blue",
-	"zh-cn": "Redmi A3",
-	"en-us": "Redmi A3",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "GR",
-	"android": [
-		"14.0",
-		"15.0"
-	],
-	"miui": [
-		"V816.0"
-	],
-	"branches": [
-		{
-			"code": "blue_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际稳定版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V816.0.5.0.WGRMIXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEGlobal_V816.0.5.0.WGRMIXM_e0831b8fd1_16.0.zip",
-					"fastboot": "blue_global_images_V816.0.5.0.WGRMIXM_20260127.0000.00_16.0_f026843b4d.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.WGRMIXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEGlobal_V816.0.4.0.WGRMIXM_240c1942c9_16.0.zip",
-					"fastboot": "blue_global_images_V816.0.4.0.WGRMIXM_20251219.0000.00_16.0_4cc14be351.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.WGRMIXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEGlobal_V816.0.3.0.WGRMIXM_017f97f6f2_16.0.zip",
-					"fastboot": "blue_global_images_V816.0.3.0.WGRMIXM_20251027.0000.00_16.0_d29bbe8943.tgz"
-				},
-				{
-					"miui": "V816.0.10.0.VGRMIXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEGlobal_V816.0.10.0.VGRMIXM_aaf22239a3_15.0.zip",
-					"fastboot": "blue_global_images_V816.0.10.0.VGRMIXM_20250924.0000.00_15.0_7713790ef6.tgz"
-				},
-				{
-					"miui": "V816.0.7.0.VGRMIXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEGlobal_V816.0.7.0.VGRMIXM_2a79108378_15.0.zip",
-					"fastboot": "blue_global_images_V816.0.7.0.VGRMIXM_20250627.0000.00_15.0_5c8c9f1a75.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.VGRMIXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEGlobal_V816.0.4.0.VGRMIXM_4f62bdf67e_15.0.zip",
-					"fastboot": "blue_global_images_V816.0.4.0.VGRMIXM_20250305.0000.00_15.0_72da2f3109.tgz"
-				},
-				{
-					"miui": "V816.0.1.0.VGRMIXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEGlobal_V816.0.1.0.VGRMIXM_f9d85c090f_15.0.zip",
-					"fastboot": "blue_global_images_V816.0.1.0.VGRMIXM_20250124.0000.00_15.0_ade259015f.tgz"
-				},
-				{
-					"miui": "V816.0.11.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEGlobal_V816.0.11.0.UGRMIXM_2cd34ab7aa_14.0.zip",
-					"fastboot": "blue_global_images_V816.0.11.0.UGRMIXM_20250210.0000.00_14.0_d3d2bfa5ef.tgz"
-				},
-				{
-					"miui": "V816.0.10.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEGlobal_V816.0.10.0.UGRMIXM_b93f972156_14.0.zip",
-					"fastboot": "blue_global_images_V816.0.10.0.UGRMIXM_20241203.0000.00_14.0_c28c87cfe0.tgz"
-				},
-				{
-					"miui": "V816.0.9.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEGlobal_V816.0.9.0.UGRMIXM_825659d26a_14.0.zip",
-					"fastboot": "blue_global_images_V816.0.9.0.UGRMIXM_20241029.0000.00_14.0_45d63daf0b.tgz"
-				},
-				{
-					"miui": "V816.0.8.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEGlobal_V816.0.8.0.UGRMIXM_9078cdc970_14.0.zip",
-					"fastboot": "blue_global_images_V816.0.8.0.UGRMIXM_20240827.0000.00_14.0_0b29e02d78.tgz"
-				},
-				{
-					"miui": "V816.0.7.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_global_images_V816.0.7.0.UGRMIXM_20240806.0000.00_14.0_dfb170ba66.tgz"
-				},
-				{
-					"miui": "V816.0.6.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_global_images_V816.0.6.0.UGRMIXM_20240526.0000.00_14.0_32a213ad83.tgz"
-				},
-				{
-					"miui": "V816.0.5.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_global_images_V816.0.5.0.UGRMIXM_20240328.0000.00_14.0_90379c256c.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_global_images_V816.0.4.0.UGRMIXM_20240312.0000.00_14.0_d53ed3c01a.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.UGRMIXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_global_images_V816.0.3.0.UGRMIXM_20240202.0000.00_14.0_b43157e2f9.tgz"
-				}
-			]
-		},
-		{
-			"code": "blue_dc_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "GBDC",
-			"tag": "MIDC",
-			"zone": "2",
-			"ep": "0",
-			"show": "1",
-			"zh-cn": "国际 DC 正式版",
-			"en-us": "Global DC Stable",
-			"links": [
-				{
-					"miui": "V816.0.5.0.VGRMIDC",
-					"android": "15.0",
-					"recovery": "miui_BLUEDCGlobal_V816.0.5.0.VGRMIDC_a1eba02368_15.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V816.0.2.0.VGRMIDC",
-					"android": "15.0",
-					"recovery": "miui_BLUEDCGlobal_V816.0.2.0.VGRMIDC_b5a3a4ccd1_15.0.zip",
-					"fastboot": "blue_dc_global_images_V816.0.2.0.VGRMIDC_20250310.0000.00_15.0_b25bddcb54.tgz"
-				}
-			]
-		},
-		{
-			"code": "blue_eea_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "EEAO",
-			"tag": "EUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲EEA正式版",
-			"en-us": "Europe EEA Stable",
-			"links": [
-				{
-					"miui": "V816.0.4.0.WGREUXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.4.0.WGREUXM_c12830a010_16.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.4.0.WGREUXM_20260113.0000.00_16.0_6f02cd0af0.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.WGREUXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.3.0.WGREUXM_cc4d7a3294_16.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.3.0.WGREUXM_20251224.0000.00_16.0_3855125855.tgz"
-				},
-				{
-					"miui": "V816.0.2.0.WGREUXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.2.0.WGREUXM_dd8e9c138e_16.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.2.0.WGREUXM_20251217.0000.00_16.0_88e5f584ab.tgz"
-				},
-				{
-					"miui": "V816.0.14.0.VGREUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.14.0.VGREUXM_a84afd29c6_15.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.14.0.VGREUXM_20251027.0000.00_15.0_7b1dbf136f.tgz"
-				},
-				{
-					"miui": "V816.0.12.0.VGREUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.12.0.VGREUXM_c5e9a6109f_15.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.12.0.VGREUXM_20250924.0000.00_15.0_6c42c8c6d9.tgz"
-				},
-				{
-					"miui": "V816.0.9.0.VGREUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.9.0.VGREUXM_30617868e9_15.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.9.0.VGREUXM_20250624.0000.00_15.0_8ba2dcaa88.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.VGREUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.4.0.VGREUXM_1bcc352461_15.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.4.0.VGREUXM_20250331.0000.00_15.0_875dd1501d.tgz"
-				},
-				{
-					"miui": "V816.0.11.0.UGREUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.11.0.UGREUXM_9ae8d8d31b_14.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.11.0.UGREUXM_20250109.0000.00_14.0_cede7fcd96.tgz"
-				},
-				{
-					"miui": "V816.0.10.0.UGREUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.10.0.UGREUXM_e82c546b6b_14.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.10.0.UGREUXM_20241029.0000.00_14.0_8340956112.tgz"
-				},
-				{
-					"miui": "V816.0.8.0.UGREUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.8.0.UGREUXM_c42b16ae7c_14.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.8.0.UGREUXM_20240802.0000.00_14.0_331848e286.tgz"
-				},
-				{
-					"miui": "V816.0.7.0.UGREUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEEEAGlobal_V816.0.7.0.UGREUXM_6fbcd0fbc3_14.0.zip",
-					"fastboot": "blue_eea_global_images_V816.0.7.0.UGREUXM_20240528.0000.00_14.0_d2ec2f5652.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.UGREUXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_eea_global_images_V816.0.4.0.UGREUXM_20240227.0000.00_14.0_75f899ce1d.tgz"
-				}
-			]
-		},
-		{
-			"code": "blue_ru_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "RUSO",
-			"tag": "RUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "俄罗斯稳定版",
-			"en-us": "Russia Stable",
-			"links": [
-				{
-					"miui": "V816.0.2.0.WGRRUXM",
-					"android": "16.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.2.0.WGRRUXM_3826ff9adb_16.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.2.0.WGRRUXM_20260128.0000.00_16.0_0a29309f72.tgz"
-				},
-				{
-					"miui": "V816.0.1.0.WGRRUXM",
-					"android": "16.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.1.0.WGRRUXM_366a98afa4_16.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.1.0.WGRRUXM_20251226.0000.00_16.0_6185147801.tgz"
-				},
-				{
-					"miui": "V816.0.7.0.VGRRUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.7.0.VGRRUXM_03048d5aec_15.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.7.0.VGRRUXM_20251027.0000.00_15.0_2191254433.tgz"
-				},
-				{
-					"miui": "V816.0.6.0.VGRRUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.6.0.VGRRUXM_cfeafb50e6_15.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.6.0.VGRRUXM_20250924.0000.00_15.0_7e3fa1fefd.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.VGRRUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.4.0.VGRRUXM_495609f945_15.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.4.0.VGRRUXM_20250630.0000.00_15.0_795bbb0c40.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.VGRRUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.3.0.VGRRUXM_8e03e8b292_15.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.3.0.VGRRUXM_20250527.0000.00_15.0_afc7db225d.tgz"
-				},
-				{
-					"miui": "V816.0.2.0.VGRRUXM",
-					"android": "15.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.2.0.VGRRUXM_3243b554a5_15.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.2.0.VGRRUXM_20250402.0000.00_15.0_7fbf99cfd6.tgz"
-				},
-				{
-					"miui": "V816.0.12.0.UGRRUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.12.0.UGRRUXM_1264c06b88_14.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.12.0.UGRRUXM_20250114.0000.00_14.0_8d336cfdfe.tgz"
-				},
-				{
-					"miui": "V816.0.11.0.UGRRUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.11.0.UGRRUXM_6cd1377bbf_14.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.11.0.UGRRUXM_20241104.0000.00_14.0_d987ef6cc6.tgz"
-				},
-				{
-					"miui": "V816.0.10.0.UGRRUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.10.0.UGRRUXM_212176dfce_14.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.10.0.UGRRUXM_20240729.0000.00_14.0_bb96ad9c12.tgz"
-				},
-				{
-					"miui": "V816.0.9.0.UGRRUXM",
-					"android": "14.0",
-					"recovery": "miui_BLUERUGlobal_V816.0.9.0.UGRRUXM_8e9aca2d89_14.0.zip",
-					"fastboot": "blue_ru_global_images_V816.0.9.0.UGRRUXM_20240603.0000.00_14.0_f166024a14.tgz"
-				},
-				{
-					"miui": "V816.0.6.0.UGRRUXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_ru_global_images_V816.0.6.0.UGRRUXM_20240222.0000.00_14.0_158e2e33be.tgz"
-				}
-			]
-		},
-		{
-			"code": "blue_in_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "INSO",
-			"tag": "INXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度正式版",
-			"en-us": "India Stable",
-			"links": [
-				{
-					"miui": "V816.0.3.0.WGRINXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.3.0.WGRINXM_93c8bb06c6_16.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.3.0.WGRINXM_20260113.0000.00_16.0_35b6762254.tgz"
-				},
-				{
-					"miui": "V816.0.2.0.WGRINXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.2.0.WGRINXM_2d5af411e5_16.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.2.0.WGRINXM_20251209.0000.00_16.0_fb2efc769c.tgz"
-				},
-				{
-					"miui": "V816.0.7.0.VGRINXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.7.0.VGRINXM_6ce6d61269_15.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.7.0.VGRINXM_20251027.0000.00_15.0_11d2461065.tgz"
-				},
-				{
-					"miui": "V816.0.6.0.VGRINXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.6.0.VGRINXM_d1facb6786_15.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.6.0.VGRINXM_20250924.0000.00_15.0_b6e9cc9a2c.tgz"
-				},
-				{
-					"miui": "V816.0.5.0.VGRINXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.5.0.VGRINXM_bf53aef515_15.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.5.0.VGRINXM_20250630.0000.00_15.0_7ce4fb1eda.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.VGRINXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.4.0.VGRINXM_edddec031d_15.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.4.0.VGRINXM_20250527.0000.00_15.0_836f6bc433.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.VGRINXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.3.0.VGRINXM_83018a9411_15.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.3.0.VGRINXM_20250331.0000.00_15.0_49faec31cb.tgz"
-				},
-				{
-					"miui": "V816.0.11.0.UGRINXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.11.0.UGRINXM_9ba02fb028_14.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.11.0.UGRINXM_20250114.0000.00_14.0_b14d49e101.tgz"
-				},
-				{
-					"miui": "V816.0.10.0.UGRINXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.10.0.UGRINXM_72dfe37c7d_14.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.10.0.UGRINXM_20241028.0000.00_14.0_2aa9dc2303.tgz"
-				},
-				{
-					"miui": "V816.0.9.0.UGRINXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.9.0.UGRINXM_5e6dab2bce_14.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.9.0.UGRINXM_20240905.0000.00_14.0_38d7922c85.tgz"
-				},
-				{
-					"miui": "V816.0.8.0.UGRINXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.8.0.UGRINXM_eb96b46320_14.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.8.0.UGRINXM_20240620.0000.00_14.0_b625055715.tgz"
-				},
-				{
-					"miui": "V816.0.6.0.UGRINXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEINGlobal_V816.0.6.0.UGRINXM_5a3838b7b5_14.0.zip",
-					"fastboot": "blue_in_global_images_V816.0.6.0.UGRINXM_20240603.0000.00_14.0_06ac19ad73.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.UGRINXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_in_global_images_V816.0.4.0.UGRINXM_20240314.0000.00_14.0_99d744c261.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.UGRINXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_in_global_images_V816.0.3.0.UGRINXM_20240219.0000.00_14.0_c19d9cfc8c.tgz"
-				}
-			]
-		},
-		{
-			"code": "blue_id_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "IDSO",
-			"tag": "IDXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度尼西亚稳定版",
-			"en-us": "Indonesia Stable",
-			"links": [
-				{
-					"miui": "V816.0.2.0.WGRIDXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.2.0.WGRIDXM_537d19f745_16.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.2.0.WGRIDXM_20260127.0000.00_16.0_74f2e91743.tgz"
-				},
-				{
-					"miui": "V816.0.1.0.WGRIDXM",
-					"android": "16.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.1.0.WGRIDXM_498241868d_16.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.1.0.WGRIDXM_20251226.0000.00_16.0_870abdfd00.tgz"
-				},
-				{
-					"miui": "V816.0.6.0.VGRIDXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.6.0.VGRIDXM_deb77207a1_15.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.6.0.VGRIDXM_20251027.0000.00_15.0_8f716ba3bb.tgz"
-				},
-				{
-					"miui": "V816.0.5.0.VGRIDXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.5.0.VGRIDXM_c923bfbf54_15.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.5.0.VGRIDXM_20250924.0000.00_15.0_b539b289ee.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.VGRIDXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.3.0.VGRIDXM_188a61fa62_15.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.3.0.VGRIDXM_20250627.0000.00_15.0_9a58456ffb.tgz"
-				},
-				{
-					"miui": "V816.0.2.0.VGRIDXM",
-					"android": "15.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.2.0.VGRIDXM_17b8a0c3b6_15.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.2.0.VGRIDXM_20250402.0000.00_15.0_08bd868b0a.tgz"
-				},
-				{
-					"miui": "V816.0.8.0.UGRIDXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.8.0.UGRIDXM_f40076ddc4_14.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.8.0.UGRIDXM_20250114.0000.00_14.0_b90e5454e4.tgz"
-				},
-				{
-					"miui": "V816.0.7.0.UGRIDXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.7.0.UGRIDXM_cc26917f05_14.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.7.0.UGRIDXM_20241104.0000.00_14.0_f2b2839286.tgz"
-				},
-				{
-					"miui": "V816.0.6.0.UGRIDXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.6.0.UGRIDXM_36e25df7a9_14.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.6.0.UGRIDXM_20240802.0000.00_14.0_802d99a6ed.tgz"
-				},
-				{
-					"miui": "V816.0.5.0.UGRIDXM",
-					"android": "14.0",
-					"recovery": "miui_BLUEIDGlobal_V816.0.5.0.UGRIDXM_f3fdffbc4c_14.0.zip",
-					"fastboot": "blue_id_global_images_V816.0.5.0.UGRIDXM_20240528.0000.00_14.0_08b86e1c04.tgz"
-				},
-				{
-					"miui": "V816.0.4.0.UGRIDXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_id_global_images_V816.0.4.0.UGRIDXM_20240314.0000.00_14.0_53ee2305d6.tgz"
-				},
-				{
-					"miui": "V816.0.3.0.UGRIDXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_id_global_images_V816.0.3.0.UGRIDXM_20240204.0000.00_14.0_ff9671c256.tgz"
-				}
-			]
-		},
-		{
-			"code": "blue_lm_cr_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "LMCR",
-			"tag": "LMCR",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "拉丁美洲Claro运营商定制版",
-			"en-us": "Latin America Claro Carrier Edition",
-			"links": [
-				{
-					"miui": "V816.0.8.0.UGRLMCR",
-					"android": "14.0",
-					"recovery": "miui_BLUELMCRGlobal_V816.0.8.0.UGRLMCR_0c4b5fb812_14.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V816.0.5.0.UGRLMCR",
-					"android": "14.0",
-					"recovery": "miui_BLUELMCRGlobal_V816.0.5.0.UGRLMCR_e3fcb89de5_14.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V816.0.2.0.UGRLMCR",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_lm_cr_global_images_V816.0.2.0.UGRLMCR_20240228.0000.00_14.0_ee676b7c63.tgz"
-				},
-				{
-					"miui": "V816.0.1.0.UGRLMCR",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "blue_lm_cr_global_images_V816.0.1.0.UGRLMCR_20240204.0000.00_14.0_5f67094a43.tgz"
-				}
-			]
-		}
-	]
+  "codename": "blue",
+  "zh-cn": "Redmi A3",
+  "en-us": "Redmi A3",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "GR",
+  "android": [
+    "14.0",
+    "15.0"
+  ],
+  "miui": [
+    "V816.0"
+  ],
+  "branches": [
+    {
+      "code": "blue_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V816.0.5.0.WGRMIXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEGlobal_V816.0.5.0.WGRMIXM_e0831b8fd1_16.0.zip",
+          "fastboot": "blue_global_images_V816.0.5.0.WGRMIXM_20260127.0000.00_16.0_f026843b4d.tgz",
+          "release": "2026-02-06"
+        },
+        {
+          "miui": "V816.0.4.0.WGRMIXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEGlobal_V816.0.4.0.WGRMIXM_240c1942c9_16.0.zip",
+          "fastboot": "blue_global_images_V816.0.4.0.WGRMIXM_20251219.0000.00_16.0_4cc14be351.tgz",
+          "release": "2025-12-29"
+        },
+        {
+          "miui": "V816.0.3.0.WGRMIXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEGlobal_V816.0.3.0.WGRMIXM_017f97f6f2_16.0.zip",
+          "fastboot": "blue_global_images_V816.0.3.0.WGRMIXM_20251027.0000.00_16.0_d29bbe8943.tgz",
+          "release": "2025-10-31"
+        },
+        {
+          "miui": "V816.0.10.0.VGRMIXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEGlobal_V816.0.10.0.VGRMIXM_aaf22239a3_15.0.zip",
+          "fastboot": "blue_global_images_V816.0.10.0.VGRMIXM_20250924.0000.00_15.0_7713790ef6.tgz",
+          "release": "2025-09-30"
+        },
+        {
+          "miui": "V816.0.7.0.VGRMIXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEGlobal_V816.0.7.0.VGRMIXM_2a79108378_15.0.zip",
+          "fastboot": "blue_global_images_V816.0.7.0.VGRMIXM_20250627.0000.00_15.0_5c8c9f1a75.tgz",
+          "release": "2025-07-02"
+        },
+        {
+          "miui": "V816.0.4.0.VGRMIXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEGlobal_V816.0.4.0.VGRMIXM_4f62bdf67e_15.0.zip",
+          "fastboot": "blue_global_images_V816.0.4.0.VGRMIXM_20250305.0000.00_15.0_72da2f3109.tgz",
+          "release": "2025-03-10"
+        },
+        {
+          "miui": "V816.0.1.0.VGRMIXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEGlobal_V816.0.1.0.VGRMIXM_f9d85c090f_15.0.zip",
+          "fastboot": "blue_global_images_V816.0.1.0.VGRMIXM_20250124.0000.00_15.0_ade259015f.tgz",
+          "release": "2025-02-24"
+        },
+        {
+          "miui": "V816.0.11.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEGlobal_V816.0.11.0.UGRMIXM_2cd34ab7aa_14.0.zip",
+          "fastboot": "blue_global_images_V816.0.11.0.UGRMIXM_20250210.0000.00_14.0_d3d2bfa5ef.tgz",
+          "release": "2025-02-17"
+        },
+        {
+          "miui": "V816.0.10.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEGlobal_V816.0.10.0.UGRMIXM_b93f972156_14.0.zip",
+          "fastboot": "blue_global_images_V816.0.10.0.UGRMIXM_20241203.0000.00_14.0_c28c87cfe0.tgz",
+          "release": "2024-12-10"
+        },
+        {
+          "miui": "V816.0.9.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEGlobal_V816.0.9.0.UGRMIXM_825659d26a_14.0.zip",
+          "fastboot": "blue_global_images_V816.0.9.0.UGRMIXM_20241029.0000.00_14.0_45d63daf0b.tgz",
+          "release": "2024-11-06"
+        },
+        {
+          "miui": "V816.0.8.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEGlobal_V816.0.8.0.UGRMIXM_9078cdc970_14.0.zip",
+          "fastboot": "blue_global_images_V816.0.8.0.UGRMIXM_20240827.0000.00_14.0_0b29e02d78.tgz",
+          "release": "2024-09-05"
+        },
+        {
+          "miui": "V816.0.7.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_global_images_V816.0.7.0.UGRMIXM_20240806.0000.00_14.0_dfb170ba66.tgz",
+          "release": "2024-08-14"
+        },
+        {
+          "miui": "V816.0.6.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_global_images_V816.0.6.0.UGRMIXM_20240526.0000.00_14.0_32a213ad83.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V816.0.5.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_global_images_V816.0.5.0.UGRMIXM_20240328.0000.00_14.0_90379c256c.tgz",
+          "release": "2024-04-10"
+        },
+        {
+          "miui": "V816.0.4.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_global_images_V816.0.4.0.UGRMIXM_20240312.0000.00_14.0_d53ed3c01a.tgz",
+          "release": "2024-03-21"
+        },
+        {
+          "miui": "V816.0.3.0.UGRMIXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_global_images_V816.0.3.0.UGRMIXM_20240202.0000.00_14.0_b43157e2f9.tgz",
+          "release": "2024-02-21"
+        }
+      ]
+    },
+    {
+      "code": "blue_dc_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "GBDC",
+      "tag": "MIDC",
+      "zone": "2",
+      "ep": "0",
+      "show": "1",
+      "zh-cn": "国际 DC 正式版",
+      "en-us": "Global DC Stable",
+      "links": [
+        {
+          "miui": "V816.0.5.0.VGRMIDC",
+          "android": "15.0",
+          "recovery": "miui_BLUEDCGlobal_V816.0.5.0.VGRMIDC_a1eba02368_15.0.zip",
+          "fastboot": "",
+          "release": "2025-11-10"
+        },
+        {
+          "miui": "V816.0.2.0.VGRMIDC",
+          "android": "15.0",
+          "recovery": "miui_BLUEDCGlobal_V816.0.2.0.VGRMIDC_b5a3a4ccd1_15.0.zip",
+          "fastboot": "blue_dc_global_images_V816.0.2.0.VGRMIDC_20250310.0000.00_15.0_b25bddcb54.tgz",
+          "release": "2025-03-28"
+        }
+      ]
+    },
+    {
+      "code": "blue_eea_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "EEAO",
+      "tag": "EUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲EEA正式版",
+      "en-us": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V816.0.4.0.WGREUXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.4.0.WGREUXM_c12830a010_16.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.4.0.WGREUXM_20260113.0000.00_16.0_6f02cd0af0.tgz",
+          "release": "2026-01-23"
+        },
+        {
+          "miui": "V816.0.3.0.WGREUXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.3.0.WGREUXM_cc4d7a3294_16.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.3.0.WGREUXM_20251224.0000.00_16.0_3855125855.tgz",
+          "release": "2025-12-31"
+        },
+        {
+          "miui": "V816.0.2.0.WGREUXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.2.0.WGREUXM_dd8e9c138e_16.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.2.0.WGREUXM_20251217.0000.00_16.0_88e5f584ab.tgz",
+          "release": "2025-12-23"
+        },
+        {
+          "miui": "V816.0.14.0.VGREUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.14.0.VGREUXM_a84afd29c6_15.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.14.0.VGREUXM_20251027.0000.00_15.0_7b1dbf136f.tgz",
+          "release": "2025-11-05"
+        },
+        {
+          "miui": "V816.0.12.0.VGREUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.12.0.VGREUXM_c5e9a6109f_15.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.12.0.VGREUXM_20250924.0000.00_15.0_6c42c8c6d9.tgz",
+          "release": "2025-09-29"
+        },
+        {
+          "miui": "V816.0.9.0.VGREUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.9.0.VGREUXM_30617868e9_15.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.9.0.VGREUXM_20250624.0000.00_15.0_8ba2dcaa88.tgz",
+          "release": "2025-06-27"
+        },
+        {
+          "miui": "V816.0.4.0.VGREUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.4.0.VGREUXM_1bcc352461_15.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.4.0.VGREUXM_20250331.0000.00_15.0_875dd1501d.tgz",
+          "release": "2025-04-07"
+        },
+        {
+          "miui": "V816.0.11.0.UGREUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.11.0.UGREUXM_9ae8d8d31b_14.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.11.0.UGREUXM_20250109.0000.00_14.0_cede7fcd96.tgz",
+          "release": "2025-02-05"
+        },
+        {
+          "miui": "V816.0.10.0.UGREUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.10.0.UGREUXM_e82c546b6b_14.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.10.0.UGREUXM_20241029.0000.00_14.0_8340956112.tgz",
+          "release": "2024-11-12"
+        },
+        {
+          "miui": "V816.0.8.0.UGREUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.8.0.UGREUXM_c42b16ae7c_14.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.8.0.UGREUXM_20240802.0000.00_14.0_331848e286.tgz",
+          "release": "2024-08-09"
+        },
+        {
+          "miui": "V816.0.7.0.UGREUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEEEAGlobal_V816.0.7.0.UGREUXM_6fbcd0fbc3_14.0.zip",
+          "fastboot": "blue_eea_global_images_V816.0.7.0.UGREUXM_20240528.0000.00_14.0_d2ec2f5652.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V816.0.4.0.UGREUXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_eea_global_images_V816.0.4.0.UGREUXM_20240227.0000.00_14.0_75f899ce1d.tgz",
+          "release": "2024-03-25"
+        }
+      ]
+    },
+    {
+      "code": "blue_ru_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "RUSO",
+      "tag": "RUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "俄罗斯正式版",
+      "en-us": "Russia Stable",
+      "links": [
+        {
+          "miui": "V816.0.2.0.WGRRUXM",
+          "android": "16.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.2.0.WGRRUXM_3826ff9adb_16.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.2.0.WGRRUXM_20260128.0000.00_16.0_0a29309f72.tgz",
+          "release": ""
+        },
+        {
+          "miui": "V816.0.1.0.WGRRUXM",
+          "android": "16.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.1.0.WGRRUXM_366a98afa4_16.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.1.0.WGRRUXM_20251226.0000.00_16.0_6185147801.tgz",
+          "release": "2026-01-07"
+        },
+        {
+          "miui": "V816.0.7.0.VGRRUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.7.0.VGRRUXM_03048d5aec_15.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.7.0.VGRRUXM_20251027.0000.00_15.0_2191254433.tgz",
+          "release": "2025-11-06"
+        },
+        {
+          "miui": "V816.0.6.0.VGRRUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.6.0.VGRRUXM_cfeafb50e6_15.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.6.0.VGRRUXM_20250924.0000.00_15.0_7e3fa1fefd.tgz",
+          "release": "2025-10-07"
+        },
+        {
+          "miui": "V816.0.4.0.VGRRUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.4.0.VGRRUXM_495609f945_15.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.4.0.VGRRUXM_20250630.0000.00_15.0_795bbb0c40.tgz",
+          "release": "2025-07-10"
+        },
+        {
+          "miui": "V816.0.3.0.VGRRUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.3.0.VGRRUXM_8e03e8b292_15.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.3.0.VGRRUXM_20250527.0000.00_15.0_afc7db225d.tgz",
+          "release": "2025-06-10"
+        },
+        {
+          "miui": "V816.0.2.0.VGRRUXM",
+          "android": "15.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.2.0.VGRRUXM_3243b554a5_15.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.2.0.VGRRUXM_20250402.0000.00_15.0_7fbf99cfd6.tgz",
+          "release": "2025-04-14"
+        },
+        {
+          "miui": "V816.0.12.0.UGRRUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.12.0.UGRRUXM_1264c06b88_14.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.12.0.UGRRUXM_20250114.0000.00_14.0_8d336cfdfe.tgz",
+          "release": "2025-02-13"
+        },
+        {
+          "miui": "V816.0.11.0.UGRRUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.11.0.UGRRUXM_6cd1377bbf_14.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.11.0.UGRRUXM_20241104.0000.00_14.0_d987ef6cc6.tgz",
+          "release": "2024-11-12"
+        },
+        {
+          "miui": "V816.0.10.0.UGRRUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.10.0.UGRRUXM_212176dfce_14.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.10.0.UGRRUXM_20240729.0000.00_14.0_bb96ad9c12.tgz",
+          "release": "2024-08-07"
+        },
+        {
+          "miui": "V816.0.9.0.UGRRUXM",
+          "android": "14.0",
+          "recovery": "miui_BLUERUGlobal_V816.0.9.0.UGRRUXM_8e9aca2d89_14.0.zip",
+          "fastboot": "blue_ru_global_images_V816.0.9.0.UGRRUXM_20240603.0000.00_14.0_f166024a14.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V816.0.6.0.UGRRUXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_ru_global_images_V816.0.6.0.UGRRUXM_20240222.0000.00_14.0_158e2e33be.tgz",
+          "release": "2024-03-01"
+        }
+      ]
+    },
+    {
+      "code": "blue_in_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "INSO",
+      "tag": "INXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度正式版",
+      "en-us": "India Stable",
+      "links": [
+        {
+          "miui": "V816.0.3.0.WGRINXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.3.0.WGRINXM_93c8bb06c6_16.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.3.0.WGRINXM_20260113.0000.00_16.0_35b6762254.tgz",
+          "release": ""
+        },
+        {
+          "miui": "V816.0.2.0.WGRINXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.2.0.WGRINXM_2d5af411e5_16.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.2.0.WGRINXM_20251209.0000.00_16.0_fb2efc769c.tgz",
+          "release": "2025-12-26"
+        },
+        {
+          "miui": "V816.0.7.0.VGRINXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.7.0.VGRINXM_6ce6d61269_15.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.7.0.VGRINXM_20251027.0000.00_15.0_11d2461065.tgz",
+          "release": "2025-11-06"
+        },
+        {
+          "miui": "V816.0.6.0.VGRINXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.6.0.VGRINXM_d1facb6786_15.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.6.0.VGRINXM_20250924.0000.00_15.0_b6e9cc9a2c.tgz",
+          "release": "2025-10-01"
+        },
+        {
+          "miui": "V816.0.5.0.VGRINXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.5.0.VGRINXM_bf53aef515_15.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.5.0.VGRINXM_20250630.0000.00_15.0_7ce4fb1eda.tgz",
+          "release": "2025-07-10"
+        },
+        {
+          "miui": "V816.0.4.0.VGRINXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.4.0.VGRINXM_edddec031d_15.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.4.0.VGRINXM_20250527.0000.00_15.0_836f6bc433.tgz",
+          "release": "2025-06-10"
+        },
+        {
+          "miui": "V816.0.3.0.VGRINXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.3.0.VGRINXM_83018a9411_15.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.3.0.VGRINXM_20250331.0000.00_15.0_49faec31cb.tgz",
+          "release": "2025-04-07"
+        },
+        {
+          "miui": "V816.0.11.0.UGRINXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.11.0.UGRINXM_9ba02fb028_14.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.11.0.UGRINXM_20250114.0000.00_14.0_b14d49e101.tgz",
+          "release": "2025-02-11"
+        },
+        {
+          "miui": "V816.0.10.0.UGRINXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.10.0.UGRINXM_72dfe37c7d_14.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.10.0.UGRINXM_20241028.0000.00_14.0_2aa9dc2303.tgz",
+          "release": "2024-11-15"
+        },
+        {
+          "miui": "V816.0.9.0.UGRINXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.9.0.UGRINXM_5e6dab2bce_14.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.9.0.UGRINXM_20240905.0000.00_14.0_38d7922c85.tgz",
+          "release": "2024-09-19"
+        },
+        {
+          "miui": "V816.0.8.0.UGRINXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.8.0.UGRINXM_eb96b46320_14.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.8.0.UGRINXM_20240620.0000.00_14.0_b625055715.tgz",
+          "release": "2024-06-28"
+        },
+        {
+          "miui": "V816.0.6.0.UGRINXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEINGlobal_V816.0.6.0.UGRINXM_5a3838b7b5_14.0.zip",
+          "fastboot": "blue_in_global_images_V816.0.6.0.UGRINXM_20240603.0000.00_14.0_06ac19ad73.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V816.0.4.0.UGRINXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_in_global_images_V816.0.4.0.UGRINXM_20240314.0000.00_14.0_99d744c261.tgz",
+          "release": "2024-03-21"
+        },
+        {
+          "miui": "V816.0.3.0.UGRINXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_in_global_images_V816.0.3.0.UGRINXM_20240219.0000.00_14.0_c19d9cfc8c.tgz",
+          "release": "2024-03-06"
+        }
+      ]
+    },
+    {
+      "code": "blue_id_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "IDSO",
+      "tag": "IDXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度尼西亚正式版",
+      "en-us": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V816.0.2.0.WGRIDXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.2.0.WGRIDXM_537d19f745_16.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.2.0.WGRIDXM_20260127.0000.00_16.0_74f2e91743.tgz",
+          "release": "2026-02-05"
+        },
+        {
+          "miui": "V816.0.1.0.WGRIDXM",
+          "android": "16.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.1.0.WGRIDXM_498241868d_16.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.1.0.WGRIDXM_20251226.0000.00_16.0_870abdfd00.tgz",
+          "release": "2026-01-07"
+        },
+        {
+          "miui": "V816.0.6.0.VGRIDXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.6.0.VGRIDXM_deb77207a1_15.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.6.0.VGRIDXM_20251027.0000.00_15.0_8f716ba3bb.tgz",
+          "release": "2025-11-10"
+        },
+        {
+          "miui": "V816.0.5.0.VGRIDXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.5.0.VGRIDXM_c923bfbf54_15.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.5.0.VGRIDXM_20250924.0000.00_15.0_b539b289ee.tgz",
+          "release": "2025-10-07"
+        },
+        {
+          "miui": "V816.0.3.0.VGRIDXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.3.0.VGRIDXM_188a61fa62_15.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.3.0.VGRIDXM_20250627.0000.00_15.0_9a58456ffb.tgz",
+          "release": "2025-07-02"
+        },
+        {
+          "miui": "V816.0.2.0.VGRIDXM",
+          "android": "15.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.2.0.VGRIDXM_17b8a0c3b6_15.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.2.0.VGRIDXM_20250402.0000.00_15.0_08bd868b0a.tgz",
+          "release": "2025-04-14"
+        },
+        {
+          "miui": "V816.0.8.0.UGRIDXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.8.0.UGRIDXM_f40076ddc4_14.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.8.0.UGRIDXM_20250114.0000.00_14.0_b90e5454e4.tgz",
+          "release": "2025-02-05"
+        },
+        {
+          "miui": "V816.0.7.0.UGRIDXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.7.0.UGRIDXM_cc26917f05_14.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.7.0.UGRIDXM_20241104.0000.00_14.0_f2b2839286.tgz",
+          "release": "2024-11-12"
+        },
+        {
+          "miui": "V816.0.6.0.UGRIDXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.6.0.UGRIDXM_36e25df7a9_14.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.6.0.UGRIDXM_20240802.0000.00_14.0_802d99a6ed.tgz",
+          "release": "2024-08-09"
+        },
+        {
+          "miui": "V816.0.5.0.UGRIDXM",
+          "android": "14.0",
+          "recovery": "miui_BLUEIDGlobal_V816.0.5.0.UGRIDXM_f3fdffbc4c_14.0.zip",
+          "fastboot": "blue_id_global_images_V816.0.5.0.UGRIDXM_20240528.0000.00_14.0_08b86e1c04.tgz",
+          "release": "2024-06-05"
+        },
+        {
+          "miui": "V816.0.4.0.UGRIDXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_id_global_images_V816.0.4.0.UGRIDXM_20240314.0000.00_14.0_53ee2305d6.tgz",
+          "release": "2024-03-25"
+        },
+        {
+          "miui": "V816.0.3.0.UGRIDXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_id_global_images_V816.0.3.0.UGRIDXM_20240204.0000.00_14.0_ff9671c256.tgz",
+          "release": "2024-02-21"
+        }
+      ]
+    },
+    {
+      "code": "blue_lm_cr_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "LMCR",
+      "tag": "LMCR",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "拉丁美洲Claro运营商定制版",
+      "en-us": "Latin America Claro Carrier Edition",
+      "links": [
+        {
+          "miui": "V816.0.8.0.UGRLMCR",
+          "android": "14.0",
+          "recovery": "miui_BLUELMCRGlobal_V816.0.8.0.UGRLMCR_0c4b5fb812_14.0.zip",
+          "fastboot": "",
+          "release": "2025-03-17"
+        },
+        {
+          "miui": "V816.0.5.0.UGRLMCR",
+          "android": "14.0",
+          "recovery": "miui_BLUELMCRGlobal_V816.0.5.0.UGRLMCR_e3fcb89de5_14.0.zip",
+          "fastboot": "",
+          "release": "2024-09-27"
+        },
+        {
+          "miui": "V816.0.2.0.UGRLMCR",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_lm_cr_global_images_V816.0.2.0.UGRLMCR_20240228.0000.00_14.0_ee676b7c63.tgz",
+          "release": "2024-03-06"
+        },
+        {
+          "miui": "V816.0.1.0.UGRLMCR",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": "blue_lm_cr_global_images_V816.0.1.0.UGRLMCR_20240204.0000.00_14.0_5f67094a43.tgz",
+          "release": "2024-02-28"
+        }
+      ]
+    }
+  ]
 }

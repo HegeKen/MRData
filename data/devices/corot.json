@@ -1,393 +1,447 @@
 {
-	"codename": "corot",
-	"zh-cn": "Redmi K60 至尊版/小米 13T Pro",
-	"en-us": "Redmi K60 Ultra/Xiaomi 13T Pro",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "0",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "ML",
-	"android": ["13.0"],
-	"miui": ["V14.0"],
-	"branches": [
-		{
-			"code": "corot",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinamobile", "chinaunicom"],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国大陆正式版",
-			"en-us": "China Mainland Stable",
-			"links": [
-				{
-					"miui": "V14.0.14.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.14.0.TMLCNXM_0c4fddade3_13.0.zip",
-					"fastboot": "corot_images_V14.0.14.0.TMLCNXM_20231031.0000.00_13.0_cn_0f9fd16fd9.tgz"
-				},
-				{
-					"miui": "V14.0.12.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.12.0.TMLCNXM_afd03df79e_13.0.zip",
-					"fastboot": "corot_images_V14.0.12.0.TMLCNXM_20230918.0000.00_13.0_cn_c1e3d6eb01.tgz"
-				},
-				{
-					"miui": "V14.0.11.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.11.0.TMLCNXM_5f7955c8fc_13.0.zip",
-					"fastboot": "corot_images_V14.0.11.0.TMLCNXM_20230906.0000.00_13.0_cn_20bb801edd.tgz"
-				},
-				{
-					"miui": "V14.0.10.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.10.0.TMLCNXM_ce6dbb9e4d_13.0.zip",
-					"fastboot": "corot_images_V14.0.10.0.TMLCNXM_20230829.0000.00_13.0_cn_42a9fa6017.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.9.0.TMLCNXM_0eb05cc850_13.0.zip",
-					"fastboot": "corot_images_V14.0.9.0.TMLCNXM_20230821.0000.00_13.0_cn_334ef5bc91.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.8.0.TMLCNXM_9d20ec48db_13.0.zip",
-					"fastboot": "corot_images_V14.0.8.0.TMLCNXM_20230810.0000.00_13.0_cn_b17f0a30a3.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.7.0.TMLCNXM_8e0c466e4c_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.6.0.TMLCNXM_db5533d73c_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.5.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.5.0.TMLCNXM_6e41444006_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.3.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.3.0.TMLCNXM_1251b7ca9e_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "corot",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国电信定制版",
-			"en-us": "China Telecom Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.14.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.14.0.TMLCNXM_0c4fddade3_13.0.zip",
-					"fastboot": "corot_images_V14.0.14.0.TMLCNXM_20231031.0000.00_13.0_cn_chinatelecom_0f0a7ee2d5.tgz"
-				},
-				{
-					"miui": "V14.0.12.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.12.0.TMLCNXM_afd03df79e_13.0.zip",
-					"fastboot": "corot_images_V14.0.12.0.TMLCNXM_20230918.0000.00_13.0_cn_chinatelecom_027083d0d8.tgz"
-				},
-				{
-					"miui": "V14.0.11.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.11.0.TMLCNXM_5f7955c8fc_13.0.zip",
-					"fastboot": "corot_images_V14.0.11.0.TMLCNXM_20230906.0000.00_13.0_cn_chinatelecom_33897a7749.tgz"
-				},
-				{
-					"miui": "V14.0.10.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.10.0.TMLCNXM_ce6dbb9e4d_13.0.zip",
-					"fastboot": "corot_images_V14.0.10.0.TMLCNXM_20230829.0000.00_13.0_cn_chinatelecom_8f9c65c26f.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.9.0.TMLCNXM_0eb05cc850_13.0.zip",
-					"fastboot": "corot_images_V14.0.9.0.TMLCNXM_20230821.0000.00_13.0_cn_chinatelecom_0e1b7768c8.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.8.0.TMLCNXM_9d20ec48db_13.0.zip",
-					"fastboot": "corot_images_V14.0.8.0.TMLCNXM_20230810.0000.00_13.0_cn_chinatelecom_a32d1c5a10.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TMLCNXM",
-					"android": "13.0",
-					"recovery": "miui_COROT_V14.0.7.0.TMLCNXM_8e0c466e4c_13.0.zip",
-					"fastboot": "corot_images_V14.0.7.0.TMLCNXM_20230727.0000.00_13.0_cn_chinatelecom_089b96a7d3.tgz"
-				}
-			]
-		},
-		{
-			"code": "corot_demo",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "CnOD",
-			"tag": "CNDM",
-			"zone": "1",
-			"show": "0",
-			"ep": "0",
-			"zh-cn": "中国大陆Demo",
-			"en-us": "China Mainland Demo Stable",
-			"links": [
-				{
-					"miui": "V14.0.3.0.TMLCNDM",
-					"android": "13.0",
-					"recovery": "miui_COROTDEMO_V14.0.3.0.TMLCNDM_cc19d487af_13.0.zip",
-					"fastboot": "corot_demo_images_V14.0.3.0.TMLCNDM_20230810.0000.00_13.0_cn_fd948228ea.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TMLCNDM",
-					"android": "13.0",
-					"recovery": "miui_COROTDEMO_V14.0.3.0.TMLCNDM_cc19d487af_13.0.zip",
-					"fastboot": "corot_demo_images_V14.0.3.0.TMLCNDM_20230810.0000.00_13.0_cn_chinatelecom_9f667deb6f.tgz"
-				}
-			]
-		},
-		{
-			"code": "corot_tw_global",
-			"btag": "F",
-			"region": "tw",
-			"carrier": [],
-			"branch": "CNTP",
-			"tag": "TWXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国台湾省稳定版",
-			"en-us": "China Taiwan Province Stable",
-			"links": [
-				{
-					"miui": "V14.0.9.0.TMLTWXM",
-					"android": "13.0",
-					"recovery": "miui_COROTTWGlobal_V14.0.9.0.TMLTWXM_78fab75892_13.0.zip",
-					"fastboot": "corot_tw_global_images_V14.0.9.0.TMLTWXM_20231128.0000.00_13.0_tw_2cf0f28397.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TMLTWXM",
-					"android": "13.0",
-					"recovery": "miui_COROTTWGlobal_V14.0.8.0.TMLTWXM_a7198ff62f_13.0.zip",
-					"fastboot": "corot_tw_global_images_V14.0.8.0.TMLTWXM_20231109.0000.00_13.0_tw_45bc5bb384.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TMLTWXM",
-					"android": "13.0",
-					"recovery": "miui_COROTTWGlobal_V14.0.6.0.TMLTWXM_a5f6723785_13.0.zip",
-					"fastboot": "corot_tw_global_images_V14.0.6.0.TMLTWXM.debug_20230927.0000.00_13.0_tw_c55a432810.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TMLTWXM",
-					"android": "13.0",
-					"recovery": "miui_COROTTWGlobal_V14.0.5.0.TMLTWXM_38c9f01571_13.0.zip",
-					"fastboot": "corot_tw_global_images_V14.0.5.0.TMLTWXM_20230913.0000.00_13.0_tw_f3ac4df6d1.tgz"
-				}
-			]
-		},
-		{
-			"code": "corot_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际稳定版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V14.0.12.0.TMLMIXM",
-					"android": "13.0",
-					"recovery": "miui_COROTGlobal_V14.0.12.0.TMLMIXM_d4810ddaca_13.0.zip",
-					"fastboot": "corot_global_images_V14.0.12.0.TMLMIXM_20231123.0000.00_13.0_global_aa137b830d.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TMLMIXM",
-					"android": "13.0",
-					"recovery": "miui_COROTGlobal_V14.0.9.0.TMLMIXM_b9c736328d_13.0.zip",
-					"fastboot": "corot_global_images_V14.0.9.0.TMLMIXM_20231016.0000.00_13.0_global_9f6b807067.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TMLMIXM",
-					"android": "13.0",
-					"recovery": "miui_COROTGlobal_V14.0.8.0.TMLMIXM_784e7f5333_13.0.zip",
-					"fastboot": "corot_global_images_V14.0.8.0.TMLMIXM_20230919.0000.00_13.0_global_88dd1fab26.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TMLMIXM",
-					"android": "13.0",
-					"recovery": "miui_COROTGlobal_V14.0.6.0.TMLMIXM_a1b38beda4_13.0.zip",
-					"fastboot": "corot_global_images_V14.0.6.0.TMLMIXM_20230828.0000.00_13.0_global_0936653517.tgz"
-				}
-			]
-		},
-		{
-			"code": "corot_eea_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [],
-			"branch": "EEAO",
-			"tag": "EUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲EEA稳定版",
-			"en-us": "Europe EEA Stable",
-			"links": [
-				{
-					"miui": "V14.0.16.0.TMLEUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTEEAGlobal_V14.0.16.0.TMLEUXM_9462d925c3_13.0.zip",
-					"fastboot": "corot_eea_global_images_V14.0.16.0.TMLEUXM_20231123.0000.00_13.0_eea_f1797a5640.tgz"
-				},
-				{
-					"miui": "V14.0.15.0.TMLEUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTEEAGlobal_V14.0.15.0.TMLEUXM_2c44bec48c_13.0.zip",
-					"fastboot": "corot_eea_global_images_V14.0.15.0.TMLEUXM_20231021.0000.00_13.0_eea_ae6ac2c970.tgz"
-				},
-				{
-					"miui": "V14.0.14.0.TMLEUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTEEAGlobal_V14.0.14.0.TMLEUXM_a42688c1f8_13.0.zip",
-					"fastboot": "corot_eea_global_images_V14.0.14.0.TMLEUXM_20231009.0000.00_13.0_eea_e516ff88b7.tgz"
-				},
-				{
-					"miui": "V14.0.12.0.TMLEUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTEEAGlobal_V14.0.12.0.TMLEUXM_79b22aba20_13.0.zip",
-					"fastboot": "corot_eea_global_images_V14.0.12.0.TMLEUXM_20230926.0000.00_13.0_eea_b41c514726.tgz"
-				},
-				{
-					"miui": "V14.0.11.0.TMLEUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTEEAGlobal_V14.0.11.0.TMLEUXM_9908b54d89_13.0.zip",
-					"fastboot": "corot_eea_global_images_V14.0.11.0.TMLEUXM_20230922.0000.00_13.0_eea_d934197240.tgz"
-				}
-			]
-		},
-		{
-			"code": "corot_ru_global",
-			"btag": "F",
-			"region": "ru",
-			"carrier": [],
-			"branch": "RUSO",
-			"tag": "RUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "俄罗斯稳定版",
-			"en-us": "Russia Stable",
-			"links": [
-				{
-					"miui": "V14.0.5.0.TMLRUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTRUGlobal_V14.0.5.0.TMLRUXM_1034aab31a_13.0.zip",
-					"fastboot": "corot_ru_global_images_V14.0.5.0.TMLRUXM_20231115.0000.00_13.0_ru_5486b9e2b2.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TMLRUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTRUGlobal_V14.0.4.0.TMLRUXM_10e883ae6b_13.0.zip",
-					"fastboot": "corot_ru_global_images_V14.0.4.0.TMLRUXM_20231013.0000.00_13.0_ru_d786ab6a00.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TMLRUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTRUGlobal_V14.0.3.0.TMLRUXM_fac0d28880_13.0.zip",
-					"fastboot": "corot_ru_global_images_V14.0.3.0.TMLRUXM.debug_20230926.0000.00_13.0_ru_18086cee7f.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TMLRUXM",
-					"android": "13.0",
-					"recovery": "miui_COROTRUGlobal_V14.0.2.0.TMLRUXM_559af50e54_13.0.zip",
-					"fastboot": "corot_ru_global_images_V14.0.2.0.TMLRUXM_20230906.0000.00_13.0_ru_c4aeaafff5.tgz"
-				}
-			]
-		},
-		{
-			"code": "corot_tr_global",
-			"btag": "F",
-			"region": "tr",
-			"carrier": [],
-			"branch": "TRSO",
-			"tag": "TRXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "土耳其稳定版",
-			"en-us": "Turkey Stable",
-			"links": [
-				{
-					"miui": "V14.0.4.0.TMLTRXM",
-					"android": "13.0",
-					"recovery": "miui_COROTTRGlobal_V14.0.4.0.TMLTRXM_6cdb7cd052_13.0.zip",
-					"fastboot": "corot_tr_global_images_V14.0.4.0.TMLTRXM_20231115.0000.00_13.0_tr_432cad0f11.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TMLTRXM",
-					"android": "13.0",
-					"recovery": "miui_COROTTRGlobal_V14.0.2.0.TMLTRXM_a53cd89a9f_13.0.zip",
-					"fastboot": "corot_tr_global_images_V14.0.2.0.TMLTRXM_20230821.0000.00_13.0_tr_4090563e30.tgz"
-				}
-			]
-		},
+  "codename": "corot",
+  "zh-cn": "Redmi K60 至尊版/小米 13T Pro",
+  "en-us": "Redmi K60 Ultra/Xiaomi 13T Pro",
+  "attentions": [
     {
-			"code": "corot_jp_global",
-			"btag": "F",
-			"region": "jp",
-			"carrier": [],
-			"branch": "JAPS",
-			"tag": "JPXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "日本正式版",
-			"en-us": "Japan Stable",
-			"links": [
-				{
-					"miui": "V14.0.4.0.TMLJPXM",
-					"android": "13.0",
-					"recovery": "miui_COROTJPGlobal_V14.0.4.0.TMLJPXM_087e54bfb1_13.0.zip",
-					"fastboot": "corot_jp_global_images_V14.0.4.0.TMLJPXM_20240126.0000.00_13.0_jp_63100c44d6.tgz"
-				}
-			]
-		}
-	]
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "0",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "ML",
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "corot",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国大陆正式版",
+      "en-us": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V14.0.14.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.14.0.TMLCNXM_0c4fddade3_13.0.zip",
+          "fastboot": "corot_images_V14.0.14.0.TMLCNXM_20231031.0000.00_13.0_cn_0f9fd16fd9.tgz",
+          "release": "2023-11-06"
+        },
+        {
+          "miui": "V14.0.12.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.12.0.TMLCNXM_afd03df79e_13.0.zip",
+          "fastboot": "corot_images_V14.0.12.0.TMLCNXM_20230918.0000.00_13.0_cn_c1e3d6eb01.tgz",
+          "release": "2023-09-25"
+        },
+        {
+          "miui": "V14.0.11.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.11.0.TMLCNXM_5f7955c8fc_13.0.zip",
+          "fastboot": "corot_images_V14.0.11.0.TMLCNXM_20230906.0000.00_13.0_cn_20bb801edd.tgz",
+          "release": "2023-09-12"
+        },
+        {
+          "miui": "V14.0.10.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.10.0.TMLCNXM_ce6dbb9e4d_13.0.zip",
+          "fastboot": "corot_images_V14.0.10.0.TMLCNXM_20230829.0000.00_13.0_cn_42a9fa6017.tgz",
+          "release": "2023-09-05"
+        },
+        {
+          "miui": "V14.0.9.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.9.0.TMLCNXM_0eb05cc850_13.0.zip",
+          "fastboot": "corot_images_V14.0.9.0.TMLCNXM_20230821.0000.00_13.0_cn_334ef5bc91.tgz",
+          "release": "2023-08-24"
+        },
+        {
+          "miui": "V14.0.8.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.8.0.TMLCNXM_9d20ec48db_13.0.zip",
+          "fastboot": "corot_images_V14.0.8.0.TMLCNXM_20230810.0000.00_13.0_cn_b17f0a30a3.tgz",
+          "release": "2023-08-15"
+        },
+        {
+          "miui": "V14.0.7.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.7.0.TMLCNXM_8e0c466e4c_13.0.zip",
+          "fastboot": "",
+          "release": "2023-08-15"
+        },
+        {
+          "miui": "V14.0.6.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.6.0.TMLCNXM_db5533d73c_13.0.zip",
+          "fastboot": "",
+          "release": "2023-08-15"
+        },
+        {
+          "miui": "V14.0.5.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.5.0.TMLCNXM_6e41444006_13.0.zip",
+          "fastboot": "",
+          "release": "2023-08-15"
+        },
+        {
+          "miui": "V14.0.3.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.3.0.TMLCNXM_1251b7ca9e_13.0.zip",
+          "fastboot": "",
+          "release": "2023-08-15"
+        }
+      ]
+    },
+    {
+      "code": "corot",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国电信定制版",
+      "en-us": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.14.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.14.0.TMLCNXM_0c4fddade3_13.0.zip",
+          "fastboot": "corot_images_V14.0.14.0.TMLCNXM_20231031.0000.00_13.0_cn_chinatelecom_0f0a7ee2d5.tgz",
+          "release": "2023-11-06"
+        },
+        {
+          "miui": "V14.0.12.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.12.0.TMLCNXM_afd03df79e_13.0.zip",
+          "fastboot": "corot_images_V14.0.12.0.TMLCNXM_20230918.0000.00_13.0_cn_chinatelecom_027083d0d8.tgz",
+          "release": "2023-09-25"
+        },
+        {
+          "miui": "V14.0.11.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.11.0.TMLCNXM_5f7955c8fc_13.0.zip",
+          "fastboot": "corot_images_V14.0.11.0.TMLCNXM_20230906.0000.00_13.0_cn_chinatelecom_33897a7749.tgz",
+          "release": "2023-09-12"
+        },
+        {
+          "miui": "V14.0.10.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.10.0.TMLCNXM_ce6dbb9e4d_13.0.zip",
+          "fastboot": "corot_images_V14.0.10.0.TMLCNXM_20230829.0000.00_13.0_cn_chinatelecom_8f9c65c26f.tgz",
+          "release": "2023-09-05"
+        },
+        {
+          "miui": "V14.0.9.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.9.0.TMLCNXM_0eb05cc850_13.0.zip",
+          "fastboot": "corot_images_V14.0.9.0.TMLCNXM_20230821.0000.00_13.0_cn_chinatelecom_0e1b7768c8.tgz",
+          "release": "2023-08-24"
+        },
+        {
+          "miui": "V14.0.8.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.8.0.TMLCNXM_9d20ec48db_13.0.zip",
+          "fastboot": "corot_images_V14.0.8.0.TMLCNXM_20230810.0000.00_13.0_cn_chinatelecom_a32d1c5a10.tgz",
+          "release": "2023-08-15"
+        },
+        {
+          "miui": "V14.0.7.0.TMLCNXM",
+          "android": "13.0",
+          "recovery": "miui_COROT_V14.0.7.0.TMLCNXM_8e0c466e4c_13.0.zip",
+          "fastboot": "corot_images_V14.0.7.0.TMLCNXM_20230727.0000.00_13.0_cn_chinatelecom_089b96a7d3.tgz",
+          "release": "2023-08-15"
+        }
+      ]
+    },
+    {
+      "code": "corot_demo",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "branch": "CnOD",
+      "tag": "CNDM",
+      "zone": "1",
+      "show": "0",
+      "ep": "0",
+      "zh-cn": "中国大陆Demo",
+      "en-us": "China Mainland Demo Stable",
+      "links": [
+        {
+          "miui": "V14.0.3.0.TMLCNDM",
+          "android": "13.0",
+          "recovery": "miui_COROTDEMO_V14.0.3.0.TMLCNDM_cc19d487af_13.0.zip",
+          "fastboot": "corot_demo_images_V14.0.3.0.TMLCNDM_20230810.0000.00_13.0_cn_fd948228ea.tgz",
+          "release": "2023-08-15"
+        },
+        {
+          "miui": "V14.0.3.0.TMLCNDM",
+          "android": "13.0",
+          "recovery": "miui_COROTDEMO_V14.0.3.0.TMLCNDM_cc19d487af_13.0.zip",
+          "fastboot": "corot_demo_images_V14.0.3.0.TMLCNDM_20230810.0000.00_13.0_cn_chinatelecom_9f667deb6f.tgz",
+          "release": "2023-08-15"
+        }
+      ]
+    },
+    {
+      "code": "corot_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
+      "branch": "CNTP",
+      "tag": "TWXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国台湾省正式版",
+      "en-us": "China Taiwan Province Stable",
+      "links": [
+        {
+          "miui": "V14.0.9.0.TMLTWXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTWGlobal_V14.0.9.0.TMLTWXM_78fab75892_13.0.zip",
+          "fastboot": "corot_tw_global_images_V14.0.9.0.TMLTWXM_20231128.0000.00_13.0_tw_2cf0f28397.tgz",
+          "release": "2023-12-06"
+        },
+        {
+          "miui": "V14.0.8.0.TMLTWXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTWGlobal_V14.0.8.0.TMLTWXM_a7198ff62f_13.0.zip",
+          "fastboot": "corot_tw_global_images_V14.0.8.0.TMLTWXM_20231109.0000.00_13.0_tw_45bc5bb384.tgz",
+          "release": "2023-11-20"
+        },
+        {
+          "miui": "V14.0.6.0.TMLTWXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTWGlobal_V14.0.6.0.TMLTWXM_a5f6723785_13.0.zip",
+          "fastboot": "corot_tw_global_images_V14.0.6.0.TMLTWXM.debug_20230927.0000.00_13.0_tw_c55a432810.tgz",
+          "release": "2023-10-02"
+        },
+        {
+          "miui": "V14.0.5.0.TMLTWXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTWGlobal_V14.0.5.0.TMLTWXM_38c9f01571_13.0.zip",
+          "fastboot": "corot_tw_global_images_V14.0.5.0.TMLTWXM_20230913.0000.00_13.0_tw_f3ac4df6d1.tgz",
+          "release": "2023-09-26"
+        }
+      ]
+    },
+    {
+      "code": "corot_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.12.0.TMLMIXM",
+          "android": "13.0",
+          "recovery": "miui_COROTGlobal_V14.0.12.0.TMLMIXM_d4810ddaca_13.0.zip",
+          "fastboot": "corot_global_images_V14.0.12.0.TMLMIXM_20231123.0000.00_13.0_global_aa137b830d.tgz",
+          "release": "2023-12-06"
+        },
+        {
+          "miui": "V14.0.9.0.TMLMIXM",
+          "android": "13.0",
+          "recovery": "miui_COROTGlobal_V14.0.9.0.TMLMIXM_b9c736328d_13.0.zip",
+          "fastboot": "corot_global_images_V14.0.9.0.TMLMIXM_20231016.0000.00_13.0_global_9f6b807067.tgz",
+          "release": "2023-10-30"
+        },
+        {
+          "miui": "V14.0.8.0.TMLMIXM",
+          "android": "13.0",
+          "recovery": "miui_COROTGlobal_V14.0.8.0.TMLMIXM_784e7f5333_13.0.zip",
+          "fastboot": "corot_global_images_V14.0.8.0.TMLMIXM_20230919.0000.00_13.0_global_88dd1fab26.tgz",
+          "release": "2023-09-30"
+        },
+        {
+          "miui": "V14.0.6.0.TMLMIXM",
+          "android": "13.0",
+          "recovery": "miui_COROTGlobal_V14.0.6.0.TMLMIXM_a1b38beda4_13.0.zip",
+          "fastboot": "corot_global_images_V14.0.6.0.TMLMIXM_20230828.0000.00_13.0_global_0936653517.tgz",
+          "release": "2023-09-26"
+        }
+      ]
+    },
+    {
+      "code": "corot_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
+      "branch": "EEAO",
+      "tag": "EUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲EEA正式版",
+      "en-us": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.16.0.TMLEUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTEEAGlobal_V14.0.16.0.TMLEUXM_9462d925c3_13.0.zip",
+          "fastboot": "corot_eea_global_images_V14.0.16.0.TMLEUXM_20231123.0000.00_13.0_eea_f1797a5640.tgz",
+          "release": "2023-12-06"
+        },
+        {
+          "miui": "V14.0.15.0.TMLEUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTEEAGlobal_V14.0.15.0.TMLEUXM_2c44bec48c_13.0.zip",
+          "fastboot": "corot_eea_global_images_V14.0.15.0.TMLEUXM_20231021.0000.00_13.0_eea_ae6ac2c970.tgz",
+          "release": "2023-10-27"
+        },
+        {
+          "miui": "V14.0.14.0.TMLEUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTEEAGlobal_V14.0.14.0.TMLEUXM_a42688c1f8_13.0.zip",
+          "fastboot": "corot_eea_global_images_V14.0.14.0.TMLEUXM_20231009.0000.00_13.0_eea_e516ff88b7.tgz",
+          "release": "2023-10-16"
+        },
+        {
+          "miui": "V14.0.12.0.TMLEUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTEEAGlobal_V14.0.12.0.TMLEUXM_79b22aba20_13.0.zip",
+          "fastboot": "corot_eea_global_images_V14.0.12.0.TMLEUXM_20230926.0000.00_13.0_eea_b41c514726.tgz",
+          "release": "2023-10-01"
+        },
+        {
+          "miui": "V14.0.11.0.TMLEUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTEEAGlobal_V14.0.11.0.TMLEUXM_9908b54d89_13.0.zip",
+          "fastboot": "corot_eea_global_images_V14.0.11.0.TMLEUXM_20230922.0000.00_13.0_eea_d934197240.tgz",
+          "release": "2023-09-26"
+        }
+      ]
+    },
+    {
+      "code": "corot_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
+      "branch": "RUSO",
+      "tag": "RUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "俄罗斯正式版",
+      "en-us": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.5.0.TMLRUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTRUGlobal_V14.0.5.0.TMLRUXM_1034aab31a_13.0.zip",
+          "fastboot": "corot_ru_global_images_V14.0.5.0.TMLRUXM_20231115.0000.00_13.0_ru_5486b9e2b2.tgz",
+          "release": "2023-12-15"
+        },
+        {
+          "miui": "V14.0.4.0.TMLRUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTRUGlobal_V14.0.4.0.TMLRUXM_10e883ae6b_13.0.zip",
+          "fastboot": "corot_ru_global_images_V14.0.4.0.TMLRUXM_20231013.0000.00_13.0_ru_d786ab6a00.tgz",
+          "release": "2023-10-25"
+        },
+        {
+          "miui": "V14.0.3.0.TMLRUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTRUGlobal_V14.0.3.0.TMLRUXM_fac0d28880_13.0.zip",
+          "fastboot": "corot_ru_global_images_V14.0.3.0.TMLRUXM.debug_20230926.0000.00_13.0_ru_18086cee7f.tgz",
+          "release": "2023-10-02"
+        },
+        {
+          "miui": "V14.0.2.0.TMLRUXM",
+          "android": "13.0",
+          "recovery": "miui_COROTRUGlobal_V14.0.2.0.TMLRUXM_559af50e54_13.0.zip",
+          "fastboot": "corot_ru_global_images_V14.0.2.0.TMLRUXM_20230906.0000.00_13.0_ru_c4aeaafff5.tgz",
+          "release": "2023-09-26"
+        }
+      ]
+    },
+    {
+      "code": "corot_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
+      "branch": "TRSO",
+      "tag": "TRXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "土耳其正式版",
+      "en-us": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TMLTRXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTRGlobal_V14.0.4.0.TMLTRXM_6cdb7cd052_13.0.zip",
+          "fastboot": "corot_tr_global_images_V14.0.4.0.TMLTRXM_20231115.0000.00_13.0_tr_432cad0f11.tgz",
+          "release": "2023-12-15"
+        },
+        {
+          "miui": "V14.0.2.0.TMLTRXM",
+          "android": "13.0",
+          "recovery": "miui_COROTTRGlobal_V14.0.2.0.TMLTRXM_a53cd89a9f_13.0.zip",
+          "fastboot": "corot_tr_global_images_V14.0.2.0.TMLTRXM_20230821.0000.00_13.0_tr_4090563e30.tgz",
+          "release": "2023-09-26"
+        }
+      ]
+    },
+    {
+      "code": "corot_jp_global",
+      "btag": "F",
+      "region": "jp",
+      "carrier": [],
+      "branch": "JAPS",
+      "tag": "JPXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "日本正式版",
+      "en-us": "Japan Stable",
+      "links": [
+        {
+          "miui": "V14.0.4.0.TMLJPXM",
+          "android": "13.0",
+          "recovery": "miui_COROTJPGlobal_V14.0.4.0.TMLJPXM_087e54bfb1_13.0.zip",
+          "fastboot": "corot_jp_global_images_V14.0.4.0.TMLJPXM_20240126.0000.00_13.0_jp_63100c44d6.tgz",
+          "release": "2024-01-30"
+        }
+      ]
+    }
+  ]
 }

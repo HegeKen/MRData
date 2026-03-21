@@ -1,240 +1,265 @@
 {
-	"codename": "sapphiren",
-	"zh-cn": "Redmi Note 13 NFC",
-	"en-us": "Redmi Note 13 NFC",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "NH",
-	"android": ["13.0"],
-	"miui": ["V14.0"],
-	"branches": [
+  "codename": "sapphiren",
+  "zh-cn": "Redmi Note 13 NFC",
+  "en-us": "Redmi Note 13 NFC",
+  "attentions": [
     {
-			"code": "sapphiren_tw_global",
-			"btag": "F",
-			"region": "tw",
-			"carrier": [],
-			"branch": "CNTP",
-			"tag": "TWXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国台湾省正式版",
-			"en-us": "China Taiwan Province Stable",
-			"links": [
-				{
-					"miui": "V14.0.5.0.TNHTWXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENTWGlobal_V14.0.5.0.TNHTWXM_3e80fc64e2_13.0.zip",
-					"fastboot": "sapphiren_tw_global_images_V14.0.5.0.TNHTWXM_20240605.0000.00_13.0_tw_bddafd799d.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TNHTWXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENTWGlobal_V14.0.4.0.TNHTWXM_9ff609c1e3_13.0.zip",
-					"fastboot": "sapphiren_tw_global_images_V14.0.4.0.TNHTWXM_20240301.0000.00_13.0_tw_994934f898.tgz"
-				},
-				{
-					"miui": "V14.0.1.0.TNHTWXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENTWGlobal_V14.0.1.0.TNHTWXM_8cc2fc205e_13.0.zip",
-					"fastboot": "sapphiren_tw_global_images_V14.0.1.0.TNHTWXM_20231215.0000.00_13.0_tw_de25db2bde.tgz"
-				}
-			]
-		},
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "NH",
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.0"
+  ],
+  "branches": [
     {
-			"code": "sapphiren_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际正式版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V14.0.9.0.TNHMIXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENGlobal_V14.0.9.0.TNHMIXM_8fbbbf4f24_13.0.zip",
-					"fastboot": "sapphiren_global_images_V14.0.9.0.TNHMIXM_20240528.0000.00_13.0_global_77b4cca831.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TNHMIXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENGlobal_V14.0.8.0.TNHMIXM_4cde87b50a_13.0.zip",
-					"fastboot": "sapphiren_global_images_V14.0.8.0.TNHMIXM_20240308.0000.00_13.0_global_56eae3a174.tgz"
-				},
+      "code": "sapphiren_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
+      "branch": "CNTP",
+      "tag": "TWXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国台湾省正式版",
+      "en-us": "China Taiwan Province Stable",
+      "links": [
+        {
+          "miui": "V14.0.5.0.TNHTWXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENTWGlobal_V14.0.5.0.TNHTWXM_3e80fc64e2_13.0.zip",
+          "fastboot": "sapphiren_tw_global_images_V14.0.5.0.TNHTWXM_20240605.0000.00_13.0_tw_bddafd799d.tgz",
+          "release": "2024-06-14"
+        },
+        {
+          "miui": "V14.0.4.0.TNHTWXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENTWGlobal_V14.0.4.0.TNHTWXM_9ff609c1e3_13.0.zip",
+          "fastboot": "sapphiren_tw_global_images_V14.0.4.0.TNHTWXM_20240301.0000.00_13.0_tw_994934f898.tgz",
+          "release": "2024-03-15"
+        },
+        {
+          "miui": "V14.0.1.0.TNHTWXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENTWGlobal_V14.0.1.0.TNHTWXM_8cc2fc205e_13.0.zip",
+          "fastboot": "sapphiren_tw_global_images_V14.0.1.0.TNHTWXM_20231215.0000.00_13.0_tw_de25db2bde.tgz",
+          "release": "2024-01-23"
+        }
+      ]
+    },
+    {
+      "code": "sapphiren_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.9.0.TNHMIXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENGlobal_V14.0.9.0.TNHMIXM_8fbbbf4f24_13.0.zip",
+          "fastboot": "sapphiren_global_images_V14.0.9.0.TNHMIXM_20240528.0000.00_13.0_global_77b4cca831.tgz",
+          "release": "2024-06-07"
+        },
+        {
+          "miui": "V14.0.8.0.TNHMIXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENGlobal_V14.0.8.0.TNHMIXM_4cde87b50a_13.0.zip",
+          "fastboot": "sapphiren_global_images_V14.0.8.0.TNHMIXM_20240308.0000.00_13.0_global_56eae3a174.tgz",
+          "release": "2024-03-13"
+        },
         {
           "miui": "V14.0.7.0.TNHMIXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIRENGlobal_V14.0.7.0.TNHMIXM_afa6f55847_13.0.zip",
-          "fastboot": "sapphiren_global_images_V14.0.7.0.TNHMIXM_20240207.0000.00_13.0_global_d2af2f4fdc.tgz"
+          "fastboot": "sapphiren_global_images_V14.0.7.0.TNHMIXM_20240207.0000.00_13.0_global_d2af2f4fdc.tgz",
+          "release": "2024-02-18"
         },
         {
           "miui": "V14.0.3.0.TNHMIXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIRENGlobal_V14.0.3.0.TNHMIXM_043765406f_13.0.zip",
-          "fastboot": "sapphiren_global_images_V14.0.3.0.TNHMIXM_20240119.0000.00_13.0_global_067df8d371.tgz"
+          "fastboot": "sapphiren_global_images_V14.0.3.0.TNHMIXM_20240119.0000.00_13.0_global_067df8d371.tgz",
+          "release": "2024-01-29"
         },
-				{
-					"miui": "V14.0.1.0.TNHMIXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENGlobal_V14.0.1.0.TNHMIXM_d7f8df09ee_13.0.zip",
-					"fastboot": "sapphiren_global_images_V14.0.1.0.TNHMIXM_20231215.0000.00_13.0_global_158dbf88fb.tgz"
-				}
-			]
-		},
-		{
-			"code": "sapphiren_eea_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [],
-			"branch": "EEAO",
-			"tag": "EUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲EEA正式版",
-			"en-us": "Europe EEA Stable",
-			"links": [
-				{
-					"miui": "V14.0.6.0.TNHEUXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENEEAGlobal_V14.0.6.0.TNHEUXM_cad9fa5d07_13.0.zip",
-					"fastboot": "sapphiren_eea_global_images_V14.0.6.0.TNHEUXM_20240224.0000.00_13.0_eea_bd555f7ad0.tgz"
-				},
+        {
+          "miui": "V14.0.1.0.TNHMIXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENGlobal_V14.0.1.0.TNHMIXM_d7f8df09ee_13.0.zip",
+          "fastboot": "sapphiren_global_images_V14.0.1.0.TNHMIXM_20231215.0000.00_13.0_global_158dbf88fb.tgz",
+          "release": "2024-01-23"
+        }
+      ]
+    },
+    {
+      "code": "sapphiren_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
+      "branch": "EEAO",
+      "tag": "EUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲EEA正式版",
+      "en-us": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.6.0.TNHEUXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENEEAGlobal_V14.0.6.0.TNHEUXM_cad9fa5d07_13.0.zip",
+          "fastboot": "sapphiren_eea_global_images_V14.0.6.0.TNHEUXM_20240224.0000.00_13.0_eea_bd555f7ad0.tgz",
+          "release": "2024-03-01"
+        },
         {
           "miui": "V14.0.5.0.TNHEUXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIRENEEAGlobal_V14.0.5.0.TNHEUXM_4752478a33_13.0.zip",
-          "fastboot": "sapphiren_eea_global_images_V14.0.5.0.TNHEUXM_20240120.0000.00_13.0_eea_420521410c.tgz"
+          "fastboot": "sapphiren_eea_global_images_V14.0.5.0.TNHEUXM_20240120.0000.00_13.0_eea_420521410c.tgz",
+          "release": "2024-01-30"
         },
         {
           "miui": "V14.0.4.0.TNHEUXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIRENEEAGlobal_V14.0.4.0.TNHEUXM_f3bbec3b51_13.0.zip",
-          "fastboot": "sapphiren_eea_global_images_V14.0.4.0.TNHEUXM_20240109.0000.00_13.0_eea_bc3885561e.tgz"
+          "fastboot": "sapphiren_eea_global_images_V14.0.4.0.TNHEUXM_20240109.0000.00_13.0_eea_bc3885561e.tgz",
+          "release": "2024-01-18"
         },
-				{
-					"miui": "V14.0.3.0.TNHEUXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENEEAGlobal_V14.0.3.0.TNHEUXM_c4014ef897_13.0.zip",
-					"fastboot": "sapphiren_eea_global_images_V14.0.3.0.TNHEUXM_20231206.0000.00_13.0_eea_a828c5884f.tgz"
-				}
-			]
-		},
+        {
+          "miui": "V14.0.3.0.TNHEUXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENEEAGlobal_V14.0.3.0.TNHEUXM_c4014ef897_13.0.zip",
+          "fastboot": "sapphiren_eea_global_images_V14.0.3.0.TNHEUXM_20231206.0000.00_13.0_eea_a828c5884f.tgz",
+          "release": "2024-01-18"
+        }
+      ]
+    },
     {
-			"code": "sapphiren_ru_global",
-			"btag": "F",
-			"region": "ru",
-			"carrier": [],
-			"branch": "RUSO",
-			"tag": "RUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "俄罗斯正式版",
-			"en-us": "Russia Stable",
-			"links": [
-				{
-					"miui": "V14.0.7.0.TNHRUXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENRUGlobal_V14.0.7.0.TNHRUXM_e9c095a828_13.0.zip",
-					"fastboot": "sapphiren_ru_global_images_V14.0.7.0.TNHRUXM_20240605.0000.00_13.0_ru_931f97ff42.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TNHRUXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENRUGlobal_V14.0.6.0.TNHRUXM_c8da74a8fd_13.0.zip",
-					"fastboot": "sapphiren_ru_global_images_V14.0.6.0.TNHRUXM_20240222.0000.00_13.0_ru_028cb5427a.tgz"
-				},
+      "code": "sapphiren_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
+      "branch": "RUSO",
+      "tag": "RUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "俄罗斯正式版",
+      "en-us": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.7.0.TNHRUXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENRUGlobal_V14.0.7.0.TNHRUXM_e9c095a828_13.0.zip",
+          "fastboot": "sapphiren_ru_global_images_V14.0.7.0.TNHRUXM_20240605.0000.00_13.0_ru_931f97ff42.tgz",
+          "release": "2024-06-14"
+        },
+        {
+          "miui": "V14.0.6.0.TNHRUXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENRUGlobal_V14.0.6.0.TNHRUXM_c8da74a8fd_13.0.zip",
+          "fastboot": "sapphiren_ru_global_images_V14.0.6.0.TNHRUXM_20240222.0000.00_13.0_ru_028cb5427a.tgz",
+          "release": "2024-02-27"
+        },
         {
           "miui": "V14.0.3.0.TNHRUXM",
           "android": "13.0",
           "recovery": "miui_SAPPHIRENRUGlobal_V14.0.3.0.TNHRUXM_6f52c587b4_13.0.zip",
-          "fastboot": "sapphiren_ru_global_images_V14.0.3.0.TNHRUXM_20240122.0000.00_13.0_ru_de6560dc3a.tgz"
+          "fastboot": "sapphiren_ru_global_images_V14.0.3.0.TNHRUXM_20240122.0000.00_13.0_ru_de6560dc3a.tgz",
+          "release": "2024-01-29"
         },
-				{
-					"miui": "V14.0.1.0.TNHRUXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENRUGlobal_V14.0.1.0.TNHRUXM_2362c06399_13.0.zip",
-					"fastboot": "sapphiren_ru_global_images_V14.0.1.0.TNHRUXM_20231124.0000.00_13.0_ru_30bf7aa39d.tgz"
-				}
-			]
-		},
+        {
+          "miui": "V14.0.1.0.TNHRUXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENRUGlobal_V14.0.1.0.TNHRUXM_2362c06399_13.0.zip",
+          "fastboot": "sapphiren_ru_global_images_V14.0.1.0.TNHRUXM_20231124.0000.00_13.0_ru_30bf7aa39d.tgz",
+          "release": "2024-01-22"
+        }
+      ]
+    },
     {
-			"code": "sapphiren_tr_global",
-			"btag": "F",
-			"region": "tr",
-			"carrier": [],
-			"branch": "TRSO",
-			"tag": "TRXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "土耳其正式版",
-			"en-us": "Turkey Stable",
-			"links": [
-				{
-					"miui": "V14.0.8.0.TNHTRXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENTRGlobal_V14.0.8.0.TNHTRXM_5a33ba8c00_13.0.zip",
-					"fastboot": "sapphiren_tr_global_images_V14.0.8.0.TNHTRXM_20240605.0000.00_13.0_tr_c7fd57a176.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TNHTRXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENTRGlobal_V14.0.7.0.TNHTRXM_bc39b56051_13.0.zip",
-					"fastboot": "sapphiren_tr_global_images_V14.0.7.0.TNHTRXM_20240301.0000.00_13.0_tr_641f148ec2.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TNHTRXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENTRGlobal_V14.0.6.0.TNHTRXM_12f7dd6c40_13.0.zip",
-					"fastboot": "sapphiren_tr_global_images_V14.0.6.0.TNHTRXM_20240209.0000.00_13.0_tr_38e7cb966d.tgz"
-				}
-			]
-		},
-		{
-			"code": "sapphiren_id_global",
-			"btag": "F",
-			"region": "id",
-			"carrier": [],
-			"branch": "IDSO",
-			"tag": "IDXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度尼西亚正式版",
-			"en-us": "Indonesia Stable",
-			"links": [
-				{
-					"miui": "V14.0.6.0.TNHIDXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENIDGlobal_V14.0.6.0.TNHIDXM_cb12e66e88_13.0.zip",
-					"fastboot": "sapphiren_id_global_images_V14.0.6.0.TNHIDXM_20240524.0000.00_13.0_id_e370a73c4e.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TNHIDXM",
-					"android": "13.0",
-					"recovery": "miui_SAPPHIRENIDGlobal_V14.0.5.0.TNHIDXM_0a227ae934_13.0.zip",
-					"fastboot": "sapphiren_id_global_images_V14.0.5.0.TNHIDXM_20240223.0000.00_13.0_id_9857976ad7.tgz"
-				}
-			]
-		}
-	]
+      "code": "sapphiren_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
+      "branch": "TRSO",
+      "tag": "TRXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "土耳其正式版",
+      "en-us": "Turkey Stable",
+      "links": [
+        {
+          "miui": "V14.0.8.0.TNHTRXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENTRGlobal_V14.0.8.0.TNHTRXM_5a33ba8c00_13.0.zip",
+          "fastboot": "sapphiren_tr_global_images_V14.0.8.0.TNHTRXM_20240605.0000.00_13.0_tr_c7fd57a176.tgz",
+          "release": "2024-06-14"
+        },
+        {
+          "miui": "V14.0.7.0.TNHTRXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENTRGlobal_V14.0.7.0.TNHTRXM_bc39b56051_13.0.zip",
+          "fastboot": "sapphiren_tr_global_images_V14.0.7.0.TNHTRXM_20240301.0000.00_13.0_tr_641f148ec2.tgz",
+          "release": "2024-03-12"
+        },
+        {
+          "miui": "V14.0.6.0.TNHTRXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENTRGlobal_V14.0.6.0.TNHTRXM_12f7dd6c40_13.0.zip",
+          "fastboot": "sapphiren_tr_global_images_V14.0.6.0.TNHTRXM_20240209.0000.00_13.0_tr_38e7cb966d.tgz",
+          "release": "2024-02-15"
+        }
+      ]
+    },
+    {
+      "code": "sapphiren_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
+      "branch": "IDSO",
+      "tag": "IDXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度尼西亚正式版",
+      "en-us": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V14.0.6.0.TNHIDXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENIDGlobal_V14.0.6.0.TNHIDXM_cb12e66e88_13.0.zip",
+          "fastboot": "sapphiren_id_global_images_V14.0.6.0.TNHIDXM_20240524.0000.00_13.0_id_e370a73c4e.tgz",
+          "release": "2024-05-31"
+        },
+        {
+          "miui": "V14.0.5.0.TNHIDXM",
+          "android": "13.0",
+          "recovery": "miui_SAPPHIRENIDGlobal_V14.0.5.0.TNHIDXM_0a227ae934_13.0.zip",
+          "fastboot": "sapphiren_id_global_images_V14.0.5.0.TNHIDXM_20240223.0000.00_13.0_id_9857976ad7.tgz",
+          "release": "2024-03-01"
+        }
+      ]
+    }
+  ]
 }

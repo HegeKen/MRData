@@ -1,696 +1,787 @@
 {
-	"codename": "ice",
-	"zh-cn": "Redmi A1/A1+/POCO C50",
-	"en-us": "Redmi A1/A1+/POCO C50",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "GM",
-	"android": ["12.0"],
-	"miui": ["V13.0"],
-	"branches": [
-		{
-			"code": "ice_tw_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "CNTP",
-			"tag": "TWXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国台湾省稳定版",
-			"en-us": "China Taiwan Province Stable",
-			"links": [
-				{
-					"miui": "V13.0.5.0.SGMTWXM",
-					"android": "12.0",
-					"recovery": "miui_ICETWGlobal_V13.0.5.0.SGMTWXM_b7a48c9555_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.3.0.SGMTWXM",
-					"android": "12.0",
-					"recovery": "miui_ICETWGlobal_V13.0.3.0.SGMTWXM_7de35271ce_12.0.zip",
-					"fastboot": "ice_tw_global_images_V13.0.3.0.SGMTWXM_20221106.0000.00_12.0_e94f7d8b11.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际稳定版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V13.0.24.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.24.0.SGMMIXM_0f50055db4_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.24.0.SGMMIXM_20240902.0000.00_12.0_88a9b0725e.tgz"
-				},
-				{
-					"miui": "V13.0.23.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.23.0.SGMMIXM_df6fdf0427_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.23.0.SGMMIXM_20240603.0000.00_12.0_87b3c966e8.tgz"
-				},
-				{
-					"miui": "V13.0.22.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.22.0.SGMMIXM_fac75fb418_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.20.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.20.0.SGMMIXM_8000e1831f_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.20.0.SGMMIXM_20240103.0000.00_12.0_139fff4086.tgz"
-				},
-				{
-					"miui": "V13.0.19.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.19.0.SGMMIXM_2886aab6f3_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.19.0.SGMMIXM_20231009.0000.00_12.0_c4e6c95e10.tgz"
-				},
-				{
-					"miui": "V13.0.18.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.18.0.SGMMIXM_966cb2fe87_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.18.0.SGMMIXM_20230705.0000.00_12.0_46e72839e4.tgz"
-				},
-				{
-					"miui": "V13.0.17.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.17.0.SGMMIXM_79c082f0cc_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.17.0.SGMMIXM_20230419.0000.00_12.0_24bbf833c3.tgz"
-				},
-				{
-					"miui": "V13.0.16.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.16.0.SGMMIXM_c64b377af5_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.16.0.SGMMIXM_20230309.0000.00_12.0_a867b953e0.tgz"
-				},
-				{
-					"miui": "V13.0.15.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.15.0.SGMMIXM_4ce69d0051_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.15.0.SGMMIXM_20221229.0000.00_12.0_49e7ca40a4.tgz"
-				},
-				{
-					"miui": "V13.0.14.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.14.0.SGMMIXM_0d73910fab_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.13.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.13.0.SGMMIXM_5a58c98674_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.13.0.SGMMIXM_20221106.0000.00_12.0_a50fdf59df.tgz"
-				},
-				{
-					"miui": "V13.0.11.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.11.0.SGMMIXM_2666bc2bf7_12.0.zip",
-					"fastboot": "ice_global_images_V13.0.11.0.SGMMIXM_20221018.0000.00_12.0_7d4cd46637.tgz"
-				},
-				{
-					"miui": "V13.0.9.0.SGMMIXM",
-					"android": "12.0",
-					"recovery": "miui_ICEGlobal_V13.0.9.0.SGMMIXM_72e3fc029f_12.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "ice_eea_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "EEAO",
-			"tag": "EUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲EEA稳定版",
-			"en-us": "Europe EEA Stable",
-			"links": [
-				{
-					"miui": "V13.0.18.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.18.0.SGMEUXM_87d72949df_12.0.zip",
-					"fastboot": "ice_eea_global_images_V13.0.18.0.SGMEUXM_20240902.0000.00_12.0_c6e2eb289a.tgz"
-				},
-				{
-					"miui": "V13.0.17.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.17.0.SGMEUXM_955c71e240_12.0.zip",
-					"fastboot": "ice_eea_global_images_V13.0.17.0.SGMEUXM_20240603.0000.00_12.0_39046b4059.tgz"
-				},
-				{
-					"miui": "V13.0.16.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.16.0.SGMEUXM_fc9550ad38_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.15.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.15.0.SGMEUXM_dae7dcb07e_12.0.zip",
-					"fastboot": "ice_eea_global_images_V13.0.15.0.SGMEUXM_20240103.0000.00_12.0_ec3dcbb3c6.tgz"
-				},
-				{
-					"miui": "V13.0.13.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.13.0.SGMEUXM_a1a839e3cc_12.0.zip",
-					"fastboot": "ice_eea_global_images_V13.0.13.0.SGMEUXM_20230710.0000.00_12.0_9bdce0f2e4.tgz"
-				},
-				{
-					"miui": "V13.0.12.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.12.0.SGMEUXM_5e2939cab5_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.11.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.11.0.SGMEUXM_8c2f2f249d_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.10.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.10.0.SGMEUXM_6c1c738cb8_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.9.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.9.0.SGMEUXM_990a0bce32_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.8.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.8.0.SGMEUXM_808bacd2db_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.7.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.7.0.SGMEUXM_e088ae3a1e_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.6.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.6.0.SGMEUXM_9d8e4df1a0_12.0.zip",
-					"fastboot": "ice_eea_global_images_V13.0.6.0.SGMEUXM_20221109.0000.00_12.0_c1518571a5.tgz"
-				},
-				{
-					"miui": "V13.0.5.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.5.0.SGMEUXM_b7e445c279_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.3.0.SGMEUXM",
-					"android": "12.0",
-					"recovery": "miui_ICEEEAGlobal_V13.0.3.0.SGMEUXM_70b71b516b_12.0.zip",
-					"fastboot": "ice_eea_global_images_V13.0.3.0.SGMEUXM_20220915.0000.00_12.0_dc6cb84563.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_ru_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "RUSO",
-			"tag": "RUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "俄罗斯稳定版",
-			"en-us": "Russia Stable",
-			"links": [
-				{
-					"miui": "V13.0.15.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.15.0.SGMRUXM_94d9bda99f_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.15.0.SGMRUXM_20240903.0000.00_12.0_cecbfa6509.tgz"
-				},
-				{
-					"miui": "V13.0.14.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.14.0.SGMRUXM_44b7346f58_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.14.0.SGMRUXM_20240603.0000.00_12.0_a602414cb8.tgz"
-				},
-				{
-					"miui": "V13.0.13.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.13.0.SGMRUXM_da30a30397_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.13.0.SGMRUXM_20240223.0000.00_12.0_004bf2f208.tgz"
-				},
-				{
-					"miui": "V13.0.12.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.12.0.SGMRUXM_c425e141e3_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.12.0.SGMRUXM_20231204.0000.00_12.0_6cb7fa877b.tgz"
-				},
-				{
-					"miui": "V13.0.11.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.11.0.SGMRUXM_b8172a87d4_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.11.0.SGMRUXM_20230918.0000.00_12.0_99f80b2cf3.tgz"
-				},
-				{
-					"miui": "V13.0.10.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.10.0.SGMRUXM_8f3abebbec_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.10.0.SGMRUXM_20230531.0000.00_12.0_51615f49c6.tgz"
-				},
-				{
-					"miui": "V13.0.9.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.9.0.SGMRUXM_65a6c4dfe5_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.9.0.SGMRUXM_20230307.0000.00_12.0_960c2c1a98.tgz"
-				},
-				{
-					"miui": "V13.0.8.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.8.0.SGMRUXM_a6cf0933a6_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.8.0.SGMRUXM_20230224.0000.00_12.0_af695ee38a.tgz"
-				},
-				{
-					"miui": "V13.0.7.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.7.0.SGMRUXM_f925821abf_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.7.0.SGMRUXM_20221220.0000.00_12.0_148811372c.tgz"
-				},
-				{
-					"miui": "V13.0.5.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.5.0.SGMRUXM_346fee2bb4_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.5.0.SGMRUXM_20221110.0000.00_12.0_53a4afd9f8.tgz"
-				},
-				{
-					"miui": "V13.0.4.0.SGMRUXM",
-					"android": "12.0",
-					"recovery": "miui_ICERUGlobal_V13.0.4.0.SGMRUXM_44f1532898_12.0.zip",
-					"fastboot": "ice_ru_global_images_V13.0.4.0.SGMRUXM_20220915.0000.00_12.0_d39dac8556.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_in_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "INSO",
-			"tag": "INXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度稳定版",
-			"en-us": "India Stable",
-			"links": [
-				{
-					"miui": "V13.0.17.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.17.0.SGMINXM_e0564bd4a0_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.17.0.SGMINXM_20241126.0000.00_12.0_23eb3d326d.tgz"
-				},
-				{
-					"miui": "V13.0.16.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.16.0.SGMINXM_15d428b4b5_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.16.0.SGMINXM_20240903.0000.00_12.0_e8cfe47cef.tgz"
-				},
-				{
-					"miui": "V13.0.15.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.15.0.SGMINXM_facd0c5611_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.15.0.SGMINXM_20240603.0000.00_12.0_d1d9c47ee9.tgz"
-				},
-				{
-					"miui": "V13.0.14.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.14.0.SGMINXM_f83948e162_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.13.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.13.0.SGMINXM_3998f2be93_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.13.0.SGMINXM_20240103.0000.00_12.0_393a2c31ef.tgz"
-				},
-				{
-					"miui": "V13.0.12.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.12.0.SGMINXM_649e78282c_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.11.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.11.0.SGMINXM_512981be57_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.11.0.SGMINXM_20230705.0000.00_12.0_bd86312b78.tgz"
-				},
-				{
-					"miui": "V13.0.10.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.10.0.SGMINXM_46b61c36bf_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.10.0.SGMINXM_20230518.0000.00_12.0_aff20e8a64.tgz"
-				},
-				{
-					"miui": "V13.0.9.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.9.0.SGMINXM_a97effad97_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.9.0.SGMINXM_20230307.0000.00_12.0_928cb72eaf.tgz"
-				},
-				{
-					"miui": "V13.0.7.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.7.0.SGMINXM_5899995145_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.7.0.SGMINXM_20221226.0000.00_12.0_ab58df19cc.tgz"
-				},
-				{
-					"miui": "V13.0.6.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.6.0.SGMINXM_0dcf5a6bfe_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.6.0.SGMINXM_20221129.0000.00_12.0_4799eba9f9.tgz"
-				},
-				{
-					"miui": "V13.0.5.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.5.0.SGMINXM_ee9b1c505f_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.5.0.SGMINXM_20221114.0000.00_12.0_a1eef93695.tgz"
-				},
-				{
-					"miui": "V13.0.4.0.SGMINXM",
-					"android": "12.0",
-					"recovery": "miui_ICEINGlobal_V13.0.4.0.SGMINXM_784e89b64d_12.0.zip",
-					"fastboot": "ice_in_global_images_V13.0.4.0.SGMINXM_20220920.0000.00_12.0_baa2db35c1.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_id_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "IDSO",
-			"tag": "IDXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度尼西亚稳定版",
-			"en-us": "Indonesia Stable",
-			"links": [
-				{
-					"miui": "V13.0.14.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.14.0.SGMIDXM_a0f74c9874_12.0.zip",
-					"fastboot": "ice_id_global_images_V13.0.14.0.SGMIDXM_20240903.0000.00_12.0_618c04b86a.tgz"
-				},
-				{
-					"miui": "V13.0.13.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.13.0.SGMIDXM_4f7d46958d_12.0.zip",
-					"fastboot": "ice_id_global_images_V13.0.13.0.SGMIDXM_20240603.0000.00_12.0_189112e987.tgz"
-				},
-				{
-					"miui": "V13.0.12.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.12.0.SGMIDXM_9f65cd7261_12.0.zip",
-					"fastboot": "ice_id_global_images_V13.0.12.0.SGMIDXM_20240223.0000.00_12.0_b4f9b8b6bf.tgz"
-				},
-				{
-					"miui": "V13.0.11.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.11.0.SGMIDXM_8116a5da5d_12.0.zip",
-					"fastboot": "ice_id_global_images_V13.0.11.0.SGMIDXM_20231204.0000.00_12.0_6e068dc339.tgz"
-				},
-				{
-					"miui": "V13.0.10.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.10.0.SGMIDXM_7a5830904f_12.0.zip",
-					"fastboot": "ice_id_global_images_V13.0.10.0.SGMIDXM_20230918.0000.00_12.0_ea435868f8.tgz"
-				},
-				{
-					"miui": "V13.0.9.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.9.0.SGMIDXM_9dc380cd0a_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.7.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.7.0.SGMIDXM_f58816b665_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.5.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.5.0.SGMIDXM_cee4593b39_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.4.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.4.0.SGMIDXM_1b61fb29ba_12.0.zip",
-					"fastboot": "ice_id_global_images_V13.0.4.0.SGMIDXM_20221110.0000.00_12.0_6862f71e66.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SGMIDXM",
-					"android": "12.0",
-					"recovery": "miui_ICEIDGlobal_V13.0.3.0.SGMIDXM_43a5fc4151_12.0.zip",
-					"fastboot": "ice_id_global_images_V13.0.3.0.SGMIDXM_20221021.0000.00_12.0_83dd6b7540.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_mx_tc_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "MXTC",
-			"tag": "MXTC",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "墨西哥Telcel运营商定制版",
-			"en-us": "Mexico Stable Telcel Carrier Edtion",
-			"links": [
-				{
-					"miui": "V13.0.16.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "miui_ICEMXTCGlobal_V13.0.16.0.SGMMXTC_b564774210_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.15.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "miui_ICEMXTCGlobal_V13.0.15.0.SGMMXTC_278ec8091b_12.0.zip",
-					"fastboot": "ice_mx_tc_global_images_V13.0.15.0.SGMMXTC_20240903.0000.00_12.0_5cd7a4ea6b.tgz"
-				},
-				{
-					"miui": "V13.0.14.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "miui_ICEMXTCGlobal_V13.0.14.0.SGMMXTC_14822362d6_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.13.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "miui_ICEMXTCGlobal_V13.0.13.0.SGMMXTC_688e1d96ac_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.11.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "miui_ICEMXTCGlobal_V13.0.11.0.SGMMXTC_f1dd123292_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.9.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "miui_ICEMXTCGlobal_V13.0.9.0.SGMMXTC_6aa775040b_12.0.zip",
-					"fastboot": "ice_mx_tc_global_images_V13.0.9.0.SGMMXTC_20231024.0000.00_12.0_14802170a9.tgz"
-				},
-				{
-					"miui": "V13.0.6.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "miui_ICEMXTCGlobal_V13.0.6.0.SGMMXTC_3a74bb3bcf_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.4.0.SGMMXTC",
-					"android": "12.0",
-					"recovery": "",
-					"fastboot": "ice_mx_tc_global_images_V13.0.4.0.SGMMXTC_20230201.0000.00_12.0_2a69216a0d.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_lm_cr_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "LMCR",
-			"tag": "LMCR",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "拉丁美洲Claro运营商定制版",
-			"en-us": "Latin America Claro Carrier Edition",
-			"links": [
-				{
-					"miui": "V13.0.15.0.SGMLMCR",
-					"android": "12.0",
-					"recovery": "miui_ICELMCRGlobal_V13.0.15.0.SGMLMCR_07d4a88086_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.12.0.SGMLMCR",
-					"android": "12.0",
-					"recovery": "miui_ICELMCRGlobal_V13.0.12.0.SGMLMCR_383166e20c_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.11.0.SGMLMCR",
-					"android": "12.0",
-					"recovery": "miui_ICELMCRGlobal_V13.0.11.0.SGMLMCR_34f0c581bc_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.10.0.SGMLMCR",
-					"android": "12.0",
-					"recovery": "miui_ICELMCRGlobal_V13.0.10.0.SGMLMCR_6af8b30e85_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.6.0.SGMLMCR",
-					"android": "12.0",
-					"recovery": "miui_ICELMCRGlobal_V13.0.6.0.SGMLMCR_b624fb8f89_12.0.zip",
-					"fastboot": "ice_lm_cr_global_images_V13.0.6.0.SGMLMCR_20230625.0000.00_12.0_7af50e78f3.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SGMLMCR",
-					"android": "12.0",
-					"recovery": "",
-					"fastboot": "ice_lm_cr_global_images_V13.0.2.0.SGMLMCR_20221121.0000.00_12.0_83f124f743.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_za_mt_global",
-			"btag": "F",
-			"region": "za",
-			"carrier": [],
-			"branch": "ZAMT",
-			"tag": "ZAMT",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "南非MTN运营商定制版",
-			"en-us": "South Africa MTN Carrier Edtion",
-			"links": [
-				{
-					"miui": "V13.0.11.0.SGMZAMT",
-					"android": "12.0",
-					"recovery": "miui_ICEZAMTGlobal_V13.0.11.0.SGMZAMT_562ac6b5af_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.6.0.SGMZAMT",
-					"android": "12.0",
-					"recovery": "miui_ICEZAMTGlobal_V13.0.6.0.SGMZAMT_594ccdeb30_12.0.zip",
-					"fastboot": "ice_za_mt_global_images_V13.0.6.0.SGMZAMT_20231120.0000.00_12.0_15a3347757.tgz"
-				},
-				{
-					"miui": "V13.0.5.0.SGMZAMT",
-					"android": "12.0",
-					"recovery": "miui_ICEZAMTGlobal_V13.0.5.0.SGMZAMT_eba9885a1e_12.0.zip",
-					"fastboot": "ice_za_mt_global_images_V13.0.5.0.SGMZAMT_20230529.0000.00_12.0_c5b1380a70.tgz"
-				}
-			]
-		},
-		{
-			"code": "ice_za_vc_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "ZAVC",
-			"tag": "ZAVC",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "南非Vodacom运营商定制版",
-			"en-us": "South Africa Vodacom Carrier Edtion",
-			"links": [
-				{
-					"miui": "V13.0.14.0.SGMZAVC",
-					"android": "12.0",
-					"recovery": "miui_ICEZAVCGlobal_V13.0.14.0.SGMZAVC_927c6a441f_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.13.0.SGMZAVC",
-					"android": "12.0",
-					"recovery": "miui_ICEZAVCGlobal_V13.0.13.0.SGMZAVC_c6d785c062_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.12.0.SGMZAVC",
-					"android": "12.0",
-					"recovery": "miui_ICEZAVCGlobal_V13.0.12.0.SGMZAVC_7c2f441a23_12.0.zip",
-					"fastboot": "ice_za_vc_global_images_V13.0.12.0.SGMZAVC_20240430.0000.00_12.0_0b85189791.tgz"
-				},
-				{
-					"miui": "V13.0.10.0.SGMZAVC",
-					"android": "12.0",
-					"recovery": "miui_ICEZAVCGlobal_V13.0.10.0.SGMZAVC_b192cb0329_12.0.zip",
-					"fastboot": "ice_za_vc_global_images_V13.0.10.0.SGMZAVC_20240123.0000.00_12.0_7ba7041558.tgz"
-				},
-				{
-					"miui": "V13.0.8.0.SGMZAVC",
-					"android": "12.0",
-					"recovery": "miui_ICEZAVCGlobal_V13.0.8.0.SGMZAVC_b029be9347_12.0.zip",
-					"fastboot": "ice_za_vc_global_images_V13.0.8.0.SGMZAVC_20231019.0000.00_12.0_369a909126.tgz"
-				},
-				{
-					"miui": "V13.0.6.0.SGMZAVC",
-					"android": "12.0",
-					"recovery": "miui_ICEZAVCGlobal_V13.0.6.0.SGMZAVC_8a8232e759_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.5.0.SGMZAVC",
-					"android": "12.0",
-					"recovery": "",
-					"fastboot": "ice_za_vc_global_images_V13.0.5.0.SGMZAVC_20230512.0000.00_12.0_52e1debfa7.tgz"
-				}
-			]
-		}
-	]
+  "codename": "ice",
+  "zh-cn": "Redmi A1/A1+/POCO C50",
+  "en-us": "Redmi A1/A1+/POCO C50",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "GM",
+  "android": [
+    "12.0"
+  ],
+  "miui": [
+    "V13.0"
+  ],
+  "branches": [
+    {
+      "code": "ice_tw_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "CNTP",
+      "tag": "TWXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国台湾省正式版",
+      "en-us": "China Taiwan Province Stable",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SGMTWXM",
+          "android": "12.0",
+          "recovery": "miui_ICETWGlobal_V13.0.5.0.SGMTWXM_b7a48c9555_12.0.zip",
+          "fastboot": "",
+          "release": "2023-01-17"
+        },
+        {
+          "miui": "V13.0.3.0.SGMTWXM",
+          "android": "12.0",
+          "recovery": "miui_ICETWGlobal_V13.0.3.0.SGMTWXM_7de35271ce_12.0.zip",
+          "fastboot": "ice_tw_global_images_V13.0.3.0.SGMTWXM_20221106.0000.00_12.0_e94f7d8b11.tgz",
+          "release": "2022-11-09"
+        }
+      ]
+    },
+    {
+      "code": "ice_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V13.0.24.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.24.0.SGMMIXM_0f50055db4_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.24.0.SGMMIXM_20240902.0000.00_12.0_88a9b0725e.tgz",
+          "release": "2024-09-10"
+        },
+        {
+          "miui": "V13.0.23.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.23.0.SGMMIXM_df6fdf0427_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.23.0.SGMMIXM_20240603.0000.00_12.0_87b3c966e8.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V13.0.22.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.22.0.SGMMIXM_fac75fb418_12.0.zip",
+          "fastboot": "",
+          "release": "2024-04-09"
+        },
+        {
+          "miui": "V13.0.20.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.20.0.SGMMIXM_8000e1831f_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.20.0.SGMMIXM_20240103.0000.00_12.0_139fff4086.tgz",
+          "release": "2024-01-11"
+        },
+        {
+          "miui": "V13.0.19.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.19.0.SGMMIXM_2886aab6f3_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.19.0.SGMMIXM_20231009.0000.00_12.0_c4e6c95e10.tgz",
+          "release": "2023-10-16"
+        },
+        {
+          "miui": "V13.0.18.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.18.0.SGMMIXM_966cb2fe87_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.18.0.SGMMIXM_20230705.0000.00_12.0_46e72839e4.tgz",
+          "release": "2023-07-13"
+        },
+        {
+          "miui": "V13.0.17.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.17.0.SGMMIXM_79c082f0cc_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.17.0.SGMMIXM_20230419.0000.00_12.0_24bbf833c3.tgz",
+          "release": "2023-04-27"
+        },
+        {
+          "miui": "V13.0.16.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.16.0.SGMMIXM_c64b377af5_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.16.0.SGMMIXM_20230309.0000.00_12.0_a867b953e0.tgz",
+          "release": "2023-03-17"
+        },
+        {
+          "miui": "V13.0.15.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.15.0.SGMMIXM_4ce69d0051_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.15.0.SGMMIXM_20221229.0000.00_12.0_49e7ca40a4.tgz",
+          "release": "2023-01-09"
+        },
+        {
+          "miui": "V13.0.14.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.14.0.SGMMIXM_0d73910fab_12.0.zip",
+          "fastboot": "",
+          "release": "2022-12-06"
+        },
+        {
+          "miui": "V13.0.13.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.13.0.SGMMIXM_5a58c98674_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.13.0.SGMMIXM_20221106.0000.00_12.0_a50fdf59df.tgz",
+          "release": "2022-11-09"
+        },
+        {
+          "miui": "V13.0.11.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.11.0.SGMMIXM_2666bc2bf7_12.0.zip",
+          "fastboot": "ice_global_images_V13.0.11.0.SGMMIXM_20221018.0000.00_12.0_7d4cd46637.tgz",
+          "release": "2022-10-24"
+        },
+        {
+          "miui": "V13.0.9.0.SGMMIXM",
+          "android": "12.0",
+          "recovery": "miui_ICEGlobal_V13.0.9.0.SGMMIXM_72e3fc029f_12.0.zip",
+          "fastboot": "",
+          "release": "2022-09-06"
+        }
+      ]
+    },
+    {
+      "code": "ice_eea_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "EEAO",
+      "tag": "EUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲EEA正式版",
+      "en-us": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V13.0.18.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.18.0.SGMEUXM_87d72949df_12.0.zip",
+          "fastboot": "ice_eea_global_images_V13.0.18.0.SGMEUXM_20240902.0000.00_12.0_c6e2eb289a.tgz",
+          "release": "2024-09-10"
+        },
+        {
+          "miui": "V13.0.17.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.17.0.SGMEUXM_955c71e240_12.0.zip",
+          "fastboot": "ice_eea_global_images_V13.0.17.0.SGMEUXM_20240603.0000.00_12.0_39046b4059.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V13.0.16.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.16.0.SGMEUXM_fc9550ad38_12.0.zip",
+          "fastboot": "",
+          "release": "2024-04-09"
+        },
+        {
+          "miui": "V13.0.15.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.15.0.SGMEUXM_dae7dcb07e_12.0.zip",
+          "fastboot": "ice_eea_global_images_V13.0.15.0.SGMEUXM_20240103.0000.00_12.0_ec3dcbb3c6.tgz",
+          "release": "2024-01-11"
+        },
+        {
+          "miui": "V13.0.13.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.13.0.SGMEUXM_a1a839e3cc_12.0.zip",
+          "fastboot": "ice_eea_global_images_V13.0.13.0.SGMEUXM_20230710.0000.00_12.0_9bdce0f2e4.tgz",
+          "release": "2023-07-18"
+        },
+        {
+          "miui": "V13.0.12.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.12.0.SGMEUXM_5e2939cab5_12.0.zip",
+          "fastboot": "",
+          "release": "2023-06-13"
+        },
+        {
+          "miui": "V13.0.11.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.11.0.SGMEUXM_8c2f2f249d_12.0.zip",
+          "fastboot": "",
+          "release": "2023-05-10"
+        },
+        {
+          "miui": "V13.0.10.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.10.0.SGMEUXM_6c1c738cb8_12.0.zip",
+          "fastboot": "",
+          "release": "2023-03-15"
+        },
+        {
+          "miui": "V13.0.9.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.9.0.SGMEUXM_990a0bce32_12.0.zip",
+          "fastboot": "",
+          "release": "2023-03-02"
+        },
+        {
+          "miui": "V13.0.8.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.8.0.SGMEUXM_808bacd2db_12.0.zip",
+          "fastboot": "",
+          "release": "2023-01-10"
+        },
+        {
+          "miui": "V13.0.7.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.7.0.SGMEUXM_e088ae3a1e_12.0.zip",
+          "fastboot": "",
+          "release": "2022-12-09"
+        },
+        {
+          "miui": "V13.0.6.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.6.0.SGMEUXM_9d8e4df1a0_12.0.zip",
+          "fastboot": "ice_eea_global_images_V13.0.6.0.SGMEUXM_20221109.0000.00_12.0_c1518571a5.tgz",
+          "release": "2022-11-15"
+        },
+        {
+          "miui": "V13.0.5.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.5.0.SGMEUXM_b7e445c279_12.0.zip",
+          "fastboot": "",
+          "release": "2022-10-27"
+        },
+        {
+          "miui": "V13.0.3.0.SGMEUXM",
+          "android": "12.0",
+          "recovery": "miui_ICEEEAGlobal_V13.0.3.0.SGMEUXM_70b71b516b_12.0.zip",
+          "fastboot": "ice_eea_global_images_V13.0.3.0.SGMEUXM_20220915.0000.00_12.0_dc6cb84563.tgz",
+          "release": "2022-10-26"
+        }
+      ]
+    },
+    {
+      "code": "ice_ru_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "RUSO",
+      "tag": "RUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "俄罗斯正式版",
+      "en-us": "Russia Stable",
+      "links": [
+        {
+          "miui": "V13.0.15.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.15.0.SGMRUXM_94d9bda99f_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.15.0.SGMRUXM_20240903.0000.00_12.0_cecbfa6509.tgz",
+          "release": "2024-09-13"
+        },
+        {
+          "miui": "V13.0.14.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.14.0.SGMRUXM_44b7346f58_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.14.0.SGMRUXM_20240603.0000.00_12.0_a602414cb8.tgz",
+          "release": "2024-06-11"
+        },
+        {
+          "miui": "V13.0.13.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.13.0.SGMRUXM_da30a30397_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.13.0.SGMRUXM_20240223.0000.00_12.0_004bf2f208.tgz",
+          "release": "2024-03-05"
+        },
+        {
+          "miui": "V13.0.12.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.12.0.SGMRUXM_c425e141e3_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.12.0.SGMRUXM_20231204.0000.00_12.0_6cb7fa877b.tgz",
+          "release": "2023-12-11"
+        },
+        {
+          "miui": "V13.0.11.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.11.0.SGMRUXM_b8172a87d4_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.11.0.SGMRUXM_20230918.0000.00_12.0_99f80b2cf3.tgz",
+          "release": "2023-09-22"
+        },
+        {
+          "miui": "V13.0.10.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.10.0.SGMRUXM_8f3abebbec_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.10.0.SGMRUXM_20230531.0000.00_12.0_51615f49c6.tgz",
+          "release": "2023-06-12"
+        },
+        {
+          "miui": "V13.0.9.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.9.0.SGMRUXM_65a6c4dfe5_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.9.0.SGMRUXM_20230307.0000.00_12.0_960c2c1a98.tgz",
+          "release": "2023-03-15"
+        },
+        {
+          "miui": "V13.0.8.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.8.0.SGMRUXM_a6cf0933a6_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.8.0.SGMRUXM_20230224.0000.00_12.0_af695ee38a.tgz",
+          "release": "2023-03-02"
+        },
+        {
+          "miui": "V13.0.7.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.7.0.SGMRUXM_f925821abf_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.7.0.SGMRUXM_20221220.0000.00_12.0_148811372c.tgz",
+          "release": "2023-01-04"
+        },
+        {
+          "miui": "V13.0.5.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.5.0.SGMRUXM_346fee2bb4_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.5.0.SGMRUXM_20221110.0000.00_12.0_53a4afd9f8.tgz",
+          "release": "2022-11-16"
+        },
+        {
+          "miui": "V13.0.4.0.SGMRUXM",
+          "android": "12.0",
+          "recovery": "miui_ICERUGlobal_V13.0.4.0.SGMRUXM_44f1532898_12.0.zip",
+          "fastboot": "ice_ru_global_images_V13.0.4.0.SGMRUXM_20220915.0000.00_12.0_d39dac8556.tgz",
+          "release": "2022-10-24"
+        }
+      ]
+    },
+    {
+      "code": "ice_in_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "INSO",
+      "tag": "INXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度正式版",
+      "en-us": "India Stable",
+      "links": [
+        {
+          "miui": "V13.0.17.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.17.0.SGMINXM_e0564bd4a0_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.17.0.SGMINXM_20241126.0000.00_12.0_23eb3d326d.tgz",
+          "release": "2024-12-10"
+        },
+        {
+          "miui": "V13.0.16.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.16.0.SGMINXM_15d428b4b5_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.16.0.SGMINXM_20240903.0000.00_12.0_e8cfe47cef.tgz",
+          "release": "2024-09-14"
+        },
+        {
+          "miui": "V13.0.15.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.15.0.SGMINXM_facd0c5611_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.15.0.SGMINXM_20240603.0000.00_12.0_d1d9c47ee9.tgz",
+          "release": "2024-06-13"
+        },
+        {
+          "miui": "V13.0.14.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.14.0.SGMINXM_f83948e162_12.0.zip",
+          "fastboot": "",
+          "release": "2024-04-09"
+        },
+        {
+          "miui": "V13.0.13.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.13.0.SGMINXM_3998f2be93_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.13.0.SGMINXM_20240103.0000.00_12.0_393a2c31ef.tgz",
+          "release": "2024-01-11"
+        },
+        {
+          "miui": "V13.0.12.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.12.0.SGMINXM_649e78282c_12.0.zip",
+          "fastboot": "",
+          "release": "2023-10-10"
+        },
+        {
+          "miui": "V13.0.11.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.11.0.SGMINXM_512981be57_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.11.0.SGMINXM_20230705.0000.00_12.0_bd86312b78.tgz",
+          "release": "2023-07-13"
+        },
+        {
+          "miui": "V13.0.10.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.10.0.SGMINXM_46b61c36bf_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.10.0.SGMINXM_20230518.0000.00_12.0_aff20e8a64.tgz",
+          "release": "2023-05-23"
+        },
+        {
+          "miui": "V13.0.9.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.9.0.SGMINXM_a97effad97_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.9.0.SGMINXM_20230307.0000.00_12.0_928cb72eaf.tgz",
+          "release": "2023-03-13"
+        },
+        {
+          "miui": "V13.0.7.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.7.0.SGMINXM_5899995145_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.7.0.SGMINXM_20221226.0000.00_12.0_ab58df19cc.tgz",
+          "release": "2023-01-04"
+        },
+        {
+          "miui": "V13.0.6.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.6.0.SGMINXM_0dcf5a6bfe_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.6.0.SGMINXM_20221129.0000.00_12.0_4799eba9f9.tgz",
+          "release": "2022-12-06"
+        },
+        {
+          "miui": "V13.0.5.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.5.0.SGMINXM_ee9b1c505f_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.5.0.SGMINXM_20221114.0000.00_12.0_a1eef93695.tgz",
+          "release": "2022-11-18"
+        },
+        {
+          "miui": "V13.0.4.0.SGMINXM",
+          "android": "12.0",
+          "recovery": "miui_ICEINGlobal_V13.0.4.0.SGMINXM_784e89b64d_12.0.zip",
+          "fastboot": "ice_in_global_images_V13.0.4.0.SGMINXM_20220920.0000.00_12.0_baa2db35c1.tgz",
+          "release": "2022-10-24"
+        }
+      ]
+    },
+    {
+      "code": "ice_id_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "IDSO",
+      "tag": "IDXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度尼西亚正式版",
+      "en-us": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V13.0.14.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.14.0.SGMIDXM_a0f74c9874_12.0.zip",
+          "fastboot": "ice_id_global_images_V13.0.14.0.SGMIDXM_20240903.0000.00_12.0_618c04b86a.tgz",
+          "release": "2024-09-13"
+        },
+        {
+          "miui": "V13.0.13.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.13.0.SGMIDXM_4f7d46958d_12.0.zip",
+          "fastboot": "ice_id_global_images_V13.0.13.0.SGMIDXM_20240603.0000.00_12.0_189112e987.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V13.0.12.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.12.0.SGMIDXM_9f65cd7261_12.0.zip",
+          "fastboot": "ice_id_global_images_V13.0.12.0.SGMIDXM_20240223.0000.00_12.0_b4f9b8b6bf.tgz",
+          "release": "2024-03-15"
+        },
+        {
+          "miui": "V13.0.11.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.11.0.SGMIDXM_8116a5da5d_12.0.zip",
+          "fastboot": "ice_id_global_images_V13.0.11.0.SGMIDXM_20231204.0000.00_12.0_6e068dc339.tgz",
+          "release": "2023-12-11"
+        },
+        {
+          "miui": "V13.0.10.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.10.0.SGMIDXM_7a5830904f_12.0.zip",
+          "fastboot": "ice_id_global_images_V13.0.10.0.SGMIDXM_20230918.0000.00_12.0_ea435868f8.tgz",
+          "release": "2023-09-22"
+        },
+        {
+          "miui": "V13.0.9.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.9.0.SGMIDXM_9dc380cd0a_12.0.zip",
+          "fastboot": "",
+          "release": "2023-06-15"
+        },
+        {
+          "miui": "V13.0.7.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.7.0.SGMIDXM_f58816b665_12.0.zip",
+          "fastboot": "",
+          "release": "2023-03-13"
+        },
+        {
+          "miui": "V13.0.5.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.5.0.SGMIDXM_cee4593b39_12.0.zip",
+          "fastboot": "",
+          "release": "2023-01-12"
+        },
+        {
+          "miui": "V13.0.4.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.4.0.SGMIDXM_1b61fb29ba_12.0.zip",
+          "fastboot": "ice_id_global_images_V13.0.4.0.SGMIDXM_20221110.0000.00_12.0_6862f71e66.tgz",
+          "release": "2022-11-16"
+        },
+        {
+          "miui": "V13.0.3.0.SGMIDXM",
+          "android": "12.0",
+          "recovery": "miui_ICEIDGlobal_V13.0.3.0.SGMIDXM_43a5fc4151_12.0.zip",
+          "fastboot": "ice_id_global_images_V13.0.3.0.SGMIDXM_20221021.0000.00_12.0_83dd6b7540.tgz",
+          "release": "2022-10-28"
+        }
+      ]
+    },
+    {
+      "code": "ice_mx_tc_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "MXTC",
+      "tag": "MXTC",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "墨西哥Telcel运营商定制版",
+      "en-us": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.16.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.16.0.SGMMXTC_b564774210_12.0.zip",
+          "fastboot": "",
+          "release": "2024-11-14"
+        },
+        {
+          "miui": "V13.0.15.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.15.0.SGMMXTC_278ec8091b_12.0.zip",
+          "fastboot": "ice_mx_tc_global_images_V13.0.15.0.SGMMXTC_20240903.0000.00_12.0_5cd7a4ea6b.tgz",
+          "release": "2024-09-13"
+        },
+        {
+          "miui": "V13.0.14.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.14.0.SGMMXTC_14822362d6_12.0.zip",
+          "fastboot": "",
+          "release": "2024-08-03"
+        },
+        {
+          "miui": "V13.0.13.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.13.0.SGMMXTC_688e1d96ac_12.0.zip",
+          "fastboot": "",
+          "release": "2024-05-21"
+        },
+        {
+          "miui": "V13.0.11.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.11.0.SGMMXTC_f1dd123292_12.0.zip",
+          "fastboot": "",
+          "release": "2024-04-01"
+        },
+        {
+          "miui": "V13.0.9.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.9.0.SGMMXTC_6aa775040b_12.0.zip",
+          "fastboot": "ice_mx_tc_global_images_V13.0.9.0.SGMMXTC_20231024.0000.00_12.0_14802170a9.tgz",
+          "release": "2023-11-02"
+        },
+        {
+          "miui": "V13.0.6.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "miui_ICEMXTCGlobal_V13.0.6.0.SGMMXTC_3a74bb3bcf_12.0.zip",
+          "fastboot": "",
+          "release": "2023-06-06"
+        },
+        {
+          "miui": "V13.0.4.0.SGMMXTC",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "ice_mx_tc_global_images_V13.0.4.0.SGMMXTC_20230201.0000.00_12.0_2a69216a0d.tgz",
+          "release": "2023-02-13"
+        }
+      ]
+    },
+    {
+      "code": "ice_lm_cr_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "LMCR",
+      "tag": "LMCR",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "拉丁美洲Claro运营商定制版",
+      "en-us": "Latin America Claro Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.15.0.SGMLMCR",
+          "android": "12.0",
+          "recovery": "miui_ICELMCRGlobal_V13.0.15.0.SGMLMCR_07d4a88086_12.0.zip",
+          "fastboot": "",
+          "release": "2024-12-17"
+        },
+        {
+          "miui": "V13.0.12.0.SGMLMCR",
+          "android": "12.0",
+          "recovery": "miui_ICELMCRGlobal_V13.0.12.0.SGMLMCR_383166e20c_12.0.zip",
+          "fastboot": "",
+          "release": "2024-05-15"
+        },
+        {
+          "miui": "V13.0.11.0.SGMLMCR",
+          "android": "12.0",
+          "recovery": "miui_ICELMCRGlobal_V13.0.11.0.SGMLMCR_34f0c581bc_12.0.zip",
+          "fastboot": "",
+          "release": "2024-03-18"
+        },
+        {
+          "miui": "V13.0.10.0.SGMLMCR",
+          "android": "12.0",
+          "recovery": "miui_ICELMCRGlobal_V13.0.10.0.SGMLMCR_6af8b30e85_12.0.zip",
+          "fastboot": "",
+          "release": "2024-02-21"
+        },
+        {
+          "miui": "V13.0.6.0.SGMLMCR",
+          "android": "12.0",
+          "recovery": "miui_ICELMCRGlobal_V13.0.6.0.SGMLMCR_b624fb8f89_12.0.zip",
+          "fastboot": "ice_lm_cr_global_images_V13.0.6.0.SGMLMCR_20230625.0000.00_12.0_7af50e78f3.tgz",
+          "release": "2023-07-06"
+        },
+        {
+          "miui": "V13.0.2.0.SGMLMCR",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "ice_lm_cr_global_images_V13.0.2.0.SGMLMCR_20221121.0000.00_12.0_83f124f743.tgz",
+          "release": "2022-12-05"
+        }
+      ]
+    },
+    {
+      "code": "ice_za_mt_global",
+      "btag": "F",
+      "region": "za",
+      "carrier": [],
+      "branch": "ZAMT",
+      "tag": "ZAMT",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "南非MTN运营商定制版",
+      "en-us": "South Africa MTN Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.11.0.SGMZAMT",
+          "android": "12.0",
+          "recovery": "miui_ICEZAMTGlobal_V13.0.11.0.SGMZAMT_562ac6b5af_12.0.zip",
+          "fastboot": "",
+          "release": "2024-12-12"
+        },
+        {
+          "miui": "V13.0.6.0.SGMZAMT",
+          "android": "12.0",
+          "recovery": "miui_ICEZAMTGlobal_V13.0.6.0.SGMZAMT_594ccdeb30_12.0.zip",
+          "fastboot": "ice_za_mt_global_images_V13.0.6.0.SGMZAMT_20231120.0000.00_12.0_15a3347757.tgz",
+          "release": "2023-12-11"
+        },
+        {
+          "miui": "V13.0.5.0.SGMZAMT",
+          "android": "12.0",
+          "recovery": "miui_ICEZAMTGlobal_V13.0.5.0.SGMZAMT_eba9885a1e_12.0.zip",
+          "fastboot": "ice_za_mt_global_images_V13.0.5.0.SGMZAMT_20230529.0000.00_12.0_c5b1380a70.tgz",
+          "release": "2023-07-03"
+        }
+      ]
+    },
+    {
+      "code": "ice_za_vc_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "ZAVC",
+      "tag": "ZAVC",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "南非Vodacom运营商定制版",
+      "en-us": "South Africa Vodacom Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.14.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "miui_ICEZAVCGlobal_V13.0.14.0.SGMZAVC_927c6a441f_12.0.zip",
+          "fastboot": "",
+          "release": "2024-11-21"
+        },
+        {
+          "miui": "V13.0.13.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "miui_ICEZAVCGlobal_V13.0.13.0.SGMZAVC_c6d785c062_12.0.zip",
+          "fastboot": "",
+          "release": "2024-08-07"
+        },
+        {
+          "miui": "V13.0.12.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "miui_ICEZAVCGlobal_V13.0.12.0.SGMZAVC_7c2f441a23_12.0.zip",
+          "fastboot": "ice_za_vc_global_images_V13.0.12.0.SGMZAVC_20240430.0000.00_12.0_0b85189791.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V13.0.10.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "miui_ICEZAVCGlobal_V13.0.10.0.SGMZAVC_b192cb0329_12.0.zip",
+          "fastboot": "ice_za_vc_global_images_V13.0.10.0.SGMZAVC_20240123.0000.00_12.0_7ba7041558.tgz",
+          "release": "2024-02-29"
+        },
+        {
+          "miui": "V13.0.8.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "miui_ICEZAVCGlobal_V13.0.8.0.SGMZAVC_b029be9347_12.0.zip",
+          "fastboot": "ice_za_vc_global_images_V13.0.8.0.SGMZAVC_20231019.0000.00_12.0_369a909126.tgz",
+          "release": "2023-11-03"
+        },
+        {
+          "miui": "V13.0.6.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "miui_ICEZAVCGlobal_V13.0.6.0.SGMZAVC_8a8232e759_12.0.zip",
+          "fastboot": "",
+          "release": "2023-09-06"
+        },
+        {
+          "miui": "V13.0.5.0.SGMZAVC",
+          "android": "12.0",
+          "recovery": "",
+          "fastboot": "ice_za_vc_global_images_V13.0.5.0.SGMZAVC_20230512.0000.00_12.0_52e1debfa7.tgz",
+          "release": "2023-05-25"
+        }
+      ]
+    }
+  ]
 }

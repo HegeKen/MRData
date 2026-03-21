@@ -1,51 +1,57 @@
 {
-	"codename": "raphaels",
-	"zh-cn": "Redmi K20 Pro 尊享版",
-	"en-us": "Redmi K20 Pro Premium Edition",
-	"attentions": [
-		{
-			"zh-cn": "自MIUI11开始,Redmi K20 Pro 尊享版就已经开始与Redmi K20 Pro合并发包了,有需要请点击前往Redmi K20 Pro页面",
-			"en-us": "Since the release of MIUI11, Redmi K20 Pro Premium Edition has been merged with Redmi K20 Pro."
-		}
-	],
-	"cdid": "5588638",
-	"ismiui": "",
-	"ccshow": "1",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "FK",
-	"android": ["9.0"],
-	"miui": ["V10.4"],
-	"branches": [
-		{
-			"code": "raphaels",
-			"btag": "F",
-			"region": "cn",
-			"carrier": [],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国大陆稳定版",
-			"en-us": "China Mainland Stable",
-			"links": [
-				{
-					"miui": "V10.4.2.0.PFKCNXM",
-					"android": "9.0",
-					"recovery": "miui_RAPHAELS_V10.4.2.0.PFKCNXM_8c927a5be2_9.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V10.4.1.0.PFKCNXM",
-					"android": "9.0",
-					"recovery": "miui_RAPHAELS_V10.4.1.0.PFKCNXM_ff9fc7e2a8_9.0.zip",
-					"fastboot": "raphaels_images_V10.4.1.0.PFKCNXM_20190827.0000.00_9.0_cn_b5b0ec9918.tgz"
-				}
-			]
-		}
-	]
+  "codename": "raphaels",
+  "zh-cn": "Redmi K20 Pro 尊享版",
+  "en-us": "Redmi K20 Pro Premium Edition",
+  "attentions": [
+    {
+      "zh-cn": "自MIUI11开始,Redmi K20 Pro 尊享版就已经开始与Redmi K20 Pro合并发包了,有需要请点击前往Redmi K20 Pro页面",
+      "en-us": "Since the release of MIUI11, Redmi K20 Pro Premium Edition has been merged with Redmi K20 Pro."
+    }
+  ],
+  "cdid": "5588638",
+  "ismiui": "",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "FK",
+  "android": [
+    "9.0"
+  ],
+  "miui": [
+    "V10.4"
+  ],
+  "branches": [
+    {
+      "code": "raphaels",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国大陆正式版",
+      "en-us": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V10.4.2.0.PFKCNXM",
+          "android": "9.0",
+          "recovery": "miui_RAPHAELS_V10.4.2.0.PFKCNXM_8c927a5be2_9.0.zip",
+          "fastboot": "",
+          "release": "2019-09-29"
+        },
+        {
+          "miui": "V10.4.1.0.PFKCNXM",
+          "android": "9.0",
+          "recovery": "miui_RAPHAELS_V10.4.1.0.PFKCNXM_ff9fc7e2a8_9.0.zip",
+          "fastboot": "raphaels_images_V10.4.1.0.PFKCNXM_20190827.0000.00_9.0_cn_b5b0ec9918.tgz",
+          "release": "2019-09-20"
+        }
+      ]
+    }
+  ]
 }

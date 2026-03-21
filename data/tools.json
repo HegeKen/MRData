@@ -228,13 +228,12 @@
 							"en-us": "Backup: MiAssistant 3.0 has re-engineered the backup logic, you can backup SMS, Contacts, Call Logs, System Applications, Third-party Applications, Images, Videos, Music, Documents, etc."
 						},
 						{
-              "zh-cn": "恢复：与备份一样，我们的恢复也支持整机的数据恢复功能，小米助手3.0的备份数据都将恢复到您的手机中，以后更换手机，刷机等情况下再也不愁手机的备份和恢复啦。",
+							"zh-cn": "恢复：与备份一样，我们的恢复也支持整机的数据恢复功能，小米助手3.0的备份数据都将恢复到您的手机中，以后更换手机，刷机等情况下再也不愁手机的备份和恢复啦。",
 							"en-us": "Restore: As well as Backup, MiAssistant 3.0 also supports the feature of restoring the data of the entire phone, the backup data of MiAssistant 3.0 Second phase will be restored to your phone, and you will no longer worry about the backup and restore of your phone when you change your phone, flash or reinstall the system."
 						},
 						{
-              "zh-cn": "刷机：小米助手3.0支持Recovery刷机，我们也针对MIUI9增加了速度更快的极速刷机模式，刷机速度就像MIUI9一样“快如闪电”。",
+							"zh-cn": "刷机：小米助手3.0支持Recovery刷机，我们也针对MIUI9增加了速度更快的极速刷机模式，刷机速度就像MIUI9一样“快如闪电”。",
 							"en-us": "Flash: MiAssistant 3.0 supports Recovery flashing, we also added the feature of fast flashing mode for MIUI9, flashing speed is like MIUI9, \"fast as lightning\"."
-
 						}
 					]
 				},
@@ -512,7 +511,7 @@
 							"en-us": "Redo of the backup function, fixing the issue that system version can't restore backup files, this version will restore contacts, SMS, applications and data in backup files."
 						},
 						{
-							"zh-cn": "重构了Fastboot刷机功能，增加了稳定版/开发版的选择，支持了红米1S电信版/联通版、红米Note 4G（其他红米机型暂不支持）",
+							"zh-cn": "重构了Fastboot刷机功能，增加了正式版/开发版的选择，支持了红米1S电信版/联通版、红米Note 4G（其他红米机型暂不支持）",
 							"en-us": "Redo of the Fastboot flashing function, adding the choice of stable version/development version, supporting Redmi 1S Telecom Edition/Unicom Edition and Redmi Note 4G (other Redmi models are not supported temporarily)."
 						},
 						{
@@ -1129,7 +1128,7 @@
 					"attentions": [],
 					"logs": [
 						{
-							"zh-cn": "优化 手机助手与稳定版MIUI系统兼容性提高",
+							"zh-cn": "优化 手机助手与正式版MIUI系统兼容性提高",
 							"en-us": "Optimizing MiPhoneSuite compatibility with MIUI stable."
 						},
 						{
@@ -1158,7 +1157,7 @@
 							"en-us": "Fixing main theread exiting while upgrading"
 						},
 						{
-							"zh-cn": "修复 稳定版手机连接时无法显示导航按钮",
+							"zh-cn": "修复 正式版手机连接时无法显示导航按钮",
 							"en-us": "Fixing Navigation not showing while connected to phone packed with stable version"
 						},
 						{
@@ -1571,7 +1570,7 @@
 					"attentions": [],
 					"logs": [
 						{
-							"zh-cn": "修复了稳定版本手机系统备份成功后可能会找不到还原条目的问题",
+							"zh-cn": "修复了正式版本手机系统备份成功后可能会找不到还原条目的问题",
 							"en-us": "Fixing stable version can't locate restore entry after backup"
 						}
 					]

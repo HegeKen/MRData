@@ -1,653 +1,722 @@
 {
-	"codename": "monet",
-	"zh-cn": "小米 10 Lite",
-	"en-us": "Mi 10 Lite",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "JI",
-	"android": [
-		"10.0",
-		"11.0",
-		"12.0"
-	],
-	"miui": [
-		"V11.0",
-		"V12.0",
-		"V12.1",
-		"V12.5",
-		"V13.0"
-	],
-	"branches": [
-		{
-			"code": "monet_tw_global",
-			"btag": "F",
-			"region": "tw",
-			"carrier": [],
-			"branch": "CNTP",
-			"tag": "TWXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国台湾省稳定版",
-			"en-us": "China Taiwan Province Stable",
-			"links": [
-				{
-					"miui": "V13.0.3.0.SJITWXM",
-					"android": "12.0",
-					"recovery": "miui_MONETTWGlobal_V13.0.3.0.SJITWXM_ce1142f4a0_12.0.zip",
-					"fastboot": "monet_tw_global_images_V13.0.3.0.SJITWXM_20221106.0000.00_12.0_global_9d489b1912.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SJITWXM",
-					"android": "12.0",
-					"recovery": "miui_MONETTWGlobal_V13.0.2.0.SJITWXM_49a2dc2dea_12.0.zip",
-					"fastboot": "monet_tw_global_images_V13.0.2.0.SJITWXM_20220526.0000.00_12.0_global_8572f1d1e8.tgz"
-				},
-				{
-					"miui": "V13.0.1.0.SJITWXM",
-					"android": "12.0",
-					"recovery": "miui_MONETTWGlobal_V13.0.1.0.SJITWXM_d8d23da7f4_12.0.zip",
-					"fastboot": "monet_tw_global_images_V13.0.1.0.SJITWXM_20220406.0000.00_12.0_global_5308c9d869.tgz"
-				},
-				{
-					"miui": "V12.5.6.0.RJITWXM",
-					"android": "11.0",
-					"recovery": "miui_MONETTWGlobal_V12.5.6.0.RJITWXM_2c27a3877a_11.0.zip",
-					"fastboot": "monet_tw_global_images_V12.5.6.0.RJITWXM_20211211.0000.00_11.0_global_eaf15a33ae.tgz"
-				},
-				{
-					"miui": "V12.5.4.0.RJITWXM",
-					"android": "11.0",
-					"recovery": "miui_MONETTWGlobal_V12.5.4.0.RJITWXM_fef7926573_11.0.zip",
-					"fastboot": "monet_tw_global_images_V12.5.4.0.RJITWXM_20211012.0000.00_11.0_global_e523cf373c.tgz"
-				},
-				{
-					"miui": "V12.5.3.0.RJITWXM",
-					"android": "11.0",
-					"recovery": "miui_MONETTWGlobal_V12.5.3.0.RJITWXM_44a2fb92ac_11.0.zip",
-					"fastboot": "monet_tw_global_images_V12.5.3.0.RJITWXM_20210811.0000.00_11.0_global_050df1e3bb.tgz"
-				},
-				{
-					"miui": "V12.5.2.0.RJITWXM",
-					"android": "11.0",
-					"recovery": "miui_MONETTWGlobal_V12.5.2.0.RJITWXM_618b746a50_11.0.zip",
-					"fastboot": "monet_tw_global_images_V12.5.2.0.RJITWXM_20210616.0000.00_11.0_global_a1339d8c7e.tgz"
-				},
-				{
-					"miui": "V12.1.2.0.RJITWXM",
-					"android": "11.0",
-					"recovery": "miui_MONETTWGlobal_V12.1.2.0.RJITWXM_7ce064ebb3_11.0.zip",
-					"fastboot": "monet_tw_global_images_V12.1.2.0.RJITWXM_20210311.0000.00_11.0_global_7d51589c00.tgz"
-				},
-				{
-					"miui": "V12.1.1.0.RJITWXM",
-					"android": "11.0",
-					"recovery": "miui_MONETTWGlobal_V12.1.1.0.RJITWXM_74b2ce0ba1_11.0.zip",
-					"fastboot": "monet_tw_global_images_V12.1.1.0.RJITWXM_20210120.0000.00_11.0_global_b76daee78e.tgz"
-				},
-				{
-					"miui": "V12.0.1.0.QJITWXM",
-					"android": "10.0",
-					"recovery": "miui_MONETTWGlobal_V12.0.1.0.QJITWXM_44a1de5563_10.0.zip",
-					"fastboot": "monet_tw_global_images_V12.0.1.0.QJITWXM_20201021.0000.00_10.0_global_3462978230.tgz"
-				}
-			]
-		},
-		{
-			"code": "monet_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际稳定版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V13.0.4.0.SJIMIXM",
-					"android": "12.0",
-					"recovery": "miui_MONETGlobal_V13.0.4.0.SJIMIXM_fd908f0df4_12.0.zip",
-					"fastboot": "monet_global_images_V13.0.4.0.SJIMIXM_20221106.0000.00_12.0_global_10957bb652.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SJIMIXM",
-					"android": "12.0",
-					"recovery": "miui_MONETGlobal_V13.0.3.0.SJIMIXM_eb3a61f8a5_12.0.zip",
-					"fastboot": "monet_global_images_V13.0.3.0.SJIMIXM_20220526.0000.00_12.0_global_5790ecea81.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SJIMIXM",
-					"android": "12.0",
-					"recovery": "miui_MONETGlobal_V13.0.2.0.SJIMIXM_f2b661bdf6_12.0.zip",
-					"fastboot": "monet_global_images_V13.0.2.0.SJIMIXM_20220321.0000.00_12.0_global_dd45c53cab.tgz"
-				},
-				{
-					"miui": "V12.5.6.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.5.6.0.RJIMIXM_ae7dec2044_11.0.zip",
-					"fastboot": "monet_global_images_V12.5.6.0.RJIMIXM_20220119.0000.00_11.0_global_73af3fd7c1.tgz"
-				},
-				{
-					"miui": "V12.5.5.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.5.5.0.RJIMIXM_36e9bcf5b4_11.0.zip",
-					"fastboot": "monet_global_images_V12.5.5.0.RJIMIXM_20211202.0000.00_11.0_global_17078d2894.tgz"
-				},
-				{
-					"miui": "V12.5.4.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.5.4.0.RJIMIXM_55bfcc7da8_11.0.zip",
-					"fastboot": "monet_global_images_V12.5.4.0.RJIMIXM_20210918.0000.00_11.0_global_ce7072b484.tgz"
-				},
-				{
-					"miui": "V12.5.2.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.5.2.0.RJIMIXM_22aa790086_11.0.zip",
-					"fastboot": "monet_global_images_V12.5.2.0.RJIMIXM_20210802.0000.00_11.0_global_195855b0b7.tgz"
-				},
-				{
-					"miui": "V12.5.1.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.5.1.0.RJIMIXM_d9504eb546_11.0.zip",
-					"fastboot": "monet_global_images_V12.5.1.0.RJIMIXM_20210520.0000.00_11.0_global_c87d4fd38b.tgz"
-				},
-				{
-					"miui": "V12.1.4.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.1.4.0.RJIMIXM_f299c46cfa_11.0.zip",
-					"fastboot": "monet_global_images_V12.1.4.0.RJIMIXM_20210328.0000.00_11.0_global_1afc98c4ea.tgz"
-				},
-				{
-					"miui": "V12.1.2.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.1.2.0.RJIMIXM_71e7eee2dd_11.0.zip",
-					"fastboot": "monet_global_images_V12.1.2.0.RJIMIXM_20210117.0000.00_11.0_global_4588caf81d.tgz"
-				},
-				{
-					"miui": "V12.1.1.0.RJIMIXM",
-					"android": "11.0",
-					"recovery": "miui_MONETGlobal_V12.1.1.0.RJIMIXM_ca34271367_11.0.zip",
-					"fastboot": "monet_global_images_V12.1.1.0.RJIMIXM_20201126.0000.00_11.0_global_fdc58465e1.tgz"
-				},
-				{
-					"miui": "V12.0.2.0.QJIMIXM",
-					"android": "10.0",
-					"recovery": "miui_MONETGlobal_V12.0.2.0.QJIMIXM_d2c28e07f9_10.0.zip",
-					"fastboot": "monet_global_images_V12.0.2.0.QJIMIXM_20201017.0000.00_10.0_global_ec0fa93c47.tgz"
-				},
-				{
-					"miui": "V12.0.1.0.QJIMIXM",
-					"android": "10.0",
-					"recovery": "miui_MONETGlobal_V12.0.1.0.QJIMIXM_be919da9b6_10.0.zip",
-					"fastboot": "monet_global_images_V12.0.1.0.QJIMIXM_20200819.0000.00_10.0_global_b9bd9f8dfc.tgz"
-				},
-				{
-					"miui": "V11.0.4.0.QJIMIXM",
-					"android": "10.0",
-					"recovery": "miui_MONETGlobal_V11.0.4.0.QJIMIXM_7e9d77c86e_10.0.zip",
-					"fastboot": "monet_global_images_V11.0.4.0.QJIMIXM_20200619.0000.00_10.0_global_99238dbcea.tgz"
-				}
-			]
-		},
-		{
-			"code": "monet_eea_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [],
-			"branch": "EEAO",
-			"tag": "EUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲EEA稳定版",
-			"en-us": "Europe EEA Stable",
-			"links": [
-				{
-					"miui": "V13.0.4.0.SJIEUXM",
-					"android": "12.0",
-					"recovery": "miui_MONETEEAGlobal_V13.0.4.0.SJIEUXM_35f497b5f7_12.0.zip",
-					"fastboot": "monet_eea_global_images_V13.0.4.0.SJIEUXM_20221027.0000.00_12.0_eea_6cd2c1459b.tgz"
-				},
-				{
-					"miui": "V13.0.3.0.SJIEUXM",
-					"android": "12.0",
-					"recovery": "miui_MONETEEAGlobal_V13.0.3.0.SJIEUXM_4e384a605c_12.0.zip",
-					"fastboot": "monet_eea_global_images_V13.0.3.0.SJIEUXM_20220519.0000.00_12.0_eea_81e06a9ea8.tgz"
-				},
-				{
-					"miui": "V13.0.2.0.SJIEUXM",
-					"android": "12.0",
-					"recovery": "miui_MONETEEAGlobal_V13.0.2.0.SJIEUXM_b5bf156b9b_12.0.zip",
-					"fastboot": "monet_eea_global_images_V13.0.2.0.SJIEUXM_20220413.0000.00_12.0_eea_958be85ad7.tgz"
-				},
-				{
-					"miui": "V12.5.7.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.5.7.0.RJIEUXM_183b906759_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.5.7.0.RJIEUXM_20220119.0000.00_11.0_eea_2d7515cfc8.tgz"
-				},
-				{
-					"miui": "V12.5.6.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.5.6.0.RJIEUXM_63467295e2_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.5.6.0.RJIEUXM_20211125.0000.00_11.0_eea_29c3d4ea22.tgz"
-				},
-				{
-					"miui": "V12.5.5.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.5.5.0.RJIEUXM_b1909e5dec_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.5.5.0.RJIEUXM_20211013.0000.00_11.0_eea_c146e4eb65.tgz"
-				},
-				{
-					"miui": "V12.5.2.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.5.2.0.RJIEUXM_676bcdfd61_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.5.2.0.RJIEUXM_20210808.0000.00_11.0_eea_4cc7fd8118.tgz"
-				},
-				{
-					"miui": "V12.5.1.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.5.1.0.RJIEUXM_dbadbe17a1_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.5.1.0.RJIEUXM_20210604.0000.00_11.0_eea_f94aad291d.tgz"
-				},
-				{
-					"miui": "V12.1.5.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.1.5.0.RJIEUXM_b275bd8c7b_11.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V12.1.4.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.1.4.0.RJIEUXM_a2a041fd3c_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.1.4.0.RJIEUXM_20210127.0000.00_11.0_eea_dee853b68c.tgz"
-				},
-				{
-					"miui": "V12.1.3.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.1.3.0.RJIEUXM_1969f40951_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.1.3.0.RJIEUXM_20201231.0000.00_11.0_eea_e504d67ef3.tgz"
-				},
-				{
-					"miui": "V12.1.2.0.RJIEUXM",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAGlobal_V12.1.2.0.RJIEUXM_5bcbe22af6_11.0.zip",
-					"fastboot": "monet_eea_global_images_V12.1.2.0.RJIEUXM_20201211.0000.00_11.0_eea_0bf4cbb7ae.tgz"
-				},
-				{
-					"miui": "V12.0.3.0.QJIEUXM",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAGlobal_V12.0.3.0.QJIEUXM_31a34bf096_10.0.zip",
-					"fastboot": "monet_eea_global_images_V12.0.3.0.QJIEUXM_20201017.0000.00_10.0_eea_9fb0e5bf30.tgz"
-				},
-				{
-					"miui": "V12.0.2.0.QJIEUXM",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAGlobal_V12.0.2.0.QJIEUXM_12bc504f22_10.0.zip",
-					"fastboot": "monet_eea_global_images_V12.0.2.0.QJIEUXM_20200818.0000.00_10.0_eea_6d031df2c3.tgz"
-				},
-				{
-					"miui": "V12.0.1.0.QJIEUXM",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAGlobal_V12.0.1.0.QJIEUXM_da05579edc_10.0.zip",
-					"fastboot": "monet_eea_global_images_V12.0.1.0.QJIEUXM_20200709.0000.00_10.0_eea_ed4cc1ba0b.tgz"
-				},
-				{
-					"miui": "V11.0.11.0.QJIEUXM",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAGlobal_V11.0.11.0.QJIEUXM_fd46cb282f_10.0.zip",
-					"fastboot": "monet_eea_global_images_V11.0.11.0.QJIEUXM_20200612.0000.00_10.0_eea_7287078add.tgz"
-				},
-				{
-					"miui": "V11.0.10.0.QJIEUXM",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAGlobal_V11.0.10.0.QJIEUXM_bdadc92ecc_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_eea_hg_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [
-				"h3g"
-			],
-			"branch": "EUHG",
-			"tag": "EUHG",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲ThreeHK运营商定制版",
-			"en-us": "Europe ThreeHK Carrier Edition",
-			"links": [
-				{
-					"miui": "V13.0.2.0.SJIEUHG",
-					"android": "12.0",
-					"recovery": "miui_MONETEEAHGGlobal_V13.0.2.0.SJIEUHG_a55b408078_12.0.zip",
-					"fastboot": "monet_eea_hg_global_images_V13.0.2.0.SJIEUHG_20220523.0000.00_12.0_eea_891ec1200a.tgz"
-				},
-				{
-					"miui": "V12.5.3.0.RJIEUHG",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAHGGlobal_V12.5.3.0.RJIEUHG_3abd1ec416_11.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V12.0.1.0.QJIEUHG",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAHGGlobal_V12.0.1.0.QJIEUHG_a9892f4d08_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_eea_or_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [],
-			"branch": "EUOR",
-			"tag": "EUOR",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲Orange运营商定制版",
-			"en-us": "Europe Orange Carrier Edition",
-			"links": [
-				{
-					"miui": "V13.0.6.0.SJIEUOR",
-					"android": "12.0",
-					"recovery": "miui_MONETEEAORGlobal_V13.0.6.0.SJIEUOR_dbe1811256_12.0.zip",
-					"fastboot": "monet_eea_or_global_images_V13.0.6.0.SJIEUOR_20221108.0000.00_12.0_eea_75590637e6.tgz"
-				},
-				{
-					"miui": "V12.5.5.0.RJIEUOR",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAORGlobal_V12.5.5.0.RJIEUOR_94dff4fd0e_11.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V11.0.5.0.QJIEUOR",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAORGlobal_V11.0.5.0.QJIEUOR_195e3d0233_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_eea_tf_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [
-				"tf"
-			],
-			"branch": "EUTF",
-			"tag": "EUTF",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲Telefonica运营商定制版",
-			"en-us": "Europe Telefonica Carrier Edition",
-			"links": [
-				{
-					"miui": "V12.5.6.0.RJIEUTF",
-					"android": "11.0",
-					"recovery": "miui_MONETEEATFGlobal_V12.5.6.0.RJIEUTF_587c2e923a_11.0.zip",
-					"fastboot": "monet_eea_tf_global_images_V12.5.6.0.RJIEUTF_20220411.0000.00_11.0_eea_d053794749.tgz"
-				},
-				{
-					"miui": "V12.0.3.0.QJIEUTF",
-					"android": "10.0",
-					"recovery": "miui_MONETEEATFGlobal_V12.0.3.0.QJIEUTF_02a3805cca_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_eea_vf_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [
-				"vodafone"
-			],
-			"branch": "EUVF",
-			"tag": "EUVF",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲Vodafone运营商定制版",
-			"en-us": "Europe Vodafone Carrier Edition",
-			"links": [
-				{
-					"miui": "V13.0.2.0.SJIEUVF",
-					"android": "12.0",
-					"recovery": "miui_MONETEEAVFGlobal_V13.0.2.0.SJIEUVF_7aea51bb89_12.0.zip",
-					"fastboot": "monet_eea_vf_global_images_V13.0.2.0.SJIEUVF_20220617.0000.00_12.0_eea_928c7e1aa3.tgz"
-				},
-				{
-					"miui": "V12.5.7.0.RJIEUVF",
-					"android": "11.0",
-					"recovery": "miui_MONETEEAVFGlobal_V12.5.7.0.RJIEUVF_39d272ad0e_11.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V12.0.2.0.QJIEUVF",
-					"android": "10.0",
-					"recovery": "miui_MONETEEAVFGlobal_V12.0.2.0.QJIEUVF_d1e0ae0f5f_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_eea_sf_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [
-				"sfr"
-			],
-			"branch": "EUSF",
-			"tag": "EUSF",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲Altice(SFR)运营商定制版",
-			"en-us": "Europe Altice(SFR) Carrier Edition",
-			"links": [
-				{
-					"miui": "V13.0.2.0.SJIEUSF",
-					"android": "12.0",
-					"recovery": "miui_MONETEEASFGlobal_V13.0.2.0.SJIEUSF_38867f5017_12.0.zip",
-					"fastboot": "monet_eea_sf_global_images_V13.0.2.0.SJIEUSF_20220608.0000.00_12.0_eea_43ee1a4ab0.tgz"
-				},
-				{
-					"miui": "V12.5.3.0.RJIEUSF",
-					"android": "11.0",
-					"recovery": "miui_MONETEEASFGlobal_V12.5.3.0.RJIEUSF_a04b7207a8_11.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V11.0.4.0.QJIEUSF",
-					"android": "10.0",
-					"recovery": "miui_MONETEEASFGlobal_V11.0.4.0.QJIEUSF_0347fd0ec3_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_eea_ti_global",
-			"btag": "F",
-			"region": "eea",
-			"carrier": [
-				"tim"
-			],
-			"branch": "EUTI",
-			"tag": "EUTI",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲TIM运营商定制版",
-			"en-us": "Europe TIM Carrier Edition",
-			"links": [
-				{
-					"miui": "V13.0.1.0.SJIEUTI",
-					"android": "12.0",
-					"recovery": "miui_MONETEEATIGlobal_V13.0.1.0.SJIEUTI_e39d3eacfa_12.0.zip",
-					"fastboot": "monet_eea_ti_global_images_V13.0.1.0.SJIEUTI_20220531.0000.00_12.0_eea_33ad657cac.tgz"
-				},
-				{
-					"miui": "V12.5.3.0.RJIEUTI",
-					"android": "11.0",
-					"recovery": "miui_MONETEEATIGlobal_V12.5.3.0.RJIEUTI_2fa96c27f3_11.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V11.0.2.0.QJIEUTI",
-					"android": "10.0",
-					"recovery": "miui_MONETEEATIGlobal_V11.0.2.0.QJIEUTI_ac5938e6fe_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_jp_kd_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "JPKD",
-			"tag": "JPKD",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "日本KDDI电信运营商定制版",
-			"en-us": "Japan Stable KDDI Carrier Edtion",
-			"links": [
-				{
-					"miui": "V13.0.5.0.SJIJPKD",
-					"android": "12.0",
-					"recovery": "miui_MONETJPKDGlobal_V13.0.5.0.SJIJPKD_7bb96c82b5_12.0.zip",
-					"fastboot": "monet_jp_kd_global_images_V13.0.5.0.SJIJPKD_20220831.0000.00_12.0_global_f52610f9ab.tgz"
-				},
-				{
-					"miui": "V12.1.14.0.RJIJPKD",
-					"android": "11.0",
-					"recovery": "miui_MONETJPKDGlobal_V12.1.14.0.RJIJPKD_553976ec22_11.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V11.0.8.0.QJIJPKD",
-					"android": "10.0",
-					"recovery": "miui_MONETJPKDGlobal_V11.0.8.0.QJIJPKD_93e2f8ebea_10.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V11.0.7.0.QJIJPKD",
-					"android": "10.0",
-					"recovery": "miui_MONETJPKDGlobal_V11.0.7.0.QJIJPKD_346a8bde4d_10.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V11.0.5.0.QJIJPKD",
-					"android": "10.0",
-					"recovery": "miui_MONETJPKDGlobal_V11.0.5.0.QJIJPKD_1979cda1ca_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_kr_gu_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "SKLG",
-			"tag": "KRGU",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "韩国LG U+ 运营商定制版",
-			"en-us": "South Korea Stable LG U+ Carrier Edtion",
-			"links": [
-				{
-					"miui": "V12.1.1.0.RJIKRGU",
-					"android": "11.0",
-					"recovery": "miui_MONETKRGUGlobal_V12.1.1.0.RJIKRGU_adb2885614_11.0.zip",
-					"fastboot": "monet_kr_gu_global_images_V12.1.1.0.RJIKRGU_20210706.0000.00_11.0_global_d6a58d622e.tgz"
-				},
-				{
-					"miui": "V11.0.4.0.QJIKRGU",
-					"android": "10.0",
-					"recovery": "miui_MONETKRGUGlobal_V11.0.4.0.QJIKRGU_39d5ab92b6_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_kr_kt_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "SKKT",
-			"tag": "KRKT",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "韩国KTF 运营商定制版",
-			"en-us": "South Korea Stable KTF Carrier Edtion",
-			"links": [
-				{
-					"miui": "V12.1.4.0.RJIKRKT",
-					"android": "11.0",
-					"recovery": "miui_MONETKRKTGlobal_V12.1.4.0.RJIKRKT_316cbe3d81_11.0.zip",
-					"fastboot": "monet_kr_kt_global_images_V12.1.4.0.RJIKRKT_20211020.0000.00_11.0_global_da8bf2d1d9.tgz"
-				},
-				{
-					"miui": "V11.0.7.0.QJIKRKT",
-					"android": "10.0",
-					"recovery": "miui_MONETKRKTGlobal_V11.0.7.0.QJIKRKT_2299efce12_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "monet_kr_sk_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "SKSK",
-			"tag": "KRSK",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "韩国SK电讯运营商定制版",
-			"en-us": "South Korea Stable SK Telecom Carrier Edtion",
-			"links": [
-				{
-					"miui": "V12.1.2.0.RJIKRSK",
-					"android": "11.0",
-					"recovery": "miui_MONETKRSKGlobal_V12.1.2.0.RJIKRSK_739e960aac_11.0.zip",
-					"fastboot": "monet_kr_sk_global_images_V12.1.2.0.RJIKRSK_20210924.0000.00_11.0_global_046807c145.tgz"
-				},
-				{
-					"miui": "V11.0.4.0.QJIKRSK",
-					"android": "10.0",
-					"recovery": "miui_MONETKRSKGlobal_V11.0.4.0.QJIKRSK_6e2743317a_10.0.zip",
-					"fastboot": ""
-				}
-			]
-		}
-	]
+  "codename": "monet",
+  "zh-cn": "小米 10 Lite",
+  "en-us": "Mi 10 Lite",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "JI",
+  "android": [
+    "10.0",
+    "11.0",
+    "12.0"
+  ],
+  "miui": [
+    "V11.0",
+    "V12.0",
+    "V12.1",
+    "V12.5",
+    "V13.0"
+  ],
+  "branches": [
+    {
+      "code": "monet_tw_global",
+      "btag": "F",
+      "region": "tw",
+      "carrier": [],
+      "branch": "CNTP",
+      "tag": "TWXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国台湾省正式版",
+      "en-us": "China Taiwan Province Stable",
+      "links": [
+        {
+          "miui": "V13.0.3.0.SJITWXM",
+          "android": "12.0",
+          "recovery": "miui_MONETTWGlobal_V13.0.3.0.SJITWXM_ce1142f4a0_12.0.zip",
+          "fastboot": "monet_tw_global_images_V13.0.3.0.SJITWXM_20221106.0000.00_12.0_global_9d489b1912.tgz",
+          "release": "2022-11-14"
+        },
+        {
+          "miui": "V13.0.2.0.SJITWXM",
+          "android": "12.0",
+          "recovery": "miui_MONETTWGlobal_V13.0.2.0.SJITWXM_49a2dc2dea_12.0.zip",
+          "fastboot": "monet_tw_global_images_V13.0.2.0.SJITWXM_20220526.0000.00_12.0_global_8572f1d1e8.tgz",
+          "release": "2022-06-08"
+        },
+        {
+          "miui": "V13.0.1.0.SJITWXM",
+          "android": "12.0",
+          "recovery": "miui_MONETTWGlobal_V13.0.1.0.SJITWXM_d8d23da7f4_12.0.zip",
+          "fastboot": "monet_tw_global_images_V13.0.1.0.SJITWXM_20220406.0000.00_12.0_global_5308c9d869.tgz",
+          "release": "2022-04-13"
+        },
+        {
+          "miui": "V12.5.6.0.RJITWXM",
+          "android": "11.0",
+          "recovery": "miui_MONETTWGlobal_V12.5.6.0.RJITWXM_2c27a3877a_11.0.zip",
+          "fastboot": "monet_tw_global_images_V12.5.6.0.RJITWXM_20211211.0000.00_11.0_global_eaf15a33ae.tgz",
+          "release": "2021-12-21"
+        },
+        {
+          "miui": "V12.5.4.0.RJITWXM",
+          "android": "11.0",
+          "recovery": "miui_MONETTWGlobal_V12.5.4.0.RJITWXM_fef7926573_11.0.zip",
+          "fastboot": "monet_tw_global_images_V12.5.4.0.RJITWXM_20211012.0000.00_11.0_global_e523cf373c.tgz",
+          "release": "2021-10-19"
+        },
+        {
+          "miui": "V12.5.3.0.RJITWXM",
+          "android": "11.0",
+          "recovery": "miui_MONETTWGlobal_V12.5.3.0.RJITWXM_44a2fb92ac_11.0.zip",
+          "fastboot": "monet_tw_global_images_V12.5.3.0.RJITWXM_20210811.0000.00_11.0_global_050df1e3bb.tgz",
+          "release": "2021-08-30"
+        },
+        {
+          "miui": "V12.5.2.0.RJITWXM",
+          "android": "11.0",
+          "recovery": "miui_MONETTWGlobal_V12.5.2.0.RJITWXM_618b746a50_11.0.zip",
+          "fastboot": "monet_tw_global_images_V12.5.2.0.RJITWXM_20210616.0000.00_11.0_global_a1339d8c7e.tgz",
+          "release": "2021-07-02"
+        },
+        {
+          "miui": "V12.1.2.0.RJITWXM",
+          "android": "11.0",
+          "recovery": "miui_MONETTWGlobal_V12.1.2.0.RJITWXM_7ce064ebb3_11.0.zip",
+          "fastboot": "monet_tw_global_images_V12.1.2.0.RJITWXM_20210311.0000.00_11.0_global_7d51589c00.tgz",
+          "release": "2021-03-19"
+        },
+        {
+          "miui": "V12.1.1.0.RJITWXM",
+          "android": "11.0",
+          "recovery": "miui_MONETTWGlobal_V12.1.1.0.RJITWXM_74b2ce0ba1_11.0.zip",
+          "fastboot": "monet_tw_global_images_V12.1.1.0.RJITWXM_20210120.0000.00_11.0_global_b76daee78e.tgz",
+          "release": "2021-01-27"
+        },
+        {
+          "miui": "V12.0.1.0.QJITWXM",
+          "android": "10.0",
+          "recovery": "miui_MONETTWGlobal_V12.0.1.0.QJITWXM_44a1de5563_10.0.zip",
+          "fastboot": "monet_tw_global_images_V12.0.1.0.QJITWXM_20201021.0000.00_10.0_global_3462978230.tgz",
+          "release": "2020-12-09"
+        }
+      ]
+    },
+    {
+      "code": "monet_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SJIMIXM",
+          "android": "12.0",
+          "recovery": "miui_MONETGlobal_V13.0.4.0.SJIMIXM_fd908f0df4_12.0.zip",
+          "fastboot": "monet_global_images_V13.0.4.0.SJIMIXM_20221106.0000.00_12.0_global_10957bb652.tgz",
+          "release": "2022-11-14"
+        },
+        {
+          "miui": "V13.0.3.0.SJIMIXM",
+          "android": "12.0",
+          "recovery": "miui_MONETGlobal_V13.0.3.0.SJIMIXM_eb3a61f8a5_12.0.zip",
+          "fastboot": "monet_global_images_V13.0.3.0.SJIMIXM_20220526.0000.00_12.0_global_5790ecea81.tgz",
+          "release": "2022-06-06"
+        },
+        {
+          "miui": "V13.0.2.0.SJIMIXM",
+          "android": "12.0",
+          "recovery": "miui_MONETGlobal_V13.0.2.0.SJIMIXM_f2b661bdf6_12.0.zip",
+          "fastboot": "monet_global_images_V13.0.2.0.SJIMIXM_20220321.0000.00_12.0_global_dd45c53cab.tgz",
+          "release": "2022-03-30"
+        },
+        {
+          "miui": "V12.5.6.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.5.6.0.RJIMIXM_ae7dec2044_11.0.zip",
+          "fastboot": "monet_global_images_V12.5.6.0.RJIMIXM_20220119.0000.00_11.0_global_73af3fd7c1.tgz",
+          "release": "2022-02-08"
+        },
+        {
+          "miui": "V12.5.5.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.5.5.0.RJIMIXM_36e9bcf5b4_11.0.zip",
+          "fastboot": "monet_global_images_V12.5.5.0.RJIMIXM_20211202.0000.00_11.0_global_17078d2894.tgz",
+          "release": "2021-12-10"
+        },
+        {
+          "miui": "V12.5.4.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.5.4.0.RJIMIXM_55bfcc7da8_11.0.zip",
+          "fastboot": "monet_global_images_V12.5.4.0.RJIMIXM_20210918.0000.00_11.0_global_ce7072b484.tgz",
+          "release": "2021-10-11"
+        },
+        {
+          "miui": "V12.5.2.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.5.2.0.RJIMIXM_22aa790086_11.0.zip",
+          "fastboot": "monet_global_images_V12.5.2.0.RJIMIXM_20210802.0000.00_11.0_global_195855b0b7.tgz",
+          "release": "2021-08-09"
+        },
+        {
+          "miui": "V12.5.1.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.5.1.0.RJIMIXM_d9504eb546_11.0.zip",
+          "fastboot": "monet_global_images_V12.5.1.0.RJIMIXM_20210520.0000.00_11.0_global_c87d4fd38b.tgz",
+          "release": "2021-05-27"
+        },
+        {
+          "miui": "V12.1.4.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.1.4.0.RJIMIXM_f299c46cfa_11.0.zip",
+          "fastboot": "monet_global_images_V12.1.4.0.RJIMIXM_20210328.0000.00_11.0_global_1afc98c4ea.tgz",
+          "release": "2021-04-06"
+        },
+        {
+          "miui": "V12.1.2.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.1.2.0.RJIMIXM_71e7eee2dd_11.0.zip",
+          "fastboot": "monet_global_images_V12.1.2.0.RJIMIXM_20210117.0000.00_11.0_global_4588caf81d.tgz",
+          "release": "2021-01-26"
+        },
+        {
+          "miui": "V12.1.1.0.RJIMIXM",
+          "android": "11.0",
+          "recovery": "miui_MONETGlobal_V12.1.1.0.RJIMIXM_ca34271367_11.0.zip",
+          "fastboot": "monet_global_images_V12.1.1.0.RJIMIXM_20201126.0000.00_11.0_global_fdc58465e1.tgz",
+          "release": "2020-12-04"
+        },
+        {
+          "miui": "V12.0.2.0.QJIMIXM",
+          "android": "10.0",
+          "recovery": "miui_MONETGlobal_V12.0.2.0.QJIMIXM_d2c28e07f9_10.0.zip",
+          "fastboot": "monet_global_images_V12.0.2.0.QJIMIXM_20201017.0000.00_10.0_global_ec0fa93c47.tgz",
+          "release": "2020-10-27"
+        },
+        {
+          "miui": "V12.0.1.0.QJIMIXM",
+          "android": "10.0",
+          "recovery": "miui_MONETGlobal_V12.0.1.0.QJIMIXM_be919da9b6_10.0.zip",
+          "fastboot": "monet_global_images_V12.0.1.0.QJIMIXM_20200819.0000.00_10.0_global_b9bd9f8dfc.tgz",
+          "release": "2020-09-02"
+        },
+        {
+          "miui": "V11.0.4.0.QJIMIXM",
+          "android": "10.0",
+          "recovery": "miui_MONETGlobal_V11.0.4.0.QJIMIXM_7e9d77c86e_10.0.zip",
+          "fastboot": "monet_global_images_V11.0.4.0.QJIMIXM_20200619.0000.00_10.0_global_99238dbcea.tgz",
+          "release": "2020-06-29"
+        }
+      ]
+    },
+    {
+      "code": "monet_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
+      "branch": "EEAO",
+      "tag": "EUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲EEA正式版",
+      "en-us": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V13.0.4.0.SJIEUXM",
+          "android": "12.0",
+          "recovery": "miui_MONETEEAGlobal_V13.0.4.0.SJIEUXM_35f497b5f7_12.0.zip",
+          "fastboot": "monet_eea_global_images_V13.0.4.0.SJIEUXM_20221027.0000.00_12.0_eea_6cd2c1459b.tgz",
+          "release": "2022-11-08"
+        },
+        {
+          "miui": "V13.0.3.0.SJIEUXM",
+          "android": "12.0",
+          "recovery": "miui_MONETEEAGlobal_V13.0.3.0.SJIEUXM_4e384a605c_12.0.zip",
+          "fastboot": "monet_eea_global_images_V13.0.3.0.SJIEUXM_20220519.0000.00_12.0_eea_81e06a9ea8.tgz",
+          "release": "2022-05-26"
+        },
+        {
+          "miui": "V13.0.2.0.SJIEUXM",
+          "android": "12.0",
+          "recovery": "miui_MONETEEAGlobal_V13.0.2.0.SJIEUXM_b5bf156b9b_12.0.zip",
+          "fastboot": "monet_eea_global_images_V13.0.2.0.SJIEUXM_20220413.0000.00_12.0_eea_958be85ad7.tgz",
+          "release": "2022-04-19"
+        },
+        {
+          "miui": "V12.5.7.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.5.7.0.RJIEUXM_183b906759_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.5.7.0.RJIEUXM_20220119.0000.00_11.0_eea_2d7515cfc8.tgz",
+          "release": "2022-02-10"
+        },
+        {
+          "miui": "V12.5.6.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.5.6.0.RJIEUXM_63467295e2_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.5.6.0.RJIEUXM_20211125.0000.00_11.0_eea_29c3d4ea22.tgz",
+          "release": "2021-12-03"
+        },
+        {
+          "miui": "V12.5.5.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.5.5.0.RJIEUXM_b1909e5dec_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.5.5.0.RJIEUXM_20211013.0000.00_11.0_eea_c146e4eb65.tgz",
+          "release": "2021-10-19"
+        },
+        {
+          "miui": "V12.5.2.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.5.2.0.RJIEUXM_676bcdfd61_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.5.2.0.RJIEUXM_20210808.0000.00_11.0_eea_4cc7fd8118.tgz",
+          "release": "2021-08-20"
+        },
+        {
+          "miui": "V12.5.1.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.5.1.0.RJIEUXM_dbadbe17a1_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.5.1.0.RJIEUXM_20210604.0000.00_11.0_eea_f94aad291d.tgz",
+          "release": "2021-06-17"
+        },
+        {
+          "miui": "V12.1.5.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.1.5.0.RJIEUXM_b275bd8c7b_11.0.zip",
+          "fastboot": "",
+          "release": "2021-04-06"
+        },
+        {
+          "miui": "V12.1.4.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.1.4.0.RJIEUXM_a2a041fd3c_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.1.4.0.RJIEUXM_20210127.0000.00_11.0_eea_dee853b68c.tgz",
+          "release": "2021-02-20"
+        },
+        {
+          "miui": "V12.1.3.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.1.3.0.RJIEUXM_1969f40951_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.1.3.0.RJIEUXM_20201231.0000.00_11.0_eea_e504d67ef3.tgz",
+          "release": "2021-01-08"
+        },
+        {
+          "miui": "V12.1.2.0.RJIEUXM",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAGlobal_V12.1.2.0.RJIEUXM_5bcbe22af6_11.0.zip",
+          "fastboot": "monet_eea_global_images_V12.1.2.0.RJIEUXM_20201211.0000.00_11.0_eea_0bf4cbb7ae.tgz",
+          "release": "2020-12-25"
+        },
+        {
+          "miui": "V12.0.3.0.QJIEUXM",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAGlobal_V12.0.3.0.QJIEUXM_31a34bf096_10.0.zip",
+          "fastboot": "monet_eea_global_images_V12.0.3.0.QJIEUXM_20201017.0000.00_10.0_eea_9fb0e5bf30.tgz",
+          "release": "2020-10-27"
+        },
+        {
+          "miui": "V12.0.2.0.QJIEUXM",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAGlobal_V12.0.2.0.QJIEUXM_12bc504f22_10.0.zip",
+          "fastboot": "monet_eea_global_images_V12.0.2.0.QJIEUXM_20200818.0000.00_10.0_eea_6d031df2c3.tgz",
+          "release": "2020-08-31"
+        },
+        {
+          "miui": "V12.0.1.0.QJIEUXM",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAGlobal_V12.0.1.0.QJIEUXM_da05579edc_10.0.zip",
+          "fastboot": "monet_eea_global_images_V12.0.1.0.QJIEUXM_20200709.0000.00_10.0_eea_ed4cc1ba0b.tgz",
+          "release": "2020-07-20"
+        },
+        {
+          "miui": "V11.0.11.0.QJIEUXM",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAGlobal_V11.0.11.0.QJIEUXM_fd46cb282f_10.0.zip",
+          "fastboot": "monet_eea_global_images_V11.0.11.0.QJIEUXM_20200612.0000.00_10.0_eea_7287078add.tgz",
+          "release": "2020-06-24"
+        },
+        {
+          "miui": "V11.0.10.0.QJIEUXM",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAGlobal_V11.0.10.0.QJIEUXM_bdadc92ecc_10.0.zip",
+          "fastboot": "",
+          "release": "2020-06-18"
+        }
+      ]
+    },
+    {
+      "code": "monet_eea_hg_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [
+        "h3g"
+      ],
+      "branch": "EUHG",
+      "tag": "EUHG",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲ThreeHK运营商定制版",
+      "en-us": "Europe ThreeHK Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SJIEUHG",
+          "android": "12.0",
+          "recovery": "miui_MONETEEAHGGlobal_V13.0.2.0.SJIEUHG_a55b408078_12.0.zip",
+          "fastboot": "monet_eea_hg_global_images_V13.0.2.0.SJIEUHG_20220523.0000.00_12.0_eea_891ec1200a.tgz",
+          "release": "2022-06-07"
+        },
+        {
+          "miui": "V12.5.3.0.RJIEUHG",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAHGGlobal_V12.5.3.0.RJIEUHG_3abd1ec416_11.0.zip",
+          "fastboot": "",
+          "release": "2022-04-02"
+        },
+        {
+          "miui": "V12.0.1.0.QJIEUHG",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAHGGlobal_V12.0.1.0.QJIEUHG_a9892f4d08_10.0.zip",
+          "fastboot": "",
+          "release": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "code": "monet_eea_or_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
+      "branch": "EUOR",
+      "tag": "EUOR",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲Orange运营商定制版",
+      "en-us": "Europe Orange Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.6.0.SJIEUOR",
+          "android": "12.0",
+          "recovery": "miui_MONETEEAORGlobal_V13.0.6.0.SJIEUOR_dbe1811256_12.0.zip",
+          "fastboot": "monet_eea_or_global_images_V13.0.6.0.SJIEUOR_20221108.0000.00_12.0_eea_75590637e6.tgz",
+          "release": "2022-11-15"
+        },
+        {
+          "miui": "V12.5.5.0.RJIEUOR",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAORGlobal_V12.5.5.0.RJIEUOR_94dff4fd0e_11.0.zip",
+          "fastboot": "",
+          "release": "2022-05-23"
+        },
+        {
+          "miui": "V11.0.5.0.QJIEUOR",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAORGlobal_V11.0.5.0.QJIEUOR_195e3d0233_10.0.zip",
+          "fastboot": "",
+          "release": "2020-09-16"
+        }
+      ]
+    },
+    {
+      "code": "monet_eea_tf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [
+        "tf"
+      ],
+      "branch": "EUTF",
+      "tag": "EUTF",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲Telefonica运营商定制版",
+      "en-us": "Europe Telefonica Carrier Edition",
+      "links": [
+        {
+          "miui": "V12.5.6.0.RJIEUTF",
+          "android": "11.0",
+          "recovery": "miui_MONETEEATFGlobal_V12.5.6.0.RJIEUTF_587c2e923a_11.0.zip",
+          "fastboot": "monet_eea_tf_global_images_V12.5.6.0.RJIEUTF_20220411.0000.00_11.0_eea_d053794749.tgz",
+          "release": "2022-04-18"
+        },
+        {
+          "miui": "V12.0.3.0.QJIEUTF",
+          "android": "10.0",
+          "recovery": "miui_MONETEEATFGlobal_V12.0.3.0.QJIEUTF_02a3805cca_10.0.zip",
+          "fastboot": "",
+          "release": "2021-02-08"
+        }
+      ]
+    },
+    {
+      "code": "monet_eea_vf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [
+        "vodafone"
+      ],
+      "branch": "EUVF",
+      "tag": "EUVF",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲Vodafone运营商定制版",
+      "en-us": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SJIEUVF",
+          "android": "12.0",
+          "recovery": "miui_MONETEEAVFGlobal_V13.0.2.0.SJIEUVF_7aea51bb89_12.0.zip",
+          "fastboot": "monet_eea_vf_global_images_V13.0.2.0.SJIEUVF_20220617.0000.00_12.0_eea_928c7e1aa3.tgz",
+          "release": "2022-06-22"
+        },
+        {
+          "miui": "V12.5.7.0.RJIEUVF",
+          "android": "11.0",
+          "recovery": "miui_MONETEEAVFGlobal_V12.5.7.0.RJIEUVF_39d272ad0e_11.0.zip",
+          "fastboot": "",
+          "release": "2022-03-18"
+        },
+        {
+          "miui": "V12.0.2.0.QJIEUVF",
+          "android": "10.0",
+          "recovery": "miui_MONETEEAVFGlobal_V12.0.2.0.QJIEUVF_d1e0ae0f5f_10.0.zip",
+          "fastboot": "",
+          "release": "2020-11-26"
+        }
+      ]
+    },
+    {
+      "code": "monet_eea_sf_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [
+        "sfr"
+      ],
+      "branch": "EUSF",
+      "tag": "EUSF",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲Altice(SFR)运营商定制版",
+      "en-us": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.2.0.SJIEUSF",
+          "android": "12.0",
+          "recovery": "miui_MONETEEASFGlobal_V13.0.2.0.SJIEUSF_38867f5017_12.0.zip",
+          "fastboot": "monet_eea_sf_global_images_V13.0.2.0.SJIEUSF_20220608.0000.00_12.0_eea_43ee1a4ab0.tgz",
+          "release": "2022-06-17"
+        },
+        {
+          "miui": "V12.5.3.0.RJIEUSF",
+          "android": "11.0",
+          "recovery": "miui_MONETEEASFGlobal_V12.5.3.0.RJIEUSF_a04b7207a8_11.0.zip",
+          "fastboot": "",
+          "release": "2022-04-08"
+        },
+        {
+          "miui": "V11.0.4.0.QJIEUSF",
+          "android": "10.0",
+          "recovery": "miui_MONETEEASFGlobal_V11.0.4.0.QJIEUSF_0347fd0ec3_10.0.zip",
+          "fastboot": "",
+          "release": "2020-12-09"
+        }
+      ]
+    },
+    {
+      "code": "monet_eea_ti_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [
+        "tim"
+      ],
+      "branch": "EUTI",
+      "tag": "EUTI",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲TIM运营商定制版",
+      "en-us": "Europe TIM Carrier Edition",
+      "links": [
+        {
+          "miui": "V13.0.1.0.SJIEUTI",
+          "android": "12.0",
+          "recovery": "miui_MONETEEATIGlobal_V13.0.1.0.SJIEUTI_e39d3eacfa_12.0.zip",
+          "fastboot": "monet_eea_ti_global_images_V13.0.1.0.SJIEUTI_20220531.0000.00_12.0_eea_33ad657cac.tgz",
+          "release": "2022-07-05"
+        },
+        {
+          "miui": "V12.5.3.0.RJIEUTI",
+          "android": "11.0",
+          "recovery": "miui_MONETEEATIGlobal_V12.5.3.0.RJIEUTI_2fa96c27f3_11.0.zip",
+          "fastboot": "",
+          "release": "2022-05-05"
+        },
+        {
+          "miui": "V11.0.2.0.QJIEUTI",
+          "android": "10.0",
+          "recovery": "miui_MONETEEATIGlobal_V11.0.2.0.QJIEUTI_ac5938e6fe_10.0.zip",
+          "fastboot": "",
+          "release": "2020-10-28"
+        }
+      ]
+    },
+    {
+      "code": "monet_jp_kd_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "JPKD",
+      "tag": "JPKD",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "日本KDDI电信运营商定制版",
+      "en-us": "Japan Stable KDDI Carrier Edtion",
+      "links": [
+        {
+          "miui": "V13.0.5.0.SJIJPKD",
+          "android": "12.0",
+          "recovery": "miui_MONETJPKDGlobal_V13.0.5.0.SJIJPKD_7bb96c82b5_12.0.zip",
+          "fastboot": "monet_jp_kd_global_images_V13.0.5.0.SJIJPKD_20220831.0000.00_12.0_global_f52610f9ab.tgz",
+          "release": "2022-08-31"
+        },
+        {
+          "miui": "V12.1.14.0.RJIJPKD",
+          "android": "11.0",
+          "recovery": "miui_MONETJPKDGlobal_V12.1.14.0.RJIJPKD_553976ec22_11.0.zip",
+          "fastboot": "",
+          "release": "2022-04-29"
+        },
+        {
+          "miui": "V11.0.8.0.QJIJPKD",
+          "android": "10.0",
+          "recovery": "miui_MONETJPKDGlobal_V11.0.8.0.QJIJPKD_93e2f8ebea_10.0.zip",
+          "fastboot": "",
+          "release": "2021-03-05"
+        },
+        {
+          "miui": "V11.0.7.0.QJIJPKD",
+          "android": "10.0",
+          "recovery": "miui_MONETJPKDGlobal_V11.0.7.0.QJIJPKD_346a8bde4d_10.0.zip",
+          "fastboot": "",
+          "release": "2020-12-22"
+        },
+        {
+          "miui": "V11.0.5.0.QJIJPKD",
+          "android": "10.0",
+          "recovery": "miui_MONETJPKDGlobal_V11.0.5.0.QJIJPKD_1979cda1ca_10.0.zip",
+          "fastboot": "",
+          "release": "2020-10-22"
+        }
+      ]
+    },
+    {
+      "code": "monet_kr_gu_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "SKLG",
+      "tag": "KRGU",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "韩国LG U+ 运营商定制版",
+      "en-us": "South Korea Stable LG U+ Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.1.1.0.RJIKRGU",
+          "android": "11.0",
+          "recovery": "miui_MONETKRGUGlobal_V12.1.1.0.RJIKRGU_adb2885614_11.0.zip",
+          "fastboot": "monet_kr_gu_global_images_V12.1.1.0.RJIKRGU_20210706.0000.00_11.0_global_d6a58d622e.tgz",
+          "release": "2021-07-14"
+        },
+        {
+          "miui": "V11.0.4.0.QJIKRGU",
+          "android": "10.0",
+          "recovery": "miui_MONETKRGUGlobal_V11.0.4.0.QJIKRGU_39d5ab92b6_10.0.zip",
+          "fastboot": "",
+          "release": "2020-09-18"
+        }
+      ]
+    },
+    {
+      "code": "monet_kr_kt_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "SKKT",
+      "tag": "KRKT",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "韩国KTF 运营商定制版",
+      "en-us": "South Korea Stable KTF Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.1.4.0.RJIKRKT",
+          "android": "11.0",
+          "recovery": "miui_MONETKRKTGlobal_V12.1.4.0.RJIKRKT_316cbe3d81_11.0.zip",
+          "fastboot": "monet_kr_kt_global_images_V12.1.4.0.RJIKRKT_20211020.0000.00_11.0_global_da8bf2d1d9.tgz",
+          "release": "2021-12-08"
+        },
+        {
+          "miui": "V11.0.7.0.QJIKRKT",
+          "android": "10.0",
+          "recovery": "miui_MONETKRKTGlobal_V11.0.7.0.QJIKRKT_2299efce12_10.0.zip",
+          "fastboot": "",
+          "release": "2020-11-26"
+        }
+      ]
+    },
+    {
+      "code": "monet_kr_sk_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
+      "branch": "SKSK",
+      "tag": "KRSK",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "韩国SK电讯运营商定制版",
+      "en-us": "South Korea Stable SK Telecom Carrier Edtion",
+      "links": [
+        {
+          "miui": "V12.1.2.0.RJIKRSK",
+          "android": "11.0",
+          "recovery": "miui_MONETKRSKGlobal_V12.1.2.0.RJIKRSK_739e960aac_11.0.zip",
+          "fastboot": "monet_kr_sk_global_images_V12.1.2.0.RJIKRSK_20210924.0000.00_11.0_global_046807c145.tgz",
+          "release": "2021-09-30"
+        },
+        {
+          "miui": "V11.0.4.0.QJIKRSK",
+          "android": "10.0",
+          "recovery": "miui_MONETKRSKGlobal_V11.0.4.0.QJIKRSK_6e2743317a_10.0.zip",
+          "fastboot": "",
+          "release": "2020-09-11"
+        }
+      ]
+    }
+  ]
 }

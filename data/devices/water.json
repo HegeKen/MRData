@@ -1,1504 +1,1710 @@
 {
-	"codename": "water",
-	"zh-cn": "Redmi A2/A2+/POCO C51",
-	"en-us": "Redmi A2/A2+/POCO C51",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "GO",
-	"android": [
-		"13.0"
-	],
-	"miui": [
-		"V14.0"
-	],
-	"branches": [
-		{
-			"code": "water_tw_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "CNTP",
-			"tag": "TWXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国台湾省稳定版",
-			"en-us": "China Taiwan Province Stable",
-			"links": [
-				{
-					"miui": "V14.0.9.0.TGOTWXM",
-					"android": "13.0",
-					"recovery": "miui_WATERTWGlobal_V14.0.9.0.TGOTWXM_61ccca1f2c_13.0.zip",
-					"fastboot": "water_tw_global_images_V14.0.9.0.TGOTWXM_20250819.0000.00_13.0_817118a4cd.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TGOTWXM",
-					"android": "13.0",
-					"recovery": "miui_WATERTWGlobal_V14.0.7.0.TGOTWXM_5493b029a6_13.0.zip",
-					"fastboot": "water_tw_global_images_V14.0.7.0.TGOTWXM_20241111.0000.00_13.0_edff53d018.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TGOTWXM",
-					"android": "13.0",
-					"recovery": "miui_WATERTWGlobal_V14.0.5.0.TGOTWXM_d8fbf3b17d_13.0.zip",
-					"fastboot": "water_tw_global_images_V14.0.5.0.TGOTWXM_20240613.0000.00_13.0_49d96c3b47.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOTWXM",
-					"android": "13.0",
-					"recovery": "miui_WATERTWGlobal_V14.0.4.0.TGOTWXM_ffe8d8cb23_13.0.zip",
-					"fastboot": "water_tw_global_images_V14.0.4.0.TGOTWXM_20240110.0000.00_13.0_8b2a9b4699.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TGOTWXM",
-					"android": "13.0",
-					"recovery": "miui_WATERTWGlobal_V14.0.3.0.TGOTWXM_78fe8b126d_13.0.zip",
-					"fastboot": "water_tw_global_images_V14.0.3.0.TGOTWXM_20230830.0000.00_13.0_7d1d745d83.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际稳定版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V14.0.44.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.44.0.TGOMIXM_a6b9ed3591_13.0.zip",
-					"fastboot": "water_global_images_V14.0.44.0.TGOMIXM_20251223.0000.00_13.0_a137b8cfcd.tgz"
-				},
-				{
-					"miui": "V14.0.42.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.42.0.TGOMIXM_0d46c37664_13.0.zip",
-					"fastboot": "water_global_images_V14.0.42.0.TGOMIXM_20251215.0000.00_13.0_f35f3ab425.tgz"
-				},
-				{
-					"miui": "V14.0.41.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.41.0.TGOMIXM_d0e3956033_13.0.zip",
-					"fastboot": "water_global_images_V14.0.41.0.TGOMIXM_20251024.0000.00_13.0_9dfd1a9bab.tgz"
-				},
-				{
-					"miui": "V14.0.40.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.40.0.TGOMIXM_2107d4a455_13.0.zip",
-					"fastboot": "water_global_images_V14.0.40.0.TGOMIXM_20250829.0000.00_13.0_7c32fe20b4.tgz"
-				},
-				{
-					"miui": "V14.0.39.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.39.0.TGOMIXM_6d21879ed1_13.0.zip",
-					"fastboot": "water_global_images_V14.0.39.0.TGOMIXM_20250522.0000.00_13.0_1c4e02ead3.tgz"
-				},
-				{
-					"miui": "V14.0.38.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.38.0.TGOMIXM_61172834e4_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.37.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.37.0.TGOMIXM_5764676a21_13.0.zip",
-					"fastboot": "water_global_images_V14.0.37.0.TGOMIXM_20250108.0000.00_13.0_5756d6cd57.tgz"
-				},
-				{
-					"miui": "V14.0.36.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.36.0.TGOMIXM_2fe7acb9c1_13.0.zip",
-					"fastboot": "water_global_images_V14.0.36.0.TGOMIXM_20241104.0000.00_13.0_65da975244.tgz"
-				},
-				{
-					"miui": "V14.0.35.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.35.0.TGOMIXM_3ab0e5424a_13.0.zip",
-					"fastboot": "water_global_images_V14.0.35.0.TGOMIXM_20241009.0000.00_13.0_c033c24b19.tgz"
-				},
-				{
-					"miui": "V14.0.29.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.29.0.TGOMIXM_1bb20691f1_13.0.zip",
-					"fastboot": "water_global_images_V14.0.29.0.TGOMIXM_20240726.0000.00_13.0_2501011908.tgz"
-				},
-				{
-					"miui": "V14.0.27.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.27.0.TGOMIXM_98dc796bf1_13.0.zip",
-					"fastboot": "water_global_images_V14.0.27.0.TGOMIXM_20240522.0000.00_13.0_39a7e7c6b6.tgz"
-				},
-				{
-					"miui": "V14.0.25.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.25.0.TGOMIXM_8ffc74bc22_13.0.zip",
-					"fastboot": "water_global_images_V14.0.25.0.TGOMIXM_20240307.0000.00_13.0_034d9c660e.tgz"
-				},
-				{
-					"miui": "V14.0.24.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.24.0.TGOMIXM_e2f5f80463_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.23.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.23.0.TGOMIXM_7945213079_13.0.zip",
-					"fastboot": "water_global_images_V14.0.23.0.TGOMIXM_20231109.0000.00_13.0_6e4ce27d1c.tgz"
-				},
-				{
-					"miui": "V14.0.21.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.21.0.TGOMIXM_ab082058d5_13.0.zip",
-					"fastboot": "water_global_images_V14.0.21.0.TGOMIXM_20231010.0000.00_13.0_87976a9148.tgz"
-				},
-				{
-					"miui": "V14.0.15.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.15.0.TGOMIXM_3895b1029e_13.0.zip",
-					"fastboot": "water_global_images_V14.0.15.0.TGOMIXM_20230814.0000.00_13.0_54426a453e.tgz"
-				},
-				{
-					"miui": "V14.0.14.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.14.0.TGOMIXM_b8943b4681_13.0.zip",
-					"fastboot": "water_global_images_V14.0.14.0.TGOMIXM_20230728.0000.00_13.0_51d00b79c3.tgz"
-				},
-				{
-					"miui": "V14.0.12.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.12.0.TGOMIXM_c067735199_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.11.0.TGOMIXM_66556ac043_13.0.zip",
-					"fastboot": "water_global_images_V14.0.11.0.TGOMIXM_20230516.0000.00_13.0_dc558dcbf3.tgz"
-				},
-				{
-					"miui": "V14.0.10.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.10.0.TGOMIXM_4c835c75b8_13.0.zip",
-					"fastboot": "water_global_images_V14.0.10.0.TGOMIXM_20230404.0000.00_13.0_90dfffe33c.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TGOMIXM",
-					"android": "13.0",
-					"recovery": "miui_WATERGlobal_V14.0.9.0.TGOMIXM_95d4da1bee_13.0.zip",
-					"fastboot": "water_global_images_V14.0.9.0.TGOMIXM_20230308.0000.00_13.0_8f31466143.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_eea_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "EEAO",
-			"tag": "EUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲EEA稳定版",
-			"en-us": "Europe EEA Stable",
-			"links": [
-				{
-					"miui": "V14.0.32.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.32.0.TGOEUXM_ee6008b942_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.32.0.TGOEUXM_20260302.0000.00_13.0_307b0b9761.tgz"
-				},
-				{
-					"miui": "V14.0.30.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.30.0.TGOEUXM_228a194065_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.30.0.TGOEUXM_20251113.0000.00_13.0_6cfcf99b69.tgz"
-				},
-				{
-					"miui": "V14.0.29.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.29.0.TGOEUXM_9ffad44301_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.29.0.TGOEUXM_20250922.0000.00_13.0_009f5c70f8.tgz"
-				},
-				{
-					"miui": "V14.0.28.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.28.0.TGOEUXM_a23009abe8_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.28.0.TGOEUXM_20250812.0000.00_13.0_19d6679e7d.tgz"
-				},
-				{
-					"miui": "V14.0.24.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.24.0.TGOEUXM_a56c6b934e_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.24.0.TGOEUXM_20250417.0000.00_13.0_a3690efd10.tgz"
-				},
-				{
-					"miui": "V14.0.22.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.22.0.TGOEUXM_e84fae6268_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.22.0.TGOEUXM_20250208.0000.00_13.0_9ad6f88982.tgz"
-				},
-				{
-					"miui": "V14.0.21.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.21.0.TGOEUXM_1a8773a083_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.21.0.TGOEUXM_20241129.0000.00_13.0_79baa3a156.tgz"
-				},
-				{
-					"miui": "V14.0.20.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.20.0.TGOEUXM_d467dec457_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.20.0.TGOEUXM_20241017.0000.00_13.0_9a308fda9c.tgz"
-				},
-				{
-					"miui": "V14.0.17.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.17.0.TGOEUXM_e599a81c4a_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.17.0.TGOEUXM_20240726.0000.00_13.0_50681b51a5.tgz"
-				},
-				{
-					"miui": "V14.0.15.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.15.0.TGOEUXM_e428ae00e4_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.15.0.TGOEUXM_20240514.0000.00_13.0_e8bdbcc294.tgz"
-				},
-				{
-					"miui": "V14.0.14.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.14.0.TGOEUXM_9b734b4a01_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.14.0.TGOEUXM_20240307.0000.00_13.0_e02c305b45.tgz"
-				},
-				{
-					"miui": "V14.0.13.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.13.0.TGOEUXM_9148e3010b_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.13.0.TGOEUXM_20240110.0000.00_13.0_b639c341dc.tgz"
-				},
-				{
-					"miui": "V14.0.11.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.11.0.TGOEUXM_776fab2f20_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.10.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.10.0.TGOEUXM_5bfbd4f515_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.10.0.TGOEUXM_20230821.0000.00_13.0_4e2c9424bf.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.9.0.TGOEUXM_4be1d25aca_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.8.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.8.0.TGOEUXM_32a92c64e1_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.7.0.TGOEUXM",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAGlobal_V14.0.7.0.TGOEUXM_0968e37678_13.0.zip",
-					"fastboot": "water_eea_global_images_V14.0.7.0.TGOEUXM_20230320.0000.00_13.0_d4505b2473.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_eea_sf_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "EUSF",
-			"tag": "EUSF",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲Altice(SFR)运营商定制版",
-			"en-us": "Europe Altice(SFR) Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.10.0.TGOEUSF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEASFGlobal_V14.0.10.0.TGOEUSF_38f526e964_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.7.0.TGOEUSF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEASFGlobal_V14.0.7.0.TGOEUSF_ef0a0d9b28_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOEUSF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEASFGlobal_V14.0.6.0.TGOEUSF_52284f36a3_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.4.0.TGOEUSF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEASFGlobal_V14.0.4.0.TGOEUSF_7fd469f302_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.3.0.TGOEUSF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEASFGlobal_V14.0.3.0.TGOEUSF_17e5217738_13.0.zip",
-					"fastboot": "water_eea_sf_global_images_V14.0.3.0.TGOEUSF_20230819.0000.00_13.0_cc1f01f233.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TGOEUSF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEASFGlobal_V14.0.2.0.TGOEUSF_c777881531_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.1.0.TGOEUSF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEASFGlobal_V14.0.1.0.TGOEUSF_f523728423_13.0.zip",
-					"fastboot": "water_eea_sf_global_images_V14.0.1.0.TGOEUSF_20230301.0000.00_13.0_27b94f7d1f.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_eea_hg_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "EUHG",
-			"tag": "EUHG",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲ThreeHK运营商定制版",
-			"en-us": "Europe ThreeHK Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.20.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.20.0.TGOEUHG_441b4938a8_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.19.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.19.0.TGOEUHG_0291f3005f_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.18.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.18.0.TGOEUHG_fa0299f0b1_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.17.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.17.0.TGOEUHG_2787549c05_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.16.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.16.0.TGOEUHG_451949bb23_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.15.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.15.0.TGOEUHG_11f88257d9_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.14.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.14.0.TGOEUHG_b2d1cabc4b_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.8.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.8.0.TGOEUHG_51e100cf71_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.7.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.7.0.TGOEUHG_067885026e_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.6.0.TGOEUHG_ffad28611a_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.5.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.5.0.TGOEUHG_7acf040581_13.0.zip",
-					"fastboot": "water_eea_hg_global_images_V14.0.5.0.TGOEUHG_20231019.0000.00_13.0_05700d1dc2.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.4.0.TGOEUHG_5f502268e6_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.3.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.3.0.TGOEUHG_0a19ab054b_13.0.zip",
-					"fastboot": "water_eea_hg_global_images_V14.0.3.0.TGOEUHG_20230619.0000.00_13.0_6874887cbb.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TGOEUHG",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAHGGlobal_V14.0.2.0.TGOEUHG_b5c573ac7f_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "water_eea_by_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "EUBY",
-			"tag": "EUBY",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲Bouygues Telecom运营商定制版",
-			"en-us": "Europe Bouygues Telecom Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.13.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.13.0.TGOEUBY_fec262db6c_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.12.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.12.0.TGOEUBY_c383df9fc0_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.11.0.TGOEUBY_078c5a5db9_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.10.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.10.0.TGOEUBY_d376cd6d9a_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.9.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.9.0.TGOEUBY_32560789ad_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.8.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.8.0.TGOEUBY_ec8ad0cde8_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.6.0.TGOEUBY_bba36b7be7_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.5.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.5.0.TGOEUBY_6911ce45c1_13.0.zip",
-					"fastboot": "water_eea_by_global_images_V14.0.5.0.TGOEUBY_20231204.0000.00_13.0_6fed3f4e55.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.4.0.TGOEUBY_de517164d8_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.3.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.3.0.TGOEUBY_d3436be6bb_13.0.zip",
-					"fastboot": "water_eea_by_global_images_V14.0.3.0.TGOEUBY_20230612.0000.00_13.0_c57f3c8214.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TGOEUBY",
-					"android": "13.0",
-					"recovery": "miui_WATEREEABYGlobal_V14.0.2.0.TGOEUBY_698b82adcd_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "water_eea_vf_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "EUVF",
-			"tag": "EUVF",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "欧洲Vodafone运营商定制版",
-			"en-us": "Europe Vodafone Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.24.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.24.0.TGOEUVF_bfb12a79c9_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.23.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.23.0.TGOEUVF_3d3cb394e2_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.22.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.22.0.TGOEUVF_e063cf573a_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.20.0.TGOEUVF",
-					"android": "14.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.20.0.TGOEUVF_9a16bfd113_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.19.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.19.0.TGOEUVF_435dd36e46_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.17.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.17.0.TGOEUVF_154d0c53fa_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.15.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.15.0.TGOEUVF_10f5d52a70_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.14.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.14.0.TGOEUVF_be51aab658_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.12.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.12.0.TGOEUVF_b3cbba79bc_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.11.0.TGOEUVF_cce1ee9af7_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.10.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.10.0.TGOEUVF_5722db8ae3_13.0.zip",
-					"fastboot": "water_eea_vf_global_images_V14.0.10.0.TGOEUVF_20240220.0000.00_13.0_6e832f051b.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.9.0.TGOEUVF_c9561f2918_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.8.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.8.0.TGOEUVF_ee2a27b872_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.7.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.7.0.TGOEUVF_5d72106521_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.6.0.TGOEUVF_254e01b4cc_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.4.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.4.0.TGOEUVF_8699329c28_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.2.0.TGOEUVF",
-					"android": "13.0",
-					"recovery": "miui_WATEREEAVFGlobal_V14.0.2.0.TGOEUVF_0fdcf3fa80_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "water_ru_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "RUSO",
-			"tag": "RUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "俄罗斯稳定版",
-			"en-us": "Russia Stable",
-			"links": [
-				{
-					"miui": "V14.0.29.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.29.0.TGORUXM_4ce92e9dc0_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.29.0.TGORUXM_20250910.0000.00_13.0_6146ea332a.tgz"
-				},
-				{
-					"miui": "V14.0.27.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.27.0.TGORUXM_2a52b6aa3e_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.27.0.TGORUXM_20250613.0000.00_13.0_06dacb3859.tgz"
-				},
-				{
-					"miui": "V14.0.26.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.26.0.TGORUXM_49361f60ee_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.24.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.24.0.TGORUXM_57c96e91df_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.24.0.TGORUXM_20250213.0000.00_13.0_689667b4bb.tgz"
-				},
-				{
-					"miui": "V14.0.22.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.22.0.TGORUXM_29095f1642_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.22.0.TGORUXM_20241209.0000.00_13.0_e92f85ed74.tgz"
-				},
-				{
-					"miui": "V14.0.21.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.21.0.TGORUXM_7774302b30_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.21.0.TGORUXM_20241021.0000.00_13.0_2ad9fc8d8c.tgz"
-				},
-				{
-					"miui": "V14.0.17.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.17.0.TGORUXM_3f91e1c0e2_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.17.0.TGORUXM_20240903.0000.00_13.0_6de072503c.tgz"
-				},
-				{
-					"miui": "V14.0.14.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.14.0.TGORUXM_aede16bfe1_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.14.0.TGORUXM_20240605.0000.00_13.0_368c075854.tgz"
-				},
-				{
-					"miui": "V14.0.13.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.13.0.TGORUXM_743b842c90_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.11.0.TGORUXM_4538b84201_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.11.0.TGORUXM_20231215.0000.00_13.0_570a29665c.tgz"
-				},
-				{
-					"miui": "V14.0.10.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.10.0.TGORUXM_b49b7b0272_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.10.0.TGORUXM_20231024.0000.00_13.0_f0f35e65ea.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.7.0.TGORUXM_0ab934fcea_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.7.0.TGORUXM_20230814.0000.00_13.0_ecefc58269.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.6.0.TGORUXM_cbfb194808_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.6.0.TGORUXM_20230731.0000.00_13.0_038f0e4336.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TGORUXM",
-					"android": "13.0",
-					"recovery": "miui_WATERRUGlobal_V14.0.3.0.TGORUXM_e348726496_13.0.zip",
-					"fastboot": "water_ru_global_images_V14.0.3.0.TGORUXM_20230519.0000.00_13.0_3b57a0152b.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_in_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "INSO",
-			"tag": "INXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度稳定版",
-			"en-us": "India Stable",
-			"links": [
-				{
-					"miui": "V14.0.24.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.24.0.TGOINXM_45c9c5ce3a_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.24.0.TGOINXM_20250819.0000.00_13.0_ab63a5a9f8.tgz"
-				},
-				{
-					"miui": "V14.0.23.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.23.0.TGOINXM_362d434a37_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.23.0.TGOINXM_20250516.0000.00_13.0_1e75ba8b5d.tgz"
-				},
-				{
-					"miui": "V14.0.22.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.22.0.TGOINXM_d8ab6d66cf_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.22.0.TGOINXM_20250307.0000.00_13.0_5fbe81c782.tgz"
-				},
-				{
-					"miui": "V14.0.20.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.20.0.TGOINXM_05438b1ed5_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.20.0.TGOINXM_20250114.0000.00_13.0_0728f9ef8e.tgz"
-				},
-				{
-					"miui": "V14.0.19.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.19.0.TGOINXM_2ee7341820_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.19.0.TGOINXM_20241111.0000.00_13.0_29317bc475.tgz"
-				},
-				{
-					"miui": "V14.0.18.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.18.0.TGOINXM_95e49b28fb_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.16.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.16.0.TGOINXM_7cef8988e6_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.16.0.TGOINXM_20240903.0000.00_13.0_2714040bdb.tgz"
-				},
-				{
-					"miui": "V14.0.15.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.15.0.TGOINXM_3edb97a91d_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.15.0.TGOINXM_20240605.0000.00_13.0_1e4d754899.tgz"
-				},
-				{
-					"miui": "V14.0.14.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.14.0.TGOINXM_9d2ab723b0_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.14.0.TGOINXM_20240415.0000.00_13.0_5adde388cc.tgz"
-				},
-				{
-					"miui": "V14.0.13.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.13.0.TGOINXM_4b59dfa06c_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.13.0.TGOINXM_20240202.0000.00_13.0_3b88824ad4.tgz"
-				},
-				{
-					"miui": "V14.0.12.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.12.0.TGOINXM_50ca0cbf12_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.12.0.TGOINXM_20231215.0000.00_13.0_e4f0e7b739.tgz"
-				},
-				{
-					"miui": "V14.0.11.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.11.0.TGOINXM_b4e2f8a945_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.11.0.TGOINXM_20230915.0000.00_13.0_64a43ac961.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.8.0.TGOINXM_163e799109_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.8.0.TGOINXM_20230814.0000.00_13.0_0bfc3000d0.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.7.0.TGOINXM_c51b668493_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.7.0.TGOINXM_20230728.0000.00_13.0_a48bbe76aa.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.5.0.TGOINXM_7546d95734_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.5.0.TGOINXM_20230526.0000.00_13.0_3960bb5218.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.4.0.TGOINXM_3a291217b7_13.0.zip",
-					"fastboot": "water_in_global_images_V14.0.4.0.TGOINXM_20230420.0000.00_13.0_1d36ccf367.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TGOINXM",
-					"android": "13.0",
-					"recovery": "miui_WATERINGlobal_V14.0.3.0.TGOINXM_c97ecc66c6_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "water_id_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "IDSO",
-			"tag": "IDXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度尼西亚稳定版",
-			"en-us": "Indonesia Stable",
-			"links": [
-				{
-					"miui": "V14.0.21.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.21.0.TGOIDXM_63df83fb44_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.21.0.TGOIDXM_20250829.0000.00_13.0_e4f7c2d156.tgz"
-				},
-				{
-					"miui": "V14.0.20.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.20.0.TGOIDXM_a7f043395e_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.20.0.TGOIDXM_20250610.0000.00_13.0_944c94fdcf.tgz"
-				},
-				{
-					"miui": "V14.0.19.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.19.0.TGOIDXM_8e0ae57101_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.19.0.TGOIDXM_20250422.0000.00_13.0_b1bac40180.tgz"
-				},
-				{
-					"miui": "V14.0.18.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.18.0.TGOIDXM_ddbba9224f_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.18.0.TGOIDXM_20250207.0000.00_13.0_43149a6803.tgz"
-				},
-				{
-					"miui": "V14.0.17.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.17.0.TGOIDXM_8aa6819e33_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.17.0.TGOIDXM_20241206.0000.00_13.0_c9a14b7112.tgz"
-				},
-				{
-					"miui": "V14.0.16.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.16.0.TGOIDXM_583926f892_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.16.0.TGOIDXM_20241018.0000.00_13.0_803208f620.tgz"
-				},
-				{
-					"miui": "V14.0.13.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.13.0.TGOIDXM_25218f0991_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.13.0.TGOIDXM_20240805.0000.00_13.0_414b59b156.tgz"
-				},
-				{
-					"miui": "V14.0.9.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.9.0.TGOIDXM_b4c8e07c25_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.9.0.TGOIDXM_20240613.0000.00_13.0_cd04a00184.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.8.0.TGOIDXM_531963f279_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.8.0.TGOIDXM_20240415.0000.00_13.0_93d44d03a9.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.7.0.TGOIDXM_c7c2e35d48_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.7.0.TGOIDXM_20240202.0000.00_13.0_65058f3a79.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.6.0.TGOIDXM_e5ee584e51_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.6.0.TGOIDXM_20231226.0000.00_13.0_29a05dcba0.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.5.0.TGOIDXM_f6e28bcb91_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.5.0.TGOIDXM_20231011.0000.00_13.0_6ff1197cc1.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.4.0.TGOIDXM_4275825833_13.0.zip",
-					"fastboot": "water_id_global_images_V14.0.4.0.TGOIDXM_20230821.0000.00_13.0_8cf1b54d65.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TGOIDXM",
-					"android": "13.0",
-					"recovery": "miui_WATERIDGlobal_V14.0.3.0.TGOIDXM_620060f93d_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "water_cl_en_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "CLEN",
-			"tag": "CLEN",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "智利Entel运营商定制版",
-			"en-us": "Chile Stable Entel Carrier Edtion",
-			"links": [
-				{
-					"miui": "V14.0.7.0.TGOCLEN",
-					"android": "13.0",
-					"recovery": "miui_WATERCLENGlobal_V14.0.7.0.TGOCLEN_48248dbe59_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOCLEN",
-					"android": "13.0",
-					"recovery": "miui_WATERCLENGlobal_V14.0.6.0.TGOCLEN_53ff11f04e_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.5.0.TGOCLEN",
-					"android": "13.0",
-					"recovery": "miui_WATERCLENGlobal_V14.0.5.0.TGOCLEN_41c42a7030_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.4.0.TGOCLEN",
-					"android": "13.0",
-					"recovery": "miui_WATERCLENGlobal_V14.0.4.0.TGOCLEN_408da3a181_13.0.zip",
-					"fastboot": "water_cl_en_global_images_V14.0.4.0.TGOCLEN_20230615.0000.00_13.0_ea229853eb.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TGOCLEN",
-					"android": "13.0",
-					"recovery": "miui_WATERCLENGlobal_V14.0.3.0.TGOCLEN_d8d8c096a3_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.2.0.TGOCLEN",
-					"android": "13.0",
-					"recovery": "miui_WATERCLENGlobal_V14.0.2.0.TGOCLEN_4636f2a60c_13.0.zip",
-					"fastboot": "water_cl_en_global_images_V14.0.2.0.TGOCLEN_20230220.0000.00_13.0_01ada6cc34.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_mx_tc_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "MXTC",
-			"tag": "MXTC",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "墨西哥Telcel运营商定制版",
-			"en-us": "Mexico Stable Telcel Carrier Edtion",
-			"links": [
-				{
-					"miui": "V14.0.17.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.17.0.TGOMXTC_76af1c4eeb_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.16.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.16.0.TGOMXTC_8ff033e8bc_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.15.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.15.0.TGOMXTC_38c7e9e147_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.13.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.13.0.TGOMXTC_a938b10613_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.12.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.12.0.TGOMXTC_c1efa40913_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.11.0.TGOMXTC_ad2edfedfe_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.10.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.10.0.TGOMXTC_46cdd7eec8_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.9.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.9.0.TGOMXTC_af161fcad4_13.0.zip",
-					"fastboot": "water_mx_tc_global_images_V14.0.9.0.TGOMXTC_20240313.0000.00_13.0_95645564ff.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.7.0.TGOMXTC_a32b4227d3_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.6.0.TGOMXTC_2e91cdb514_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.5.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.5.0.TGOMXTC_dd6ab2b8d0_13.0.zip",
-					"fastboot": "water_mx_tc_global_images_V14.0.5.0.TGOMXTC_20230829.0000.00_13.0_95e6e05c57.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.4.0.TGOMXTC_5e7fc93a2e_13.0.zip",
-					"fastboot": "water_mx_tc_global_images_V14.0.4.0.TGOMXTC_20230724.0000.00_13.0_7cde2c6461.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.3.0.TGOMXTC_43c4430feb_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.2.0.TGOMXTC",
-					"android": "13.0",
-					"recovery": "miui_WATERMXTCGlobal_V14.0.2.0.TGOMXTC_4d469ca238_13.0.zip",
-					"fastboot": "water_mx_tc_global_images_V14.0.2.0.TGOMXTC_20230403.0000.00_13.0_200d78c75e.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_mx_at_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "MXAT",
-			"tag": "MXAT",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "墨西哥AT&T运营商定制版",
-			"en-us": "Mexico Stable AT&T Carrier Edtion",
-			"links": [
-				{
-					"miui": "V14.0.21.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.21.0.TGOMXAT_3861931e5b_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.20.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.20.0.TGOMXAT_8b2ec814de_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.19.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.19.0.TGOMXAT_88da2dde65_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.18.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.18.0.TGOMXAT_b8ff29375a_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.17.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.17.0.TGOMXAT_84a09fe638_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.16.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.16.0.TGOMXAT_eb6ef13d80_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.15.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.15.0.TGOMXAT_720aeb1431_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.14.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.14.0.TGOMXAT_f1b48ad6bc_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.12.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.12.0.TGOMXAT_81d91f710c_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.11.0.TGOMXAT_f1e0de5b5c_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.10.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.10.0.TGOMXAT_1c79dbc667_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.7.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.7.0.TGOMXAT_5e9b34d2d6_13.0.zip",
-					"fastboot": "water_mx_at_global_images_V14.0.7.0.TGOMXAT_20231128.0000.00_13.0_e9d8e100e1.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.6.0.TGOMXAT_234f076483_13.0.zip",
-					"fastboot": "water_mx_at_global_images_V14.0.6.0.TGOMXAT_20230824.0000.00_13.0_be721fbf0d.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.4.0.TGOMXAT_d9a85e6848_13.0.zip",
-					"fastboot": "water_mx_at_global_images_V14.0.4.0.TGOMXAT_20230615.0000.00_13.0_9f78920592.tgz"
-				},
-				{
-					"miui": "V14.0.3.0.TGOMXAT",
-					"android": "13.0",
-					"recovery": "miui_WATERMXATGlobal_V14.0.3.0.TGOMXAT_190de5310b_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "water_lm_cr_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "LMCR",
-			"tag": "LMCR",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "拉丁美洲Claro运营商定制版",
-			"en-us": "Latin America Claro Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.18.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.18.0.TGOLMCR_b24dc22d0c_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.17.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.17.0.TGOLMCR_e20df5c53b_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.16.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.16.0.TGOLMCR_8b7c6d6350_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.15.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.15.0.TGOLMCR_fa3b0c0f44_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.14.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.14.0.TGOLMCR_91ce00c4a9_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.12.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.12.0.TGOLMCR_b68df84970_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.11.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.11.0.TGOLMCR_8b1428cda3_13.0.zip",
-					"fastboot": "water_lm_cr_global_images_V14.0.11.0.TGOLMCR_20240226.0000.00_13.0_de4ea65dbc.tgz"
-				},
-				{
-					"miui": "V14.0.10.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.10.0.TGOLMCR_7b224bd999_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.9.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.9.0.TGOLMCR_2f61588bf3_13.0.zip",
-					"fastboot": "water_lm_cr_global_images_V14.0.9.0.TGOLMCR_20231128.0000.00_13.0_e518739b5f.tgz"
-				},
-				{
-					"miui": "V14.0.7.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.7.0.TGOLMCR_160b0e4e00_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.6.0.TGOLMCR_f14ec39712_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.4.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.4.0.TGOLMCR_7779d7658f_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.3.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.3.0.TGOLMCR_03b00d1441_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.2.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.2.0.TGOLMCR_0e7470dd34_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.1.0.TGOLMCR",
-					"android": "13.0",
-					"recovery": "miui_WATERLMCRGlobal_V14.0.1.0.TGOLMCR_77735383bb_13.0.zip",
-					"fastboot": "water_lm_cr_global_images_V14.0.1.0.TGOLMCR_20230221.0000.00_13.0_142c3b0107.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_za_vc_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "ZAVC",
-			"tag": "ZAVC",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "南非Vodacom运营商定制版",
-			"en-us": "South Africa Vodacom Carrier Edtion",
-			"links": [
-				{
-					"miui": "V14.0.11.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.11.0.TGOZAVC_62537674df_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.10.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.10.0.TGOZAVC_e2b8bb203a_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.9.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.9.0.TGOZAVC_e7ac441ad8_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.8.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.8.0.TGOZAVC_3555774214_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.7.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.7.0.TGOZAVC_8460f13ef9_13.0.zip",
-					"fastboot": "water_za_vc_global_images_V14.0.7.0.TGOZAVC_20240509.0000.00_13.0_d81f24ed8d.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.6.0.TGOZAVC_451dae3603_13.0.zip",
-					"fastboot": "water_za_vc_global_images_V14.0.6.0.TGOZAVC_20240202.0000.00_13.0_8485134a26.tgz"
-				},
-				{
-					"miui": "V14.0.5.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.5.0.TGOZAVC_66c8a0369e_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.4.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.4.0.TGOZAVC_1bc72f6e8c_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.3.0.TGOZAVC",
-					"android": "13.0",
-					"recovery": "miui_WATERZAVCGlobal_V14.0.3.0.TGOZAVC_897053c322_13.0.zip",
-					"fastboot": "water_za_vc_global_images_V14.0.3.0.TGOZAVC_20230612.0000.00_13.0_f5c306868d.tgz"
-				}
-			]
-		},
-		{
-			"code": "water_za_mt_global",
-			"btag": "F",
-			"region": "",
-			"carrier": [],
-			"branch": "ZAMT",
-			"tag": "ZAMT",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "南非MTN运营商定制版",
-			"en-us": "South Africa MTN Carrier Edtion",
-			"links": [
-				{
-					"miui": "V14.0.11.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.11.0.TGOZAMT_95d6771bfd_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.10.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.10.0.TGOZAMT_17863c8b49_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.9.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.9.0.TGOZAMT_637e3865ca_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.8.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.8.0.TGOZAMT_41280829d8_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.7.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.7.0.TGOZAMT_cc086a89db_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.6.0.TGOZAMT_c0850ede4c_13.0.zip",
-					"fastboot": "water_za_mt_global_images_V14.0.6.0.TGOZAMT_20240509.0000.00_13.0_7bad538043.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.4.0.TGOZAMT_cefcda2615_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.3.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.3.0.TGOZAMT_315daeace8_13.0.zip",
-					"fastboot": "water_za_mt_global_images_V14.0.3.0.TGOZAMT_20230905.0000.00_13.0_8ab0911b16.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.2.0.TGOZAMT_082c202128_13.0.zip",
-					"fastboot": "water_za_mt_global_images_V14.0.2.0.TGOZAMT_20230614.0000.00_13.0_dbbb5e33cf.tgz"
-				},
-				{
-					"miui": "V14.0.1.0.TGOZAMT",
-					"android": "13.0",
-					"recovery": "miui_WATERZAMTGlobal_V14.0.1.0.TGOZAMT_c83927b1b4_13.0.zip",
-					"fastboot": ""
-				}
-			]
-		}
-	]
+  "codename": "water",
+  "zh-cn": "Redmi A2/A2+/POCO C51",
+  "en-us": "Redmi A2/A2+/POCO C51",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "GO",
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "water_tw_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "CNTP",
+      "tag": "TWXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国台湾省正式版",
+      "en-us": "China Taiwan Province Stable",
+      "links": [
+        {
+          "miui": "V14.0.9.0.TGOTWXM",
+          "android": "13.0",
+          "recovery": "miui_WATERTWGlobal_V14.0.9.0.TGOTWXM_61ccca1f2c_13.0.zip",
+          "fastboot": "water_tw_global_images_V14.0.9.0.TGOTWXM_20250819.0000.00_13.0_817118a4cd.tgz",
+          "release": "2025-09-18"
+        },
+        {
+          "miui": "V14.0.7.0.TGOTWXM",
+          "android": "13.0",
+          "recovery": "miui_WATERTWGlobal_V14.0.7.0.TGOTWXM_5493b029a6_13.0.zip",
+          "fastboot": "water_tw_global_images_V14.0.7.0.TGOTWXM_20241111.0000.00_13.0_edff53d018.tgz",
+          "release": "2024-11-22"
+        },
+        {
+          "miui": "V14.0.5.0.TGOTWXM",
+          "android": "13.0",
+          "recovery": "miui_WATERTWGlobal_V14.0.5.0.TGOTWXM_d8fbf3b17d_13.0.zip",
+          "fastboot": "water_tw_global_images_V14.0.5.0.TGOTWXM_20240613.0000.00_13.0_49d96c3b47.tgz",
+          "release": "2024-06-25"
+        },
+        {
+          "miui": "V14.0.4.0.TGOTWXM",
+          "android": "13.0",
+          "recovery": "miui_WATERTWGlobal_V14.0.4.0.TGOTWXM_ffe8d8cb23_13.0.zip",
+          "fastboot": "water_tw_global_images_V14.0.4.0.TGOTWXM_20240110.0000.00_13.0_8b2a9b4699.tgz",
+          "release": "2024-01-22"
+        },
+        {
+          "miui": "V14.0.3.0.TGOTWXM",
+          "android": "13.0",
+          "recovery": "miui_WATERTWGlobal_V14.0.3.0.TGOTWXM_78fe8b126d_13.0.zip",
+          "fastboot": "water_tw_global_images_V14.0.3.0.TGOTWXM_20230830.0000.00_13.0_7d1d745d83.tgz",
+          "release": "2023-09-04"
+        }
+      ]
+    },
+    {
+      "code": "water_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "GBOO",
+      "tag": "MIXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "国际正式版",
+      "en-us": "Global Stable",
+      "links": [
+        {
+          "miui": "V14.0.44.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.44.0.TGOMIXM_a6b9ed3591_13.0.zip",
+          "fastboot": "water_global_images_V14.0.44.0.TGOMIXM_20251223.0000.00_13.0_a137b8cfcd.tgz",
+          "release": "2025-12-31"
+        },
+        {
+          "miui": "V14.0.42.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.42.0.TGOMIXM_0d46c37664_13.0.zip",
+          "fastboot": "water_global_images_V14.0.42.0.TGOMIXM_20251215.0000.00_13.0_f35f3ab425.tgz",
+          "release": "2025-12-25"
+        },
+        {
+          "miui": "V14.0.41.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.41.0.TGOMIXM_d0e3956033_13.0.zip",
+          "fastboot": "water_global_images_V14.0.41.0.TGOMIXM_20251024.0000.00_13.0_9dfd1a9bab.tgz",
+          "release": "2025-10-31"
+        },
+        {
+          "miui": "V14.0.40.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.40.0.TGOMIXM_2107d4a455_13.0.zip",
+          "fastboot": "water_global_images_V14.0.40.0.TGOMIXM_20250829.0000.00_13.0_7c32fe20b4.tgz",
+          "release": "2025-09-18"
+        },
+        {
+          "miui": "V14.0.39.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.39.0.TGOMIXM_6d21879ed1_13.0.zip",
+          "fastboot": "water_global_images_V14.0.39.0.TGOMIXM_20250522.0000.00_13.0_1c4e02ead3.tgz",
+          "release": "2025-05-30"
+        },
+        {
+          "miui": "V14.0.38.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.38.0.TGOMIXM_61172834e4_13.0.zip",
+          "fastboot": "",
+          "release": "2025-03-20"
+        },
+        {
+          "miui": "V14.0.37.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.37.0.TGOMIXM_5764676a21_13.0.zip",
+          "fastboot": "water_global_images_V14.0.37.0.TGOMIXM_20250108.0000.00_13.0_5756d6cd57.tgz",
+          "release": "2025-01-23"
+        },
+        {
+          "miui": "V14.0.36.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.36.0.TGOMIXM_2fe7acb9c1_13.0.zip",
+          "fastboot": "water_global_images_V14.0.36.0.TGOMIXM_20241104.0000.00_13.0_65da975244.tgz",
+          "release": "2024-11-22"
+        },
+        {
+          "miui": "V14.0.35.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.35.0.TGOMIXM_3ab0e5424a_13.0.zip",
+          "fastboot": "water_global_images_V14.0.35.0.TGOMIXM_20241009.0000.00_13.0_c033c24b19.tgz",
+          "release": "2024-10-15"
+        },
+        {
+          "miui": "V14.0.29.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.29.0.TGOMIXM_1bb20691f1_13.0.zip",
+          "fastboot": "water_global_images_V14.0.29.0.TGOMIXM_20240726.0000.00_13.0_2501011908.tgz",
+          "release": "2024-08-09"
+        },
+        {
+          "miui": "V14.0.27.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.27.0.TGOMIXM_98dc796bf1_13.0.zip",
+          "fastboot": "water_global_images_V14.0.27.0.TGOMIXM_20240522.0000.00_13.0_39a7e7c6b6.tgz",
+          "release": "2024-05-30"
+        },
+        {
+          "miui": "V14.0.25.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.25.0.TGOMIXM_8ffc74bc22_13.0.zip",
+          "fastboot": "water_global_images_V14.0.25.0.TGOMIXM_20240307.0000.00_13.0_034d9c660e.tgz",
+          "release": "2024-03-21"
+        },
+        {
+          "miui": "V14.0.24.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.24.0.TGOMIXM_e2f5f80463_13.0.zip",
+          "fastboot": "",
+          "release": "2024-01-23"
+        },
+        {
+          "miui": "V14.0.23.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.23.0.TGOMIXM_7945213079_13.0.zip",
+          "fastboot": "water_global_images_V14.0.23.0.TGOMIXM_20231109.0000.00_13.0_6e4ce27d1c.tgz",
+          "release": "2023-11-23"
+        },
+        {
+          "miui": "V14.0.21.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.21.0.TGOMIXM_ab082058d5_13.0.zip",
+          "fastboot": "water_global_images_V14.0.21.0.TGOMIXM_20231010.0000.00_13.0_87976a9148.tgz",
+          "release": "2023-10-24"
+        },
+        {
+          "miui": "V14.0.15.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.15.0.TGOMIXM_3895b1029e_13.0.zip",
+          "fastboot": "water_global_images_V14.0.15.0.TGOMIXM_20230814.0000.00_13.0_54426a453e.tgz",
+          "release": "2023-08-18"
+        },
+        {
+          "miui": "V14.0.14.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.14.0.TGOMIXM_b8943b4681_13.0.zip",
+          "fastboot": "water_global_images_V14.0.14.0.TGOMIXM_20230728.0000.00_13.0_51d00b79c3.tgz",
+          "release": "2023-08-01"
+        },
+        {
+          "miui": "V14.0.12.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.12.0.TGOMIXM_c067735199_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-30"
+        },
+        {
+          "miui": "V14.0.11.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.11.0.TGOMIXM_66556ac043_13.0.zip",
+          "fastboot": "water_global_images_V14.0.11.0.TGOMIXM_20230516.0000.00_13.0_dc558dcbf3.tgz",
+          "release": "2023-05-25"
+        },
+        {
+          "miui": "V14.0.10.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.10.0.TGOMIXM_4c835c75b8_13.0.zip",
+          "fastboot": "water_global_images_V14.0.10.0.TGOMIXM_20230404.0000.00_13.0_90dfffe33c.tgz",
+          "release": "2023-04-14"
+        },
+        {
+          "miui": "V14.0.9.0.TGOMIXM",
+          "android": "13.0",
+          "recovery": "miui_WATERGlobal_V14.0.9.0.TGOMIXM_95d4da1bee_13.0.zip",
+          "fastboot": "water_global_images_V14.0.9.0.TGOMIXM_20230308.0000.00_13.0_8f31466143.tgz",
+          "release": "2023-03-15"
+        }
+      ]
+    },
+    {
+      "code": "water_eea_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "EEAO",
+      "tag": "EUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲EEA正式版",
+      "en-us": "Europe EEA Stable",
+      "links": [
+        {
+          "miui": "V14.0.32.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.32.0.TGOEUXM_ee6008b942_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.32.0.TGOEUXM_20260302.0000.00_13.0_307b0b9761.tgz",
+          "release": "2026-03-11"
+        },
+        {
+          "miui": "V14.0.30.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.30.0.TGOEUXM_228a194065_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.30.0.TGOEUXM_20251113.0000.00_13.0_6cfcf99b69.tgz",
+          "release": "2025-12-03"
+        },
+        {
+          "miui": "V14.0.29.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.29.0.TGOEUXM_9ffad44301_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.29.0.TGOEUXM_20250922.0000.00_13.0_009f5c70f8.tgz",
+          "release": "2025-09-28"
+        },
+        {
+          "miui": "V14.0.28.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.28.0.TGOEUXM_a23009abe8_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.28.0.TGOEUXM_20250812.0000.00_13.0_19d6679e7d.tgz",
+          "release": "2025-09-04"
+        },
+        {
+          "miui": "V14.0.24.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.24.0.TGOEUXM_a56c6b934e_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.24.0.TGOEUXM_20250417.0000.00_13.0_a3690efd10.tgz",
+          "release": "2025-04-30"
+        },
+        {
+          "miui": "V14.0.22.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.22.0.TGOEUXM_e84fae6268_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.22.0.TGOEUXM_20250208.0000.00_13.0_9ad6f88982.tgz",
+          "release": "2025-02-27"
+        },
+        {
+          "miui": "V14.0.21.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.21.0.TGOEUXM_1a8773a083_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.21.0.TGOEUXM_20241129.0000.00_13.0_79baa3a156.tgz",
+          "release": "2024-12-20"
+        },
+        {
+          "miui": "V14.0.20.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.20.0.TGOEUXM_d467dec457_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.20.0.TGOEUXM_20241017.0000.00_13.0_9a308fda9c.tgz",
+          "release": "2024-10-23"
+        },
+        {
+          "miui": "V14.0.17.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.17.0.TGOEUXM_e599a81c4a_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.17.0.TGOEUXM_20240726.0000.00_13.0_50681b51a5.tgz",
+          "release": "2024-08-09"
+        },
+        {
+          "miui": "V14.0.15.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.15.0.TGOEUXM_e428ae00e4_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.15.0.TGOEUXM_20240514.0000.00_13.0_e8bdbcc294.tgz",
+          "release": "2024-06-03"
+        },
+        {
+          "miui": "V14.0.14.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.14.0.TGOEUXM_9b734b4a01_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.14.0.TGOEUXM_20240307.0000.00_13.0_e02c305b45.tgz",
+          "release": "2024-03-21"
+        },
+        {
+          "miui": "V14.0.13.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.13.0.TGOEUXM_9148e3010b_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.13.0.TGOEUXM_20240110.0000.00_13.0_b639c341dc.tgz",
+          "release": "2024-01-18"
+        },
+        {
+          "miui": "V14.0.11.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.11.0.TGOEUXM_776fab2f20_13.0.zip",
+          "fastboot": "",
+          "release": "2023-10-20"
+        },
+        {
+          "miui": "V14.0.10.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.10.0.TGOEUXM_5bfbd4f515_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.10.0.TGOEUXM_20230821.0000.00_13.0_4e2c9424bf.tgz",
+          "release": "2023-08-25"
+        },
+        {
+          "miui": "V14.0.9.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.9.0.TGOEUXM_4be1d25aca_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-05"
+        },
+        {
+          "miui": "V14.0.8.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.8.0.TGOEUXM_32a92c64e1_13.0.zip",
+          "fastboot": "",
+          "release": "2023-04-27"
+        },
+        {
+          "miui": "V14.0.7.0.TGOEUXM",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAGlobal_V14.0.7.0.TGOEUXM_0968e37678_13.0.zip",
+          "fastboot": "water_eea_global_images_V14.0.7.0.TGOEUXM_20230320.0000.00_13.0_d4505b2473.tgz",
+          "release": "2023-04-18"
+        }
+      ]
+    },
+    {
+      "code": "water_eea_sf_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "EUSF",
+      "tag": "EUSF",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲Altice(SFR)运营商定制版",
+      "en-us": "Europe Altice(SFR) Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.10.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEASFGlobal_V14.0.10.0.TGOEUSF_38f526e964_13.0.zip",
+          "fastboot": "",
+          "release": "2025-12-02"
+        },
+        {
+          "miui": "V14.0.7.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEASFGlobal_V14.0.7.0.TGOEUSF_ef0a0d9b28_13.0.zip",
+          "fastboot": "",
+          "release": "2024-09-13"
+        },
+        {
+          "miui": "V14.0.6.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEASFGlobal_V14.0.6.0.TGOEUSF_52284f36a3_13.0.zip",
+          "fastboot": "",
+          "release": "2024-07-30"
+        },
+        {
+          "miui": "V14.0.4.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEASFGlobal_V14.0.4.0.TGOEUSF_7fd469f302_13.0.zip",
+          "fastboot": "",
+          "release": "2024-03-22"
+        },
+        {
+          "miui": "V14.0.3.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEASFGlobal_V14.0.3.0.TGOEUSF_17e5217738_13.0.zip",
+          "fastboot": "water_eea_sf_global_images_V14.0.3.0.TGOEUSF_20230819.0000.00_13.0_cc1f01f233.tgz",
+          "release": "2023-09-22"
+        },
+        {
+          "miui": "V14.0.2.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEASFGlobal_V14.0.2.0.TGOEUSF_c777881531_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-14"
+        },
+        {
+          "miui": "V14.0.1.0.TGOEUSF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEASFGlobal_V14.0.1.0.TGOEUSF_f523728423_13.0.zip",
+          "fastboot": "water_eea_sf_global_images_V14.0.1.0.TGOEUSF_20230301.0000.00_13.0_27b94f7d1f.tgz",
+          "release": "2023-04-04"
+        }
+      ]
+    },
+    {
+      "code": "water_eea_hg_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "EUHG",
+      "tag": "EUHG",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲ThreeHK运营商定制版",
+      "en-us": "Europe ThreeHK Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.20.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.20.0.TGOEUHG_441b4938a8_13.0.zip",
+          "fastboot": "",
+          "release": "2026-03-18"
+        },
+        {
+          "miui": "V14.0.19.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.19.0.TGOEUHG_0291f3005f_13.0.zip",
+          "fastboot": "",
+          "release": "2026-02-03"
+        },
+        {
+          "miui": "V14.0.18.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.18.0.TGOEUHG_fa0299f0b1_13.0.zip",
+          "fastboot": "",
+          "release": "2025-11-19"
+        },
+        {
+          "miui": "V14.0.17.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.17.0.TGOEUHG_2787549c05_13.0.zip",
+          "fastboot": "",
+          "release": "2025-09-04"
+        },
+        {
+          "miui": "V14.0.16.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.16.0.TGOEUHG_451949bb23_13.0.zip",
+          "fastboot": "",
+          "release": "2025-08-01"
+        },
+        {
+          "miui": "V14.0.15.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.15.0.TGOEUHG_11f88257d9_13.0.zip",
+          "fastboot": "",
+          "release": "2025-03-24"
+        },
+        {
+          "miui": "V14.0.14.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.14.0.TGOEUHG_b2d1cabc4b_13.0.zip",
+          "fastboot": "",
+          "release": "2024-12-06"
+        },
+        {
+          "miui": "V14.0.8.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.8.0.TGOEUHG_51e100cf71_13.0.zip",
+          "fastboot": "",
+          "release": "2024-04-17"
+        },
+        {
+          "miui": "V14.0.7.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.7.0.TGOEUHG_067885026e_13.0.zip",
+          "fastboot": "",
+          "release": "2024-02-20"
+        },
+        {
+          "miui": "V14.0.6.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.6.0.TGOEUHG_ffad28611a_13.0.zip",
+          "fastboot": "",
+          "release": "2023-12-26"
+        },
+        {
+          "miui": "V14.0.5.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.5.0.TGOEUHG_7acf040581_13.0.zip",
+          "fastboot": "water_eea_hg_global_images_V14.0.5.0.TGOEUHG_20231019.0000.00_13.0_05700d1dc2.tgz",
+          "release": "2023-11-08"
+        },
+        {
+          "miui": "V14.0.4.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.4.0.TGOEUHG_5f502268e6_13.0.zip",
+          "fastboot": "",
+          "release": "2023-09-12"
+        },
+        {
+          "miui": "V14.0.3.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.3.0.TGOEUHG_0a19ab054b_13.0.zip",
+          "fastboot": "water_eea_hg_global_images_V14.0.3.0.TGOEUHG_20230619.0000.00_13.0_6874887cbb.tgz",
+          "release": "2023-06-25"
+        },
+        {
+          "miui": "V14.0.2.0.TGOEUHG",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAHGGlobal_V14.0.2.0.TGOEUHG_b5c573ac7f_13.0.zip",
+          "fastboot": "",
+          "release": "2023-05-10"
+        }
+      ]
+    },
+    {
+      "code": "water_eea_by_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "EUBY",
+      "tag": "EUBY",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲Bouygues Telecom运营商定制版",
+      "en-us": "Europe Bouygues Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.13.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.13.0.TGOEUBY_fec262db6c_13.0.zip",
+          "fastboot": "",
+          "release": "2025-12-05"
+        },
+        {
+          "miui": "V14.0.12.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.12.0.TGOEUBY_c383df9fc0_13.0.zip",
+          "fastboot": "",
+          "release": "2025-09-29"
+        },
+        {
+          "miui": "V14.0.11.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.11.0.TGOEUBY_078c5a5db9_13.0.zip",
+          "fastboot": "",
+          "release": "2025-05-13"
+        },
+        {
+          "miui": "V14.0.10.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.10.0.TGOEUBY_d376cd6d9a_13.0.zip",
+          "fastboot": "",
+          "release": "2024-11-28"
+        },
+        {
+          "miui": "V14.0.9.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.9.0.TGOEUBY_32560789ad_13.0.zip",
+          "fastboot": "",
+          "release": "2024-10-12"
+        },
+        {
+          "miui": "V14.0.8.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.8.0.TGOEUBY_ec8ad0cde8_13.0.zip",
+          "fastboot": "",
+          "release": "2024-07-02"
+        },
+        {
+          "miui": "V14.0.6.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.6.0.TGOEUBY_bba36b7be7_13.0.zip",
+          "fastboot": "",
+          "release": "2024-05-15"
+        },
+        {
+          "miui": "V14.0.5.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.5.0.TGOEUBY_6911ce45c1_13.0.zip",
+          "fastboot": "water_eea_by_global_images_V14.0.5.0.TGOEUBY_20231204.0000.00_13.0_6fed3f4e55.tgz",
+          "release": "2024-01-11"
+        },
+        {
+          "miui": "V14.0.4.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.4.0.TGOEUBY_de517164d8_13.0.zip",
+          "fastboot": "",
+          "release": "2023-09-26"
+        },
+        {
+          "miui": "V14.0.3.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.3.0.TGOEUBY_d3436be6bb_13.0.zip",
+          "fastboot": "water_eea_by_global_images_V14.0.3.0.TGOEUBY_20230612.0000.00_13.0_c57f3c8214.tgz",
+          "release": "2023-07-11"
+        },
+        {
+          "miui": "V14.0.2.0.TGOEUBY",
+          "android": "13.0",
+          "recovery": "miui_WATEREEABYGlobal_V14.0.2.0.TGOEUBY_698b82adcd_13.0.zip",
+          "fastboot": "",
+          "release": "2023-04-20"
+        }
+      ]
+    },
+    {
+      "code": "water_eea_vf_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "EUVF",
+      "tag": "EUVF",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "欧洲Vodafone运营商定制版",
+      "en-us": "Europe Vodafone Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.24.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.24.0.TGOEUVF_bfb12a79c9_13.0.zip",
+          "fastboot": "",
+          "release": "2026-02-09"
+        },
+        {
+          "miui": "V14.0.23.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.23.0.TGOEUVF_3d3cb394e2_13.0.zip",
+          "fastboot": "",
+          "release": "2025-11-20"
+        },
+        {
+          "miui": "V14.0.22.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.22.0.TGOEUVF_e063cf573a_13.0.zip",
+          "fastboot": "",
+          "release": "2025-10-09"
+        },
+        {
+          "miui": "V14.0.20.0.TGOEUVF",
+          "android": "14.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.20.0.TGOEUVF_9a16bfd113_13.0.zip",
+          "fastboot": "",
+          "release": "2025-06-27"
+        },
+        {
+          "miui": "V14.0.19.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.19.0.TGOEUVF_435dd36e46_13.0.zip",
+          "fastboot": "",
+          "release": "2025-05-13"
+        },
+        {
+          "miui": "V14.0.17.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.17.0.TGOEUVF_154d0c53fa_13.0.zip",
+          "fastboot": "",
+          "release": "2024-12-24"
+        },
+        {
+          "miui": "V14.0.15.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.15.0.TGOEUVF_10f5d52a70_13.0.zip",
+          "fastboot": "",
+          "release": "2024-11-05"
+        },
+        {
+          "miui": "V14.0.14.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.14.0.TGOEUVF_be51aab658_13.0.zip",
+          "fastboot": "",
+          "release": "2024-09-09"
+        },
+        {
+          "miui": "V14.0.12.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.12.0.TGOEUVF_b3cbba79bc_13.0.zip",
+          "fastboot": "",
+          "release": "2024-06-21"
+        },
+        {
+          "miui": "V14.0.11.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.11.0.TGOEUVF_cce1ee9af7_13.0.zip",
+          "fastboot": "",
+          "release": "2024-04-23"
+        },
+        {
+          "miui": "V14.0.10.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.10.0.TGOEUVF_5722db8ae3_13.0.zip",
+          "fastboot": "water_eea_vf_global_images_V14.0.10.0.TGOEUVF_20240220.0000.00_13.0_6e832f051b.tgz",
+          "release": "2024-03-01"
+        },
+        {
+          "miui": "V14.0.9.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.9.0.TGOEUVF_c9561f2918_13.0.zip",
+          "fastboot": "",
+          "release": "2023-12-15"
+        },
+        {
+          "miui": "V14.0.8.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.8.0.TGOEUVF_ee2a27b872_13.0.zip",
+          "fastboot": "",
+          "release": "2023-10-25"
+        },
+        {
+          "miui": "V14.0.7.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.7.0.TGOEUVF_5d72106521_13.0.zip",
+          "fastboot": "",
+          "release": "2023-08-26"
+        },
+        {
+          "miui": "V14.0.6.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.6.0.TGOEUVF_254e01b4cc_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-21"
+        },
+        {
+          "miui": "V14.0.4.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.4.0.TGOEUVF_8699329c28_13.0.zip",
+          "fastboot": "",
+          "release": "2023-05-10"
+        },
+        {
+          "miui": "V14.0.2.0.TGOEUVF",
+          "android": "13.0",
+          "recovery": "miui_WATEREEAVFGlobal_V14.0.2.0.TGOEUVF_0fdcf3fa80_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-05"
+        }
+      ]
+    },
+    {
+      "code": "water_ru_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "RUSO",
+      "tag": "RUXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "俄罗斯正式版",
+      "en-us": "Russia Stable",
+      "links": [
+        {
+          "miui": "V14.0.29.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.29.0.TGORUXM_4ce92e9dc0_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.29.0.TGORUXM_20250910.0000.00_13.0_6146ea332a.tgz",
+          "release": "2025-11-05"
+        },
+        {
+          "miui": "V14.0.27.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.27.0.TGORUXM_2a52b6aa3e_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.27.0.TGORUXM_20250613.0000.00_13.0_06dacb3859.tgz",
+          "release": "2025-06-30"
+        },
+        {
+          "miui": "V14.0.26.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.26.0.TGORUXM_49361f60ee_13.0.zip",
+          "fastboot": "",
+          "release": "2025-04-30"
+        },
+        {
+          "miui": "V14.0.24.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.24.0.TGORUXM_57c96e91df_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.24.0.TGORUXM_20250213.0000.00_13.0_689667b4bb.tgz",
+          "release": "2025-02-27"
+        },
+        {
+          "miui": "V14.0.22.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.22.0.TGORUXM_29095f1642_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.22.0.TGORUXM_20241209.0000.00_13.0_e92f85ed74.tgz",
+          "release": "2024-12-20"
+        },
+        {
+          "miui": "V14.0.21.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.21.0.TGORUXM_7774302b30_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.21.0.TGORUXM_20241021.0000.00_13.0_2ad9fc8d8c.tgz",
+          "release": "2024-10-25"
+        },
+        {
+          "miui": "V14.0.17.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.17.0.TGORUXM_3f91e1c0e2_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.17.0.TGORUXM_20240903.0000.00_13.0_6de072503c.tgz",
+          "release": "2024-09-11"
+        },
+        {
+          "miui": "V14.0.14.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.14.0.TGORUXM_aede16bfe1_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.14.0.TGORUXM_20240605.0000.00_13.0_368c075854.tgz",
+          "release": "2024-06-14"
+        },
+        {
+          "miui": "V14.0.13.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.13.0.TGORUXM_743b842c90_13.0.zip",
+          "fastboot": "",
+          "release": "2024-03-07"
+        },
+        {
+          "miui": "V14.0.11.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.11.0.TGORUXM_4538b84201_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.11.0.TGORUXM_20231215.0000.00_13.0_570a29665c.tgz",
+          "release": "2024-01-04"
+        },
+        {
+          "miui": "V14.0.10.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.10.0.TGORUXM_b49b7b0272_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.10.0.TGORUXM_20231024.0000.00_13.0_f0f35e65ea.tgz",
+          "release": "2023-10-30"
+        },
+        {
+          "miui": "V14.0.7.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.7.0.TGORUXM_0ab934fcea_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.7.0.TGORUXM_20230814.0000.00_13.0_ecefc58269.tgz",
+          "release": "2023-08-21"
+        },
+        {
+          "miui": "V14.0.6.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.6.0.TGORUXM_cbfb194808_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.6.0.TGORUXM_20230731.0000.00_13.0_038f0e4336.tgz",
+          "release": "2023-08-02"
+        },
+        {
+          "miui": "V14.0.3.0.TGORUXM",
+          "android": "13.0",
+          "recovery": "miui_WATERRUGlobal_V14.0.3.0.TGORUXM_e348726496_13.0.zip",
+          "fastboot": "water_ru_global_images_V14.0.3.0.TGORUXM_20230519.0000.00_13.0_3b57a0152b.tgz",
+          "release": "2023-07-18"
+        }
+      ]
+    },
+    {
+      "code": "water_in_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "INSO",
+      "tag": "INXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度正式版",
+      "en-us": "India Stable",
+      "links": [
+        {
+          "miui": "V14.0.24.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.24.0.TGOINXM_45c9c5ce3a_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.24.0.TGOINXM_20250819.0000.00_13.0_ab63a5a9f8.tgz",
+          "release": "2025-09-18"
+        },
+        {
+          "miui": "V14.0.23.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.23.0.TGOINXM_362d434a37_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.23.0.TGOINXM_20250516.0000.00_13.0_1e75ba8b5d.tgz",
+          "release": "2025-05-30"
+        },
+        {
+          "miui": "V14.0.22.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.22.0.TGOINXM_d8ab6d66cf_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.22.0.TGOINXM_20250307.0000.00_13.0_5fbe81c782.tgz",
+          "release": "2025-03-21"
+        },
+        {
+          "miui": "V14.0.20.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.20.0.TGOINXM_05438b1ed5_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.20.0.TGOINXM_20250114.0000.00_13.0_0728f9ef8e.tgz",
+          "release": "2025-01-23"
+        },
+        {
+          "miui": "V14.0.19.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.19.0.TGOINXM_2ee7341820_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.19.0.TGOINXM_20241111.0000.00_13.0_29317bc475.tgz",
+          "release": "2024-11-22"
+        },
+        {
+          "miui": "V14.0.18.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.18.0.TGOINXM_95e49b28fb_13.0.zip",
+          "fastboot": "",
+          "release": "2024-10-24"
+        },
+        {
+          "miui": "V14.0.16.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.16.0.TGOINXM_7cef8988e6_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.16.0.TGOINXM_20240903.0000.00_13.0_2714040bdb.tgz",
+          "release": "2024-09-11"
+        },
+        {
+          "miui": "V14.0.15.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.15.0.TGOINXM_3edb97a91d_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.15.0.TGOINXM_20240605.0000.00_13.0_1e4d754899.tgz",
+          "release": "2024-06-13"
+        },
+        {
+          "miui": "V14.0.14.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.14.0.TGOINXM_9d2ab723b0_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.14.0.TGOINXM_20240415.0000.00_13.0_5adde388cc.tgz",
+          "release": "2024-05-10"
+        },
+        {
+          "miui": "V14.0.13.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.13.0.TGOINXM_4b59dfa06c_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.13.0.TGOINXM_20240202.0000.00_13.0_3b88824ad4.tgz",
+          "release": "2024-02-21"
+        },
+        {
+          "miui": "V14.0.12.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.12.0.TGOINXM_50ca0cbf12_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.12.0.TGOINXM_20231215.0000.00_13.0_e4f0e7b739.tgz",
+          "release": "2023-12-22"
+        },
+        {
+          "miui": "V14.0.11.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.11.0.TGOINXM_b4e2f8a945_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.11.0.TGOINXM_20230915.0000.00_13.0_64a43ac961.tgz",
+          "release": "2023-09-25"
+        },
+        {
+          "miui": "V14.0.8.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.8.0.TGOINXM_163e799109_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.8.0.TGOINXM_20230814.0000.00_13.0_0bfc3000d0.tgz",
+          "release": "2023-08-21"
+        },
+        {
+          "miui": "V14.0.7.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.7.0.TGOINXM_c51b668493_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.7.0.TGOINXM_20230728.0000.00_13.0_a48bbe76aa.tgz",
+          "release": "2023-08-01"
+        },
+        {
+          "miui": "V14.0.5.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.5.0.TGOINXM_7546d95734_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.5.0.TGOINXM_20230526.0000.00_13.0_3960bb5218.tgz",
+          "release": "2023-06-06"
+        },
+        {
+          "miui": "V14.0.4.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.4.0.TGOINXM_3a291217b7_13.0.zip",
+          "fastboot": "water_in_global_images_V14.0.4.0.TGOINXM_20230420.0000.00_13.0_1d36ccf367.tgz",
+          "release": "2023-05-04"
+        },
+        {
+          "miui": "V14.0.3.0.TGOINXM",
+          "android": "13.0",
+          "recovery": "miui_WATERINGlobal_V14.0.3.0.TGOINXM_c97ecc66c6_13.0.zip",
+          "fastboot": "",
+          "release": "2023-04-21"
+        }
+      ]
+    },
+    {
+      "code": "water_id_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "IDSO",
+      "tag": "IDXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度尼西亚正式版",
+      "en-us": "Indonesia Stable",
+      "links": [
+        {
+          "miui": "V14.0.21.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.21.0.TGOIDXM_63df83fb44_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.21.0.TGOIDXM_20250829.0000.00_13.0_e4f7c2d156.tgz",
+          "release": "2025-09-18"
+        },
+        {
+          "miui": "V14.0.20.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.20.0.TGOIDXM_a7f043395e_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.20.0.TGOIDXM_20250610.0000.00_13.0_944c94fdcf.tgz",
+          "release": "2025-06-30"
+        },
+        {
+          "miui": "V14.0.19.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.19.0.TGOIDXM_8e0ae57101_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.19.0.TGOIDXM_20250422.0000.00_13.0_b1bac40180.tgz",
+          "release": "2025-05-07"
+        },
+        {
+          "miui": "V14.0.18.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.18.0.TGOIDXM_ddbba9224f_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.18.0.TGOIDXM_20250207.0000.00_13.0_43149a6803.tgz",
+          "release": "2025-02-27"
+        },
+        {
+          "miui": "V14.0.17.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.17.0.TGOIDXM_8aa6819e33_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.17.0.TGOIDXM_20241206.0000.00_13.0_c9a14b7112.tgz",
+          "release": "2024-12-20"
+        },
+        {
+          "miui": "V14.0.16.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.16.0.TGOIDXM_583926f892_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.16.0.TGOIDXM_20241018.0000.00_13.0_803208f620.tgz",
+          "release": "2024-10-25"
+        },
+        {
+          "miui": "V14.0.13.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.13.0.TGOIDXM_25218f0991_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.13.0.TGOIDXM_20240805.0000.00_13.0_414b59b156.tgz",
+          "release": "2024-08-21"
+        },
+        {
+          "miui": "V14.0.9.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.9.0.TGOIDXM_b4c8e07c25_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.9.0.TGOIDXM_20240613.0000.00_13.0_cd04a00184.tgz",
+          "release": "2024-06-25"
+        },
+        {
+          "miui": "V14.0.8.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.8.0.TGOIDXM_531963f279_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.8.0.TGOIDXM_20240415.0000.00_13.0_93d44d03a9.tgz",
+          "release": "2024-04-29"
+        },
+        {
+          "miui": "V14.0.7.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.7.0.TGOIDXM_c7c2e35d48_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.7.0.TGOIDXM_20240202.0000.00_13.0_65058f3a79.tgz",
+          "release": "2024-02-21"
+        },
+        {
+          "miui": "V14.0.6.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.6.0.TGOIDXM_e5ee584e51_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.6.0.TGOIDXM_20231226.0000.00_13.0_29a05dcba0.tgz",
+          "release": "2024-01-04"
+        },
+        {
+          "miui": "V14.0.5.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.5.0.TGOIDXM_f6e28bcb91_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.5.0.TGOIDXM_20231011.0000.00_13.0_6ff1197cc1.tgz",
+          "release": "2023-10-20"
+        },
+        {
+          "miui": "V14.0.4.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.4.0.TGOIDXM_4275825833_13.0.zip",
+          "fastboot": "water_id_global_images_V14.0.4.0.TGOIDXM_20230821.0000.00_13.0_8cf1b54d65.tgz",
+          "release": "2023-08-25"
+        },
+        {
+          "miui": "V14.0.3.0.TGOIDXM",
+          "android": "13.0",
+          "recovery": "miui_WATERIDGlobal_V14.0.3.0.TGOIDXM_620060f93d_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-16"
+        }
+      ]
+    },
+    {
+      "code": "water_cl_en_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "CLEN",
+      "tag": "CLEN",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "智利Entel运营商定制版",
+      "en-us": "Chile Stable Entel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.7.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "miui_WATERCLENGlobal_V14.0.7.0.TGOCLEN_48248dbe59_13.0.zip",
+          "fastboot": "",
+          "release": "2024-12-31"
+        },
+        {
+          "miui": "V14.0.6.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "miui_WATERCLENGlobal_V14.0.6.0.TGOCLEN_53ff11f04e_13.0.zip",
+          "fastboot": "",
+          "release": "2024-05-21"
+        },
+        {
+          "miui": "V14.0.5.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "miui_WATERCLENGlobal_V14.0.5.0.TGOCLEN_41c42a7030_13.0.zip",
+          "fastboot": "",
+          "release": "2023-09-12"
+        },
+        {
+          "miui": "V14.0.4.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "miui_WATERCLENGlobal_V14.0.4.0.TGOCLEN_408da3a181_13.0.zip",
+          "fastboot": "water_cl_en_global_images_V14.0.4.0.TGOCLEN_20230615.0000.00_13.0_ea229853eb.tgz",
+          "release": "2023-07-25"
+        },
+        {
+          "miui": "V14.0.3.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "miui_WATERCLENGlobal_V14.0.3.0.TGOCLEN_d8d8c096a3_13.0.zip",
+          "fastboot": "",
+          "release": "2023-04-26"
+        },
+        {
+          "miui": "V14.0.2.0.TGOCLEN",
+          "android": "13.0",
+          "recovery": "miui_WATERCLENGlobal_V14.0.2.0.TGOCLEN_4636f2a60c_13.0.zip",
+          "fastboot": "water_cl_en_global_images_V14.0.2.0.TGOCLEN_20230220.0000.00_13.0_01ada6cc34.tgz",
+          "release": "2023-04-03"
+        }
+      ]
+    },
+    {
+      "code": "water_mx_tc_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "MXTC",
+      "tag": "MXTC",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "墨西哥Telcel运营商定制版",
+      "en-us": "Mexico Stable Telcel Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.17.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.17.0.TGOMXTC_76af1c4eeb_13.0.zip",
+          "fastboot": "",
+          "release": "2025-05-14"
+        },
+        {
+          "miui": "V14.0.16.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.16.0.TGOMXTC_8ff033e8bc_13.0.zip",
+          "fastboot": "",
+          "release": "2025-03-18"
+        },
+        {
+          "miui": "V14.0.15.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.15.0.TGOMXTC_38c7e9e147_13.0.zip",
+          "fastboot": "",
+          "release": "2025-01-14"
+        },
+        {
+          "miui": "V14.0.13.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.13.0.TGOMXTC_a938b10613_13.0.zip",
+          "fastboot": "",
+          "release": "2024-11-13"
+        },
+        {
+          "miui": "V14.0.12.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.12.0.TGOMXTC_c1efa40913_13.0.zip",
+          "fastboot": "",
+          "release": "2024-09-19"
+        },
+        {
+          "miui": "V14.0.11.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.11.0.TGOMXTC_ad2edfedfe_13.0.zip",
+          "fastboot": "",
+          "release": "2024-07-12"
+        },
+        {
+          "miui": "V14.0.10.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.10.0.TGOMXTC_46cdd7eec8_13.0.zip",
+          "fastboot": "",
+          "release": "2024-05-14"
+        },
+        {
+          "miui": "V14.0.9.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.9.0.TGOMXTC_af161fcad4_13.0.zip",
+          "fastboot": "water_mx_tc_global_images_V14.0.9.0.TGOMXTC_20240313.0000.00_13.0_95645564ff.tgz",
+          "release": "2024-03-21"
+        },
+        {
+          "miui": "V14.0.7.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.7.0.TGOMXTC_a32b4227d3_13.0.zip",
+          "fastboot": "",
+          "release": "2024-01-08"
+        },
+        {
+          "miui": "V14.0.6.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.6.0.TGOMXTC_2e91cdb514_13.0.zip",
+          "fastboot": "",
+          "release": "2023-11-02"
+        },
+        {
+          "miui": "V14.0.5.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.5.0.TGOMXTC_dd6ab2b8d0_13.0.zip",
+          "fastboot": "water_mx_tc_global_images_V14.0.5.0.TGOMXTC_20230829.0000.00_13.0_95e6e05c57.tgz",
+          "release": "2023-09-06"
+        },
+        {
+          "miui": "V14.0.4.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.4.0.TGOMXTC_5e7fc93a2e_13.0.zip",
+          "fastboot": "water_mx_tc_global_images_V14.0.4.0.TGOMXTC_20230724.0000.00_13.0_7cde2c6461.tgz",
+          "release": "2023-08-10"
+        },
+        {
+          "miui": "V14.0.3.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.3.0.TGOMXTC_43c4430feb_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-25"
+        },
+        {
+          "miui": "V14.0.2.0.TGOMXTC",
+          "android": "13.0",
+          "recovery": "miui_WATERMXTCGlobal_V14.0.2.0.TGOMXTC_4d469ca238_13.0.zip",
+          "fastboot": "water_mx_tc_global_images_V14.0.2.0.TGOMXTC_20230403.0000.00_13.0_200d78c75e.tgz",
+          "release": "2023-04-18"
+        }
+      ]
+    },
+    {
+      "code": "water_mx_at_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "MXAT",
+      "tag": "MXAT",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "墨西哥AT&T运营商定制版",
+      "en-us": "Mexico Stable AT&T Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.21.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.21.0.TGOMXAT_3861931e5b_13.0.zip",
+          "fastboot": "",
+          "release": "2026-01-30"
+        },
+        {
+          "miui": "V14.0.20.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.20.0.TGOMXAT_8b2ec814de_13.0.zip",
+          "fastboot": "",
+          "release": "2025-11-25"
+        },
+        {
+          "miui": "V14.0.19.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.19.0.TGOMXAT_88da2dde65_13.0.zip",
+          "fastboot": "",
+          "release": "2025-09-25"
+        },
+        {
+          "miui": "V14.0.18.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.18.0.TGOMXAT_b8ff29375a_13.0.zip",
+          "fastboot": "",
+          "release": "2025-07-11"
+        },
+        {
+          "miui": "V14.0.17.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.17.0.TGOMXAT_84a09fe638_13.0.zip",
+          "fastboot": "",
+          "release": "2025-04-30"
+        },
+        {
+          "miui": "V14.0.16.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.16.0.TGOMXAT_eb6ef13d80_13.0.zip",
+          "fastboot": "",
+          "release": "2025-02-27"
+        },
+        {
+          "miui": "V14.0.15.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.15.0.TGOMXAT_720aeb1431_13.0.zip",
+          "fastboot": "",
+          "release": "2024-12-16"
+        },
+        {
+          "miui": "V14.0.14.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.14.0.TGOMXAT_f1b48ad6bc_13.0.zip",
+          "fastboot": "",
+          "release": "2024-10-29"
+        },
+        {
+          "miui": "V14.0.12.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.12.0.TGOMXAT_81d91f710c_13.0.zip",
+          "fastboot": "",
+          "release": "2024-09-10"
+        },
+        {
+          "miui": "V14.0.11.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.11.0.TGOMXAT_f1e0de5b5c_13.0.zip",
+          "fastboot": "",
+          "release": "2024-06-26"
+        },
+        {
+          "miui": "V14.0.10.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.10.0.TGOMXAT_1c79dbc667_13.0.zip",
+          "fastboot": "",
+          "release": "2024-04-15"
+        },
+        {
+          "miui": "V14.0.7.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.7.0.TGOMXAT_5e9b34d2d6_13.0.zip",
+          "fastboot": "water_mx_at_global_images_V14.0.7.0.TGOMXAT_20231128.0000.00_13.0_e9d8e100e1.tgz",
+          "release": "2023-12-19"
+        },
+        {
+          "miui": "V14.0.6.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.6.0.TGOMXAT_234f076483_13.0.zip",
+          "fastboot": "water_mx_at_global_images_V14.0.6.0.TGOMXAT_20230824.0000.00_13.0_be721fbf0d.tgz",
+          "release": "2023-09-15"
+        },
+        {
+          "miui": "V14.0.4.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.4.0.TGOMXAT_d9a85e6848_13.0.zip",
+          "fastboot": "water_mx_at_global_images_V14.0.4.0.TGOMXAT_20230615.0000.00_13.0_9f78920592.tgz",
+          "release": "2023-07-21"
+        },
+        {
+          "miui": "V14.0.3.0.TGOMXAT",
+          "android": "13.0",
+          "recovery": "miui_WATERMXATGlobal_V14.0.3.0.TGOMXAT_190de5310b_13.0.zip",
+          "fastboot": "",
+          "release": "2023-05-06"
+        }
+      ]
+    },
+    {
+      "code": "water_lm_cr_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "LMCR",
+      "tag": "LMCR",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "拉丁美洲Claro运营商定制版",
+      "en-us": "Latin America Claro Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.18.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.18.0.TGOLMCR_b24dc22d0c_13.0.zip",
+          "fastboot": "",
+          "release": "2025-05-07"
+        },
+        {
+          "miui": "V14.0.17.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.17.0.TGOLMCR_e20df5c53b_13.0.zip",
+          "fastboot": "",
+          "release": "2025-03-17"
+        },
+        {
+          "miui": "V14.0.16.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.16.0.TGOLMCR_8b7c6d6350_13.0.zip",
+          "fastboot": "",
+          "release": "2025-02-10"
+        },
+        {
+          "miui": "V14.0.15.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.15.0.TGOLMCR_fa3b0c0f44_13.0.zip",
+          "fastboot": "",
+          "release": "2024-11-20"
+        },
+        {
+          "miui": "V14.0.14.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.14.0.TGOLMCR_91ce00c4a9_13.0.zip",
+          "fastboot": "",
+          "release": "2024-09-19"
+        },
+        {
+          "miui": "V14.0.12.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.12.0.TGOLMCR_b68df84970_13.0.zip",
+          "fastboot": "",
+          "release": "2024-05-15"
+        },
+        {
+          "miui": "V14.0.11.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.11.0.TGOLMCR_8b1428cda3_13.0.zip",
+          "fastboot": "water_lm_cr_global_images_V14.0.11.0.TGOLMCR_20240226.0000.00_13.0_de4ea65dbc.tgz",
+          "release": "2024-03-06"
+        },
+        {
+          "miui": "V14.0.10.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.10.0.TGOLMCR_7b224bd999_13.0.zip",
+          "fastboot": "",
+          "release": "2024-01-16"
+        },
+        {
+          "miui": "V14.0.9.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.9.0.TGOLMCR_2f61588bf3_13.0.zip",
+          "fastboot": "water_lm_cr_global_images_V14.0.9.0.TGOLMCR_20231128.0000.00_13.0_e518739b5f.tgz",
+          "release": "2023-12-14"
+        },
+        {
+          "miui": "V14.0.7.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.7.0.TGOLMCR_160b0e4e00_13.0.zip",
+          "fastboot": "",
+          "release": "2023-10-08"
+        },
+        {
+          "miui": "V14.0.6.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.6.0.TGOLMCR_f14ec39712_13.0.zip",
+          "fastboot": "",
+          "release": "2023-08-29"
+        },
+        {
+          "miui": "V14.0.4.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.4.0.TGOLMCR_7779d7658f_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-30"
+        },
+        {
+          "miui": "V14.0.3.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.3.0.TGOLMCR_03b00d1441_13.0.zip",
+          "fastboot": "",
+          "release": "2023-05-09"
+        },
+        {
+          "miui": "V14.0.2.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.2.0.TGOLMCR_0e7470dd34_13.0.zip",
+          "fastboot": "",
+          "release": "2023-03-29"
+        },
+        {
+          "miui": "V14.0.1.0.TGOLMCR",
+          "android": "13.0",
+          "recovery": "miui_WATERLMCRGlobal_V14.0.1.0.TGOLMCR_77735383bb_13.0.zip",
+          "fastboot": "water_lm_cr_global_images_V14.0.1.0.TGOLMCR_20230221.0000.00_13.0_142c3b0107.tgz",
+          "release": "2023-04-03"
+        }
+      ]
+    },
+    {
+      "code": "water_za_vc_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "ZAVC",
+      "tag": "ZAVC",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "南非Vodacom运营商定制版",
+      "en-us": "South Africa Vodacom Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.11.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.11.0.TGOZAVC_62537674df_13.0.zip",
+          "fastboot": "",
+          "release": "2025-10-20"
+        },
+        {
+          "miui": "V14.0.10.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.10.0.TGOZAVC_e2b8bb203a_13.0.zip",
+          "fastboot": "",
+          "release": "2025-05-19"
+        },
+        {
+          "miui": "V14.0.9.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.9.0.TGOZAVC_e7ac441ad8_13.0.zip",
+          "fastboot": "",
+          "release": "2024-12-12"
+        },
+        {
+          "miui": "V14.0.8.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.8.0.TGOZAVC_3555774214_13.0.zip",
+          "fastboot": "",
+          "release": "2024-10-13"
+        },
+        {
+          "miui": "V14.0.7.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.7.0.TGOZAVC_8460f13ef9_13.0.zip",
+          "fastboot": "water_za_vc_global_images_V14.0.7.0.TGOZAVC_20240509.0000.00_13.0_d81f24ed8d.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V14.0.6.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.6.0.TGOZAVC_451dae3603_13.0.zip",
+          "fastboot": "water_za_vc_global_images_V14.0.6.0.TGOZAVC_20240202.0000.00_13.0_8485134a26.tgz",
+          "release": "2024-02-29"
+        },
+        {
+          "miui": "V14.0.5.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.5.0.TGOZAVC_66c8a0369e_13.0.zip",
+          "fastboot": "",
+          "release": "2023-11-24"
+        },
+        {
+          "miui": "V14.0.4.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.4.0.TGOZAVC_1bc72f6e8c_13.0.zip",
+          "fastboot": "",
+          "release": "2023-11-16"
+        },
+        {
+          "miui": "V14.0.3.0.TGOZAVC",
+          "android": "13.0",
+          "recovery": "miui_WATERZAVCGlobal_V14.0.3.0.TGOZAVC_897053c322_13.0.zip",
+          "fastboot": "water_za_vc_global_images_V14.0.3.0.TGOZAVC_20230612.0000.00_13.0_f5c306868d.tgz",
+          "release": "2023-06-28"
+        }
+      ]
+    },
+    {
+      "code": "water_za_mt_global",
+      "btag": "F",
+      "region": "",
+      "carrier": [],
+      "branch": "ZAMT",
+      "tag": "ZAMT",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "南非MTN运营商定制版",
+      "en-us": "South Africa MTN Carrier Edtion",
+      "links": [
+        {
+          "miui": "V14.0.11.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.11.0.TGOZAMT_95d6771bfd_13.0.zip",
+          "fastboot": "",
+          "release": "2025-10-20"
+        },
+        {
+          "miui": "V14.0.10.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.10.0.TGOZAMT_17863c8b49_13.0.zip",
+          "fastboot": "",
+          "release": "2025-05-19"
+        },
+        {
+          "miui": "V14.0.9.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.9.0.TGOZAMT_637e3865ca_13.0.zip",
+          "fastboot": "",
+          "release": "2024-12-16"
+        },
+        {
+          "miui": "V14.0.8.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.8.0.TGOZAMT_41280829d8_13.0.zip",
+          "fastboot": "",
+          "release": "2024-11-21"
+        },
+        {
+          "miui": "V14.0.7.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.7.0.TGOZAMT_cc086a89db_13.0.zip",
+          "fastboot": "",
+          "release": "2024-08-07"
+        },
+        {
+          "miui": "V14.0.6.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.6.0.TGOZAMT_c0850ede4c_13.0.zip",
+          "fastboot": "water_za_mt_global_images_V14.0.6.0.TGOZAMT_20240509.0000.00_13.0_7bad538043.tgz",
+          "release": "2024-06-12"
+        },
+        {
+          "miui": "V14.0.4.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.4.0.TGOZAMT_cefcda2615_13.0.zip",
+          "fastboot": "",
+          "release": "2024-01-31"
+        },
+        {
+          "miui": "V14.0.3.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.3.0.TGOZAMT_315daeace8_13.0.zip",
+          "fastboot": "water_za_mt_global_images_V14.0.3.0.TGOZAMT_20230905.0000.00_13.0_8ab0911b16.tgz",
+          "release": "2023-09-22"
+        },
+        {
+          "miui": "V14.0.2.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.2.0.TGOZAMT_082c202128_13.0.zip",
+          "fastboot": "water_za_mt_global_images_V14.0.2.0.TGOZAMT_20230614.0000.00_13.0_dbbb5e33cf.tgz",
+          "release": "2023-07-24"
+        },
+        {
+          "miui": "V14.0.1.0.TGOZAMT",
+          "android": "13.0",
+          "recovery": "miui_WATERZAMTGlobal_V14.0.1.0.TGOZAMT_c83927b1b4_13.0.zip",
+          "fastboot": "",
+          "release": "2023-06-02"
+        }
+      ]
+    }
+  ]
 }

@@ -17,9 +17,13 @@
   "gdid": "",
   "pcid": "",
   "code": "MV",
-	"android": ["13.0"],
-	"miui": ["V14.1"],
-	"branches": [
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.1"
+  ],
+  "branches": [
     {
       "code": "babylon",
       "btag": "X",
@@ -31,7 +35,7 @@
         "chinaunicom"
       ],
       "branch": "Dev",
-			"tag": "",
+      "tag": "",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -42,31 +46,36 @@
           "miui": "V14.0.23.9.18.DEV",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.0.23.9.18.DEV_320df74636_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2023-09-22"
         },
         {
           "miui": "V14.0.23.9.11.DEV",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.0.23.9.11.DEV_e42b5542fa_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2023-09-15"
         },
         {
           "miui": "V14.0.23.9.4.DEV",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.0.23.9.4.DEV_def70da323_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2023-09-08"
         },
         {
           "miui": "V14.0.23.8.28.DEV",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.0.23.8.28.DEV_963f5ccc05_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2023-09-01"
         },
         {
           "miui": "V14.0.23.8.21.DEV",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.0.23.8.21.DEV_e02c394652_13.0.zip",
-          "fastboot": "babylon_images_V14.0.23.8.21.DEV_20230821.0000.00_13.0_cn_2a948cad54.tgz"
+          "fastboot": "babylon_images_V14.0.23.8.21.DEV_20230821.0000.00_13.0_cn_2a948cad54.tgz",
+          "release": "2023-08-25"
         }
       ]
     },
@@ -80,7 +89,7 @@
         "chinaunicom"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -91,37 +100,43 @@
           "miui": "V14.1.10.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.10.0.TMVCNXM_cee3aa8f37_13.0.zip",
-          "fastboot": "babylon_images_V14.1.10.0.TMVCNXM_20231026.0000.00_13.0_cn_a8d9c7a992.tgz"
+          "fastboot": "babylon_images_V14.1.10.0.TMVCNXM_20231026.0000.00_13.0_cn_a8d9c7a992.tgz",
+          "release": "2023-11-03"
         },
         {
           "miui": "V14.1.9.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.9.0.TMVCNXM_2275df6b37_13.0.zip",
-          "fastboot": "babylon_images_V14.1.9.0.TMVCNXM_20230913.0000.00_13.0_cn_e58bb281e0.tgz"
+          "fastboot": "babylon_images_V14.1.9.0.TMVCNXM_20230913.0000.00_13.0_cn_e58bb281e0.tgz",
+          "release": "2023-09-21"
         },
         {
           "miui": "V14.1.8.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.8.0.TMVCNXM_d9de1cb045_13.0.zip",
-          "fastboot": "babylon_images_V14.1.8.0.TMVCNXM_20230905.0000.00_13.0_cn_42e6f86245.tgz"
+          "fastboot": "babylon_images_V14.1.8.0.TMVCNXM_20230905.0000.00_13.0_cn_42e6f86245.tgz",
+          "release": "2023-09-07"
         },
         {
           "miui": "V14.1.5.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.5.0.TMVCNXM_97f388a88a_13.0.zip",
-          "fastboot": "babylon_images_V14.1.5.0.TMVCNXM_20230811.0000.00_13.0_cn_510e13eb96.tgz"
+          "fastboot": "babylon_images_V14.1.5.0.TMVCNXM_20230811.0000.00_13.0_cn_510e13eb96.tgz",
+          "release": "2023-08-16"
         },
         {
           "miui": "V14.1.2.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.2.0.TMVCNXM_54c247799c_13.0.zip",
-          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_183fa237f5.tgz"
+          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_183fa237f5.tgz",
+          "release": "2023-08-15"
         },
         {
           "miui": "V14.1.1.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.1.0.TMVCNXM_e15564a2d4_13.0.zip",
-          "fastboot": "babylon_images_V14.1.1.0.TMVCNXM_20230711.0000.00_13.0_cn_e2c7722a8f.tgz"
+          "fastboot": "babylon_images_V14.1.1.0.TMVCNXM_20230711.0000.00_13.0_cn_e2c7722a8f.tgz",
+          "release": "2023-08-15"
         }
       ]
     },
@@ -133,7 +148,7 @@
         "chinatelecom"
       ],
       "branch": "CnOO",
-			"tag": "CNXM",
+      "tag": "CNXM",
       "zone": "1",
       "show": "1",
       "ep": "0",
@@ -144,56 +159,67 @@
           "miui": "V14.1.10.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.10.0.TMVCNXM_cee3aa8f37_13.0.zip",
-          "fastboot": "babylon_images_V14.1.10.0.TMVCNXM_20231026.0000.00_13.0_cn_chinatelecom_c2d883d81c.tgz"
+          "fastboot": "babylon_images_V14.1.10.0.TMVCNXM_20231026.0000.00_13.0_cn_chinatelecom_c2d883d81c.tgz",
+          "release": "2023-11-03"
         },
         {
           "miui": "V14.1.9.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.9.0.TMVCNXM_2275df6b37_13.0.zip",
-          "fastboot": "babylon_images_V14.1.9.0.TMVCNXM_20230913.0000.00_13.0_cn_chinatelecom_9f0a05f566.tgz"
+          "fastboot": "babylon_images_V14.1.9.0.TMVCNXM_20230913.0000.00_13.0_cn_chinatelecom_9f0a05f566.tgz",
+          "release": "2023-09-21"
         },
         {
           "miui": "V14.1.8.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.8.0.TMVCNXM_d9de1cb045_13.0.zip",
-          "fastboot": "babylon_images_V14.1.8.0.TMVCNXM_20230905.0000.00_13.0_cn_chinatelecom_c9eab2f7a8.tgz"
+          "fastboot": "babylon_images_V14.1.8.0.TMVCNXM_20230905.0000.00_13.0_cn_chinatelecom_c9eab2f7a8.tgz",
+          "release": "2023-09-07"
         },
         {
           "miui": "V14.1.5.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.5.0.TMVCNXM_97f388a88a_13.0.zip",
-          "fastboot": "babylon_images_V14.1.5.0.TMVCNXM_20230811.0000.00_13.0_cn_chinatelecom_380c99ec77.tgz"
+          "fastboot": "babylon_images_V14.1.5.0.TMVCNXM_20230811.0000.00_13.0_cn_chinatelecom_380c99ec77.tgz",
+          "release": "2023-08-16"
         },
         {
           "miui": "V14.1.2.0.TMVCNXM",
           "android": "13.0",
           "recovery": "miui_BABYLON_V14.1.2.0.TMVCNXM_54c247799c_13.0.zip",
-          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_chinatelecom_4b84644893.tgz"
+          "fastboot": "babylon_images_V14.1.2.0.TMVCNXM_20230801.0000.00_13.0_cn_chinatelecom_4b84644893.tgz",
+          "release": "2023-08-15"
         }
       ]
     },
     {
-			"code": "babylon_ep_stdee",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "EPSTD",
-			"tag": "",
-			"zone": "1",
-			"show": "1",
-			"ep": "1",
-			"zh-cn": "中国大陆政企标准版",
-			"en-us": "China Mainland Enterprise Standard",
-			"links": [
-				{
-					"miui": "V14.0.23.10.24.EP.STDEE.M18",
-					"android": "13.0",
-					"recovery": "miui_BABYLONEPSTDEE_V14.0.23.10.24.EP.STDEE.M18_33d9b8276f_13.0.zip",
-					"fastboot": "babylon_ep_stdee_images_V14.0.23.10.24.EP.STDEE.M18_20231024.0000.00_13.0_cn_c56c24bca0.tgz",
-          "ctelecom": "babylon_ep_stdee_images_V14.0.23.10.24.EP.STDEE.M18_20231024.0000.00_13.0_cn_chinatelecom_0ab5a72d2e.tgz"
-				}
-			]
-		},
+      "code": "babylon_ep_stdee",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "branch": "EPSTD",
+      "tag": "",
+      "zone": "1",
+      "show": "1",
+      "ep": "1",
+      "zh-cn": "中国大陆政企标准版",
+      "en-us": "China Mainland Enterprise Standard",
+      "links": [
+        {
+          "miui": "V14.0.23.10.24.EP.STDEE.M18",
+          "android": "13.0",
+          "recovery": "miui_BABYLONEPSTDEE_V14.0.23.10.24.EP.STDEE.M18_33d9b8276f_13.0.zip",
+          "fastboot": "babylon_ep_stdee_images_V14.0.23.10.24.EP.STDEE.M18_20231024.0000.00_13.0_cn_c56c24bca0.tgz",
+          "ctelecom": "babylon_ep_stdee_images_V14.0.23.10.24.EP.STDEE.M18_20231024.0000.00_13.0_cn_chinatelecom_0ab5a72d2e.tgz",
+          "release": "2024-05-20"
+        }
+      ]
+    },
     {
       "code": "babylon_demo",
       "btag": "F",
@@ -205,7 +231,7 @@
         "chinaunicom"
       ],
       "branch": "CnOD",
-			"tag": "CNDM",
+      "tag": "CNDM",
       "zone": "1",
       "show": "0",
       "ep": "0",
@@ -216,13 +242,15 @@
           "miui": "V14.1.3.0.TMVCNDM",
           "android": "13.0",
           "recovery": "miui_BABYLONDEMO_V14.1.3.0.TMVCNDM_f55ee4e7dc_13.0.zip",
-          "fastboot": "babylon_demo_images_V14.1.3.0.TMVCNDM_20230821.0000.00_13.0_cn_aea93d52c2.tgz"
+          "fastboot": "babylon_demo_images_V14.1.3.0.TMVCNDM_20230821.0000.00_13.0_cn_aea93d52c2.tgz",
+          "release": "2023-08-24"
         },
         {
           "miui": "V14.1.3.0.TMVCNDM",
           "android": "13.0",
           "recovery": "miui_BABYLONDEMO_V14.1.3.0.TMVCNDM_f55ee4e7dc_13.0.zip",
-          "fastboot": "babylon_demo_images_V14.1.3.0.TMVCNDM_20230821.0000.00_13.0_cn_chinatelecom_791b15678f.tgz"
+          "fastboot": "babylon_demo_images_V14.1.3.0.TMVCNDM_20230821.0000.00_13.0_cn_chinatelecom_791b15678f.tgz",
+          "release": "2023-08-24"
         }
       ]
     }

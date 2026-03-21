@@ -1,35 +1,39 @@
 {
-	"codename": "emerald",
-	"zh-cn": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
-	"en-us": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "0",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "NF",
-	"android": ["13.0"],
-	"miui": ["V14.0"],
-	"branches": [
+  "codename": "emerald",
+  "zh-cn": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
+  "en-us": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
+  "attentions": [
     {
-      "code":"emerald_global",
-      "btag":"F",
-      "region":"global",
-      "carrier":[],
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "",
+  "ismiui": "0",
+  "ccshow": "",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "NF",
+  "android": [
+    "13.0"
+  ],
+  "miui": [
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "emerald_global",
+      "btag": "F",
+      "region": "global",
+      "carrier": [],
       "branch": "GBOO",
-			"tag": "MIXM",
-      "zone":"2",
+      "tag": "MIXM",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "zh-cn": "国际正式版",
       "en-us": "Global Stable",
       "links": [
@@ -37,38 +41,42 @@
           "miui": "V14.0.8.0.TNFMIXM",
           "android": "13.0",
           "recovery": "miui_EMERALDGlobal_V14.0.8.0.TNFMIXM_f53751d0fe_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2024-09-18"
         },
         {
           "miui": "V14.0.5.0.TNFMIXM",
           "android": "13.0",
           "recovery": "miui_EMERALDGlobal_V14.0.5.0.TNFMIXM_1bed759fb4_13.0.zip",
-          "fastboot": "emerald_global_images_V14.0.5.0.TNFMIXM_20240203.0000.00_13.0_global_aec47da8e2.tgz"
+          "fastboot": "emerald_global_images_V14.0.5.0.TNFMIXM_20240203.0000.00_13.0_global_aec47da8e2.tgz",
+          "release": "2024-02-19"
         },
         {
           "miui": "V14.0.4.0.TNFMIXM",
           "android": "13.0",
           "recovery": "miui_EMERALDGlobal_V14.0.4.0.TNFMIXM_a5389adcd1_13.0.zip",
-          "fastboot": "emerald_global_images_V14.0.4.0.TNFMIXM_20240103.0000.00_13.0_global_8be55969b2.tgz"
+          "fastboot": "emerald_global_images_V14.0.4.0.TNFMIXM_20240103.0000.00_13.0_global_8be55969b2.tgz",
+          "release": "2024-01-15"
         },
         {
           "miui": "V14.0.1.0.TNFMIXM",
           "android": "13.0",
           "recovery": "miui_EMERALDGlobal_V14.0.1.0.TNFMIXM_6f901ccab5_13.0.zip",
-          "fastboot": "emerald_global_images_V14.0.1.0.TNFMIXM_20231125.0000.00_13.0_global_e6ab407880.tgz"
+          "fastboot": "emerald_global_images_V14.0.1.0.TNFMIXM_20231125.0000.00_13.0_global_e6ab407880.tgz",
+          "release": "2024-01-16"
         }
       ]
     },
     {
-      "code":"emerald_eea_global",
-      "btag":"F",
-      "region":"eea",
-      "carrier":[],
+      "code": "emerald_eea_global",
+      "btag": "F",
+      "region": "eea",
+      "carrier": [],
       "branch": "EEAO",
-			"tag": "EUXM",
-      "zone":"2",
+      "tag": "EUXM",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "zh-cn": "欧洲EEA正式版",
       "en-us": "Europe EEA Stable",
       "links": [
@@ -76,44 +84,49 @@
           "miui": "V14.0.9.0.TNFEUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDEEAGlobal_V14.0.9.0.TNFEUXM_b559fc1a02_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2024-10-10"
         },
         {
           "miui": "V14.0.5.0.TNFEUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDEEAGlobal_V14.0.5.0.TNFEUXM_45fedc584e_13.0.zip",
-          "fastboot": "emerald_eea_global_images_V14.0.5.0.TNFEUXM_20240201.0000.00_13.0_eea_95d0026754.tgz"
+          "fastboot": "emerald_eea_global_images_V14.0.5.0.TNFEUXM_20240201.0000.00_13.0_eea_95d0026754.tgz",
+          "release": "2024-02-19"
         },
         {
           "miui": "V14.0.4.0.TNFEUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDEEAGlobal_V14.0.4.0.TNFEUXM_9e60e0972d_13.0.zip",
-          "fastboot": "emerald_eea_global_images_V14.0.4.0.TNFEUXM_20240117.0000.00_13.0_eea_efd219b812.tgz"
+          "fastboot": "emerald_eea_global_images_V14.0.4.0.TNFEUXM_20240117.0000.00_13.0_eea_efd219b812.tgz",
+          "release": "2024-01-25"
         },
         {
           "miui": "V14.0.3.0.TNFEUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDEEAGlobal_V14.0.3.0.TNFEUXM_349eaeb0c4_13.0.zip",
-          "fastboot": "emerald_eea_global_images_V14.0.3.0.TNFEUXM_20231226.0000.00_13.0_eea_80d08d5398.tgz"
+          "fastboot": "emerald_eea_global_images_V14.0.3.0.TNFEUXM_20231226.0000.00_13.0_eea_80d08d5398.tgz",
+          "release": "2024-01-19"
         },
         {
           "miui": "V14.0.1.0.TNFEUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDEEAGlobal_V14.0.1.0.TNFEUXM_b4435301cb_13.0.zip",
-          "fastboot": "emerald_eea_global_images_V14.0.1.0.TNFEUXM_20231128.0000.00_13.0_eea_4cf0f356b2.tgz"
+          "fastboot": "emerald_eea_global_images_V14.0.1.0.TNFEUXM_20231128.0000.00_13.0_eea_4cf0f356b2.tgz",
+          "release": "2024-01-12"
         }
       ]
     },
     {
-      "code":"emerald_ru_global",
-      "btag":"F",
-      "region":"ru",
-      "carrier":[],
+      "code": "emerald_ru_global",
+      "btag": "F",
+      "region": "ru",
+      "carrier": [],
       "branch": "RUSO",
-			"tag": "RUXM",
-      "zone":"2",
+      "tag": "RUXM",
+      "zone": "2",
       "show": "1",
-      "ep":"0",
+      "ep": "0",
       "zh-cn": "俄罗斯正式版",
       "en-us": "Russia Stable",
       "links": [
@@ -121,93 +134,103 @@
           "miui": "V14.0.8.0.TNFRUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDRUGlobal_V14.0.8.0.TNFRUXM_afa3c342f9_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2024-09-26"
         },
         {
           "miui": "V14.0.5.0.TNFRUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDRUGlobal_V14.0.5.0.TNFRUXM_8315952b10_13.0.zip",
-          "fastboot": "emerald_ru_global_images_V14.0.5.0.TNFRUXM_20240129.0000.00_13.0_ru_43aef23870.tgz"
+          "fastboot": "emerald_ru_global_images_V14.0.5.0.TNFRUXM_20240129.0000.00_13.0_ru_43aef23870.tgz",
+          "release": "2024-02-03"
         },
         {
           "miui": "V14.0.4.0.TNFRUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDRUGlobal_V14.0.4.0.TNFRUXM_96d1ce35bb_13.0.zip",
-          "fastboot": "emerald_ru_global_images_V14.0.4.0.TNFRUXM_20240117.0000.00_13.0_ru_e6e14ae0df.tgz"
+          "fastboot": "emerald_ru_global_images_V14.0.4.0.TNFRUXM_20240117.0000.00_13.0_ru_e6e14ae0df.tgz",
+          "release": "2024-01-29"
         },
         {
           "miui": "V14.0.3.0.TNFRUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDRUGlobal_V14.0.3.0.TNFRUXM_28a3195049_13.0.zip",
-          "fastboot": "emerald_ru_global_images_V14.0.3.0.TNFRUXM_20231227.0000.00_13.0_ru_219f9eeed8.tgz"
+          "fastboot": "emerald_ru_global_images_V14.0.3.0.TNFRUXM_20231227.0000.00_13.0_ru_219f9eeed8.tgz",
+          "release": "2024-01-19"
         },
         {
           "miui": "V14.0.2.0.TNFRUXM",
           "android": "13.0",
           "recovery": "miui_EMERALDRUGlobal_V14.0.2.0.TNFRUXM_aa5b783e03_13.0.zip",
-          "fastboot": "emerald_ru_global_images_V14.0.2.0.TNFRUXM_20231120.0000.00_13.0_ru_4b8e89dc69.tgz"
+          "fastboot": "emerald_ru_global_images_V14.0.2.0.TNFRUXM_20231120.0000.00_13.0_ru_4b8e89dc69.tgz",
+          "release": "2024-01-12"
         }
       ]
     },
     {
-			"code": "emerald_id_global",
-			"btag": "F",
-			"region": "id",
-			"carrier": [],
-			"branch": "IDSO",
-			"tag": "IDXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度尼西亚正式版",
-			"en-us": "Indonesia Stable",
-			"links": [
+      "code": "emerald_id_global",
+      "btag": "F",
+      "region": "id",
+      "carrier": [],
+      "branch": "IDSO",
+      "tag": "IDXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "印度尼西亚正式版",
+      "en-us": "Indonesia Stable",
+      "links": [
         {
           "miui": "V14.0.5.0.TNFIDXM",
           "android": "13.0",
           "recovery": "miui_EMERALDIDGlobal_V14.0.5.0.TNFIDXM_77801ba7ae_13.0.zip",
-          "fastboot": "emerald_id_global_images_V14.0.5.0.TNFIDXM_20240219.0000.00_13.0_id_22e3af44f9.tgz"
+          "fastboot": "emerald_id_global_images_V14.0.5.0.TNFIDXM_20240219.0000.00_13.0_id_22e3af44f9.tgz",
+          "release": "2024-02-23"
         },
-				{
-					"miui": "V14.0.4.0.TNFIDXM",
-					"android": "13.0",
-					"recovery": "miui_EMERALDIDGlobal_V14.0.4.0.TNFIDXM_b5e27d0e0a_13.0.zip",
-					"fastboot": "emerald_id_global_images_V14.0.4.0.TNFIDXM_20240116.0000.00_13.0_id_fdb33d8c49.tgz"
-				}
-			]
-		},
+        {
+          "miui": "V14.0.4.0.TNFIDXM",
+          "android": "13.0",
+          "recovery": "miui_EMERALDIDGlobal_V14.0.4.0.TNFIDXM_b5e27d0e0a_13.0.zip",
+          "fastboot": "emerald_id_global_images_V14.0.4.0.TNFIDXM_20240116.0000.00_13.0_id_fdb33d8c49.tgz",
+          "release": "2024-01-24"
+        }
+      ]
+    },
     {
-			"code": "emerald_tr_global",
-			"btag": "F",
-			"region": "tr",
-			"carrier": [],
-			"branch": "TRSO",
-			"tag": "TRXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "土耳其正式版",
-			"en-us": "Turkey Stable",
-			"links": [
+      "code": "emerald_tr_global",
+      "btag": "F",
+      "region": "tr",
+      "carrier": [],
+      "branch": "TRSO",
+      "tag": "TRXM",
+      "zone": "2",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "土耳其正式版",
+      "en-us": "Turkey Stable",
+      "links": [
         {
           "miui": "V14.0.7.0.TNFTRXM",
           "android": "13.0",
           "recovery": "miui_EMERALDTRGlobal_V14.0.7.0.TNFTRXM_07e76829aa_13.0.zip",
-          "fastboot": ""
+          "fastboot": "",
+          "release": "2024-09-26"
         },
         {
           "miui": "V14.0.4.0.TNFTRXM",
           "android": "13.0",
           "recovery": "miui_EMERALDTRGlobal_V14.0.4.0.TNFTRXM_e05fe02b19_13.0.zip",
-          "fastboot": "emerald_tr_global_images_V14.0.4.0.TNFTRXM_20240304.0000.00_13.0_tr_ae46058575.tgz"
+          "fastboot": "emerald_tr_global_images_V14.0.4.0.TNFTRXM_20240304.0000.00_13.0_tr_ae46058575.tgz",
+          "release": "2024-03-12"
         },
-				{
-					"miui": "V14.0.3.0.TNFTRXM",
-					"android": "13.0",
-					"recovery": "miui_EMERALDTRGlobal_V14.0.3.0.TNFTRXM_08f048ed79_13.0.zip",
-					"fastboot": "emerald_tr_global_images_V14.0.3.0.TNFTRXM_20240130.0000.00_13.0_tr_c1b86fcfd4.tgz"
-				}
-			]
-		}
-	]
+        {
+          "miui": "V14.0.3.0.TNFTRXM",
+          "android": "13.0",
+          "recovery": "miui_EMERALDTRGlobal_V14.0.3.0.TNFTRXM_08f048ed79_13.0.zip",
+          "fastboot": "emerald_tr_global_images_V14.0.3.0.TNFTRXM_20240130.0000.00_13.0_tr_c1b86fcfd4.tgz",
+          "release": "2024-02-19"
+        }
+      ]
+    }
+  ]
 }

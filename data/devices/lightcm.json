@@ -1,261 +1,305 @@
 {
-	"codename": "lightcm",
-	"zh-cn": "Redmi Note 11R",
-	"en-us": "Redmi Note 11R",
-	"attentions": [
-		{
-			"zh-cn": "自V13.0.15.0.SLSCNXM开始,Redmi Note 11R就已经开始与Redmi Note 11E合并发包了,不过后续貌似又分开了",
-			"en-us": "Since the release of version V13.0.15.0.SLSCNXM, Redmi Note 11R has been merged with Redmi Note 11E, but then they decided to seperate them into thier own branches."
-		}
-	],
-	"cdid": "37338214",
-	"ismiui": "0",
-	"ccshow": "1",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "LS",
-	"android": ["12.0", "13.0"],
-	"miui": ["V13.0", "V14.0"],
-	"branches": [
-		{
-			"code": "lightcm",
-			"btag": "F",
-			"region": "cn",
-			"carrier": [],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国大陆正式版",
-			"en-us": "China Mainland Stable",
-			"links": [
-				{
-					"miui": "V14.0.10.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_cef918d170.tgz"
-				},
-				{
-					"miui": "V14.0.8.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.8.0.TLSCNXM_7443c94d77_13.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V14.0.6.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_cdd63522d4.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_351954239e.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.2.0.TLSCNXM_af2de1fc99_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.2.0.TLSCNXM_20230209.0000.00_13.0_cn_6f6aa1f9ef.tgz"
-				},
-				{
-					"miui": "V13.0.20.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.20.0.SLSCNXM_a7ee87644c_12.0.zip",
-					"fastboot": "lightcm_images_V13.0.20.0.SLSCNXM_20230413.0000.00_12.0_cn_aecc489276.tgz"
-				},
-				{
-					"miui": "V13.0.19.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.19.0.SLSCNXM_48ed1e7573_12.0.zip",
-					"fastboot": "lightcm_images_V13.0.19.0.SLSCNXM_20230319.0000.00_12.0_cn_bd9387e1e5.tgz"
-				},
-				{
-					"miui": "V13.0.14.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.14.0.SLSCNXM_a25295436d_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.13.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.13.0.SLSCNXM_904e7119e3_12.0.zip",
-					"fastboot": ""
-				},
-				{
-					"miui": "V13.0.11.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.11.0.SLSCNXM_a30f4f1328_12.0.zip",
-					"fastboot": ""
-				}
-			]
-		},
-		{
-			"code": "lightcm",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国电信定制版",
-			"en-us": "China Telecom Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.10.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_chinatelecom_7d38d49e6e.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_chinatelecom_3b3927144c.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_chinatelecom_60c7252a29.tgz"
-				},
-				{
-					"miui": "V13.0.20.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.20.0.SLSCNXM_a7ee87644c_12.0.zip",
-					"fastboot": "lightcm_images_V13.0.20.0.SLSCNXM_20230413.0000.00_12.0_cn_chinatelecom_6bda84a6ff.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.2.0.TLSCNXM_af2de1fc99_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.2.0.TLSCNXM_20230209.0000.00_13.0_cn_chinatelecom_35355f5245.tgz"
-				},
-				{
-					"miui": "V13.0.19.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.19.0.SLSCNXM_48ed1e7573_12.0.zip",
-					"fastboot": "lightcm_images_V13.0.19.0.SLSCNXM_20230319.0000.00_12.0_cn_chinatelecom_370ae15e8b.tgz"
-				},
-				{
-					"miui": "V13.0.14.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.14.0.SLSCNXM_a25295436d_12.0.zip",
-					"fastboot": "lightcm_images_V13.0.14.0.SLSCNXM_20221121.0000.00_12.0_cn_chinatelecom_a91d4946a1.tgz"
-				}
-			]
-		},
-		{
-			"code": "lightcm",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["chinaunicom"],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国联通定制版",
-			"en-us": "China Unicom Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.10.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_chinaunicom_ace980c45e.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_chinaunicom_e2289444c8.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_chinaunicom_8405e0eab4.tgz"
-				},
-				{
-					"miui": "V14.0.2.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.2.0.TLSCNXM_af2de1fc99_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.2.0.TLSCNXM_20230209.0000.00_13.0_cn_chinaunicom_582e9197b3.tgz"
-				}
-			]
-		},
-		{
-			"code": "lightcm",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"branch": "CnOO",
-			"tag": "CNXM",
-			"zone": "1",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "中国移动定制版",
-			"en-us": "China Mobile Carrier Edition",
-			"links": [
-				{
-					"miui": "V14.0.10.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_chinamobile_7467732366.tgz"
-				},
-				{
-					"miui": "V14.0.6.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_chinamobile_9e3c0b057b.tgz"
-				},
-				{
-					"miui": "V14.0.4.0.TLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
-					"fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_chinamobile_e88cbb6805.tgz"
-				},
-				{
-					"miui": "V13.0.20.0.SLSCNXM",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCM_V13.0.20.0.SLSCNXM_a7ee87644c_12.0.zip",
-					"fastboot": "lightcm_images_V13.0.20.0.SLSCNXM_20230413.0000.00_12.0_cn_chinamobile_a83337f416.tgz"
-				},
-				{
-					"miui": "V13.0.19.0.SLSCNXM",
-					"android": "13.0",
-					"recovery": "miui_LIGHTCM_V13.0.19.0.SLSCNXM_48ed1e7573_12.0.zip",
-					"fastboot": "lightcm_images_V13.0.19.0.SLSCNXM_20230319.0000.00_12.0_cn_chinamobile_81ec1b5004.tgz"
-				}
-			]
-		},
-		{
-			"code": "lightcm_ep_stdee",
-			"btag": "F",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"branch": "EPSTD",
-			"tag": "",
-			"zone": "1",
-			"show": "1",
-			"ep": "1",
-			"zh-cn": "中国大陆政企标准版",
-			"en-us": "China Mainland Enterprise Standard",
-			"links": [
-				{
-					"miui": "V13.0.23.4.6.EP.STDEE.L19X",
-					"android": "12.0",
-					"recovery": "miui_LIGHTCMEPSTDEE_V13.0.23.4.6.EP.STDEE.L19X_7b92042367_12.0.zip",
-					"fastboot": "lightcm_ep_stdee_images_V13.0.23.4.6.EP.STDEE.L19X_20230406.0000.00_12.0_cn_91808a72d7.tgz"
-				}
-			]
-		}
-	]
+  "codename": "lightcm",
+  "zh-cn": "Redmi Note 11R",
+  "en-us": "Redmi Note 11R",
+  "attentions": [
+    {
+      "zh-cn": "自V13.0.15.0.SLSCNXM开始,Redmi Note 11R就已经开始与Redmi Note 11E合并发包了,不过后续貌似又分开了",
+      "en-us": "Since the release of version V13.0.15.0.SLSCNXM, Redmi Note 11R has been merged with Redmi Note 11E, but then they decided to seperate them into thier own branches."
+    }
+  ],
+  "cdid": "37338214",
+  "ismiui": "0",
+  "ccshow": "1",
+  "cbshow": "",
+  "csid": [],
+  "cbid": [],
+  "gdid": "",
+  "pcid": "",
+  "code": "LS",
+  "android": [
+    "12.0",
+    "13.0"
+  ],
+  "miui": [
+    "V13.0",
+    "V14.0"
+  ],
+  "branches": [
+    {
+      "code": "lightcm",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国大陆正式版",
+      "en-us": "China Mainland Stable",
+      "links": [
+        {
+          "miui": "V14.0.10.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_cef918d170.tgz",
+          "release": "2023-12-05"
+        },
+        {
+          "miui": "V14.0.8.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.8.0.TLSCNXM_7443c94d77_13.0.zip",
+          "fastboot": "",
+          "release": "2023-10-23"
+        },
+        {
+          "miui": "V14.0.6.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_cdd63522d4.tgz",
+          "release": "2023-07-31"
+        },
+        {
+          "miui": "V14.0.4.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_351954239e.tgz",
+          "release": "2023-05-16"
+        },
+        {
+          "miui": "V14.0.2.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.2.0.TLSCNXM_af2de1fc99_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.2.0.TLSCNXM_20230209.0000.00_13.0_cn_6f6aa1f9ef.tgz",
+          "release": "2023-02-22"
+        },
+        {
+          "miui": "V13.0.20.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.20.0.SLSCNXM_a7ee87644c_12.0.zip",
+          "fastboot": "lightcm_images_V13.0.20.0.SLSCNXM_20230413.0000.00_12.0_cn_aecc489276.tgz",
+          "release": "2023-04-19"
+        },
+        {
+          "miui": "V13.0.19.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.19.0.SLSCNXM_48ed1e7573_12.0.zip",
+          "fastboot": "lightcm_images_V13.0.19.0.SLSCNXM_20230319.0000.00_12.0_cn_bd9387e1e5.tgz",
+          "release": "2023-03-23"
+        },
+        {
+          "miui": "V13.0.14.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.14.0.SLSCNXM_a25295436d_12.0.zip",
+          "fastboot": "",
+          "release": "2022-11-24"
+        },
+        {
+          "miui": "V13.0.13.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.13.0.SLSCNXM_904e7119e3_12.0.zip",
+          "fastboot": "",
+          "release": "2022-10-12"
+        },
+        {
+          "miui": "V13.0.11.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.11.0.SLSCNXM_a30f4f1328_12.0.zip",
+          "fastboot": "",
+          "release": "2022-09-15"
+        }
+      ]
+    },
+    {
+      "code": "lightcm",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国电信定制版",
+      "en-us": "China Telecom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.10.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_chinatelecom_7d38d49e6e.tgz",
+          "release": "2023-12-05"
+        },
+        {
+          "miui": "V14.0.6.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_chinatelecom_3b3927144c.tgz",
+          "release": "2023-07-31"
+        },
+        {
+          "miui": "V14.0.4.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_chinatelecom_60c7252a29.tgz",
+          "release": "2023-05-16"
+        },
+        {
+          "miui": "V13.0.20.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.20.0.SLSCNXM_a7ee87644c_12.0.zip",
+          "fastboot": "lightcm_images_V13.0.20.0.SLSCNXM_20230413.0000.00_12.0_cn_chinatelecom_6bda84a6ff.tgz",
+          "release": "2023-04-19"
+        },
+        {
+          "miui": "V14.0.2.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.2.0.TLSCNXM_af2de1fc99_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.2.0.TLSCNXM_20230209.0000.00_13.0_cn_chinatelecom_35355f5245.tgz",
+          "release": "2023-02-22"
+        },
+        {
+          "miui": "V13.0.19.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.19.0.SLSCNXM_48ed1e7573_12.0.zip",
+          "fastboot": "lightcm_images_V13.0.19.0.SLSCNXM_20230319.0000.00_12.0_cn_chinatelecom_370ae15e8b.tgz",
+          "release": "2023-03-23"
+        },
+        {
+          "miui": "V13.0.14.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.14.0.SLSCNXM_a25295436d_12.0.zip",
+          "fastboot": "lightcm_images_V13.0.14.0.SLSCNXM_20221121.0000.00_12.0_cn_chinatelecom_a91d4946a1.tgz",
+          "release": "2022-11-24"
+        }
+      ]
+    },
+    {
+      "code": "lightcm",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinaunicom"
+      ],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国联通定制版",
+      "en-us": "China Unicom Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.10.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_chinaunicom_ace980c45e.tgz",
+          "release": "2023-12-05"
+        },
+        {
+          "miui": "V14.0.6.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_chinaunicom_e2289444c8.tgz",
+          "release": "2023-07-31"
+        },
+        {
+          "miui": "V14.0.4.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_chinaunicom_8405e0eab4.tgz",
+          "release": "2023-05-16"
+        },
+        {
+          "miui": "V14.0.2.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.2.0.TLSCNXM_af2de1fc99_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.2.0.TLSCNXM_20230209.0000.00_13.0_cn_chinaunicom_582e9197b3.tgz",
+          "release": "2023-02-22"
+        }
+      ]
+    },
+    {
+      "code": "lightcm",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "chinamobile"
+      ],
+      "branch": "CnOO",
+      "tag": "CNXM",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "中国移动定制版",
+      "en-us": "China Mobile Carrier Edition",
+      "links": [
+        {
+          "miui": "V14.0.10.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.10.0.TLSCNXM_20231127.0000.00_13.0_cn_chinamobile_7467732366.tgz",
+          "release": "2023-12-05"
+        },
+        {
+          "miui": "V14.0.6.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.6.0.TLSCNXM_bd93639a59_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.6.0.TLSCNXM_20230719.0000.00_13.0_cn_chinamobile_9e3c0b057b.tgz",
+          "release": "2023-07-31"
+        },
+        {
+          "miui": "V14.0.4.0.TLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V14.0.4.0.TLSCNXM_38112ac52e_13.0.zip",
+          "fastboot": "lightcm_images_V14.0.4.0.TLSCNXM_20230510.0000.00_13.0_cn_chinamobile_e88cbb6805.tgz",
+          "release": "2023-05-16"
+        },
+        {
+          "miui": "V13.0.20.0.SLSCNXM",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCM_V13.0.20.0.SLSCNXM_a7ee87644c_12.0.zip",
+          "fastboot": "lightcm_images_V13.0.20.0.SLSCNXM_20230413.0000.00_12.0_cn_chinamobile_a83337f416.tgz",
+          "release": "2023-04-19"
+        },
+        {
+          "miui": "V13.0.19.0.SLSCNXM",
+          "android": "13.0",
+          "recovery": "miui_LIGHTCM_V13.0.19.0.SLSCNXM_48ed1e7573_12.0.zip",
+          "fastboot": "lightcm_images_V13.0.19.0.SLSCNXM_20230319.0000.00_12.0_cn_chinamobile_81ec1b5004.tgz",
+          "release": "2023-03-23"
+        }
+      ]
+    },
+    {
+      "code": "lightcm_ep_stdee",
+      "btag": "F",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "branch": "EPSTD",
+      "tag": "",
+      "zone": "1",
+      "show": "1",
+      "ep": "1",
+      "zh-cn": "中国大陆政企标准版",
+      "en-us": "China Mainland Enterprise Standard",
+      "links": [
+        {
+          "miui": "V13.0.23.4.6.EP.STDEE.L19X",
+          "android": "12.0",
+          "recovery": "miui_LIGHTCMEPSTDEE_V13.0.23.4.6.EP.STDEE.L19X_7b92042367_12.0.zip",
+          "fastboot": "lightcm_ep_stdee_images_V13.0.23.4.6.EP.STDEE.L19X_20230406.0000.00_12.0_cn_91808a72d7.tgz",
+          "release": "2023-04-28"
+        }
+      ]
+    }
+  ]
 }
