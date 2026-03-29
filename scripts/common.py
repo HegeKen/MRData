@@ -735,6 +735,7 @@ flags = {
 	"koto_in_global" : "koto",
 	"turner_demo":"turner",
 	"turner": "turner",
+	"organ":"organ",
 	"organ_ru_global": "organ",
 	"organ_dc_global": "organ",
 	"dew_mx_at_global": "dew",
