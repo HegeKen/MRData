@@ -14,6 +14,7 @@ from pymysql import Connection
 import config
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import os
 
 test = ['marble']
 sdk = {
@@ -3805,6 +3806,7 @@ def checkExist(filename):
 		else:
 			device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = [item for item in getData(filename)]
 			checkDatabase(device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename)
+			add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
 			writeData(filename)
 
 def getBranchcode(filename):
@@ -4313,3 +4315,122 @@ def print_log(log):
 		print(module)
 		for entry in log[module]['txt']:
 			print(entry)
+
+def get_platform_path(relative_path):
+    """获取平台相关的文件路径"""
+    if platform == "win32":
+        return os.path.join(relative_path)
+    elif platform == "darwin":
+        return os.path.join(relative_path)
+    else:
+        return os.path.join("/sdcard/Codes/NuxtMR", relative_path)
+def parse_version(version):
+    """解析版本号为可比较的元组"""
+    try:
+        if version.startswith("OS"):
+            body = version[2:]
+        elif version.startswith("A"):
+            body = version[1:]
+        else:
+            # 处理MIUI版本号，如V14.0.1.0
+            body = version.lstrip('V')
+        version_part = body.split(".")
+        numeric_parts = tuple(map(int, version_part[:4]))
+        return numeric_parts
+    except Exception:
+        return None
+
+def compare(v1, v2):
+    """比较两个版本号，返回v1是否大于v2"""
+    if v1 is None or v2 is None:
+        return False
+    else:
+        return parse_version(v1) > parse_version(v2)
+
+def add_rom_to_json(device, code, android, version, filetype, filename, devdata=None):
+    """添加 ROM 到 JSON 文件"""
+    if devdata is None:
+        device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+        try:
+            with open(device_file, 'r', encoding='utf-8') as f:
+                devdata = json.load(f)
+        except Exception as e:
+            print(f"读取文件错误: {e}")
+            return None
+    target_branch = None
+    target_branch_idx = None
+    # 查找匹配的分支
+    for idx, branch in enumerate(devdata.get("branches", [])):
+        if branch.get("code") == code:
+            target_branch = branch
+            target_branch_idx = idx
+            break
+    if target_branch is None:
+        print(f"未找到匹配分支，ROM: {filename}")
+        return devdata
+    # 处理 ROM 数据
+    links = target_branch.get("links", [])
+    # 检查版本是否已存在
+    existing_index = -1
+    for i, link in enumerate(links):
+        if link.get("miui") == version:
+            existing_index = i
+            break
+    if existing_index != -1:
+        # 更新现有版本
+        link_data = links[existing_index]
+        updated = False
+        if filetype == "recovery" and link_data.get("recovery") != filename:
+            link_data["recovery"] = filename
+            updated = True
+        elif filetype == "fastboot" and link_data.get("fastboot") != filename:
+            link_data["fastboot"] = filename
+            updated = True
+        if not updated:
+            print(f"ROM 数据已完整: {version}")
+        return devdata
+    # 创建新 ROM 条目
+    new_link = {
+        "miui": version,
+        "android": android,
+        "recovery": filename if filetype == "recovery" else "",
+        "fastboot": filename if filetype == "fastboot" else "",
+        "release": get_time(form_url(filename, version))
+    }
+    # 添加到 links 列表
+    links.append(new_link)
+    # 按版本号降序排序（使用compare函数）
+    links.sort(key=lambda x: parse_version(x.get("miui")), reverse=True)
+    # 更新分支的 links
+    devdata["branches"][target_branch_idx]["links"] = links
+    # 保存更新后的 JSON
+    device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+    try:
+        with open(device_file, 'w', encoding='utf-8') as f:
+            json.dump(devdata, f, ensure_ascii=False, indent=2)
+        print(f"ROM 已成功添加到 {device}.json")
+    except Exception as e:
+        print(f"保存文件错误: {e}")
+    return devdata
+
+def read_json_file(device):
+    """读取设备的 JSON 文件"""
+    device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+    try:
+        with open(device_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"读取文件错误: {e}")
+        return None
+
+def write_json_file(device, data):
+    """写入设备的 JSON 文件"""
+    device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+    try:
+        with open(device_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"文件已成功写入: {device}.json")
+        return True
+    except Exception as e:
+        print(f"写入文件错误: {e}")
+        return False

@@ -12,3 +12,5 @@ roms = ["flame_images_OS1.0.14.0.UGUCNXM_20250126.0000.00_14.0_cn_a63c78f373.tgz
 for rom in roms:
   device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = common.getData(rom)
   common.checkDatabase(device, code, android, version, type, bigver, region,tag,zone,branch, filetype, filename)
+  common.add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
+  common.checkExist(rom)
