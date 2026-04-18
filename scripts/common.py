@@ -2461,6 +2461,7 @@ flags = {
 	"yupei_global": "yupei",
 	"yupei_eea_global": "yupei",
 	"yupei_ru_global": "yupei",
+	"arctic_ru_global": "arctic",
 	"yupei_id_global": "yupei",
 	"yupei_in_global": "yupei",
 	"yupei_tw_global": "yupei",

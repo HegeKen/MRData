@@ -27,6 +27,8 @@ for directory in directories:
         raw_content = f.read()
         result = chardet.detect(raw_content)
         encoding = result['encoding']
+        if encoding is None:
+          encoding = 'utf-8'
         content = raw_content.decode(encoding, errors='replace')
         soup = BeautifulSoup(content, 'lxml')
         span_tags = soup.find_all('span', {'id': 'filename'})
