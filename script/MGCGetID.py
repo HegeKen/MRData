@@ -1,9 +1,14 @@
 import requests
 import json
 import time
+import sys
+import os
 
-headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
-headers = {"Connection": "close"}
+# 添加父目录到路径以便导入 scripts 模块
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from scripts import common
+
+headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0", "Connection": "close"}
 base_api = "https://sgp-api.buy.mi.com/bbs/api/"
 ahome = "/phone/getdevicelist?phone_id="
 regions = ["global", "bd", "id", "my", "pk", "ph", "tr", "vn", "th", "de", "es", "fr",

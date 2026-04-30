@@ -17,7 +17,7 @@ for device in common.currentStable:
     i = 0
   else:
     for branch in branches:
-      new_url = 'https://miuidownload.com'+branch.attrs['href']+'/'
+      new_url = 'https://miuidownload.com' + str(branch.attrs['href']) + '/'
       print('\r'+new_url+'              ',end='')
       bresp = requests.get(new_url, headers=headers)
       bcon = bresp.content.decode('utf8')
@@ -27,14 +27,14 @@ for device in common.currentStable:
         i = 0
       else:
         for list in lists:
-          rom_url = list.attrs['href']
-        if(rom_url == ''):
-           i = 0
-        else:
-          if 'blockota' in rom_url:
+          rom_url = str(list.attrs['href'])
+          if(rom_url == ''):
             i = 0
           else:
-            packname = rom_url.split('/')[4]
-            common.checkExist(packname)
+            if 'blockota' in rom_url:
+              i = 0
+            else:
+              packname = rom_url.split('/')[4]
+              common.checkExist(packname)
       bresp.close()
   response.close()

@@ -1,6 +1,6 @@
 import json
 from sys import platform
-import urllib
+import urllib.parse
 import base64
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
@@ -15,6 +15,7 @@ import config
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import os
+from typing import List, Tuple, Any, Optional
 
 test = ['marble']
 sdk = {
@@ -628,7 +629,12 @@ fullDevices = [
 							 "wayne", "whyred", "willow", "wt86047_pro", "wt86047", "wt88047_pro", "wt88047", "wt93007", "wt93807", "wt96007", "wt98007",
 							 "xaga", "xun", "ysl", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"
 ]
-CurrentIDS = ['1900587', '1900586', '1900585', '1900584', '1900583', '1900582', '1900581', '1900580', '1900579', '1900578', '1900577', '1900576',
+CurrentIDS = ['1903501', '1903480', '1903417', '1903390', '1903375', '1903315', '1903275', '1903295', '1903235', '1903215', '1903195', '1903175',
+							'1903074', '1903073', '1903072', '1903071', '1903070', '1902963', '1903335', '1902961', '1902959', '1902958', '1900614', '1900739',
+							'1900612', '1900611', '1900610', '1900609', '1900608', '1900607', '1900606', '1900604', '1900603', '1900602', '1900601', '1900600',
+							'1900598', '1900597', '1900595', '1900594', '1900593', '1900596', '1900591', '1900590', '1900592', 
+							'1900578', '1900579', '1900580', '1900581', '1900582', '1900583', '1900584', '1900585', '1900586', '1900587', '1900588', '1900589',
+							'1900587', '1900586', '1900585', '1900584', '1900583', '1900582', '1900581', '1900580', '1900579', '1900578', '1900577', '1900576',
 							'1900575', '1900574', '1900573', '1900571', '1900570', '1900567', '1900566', '1900565', '1900564', '1900563', '1900562', '1900561',
 							'1900560', '1900559', '1900558', '1900557', '1900556', '1900555', '1900554', '1900553', '1900552', '1900551', '1900549', '1900547',
 							'1900546', '1900545', '1900544', '1900543', '1900539', '1900538', '1900536', '1900535', '1900534', '1900533', '1900532', '1900531',
@@ -667,6 +673,21 @@ flags = {
 	'MI2': 'aries', 'MI2Beta': 'aries', 'MI2HK': 'aries', 'MI2TW': 'aries', 'NativeMI2': 'aries', 'MI2Global': 'aries',
 	'MI2A': 'taurus', 'MI2ABeta': 'taurus', 'NativeMI2A': 'taurus',
 	'MI3TD': 'pisces',
+	"guitar" : "guitar",
+	"prague" : "prague",
+	"prague_demo" : "prague",
+	"yili" : "yili",
+	"arctic_eea_global": "arctic",
+	"arctic_in_global": "arctic",
+	"somalia": "somalia",
+	"guitar_global": "guitar",
+	"guitar_tw_global": "guitar",
+	"guitar_eea_global": "guitar",
+	"guitar_ru_global": "guitar",
+	"guitar_id_global": "guitar",
+	"guitar_tr_global": "guitar",
+	"arctic_dc_global": "arctic",
+	"yili_demo" : "yili",
 	'pipa_ep_stdee': 'pipa',
 	'HOUJI': 'houji',
 	'HOUJIDEMO': 'houji',
@@ -3556,35 +3577,6 @@ flags = {
 	"emerald_r_ru_global":"emerald_r"
 }
 
-def parse_version(version):
-	try:
-		if version.startswith("V") and ".EP" not in version:
-			body = version[1:]
-		elif ".EP" in version:
-			body = version[1:].split(".EP")[0]+".EP"
-		elif version.startswith("J"):
-			body = version[-3:]
-		else:
-			body = version
-		version_part = body.split(".")
-		if len(version_part) == 3:
-			vlen = len(body.split("."))
-		else:
-			vlen = len(body.split("."))-1
-		numeric_parts = tuple(map(int, version_part[:vlen]))
-		if len(numeric_parts) <5:
-			numeric_parts = numeric_parts + (0,) * (5 - len(numeric_parts))
-		else:
-			numeric_parts = numeric_parts[:5]
-		return numeric_parts
-	except Exception:
-		return None
-
-def compare(v1, v2):
-	if type(v1) == type(v2) == tuple or type(v1) == type(v2) == None:
-		return False
-	else:
-		return parse_version(v1) > parse_version(v2)
 
 def localData(codename):
 	if platform == 'win32':
@@ -3704,7 +3696,7 @@ def getFastboot(url):
 		i = 0
 	s.close()
 
-def db_job(sql):
+def db_job(sql: str) -> Tuple[Tuple[Any, ...], ...]:
 	cnx = None
 	try:
 		cnx = Connection(
@@ -3714,15 +3706,18 @@ def db_job(sql):
 			port=config.port,
 			database=config.database,
 			autocommit=True
-			)
+		)
 		cursor = cnx.cursor()
 		cursor.execute(sql)
-		return cursor.fetchall()
+		result = cursor.fetchall()
+		return result if result is not None else ()
 	except Exception as e:
-		print(sql,e)
+		print(sql, e)
+		return ()
 	finally:
 		if cnx:
 			cnx.close()
+
 
 def db_job_latest(sql):
 	cnx = None
@@ -3778,6 +3773,7 @@ def get_android(filename):
 def form_url(filename,version):
 	return 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/'+version+"/"+filename
 def get_flag(filename):
+	flag = 0
 	if "_" in filename:
 		if "zip" in filename:
 			if "miui" in filename:
@@ -3789,8 +3785,6 @@ def get_flag(filename):
 			flag = filename.split(rec_seperator)[rec_spot]
 		elif '.tgz' in filename:
 			flag = filename.split('_images')[0]
-	else:
-		flag = 0
 	return flag
 
 def checkExist(filename):
@@ -3805,10 +3799,14 @@ def checkExist(filename):
 		elif filename in localData(getDeviceCode(filename)) or filename in newROM:
 			i = 0
 		else:
-			device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = [item for item in getData(filename)]
-			checkDatabase(device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename)
-			add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
-			writeData(filename)
+			data = getData(filename)
+			if isinstance(data, int) and data == 0:
+				return 0
+			else:
+				device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = data
+				checkDatabase(device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename)
+				add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
+				writeData(filename)
 
 def getBranchcode(filename):
 	if filename.endswith(".zip"):
@@ -3837,7 +3835,8 @@ def getRegion(filename):
 			else:
 				return ""
 		else:
-			if filename.split("_")[0] == getDeviceCode(filename)+"-ota":
+			device_code = getDeviceCode(filename)
+			if filename.split("_")[0] == str(device_code) + "-ota":
 				return "cn"
 			else:
 				return filename.split("_")[1].split('-')[0]
@@ -3922,11 +3921,20 @@ def getData(filename):
 				devtag = version.split(".")[4][1:3]
 			ver_code = version[-4:]
 			info = db_job_latest("SELECT tag,code,region FROM branches WHERE vercode = %s" % (stringify(ver_code)))
-			tag,code,region = [item for item in info]
-			device = db_job_latest("SELECT device FROM devices WHERE devtag = %s" % (stringify(devtag)))[0]
-			code = device+code
-			ins_sql = "INSERT INTO devices(device,devtag,code,tag,region,devcode,branchcode) VALUES (%s,%s,%s,%s,%s,%s,%s)" % (stringify(device),stringify(devtag),stringify(code),stringify(tag),stringify(region),stringify(version[-6:]),stringify(filename.split("_")[1]))
-			db_job_latest(ins_sql)
+			info = db_job_latest("SELECT tag,code,region FROM branches WHERE vercode = %s" % (stringify(ver_code)))
+			if info and isinstance(info, tuple):
+				tag,code,region = [item for item in info]
+				device_data = db_job_latest("SELECT device FROM devices WHERE devtag = %s" % (stringify(devtag)))
+				if device_data and isinstance(device_data, tuple):
+					device = device_data[0]
+					code = device+code
+					ins_sql = "INSERT INTO devices(device,devtag,code,tag,region,devcode,branchcode) VALUES (%s,%s,%s,%s,%s,%s,%s)" % (stringify(device),stringify(devtag),stringify(code),stringify(tag),stringify(region),stringify(version[-6:]),stringify(filename.split("_")[1]))
+					db_job_latest(ins_sql)
+				else:
+					device = None
+			else:
+				tag,code,region = None, None, None
+				device = None
 	else:
 		if filename.endswith(".tgz"):
 			filetype = "fastboot"
@@ -3947,7 +3955,11 @@ def getData(filename):
 		if data is not None:
 			device = data[0]
 		else:
-			device = db_job_latest("SELECT device FROM devices where code = %s" % (stringify(code)))[0]
+			device_data = db_job_latest("SELECT device FROM devices where code = %s" % (stringify(code)))
+			if device_data is not None:
+				device = device_data[0]
+			else:
+				device = None  # 或者设置一个默认值
 	if version.startswith('V'):
 		type = "MIUI"
 		bigver = "MIUI " + version.split('V')[1].split('.')[0]
@@ -3957,6 +3969,9 @@ def getData(filename):
 	elif version.startswith('A'):
 		type = "STAN"
 		bigver = "STAN " + version.split('.')[0]
+	else:
+		type = ""
+		bigver = ""
 	if code == 0:
 		return 0
 	else:
@@ -3974,14 +3989,24 @@ def getData(filename):
 				if len(data) > 0:
 					region,tag,zone = [item for item in data]
 				else:
-					region,tag,zone = db_job_latest(info_sql)
+					# 当data为空元组时，重新查询
+					data = db_job_latest(info_sql)
+					if data is not None and len(data) > 0:
+						region, tag, zone = data
+					else:
+						# 如果仍然没有数据，设置默认值
+						region, tag, zone = "", "", 2
 			else:
 				data = db_job_latest("SELECT region,tag FROM devices WHERE code = %s" % (stringify(code)))
-				region,tag = [item for item in data]
-				if region == "cn":
-					zone = 1
+				if data is not None and len(data) > 0:
+					region,tag = data
+					if region == "cn":
+						zone = 1
+					else:
+						zone = 2
 				else:
-					zone = 2
+					# 如果devices表也没有数据，设置默认值
+					region, tag, zone = "", "", 2
 	return device, code, android, version, type, bigver, region,tag,zone, "F", filetype, filename
 	
 def checkDatabase(device, code, android, version, type, bigver, region,tag,zone,branch, filetype, filename):
@@ -4060,20 +4085,30 @@ def checkOSExist(filename):
 			rec_seperator = "-ota_full"
 			rec_spot = 0
 		flag = filename.split(rec_seperator)[rec_spot]
-	if "tgz" in filename:
+	elif "tgz" in filename:
 		if "-images" in filename:
 			flag = filename.split('-images')[0]
 		else:
 			flag = filename.split('_images')[0]
-	if "PISSARROINFKGlobal" in filename:
-		devdata = devdata = json.loads(open(OSPath+'pissarro_in.json', 'r', encoding='utf-8').read())
 	else:
+		flag = None
+	
+	if "PISSARROINFKGlobal" in filename:
+		devdata = json.loads(open(OSPath+'pissarro_in.json', 'r', encoding='utf-8').read())
+	elif flag is not None and flag in flags:
 		devdata = json.loads(open(OSPath+flags[flag]+'.json', 'r', encoding='utf-8').read())
+	else:
+		print(f"Warning: Cannot determine device flag for filename: {filename}")
+		return
 	if filename in str(devdata) or filename in OSnewROM or filename in newROM:
 		i = 0
 	else:
-		device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = [item for item in getData(filename)]
-		checkDatabase(device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename)
+		result = getData(filename)
+		if isinstance(result, int):
+			print(f"Warning: getData returned invalid result (0) for filename: {filename}")
+			return
+		device, code, android, version, type, bigver, region, tag, zone, branch, filetype, filename = result
+		checkDatabase(device, code, android, version, type, bigver, region, tag, zone, branch, filetype, filename)
 		writeData(filename)
 
 
@@ -4318,120 +4353,130 @@ def print_log(log):
 			print(entry)
 
 def get_platform_path(relative_path):
-    """获取平台相关的文件路径"""
-    if platform == "win32":
-        return os.path.join(relative_path)
-    elif platform == "darwin":
-        return os.path.join(relative_path)
-    else:
-        return os.path.join("/sdcard/Codes/NuxtMR", relative_path)
+	"""获取平台相关的文件路径"""
+	return os.path.join(relative_path)
+
 def parse_version(version):
-    """解析版本号为可比较的元组"""
-    try:
-        if version.startswith("OS"):
-            body = version[2:]
-        elif version.startswith("A"):
-            body = version[1:]
-        else:
-            # 处理MIUI版本号，如V14.0.1.0
-            body = version.lstrip('V')
-        version_part = body.split(".")
-        numeric_parts = tuple(map(int, version_part[:4]))
-        return numeric_parts
-    except Exception:
-        return None
+	"""解析版本号为可比较的元组"""
+	try:
+		if version.startswith("OS"):
+			body = version[2:]
+		elif version.startswith("A"):
+			body = version[1:]
+		else:
+			# 处理MIUI版本号，如V14.0.1.0
+			body = version.lstrip('V')
+		version_part = body.split(".")
+		numeric_parts = tuple(map(int, version_part[:4]))
+		return numeric_parts
+	except Exception:
+		return None
 
 def compare(v1, v2):
-    """比较两个版本号，返回v1是否大于v2"""
-    if v1 is None or v2 is None:
-        return False
-    else:
-        return parse_version(v1) > parse_version(v2)
+	if v1 is None or v2 is None:
+		return False
+	parsed_v1 = parse_version(v1)
+	parsed_v2 = parse_version(v2)
+	if parsed_v1 is None or parsed_v2 is None:
+		return False
+	return parsed_v1 > parsed_v2
 
 def add_rom_to_json(device, code, android, version, filetype, filename, devdata=None):
-    """添加 ROM 到 JSON 文件"""
-    if devdata is None:
-        device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
-        try:
-            with open(device_file, 'r', encoding='utf-8') as f:
-                devdata = json.load(f)
-        except Exception as e:
-            print(f"读取文件错误: {e}")
-            return None
-    target_branch = None
-    target_branch_idx = None
-    # 查找匹配的分支
-    for idx, branch in enumerate(devdata.get("branches", [])):
-        if branch.get("code") == code:
-            target_branch = branch
-            target_branch_idx = idx
-            break
-    if target_branch is None:
-        print(f"未找到匹配分支，ROM: {filename}")
-        return devdata
-    # 处理 ROM 数据
-    links = target_branch.get("links", [])
-    # 检查版本是否已存在
-    existing_index = -1
-    for i, link in enumerate(links):
-        if link.get("miui") == version:
-            existing_index = i
-            break
-    if existing_index != -1:
-        # 更新现有版本
-        link_data = links[existing_index]
-        updated = False
-        if filetype == "recovery" and link_data.get("recovery") != filename:
-            link_data["recovery"] = filename
-            updated = True
-        elif filetype == "fastboot" and link_data.get("fastboot") != filename:
-            link_data["fastboot"] = filename
-            updated = True
-        if not updated:
-            print(f"ROM 数据已完整: {version}")
-        return devdata
-    # 创建新 ROM 条目
-    new_link = {
-        "miui": version,
-        "android": android,
-        "recovery": filename if filetype == "recovery" else "",
-        "fastboot": filename if filetype == "fastboot" else "",
-        "release": get_time(form_url(filename, version))
-    }
-    # 添加到 links 列表
-    links.append(new_link)
-    # 按版本号降序排序（使用compare函数）
-    links.sort(key=lambda x: parse_version(x.get("miui")), reverse=True)
-    # 更新分支的 links
-    devdata["branches"][target_branch_idx]["links"] = links
-    # 保存更新后的 JSON
-    device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
-    try:
-        with open(device_file, 'w', encoding='utf-8') as f:
-            json.dump(devdata, f, ensure_ascii=False, indent=2)
-        print(f"ROM 已成功添加到 {device}.json")
-    except Exception as e:
-        print(f"保存文件错误: {e}")
-    return devdata
+	"""添加 ROM 到 JSON 文件"""
+	if devdata is None:
+		device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+		try:
+			with open(device_file, 'r', encoding='utf-8') as f:
+				devdata = json.load(f)
+		except Exception as e:
+			print(f"读取文件错误: {e}")
+			return None
+	target_branch = None
+	target_branch_idx = None
+	# 查找匹配的分支
+	for idx, branch in enumerate(devdata.get("branches", [])):
+		if branch.get("code") == code:
+			target_branch = branch
+			target_branch_idx = idx
+			break
+	if target_branch is None:
+		print(f"未找到匹配分支，ROM: {filename}")
+		return devdata
+	# 处理 ROM 数据
+	links = target_branch.get("links", [])
+	# 检查版本是否已存在
+	existing_index = -1
+	for i, link in enumerate(links):
+		if link.get("miui") == version:
+			existing_index = i
+			break
+	if existing_index != -1:
+		# 更新现有版本
+		link_data = links[existing_index]
+		updated = False
+		if filetype == "recovery" and link_data.get("recovery") != filename:
+			link_data["recovery"] = filename
+			updated = True
+		elif filetype == "fastboot" and link_data.get("fastboot") != filename:
+			link_data["fastboot"] = filename
+			updated = True
+		if not updated:
+			print(f"ROM 数据已完整: {version}")
+		
+		# 更新分支的 links
+		devdata["branches"][target_branch_idx]["links"] = links
+		# 保存更新后的 JSON
+		device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+		try:
+			with open(device_file, 'w', encoding='utf-8') as f:
+				json.dump(devdata, f, ensure_ascii=False, indent=2)
+			print(f"ROM 已成功更新到 {device}.json")
+		except Exception as e:
+			print(f"保存文件错误: {e}")
+		return devdata
+
+	# 创建新 ROM 条目
+	new_link = {
+		"miui": version,
+		"android": android,
+		"recovery": filename if filetype == "recovery" else "",
+		"fastboot": filename if filetype == "fastboot" else "",
+		"release": get_time(form_url(filename, version))
+	}
+	# 添加到 links 列表
+	links.append(new_link)
+	# 按Android版本和MIUI版本降序排序（Android优先，MIUI次之）
+	links.sort(key=lambda x: (float(x.get("android", 0)), parse_version(x.get("miui"))), reverse=True)
+	# 更新分支的 links
+	devdata["branches"][target_branch_idx]["links"] = links
+	# 保存更新后的 JSON
+	device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+	try:
+		with open(device_file, 'w', encoding='utf-8') as f:
+			json.dump(devdata, f, ensure_ascii=False, indent=2)
+		print(f"ROM 已成功添加到 {device}.json")
+	except Exception as e:
+		print(f"保存文件错误: {e}")
+	return devdata
 
 def read_json_file(device):
-    """读取设备的 JSON 文件"""
-    device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
-    try:
-        with open(device_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"读取文件错误: {e}")
-        return None
+	"""读取设备的 JSON 文件"""
+	device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+	try:
+		with open(device_file, 'r', encoding='utf-8') as f:
+			return json.load(f)
+	except Exception as e:
+		print(f"读取文件错误: {e}")
+		return None
 
 def write_json_file(device, data):
-    """写入设备的 JSON 文件"""
-    device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
-    try:
-        with open(device_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"文件已成功写入: {device}.json")
-        return True
-    except Exception as e:
-        print(f"写入文件错误: {e}")
-        return False
+	"""写入设备的 JSON 文件"""
+	device_file = get_platform_path(f"public/MRData/data/devices/{device}.json")
+	try:
+		with open(device_file, 'w', encoding='utf-8') as f:
+			json.dump(data, f, ensure_ascii=False, indent=2)
+		print(f"文件已成功写入: {device}.json")
+		return True
+	except Exception as e:
+		print(f"写入文件错误: {e}")
+		return False

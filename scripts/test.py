@@ -9,8 +9,20 @@ roms = ["flame_images_OS1.0.14.0.UGUCNXM_20250126.0000.00_14.0_cn_a63c78f373.tgz
         "ruan_ep_stdee_images_OS1.0.24.12.11.EP.STDEE.N83U_20241210.0000.00_14.0_cn_98a096b3fd.tgz",
         "ruan_ep_stdee_images_OS1.0.24.12.11.EP.STDEE.N83U_20241210.0000.00_14.0_cn_chinatelecom_4c17ebb3c6.tgz"]
 
-for rom in roms:
-  device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = common.getData(rom)
-  common.checkDatabase(device, code, android, version, type, bigver, region,tag,zone,branch, filetype, filename)
-  common.add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
-  common.checkExist(rom)
+new=["blue_global_images_V816.0.7.0.WGRMIXM_20260420.0000.00_16.0_cb2e3c64e7.tgz",
+     "miui_BLUEGlobal_V816.0.7.0.WGRMIXM_4baebb3d80_16.0.zip",
+     "blue_ru_global_images_V816.0.3.0.WGRRUXM_20260420.0000.00_16.0_5933524552.tgz",
+     "miui_BLUERUGlobal_V816.0.3.0.WGRRUXM_1f0f366e64_16.0.zip",
+     "miui_BLUEIDGlobal_V816.0.3.0.WGRIDXM_19bd4ce25e_16.0.zip",
+     "blue_id_global_images_V816.0.3.0.WGRIDXM_20260420.0000.00_16.0_89bf8bf4c9.tgz"]
+
+for rom in new:
+  result = common.getData(rom)
+  if result == 0:  # 检查是否返回了0
+    print(f"Error processing ROM {rom}: common.getData returned invalid value")
+    continue  # 跳过此次循环
+  else:
+    device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = result
+    common.checkDatabase(device, code, android, version, type, bigver, region,tag,zone,branch, filetype, filename)
+    common.add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
+    common.checkExist(rom)

@@ -1,355 +1,355 @@
 {
-	"codename": "klein",
-	"zh-cn": "Redmi A3x",
-	"en-us": "Redmi A3x",
-	"attentions": [
-		{
-			"zh-cn": "",
-			"en-us": ""
-		}
-	],
-	"cdid": "",
-	"ismiui": "",
-	"ccshow": "",
-	"cbshow": "",
-	"csid": [],
-	"cbid": [],
-	"gdid": "",
-	"pcid": "",
-	"code": "GS",
-	"android": [
-		"14.0",
-		"15.0",
-		"16.0"
-	],
-	"miui": [
-		"V816"
-	],
-	"branches": [
-		{
-			"code": "klein_global",
-			"btag": "F",
-			"region": "global",
-			"carrier": [],
-			"branch": "GBOO",
-			"tag": "MIXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "国际正式版",
-			"en-us": "Global Stable",
-			"links": [
-				{
-					"miui": "V816.0.2.0.WGSMIXM",
-					"android": "16.0",
-					"recovery": "miui_KLEINGlobal_V816.0.2.0.WGSMIXM_6ebe80da93_16.0.zip",
-					"fastboot": "klein_global_images_V816.0.2.0.WGSMIXM_20260130.0000.00_16.0_global_76fb353905.tgz",
-					"release": "2026-02-06"
-				},
-				{
-					"miui": "V816.0.1.0.WGSMIXM",
-					"android": "16.0",
-					"recovery": "miui_KLEINGlobal_V816.0.1.0.WGSMIXM_3791f0c123_16.0.zip",
-					"fastboot": "klein_global_images_V816.0.1.0.WGSMIXM_20251105.0000.00_16.0_global_a4553a94bb.tgz",
-					"release": "2025-11-13"
-				},
-				{
-					"miui": "V816.0.7.0.VGSMIXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINGlobal_V816.0.7.0.VGSMIXM_a80314fad4_15.0.zip",
-					"fastboot": "klein_global_images_V816.0.7.0.VGSMIXM_20251020.0000.00_15.0_global_afe5efc0f0.tgz",
-					"release": "2025-10-29"
-				},
-				{
-					"miui": "V816.0.6.0.VGSMIXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINGlobal_V816.0.6.0.VGSMIXM_51155f2fb1_15.0.zip",
-					"fastboot": "klein_global_images_V816.0.6.0.VGSMIXM_20250815.0000.00_15.0_global_88444ec7f9.tgz",
-					"release": "2025-08-22"
-				},
-				{
-					"miui": "V816.0.5.0.VGSMIXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINGlobal_V816.0.5.0.VGSMIXM_96c116ff32_15.0.zip",
-					"fastboot": "klein_global_images_V816.0.5.0.VGSMIXM_20250616.0000.00_15.0_global_0bfb392d59.tgz",
-					"release": "2025-06-27"
-				},
-				{
-					"miui": "V816.0.4.0.VGSMIXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINGlobal_V816.0.4.0.VGSMIXM_ceb4fa83d2_15.0.zip",
-					"fastboot": "klein_global_images_V816.0.4.0.VGSMIXM_20250414.0000.00_15.0_global_18cb547742.tgz",
-					"release": "2025-04-22"
-				},
-				{
-					"miui": "V816.0.3.0.VGSMIXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINGlobal_V816.0.3.0.VGSMIXM_9864f461ef_15.0.zip",
-					"fastboot": "klein_global_images_V816.0.3.0.VGSMIXM_20250218.0000.00_15.0_global_ae96640f0c.tgz",
-					"release": "2025-02-24"
-				},
-				{
-					"miui": "V816.0.1.0.VGSMIXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINGlobal_V816.0.1.0.VGSMIXM_3cf2bb4323_15.0.zip",
-					"fastboot": "klein_global_images_V816.0.1.0.VGSMIXM_20250106.0000.00_15.0_global_b3e2d0f91e.tgz",
-					"release": "2025-01-16"
-				},
-				{
-					"miui": "V816.0.7.0.UGSMIXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINGlobal_V816.0.7.0.UGSMIXM_6344663474_14.0.zip",
-					"fastboot": "klein_global_images_V816.0.7.0.UGSMIXM_20241206.0000.00_14.0_global_b3daaa32c4.tgz",
-					"release": "2024-12-12"
-				},
-				{
-					"miui": "V816.0.6.0.UGSMIXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINGlobal_V816.0.6.0.UGSMIXM_3c7f197952_14.0.zip",
-					"fastboot": "klein_global_images_V816.0.6.0.UGSMIXM_20240920.0000.00_14.0_global_c4c5846808.tgz",
-					"release": "2024-09-26"
-				},
-				{
-					"miui": "V816.0.5.0.UGSMIXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINGlobal_V816.0.5.0.UGSMIXM_aceeda6f98_14.0.zip",
-					"fastboot": "klein_global_images_V816.0.5.0.UGSMIXM_20240823.0000.00_14.0_global_ac3ddadf84.tgz",
-					"release": "2024-08-30"
-				},
-				{
-					"miui": "V816.0.4.0.UGSMIXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINGlobal_V816.0.4.0.UGSMIXM_5abb651606_14.0.zip",
-					"fastboot": "klein_global_images_V816.0.4.0.UGSMIXM_20240722.0000.00_14.0_global_7504275a01.tgz",
-					"release": "2024-07-30"
-				},
-				{
-					"miui": "V816.0.3.2.UGSMIXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "klein_global_images_V816.0.3.2.UGSMIXM_20240619.0000.00_14.0_global_e8946de46b.tgz",
-					"release": "2024-07-12"
-				},
-				{
-					"miui": "V816.0.3.0.UGSMIXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINGlobal_V816.0.3.0.UGSMIXM_cd5ee49342_14.0.zip",
-					"fastboot": "klein_global_images_V816.0.3.0.UGSMIXM_20240522.0000.00_14.0_global_108de7a070.tgz",
-					"release": "2024-06-03"
-				}
-			]
-		},
-		{
-			"code": "klein_ru_global",
-			"btag": "F",
-			"region": "ru",
-			"carrier": [],
-			"branch": "RUSO",
-			"tag": "RUXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "俄罗斯正式版",
-			"en-us": "Russia Stable",
-			"links": [
-				{
-					"miui": "V816.0.2.0.WGSRUXM",
-					"android": "16.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.2.0.WGSRUXM_ec065140e4_16.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.2.0.WGSRUXM_20260130.0000.00_16.0_ru_9ae4545033.tgz",
-					"release": "2026-02-09"
-				},
-				{
-					"miui": "V816.0.1.0.WGSRUXM",
-					"android": "16.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.1.0.WGSRUXM_4e8b0c985b_16.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.1.0.WGSRUXM_20251119.0000.00_16.0_ru_935ee71fe6.tgz",
-					"release": "2025-12-01"
-				},
-				{
-					"miui": "V816.0.6.0.VGSRUXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.6.0.VGSRUXM_f092337560_15.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.6.0.VGSRUXM_20250929.0000.00_15.0_ru_a2a1e155e9.tgz",
-					"release": "2025-10-13"
-				},
-				{
-					"miui": "V816.0.5.0.VGSRUXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.5.0.VGSRUXM_4559a1f84f_15.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.5.0.VGSRUXM_20250728.0000.00_15.0_ru_6c2d779965.tgz",
-					"release": "2025-08-06"
-				},
-				{
-					"miui": "V816.0.4.0.VGSRUXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.4.0.VGSRUXM_b423c5206e_15.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.4.0.VGSRUXM_20250523.0000.00_15.0_ru_041cf287a9.tgz",
-					"release": "2025-06-05"
-				},
-				{
-					"miui": "V816.0.2.0.VGSRUXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.2.0.VGSRUXM_2b92f5b870_15.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.2.0.VGSRUXM_20250325.0000.00_15.0_ru_bd7f209445.tgz",
-					"release": "2025-04-03"
-				},
-				{
-					"miui": "V816.0.1.0.VGSRUXM",
-					"android": "15.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.1.0.VGSRUXM_5cfe7af44b_15.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.1.0.VGSRUXM_20250208.0000.00_15.0_ru_0f6b3f2594.tgz",
-					"release": "2025-02-14"
-				},
-				{
-					"miui": "V816.0.7.0.UGSRUXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.7.0.UGSRUXM_99011574be_14.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.7.0.UGSRUXM_20241114.0000.00_14.0_ru_98af7f82ba.tgz",
-					"release": "2024-11-26"
-				},
-				{
-					"miui": "V816.0.6.0.UGSRUXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.6.0.UGSRUXM_fca5ee5afb_14.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.6.0.UGSRUXM_20240830.0000.00_14.0_ru_f2010f1e7a.tgz",
-					"release": "2024-09-03"
-				},
-				{
-					"miui": "V816.0.4.0.UGSRUXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.4.0.UGSRUXM_c219ef59ae_14.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.4.0.UGSRUXM_20240719.0000.00_14.0_ru_1de80e572c.tgz",
-					"release": "2024-08-05"
-				},
-				{
-					"miui": "V816.0.3.0.UGSRUXM",
-					"android": "14.0",
-					"recovery": "miui_KLEINRUGlobal_V816.0.3.0.UGSRUXM_8371d73c7f_14.0.zip",
-					"fastboot": "klein_ru_global_images_V816.0.3.0.UGSRUXM_20240522.0000.00_14.0_ru_9056a41636.tgz",
-					"release": "2024-08-02"
-				}
-			]
-		},
-		{
-			"code": "klein_in_global",
-			"btag": "F",
-			"region": "in",
-			"carrier": [],
-			"branch": "INSO",
-			"tag": "INXM",
-			"zone": "2",
-			"show": "1",
-			"ep": "0",
-			"zh-cn": "印度正式版",
-			"en-us": "India Stable",
-			"links": [
-				{
-					"miui": "V816.0.2.0.WGSINXM",
-					"android": "16.0",
-					"recovery": "miui_KLEININGlobal_V816.0.2.0.WGSINXM_0db1d4e27c_16.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.2.0.WGSINXM_20260130.0000.00_16.0_in_2f6838f142.tgz",
-					"release": "2026-03-09"
-				},
-				{
-					"miui": "V816.0.1.0.WGSINXM",
-					"android": "16.0",
-					"recovery": "miui_KLEININGlobal_V816.0.1.0.WGSINXM_21e1164da2_16.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.1.0.WGSINXM_20251209.0000.00_16.0_in_f8ddd8ecd4.tgz",
-					"release": "2025-12-17"
-				},
-				{
-					"miui": "V816.0.8.0.VGSINXM",
-					"android": "15.0",
-					"recovery": "miui_KLEININGlobal_V816.0.8.0.VGSINXM_1baa146b2c_15.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.8.0.VGSINXM_20251020.0000.00_15.0_in_580cba02c0.tgz",
-					"release": "2025-10-29"
-				},
-				{
-					"miui": "V816.0.7.0.VGSINXM",
-					"android": "15.0",
-					"recovery": "miui_KLEININGlobal_V816.0.7.0.VGSINXM_3186544027_15.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.7.0.VGSINXM_20250821.0000.00_15.0_in_dcca3f2c4a.tgz",
-					"release": "2025-09-05"
-				},
-				{
-					"miui": "V816.0.6.0.VGSINXM",
-					"android": "15.0",
-					"recovery": "miui_KLEININGlobal_V816.0.6.0.VGSINXM_18eecf2d9a_15.0.zip",
-					"fastboot": "",
-					"release": "2025-06-25"
-				},
-				{
-					"miui": "V816.0.5.0.VGSINXM",
-					"android": "15.0",
-					"recovery": "miui_KLEININGlobal_V816.0.5.0.VGSINXM_041adaafd0_15.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.5.0.VGSINXM_20250508.0000.00_15.0_in_d7b1aa9e83.tgz",
-					"release": "2025-05-14"
-				},
-				{
-					"miui": "V816.0.4.0.VGSINXM",
-					"android": "15.0",
-					"recovery": "miui_KLEININGlobal_V816.0.4.0.VGSINXM_3303426903_15.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.4.0.VGSINXM_20250430.0000.00_15.0_in_709efbdc5e.tgz",
-					"release": "2025-05-03"
-				},
-				{
-					"miui": "V816.0.2.0.VGSINXM",
-					"android": "15.0",
-					"recovery": "miui_KLEININGlobal_V816.0.2.0.VGSINXM_f56ff31fea_15.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.2.0.VGSINXM_20250325.0000.00_15.0_in_e25f8c374d.tgz",
-					"release": "2025-03-31"
-				},
-				{
-					"miui": "V816.0.1.0.VGSINXM",
-					"android": "15.0",
-					"recovery": "miui_KLEININGlobal_V816.0.1.0.VGSINXM_7c5fc3ed54_15.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.1.0.VGSINXM_20250208.0000.00_15.0_in_96974f0610.tgz",
-					"release": "2025-02-14"
-				},
-				{
-					"miui": "V816.0.7.0.UGSINXM",
-					"android": "14.0",
-					"recovery": "miui_KLEININGlobal_V816.0.7.0.UGSINXM_712225a8c3_14.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.7.0.UGSINXM_20241206.0000.00_14.0_in_47292038f8.tgz",
-					"release": "2024-12-13"
-				},
-				{
-					"miui": "V816.0.6.0.UGSINXM",
-					"android": "14.0",
-					"recovery": "miui_KLEININGlobal_V816.0.6.0.UGSINXM_35f9df3bca_14.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.6.0.UGSINXM_20240927.0000.00_14.0_in_8c1f87f51d.tgz",
-					"release": "2024-10-10"
-				},
-				{
-					"miui": "V816.0.5.0.UGSINXM",
-					"android": "14.0",
-					"recovery": "miui_KLEININGlobal_V816.0.5.0.UGSINXM_47e1c4a308_14.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.5.0.UGSINXM_20240828.0000.00_14.0_in_45c4e851a3.tgz",
-					"release": "2024-08-31"
-				},
-				{
-					"miui": "V816.0.4.0.UGSINXM",
-					"android": "14.0",
-					"recovery": "miui_KLEININGlobal_V816.0.4.0.UGSINXM_359600066b_14.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.4.0.UGSINXM_20240709.0000.00_14.0_in_42381ab055.tgz",
-					"release": "2024-07-14"
-				},
-				{
-					"miui": "V816.0.3.0.UGSINXM",
-					"android": "14.0",
-					"recovery": "miui_KLEININGlobal_V816.0.3.0.UGSINXM_dbc3ca2050_14.0.zip",
-					"fastboot": "klein_in_global_images_V816.0.3.0.UGSINXM_20240528.0000.00_14.0_in_78de8d350a.tgz",
-					"release": "2024-07-11"
-				},
-				{
-					"miui": "V816.0.2.0.UGSINXM",
-					"android": "14.0",
-					"recovery": "",
-					"fastboot": "klein_in_global_images_V816.0.2.0.UGSINXM_20240509.0000.00_14.0_in_216a342416.tgz",
-					"release": "2024-07-10"
-				}
-			]
-		}
-	]
+"codename": "klein",
+"zh-cn": "Redmi A3x",
+"en-us": "Redmi A3x",
+"attentions": [
+{
+"zh-cn": "",
+"en-us": ""
+}
+],
+"cdid": "",
+"ismiui": "",
+"ccshow": "",
+"cbshow": "",
+"csid": [],
+"cbid": [],
+"gdid": "",
+"pcid": "",
+"code": "GS",
+"android": [
+"14.0",
+"15.0",
+"16.0"
+],
+"miui": [
+"V816"
+],
+"branches": [
+{
+"code": "klein_global",
+"btag": "F",
+"region": "global",
+"carrier": [],
+"branch": "GBOO",
+"tag": "MIXM",
+"zone": "2",
+"show": "1",
+"ep": "0",
+"zh-cn": "国际正式版",
+"en-us": "Global Stable",
+"links": [
+{
+"miui": "V816.0.2.0.WGSMIXM",
+"android": "16.0",
+"recovery": "miui_KLEINGlobal_V816.0.2.0.WGSMIXM_6ebe80da93_16.0.zip",
+"fastboot": "klein_global_images_V816.0.2.0.WGSMIXM_20260130.0000.00_16.0_global_76fb353905.tgz",
+"release": "2026-02-06"
+},
+{
+"miui": "V816.0.1.0.WGSMIXM",
+"android": "16.0",
+"recovery": "miui_KLEINGlobal_V816.0.1.0.WGSMIXM_3791f0c123_16.0.zip",
+"fastboot": "klein_global_images_V816.0.1.0.WGSMIXM_20251105.0000.00_16.0_global_a4553a94bb.tgz",
+"release": "2025-11-13"
+},
+{
+"miui": "V816.0.7.0.VGSMIXM",
+"android": "15.0",
+"recovery": "miui_KLEINGlobal_V816.0.7.0.VGSMIXM_a80314fad4_15.0.zip",
+"fastboot": "klein_global_images_V816.0.7.0.VGSMIXM_20251020.0000.00_15.0_global_afe5efc0f0.tgz",
+"release": "2025-10-29"
+},
+{
+"miui": "V816.0.6.0.VGSMIXM",
+"android": "15.0",
+"recovery": "miui_KLEINGlobal_V816.0.6.0.VGSMIXM_51155f2fb1_15.0.zip",
+"fastboot": "klein_global_images_V816.0.6.0.VGSMIXM_20250815.0000.00_15.0_global_88444ec7f9.tgz",
+"release": "2025-08-22"
+},
+{
+"miui": "V816.0.5.0.VGSMIXM",
+"android": "15.0",
+"recovery": "miui_KLEINGlobal_V816.0.5.0.VGSMIXM_96c116ff32_15.0.zip",
+"fastboot": "klein_global_images_V816.0.5.0.VGSMIXM_20250616.0000.00_15.0_global_0bfb392d59.tgz",
+"release": "2025-06-27"
+},
+{
+"miui": "V816.0.4.0.VGSMIXM",
+"android": "15.0",
+"recovery": "miui_KLEINGlobal_V816.0.4.0.VGSMIXM_ceb4fa83d2_15.0.zip",
+"fastboot": "klein_global_images_V816.0.4.0.VGSMIXM_20250414.0000.00_15.0_global_18cb547742.tgz",
+"release": "2025-04-22"
+},
+{
+"miui": "V816.0.3.0.VGSMIXM",
+"android": "15.0",
+"recovery": "miui_KLEINGlobal_V816.0.3.0.VGSMIXM_9864f461ef_15.0.zip",
+"fastboot": "klein_global_images_V816.0.3.0.VGSMIXM_20250218.0000.00_15.0_global_ae96640f0c.tgz",
+"release": "2025-02-24"
+},
+{
+"miui": "V816.0.1.0.VGSMIXM",
+"android": "15.0",
+"recovery": "miui_KLEINGlobal_V816.0.1.0.VGSMIXM_3cf2bb4323_15.0.zip",
+"fastboot": "klein_global_images_V816.0.1.0.VGSMIXM_20250106.0000.00_15.0_global_b3e2d0f91e.tgz",
+"release": "2025-01-16"
+},
+{
+"miui": "V816.0.7.0.UGSMIXM",
+"android": "14.0",
+"recovery": "miui_KLEINGlobal_V816.0.7.0.UGSMIXM_6344663474_14.0.zip",
+"fastboot": "klein_global_images_V816.0.7.0.UGSMIXM_20241206.0000.00_14.0_global_b3daaa32c4.tgz",
+"release": "2024-12-12"
+},
+{
+"miui": "V816.0.6.0.UGSMIXM",
+"android": "14.0",
+"recovery": "miui_KLEINGlobal_V816.0.6.0.UGSMIXM_3c7f197952_14.0.zip",
+"fastboot": "klein_global_images_V816.0.6.0.UGSMIXM_20240920.0000.00_14.0_global_c4c5846808.tgz",
+"release": "2024-09-26"
+},
+{
+"miui": "V816.0.5.0.UGSMIXM",
+"android": "14.0",
+"recovery": "miui_KLEINGlobal_V816.0.5.0.UGSMIXM_aceeda6f98_14.0.zip",
+"fastboot": "klein_global_images_V816.0.5.0.UGSMIXM_20240823.0000.00_14.0_global_ac3ddadf84.tgz",
+"release": "2024-08-30"
+},
+{
+"miui": "V816.0.4.0.UGSMIXM",
+"android": "14.0",
+"recovery": "miui_KLEINGlobal_V816.0.4.0.UGSMIXM_5abb651606_14.0.zip",
+"fastboot": "klein_global_images_V816.0.4.0.UGSMIXM_20240722.0000.00_14.0_global_7504275a01.tgz",
+"release": "2024-07-30"
+},
+{
+"miui": "V816.0.3.2.UGSMIXM",
+"android": "14.0",
+"recovery": "",
+"fastboot": "klein_global_images_V816.0.3.2.UGSMIXM_20240619.0000.00_14.0_global_e8946de46b.tgz",
+"release": "2024-07-12"
+},
+{
+"miui": "V816.0.3.0.UGSMIXM",
+"android": "14.0",
+"recovery": "miui_KLEINGlobal_V816.0.3.0.UGSMIXM_cd5ee49342_14.0.zip",
+"fastboot": "klein_global_images_V816.0.3.0.UGSMIXM_20240522.0000.00_14.0_global_108de7a070.tgz",
+"release": "2024-06-03"
+}
+]
+},
+{
+"code": "klein_ru_global",
+"btag": "F",
+"region": "ru",
+"carrier": [],
+"branch": "RUSO",
+"tag": "RUXM",
+"zone": "2",
+"show": "1",
+"ep": "0",
+"zh-cn": "俄罗斯正式版",
+"en-us": "Russia Stable",
+"links": [
+{
+"miui": "V816.0.2.0.WGSRUXM",
+"android": "16.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.2.0.WGSRUXM_ec065140e4_16.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.2.0.WGSRUXM_20260130.0000.00_16.0_ru_9ae4545033.tgz",
+"release": "2026-02-09"
+},
+{
+"miui": "V816.0.1.0.WGSRUXM",
+"android": "16.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.1.0.WGSRUXM_4e8b0c985b_16.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.1.0.WGSRUXM_20251119.0000.00_16.0_ru_935ee71fe6.tgz",
+"release": "2025-12-01"
+},
+{
+"miui": "V816.0.6.0.VGSRUXM",
+"android": "15.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.6.0.VGSRUXM_f092337560_15.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.6.0.VGSRUXM_20250929.0000.00_15.0_ru_a2a1e155e9.tgz",
+"release": "2025-10-13"
+},
+{
+"miui": "V816.0.5.0.VGSRUXM",
+"android": "15.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.5.0.VGSRUXM_4559a1f84f_15.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.5.0.VGSRUXM_20250728.0000.00_15.0_ru_6c2d779965.tgz",
+"release": "2025-08-06"
+},
+{
+"miui": "V816.0.4.0.VGSRUXM",
+"android": "15.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.4.0.VGSRUXM_b423c5206e_15.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.4.0.VGSRUXM_20250523.0000.00_15.0_ru_041cf287a9.tgz",
+"release": "2025-06-05"
+},
+{
+"miui": "V816.0.2.0.VGSRUXM",
+"android": "15.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.2.0.VGSRUXM_2b92f5b870_15.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.2.0.VGSRUXM_20250325.0000.00_15.0_ru_bd7f209445.tgz",
+"release": "2025-04-03"
+},
+{
+"miui": "V816.0.1.0.VGSRUXM",
+"android": "15.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.1.0.VGSRUXM_5cfe7af44b_15.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.1.0.VGSRUXM_20250208.0000.00_15.0_ru_0f6b3f2594.tgz",
+"release": "2025-02-14"
+},
+{
+"miui": "V816.0.7.0.UGSRUXM",
+"android": "14.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.7.0.UGSRUXM_99011574be_14.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.7.0.UGSRUXM_20241114.0000.00_14.0_ru_98af7f82ba.tgz",
+"release": "2024-11-26"
+},
+{
+"miui": "V816.0.6.0.UGSRUXM",
+"android": "14.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.6.0.UGSRUXM_fca5ee5afb_14.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.6.0.UGSRUXM_20240830.0000.00_14.0_ru_f2010f1e7a.tgz",
+"release": "2024-09-03"
+},
+{
+"miui": "V816.0.4.0.UGSRUXM",
+"android": "14.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.4.0.UGSRUXM_c219ef59ae_14.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.4.0.UGSRUXM_20240719.0000.00_14.0_ru_1de80e572c.tgz",
+"release": "2024-08-05"
+},
+{
+"miui": "V816.0.3.0.UGSRUXM",
+"android": "14.0",
+"recovery": "miui_KLEINRUGlobal_V816.0.3.0.UGSRUXM_8371d73c7f_14.0.zip",
+"fastboot": "klein_ru_global_images_V816.0.3.0.UGSRUXM_20240522.0000.00_14.0_ru_9056a41636.tgz",
+"release": "2024-08-02"
+}
+]
+},
+{
+"code": "klein_in_global",
+"btag": "F",
+"region": "in",
+"carrier": [],
+"branch": "INSO",
+"tag": "INXM",
+"zone": "2",
+"show": "1",
+"ep": "0",
+"zh-cn": "印度正式版",
+"en-us": "India Stable",
+"links": [
+{
+"miui": "V816.0.2.0.WGSINXM",
+"android": "16.0",
+"recovery": "miui_KLEININGlobal_V816.0.2.0.WGSINXM_0db1d4e27c_16.0.zip",
+"fastboot": "klein_in_global_images_V816.0.2.0.WGSINXM_20260130.0000.00_16.0_in_2f6838f142.tgz",
+"release": "2026-03-09"
+},
+{
+"miui": "V816.0.1.0.WGSINXM",
+"android": "16.0",
+"recovery": "miui_KLEININGlobal_V816.0.1.0.WGSINXM_21e1164da2_16.0.zip",
+"fastboot": "klein_in_global_images_V816.0.1.0.WGSINXM_20251209.0000.00_16.0_in_f8ddd8ecd4.tgz",
+"release": "2025-12-17"
+},
+{
+"miui": "V816.0.8.0.VGSINXM",
+"android": "15.0",
+"recovery": "miui_KLEININGlobal_V816.0.8.0.VGSINXM_1baa146b2c_15.0.zip",
+"fastboot": "klein_in_global_images_V816.0.8.0.VGSINXM_20251020.0000.00_15.0_in_580cba02c0.tgz",
+"release": "2025-10-29"
+},
+{
+"miui": "V816.0.7.0.VGSINXM",
+"android": "15.0",
+"recovery": "miui_KLEININGlobal_V816.0.7.0.VGSINXM_3186544027_15.0.zip",
+"fastboot": "klein_in_global_images_V816.0.7.0.VGSINXM_20250821.0000.00_15.0_in_dcca3f2c4a.tgz",
+"release": "2025-09-05"
+},
+{
+"miui": "V816.0.6.0.VGSINXM",
+"android": "15.0",
+"recovery": "miui_KLEININGlobal_V816.0.6.0.VGSINXM_18eecf2d9a_15.0.zip",
+"fastboot": "",
+"release": "2025-06-25"
+},
+{
+"miui": "V816.0.5.0.VGSINXM",
+"android": "15.0",
+"recovery": "miui_KLEININGlobal_V816.0.5.0.VGSINXM_041adaafd0_15.0.zip",
+"fastboot": "klein_in_global_images_V816.0.5.0.VGSINXM_20250508.0000.00_15.0_in_d7b1aa9e83.tgz",
+"release": "2025-05-14"
+},
+{
+"miui": "V816.0.4.0.VGSINXM",
+"android": "15.0",
+"recovery": "miui_KLEININGlobal_V816.0.4.0.VGSINXM_3303426903_15.0.zip",
+"fastboot": "klein_in_global_images_V816.0.4.0.VGSINXM_20250430.0000.00_15.0_in_709efbdc5e.tgz",
+"release": "2025-05-03"
+},
+{
+"miui": "V816.0.2.0.VGSINXM",
+"android": "15.0",
+"recovery": "miui_KLEININGlobal_V816.0.2.0.VGSINXM_f56ff31fea_15.0.zip",
+"fastboot": "klein_in_global_images_V816.0.2.0.VGSINXM_20250325.0000.00_15.0_in_e25f8c374d.tgz",
+"release": "2025-03-31"
+},
+{
+"miui": "V816.0.1.0.VGSINXM",
+"android": "15.0",
+"recovery": "miui_KLEININGlobal_V816.0.1.0.VGSINXM_7c5fc3ed54_15.0.zip",
+"fastboot": "klein_in_global_images_V816.0.1.0.VGSINXM_20250208.0000.00_15.0_in_96974f0610.tgz",
+"release": "2025-02-14"
+},
+{
+"miui": "V816.0.7.0.UGSINXM",
+"android": "14.0",
+"recovery": "miui_KLEININGlobal_V816.0.7.0.UGSINXM_712225a8c3_14.0.zip",
+"fastboot": "klein_in_global_images_V816.0.7.0.UGSINXM_20241206.0000.00_14.0_in_47292038f8.tgz",
+"release": "2024-12-13"
+},
+{
+"miui": "V816.0.6.0.UGSINXM",
+"android": "14.0",
+"recovery": "miui_KLEININGlobal_V816.0.6.0.UGSINXM_35f9df3bca_14.0.zip",
+"fastboot": "klein_in_global_images_V816.0.6.0.UGSINXM_20240927.0000.00_14.0_in_8c1f87f51d.tgz",
+"release": "2024-10-10"
+},
+{
+"miui": "V816.0.5.0.UGSINXM",
+"android": "14.0",
+"recovery": "miui_KLEININGlobal_V816.0.5.0.UGSINXM_47e1c4a308_14.0.zip",
+"fastboot": "klein_in_global_images_V816.0.5.0.UGSINXM_20240828.0000.00_14.0_in_45c4e851a3.tgz",
+"release": "2024-08-31"
+},
+{
+"miui": "V816.0.4.0.UGSINXM",
+"android": "14.0",
+"recovery": "miui_KLEININGlobal_V816.0.4.0.UGSINXM_359600066b_14.0.zip",
+"fastboot": "klein_in_global_images_V816.0.4.0.UGSINXM_20240709.0000.00_14.0_in_42381ab055.tgz",
+"release": "2024-07-14"
+},
+{
+"miui": "V816.0.3.0.UGSINXM",
+"android": "14.0",
+"recovery": "miui_KLEININGlobal_V816.0.3.0.UGSINXM_dbc3ca2050_14.0.zip",
+"fastboot": "klein_in_global_images_V816.0.3.0.UGSINXM_20240528.0000.00_14.0_in_78de8d350a.tgz",
+"release": "2024-07-11"
+},
+{
+"miui": "V816.0.2.0.UGSINXM",
+"android": "14.0",
+"recovery": "",
+"fastboot": "klein_in_global_images_V816.0.2.0.UGSINXM_20240509.0000.00_14.0_in_216a342416.tgz",
+"release": "2024-07-10"
+}
+]
+}
+]
 }
