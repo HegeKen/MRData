@@ -3034,6 +3034,8 @@ flags = {
 	"nezha_dpp_global": "nezha",
 	"klimt_dpp_global": "klimt",
 	"pond": "pond",
+	"warsaw": "warsaw",
+	"warsaw_demo": "warsaw",
 	"arctic_tr_global": "arctic",
 	'grus_global': 'grus',
 	'grus_eea_global': 'grus',
