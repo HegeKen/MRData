@@ -43,6 +43,8 @@ sdk = {
 	'4.2': '17',
 	'4.1': '16',
 	'4': '14',
+	'2.3.6': '9',
+	'2.3.5': '9',
 	'2.3': '9',
 	'2': '9'
 }
@@ -677,6 +679,10 @@ flags = {
 	'MI2': 'aries', 'MI2Beta': 'aries', 'MI2HK': 'aries', 'MI2TW': 'aries', 'NativeMI2': 'aries', 'MI2Global': 'aries',
 	'MI2A': 'taurus', 'MI2ABeta': 'taurus', 'NativeMI2A': 'taurus',
 	'MI3TD': 'pisces',
+	"mist": "mist",
+	"mist_demo": "mist",
+	"iolite": "iolite",
+	"iolite_demo": "iolite",
 	"guitar" : "guitar",
 	"prague" : "prague",
 	"prague_demo" : "prague",
