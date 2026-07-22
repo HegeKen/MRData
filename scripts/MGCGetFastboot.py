@@ -2,11 +2,12 @@ import requests
 import json
 import common
 from datetime import datetime
-import os
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import subprocess
+from sys import platform
 
-os.system(f"clear")
+subprocess.run(["cls"] if platform == "win32" else ["clear"])
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'}
 headers = {'Connection': 'close'}
 domains = ['https://sgp-api.buy.mi.com/bbs/api/','https://ams-api.buy.mi.com/bbs/api/']

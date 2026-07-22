@@ -1,7 +1,8 @@
 import common
-import os
+import subprocess
+from sys import platform
 
-os.system(f"clear")
+subprocess.run(["cls"] if platform == "win32" else ["clear"])
 for device in common.currentStable:
   devdata = common.loadJson(device)
   for branch in devdata['branches']:

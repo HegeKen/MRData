@@ -1,7 +1,8 @@
 from selenium import webdriver
 import common
 from selenium.webdriver.common.by import By
-import os
+import subprocess
+from sys import platform
 
 
 urls = []
@@ -25,7 +26,7 @@ for link in links:
       i = 0
 driver.quit()
 
-os.system('cls')
+subprocess.run(["cls"] if platform == "win32" else ["clear"])
 for url in urls:
   print('\r'+url + '              ',end='')
   common.MiFirm2(url)
