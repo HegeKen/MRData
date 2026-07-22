@@ -682,6 +682,8 @@ flags = {
 	"mist": "mist",
 	"mist_demo": "mist",
 	"iolite": "iolite",
+	"SERENITYZAVCGlobal": "serenity",
+	"serenity_za_vc_global": "serenity",
 	"iolite_demo": "iolite",
 	"guitar" : "guitar",
 	"prague" : "prague",
