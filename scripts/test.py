@@ -14,5 +14,5 @@ for rom in new:
   else:
     device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = result
     common.checkDatabase(device, code, android, version, type, bigver, region,tag,zone,branch, filetype, filename)
-    common.add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
     common.checkExist(rom)
+    # common.add_rom_to_json(device, code, android, version, filetype, filename, devdata=None)
