@@ -753,6 +753,7 @@ flags = {
 	"pudding_lm_cr_global": "pudding",
 	"nezha_lm_cr_global": "nezha",
 	"nezha_id_global": "nezha",
+	'WAYNE':'wayne',
 	"nezha_global": "nezha",
 	"nezha_tw_global": "nezha",
 	"nezha_eea_global": "nezha",
@@ -4327,8 +4328,8 @@ def getFromApi(encrypted_data, device):
 				# print(package)
 				checkExist(package)
 				return 1
-			if 'CrossRom' in resdata:
-				package = resdata['CrossRom']['filename'].split('?')[0]
+			if 'CurrentRom' in resdata:
+				package = resdata['CurrentRom']['filename'].split('?')[0]
 				# print(package)
 				checkExist(package)
 				return 1
@@ -4360,8 +4361,8 @@ def getFromApi2(encrypted_data, device):
 			package = data['LatestRom']['filename'].split('?')[0]
 			checkExist(package)
 			return 1
-		elif 'CrossRom' in data:
-			package = data['CrossRom']['filename'].split('?')[0]
+		elif 'CurrentRom' in data:
+			package = data['CurrentRom']['filename'].split('?')[0]
 			checkExist(package)
 			return 1
 		else:
