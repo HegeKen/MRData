@@ -4444,14 +4444,47 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 		except Exception as e:
 			print(f"读取文件错误: {e}")
 			return None
+	# 根据版本号判断 ROM 所属分支类型（用于区分同 code 下的开发版/正式版分支）
+	version_upper = version.upper()
+	is_dev = "DEV" in version_upper
+	is_cn_stable = "CNXM" in version_upper
+	# 从文件名识别运营商定制版
+	carrier = ""
+	for c in ["chinatelecom", "chinaunicom", "chinamobile"]:
+		if c in filename:
+			carrier = c
+			break
 	target_branch = None
 	target_branch_idx = None
-	# 查找匹配的分支
+	# 优先精确匹配分支：同 code 下按版本类型区分
 	for idx, branch in enumerate(devdata.get("branches", [])):
-		if branch.get("code") == code:
+		if branch.get("code") != code:
+			continue
+		branch_name = branch.get("branch", "")
+		carriers = branch.get("carrier", [])
+		has_carrier = any(c and c != "" for c in carriers)
+		# 开发版版本 → 匹配 Dev 分支
+		if is_dev and branch_name == "Dev":
 			target_branch = branch
 			target_branch_idx = idx
 			break
+		# 大陆稳定版 → 匹配正式版分支（运营商版优先匹配对应运营商分支）
+		if is_cn_stable and branch_name in ("CnOO", "CnOB"):
+			if carrier and carrier in carriers:
+				target_branch = branch
+				target_branch_idx = idx
+				break
+			if not carrier and not has_carrier:
+				target_branch = branch
+				target_branch_idx = idx
+				break
+	# 回退：按 code 匹配第一个分支（保持原有行为）
+	if target_branch is None:
+		for idx, branch in enumerate(devdata.get("branches", [])):
+			if branch.get("code") == code:
+				target_branch = branch
+				target_branch_idx = idx
+				break
 	if target_branch is None:
 		print(f"未找到匹配分支，ROM: {filename}")
 		return devdata
