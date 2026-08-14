@@ -3358,6 +3358,7 @@ flags = {
 	"steppe_global" : "steppe",
 	"leedsa_global" : "leedsa",
 	"steppe_eea_global": "steppe",
+	"mist_in_global": "mist",
 	'wt86047': 'wt86047',
 	'wt88047_pro': 'wt88047_pro',
 	'ysl': 'ysl',
