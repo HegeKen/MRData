@@ -3342,6 +3342,7 @@ flags = {
 	"miro_global":"miro",
 	"miro_eea_global":"miro",
 	"miro_ru_global":"miro",
+	"steppe": "steppe",
 	"miro_id_global":"miro",
 	"miro_tr_global":"miro",
 	"zorn_tw_global":"zorn",
