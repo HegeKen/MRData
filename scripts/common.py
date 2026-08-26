@@ -3410,6 +3410,8 @@ flags = {
 	"annibale_ep_stdee" : "annibale",
 	"flourite_ep_stdee" : "flourite",
 	"haotian_ep_stdee" : "haotian",
+	"mist_eea_global" : "mist",
+	"brussels_eea_global" : "brussels",
 	"somalia_ep_stdee" : "somalia",
 	"tornado_ep_stdee" : "tornado",
 	"spring_ep_stdee" : "spring",
