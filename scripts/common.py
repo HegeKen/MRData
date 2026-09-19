@@ -3488,6 +3488,8 @@ flags = {
 	"kunzite" : "kunzite",
 	"creek_eea_global": "creek",
 	"spring_in_global": "spring",
+	"leedsa_tr_global": "leedsa",
+	"iolite_in_global": "iolite",
 	"creek_ru_global": "creek",
 	"creek_id_global": "creek",
 	"dew_tw_global": "dew",
