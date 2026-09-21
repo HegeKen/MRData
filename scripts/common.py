@@ -23,6 +23,7 @@ from urllib.parse import quote
 
 test = ['marble']
 sdk = {
+	'17': '37',
 	'16': '36',
 	'15': '35',
 	'14': '34',
@@ -1966,6 +1967,9 @@ flags = {
 	'FIREINGlobal': 'fire',
 	'FIRETRGlobal': 'fire',
 	'SKYEEAGlobal': 'sky',
+	"leedsa_tw_global" : "leedsa",
+	"leedsa_dc_global" : "leedsa",
+	"pudding_ep_stdee" : "pudding",
 	"rodin_tr_global":"rodin",
 	'LANCELOTEEATFGlobal': 'lancelot',
 	'LANCELOTEEAVFGlobal': 'lancelot',
