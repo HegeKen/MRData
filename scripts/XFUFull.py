@@ -1,4 +1,5 @@
 import os
+import subprocess
 import common
 import chardet # type: ignore
 from bs4 import BeautifulSoup
@@ -19,6 +20,12 @@ false_packs = [
   '44edb6fd7214022224e0a6ba8eb8a067362c0fe7.zip',
   'OS1.0.4.0.UNKCNXMmiui_VERMEER_OS1.0.4.0.UNKCNXM_c3235c755f_14.0.zip'
 ]
+
+# 拉取 xmfirmwareupdater 仓库最新更新
+xfu_repo = os.path.normpath("../Sources/xmfirmwareupdater.github.io")
+print(f"[XFU] git pull {xfu_repo}")
+subprocess.run(["git", "-C", xfu_repo, "pull"], check=True)
+
 for directory in directories:
   for root, dirs, files in os.walk(directory):
     for file in files:
