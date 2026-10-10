@@ -1983,6 +1983,7 @@ flags = {
 	"shuntian" : "shuntian",
 	"hongkong" : "hongkong",
 	"madrid" : "madrid",
+	"zephyr_lm_cr_global": "zephyr",
 	"shuntian_demo" : "shuntian",
 	"hongkong_demo" : "hongkong",
 	"madrid_demo" : "madrid",
