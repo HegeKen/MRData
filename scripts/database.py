@@ -12,7 +12,7 @@ database.py - 参数化数据库访问层（供 logs_store.py / fetch_changelog.
    会让「写失败」和「查不到」无法区分，日志补写会静默丢数据。
 """
 import logging
-from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
+from typing import Any, Dict, List, Optional, Sequence, Tuple, Union, cast
 
 from pymysql import Connection
 
@@ -156,13 +156,12 @@ class DatabaseManager:
 	@classmethod
 	def query_one(cls, sql: str, params: Optional[Union[Tuple, List, Dict]] = None) -> Optional[Tuple]:
 		"""查询单条记录"""
-		return cls.execute(sql, params=params, fetch_one=True)
+		return cast(Optional[Tuple], cls.execute(sql, params=params, fetch_one=True))
 
 	@classmethod
 	def query_all(cls, sql: str, params: Optional[Union[Tuple, List, Dict]] = None) -> List[Tuple]:
 		"""查询全部记录（无结果时返回空列表，不返回 None）"""
-		result = cls.execute(sql, params=params, fetch_one=False)
-		return result if result else []
+		return cast(List[Tuple], cls.execute(sql, params=params, fetch_one=False)) or []
 
 	# ==================== 信息 ====================
 
